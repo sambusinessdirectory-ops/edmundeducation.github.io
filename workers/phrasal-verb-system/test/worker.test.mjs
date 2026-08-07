@@ -199,6 +199,10 @@ test("worker, SQL, and Wrangler contracts are independently phrasal-verb-namespa
     new URL("../../../supabase-phrasal-verb-system.sql", import.meta.url),
     "utf8"
   );
+  const expansionSqlSource = fs.readFileSync(
+    new URL("../../../supabase-phrasal-verb-system-lessons-36-329.sql", import.meta.url),
+    "utf8"
+  );
   const wrangler = JSON.parse(
     fs.readFileSync(new URL("../wrangler.jsonc", import.meta.url), "utf8")
   );
@@ -216,6 +220,8 @@ test("worker, SQL, and Wrangler contracts are independently phrasal-verb-namespa
   assert.deepEqual(sqlQuestionCounts, LESSON_QUESTION_COUNTS);
   assert.match(sqlSource, /_phrasal_verb_system_question_id_valid/);
   assert.doesNotMatch(sqlSource, /v_question_pattern/);
+  assert.match(expansionSqlSource, /pg_catalog\.strpos\(/);
+  assert.doesNotMatch(expansionSqlSource, /pg_catalog\.position\(/);
   assert.match(sqlSource, /\^\\\$2a\\\$12\\\$/);
   assert.doesNotMatch(sqlSource, /\\\$2\[aby\]\\\$12/);
   assert.doesNotMatch(workerSource, /sentence-structure/i);

@@ -165,9 +165,9 @@ begin
     from pg_catalog.pg_constraint constraint_row
     where constraint_row.conrelid = 'public.phrasal_verb_system_attempts'::regclass
       and constraint_row.contype = 'c'
-      and pg_catalog.position(
+      and pg_catalog.strpos(
+        pg_catalog.pg_get_constraintdef(constraint_row.oid),
         '_phrasal_verb_system_result_valid'
-        in pg_catalog.pg_get_constraintdef(constraint_row.oid)
       ) > 0
   loop
     execute format(
