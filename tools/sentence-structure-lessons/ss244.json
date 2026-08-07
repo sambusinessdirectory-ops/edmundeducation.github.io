@@ -1,0 +1,1264 @@
+{
+  "id": "ss244",
+  "order": 244,
+  "slug": "it-is-no-use-no-good-v-ing",
+  "title": "「It is no use ／ no good + V-ing」表示做某事沒有用",
+  "titleZh": "「It is no use ／ no good + V-ing」表示做某事沒有用",
+  "titleEn": "It is no use / no good + V-ing",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 243 - 「It is no use _ no good + V-ing」表示做某事沒有用.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+      "Where the PDF provides Chinese teaching content without a complete English counterpart, the English explanation is a faithful editorial translation and is labelled accordingly.",
+      "The source filename is numbered 243; it is assigned system ID ss244 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It + be + no use / no good + V-ing + other information",
+  "formulas": [
+    {
+      "id": "ss244-formula-01",
+      "labelEn": "Fixed expression",
+      "labelZh": "固定句型",
+      "formula": "It + be + no use / no good + V-ing + other information"
+    },
+    {
+      "id": "ss244-formula-02",
+      "labelEn": "Different forms of be",
+      "labelZh": "不同時態或情態",
+      "formula": "It was / will be / would be no use / no good + V-ing"
+    },
+    {
+      "id": "ss244-formula-03",
+      "labelEn": "Inside a reporting clause",
+      "labelZh": "放在轉述子句中",
+      "formula": "Subject + know / realise / understand / explain + that + it + be + no use / no good + V-ing"
+    },
+    {
+      "id": "ss244-formula-04",
+      "labelEn": "After a reason or condition",
+      "labelZh": "原因或條件之後",
+      "formula": "Because / Since / If / When / Once / Unless + clause, + it + be + no use / no good + V-ing"
+    }
+  ],
+  "example": "It is no use blaming the staff.",
+  "exampleZh": "責怪職員是沒有用的。",
+  "examples": [
+    {
+      "id": "ss244-example-01",
+      "en": "It is no use blaming the staff.",
+      "zh": "責怪職員是沒有用的。",
+      "highlight": "It is no use blaming the staff."
+    },
+    {
+      "id": "ss244-example-02",
+      "en": "It is no good worrying about something you cannot change.",
+      "zh": "為無法改變的事情擔心是沒有用的。",
+      "highlight": "It is no good worrying about something you cannot change."
+    },
+    {
+      "id": "ss244-example-03",
+      "en": "Daniel realised that it was no use arguing.",
+      "zh": "丹尼爾意識到繼續爭論也沒有用。",
+      "highlight": "Daniel realised that it was no use arguing."
+    },
+    {
+      "id": "ss244-example-04",
+      "en": "If the battery is flat, it is no good pressing the button repeatedly.",
+      "zh": "如果電池沒有電，不斷按按鈕也沒有用。",
+      "highlight": "If the battery is flat, it is no good pressing the button repeatedly."
+    }
+  ],
+  "meaning": {
+    "zh": "表示某項行動無法改善情況、帶來預期結果或實際作用，繼續進行只會白費時間或力氣；它不一定表示行動在道德上錯誤。"
+  },
+  "rules": [
+    {
+      "id": "ss244-rule-01",
+      "zh": "no use 或 no good 後使用 V-ing，不使用 to + 動詞。",
+      "en": "Use V-ing after no use or no good, not to + verb.",
+      "enSource": "pdf",
+      "examples": [
+        "It is no use complaining.",
+        "Incorrect: It is no use to complain."
+      ]
+    },
+    {
+      "id": "ss244-rule-02",
+      "zh": "在本課目標意思中，no use 和 no good 都表示行動沒有實際作用；no use 較中性直接，no good 在口語中較常見、有時語氣稍強。",
+      "en": "In this target meaning, no use and no good both say that an action has no practical effect. No use is relatively neutral, while no good is common in speech and may sound slightly stronger.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is no use calling him.",
+        "It is no good calling him."
+      ]
+    },
+    {
+      "id": "ss244-rule-03",
+      "zh": "no 已帶否定意思，一般不要在前面再加 not。",
+      "en": "Do not add another negative before no, because no already carries the negative meaning.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is no use worrying.",
+        "Incorrect: It is not no use worrying."
+      ]
+    },
+    {
+      "id": "ss244-rule-04",
+      "zh": "It is no good 亦可表示某物不好用，或某人不擅長某事；本課只練習 It + be + no good + V-ing。",
+      "en": "It is no good can also describe a poor object or lack of ability, but those meanings are outside this lesson. The target is It + be + no good + V-ing.",
+      "enSource": "pdf",
+      "examples": [
+        "This phone is no good.",
+        "He is no good at cooking.",
+        "It is no good buying that phone."
+      ]
+    },
+    {
+      "id": "ss244-rule-05",
+      "zh": "題目可使用 There is no point in、It is pointless to、V-ing will not help、Do not bother 或 V-ing will achieve nothing，但答案須改用 It + be + no use ／ no good + V-ing。",
+      "en": "Prompts may contain There is no point in, It is pointless to, V-ing will not help, Do not bother or V-ing will achieve nothing, but model answers must use It + be + no use / no good + V-ing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss244-benefit-01",
+      "zh": "直接說明某個行動不能改善情況或帶來預期結果。",
+      "en": "It states clearly that an action will not help or produce the desired result.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss244-benefit-02",
+      "zh": "用一個清楚句型取代『某行動不會改變事情』等較長解釋。",
+      "en": "It shortens a longer explanation by expressing the same idea through one clear structure.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss244-benefit-03",
+      "zh": "可勸告別人停止浪費時間或力氣，適合提出實際建議。",
+      "en": "It is useful for giving practical advice that someone should stop wasting time or effort.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss244-benefit-04",
+      "zh": "能自然配合 because、if、unless、when 和 once，解釋某行動在甚麼情況下沒有用。",
+      "en": "It helps explain reasons and conditions by connecting naturally with because, if, unless, when and once.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss244-benefit-05",
+      "zh": "目標子句可放在句首、背景之後或轉述子句內，增加句子組織方式。",
+      "en": "It gives several ways to organise a sentence because the target clause may appear first, after background information or inside a reported statement.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss244-benefit-06",
+      "zh": "熟習框架後，可迅速加入 worrying、complaining、waiting 或 making excuses 等日常行動。",
+      "en": "It provides a useful speaking frame into which many everyday actions can be inserted quickly.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+    "Where the PDF provides Chinese teaching content without a complete English counterpart, the English explanation is a faithful editorial translation and is labelled accordingly.",
+    "The source filename is numbered 243; it is assigned system ID ss244 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using it is no use / no good + V-ing or an appropriate tense of the same structure.",
+      "You may place the target clause at different positions in the sentence.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 it is no use / no good + V-ing 或該句型的合適時態改寫以下句子。",
+      "你可以把目標句型放在句中的不同位置。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss244-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is pointless to complain about the weather.",
+      "promptZh": "抱怨天氣是沒有意義的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is no use complaining about the weather.",
+      "answerZh": "抱怨天氣是沒有用的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is no use complaining about the weather."
+    },
+    {
+      "id": "ss244-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Calling the office again will not help because it has already closed.",
+      "promptZh": "辦公室已經關門，再次致電也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is no good calling the office again because it has already closed.",
+      "answerZh": "辦公室已經關門，再次致電也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "It is no good calling the office again because it has already closed."
+    },
+    {
+      "id": "ss244-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The last bus has left, so there is no point in waiting any longer.",
+      "promptZh": "尾班巴士已經開出，因此再等下去也沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the last bus has left, it is no use waiting any longer.",
+      "answerZh": "由於尾班巴士已經開出，再等下去也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the last bus has left, it is no use waiting any longer."
+    },
+    {
+      "id": "ss244-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You will not open the door by trying the wrong key.",
+      "promptZh": "使用錯誤的鑰匙並不能把門打開。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is no good trying to open the door with the wrong key.",
+      "answerZh": "嘗試用錯誤的鑰匙開門是沒有用的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is no good trying to open the door with the wrong key."
+    },
+    {
+      "id": "ss244-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The machine is unplugged, so pressing the button again will not help.",
+      "promptZh": "機器沒有插上電源，因此再次按按鈕也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the machine is unplugged, it is no use pressing the button again.",
+      "answerZh": "由於機器沒有插上電源，再次按按鈕也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the machine is unplugged, it is no use pressing the button again."
+    },
+    {
+      "id": "ss244-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you want the baby to sleep, making more noise will not help.",
+      "promptZh": "如果你想讓嬰兒入睡，製造更多噪音並沒有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you want the baby to sleep, it is no good making more noise.",
+      "answerZh": "如果你想讓嬰兒入睡，製造更多噪音是沒有用的。",
+      "answerZhSource": "pdf",
+      "highlight": "If you want the baby to sleep, it is no good making more noise."
+    },
+    {
+      "id": "ss244-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Do not bother asking Sam. He does not know the answer.",
+      "promptZh": "不用費心詢問 Sam。他不知道答案。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is no use asking Sam because he does not know the answer.",
+      "answerZh": "詢問 Sam 也沒有用，因為他不知道答案。",
+      "answerZhSource": "pdf",
+      "highlight": "It is no use asking Sam because he does not know the answer."
+    },
+    {
+      "id": "ss244-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Arguing about such a small mistake will not solve the problem.",
+      "promptZh": "為這麼小的錯誤爭論並不能解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is no good arguing about such a small mistake because it will not solve the problem.",
+      "answerZh": "為這麼小的錯誤爭論也沒有用，因為這樣不能解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "It is no good arguing about such a small mistake because it will not solve the problem."
+    },
+    {
+      "id": "ss244-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We are already soaked, so taking an umbrella now will not help.",
+      "promptZh": "我們已經全身濕透，現在才帶雨傘也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that we are already soaked, it is no use taking an umbrella.",
+      "answerZh": "既然我們已經全身濕透，現在才帶雨傘也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that we are already soaked, it is no use taking an umbrella."
+    },
+    {
+      "id": "ss244-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The phone has been disconnected. Speaking louder will not help.",
+      "promptZh": "電話已經斷線。說得更大聲也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the phone has been disconnected, it is no good speaking louder.",
+      "answerZh": "由於電話已經斷線，說得更大聲也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the phone has been disconnected, it is no good speaking louder."
+    },
+    {
+      "id": "ss244-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Daniel realised that continuing to search the wrong room was pointless.",
+      "promptZh": "丹尼爾意識到繼續在錯誤的房間搜索並沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel realised that it was no use continuing to search the wrong room.",
+      "answerZh": "丹尼爾意識到繼續在錯誤的房間搜索也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel realised that it was no use continuing to search the wrong room."
+    },
+    {
+      "id": "ss244-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The customers knew there was no point in complaining to the cashier about the price.",
+      "promptZh": "顧客知道向收銀員投訴價格也沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customers knew that it was no good complaining to the cashier about the price.",
+      "answerZh": "顧客知道向收銀員投訴價格也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The customers knew that it was no good complaining to the cashier about the price."
+    },
+    {
+      "id": "ss244-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After checking the timetable, Chloe saw that waiting another hour would achieve nothing.",
+      "promptZh": "查看時間表後，克洛伊明白再等一小時也不會有任何作用。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After checking the timetable, Chloe saw that it was no use waiting another hour.",
+      "answerZh": "查看時間表後，克洛伊明白再等一小時也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "After checking the timetable, Chloe saw that it was no use waiting another hour."
+    },
+    {
+      "id": "ss244-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Nobody is home, so there is no point in knocking again.",
+      "promptZh": "沒有人在家，因此再次敲門也沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because nobody is home, it is no use knocking again.",
+      "answerZh": "由於沒有人在家，再次敲門也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Because nobody is home, it is no use knocking again."
+    },
+    {
+      "id": "ss244-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The road was completely blocked, so trying the same route again was pointless.",
+      "promptZh": "道路完全堵塞，因此再次嘗試同一條路線並沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the road was completely blocked, it was no good trying the same route again.",
+      "answerZh": "由於道路完全堵塞，再次嘗試同一條路線也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the road was completely blocked, it was no good trying the same route again."
+    },
+    {
+      "id": "ss244-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Grace told us that sending another email that night would not help.",
+      "promptZh": "格蕾絲告訴我們，那天晚上再發一封電郵也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace told us that it was no use sending another email that night.",
+      "answerZh": "格蕾絲告訴我們，那天晚上再發一封電郵也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace told us that it was no use sending another email that night."
+    },
+    {
+      "id": "ss244-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At that stage, trying to repair the torn paper with water would only make things worse.",
+      "promptZh": "在那個階段，嘗試用水修補破紙只會令情況更差。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At that stage, it was no good trying to repair the torn paper with water.",
+      "answerZh": "在那個階段，嘗試用水修補破紙也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "At that stage, it was no good trying to repair the torn paper with water."
+    },
+    {
+      "id": "ss244-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The teacher explained that memorising answers without understanding them was pointless.",
+      "promptZh": "老師解釋，在不理解答案的情況下死記硬背並沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher explained that it was no use memorising answers without understanding them.",
+      "answerZh": "老師解釋，在不理解答案的情況下死記硬背是沒有用的。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher explained that it was no use memorising answers without understanding them."
+    },
+    {
+      "id": "ss244-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You should remember that blaming others will not solve the problem.",
+      "promptZh": "你應該記住，責怪別人並不能解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should remember that it is no good blaming others because it will not solve the problem.",
+      "answerZh": "你應該記住，責怪別人是沒有用的，因為這樣不能解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "You should remember that it is no good blaming others because it will not solve the problem."
+    },
+    {
+      "id": "ss244-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "When the lift is out of order, pressing the button repeatedly will not help.",
+      "promptZh": "升降機故障時，不斷按按鈕也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the lift is out of order, it is no use pressing the button repeatedly.",
+      "answerZh": "升降機故障時，不斷按按鈕也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "When the lift is out of order, it is no use pressing the button repeatedly."
+    },
+    {
+      "id": "ss244-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If all the tickets have been sold, refreshing the page again will not help.",
+      "promptZh": "如果所有門票已經售罄，再次重新載入頁面也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If all the tickets have been sold, it will be no use refreshing the page again.",
+      "answerZh": "如果所有門票已經售罄，再次重新載入頁面也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "If all the tickets have been sold, it will be no use refreshing the page again."
+    },
+    {
+      "id": "ss244-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "There would be no point in travelling to the museum if it were closed.",
+      "promptZh": "如果博物館關閉了，前往那裏也沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be no good travelling to the museum if it were closed.",
+      "answerZh": "如果博物館關閉了，前往那裏也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be no good travelling to the museum if it were closed."
+    },
+    {
+      "id": "ss244-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The doctor said that taking more medicine than prescribed would not improve the patient’s recovery.",
+      "promptZh": "醫生說，服用超過處方分量的藥物不會幫助病人康復。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor said that it was no use taking more medicine than prescribed.",
+      "answerZh": "醫生說，服用超過處方分量的藥物也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor said that it was no use taking more medicine than prescribed."
+    },
+    {
+      "id": "ss244-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although Henry knew that asking the same question again would not change the answer, he did so.",
+      "promptZh": "雖然亨利知道再次提出同一個問題不會改變答案，但他仍然這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although Henry knew that it was no good asking the same question again, he did so.",
+      "answerZh": "雖然亨利知道再次提出同一個問題也沒有用，但他仍然這樣做。",
+      "answerZhSource": "pdf",
+      "highlight": "Although Henry knew that it was no good asking the same question again, he did so."
+    },
+    {
+      "id": "ss244-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Once the paint has dried, wiping it with a dry cloth will not remove it.",
+      "promptZh": "油漆乾透後，用乾布擦拭也無法把它清除。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the paint has dried, it is no use wiping it with a dry cloth.",
+      "answerZh": "油漆乾透後，用乾布擦拭也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the paint has dried, it is no use wiping it with a dry cloth."
+    },
+    {
+      "id": "ss244-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The manager had already made the final decision, so further arguing was pointless.",
+      "promptZh": "經理早已作出最終決定，因此繼續爭論並沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the manager had already made the final decision, it was no use arguing further.",
+      "answerZh": "由於經理早已作出最終決定，繼續爭論也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "As the manager had already made the final decision, it was no use arguing further."
+    },
+    {
+      "id": "ss244-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The battery is flat. Shaking the remote control will not make it work.",
+      "promptZh": "電池沒有電。搖動遙控器也不會令它恢復運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The battery is flat, so it is no good shaking the remote control.",
+      "answerZh": "電池沒有電，因此搖動遙控器也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The battery is flat, so it is no good shaking the remote control."
+    },
+    {
+      "id": "ss244-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Why are you blaming the receptionist? That will not bring back the lost parcel.",
+      "promptZh": "你為甚麼責怪接待員？這樣做不會令遺失的包裹失而復得。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is no use blaming the receptionist because doing so will not bring back the lost parcel.",
+      "answerZh": "責怪接待員是沒有用的，因為這樣不會令遺失的包裹失而復得。",
+      "answerZhSource": "pdf",
+      "highlight": "It is no use blaming the receptionist because doing so will not bring back the lost parcel."
+    },
+    {
+      "id": "ss244-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The players understood that making excuses would not change the score.",
+      "promptZh": "球員明白找藉口不會改變比分。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The players understood that it was no good making excuses.",
+      "answerZh": "球員明白找藉口是沒有用的。",
+      "answerZhSource": "pdf",
+      "highlight": "The players understood that it was no good making excuses."
+    },
+    {
+      "id": "ss244-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The report has already been sent, so there is no point in hiding the error.",
+      "promptZh": "報告已經發出，因此隱瞞錯誤也沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the report has already been sent, it is no use hiding the error.",
+      "answerZh": "由於報告已經發出，隱瞞錯誤也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the report has already been sent, it is no use hiding the error."
+    },
+    {
+      "id": "ss244-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "You can apologise repeatedly, but it will not rebuild trust unless your behaviour changes.",
+      "promptZh": "你可以不斷道歉，但除非你改變自己的行為，否則這樣也無法重建信任。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless your behaviour changes, it is no use apologising repeatedly.",
+      "answerZh": "除非你改變自己的行為，否則不斷道歉也是沒有用的。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless your behaviour changes, it is no use apologising repeatedly."
+    },
+    {
+      "id": "ss244-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The map was out of date, so following it any further would be pointless.",
+      "promptZh": "地圖已經過時，因此繼續依照地圖前進並沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the map was out of date, it would be no good following it any further.",
+      "answerZh": "由於地圖已經過時，繼續依照地圖前進也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the map was out of date, it would be no good following it any further."
+    },
+    {
+      "id": "ss244-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The team knew that rushing the final check would not help them finish any sooner.",
+      "promptZh": "團隊知道匆忙完成最後檢查並不會令他們更早完成工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team knew that it was no use rushing the final check because this would not help them finish any sooner.",
+      "answerZh": "團隊知道匆忙完成最後檢查也沒有用，因為這不會令他們更早完成工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The team knew that it was no use rushing the final check because this would not help them finish any sooner."
+    },
+    {
+      "id": "ss244-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "There is no point in asking the security guard for a refund because he does not handle payments.",
+      "promptZh": "向保安員要求退款並沒有意義，因為他不負責處理付款。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the security guard does not handle payments, it is no good asking him for a refund.",
+      "answerZh": "由於保安員不負責處理付款，向他要求退款也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the security guard does not handle payments, it is no good asking him for a refund."
+    },
+    {
+      "id": "ss244-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The neighbours realised that complaining again without evidence would not help.",
+      "promptZh": "鄰居意識到在沒有證據的情況下再次投訴也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbours realised that it was no use complaining again without evidence.",
+      "answerZh": "鄰居意識到在沒有證據的情況下再次投訴也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbours realised that it was no use complaining again without evidence."
+    },
+    {
+      "id": "ss244-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Simply copying the model answer will not help you improve unless you understand the structure.",
+      "promptZh": "除非你明白句型，否則只是抄寫參考答案也不會幫助你進步。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless you understand the structure, it is no good simply copying the model answer.",
+      "answerZh": "除非你明白句型，否則只是抄寫參考答案也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless you understand the structure, it is no good simply copying the model answer."
+    },
+    {
+      "id": "ss244-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The river had risen above the bridge. At that point, attempting to cross was pointless.",
+      "promptZh": "河水已升至高於橋面的水平。在那個時候，嘗試過河並沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The river had risen above the bridge, and at that point it was no use attempting to cross.",
+      "answerZh": "河水已升至高於橋面的水平，在那個時候嘗試過河也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The river had risen above the bridge, and at that point it was no use attempting to cross."
+    },
+    {
+      "id": "ss244-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The committee had rejected the proposal twice, so resubmitting the identical version would achieve nothing.",
+      "promptZh": "委員會已兩次否決建議，因此再次提交完全相同的版本也不會有任何作用。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the committee had rejected the proposal twice, it was no good resubmitting the identical version.",
+      "answerZh": "由於委員會已兩次否決建議，再次提交完全相同的版本也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "As the committee had rejected the proposal twice, it was no good resubmitting the identical version."
+    },
+    {
+      "id": "ss244-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Do not waste time trying to call that number; it has been disconnected.",
+      "promptZh": "不要浪費時間嘗試致電該號碼；該電話號碼已經停用。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the number has been disconnected, it is no use trying to call it.",
+      "answerZh": "由於該電話號碼已經停用，嘗試致電也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the number has been disconnected, it is no use trying to call it."
+    },
+    {
+      "id": "ss244-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The printer has no paper, so repeatedly clicking “Print” will not produce the document.",
+      "promptZh": "打印機沒有紙，因此不斷按「列印」也不會印出文件。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With no paper in the printer, it is no good repeatedly clicking “Print”.",
+      "answerZh": "打印機沒有紙，不斷按「列印」也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "With no paper in the printer, it is no good repeatedly clicking “Print”."
+    },
+    {
+      "id": "ss244-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After the office had moved, the residents realised that continuing to send letters to the old address would not work.",
+      "promptZh": "辦公室搬遷後，居民意識到繼續把信件寄往舊地址也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the office had moved, the residents realised that it was no use sending letters to the old address.",
+      "answerZh": "辦公室搬遷後，居民意識到繼續把信件寄往舊地址也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "After the office had moved, the residents realised that it was no use sending letters to the old address."
+    },
+    {
+      "id": "ss244-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The instructor warned us that practising the wrong movement faster would not improve our technique.",
+      "promptZh": "導師警告我們，更快地練習錯誤動作並不會改善技巧。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructor warned us that it was no good practising the wrong movement faster.",
+      "answerZh": "導師警告我們，更快地練習錯誤動作也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructor warned us that it was no good practising the wrong movement faster."
+    },
+    {
+      "id": "ss244-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If the password has expired, entering it again and again cannot unlock the account.",
+      "promptZh": "如果密碼已經過期，不斷再次輸入也無法解鎖帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the password has expired, it is no use entering it again and again.",
+      "answerZh": "如果密碼已經過期，不斷再次輸入也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "If the password has expired, it is no use entering it again and again."
+    },
+    {
+      "id": "ss244-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The witness had left the country, so the lawyer knew that asking the same local office to contact her would achieve nothing.",
+      "promptZh": "證人已經離境，因此律師知道再次要求同一間本地辦事處聯絡她也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lawyer knew that it was no use asking the same local office to contact the witness after she had left the country.",
+      "answerZh": "律師知道，證人離境後，再次要求同一間本地辦事處聯絡她也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The lawyer knew that it was no use asking the same local office to contact the witness after she had left the country."
+    },
+    {
+      "id": "ss244-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Merely adding more decorations will not make the presentation clearer if its main ideas are disorganised.",
+      "promptZh": "如果簡報的主要內容缺乏組織，只增加更多裝飾也不會令簡報更清晰。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the presentation’s main ideas are disorganised, it is no good merely adding more decorations.",
+      "answerZh": "如果簡報的主要內容缺乏組織，只增加更多裝飾也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "If the presentation’s main ideas are disorganised, it is no good merely adding more decorations."
+    },
+    {
+      "id": "ss244-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The engineers concluded that replacing one small part would not solve the fault because the whole system was damaged.",
+      "promptZh": "工程師認為，只更換一個小零件並不能解決故障，因為整個系統都已損壞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineers concluded that it was no use replacing only one small part because the whole system was damaged.",
+      "answerZh": "工程師認為，只更換一個小零件也沒有用，因為整個系統都已損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers concluded that it was no use replacing only one small part because the whole system was damaged."
+    },
+    {
+      "id": "ss244-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Once the application deadline has passed, sending the form without permission will achieve nothing.",
+      "promptZh": "申請截止日期過後，未經許可提交表格也不會有任何作用。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the application deadline has passed, it will be no use sending the form without permission.",
+      "answerZh": "申請截止日期過後，未經許可提交表格也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the application deadline has passed, it will be no use sending the form without permission."
+    },
+    {
+      "id": "ss244-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The coach reminded the team that discussing who was responsible would not help them prepare for the next match.",
+      "promptZh": "教練提醒球隊，討論誰人需要負責並不能幫助他們準備下一場比賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach reminded the team that it was no good discussing who was responsible.",
+      "answerZh": "教練提醒球隊，討論誰人需要負責也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach reminded the team that it was no good discussing who was responsible."
+    },
+    {
+      "id": "ss244-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "You may explain the rule many times, but this will not help unless the listener is willing to pay attention.",
+      "promptZh": "你可以多次解釋規則，但除非聽者願意留心，否則這樣也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless the listener is willing to pay attention, it is no use explaining the rule many times.",
+      "answerZh": "除非聽者願意留心，否則多次解釋規則也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless the listener is willing to pay attention, it is no use explaining the rule many times."
+    },
+    {
+      "id": "ss244-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "After the storm had damaged every road into the village, the rescue team realised that trying the same route repeatedly would achieve nothing.",
+      "promptZh": "暴風雨破壞了所有通往村莊的道路後，救援隊意識到不斷嘗試同一條路線也沒有用。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the storm had damaged every road into the village, the rescue team realised that it was no good trying the same route repeatedly.",
+      "answerZh": "暴風雨破壞了所有通往村莊的道路後，救援隊意識到不斷嘗試同一條路線也沒有用。",
+      "answerZhSource": "pdf",
+      "highlight": "After the storm had damaged every road into the village, the rescue team realised that it was no good trying the same route repeatedly."
+    }
+  ]
+}

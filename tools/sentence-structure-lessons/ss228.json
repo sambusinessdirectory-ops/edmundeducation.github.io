@@ -1,0 +1,1213 @@
+{
+  "id": "ss228",
+  "order": 228,
+  "slug": "little-did-someone-know",
+  "title": "「Little did someone know that ...」表示當時完全不知道",
+  "titleZh": "「Little did someone know that ...」表示當時完全不知道",
+  "titleEn": "Using “Little did someone know that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 227 -「Little did someone know that ...」表示當時完全不知道.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 227; it is assigned system ID ss228 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Little + did + person + know + that + complete clause",
+  "formulas": [
+    {
+      "id": "ss228-formula-01",
+      "labelEn": "Narrative inversion",
+      "labelZh": "敘事倒裝",
+      "formula": "Little + did + person + know + that + complete clause"
+    }
+  ],
+  "example": "Little did he know that his small decision would change the entire project.",
+  "exampleZh": "他當時完全不知道，他那個小決定會改變整個項目。",
+  "examples": [
+    {
+      "id": "ss228-example-01",
+      "en": "Little did he know that his small decision would change the entire project.",
+      "zh": "他當時完全不知道，他那個小決定會改變整個項目。",
+      "highlight": "Little did he know that his small decision would change the entire project."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示某人在當時完全不知道一項重要、意外或後來才發現的事實，常用來製造懸念和轉折。"
+  },
+  "rules": [
+    {
+      "id": "ss228-rule-01",
+      "zh": "在這裏表示「完全不知道」 這裏的 little 並不是指「細小」或「少量」。 Little did he know... 相等於： He had no idea... He did not know at all...",
+      "en": "Here, little means “had no idea” or “did not know at all”; it does not mean small or a small quantity.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-rule-02",
+      "zh": "放在句首後，要使用倒裝 正常語序： He did not know that the door was open. 倒裝語序： Little did he know that the door was open. 正確順序是： Little + did + subject + know 不能寫成： Little he did know... ✗ Little he knew... ✗",
+      "en": "When Little begins the sentence, use inversion in the order Little + did + subject + know.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-rule-03",
+      "zh": "後面必須使用原形 know 正確： Little did she know... 錯誤： Little did she knew... ✗ did 已經表示過去時間，所以 know 不可以再變成 knew。",
+      "en": "Use the base form know after did, not the past form knew.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-rule-04",
+      "zh": "後面必須接完整子句 正確： Little did Tom know that the shop had closed. that 後面的子句包括： ● the shop：主語 ● had closed：動詞 錯誤： Little did Tom know that the closed shop. ✗",
+      "en": "Follow that with a complete clause containing its own subject and verb.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-rule-05",
+      "zh": "這個句型主要用於過去的故事 它通常表示： ● 某人在當時不知道一件事； ● 那件事後來被發現； ● 結果帶有驚訝、轉折或意外。 例如： Little did Mia know that her photo would become famous. Mia 當時不知道這件事，但說故事的人已經知道後來的結果。",
+      "en": "The structure is mainly used in past narratives when a character did not know a later-discovered, surprising or important fact.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-rule-06",
+      "zh": "表示「從當時角度看將會發生」 Little did he know that his decision would change the project. 作出決定時，改變項目仍是未來的事情，因此使用： would + 動詞原形",
+      "en": "Use would + base verb for an event that was still in the future from the character’s past point of view.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-rule-07",
+      "zh": "這個句型帶有較強的故事語氣 普通說法： He had no idea that the letter would change his life. 較有故事感的說法： Little did he know that the letter would change his life. 兩句的基本意思相同，但第二句更能製造懸念和意外感。",
+      "en": "The structure has a strong narrative tone. It expresses the same core fact as “had no idea” but creates more suspense and surprise.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss228-benefit-01",
+      "zh": "讓故事更有懸念 這個句型告訴讀者，人物當時並不知道一件重要的事。 讀者會想繼續了解事情後來如何發展。 Little did Sara know that someone was waiting for her outside.",
+      "en": "It creates suspense by revealing that a character did not know an important fact at the time.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-benefit-02",
+      "zh": "清楚表達「當時不知道，後來才知道」 它可以把兩個時間角度放在同一句中： ● 人物在過去並不知道； ● 說故事的人現在知道後來的結果。 這樣能令事件的先後關係更清楚。",
+      "en": "It clearly contrasts what the character knew then with what the narrator later knows.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-benefit-03",
+      "zh": "強調事情出乎意料 He did not know... 只是普通地說某人不知道。 Little did he know... 則強調後來的結果完全超出他的預期。",
+      "en": "It emphasises that the later result was unexpected, more strongly than an ordinary “did not know” sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-benefit-04",
+      "zh": "讓句子有不同的開頭 學生經常以人物主語開始句子： He... She... Tom... The students... 以 Little 開始句子，可以增加句式變化，避免每句都使用相同開頭。",
+      "en": "It gives sentences a different opening and avoids repeatedly beginning with a person’s name or pronoun.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-benefit-05",
+      "zh": "可以代替較長的解釋 較長說法： At that time, she had no idea about what would happen later. 目標句型： Little did she know what would happen later. 第二句更集中，也更有故事感。",
+      "en": "It can replace a longer explanation such as “At that time, she had no idea what would happen later.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss228-benefit-06",
+      "zh": "適合故事、演講和個人經歷 這個句型特別適合： ● 故事寫作； ● 個人經歷； ● 小說或電影簡介； ● 口頭講故事； ● 描述意外結果； ● 引出重要轉折。",
+      "en": "It is useful in stories, speeches, personal experiences, film or novel summaries and descriptions of unexpected turning points.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 227; it is assigned system ID ss228 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Little did someone know that ....",
+      "Preserve all important information and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 Little did someone know that ... 改寫每題。",
+      "保留原句意思及所有重要資料，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss228-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Tom had no idea that the note was meant for him.",
+      "promptZh": "湯姆完全不知道那張便條是寫給他的。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Tom know that the note was meant for him.",
+      "answerZh": "湯姆當時完全不知道那張便條是寫給他的。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Tom know that the note was meant for him."
+    },
+    {
+      "id": "ss228-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia did not know at all that her keys were in her coat pocket.",
+      "promptZh": "米婭完全不知道自己的鑰匙在外套口袋裏。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Mia know that her keys were in her coat pocket.",
+      "answerZh": "米婭當時完全不知道自己的鑰匙在外套口袋裏。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Mia know that her keys were in her coat pocket."
+    },
+    {
+      "id": "ss228-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben was completely unaware that the shop had already closed.",
+      "promptZh": "本完全不知道商店已經關門。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Ben know that the shop had already closed.",
+      "answerZh": "本當時完全不知道商店已經關門。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Ben know that the shop had already closed."
+    },
+    {
+      "id": "ss228-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "No one had told Lily that the gift came from her best friend.",
+      "promptZh": "沒有人告訴莉莉，那份禮物來自她最好的朋友。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Lily know that the gift came from her best friend.",
+      "answerZh": "莉莉當時完全不知道那份禮物來自她最好的朋友。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Lily know that the gift came from her best friend."
+    },
+    {
+      "id": "ss228-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Jack knew nothing about the fact that the quiet boy was a talented singer.",
+      "promptZh": "傑克完全不知道那個安靜的男孩原來很有歌唱天分。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Jack know that the quiet boy was a talented singer.",
+      "answerZh": "傑克當時完全不知道那個安靜的男孩原來很有歌唱天分。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Jack know that the quiet boy was a talented singer."
+    },
+    {
+      "id": "ss228-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma only found out later that her photo would win the school competition.",
+      "promptZh": "艾瑪後來才知道，她的照片會在校內比賽中勝出。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Emma know that her photo would win the school competition.",
+      "answerZh": "艾瑪當時完全不知道，她的照片會在校內比賽中勝出。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Emma know that her photo would win the school competition."
+    },
+    {
+      "id": "ss228-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "At the time, Daniel did not know that the bus would arrive early.",
+      "promptZh": "丹尼爾當時不知道巴士會提早到達。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Daniel know that the bus would arrive early.",
+      "answerZh": "丹尼爾當時完全不知道巴士會提早到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Daniel know that the bus would arrive early."
+    },
+    {
+      "id": "ss228-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe was not aware that her new teacher knew her mother.",
+      "promptZh": "克洛伊不知道她的新老師認識她的母親。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Chloe know that her new teacher knew her mother.",
+      "answerZh": "克洛伊當時完全不知道她的新老師認識她的母親。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Chloe know that her new teacher knew her mother."
+    },
+    {
+      "id": "ss228-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Leo discovered later that the old box was full of family photos.",
+      "promptZh": "里奧後來才發現，那個舊盒子裏放滿了家庭照片。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Leo know that the old box was full of family photos.",
+      "answerZh": "里奧當時完全不知道那個舊盒子裏放滿了家庭照片。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Leo know that the old box was full of family photos."
+    },
+    {
+      "id": "ss228-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah had no idea that the simple game would become so popular.",
+      "promptZh": "莎拉完全不知道這個簡單的遊戲會變得如此受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Sarah know that the simple game would become so popular.",
+      "answerZh": "莎拉當時完全不知道這個簡單的遊戲會變得如此受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Sarah know that the simple game would become so popular."
+    },
+    {
+      "id": "ss228-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Alex did not know that everyone had planned a surprise party for him.",
+      "promptZh": "亞歷克斯不知道大家已經為他準備了一個驚喜派對。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Alex know that everyone had planned a surprise party for him.",
+      "answerZh": "亞歷克斯當時完全不知道大家已經為他準備了一個驚喜派對。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Alex know that everyone had planned a surprise party for him."
+    },
+    {
+      "id": "ss228-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It came as a complete surprise to Grace that the café was owned by her former neighbour.",
+      "promptZh": "格蕾絲完全沒想到，這間咖啡店是她以前的鄰居所開設的。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Grace know that the café was owned by her former neighbour.",
+      "answerZh": "格蕾絲當時完全不知道這間咖啡店是她以前的鄰居所開設的。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Grace know that the café was owned by her former neighbour."
+    },
+    {
+      "id": "ss228-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Henry was completely unaware that his wallet was under the sofa.",
+      "promptZh": "亨利完全不知道自己的銀包在梳化下面。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Henry know that his wallet was under the sofa.",
+      "answerZh": "亨利當時完全不知道自己的銀包在梳化下面。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Henry know that his wallet was under the sofa."
+    },
+    {
+      "id": "ss228-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Olivia had not been told that the road ahead was closed.",
+      "promptZh": "沒有人告訴奧莉花前面的道路已經封閉。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Olivia know that the road ahead was closed.",
+      "answerZh": "奧莉花當時完全不知道前面的道路已經封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Olivia know that the road ahead was closed."
+    },
+    {
+      "id": "ss228-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ethan only learnt later that the meeting had been moved to another room.",
+      "promptZh": "伊森後來才知道會議已改到另一個房間舉行。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Ethan know that the meeting had been moved to another room.",
+      "answerZh": "伊森當時完全不知道會議已改到另一個房間舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Ethan know that the meeting had been moved to another room."
+    },
+    {
+      "id": "ss228-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy had no idea that her short message had made Nina feel better.",
+      "promptZh": "艾米完全不知道自己的簡短訊息令妮娜感覺好了一點。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Amy know that her short message had made Nina feel better.",
+      "answerZh": "艾米當時完全不知道自己的簡短訊息令妮娜感覺好了一點。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Amy know that her short message had made Nina feel better."
+    },
+    {
+      "id": "ss228-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Noah did not know at all that the dog had followed him all the way home.",
+      "promptZh": "諾亞完全不知道那隻狗一路跟着他回家。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Noah know that the dog had followed him all the way home.",
+      "answerZh": "諾亞當時完全不知道那隻狗一路跟着他回家。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Noah know that the dog had followed him all the way home."
+    },
+    {
+      "id": "ss228-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Maya was unaware that the book contained a letter from her grandfather.",
+      "promptZh": "瑪雅不知道那本書裏有一封祖父寫的信。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Maya know that the book contained a letter from her grandfather.",
+      "answerZh": "瑪雅當時完全不知道那本書裏有一封祖父寫的信。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Maya know that the book contained a letter from her grandfather."
+    },
+    {
+      "id": "ss228-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "David discovered later that the new student could speak four languages.",
+      "promptZh": "大衛後來才知道那名新學生懂得說四種語言。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did David know that the new student could speak four languages.",
+      "answerZh": "大衛當時完全不知道那名新學生懂得說四種語言。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did David know that the new student could speak four languages."
+    },
+    {
+      "id": "ss228-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Zoe had no idea that her idea would save the team a great deal of time.",
+      "promptZh": "佐伊完全不知道她的想法會為團隊節省很多時間。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Zoe know that her idea would save the team a great deal of time.",
+      "answerZh": "佐伊當時完全不知道她的想法會為團隊節省很多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Zoe know that her idea would save the team a great deal of time."
+    },
+    {
+      "id": "ss228-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What did the students not know? They had no idea that the test had been cancelled.",
+      "promptZh": "學生不知道甚麼？他們完全不知道測驗已經取消。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the students know that the test had been cancelled.",
+      "answerZh": "學生當時完全不知道測驗已經取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the students know that the test had been cancelled."
+    },
+    {
+      "id": "ss228-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach was completely unaware that one of the players was feeling ill.",
+      "promptZh": "教練完全不知道其中一名球員身體不適。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the coach know that one of the players was feeling ill.",
+      "answerZh": "教練當時完全不知道其中一名球員身體不適。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the coach know that one of the players was feeling ill."
+    },
+    {
+      "id": "ss228-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No one had told the family that their train would be delayed for three hours.",
+      "promptZh": "沒有人告訴這家人，他們的火車會延誤三小時。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the family know that their train would be delayed for three hours.",
+      "answerZh": "這家人當時完全不知道他們的火車會延誤三小時。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the family know that their train would be delayed for three hours."
+    },
+    {
+      "id": "ss228-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager did not know that the computer problem was easy to fix.",
+      "promptZh": "經理不知道那個電腦問題很容易修理。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the manager know that the computer problem was easy to fix.",
+      "answerZh": "經理當時完全不知道那個電腦問題很容易修理。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the manager know that the computer problem was easy to fix."
+    },
+    {
+      "id": "ss228-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The nurse only found out later that the patient had already spoken to the doctor.",
+      "promptZh": "護士後來才知道病人已經跟醫生談過。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the nurse know that the patient had already spoken to the doctor.",
+      "answerZh": "護士當時完全不知道病人已經跟醫生談過。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the nurse know that the patient had already spoken to the doctor."
+    },
+    {
+      "id": "ss228-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The tourists were not aware that the small path led to a beautiful beach.",
+      "promptZh": "遊客不知道那條小路通往一個美麗的海灘。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the tourists know that the small path led to a beautiful beach.",
+      "answerZh": "遊客當時完全不知道那條小路通往一個美麗的海灘。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the tourists know that the small path led to a beautiful beach."
+    },
+    {
+      "id": "ss228-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The chef had no idea that a food writer was eating in the restaurant.",
+      "promptZh": "廚師完全不知道一名美食作家正在餐廳內用膳。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the chef know that a food writer was eating in the restaurant.",
+      "answerZh": "廚師當時完全不知道一名美食作家正在餐廳內用膳。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the chef know that a food writer was eating in the restaurant."
+    },
+    {
+      "id": "ss228-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What did the neighbours not know? They did not know that the empty house had just been sold.",
+      "promptZh": "鄰居不知道甚麼？他們不知道那所空置房屋剛剛售出。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the neighbours know that the empty house had just been sold.",
+      "answerZh": "鄰居當時完全不知道那所空置房屋剛剛售出。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the neighbours know that the empty house had just been sold."
+    },
+    {
+      "id": "ss228-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We were completely unaware that the last bus had already left.",
+      "promptZh": "我們完全不知道尾班巴士已經開走。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did we know that the last bus had already left.",
+      "answerZh": "我們當時完全不知道尾班巴士已經開走。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did we know that the last bus had already left."
+    },
+    {
+      "id": "ss228-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "At first, they did not know that the light rain would turn into a heavy storm.",
+      "promptZh": "最初，他們不知道微雨會變成猛烈的暴風雨。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did they know that the light rain would turn into a heavy storm.",
+      "answerZh": "他們當時完全不知道微雨會變成猛烈的暴風雨。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did they know that the light rain would turn into a heavy storm."
+    },
+    {
+      "id": "ss228-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Anna had not been told that the email had been sent to the wrong person.",
+      "promptZh": "沒有人告訴安娜，那封電郵已被寄給錯誤的人。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Anna know that the email had been sent to the wrong person.",
+      "answerZh": "安娜當時完全不知道那封電郵已被寄給錯誤的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Anna know that the email had been sent to the wrong person."
+    },
+    {
+      "id": "ss228-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Mark only discovered later that his younger brother had fixed the bicycle.",
+      "promptZh": "馬克後來才發現，他的弟弟已經修好了單車。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Mark know that his younger brother had fixed the bicycle.",
+      "answerZh": "馬克當時完全不知道他的弟弟已經修好了單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Mark know that his younger brother had fixed the bicycle."
+    },
+    {
+      "id": "ss228-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher had no idea that the class had prepared a thank-you card.",
+      "promptZh": "老師完全不知道全班已經準備了一張感謝卡。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the teacher know that the class had prepared a thank-you card.",
+      "answerZh": "老師當時完全不知道全班已經準備了一張感謝卡。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the teacher know that the class had prepared a thank-you card."
+    },
+    {
+      "id": "ss228-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The visitors did not know that the museum would close early that day.",
+      "promptZh": "訪客不知道博物館當天會提早關門。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the visitors know that the museum would close early that day.",
+      "answerZh": "訪客當時完全不知道博物館當天會提早關門。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the visitors know that the museum would close early that day."
+    },
+    {
+      "id": "ss228-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Peter was completely unaware that the map in his hand was out of date.",
+      "promptZh": "彼得完全不知道手上的地圖已經過時。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Peter know that the map in his hand was out of date.",
+      "answerZh": "彼得當時完全不知道手上的地圖已經過時。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Peter know that the map in his hand was out of date."
+    },
+    {
+      "id": "ss228-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The workers only learnt later that the new machine could finish the task in half the time.",
+      "promptZh": "工人後來才知道新機器能以一半時間完成工作。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the workers know that the new machine could finish the task in half the time.",
+      "answerZh": "工人當時完全不知道新機器能以一半時間完成工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the workers know that the new machine could finish the task in half the time."
+    },
+    {
+      "id": "ss228-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The parents did not know at all that their child had been practising the song for weeks.",
+      "promptZh": "父母完全不知道孩子已經練習那首歌曲數星期。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the parents know that their child had been practising the song for weeks.",
+      "answerZh": "父母當時完全不知道孩子已經練習那首歌曲數星期。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the parents know that their child had been practising the song for weeks."
+    },
+    {
+      "id": "ss228-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor was unaware that the same problem had happened before.",
+      "promptZh": "醫生不知道同樣的問題以前曾經發生。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the doctor know that the same problem had happened before.",
+      "answerZh": "醫生當時完全不知道同樣的問題以前曾經發生。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the doctor know that the same problem had happened before."
+    },
+    {
+      "id": "ss228-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No one had told the passengers that another bus was waiting around the corner.",
+      "promptZh": "沒有人告訴乘客，另一輛巴士正在轉角處等候。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the passengers know that another bus was waiting around the corner.",
+      "answerZh": "乘客當時完全不知道另一輛巴士正在轉角處等候。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the passengers know that another bus was waiting around the corner."
+    },
+    {
+      "id": "ss228-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The shop owner had no idea that a famous actor had entered the shop.",
+      "promptZh": "店主完全不知道一名著名演員已經走進店內。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the shop owner know that a famous actor had entered the shop.",
+      "answerZh": "店主當時完全不知道一名著名演員已經走進店內。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the shop owner know that a famous actor had entered the shop."
+    },
+    {
+      "id": "ss228-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Rachel did not know that the small plant she had bought would grow across the whole wall.",
+      "promptZh": "瑞秋不知道她買回來的小植物會長滿整幅牆。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Rachel know that the small plant she had bought would grow across the whole wall.",
+      "answerZh": "瑞秋當時完全不知道她買回來的小植物會長滿整幅牆。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Rachel know that the small plant she had bought would grow across the whole wall."
+    },
+    {
+      "id": "ss228-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team was completely unaware that its quietest member had already found the answer.",
+      "promptZh": "團隊完全不知道最安靜的成員已經找到答案。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the team know that its quietest member had already found the answer.",
+      "answerZh": "團隊當時完全不知道最安靜的成員已經找到答案。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the team know that its quietest member had already found the answer."
+    },
+    {
+      "id": "ss228-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The villagers only discovered later that the new bridge would bring many more visitors to the area.",
+      "promptZh": "村民後來才發現，新橋會吸引更多遊客到這個地區。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the villagers know that the new bridge would bring many more visitors to the area.",
+      "answerZh": "村民當時完全不知道新橋會吸引更多遊客到這個地區。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the villagers know that the new bridge would bring many more visitors to the area."
+    },
+    {
+      "id": "ss228-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Kevin had no idea that the person who had helped him was the company director.",
+      "promptZh": "凱文完全不知道幫助他的人是公司的董事。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Kevin know that the person who had helped him was the company director.",
+      "answerZh": "凱文當時完全不知道幫助他的人是公司的董事。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Kevin know that the person who had helped him was the company director."
+    },
+    {
+      "id": "ss228-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school did not know at all that its simple recycling project would be copied by other schools.",
+      "promptZh": "學校完全不知道其他學校會仿效它的簡單回收計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the school know that its simple recycling project would be copied by other schools.",
+      "answerZh": "學校當時完全不知道其他學校會仿效它的簡單回收計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the school know that its simple recycling project would be copied by other schools."
+    },
+    {
+      "id": "ss228-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The reporter was unaware that the photo she had taken would appear on the front page.",
+      "promptZh": "記者不知道她拍攝的照片會出現在頭版。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the reporter know that the photo she had taken would appear on the front page.",
+      "answerZh": "記者當時完全不知道她拍攝的照片會出現在頭版。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the reporter know that the photo she had taken would appear on the front page."
+    },
+    {
+      "id": "ss228-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No one in the family knew that the old letter would help them find a missing relative.",
+      "promptZh": "家中沒有人知道那封舊信會幫助他們找到一名失散的親人。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the family know that the old letter would help them find a missing relative.",
+      "answerZh": "這家人當時完全不知道那封舊信會幫助他們找到一名失散的親人。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the family know that the old letter would help them find a missing relative."
+    },
+    {
+      "id": "ss228-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council only learnt later that closing the small road would cause long traffic delays.",
+      "promptZh": "議會後來才知道，封閉那條小路會造成長時間的交通延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the council know that closing the small road would cause long traffic delays.",
+      "answerZh": "議會當時完全不知道封閉那條小路會造成長時間的交通延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the council know that closing the small road would cause long traffic delays."
+    },
+    {
+      "id": "ss228-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Sophie had no idea that the part-time job she had accepted would lead to a new career.",
+      "promptZh": "蘇菲完全不知道她接受的兼職工作會為她帶來新的職業道路。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did Sophie know that the part-time job she had accepted would lead to a new career.",
+      "answerZh": "蘇菲當時完全不知道她接受的兼職工作會為她帶來新的職業道路。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did Sophie know that the part-time job she had accepted would lead to a new career."
+    },
+    {
+      "id": "ss228-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The scientists were completely unaware that their early test would become the first step towards a much larger discovery.",
+      "promptZh": "科學家完全不知道，他們早期進行的測試會成為一項更重大發現的第一步。",
+      "promptZhSource": "pdf",
+      "starter": "Little",
+      "answer": "Little did the scientists know that their early test would become the first step towards a much larger discovery.",
+      "answerZh": "科學家當時完全不知道，他們早期進行的測試會成為一項更重大發現的第一步。",
+      "answerZhSource": "pdf",
+      "highlight": "Little did the scientists know that their early test would become the first step towards a much larger discovery."
+    }
+  ]
+}

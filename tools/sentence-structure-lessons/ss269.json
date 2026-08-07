@@ -1,0 +1,1276 @@
+{
+  "id": "ss269",
+  "order": 269,
+  "slug": "to-best-of-my-knowledge",
+  "title": "「To the best of my knowledge, …」表示「據我所知」",
+  "titleZh": "「To the best of my knowledge, …」表示「據我所知」",
+  "titleEn": "Using “To the best of my knowledge, ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 268 -「To the best of my knowledge, …」根據我所知.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "To the best of my knowledge, + complete clause.",
+  "formulas": [
+    {
+      "id": "ss269-formula-01",
+      "labelEn": "Sentence opening",
+      "labelZh": "放在句首",
+      "formula": "To the best of my knowledge, + subject + verb."
+    },
+    {
+      "id": "ss269-formula-02",
+      "labelEn": "Parenthetical",
+      "labelZh": "放在句中作插入語",
+      "formula": "Subject + verb, to the best of my knowledge, + other information."
+    },
+    {
+      "id": "ss269-formula-03",
+      "labelEn": "Sentence ending",
+      "labelZh": "放在句尾",
+      "formula": "Complete clause, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-formula-04",
+      "labelEn": "Negative clause",
+      "labelZh": "配合否定句",
+      "formula": "To the best of my knowledge, + negative clause."
+    },
+    {
+      "id": "ss269-formula-05",
+      "labelEn": "Passive clause",
+      "labelZh": "配合被動語態",
+      "formula": "To the best of my knowledge, + subject + be / have been + past participle."
+    },
+    {
+      "id": "ss269-formula-06",
+      "labelEn": "Modal clause",
+      "labelZh": "配合情態動詞",
+      "formula": "To the best of my knowledge, + subject + modal + base verb."
+    },
+    {
+      "id": "ss269-formula-07",
+      "labelEn": "Existential clause",
+      "labelZh": "配合 there is / are",
+      "formula": "To the best of my knowledge, there is / are ..."
+    }
+  ],
+  "example": "To the best of my knowledge, the figures are accurate.",
+  "exampleZh": "據我所知，這些數字是準確的。",
+  "examples": [
+    {
+      "id": "ss269-example-01",
+      "en": "To the best of my knowledge, the figures are accurate.",
+      "zh": "據我所知，這些數字是準確的。",
+      "highlight": "To the best of my knowledge, the figures are accurate."
+    },
+    {
+      "id": "ss269-example-02",
+      "en": "The parcel has, to the best of my knowledge, already been sent.",
+      "zh": "據我所知，包裹已經寄出。",
+      "highlight": "The parcel has, to the best of my knowledge, already been sent."
+    },
+    {
+      "id": "ss269-example-03",
+      "en": "No complaints have been received, to the best of my knowledge.",
+      "zh": "據我所知，沒有收到任何投訴。",
+      "highlight": "No complaints have been received, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-example-04",
+      "en": "To the best of my knowledge, there are no extra charges.",
+      "zh": "據我所知，沒有額外收費。",
+      "highlight": "To the best of my knowledge, there are no extra charges."
+    }
+  ],
+  "meaning": {
+    "zh": "此表達表示「根據我目前掌握的全部資料，我相信陳述正確，但不能保證知道所有資料」。它讓說話者提出相信屬實的陳述，同時承認資料可能不完整。"
+  },
+  "rules": [
+    {
+      "id": "ss269-rule-01",
+      "zh": "此短語修飾後面的整項陳述，表示該陳述是根據說話者目前所知而提出。",
+      "en": "The phrase modifies the whole statement, showing that it is based on the speaker’s current knowledge.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-rule-02",
+      "zh": "它不表示完全肯定；說話者相信陳述正確，但承認未必掌握所有資料。",
+      "en": "It does not express complete certainty: the speaker believes the statement is true but acknowledges that some information may be missing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-rule-03",
+      "zh": "短語後不要直接加入 that；通常先加逗號，再接完整句子。",
+      "en": "Do not add that directly after the phrase. Normally use a comma and then a complete clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-rule-04",
+      "zh": "knowledge 是不可數名詞，不可使用 knowledges。",
+      "en": "Knowledge is uncountable and must not be pluralised as knowledges.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-rule-05",
+      "zh": "固定詞序是 to the best of my knowledge；不要改成 to my best knowledge 或 according to my best knowledge。",
+      "en": "Keep the natural fixed order to the best of my knowledge; do not use to my best knowledge or according to my best knowledge.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-rule-06",
+      "zh": "它已表示說話者按現有資料作判斷，通常不需要再重複加入 I think。",
+      "en": "The phrase already shows that the statement is the speaker’s judgement based on current information, so repeating I think is normally unnecessary.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-rule-07",
+      "zh": "As far as I know 是較日常的近義表達；to the best of my knowledge 通常較審慎和正式，常見於電郵、報告和專業溝通。",
+      "en": "As far as I know is a more everyday synonym. To the best of my knowledge is normally more cautious and formal and is common in emails, reports and professional communication.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-rule-08",
+      "zh": "這個短語不能掩飾純粹猜測；說話者仍應有合理資料支持陳述。",
+      "en": "The phrase must not disguise an unsupported guess; the speaker should still have reasonable information supporting the statement.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss269-benefit-01",
+      "zh": "當相信資料正確但不能保證掌握所有細節時，它避免把不完全確定的資料說得過分肯定。",
+      "en": "It prevents partially certain information from being presented too confidently when the speaker cannot guarantee every detail.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-benefit-02",
+      "zh": "它清楚說明資料範圍，使讀者能分辨已確認內容與根據目前所知提出的內容，保持誠實可信。",
+      "en": "It maintains honesty and credibility by making the limits of the speaker’s information clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-benefit-03",
+      "zh": "它適合正式電郵、會議、報告、投訴回覆、調查結果和工作進度更新等專業溝通。",
+      "en": "It is suitable for professional communication in emails, meetings, reports, complaint responses, investigation findings and progress updates.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-benefit-04",
+      "zh": "它以有組織和專業的方式承認資料限制，令語氣審慎而不顯得猶豫不決。",
+      "en": "It creates a cautious but organised tone without sounding indecisive.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-benefit-05",
+      "zh": "短語可放在句首、句中或句尾，增加句式變化。",
+      "en": "It can appear at the beginning, middle or end, increasing sentence variety.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss269-benefit-06",
+      "zh": "它提醒讀者這是說話者目前掌握的資料，而不是宣稱絕對真相，有助區分已知事實和個人知識範圍。",
+      "en": "It helps distinguish an absolute fact from information within the speaker’s present knowledge.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using to the best of my knowledge.",
+      "Place the expression at the beginning, middle or end according to the first-word hint. Preserve the original degree of certainty and meaning."
+    ],
+    "zh": [
+      "使用 to the best of my knowledge 改寫以下句子。",
+      "按首字提示把目標短語放在句首、句中或句尾，保留原句的肯定程度和意思。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss269-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As far as I know, the figures are accurate.",
+      "promptZh": "據我所知，這些數字是準確的。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the figures are accurate.",
+      "answerZh": "據我所知，這些數字是準確的。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the figures are accurate."
+    },
+    {
+      "id": "ss269-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "From the information I have, the library closes at six.",
+      "promptZh": "根據我掌握的資料，圖書館在六時關門。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the library closes at six.",
+      "answerZh": "據我所知，圖書館在六時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the library closes at six."
+    },
+    {
+      "id": "ss269-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I understand that the parcel has already been sent, although I cannot be completely certain.",
+      "promptZh": "據我理解，包裹已經寄出，不過我不能完全肯定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel has, to the best of my knowledge, already been sent.",
+      "answerZh": "據我所知，包裹已經寄出。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel has, to the best of my knowledge, already been sent."
+    },
+    {
+      "id": "ss269-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What do I know about complaints concerning the new timetable? I am not aware of anyone who has complained.",
+      "promptZh": "關於新時間表的投訴，我知道甚麼？我不知道有任何人曾經投訴。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one has complained about the new timetable, to the best of my knowledge.",
+      "answerZh": "據我所知，沒有人曾經投訴新時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "No one has complained about the new timetable, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Everything I currently know suggests that Daniel is still working on the report.",
+      "promptZh": "根據我目前掌握的所有資料，丹尼爾仍在撰寫報告。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, Daniel is still working on the report.",
+      "answerZh": "據我所知，丹尼爾仍在撰寫報告。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, Daniel is still working on the report."
+    },
+    {
+      "id": "ss269-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As far as I am aware, the road is open again.",
+      "promptZh": "據我所知，這條道路已重新開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road is, to the best of my knowledge, open again.",
+      "answerZh": "據我所知，這條道路已重新開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The road is, to the best of my knowledge, open again."
+    },
+    {
+      "id": "ss269-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Based on the information available to me, I believe that the keys are in the top drawer.",
+      "promptZh": "根據我掌握的資料，我相信鑰匙放在最上面的抽屜裏。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the keys are in the top drawer.",
+      "answerZh": "據我所知，鑰匙放在最上面的抽屜裏。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the keys are in the top drawer."
+    },
+    {
+      "id": "ss269-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My understanding is that the meeting will begin at ten.",
+      "promptZh": "據我理解，會議將於十時開始。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting will begin at ten, to the best of my knowledge.",
+      "answerZh": "據我所知，會議將於十時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting will begin at ten, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The information I have indicates that the shop does not accept cash.",
+      "promptZh": "我掌握的資料顯示，這間店舖不接受現金。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the shop does not accept cash.",
+      "answerZh": "據我所知，這間店舖不接受現金。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the shop does not accept cash."
+    },
+    {
+      "id": "ss269-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Based on everything I know, the answer is correct.",
+      "promptZh": "根據我所知道的一切，這個答案是正確的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The answer is, to the best of my knowledge, correct.",
+      "answerZh": "據我所知，這個答案是正確的。",
+      "answerZhSource": "pdf",
+      "highlight": "The answer is, to the best of my knowledge, correct."
+    },
+    {
+      "id": "ss269-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Has the train been delayed? I have heard nothing to suggest that it has.",
+      "promptZh": "火車是否誤點？我沒有聽到任何消息顯示它已誤點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train has not been delayed, to the best of my knowledge.",
+      "answerZh": "據我所知，火車沒有誤點。",
+      "answerZhSource": "pdf",
+      "highlight": "The train has not been delayed, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As far as I know, Grace has never visited Canada.",
+      "promptZh": "據我所知，格蕾絲從未到訪加拿大。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, Grace has never visited Canada.",
+      "answerZh": "據我所知，格蕾絲從未到訪加拿大。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, Grace has never visited Canada."
+    },
+    {
+      "id": "ss269-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My current understanding is that the hall can hold about two hundred people.",
+      "promptZh": "據我目前理解，禮堂可以容納約二百人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hall can, to the best of my knowledge, hold about two hundred people.",
+      "answerZh": "據我所知，禮堂可以容納約二百人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hall can, to the best of my knowledge, hold about two hundred people."
+    },
+    {
+      "id": "ss269-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "From the information available to me, the form must be submitted by Friday.",
+      "promptZh": "根據我掌握的資料，這份表格必須在星期五前提交。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the form must be submitted by Friday.",
+      "answerZh": "據我所知，這份表格必須在星期五前提交。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the form must be submitted by Friday."
+    },
+    {
+      "id": "ss269-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Based on what I was told, I believe the computer was repaired yesterday.",
+      "promptZh": "根據別人告訴我的資料，我相信電腦已於昨天修妥。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The computer was, to the best of my knowledge, repaired yesterday.",
+      "answerZh": "據我所知，電腦已於昨天修妥。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer was, to the best of my knowledge, repaired yesterday."
+    },
+    {
+      "id": "ss269-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I know of no changes that have been made to the schedule.",
+      "promptZh": "據我所知，時間表沒有任何改動。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No changes have been made to the schedule, to the best of my knowledge.",
+      "answerZh": "據我所知，時間表沒有任何改動。",
+      "answerZhSource": "pdf",
+      "highlight": "No changes have been made to the schedule, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "All the information I have suggests that the manager has approved the request.",
+      "promptZh": "我掌握的所有資料都顯示經理已批准這項要求。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the manager has approved the request.",
+      "answerZh": "據我所知，經理已批准這項要求。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the manager has approved the request."
+    },
+    {
+      "id": "ss269-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As far as I am aware, the museum is free on Sundays.",
+      "promptZh": "據我所知，博物館在星期日免費開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is, to the best of my knowledge, free on Sundays.",
+      "answerZh": "據我所知，博物館在星期日免費開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is, to the best of my knowledge, free on Sundays."
+    },
+    {
+      "id": "ss269-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Were any students injured? I have received no information saying that anyone was injured.",
+      "promptZh": "有學生受傷嗎？我沒有收到任何消息表示有人受傷。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, no students were injured.",
+      "answerZh": "據我所知，沒有學生受傷。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, no students were injured."
+    },
+    {
+      "id": "ss269-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The records available to me indicate that the email was sent to everyone.",
+      "promptZh": "我可以查閱的紀錄顯示，該電郵已寄給所有人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The email was, to the best of my knowledge, sent to everyone.",
+      "answerZh": "據我所知，該電郵已寄給所有人。",
+      "answerZhSource": "pdf",
+      "highlight": "The email was, to the best of my knowledge, sent to everyone."
+    },
+    {
+      "id": "ss269-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My understanding is that the new rule applies only to full-time staff.",
+      "promptZh": "據我理解，新規則只適用於全職員工。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule applies only to full-time staff, to the best of my knowledge.",
+      "answerZh": "據我所知，新規則只適用於全職員工。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule applies only to full-time staff, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I have received no information showing that the supplier has replied yet.",
+      "promptZh": "我沒有收到任何資料顯示供應商已作出回覆。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the supplier has not replied yet.",
+      "answerZh": "據我所知，供應商仍未回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the supplier has not replied yet."
+    },
+    {
+      "id": "ss269-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Based on the information I have, the device should work without an internet connection.",
+      "promptZh": "根據我掌握的資料，這部裝置在沒有互聯網連線的情況下應該仍能運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The device should, to the best of my knowledge, work without an internet connection.",
+      "answerZh": "據我所知，這部裝置在沒有互聯網連線的情況下應該仍能運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The device should, to the best of my knowledge, work without an internet connection."
+    },
+    {
+      "id": "ss269-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Do we need to take any more action? I am not aware of anything else that is required.",
+      "promptZh": "我們需要採取更多行動嗎？據我所知，沒有其他必要行動。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No further action is required, to the best of my knowledge.",
+      "answerZh": "據我所知，不需要採取進一步行動。",
+      "answerZhSource": "pdf",
+      "highlight": "No further action is required, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As far as I know, the information came from an official source.",
+      "promptZh": "據我所知，這項資料來自官方來源。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the information came from an official source.",
+      "answerZh": "據我所知，這項資料來自官方來源。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the information came from an official source."
+    },
+    {
+      "id": "ss269-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Everything I have been told indicates that the building has passed the safety inspection.",
+      "promptZh": "我獲告知的所有資料都顯示，這座大樓已通過安全檢查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building has, to the best of my knowledge, passed the safety inspection.",
+      "answerZh": "據我所知，這座大樓已通過安全檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The building has, to the best of my knowledge, passed the safety inspection."
+    },
+    {
+      "id": "ss269-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Are there any extra charges? I am not aware of any.",
+      "promptZh": "有任何額外收費嗎？據我所知，沒有。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, there are no extra charges.",
+      "answerZh": "據我所知，沒有額外收費。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, there are no extra charges."
+    },
+    {
+      "id": "ss269-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "From what I understand, a loose cable caused the problem.",
+      "promptZh": "據我理解，問題由一條鬆脫的電線引起。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem was, to the best of my knowledge, caused by a loose cable.",
+      "answerZh": "據我所知，問題由一條鬆脫的電線引起。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem was, to the best of my knowledge, caused by a loose cable."
+    },
+    {
+      "id": "ss269-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As far as I am aware, everyone who registered received a confirmation email.",
+      "promptZh": "據我所知，每位完成登記的人都收到確認電郵。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, everyone who registered received a confirmation email.",
+      "answerZh": "據我所知，每位完成登記的人都收到確認電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, everyone who registered received a confirmation email."
+    },
+    {
+      "id": "ss269-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I have not heard that the final decision has been announced.",
+      "promptZh": "我沒有聽聞最終決定已經公布。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final decision has not, to the best of my knowledge, been announced.",
+      "answerZh": "據我所知，最終決定尚未公布。",
+      "answerZhSource": "pdf",
+      "highlight": "The final decision has not, to the best of my knowledge, been announced."
+    },
+    {
+      "id": "ss269-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "My understanding is that the clinic does not open on public holidays.",
+      "promptZh": "據我理解，診所在公眾假期不會開放。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the clinic does not open on public holidays.",
+      "answerZh": "據我所知，診所在公眾假期不會開放。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the clinic does not open on public holidays."
+    },
+    {
+      "id": "ss269-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Based on all the information available to me, the data in this table are complete.",
+      "promptZh": "根據我掌握的所有資料，這個表格內的數據是完整的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The data in this table are, to the best of my knowledge, complete.",
+      "answerZh": "據我所知，這個表格內的數據是完整的。",
+      "answerZhSource": "pdf",
+      "highlight": "The data in this table are, to the best of my knowledge, complete."
+    },
+    {
+      "id": "ss269-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As far as I know, the contract allows either side to end the agreement with one month's notice.",
+      "promptZh": "據我所知，合約容許任何一方在給予一個月通知後終止協議。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the contract allows either side to end the agreement with one month's notice.",
+      "answerZh": "據我所知，合約容許任何一方在給予一個月通知後終止協議。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the contract allows either side to end the agreement with one month's notice."
+    },
+    {
+      "id": "ss269-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "According to the latest update I received, the complaint has been dealt with.",
+      "promptZh": "根據我收到的最新消息，這宗投訴已經處理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The complaint has, to the best of my knowledge, been dealt with.",
+      "answerZh": "據我所知，這宗投訴已經處理。",
+      "answerZhSource": "pdf",
+      "highlight": "The complaint has, to the best of my knowledge, been dealt with."
+    },
+    {
+      "id": "ss269-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Did anyone from our department attend the event? I am not aware of anyone who did.",
+      "promptZh": "我們部門有人出席該活動嗎？據我所知，沒有人出席。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one from our department attended the event, to the best of my knowledge.",
+      "answerZh": "據我所知，我們部門沒有人出席該活動。",
+      "answerZhSource": "pdf",
+      "highlight": "No one from our department attended the event, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The information available to me suggests that the software update is compatible with older devices.",
+      "promptZh": "我掌握的資料顯示，這次軟件更新與較舊的裝置相容。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the software update is compatible with older devices.",
+      "answerZh": "據我所知，這次軟件更新與較舊的裝置相容。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the software update is compatible with older devices."
+    },
+    {
+      "id": "ss269-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "From what I have been told, the village was evacuated before the storm arrived.",
+      "promptZh": "根據別人告訴我的資料，村民在暴風雨到達前已經撤離。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The village was, to the best of my knowledge, evacuated before the storm arrived.",
+      "answerZh": "據我所知，村民在暴風雨到達前已經撤離。",
+      "answerZhSource": "pdf",
+      "highlight": "The village was, to the best of my knowledge, evacuated before the storm arrived."
+    },
+    {
+      "id": "ss269-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Has the committee reached a decision? I have received no information saying that it has.",
+      "promptZh": "委員會已作出決定嗎？我沒有收到任何消息表示委員會已作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the committee has not reached a decision.",
+      "answerZh": "據我所知，委員會尚未作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the committee has not reached a decision."
+    },
+    {
+      "id": "ss269-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As far as I know, the missing document may still be in the archive.",
+      "promptZh": "據我所知，失蹤的文件可能仍在檔案室內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The missing document may, to the best of my knowledge, still be in the archive.",
+      "answerZh": "據我所知，失蹤的文件可能仍在檔案室內。",
+      "answerZhSource": "pdf",
+      "highlight": "The missing document may, to the best of my knowledge, still be in the archive."
+    },
+    {
+      "id": "ss269-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The information I have indicates that all the payments were processed on time.",
+      "promptZh": "我掌握的資料顯示，所有款項均已準時處理。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All the payments were processed on time, to the best of my knowledge.",
+      "answerZh": "據我所知，所有款項均已準時處理。",
+      "answerZhSource": "pdf",
+      "highlight": "All the payments were processed on time, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Based on everything I know, what he said during the interview was accurate.",
+      "promptZh": "根據我所知道的一切，他在訪問中所說的內容是準確的。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, what he said during the interview was accurate.",
+      "answerZh": "據我所知，他在訪問中所說的內容是準確的。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, what he said during the interview was accurate."
+    },
+    {
+      "id": "ss269-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The latest information I have indicates that the project remains within budget.",
+      "promptZh": "我掌握的最新資料顯示，項目仍然沒有超出預算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project remains, to the best of my knowledge, within budget.",
+      "answerZh": "據我所知，項目仍然沒有超出預算。",
+      "answerZhSource": "pdf",
+      "highlight": "The project remains, to the best of my knowledge, within budget."
+    },
+    {
+      "id": "ss269-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Did any of the witnesses see the accident clearly? I am not aware of any witness who did.",
+      "promptZh": "有任何目擊者清楚看到意外發生嗎？據我所知，沒有目擊者清楚看到。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, none of the witnesses saw the accident clearly.",
+      "answerZh": "據我所知，沒有目擊者清楚看到意外發生。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, none of the witnesses saw the accident clearly."
+    },
+    {
+      "id": "ss269-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I am not aware of the company having received any formal warning.",
+      "promptZh": "據我所知，公司沒有收到任何正式警告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company has not, to the best of my knowledge, received any formal warning.",
+      "answerZh": "據我所知，公司沒有收到任何正式警告。",
+      "answerZhSource": "pdf",
+      "highlight": "The company has not, to the best of my knowledge, received any formal warning."
+    },
+    {
+      "id": "ss269-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "From the information I have, the revised plan addresses all the concerns raised at the meeting.",
+      "promptZh": "根據我掌握的資料，修訂後的計劃回應了會議上提出的所有問題。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the revised plan addresses all the concerns raised at the meeting.",
+      "answerZh": "據我所知，修訂後的計劃回應了會議上提出的所有問題。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the revised plan addresses all the concerns raised at the meeting."
+    },
+    {
+      "id": "ss269-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The audit notes I have seen indicate that two members of staff checked the records.",
+      "promptZh": "我看過的審核紀錄顯示，兩名職員曾檢查這些紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The records were, to the best of my knowledge, checked by two members of staff.",
+      "answerZh": "據我所知，這些紀錄曾由兩名職員檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The records were, to the best of my knowledge, checked by two members of staff."
+    },
+    {
+      "id": "ss269-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I know of no evidence that the account was accessed without permission.",
+      "promptZh": "據我所知，沒有證據顯示有人未經許可登入該帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, there is no evidence that the account was accessed without permission.",
+      "answerZh": "據我所知，沒有證據顯示有人未經許可登入該帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, there is no evidence that the account was accessed without permission."
+    },
+    {
+      "id": "ss269-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "My current understanding is that the decision can still be changed before the deadline.",
+      "promptZh": "據我目前理解，這項決定仍可在限期前更改。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision can, to the best of my knowledge, still be changed before the deadline.",
+      "answerZh": "據我所知，這項決定仍可在限期前更改。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision can, to the best of my knowledge, still be changed before the deadline."
+    },
+    {
+      "id": "ss269-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I am not aware of any confidential information being shared outside the team.",
+      "promptZh": "據我所知，沒有任何機密資料被傳給團隊以外的人。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No confidential information was shared outside the team, to the best of my knowledge.",
+      "answerZh": "據我所知，沒有任何機密資料被傳給團隊以外的人。",
+      "answerZhSource": "pdf",
+      "highlight": "No confidential information was shared outside the team, to the best of my knowledge."
+    },
+    {
+      "id": "ss269-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Based on all the information available to me, the report gives a fair account of what happened.",
+      "promptZh": "根據我掌握的所有資料，這份報告公正地交代了事情的經過。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the best of my knowledge, the report gives a fair account of what happened.",
+      "answerZh": "據我所知，這份報告公正地交代了事情的經過。",
+      "answerZhSource": "pdf",
+      "highlight": "To the best of my knowledge, the report gives a fair account of what happened."
+    }
+  ]
+}

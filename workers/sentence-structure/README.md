@@ -18,9 +18,9 @@ First apply the repository's shared Flashcard account migration if it is not
 already installed. Then run `../../supabase-sentence-structure.sql` in a
 private Supabase SQL session.
 
-For an existing production installation that already supports `ss1`–`ss114`,
-apply only the forward migration
-`../../supabase-sentence-structure-lessons-115-218.sql`. It widens the permitted
+For an existing production installation that already supports `ss1`–`ss218`,
+apply only the latest forward migration
+`../../supabase-sentence-structure-lessons-219-275.sql`. It widens the permitted
 lesson IDs and bookmark capacity without deleting attempts or bookmarks.
 
 The migration creates:
@@ -143,7 +143,7 @@ The `PUT` body is the exact frontend shape:
 ```
 
 Attempt UUIDs are client-generated but the student owner always comes from the
-validated bearer token. Only catalog version `1`, lessons `ss1`–`ss218`, their
+validated bearer token. Only catalog version `1`, lessons `ss1`–`ss275`, their
 exact 50 question IDs per lesson, and answers accepted by the published catalog can be
 credited as correct. Progress cannot lose previously correct IDs and completed
 attempts are immutable, making a retry after a lost response safe. Result JSON
@@ -159,7 +159,7 @@ bounded and validated before the database RPC is called.
 
 `PUT` atomically replaces the student's list. Each item has exactly
 `lessonId`, `questionId`, and boolean `includeAnswer`; duplicates and more than
-12,000 items are rejected. Existing bookmark creation timestamps survive updates.
+16,000 items are rejected. Existing bookmark creation timestamps survive updates.
 
 ### Administrator progress view
 

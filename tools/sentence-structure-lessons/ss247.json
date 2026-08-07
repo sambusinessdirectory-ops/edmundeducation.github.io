@@ -1,0 +1,1280 @@
+{
+  "id": "ss247",
+  "order": 247,
+  "slug": "turns-out-that-to-be",
+  "title": "「It turns out that + 子句 ／ X turns out to be Y」表示後來發現的真相",
+  "titleZh": "「It turns out that + 子句 ／ X turns out to be Y」表示後來發現的真相",
+  "titleEn": "It turns out that + clause / X turns out to be Y",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 246 -「It turns out that + 子句 _ X turns out to be Y」表示後來發現的真相.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 246; it is assigned system ID ss247 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It + turns / turned out + that + complete clause",
+  "formulas": [
+    {
+      "id": "ss247-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句型一",
+      "formula": "It + turns / turned out + that + complete clause"
+    },
+    {
+      "id": "ss247-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句型二",
+      "formula": "Subject + turns / turned out + to be + noun / adjective / other description"
+    },
+    {
+      "id": "ss247-formula-03",
+      "labelEn": "Modal Pattern 1",
+      "labelZh": "情態句型一",
+      "formula": "It may / might / could turn out that + clause"
+    },
+    {
+      "id": "ss247-formula-04",
+      "labelEn": "Modal Pattern 2",
+      "labelZh": "情態句型二",
+      "formula": "Subject + may / might / could turn out to be + Y"
+    },
+    {
+      "id": "ss247-formula-05",
+      "labelEn": "Negative Pattern 2",
+      "labelZh": "否定句型二",
+      "formula": "Subject + turns / turned out not to be + Y"
+    }
+  ],
+  "example": "It turned out that the figures were wrong.",
+  "exampleZh": "原來這些數字是錯的。",
+  "examples": [
+    {
+      "id": "ss247-example-01",
+      "en": "It turned out that the figures were wrong.",
+      "zh": "原來這些數字是錯的。",
+      "highlight": "It turned out that the figures were wrong."
+    },
+    {
+      "id": "ss247-example-02",
+      "en": "The figures turned out to be wrong.",
+      "zh": "這些數字後來證實是錯的。",
+      "highlight": "The figures turned out to be wrong."
+    },
+    {
+      "id": "ss247-example-03",
+      "en": "The problem turned out not to be serious.",
+      "zh": "問題後來證實並不嚴重。",
+      "highlight": "The problem turned out not to be serious."
+    }
+  ],
+  "meaning": {
+    "zh": "說明經過了解、檢查、調查或一段時間後才發現真正情況；原先想法可能不正確，最終結果也可能與預期不同。"
+  },
+  "rules": [
+    {
+      "id": "ss247-rule-01",
+      "zh": "核心有兩種：It turns out that 後接完整子句；X turns out to be Y 把要描述的人或事物放句首，Y 可為名詞、形容詞、位置或情況。",
+      "en": "Use the two core patterns correctly. It turns out that introduces a complete clause; X turns out to be Y places the item being described first and follows it with a noun, adjective, location or other description.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-rule-02",
+      "zh": "第一種把焦點放在整項發現，第二種把焦點放在 X 的真正身分、性質或情況。",
+      "en": "Choose the pattern according to focus: the that-clause highlights the whole discovery, while X turns out to be Y highlights the true identity, quality or state of X.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-rule-03",
+      "zh": "含一般動作的 that 子句不一定能改成 to be；只有 X + be + Y 類內容通常可自然轉換。",
+      "en": "Not every that-clause can become a to be pattern. General actions normally remain in a complete that-clause; descriptions of the form X + be + Y usually allow both patterns.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It turned out that Leo had sent the email."
+      ]
+    },
+    {
+      "id": "ss247-rule-04",
+      "zh": "turns out 用於現在才知道或目前適用的事實；turned out 用於過去已完成的發現或事件。",
+      "en": "Use turns out for a newly discovered or currently applicable fact, and turned out for a completed discovery or past event.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-rule-05",
+      "zh": "情態動詞後使用原形 turn out，不使用 turns out 或 turned out。",
+      "en": "Use the base form turn out after may, might or could.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The new method might turn out to be more effective."
+      ]
+    },
+    {
+      "id": "ss247-rule-06",
+      "zh": "第一句型的否定放在 that 子句內；第二句型通常使用 turned out not to be。",
+      "en": "Place negation inside the that-clause in Pattern 1; Pattern 2 normally uses turn out not to be.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-rule-07",
+      "zh": "Later、Eventually、After further testing 或條件子句只是可選背景，不是固定核心。",
+      "en": "Opening time and condition information such as Later, Eventually or After further testing is optional context rather than part of the fixed expression.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-rule-08",
+      "zh": "本課不包括 turn out 表示「結果變成」或「出席」的其他意思。",
+      "en": "Do not confuse the target discovery meaning with turn out meaning develop successfully or attend an event.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-rule-09",
+      "zh": "本課保留 that，以便清楚辨認完整句型，即使非正式口語有時會省略。",
+      "en": "Keep that in the target pattern for clarity, even though informal speech sometimes omits it.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-rule-10",
+      "zh": "本課不包括 turned out to have been 等較進階形式，核心只練習 turn out that + clause 和 turn out to be + description。",
+      "en": "Advanced perfect-infinitive forms are outside this lesson; practise only turn out that + clause and turn out to be + description.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss247-benefit-01",
+      "zh": "以自然句型表達「後來才發現」，避免每次都寫 We later discovered 或 We eventually found。",
+      "en": "It naturally expresses a later discovery without repeatedly using We later discovered or We eventually found.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-benefit-02",
+      "zh": "清楚顯示原先想法與真正情況可能不同，適合意外、誤會和調查結果。",
+      "en": "It clearly shows that an earlier belief and the true situation may differ.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-benefit-03",
+      "zh": "可按需要把焦點放在整項發現，或放在某個人或事物上。",
+      "en": "It lets the writer focus either on the whole discovery or on the person or thing whose true nature is revealed.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-benefit-04",
+      "zh": "適合故事、報告、檢查結果、錯誤解釋和意外發現。",
+      "en": "It is useful in stories, reports, explanations of errors, inspection results and unexpected discoveries.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-benefit-05",
+      "zh": "無需反覆說明是誰發現真相，可直接把重點放在被發現的人或事物。",
+      "en": "It avoids repeating we found or we discovered and can place the subject matter directly in focus.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss247-benefit-06",
+      "zh": "配合 may、might 或 could，可審慎表示仍有待證實的可能性。",
+      "en": "With may, might or could, it expresses an outcome that remains possible rather than confirmed.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 246; it is assigned system ID ss247 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using either It turns / turned out that + clause or X turns / turned out to be Y.",
+      "Use may, might or could when the original sentence expresses possibility.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 It turns / turned out that + clause 或 X turns / turned out to be Y 改寫句子。",
+      "原句表示可能性時，請保留 may、might 或 could。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss247-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We later discovered that the figures were wrong.",
+      "promptZh": "後來我們發現這些數字是錯的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It turned out that the figures were wrong.",
+      "answerZh": "原來這些數字是錯的。",
+      "answerZhSource": "pdf",
+      "highlight": "It turned out that the figures were wrong."
+    },
+    {
+      "id": "ss247-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The quiet man was eventually identified as the new manager.",
+      "promptZh": "那名安靜的男子最終被確認為新任經理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The quiet man turned out to be the new manager.",
+      "answerZh": "那名安靜的男子原來是新任經理。",
+      "answerZhSource": "pdf",
+      "highlight": "The quiet man turned out to be the new manager."
+    },
+    {
+      "id": "ss247-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Further checking shows that the shop closes at six.",
+      "promptZh": "進一步查核顯示，這間商店六時關門。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It turns out that the shop closes at six.",
+      "answerZh": "原來這間商店六時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "It turns out that the shop closes at six."
+    },
+    {
+      "id": "ss247-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Tests confirmed that the small key was the right one.",
+      "promptZh": "測試證實那把小鑰匙是正確的一把。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The small key turned out to be the right one.",
+      "answerZh": "那把小鑰匙原來是正確的一把。",
+      "answerZhSource": "pdf",
+      "highlight": "The small key turned out to be the right one."
+    },
+    {
+      "id": "ss247-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We later learned that Lucy had the tickets.",
+      "promptZh": "我們後來得知門票在 Lucy 手上。",
+      "promptZhSource": "pdf",
+      "starter": "Later",
+      "answer": "Later, it turned out that Lucy had the tickets.",
+      "answerZh": "後來才發現門票原來在 Lucy 手上。",
+      "answerZhSource": "pdf",
+      "highlight": "Later, it turned out that Lucy had the tickets."
+    },
+    {
+      "id": "ss247-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We later realised that the message was a mistake.",
+      "promptZh": "我們後來發現那則訊息是一個錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The message turned out to be a mistake.",
+      "answerZh": "那則訊息原來是一個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The message turned out to be a mistake."
+    },
+    {
+      "id": "ss247-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We have now discovered that this road leads to the station.",
+      "promptZh": "我們現在才發現這條路通往車站。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It turns out that this road leads to the station.",
+      "answerZh": "原來這條路通往車站。",
+      "answerZhSource": "pdf",
+      "highlight": "It turns out that this road leads to the station."
+    },
+    {
+      "id": "ss247-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After an expert examined it, the old coin was found to be valuable.",
+      "promptZh": "經專家檢驗後，那枚舊硬幣被證實具有價值。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After an expert examined it, the old coin turned out to be valuable.",
+      "answerZh": "經專家檢驗後，那枚舊硬幣證實具有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "After an expert examined it, the old coin turned out to be valuable."
+    },
+    {
+      "id": "ss247-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After the accident, we learned that no one was hurt.",
+      "promptZh": "意外發生後，我們得知沒有人受傷。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the accident, it turned out that no one was hurt.",
+      "answerZh": "意外發生後，證實沒有人受傷。",
+      "answerZhSource": "pdf",
+      "highlight": "After the accident, it turned out that no one was hurt."
+    },
+    {
+      "id": "ss247-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After a careful check, our first answer was confirmed as correct.",
+      "promptZh": "經過仔細檢查後，我們的第一個答案獲證實為正確。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After a careful check, our first answer turned out to be correct.",
+      "answerZh": "經過仔細檢查後，我們的第一個答案證實是正確的。",
+      "answerZhSource": "pdf",
+      "highlight": "After a careful check, our first answer turned out to be correct."
+    },
+    {
+      "id": "ss247-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We eventually discovered that the meeting had been cancelled.",
+      "promptZh": "我們最終發現會議已經取消。",
+      "promptZhSource": "pdf",
+      "starter": "Eventually",
+      "answer": "Eventually, it turned out that the meeting had been cancelled.",
+      "answerZh": "最終才發現會議原來已經取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Eventually, it turned out that the meeting had been cancelled."
+    },
+    {
+      "id": "ss247-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "People later discovered that the friendly visitor was a famous writer.",
+      "promptZh": "人們後來發現那名友善的訪客是一位著名作家。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The friendly visitor turned out to be a famous writer.",
+      "answerZh": "那名友善的訪客原來是一位著名作家。",
+      "answerZhSource": "pdf",
+      "highlight": "The friendly visitor turned out to be a famous writer."
+    },
+    {
+      "id": "ss247-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We have discovered that the café serves vegetarian meals.",
+      "promptZh": "我們發現這間咖啡店供應素食餐點。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It turns out that the café serves vegetarian meals.",
+      "answerZh": "原來這間咖啡店供應素食餐點。",
+      "answerZhSource": "pdf",
+      "highlight": "It turns out that the café serves vegetarian meals."
+    },
+    {
+      "id": "ss247-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After we checked the room, we found that the noise was coming from the air conditioner.",
+      "promptZh": "我們檢查房間後，發現聲音來自冷氣機。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After we checked the room, the noise turned out to be coming from the air conditioner.",
+      "answerZh": "我們檢查房間後，發現聲音原來來自冷氣機。",
+      "answerZhSource": "pdf",
+      "highlight": "After we checked the room, the noise turned out to be coming from the air conditioner."
+    },
+    {
+      "id": "ss247-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We eventually learned that the parcel belonged to our neighbour.",
+      "promptZh": "我們最終得知包裹是屬於鄰居的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It turned out that the parcel belonged to our neighbour.",
+      "answerZh": "原來包裹是屬於鄰居的。",
+      "answerZhSource": "pdf",
+      "highlight": "It turned out that the parcel belonged to our neighbour."
+    },
+    {
+      "id": "ss247-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We eventually found the missing file in the wrong folder.",
+      "promptZh": "我們最終在錯誤的資料夾內找到遺失的檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Eventually",
+      "answer": "Eventually, the missing file turned out to be in the wrong folder.",
+      "answerZh": "最終才發現遺失的檔案原來在錯誤的資料夾內。",
+      "answerZhSource": "pdf",
+      "highlight": "Eventually, the missing file turned out to be in the wrong folder."
+    },
+    {
+      "id": "ss247-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Bad weather may have caused the delay, but further investigation is needed.",
+      "promptZh": "延誤可能由惡劣天氣造成，但仍需進一步調查。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may turn out that the delay was caused by bad weather.",
+      "answerZh": "最後可能會發現延誤是由惡劣天氣造成的。",
+      "answerZhSource": "pdf",
+      "highlight": "It may turn out that the delay was caused by bad weather."
+    },
+    {
+      "id": "ss247-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "With further testing, the new method may prove to be more effective.",
+      "promptZh": "經過進一步測試後，新方法可能會證實更有效。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With further testing, the new method may turn out to be more effective.",
+      "answerZh": "經過進一步測試後，新方法可能會證實更有效。",
+      "answerZhSource": "pdf",
+      "highlight": "With further testing, the new method may turn out to be more effective."
+    },
+    {
+      "id": "ss247-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Later evidence showed that the witness had misunderstood the question.",
+      "promptZh": "後來的證據顯示，證人誤解了問題。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It turned out that the witness had misunderstood the question.",
+      "answerZh": "原來證人誤解了問題。",
+      "answerZhSource": "pdf",
+      "highlight": "It turned out that the witness had misunderstood the question."
+    },
+    {
+      "id": "ss247-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After further checks, we found that the problem was not serious.",
+      "promptZh": "經過進一步檢查後，我們發現問題並不嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After further checks, the problem turned out not to be serious.",
+      "answerZh": "經過進一步檢查後，問題證實並不嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "After further checks, the problem turned out not to be serious."
+    },
+    {
+      "id": "ss247-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We eventually discovered that the hotel was farther away than the map suggested.",
+      "promptZh": "我們最終發現酒店比地圖所顯示的更遠。",
+      "promptZhSource": "pdf",
+      "starter": "Eventually",
+      "answer": "Eventually, it turned out that the hotel was farther away than the map suggested.",
+      "answerZh": "最終才發現酒店比地圖所顯示的更遠。",
+      "answerZhSource": "pdf",
+      "highlight": "Eventually, it turned out that the hotel was farther away than the map suggested."
+    },
+    {
+      "id": "ss247-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I later realised that the person on the phone was my former classmate.",
+      "promptZh": "我後來才發現電話中的人是我的舊同學。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The person on the phone turned out to be my former classmate.",
+      "answerZh": "電話中的人原來是我的舊同學。",
+      "answerZhSource": "pdf",
+      "highlight": "The person on the phone turned out to be my former classmate."
+    },
+    {
+      "id": "ss247-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Once all the records are checked, we may discover that the data are incomplete.",
+      "promptZh": "所有紀錄檢查完成後，我們可能會發現資料並不完整。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once all the records are checked, it may turn out that the data are incomplete.",
+      "answerZh": "所有紀錄檢查完成後，可能會發現資料並不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "Once all the records are checked, it may turn out that the data are incomplete."
+    },
+    {
+      "id": "ss247-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After we compare everything, we may find that the cheaper option is the better choice.",
+      "promptZh": "比較所有資料後，我們可能會發現較便宜的選項才是較好的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After we compare everything, the cheaper option may turn out to be the better choice.",
+      "answerZh": "比較所有資料後，較便宜的選項可能會證實是較好的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "After we compare everything, the cheaper option may turn out to be the better choice."
+    },
+    {
+      "id": "ss247-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In the end, we discovered that the machine had not been switched on.",
+      "promptZh": "最後，我們發現機器根本沒有開啟。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, it turned out that the machine had not been switched on.",
+      "answerZh": "最後才發現機器原來根本沒有開啟。",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, it turned out that the machine had not been switched on."
+    },
+    {
+      "id": "ss247-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After we checked the kitchen, we found that the strange smell was coming from burnt toast.",
+      "promptZh": "我們檢查廚房後，發現那股奇怪氣味來自燒焦的多士。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After we checked the kitchen, the strange smell turned out to be coming from burnt toast.",
+      "answerZh": "我們檢查廚房後，發現那股奇怪氣味原來來自燒焦的多士。",
+      "answerZhSource": "pdf",
+      "highlight": "After we checked the kitchen, the strange smell turned out to be coming from burnt toast."
+    },
+    {
+      "id": "ss247-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "During the investigation, the team discovered that the two reports described the same incident.",
+      "promptZh": "調查期間，團隊發現兩份報告描述的是同一宗事件。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the investigation, it turned out that the two reports described the same incident.",
+      "answerZh": "調查期間，證實兩份報告描述的是同一宗事件。",
+      "answerZhSource": "pdf",
+      "highlight": "During the investigation, it turned out that the two reports described the same incident."
+    },
+    {
+      "id": "ss247-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The investigation identified a new employee as the person responsible.",
+      "promptZh": "調查確認一名新僱員是需要負責的人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The person responsible turned out to be a new employee.",
+      "answerZh": "需要負責的人原來是一名新僱員。",
+      "answerZhSource": "pdf",
+      "highlight": "The person responsible turned out to be a new employee."
+    },
+    {
+      "id": "ss247-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If the work continues at this speed, we may discover that we need more time.",
+      "promptZh": "如果工作繼續以這個速度進行，我們可能會發現需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the work continues at this speed, it may turn out that we need more time.",
+      "answerZh": "如果工作繼續以這個速度進行，最後可能會發現我們需要更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "If the work continues at this speed, it may turn out that we need more time."
+    },
+    {
+      "id": "ss247-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The original plan may prove to be too expensive.",
+      "promptZh": "原來的計劃最終可能會證實成本太高。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The original plan may turn out to be too expensive.",
+      "answerZh": "原來的計劃最終可能會證實成本太高。",
+      "answerZhSource": "pdf",
+      "highlight": "The original plan may turn out to be too expensive."
+    },
+    {
+      "id": "ss247-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After a full inspection, the damage was found to be less serious than expected.",
+      "promptZh": "經過全面檢查後，損壞情況被證實沒有預期般嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After a full inspection, the damage turned out to be less serious than expected.",
+      "answerZh": "經過全面檢查後，損壞情況證實沒有預期般嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "After a full inspection, the damage turned out to be less serious than expected."
+    },
+    {
+      "id": "ss247-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After a later check, we discovered that several names had been left off the list.",
+      "promptZh": "後來再次檢查後，我們發現名單漏掉了幾個名字。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After a later check, it turned out that several names had been left off the list.",
+      "answerZh": "後來再次檢查後，才發現名單漏掉了幾個名字。",
+      "answerZhSource": "pdf",
+      "highlight": "After a later check, it turned out that several names had been left off the list."
+    },
+    {
+      "id": "ss247-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What had looked like a technical fault was eventually found to be a loose cable.",
+      "promptZh": "原本看似是技術故障的問題，最終被發現只是一條鬆脫的電線。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What had looked like a technical fault turned out to be a loose cable.",
+      "answerZh": "原本看似是技術故障的問題，原來只是一條鬆脫的電線。",
+      "answerZhSource": "pdf",
+      "highlight": "What had looked like a technical fault turned out to be a loose cable."
+    },
+    {
+      "id": "ss247-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "During the review, we discovered that the online review had been written by the owner.",
+      "promptZh": "審查期間，我們發現那篇網上評論是店主本人撰寫的。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the review, it turned out that the online review had been written by the owner.",
+      "answerZh": "審查期間，才發現那篇網上評論原來是店主本人撰寫的。",
+      "answerZhSource": "pdf",
+      "highlight": "During the review, it turned out that the online review had been written by the owner."
+    },
+    {
+      "id": "ss247-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The building that looked empty was later found to be a busy training centre.",
+      "promptZh": "那座看似空置的建築物，後來被發現是一間繁忙的培訓中心。",
+      "promptZhSource": "pdf",
+      "starter": "Later",
+      "answer": "Later, the building that looked empty turned out to be a busy training centre.",
+      "answerZh": "後來才發現，那座看似空置的建築物原來是一間繁忙的培訓中心。",
+      "answerZhSource": "pdf",
+      "highlight": "Later, the building that looked empty turned out to be a busy training centre."
+    },
+    {
+      "id": "ss247-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After more tests, we may discover that the medicine is causing the headaches.",
+      "promptZh": "進行更多測試後，我們可能會發現這種藥物正在引起頭痛。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After more tests, it may turn out that the medicine is causing the headaches.",
+      "answerZh": "進行更多測試後，可能會發現這種藥物正在引起頭痛。",
+      "answerZhSource": "pdf",
+      "highlight": "After more tests, it may turn out that the medicine is causing the headaches."
+    },
+    {
+      "id": "ss247-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In time, the change that worried everyone may prove to be helpful.",
+      "promptZh": "假以時日，令所有人擔心的改變可能會證實是有幫助的。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In time, the change that worried everyone may turn out to be helpful.",
+      "answerZh": "假以時日，令所有人擔心的改變可能會證實是有幫助的。",
+      "answerZhSource": "pdf",
+      "highlight": "In time, the change that worried everyone may turn out to be helpful."
+    },
+    {
+      "id": "ss247-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We later discovered that the company had sent the email to the wrong address.",
+      "promptZh": "我們後來發現公司把電郵寄到了錯誤的地址。",
+      "promptZhSource": "pdf",
+      "starter": "Later",
+      "answer": "Later, it turned out that the company had sent the email to the wrong address.",
+      "answerZh": "後來才發現公司原來把電郵寄到了錯誤的地址。",
+      "answerZhSource": "pdf",
+      "highlight": "Later, it turned out that the company had sent the email to the wrong address."
+    },
+    {
+      "id": "ss247-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The man we thought was a tourist was later identified as the guide.",
+      "promptZh": "我們以為是遊客的那名男子，後來被確認為導遊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The man we thought was a tourist turned out to be the guide.",
+      "answerZh": "我們以為是遊客的那名男子，原來是導遊。",
+      "answerZhSource": "pdf",
+      "highlight": "The man we thought was a tourist turned out to be the guide."
+    },
+    {
+      "id": "ss247-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We eventually learned that the train we had planned to take was not running.",
+      "promptZh": "我們最終得知原本打算乘搭的火車沒有行駛。",
+      "promptZhSource": "pdf",
+      "starter": "Eventually",
+      "answer": "Eventually, it turned out that the train we had planned to take was not running.",
+      "answerZh": "最終才得知我們原本打算乘搭的火車沒有行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Eventually, it turned out that the train we had planned to take was not running."
+    },
+    {
+      "id": "ss247-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The document presented as the final version was later found to be an early draft.",
+      "promptZh": "那份被當作最終版本的文件，後來被發現只是早期草稿。",
+      "promptZhSource": "pdf",
+      "starter": "Later",
+      "answer": "Later, the document presented as the final version turned out to be an early draft.",
+      "answerZh": "後來才發現，那份被當作最終版本的文件原來只是早期草稿。",
+      "answerZhSource": "pdf",
+      "highlight": "Later, the document presented as the final version turned out to be an early draft."
+    },
+    {
+      "id": "ss247-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After the records were checked, we discovered that the apparent increase was caused by a change in the counting method.",
+      "promptZh": "紀錄檢查完成後，我們發現表面上的增長是由統計方法改變所造成的。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the records were checked, it turned out that the apparent increase was caused by a change in the counting method.",
+      "answerZh": "紀錄檢查完成後，才發現表面上的增長是由統計方法改變所造成的。",
+      "answerZhSource": "pdf",
+      "highlight": "After the records were checked, it turned out that the apparent increase was caused by a change in the counting method."
+    },
+    {
+      "id": "ss247-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What had looked like a major disagreement was eventually found to be a simple misunderstanding.",
+      "promptZh": "原本看似是嚴重分歧的事情，最終被發現只是一場簡單的誤會。",
+      "promptZhSource": "pdf",
+      "starter": "Eventually",
+      "answer": "Eventually, what had looked like a major disagreement turned out to be a simple misunderstanding.",
+      "answerZh": "最終才發現，原本看似是嚴重分歧的事情只是一場簡單的誤會。",
+      "answerZhSource": "pdf",
+      "highlight": "Eventually, what had looked like a major disagreement turned out to be a simple misunderstanding."
+    },
+    {
+      "id": "ss247-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Once the policy is applied, we may discover that the new rule affects part-time staff as well.",
+      "promptZh": "政策實施後，我們可能會發現新規則亦會影響兼職員工。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the policy is applied, it may turn out that the new rule affects part-time staff as well.",
+      "answerZh": "政策實施後，可能會發現新規則亦會影響兼職員工。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the policy is applied, it may turn out that the new rule affects part-time staff as well."
+    },
+    {
+      "id": "ss247-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The information supplied by the caller may prove to be unreliable.",
+      "promptZh": "來電者提供的資料最終可能會證實並不可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The information supplied by the caller may turn out to be unreliable.",
+      "answerZh": "來電者提供的資料最終可能會證實並不可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The information supplied by the caller may turn out to be unreliable."
+    },
+    {
+      "id": "ss247-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "During the investigation, we discovered that the person who had reported the problem was using an older version of the app.",
+      "promptZh": "調查期間，我們發現報告問題的人正在使用較舊版本的應用程式。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the investigation, it turned out that the person who had reported the problem was using an older version of the app.",
+      "answerZh": "調查期間，才發現報告問題的人原來正在使用較舊版本的應用程式。",
+      "answerZhSource": "pdf",
+      "highlight": "During the investigation, it turned out that the person who had reported the problem was using an older version of the app."
+    },
+    {
+      "id": "ss247-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After the results were compared, the small difference was found not to be important enough to change the conclusion.",
+      "promptZh": "比較結果後，人們發現那個細微差異並不足以改變結論。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the results were compared, the small difference turned out not to be important enough to change the conclusion.",
+      "answerZh": "比較結果後，證實那個細微差異並不足以改變結論。",
+      "answerZhSource": "pdf",
+      "highlight": "After the results were compared, the small difference turned out not to be important enough to change the conclusion."
+    },
+    {
+      "id": "ss247-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Once the final estimate is ready, we may discover that the repairs will cost less than originally estimated.",
+      "promptZh": "最終估價完成後，我們可能會發現維修費用低於原先估計。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the final estimate is ready, it may turn out that the repairs will cost less than originally estimated.",
+      "answerZh": "最終估價完成後，可能會發現維修費用低於原先估計。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the final estimate is ready, it may turn out that the repairs will cost less than originally estimated."
+    },
+    {
+      "id": "ss247-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In the end, the decision that initially seemed unfair may prove to be the safest option for everyone.",
+      "promptZh": "最後，起初看似不公平的決定，可能會證實是對所有人最安全的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, the decision that initially seemed unfair may turn out to be the safest option for everyone.",
+      "answerZh": "最後，起初看似不公平的決定可能會證實是對所有人最安全的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, the decision that initially seemed unfair may turn out to be the safest option for everyone."
+    },
+    {
+      "id": "ss247-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After a final review, we discovered that the evidence which everyone had overlooked provided the clearest explanation.",
+      "promptZh": "經過最後審查後，我們發現所有人一直忽略的證據提供了最清楚的解釋。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After a final review, it turned out that the evidence which everyone had overlooked provided the clearest explanation.",
+      "answerZh": "經過最後審查後，才發現所有人一直忽略的證據提供了最清楚的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "After a final review, it turned out that the evidence which everyone had overlooked provided the clearest explanation."
+    }
+  ]
+}

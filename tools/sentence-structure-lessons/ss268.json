@@ -1,0 +1,1264 @@
+{
+  "id": "ss268",
+  "order": 268,
+  "slug": "only-to-unexpected-result",
+  "title": "「Main clause, only to + verb」表達「意料之外的結果」",
+  "titleZh": "「Main clause, only to + verb」表達「意料之外的結果」",
+  "titleEn": "Using “Main clause, only to + verb” for an unexpected result",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 267 -「Main clause, only to + verb」表達意料之外的結果.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "Main clause, only to + base verb + other information.",
+  "formulas": [
+    {
+      "id": "ss268-formula-01",
+      "labelEn": "Active result",
+      "labelZh": "主動結果",
+      "formula": "Subject + verb, only to + base verb."
+    },
+    {
+      "id": "ss268-formula-02",
+      "labelEn": "Passive result",
+      "labelZh": "被動結果",
+      "formula": "Subject + verb, only to be + past participle."
+    },
+    {
+      "id": "ss268-formula-03",
+      "labelEn": "With introductory phrase",
+      "labelZh": "配合句首短語",
+      "formula": "Introductory phrase, subject + verb, only to + base verb."
+    },
+    {
+      "id": "ss268-formula-04",
+      "labelEn": "After modal verb",
+      "labelZh": "配合情態動詞",
+      "formula": "Subject + may / can / could + verb, only to + base verb."
+    },
+    {
+      "id": "ss268-formula-05",
+      "labelEn": "Purpose then actual result",
+      "labelZh": "目的與實際結果",
+      "formula": "Subject + verb + to + purpose, only to + verb showing the actual result."
+    }
+  ],
+  "example": "He rushed to the station, only to find that the train had left.",
+  "exampleZh": "他趕往車站，結果卻發現火車已經開走了。",
+  "examples": [
+    {
+      "id": "ss268-example-01",
+      "en": "He rushed to the station, only to find that the train had left.",
+      "zh": "他趕往車站，結果卻發現火車已經開走了。",
+      "highlight": "He rushed to the station, only to find that the train had left."
+    },
+    {
+      "id": "ss268-example-02",
+      "en": "She opened the cupboard, only to find it empty.",
+      "zh": "她打開櫥櫃，結果卻發現裏面是空的。",
+      "highlight": "She opened the cupboard, only to find it empty."
+    },
+    {
+      "id": "ss268-example-03",
+      "en": "We reached the entrance, only to be turned away.",
+      "zh": "我們到達入口，結果卻被拒絕進場。",
+      "highlight": "We reached the entrance, only to be turned away."
+    },
+    {
+      "id": "ss268-example-04",
+      "en": "The restaurant changed its menu to attract more customers, only to upset its regular diners.",
+      "zh": "餐廳更改餐牌，希望吸引更多顧客，結果卻令常客不滿。",
+      "highlight": "The restaurant changed its menu to attract more customers, only to upset its regular diners."
+    }
+  ],
+  "meaning": {
+    "zh": "此句型表示某人先做了一件事，但其後出現意料之外的實際結果；結果通常令人失望、不方便或驚訝。"
+  },
+  "rules": [
+    {
+      "id": "ss268-rule-01",
+      "zh": "only to 在此表示意外結果，不表示目的；普通 to + 動詞則可解釋某人為何做前面的行動。",
+      "en": "Only to expresses an unexpected result here, not a purpose. An ordinary to-infinitive may explain why the preceding action was performed.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-rule-02",
+      "zh": "表示意外結果時，only to 前通常使用逗號；沒有逗號的 only to 有時表示唯一目的，意思不同。",
+      "en": "For the unexpected-result structure, only to is normally preceded by a comma. Without the comma, only to may express a sole purpose and have a different meaning.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-rule-03",
+      "zh": "to 後必須使用動詞原形，例如 only to find、discover、realise、learn 或 receive。",
+      "en": "Use the base form after to, as in only to find, discover, realise, learn or receive.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-rule-04",
+      "zh": "被動結果使用 only to be + 過去分詞，例如 only to be told、asked、refused 或 turned away。",
+      "en": "Use only to be + past participle for a passive result, such as only to be told, asked, refused or turned away.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-rule-05",
+      "zh": "前後兩部分通常由同一主語承擔，即前面行動者也是經歷意外結果的人。",
+      "en": "The same subject normally carries both parts: the person performing the first action is also the person experiencing the unexpected result.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-rule-06",
+      "zh": "結果必須真正意料之外；正常、可預計的下一步行動不適合此句型。",
+      "en": "The result must genuinely be unexpected. A normal, predictable next action is unsuitable for this structure.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-rule-07",
+      "zh": "結果通常負面，但也可以只是令人驚訝而非不幸。",
+      "en": "The result is often negative, but it may simply be surprising rather than unfortunate.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-rule-08",
+      "zh": "本課不包括 only for + noun + to + verb、only + V-ing、only to have + 過去分詞，或表示「唯一目的」的 only to。",
+      "en": "This lesson does not cover only for + noun + to + verb, only + V-ing, only to have + past participle, or only to used for a sole purpose.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss268-benefit-01",
+      "zh": "它清楚顯示人物原本期望和實際結果之間的反差。",
+      "en": "It clearly shows the contrast between an expectation and the actual result.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-benefit-02",
+      "zh": "它把行動和意外結果濃縮成一句，使表達比兩個短句更緊湊。",
+      "en": "It condenses an action and its unexpected result into one compact sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-benefit-03",
+      "zh": "把意外結果放在句尾，讓讀者先看到行動再看到出乎意料的結局，令敘事更有戲劇性。",
+      "en": "It makes stories and experiences more dramatic by placing the unexpected outcome at the end.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-benefit-04",
+      "zh": "它提供另一種表達反差的方法，避免反覆使用 but、however 和 unfortunately。",
+      "en": "It avoids repeated use of but, however and unfortunately by offering another way to express contrast.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-benefit-05",
+      "zh": "它適合描述失敗、誤會和出乎意料的發現，常見於故事、新聞、個人經歷、投訴信和正式敘述。",
+      "en": "It is suitable for failures, misunderstandings and unexpected discoveries in stories, news, personal experiences, complaint letters and formal narratives.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss268-benefit-06",
+      "zh": "它能在同一句先交代目的，再以 only to 說明真正結果，幫助分清目的和實際結果。",
+      "en": "It helps distinguish purpose from actual result by allowing a purpose first and then the real outcome with only to.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using main clause, only to + verb to express the unexpected result.",
+      "Preserve the original action, subject, tense and unexpected outcome. The first word is provided."
+    ],
+    "zh": [
+      "使用 main clause, only to + 動詞 改寫每題，以表達意料之外的結果。",
+      "保留原本行動、主語、時態和意外結果。每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss268-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "He rushed to the station, but when he arrived, he found that the train had left.",
+      "promptZh": "他趕往車站，但到達後卻發現火車已經開走了。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He rushed to the station, only to find that the train had left.",
+      "answerZh": "他趕往車站，結果卻發現火車已經開走了。",
+      "answerZhSource": "pdf",
+      "highlight": "He rushed to the station, only to find that the train had left."
+    },
+    {
+      "id": "ss268-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Lily opened the box, but it was empty.",
+      "promptZh": "莉莉打開盒子，但裏面是空的。",
+      "promptZhSource": "pdf",
+      "starter": "Lily",
+      "answer": "Lily opened the box, only to find it empty.",
+      "answerZh": "莉莉打開盒子，結果卻發現裏面是空的。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily opened the box, only to find it empty."
+    },
+    {
+      "id": "ss268-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I called the shop about my order, but a recorded message said that it had closed permanently.",
+      "promptZh": "我致電店舖查詢訂單，但錄音訊息表示店舖已永久結業。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I called the shop about my order, only to learn that it had closed permanently.",
+      "answerZh": "我致電店舖查詢訂單，結果卻得知店舖已永久結業。",
+      "answerZhSource": "pdf",
+      "highlight": "I called the shop about my order, only to learn that it had closed permanently."
+    },
+    {
+      "id": "ss268-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What happened after Ben turned on his computer? He was surprised to see a blank screen.",
+      "promptZh": "本開啟電腦後發生了甚麼事？他驚訝地看到一個空白畫面。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben turned on his computer, only to see a blank screen.",
+      "answerZh": "本開啟電腦，結果卻看到一個空白畫面。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben turned on his computer, only to see a blank screen."
+    },
+    {
+      "id": "ss268-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We reached the cinema, but discovered that all the tickets had sold out.",
+      "promptZh": "我們到達戲院，但卻發現所有門票都已售罄。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We reached the cinema, only to discover that all the tickets had sold out.",
+      "answerZh": "我們到達戲院，結果卻發現所有門票都已售罄。",
+      "answerZhSource": "pdf",
+      "highlight": "We reached the cinema, only to discover that all the tickets had sold out."
+    },
+    {
+      "id": "ss268-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah checked her pocket, but then realised that her key was missing.",
+      "promptZh": "莎拉檢查口袋，但隨後發現鑰匙不見了。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah checked her pocket, only to realise that her key was missing.",
+      "answerZh": "莎拉檢查口袋，結果卻發現鑰匙不見了。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah checked her pocket, only to realise that her key was missing."
+    },
+    {
+      "id": "ss268-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children ran outside, but found that it had started to rain.",
+      "promptZh": "孩子們跑到外面，但卻發現已經開始下雨。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children ran outside, only to find that it had started to rain.",
+      "answerZh": "孩子們跑到外面，結果卻發現已經開始下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "The children ran outside, only to find that it had started to rain."
+    },
+    {
+      "id": "ss268-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel saved the document, but the computer crashed and the file disappeared.",
+      "promptZh": "丹尼爾儲存了文件，但電腦突然當機，文件亦消失了。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel saved the document, only to lose it when the computer crashed.",
+      "answerZh": "丹尼爾儲存了文件，結果卻在電腦當機時失去了文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel saved the document, only to lose it when the computer crashed."
+    },
+    {
+      "id": "ss268-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Emma went to the library, but found that it was closed.",
+      "promptZh": "艾瑪去了圖書館，但卻發現圖書館沒有開門。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma went to the library, only to find that it was closed.",
+      "answerZh": "艾瑪去了圖書館，結果卻發現圖書館沒有開門。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma went to the library, only to find that it was closed."
+    },
+    {
+      "id": "ss268-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The boy chased the ball, but it rolled into the river before he could catch it.",
+      "promptZh": "男孩追着皮球，但在他接到之前，皮球滾進了河裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The boy chased the ball, only to see it roll into the river before he could catch it.",
+      "answerZh": "男孩追着皮球，結果卻看到皮球在他接到之前滾進河裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The boy chased the ball, only to see it roll into the river before he could catch it."
+    },
+    {
+      "id": "ss268-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What happened after Olivia had waited for thirty minutes? When she reached the counter, she was told that she had joined the wrong queue.",
+      "promptZh": "奧莉花等了三十分鐘後發生了甚麼事？她到達櫃檯時，卻被告知排錯了隊伍。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After waiting for thirty minutes, Olivia reached the counter, only to be told that she had joined the wrong queue.",
+      "answerZh": "等了三十分鐘後，奧莉花到達櫃檯，結果卻被告知排錯了隊伍。",
+      "answerZhSource": "pdf",
+      "highlight": "After waiting for thirty minutes, Olivia reached the counter, only to be told that she had joined the wrong queue."
+    },
+    {
+      "id": "ss268-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Tom travelled across town for the meeting, but discovered that it had been cancelled.",
+      "promptZh": "湯姆橫越市區前往開會，但卻發現會議已被取消。",
+      "promptZhSource": "pdf",
+      "starter": "Tom",
+      "answer": "Tom travelled across town for the meeting, only to discover that it had been cancelled.",
+      "answerZh": "湯姆橫越市區前往開會，結果卻發現會議已被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom travelled across town for the meeting, only to discover that it had been cancelled."
+    },
+    {
+      "id": "ss268-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team began celebrating because they thought the match was nearly over. However, they lost in the final minute.",
+      "promptZh": "球隊以為比賽快將結束，因此開始慶祝。然而，他們在最後一分鐘輸掉了比賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team began celebrating before the final whistle, only to lose the match in the final minute.",
+      "answerZh": "球隊在終場哨聲響起前開始慶祝，結果卻在最後一分鐘輸掉比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "The team began celebrating before the final whistle, only to lose the match in the final minute."
+    },
+    {
+      "id": "ss268-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Chloe followed the map carefully, but still arrived at the wrong building.",
+      "promptZh": "克洛伊小心按照地圖前進，但仍然去錯了大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe followed the map carefully, only to end up at the wrong building.",
+      "answerZh": "克洛伊小心按照地圖前進，結果卻去錯了大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe followed the map carefully, only to end up at the wrong building."
+    },
+    {
+      "id": "ss268-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I entered the password again, but the same error message appeared.",
+      "promptZh": "我再次輸入密碼，但相同的錯誤訊息又出現了。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I entered the password again, only to receive the same error message.",
+      "answerZh": "我再次輸入密碼，結果卻收到相同的錯誤訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "I entered the password again, only to receive the same error message."
+    },
+    {
+      "id": "ss268-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The visitors arrived at the museum expecting an ordinary visit, but learned that their tickets included a private tour.",
+      "promptZh": "訪客到達博物館時只預期一般參觀，但卻得知門票包括私人導賞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The visitors arrived at the museum, only to learn that their tickets included a private tour.",
+      "answerZh": "訪客到達博物館，竟得知門票包括私人導賞。",
+      "answerZhSource": "pdf",
+      "highlight": "The visitors arrived at the museum, only to learn that their tickets included a private tour."
+    },
+    {
+      "id": "ss268-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Jack opened the oven, but discovered that the cake had burnt.",
+      "promptZh": "傑克打開焗爐，但卻發現蛋糕已經燒焦了。",
+      "promptZhSource": "pdf",
+      "starter": "Jack",
+      "answer": "Jack opened the oven, only to find that the cake had burnt.",
+      "answerZh": "傑克打開焗爐，結果卻發現蛋糕已經燒焦。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack opened the oven, only to find that the cake had burnt."
+    },
+    {
+      "id": "ss268-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We hurried to the bus stop, but saw the bus pull away just as we got there.",
+      "promptZh": "我們趕往巴士站，但剛到達便看到巴士駛走。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We hurried to the bus stop, only to see the bus pull away just as we got there.",
+      "answerZh": "我們趕往巴士站，結果卻在剛到達時看到巴士駛走。",
+      "answerZhSource": "pdf",
+      "highlight": "We hurried to the bus stop, only to see the bus pull away just as we got there."
+    },
+    {
+      "id": "ss268-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The customer returned the faulty product expecting a refund, but was offered a voucher instead.",
+      "promptZh": "顧客退回有問題的產品，原本期望獲得退款，但店方卻只提供現金券。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer returned the faulty product, only to be offered a voucher instead of a refund.",
+      "answerZh": "顧客退回有問題的產品，結果卻只獲提供現金券，而不是退款。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer returned the faulty product, only to be offered a voucher instead of a refund."
+    },
+    {
+      "id": "ss268-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The students submitted their project, but the teacher asked them to rewrite it.",
+      "promptZh": "學生提交了專題習作，但老師卻要求他們重新撰寫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students submitted their project, only to be asked to rewrite it.",
+      "answerZh": "學生提交了專題習作，結果卻被要求重新撰寫。",
+      "answerZhSource": "pdf",
+      "highlight": "The students submitted their project, only to be asked to rewrite it."
+    },
+    {
+      "id": "ss268-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ava saved money for months and bought the new phone. A week later, she was disappointed to discover a serious fault.",
+      "promptZh": "艾娃存了幾個月的錢並買下新電話。一星期後，她失望地發現電話有嚴重問題。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having saved money for months, Ava bought the new phone, only to discover a serious fault a week later.",
+      "answerZh": "存了幾個月的錢後，艾娃買下新電話，結果卻在一星期後發現嚴重問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Having saved money for months, Ava bought the new phone, only to discover a serious fault a week later."
+    },
+    {
+      "id": "ss268-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did the driver regret taking a shortcut? He became stuck in even heavier traffic.",
+      "promptZh": "司機為甚麼後悔走捷徑？他遇上了更加嚴重的交通擠塞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The driver took a shortcut, only to get stuck in even heavier traffic.",
+      "answerZh": "司機走了捷徑，結果卻遇上更加嚴重的交通擠塞。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver took a shortcut, only to get stuck in even heavier traffic."
+    },
+    {
+      "id": "ss268-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "At the end of the long climb, we reached the top, but fog completely hid the view.",
+      "promptZh": "在漫長的攀登結束時，我們到達山頂，但霧完全遮住了景色。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the end of the long climb, we reached the top, only to find the view completely hidden by fog.",
+      "answerZh": "在漫長的攀登結束時，我們到達山頂，結果卻發現景色完全被霧遮住。",
+      "answerZhSource": "pdf",
+      "highlight": "At the end of the long climb, we reached the top, only to find the view completely hidden by fog."
+    },
+    {
+      "id": "ss268-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "On launch day, the company released its new website. Unexpectedly, it received hundreds of complaints.",
+      "promptZh": "公司在推出當日發布新網站，卻意外收到數百宗投訴。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On launch day, the company released its new website, only to receive hundreds of complaints.",
+      "answerZh": "公司在推出當日發布新網站，結果卻收到數百宗投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "On launch day, the company released its new website, only to receive hundreds of complaints."
+    },
+    {
+      "id": "ss268-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Henry carefully wrapped the parcel, but accidentally dropped it on the way to the post office.",
+      "promptZh": "亨利小心包好包裹，但前往郵政局途中卻意外把它掉在地上。",
+      "promptZhSource": "pdf",
+      "starter": "Henry",
+      "answer": "Henry carefully wrapped the parcel, only to drop it on the way to the post office.",
+      "answerZh": "亨利小心包好包裹，結果卻在前往郵政局途中把它掉在地上。",
+      "answerZhSource": "pdf",
+      "highlight": "Henry carefully wrapped the parcel, only to drop it on the way to the post office."
+    },
+    {
+      "id": "ss268-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The nurse checked the appointment list twice. To her surprise, the patient's name was missing.",
+      "promptZh": "護士檢查了預約名單兩次。令她意外的是，病人的名字並不在名單上。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse checked the appointment list twice, only to discover that the patient's name was missing.",
+      "answerZh": "護士檢查了預約名單兩次，結果卻發現病人的名字不在名單上。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse checked the appointment list twice, only to discover that the patient's name was missing."
+    },
+    {
+      "id": "ss268-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "They booked a quiet room, but discovered that construction work was taking place directly outside.",
+      "promptZh": "他們預訂了一間安靜的房間，但卻發現房間外面正在進行建築工程。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They booked a quiet room, only to find construction work taking place directly outside.",
+      "answerZh": "他們預訂了一間安靜的房間，結果卻發現房間外面正在進行建築工程。",
+      "answerZhSource": "pdf",
+      "highlight": "They booked a quiet room, only to find construction work taking place directly outside."
+    },
+    {
+      "id": "ss268-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Grace practised her speech for weeks, but forgot the first line when she stepped onto the stage.",
+      "promptZh": "格蕾絲練習演說多個星期，但踏上舞台時卻忘記了第一句。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace practised her speech for weeks, only to forget the first line when she stepped onto the stage.",
+      "answerZh": "格蕾絲練習演說多個星期，結果卻在踏上舞台時忘記了第一句。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace practised her speech for weeks, only to forget the first line when she stepped onto the stage."
+    },
+    {
+      "id": "ss268-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After the council repaired one section of the road, another section collapsed following a storm.",
+      "promptZh": "市政當局修復其中一段道路後，另一段道路卻在暴風雨後倒塌。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After repairing one section of the road, the council saw another section collapse following a storm.",
+      "answerZh": "市政當局修復其中一段道路後，卻看到另一段道路在暴風雨後倒塌。）Correct target answer:After repairing one section of the road, the council completed the work, only to seeanother section collapse following a storm.（市政當局修復其中一段道路並完成工程後，結果卻看到另一段道路在暴風雨後倒塌。",
+      "answerZhSource": "pdf",
+      "highlight": "After repairing one section of the road, the council saw another section collapse following a storm."
+    },
+    {
+      "id": "ss268-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I downloaded the file, but discovered that it was the wrong version.",
+      "promptZh": "我下載了文件，但卻發現這是錯誤的版本。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I downloaded the file, only to discover that it was the wrong version.",
+      "answerZh": "我下載了文件，結果卻發現這是錯誤的版本。",
+      "answerZhSource": "pdf",
+      "highlight": "I downloaded the file, only to discover that it was the wrong version."
+    },
+    {
+      "id": "ss268-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Some people queue for hours, but are refused entry when they finally reach the entrance.",
+      "promptZh": "有些人排隊多個小時，但最終到達入口時卻被拒絕進場。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some people queue for hours, only to be refused entry when they finally reach the entrance.",
+      "answerZh": "有些人排隊多個小時，結果卻在到達入口時被拒絕進場。",
+      "answerZhSource": "pdf",
+      "highlight": "Some people queue for hours, only to be refused entry when they finally reach the entrance."
+    },
+    {
+      "id": "ss268-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even when you follow every instruction carefully, you may still receive an unexpected error message.",
+      "promptZh": "即使你小心按照每項指示操作，仍有可能收到意料之外的錯誤訊息。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may follow every instruction carefully, only to receive an unexpected error message.",
+      "answerZh": "你可能小心按照每項指示操作，結果卻仍然收到意料之外的錯誤訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "You may follow every instruction carefully, only to receive an unexpected error message."
+    },
+    {
+      "id": "ss268-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Marcus returned to the café where he had left his bag, but learned that another customer had handed it to the police.",
+      "promptZh": "馬庫斯返回自己遺下袋子的咖啡店，但卻得知另一名顧客已把袋子交給警方。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus returned to the café where he had left his bag, only to learn that another customer had handed it to the police.",
+      "answerZh": "馬庫斯返回自己遺下袋子的咖啡店，結果卻得知另一名顧客已把袋子交給警方。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus returned to the café where he had left his bag, only to learn that another customer had handed it to the police."
+    },
+    {
+      "id": "ss268-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After driving all night, the family arrived at the hotel, but the staff had no record of their booking.",
+      "promptZh": "駕駛了一整晚後，這家人到達酒店，但職員卻找不到他們的訂房紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After driving all night, the family arrived at the hotel, only to find that the staff had no record of their booking.",
+      "answerZh": "駕駛了一整晚後，這家人到達酒店，結果卻發現職員找不到他們的訂房紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "After driving all night, the family arrived at the hotel, only to find that the staff had no record of their booking."
+    },
+    {
+      "id": "ss268-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager announced what appeared to be a simple change, but it created even more confusion.",
+      "promptZh": "經理宣布了一項看似簡單的改動，但結果卻引起更多混亂。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager announced what appeared to be a simple change, only to create even more confusion.",
+      "answerZh": "經理宣布了一項看似簡單的改動，結果卻引起更多混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager announced what appeared to be a simple change, only to create even more confusion."
+    },
+    {
+      "id": "ss268-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company promised a quick solution and sent a replacement. It then discovered that the replacement had the same fault.",
+      "promptZh": "公司承諾會迅速解決問題，並寄出替換產品，其後卻發現替換產品有相同故障。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having promised a quick solution, the company sent a replacement, only to discover that it had the same fault.",
+      "answerZh": "公司承諾會迅速解決問題並寄出替換產品，結果卻發現替換產品有相同故障。",
+      "answerZhSource": "pdf",
+      "highlight": "Having promised a quick solution, the company sent a replacement, only to discover that it had the same fault."
+    },
+    {
+      "id": "ss268-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At dawn, the rescue team reached the village, but was told that everyone had already left.",
+      "promptZh": "拯救隊在黎明時到達村莊，但卻被告知所有人都已經離開。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At dawn, the rescue team reached the village, only to be told that everyone had already left.",
+      "answerZh": "拯救隊在黎明時到達村莊，結果卻被告知所有人都已經離開。",
+      "answerZhSource": "pdf",
+      "highlight": "At dawn, the rescue team reached the village, only to be told that everyone had already left."
+    },
+    {
+      "id": "ss268-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The actor stepped onto the stage, but then realised that the microphone was not working.",
+      "promptZh": "演員踏上舞台，但隨後卻發現咪高峰不能運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The actor stepped onto the stage, only to realise that the microphone was not working.",
+      "answerZh": "演員踏上舞台，結果卻發現咪高峰不能運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The actor stepped onto the stage, only to realise that the microphone was not working."
+    },
+    {
+      "id": "ss268-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The researchers repeated the experiment, but obtained the same unclear result.",
+      "promptZh": "研究人員重複進行實驗，但所得結果仍然同樣不明確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researchers repeated the experiment, only to obtain the same unclear result.",
+      "answerZh": "研究人員重複進行實驗，結果卻得到同樣不明確的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers repeated the experiment, only to obtain the same unclear result."
+    },
+    {
+      "id": "ss268-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school installed the new software, but discovered that the older computers could not run it.",
+      "promptZh": "學校安裝了新軟件，但卻發現較舊的電腦無法運行該軟件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school installed the new software, only to find that the older computers could not run it.",
+      "answerZh": "學校安裝了新軟件，結果卻發現較舊的電腦無法運行該軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "The school installed the new software, only to find that the older computers could not run it."
+    },
+    {
+      "id": "ss268-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although Sofia had checked the address twice, she arrived at the building and discovered that her appointment was somewhere else.",
+      "promptZh": "雖然蘇菲亞已核對地址兩次，但她到達大樓後卻發現預約地點在另一處。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although Sofia had checked the address twice, she arrived at the building, only to discover that her appointment was somewhere else.",
+      "answerZh": "雖然蘇菲亞已核對地址兩次，但她到達大樓後，結果卻發現預約地點在另一處。",
+      "answerZhSource": "pdf",
+      "highlight": "Although Sofia had checked the address twice, she arrived at the building, only to discover that her appointment was somewhere else."
+    },
+    {
+      "id": "ss268-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Ethan spent the entire weekend repairing his bicycle, but the chain snapped during his first ride.",
+      "promptZh": "伊森花了整個週末維修單車，但車鏈卻在他第一次騎行時斷裂。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan spent the entire weekend repairing his bicycle, only to see the chain snap during his first ride.",
+      "answerZh": "伊森花了整個週末維修單車，結果卻看到車鏈在第一次騎行時斷裂。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan spent the entire weekend repairing his bicycle, only to see the chain snap during his first ride."
+    },
+    {
+      "id": "ss268-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What happened after the committee approved the proposal following a long debate? It learned that the funding had been withdrawn that morning.",
+      "promptZh": "委員會經過長時間辯論並批准建議後發生了甚麼事？委員會得知撥款已於當天早上被撤回。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After a long debate, the committee approved the proposal, only to learn that the funding had been withdrawn that morning.",
+      "answerZh": "經過長時間辯論後，委員會批准了建議，結果卻得知撥款已於當天早上被撤回。",
+      "answerZhSource": "pdf",
+      "highlight": "After a long debate, the committee approved the proposal, only to learn that the funding had been withdrawn that morning."
+    },
+    {
+      "id": "ss268-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I prepared all the documents and went to the visa centre, but the officer asked me for an additional form.",
+      "promptZh": "我準備好所有文件並前往簽證中心，但職員卻要求我提交另一份表格。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With all the documents prepared, I went to the visa centre, only to be asked for an additional form.",
+      "answerZh": "準備好所有文件後，我前往簽證中心，結果卻被要求提交另一份表格。",
+      "answerZhSource": "pdf",
+      "highlight": "With all the documents prepared, I went to the visa centre, only to be asked for an additional form."
+    },
+    {
+      "id": "ss268-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The passengers waited for a replacement service, but then heard that all the later trains had also been cancelled.",
+      "promptZh": "乘客等候替代服務，但隨後卻聽到所有較後班次的火車亦已取消。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The passengers waited for a replacement service, only to hear that all the later trains had also been cancelled.",
+      "answerZh": "乘客等候替代服務，結果卻聽到所有較後班次的火車亦已取消。",
+      "answerZhSource": "pdf",
+      "highlight": "The passengers waited for a replacement service, only to hear that all the later trains had also been cancelled."
+    },
+    {
+      "id": "ss268-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The restaurant changed its menu because it wanted to attract more customers, but the change upset many regular diners.",
+      "promptZh": "餐廳更改餐牌，希望吸引更多顧客，但這項改動卻令很多常客不滿。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To attract more customers, the restaurant changed its menu, only to upset many regular diners.",
+      "answerZh": "為了吸引更多顧客，餐廳更改餐牌，結果卻令很多常客不滿。",
+      "answerZhSource": "pdf",
+      "highlight": "To attract more customers, the restaurant changed its menu, only to upset many regular diners."
+    },
+    {
+      "id": "ss268-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After months of preparation, the organisers opened the event. A power cut then forced them to close it.",
+      "promptZh": "經過多個月的準備後，主辦單位讓活動正式開幕，但其後卻因停電而被迫關閉活動。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After months of preparation, the organisers opened the event, only to be forced to close it because of a power cut.",
+      "answerZh": "經過多個月的準備後，主辦單位讓活動正式開幕，結果卻因停電而被迫關閉活動。",
+      "answerZhSource": "pdf",
+      "highlight": "After months of preparation, the organisers opened the event, only to be forced to close it because of a power cut."
+    },
+    {
+      "id": "ss268-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The engineers worked through the night and repaired the system, but discovered a different fault when it restarted.",
+      "promptZh": "工程師通宵工作並修復系統，但系統重新啟動時，他們卻發現另一個故障。",
+      "promptZhSource": "pdf",
+      "starter": "Working",
+      "answer": "Working through the night, the engineers repaired the system, only to discover a different fault when it restarted.",
+      "answerZh": "工程師通宵工作並修復系統，結果卻在系統重新啟動時發現另一個故障。",
+      "answerZhSource": "pdf",
+      "highlight": "Working through the night, the engineers repaired the system, only to discover a different fault when it restarted."
+    },
+    {
+      "id": "ss268-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We thought that the problem had been solved, but received another complaint the following morning.",
+      "promptZh": "我們以為問題已經解決，但翌日早上卻收到另一宗投訴。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We thought that the problem had been solved, only to receive another complaint the following morning.",
+      "answerZh": "我們以為問題已經解決，結果卻在翌日早上收到另一宗投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "We thought that the problem had been solved, only to receive another complaint the following morning."
+    },
+    {
+      "id": "ss268-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The charity's driver carried supplies towards the remote village, but discovered that a landslide had blocked the final kilometre of the road.",
+      "promptZh": "慈善機構的司機把物資運往偏遠村莊，但卻發現山泥傾瀉已堵塞道路的最後一公里。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity's driver carried supplies towards the remote village, only to find that a landslide had blocked the final kilometre of the road.",
+      "answerZh": "慈善機構的司機把物資運往偏遠村莊，結果卻發現山泥傾瀉已堵塞道路的最後一公里。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity's driver carried supplies towards the remote village, only to find that a landslide had blocked the final kilometre of the road."
+    }
+  ]
+}

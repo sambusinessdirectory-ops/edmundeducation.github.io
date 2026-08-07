@@ -1,0 +1,1321 @@
+{
+  "id": "ss239",
+  "order": 239,
+  "slug": "so-not-clause-substitution",
+  "title": "「以 so ／ not 代替重複子句」",
+  "titleZh": "「以 so ／ not 代替重複子句」",
+  "titleEn": "Substitution with so / not",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Stucture 238 -「以 so _ not 代替重複子句」.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exercisePages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerPages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+      "The source filename is numbered 238; it is assigned system ID ss239 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Subject + think / believe / suppose / imagine + so",
+  "formulas": [
+    {
+      "id": "ss239-formula-01",
+      "labelEn": "Affirmative idea",
+      "labelZh": "肯定意思",
+      "formula": "Subject + think / believe / suppose / imagine + so"
+    },
+    {
+      "id": "ss239-formula-02",
+      "labelEn": "Negative opinion",
+      "labelZh": "否定意見",
+      "formula": "Subject + do / does / did not + think / believe + so"
+    },
+    {
+      "id": "ss239-formula-03",
+      "labelEn": "With hope",
+      "labelZh": "與 hope 連用",
+      "formula": "Subject + hope + so / not"
+    },
+    {
+      "id": "ss239-formula-04",
+      "labelEn": "With be afraid",
+      "labelZh": "與 be afraid 連用",
+      "formula": "Subject + be afraid + so / not"
+    },
+    {
+      "id": "ss239-formula-05",
+      "labelEn": "With seem or appear",
+      "labelZh": "與 seem 或 appear 連用",
+      "formula": "It + seems / appears + so"
+    },
+    {
+      "id": "ss239-formula-06",
+      "labelEn": "With an adverb",
+      "labelZh": "與副詞連用",
+      "formula": "Perhaps / Maybe / Probably / Apparently + so / not"
+    },
+    {
+      "id": "ss239-formula-07",
+      "labelEn": "Conditional",
+      "labelZh": "條件句",
+      "formula": "If so / If not, + complete clause"
+    },
+    {
+      "id": "ss239-formula-08",
+      "labelEn": "After say",
+      "labelZh": "與 say 連用",
+      "formula": "Subject + say / says / said + so"
+    },
+    {
+      "id": "ss239-formula-09",
+      "labelEn": "After tell",
+      "labelZh": "與 tell 連用",
+      "formula": "Subject + tell + object + so"
+    },
+    {
+      "id": "ss239-formula-10",
+      "labelEn": "Careful reporting",
+      "labelZh": "審慎報述",
+      "formula": "Statement, or so + subject + reporting verb"
+    }
+  ],
+  "example": "Is the library still open? I think so.",
+  "exampleZh": "圖書館仍然開放嗎？我想是這樣。",
+  "examples": [
+    {
+      "id": "ss239-example-01",
+      "en": "Is the library still open? I think so.",
+      "zh": "圖書館仍然開放嗎？我想是這樣。",
+      "highlight": "Is the library still open? I think so."
+    },
+    {
+      "id": "ss239-example-02",
+      "en": "Will it rain tomorrow? I hope not.",
+      "zh": "明天會下雨嗎？我希望不會。",
+      "highlight": "Will it rain tomorrow? I hope not."
+    },
+    {
+      "id": "ss239-example-03",
+      "en": "Check whether the printer is connected. If so, restart the computer.",
+      "zh": "檢查打印機是否已連接。如已連接，重新啟動電腦。",
+      "highlight": "Check whether the printer is connected. If so, restart the computer."
+    },
+    {
+      "id": "ss239-example-04",
+      "en": "The new system is secure, or so the company claims.",
+      "zh": "新系統是安全的，至少公司是這樣聲稱的。",
+      "highlight": "The new system is secure, or so the company claims."
+    }
+  ],
+  "meaning": {
+    "zh": "當前文已清楚說明某個想法時，so 可以代替肯定子句或意思，not 可以代替否定子句或意思。"
+  },
+  "rules": [
+    {
+      "id": "ss239-rule-01",
+      "zh": "本課的 so 和 not 代替完整子句或想法，而不是普通名詞。",
+      "en": "So and not replace a whole clause or idea in this lesson; they cannot replace an ordinary object such as a book, bag or ticket.",
+      "enSource": "pdf",
+      "examples": [
+        "Will Anna attend the meeting? I think so.",
+        "Incorrect: I bought so."
+      ]
+    },
+    {
+      "id": "ss239-rule-02",
+      "zh": "前文意思必須清楚，讓讀者或聽者知道 so 或 not 所指的是哪個完整意思。",
+      "en": "The earlier idea must be clear so that the reader or listener can identify exactly what so or not replaces.",
+      "enSource": "pdf",
+      "examples": [
+        "Will the shop open tomorrow? I think so."
+      ]
+    },
+    {
+      "id": "ss239-rule-03",
+      "zh": "not 不能直接跟隨所有動詞。I hope not、I suppose not 和 I am afraid not 很自然；一般應說 I do not believe so 或 I do not imagine so。",
+      "en": "Not cannot follow every verb directly. I hope not, I suppose not and I am afraid not are natural, whereas ordinary English normally uses I do not believe so or I do not imagine so.",
+      "enSource": "pdf",
+      "examples": [
+        "I hope not.",
+        "I do not believe so."
+      ]
+    },
+    {
+      "id": "ss239-rule-04",
+      "zh": "一般不使用 know so；應說 I know that it is true、I know it 或 I know this。",
+      "en": "Do not normally use know so. Say I know that it is true, I know it or I know this instead.",
+      "enSource": "pdf",
+      "examples": [
+        "I know that it is true.",
+        "I know it."
+      ]
+    },
+    {
+      "id": "ss239-rule-05",
+      "zh": "普通否定意見通常保留 think so，說 I do not think so；I think not 雖可見於正式或強調語境，但不是本課主要形式。",
+      "en": "Keep think so after the negative auxiliary in ordinary English: I do not think so is the main pattern. I think not is possible but sounds more formal or emphatic.",
+      "enSource": "pdf",
+      "examples": [
+        "I do not think so."
+      ]
+    },
+    {
+      "id": "ss239-rule-06",
+      "zh": "不要把本課代替子句的 so 與 so tired、so that、So do I、表示結果的 so 或 do so 混淆。",
+      "en": "Do not confuse substitution so with degree so, purpose so that, agreement So do I, result so or the pro-form do so. Only so replacing an earlier clause or idea is the target.",
+      "enSource": "pdf",
+      "examples": [
+        "I think so.",
+        "Outside target: So do I."
+      ]
+    },
+    {
+      "id": "ss239-rule-07",
+      "zh": "不要把代替否定子句的 not 與普通否定混淆；在 I am afraid not 中，not 代替完整否定意思。",
+      "en": "Do not confuse substitution not with ordinary negation. In I am afraid not, not replaces the complete negative idea rather than simply modifying one following word.",
+      "enSource": "pdf",
+      "examples": [
+        "Is the door open? I am afraid not."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss239-benefit-01",
+      "zh": "只用一個簡短字代替完整重複意思，能避免不必要的重複。",
+      "en": "It prevents unnecessary repetition by replacing a complete repeated clause with one short word.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss239-benefit-02",
+      "zh": "I think so、I hope not 和 I am afraid so 等常用框架令短答更流利自然。",
+      "en": "It makes short answers sound fluent through common ready-made responses such as I think so, I hope not and I am afraid so.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss239-benefit-03",
+      "zh": "so 或 not 前的 think、hope、suppose、be afraid 或 certainly 等詞能顯示意見、希望、疑問、壞消息或確定判斷。",
+      "en": "It helps show the speaker’s attitude, including opinion, hope, doubt, unwelcome news or a confident judgement.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss239-benefit-04",
+      "zh": "If so 和 If not 能清楚連接兩種條件及相應做法，而不必重複完整條件。",
+      "en": "It connects conditions clearly: if so and if not introduce different instructions without repeating the complete condition.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss239-benefit-05",
+      "zh": "目標詞可出現在短答、句首條件、較長句子中間、問句或報述動詞後，增加句式變化。",
+      "en": "It gives more varied sentence structures because the substitute may appear in a response, a condition, a longer sentence, a question or after a reporting verb.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss239-benefit-06",
+      "zh": "or so + 報述動詞能審慎轉述別人的聲稱，而不必完全確認其真確性。",
+      "en": "Or so + reporting verb helps report another person’s claim carefully without fully confirming that it is true.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+    "The source filename is numbered 238; it is assigned system ID ss239 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or exchange using so or not to replace the repeated clause or idea.",
+      "Preserve all other important information.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 so 或 not 改寫以下句子或對話，以代替重複的子句或意思。",
+      "保留其他所有重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss239-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Is the library still open? I think the library is still open.",
+      "promptZh": "圖書館仍然開放嗎？我認為圖書館仍然開放。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the library still open? I think so.",
+      "answerZh": "圖書館仍然開放嗎？我想是這樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Is the library still open? I think so."
+    },
+    {
+      "id": "ss239-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Will our team win the final? I hope our team will win the final.",
+      "promptZh": "我們的球隊會在決賽中勝出嗎？我希望我們的球隊會勝出。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will our team win the final? I hope so.",
+      "answerZh": "我們的球隊會在決賽中勝出嗎？我希望會。",
+      "answerZhSource": "pdf",
+      "highlight": "Will our team win the final? I hope so."
+    },
+    {
+      "id": "ss239-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Has the bus left? I do not think the bus has left.",
+      "promptZh": "巴士已經開走了嗎？我認為巴士還沒有開走。",
+      "promptZhSource": "pdf",
+      "starter": "Has",
+      "answer": "Has the bus left? I do not think so.",
+      "answerZh": "巴士已經開走了嗎？我想還沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "Has the bus left? I do not think so."
+    },
+    {
+      "id": "ss239-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Will it rain tomorrow? I hope it will not rain tomorrow.",
+      "promptZh": "明天會下雨嗎？我希望明天不會下雨。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will it rain tomorrow? I hope not.",
+      "answerZh": "明天會下雨嗎？我希望不會。",
+      "answerZhSource": "pdf",
+      "highlight": "Will it rain tomorrow? I hope not."
+    },
+    {
+      "id": "ss239-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Did we miss the last train? I am afraid we did miss it.",
+      "promptZh": "我們錯過尾班車了嗎？恐怕我們確實錯過了。",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did we miss the last train? I am afraid so.",
+      "answerZh": "我們錯過尾班車了嗎？恐怕是的。",
+      "answerZhSource": "pdf",
+      "highlight": "Did we miss the last train? I am afraid so."
+    },
+    {
+      "id": "ss239-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Can we enter the hall now? I am afraid we cannot enter it now.",
+      "promptZh": "我們現在可以進入禮堂嗎？恐怕我們現在不可以進入。",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can we enter the hall now? I am afraid not.",
+      "answerZh": "我們現在可以進入禮堂嗎？恐怕不可以。",
+      "answerZhSource": "pdf",
+      "highlight": "Can we enter the hall now? I am afraid not."
+    },
+    {
+      "id": "ss239-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Is the lift working again? It seems that the lift is working again.",
+      "promptZh": "升降機恢復運作了嗎？看來升降機已恢復運作。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the lift working again? It seems so.",
+      "answerZh": "升降機恢復運作了嗎？看來是。",
+      "answerZhSource": "pdf",
+      "highlight": "Is the lift working again? It seems so."
+    },
+    {
+      "id": "ss239-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The last train leaves at eleven. The timetable says that the last train leaves at eleven.",
+      "promptZh": "尾班車十一時開出。時間表寫明尾班車十一時開出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last train leaves at eleven. The timetable says so.",
+      "answerZh": "尾班車十一時開出。時間表是這樣寫的。",
+      "answerZhSource": "pdf",
+      "highlight": "The last train leaves at eleven. The timetable says so."
+    },
+    {
+      "id": "ss239-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Is Mia joining us for lunch? I suppose Mia is joining us.",
+      "promptZh": "米婭會和我們一起吃午餐嗎？我想米婭會參加。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is Mia joining us for lunch? I suppose so.",
+      "answerZh": "米婭會和我們一起吃午餐嗎？我想是吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Is Mia joining us for lunch? I suppose so."
+    },
+    {
+      "id": "ss239-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Is Leo free this afternoon? I suppose Leo is not free this afternoon.",
+      "promptZh": "里奧今天下午有空嗎？我想里奧今天下午沒有空。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is Leo free this afternoon? I suppose not.",
+      "answerZh": "里奧今天下午有空嗎？我想他沒有空吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Is Leo free this afternoon? I suppose not."
+    },
+    {
+      "id": "ss239-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Will the parcel arrive today? The courier thinks that it will arrive today.",
+      "promptZh": "包裹今天會送到嗎？速遞員認為包裹今天會送到。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the parcel arrive today? The courier thinks so.",
+      "answerZh": "包裹今天會送到嗎？速遞員認為會。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the parcel arrive today? The courier thinks so."
+    },
+    {
+      "id": "ss239-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Will classes resume on Monday? The school believes that they will resume on Monday.",
+      "promptZh": "課堂會在星期一恢復嗎？校方相信課堂會在星期一恢復。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will classes resume on Monday? The school believes so.",
+      "answerZh": "課堂會在星期一恢復嗎？校方相信會。",
+      "answerZhSource": "pdf",
+      "highlight": "Will classes resume on Monday? The school believes so."
+    },
+    {
+      "id": "ss239-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Is the answer correct? Nobody thinks that the answer is correct.",
+      "promptZh": "答案正確嗎？沒有人認為答案正確。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the answer correct? Nobody thinks so.",
+      "answerZh": "答案正確嗎？沒有人這樣認為。",
+      "answerZhSource": "pdf",
+      "highlight": "Is the answer correct? Nobody thinks so."
+    },
+    {
+      "id": "ss239-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The room is available this afternoon. The receptionist says that it is available this afternoon.",
+      "promptZh": "房間今天下午可以使用。接待員說房間今天下午可以使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room is available this afternoon. The receptionist says so.",
+      "answerZh": "房間今天下午可以使用。接待員是這樣說的。",
+      "answerZhSource": "pdf",
+      "highlight": "The room is available this afternoon. The receptionist says so."
+    },
+    {
+      "id": "ss239-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Will the weather improve before the event? We imagine that it will improve.",
+      "promptZh": "活動開始前天氣會好轉嗎？我們想天氣應該會好轉。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the weather improve before the event? We imagine so.",
+      "answerZh": "活動開始前天氣會好轉嗎？我們想應該會。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the weather improve before the event? We imagine so."
+    },
+    {
+      "id": "ss239-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Can the plan succeed without more funding? The experts do not believe that it can succeed.",
+      "promptZh": "這個計劃能在沒有更多資金的情況下成功嗎？專家不相信它能夠成功。",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can the plan succeed without more funding? The experts do not believe so.",
+      "answerZh": "這個計劃能在沒有更多資金的情況下成功嗎？專家並不這樣認為。",
+      "answerZhSource": "pdf",
+      "highlight": "Can the plan succeed without more funding? The experts do not believe so."
+    },
+    {
+      "id": "ss239-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Will the outdoor concert continue? The organisers hope that it will continue.",
+      "promptZh": "戶外音樂會會繼續舉行嗎？主辦單位希望音樂會會繼續舉行。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the outdoor concert continue? The organisers hope so.",
+      "answerZh": "戶外音樂會會繼續舉行嗎？主辦單位希望會。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the outdoor concert continue? The organisers hope so."
+    },
+    {
+      "id": "ss239-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Will the match be cancelled? The players hope that it will not be cancelled.",
+      "promptZh": "比賽會被取消嗎？球員希望比賽不會被取消。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the match be cancelled? The players hope not.",
+      "answerZh": "比賽會被取消嗎？球員希望不會。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the match be cancelled? The players hope not."
+    },
+    {
+      "id": "ss239-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Did the alarm cause the problem? The engineer thinks that it did.",
+      "promptZh": "警報器造成了這個問題嗎？工程師認為是警報器造成的。",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did the alarm cause the problem? The engineer thinks so.",
+      "answerZh": "警報器造成了這個問題嗎？工程師認為是。",
+      "answerZhSource": "pdf",
+      "highlight": "Did the alarm cause the problem? The engineer thinks so."
+    },
+    {
+      "id": "ss239-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Is this medicine safe for children? The doctor does not think that it is safe for children.",
+      "promptZh": "這種藥物對兒童安全嗎？醫生認為它對兒童並不安全。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is this medicine safe for children? The doctor does not think so.",
+      "answerZh": "這種藥物對兒童安全嗎？醫生認為並不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Is this medicine safe for children? The doctor does not think so."
+    },
+    {
+      "id": "ss239-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Check whether the printer is connected. If the printer is connected, restart the computer.",
+      "promptZh": "檢查打印機是否已連接。如打印機已連接，重新啟動電腦。",
+      "promptZhSource": "pdf",
+      "starter": "Check",
+      "answer": "Check whether the printer is connected. If so, restart the computer.",
+      "answerZh": "檢查打印機是否已連接。如已連接，重新啟動電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Check whether the printer is connected. If so, restart the computer."
+    },
+    {
+      "id": "ss239-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Find out whether the meeting room has been booked. If it has not been booked, reserve it.",
+      "promptZh": "查明會議室是否已被預訂。如尚未被預訂，便把它預訂下來。",
+      "promptZhSource": "pdf",
+      "starter": "Find",
+      "answer": "Find out whether the meeting room has been booked. If not, reserve it.",
+      "answerZh": "查明會議室是否已被預訂。如尚未被預訂，便把它預訂下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Find out whether the meeting room has been booked. If not, reserve it."
+    },
+    {
+      "id": "ss239-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Does the shop offer refunds? Perhaps the shop does offer refunds.",
+      "promptZh": "這間店舖提供退款嗎？也許它確實提供退款。",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does the shop offer refunds? Perhaps so.",
+      "answerZh": "這間店舖提供退款嗎？也許有。",
+      "answerZhSource": "pdf",
+      "highlight": "Does the shop offer refunds? Perhaps so."
+    },
+    {
+      "id": "ss239-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Will the road reopen tonight? It probably will reopen tonight.",
+      "promptZh": "道路今晚會重開嗎？它很可能會在今晚重開。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the road reopen tonight? Probably so.",
+      "answerZh": "道路今晚會重開嗎？很可能會。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the road reopen tonight? Probably so."
+    },
+    {
+      "id": "ss239-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Is the rumour true? Apparently the rumour is not true.",
+      "promptZh": "這個傳聞是真的嗎？看來這個傳聞並不是真的。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the rumour true? Apparently not.",
+      "answerZh": "這個傳聞是真的嗎？看來不是。",
+      "answerZhSource": "pdf",
+      "highlight": "Is the rumour true? Apparently not."
+    },
+    {
+      "id": "ss239-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Could the figures be wrong? Maybe the figures are wrong.",
+      "promptZh": "這些數字可能是錯的嗎？也許這些數字確實有錯。",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could the figures be wrong? Maybe so.",
+      "answerZh": "這些數字可能是錯的嗎？也許是。",
+      "answerZhSource": "pdf",
+      "highlight": "Could the figures be wrong? Maybe so."
+    },
+    {
+      "id": "ss239-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Will the meeting end early? Maybe the meeting will not end early.",
+      "promptZh": "會議會提早結束嗎？也許會議不會提早結束。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the meeting end early? Maybe not.",
+      "answerZh": "會議會提早結束嗎？也許不會。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the meeting end early? Maybe not."
+    },
+    {
+      "id": "ss239-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Can students use phones during the test? They certainly cannot use phones during the test.",
+      "promptZh": "學生可以在測驗期間使用電話嗎？他們當然不可以在測驗期間使用電話。",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can students use phones during the test? Certainly not.",
+      "answerZh": "學生可以在測驗期間使用電話嗎？當然不可以。",
+      "answerZhSource": "pdf",
+      "highlight": "Can students use phones during the test? Certainly not."
+    },
+    {
+      "id": "ss239-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Is the water safe to drink? Apparently the water is safe to drink.",
+      "promptZh": "這些水可以安全飲用嗎？看來這些水可以安全飲用。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the water safe to drink? Apparently so.",
+      "answerZh": "這些水可以安全飲用嗎？看來是。",
+      "answerZhSource": "pdf",
+      "highlight": "Is the water safe to drink? Apparently so."
+    },
+    {
+      "id": "ss239-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Will the project fail because of one delay? Surely it will not fail because of one delay.",
+      "promptZh": "這個項目會因一次延誤而失敗嗎？它應該不會只因一次延誤而失敗吧。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the project fail because of one delay? Surely not.",
+      "answerZh": "這個項目會因一次延誤而失敗嗎？應該不會吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the project fail because of one delay? Surely not."
+    },
+    {
+      "id": "ss239-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Why do you think the new rule is unfair?",
+      "promptZh": "你為甚麼認為新規則不公平？",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why do you think so?",
+      "answerZh": "你為甚麼這樣認為？",
+      "answerZhSource": "pdf",
+      "highlight": "Why do you think so?"
+    },
+    {
+      "id": "ss239-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Do you really believe that the message is false?",
+      "promptZh": "你真的相信這則訊息是假的嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you really believe so?",
+      "answerZh": "你真的相信是這樣嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you really believe so?"
+    },
+    {
+      "id": "ss239-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Who told you that the office had moved?",
+      "promptZh": "誰告訴你辦公室已經搬遷？",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who told you so?",
+      "answerZh": "誰告訴你這件事的？",
+      "answerZhSource": "pdf",
+      "highlight": "Who told you so?"
+    },
+    {
+      "id": "ss239-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "I told you that the road would be crowded.",
+      "promptZh": "我告訴過你這條路會很擠塞。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I told you so.",
+      "answerZh": "我早就告訴過你了。",
+      "answerZhSource": "pdf",
+      "highlight": "I told you so."
+    },
+    {
+      "id": "ss239-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "We may leave early if the manager gives us permission to leave early.",
+      "promptZh": "若經理批准我們提早離開，我們便可以提早離開。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We may leave early if the manager says so.",
+      "answerZh": "若經理這樣說，我們便可以提早離開。",
+      "answerZhSource": "pdf",
+      "highlight": "We may leave early if the manager says so."
+    },
+    {
+      "id": "ss239-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Will the plan work? I think it will work, but we should check the costs.",
+      "promptZh": "這個計劃會成功嗎？我想它會成功，但我們應該檢查成本。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the plan work? I think so, but we should check the costs.",
+      "answerZh": "這個計劃會成功嗎？我想會，但我們應該檢查成本。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the plan work? I think so, but we should check the costs."
+    },
+    {
+      "id": "ss239-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Will the patient recover? I hope the patient will recover, although it may take time.",
+      "promptZh": "病人會康復嗎？我希望病人會康復，雖然可能需要一些時間。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the patient recover? I hope so, although it may take time.",
+      "answerZh": "病人會康復嗎？我希望會，雖然可能需要一些時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the patient recover? I hope so, although it may take time."
+    },
+    {
+      "id": "ss239-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Did we miss the deadline? I am afraid we did, because the form was sent late.",
+      "promptZh": "我們錯過截止日期了嗎？恐怕是的，因為表格遲了寄出。",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did we miss the deadline? I am afraid so, because the form was sent late.",
+      "answerZh": "我們錯過截止日期了嗎？恐怕是的，因為表格遲了寄出。",
+      "answerZhSource": "pdf",
+      "highlight": "Did we miss the deadline? I am afraid so, because the form was sent late."
+    },
+    {
+      "id": "ss239-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Is the café still open? I do not think it is still open, but I can check.",
+      "promptZh": "咖啡店仍然營業嗎？我想它已經沒有營業，但我可以查一查。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the café still open? I do not think so, but I can check.",
+      "answerZh": "咖啡店仍然營業嗎？我想沒有，但我可以查一查。",
+      "answerZhSource": "pdf",
+      "highlight": "Is the café still open? I do not think so, but I can check."
+    },
+    {
+      "id": "ss239-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Will the delay affect the event? I hope it will not affect the event, because many guests are travelling.",
+      "promptZh": "延誤會影響活動嗎？我希望不會，因為很多嘉賓正在前來。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the delay affect the event? I hope not, because many guests are travelling.",
+      "answerZh": "延誤會影響活動嗎？我希望不會，因為很多嘉賓正在前來。",
+      "answerZhSource": "pdf",
+      "highlight": "Will the delay affect the event? I hope not, because many guests are travelling."
+    },
+    {
+      "id": "ss239-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The new system is secure, or at least the company claims that the new system is secure.",
+      "promptZh": "新系統是安全的，至少公司聲稱新系統是安全的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system is secure, or so the company claims.",
+      "answerZh": "新系統是安全的，至少公司是這樣聲稱的。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system is secure, or so the company claims."
+    },
+    {
+      "id": "ss239-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The train will arrive on time, or at least the station announcement says that it will arrive on time.",
+      "promptZh": "火車會準時到達，至少車站廣播說火車會準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train will arrive on time, or so the station announcement says.",
+      "answerZh": "火車會準時到達，至少車站廣播是這樣說的。",
+      "answerZhSource": "pdf",
+      "highlight": "The train will arrive on time, or so the station announcement says."
+    },
+    {
+      "id": "ss239-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The problem has been solved, or that is what the technician believes.",
+      "promptZh": "問題已經解決，至少技術員是這樣認為的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem has been solved, or so the technician believes.",
+      "answerZh": "問題已經解決，至少技術員是這樣認為的。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem has been solved, or so the technician believes."
+    },
+    {
+      "id": "ss239-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The policy will reduce costs, or that is what its supporters expect.",
+      "promptZh": "這項政策會降低成本，至少它的支持者是這樣預期的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy will reduce costs, or so its supporters expect.",
+      "answerZh": "這項政策會降低成本，至少它的支持者是這樣預期的。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy will reduce costs, or so its supporters expect."
+    },
+    {
+      "id": "ss239-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "First check whether the figures are accurate. If the figures are accurate, the company made a profit last quarter. If the figures are not accurate, we need another review.",
+      "promptZh": "首先檢查這些數字是否準確。如數字準確，公司上季錄得盈利；如數字不準確，我們便需要再次審查。",
+      "promptZhSource": "pdf",
+      "starter": "First",
+      "answer": "First check whether the figures are accurate. If so, the company made a profit last quarter. If not, we need another review.",
+      "answerZh": "首先檢查這些數字是否準確。如數字準確，公司上季錄得盈利；如數字不準確，我們便需要再次審查。",
+      "answerZhSource": "pdf",
+      "highlight": "First check whether the figures are accurate. If so, the company made a profit last quarter. If not, we need another review."
+    },
+    {
+      "id": "ss239-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The public may support the plan. If the public supports it, the council can continue with the project.",
+      "promptZh": "公眾可能支持這個計劃。如公眾支持，市議會便可以繼續推行這個項目。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public may support the plan. If so, the council can continue with the project.",
+      "answerZh": "公眾可能支持這個計劃。如公眾支持，市議會便可以繼續推行這個項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The public may support the plan. If so, the council can continue with the project."
+    },
+    {
+      "id": "ss239-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The door should be unlocked. If the door is not unlocked, call security.",
+      "promptZh": "門應該已經解鎖。如門尚未解鎖，請致電保安人員。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The door should be unlocked. If not, call security.",
+      "answerZh": "門應該已經解鎖。如尚未解鎖，請致電保安人員。",
+      "answerZhSource": "pdf",
+      "highlight": "The door should be unlocked. If not, call security."
+    },
+    {
+      "id": "ss239-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Had the booking been confirmed? I assumed that it had been confirmed, but now I am unsure.",
+      "promptZh": "預訂已經確認了嗎？我原本以為已經確認，但現在不肯定。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the booking been confirmed? I assumed so, but now I am unsure.",
+      "answerZh": "預訂已經確認了嗎？我原本以為已經確認，但現在不肯定。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the booking been confirmed? I assumed so, but now I am unsure."
+    },
+    {
+      "id": "ss239-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Did the treatment work? The researchers believe that it did, although more evidence is needed.",
+      "promptZh": "治療有效嗎？研究人員相信治療有效，雖然仍需要更多證據。",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did the treatment work? The researchers believe so, although more evidence is needed.",
+      "answerZh": "治療有效嗎？研究人員相信有效，雖然仍需要更多證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Did the treatment work? The researchers believe so, although more evidence is needed."
+    },
+    {
+      "id": "ss239-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Is the estimate realistic? Few experts think that the estimate is realistic.",
+      "promptZh": "這項估算符合現實嗎？很少專家認為這項估算符合現實。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the estimate realistic? Few experts think so.",
+      "answerZh": "這項估算符合現實嗎？很少專家這樣認為。",
+      "answerZhSource": "pdf",
+      "highlight": "Is the estimate realistic? Few experts think so."
+    }
+  ]
+}

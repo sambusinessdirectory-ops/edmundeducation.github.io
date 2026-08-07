@@ -4,7 +4,7 @@ import {
   EXECUTABLE_GRAMMAR_FAMILIES,
   EXECUTABLE_GRAMMAR_PATTERNS,
   EXECUTABLE_GRAMMAR_VERSION
-} from "./writing-submission-executable-grammar.generated.js?v=20260802-grammar5";
+} from "./writing-submission-executable-grammar.generated.js?v=20260803-grammar6";
 
 export {
   EXECUTABLE_GRAMMAR_COUNTS,
@@ -196,6 +196,18 @@ function replacementIsAlreadyPresent(source, start, pattern) {
 
 function preserveLeadingCase(original, replacement, template) {
   if (!replacement || !original) return replacement;
+  const originalLetters = [...original].filter((character) => /\p{L}/u.test(character));
+  const templateLetters = [...template].filter((character) => /\p{L}/u.test(character));
+  const originalCasedLetters = originalLetters.filter((character) => (
+    character.toLocaleLowerCase("en-GB") !== character.toLocaleUpperCase("en-GB")
+  ));
+  if (
+    originalCasedLetters.length
+    && originalCasedLetters.every((character) => character === character.toLocaleUpperCase("en-GB"))
+    && templateLetters.some((character) => character === character.toLocaleLowerCase("en-GB"))
+  ) {
+    return replacement.toLocaleUpperCase("en-GB");
+  }
   const originalLetter = original.match(/\p{L}/u)?.[0] || "";
   const templateLetter = template.match(/\p{L}/u)?.[0] || "";
   const replacementLetter = replacement.match(/\p{L}/u)?.[0] || "";

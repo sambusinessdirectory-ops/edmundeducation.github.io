@@ -1,0 +1,1243 @@
+{
+  "id": "ss273",
+  "order": 273,
+  "slug": "it-remains-unclear-whether",
+  "title": "「It remains unclear whether + clause」表示「某事仍未能確定」",
+  "titleZh": "「It remains unclear whether + 子句」表示「某事仍未能確定」",
+  "titleEn": "Using “It remains unclear whether” for unresolved questions",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 272 - 「It remains unclear whether + clause」表示「某事仍未能確定」.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 272; it is assigned system ID ss273 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It + remains + unclear + whether + complete clause",
+  "formulas": [
+    {
+      "id": "ss273-formula-01",
+      "labelEn": "Present uncertainty",
+      "labelZh": "目前仍未確定",
+      "formula": "It remains unclear whether + clause"
+    },
+    {
+      "id": "ss273-formula-02",
+      "labelEn": "Past uncertainty",
+      "labelZh": "過去仍未確定",
+      "formula": "It remained unclear whether + clause"
+    },
+    {
+      "id": "ss273-formula-03",
+      "labelEn": "Modal or future uncertainty",
+      "labelZh": "情態或未來形式",
+      "formula": "It may / might / will / would remain unclear whether + clause"
+    },
+    {
+      "id": "ss273-formula-04",
+      "labelEn": "Two alternatives",
+      "labelZh": "兩個選項",
+      "formula": "It remains unclear whether + alternative A + or + alternative B"
+    },
+    {
+      "id": "ss273-formula-05",
+      "labelEn": "Inside a reporting structure",
+      "labelZh": "放在引述結構內",
+      "formula": "Subject + reporting verb + that + it remains unclear whether + clause"
+    }
+  ],
+  "example": "It remains unclear whether the decline will continue.",
+  "exampleZh": "目前仍未能確定跌幅會否持續。",
+  "examples": [
+    {
+      "id": "ss273-example-01",
+      "en": "It remains unclear whether the decline will continue.",
+      "zh": "目前仍未能確定跌幅會否持續。",
+      "highlight": "It remains unclear whether the decline will continue."
+    }
+  ],
+  "meaning": {
+    "zh": "當現有資料仍不足以對一個是非問題作出明確答案時，這個句型客觀指出不確定情況仍然持續。"
+  },
+  "rules": [
+    {
+      "id": "ss273-rule-01",
+      "zh": "後面使用陳述句語序，不使用問句倒裝語序。",
+      "en": "Use statement word order after whether: “whether the plan will work”, not “whether will the plan work.”",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-rule-02",
+      "zh": "後面必須接完整子句，通常包括主語和動詞。",
+      "en": "A complete clause with its own subject and verb must follow whether.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-rule-03",
+      "zh": "這句表示結果仍未能確定，並不表示失敗的可能性較高。",
+      "en": "Unclear means that the answer is not yet known; it does not mean that a negative outcome is more likely.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-rule-04",
+      "zh": "表示現在未能確定。 It remains unclear whether the decline will continue. 表示經過一段時間、討論或研究後，仍然未能確定。 Remains 強調不確定情況一直持續至今。",
+      "en": "Remains marks continuing uncertainty after time, discussion or investigation, rather than merely stating that something is unclear now.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-rule-05",
+      "zh": "原句描述過去情況，因此答案使用 remained，並保留 had started。",
+      "en": "Preserve tense and modality. Past uncertainty normally takes remained, and the whether-clause keeps the source sentence's time relationship.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-rule-06",
+      "zh": "在部分日常句子中，if 可以表達相近意思，但本練習只接受 whether。",
+      "en": "Whether is the required connector in this lesson; do not replace it with if.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-rule-07",
+      "zh": "學生只需表示「仍未確定」，不能自行加入負面結論。",
+      "en": "Do not change an unresolved question into a negative conclusion or add an unsupported judgement.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss273-benefit-01",
+      "zh": "這個句型能準確表示「目前資料不足，仍未有答案」，避免在沒有足夠證據時作出猜測。",
+      "en": "It expresses uncertainty accurately instead of guessing or giving an answer without enough evidence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-benefit-02",
+      "zh": "第一句把重點放在說話者「不知道」；第二句則把重點放在現有資料仍不足以得出答案，語氣較客 觀。",
+      "en": "It sounds more objective than “I don't know” because it focuses on the situation and available evidence rather than personal knowledge.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-benefit-03",
+      "zh": "這個句型可以幫助學生避免把未經證實的事情當作事實，有助作出較謹慎和準確的陳述。",
+      "en": "It helps learners make careful claims and avoid presenting an uncertain idea as a proven fact.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-benefit-04",
+      "zh": "你可以先交代已完成的研究、調查或討論，再指出仍然無法確定的問題。 Example: After reviewing the evidence, it remains unclear whether the claim is true. （檢視證據後，目前仍未能確定該項說法是否屬實。）",
+      "en": "It connects evidence with an unresolved question by showing what has been investigated and what still cannot be confirmed.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-benefit-05",
+      "zh": "這個句型特別適合用於討論研究結果、公共政策、調查、商業表現或未來變化。",
+      "en": "It is useful in reports, essays and presentations about research, policy, investigations, business results and possible future changes.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss273-benefit-06",
+      "zh": "核心句式可以放在句首、背景子句之後，或引述結構之內，使寫作不會反覆使用完全相同的句 式。",
+      "en": "It allows genuine sentence variety because the core can appear initially, after background information or inside a reporting structure.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 272; it is assigned system ID ss273 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using it remains unclear whether + clause or an accepted tense or modal variation.",
+      "Preserve the original meaning, tense, modality, alternatives and reporting context, and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 it remains unclear whether + 子句，或這個句型適當的時態或情態變化改寫每題。",
+      "保留原句的意思、時態、情態、選項及引述語境，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss273-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Experts still do not know whether the decline will continue.",
+      "promptZh": "專家仍未知道跌幅會否持續。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains unclear whether the decline will continue.",
+      "answerZh": "目前仍未能確定跌幅會否持續。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains unclear whether the decline will continue."
+    },
+    {
+      "id": "ss273-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No one has yet confirmed whether the shop will reopen next month.",
+      "promptZh": "目前仍沒有人確認商店會否在下個月重新營業。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains unclear whether the shop will reopen next month.",
+      "answerZh": "目前仍未能確定商店會否在下個月重新營業。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains unclear whether the shop will reopen next month."
+    },
+    {
+      "id": "ss273-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Doctors have not yet determined whether the medicine is causing the headaches.",
+      "promptZh": "醫生尚未確定這種藥物是否正在引致頭痛。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains unclear whether the medicine is causing the headaches.",
+      "answerZh": "目前仍未能確定這種藥物是否正在引致頭痛。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains unclear whether the medicine is causing the headaches."
+    },
+    {
+      "id": "ss273-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At present, no one can say whether the missing file can be recovered.",
+      "promptZh": "目前沒有人能夠確定遺失的檔案能否復原。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, it remains unclear whether the missing file can be recovered.",
+      "answerZh": "目前仍未能確定遺失的檔案能否復原。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, it remains unclear whether the missing file can be recovered."
+    },
+    {
+      "id": "ss273-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even now, nobody can tell whether the two sides will reach an agreement.",
+      "promptZh": "即使到了現在，仍沒有人能確定雙方會否達成協議。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even now, it remains unclear whether the two sides will reach an agreement.",
+      "answerZh": "即使到了現在，仍未能確定雙方會否達成協議。",
+      "answerZhSource": "pdf",
+      "highlight": "Even now, it remains unclear whether the two sides will reach an agreement."
+    },
+    {
+      "id": "ss273-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The latest figures still do not show whether the new timetable has reduced waiting times.",
+      "promptZh": "最新數據仍未能顯示新時間表是否縮短了等候時間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains unclear whether the new timetable has reduced waiting times.",
+      "answerZh": "目前仍未能確定新時間表是否縮短了等候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains unclear whether the new timetable has reduced waiting times."
+    },
+    {
+      "id": "ss273-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The first test did not establish whether the machine was safe to use.",
+      "promptZh": "第一次測試未能確定該機器是否可以安全使用。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the first test, it remains unclear whether the machine is safe to use.",
+      "answerZh": "完成第一次測試後，仍未能確定該機器是否可以安全使用。",
+      "answerZhSource": "pdf",
+      "highlight": "After the first test, it remains unclear whether the machine is safe to use."
+    },
+    {
+      "id": "ss273-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisers still do not know whether the event will go ahead in the rain.",
+      "promptZh": "主辦單位仍未知道活動會否在下雨時如期舉行。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains unclear whether the event will go ahead in the rain.",
+      "answerZh": "目前仍未能確定活動會否在下雨時如期舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains unclear whether the event will go ahead in the rain."
+    },
+    {
+      "id": "ss273-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "For the moment, no one knows whether Daniel will accept the offer.",
+      "promptZh": "目前仍沒有人知道丹尼爾會否接受這項提議。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the moment, it remains unclear whether Daniel will accept the offer.",
+      "answerZh": "目前仍未能確定丹尼爾會否接受這項提議。",
+      "answerZhSource": "pdf",
+      "highlight": "For the moment, it remains unclear whether Daniel will accept the offer."
+    },
+    {
+      "id": "ss273-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The lights are on, but no one can tell whether anyone is inside.",
+      "promptZh": "燈亮着，但沒有人能確定裏面是否有人。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the lights are on, it remains unclear whether anyone is inside.",
+      "answerZh": "雖然燈亮着，但仍未能確定裏面是否有人。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the lights are on, it remains unclear whether anyone is inside."
+    },
+    {
+      "id": "ss273-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report says that the evidence still does not show whether the river is becoming cleaner.",
+      "promptZh": "報告指出，現有證據仍未能顯示河流是否正在變得更潔淨。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report states that it remains unclear whether the river is becoming cleaner.",
+      "answerZh": "報告指出，目前仍未能確定河流是否正在變得更潔淨。",
+      "answerZhSource": "pdf",
+      "highlight": "The report states that it remains unclear whether the river is becoming cleaner."
+    },
+    {
+      "id": "ss273-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The survey has not established whether customers prefer the new design.",
+      "promptZh": "調查未能確定顧客是否較喜歡新設計。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the survey, it remains unclear whether customers prefer the new design.",
+      "answerZh": "根據調查，目前仍未能確定顧客是否較喜歡新設計。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the survey, it remains unclear whether customers prefer the new design."
+    },
+    {
+      "id": "ss273-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Investigators conducted several interviews but still could not determine whether the witness had seen the driver clearly.",
+      "promptZh": "調查人員進行了數次訪問，但仍未能確定目擊者是否清楚看見司機。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite several interviews, it remains unclear whether the witness saw the driver clearly.",
+      "answerZh": "儘管進行了數次訪問，仍未能確定目擊者是否清楚看見司機。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite several interviews, it remains unclear whether the witness saw the driver clearly."
+    },
+    {
+      "id": "ss273-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Researchers agree that no firm conclusion can yet be drawn about whether the treatment works for children.",
+      "promptZh": "研究人員一致認為，目前仍無法就該療法是否適用於兒童得出明確結論。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers agree that it remains unclear whether the treatment works for children.",
+      "answerZh": "研究人員一致認為，目前仍未能確定該療法是否適用於兒童。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers agree that it remains unclear whether the treatment works for children."
+    },
+    {
+      "id": "ss273-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At this stage, the available evidence does not show whether the repairs will be completed on time.",
+      "promptZh": "在這個階段，現有證據未能顯示維修工程會否準時完成。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, it remains unclear whether the repairs will be completed on time.",
+      "answerZh": "在這個階段，仍未能確定維修工程會否準時完成。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, it remains unclear whether the repairs will be completed on time."
+    },
+    {
+      "id": "ss273-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee concluded that it could not determine whether the rule had been applied fairly.",
+      "promptZh": "委員會得出結論，表示未能確定該規則是否獲得公平執行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee concluded that it remained unclear whether the rule had been applied fairly.",
+      "answerZh": "委員會得出結論，表示當時仍未能確定該規則是否獲得公平執行。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee concluded that it remained unclear whether the rule had been applied fairly."
+    },
+    {
+      "id": "ss273-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The second inspection was completed, but the inspectors still could not say whether the building was safe.",
+      "promptZh": "第二次檢查已經完成，但檢查人員仍未能確定該建築物是否安全。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after the second inspection, it remained unclear whether the building was safe.",
+      "answerZh": "即使完成第二次檢查後，當時仍未能確定該建築物是否安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after the second inspection, it remained unclear whether the building was safe."
+    },
+    {
+      "id": "ss273-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The latest figures do not yet show whether sales are recovering.",
+      "promptZh": "最新數據尚未能顯示銷售情況是否正在復蘇。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the latest figures, it remains unclear whether sales are recovering.",
+      "answerZh": "根據最新數據，目前仍未能確定銷售情況是否正在復蘇。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the latest figures, it remains unclear whether sales are recovering."
+    },
+    {
+      "id": "ss273-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Without further evidence, no one will be able to determine whether the account was accessed by someone else.",
+      "promptZh": "如果沒有進一步證據，將沒有人能確定是否有其他人曾登入該戶口。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without further evidence, it will remain unclear whether the account was accessed by someone else.",
+      "answerZh": "如果沒有進一步證據，仍將無法確定是否有其他人曾登入該戶口。",
+      "answerZhSource": "pdf",
+      "highlight": "Without further evidence, it will remain unclear whether the account was accessed by someone else."
+    },
+    {
+      "id": "ss273-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The records are incomplete, so no one can confirm whether the payment was made.",
+      "promptZh": "紀錄不完整，因此沒有人能確認款項是否已經支付。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the records are incomplete, it remains unclear whether the payment was made.",
+      "answerZh": "由於紀錄不完整，仍未能確定款項是否已經支付。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the records are incomplete, it remains unclear whether the payment was made."
+    },
+    {
+      "id": "ss273-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After comparing the samples, the scientists reported that they still could not determine whether the samples came from the same source.",
+      "promptZh": "科學家比較樣本後報告，他們仍未能確定這些樣本是否來自同一來源。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After comparing the samples, the scientists reported that it remained unclear whether they came from the same source.",
+      "answerZh": "科學家比較樣本後報告，當時仍未能確定這些樣本是否來自同一來源。",
+      "answerZhSource": "pdf",
+      "highlight": "After comparing the samples, the scientists reported that it remained unclear whether they came from the same source."
+    },
+    {
+      "id": "ss273-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The review’s main finding is that the evidence still does not show whether online lessons improve long-term results.",
+      "promptZh": "這項檢討的主要發現是，現有證據仍未能顯示網上課堂能否改善長期成果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main finding is that it remains unclear whether online lessons improve long-term results.",
+      "answerZh": "主要發現是，目前仍未能確定網上課堂能否改善長期成果。",
+      "answerZhSource": "pdf",
+      "highlight": "The main finding is that it remains unclear whether online lessons improve long-term results."
+    },
+    {
+      "id": "ss273-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Several causes have been suggested, but researchers still cannot determine whether any one of them explains the problem.",
+      "promptZh": "研究人員提出了數個可能成因，但仍未能確定其中任何一個是否能解釋這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While several causes have been suggested, it remains unclear whether any one of them explains the problem.",
+      "answerZh": "雖然研究人員提出了數個可能成因，但仍未能確定其中任何一個是否能解釋這個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "While several causes have been suggested, it remains unclear whether any one of them explains the problem."
+    },
+    {
+      "id": "ss273-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The police confirmed that they had still not determined whether the fire had started accidentally.",
+      "promptZh": "警方確認，當時仍未能確定火警是否意外引起。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The police confirmed that it remained unclear whether the fire had started accidentally.",
+      "answerZh": "警方確認，當時仍未能確定火警是否意外引起。",
+      "answerZhSource": "pdf",
+      "highlight": "The police confirmed that it remained unclear whether the fire had started accidentally."
+    },
+    {
+      "id": "ss273-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The full report has not been released, so a firm answer about whether the company followed the rules may not be possible until then.",
+      "promptZh": "完整報告尚未公布，因此在報告公布前，可能無法確定公司是否遵守了規則。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until the full report is released, it may remain unclear whether the company followed the rules.",
+      "answerZh": "在完整報告公布前，可能仍無法確定公司是否遵守了規則。",
+      "answerZhSource": "pdf",
+      "highlight": "Until the full report is released, it may remain unclear whether the company followed the rules."
+    },
+    {
+      "id": "ss273-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The patient feels better, but doctors still cannot confirm whether the infection has completely disappeared.",
+      "promptZh": "病人感覺有所好轉，但醫生仍未能確認感染是否已經完全消失。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the patient feels better, it remains unclear whether the infection has completely disappeared.",
+      "answerZh": "雖然病人感覺有所好轉，但仍未能確定感染是否已經完全消失。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the patient feels better, it remains unclear whether the infection has completely disappeared."
+    },
+    {
+      "id": "ss273-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The evidence available so far does not show whether the damage occurred before or after the storm.",
+      "promptZh": "目前所得的證據未能顯示損毀是在暴風雨之前還是之後發生。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the evidence available so far, it remains unclear whether the damage occurred before or after the storm.",
+      "answerZh": "根據目前所得的證據，仍未能確定損毀是在暴風雨之前還是之後發生。",
+      "answerZhSource": "pdf",
+      "highlight": "From the evidence available so far, it remains unclear whether the damage occurred before or after the storm."
+    },
+    {
+      "id": "ss273-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The review notes that the evidence still does not show whether the policy benefits smaller schools.",
+      "promptZh": "檢討報告指出，現有證據仍未能顯示該政策是否有利於規模較小的學校。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review notes that it remains unclear whether the policy benefits smaller schools.",
+      "answerZh": "檢討報告指出，目前仍未能確定該政策是否有利於規模較小的學校。",
+      "answerZhSource": "pdf",
+      "highlight": "The review notes that it remains unclear whether the policy benefits smaller schools."
+    },
+    {
+      "id": "ss273-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "New data is available, but no one can yet say whether demand will rise or fall.",
+      "promptZh": "雖然已有新數據，但仍沒有人能確定需求會上升還是下降。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even with the new data, it remains unclear whether demand will rise or fall.",
+      "answerZh": "即使已有新數據，仍未能確定需求會上升還是下降。",
+      "answerZhSource": "pdf",
+      "highlight": "Even with the new data, it remains unclear whether demand will rise or fall."
+    },
+    {
+      "id": "ss273-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The camera footage is incomplete, so the police cannot confirm whether the cyclist crossed on a red light.",
+      "promptZh": "攝錄片段並不完整，因此警方無法確認該名單車手是否在紅燈時橫過馬路。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the camera footage is incomplete, it remains unclear whether the cyclist crossed on a red light.",
+      "answerZh": "由於攝錄片段並不完整，仍未能確定該名單車手是否在紅燈時橫過馬路。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the camera footage is incomplete, it remains unclear whether the cyclist crossed on a red light."
+    },
+    {
+      "id": "ss273-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The meeting ended without making it clear whether the members supported the final proposal.",
+      "promptZh": "會議結束時，仍未能確定委員是否支持最終建議。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the meeting ended, it remained unclear whether the members supported the final proposal.",
+      "answerZh": "會議結束時，當時仍未能確定委員是否支持最終建議。",
+      "answerZhSource": "pdf",
+      "highlight": "When the meeting ended, it remained unclear whether the members supported the final proposal."
+    },
+    {
+      "id": "ss273-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The investigators found new evidence but reported that they still could not determine whether anyone had deliberately deleted the files.",
+      "promptZh": "調查人員發現了新證據，但報告指仍未能確定是否有人蓄意刪除檔案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The investigators reported that, despite the new evidence, it remained unclear whether anyone had deliberately deleted the files.",
+      "answerZh": "調查人員報告，儘管發現了新證據，當時仍未能確定是否有人蓄意刪除檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "The investigators reported that, despite the new evidence, it remained unclear whether anyone had deliberately deleted the files."
+    },
+    {
+      "id": "ss273-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Both plans have advantages, but no one can yet say whether either can be completed within the budget.",
+      "promptZh": "兩個計劃各有優點，但仍沒有人能確定其中任何一個能否在預算內完成。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although both plans have advantages, it remains unclear whether either can be completed within the budget.",
+      "answerZh": "雖然兩個計劃各有優點，但仍未能確定其中任何一個能否在預算內完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Although both plans have advantages, it remains unclear whether either can be completed within the budget."
+    },
+    {
+      "id": "ss273-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The available evidence is limited and does not show whether the change has improved public safety.",
+      "promptZh": "現有證據有限，未能顯示這項改變是否改善了公共安全。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the available evidence is limited, it remains unclear whether the change has improved public safety.",
+      "answerZh": "由於現有證據有限，仍未能確定這項改變是否改善了公共安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the available evidence is limited, it remains unclear whether the change has improved public safety."
+    },
+    {
+      "id": "ss273-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The report warns that unless better records are kept, no one may be able to determine whether the scheme saved money.",
+      "promptZh": "報告警告，如果不保存更完善的紀錄，可能無法確定該計劃是否節省了金錢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report warns that it may remain unclear whether the scheme saved money unless better records are kept.",
+      "answerZh": "報告警告，如果不保存更完善的紀錄，可能仍無法確定該計劃是否節省了金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "The report warns that it may remain unclear whether the scheme saved money unless better records are kept."
+    },
+    {
+      "id": "ss273-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The manager spoke to both teams but admitted that she still could not tell whether the disagreement had been resolved.",
+      "promptZh": "經理與兩個團隊交談，但承認自己仍未能確定分歧是否已經解決。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After speaking to both teams, the manager admitted that it remained unclear whether the disagreement had been resolved.",
+      "answerZh": "經理與兩個團隊交談後承認，當時仍未能確定分歧是否已經解決。",
+      "answerZhSource": "pdf",
+      "highlight": "After speaking to both teams, the manager admitted that it remained unclear whether the disagreement had been resolved."
+    },
+    {
+      "id": "ss273-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The researchers said that the sample was too small for them to determine whether the result applied to the wider population.",
+      "promptZh": "研究人員表示，樣本太小，因此無法確定結果是否適用於更廣泛的人群。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the sample was small, the researchers said that it remained unclear whether the result applied to the wider population.",
+      "answerZh": "由於樣本較小，研究人員表示，當時仍未能確定結果是否適用於更廣泛的人群。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the sample was small, the researchers said that it remained unclear whether the result applied to the wider population."
+    },
+    {
+      "id": "ss273-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Even if the weather improves, no one will know whether the damaged road can reopen safely until engineers inspect it.",
+      "promptZh": "即使天氣好轉，在工程師檢查受損道路前，仍沒有人能確定道路能否安全重開。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until engineers inspect it, it will remain unclear whether the damaged road can reopen safely, even if the weather improves.",
+      "answerZh": "在工程師檢查受損道路之前，即使天氣好轉，仍將無法確定道路能否安全重開。",
+      "answerZhSource": "pdf",
+      "highlight": "Until engineers inspect it, it will remain unclear whether the damaged road can reopen safely, even if the weather improves."
+    },
+    {
+      "id": "ss273-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The evidence does not support a firm conclusion about whether the product meets the new standard.",
+      "promptZh": "現有證據不足以就該產品是否符合新標準作出明確結論。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the evidence does not support a firm conclusion, it remains unclear whether the product meets the new standard.",
+      "answerZh": "由於現有證據不足以支持明確結論，仍未能確定該產品是否符合新標準。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the evidence does not support a firm conclusion, it remains unclear whether the product meets the new standard."
+    },
+    {
+      "id": "ss273-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The inquiry could confirm only one point: nobody could yet determine whether officials had received the warning in time.",
+      "promptZh": "調查只能確認一點：當時仍沒有人能確定官員是否及時收到警告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The inquiry established that it remained unclear whether officials had received the warning in time.",
+      "answerZh": "調查確認，當時仍未能確定官員是否及時收到警告。",
+      "answerZhSource": "pdf",
+      "highlight": "The inquiry established that it remained unclear whether officials had received the warning in time."
+    },
+    {
+      "id": "ss273-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After reviewing five years of data, the panel concluded that the evidence still did not show whether the programme had reduced inequality.",
+      "promptZh": "專責小組檢視五年的數據後得出結論，認為證據仍未能顯示該計劃是否減少了不平等。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reviewing five years of data, the panel concluded that it remained unclear whether the programme had reduced inequality.",
+      "answerZh": "專責小組檢視五年的數據後得出結論，認為當時仍未能確定該計劃是否減少了不平等。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing five years of data, the panel concluded that it remained unclear whether the programme had reduced inequality."
+    },
+    {
+      "id": "ss273-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The company has promised greater transparency, but no one knows whether the public will be allowed to examine the full report.",
+      "promptZh": "公司承諾提高透明度，但沒有人知道公眾會否獲准查閱完整報告。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the company has promised greater transparency, it remains unclear whether the public will be allowed to examine the full report.",
+      "answerZh": "雖然公司承諾提高透明度，但仍未能確定公眾會否獲准查閱完整報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the company has promised greater transparency, it remains unclear whether the public will be allowed to examine the full report."
+    },
+    {
+      "id": "ss273-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The court noted that without the original document, no one would be able to determine whether the signature had been added later.",
+      "promptZh": "法庭指出，如果沒有文件正本，將沒有人能確定簽名是否在較後時間才加上。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The court noted that, without the original document, it would remain unclear whether the signature had been added later.",
+      "answerZh": "法庭指出，如果沒有文件正本，將仍然無法確定簽名是否在較後時間才加上。",
+      "answerZhSource": "pdf",
+      "highlight": "The court noted that, without the original document, it would remain unclear whether the signature had been added later."
+    },
+    {
+      "id": "ss273-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The researchers’ position is that the available results still do not show whether the observed improvement resulted from the treatment or from other changes.",
+      "promptZh": "研究人員的立場是，現有結果仍未能顯示觀察到的改善是由療法還是其他改變所致。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researchers’ position is that it remains unclear whether the observed improvement resulted from the treatment or from other changes.",
+      "answerZh": "研究人員的立場是，目前仍未能確定觀察到的改善是由療法還是其他改變所致。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers’ position is that it remains unclear whether the observed improvement resulted from the treatment or from other changes."
+    },
+    {
+      "id": "ss273-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 24
+      },
+      "prompt": "The witness corrected her statement, but investigators still could not tell whether she had seen the event herself or had heard about it from someone else.",
+      "promptZh": "目擊者修正了自己的供詞，但調查人員仍未能確定她是親眼看見事件，還是從其他人口中得知。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after the witness corrected her statement, it remained unclear whether she had seen the event herself or had heard about it from someone else.",
+      "answerZh": "即使目擊者修正了自己的供詞後，當時仍未能確定她是親眼看見事件，還是從其他人口中得知。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after the witness corrected her statement, it remained unclear whether she had seen the event herself or had heard about it from someone else."
+    },
+    {
+      "id": "ss273-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The audit cannot determine whether the missing funds were lost through error, poor control or deliberate action.",
+      "promptZh": "審計未能確定失去的款項是由錯誤、監管不善還是蓄意行為所造成。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the audit, it remains unclear whether the missing funds were lost through error, poor control or deliberate action.",
+      "answerZh": "根據審計，仍未能確定失去的款項是由錯誤、監管不善還是蓄意行為所造成。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the audit, it remains unclear whether the missing funds were lost through error, poor control or deliberate action."
+    },
+    {
+      "id": "ss273-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The two studies measured success differently, so researchers still cannot tell whether their results genuinely conflict.",
+      "promptZh": "兩項研究以不同方式衡量成效，因此研究人員仍未能確定兩者的結果是否真正互相矛盾。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the two studies measured success differently, it remains unclear whether their results genuinely conflict.",
+      "answerZh": "由於兩項研究以不同方式衡量成效，仍未能確定兩者的結果是否真正互相矛盾。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the two studies measured success differently, it remains unclear whether their results genuinely conflict."
+    },
+    {
+      "id": "ss273-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The committee accepted that it might not know whether the policy had worked until more long-term evidence became available.",
+      "promptZh": "委員會承認，在取得更多長期證據之前，可能仍無法確定該政策是否奏效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee accepted that it might remain unclear whether the policy had worked until more long-term evidence became available.",
+      "answerZh": "委員會承認，在取得更多長期證據之前，可能仍無法確定該政策是否奏效。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee accepted that it might remain unclear whether the policy had worked until more long-term evidence became available."
+    },
+    {
+      "id": "ss273-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The decline appears to have slowed, but no one can tell whether this marks a lasting recovery or only a temporary change.",
+      "promptZh": "跌勢似乎已經放緩，但沒有人能確定這代表持久復蘇，還是只屬短暫變化。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the decline appears to have slowed, it remains unclear whether this marks a lasting recovery or only a temporary change.",
+      "answerZh": "雖然跌勢似乎已經放緩，但仍未能確定這代表持久復蘇，還是只屬短暫變化。",
+      "answerZhSource": "pdf",
+      "highlight": "While the decline appears to have slowed, it remains unclear whether this marks a lasting recovery or only a temporary change."
+    },
+    {
+      "id": "ss273-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "After months of investigation, the final report says that the cause has still not been determined: it may have been one major fault or several smaller ones.",
+      "promptZh": "經過數月調查，最終報告表示仍未能確定事故成因：成因可能是一項重大故障，也可能是數項較小的故障。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final report concludes that, despite months of investigation, it remains unclear whether the failure was caused by one major fault or several smaller ones.",
+      "answerZh": "最終報告的結論是，儘管經過數月調查，仍未能確定事故是由一項重大故障還是數項較小的故障所造成。",
+      "answerZhSource": "pdf",
+      "highlight": "The final report concludes that, despite months of investigation, it remains unclear whether the failure was caused by one major fault or several smaller ones."
+    }
+  ]
+}

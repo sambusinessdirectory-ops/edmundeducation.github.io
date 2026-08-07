@@ -1,0 +1,1234 @@
+{
+  "id": "ss235",
+  "order": 235,
+  "slug": "fronted-complement-concession",
+  "title": "Fronted Complement 補語前置句",
+  "titleZh": "「補語 + as／though」表示讓步",
+  "titleEn": "Fronted Complements in Concessive Clauses",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 234 - Fronted Complement 補語前置句.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 234; it is assigned system ID ss235 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Complement + as / though + subject + linking verb + main clause",
+  "formulas": [
+    {
+      "id": "ss235-formula-01",
+      "labelEn": "Adjective complement",
+      "labelZh": "形容詞補語",
+      "formula": "Adjective complement + as / though + subject + linking verb + main clause"
+    },
+    {
+      "id": "ss235-formula-02",
+      "labelEn": "Noun complement",
+      "labelZh": "名詞補語",
+      "formula": "Noun complement + as / though + subject + be + main clause"
+    },
+    {
+      "id": "ss235-formula-03",
+      "labelEn": "Main clause first",
+      "labelZh": "主句在前",
+      "formula": "Main clause + fronted complement + as / though + subject + linking verb"
+    }
+  ],
+  "example": "Strange though it seems, the plan may work.",
+  "exampleZh": "這項計劃看起來雖然奇怪，卻可能行得通。",
+  "examples": [
+    {
+      "id": "ss235-example-01",
+      "en": "Strange though it seems, the plan may work.",
+      "zh": "這項計劃看起來雖然奇怪，卻可能行得通。",
+      "highlight": "Strange though it seems, the plan may work."
+    }
+  ],
+  "meaning": {
+    "zh": "這個結構把補語移到讓步子句前面，以 as 或 though 表達「雖然／儘管」和出乎意料的對比。"
+  },
+  "rules": [
+    {
+      "id": "ss235-rule-01",
+      "zh": "以下部分均可以改變： ● the complement 補語 ● the subject 主語 ● the linking verb 連繫動詞 ● the tense 時態 ● as or though ● the position of the whole concessive clause 整個讓步子句的位置 Therefore, was, he and sentence-initial position are not compulsory. 因此，was、he 和句首位置都不是固定部分。",
+      "en": "The fixed core is complement + as/though + subject + linking verb. The complement, subject, linking verb, tense, conjunction and position of the concessive clause can vary.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-rule-02",
+      "zh": "在這個結構中，as 和 though 均表示「雖然／儘管」。",
+      "en": "As and though both mean although in this structure.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-rule-03",
+      "zh": "在 as／though 後面仍然使用正常的「主語＋動詞」次序。",
+      "en": "Do not use normal subject-verb inversion after as or though; keep subject + linking verb order.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-rule-04",
+      "zh": "補語前置後應使用 as 或 though，不可寫成 Tired although he was。",
+      "en": "Do not retain although after fronting the complement; use as or though.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-rule-05",
+      "zh": "他雖然非常疲倦，但仍繼續工作。） Deeply divided as the members had been, they reached an agreement. （成員之前雖然意見嚴重分歧，但最終達成共識。） Words such as very, extremely, deeply and highly are optional extensions. They are not compulsory parts of the structure. very、extremely、deeply、highly 等程度詞只是可選延伸，並非固定句型的一部分。",
+      "en": "Degree words such as very, extremely, deeply and highly may remain with the adjective, but they are optional extensions.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-rule-06",
+      "zh": "當單數名詞補語被移到最前面時，通常要刪去 a、an 或 the。 Other examples: Beginner as she was, ... Newcomer though he was, ... Leader as Maya was, ...",
+      "en": "Articles are normally removed from a singular noun complement when it is fronted: “Child though he was”, not “A child though he was.”",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-rule-07",
+      "zh": "主句所描述的事情，應該與前置補語形成真正的讓步或出乎意料的關係。 Natural: Tired as she was, she continued working. （她雖然疲倦，但仍繼續工作。） Illogical: Tired as she was, she went to bed. Going to bed is an expected result of being tired, so the contrast is weak. 因為疲倦而上床睡覺是正常結果，兩部分沒有明顯的讓步關係。",
+      "en": "The two clauses must show a genuine concession: the main clause should be surprising or unexpected in view of the fronted complement.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-rule-08",
+      "zh": "當讓步子句在前，子句後使用逗號。 When the main clause comes first: He continued, tired as he was. 當主句在前，通常在後置的讓步子句前使用逗號。",
+      "en": "Punctuation depends on position: use a comma after an initial concessive clause, or before a concessive clause that follows the main clause.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss235-benefit-01",
+      "zh": "把 tired、difficult、strange 等補語放在前面，可以立即突出相關困難或出乎意料的情況。 Compare: Although the plan seems strange, it may work. Strange though the plan seems, it may work. The second sentence places greater attention on how strange the plan seems. 第二句把 strange 放在最前面，令「計劃看起來奇怪」這一點更加突出。",
+      "en": "It highlights a surprising description by placing the complement first.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-benefit-02",
+      "zh": "這個句型能清楚告訴讀者： 「前面的情況確實存在，但沒有阻止主句中的結果發生。」 Tired as he was, he kept going. （他雖然疲倦，但疲倦並沒有令他停下來。）",
+      "en": "It clearly connects a difficulty with an unexpected result and shows that the difficulty did not prevent that result.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-benefit-03",
+      "zh": "學生經常反覆以 Although 開始句子。補語前置句提供了另一種準確表達讓步和對比的方法，使 句式不會過度重複。",
+      "en": "It gives you another alternative to although and reduces repetitive openings.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-benefit-04",
+      "zh": "你可以把讓步子句放在主句之前或之後。 Tired as she was, she finished the report. She finished the report, tired though she was. This flexibility helps you control which information the reader sees first. 這種彈性讓你控制讀者先看到困難，還是先看到主要結果。",
+      "en": "It allows the concessive clause to appear before or after the main clause, helping control which information comes first.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-benefit-05",
+      "zh": "這個句型特別適合在作文、演說和故事中描述： ● 決心 ● 出乎意料的成功 ● 限制 ● 相反證據 ● 意想不到的行為",
+      "en": "It is useful in essays, speeches and storytelling about determination, unexpected success, limitations, opposing evidence and surprising behaviour.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss235-benefit-06",
+      "zh": "這個句型通常比一般的 although 子句稍為正式或帶有文學色彩。它能在不加入冗長解釋的情況 下，使重要對比更加鮮明。",
+      "en": "It can make a contrast sound more controlled and expressive because it is somewhat more formal or literary than an ordinary although-clause.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 234; it is assigned system ID ss235 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a fronted complement with as or though.",
+      "Follow the first-word hint and preserve meaning, tense, modality and contrast."
+    ],
+    "zh": [
+      "使用含有 as 或 though 的補語前置句改寫每題。",
+      "按照首字提示決定讓步子句位置，並保留意思、時態、語氣和讓步關係。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss235-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although Leo was tired, he finished his homework.",
+      "promptZh": "雖然里奧很疲倦，但他完成了家課。",
+      "promptZhSource": "pdf",
+      "starter": "Tired",
+      "answer": "Tired as Leo was, he finished his homework.",
+      "answerZh": "里奧雖然很疲倦，但仍完成了家課。",
+      "answerZhSource": "pdf",
+      "highlight": "Tired as Leo was, he finished his homework."
+    },
+    {
+      "id": "ss235-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even though the water was cold, the children went swimming.",
+      "promptZh": "即使水很冷，孩子們仍然去游泳。",
+      "promptZhSource": "pdf",
+      "starter": "Cold",
+      "answer": "Cold though the water was, the children went swimming.",
+      "answerZh": "水雖然很冷，孩子們仍然去游泳。",
+      "answerZhSource": "pdf",
+      "highlight": "Cold though the water was, the children went swimming."
+    },
+    {
+      "id": "ss235-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although Mia felt nervous, she gave the speech clearly.",
+      "promptZh": "雖然米婭感到緊張，但她仍清楚地發表了演說。",
+      "promptZhSource": "pdf",
+      "starter": "Nervous",
+      "answer": "Nervous as Mia felt, she gave the speech clearly.",
+      "answerZh": "米婭雖然感到緊張，但仍清楚地發表了演說。",
+      "answerZhSource": "pdf",
+      "highlight": "Nervous as Mia felt, she gave the speech clearly."
+    },
+    {
+      "id": "ss235-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Despite being small, the room has enough space for four people.",
+      "promptZh": "房間雖然細小，但有足夠空間容納四個人。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small though the room is, it has enough space for four people.",
+      "answerZh": "房間雖然細小，但有足夠空間容納四個人。",
+      "answerZhSource": "pdf",
+      "highlight": "Small though the room is, it has enough space for four people."
+    },
+    {
+      "id": "ss235-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the question was difficult, Ben answered it correctly.",
+      "promptZh": "雖然問題很難，但本仍正確回答了。",
+      "promptZhSource": "pdf",
+      "starter": "Difficult",
+      "answer": "Difficult as the question was, Ben answered it correctly.",
+      "answerZh": "問題雖然很難，但本仍正確回答了。",
+      "answerZhSource": "pdf",
+      "highlight": "Difficult as the question was, Ben answered it correctly."
+    },
+    {
+      "id": "ss235-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The idea sounds strange, but it may solve the problem.",
+      "promptZh": "這個想法聽起來很奇怪，但可能解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "Strange",
+      "answer": "Strange though the idea sounds, it may solve the problem.",
+      "answerZh": "這個想法聽起來雖然奇怪，卻可能解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Strange though the idea sounds, it may solve the problem."
+    },
+    {
+      "id": "ss235-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Emma was busy, but she still helped her neighbour.",
+      "promptZh": "艾瑪很忙，但仍然幫助了鄰居。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma still helped her neighbour, busy though she was.",
+      "answerZh": "艾瑪雖然很忙，但仍然幫助了鄰居。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma still helped her neighbour, busy though she was."
+    },
+    {
+      "id": "ss235-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Despite the weak signal, the message got through.",
+      "promptZh": "雖然訊號微弱，但訊息仍成功傳送。",
+      "promptZhSource": "pdf",
+      "starter": "Weak",
+      "answer": "Weak as the signal was, the message got through.",
+      "answerZh": "訊號雖然微弱，但訊息仍成功傳送。",
+      "answerZhSource": "pdf",
+      "highlight": "Weak as the signal was, the message got through."
+    },
+    {
+      "id": "ss235-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even though the coat was expensive, Ava bought it.",
+      "promptZh": "即使外套很昂貴，艾娃仍然買了它。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava bought the coat, expensive though it was.",
+      "answerZh": "外套雖然很昂貴，艾娃仍然買了它。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava bought the coat, expensive though it was."
+    },
+    {
+      "id": "ss235-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although Daniel was young, he understood the responsibility.",
+      "promptZh": "雖然丹尼爾年輕，但他明白這項責任。",
+      "promptZhSource": "pdf",
+      "starter": "Young",
+      "answer": "Young as Daniel was, he understood the responsibility.",
+      "answerZh": "丹尼爾雖然年輕，但他明白這項責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Young as Daniel was, he understood the responsibility."
+    },
+    {
+      "id": "ss235-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team was exhausted. Even so, they completed the walk.",
+      "promptZh": "團隊已筋疲力盡。即使如此，他們仍完成了步行活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team completed the walk, exhausted though they were.",
+      "answerZh": "團隊雖然已筋疲力盡，但仍完成了步行活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The team completed the walk, exhausted though they were."
+    },
+    {
+      "id": "ss235-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the shop was tiny, it remained popular with local residents.",
+      "promptZh": "雖然店舖很小，但仍深受區內居民歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "Tiny",
+      "answer": "Tiny as the shop was, it remained popular with local residents.",
+      "answerZh": "店舖雖然很小，但仍深受區內居民歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "Tiny as the shop was, it remained popular with local residents."
+    },
+    {
+      "id": "ss235-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Chloe felt uncertain, but she accepted the job.",
+      "promptZh": "克洛伊感到不確定，但仍接受了這份工作。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe accepted the job, uncertain though she felt.",
+      "answerZh": "克洛伊雖然感到不確定，但仍接受了這份工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe accepted the job, uncertain though she felt."
+    },
+    {
+      "id": "ss235-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In spite of its age, the device worked well.",
+      "promptZh": "這部裝置雖然老舊，但運作良好。",
+      "promptZhSource": "pdf",
+      "starter": "Old",
+      "answer": "Old as the device was, it worked well.",
+      "answerZh": "這部裝置雖然老舊，但運作良好。",
+      "answerZhSource": "pdf",
+      "highlight": "Old as the device was, it worked well."
+    },
+    {
+      "id": "ss235-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The students were worried. Nevertheless, they stayed calm.",
+      "promptZh": "學生感到擔心。儘管如此，他們仍保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "Worried",
+      "answer": "Worried though the students were, they stayed calm.",
+      "answerZh": "學生雖然感到擔心，但仍保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Worried though the students were, they stayed calm."
+    },
+    {
+      "id": "ss235-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The room looked bright, yet it still needed another lamp.",
+      "promptZh": "房間看起來很明亮，但仍需要多一盞燈。",
+      "promptZhSource": "pdf",
+      "starter": "Bright",
+      "answer": "Bright as the room looked, it still needed another lamp.",
+      "answerZh": "房間看起來雖然很明亮，但仍需要多一盞燈。",
+      "answerZhSource": "pdf",
+      "highlight": "Bright as the room looked, it still needed another lamp."
+    },
+    {
+      "id": "ss235-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the plan appeared simple, it required careful preparation.",
+      "promptZh": "雖然計劃看起來簡單，但需要仔細準備。",
+      "promptZhSource": "pdf",
+      "starter": "Simple",
+      "answer": "Simple though the plan appeared, it required careful preparation.",
+      "answerZh": "計劃看起來雖然簡單，但需要仔細準備。",
+      "answerZhSource": "pdf",
+      "highlight": "Simple though the plan appeared, it required careful preparation."
+    },
+    {
+      "id": "ss235-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No matter how quiet the neighbourhood is, buses pass through it frequently.",
+      "promptZh": "無論這個社區多麼寧靜，巴士仍頻繁駛經。",
+      "promptZhSource": "pdf",
+      "starter": "Buses",
+      "answer": "Buses pass through the neighbourhood frequently, quiet though it is.",
+      "answerZh": "這個社區雖然寧靜，但巴士仍頻繁駛經。",
+      "answerZhSource": "pdf",
+      "highlight": "Buses pass through the neighbourhood frequently, quiet though it is."
+    },
+    {
+      "id": "ss235-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Despite being short, the book was useful.",
+      "promptZh": "這本書雖然篇幅短，但很有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The book was useful, short as it was.",
+      "answerZh": "這本書雖然篇幅短，但很有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The book was useful, short as it was."
+    },
+    {
+      "id": "ss235-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The nurse seemed patient, but she was becoming frustrated.",
+      "promptZh": "護士看起來很有耐性，但她開始感到沮喪。",
+      "promptZhSource": "pdf",
+      "starter": "Patient",
+      "answer": "Patient as the nurse seemed, she was becoming frustrated.",
+      "answerZh": "護士看起來雖然很有耐性，但她開始感到沮喪。",
+      "answerZhSource": "pdf",
+      "highlight": "Patient as the nurse seemed, she was becoming frustrated."
+    },
+    {
+      "id": "ss235-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "However tired Marcus was, he continued working.",
+      "promptZh": "無論馬庫斯多麼疲倦，他仍繼續工作。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus continued working, tired though he was.",
+      "answerZh": "馬庫斯雖然很疲倦，但仍繼續工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus continued working, tired though he was."
+    },
+    {
+      "id": "ss235-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No matter how heavy the box was, Olivia lifted it.",
+      "promptZh": "無論箱子多麼重，奧莉花仍把它抬起來。",
+      "promptZhSource": "pdf",
+      "starter": "Heavy",
+      "answer": "Heavy as the box was, Olivia lifted it.",
+      "answerZh": "箱子雖然很重，奧莉花仍把它抬起來。",
+      "answerZhSource": "pdf",
+      "highlight": "Heavy as the box was, Olivia lifted it."
+    },
+    {
+      "id": "ss235-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Despite being unpopular, the decision was necessary.",
+      "promptZh": "這項決定雖然不受歡迎，但有其必要。",
+      "promptZhSource": "pdf",
+      "starter": "Unpopular",
+      "answer": "Unpopular though the decision was, it was necessary.",
+      "answerZh": "這項決定雖然不受歡迎，但有其必要。",
+      "answerZhSource": "pdf",
+      "highlight": "Unpopular though the decision was, it was necessary."
+    },
+    {
+      "id": "ss235-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In spite of its narrow width, the path was safe to use.",
+      "promptZh": "這條小徑雖然狹窄，但使用起來很安全。",
+      "promptZhSource": "pdf",
+      "starter": "Narrow",
+      "answer": "Narrow as the path was, it was safe to use.",
+      "answerZh": "這條小徑雖然狹窄，但使用起來很安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Narrow as the path was, it was safe to use."
+    },
+    {
+      "id": "ss235-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the weather may be unpredictable, the event will go ahead.",
+      "promptZh": "雖然天氣可能難以預測，但活動仍會照常舉行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event will go ahead, unpredictable though the weather may be.",
+      "answerZh": "天氣雖然可能難以預測，但活動仍會照常舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The event will go ahead, unpredictable though the weather may be."
+    },
+    {
+      "id": "ss235-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the task might be unpleasant, someone must do it.",
+      "promptZh": "雖然這項工作可能令人不快，但總要有人完成。",
+      "promptZhSource": "pdf",
+      "starter": "Unpleasant",
+      "answer": "Unpleasant as the task might be, someone must do it.",
+      "answerZh": "這項工作雖然可能令人不快，但總要有人完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Unpleasant as the task might be, someone must do it."
+    },
+    {
+      "id": "ss235-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The evidence looks weak. Even so, it deserves a careful review.",
+      "promptZh": "證據看起來薄弱。即使如此，仍值得仔細審視。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence deserves a careful review, weak though it looks.",
+      "answerZh": "證據看起來雖然薄弱，但仍值得仔細審視。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence deserves a careful review, weak though it looks."
+    },
+    {
+      "id": "ss235-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The offer sounds attractive, but you should read the terms carefully.",
+      "promptZh": "這項優惠聽起來很吸引，但你應該仔細閱讀條款。",
+      "promptZhSource": "pdf",
+      "starter": "Attractive",
+      "answer": "Attractive as the offer sounds, you should read the terms carefully.",
+      "answerZh": "這項優惠聽起來雖然吸引，但你仍應仔細閱讀條款。",
+      "answerZhSource": "pdf",
+      "highlight": "Attractive as the offer sounds, you should read the terms carefully."
+    },
+    {
+      "id": "ss235-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Despite the confusing explanation, the students understood the main point.",
+      "promptZh": "雖然解釋令人困惑，但學生明白了重點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students understood the main point, confusing though the explanation was.",
+      "answerZh": "解釋雖然令人困惑，但學生仍明白了重點。",
+      "answerZhSource": "pdf",
+      "highlight": "The students understood the main point, confusing though the explanation was."
+    },
+    {
+      "id": "ss235-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the journey was long, the children did not complain.",
+      "promptZh": "雖然路程很長，但孩子們沒有抱怨。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children did not complain, long as the journey was.",
+      "answerZh": "路程雖然很長，但孩子們沒有抱怨。",
+      "answerZhSource": "pdf",
+      "highlight": "The children did not complain, long as the journey was."
+    },
+    {
+      "id": "ss235-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although Sam was only a child, he spoke with confidence.",
+      "promptZh": "雖然山姆只是一個孩子，但他說話很有自信。",
+      "promptZhSource": "pdf",
+      "starter": "Child",
+      "answer": "Child though he was, Sam spoke with confidence.",
+      "answerZh": "山姆雖然只是一個孩子，但說話很有自信。",
+      "answerZhSource": "pdf",
+      "highlight": "Child though he was, Sam spoke with confidence."
+    },
+    {
+      "id": "ss235-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Nina was a beginner. Even so, she learnt quickly.",
+      "promptZh": "妮娜是初學者。即使如此，她仍學得很快。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina learnt quickly, beginner as she was.",
+      "answerZh": "妮娜雖然是初學者，但她學得很快。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina learnt quickly, beginner as she was."
+    },
+    {
+      "id": "ss235-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In spite of being a newcomer, Omar soon became part of the team.",
+      "promptZh": "奧馬爾雖然是新來者，但很快便融入團隊。",
+      "promptZhSource": "pdf",
+      "starter": "Newcomer",
+      "answer": "Newcomer as Omar was, he soon became part of the team.",
+      "answerZh": "奧馬爾雖然是新來者，但很快便融入團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "Newcomer as Omar was, he soon became part of the team."
+    },
+    {
+      "id": "ss235-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The photographer was an amateur, yet her photographs impressed the judges.",
+      "promptZh": "這位攝影師是業餘愛好者，但她的照片仍令評判留下深刻印象。",
+      "promptZhSource": "pdf",
+      "starter": "Amateur",
+      "answer": "Amateur though the photographer was, her photographs impressed the judges.",
+      "answerZh": "這位攝影師雖然是業餘愛好者，但她的照片令評判留下深刻印象。",
+      "answerZhSource": "pdf",
+      "highlight": "Amateur though the photographer was, her photographs impressed the judges."
+    },
+    {
+      "id": "ss235-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Maya was the leader. Nevertheless, she listened carefully to junior staff.",
+      "promptZh": "瑪雅是領袖。儘管如此，她仍仔細聆聽初級員工的意見。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya listened carefully to junior staff, leader as she was.",
+      "answerZh": "瑪雅雖然是領袖，但仍仔細聆聽初級員工的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya listened carefully to junior staff, leader as she was."
+    },
+    {
+      "id": "ss235-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The solution seemed unusual, but it proved effective.",
+      "promptZh": "這個解決方法看起來不尋常，但事實證明有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The solution proved effective, unusual though it seemed.",
+      "answerZh": "這個解決方法看起來雖然不尋常，但事實證明有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The solution proved effective, unusual though it seemed."
+    },
+    {
+      "id": "ss235-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the team members had been deeply divided in their opinions, they reached an agreement.",
+      "promptZh": "雖然團隊成員之前意見嚴重分歧，但他們最終達成共識。",
+      "promptZhSource": "pdf",
+      "starter": "Deeply",
+      "answer": "Deeply divided as the team members had been, they reached an agreement.",
+      "answerZh": "團隊成員之前雖然意見嚴重分歧，但最終達成共識。",
+      "answerZhSource": "pdf",
+      "highlight": "Deeply divided as the team members had been, they reached an agreement."
+    },
+    {
+      "id": "ss235-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Despite its remote location, the village attracted many visitors.",
+      "promptZh": "這條村莊雖然位置偏遠，但吸引了許多遊客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The village attracted many visitors, remote as it was.",
+      "answerZh": "這條村莊雖然位置偏遠，但吸引了許多遊客。",
+      "answerZhSource": "pdf",
+      "highlight": "The village attracted many visitors, remote as it was."
+    },
+    {
+      "id": "ss235-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The building looked damaged, yet it was safe.",
+      "promptZh": "這座建築物看起來受損，但其實是安全的。",
+      "promptZhSource": "pdf",
+      "starter": "Damaged",
+      "answer": "Damaged though the building looked, it was safe.",
+      "answerZh": "這座建築物看起來雖然受損，但其實是安全的。",
+      "answerZhSource": "pdf",
+      "highlight": "Damaged though the building looked, it was safe."
+    },
+    {
+      "id": "ss235-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the sea appeared calm, the captain remained cautious.",
+      "promptZh": "雖然海面看起來平靜，但船長仍保持警覺。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The captain remained cautious, calm as the sea appeared.",
+      "answerZh": "海面看起來雖然平靜，但船長仍保持警覺。",
+      "answerZhSource": "pdf",
+      "highlight": "The captain remained cautious, calm as the sea appeared."
+    },
+    {
+      "id": "ss235-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The deadline is important, but staff should not rush their work and make careless mistakes.",
+      "promptZh": "截止日期很重要，但員工不應為趕進度而倉促工作並犯下粗心錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Important",
+      "answer": "Important as the deadline is, staff should not rush their work and make careless mistakes.",
+      "answerZh": "截止日期雖然重要，但員工不應為趕進度而倉促工作並犯下粗心錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Important as the deadline is, staff should not rush their work and make careless mistakes."
+    },
+    {
+      "id": "ss235-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the change may feel difficult at first, it can become easier with practice.",
+      "promptZh": "雖然這項轉變最初可能令人感到困難，但透過練習可以變得容易。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The change can become easier with practice, difficult though it may feel at first.",
+      "answerZh": "這項轉變最初雖然可能令人感到困難，但透過練習可以變得容易。",
+      "answerZhSource": "pdf",
+      "highlight": "The change can become easier with practice, difficult though it may feel at first."
+    },
+    {
+      "id": "ss235-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Despite its limited budget, the programme deserves support.",
+      "promptZh": "這個計劃雖然預算有限，但值得支持。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme deserves support, limited though its budget is.",
+      "answerZh": "這個計劃的預算雖然有限，但仍值得支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme deserves support, limited though its budget is."
+    },
+    {
+      "id": "ss235-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The company claims that it is responsible, but it has not explained the delay.",
+      "promptZh": "公司聲稱自己負責任，但尚未解釋延誤原因。",
+      "promptZhSource": "pdf",
+      "starter": "Responsible",
+      "answer": "Responsible as the company claims to be, it has not explained the delay.",
+      "answerZh": "公司雖然聲稱自己負責任，但尚未解釋延誤原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Responsible as the company claims to be, it has not explained the delay."
+    },
+    {
+      "id": "ss235-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The advice may sound simple, but it should be considered carefully.",
+      "promptZh": "這項建議聽起來可能簡單，但應該仔細考慮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The advice should be considered carefully, simple though it may sound.",
+      "answerZh": "這項建議聽起來雖然可能簡單，但仍應仔細考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The advice should be considered carefully, simple though it may sound."
+    },
+    {
+      "id": "ss235-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Although the measure has become unpopular, it may still be necessary.",
+      "promptZh": "雖然這項措施已變得不受歡迎，但可能仍有必要。",
+      "promptZhSource": "pdf",
+      "starter": "Unpopular",
+      "answer": "Unpopular as the measure has become, it may still be necessary.",
+      "answerZh": "這項措施雖然已變得不受歡迎，但可能仍有必要。",
+      "answerZhSource": "pdf",
+      "highlight": "Unpopular as the measure has become, it may still be necessary."
+    },
+    {
+      "id": "ss235-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Although the route is indirect, it remains useful when the main road is closed.",
+      "promptZh": "雖然這條路線並不直接，但當主要道路封閉時仍很有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The route remains useful when the main road is closed, indirect as it is.",
+      "answerZh": "這條路線雖然並不直接，但當主要道路封閉時仍很有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The route remains useful when the main road is closed, indirect as it is."
+    },
+    {
+      "id": "ss235-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Although online tools can be valuable, they should not replace all face-to-face contact.",
+      "promptZh": "雖然網上工具可以很有價值，但不應取代所有面對面接觸。",
+      "promptZhSource": "pdf",
+      "starter": "Valuable",
+      "answer": "Valuable though online tools can be, they should not replace all face-to-face contact.",
+      "answerZh": "網上工具雖然可以很有價值，但不應取代所有面對面接觸。",
+      "answerZhSource": "pdf",
+      "highlight": "Valuable though online tools can be, they should not replace all face-to-face contact."
+    },
+    {
+      "id": "ss235-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The witness must have been frightened, but she gave a clear account of the event.",
+      "promptZh": "證人當時一定很害怕，但她仍清楚講述了事件經過。",
+      "promptZhSource": "pdf",
+      "starter": "Frightened",
+      "answer": "Frightened though the witness must have been, she gave a clear account of the event.",
+      "answerZh": "證人當時雖然一定很害怕，但仍清楚講述了事件經過。",
+      "answerZhSource": "pdf",
+      "highlight": "Frightened though the witness must have been, she gave a clear account of the event."
+    },
+    {
+      "id": "ss235-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Although the manager was experienced, she still asked the team for advice before making the decision.",
+      "promptZh": "雖然經理經驗豐富，但作出決定前仍向團隊徵詢意見。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager still asked the team for advice before making the decision, experienced as she was.",
+      "answerZh": "經理雖然經驗豐富，但作出決定前仍向團隊徵詢意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager still asked the team for advice before making the decision, experienced as she was."
+    }
+  ]
+}

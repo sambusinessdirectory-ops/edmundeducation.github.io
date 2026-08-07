@@ -1,0 +1,1242 @@
+{
+  "id": "ss272",
+  "order": 272,
+  "slug": "evidence-suggests-indicates",
+  "title": "「Evidence suggests / indicates that + clause」以證據支持結論",
+  "titleZh": "「Evidence suggests / indicates that + 子句」以證據支持結論",
+  "titleEn": "Using evidence to support a conclusion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 271 - 「Evidence suggests _ indicates that + clause」以證據支持結論.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 271; it is assigned system ID ss272 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Evidence + suggests / indicates + that + complete clause",
+  "formulas": [
+    {
+      "id": "ss272-formula-01",
+      "labelEn": "Basic form",
+      "labelZh": "基本形式",
+      "formula": "Evidence + suggests / indicates + that + clause"
+    },
+    {
+      "id": "ss272-formula-02",
+      "labelEn": "Specified evidence",
+      "labelZh": "特定證據",
+      "formula": "The / This / adjective + evidence + suggests / indicates + that + clause"
+    },
+    {
+      "id": "ss272-formula-03",
+      "labelEn": "Source of evidence",
+      "labelZh": "交代證據來源",
+      "formula": "Evidence + from + source + suggests / indicates + that + clause"
+    },
+    {
+      "id": "ss272-formula-04",
+      "labelEn": "Past conclusion",
+      "labelZh": "過去的結論",
+      "formula": "Evidence + suggested / indicated + that + clause"
+    },
+    {
+      "id": "ss272-formula-05",
+      "labelEn": "Cautious modal form",
+      "labelZh": "審慎的情態形式",
+      "formula": "Evidence + may / could + suggest / indicate + that + clause"
+    },
+    {
+      "id": "ss272-formula-06",
+      "labelEn": "Negative form",
+      "labelZh": "否定形式",
+      "formula": "Evidence + does not suggest / indicate + that + clause"
+    }
+  ],
+  "example": "The evidence suggests that the change was temporary.",
+  "exampleZh": "證據顯示這項改變可能只是暫時的。",
+  "examples": [
+    {
+      "id": "ss272-example-01",
+      "en": "The evidence suggests that the change was temporary.",
+      "zh": "證據顯示這項改變可能只是暫時的。",
+      "highlight": "The evidence suggests that the change was temporary."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型根據證據、研究結果、數據、紀錄或觀察所得提出合理結論，表明判斷有證據支持而不只是個人意見。"
+  },
+  "rules": [
+    {
+      "id": "ss272-rule-01",
+      "zh": "如要表示一項證據，可以使用： a piece of evidence （一項證據）",
+      "en": "Evidence is normally uncountable. Do not write “an evidence”; use “a piece of evidence” when referring to one item.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss272-rule-02",
+      "zh": "是不可數名詞，在文法上通常視為單數，因此使用 suggests 或 indicates。",
+      "en": "Use a singular verb after evidence: “The evidence suggests” or “The evidence indicates.”",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss272-rule-03",
+      "zh": "後面必須接完整子句，通常需要主語和動詞。",
+      "en": "A complete clause with its own subject and verb must follow that.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss272-rule-04",
+      "zh": "表示證據支持某個可能的結論，但結論仍有不確定性。 The evidence suggests that the treatment may help. （證據顯示這項治療可能有幫助。） indicate that 表示證據較清楚地指向某個結論，但仍不等於完全證明。 The evidence indicates that the fire started in the kitchen. （證據表明火災在廚房開始。）",
+      "en": "Suggest and indicate differ slightly: suggest supports a possible conclusion, while indicate points more clearly towards a conclusion without necessarily proving it.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss272-rule-05",
+      "zh": "並不等於： The evidence proves that the change was temporary. prove 表示證據足以證實某事，語氣遠比 suggest 或 indicate 強。",
+      "en": "Do not automatically replace suggests or indicates with proves, because prove makes a much stronger claim.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss272-rule-06",
+      "zh": "雖然在部分較口語化的英文中可以省略 that，但本練習的所有答案都必須保留 that。",
+      "en": "Retain that in every answer in this exercise, even though it can sometimes be omitted in less formal English.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss272-benefit-01",
+      "zh": "把證據與個人意見區分開來 Compare: I think the change was temporary. （我認為這項改變只是暫時的。） The evidence suggests that the change was temporary. （證據顯示這項改變可能只是暫時的。） 第二句清楚表明結論有證據支持，而不只是作者的個人想法。",
+      "en": "It separates evidence-supported reasoning from a writer's personal opinion.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss272-benefit-02",
+      "zh": "避免把結論說得過於肯定 研究和數據未必能完全證明某件事情。 使用 suggests that 或 may suggest that，可以提出合理結論，同時保留適當的審慎語氣。 The evidence suggests that regular exercise may improve sleep. （證據顯示恆常運動可能改善睡眠。） 這比直接說： Regular exercise definitely improves sleep. 更加準確和負責任。",
+      "en": "It helps avoid claims that are too strong when research or data does not completely prove a conclusion.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss272-benefit-03",
+      "zh": "把證據和結論連接成一句 Instead of: Researchers collected several results. The results support the view that the method works. You can say: The evidence suggests that the method works. 這個句型能把證據和結論直接連接起來，使內容更簡潔，也更容易理解。",
+      "en": "It connects evidence and a conclusion efficiently in one sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss272-benefit-04",
+      "zh": "適合用於作文、報告和簡報 你可以使用這個句型分析： ● 調查結果； ● 科學研究； ● 圖表和數據； ● 歷史紀錄； ● 訪談資料； ● 事件證據。 它能幫助你解釋資料，而不是只把資料列出來。",
+      "en": "It is useful for analysing surveys, scientific studies, charts, historical records, interviews and event evidence in essays, reports and presentations.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss272-benefit-05",
+      "zh": "控制結論的肯定程度 較審慎： Limited evidence may suggest that the treatment helps. 較清楚： The evidence suggests that the treatment helps. 較有力： Strong evidence indicates that the treatment helps. 學生可以按照證據的有力程度，選擇合適的字詞。",
+      "en": "It lets you control the strength of a conclusion through choices such as limited evidence may suggest, evidence suggests and strong evidence indicates.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss272-benefit-06",
+      "zh": "提供多種自然句子位置 The evidence can appear: ● at the beginning of the sentence; ● after an introductory phrase; ● inside a reporting sentence; ● after a contrast clause; ● after a conditional clause. Examples: The evidence suggests that the plan may work. According to the survey, the evidence suggests that the plan may work. Researchers say the evidence suggests that the plan may work. Although the sample was small, the evidence suggests that the plan may work. 這能增加句式變化，避免所有句子都以完全相同的方式開始。",
+      "en": "It provides sentence variety because the evidence structure can appear initially, after an introductory phrase, inside a reporting sentence or after a contrast or condition clause.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 271; it is assigned system ID ss272 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a suitable form of evidence suggests / indicates that + clause.",
+      "Preserve the source, time, certainty, negation and introductory material, and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 evidence suggests / indicates that + 子句的適當形式改寫每題。",
+      "保留原句的來源、時間、肯定程度、否定意思及引入資料，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss272-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The available facts make it likely that the change was temporary.",
+      "promptZh": "現有資料顯示這項改變可能只是暫時的。",
+      "promptZhSource": "pdf",
+      "starter": "Evidence",
+      "answer": "Evidence suggests that the change was temporary.",
+      "answerZh": "證據顯示這項改變可能只是暫時的。",
+      "answerZhSource": "pdf",
+      "highlight": "Evidence suggests that the change was temporary."
+    },
+    {
+      "id": "ss272-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The records show that the bus arrived late because of heavy traffic.",
+      "promptZh": "紀錄顯示巴士因交通繁忙而遲到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence indicates that the bus arrived late because of heavy traffic.",
+      "answerZh": "證據表明巴士因交通繁忙而遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence indicates that the bus arrived late because of heavy traffic."
+    },
+    {
+      "id": "ss272-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Current research points to the conclusion that regular reading improves vocabulary.",
+      "promptZh": "目前的研究結果顯示恆常閱讀有助提升詞彙量。",
+      "promptZhSource": "pdf",
+      "starter": "Current",
+      "answer": "Current evidence suggests that regular reading improves vocabulary.",
+      "answerZh": "目前的證據顯示恆常閱讀有助提升詞彙量。",
+      "answerZhSource": "pdf",
+      "highlight": "Current evidence suggests that regular reading improves vocabulary."
+    },
+    {
+      "id": "ss272-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The available test results show that the machine failed because it overheated.",
+      "promptZh": "現有測試結果顯示機器因過熱而發生故障。",
+      "promptZhSource": "pdf",
+      "starter": "Available",
+      "answer": "Available evidence indicates that the machine failed because it overheated.",
+      "answerZh": "現有證據表明機器因過熱而發生故障。",
+      "answerZhSource": "pdf",
+      "highlight": "Available evidence indicates that the machine failed because it overheated."
+    },
+    {
+      "id": "ss272-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Recent measurements make it likely that the lake is becoming cleaner.",
+      "promptZh": "最近的測量結果顯示湖水可能正在變得更潔淨。",
+      "promptZhSource": "pdf",
+      "starter": "Recent",
+      "answer": "Recent evidence suggests that the lake is becoming cleaner.",
+      "answerZh": "最近的證據顯示湖水可能正在變得更潔淨。",
+      "answerZhSource": "pdf",
+      "highlight": "Recent evidence suggests that the lake is becoming cleaner."
+    },
+    {
+      "id": "ss272-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The survey results show that most students prefer shorter lessons.",
+      "promptZh": "調查結果顯示大部分學生較喜歡時間較短的課堂。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence from the survey indicates that most students prefer shorter lessons.",
+      "answerZh": "調查所得的證據表明大部分學生較喜歡時間較短的課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence from the survey indicates that most students prefer shorter lessons."
+    },
+    {
+      "id": "ss272-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "What do these signs tell us? They make it likely that the animal returned to the same area.",
+      "promptZh": "這些跡象告訴我們甚麼？它們顯示這隻動物可能返回了同一地區。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This evidence suggests that the animal returned to the same area.",
+      "answerZh": "這項證據顯示這隻動物可能返回了同一地區。",
+      "answerZhSource": "pdf",
+      "highlight": "This evidence suggests that the animal returned to the same area."
+    },
+    {
+      "id": "ss272-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The facts strongly support the conclusion that the fire started in the kitchen.",
+      "promptZh": "事實有力支持火災在廚房開始這個結論。",
+      "promptZhSource": "pdf",
+      "starter": "Strong",
+      "answer": "Strong evidence indicates that the fire started in the kitchen.",
+      "answerZh": "有力證據表明火災在廚房開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Strong evidence indicates that the fire started in the kitchen."
+    },
+    {
+      "id": "ss272-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Only a small amount of research points to the possibility that the treatment may reduce pain.",
+      "promptZh": "只有少量研究顯示這項治療可能減輕痛楚。",
+      "promptZhSource": "pdf",
+      "starter": "Limited",
+      "answer": "Limited evidence suggests that the treatment may reduce pain.",
+      "answerZh": "有限的證據顯示這項治療可能減輕痛楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Limited evidence suggests that the treatment may reduce pain."
+    },
+    {
+      "id": "ss272-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The information collected at the scene shows that two vehicles were involved.",
+      "promptZh": "現場所收集的資料顯示事件涉及兩輛車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence collected at the scene indicates that two vehicles were involved.",
+      "answerZh": "現場所收集的證據表明事件涉及兩輛車。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence collected at the scene indicates that two vehicles were involved."
+    },
+    {
+      "id": "ss272-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "According to the survey results, many residents appear to want more trees.",
+      "promptZh": "根據調查結果，很多居民似乎希望種植更多樹木。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the survey, the evidence suggests that many residents want more trees.",
+      "answerZh": "根據調查，證據顯示很多居民希望種植更多樹木。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the survey, the evidence suggests that many residents want more trees."
+    },
+    {
+      "id": "ss272-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What do the records show in this case? They show that the error occurred during data entry.",
+      "promptZh": "在這個情況下，紀錄顯示甚麼？紀錄顯示錯誤在輸入資料時發生。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this case, the evidence indicates that the error occurred during data entry.",
+      "answerZh": "在這個情況下，證據表明錯誤在輸入資料時發生。",
+      "answerZhSource": "pdf",
+      "highlight": "In this case, the evidence indicates that the error occurred during data entry."
+    },
+    {
+      "id": "ss272-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After the trial, the results led the team to believe that the new method saved time.",
+      "promptZh": "試驗結束後，結果令團隊相信新方法節省了時間。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the trial, the evidence suggested that the new method saved time.",
+      "answerZh": "試驗結束後，證據顯示新方法節省了時間。",
+      "answerZhSource": "pdf",
+      "highlight": "After the trial, the evidence suggested that the new method saved time."
+    },
+    {
+      "id": "ss272-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "During the investigation, the findings showed that the window had been broken from the outside.",
+      "promptZh": "調查期間，調查結果顯示窗戶是從外面被打破的。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the investigation, the evidence indicated that the window had been broken from the outside.",
+      "answerZh": "調查期間，證據表明窗戶是從外面被打破的。",
+      "answerZhSource": "pdf",
+      "highlight": "During the investigation, the evidence indicated that the window had been broken from the outside."
+    },
+    {
+      "id": "ss272-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Research involving older adults points to regular walking as a way to improve balance.",
+      "promptZh": "涉及年長人士的研究顯示，恆常步行可以改善平衡力。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For older adults, the evidence suggests that regular walking improves balance.",
+      "answerZh": "對年長人士而言，證據顯示恆常步行有助改善平衡力。",
+      "answerZhSource": "pdf",
+      "highlight": "For older adults, the evidence suggests that regular walking improves balance."
+    },
+    {
+      "id": "ss272-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Results from both schools show that students learn better in quieter rooms.",
+      "promptZh": "兩間學校的結果均顯示，學生在較安靜的房間內學習得更好。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In both schools, the evidence indicates that students learn better in quieter rooms.",
+      "answerZh": "在兩間學校中，證據均表明學生在較安靜的房間內學習得更好。",
+      "answerZhSource": "pdf",
+      "highlight": "In both schools, the evidence indicates that students learn better in quieter rooms."
+    },
+    {
+      "id": "ss272-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At present, the available information points to the possibility that the road may reopen tomorrow.",
+      "promptZh": "目前的資料顯示道路可能於明天重開。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, the available evidence suggests that the road may reopen tomorrow.",
+      "answerZh": "目前的證據顯示道路可能於明天重開。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, the available evidence suggests that the road may reopen tomorrow."
+    },
+    {
+      "id": "ss272-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What can be seen in the photographs? They show that the wall was already damaged.",
+      "promptZh": "從照片中可以看出甚麼？照片顯示牆壁當時已經受損。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the photographs, the evidence indicates that the wall was already damaged.",
+      "answerZh": "從照片所得的證據表明牆壁當時已經受損。",
+      "answerZhSource": "pdf",
+      "highlight": "From the photographs, the evidence indicates that the wall was already damaged."
+    },
+    {
+      "id": "ss272-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The sample is small, but the results make it likely that the app helps users save time.",
+      "promptZh": "樣本數量不多，但結果顯示這個應用程式可能幫助使用者節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the sample is small, the evidence suggests that the app helps users save time.",
+      "answerZh": "雖然樣本數量不多，但證據顯示這個應用程式可能幫助使用者節省時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the sample is small, the evidence suggests that the app helps users save time."
+    },
+    {
+      "id": "ss272-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When all the answers are compared, the pattern shows that most participants understood the instructions.",
+      "promptZh": "比較所有答案後，當中的規律顯示大部分參加者都明白指示。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When all the answers are compared, the evidence indicates that most participants understood the instructions.",
+      "answerZh": "比較所有答案後，證據表明大部分參加者都明白指示。",
+      "answerZhSource": "pdf",
+      "highlight": "When all the answers are compared, the evidence indicates that most participants understood the instructions."
+    },
+    {
+      "id": "ss272-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Researchers say the findings point to the conclusion that sleep affects memory.",
+      "promptZh": "研究人員表示，研究結果顯示睡眠可能影響記憶力。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers say the evidence suggests that sleep affects memory.",
+      "answerZh": "研究人員表示，證據顯示睡眠可能影響記憶力。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers say the evidence suggests that sleep affects memory."
+    },
+    {
+      "id": "ss272-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The report states that the findings show that the damage was caused by water.",
+      "promptZh": "報告指出，調查結果顯示損壞是由水造成的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report states that the evidence indicates that the damage was caused by water.",
+      "answerZh": "報告指出，證據表明損壞是由水造成的。",
+      "answerZhSource": "pdf",
+      "highlight": "The report states that the evidence indicates that the damage was caused by water."
+    },
+    {
+      "id": "ss272-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Scientists agree that the current research points to the possibility that the species is moving north.",
+      "promptZh": "科學家一致認為，目前的研究顯示這個物種可能正在向北遷移。",
+      "promptZhSource": "pdf",
+      "starter": "Scientists",
+      "answer": "Scientists agree that the available evidence suggests that the species is moving north.",
+      "answerZh": "科學家一致認為，現有證據顯示這個物種可能正在向北遷移。",
+      "answerZhSource": "pdf",
+      "highlight": "Scientists agree that the available evidence suggests that the species is moving north."
+    },
+    {
+      "id": "ss272-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The committee concluded from the records that the rule had been unclear.",
+      "promptZh": "委員會根據紀錄得出結論，認為該項規則一直不清晰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee concluded that the evidence indicated that the rule had been unclear.",
+      "answerZh": "委員會得出結論，認為證據表明該項規則一直不清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee concluded that the evidence indicated that the rule had been unclear."
+    },
+    {
+      "id": "ss272-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The doctor explained that the test results made it likely that the patient was recovering.",
+      "promptZh": "醫生解釋，測試結果顯示病人可能正在康復。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained that the evidence suggested that the patient was recovering.",
+      "answerZh": "醫生解釋，證據顯示病人當時正在康復。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained that the evidence suggested that the patient was recovering."
+    },
+    {
+      "id": "ss272-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Earlier reports disagreed, but the latest findings show that the road is safe.",
+      "promptZh": "較早的報告意見不一，但最新結果顯示道路是安全的。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although earlier reports disagreed, the evidence now indicates that the road is safe.",
+      "answerZh": "雖然較早的報告意見不一，但現有證據表明道路是安全的。",
+      "answerZhSource": "pdf",
+      "highlight": "Although earlier reports disagreed, the evidence now indicates that the road is safe."
+    },
+    {
+      "id": "ss272-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Despite the wet weather, the records show that attendance remained high.",
+      "promptZh": "儘管天氣潮濕，紀錄顯示出席率仍然很高。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite the wet weather, the evidence suggests that attendance remained high.",
+      "answerZh": "儘管天氣潮濕，證據顯示出席率仍然很高。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the wet weather, the evidence suggests that attendance remained high."
+    },
+    {
+      "id": "ss272-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Tests involving children under ten show that regular exercise improves balance.",
+      "promptZh": "涉及十歲以下兒童的測試顯示，恆常運動有助改善平衡力。",
+      "promptZhSource": "pdf",
+      "starter": "Among",
+      "answer": "Among children under ten, the evidence indicates that regular exercise improves balance.",
+      "answerZh": "在十歲以下兒童之中，證據表明恆常運動有助改善平衡力。",
+      "answerZhSource": "pdf",
+      "highlight": "Among children under ten, the evidence indicates that regular exercise improves balance."
+    },
+    {
+      "id": "ss272-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The test results point to the conclusion that the battery loses power quickly.",
+      "promptZh": "測試結果顯示電池很快便會失去電力。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the test results, the evidence suggests that the battery loses power quickly.",
+      "answerZh": "根據測試結果，證據顯示電池可能很快便會失去電力。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the test results, the evidence suggests that the battery loses power quickly."
+    },
+    {
+      "id": "ss272-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When considered together, the results show that the training reduced errors.",
+      "promptZh": "綜合考慮所有結果後，結果顯示培訓減少了錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Taken",
+      "answer": "Taken together, the evidence indicates that the training reduced errors.",
+      "answerZh": "綜合來看，證據表明培訓減少了錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Taken together, the evidence indicates that the training reduced errors."
+    },
+    {
+      "id": "ss272-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Staff interviews point to the need for clearer instructions.",
+      "promptZh": "職員訪談顯示他們需要更清晰的指示。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the interviews, the evidence suggests that staff need clearer instructions.",
+      "answerZh": "從訪談所得的證據顯示，職員需要更清晰的指示。",
+      "answerZhSource": "pdf",
+      "highlight": "From the interviews, the evidence suggests that staff need clearer instructions."
+    },
+    {
+      "id": "ss272-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The camera recordings show that the door was already open.",
+      "promptZh": "攝錄紀錄顯示房門當時已經打開。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the camera recordings, the evidence indicates that the door was already open.",
+      "answerZh": "根據攝錄紀錄，證據表明房門當時已經打開。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the camera recordings, the evidence indicates that the door was already open."
+    },
+    {
+      "id": "ss272-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The report presents findings that make a slow rise in prices seem possible.",
+      "promptZh": "報告提出的調查結果顯示價格可能緩慢上升。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence presented in the report suggests that prices may rise slowly.",
+      "answerZh": "報告所提出的證據顯示價格可能緩慢上升。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence presented in the report suggests that prices may rise slowly."
+    },
+    {
+      "id": "ss272-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The information available to the police shows that the missing bag was taken by mistake.",
+      "promptZh": "警方現有的資料顯示，遺失的袋子是被人錯誤拿走的。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the information available to the police, the evidence indicates that the missing bag was taken by mistake.",
+      "answerZh": "根據警方現有的資料，證據表明遺失的袋子是被人錯誤拿走的。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the information available to the police, the evidence indicates that the missing bag was taken by mistake."
+    },
+    {
+      "id": "ss272-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Six months of measurements point to the conclusion that the river level is falling.",
+      "promptZh": "六個月的測量結果顯示河流水位正在下降。",
+      "promptZhSource": "pdf",
+      "starter": "Over",
+      "answer": "Over six months, the evidence collected by the team suggests that the river level is falling.",
+      "answerZh": "在六個月內，團隊收集的證據顯示河流水位正在下降。",
+      "answerZhSource": "pdf",
+      "highlight": "Over six months, the evidence collected by the team suggests that the river level is falling."
+    },
+    {
+      "id": "ss272-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If the figures are accurate, they show that sales improved in June.",
+      "promptZh": "如果數字準確，它們顯示銷售額在六月有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the figures are accurate, the evidence indicates that sales improved in June.",
+      "answerZh": "如果數字準確，證據表明銷售額在六月有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "If the figures are accurate, the evidence indicates that sales improved in June."
+    },
+    {
+      "id": "ss272-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Once the damaged parts are examined, the findings may point to poor maintenance of the machine.",
+      "promptZh": "檢查受損零件後，結果可能顯示機器保養不善。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the damaged parts are examined, the evidence may suggest that the machine was poorly maintained.",
+      "answerZh": "檢查受損零件後，證據可能顯示機器保養不善。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the damaged parts are examined, the evidence may suggest that the machine was poorly maintained."
+    },
+    {
+      "id": "ss272-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The findings give us no reason to think that the medicine caused the problem.",
+      "promptZh": "調查結果沒有理由令我們認為問題是由藥物造成的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence does not suggest that the medicine caused the problem.",
+      "answerZh": "證據並不顯示問題是由藥物造成的。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence does not suggest that the medicine caused the problem."
+    },
+    {
+      "id": "ss272-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The records show no sign that any money was stolen.",
+      "promptZh": "紀錄沒有顯示任何金錢被盜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence does not indicate that any money was stolen.",
+      "answerZh": "證據並不表明有任何金錢被盜。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence does not indicate that any money was stolen."
+    },
+    {
+      "id": "ss272-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "At this stage, the available information points to the possibility that the repair will take longer than expected.",
+      "promptZh": "現階段的資料顯示，維修時間可能比預期長。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, the available evidence may suggest that the repair will take longer than expected.",
+      "answerZh": "現階段的證據可能顯示維修時間會比預期長。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, the available evidence may suggest that the repair will take longer than expected."
+    },
+    {
+      "id": "ss272-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Although no single result is decisive, the combined findings make it likely that the programme improved confidence.",
+      "promptZh": "雖然沒有任何一項結果能作出決定性結論，但綜合結果顯示這項計劃可能提升了信心。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although no single result is decisive, the available evidence suggests that the programme improved confidence.",
+      "answerZh": "雖然沒有任何一項結果能作出決定性結論，但現有證據顯示這項計劃可能提升了信心。",
+      "answerZhSource": "pdf",
+      "highlight": "Although no single result is decisive, the available evidence suggests that the programme improved confidence."
+    },
+    {
+      "id": "ss272-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The interviews and attendance records show that the new timetable caused confusion.",
+      "promptZh": "訪談和出席紀錄顯示新時間表造成了混亂。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the interviews and attendance records, the evidence indicates that the new timetable caused confusion.",
+      "answerZh": "從訪談和出席紀錄所得的證據表明，新時間表造成了混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "From the interviews and attendance records, the evidence indicates that the new timetable caused confusion."
+    },
+    {
+      "id": "ss272-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Researchers remain cautious, but the results point to the possibility that the treatment may help some patients.",
+      "promptZh": "研究人員仍然保持審慎，但結果顯示這項治療可能對部分病人有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers remain cautious, but the evidence suggests that the treatment may help some patients.",
+      "answerZh": "研究人員仍然保持審慎，但證據顯示這項治療可能對部分病人有幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers remain cautious, but the evidence suggests that the treatment may help some patients."
+    },
+    {
+      "id": "ss272-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "When the three studies are considered together, the findings show that early support improves progress.",
+      "promptZh": "綜合考慮三項研究後，結果顯示及早提供支援能改善進度。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the three studies are considered together, the evidence indicates that early support improves progress.",
+      "answerZh": "綜合考慮三項研究後，證據表明及早提供支援能改善進度。",
+      "answerZhSource": "pdf",
+      "highlight": "When the three studies are considered together, the evidence indicates that early support improves progress."
+    },
+    {
+      "id": "ss272-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The pattern across all four schools points to the conclusion that smaller classes encourage participation.",
+      "promptZh": "四間學校均出現的規律顯示，較小的班別能鼓勵學生參與。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the pattern across all four schools, the evidence suggests that smaller classes encourage participation.",
+      "answerZh": "根據四間學校均出現的規律，證據顯示較小的班別能鼓勵學生參與。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the pattern across all four schools, the evidence suggests that smaller classes encourage participation."
+    },
+    {
+      "id": "ss272-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Even though the sample was limited, the results at the time made it likely that the campaign changed some habits.",
+      "promptZh": "雖然當時的樣本有限，但結果顯示這項活動可能改變了部分習慣。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the sample was limited, the evidence suggested that the campaign changed some habits.",
+      "answerZh": "雖然樣本有限，但當時的證據顯示這項活動可能改變了部分習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the sample was limited, the evidence suggested that the campaign changed some habits."
+    },
+    {
+      "id": "ss272-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The review panel agreed that the records showed that the original decision had been based on incomplete information.",
+      "promptZh": "覆核小組一致認為，紀錄顯示原有決定是根據不完整資料作出的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review panel agreed that the evidence indicated that the original decision had been based on incomplete information.",
+      "answerZh": "覆核小組一致認為，證據表明原有決定是根據不完整資料作出的。",
+      "answerZhSource": "pdf",
+      "highlight": "The review panel agreed that the evidence indicated that the original decision had been based on incomplete information."
+    },
+    {
+      "id": "ss272-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "After comparing the written records with the video, investigators concluded that the findings made it likely that the alarm had sounded before the door opened.",
+      "promptZh": "調查人員比較書面紀錄和影片後，認為調查結果顯示警報可能在房門打開前已經響起。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After comparing the written records with the video, investigators concluded that the evidence suggested that the alarm had sounded before the door opened.",
+      "answerZh": "調查人員比較書面紀錄和影片後得出結論，認為證據顯示警報可能在房門打開前已經響起。",
+      "answerZhSource": "pdf",
+      "highlight": "After comparing the written records with the video, investigators concluded that the evidence suggested that the alarm had sounded before the door opened."
+    },
+    {
+      "id": "ss272-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Several explanations remain possible, but the facts point to human error as the most likely cause.",
+      "promptZh": "仍然有數個可能的解釋，但事實顯示人為錯誤是最可能的原因。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although several explanations remain possible, the evidence indicates that human error was the most likely cause.",
+      "answerZh": "雖然仍然有數個可能的解釋，但證據表明人為錯誤是最可能的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Although several explanations remain possible, the evidence indicates that human error was the most likely cause."
+    },
+    {
+      "id": "ss272-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Taken as a whole, the results point to a short-term improvement, but they leave doubt about whether the policy solved the underlying problem.",
+      "promptZh": "綜合來看，結果顯示短期內有所改善，但仍無法確定該政策是否解決了根本問題。",
+      "promptZhSource": "pdf",
+      "starter": "Taken",
+      "answer": "Taken as a whole, the available evidence suggests that the policy produced a short-term improvement but may not have solved the underlying problem.",
+      "answerZh": "綜合來看，現有證據顯示該政策可能帶來了短期改善，但未必已經解決根本問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Taken as a whole, the available evidence suggests that the policy produced a short-term improvement but may not have solved the underlying problem."
+    }
+  ]
+}

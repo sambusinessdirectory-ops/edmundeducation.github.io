@@ -19619,6 +19619,462 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "sentence-structure.html?lesson=ss218"
   },
   {
+    "id": "sentence:ss219",
+    "type": "sentence-structure",
+    "ordinal": 219,
+    "label": "#219 · 「Not until ... did ...」倒裝句",
+    "detail": "Sentence Structure #219 · Using “Not until ... did ...” inversion",
+    "url": "sentence-structure.html?lesson=ss219"
+  },
+  {
+    "id": "sentence:ss220",
+    "type": "sentence-structure",
+    "ordinal": 220,
+    "label": "#220 · 「Only when ...」倒裝句",
+    "detail": "Sentence Structure #220 · Using “Only when ...” inversion",
+    "url": "sentence-structure.html?lesson=ss220"
+  },
+  {
+    "id": "sentence:ss221",
+    "type": "sentence-structure",
+    "ordinal": 221,
+    "label": "#221 · 「Only after ... did ...」倒裝句",
+    "detail": "Sentence Structure #221 · Using “Only after ... did ...” inversion",
+    "url": "sentence-structure.html?lesson=ss221"
+  },
+  {
+    "id": "sentence:ss222",
+    "type": "sentence-structure",
+    "ordinal": 222,
+    "label": "#222 · 「Only by ... can ...」表示只有透過某種方法，才能做到某事",
+    "detail": "Sentence Structure #222 · Using “Only by ... can ...” to express a necessary method",
+    "url": "sentence-structure.html?lesson=ss222"
+  },
+  {
+    "id": "sentence:ss223",
+    "type": "sentence-structure",
+    "ordinal": 223,
+    "label": "#223 · 「Hardly ... when ...」倒裝句",
+    "detail": "Sentence Structure #223 · Using “Hardly ... when ...” inversion",
+    "url": "sentence-structure.html?lesson=ss223"
+  },
+  {
+    "id": "sentence:ss224",
+    "type": "sentence-structure",
+    "ordinal": 224,
+    "label": "#224 · 「No sooner ... than ...」倒裝句",
+    "detail": "Sentence Structure #224 · Using “No sooner ... than ...” inversion",
+    "url": "sentence-structure.html?lesson=ss224"
+  },
+  {
+    "id": "sentence:ss225",
+    "type": "sentence-structure",
+    "ordinal": 225,
+    "label": "#225 · 「Scarcely ... when ...」倒裝句",
+    "detail": "Sentence Structure #225 · Using “Scarcely ... when ...” inversion",
+    "url": "sentence-structure.html?lesson=ss225"
+  },
+  {
+    "id": "sentence:ss226",
+    "type": "sentence-structure",
+    "ordinal": 226,
+    "label": "#226 · 「Not until then + 倒裝句」表達「直到那時才……」",
+    "detail": "Sentence Structure #226 · Using “not until then” with inversion",
+    "url": "sentence-structure.html?lesson=ss226"
+  },
+  {
+    "id": "sentence:ss227",
+    "type": "sentence-structure",
+    "ordinal": 227,
+    "label": "#227 · 「one 作泛指人稱代名詞」",
+    "detail": "Sentence Structure #227 · Using “one” as a generic personal pronoun",
+    "url": "sentence-structure.html?lesson=ss227"
+  },
+  {
+    "id": "sentence:ss228",
+    "type": "sentence-structure",
+    "ordinal": 228,
+    "label": "#228 · 「Little did someone know that ...」表示當時完全不知道",
+    "detail": "Sentence Structure #228 · Using “Little did someone know that ...”",
+    "url": "sentence-structure.html?lesson=ss228"
+  },
+  {
+    "id": "sentence:ss229",
+    "type": "sentence-structure",
+    "ordinal": 229,
+    "label": "#229 · Echo Questions 回聲問句",
+    "detail": "Sentence Structure #229 · Echo Questions",
+    "url": "sentence-structure.html?lesson=ss229"
+  },
+  {
+    "id": "sentence:ss230",
+    "type": "sentence-structure",
+    "ordinal": 230,
+    "label": "#230 · Embedded Questions 嵌入問句",
+    "detail": "Sentence Structure #230 · Embedded Questions",
+    "url": "sentence-structure.html?lesson=ss230"
+  },
+  {
+    "id": "sentence:ss231",
+    "type": "sentence-structure",
+    "ordinal": 231,
+    "label": "#231 · Embedded Questions 嵌入問句",
+    "detail": "Sentence Structure #231 · Embedded Questions",
+    "url": "sentence-structure.html?lesson=ss231"
+  },
+  {
+    "id": "sentence:ss232",
+    "type": "sentence-structure",
+    "ordinal": 232,
+    "label": "#232 · Minor Sentences 簡略句／零碎句",
+    "detail": "Sentence Structure #232 · Minor Sentences",
+    "url": "sentence-structure.html?lesson=ss232"
+  },
+  {
+    "id": "sentence:ss233",
+    "type": "sentence-structure",
+    "ordinal": 233,
+    "label": "#233 · WH 分裂句／偽分裂句",
+    "detail": "Sentence Structure #233 · WH-cleft / Pseudo-cleft Sentences",
+    "url": "sentence-structure.html?lesson=ss233"
+  },
+  {
+    "id": "sentence:ss234",
+    "type": "sentence-structure",
+    "ordinal": 234,
+    "label": "#234 · 「Reverse pseudo-cleft 反向偽分裂句」",
+    "detail": "Sentence Structure #234 · Reverse Pseudo-cleft Sentences",
+    "url": "sentence-structure.html?lesson=ss234"
+  },
+  {
+    "id": "sentence:ss235",
+    "type": "sentence-structure",
+    "ordinal": 235,
+    "label": "#235 · 「補語 + as／though」表示讓步",
+    "detail": "Sentence Structure #235 · Fronted Complements in Concessive Clauses",
+    "url": "sentence-structure.html?lesson=ss235"
+  },
+  {
+    "id": "sentence:ss236",
+    "type": "sentence-structure",
+    "ordinal": 236,
+    "label": "#236 · 「Gapping：省略重複成分」",
+    "detail": "Sentence Structure #236 · Gapping: Omitting Repeated Material",
+    "url": "sentence-structure.html?lesson=ss236"
+  },
+  {
+    "id": "sentence:ss237",
+    "type": "sentence-structure",
+    "ordinal": 237,
+    "label": "#237 · 「Stripping」簡化附和結構",
+    "detail": "Sentence Structure #237 · Stripping Ellipsis",
+    "url": "sentence-structure.html?lesson=ss237"
+  },
+  {
+    "id": "sentence:ss238",
+    "type": "sentence-structure",
+    "ordinal": 238,
+    "label": "#238 · Sluicing 殘留疑問結構",
+    "detail": "Sentence Structure #238 · Sluicing: Wh-remnant ellipsis",
+    "url": "sentence-structure.html?lesson=ss238"
+  },
+  {
+    "id": "sentence:ss239",
+    "type": "sentence-structure",
+    "ordinal": 239,
+    "label": "#239 · 「以 so ／ not 代替重複子句」",
+    "detail": "Sentence Structure #239 · Substitution with so / not",
+    "url": "sentence-structure.html?lesson=ss239"
+  },
+  {
+    "id": "sentence:ss240",
+    "type": "sentence-structure",
+    "ordinal": 240,
+    "label": "#240 · 「Bare Fragment after Context」語境中的簡略片語",
+    "detail": "Sentence Structure #240 · Context-supported elliptical fragments",
+    "url": "sentence-structure.html?lesson=ss240"
+  },
+  {
+    "id": "sentence:ss241",
+    "type": "sentence-structure",
+    "ordinal": 241,
+    "label": "#241 · 「It takes + person ／ time ／ effort + to + verb」表示所需時間或條件",
+    "detail": "Sentence Structure #241 · It takes + person / time / effort + to + verb",
+    "url": "sentence-structure.html?lesson=ss241"
+  },
+  {
+    "id": "sentence:ss242",
+    "type": "sentence-structure",
+    "ordinal": 242,
+    "label": "#242 · 「It is up to + Person + to + Verb」表示責任、權力或選擇",
+    "detail": "Sentence Structure #242 · It is up to + person + to + verb",
+    "url": "sentence-structure.html?lesson=ss242"
+  },
+  {
+    "id": "sentence:ss243",
+    "type": "sentence-structure",
+    "ordinal": 243,
+    "label": "#243 · 「be worth + noun ／ V-ing」表達價值",
+    "detail": "Sentence Structure #243 · Using be worth + noun / V-ing",
+    "url": "sentence-structure.html?lesson=ss243"
+  },
+  {
+    "id": "sentence:ss244",
+    "type": "sentence-structure",
+    "ordinal": 244,
+    "label": "#244 · 「It is no use ／ no good + V-ing」表示做某事沒有用",
+    "detail": "Sentence Structure #244 · It is no use / no good + V-ing",
+    "url": "sentence-structure.html?lesson=ss244"
+  },
+  {
+    "id": "sentence:ss245",
+    "type": "sentence-structure",
+    "ordinal": 245,
+    "label": "#245 · 「It is only a matter of time before + clause」表示「某事遲早會發生」",
+    "detail": "Sentence Structure #245 · It is only a matter of time before + clause",
+    "url": "sentence-structure.html?lesson=ss245"
+  },
+  {
+    "id": "sentence:ss246",
+    "type": "sentence-structure",
+    "ordinal": 246,
+    "label": "#246 · 「It remains to be seen whether + clause」表示結果尚未確定",
+    "detail": "Sentence Structure #246 · It remains to be seen whether + clause",
+    "url": "sentence-structure.html?lesson=ss246"
+  },
+  {
+    "id": "sentence:ss247",
+    "type": "sentence-structure",
+    "ordinal": 247,
+    "label": "#247 · 「It turns out that + 子句 ／ X turns out to be Y」表示後來發現的真相",
+    "detail": "Sentence Structure #247 · It turns out that + clause / X turns out to be Y",
+    "url": "sentence-structure.html?lesson=ss247"
+  },
+  {
+    "id": "sentence:ss248",
+    "type": "sentence-structure",
+    "ordinal": 248,
+    "label": "#248 · 「It is one thing to X; it is another (thing) to Y」對比句",
+    "detail": "Sentence Structure #248 · It is one thing to X; it is another (thing) to Y",
+    "url": "sentence-structure.html?lesson=ss248"
+  },
+  {
+    "id": "sentence:ss249",
+    "type": "sentence-structure",
+    "ordinal": 249,
+    "label": "#249 · 「It is one thing to X; it is another (thing) to Y」對比句",
+    "detail": "Sentence Structure #249 · It is one thing to X; it is another (thing) to Y",
+    "url": "sentence-structure.html?lesson=ss249"
+  },
+  {
+    "id": "sentence:ss250",
+    "type": "sentence-structure",
+    "ordinal": 250,
+    "label": "#250 · 「There is more to X than Y」表示事情不只表面因素",
+    "detail": "Sentence Structure #250 · There is more to X than Y",
+    "url": "sentence-structure.html?lesson=ss250"
+  },
+  {
+    "id": "sentence:ss251",
+    "type": "sentence-structure",
+    "ordinal": 251,
+    "label": "#251 · 「There is no such thing as X」表示「根本沒有 X 這回事」",
+    "detail": "Sentence Structure #251 · There is no such thing as X",
+    "url": "sentence-structure.html?lesson=ss251"
+  },
+  {
+    "id": "sentence:ss252",
+    "type": "sentence-structure",
+    "ordinal": 252,
+    "label": "#252 · 「On the one hand …; on the other hand …」表達事物的兩面",
+    "detail": "Sentence Structure #252 · On the one hand …; on the other hand …",
+    "url": "sentence-structure.html?lesson=ss252"
+  },
+  {
+    "id": "sentence:ss253",
+    "type": "sentence-structure",
+    "ordinal": 253,
+    "label": "#253 · 「Just because X does not mean Y」反駁沒有充分根據的結論",
+    "detail": "Sentence Structure #253 · Just because X does not mean Y",
+    "url": "sentence-structure.html?lesson=ss253"
+  },
+  {
+    "id": "sentence:ss254",
+    "type": "sentence-structure",
+    "ordinal": 254,
+    "label": "#254 · 「This is not to say that + clause」表示「這並不是說……」",
+    "detail": "Sentence Structure #254 · This is not to say that + clause",
+    "url": "sentence-structure.html?lesson=ss254"
+  },
+  {
+    "id": "sentence:ss255",
+    "type": "sentence-structure",
+    "ordinal": 255,
+    "label": "#255 · 「Unlike X, Y …」表達對比",
+    "detail": "Sentence Structure #255 · Unlike X, Y …",
+    "url": "sentence-structure.html?lesson=ss255"
+  },
+  {
+    "id": "sentence:ss256",
+    "type": "sentence-structure",
+    "ordinal": 256,
+    "label": "#256 · 「Far from being X, Y …」表達強烈否定與相反結果",
+    "detail": "Sentence Structure #256 · Far from being X, Y …",
+    "url": "sentence-structure.html?lesson=ss256"
+  },
+  {
+    "id": "sentence:ss257",
+    "type": "sentence-structure",
+    "ordinal": 257,
+    "label": "#257 · 「The same is true of ／ The same applies to X」表達「……也是如此」",
+    "detail": "Sentence Structure #257 · Using “The same is true of / The same applies to X”",
+    "url": "sentence-structure.html?lesson=ss257"
+  },
+  {
+    "id": "sentence:ss258",
+    "type": "sentence-structure",
+    "ordinal": 258,
+    "label": "#258 · 「Unless + clause」表示「除非；如果不」",
+    "detail": "Sentence Structure #258 · Using “Unless + clause”",
+    "url": "sentence-structure.html?lesson=ss258"
+  },
+  {
+    "id": "sentence:ss259",
+    "type": "sentence-structure",
+    "ordinal": 259,
+    "label": "#259 · 「Regardless of + noun ／ wh-clause」表示「不論／不管……」",
+    "detail": "Sentence Structure #259 · Using “Regardless of + noun / wh-clause”",
+    "url": "sentence-structure.html?lesson=ss259"
+  },
+  {
+    "id": "sentence:ss260",
+    "type": "sentence-structure",
+    "ordinal": 260,
+    "label": "#260 · 「In the event that + 子句 ／ In the event of + 名詞」表示「在某情況發生時」",
+    "detail": "Sentence Structure #260 · Using “In the event that + clause / In the event of + noun”",
+    "url": "sentence-structure.html?lesson=ss260"
+  },
+  {
+    "id": "sentence:ss261",
+    "type": "sentence-structure",
+    "ordinal": 261,
+    "label": "#261 · 「If so ／ If not」承接前文情況",
+    "detail": "Sentence Structure #261 · Using “If so / If not” to refer back to a situation",
+    "url": "sentence-structure.html?lesson=ss261"
+  },
+  {
+    "id": "sentence:ss262",
+    "type": "sentence-structure",
+    "ordinal": 262,
+    "label": "#262 · 「If not X, then Y」替代與後果句",
+    "detail": "Sentence Structure #262 · Using “If not X, then Y” for alternatives and consequences",
+    "url": "sentence-structure.html?lesson=ss262"
+  },
+  {
+    "id": "sentence:ss263",
+    "type": "sentence-structure",
+    "ordinal": 263,
+    "label": "#263 · 「But for + noun」表示「若不是因為……」",
+    "detail": "Sentence Structure #263 · Using “But for + noun”",
+    "url": "sentence-structure.html?lesson=ss263"
+  },
+  {
+    "id": "sentence:ss264",
+    "type": "sentence-structure",
+    "ordinal": 264,
+    "label": "#264 · 「As soon as + clause」表達「一件事發生後，另一件事立即發生」",
+    "detail": "Sentence Structure #264 · Using “As soon as + clause”",
+    "url": "sentence-structure.html?lesson=ss264"
+  },
+  {
+    "id": "sentence:ss265",
+    "type": "sentence-structure",
+    "ordinal": 265,
+    "label": "#265 · 「The first ／ last ／ next time + clause」表達「首次、上次及下次」",
+    "detail": "Sentence Structure #265 · Using “The first / last / next time + clause”",
+    "url": "sentence-structure.html?lesson=ss265"
+  },
+  {
+    "id": "sentence:ss266",
+    "type": "sentence-structure",
+    "ordinal": 266,
+    "label": "#266 · 「To the point where + clause」表示「達到某種程度，以致……」",
+    "detail": "Sentence Structure #266 · Using “To the point where + clause”",
+    "url": "sentence-structure.html?lesson=ss266"
+  },
+  {
+    "id": "sentence:ss267",
+    "type": "sentence-structure",
+    "ordinal": 267,
+    "label": "#267 · 「In order that + 子句」表達「目的」",
+    "detail": "Sentence Structure #267 · Using “In order that + clause” to express purpose",
+    "url": "sentence-structure.html?lesson=ss267"
+  },
+  {
+    "id": "sentence:ss268",
+    "type": "sentence-structure",
+    "ordinal": 268,
+    "label": "#268 · 「Main clause, only to + verb」表達「意料之外的結果」",
+    "detail": "Sentence Structure #268 · Using “Main clause, only to + verb” for an unexpected result",
+    "url": "sentence-structure.html?lesson=ss268"
+  },
+  {
+    "id": "sentence:ss269",
+    "type": "sentence-structure",
+    "ordinal": 269,
+    "label": "#269 · 「To the best of my knowledge, …」表示「據我所知」",
+    "detail": "Sentence Structure #269 · Using “To the best of my knowledge, ...”",
+    "url": "sentence-structure.html?lesson=ss269"
+  },
+  {
+    "id": "sentence:ss270",
+    "type": "sentence-structure",
+    "ordinal": 270,
+    "label": "#270 · 「As far as I know, …」據我所知……",
+    "detail": "Sentence Structure #270 · Using “As far as I know” to qualify information",
+    "url": "sentence-structure.html?lesson=ss270"
+  },
+  {
+    "id": "sentence:ss271",
+    "type": "sentence-structure",
+    "ordinal": 271,
+    "label": "#271 · 「It is said / reported / believed that + 子句」轉述消息",
+    "detail": "Sentence Structure #271 · Passive reporting with “It is said / reported / believed that”",
+    "url": "sentence-structure.html?lesson=ss271"
+  },
+  {
+    "id": "sentence:ss272",
+    "type": "sentence-structure",
+    "ordinal": 272,
+    "label": "#272 · 「Evidence suggests / indicates that + 子句」以證據支持結論",
+    "detail": "Sentence Structure #272 · Using evidence to support a conclusion",
+    "url": "sentence-structure.html?lesson=ss272"
+  },
+  {
+    "id": "sentence:ss273",
+    "type": "sentence-structure",
+    "ordinal": 273,
+    "label": "#273 · 「It remains unclear whether + 子句」表示「某事仍未能確定」",
+    "detail": "Sentence Structure #273 · Using “It remains unclear whether” for unresolved questions",
+    "url": "sentence-structure.html?lesson=ss273"
+  },
+  {
+    "id": "sentence:ss274",
+    "type": "sentence-structure",
+    "ordinal": 274,
+    "label": "#274 · 「It may well be that + 子句」表示「很可能……」",
+    "detail": "Sentence Structure #274 · Using “It may well be that” for a strong possibility",
+    "url": "sentence-structure.html?lesson=ss274"
+  },
+  {
+    "id": "sentence:ss275",
+    "type": "sentence-structure",
+    "ordinal": 275,
+    "label": "#275 · 「It is worth noting that 句：指出值得留意的重點」",
+    "detail": "Sentence Structure #275 · Using “It is worth noting that” to highlight an important point",
+    "url": "sentence-structure.html?lesson=ss275"
+  },
+  {
     "id": "speaking:ielts-part-2-book-2-exercise-09",
     "type": "speaking",
     "ordinal": 9,

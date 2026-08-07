@@ -1,0 +1,1220 @@
+{
+  "id": "ss233",
+  "order": 233,
+  "slug": "wh-cleft-pseudo-cleft",
+  "title": "WH-cleft ／ Pseudo-cleft",
+  "titleZh": "WH 分裂句／偽分裂句",
+  "titleEn": "WH-cleft / Pseudo-cleft Sentences",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 232 - WH-cleft _ Pseudo-cleft.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 232; it is assigned system ID ss233 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "WH-clause + be + focused information",
+  "formulas": [
+    {
+      "id": "ss233-formula-01",
+      "labelEn": "WH-clause first",
+      "labelZh": "WH 子句在前",
+      "formula": "WH-clause + be + focused information"
+    },
+    {
+      "id": "ss233-formula-02",
+      "labelEn": "Reversed pseudo-cleft",
+      "labelZh": "倒置偽分裂句",
+      "formula": "Focused information + be + WH-clause"
+    }
+  ],
+  "example": "What the team lacked was trust.",
+  "exampleZh": "團隊所缺乏的，就是信任。",
+  "examples": [
+    {
+      "id": "ss233-example-01",
+      "en": "What the team lacked was trust.",
+      "zh": "團隊所缺乏的，就是信任。",
+      "highlight": "What the team lacked was trust."
+    }
+  ],
+  "meaning": {
+    "zh": "WH 分裂句把一個意思分成 WH 子句和焦點資料兩部分，讓說話者突出最重要的內容。"
+  },
+  "rules": [
+    {
+      "id": "ss233-rule-01",
+      "zh": "子句使用陳述句語序 WH-cleft 中的 WH 部分並不是直接問句，因此不能使用問句語序。 Correct: What he needs is more time. （他所需要的是更多時間。） Incorrect: What does he need is more time.",
+      "en": "Use statement word order in the WH-clause because it is not a direct question: “What he needs is more time”, not “What does he need ...”.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-rule-02",
+      "zh": "根據所強調的資料選擇 WH 疑問詞 What I need is some rest. （我所需要的是休息。） Where we met was outside the station. （我們見面的地方是在車站外。） When the problem began was last Monday. （問題開始的時間是上星期一。） Why she resigned was that she felt ignored. （她辭職的原因是她感到不受重視。） How they succeeded was by working together. （他們成功的方法是共同合作。） Who helped us most was Daniel. （最幫到我們的人是丹尼爾。） Which option we selected was the cheaper one. （我們所選擇的是較便宜的選項。）",
+      "en": "Choose the WH-word according to the focus: what for a thing or idea, where for place, when for time, why for reason, how for method, who for a person, and which for a choice.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-rule-03",
+      "zh": "一般根據時間使用 is 或 was What I need now is more information. （我現在所需要的是更多資料。） What surprised me yesterday was his answer. （昨天令我驚訝的是他的答案。）",
+      "en": "Choose is or was according to the relevant time: “What I need now is ...” but “What surprised me yesterday was ....”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-rule-04",
+      "zh": "子句放在前面時，通常視作一個整體 因此，標準 WH-cleft 通常使用 is 或 was。 What the students need is more practice. （學生所需要的是更多練習。）",
+      "en": "When the WH-clause comes first, it is normally treated as a single unit, so a standard WH-cleft usually uses is or was.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-rule-05",
+      "zh": "倒置偽分裂句的 be 動詞可與前面的重點配合 A clearer explanation is what the students need. （學生所需要的是更清晰的解釋。） Clearer signs were what made the building easier to navigate. （令大樓更容易找到方向的是更清晰的指示牌。）",
+      "en": "In a reversed pseudo-cleft, the form of be can agree with the preceding focused information and its time.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-rule-06",
+      "zh": "後面常使用原形動詞 What we should do is check the figures again. （我們應該做的是再次核對數字。） What the doctor advised me to do was get more rest. （醫生建議我做的是多休息。）",
+      "en": "After “What ... do is/was”, the focused action commonly uses the base verb: “What we should do is check the figures again.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-rule-07",
+      "zh": "子句後宜使用 that 子句表達原因 Why the meeting was cancelled was that the speaker was ill. （會議取消的原因是講者生病了。） 這種寫法通常比以下形式更清晰： Why the meeting was cancelled was because the speaker was ill.",
+      "en": "After a why-clause, a that-clause often expresses the reason more clearly than a because-clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-rule-08",
+      "zh": "並非所有倒置形式都同樣自然 以下句子自然： Trust was what the team lacked. Friday evening was when the event began. Checking every figure twice was how Ben avoided mistakes. 但以下句子較生硬： Daniel was who helped me most. 因此，who 和 which 類句子通常保留 WH 子句在前面的形式，以確保英語自然。",
+      "en": "Not every reversed form is equally natural. Reversed what, where, when, why and how forms are common, but who and which often sound more natural with the WH-clause first.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss233-benefit-01",
+      "zh": "把最重要的資料放在焦點位置 這個句型可以清楚告訴聽者或讀者，句子中哪一部分最重要。 The team lacked trust. What the team lacked was trust. 第二句把 trust 放在最受注意的位置。",
+      "en": "It places the most important information in a clear focus position.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-benefit-02",
+      "zh": "適合澄清或更正資料 當你想強調「真正重要的不是 X，而是 Y」時，WH-cleft 十分實用。 What we need is better communication, not another meeting. （我們所需要的是更好的溝通，而不是再開一次會議。）",
+      "en": "It is useful for correcting or clarifying information by contrasting the real focus with an alternative.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-benefit-03",
+      "zh": "幫助組織較複雜的解釋 你可以利用 what、where、when、why 和 how，把內容分成清楚的類別。 ● what happened：發生了甚麼； ● where it happened：在哪裏發生； ● when it happened：何時發生； ● why it happened：為甚麼發生； ● how it happened：如何發生。 這能令說明、報告和故事更容易理解。",
+      "en": "It helps organise complex explanations by grouping information under what, where, when, why and how.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-benefit-04",
+      "zh": "增加句子開頭的變化 你不需要每一句都以人物或事物作主語。 普通句： The lack of trust caused the problem. WH-cleft： What caused the problem was the lack of trust. 倒置偽分裂句： The lack of trust was what caused the problem. 三句表達相近意思，但句子的組織方式不同。",
+      "en": "It creates more varied sentence openings instead of beginning every sentence with a person or thing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss233-benefit-05",
+      "zh": "令說話更有條理 WH-cleft 可以成為一個容易使用的口語框架： What I think is... What concerns me is... What we should do is... Why this matters is... How we can improve is... 掌握這些框架後，你可以更快組織答案，不需要每次從零開始構思整句。",
+      "en": "It gives spoken answers an organised framework, such as “What I think is ...” or “How we can improve is ....”",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 232; it is assigned system ID ss233 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a WH-cleft or reversed pseudo-cleft structure.",
+      "Preserve the meaning, tense, contrast and emphasis; use the first-word hint to choose the order."
+    ],
+    "zh": [
+      "使用 WH 分裂句或倒置偽分裂句改寫每題。",
+      "保留原句意思、時態、對比和強調程度，並按照首字提示決定句式次序。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss233-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I need one thing most: a short break.",
+      "promptZh": "我最需要一樣東西：短暫休息一下。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I need most is a short break.",
+      "answerZh": "我最需要的是短暫休息一下。",
+      "answerZhSource": "pdf",
+      "highlight": "What I need most is a short break."
+    },
+    {
+      "id": "ss233-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "More than anything else, the students need more practice.",
+      "promptZh": "學生最需要的是更多練習。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More practice is what the students need most.",
+      "answerZh": "學生最需要的是更多練習。",
+      "answerZhSource": "pdf",
+      "highlight": "More practice is what the students need most."
+    },
+    {
+      "id": "ss233-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We first met at the library.",
+      "promptZh": "我們初次見面的地方是圖書館。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where we first met was at the library.",
+      "answerZh": "我們初次見面的地方是在圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "Where we first met was at the library."
+    },
+    {
+      "id": "ss233-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The event began on Friday evening.",
+      "promptZh": "活動在星期五晚上開始。",
+      "promptZhSource": "pdf",
+      "starter": "Friday",
+      "answer": "Friday evening was when the event began.",
+      "answerZh": "活動開始的時間是星期五晚上。",
+      "answerZhSource": "pdf",
+      "highlight": "Friday evening was when the event began."
+    },
+    {
+      "id": "ss233-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia called because she needed advice.",
+      "promptZh": "米婭致電，因為她需要建議。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why Mia called was that she needed advice.",
+      "answerZh": "米婭致電的原因是她需要建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Why Mia called was that she needed advice."
+    },
+    {
+      "id": "ss233-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben avoided mistakes by checking every figure twice.",
+      "promptZh": "本把每個數字核對兩次，因而避免出錯。",
+      "promptZhSource": "pdf",
+      "starter": "Checking",
+      "answer": "Checking every figure twice was how Ben avoided mistakes.",
+      "answerZh": "本避免出錯的方法是把每個數字核對兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "Checking every figure twice was how Ben avoided mistakes."
+    },
+    {
+      "id": "ss233-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel was the person who helped me most.",
+      "promptZh": "最幫到我的人是丹尼爾。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who helped me most was Daniel.",
+      "answerZh": "最幫到我的人是丹尼爾。",
+      "answerZhSource": "pdf",
+      "highlight": "Who helped me most was Daniel."
+    },
+    {
+      "id": "ss233-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The red key, not the silver one, opened the back door.",
+      "promptZh": "打開後門的是紅色鑰匙，而不是銀色鑰匙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The red key, not the silver one, was what opened the back door.",
+      "answerZh": "打開後門的是紅色鑰匙，而不是銀色鑰匙。",
+      "answerZhSource": "pdf",
+      "highlight": "The red key, not the silver one, was what opened the back door."
+    },
+    {
+      "id": "ss233-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We chose the shorter route.",
+      "promptZh": "我們選擇了較短的路線。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which route we chose was the shorter one.",
+      "answerZh": "我們所選擇的是較短的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Which route we chose was the shorter one."
+    },
+    {
+      "id": "ss233-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team had one main weakness: a lack of trust.",
+      "promptZh": "團隊有一個主要弱點：缺乏信任。",
+      "promptZhSource": "pdf",
+      "starter": "Trust",
+      "answer": "Trust was what the team lacked.",
+      "answerZh": "團隊所缺乏的就是信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Trust was what the team lacked."
+    },
+    {
+      "id": "ss233-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Chloe wants a clearer explanation, not more examples.",
+      "promptZh": "克洛伊想要的是更清晰的解釋，而不是更多例子。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What Chloe wants is a clearer explanation, not more examples.",
+      "answerZh": "克洛伊想要的是更清晰的解釋，而不是更多例子。",
+      "answerZhSource": "pdf",
+      "highlight": "What Chloe wants is a clearer explanation, not more examples."
+    },
+    {
+      "id": "ss233-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient needs a quieter room most of all.",
+      "promptZh": "病人最需要的是一個更安靜的房間。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A quieter room is what the patient needs most.",
+      "answerZh": "病人最需要的是一個更安靜的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "A quieter room is what the patient needs most."
+    },
+    {
+      "id": "ss233-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The children hid behind the curtain.",
+      "promptZh": "孩子們躲在窗簾後面。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where the children hid was behind the curtain.",
+      "answerZh": "孩子們躲藏的地方是在窗簾後面。",
+      "answerZhSource": "pdf",
+      "highlight": "Where the children hid was behind the curtain."
+    },
+    {
+      "id": "ss233-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The course started in the first week of June.",
+      "promptZh": "課程在六月第一個星期開始。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first week of June was when the course started.",
+      "answerZh": "課程開始的時間是六月第一個星期。",
+      "answerZhSource": "pdf",
+      "highlight": "The first week of June was when the course started."
+    },
+    {
+      "id": "ss233-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The machine stopped because it had overheated.",
+      "promptZh": "機器因為過熱而停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine’s overheating was why it stopped.",
+      "answerZh": "機器停止運作的原因是過熱。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine’s overheating was why it stopped."
+    },
+    {
+      "id": "ss233-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The technician fixed the problem by restarting the router.",
+      "promptZh": "技術員重新啟動路由器，從而解決了問題。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How the technician fixed the problem was by restarting the router.",
+      "answerZh": "技術員解決問題的方法是重新啟動路由器。",
+      "answerZhSource": "pdf",
+      "highlight": "How the technician fixed the problem was by restarting the router."
+    },
+    {
+      "id": "ss233-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The class elected Aisha, not Omar.",
+      "promptZh": "班上選出了艾莎，而不是奧馬爾。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who the class elected was Aisha, not Omar.",
+      "answerZh": "班上選出的人是艾莎，而不是奧馬爾。",
+      "answerZhSource": "pdf",
+      "highlight": "Who the class elected was Aisha, not Omar."
+    },
+    {
+      "id": "ss233-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The customer requested a refund rather than a replacement.",
+      "promptZh": "顧客要求退款，而不是更換貨品。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A refund, rather than a replacement, was what the customer requested.",
+      "answerZh": "顧客要求的是退款，而不是更換貨品。",
+      "answerZhSource": "pdf",
+      "highlight": "A refund, rather than a replacement, was what the customer requested."
+    },
+    {
+      "id": "ss233-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager preferred the safer option.",
+      "promptZh": "經理偏好較安全的選項。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which option the manager preferred was the safer one.",
+      "answerZh": "經理所偏好的是較安全的選項。",
+      "answerZhSource": "pdf",
+      "highlight": "Which option the manager preferred was the safer one."
+    },
+    {
+      "id": "ss233-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The final design improved because the team received honest feedback.",
+      "promptZh": "團隊收到坦率的意見，因此最終設計有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "Honest",
+      "answer": "Honest feedback was what improved the final design.",
+      "answerZh": "改善最終設計的是坦率的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Honest feedback was what improved the final design."
+    },
+    {
+      "id": "ss233-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We should compare the two reports before making a decision.",
+      "promptZh": "我們作出決定前，應該比較兩份報告。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What we should do before making a decision is compare the two reports.",
+      "answerZh": "我們作出決定前應該做的，是比較兩份報告。",
+      "answerZhSource": "pdf",
+      "highlight": "What we should do before making a decision is compare the two reports."
+    },
+    {
+      "id": "ss233-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ethan asked to speak to the supervisor immediately.",
+      "promptZh": "伊森要求立即與主管談話。",
+      "promptZhSource": "pdf",
+      "starter": "Speaking",
+      "answer": "Speaking to the supervisor immediately was what Ethan asked to do.",
+      "answerZh": "伊森要求做的是立即與主管談話。",
+      "answerZhSource": "pdf",
+      "highlight": "Speaking to the supervisor immediately was what Ethan asked to do."
+    },
+    {
+      "id": "ss233-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The missing bag was found under the front seat.",
+      "promptZh": "遺失的袋子在前座下面被發現。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where the missing bag was found was under the front seat.",
+      "answerZh": "遺失的袋子被發現的地方是在前座下面。",
+      "answerZhSource": "pdf",
+      "highlight": "Where the missing bag was found was under the front seat."
+    },
+    {
+      "id": "ss233-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The alarm went off just after midnight.",
+      "promptZh": "警報在午夜剛過時響起。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just after midnight was when the alarm went off.",
+      "answerZh": "警報響起的時間是午夜剛過。",
+      "answerZhSource": "pdf",
+      "highlight": "Just after midnight was when the alarm went off."
+    },
+    {
+      "id": "ss233-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The meeting was delayed because two members were absent.",
+      "promptZh": "會議因為兩名成員缺席而延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why the meeting was delayed was that two members were absent.",
+      "answerZh": "會議延誤的原因是兩名成員缺席。",
+      "answerZhSource": "pdf",
+      "highlight": "Why the meeting was delayed was that two members were absent."
+    },
+    {
+      "id": "ss233-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The group finished on time by dividing the work fairly.",
+      "promptZh": "小組公平分配工作，因而準時完成。",
+      "promptZhSource": "pdf",
+      "starter": "Dividing",
+      "answer": "Dividing the work fairly was how the group finished on time.",
+      "answerZh": "小組能準時完成工作的方法是公平分配工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Dividing the work fairly was how the group finished on time."
+    },
+    {
+      "id": "ss233-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The police wanted to question the man in the grey coat.",
+      "promptZh": "警方想盤問穿灰色外套的男子。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who the police wanted to question was the man in the grey coat.",
+      "answerZh": "警方想盤問的人是穿灰色外套的男子。",
+      "answerZhSource": "pdf",
+      "highlight": "Who the police wanted to question was the man in the grey coat."
+    },
+    {
+      "id": "ss233-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A simple apology ended the argument.",
+      "promptZh": "一句簡單的道歉結束了爭執。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A simple apology was what ended the argument.",
+      "answerZh": "結束爭執的是一句簡單的道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "A simple apology was what ended the argument."
+    },
+    {
+      "id": "ss233-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Users valued the longer battery life more than any other feature.",
+      "promptZh": "相比其他功能，用戶最重視更長的電池續航力。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which feature users valued most was the longer battery life.",
+      "answerZh": "用戶最重視的功能是更長的電池續航力。",
+      "answerZhSource": "pdf",
+      "highlight": "Which feature users valued most was the longer battery life."
+    },
+    {
+      "id": "ss233-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new system provided greater privacy for customers.",
+      "promptZh": "新系統為顧客提供了更大的私隱保障。",
+      "promptZhSource": "pdf",
+      "starter": "Greater",
+      "answer": "Greater privacy for customers was what the new system provided.",
+      "answerZh": "新系統為顧客提供的是更大的私隱保障。",
+      "answerZhSource": "pdf",
+      "highlight": "Greater privacy for customers was what the new system provided."
+    },
+    {
+      "id": "ss233-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor advised me to get more rest.",
+      "promptZh": "醫生建議我多休息。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the doctor advised me to do was get more rest.",
+      "answerZh": "醫生建議我做的是多休息。",
+      "answerZhSource": "pdf",
+      "highlight": "What the doctor advised me to do was get more rest."
+    },
+    {
+      "id": "ss233-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The director decided to reduce unnecessary costs first.",
+      "promptZh": "主任決定首先削減不必要的開支。",
+      "promptZhSource": "pdf",
+      "starter": "Reducing",
+      "answer": "Reducing unnecessary costs was what the director decided to do first.",
+      "answerZh": "主任決定首先做的是削減不必要的開支。",
+      "answerZhSource": "pdf",
+      "highlight": "Reducing unnecessary costs was what the director decided to do first."
+    },
+    {
+      "id": "ss233-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The community plans to build the garden beside the sports centre.",
+      "promptZh": "社區計劃在體育中心旁邊興建花園。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where the community plans to build the garden is beside the sports centre.",
+      "answerZh": "社區計劃興建花園的地方是在體育中心旁邊。",
+      "answerZhSource": "pdf",
+      "highlight": "Where the community plans to build the garden is beside the sports centre."
+    },
+    {
+      "id": "ss233-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Applications close at the end of the month.",
+      "promptZh": "申請在月底截止。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The end of the month is when applications close.",
+      "answerZh": "申請截止時間是月底。",
+      "answerZhSource": "pdf",
+      "highlight": "The end of the month is when applications close."
+    },
+    {
+      "id": "ss233-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The shop became popular because it offered reliable service.",
+      "promptZh": "店舖因為提供可靠的服務而變得受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "Reliable",
+      "answer": "Reliable service was why the shop became popular.",
+      "answerZh": "店舖變得受歡迎的原因是服務可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Reliable service was why the shop became popular."
+    },
+    {
+      "id": "ss233-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager earned the staff’s trust by listening before responding.",
+      "promptZh": "經理先聆聽再回應，因而贏得員工的信任。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How the manager earned the staff’s trust was by listening before responding.",
+      "answerZh": "經理贏得員工信任的方法，是先聆聽再回應。",
+      "answerZhSource": "pdf",
+      "highlight": "How the manager earned the staff’s trust was by listening before responding."
+    },
+    {
+      "id": "ss233-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The whole team deserves the credit.",
+      "promptZh": "整個團隊都應該得到功勞。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who deserves the credit is the whole team.",
+      "answerZh": "應該得到功勞的是整個團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "Who deserves the credit is the whole team."
+    },
+    {
+      "id": "ss233-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The final chapter surprised me more than anything else.",
+      "promptZh": "最令我驚訝的是最後一章。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final chapter was what surprised me most.",
+      "answerZh": "最令我驚訝的是最後一章。",
+      "answerZhSource": "pdf",
+      "highlight": "The final chapter was what surprised me most."
+    },
+    {
+      "id": "ss233-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The committee accepted the least expensive proposal.",
+      "promptZh": "委員會接納了成本最低的方案。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which proposal the committee accepted was the least expensive one.",
+      "answerZh": "委員會所接納的是成本最低的方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Which proposal the committee accepted was the least expensive one."
+    },
+    {
+      "id": "ss233-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Clearer signs made the building easier to navigate.",
+      "promptZh": "更清晰的指示牌令人在大樓內更容易找到方向。",
+      "promptZhSource": "pdf",
+      "starter": "Clearer",
+      "answer": "Clearer signs were what made the building easier to navigate.",
+      "answerZh": "令人在大樓內更容易找到方向的是更清晰的指示牌。",
+      "answerZhSource": "pdf",
+      "highlight": "Clearer signs were what made the building easier to navigate."
+    },
+    {
+      "id": "ss233-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The most important question is whether the information is accurate.",
+      "promptZh": "最重要的問題是資料是否準確。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters most is whether the information is accurate.",
+      "answerZh": "最重要的是資料是否準確。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters most is whether the information is accurate."
+    },
+    {
+      "id": "ss233-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new rule is designed to protect customer data.",
+      "promptZh": "新規則旨在保障顧客資料。",
+      "promptZhSource": "pdf",
+      "starter": "Protecting",
+      "answer": "Protecting customer data is what the new rule is designed to do.",
+      "answerZh": "新規則的目的就是保障顧客資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Protecting customer data is what the new rule is designed to do."
+    },
+    {
+      "id": "ss233-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The emergency supplies are kept in the locked cupboard beside reception.",
+      "promptZh": "緊急物資存放在接待處旁邊上鎖的櫃內。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where the emergency supplies are kept is in the locked cupboard beside reception.",
+      "answerZh": "緊急物資存放的地方是在接待處旁邊上鎖的櫃內。",
+      "answerZhSource": "pdf",
+      "highlight": "Where the emergency supplies are kept is in the locked cupboard beside reception."
+    },
+    {
+      "id": "ss233-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Everyone began cheering immediately after the final results were announced.",
+      "promptZh": "最終結果公布後，大家立即開始歡呼。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When everyone began cheering was immediately after the final results were announced.",
+      "answerZh": "大家開始歡呼的時間，是最終結果公布後立即。",
+      "answerZhSource": "pdf",
+      "highlight": "When everyone began cheering was immediately after the final results were announced."
+    },
+    {
+      "id": "ss233-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The project succeeded because every department shared information openly.",
+      "promptZh": "項目成功，是因為每個部門都坦率地分享資訊。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why the project succeeded was that every department shared information openly.",
+      "answerZh": "項目成功的原因是每個部門都坦率地分享資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "Why the project succeeded was that every department shared information openly."
+    },
+    {
+      "id": "ss233-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The investigators found the error by reviewing the evidence step by step.",
+      "promptZh": "調查人員逐步審視證據，因而找出了錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Reviewing",
+      "answer": "Reviewing the evidence step by step was how the investigators found the error.",
+      "answerZh": "調查人員找出錯誤的方法，是逐步審視證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Reviewing the evidence step by step was how the investigators found the error."
+    },
+    {
+      "id": "ss233-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisation should consult the local community first.",
+      "promptZh": "機構應首先諮詢當地社區。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who the organisation should consult first is the local community.",
+      "answerZh": "機構首先應該諮詢的是當地社區。",
+      "answerZhSource": "pdf",
+      "highlight": "Who the organisation should consult first is the local community."
+    },
+    {
+      "id": "ss233-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The residents are asking for a practical solution, not a perfect theory.",
+      "promptZh": "居民所要求的是實際可行的解決方案，而不是完美的理論。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A practical solution, not a perfect theory, is what the residents are asking for.",
+      "answerZh": "居民所要求的是實際可行的解決方案，而不是完美的理論。",
+      "answerZhSource": "pdf",
+      "highlight": "A practical solution, not a perfect theory, is what the residents are asking for."
+    },
+    {
+      "id": "ss233-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The transport section requires more attention than any other part of the plan.",
+      "promptZh": "相比計劃的其他部分，交通部分最需要關注。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which part of the plan requires the most attention is the transport section.",
+      "answerZh": "計劃中最需要關注的是交通部分。",
+      "answerZhSource": "pdf",
+      "highlight": "Which part of the plan requires the most attention is the transport section."
+    },
+    {
+      "id": "ss233-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The review recommended a complete change in how the service handles complaints.",
+      "promptZh": "檢討建議全面改變服務處理投訴的方式。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A complete change in how the service handles complaints was what the review recommended.",
+      "answerZh": "檢討所建議的，是全面改變服務處理投訴的方式。",
+      "answerZhSource": "pdf",
+      "highlight": "A complete change in how the service handles complaints was what the review recommended."
+    }
+  ]
+}

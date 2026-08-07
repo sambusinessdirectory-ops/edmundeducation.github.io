@@ -1,0 +1,1252 @@
+{
+  "id": "ss275",
+  "order": 275,
+  "slug": "it-is-worth-noting-that",
+  "title": "「It is worth noting that 句：指出值得留意的重點」",
+  "titleZh": "「It is worth noting that 句：指出值得留意的重點」",
+  "titleEn": "Using “It is worth noting that” to highlight an important point",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 274 -「It is worth noting that 句：指出值得留意的重點」.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "exercisePages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerPages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 274; it is assigned system ID ss275 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It + is + worth + noting + that + complete clause",
+  "formulas": [
+    {
+      "id": "ss275-formula-01",
+      "labelEn": "Complete sentence",
+      "labelZh": "完整句子的開首",
+      "formula": "It is worth noting that + clause"
+    },
+    {
+      "id": "ss275-formula-02",
+      "labelEn": "After a connector",
+      "labelZh": "放在連接詞後",
+      "formula": "However / In addition, + it is worth noting that + clause"
+    },
+    {
+      "id": "ss275-formula-03",
+      "labelEn": "After an introductory phrase",
+      "labelZh": "放在前置片語後",
+      "formula": "Introductory phrase, + it is worth noting that + clause"
+    },
+    {
+      "id": "ss275-formula-04",
+      "labelEn": "After but",
+      "labelZh": "放在 but 後",
+      "formula": "Main clause, but it is worth noting that + clause"
+    },
+    {
+      "id": "ss275-formula-05",
+      "labelEn": "Separate second sentence",
+      "labelZh": "作為獨立第二句",
+      "formula": "Main sentence. It is worth noting that + clause"
+    }
+  ],
+  "example": "It is worth noting that the two groups started at different levels.",
+  "exampleZh": "值得注意的是，兩組的起點不同。",
+  "examples": [
+    {
+      "id": "ss275-example-01",
+      "en": "It is worth noting that the two groups started at different levels.",
+      "zh": "值得注意的是，兩組的起點不同。",
+      "highlight": "It is worth noting that the two groups started at different levels."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型帶出容易被忽略但值得留意的重要資料、限制、比較差異、特殊情況或決定前應考慮的提醒。"
+  },
+  "rules": [
+    {
+      "id": "ss275-rule-01",
+      "zh": "核心固定句型是： It is worth noting that + clause Example: It is worth noting that the museum closes early on Fridays. （值得注意的是，博物館逢星期五會提早關門。） 句中的核心表達只有： It is worth noting that However、In addition、Before comparing the figures、but 等成分只是可選延伸，並不是固定句型 的一部分。 Compare: It is worth noting that the museum closes early on Fridays. However, it is worth noting that the museum closes early on Fridays. Before planning your visit, it is worth noting that the museum closes early on Fridays. The museum is open at weekends, but it is worth noting that it closes early on Fridays. 以上四句都使用相同的核心句型。",
+      "en": "The fixed core is It is worth noting that + clause. Connectors and introductory phrases are optional extensions rather than part of the core.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-rule-02",
+      "zh": "後面必須接完整子句 That 後面需要有自己的主語和動詞。 Correct: It is worth noting that the two groups started at different levels. ● subject：the two groups ● verb：started Incorrect: It is worth noting that the different starting levels. 這只是名詞詞組，並不是完整子句。 可以改為： It is worth noting that the groups had different starting levels. （值得注意的是，各組的起點不同。）",
+      "en": "That must be followed by a complete clause with its own subject and verb, not merely a noun phrase.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-rule-03",
+      "zh": "後面使用 V-ing 在這個句型中，worth 後面必須使用： noting Correct: It is worth noting that the figures are incomplete. Incorrect: It is worth note that the figures are incomplete. It is worth to note that the figures are incomplete.",
+      "en": "Use the -ing form noting after worth, not note or to note.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-rule-04",
+      "zh": "是形式主語 句首的 it 並不是指某件物件、動物或人物。 它是一個形式主語，讓真正要表達的資料放在 that 子句中。 It is worth noting that the price has increased. 真正值得留意的內容是： the price has increased 而不是 it。",
+      "en": "It is a formal subject; the information that deserves attention is contained in the that-clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-rule-05",
+      "zh": "這個句型可以放在句子的不同位置 A. 放在整句開頭 It is worth noting that the two groups started at different levels. （值得注意的是，兩組的起點不同。） B. 放在連接詞後面 However, it is worth noting that the two groups started at different levels. （然而，值得注意的是，兩組的起點不同。） C. 放在前置片語或子句後面 When comparing the results, it is worth noting that the two groups started at different levels. （比較結果時，值得注意的是，兩組的起點不同。） D. 放在 but 後面 The second group achieved a higher final score, but it is worth noting that it also started at a higher level. （第二組的最終分數較高，但值得注意的是，它的起點也較高。） E. 放在第二句 The second group achieved a higher final score. It is worth noting that it also started at a higher level. （第二組的最終分數較高。值得注意的是，它的起點也較高。） 這些位置都自然正確。學生不應把這個句型當作只能放在整段或整句開頭的固定開場白。",
+      "en": "The structure can begin a sentence, follow a connector or introductory phrase, appear after but, or form a separate second sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-rule-06",
+      "zh": "這個句型通常用來加入重要資料、限制或提醒 它常用於指出： ● 容易被忽略的重要事實； ● 可能影響結論的資料； ● 一項比較中的重要差異； ● 一項計劃的限制； ● 一個結果背後的特殊情況； ● 讀者在作決定前應考慮的資料。 Example: Sales increased by 10%. However, it is worth noting that costs also rose. （銷售額上升了百分之十。然而，值得注意的是，成本亦有所增加。） 第二句提醒讀者不要只看銷售額上升，還要考慮成本。",
+      "en": "Use the structure to add an important fact, limitation, comparison, reminder or special circumstance that can affect interpretation or a decision.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-rule-07",
+      "zh": "可選連接詞並非固定句型的一部分 以下字詞可以幫助句子連接前文，但並非必須使用： ● However, ● In addition, ● Nevertheless, ● Before deciding, ● When comparing the figures, ● For new students, ● Although... ● ..., but... Example: It is worth noting that the service is unavailable on Sundays. However, it is worth noting that the service is unavailable on Sundays. For weekend travellers, it is worth noting that the service is unavailable on Sundays. 三句在文法上都完整。後兩句只增加了語境或連接作用。",
+      "en": "Connectors such as however, in addition and nevertheless, and phrases such as before deciding, are optional context and not part of the fixed form.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-rule-08",
+      "zh": "不要加入沒有根據的評價 It is worth noting that 表示某項資料值得讀者注意，但不代表該資料一定： ● 很好； ● 很壞； ● 令人震驚； ● 證明某個結論； ● 比其他資料更重要。 Example: It is worth noting that ten participants left the study early. （值得注意的是，有十名參加者提早退出研究。） 這句只指出資料值得注意，並沒有自行解釋他們為甚麼離開，或研究是否因此無效。 Similar Structures 相似句型辨析 1. It is worth noting that + clause 意思是： 「值得注意的是……」 它用來帶出一項值得留意的完整資料。 Example: It is worth noting that the two surveys used different questions. （值得注意的是，兩項調查使用了不同的問題。） 結構： It is worth noting that + subject + verb 2. Subject + be worth + V-ing 意思是： 「某事值得被做」 這裏的主語是真正值得進行某項行動的人或事物。 Example: This book is worth reading. （這本書值得閱讀。） The issue is worth discussing. （這個問題值得討論。） 結構： Subject + be worth + V-ing Compare: This point is worth noting. （這一點值得注意。） It is worth noting that the two groups started at different levels. （值得注意的是，兩組的起點不同。） 第一句以 this point 為真正主語；第二句使用形式主語 it，並以 that 子句交代完整資料。 3. Note that + clause Note that 是較直接的指示，意思接近： 「請注意……」 Example: Note that the library closes at six. （請注意，圖書館六時關門。） It is worth noting that the library closes at six. （值得注意的是，圖書館六時關門。） Note that 語氣較直接，像是提醒或指示讀者。 It is worth noting that 語氣較婉轉，表示這項資料值得納入考慮。 4. It should be noted that + clause 意思同樣接近「應注意的是……」，但語氣通常較正式和客觀。 Example: It should be noted that the results are preliminary. （應注意的是，這些結果只是初步結果。） It is worth noting that the results are preliminary. （值得注意的是，這些結果只是初步結果。） It should be noted that 較像正式報告中的客觀提示。 It is worth noting that 則較自然地表示作者認為這項資料值得讀者留意。 5. It is important to note that + clause 這個句型比 It is worth noting that 語氣更強。 Compare: It is worth noting that several participants arrived late. （值得注意的是，有數名參加者遲到。） It is important to note that several participants arrived late. （必須注意的是，有數名參加者遲到。） worth noting 表示資料值得留意。 important to note 更明確地表示資料十分重要。 不要在改寫時隨意把原句的語氣加強。 Best Core Grammar Bank 核心句型庫 1. 作為完整句子的開首 It is worth noting that + clause. It is worth noting that the two groups started at different levels. （值得注意的是，兩組的起點不同。） 2. 放在連接詞後面 However / In addition, + it is worth noting that + clause. However, it is worth noting that the sample was quite small. （然而，值得注意的是，樣本相當小。） In addition, it is worth noting that the service is free. （此外，值得注意的是，這項服務是免費的。） 連接詞可以刪除： It is worth noting that the sample was quite small. 句子仍然完整。 3. 放在前置片語後面 Introductory phrase, + it is worth noting that + clause. When comparing the two plans, it is worth noting that only one includes insurance. （比較兩個計劃時，值得注意的是，只有其中一個包括保險。） Before making a decision, it is worth noting that the fee cannot be refunded. （作決定之前，值得注意的是，費用不能退還。） 前置片語只是交代在甚麼情況下應留意該資料。 4. 放在 although 子句後面 Although + clause, + it is worth noting that + clause. Although the course is free, it is worth noting that places are limited. （雖然課程免費，但值得注意的是，名額有限。） 這種結構能先承認一項正面或負面資料，再補充一項重要限制。 5. 放在 but 後面 Main clause, but it is worth noting that + clause. The total number increased, but it is worth noting that one category declined. （總數有所增加，但值得注意的是，其中一個類別有所下降。） 這個結構特別適合修正過於簡單或片面的結論。 6. 作為第二句 Main sentence. It is worth noting that + clause. The team finished the project early. It is worth noting that two members were absent. （團隊提早完成項目。值得注意的是，當時有兩名成員缺席。） 這個結構讓作者先提出主要結果，再補充值得留意的背景。 7. 指定某類讀者或情況 For + person/group, + it is worth noting that + clause. For new members, it is worth noting that the club closes during August. （對新會員而言，值得注意的是，會所於八月暫停開放。） For drivers, it is worth noting that the road becomes narrow after the bridge. （對駕駛者而言，值得注意的是，道路在橋後會變窄。） For + person/group 只是指出這項資料對誰特別有用。",
+      "en": "Do not add an unsupported evaluation. The structure says that information deserves attention, not that it is necessarily good, bad, shocking or conclusive; keep its strength distinct from related forms such as note that, it should be noted that and it is important to note that.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss275-benefit-01",
+      "zh": "幫助讀者留意容易忽略的資料 這個句型可以把一項重要但不明顯的資料突出出來。 Example: The hotel is close to the beach. It is worth noting that the path is very steep. （酒店鄰近海灘。值得注意的是，通往海灘的小徑十分陡峭。） 讀者不會只看到「鄰近海灘」這項優點，也會注意實際前往海灘可能有困難。",
+      "en": "It helps readers notice important information that could easily be overlooked.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-benefit-02",
+      "zh": "避免作出過於簡單的結論 當數據或情況看來十分清楚時，這個句型可以加入限制或背景資料。 Compare: Sales increased, so the company performed well. Sales increased, but it is worth noting that costs increased as well. 第二句讓分析更全面，不會只根據單一數字下結論。",
+      "en": "It prevents oversimplified conclusions by adding relevant limitations or background information.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-benefit-03",
+      "zh": "令比較更公平準確 比較兩組數據、產品、計劃或人物時，它可以提醒讀者注意兩者原本存在的差異。 Example: The second group achieved a higher final score. However, it is worth noting that it also started at a higher level. （第二組取得較高的最終分數。然而，值得注意的是，它的起點也較高。） 這能避免讀者把最終分數的差異完全當作進步幅度的差異。",
+      "en": "It makes comparisons fairer and more accurate by drawing attention to important starting differences or conditions.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-benefit-04",
+      "zh": "自然加入補充資料 你不需要另寫： ● Another important thing is... ● We must remember... ● Do not forget... ● One fact that deserves attention is... 你可以使用 It is worth noting that，把補充資料自然地接在主要內容後面。",
+      "en": "It adds supplementary information naturally without awkward phrases such as “Another important thing is ...”.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-benefit-05",
+      "zh": "適合報告、作文、簡報和數據分析 這個句型特別適合： ● 比較圖表； ● 分析調查結果； ● 評估計劃； ● 討論優點和缺點； ● 提出較平衡的意見； ● 解釋研究限制； ● 提醒聽眾注意實際安排。 它能令分析聽起來較慎重和有條理。",
+      "en": "It is useful in reports, essays, presentations and data analysis for balanced evaluation, limitations and practical reminders.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss275-benefit-06",
+      "zh": "讓句子位置更多變 It is worth noting that 不必每次都放在答案開頭。 你可以寫： It is worth noting that... However, it is worth noting that... When comparing the figures, it is worth noting that... The figure increased, but it is worth noting that... The figure increased. It is worth noting that... 這種位置變化可以避免多句連續使用完全相同的開首。",
+      "en": "It increases sentence-position variety because the structure can appear initially, after context, after but or as a separate second sentence.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 274; it is assigned system ID ss275 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using it is worth noting that.",
+      "Place the target at the beginning, after an introductory phrase, after but or in a separate second sentence as required; preserve all important information and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 it is worth noting that 改寫每題。",
+      "按需要把目標句型放在句首、前置片語後、but 後或獨立第二句；保留所有重要資料，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss275-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "One important point is that the two groups started at different levels.",
+      "promptZh": "其中一個重要重點是，兩組的起點不同。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is worth noting that the two groups started at different levels.",
+      "answerZh": "值得注意的是，兩組的起點不同。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worth noting that the two groups started at different levels."
+    },
+    {
+      "id": "ss275-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When comparing the two flats, remember that only one has a balcony.",
+      "promptZh": "比較兩個單位時，請記住只有其中一個設有露台。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When comparing the two flats, it is worth noting that only one has a balcony.",
+      "answerZh": "比較兩個單位時，值得注意的是，只有其中一個設有露台。",
+      "answerZhSource": "pdf",
+      "highlight": "When comparing the two flats, it is worth noting that only one has a balcony."
+    },
+    {
+      "id": "ss275-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The number of visitors rose overall, but one significant detail is that it fell slightly in May.",
+      "promptZh": "訪客人數整體上升，但一項值得留意的資料是，五月的數字略為下降。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The number of visitors rose overall, but it is worth noting that it fell slightly in May.",
+      "answerZh": "訪客人數整體上升，但值得注意的是，五月的數字略為下降。",
+      "answerZhSource": "pdf",
+      "highlight": "The number of visitors rose overall, but it is worth noting that it fell slightly in May."
+    },
+    {
+      "id": "ss275-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The course is free, but we should remember that places are limited.",
+      "promptZh": "課程免費，但我們應記住名額有限。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the course is free, it is worth noting that places are limited.",
+      "answerZh": "雖然課程免費，但值得注意的是，名額有限。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the course is free, it is worth noting that places are limited."
+    },
+    {
+      "id": "ss275-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Another fact that deserves attention is that the library opens on Sundays.",
+      "promptZh": "另一項值得注意的事實是，圖書館逢星期日開放。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In addition, it is worth noting that the library opens on Sundays.",
+      "answerZh": "此外，值得注意的是，圖書館逢星期日開放。",
+      "answerZhSource": "pdf",
+      "highlight": "In addition, it is worth noting that the library opens on Sundays."
+    },
+    {
+      "id": "ss275-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The team completed the project early. We should remember that two members were absent.",
+      "promptZh": "團隊提早完成項目。我們應記住，當時有兩名成員缺席。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team completed the project early. It is worth noting that two members were absent.",
+      "answerZh": "團隊提早完成項目。值得注意的是，當時有兩名成員缺席。",
+      "answerZhSource": "pdf",
+      "highlight": "The team completed the project early. It is worth noting that two members were absent."
+    },
+    {
+      "id": "ss275-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What should travellers remember before choosing a route? The mountain road closes in winter.",
+      "promptZh": "旅客選擇路線前應記住甚麼？山路在冬季會封閉。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before choosing a route, it is worth noting that the mountain road closes in winter.",
+      "answerZh": "選擇路線之前，值得注意的是，山路在冬季會封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "Before choosing a route, it is worth noting that the mountain road closes in winter."
+    },
+    {
+      "id": "ss275-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "An important fact is that the medicine may cause drowsiness.",
+      "promptZh": "一項重要資料是，這種藥物可能令人昏昏欲睡。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is worth noting that the medicine may cause drowsiness.",
+      "answerZh": "值得注意的是，這種藥物可能令人昏昏欲睡。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worth noting that the medicine may cause drowsiness."
+    },
+    {
+      "id": "ss275-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The survey included only eighty people. The small sample should not be overlooked.",
+      "promptZh": "調查只包括八十人。這個較小的樣本不應被忽略。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The survey included only eighty people. It is worth noting that the sample was small.",
+      "answerZh": "調查只包括八十人。值得注意的是，樣本較小。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey included only eighty people. It is worth noting that the sample was small."
+    },
+    {
+      "id": "ss275-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Parents should remember that children under twelve must be accompanied by an adult.",
+      "promptZh": "家長應記住，十二歲以下兒童必須由成人陪同。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For parents, it is worth noting that children under twelve must be accompanied by an adult.",
+      "answerZh": "對家長而言，值得注意的是，十二歲以下兒童必須由成人陪同。",
+      "answerZhSource": "pdf",
+      "highlight": "For parents, it is worth noting that children under twelve must be accompanied by an adult."
+    },
+    {
+      "id": "ss275-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "One limitation, however, is that the cheaper printer uses more ink.",
+      "promptZh": "然而，其中一項限制是，較便宜的打印機使用更多墨水。",
+      "promptZhSource": "pdf",
+      "starter": "However",
+      "answer": "However, it is worth noting that the cheaper printer uses more ink.",
+      "answerZh": "然而，值得注意的是，較便宜的打印機使用更多墨水。",
+      "answerZhSource": "pdf",
+      "highlight": "However, it is worth noting that the cheaper printer uses more ink."
+    },
+    {
+      "id": "ss275-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new policy may save money, but we should not overlook the fact that it will require extra training.",
+      "promptZh": "新政策可能節省金錢，但我們不應忽略它需要額外培訓這項事實。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy may save money, but it is worth noting that it will require extra training.",
+      "answerZh": "新政策可能節省金錢，但值得注意的是，它需要額外培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy may save money, but it is worth noting that it will require extra training."
+    },
+    {
+      "id": "ss275-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When reading the chart, pay attention to the fact that the vertical scale does not begin at zero.",
+      "promptZh": "閱讀圖表時，請留意縱軸並非由零開始。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When reading the chart, it is worth noting that the vertical scale does not begin at zero.",
+      "answerZh": "閱讀圖表時，值得注意的是，縱軸並非由零開始。",
+      "answerZhSource": "pdf",
+      "highlight": "When reading the chart, it is worth noting that the vertical scale does not begin at zero."
+    },
+    {
+      "id": "ss275-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What fact should we remember before reaching a conclusion? The figures come from only one school.",
+      "promptZh": "得出結論前，我們應記住甚麼事實？這些數字只來自一間學校。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before reaching a conclusion, it is worth noting that the figures come from only one school.",
+      "answerZh": "得出結論之前，值得注意的是，這些數字只來自一間學校。",
+      "answerZhSource": "pdf",
+      "highlight": "Before reaching a conclusion, it is worth noting that the figures come from only one school."
+    },
+    {
+      "id": "ss275-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The flat is close to the station. Another important detail is that the last train leaves before midnight.",
+      "promptZh": "單位鄰近車站。另一項重要資料是，尾班車在午夜前開出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The flat is close to the station. It is worth noting that the last train leaves before midnight.",
+      "answerZh": "單位鄰近車站。值得注意的是，尾班車在午夜前開出。",
+      "answerZhSource": "pdf",
+      "highlight": "The flat is close to the station. It is worth noting that the last train leaves before midnight."
+    },
+    {
+      "id": "ss275-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Online lessons are convenient, but we should not overlook the fact that some students lack reliable internet access.",
+      "promptZh": "網上課堂很方便，但我們不應忽略部分學生沒有可靠網絡連線這項事實。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although online lessons are convenient, it is worth noting that some students lack reliable internet access.",
+      "answerZh": "雖然網上課堂很方便，但值得注意的是，部分學生沒有可靠的網絡連線。",
+      "answerZhSource": "pdf",
+      "highlight": "Although online lessons are convenient, it is worth noting that some students lack reliable internet access."
+    },
+    {
+      "id": "ss275-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In this comparison, pay attention to the fact that the second phone has twice as much storage.",
+      "promptZh": "在這項比較中，請留意第二部電話的儲存空間多一倍。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this comparison, it is worth noting that the second phone has twice as much storage.",
+      "answerZh": "在這項比較中，值得注意的是，第二部電話的儲存空間多一倍。",
+      "answerZhSource": "pdf",
+      "highlight": "In this comparison, it is worth noting that the second phone has twice as much storage."
+    },
+    {
+      "id": "ss275-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The hospital reduced waiting times. However, weekend figures were not included, and this fact matters.",
+      "promptZh": "醫院縮短了輪候時間。然而，數據並不包括週末，而這一點十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital reduced waiting times, but it is worth noting that weekend figures were not included.",
+      "answerZh": "醫院縮短了輪候時間，但值得注意的是，數據並不包括週末。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital reduced waiting times, but it is worth noting that weekend figures were not included."
+    },
+    {
+      "id": "ss275-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Anyone joining the club should remember that all equipment must be returned on the same day.",
+      "promptZh": "任何加入會所的人都應記住，所有設備必須即日歸還。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For anyone joining the club, it is worth noting that all equipment must be returned on the same day.",
+      "answerZh": "對任何加入會所的人而言，值得注意的是，所有設備必須即日歸還。",
+      "answerZhSource": "pdf",
+      "highlight": "For anyone joining the club, it is worth noting that all equipment must be returned on the same day."
+    },
+    {
+      "id": "ss275-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "An important practical detail is that the village has no cash machine.",
+      "promptZh": "一項重要的實際資料是，村內沒有自動櫃員機。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is worth noting that the village has no cash machine.",
+      "answerZh": "值得注意的是，村內沒有自動櫃員機。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worth noting that the village has no cash machine."
+    },
+    {
+      "id": "ss275-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Before assessing the results, bear in mind that the experiment was repeated only twice.",
+      "promptZh": "評估結果之前，請緊記實驗只重複了兩次。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before assessing the results, it is worth noting that the experiment was repeated only twice.",
+      "answerZh": "評估結果之前，值得注意的是，實驗只重複了兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "Before assessing the results, it is worth noting that the experiment was repeated only twice."
+    },
+    {
+      "id": "ss275-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The bus service is frequent during the day. Remember that no buses run after 11 p.m.",
+      "promptZh": "日間的巴士班次頻密。請記住，晚上十一時後沒有巴士行駛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus service is frequent during the day. It is worth noting that no buses run after 11 p.m.",
+      "answerZh": "日間的巴士班次頻密。值得注意的是，晚上十一時後沒有巴士行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus service is frequent during the day. It is worth noting that no buses run after 11 p.m."
+    },
+    {
+      "id": "ss275-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Sales increased, but a significant fact is that profits remained unchanged.",
+      "promptZh": "銷售額有所增加，但一項值得留意的事實是，利潤維持不變。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although sales increased, it is worth noting that profits remained unchanged.",
+      "answerZh": "雖然銷售額有所增加，但值得注意的是，利潤維持不變。",
+      "answerZhSource": "pdf",
+      "highlight": "Although sales increased, it is worth noting that profits remained unchanged."
+    },
+    {
+      "id": "ss275-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "When deciding whether to accept the offer, remember that the contract lasts three years.",
+      "promptZh": "決定是否接受這項邀請時，請記住合約為期三年。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When deciding whether to accept the offer, it is worth noting that the contract lasts three years.",
+      "answerZh": "決定是否接受這項邀請時，值得注意的是，合約為期三年。",
+      "answerZhSource": "pdf",
+      "highlight": "When deciding whether to accept the offer, it is worth noting that the contract lasts three years."
+    },
+    {
+      "id": "ss275-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The software is free, but do not overlook the fact that technical support costs extra.",
+      "promptZh": "軟件是免費的，但不要忽略技術支援需要額外收費。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The software is free, but it is worth noting that technical support costs extra.",
+      "answerZh": "軟件是免費的，但值得注意的是，技術支援需要額外收費。",
+      "answerZhSource": "pdf",
+      "highlight": "The software is free, but it is worth noting that technical support costs extra."
+    },
+    {
+      "id": "ss275-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Apart from the lower price, another important point is that the new model uses less electricity.",
+      "promptZh": "除了價格較低外，另一個重要重點是，新型號使用較少電力。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In addition to the lower price, it is worth noting that the new model uses less electricity.",
+      "answerZh": "除了價格較低外，值得注意的是，新型號使用較少電力。",
+      "answerZhSource": "pdf",
+      "highlight": "In addition to the lower price, it is worth noting that the new model uses less electricity."
+    },
+    {
+      "id": "ss275-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The plan appears simple. One fact to remember is that approval may take several months.",
+      "promptZh": "計劃看似簡單。需要記住的一項事實是，審批可能需時數月。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan appears simple. It is worth noting that approval may take several months.",
+      "answerZh": "計劃看似簡單。值得注意的是，審批可能需時數月。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan appears simple. It is worth noting that approval may take several months."
+    },
+    {
+      "id": "ss275-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "For a fair comparison, remember that the two tests measured different skills.",
+      "promptZh": "為了作出公平比較，請記住兩項測驗評估了不同技能。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For a fair comparison, it is worth noting that the two tests measured different skills.",
+      "answerZh": "為了作出公平比較，值得注意的是，兩項測驗評估了不同技能。",
+      "answerZhSource": "pdf",
+      "highlight": "For a fair comparison, it is worth noting that the two tests measured different skills."
+    },
+    {
+      "id": "ss275-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The neighbourhood is quiet, but bear in mind that a new road is being built nearby.",
+      "promptZh": "這個社區很寧靜，但請緊記附近正在興建一條新道路。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the neighbourhood is quiet, it is worth noting that a new road is being built nearby.",
+      "answerZh": "雖然這個社區很寧靜，但值得注意的是，附近正在興建一條新道路。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the neighbourhood is quiet, it is worth noting that a new road is being built nearby."
+    },
+    {
+      "id": "ss275-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "An important feature of the report is that it distinguishes between temporary and permanent staff.",
+      "promptZh": "報告的一項重要特點是，它區分臨時員工和長期員工。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is worth noting that the report distinguishes between temporary and permanent staff.",
+      "answerZh": "值得注意的是，報告區分臨時員工和長期員工。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worth noting that the report distinguishes between temporary and permanent staff."
+    },
+    {
+      "id": "ss275-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Before interpreting the improvement, keep in mind that the weakest students received extra lessons.",
+      "promptZh": "解讀這項進步之前，請緊記能力最弱的學生接受了額外課堂。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before interpreting the improvement, it is worth noting that the weakest students received extra lessons.",
+      "answerZh": "解讀這項進步之前，值得注意的是，能力最弱的學生接受了額外課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Before interpreting the improvement, it is worth noting that the weakest students received extra lessons."
+    },
+    {
+      "id": "ss275-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The river looks clean, but we should remember that the water has not yet been tested.",
+      "promptZh": "河流看來很乾淨，但我們應記住河水尚未接受檢測。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The river looks clean, but it is worth noting that the water has not yet been tested.",
+      "answerZh": "河流看來很乾淨，但值得注意的是，河水尚未接受檢測。",
+      "answerZhSource": "pdf",
+      "highlight": "The river looks clean, but it is worth noting that the water has not yet been tested."
+    },
+    {
+      "id": "ss275-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "What should organisers remember when considering the timetable? The final session overlaps with lunch.",
+      "promptZh": "主辦者考慮時間表時應記住甚麼？最後一節與午膳時間重疊。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When considering the timetable, it is worth noting that the final session overlaps with lunch.",
+      "answerZh": "考慮時間表時，值得注意的是，最後一節與午膳時間重疊。",
+      "answerZhSource": "pdf",
+      "highlight": "When considering the timetable, it is worth noting that the final session overlaps with lunch."
+    },
+    {
+      "id": "ss275-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The company hired more staff. An important detail is that most of the new positions are temporary.",
+      "promptZh": "公司增聘了員工。一項重要資料是，大部分新職位都是臨時職位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company hired more staff. It is worth noting that most of the new positions are temporary.",
+      "answerZh": "公司增聘了員工。值得注意的是，大部分新職位都是臨時職位。",
+      "answerZhSource": "pdf",
+      "highlight": "The company hired more staff. It is worth noting that most of the new positions are temporary."
+    },
+    {
+      "id": "ss275-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The machine worked well in the trial, but remember that it was tested for only two hours.",
+      "promptZh": "機器在測試期間運作良好，但請記住它只接受了兩小時測試。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the machine worked well in the trial, it is worth noting that it was tested for only two hours.",
+      "answerZh": "雖然機器在測試期間運作良好，但值得注意的是，它只接受了兩小時測試。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the machine worked well in the trial, it is worth noting that it was tested for only two hours."
+    },
+    {
+      "id": "ss275-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Customers paying online should remember that refunds may take five working days.",
+      "promptZh": "網上付款的顧客應記住，退款可能需時五個工作天。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For customers paying online, it is worth noting that refunds may take five working days.",
+      "answerZh": "對網上付款的顧客而言，值得注意的是，退款可能需時五個工作天。",
+      "answerZhSource": "pdf",
+      "highlight": "For customers paying online, it is worth noting that refunds may take five working days."
+    },
+    {
+      "id": "ss275-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The overall response was positive, but the safety concerns raised by several residents deserve attention.",
+      "promptZh": "整體反應正面，但數名居民提出的安全問題值得注意。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The overall response was positive, but it is worth noting that several residents raised safety concerns.",
+      "answerZh": "整體反應正面，但值得注意的是，數名居民提出了安全問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The overall response was positive, but it is worth noting that several residents raised safety concerns."
+    },
+    {
+      "id": "ss275-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Before comparing this year with last year, take into account the fact that the survey method changed in January.",
+      "promptZh": "把今年與去年比較之前，應考慮調查方法已於一月改變這項事實。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before comparing this year with last year, it is worth noting that the survey method changed in January.",
+      "answerZh": "把今年與去年比較之前，值得注意的是，調查方法已於一月改變。",
+      "answerZhSource": "pdf",
+      "highlight": "Before comparing this year with last year, it is worth noting that the survey method changed in January."
+    },
+    {
+      "id": "ss275-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "One important fact in the discussion of energy use is that heating accounts for nearly half of the total.",
+      "promptZh": "討論能源使用時，其中一項重要事實是，暖氣佔總用量接近一半。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the discussion of energy use, it is worth noting that heating accounts for nearly half of the total.",
+      "answerZh": "在能源使用的討論中，值得注意的是，暖氣佔總用量接近一半。",
+      "answerZhSource": "pdf",
+      "highlight": "In the discussion of energy use, it is worth noting that heating accounts for nearly half of the total."
+    },
+    {
+      "id": "ss275-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Visitors should remember that the museum is closed on public holidays.",
+      "promptZh": "訪客應記住，博物館在公眾假期休館。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is worth noting that the museum is closed on public holidays.",
+      "answerZh": "值得注意的是，博物館在公眾假期休館。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worth noting that the museum is closed on public holidays."
+    },
+    {
+      "id": "ss275-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The new bridge has shortened journey times, but cyclists still have to use the old route, which is an important limitation.",
+      "promptZh": "新橋縮短了行程時間，但踏單車人士仍須使用舊路線，而這是一項重要限制。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the new bridge has shortened journey times, it is worth noting that cyclists still have to use the old route.",
+      "answerZh": "雖然新橋縮短了行程時間，但值得注意的是，踏單車人士仍須使用舊路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the new bridge has shortened journey times, it is worth noting that cyclists still have to use the old route."
+    },
+    {
+      "id": "ss275-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The programme attracted more applicants than expected. It should also be remembered that only twenty places were available.",
+      "promptZh": "計劃吸引了比預期更多的申請者。我們亦應記住，計劃只有二十個名額。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme attracted more applicants than expected. It is worth noting that only twenty places were available.",
+      "answerZh": "計劃吸引了比預期更多的申請者。值得注意的是，計劃只有二十個名額。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme attracted more applicants than expected. It is worth noting that only twenty places were available."
+    },
+    {
+      "id": "ss275-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "What limitation matters when evaluating the treatment? Some patients left the study before it ended.",
+      "promptZh": "評估治療方法時，哪項限制十分重要？部分病人在研究結束前退出。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When evaluating the treatment, it is worth noting that some patients left the study before it ended.",
+      "answerZh": "評估治療方法時，值得注意的是，部分病人在研究結束前退出。",
+      "answerZhSource": "pdf",
+      "highlight": "When evaluating the treatment, it is worth noting that some patients left the study before it ended."
+    },
+    {
+      "id": "ss275-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The city planted thousands of trees, but an important fact is that many were not native species.",
+      "promptZh": "城市種植了數千棵樹，但一項重要事實是，其中很多並非本地樹種。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city planted thousands of trees, but it is worth noting that many were not native species.",
+      "answerZh": "城市種植了數千棵樹，但值得注意的是，其中很多並非本地樹種。",
+      "answerZhSource": "pdf",
+      "highlight": "The city planted thousands of trees, but it is worth noting that many were not native species."
+    },
+    {
+      "id": "ss275-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Before judging the team’s performance, remember that three regular players were injured.",
+      "promptZh": "評價球隊表現之前，請記住三名正選球員受了傷。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before judging the team’s performance, it is worth noting that three regular players were injured.",
+      "answerZh": "評價球隊表現之前，值得注意的是，三名正選球員受了傷。",
+      "answerZhSource": "pdf",
+      "highlight": "Before judging the team’s performance, it is worth noting that three regular players were injured."
+    },
+    {
+      "id": "ss275-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "What should readers bear in mind when comparing the two reports? They use different definitions of poverty.",
+      "promptZh": "讀者比較兩份報告時應緊記甚麼？兩份報告對貧窮使用了不同定義。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For readers comparing the two reports, it is worth noting that they use different definitions of poverty.",
+      "answerZh": "對比較兩份報告的讀者而言，值得注意的是，兩份報告對貧窮使用了不同定義。",
+      "answerZhSource": "pdf",
+      "highlight": "For readers comparing the two reports, it is worth noting that they use different definitions of poverty."
+    },
+    {
+      "id": "ss275-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The new system records information more quickly, but an important limitation is that staff still need to check each entry manually.",
+      "promptZh": "新系統能更快速地記錄資料，但一項重要限制是，員工仍需人手檢查每項記錄。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the new system records information more quickly, it is worth noting that staff still need to check each entry manually.",
+      "answerZh": "雖然新系統能更快速地記錄資料，但值得注意的是，員工仍需人手檢查每項記錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the new system records information more quickly, it is worth noting that staff still need to check each entry manually."
+    },
+    {
+      "id": "ss275-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The school’s average score rose. Another fact requiring attention is that the number of students taking the test also fell.",
+      "promptZh": "學校的平均分有所上升。另一項需要注意的事實是，參加測驗的學生人數亦有所下降。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school’s average score rose. It is worth noting that the number of students taking the test also fell.",
+      "answerZh": "學校的平均分有所上升。值得注意的是，參加測驗的學生人數亦有所下降。",
+      "answerZhSource": "pdf",
+      "highlight": "The school’s average score rose. It is worth noting that the number of students taking the test also fell."
+    },
+    {
+      "id": "ss275-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "In considering the proposal’s long-term cost, remember that maintenance has not been included in the budget.",
+      "promptZh": "考慮建議的長期成本時，請記住預算並未包括維修保養費用。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In considering the proposal’s long-term cost, it is worth noting that maintenance has not been included in the budget.",
+      "answerZh": "考慮建議的長期成本時，值得注意的是，預算並未包括維修保養費用。",
+      "answerZhSource": "pdf",
+      "highlight": "In considering the proposal’s long-term cost, it is worth noting that maintenance has not been included in the budget."
+    },
+    {
+      "id": "ss275-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The policy may appear equally helpful to everyone, but one important difference is that rural families have fewer service centres nearby.",
+      "promptZh": "這項政策看來可能對所有人同樣有幫助，但一項重要差異是，鄉郊家庭附近的服務中心較少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy may appear equally helpful to everyone, but it is worth noting that rural families have fewer service centres nearby.",
+      "answerZh": "這項政策看來可能對所有人同樣有幫助，但值得注意的是，鄉郊家庭附近的服務中心較少。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy may appear equally helpful to everyone, but it is worth noting that rural families have fewer service centres nearby."
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 // GENERATED FILE. Edit tools/grammar-detector-v2/data and run
 // node tools/grammar-detector-v2/validate-and-compile.mjs instead.
 
-export const EXECUTABLE_GRAMMAR_VERSION = "2026-08-02.19-22.1";
+export const EXECUTABLE_GRAMMAR_VERSION = "2026-08-03.19-23.1";
 
 export const EXECUTABLE_GRAMMAR_COUNTS = Object.freeze({
-  "sets": 4,
-  "sourceIssues": 314,
-  "families": 224,
+  "sets": 5,
+  "sourceIssues": 332,
+  "families": 228,
   "runtimeFamilies": 49,
   "patterns": 65,
-  "controls": 99,
-  "cases": 944,
-  "unsupportedFamilies": 175
+  "controls": 166,
+  "cases": 1055,
+  "unsupportedFamilies": 179
 });
 
 export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
@@ -266,6 +266,36 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     ],
     "browserRuntimeSupported": true,
     "parserCapabilitiesMissing": []
+  },
+  {
+    "familyId": "GF_ALTHOUGH_NO_COORDINATING_BUT",
+    "name": "Extend GF_ALTHOUGH_NO_COORDINATING_BUT with parser-linked clause captures",
+    "nameZhHant": "",
+    "classification": "structural",
+    "executionPolicy": "local_review",
+    "grammarCategory": "conjunction",
+    "explanationZhHant": "執行用 family ID 採用 GF_ALTHOUGH_NO_COORDINATING_BUT；舊規則 CONJ_ALTHOUGH_NO_COORDINATING_BUT 只保留在 legacyRuleIdsJson。matcher 擷取 although 從屬子句及主句句首 but。",
+    "version": 2,
+    "runtimeApprovalStatus": "not_approved",
+    "sourceSetIds": [
+      "SET-0023"
+    ],
+    "sourceIssueIds": [
+      "PARA-0023-I001",
+      "PARA-0023-I010",
+      "PARA-0023-I015"
+    ],
+    "requiredCapabilities": [
+      "dependency_parse",
+      "lexical_context",
+      "morphology",
+      "tokenize"
+    ],
+    "browserRuntimeSupported": false,
+    "parserCapabilitiesMissing": [
+      "dependency_parse",
+      "morphology"
+    ]
   },
   {
     "familyId": "GF_AMONG_GROUP",
@@ -1402,6 +1432,38 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
       "lexeme_frames",
       "morphology",
       "semantic_roles"
+    ]
+  },
+  {
+    "familyId": "GF_CONTRIBUTE_TO_GERUND_COMPLEMENT",
+    "name": "Use a gerund after selected prepositional to in contribute to, while excluding nominal and purpose frames",
+    "nameZhHant": "",
+    "classification": "lexical_frame",
+    "executionPolicy": "local_auto",
+    "grammarCategory": "infinitive_or_gerund",
+    "explanationZhHant": "contribute to 中的 to 若引入由 contribute 選取的動詞補語，動詞須用 -ing。名詞補語，以及表示目的、附屬於名詞、捐獻內容或整個 contribute 事件的不定詞，均須排除。",
+    "version": 3,
+    "runtimeApprovalStatus": "not_approved",
+    "sourceSetIds": [
+      "SET-0023"
+    ],
+    "sourceIssueIds": [
+      "PARA-0023-I004",
+      "PARA-0023-I009",
+      "PARA-0023-I016"
+    ],
+    "requiredCapabilities": [
+      "dependency_parse",
+      "lexeme_frames",
+      "lexical_context",
+      "morphology",
+      "tokenize"
+    ],
+    "browserRuntimeSupported": false,
+    "parserCapabilitiesMissing": [
+      "dependency_parse",
+      "lexeme_frames",
+      "morphology"
     ]
   },
   {
@@ -3533,6 +3595,39 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     ]
   },
   {
+    "familyId": "GF_MUCH_TO_MANY_PLURAL_COUNT_NOUN",
+    "name": "Use many, not much, with plural count nouns, including the many more construction",
+    "nameZhHant": "",
+    "classification": "lexical_frame",
+    "executionPolicy": "local_auto",
+    "grammarCategory": "countability",
+    "explanationZhHant": "much 若直接限定可數複數名詞，或經由 more 形成 much more + 複數名詞，應改為 many。正確的 much fewer、副詞、代詞、疑問、不可數及詞義未確定用法均須排除。",
+    "version": 3,
+    "runtimeApprovalStatus": "not_approved",
+    "sourceSetIds": [
+      "SET-0023"
+    ],
+    "sourceIssueIds": [
+      "PARA-0023-I003",
+      "PARA-0023-I006",
+      "PARA-0023-I013"
+    ],
+    "requiredCapabilities": [
+      "case_preservation",
+      "dependency_parse",
+      "lexeme_frames",
+      "lexical_context",
+      "morphology",
+      "tokenize"
+    ],
+    "browserRuntimeSupported": false,
+    "parserCapabilitiesMissing": [
+      "dependency_parse",
+      "lexeme_frames",
+      "morphology"
+    ]
+  },
+  {
     "familyId": "GF_MULTIPLIER_PLURAL_TIMES",
     "name": "Multiplier plural times",
     "nameZhHant": "",
@@ -3897,6 +3992,39 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     "browserRuntimeSupported": false,
     "parserCapabilitiesMissing": [
       "lexeme_frames"
+    ]
+  },
+  {
+    "familyId": "GF_ON_THE_OTHER_HAND_DISCOURSE_MARKER",
+    "name": "Use singular hand in the contrastive marker on the other hand",
+    "nameZhHant": "",
+    "classification": "lexical_frame",
+    "executionPolicy": "local_auto",
+    "grammarCategory": "word_choice",
+    "explanationZhHant": "on the other hands 若作句子層面的轉折語，應改為 on the other hand；實際手部方位、複合詞、標題及引文均須排除。",
+    "version": 1,
+    "runtimeApprovalStatus": "not_approved",
+    "sourceSetIds": [
+      "SET-0023"
+    ],
+    "sourceIssueIds": [
+      "PARA-0023-I005",
+      "PARA-0023-I012",
+      "PARA-0023-I018"
+    ],
+    "requiredCapabilities": [
+      "coreference_and_discourse",
+      "dependency_parse",
+      "lexical_context",
+      "morphology",
+      "sentence_boundaries",
+      "tokenize"
+    ],
+    "browserRuntimeSupported": false,
+    "parserCapabilitiesMissing": [
+      "coreference_and_discourse",
+      "dependency_parse",
+      "morphology"
     ]
   },
   {
@@ -4709,18 +4837,25 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     "version": 1,
     "runtimeApprovalStatus": "not_approved",
     "sourceSetIds": [
-      "SET-0021"
+      "SET-0021",
+      "SET-0023"
     ],
     "sourceIssueIds": [
-      "PARA-0021-S13-I01"
+      "PARA-0021-S13-I01",
+      "PARA-0023-I007",
+      "PARA-0023-I011",
+      "PARA-0023-I017"
     ],
     "requiredCapabilities": [
+      "dependency_parse",
       "lexeme_frames",
+      "lexical_context",
       "morphology",
       "tokenize"
     ],
     "browserRuntimeSupported": false,
     "parserCapabilitiesMissing": [
+      "dependency_parse",
       "lexeme_frames",
       "morphology"
     ]
@@ -5560,7 +5695,8 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
       "SET-0019",
       "SET-0020",
       "SET-0021",
-      "SET-0022"
+      "SET-0022",
+      "SET-0023"
     ],
     "sourceIssueIds": [
       "PARA-0019-S02-I01",
@@ -5578,11 +5714,15 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
       "PARA-0022-S03-I02",
       "PARA-0022-S04-I01",
       "PARA-0022-S06-I01",
-      "PARA-0022-S08-I01"
+      "PARA-0022-S08-I01",
+      "PARA-0023-I002",
+      "PARA-0023-I008",
+      "PARA-0023-I014"
     ],
     "requiredCapabilities": [
       "case_preservation",
       "dependency_parse",
+      "lexeme_frames",
       "lexical_context",
       "morphology",
       "sentence_boundaries",
@@ -5593,6 +5733,7 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     "browserRuntimeSupported": true,
     "parserCapabilitiesMissing": [
       "dependency_parse",
+      "lexeme_frames",
       "morphology"
     ]
   },

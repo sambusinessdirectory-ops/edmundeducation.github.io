@@ -1,0 +1,1253 @@
+{
+  "id": "ss253",
+  "order": 253,
+  "slug": "just-because-x-does-not-mean-y",
+  "title": "「Just because X does not mean Y」句",
+  "titleZh": "「Just because X does not mean Y」反駁沒有充分根據的結論",
+  "titleEn": "Just because X does not mean Y",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 252 -「Just because X does not mean Y——反駁沒有充分根據的結論」.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered one lower than this system lesson ID because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Just because + X clause + does not mean + Y clause / noun phrase",
+  "formulas": [
+    {
+      "id": "ss253-formula-01",
+      "labelEn": "Initial",
+      "labelZh": "以 Just because 開首",
+      "formula": "Just because + X clause + does not mean + Y clause / noun phrase"
+    },
+    {
+      "id": "ss253-formula-02",
+      "labelEn": "Conclusion first",
+      "labelZh": "先寫主要結論",
+      "formula": "It does not mean + Y + just because + X"
+    },
+    {
+      "id": "ss253-formula-03",
+      "labelEn": "After a thinking verb",
+      "labelZh": "放在認知動詞後",
+      "formula": "Subject + remember / understand / recognise + that + just because X does not mean Y"
+    },
+    {
+      "id": "ss253-formula-04",
+      "labelEn": "After a reporting verb",
+      "labelZh": "放在報告動詞後",
+      "formula": "Subject + explained / argued / warned / pointed out + that + just because X did not mean Y"
+    },
+    {
+      "id": "ss253-formula-05",
+      "labelEn": "After a colon",
+      "labelZh": "放在冒號後",
+      "formula": "One point / fact / lesson is clear: just because X does not mean Y"
+    }
+  ],
+  "example": "Just because the book is long does not mean it is difficult.",
+  "exampleZh": "這本書很長，並不代表它很難。",
+  "examples": [
+    {
+      "id": "ss253-example-01",
+      "en": "Just because the book is long does not mean it is difficult.",
+      "zh": "這本書很長，並不代表它很難。",
+      "highlight": "Just because the book is long does not mean it is difficult."
+    },
+    {
+      "id": "ss253-example-02",
+      "en": "It does not mean you have failed just because you made one mistake.",
+      "zh": "你犯了一次錯，並不代表你已經失敗。",
+      "highlight": "It does not mean you have failed just because you made one mistake."
+    },
+    {
+      "id": "ss253-example-03",
+      "en": "We must recognise that just because someone disagrees does not mean they are wrong.",
+      "zh": "我們必須明白，有人不同意並不代表他們是錯的。",
+      "highlight": "We must recognise that just because someone disagrees does not mean they are wrong."
+    }
+  ],
+  "meaning": {
+    "zh": "用來說明某個事實、理由或情況並不足以證明另一個結論，從而反駁過早或欠缺根據的推論。"
+  },
+  "rules": [
+    {
+      "id": "ss253-rule-01",
+      "zh": "X 是已知的事實、理由或情況；Y 是不應自動推出的結論。",
+      "en": "X is a fact, reason or situation; Y is a conclusion that does not necessarily follow.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-rule-02",
+      "zh": "這個句型不一定表示 Y 是錯的，只表示 X 單獨不足以證明 Y。",
+      "en": "The structure does not always claim that Y is definitely false. It says that X alone is not enough to prove Y.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-rule-03",
+      "zh": "標準現在式使用 does not mean，不使用 do not mean。",
+      "en": "Use does not mean in the standard present-tense form because the complete just because clause is treated as one idea.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-rule-04",
+      "zh": "如結論屬過去情況或過去報告，可使用 did not mean。",
+      "en": "Use did not mean when the conclusion belongs to a past situation or a past report.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-rule-05",
+      "zh": "Y 可接完整子句、情態動詞子句、否定子句或名詞短語。",
+      "en": "Y may be a complete clause, a modal clause, a negative clause or a noun phrase.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-rule-06",
+      "zh": "標準句首形式中，just because 子句作 does not mean 的主語，通常不加逗號。",
+      "en": "In the standard initial pattern, the just because clause functions as the subject of does not mean, so a comma is normally unnecessary.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss253-benefit-01",
+      "zh": "有助反駁沒有充分根據或過早作出的假設。",
+      "en": "It helps you challenge a weak assumption.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-benefit-02",
+      "zh": "能清楚分開已知事實和未被證明的推論，使推理更嚴謹。",
+      "en": "It makes your reasoning more careful.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-benefit-03",
+      "zh": "能在一句內把假設和修正連接起來。",
+      "en": "It combines an assumption and its correction.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-benefit-04",
+      "zh": "適合在討論、議論文、簡報和日常對話中回應過度簡化的看法。",
+      "en": "It is useful in discussions and argumentative writing.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-benefit-05",
+      "zh": "可以堅定地反駁結論，同時不必直接說對方錯誤。",
+      "en": "It helps you sound firm without being rude.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss253-benefit-06",
+      "zh": "目標關係可出現在句首、句中、認知動詞後、報告動詞後或冒號後。",
+      "en": "It gives you genuine sentence variety.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered one lower than this system lesson ID because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the Just because X does not mean Y relationship.",
+      "The target structure may appear at the beginning, in the middle or near the end of the answer.",
+      "Follow the first-word hint carefully.",
+      "Keep the original meaning, tense, modality and degree of certainty unchanged.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Just because X does not mean Y 的句式關係改寫以下句子。",
+      "目標句型可以出現在答案的句首、中間或接近句末的位置。",
+      "請仔細依照答案的第一個字改寫。",
+      "保留原句的意思、時態、情態和肯定程度不變。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss253-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The book is long, but that alone does not show that it is difficult.",
+      "promptZh": "這本書很長，但單憑這一點並不能證明它很難。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because the book is long does not mean it is difficult.",
+      "answerZh": "這本書很長，並不代表它很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because the book is long does not mean it is difficult."
+    },
+    {
+      "id": "ss253-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The restaurant is busy. However, we cannot conclude from this that it is good.",
+      "promptZh": "這間餐廳人很多，但我們不能因此斷定它很好。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean the restaurant is good just because it is busy.",
+      "answerZh": "這間餐廳人很多，並不代表它很好。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean the restaurant is good just because it is busy."
+    },
+    {
+      "id": "ss253-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leo is quiet. This is not proof that he is unfriendly.",
+      "promptZh": "里奧很安靜，但這並不能證明他不友善。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because Leo is quiet does not mean he is unfriendly.",
+      "answerZh": "里奧很安靜，並不代表他不友善。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because Leo is quiet does not mean he is unfriendly."
+    },
+    {
+      "id": "ss253-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The sky is cloudy, but rain is not certain.",
+      "promptZh": "天空多雲，但並不表示一定會下雨。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because the sky is cloudy does not mean it will rain.",
+      "answerZh": "天空多雲，並不代表一定會下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because the sky is cloudy does not mean it will rain."
+    },
+    {
+      "id": "ss253-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The bag is expensive, but its price alone does not prove that it is well made.",
+      "promptZh": "這個袋很昂貴，但單憑價錢並不能證明它製作精良。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should remember that just because the bag is expensive does not mean it is well made.",
+      "answerZh": "你應該記住，這個袋昂貴並不代表它製作精良。",
+      "answerZhSource": "pdf",
+      "highlight": "You should remember that just because the bag is expensive does not mean it is well made."
+    },
+    {
+      "id": "ss253-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Some people think a student who asks questions is confused, but that conclusion is not always correct.",
+      "promptZh": "有些人認為提出問題的學生一定感到困惑，但這個結論並不一定正確。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a student asks questions does not mean the student is confused.",
+      "answerZh": "學生提出問題，並不代表他感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a student asks questions does not mean the student is confused."
+    },
+    {
+      "id": "ss253-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The window is open. This alone is not enough to show that the room is cold.",
+      "promptZh": "窗戶開着，但單憑這一點並不足以證明房間很冷。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean the room is cold just because the window is open.",
+      "answerZh": "窗戶開着，並不代表房間很冷。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean the room is cold just because the window is open."
+    },
+    {
+      "id": "ss253-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The film is popular, but not everyone will necessarily enjoy it.",
+      "promptZh": "這部電影很受歡迎，但並非每個人都一定會喜歡它。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because the film is popular does not mean everyone will enjoy it.",
+      "answerZh": "這部電影很受歡迎，並不代表每個人都會喜歡它。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because the film is popular does not mean everyone will enjoy it."
+    },
+    {
+      "id": "ss253-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The player was fast, but the coach said this did not prove that he was ready for the team.",
+      "promptZh": "這名球員速度很快，但教練表示這並不能證明他已準備好加入球隊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach explained that just because the player was fast did not mean he was ready for the team.",
+      "answerZh": "教練解釋，這名球員速度快並不代表他已準備好加入球隊。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach explained that just because the player was fast did not mean he was ready for the team."
+    },
+    {
+      "id": "ss253-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The answer is short. However, it may still be complete.",
+      "promptZh": "這個答案很短，但它仍然可能是完整的。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because the answer is short does not mean it is incomplete.",
+      "answerZh": "這個答案很短，並不代表它不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because the answer is short does not mean it is incomplete."
+    },
+    {
+      "id": "ss253-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Some people think working from home means working less, but this is not necessarily true.",
+      "promptZh": "有些人認為在家工作代表工作較少，但這並不一定正確。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should remember that just because someone works from home does not mean they work less.",
+      "answerZh": "我們應該記住，某人在家工作並不代表他工作較少。",
+      "answerZhSource": "pdf",
+      "highlight": "We should remember that just because someone works from home does not mean they work less."
+    },
+    {
+      "id": "ss253-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The medicine tastes bitter, but that is not evidence that it is unsafe.",
+      "promptZh": "這種藥味道苦，但這並不能證明它不安全。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean the medicine is unsafe just because it tastes bitter.",
+      "answerZh": "這種藥味道苦，並不代表它不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean the medicine is unsafe just because it tastes bitter."
+    },
+    {
+      "id": "ss253-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher reminded us that similar-looking words do not necessarily have the same meaning.",
+      "promptZh": "老師提醒我們，外形相似的字詞不一定具有相同意思。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher reminded us that just because two words look similar does not mean they have the same meaning.",
+      "answerZh": "老師提醒我們，兩個字詞外形相似並不代表它們具有相同意思。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher reminded us that just because two words look similar does not mean they have the same meaning."
+    },
+    {
+      "id": "ss253-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The bus arrived late, but this alone does not prove that the driver was careless.",
+      "promptZh": "巴士遲到了，但單憑這一點並不能證明司機粗心大意。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because the bus arrived late does not mean the driver was careless.",
+      "answerZh": "巴士遲到並不代表司機粗心大意。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because the bus arrived late does not mean the driver was careless."
+    },
+    {
+      "id": "ss253-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A cheap product is not necessarily a poor-quality product.",
+      "promptZh": "價格便宜的產品不一定品質差劣。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a product is cheap does not mean it is poor quality.",
+      "answerZh": "產品價格便宜並不代表它品質差劣。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a product is cheap does not mean it is poor quality."
+    },
+    {
+      "id": "ss253-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A child can make one mistake without being irresponsible, and parents should understand this.",
+      "promptZh": "孩子即使犯了一次錯，也不代表他不負責任；家長應該明白這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Parents",
+      "answer": "Parents should understand that just because a child makes one mistake does not mean the child is irresponsible.",
+      "answerZh": "家長應該明白，孩子犯了一次錯並不代表他不負責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents should understand that just because a child makes one mistake does not mean the child is irresponsible."
+    },
+    {
+      "id": "ss253-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The computer is running slowly, but it may not be broken.",
+      "promptZh": "電腦運行緩慢，但它未必已經損壞。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean the computer is broken just because it is running slowly.",
+      "answerZh": "電腦運行緩慢並不代表它已經損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean the computer is broken just because it is running slowly."
+    },
+    {
+      "id": "ss253-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A rule may be old without needing to be removed.",
+      "promptZh": "一項規則即使歷史悠久，也不一定需要被取消。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a rule is old does not mean it should be removed.",
+      "answerZh": "一項規則歷史悠久並不代表它應該被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a rule is old does not mean it should be removed."
+    },
+    {
+      "id": "ss253-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The path looked easy, but the guide said it was not necessarily safe.",
+      "promptZh": "這條小徑看起來容易行走，但導遊表示它不一定安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide pointed out that just because the path looked easy did not mean it was safe.",
+      "answerZh": "導遊指出，這條小徑看起來容易行走並不代表它是安全的。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide pointed out that just because the path looked easy did not mean it was safe."
+    },
+    {
+      "id": "ss253-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The shop is small, but it may still have a wide range of products.",
+      "promptZh": "這間商店規模小，但它仍然可能有很多不同種類的貨品。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One fact is clear: just because the shop is small does not mean it has a limited range of products.",
+      "answerZh": "有一點很清楚：這間商店規模小並不代表它的貨品種類有限。",
+      "answerZhSource": "pdf",
+      "highlight": "One fact is clear: just because the shop is small does not mean it has a limited range of products."
+    },
+    {
+      "id": "ss253-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Speaking confidently is not proof that a person’s information is correct.",
+      "promptZh": "說話有自信並不能證明一個人的資料正確。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a person speaks confidently does not mean their information is correct.",
+      "answerZh": "一個人說話有自信並不代表他的資料正確。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a person speaks confidently does not mean their information is correct."
+    },
+    {
+      "id": "ss253-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A company may make a promise and still fail to keep it. We must recognise this.",
+      "promptZh": "公司即使作出承諾，仍可能不履行承諾。我們必須明白這一點。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We must recognise that just because a company makes a promise does not mean it will keep it.",
+      "answerZh": "我們必須明白，公司作出承諾並不代表它會履行承諾。",
+      "answerZhSource": "pdf",
+      "highlight": "We must recognise that just because a company makes a promise does not mean it will keep it."
+    },
+    {
+      "id": "ss253-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Some people disagree with the plan, but their disagreement does not prove that it will fail.",
+      "promptZh": "有些人不同意這個計劃，但他們的反對並不能證明計劃將會失敗。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean the plan will fail just because some people disagree with it.",
+      "answerZh": "有些人不同意這個計劃，並不代表計劃將會失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean the plan will fail just because some people disagree with it."
+    },
+    {
+      "id": "ss253-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The patient felt better, but the doctor explained that the illness might not have completely gone.",
+      "promptZh": "病人感覺好轉，但醫生解釋疾病可能尚未完全消失。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained that just because the patient felt better did not mean the illness had completely gone.",
+      "answerZh": "醫生解釋，病人感覺好轉並不代表疾病已經完全消失。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained that just because the patient felt better did not mean the illness had completely gone."
+    },
+    {
+      "id": "ss253-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A photograph may look realistic even after it has been edited.",
+      "promptZh": "一張相片即使經過修改，仍可能看起來很真實。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a photograph looks realistic does not mean it has not been edited.",
+      "answerZh": "一張相片看起來很真實，並不代表它未經修改。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a photograph looks realistic does not mean it has not been edited."
+    },
+    {
+      "id": "ss253-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The deadline seemed distant, but the manager warned the team that they could not delay the work.",
+      "promptZh": "限期看似遙遠，但經理警告團隊不能因此延遲工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager warned the team that just because the deadline seemed distant did not mean they could delay the work.",
+      "answerZh": "經理警告團隊，限期看似遙遠並不代表他們可以延遲工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager warned the team that just because the deadline seemed distant did not mean they could delay the work."
+    },
+    {
+      "id": "ss253-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Many people have shared the online review, but this does not make it reliable.",
+      "promptZh": "很多人分享了這篇網上評論，但這並不代表它可靠。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean an online review is reliable just because many people have shared it.",
+      "answerZh": "很多人分享了一篇網上評論，並不代表它可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean an online review is reliable just because many people have shared it."
+    },
+    {
+      "id": "ss253-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A quiet neighbourhood can still have good public transport.",
+      "promptZh": "安靜的社區仍然可以有良好的公共交通服務。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a neighbourhood is quiet does not mean public transport is poor.",
+      "answerZh": "一個社區環境安靜，並不代表公共交通服務欠佳。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a neighbourhood is quiet does not mean public transport is poor."
+    },
+    {
+      "id": "ss253-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "An essay can contain difficult words without being well written. Students should understand this.",
+      "promptZh": "一篇文章即使使用艱深字詞，也不一定寫得好。學生應該明白這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students should understand that just because an essay uses difficult words does not mean it is well written.",
+      "answerZh": "學生應該明白，一篇文章使用艱深字詞並不代表它寫得好。",
+      "answerZhSource": "pdf",
+      "highlight": "Students should understand that just because an essay uses difficult words does not mean it is well written."
+    },
+    {
+      "id": "ss253-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Energy use had fallen, but the report said the problem might not have been solved.",
+      "promptZh": "能源使用量已經下降，但報告表示問題可能尚未解決。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report stressed that just because energy use had fallen did not mean the problem had been solved.",
+      "answerZh": "報告強調，能源使用量下降並不代表問題已經解決。",
+      "answerZhSource": "pdf",
+      "highlight": "The report stressed that just because energy use had fallen did not mean the problem had been solved."
+    },
+    {
+      "id": "ss253-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A candidate may have more experience without being the best person for the job.",
+      "promptZh": "求職者即使有較多經驗，也不一定是最適合這份工作的人。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a candidate has more experience does not mean they are the best person for the job.",
+      "answerZh": "求職者擁有較多經驗並不代表他是最適合這份工作的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a candidate has more experience does not mean they are the best person for the job."
+    },
+    {
+      "id": "ss253-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The device has green packaging, but this does not prove that it is environmentally friendly.",
+      "promptZh": "這部裝置使用綠色包裝，但這並不能證明它符合環保原則。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean a device is environmentally friendly just because its packaging is green.",
+      "answerZh": "裝置使用綠色包裝並不代表它符合環保原則。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean a device is environmentally friendly just because its packaging is green."
+    },
+    {
+      "id": "ss253-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The proposal was popular, but the committee recognised that it might not be practical.",
+      "promptZh": "這項建議很受歡迎，但委員會明白它未必切實可行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee recognised that just because the proposal was popular did not mean it was practical.",
+      "answerZh": "委員會明白，這項建議受歡迎並不代表它切實可行。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee recognised that just because the proposal was popular did not mean it was practical."
+    },
+    {
+      "id": "ss253-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The instructions are simple, but the task may still take a long time.",
+      "promptZh": "指示很簡單，但任務仍然可能需要很長時間。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because the instructions are simple does not mean the task will be quick.",
+      "answerZh": "指示簡單並不代表任務能很快完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because the instructions are simple does not mean the task will be quick."
+    },
+    {
+      "id": "ss253-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Changing an opinion is not always a sign of dishonesty. We should remember this.",
+      "promptZh": "改變看法並不一定代表不誠實。我們應該記住這一點。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should remember that just because a person changes their opinion does not mean they are dishonest.",
+      "answerZh": "我們應該記住，一個人改變看法並不代表他不誠實。",
+      "answerZhSource": "pdf",
+      "highlight": "We should remember that just because a person changes their opinion does not mean they are dishonest."
+    },
+    {
+      "id": "ss253-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A child may be learning even when the child is not speaking.",
+      "promptZh": "孩子即使沒有說話，也可能正在學習。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean a child is not learning just because the child is not speaking.",
+      "answerZh": "孩子沒有說話並不代表他沒有學習。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean a child is not learning just because the child is not speaking."
+    },
+    {
+      "id": "ss253-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The investment had risen before, but the financial adviser explained that future growth was not guaranteed.",
+      "promptZh": "這項投資過去曾經上升，但理財顧問解釋未來的增長並沒有保證。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The financial adviser explained that just because the investment had risen before did not mean it would continue to rise.",
+      "answerZh": "理財顧問解釋，這項投資過去曾經上升並不代表它會繼續上升。",
+      "answerZhSource": "pdf",
+      "highlight": "The financial adviser explained that just because the investment had risen before did not mean it would continue to rise."
+    },
+    {
+      "id": "ss253-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Building more roads does not automatically improve a city’s traffic.",
+      "promptZh": "興建更多道路並不會自動改善一個城市的交通。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a city builds more roads does not mean traffic will automatically improve.",
+      "answerZh": "一個城市興建更多道路並不代表交通會自動改善。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a city builds more roads does not mean traffic will automatically improve."
+    },
+    {
+      "id": "ss253-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Two events can happen together without one causing the other, the scientist warned.",
+      "promptZh": "科學家警告，兩件事情可以同時發生，但並不代表其中一件導致另一件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scientist warned that just because two events happen together does not mean one causes the other.",
+      "answerZh": "科學家警告，兩件事情同時發生並不代表其中一件導致另一件。",
+      "answerZhSource": "pdf",
+      "highlight": "The scientist warned that just because two events happen together does not mean one causes the other."
+    },
+    {
+      "id": "ss253-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The system worked in one school, but the project showed that this did not guarantee success everywhere.",
+      "promptZh": "這套系統在一間學校運作良好，但項目顯示這並不能保證它在所有地方都成功。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One lesson from the project was that just because the system worked in one school did not mean it would work everywhere.",
+      "answerZh": "這個項目帶來的一項教訓是：系統在一間學校運作良好，並不代表它在所有地方都能成功運作。",
+      "answerZhSource": "pdf",
+      "highlight": "One lesson from the project was that just because the system worked in one school did not mean it would work everywhere."
+    },
+    {
+      "id": "ss253-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Even when a policy helps most people, we must still consider its effects on smaller groups.",
+      "promptZh": "即使一項政策能幫助大部分人，我們仍然必須考慮它對較小群體的影響。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a policy helps most people does not mean its effects on smaller groups can be ignored.",
+      "answerZh": "一項政策能幫助大部分人，並不代表可以忽略它對較小群體的影響。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a policy helps most people does not mean its effects on smaller groups can be ignored."
+    },
+    {
+      "id": "ss253-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A news report may include two opinions without being balanced.",
+      "promptZh": "一篇新聞報道即使包含兩種意見，也不一定立場平衡。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean a news report is balanced just because it includes two opinions.",
+      "answerZh": "一篇新聞報道包含兩種意見，並不代表它立場平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean a news report is balanced just because it includes two opinions."
+    },
+    {
+      "id": "ss253-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A patient looked well, but the hospital reminded visitors that the patient might not be ready to receive guests.",
+      "promptZh": "病人看起來精神不錯，但醫院提醒訪客，病人可能尚未適合接待客人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital reminded visitors that just because the patient looked well did not mean the patient was ready to receive guests.",
+      "answerZh": "醫院提醒訪客，病人看起來精神不錯並不代表他已適合接待客人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital reminded visitors that just because the patient looked well did not mean the patient was ready to receive guests."
+    },
+    {
+      "id": "ss253-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A free service still costs money to provide, and we must not forget this.",
+      "promptZh": "免費服務仍然需要成本來提供，我們不應忘記這一點。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We must not forget that just because a service is free does not mean it has no cost to provide.",
+      "answerZh": "我們不應忘記，一項服務免費並不代表提供它不需要成本。",
+      "answerZhSource": "pdf",
+      "highlight": "We must not forget that just because a service is free does not mean it has no cost to provide."
+    },
+    {
+      "id": "ss253-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Technology can make a task faster without improving the final decision.",
+      "promptZh": "科技可以加快完成任務，但不一定能改善最終決定。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because technology makes a task faster does not mean it makes the final decision better.",
+      "answerZh": "科技令任務更快完成，並不代表它能改善最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because technology makes a task faster does not mean it makes the final decision better."
+    },
+    {
+      "id": "ss253-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The organisation had followed the rules, but the review panel concluded that it might still have acted unfairly.",
+      "promptZh": "該機構遵守了規則，但審查小組認為它的做法仍可能不公平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review panel concluded that just because the organisation had followed the rules did not mean it had acted fairly.",
+      "answerZh": "審查小組認為，該機構遵守了規則並不代表它的做法公平。",
+      "answerZhSource": "pdf",
+      "highlight": "The review panel concluded that just because the organisation had followed the rules did not mean it had acted fairly."
+    },
+    {
+      "id": "ss253-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A tradition can exist for generations without needing to remain unchanged.",
+      "promptZh": "一項傳統即使已存在多代，也不一定需要維持不變。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not mean a tradition should remain unchanged just because it has existed for generations.",
+      "answerZh": "一項傳統已存在多代，並不代表它應該維持不變。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not mean a tradition should remain unchanged just because it has existed for generations."
+    },
+    {
+      "id": "ss253-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Examination results had improved, but the head teacher said some students might still lack the support they needed.",
+      "promptZh": "考試成績有所改善，但校長表示部分學生可能仍未獲得所需的支援。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The head teacher emphasised that just because examination results had improved did not mean every student was receiving the support they needed.",
+      "answerZh": "校長強調，考試成績有所改善並不代表每名學生都正獲得所需的支援。",
+      "answerZhSource": "pdf",
+      "highlight": "The head teacher emphasised that just because examination results had improved did not mean every student was receiving the support they needed."
+    },
+    {
+      "id": "ss253-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A solution may work in the short term without remaining effective in the long term.",
+      "promptZh": "一個解決方法即使短期內有效，也不一定能長期維持成效。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just because a solution works in the short term does not mean it will remain effective in the long term.",
+      "answerZh": "一個解決方法短期內有效，並不代表它能長期維持成效。",
+      "answerZhSource": "pdf",
+      "highlight": "Just because a solution works in the short term does not mean it will remain effective in the long term."
+    },
+    {
+      "id": "ss253-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "An idea may challenge common beliefs and still be correct. We should recognise this.",
+      "promptZh": "一個想法即使挑戰普遍觀念，仍然可能是正確的。我們應該明白這一點。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should recognise that just because an idea challenges common beliefs does not mean it is wrong.",
+      "answerZh": "我們應該明白，一個想法挑戰普遍觀念並不代表它是錯的。",
+      "answerZhSource": "pdf",
+      "highlight": "We should recognise that just because an idea challenges common beliefs does not mean it is wrong."
+    }
+  ]
+}

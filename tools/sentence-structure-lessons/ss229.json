@@ -1,0 +1,1217 @@
+{
+  "id": "ss229",
+  "order": 229,
+  "slug": "echo-questions",
+  "title": "Echo Questions 回聲問句",
+  "titleZh": "Echo Questions 回聲問句",
+  "titleEn": "Echo Questions",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 228 - Echo Questions 回聲問句.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 228; it is assigned system ID ss229 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Statement word order + question mark",
+  "formulas": [
+    {
+      "id": "ss229-formula-01",
+      "labelEn": "Repeat the full statement",
+      "labelZh": "重複整個陳述句",
+      "formula": "Subject + verb / auxiliary + other information + ?"
+    },
+    {
+      "id": "ss229-formula-02",
+      "labelEn": "Question one surprising detail",
+      "labelZh": "追問一項資料",
+      "formula": "Subject + verb + who / what / where / when / how much / how many + ?"
+    }
+  ],
+  "example": "She resigned?",
+  "exampleZh": "她辭職了？",
+  "examples": [
+    {
+      "id": "ss229-example-01",
+      "en": "She resigned?",
+      "zh": "她辭職了？",
+      "highlight": "She resigned?"
+    }
+  ],
+  "meaning": {
+    "zh": "回聲問句把剛聽到的全部內容或其中一部分問回對方，用來表達驚訝、難以置信、興趣、確認或沒有聽清楚。"
+  },
+  "rules": [
+    {
+      "id": "ss229-rule-01",
+      "zh": "保留陳述句語序 正確的回聲問句： Your brother cooked this meal? 不符合本課目標： Did your brother cook this meal? 第二句是一般問句，而不是重複剛聽到內容的完整回聲問句。",
+      "en": "Keep statement word order in an echo question. “Your brother cooked this meal?” is the target; “Did your brother cook this meal?” is an ordinary information question.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-rule-02",
+      "zh": "保留原有時態及助動詞 She is leaving? They were waiting outside? He can drive? The meeting has been cancelled? 不要因為句子變成問句而自行加入 do、does 或 did。",
+      "en": "Keep the original tense and auxiliary. Do not add do, does or did merely because the sentence now ends with a question mark.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-rule-03",
+      "zh": "對話人物改變時，代名詞也要改變 Speaker A: I lost my keys. Speaker B: You lost your keys? 說話者A的 I，在說話者B的回應中會變成 you。 其他常見轉換包括： ● my → your ● your → my ● me → you ● we → you / we，視乎對話情況而定",
+      "en": "Change pronouns when the speaker changes: a speaker’s I normally becomes you in the listener’s echo response, with corresponding my/your and me/you changes.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-rule-04",
+      "zh": "回聲問句通常不倒裝 Echo question: She bought what? Ordinary question: What did she buy? Echo question: The class starts when? Ordinary question: When does the class start?",
+      "en": "Wh-echo questions normally keep the wh-word in the position of the surprising or unheard information: “She bought what?” rather than “What did she buy?”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-rule-05",
+      "zh": "書面上要使用問號 在說話中，回聲問句通常配合上升語調。 在書面對話中，必須在句末使用問號。",
+      "en": "Use a question mark in writing. In speech, echo questions normally use rising intonation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-rule-06",
+      "zh": "回聲問句主要用於對話 它常見於： ● 日常對話； ● 電話交談； ● 電影及故事對白； ● 訪問； ● 口語討論。 正式報告及學術文章通常不會大量使用這種句式。",
+      "en": "Echo questions are mainly conversational and common in calls, dialogue, interviews and spoken discussion; they are not normally frequent in formal reports or academic writing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss229-benefit-01",
+      "zh": "它能立即表達驚訝 當你聽到意料之外的消息時，不需要先組織一個很長的回應，只需把關鍵內容問回對方。 A: Sam won the competition. B: Sam won the competition? 這樣便能立即表示你對消息感到驚訝。",
+      "en": "It expresses surprise immediately by repeating the unexpected message without constructing a long response.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-benefit-02",
+      "zh": "它能幫助你確認資料 有時你已經大致聽到對方的話，但想確認自己沒有聽錯。 A: The train leaves at five. B: The train leaves at five? 這個回應自然地表示：「我聽到的是五點，對嗎？」",
+      "en": "It helps confirm information when you think you heard correctly but want the speaker to verify it.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-benefit-03",
+      "zh": "它能指出你沒有聽清楚的部分 你不需要要求對方重複整句，只需問回缺少的資料。 A: I paid three hundred dollars. B: You paid how much? 對方會立即知道你需要他重複價錢。",
+      "en": "It identifies the exact detail you did not hear by replacing only that information with a wh-word.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-benefit-04",
+      "zh": "它能令口語反應更快、更自然 在真實對話中，人們未必有時間設計完整而正式的問句。 回聲問句提供一個簡單的反應框架： Statement word order + ? 你可以保留大部分剛聽到的句子，只改變語調和標點。",
+      "en": "It makes spoken reactions faster and more natural by retaining most of the statement and changing only intonation and punctuation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-benefit-05",
+      "zh": "它能鼓勵對方繼續解釋 當你問： You left your job? 對方通常會自然地補充原因或背景。這有助維持對話，而不是只回答 yes 或 no。",
+      "en": "It encourages the other speaker to continue explaining and often invites reasons or background.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss229-benefit-06",
+      "zh": "它讓你選擇回應多少內容 你可以重複： ● 整個消息：You are moving to Canada? ● 一項資料：You are moving where? ● 一個短語：To Canada? 因此，你可以把注意力準確地放在最令你意外或最需要確認的部分。",
+      "en": "It lets you repeat a full message, one detail or a short phrase, so you can focus precisely on what surprised you or needs confirmation.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 228; it is assigned system ID ss229 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Complete Speaker B’s response as an echo question using statement word order.",
+      "Change pronouns where the speaker changes and end every answer with a question mark."
+    ],
+    "zh": [
+      "完成說話者 B 的回應，把它寫成保留陳述句語序的回聲問句。",
+      "按說話者轉換代名詞，並在每個答案句末使用問號。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss229-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: “Maya resigned yesterday.” B is surprised by the whole message.",
+      "promptZh": "A：「瑪雅昨天辭職了。」B 對整個消息感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya resigned yesterday?",
+      "answerZh": "瑪雅昨天辭職了？",
+      "answerZhSource": "pdf",
+      "highlight": "Maya resigned yesterday?"
+    },
+    {
+      "id": "ss229-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: “The shop closes at six.” B wants to confirm the closing time.",
+      "promptZh": "A：「商店六點關門。」B 想確認關門時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop closes at six?",
+      "answerZh": "商店六點關門？",
+      "answerZhSource": "pdf",
+      "highlight": "The shop closes at six?"
+    },
+    {
+      "id": "ss229-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: “Ben lost his wallet on the bus.” B is surprised by the whole message.",
+      "promptZh": "A：「本在巴士上遺失了銀包。」B 對整個消息感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben lost his wallet on the bus?",
+      "answerZh": "本在巴士上遺失了銀包？",
+      "answerZhSource": "pdf",
+      "highlight": "Ben lost his wallet on the bus?"
+    },
+    {
+      "id": "ss229-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: “Your sister speaks Italian.” B did not know this before.",
+      "promptZh": "A：「你的姐姐懂得說意大利語。」B 以前並不知道這件事。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your sister speaks Italian?",
+      "answerZh": "你的姐姐懂得說意大利語？",
+      "answerZhSource": "pdf",
+      "highlight": "Your sister speaks Italian?"
+    },
+    {
+      "id": "ss229-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: “The children walked home in the rain.” B cannot believe what the children did.",
+      "promptZh": "A：「孩子們冒雨步行回家。」B 難以相信孩子們所做的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children walked home in the rain?",
+      "answerZh": "孩子們冒雨步行回家？",
+      "answerZhSource": "pdf",
+      "highlight": "The children walked home in the rain?"
+    },
+    {
+      "id": "ss229-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: “This bag costs eighty dollars.” B is surprised by the price.",
+      "promptZh": "A：「這個袋售價八十元。」B 對價錢感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bag costs eighty dollars?",
+      "answerZh": "這個袋售價八十元？",
+      "answerZhSource": "pdf",
+      "highlight": "This bag costs eighty dollars?"
+    },
+    {
+      "id": "ss229-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: “The test is tomorrow morning.” B wants to check that the date is correct.",
+      "promptZh": "A：「測驗在明天早上舉行。」B 想確認日期是否正確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The test is tomorrow morning?",
+      "answerZh": "測驗在明天早上舉行？",
+      "answerZhSource": "pdf",
+      "highlight": "The test is tomorrow morning?"
+    },
+    {
+      "id": "ss229-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: “Noah lives near the airport.” B is surprised by where Noah lives.",
+      "promptZh": "A：「諾亞住在機場附近。」B 對諾亞的住處感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "Noah",
+      "answer": "Noah lives near the airport?",
+      "answerZh": "諾亞住在機場附近？",
+      "answerZhSource": "pdf",
+      "highlight": "Noah lives near the airport?"
+    },
+    {
+      "id": "ss229-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: “Your parents sold their car last week.” B did not expect them to sell it.",
+      "promptZh": "A：「你的父母上星期賣掉了汽車。」B 沒有料到他們會把汽車賣掉。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your parents sold their car last week?",
+      "answerZh": "你的父母上星期賣掉了汽車？",
+      "answerZhSource": "pdf",
+      "highlight": "Your parents sold their car last week?"
+    },
+    {
+      "id": "ss229-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: “The café is closed on Sundays.” B wants to make sure they heard correctly.",
+      "promptZh": "A：「這間咖啡店逢星期日休息。」B 想確認自己沒有聽錯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café is closed on Sundays?",
+      "answerZh": "這間咖啡店逢星期日休息？",
+      "answerZhSource": "pdf",
+      "highlight": "The café is closed on Sundays?"
+    },
+    {
+      "id": "ss229-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: “I am moving to Canada in September.” B is surprised by the whole message.",
+      "promptZh": "A：「我九月會搬到加拿大。」B 對整個消息感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You are moving to Canada in September?",
+      "answerZh": "你九月會搬到加拿大？",
+      "answerZhSource": "pdf",
+      "highlight": "You are moving to Canada in September?"
+    },
+    {
+      "id": "ss229-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: “Ella is working tonight.” B thought Ella had the evening off.",
+      "promptZh": "A：「艾拉今晚要工作。」B 原以為艾拉今晚不用上班。",
+      "promptZhSource": "pdf",
+      "starter": "Ella",
+      "answer": "Ella is working tonight?",
+      "answerZh": "艾拉今晚要工作？",
+      "answerZhSource": "pdf",
+      "highlight": "Ella is working tonight?"
+    },
+    {
+      "id": "ss229-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: “They were waiting outside for an hour.” B is surprised by how long they waited.",
+      "promptZh": "A：「他們在外面等了一小時。」B 對他們等候的時間感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They were waiting outside for an hour?",
+      "answerZh": "他們在外面等了一小時？",
+      "answerZhSource": "pdf",
+      "highlight": "They were waiting outside for an hour?"
+    },
+    {
+      "id": "ss229-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: “Leo can repair bicycles.” B did not know about Leo’s skill.",
+      "promptZh": "A：「里奧懂得修理單車。」B 不知道里奧有這項技能。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo can repair bicycles?",
+      "answerZh": "里奧懂得修理單車？",
+      "answerZhSource": "pdf",
+      "highlight": "Leo can repair bicycles?"
+    },
+    {
+      "id": "ss229-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: “You should bring your passport.” B wants to confirm the instruction.",
+      "promptZh": "A：「你應該帶同護照。」B 想確認這項指示。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I should bring my passport?",
+      "answerZh": "我應該帶同護照？",
+      "answerZhSource": "pdf",
+      "highlight": "I should bring my passport?"
+    },
+    {
+      "id": "ss229-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: “The bus will arrive in five minutes.” B expected to wait much longer.",
+      "promptZh": "A：「巴士會在五分鐘後到達。」B 原以為還要等很久。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus will arrive in five minutes?",
+      "answerZh": "巴士會在五分鐘後到達？",
+      "answerZhSource": "pdf",
+      "highlight": "The bus will arrive in five minutes?"
+    },
+    {
+      "id": "ss229-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “I do not eat meat.” B is surprised by this information.",
+      "promptZh": "A：「我不吃肉。」B 對這項資料感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You do not eat meat?",
+      "answerZh": "你不吃肉？",
+      "answerZhSource": "pdf",
+      "highlight": "You do not eat meat?"
+    },
+    {
+      "id": "ss229-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “The meeting has been cancelled.” B did not know about the cancellation.",
+      "promptZh": "A：「會議已經取消了。」B 不知道會議已被取消。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting has been cancelled?",
+      "answerZh": "會議已經取消了？",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting has been cancelled?"
+    },
+    {
+      "id": "ss229-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “Amy has finished the report already.” B did not expect Amy to finish so soon.",
+      "promptZh": "A：「艾米已經完成報告了。」B 沒有料到艾米這麼快完成。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy has finished the report already?",
+      "answerZh": "艾米已經完成報告了？",
+      "answerZhSource": "pdf",
+      "highlight": "Amy has finished the report already?"
+    },
+    {
+      "id": "ss229-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “The window was broken during the storm.” B is surprised by what happened.",
+      "promptZh": "A：「窗戶在暴風雨期間被打破了。」B 對所發生的事感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The window was broken during the storm?",
+      "answerZh": "窗戶在暴風雨期間被打破了？",
+      "answerZhSource": "pdf",
+      "highlight": "The window was broken during the storm?"
+    },
+    {
+      "id": "ss229-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “I met Professor Lee at the station.” B is surprised by the person A met.",
+      "promptZh": "A：「我在車站遇到李教授。」B 對A遇到的人感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You met who at the station?",
+      "answerZh": "你在車站遇到誰？",
+      "answerZhSource": "pdf",
+      "highlight": "You met who at the station?"
+    },
+    {
+      "id": "ss229-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “Clara bought a drone for her brother.” B did not hear what Clara bought.",
+      "promptZh": "A：「克拉拉買了一部無人機給她的弟弟。」B 沒有聽清楚克拉拉買了甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Clara",
+      "answer": "Clara bought what for her brother?",
+      "answerZh": "克拉拉買了甚麼給她的弟弟？",
+      "answerZhSource": "pdf",
+      "highlight": "Clara bought what for her brother?"
+    },
+    {
+      "id": "ss229-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “The class starts at half past seven.” B wants the time repeated.",
+      "promptZh": "A：「課堂七時半開始。」B 想對方重複時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The class starts when?",
+      "answerZh": "課堂甚麼時候開始？",
+      "answerZhSource": "pdf",
+      "highlight": "The class starts when?"
+    },
+    {
+      "id": "ss229-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “They are travelling to Iceland next month.” B is surprised by their destination.",
+      "promptZh": "A：「他們下個月會前往冰島旅行。」B 對他們的目的地感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They are travelling where next month?",
+      "answerZh": "他們下個月會去哪裏旅行？",
+      "answerZhSource": "pdf",
+      "highlight": "They are travelling where next month?"
+    },
+    {
+      "id": "ss229-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “This jacket costs nine hundred dollars.” B cannot believe the price.",
+      "promptZh": "A：「這件外套售價九百元。」B 難以相信這個價錢。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This jacket costs how much?",
+      "answerZh": "這件外套多少錢？",
+      "answerZhSource": "pdf",
+      "highlight": "This jacket costs how much?"
+    },
+    {
+      "id": "ss229-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: “Daniel invited forty people.” B did not hear the number clearly.",
+      "promptZh": "A：「丹尼爾邀請了四十人。」B 沒有聽清楚人數。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel invited how many people?",
+      "answerZh": "丹尼爾邀請了多少人？",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel invited how many people?"
+    },
+    {
+      "id": "ss229-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: “You need the blue form.” B wants to confirm which form is needed.",
+      "promptZh": "A：「你需要藍色的表格。」B 想確認需要哪一份表格。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I need which form?",
+      "answerZh": "我需要哪一份表格？",
+      "answerZhSource": "pdf",
+      "highlight": "I need which form?"
+    },
+    {
+      "id": "ss229-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: “The parcel came from Brazil.” B is surprised by where it came from.",
+      "promptZh": "A：「包裹來自巴西。」B 對包裹的來源地感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel came from where?",
+      "answerZh": "包裹來自哪裏？",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel came from where?"
+    },
+    {
+      "id": "ss229-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: “She left the office at four in the morning.” B cannot believe the time.",
+      "promptZh": "A：「她凌晨四時才離開辦公室。」B 難以相信這個時間。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She left the office at what time?",
+      "answerZh": "她甚麼時間離開辦公室？",
+      "answerZhSource": "pdf",
+      "highlight": "She left the office at what time?"
+    },
+    {
+      "id": "ss229-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: “My neighbour said that he saw a fox in the garden.” B did not hear what the neighbour said.",
+      "promptZh": "A：「我的鄰居說他在花園看見一隻狐狸。」B 沒有聽清楚鄰居說了甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your neighbour said what?",
+      "answerZh": "你的鄰居說了甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "Your neighbour said what?"
+    },
+    {
+      "id": "ss229-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: “Your phone was found in the library.” B is surprised by the whole message.",
+      "promptZh": "A：「有人在圖書館找到你的電話。」B 對整個消息感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My phone was found in the library?",
+      "answerZh": "有人在圖書館找到我的電話了？",
+      "answerZhSource": "pdf",
+      "highlight": "My phone was found in the library?"
+    },
+    {
+      "id": "ss229-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: “The new bridge will be opened next week.” B thought it would open much later.",
+      "promptZh": "A：「新橋將於下星期開放。」B 原以為新橋要遲很多才開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new bridge will be opened next week?",
+      "answerZh": "新橋將於下星期開放？",
+      "answerZhSource": "pdf",
+      "highlight": "The new bridge will be opened next week?"
+    },
+    {
+      "id": "ss229-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: “I have been learning Korean for two years.” B did not know A had studied it for so long.",
+      "promptZh": "A：「我學韓語已經兩年了。」B 不知道A已學習了這麼長時間。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You have been learning Korean for two years?",
+      "answerZh": "你學韓語已經兩年了？",
+      "answerZhSource": "pdf",
+      "highlight": "You have been learning Korean for two years?"
+    },
+    {
+      "id": "ss229-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: “Sam had already left before noon.” B thought Sam stayed until the afternoon.",
+      "promptZh": "A：「森在中午前已經離開了。」B 原以為森一直逗留至下午。",
+      "promptZhSource": "pdf",
+      "starter": "Sam",
+      "answer": "Sam had already left before noon?",
+      "answerZh": "森在中午前已經離開了？",
+      "answerZhSource": "pdf",
+      "highlight": "Sam had already left before noon?"
+    },
+    {
+      "id": "ss229-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A: “Our team has won five matches in a row.” B repeats only the surprising result.",
+      "promptZh": "A：「我們的球隊已經連續贏了五場比賽。」B 只重複令人意外的賽果。",
+      "promptZhSource": "pdf",
+      "starter": "Five",
+      "answer": "Five matches in a row?",
+      "answerZh": "連續贏了五場？",
+      "answerZhSource": "pdf",
+      "highlight": "Five matches in a row?"
+    },
+    {
+      "id": "ss229-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A: “The school is building a garden on the roof.” B repeats only the surprising location.",
+      "promptZh": "A：「學校正在天台上建造一個花園。」B 只重複令人意外的地點。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the roof?",
+      "answerZh": "在天台上？",
+      "answerZhSource": "pdf",
+      "highlight": "On the roof?"
+    },
+    {
+      "id": "ss229-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A: “I walked all the way home without a map.” B repeats only the surprising condition.",
+      "promptZh": "A：「我在沒有地圖的情況下一直步行回家。」B 只重複令人意外的情況。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without a map?",
+      "answerZh": "沒有地圖？",
+      "answerZhSource": "pdf",
+      "highlight": "Without a map?"
+    },
+    {
+      "id": "ss229-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A: “I chose the red one.” B wants to confirm the choice.",
+      "promptZh": "A：「我選了紅色那個。」B 想確認對方的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The red one?",
+      "answerZh": "紅色那個？",
+      "answerZhSource": "pdf",
+      "highlight": "The red one?"
+    },
+    {
+      "id": "ss229-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A: “We have to read two hundred pages by Friday.” B repeats only the surprising amount.",
+      "promptZh": "A：「我們要在星期五前閱讀二百頁。」B 只重複令人意外的數量。",
+      "promptZhSource": "pdf",
+      "starter": "Two",
+      "answer": "Two hundred pages?",
+      "answerZh": "二百頁？",
+      "answerZhSource": "pdf",
+      "highlight": "Two hundred pages?"
+    },
+    {
+      "id": "ss229-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A: “I saw your old teacher at the market.” B repeats only the surprising person.",
+      "promptZh": "A：「我在街市看見你以前的老師。」B 只重複令人意外的人物。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My old teacher?",
+      "answerZh": "我以前的老師？",
+      "answerZhSource": "pdf",
+      "highlight": "My old teacher?"
+    },
+    {
+      "id": "ss229-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A: “I borrowed your car without asking.” B cannot believe what A did.",
+      "promptZh": "A：「我未經你同意便借用了你的車。」B 難以相信A所做的事。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You borrowed my car without asking?",
+      "answerZh": "你未經我同意便借用了我的車？",
+      "answerZhSource": "pdf",
+      "highlight": "You borrowed my car without asking?"
+    },
+    {
+      "id": "ss229-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A: “Nobody told you about the change.” B is surprised that they received no information.",
+      "promptZh": "A：「沒有人告訴你這項改動。」B 對自己完全沒有收到通知感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "Nobody",
+      "answer": "Nobody told me about the change?",
+      "answerZh": "沒有人告訴我這項改動？",
+      "answerZhSource": "pdf",
+      "highlight": "Nobody told me about the change?"
+    },
+    {
+      "id": "ss229-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A: “The doctor said you can go home today.” B expected to remain in hospital.",
+      "promptZh": "A：「醫生說你今天可以回家。」B 原以為自己仍要留在醫院。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor said I can go home today?",
+      "answerZh": "醫生說我今天可以回家？",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor said I can go home today?"
+    },
+    {
+      "id": "ss229-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A: “They are going to replace the whole floor.” B thought they would repair only a small part.",
+      "promptZh": "A：「他們打算更換整層地板。」B 原以為他們只會修理一小部分。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They are going to replace the whole floor?",
+      "answerZh": "他們打算更換整層地板？",
+      "answerZhSource": "pdf",
+      "highlight": "They are going to replace the whole floor?"
+    },
+    {
+      "id": "ss229-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A: “Your flight was delayed for nine hours.” B cannot believe how serious the delay was.",
+      "promptZh": "A：「你的航班延誤了九小時。」B 難以相信航班延誤了這麼久。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My flight was delayed for nine hours?",
+      "answerZh": "我的航班延誤了九小時？",
+      "answerZhSource": "pdf",
+      "highlight": "My flight was delayed for nine hours?"
+    },
+    {
+      "id": "ss229-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A: “The library lends musical instruments to members.” B did not know that this service was available.",
+      "promptZh": "A：「圖書館會把樂器借給會員。」B 不知道圖書館提供這項服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library lends musical instruments to members?",
+      "answerZh": "圖書館會把樂器借給會員？",
+      "answerZhSource": "pdf",
+      "highlight": "The library lends musical instruments to members?"
+    },
+    {
+      "id": "ss229-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A: “Your brother cooked this entire meal by himself.” B did not know their brother could cook so well.",
+      "promptZh": "A：「你的弟弟獨自煮了整頓飯。」B 不知道自己的弟弟廚藝這麼好。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My brother cooked this entire meal by himself?",
+      "answerZh": "我弟弟獨自煮了整頓飯？",
+      "answerZhSource": "pdf",
+      "highlight": "My brother cooked this entire meal by himself?"
+    },
+    {
+      "id": "ss229-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A: “The company gave every worker an extra day off.” B is surprised that everyone received the benefit.",
+      "promptZh": "A：「公司多給每名員工一天假期。」B 對所有員工都獲得這項福利感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company gave every worker an extra day off?",
+      "answerZh": "公司多給每名員工一天假期？",
+      "answerZhSource": "pdf",
+      "highlight": "The company gave every worker an extra day off?"
+    },
+    {
+      "id": "ss229-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A: “You sent the message to the wrong person.” B suddenly realises what happened.",
+      "promptZh": "A：「你把訊息傳給了錯的人。」B 突然意識到發生了甚麼事。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I sent the message to the wrong person?",
+      "answerZh": "我把訊息傳給了錯的人？",
+      "answerZhSource": "pdf",
+      "highlight": "I sent the message to the wrong person?"
+    },
+    {
+      "id": "ss229-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A: “Nina turned down the job because the office was too far away.” B is surprised by both the decision and the reason.",
+      "promptZh": "A：「妮娜因為辦公室太遠而拒絕了那份工作。」B 對她的決定及理由都感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina turned down the job because the office was too far away?",
+      "answerZh": "妮娜因為辦公室太遠而拒絕了那份工作？",
+      "answerZhSource": "pdf",
+      "highlight": "Nina turned down the job because the office was too far away?"
+    }
+  ]
+}

@@ -1,0 +1,1279 @@
+{
+  "id": "ss267",
+  "order": 267,
+  "slug": "in-order-that-clause",
+  "title": "「In order that + 子句」表達「目的」",
+  "titleZh": "「In order that + 子句」表達「目的」",
+  "titleEn": "Using “In order that + clause” to express purpose",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 266 -「in order that + 子句」表達目的.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "Main clause + in order that + subject + finite verb + other information.",
+  "formulas": [
+    {
+      "id": "ss267-formula-01",
+      "labelEn": "Purpose clause after main clause",
+      "labelZh": "目的子句在主句後",
+      "formula": "Main clause + in order that + subject + verb."
+    },
+    {
+      "id": "ss267-formula-02",
+      "labelEn": "Purpose clause first",
+      "labelZh": "目的子句在句首",
+      "formula": "In order that + subject + verb, + main clause."
+    },
+    {
+      "id": "ss267-formula-03",
+      "labelEn": "Parenthetical purpose",
+      "labelZh": "目的子句作插入成分",
+      "formula": "Subject, + in order that + clause, + main verb."
+    },
+    {
+      "id": "ss267-formula-04",
+      "labelEn": "Present or future ability",
+      "labelZh": "現在或將來的能力",
+      "formula": "Main clause + in order that + subject + can + base verb."
+    },
+    {
+      "id": "ss267-formula-05",
+      "labelEn": "Past ability",
+      "labelZh": "過去的能力",
+      "formula": "Past main clause + in order that + subject + could + base verb."
+    },
+    {
+      "id": "ss267-formula-06",
+      "labelEn": "Intended future result",
+      "labelZh": "預期將來結果",
+      "formula": "Main clause + in order that + subject + will / would + base verb."
+    },
+    {
+      "id": "ss267-formula-07",
+      "labelEn": "Possibility",
+      "labelZh": "可能目的",
+      "formula": "Main clause + in order that + subject + may / might + base verb."
+    },
+    {
+      "id": "ss267-formula-08",
+      "labelEn": "Negative purpose",
+      "labelZh": "否定目的",
+      "formula": "Main clause + in order that + subject + modal + not + base verb."
+    }
+  ],
+  "example": "The instructions were translated in order that everyone could understand them.",
+  "exampleZh": "指示被翻譯成其他語言，以便所有人都能明白。",
+  "examples": [
+    {
+      "id": "ss267-example-01",
+      "en": "The instructions were translated in order that everyone could understand them.",
+      "zh": "指示被翻譯成其他語言，以便所有人都能明白。",
+      "highlight": "The instructions were translated in order that everyone could understand them."
+    },
+    {
+      "id": "ss267-example-02",
+      "en": "In order that everyone could understand the instructions, they were translated.",
+      "zh": "為了讓所有人都能明白指示，指示被翻譯成其他語言。",
+      "highlight": "In order that everyone could understand the instructions, they were translated."
+    },
+    {
+      "id": "ss267-example-03",
+      "en": "The signs are clear in order that visitors can find the entrance.",
+      "zh": "指示牌十分清晰，以便訪客能找到入口。",
+      "highlight": "The signs are clear in order that visitors can find the entrance."
+    },
+    {
+      "id": "ss267-example-04",
+      "en": "The rules were written clearly in order that no one should misunderstand them.",
+      "zh": "規則寫得十分清楚，以免有人誤解。",
+      "highlight": "The rules were written clearly in order that no one should misunderstand them."
+    }
+  ],
+  "meaning": {
+    "zh": "in order that + 完整子句 表示某項行動是為了產生一個預期情況而進行。目的子句通常包含自己的主語、限定動詞和其他資料；情態動詞常見但不是固定句式的一部分。"
+  },
+  "rules": [
+    {
+      "id": "ss267-rule-01",
+      "zh": "in order that 後必須接有自己主語的完整子句。",
+      "en": "The clause after in order that must have its own subject.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-rule-02",
+      "zh": "主句和目的子句可以使用不同主語，這是此句式的重要優點。",
+      "en": "The main clause and purpose clause may have different subjects, which is a major advantage of this structure.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-rule-03",
+      "zh": "兩個子句也可由同一人物或事物作主語。",
+      "en": "The two clauses may also have the same subject.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-rule-04",
+      "zh": "否定目的的 not 應放在情態動詞或助動詞之後，不能放在主語之前或情態動詞之前。",
+      "en": "For a negative purpose, put not after the modal or auxiliary verb, not before the subject or modal.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-rule-05",
+      "zh": "in order to + 原形動詞 與 in order that + 主語 + 動詞 是相關但不同結構；本練習只接受後者。",
+      "en": "Do not confuse it with in order to + base verb. In order that contains a complete clause and is especially useful with different subjects; answers using in order to are not accepted here.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-rule-06",
+      "zh": "來源句必須表示第二個情況是有意達成的目的，而不只是意外結果。",
+      "en": "The purpose must be intentional: the source sentence must show that the second situation was intended, not merely an accidental result.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-rule-07",
+      "zh": "時間、地點和方式片語是可選資料，並非固定結構的一部分。",
+      "en": "Extra time, place and manner details are not part of the fixed structure.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss267-benefit-01",
+      "zh": "它能精確說明某項行動是為了產生特定情況而進行。",
+      "en": "It explains purpose precisely by showing that one action was performed to create a particular situation.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-benefit-02",
+      "zh": "它容許主句和目的子句使用不同主語，適合一個人採取行動讓另一人受惠或完成事情。",
+      "en": "It allows two different subjects, which is useful when one person acts so that another can benefit or do something.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-benefit-03",
+      "zh": "它能把行動和預期結果連成一句，不必分成兩個短句。",
+      "en": "It combines an action and its intended outcome in one sentence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-benefit-04",
+      "zh": "它可說明希望避免的情況，適合表達否定目的。",
+      "en": "It is useful for negative purposes because it can explain what someone wants to prevent.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-benefit-05",
+      "zh": "它常用於報告、指示、政策和簡報，通常比 so that 更正式和有意識地強調目的。",
+      "en": "It is suitable for formal explanations in reports, instructions, policies and presentations and is usually more formal and deliberate than so that.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss267-benefit-06",
+      "zh": "目的子句放在句首可突出預期結果；放在主句後則先交代行動，再解釋原因。",
+      "en": "Its position can change the emphasis: a fronted purpose clause highlights the intended outcome, while a final clause presents the action first.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item as one sentence using in order that + clause.",
+      "The purpose clause may appear before or after the main clause or, occasionally, parenthetically. Choose a suitable verb form and preserve meaning, tense, people, objects, possibility and negation."
+    ],
+    "zh": [
+      "使用 in order that + 子句，把每題改寫成一句完整句子。",
+      "目的子句可放在主句之前、之後，或少量正式句中作插入成分。選擇適當動詞形式，保留原句意思、時態、人物、物件、可能性及否定意思。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss267-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The instructions were translated so that everyone could understand them.",
+      "promptZh": "指示被翻譯成其他語言，以便所有人都能明白。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions were translated in order that everyone could understand them.",
+      "answerZh": "指示被翻譯成其他語言，以便所有人都能明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were translated in order that everyone could understand them."
+    },
+    {
+      "id": "ss267-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Chloe closed the windows because she wanted the baby to sleep.",
+      "promptZh": "克洛伊關上窗戶，因為她希望嬰兒能夠入睡。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the baby could sleep, Chloe closed the windows.",
+      "answerZh": "為了讓嬰兒能夠入睡，克洛伊關上了窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the baby could sleep, Chloe closed the windows."
+    },
+    {
+      "id": "ss267-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We wrote the date on the box because we wanted to remember when it was packed.",
+      "promptZh": "我們在箱子上寫上日期，因為我們想記得箱子是在甚麼時候包裝的。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We wrote the date on the box in order that we could remember when it was packed.",
+      "answerZh": "我們在箱子上寫上日期，以便記得箱子是在甚麼時候包裝的。",
+      "answerZhSource": "pdf",
+      "highlight": "We wrote the date on the box in order that we could remember when it was packed."
+    },
+    {
+      "id": "ss267-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The station put up new signs so that passengers could find the platform easily.",
+      "promptZh": "車站設置了新的指示牌，讓乘客可以輕鬆找到月台。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that passengers could find the platform easily, the station put up new signs.",
+      "answerZh": "為了讓乘客可以輕鬆找到月台，車站設置了新的指示牌。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that passengers could find the platform easily, the station put up new signs."
+    },
+    {
+      "id": "ss267-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Daniel deliberately spoke slowly. His aim was to help his grandfather follow the story.",
+      "promptZh": "丹尼爾刻意慢慢說話。他的目的是幫助祖父聽懂故事。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel spoke slowly in order that his grandfather could follow the story.",
+      "answerZh": "丹尼爾慢慢說話，以便祖父能夠聽懂故事。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel spoke slowly in order that his grandfather could follow the story."
+    },
+    {
+      "id": "ss267-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Ava moved the plants closer to the window so that they could receive enough light.",
+      "promptZh": "艾娃把植物移近窗戶，讓它們能獲得足夠光線。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the plants could receive enough light, Ava moved them closer to the window.",
+      "answerZh": "為了讓植物獲得足夠光線，艾娃把它們移近窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the plants could receive enough light, Ava moved them closer to the window."
+    },
+    {
+      "id": "ss267-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The teacher repeated the question to make sure the whole class could hear it.",
+      "promptZh": "老師重複問題，以確保全班都能聽見。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher repeated the question in order that the whole class could hear it.",
+      "answerZh": "老師重複問題，以便全班都能聽見。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher repeated the question in order that the whole class could hear it."
+    },
+    {
+      "id": "ss267-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I took an earlier bus because I wanted to arrive before the office closed.",
+      "promptZh": "我乘搭較早的巴士，因為我想在辦公室關門前到達。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that I could arrive before the office closed, I took an earlier bus.",
+      "answerZh": "為了在辦公室關門前到達，我乘搭了較早的巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that I could arrive before the office closed, I took an earlier bus."
+    },
+    {
+      "id": "ss267-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The shop keeps coins and small notes at the till for staff to give customers the correct change.",
+      "promptZh": "店舖在收銀處存放硬幣和小面額鈔票，讓職員可以找回正確的零錢給顧客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop keeps coins and small notes at the till in order that staff can give customers the correct change.",
+      "answerZh": "店舖在收銀處存放硬幣和小面額鈔票，以便職員能找回正確的零錢給顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop keeps coins and small notes at the till in order that staff can give customers the correct change."
+    },
+    {
+      "id": "ss267-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Omar turned down the heat to prevent the soup from burning.",
+      "promptZh": "奧馬爾把爐火調低，以免湯燒焦。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the soup would not burn, Omar turned down the heat.",
+      "answerZh": "為免湯燒焦，奧馬爾把爐火調低。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the soup would not burn, Omar turned down the heat."
+    },
+    {
+      "id": "ss267-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The purpose of arranging the files by date is to help employees find them quickly.",
+      "promptZh": "把檔案按日期排列的目的，是幫助員工迅速找到檔案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The files are arranged by date in order that employees can find them quickly.",
+      "answerZh": "檔案按日期排列，以便員工能迅速找到它們。",
+      "answerZhSource": "pdf",
+      "highlight": "The files are arranged by date in order that employees can find them quickly."
+    },
+    {
+      "id": "ss267-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organiser sent the announcement by email and text message to ensure that no one would miss it.",
+      "promptZh": "主辦人透過電郵和電話短訊發出通知，以確保沒有人錯過消息。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that no one would miss the announcement, the organiser sent it by email and text message.",
+      "answerZh": "為免有人錯過通知，主辦人透過電郵和電話短訊發出消息。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that no one would miss the announcement, the organiser sent it by email and text message."
+    },
+    {
+      "id": "ss267-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Sarah set two alarms because she wanted to wake up on time.",
+      "promptZh": "莎拉設定了兩個鬧鐘，因為她想準時起床。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah set two alarms in order that she would wake up on time.",
+      "answerZh": "莎拉設定了兩個鬧鐘，以便自己能準時起床。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah set two alarms in order that she would wake up on time."
+    },
+    {
+      "id": "ss267-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The meeting was moved online to allow colleagues overseas to join it.",
+      "promptZh": "會議改為在網上舉行，讓身處海外的同事可以參與。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting was moved online in order that colleagues overseas could join it.",
+      "answerZh": "會議改為在網上舉行，以便身處海外的同事能夠參與。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting was moved online in order that colleagues overseas could join it."
+    },
+    {
+      "id": "ss267-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Leo left the windows open for the paint to dry properly.",
+      "promptZh": "里奧讓窗戶保持打開，好讓油漆充分乾透。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the paint could dry properly, Leo left the windows open.",
+      "answerZh": "為了讓油漆充分乾透，里奧讓窗戶保持打開。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the paint could dry properly, Leo left the windows open."
+    },
+    {
+      "id": "ss267-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Priya uses simple examples to help beginners understand the idea.",
+      "promptZh": "普里婭使用簡單例子，幫助初學者理解這個概念。",
+      "promptZhSource": "pdf",
+      "starter": "Priya",
+      "answer": "Priya uses simple examples in order that beginners can understand the idea.",
+      "answerZh": "普里婭使用簡單例子，以便初學者能理解這個概念。",
+      "answerZhSource": "pdf",
+      "highlight": "Priya uses simple examples in order that beginners can understand the idea."
+    },
+    {
+      "id": "ss267-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why were the lights dimmed? The aim was to help the audience see the photographs clearly.",
+      "promptZh": "為甚麼燈光被調暗？目的是讓觀眾清楚看見照片。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the audience could see the photographs clearly, the lights were dimmed.",
+      "answerZh": "為了讓觀眾清楚看見照片，燈光被調暗。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the audience could see the photographs clearly, the lights were dimmed."
+    },
+    {
+      "id": "ss267-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A measuring spoon is supplied with the medicine to help patients take the correct amount.",
+      "promptZh": "藥物附有量匙，以幫助病人服用正確分量。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine is supplied with a measuring spoon in order that patients can take the correct amount.",
+      "answerZh": "藥物附有量匙，以便病人能服用正確分量。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine is supplied with a measuring spoon in order that patients can take the correct amount."
+    },
+    {
+      "id": "ss267-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The hikers carried a paper map because they did not want to become lost if their phones stopped working.",
+      "promptZh": "遠足人士攜帶了一張紙本地圖，因為他們不希望在電話失靈時迷路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hikers carried a paper map in order that they would not become lost if their phones stopped working.",
+      "answerZh": "遠足人士攜帶了一張紙本地圖，以免在電話失靈時迷路。",
+      "answerZhSource": "pdf",
+      "highlight": "The hikers carried a paper map in order that they would not become lost if their phones stopped working."
+    },
+    {
+      "id": "ss267-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The restaurant reserved a large table for the guests to sit together.",
+      "promptZh": "餐廳預留了一張大桌子，讓客人可以坐在一起。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the guests could sit together, the restaurant reserved a large table.",
+      "answerZh": "為了讓客人能坐在一起，餐廳預留了一張大桌子。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the guests could sit together, the restaurant reserved a large table."
+    },
+    {
+      "id": "ss267-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school installed a ramp to allow wheelchair users to enter the building independently.",
+      "promptZh": "學校安裝了斜道，讓輪椅使用者可以自行進入大樓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school installed a ramp in order that wheelchair users could enter the building independently.",
+      "answerZh": "學校安裝了斜道，以便輪椅使用者能自行進入大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "The school installed a ramp in order that wheelchair users could enter the building independently."
+    },
+    {
+      "id": "ss267-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Each payment was given a reference number with the aim of making later checks possible.",
+      "promptZh": "每筆付款均獲編配一個參考編號，目的是方便日後核查。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that each payment might be checked later, it was given a reference number.",
+      "answerZh": "為了讓每筆付款日後可以接受核查，每筆付款均獲編配一個參考編號。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that each payment might be checked later, it was given a reference number."
+    },
+    {
+      "id": "ss267-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The coach divided the instructions into short steps. His purpose was to help the younger players remember them.",
+      "promptZh": "教練把指示分成數個簡短步驟。他的目的是幫助年幼球員記住指示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach divided the instructions into short steps in order that the younger players could remember them.",
+      "answerZh": "教練把指示分成數個簡短步驟，以便年幼球員能夠記住它們。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach divided the instructions into short steps in order that the younger players could remember them."
+    },
+    {
+      "id": "ss267-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Keep the doors unlocked to allow people to leave quickly during an emergency.",
+      "promptZh": "保持大門不鎖上，讓人們在緊急情況下可以迅速離開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doors must remain unlocked in order that people can leave quickly during an emergency.",
+      "answerZh": "大門必須保持不鎖上，以便人們在緊急情況下能迅速離開。",
+      "answerZhSource": "pdf",
+      "highlight": "The doors must remain unlocked in order that people can leave quickly during an emergency."
+    },
+    {
+      "id": "ss267-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "All supervisors received the same training. The goal was the consistent application of the new rule.",
+      "promptZh": "所有主管都接受了相同訓練。目的是確保新規則獲一致執行。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the new rule should be applied consistently, all supervisors received the same training.",
+      "answerZh": "為了確保新規則獲一致執行，所有主管都接受了相同訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the new rule should be applied consistently, all supervisors received the same training."
+    },
+    {
+      "id": "ss267-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The council planted trees beside the road to give residents more shade in summer.",
+      "promptZh": "市議會在道路旁種植樹木，讓居民在夏季有更多樹蔭。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council planted trees beside the road in order that residents would have more shade in summer.",
+      "answerZh": "市議會在道路旁種植樹木，好讓居民在夏季有更多樹蔭。",
+      "answerZhSource": "pdf",
+      "highlight": "The council planted trees beside the road in order that residents would have more shade in summer."
+    },
+    {
+      "id": "ss267-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The password was changed immediately to prevent unauthorised access to the account.",
+      "promptZh": "密碼立即被更改，以防有人未經授權進入帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The password was changed immediately in order that no unauthorised person could access the account.",
+      "answerZh": "密碼立即被更改，以免未經授權的人進入帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "The password was changed immediately in order that no unauthorised person could access the account."
+    },
+    {
+      "id": "ss267-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The engineer disconnected the machine from the power supply before the repairs so that it could be repaired safely.",
+      "promptZh": "工程師在維修前切斷機器的電源，以便安全地維修機器。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the machine could be repaired safely, the engineer disconnected it from the power supply.",
+      "answerZh": "為了安全地維修機器，工程師切斷了機器的電源。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the machine could be repaired safely, the engineer disconnected it from the power supply."
+    },
+    {
+      "id": "ss267-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The museum provides audio guides to help visitors with limited vision learn about the exhibits.",
+      "promptZh": "博物館提供語音導覽，幫助視力有限的訪客了解展品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum provides audio guides in order that visitors with limited vision can learn about the exhibits.",
+      "answerZh": "博物館提供語音導覽，以便視力有限的訪客能了解展品。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum provides audio guides in order that visitors with limited vision can learn about the exhibits."
+    },
+    {
+      "id": "ss267-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The chef prepared one dish without nuts because he wanted a guest with an allergy to be able to eat safely.",
+      "promptZh": "廚師準備了一道不含果仁的菜式，因為他希望一名有過敏症的客人能安全進食。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef prepared one dish without nuts in order that a guest with an allergy could eat safely.",
+      "answerZh": "廚師準備了一道不含果仁的菜式，好讓一名有過敏症的客人能安全進食。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef prepared one dish without nuts in order that a guest with an allergy could eat safely."
+    },
+    {
+      "id": "ss267-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If the temperature falls further, the pipes will be covered to prevent them from freezing overnight.",
+      "promptZh": "如果氣溫進一步下降，水管將被覆蓋，以免在夜間結冰。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the temperature falls further, the pipes will be covered in order that they should not freeze overnight.",
+      "answerZh": "如果氣溫進一步下降，水管將被覆蓋，以免在夜間結冰。",
+      "answerZhSource": "pdf",
+      "highlight": "If the temperature falls further, the pipes will be covered in order that they should not freeze overnight."
+    },
+    {
+      "id": "ss267-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The draft policy was circulated two weeks before the meeting to give every department an opportunity to comment.",
+      "promptZh": "政策草案在會議前兩星期傳閱，讓每個部門都有機會提出意見。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that every department could comment, the draft policy was circulated two weeks before the meeting.",
+      "answerZh": "為了讓每個部門都能提出意見，政策草案在會議前兩星期傳閱。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that every department could comment, the draft policy was circulated two weeks before the meeting."
+    },
+    {
+      "id": "ss267-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The witness was asked to speak into the microphone to ensure a clear recording.",
+      "promptZh": "證人被要求對着麥克風說話，以確保錄音清晰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The witness was asked to speak into the microphone in order that the recording would be clear.",
+      "answerZh": "證人被要求對着麥克風說話，以便錄音清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness was asked to speak into the microphone in order that the recording would be clear."
+    },
+    {
+      "id": "ss267-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The farmer opened a second gate to let the animals leave the field more quickly.",
+      "promptZh": "農夫打開了第二道閘門，讓動物可以更快離開田地。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The farmer opened a second gate in order that the animals could leave the field more quickly.",
+      "answerZh": "農夫打開了第二道閘門，好讓動物能更快離開田地。",
+      "answerZhSource": "pdf",
+      "highlight": "The farmer opened a second gate in order that the animals could leave the field more quickly."
+    },
+    {
+      "id": "ss267-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The nurse explained the procedure in a calm voice because she did not want the children to be frightened.",
+      "promptZh": "護士以平靜的語氣解釋程序，因為她不希望孩子受到驚嚇。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the children would not be frightened, the nurse explained the procedure in a calm voice.",
+      "answerZh": "為免孩子受到驚嚇，護士以平靜的語氣解釋程序。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the children would not be frightened, the nurse explained the procedure in a calm voice."
+    },
+    {
+      "id": "ss267-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The laboratory published the complete data set for outside researchers to verify the findings.",
+      "promptZh": "實驗室公開完整數據，讓外部研究人員核實研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The laboratory, in order that outside researchers could verify the findings, published the complete data set.",
+      "answerZh": "實驗室為了讓外部研究人員能核實研究結果，公開了完整數據。",
+      "answerZhSource": "pdf",
+      "highlight": "The laboratory, in order that outside researchers could verify the findings, published the complete data set."
+    },
+    {
+      "id": "ss267-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The company will keep a written record so that any future complaint can be investigated properly.",
+      "promptZh": "公司將保留書面紀錄，以便日後能妥善調查任何投訴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company will keep a written record in order that any future complaint can be investigated properly.",
+      "answerZh": "公司將保留書面紀錄，以便日後能妥善調查任何投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "The company will keep a written record in order that any future complaint can be investigated properly."
+    },
+    {
+      "id": "ss267-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A reflective warning sign was installed to make the bend visible to approaching drivers at night.",
+      "promptZh": "人們安裝了一個反光警告牌，讓駛近彎位的司機在夜間能看見它。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that drivers approaching the bend could see it at night, a reflective warning sign was installed.",
+      "answerZh": "為了讓駛近彎位的司機在夜間能看見它，人們安裝了一個反光警告牌。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that drivers approaching the bend could see it at night, a reflective warning sign was installed."
+    },
+    {
+      "id": "ss267-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "You should save a copy of the form for later reference.",
+      "promptZh": "你應該儲存一份表格副本，供日後參考。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should save a copy of the form in order that you can refer to it later.",
+      "answerZh": "你應該儲存一份表格副本，以便日後能夠參考。",
+      "answerZhSource": "pdf",
+      "highlight": "You should save a copy of the form in order that you can refer to it later."
+    },
+    {
+      "id": "ss267-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The committee issued a plain-language summary to prevent any member from misunderstanding the proposal.",
+      "promptZh": "委員會發出了一份淺白易明的摘要，以免任何成員誤解提案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee, in order that no member should misunderstand the proposal, issued a plain-language summary.",
+      "answerZh": "委員會為免任何成員誤解提案，發出了一份淺白易明的摘要。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee, in order that no member should misunderstand the proposal, issued a plain-language summary."
+    },
+    {
+      "id": "ss267-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The emergency team tested both communication systems. Its aim was to ensure that one could still be used if the other failed.",
+      "promptZh": "緊急應變小組測試了兩套通訊系統，目的是確保其中一套失靈時，另一套仍可使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency team tested both communication systems in order that one could still be used if the other failed.",
+      "answerZh": "緊急應變小組測試了兩套通訊系統，以便其中一套失靈時，另一套仍可使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency team tested both communication systems in order that one could still be used if the other failed."
+    },
+    {
+      "id": "ss267-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The council opened an online consultation to give residents who could not attend the meeting a chance to express their views.",
+      "promptZh": "市議會展開網上諮詢，讓未能出席會議的居民有機會表達意見。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that residents who could not attend the meeting might still express their views, the council opened an online consultation.",
+      "answerZh": "為了讓未能出席會議的居民仍有機會表達意見，市議會展開了網上諮詢。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that residents who could not attend the meeting might still express their views, the council opened an online consultation."
+    },
+    {
+      "id": "ss267-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The hospital introduced coloured wristbands to help staff identify patients with particular allergies quickly.",
+      "promptZh": "醫院引入彩色手帶，幫助職員迅速辨認患有特定過敏症的病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital introduced coloured wristbands in order that staff could identify patients with particular allergies quickly.",
+      "answerZh": "醫院引入彩色手帶，以便職員能迅速辨認患有特定過敏症的病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital introduced coloured wristbands in order that staff could identify patients with particular allergies quickly."
+    },
+    {
+      "id": "ss267-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The report presented confirmed facts and estimates in separate sections. This was done to help readers distinguish between them.",
+      "promptZh": "報告把已確認的事實和估算資料分別列於不同部分，目的是幫助讀者分辨兩者。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report, in order that readers could distinguish confirmed facts from estimates, presented them in separate sections.",
+      "answerZh": "報告為了讓讀者能分辨已確認的事實和估算資料，把兩者分別列於不同部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The report, in order that readers could distinguish confirmed facts from estimates, presented them in separate sections."
+    },
+    {
+      "id": "ss267-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Temporary tanks were installed near the community centre to prevent the village from losing access to clean water during the repairs.",
+      "promptZh": "社區中心附近設置了臨時水箱，以免村莊在維修期間失去潔淨食水供應。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that the village would not lose access to clean water during the repairs, temporary tanks were installed near the community centre.",
+      "answerZh": "為免村莊在維修期間失去潔淨食水供應，社區中心附近設置了臨時水箱。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that the village would not lose access to clean water during the repairs, temporary tanks were installed near the community centre."
+    },
+    {
+      "id": "ss267-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The lecturer recorded each session for students who were ill to watch later.",
+      "promptZh": "講師錄下每一節課堂，讓生病的學生日後觀看。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lecturer recorded each session in order that students who were ill could watch it later.",
+      "answerZh": "講師錄下每一節課堂，以便生病的學生日後能夠觀看。",
+      "answerZhSource": "pdf",
+      "highlight": "The lecturer recorded each session in order that students who were ill could watch it later."
+    },
+    {
+      "id": "ss267-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Unless the original documents are found, certified copies will be prepared so that the application can proceed without further delay.",
+      "promptZh": "除非找到文件正本，否則當局將準備核證副本，讓申請可以繼續處理，避免再有延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless the original documents are found, certified copies will be prepared in order that the application can proceed without further delay.",
+      "answerZh": "除非找到文件正本，否則當局將準備核證副本，以便申請能繼續處理，避免再有延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless the original documents are found, certified copies will be prepared in order that the application can proceed without further delay."
+    },
+    {
+      "id": "ss267-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The project leader listed one named person beside every action point. The aim was to make responsibility for each task clear.",
+      "promptZh": "項目主管在每個行動項目旁列出一名指定人員，目的是清楚顯示每項工作的責任誰屬。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order that responsibility for each task would be clear, the project leader listed one named person beside every action point.",
+      "answerZh": "為了清楚顯示每項工作的責任誰屬，項目主管在每個行動項目旁列出一名指定人員。",
+      "answerZhSource": "pdf",
+      "highlight": "In order that responsibility for each task would be clear, the project leader listed one named person beside every action point."
+    },
+    {
+      "id": "ss267-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The new booking system sends two reminders with the aim of reducing the likelihood that patients will forget their appointments.",
+      "promptZh": "新的預約系統會發出兩次提示，目的是降低病人忘記預約的可能性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new booking system sends two reminders in order that patients are less likely to forget their appointments.",
+      "answerZh": "新的預約系統會發出兩次提示，以降低病人忘記預約的可能性。",
+      "answerZhSource": "pdf",
+      "highlight": "The new booking system sends two reminders in order that patients are less likely to forget their appointments."
+    },
+    {
+      "id": "ss267-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The research team recorded every stage in detail to allow the experiment to be repeated under exactly the same conditions.",
+      "promptZh": "研究團隊詳細記錄每一個階段，讓其他人可以在完全相同的條件下重做實驗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team, in order that the experiment could be repeated under exactly the same conditions, recorded every stage in detail.",
+      "answerZh": "研究團隊為了讓實驗能在完全相同的條件下重做，詳細記錄了每一個階段。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team, in order that the experiment could be repeated under exactly the same conditions, recorded every stage in detail."
+    }
+  ]
+}

@@ -1,0 +1,1265 @@
+{
+  "id": "ss274",
+  "order": 274,
+  "slug": "it-may-well-be-that",
+  "title": "「It may well be that + 子句」表示「很可能……」",
+  "titleZh": "「It may well be that + 子句」表示「很可能……」",
+  "titleEn": "Using “It may well be that” for a strong possibility",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 273 -「It may well be that + 子句」表示「很可能……」.pdf",
+    "pageCount": 28,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "exercisePages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "answerPages": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 273; it is assigned system ID ss274 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It + may + well + be + that + complete clause",
+  "formulas": [
+    {
+      "id": "ss274-formula-01",
+      "labelEn": "Complete sentence",
+      "labelZh": "完整句子",
+      "formula": "It may well be that + clause"
+    },
+    {
+      "id": "ss274-formula-02",
+      "labelEn": "After an introduction",
+      "labelZh": "放在引入語後",
+      "formula": "Introductory phrase / clause + it may well be that + clause"
+    },
+    {
+      "id": "ss274-formula-03",
+      "labelEn": "Second part of a sentence",
+      "labelZh": "放在句子後半",
+      "formula": "Main clause + because / as / since + it may well be that + clause"
+    },
+    {
+      "id": "ss274-formula-04",
+      "labelEn": "After a semicolon",
+      "labelZh": "放在分號後",
+      "formula": "Main clause; it may well be that + clause"
+    },
+    {
+      "id": "ss274-formula-05",
+      "labelEn": "After a reporting verb",
+      "labelZh": "放在轉述動詞後",
+      "formula": "Subject + reporting verb + it may well be that + clause"
+    }
+  ],
+  "example": "It may well be that the problem began earlier.",
+  "exampleZh": "問題很可能在更早之前已經開始。",
+  "examples": [
+    {
+      "id": "ss274-example-01",
+      "en": "It may well be that the problem began earlier.",
+      "zh": "問題很可能在更早之前已經開始。",
+      "highlight": "It may well be that the problem began earlier."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型提出一個相當可能但仍未完全確定的解釋、原因、隱藏事實、未來發展或根據有限證據作出的結論。"
+  },
+  "rules": [
+    {
+      "id": "ss274-rule-01",
+      "zh": "核心句型是： it may well be that + 完整子句 Examples: It may well be that the key is inside the car. （鑰匙很可能在車內。） It may well be that the meeting has been cancelled. （會議很可能已經取消。） It may well be that the weather will improve later. （天氣稍後很可能會好轉。） Words or phrases placed before or after this core are optional extensions. They are not part of the fixed expression. 放在這個核心句型之前或之後的字詞，只是可選的延伸部分，並不是固定句型的一部分。 Optional extension: According to the receptionist, it may well be that the doctor is running late. （據接待員所說，醫生很可能遲了。） Core expression: It may well be that the doctor is running late. （醫生很可能遲了。） Both sentences are complete. The first simply supplies the source of the information. 兩句在文法上都完整。第一句只是額外交代消息來源。",
+      "en": "The fixed core is it may well be that + complete clause. Words and phrases before or after it are optional extensions.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-rule-02",
+      "zh": "表示某件事有可能發生。 May well 則表示某件事相當可能發生，或有充分理由相信它可能屬實。 Compare: It may be that the door is locked. （門可能鎖上了。） It may well be that the door is locked. （門很可能鎖上了。） The second sentence expresses a stronger possibility, but it still does not express certainty. 第二句所表達的可能性較高，但仍然不是完全肯定。",
+      "en": "May well expresses a fairly strong or well-supported possibility, but it still does not claim certainty.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-rule-03",
+      "zh": "在這個句型中，well 通常放在 may 和 be 之間。",
+      "en": "Keep the words in the order may well be, not may be well or well may be.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-rule-04",
+      "zh": "之後通常必須接一個包含主語和動詞的完整子句。 Correct: It may well be that the driver took the wrong road. ● subject: the driver ● verb: took （司機很可能走錯了路。） Incorrect: It may well be that the wrong road. The words after that do not form a complete clause.",
+      "en": "Use a complete clause with its own subject and verb after that.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-rule-05",
+      "zh": "後面的時態取決於所推測事件發生的時間。 Present situation It may well be that the office is empty. （辦公室現在很可能沒有人。） Past event It may well be that the mistake happened yesterday. （這個錯誤很可能在昨天發生。） Present perfect It may well be that someone has moved the file. （很可能有人已經移動了檔案。） Future event It may well be that the match will be cancelled. （比賽很可能會取消。） Passive voice It may well be that the message was sent to the wrong person. （訊息很可能被發送給了錯誤的人。） The fixed expression does not control the tense inside the that-clause. 固定句型本身不會限制 that 子句內的時態。",
+      "en": "Choose the tense inside the that-clause according to the possible event; present, past, present perfect, future and passive forms are all possible.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-rule-06",
+      "zh": "為了令句子清晰易明，本練習會把否定詞放在 that 後面的子句中。 It may well be that the figures are not accurate. （這些數字很可能並不準確。） It may well be that nobody received the notice. （很可能沒有人收到通知。） It may well be that the shop will not reopen. （這間店舖很可能不會重開。） Do not use the unnatural order: It may not well be that...",
+      "en": "For clear learner English, place negative meaning inside the that-clause rather than using the unnatural order “It may not well be that ...”.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-rule-07",
+      "zh": "這些表達可以補充背景、證據、對比、時間或條件，但並不是 it may well be that 的一部分。 Examples: Given the long delay, it may well be that the train has been cancelled. （鑑於列車延誤了很久，列車很可能已經取消。） Although the lights are on, it may well be that nobody is inside. （雖然燈亮着，但室內很可能沒有人。） If the witness is correct, it may well be that the car left before midnight. （如果證人的說法正確，汽車很可能在午夜前已經離開。）",
+      "en": "Introductory expressions such as according to, given, judging by, although and if add context but are not part of the fixed target expression.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-rule-08",
+      "zh": "這個目標句型不一定要放在整句的開頭。 We should check the earlier records because it may well be that the error began there. （我們應該查看較早的紀錄，因為錯誤很可能由那裏開始。） Do not delete the file; it may well be that we need it later. （不要刪除檔案；我們稍後很可能會需要它。） The doctor will perform another test, as it may well be that the first result was inaccurate. （醫生會進行另一項檢查，因為第一次的結果很可能不準確。） The phrases because, as, since, and and the semicolon are connecting devices. They are not part of the target expression. because、as、since、and 及分號都是連接句子的工具，並不是目標句型的一部分。",
+      "en": "The target can follow another clause, a conjunction or a semicolon and does not need to begin the complete sentence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-rule-09",
+      "zh": "這個句型也可以放在以下動詞之後： ● 認為； ● 相信； ● 懷疑； ● 解釋； ● 承認； ● 警告； ● 接受； ● 顯示。 Examples: Researchers think it may well be that the plant reacts to light. （研究人員認為，這種植物很可能會對光線產生反應。） The doctor explained that it may well be that the pain is caused by stress. （醫生解釋，痛楚很可能是由壓力引起的。） The report suggests it may well be that some information is missing. （報告顯示，很可能有部分資料遺漏了。） The reporting verb is an optional grammatical shell. The core expression remains: it may well be that + clause",
+      "en": "The structure can follow reporting or thinking verbs such as think, believe, suspect, explain, admit, warn, accept and suggest.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-rule-10",
+      "zh": "這表示一般的可能性。 It may be that the shop is closed. （店舖可能已經關門。） It may well be that... This suggests that the possibility is quite real or reasonably strong. 這表示事情相當可能屬實。 It may well be that the shop is closed. （店舖很可能已經關門。） It is likely that... This gives a more direct judgement that something is probable. 這較直接地判斷某件事很可能發生。 It is likely that the shop is closed. （店舖很可能已經關門。） It must be that... This expresses a strong conclusion or deduction, not merely a possibility. 這表示相當肯定的推斷，而不只是可能性。 It must be that the shop is closed. （店舖一定已經關門。） Do not replace may well with must unless the source meaning is also very strong. 除非原句本身表示非常肯定的推斷，否則不要把 may well 改成 must。 Best Core Grammar Bank 核心文法句型庫 A strong exercise should practise the following grammatical positions. 優質的練習應該訓練以下不同的文法位置。 1. As a complete sentence It may well be that + clause. It may well be that the problem began earlier. （問題很可能在更早之前已經開始。） 2. After an introductory phrase Introductory phrase, + it may well be that + clause. According to the report, it may well be that the figures are incomplete. （根據報告，這些數字很可能並不完整。） 3. After an introductory clause Although / If / Because / Once + clause, + it may well be that + clause. If the data is correct, it may well be that demand is increasing. （如果數據正確，需求很可能正在上升。） 4. As the second part of a sentence Main clause + because / as / since + it may well be that + clause. We should check the battery because it may well be that it is causing the fault. （我們應該檢查電池，因為故障很可能是由它引起的。） 5. After a semicolon Main clause; it may well be that + clause. Keep the original document; it may well be that we need it later. （保留原本的文件；我們稍後很可能會需要它。） 6. After a reporting or thinking verb Subject + reporting verb + it may well be that + clause. The manager believes it may well be that the delay began in the warehouse. （經理認為，延誤很可能由貨倉開始。） 7. With a negative clause It may well be that + subject + negative verb. It may well be that the customer did not receive the email. （顧客很可能沒有收到電郵。）",
+      "en": "Distinguish may well be from may be, is likely to be and must be. Do not replace it with must unless the source meaning is a strong deduction rather than a possibility.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss274-benefit-01",
+      "zh": "這個句型讓你表示某件事相當可能屬實，同時誠實指出你仍未能完全肯定。 It may well be that the problem began earlier. （問題很可能在更早之前已經開始。） The speaker presents a reasonable possibility rather than an established fact. 說話者提出一個合理的可能性，而不是把它當作已證實的事實。",
+      "en": "It expresses a strong possibility without claiming certainty.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-benefit-02",
+      "zh": "當你解釋問題時，可以使用這個句型提出可能原因，而不必立即怪責某人，或斷言某個解釋一定 正確。 The file is missing because Tom deleted it. This sentence directly blames Tom. （檔案不見了，因為湯姆刪除了它。） It may well be that Tom deleted the file. This sentence presents the idea as a possibility. （很可能是湯姆刪除了檔案。）",
+      "en": "It helps you suggest explanations carefully without immediately blaming someone or presenting one explanation as certainly correct.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-benefit-03",
+      "zh": "在真實的討論、報告及調查中，人們經常需要在尚未掌握全部事實前作出評論。這個句型能清楚 表示當中仍有不確定性。",
+      "en": "It is useful when evidence is incomplete and not all facts are known.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-benefit-04",
+      "zh": "你不需要每次都以 Maybe 或 Perhaps 開始句子，也可以使用這個句型增加說話和寫作的句式 變化。 Maybe the train has left. It may well be that the train has left. （列車很可能已經開出了。）",
+      "en": "It provides an alternative to repeatedly beginning sentences with maybe or perhaps.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-benefit-05",
+      "zh": "你可以把 given、judging by 和 according to 等引入語與這個句型結合，說明為甚麼某個可能 性值得考慮。 Judging by the empty shelves, it may well be that the product has sold out. （從空置的貨架判斷，產品很可能已經售罄。） This helps the reader follow the reasoning from evidence to conclusion. 這能幫助讀者由證據一步一步理解到可能的結論。",
+      "en": "It connects evidence with a possible conclusion through introductory expressions such as given, judging by and according to.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss274-benefit-06",
+      "zh": "這個句型適合用於討論： ● 研究結果； ● 職場問題； ● 健康疑慮； ● 歷史解釋； ● 公共政策； ● 可能出現的未來發展。 It allows you to sound thoughtful and careful rather than overconfident. 它能令你的表達顯得經過思考而且謹慎，不會過度肯定。",
+      "en": "It is useful in discussions, reports and formal explanations of research, workplace problems, health concerns, history, policy and future developments.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 273; it is assigned system ID ss274 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using it may well be that + clause to express a fairly strong possibility.",
+      "Retain required introductory phrases, reporting verbs and connecting clauses, follow the supplied first word and preserve the original meaning."
+    ],
+    "zh": [
+      "使用 it may well be that + 子句改寫每題，以表達一個相當大的可能性。",
+      "保留必要的引入語、轉述動詞及連接子句，按照已提供的第一個字作答，並保留原意。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss274-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "There is a good chance that the problem began earlier.",
+      "promptZh": "問題很可能在更早之前已經開始。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that the problem began earlier.",
+      "answerZh": "問題很可能在更早之前已經開始。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that the problem began earlier."
+    },
+    {
+      "id": "ss274-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "It is quite possible that Ava left her notebook at home.",
+      "promptZh": "艾娃很可能把筆記簿留在家中。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that Ava left her notebook at home.",
+      "answerZh": "艾娃很可能把筆記簿留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that Ava left her notebook at home."
+    },
+    {
+      "id": "ss274-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "There is a real possibility that the shop is closed today.",
+      "promptZh": "這間店舖今天很可能沒有營業。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that the shop is closed today.",
+      "answerZh": "這間店舖今天很可能沒有營業。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that the shop is closed today."
+    },
+    {
+      "id": "ss274-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The bus may already have left.",
+      "promptZh": "巴士很可能已經開出了。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that the bus has already left.",
+      "answerZh": "巴士很可能已經開出了。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that the bus has already left."
+    },
+    {
+      "id": "ss274-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "There is a good chance that the password has been changed.",
+      "promptZh": "密碼很可能已經被更改。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that the password has been changed.",
+      "answerZh": "密碼很可能已經被更改。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that the password has been changed."
+    },
+    {
+      "id": "ss274-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Daniel may quite possibly have misunderstood the instructions.",
+      "promptZh": "丹尼爾很可能誤解了指示。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that Daniel has misunderstood the instructions.",
+      "answerZh": "丹尼爾很可能誤解了指示。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that Daniel has misunderstood the instructions."
+    },
+    {
+      "id": "ss274-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Why does the milk smell strange? It is entirely possible that it has gone off.",
+      "promptZh": "牛奶為甚麼有一股怪味？它很可能已經變壞。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that the milk has gone off.",
+      "answerZh": "牛奶很可能已經變壞。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that the milk has gone off."
+    },
+    {
+      "id": "ss274-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Where is the parcel? There is a strong possibility that it arrived at the wrong address.",
+      "promptZh": "包裹在哪裏？它很可能被送到了錯誤的地址。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that the parcel arrived at the wrong address.",
+      "answerZh": "包裹很可能被送到了錯誤的地址。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that the parcel arrived at the wrong address."
+    },
+    {
+      "id": "ss274-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Why have the children not come downstairs? They could easily still be asleep.",
+      "promptZh": "孩子們為甚麼還沒有下樓？他們很可能仍在睡覺。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that the children are still asleep.",
+      "answerZh": "孩子們很可能仍在睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that the children are still asleep."
+    },
+    {
+      "id": "ss274-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "There is a good chance that the rain will continue all afternoon.",
+      "promptZh": "這場雨很可能會持續整個下午。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may well be that the rain will continue all afternoon.",
+      "answerZh": "這場雨很可能會持續整個下午。",
+      "answerZhSource": "pdf",
+      "highlight": "It may well be that the rain will continue all afternoon."
+    },
+    {
+      "id": "ss274-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "According to the receptionist, there is a good chance that the doctor is running late.",
+      "promptZh": "據接待員所說，醫生很可能遲了。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the receptionist, it may well be that the doctor is running late.",
+      "answerZh": "據接待員所說，醫生很可能遲了。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the receptionist, it may well be that the doctor is running late."
+    },
+    {
+      "id": "ss274-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After checking the timetable, there is a real possibility that we looked at the wrong date.",
+      "promptZh": "查看時間表後，我們很可能看錯了日期。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After checking the timetable, it may well be that we looked at the wrong date.",
+      "answerZh": "查看時間表後，我們很可能看錯了日期。",
+      "answerZhSource": "pdf",
+      "highlight": "After checking the timetable, it may well be that we looked at the wrong date."
+    },
+    {
+      "id": "ss274-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Given how quiet the office is, there is a good chance that everyone is working from home.",
+      "promptZh": "鑑於辦公室如此安靜，所有人很可能都在家工作。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given how quiet the office is, it may well be that everyone is working from home.",
+      "answerZh": "鑑於辦公室如此安靜，所有人很可能都在家工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Given how quiet the office is, it may well be that everyone is working from home."
+    },
+    {
+      "id": "ss274-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Although the screen is blank, it is entirely possible that the computer is still updating.",
+      "promptZh": "雖然螢幕一片空白，但電腦很可能仍在更新。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the screen is blank, it may well be that the computer is still updating.",
+      "answerZh": "雖然螢幕一片空白，但電腦很可能仍在更新。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the screen is blank, it may well be that the computer is still updating."
+    },
+    {
+      "id": "ss274-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "From what the teacher said, there is a good chance that the test has been postponed.",
+      "promptZh": "從老師所說的話判斷，測驗很可能已經延期。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From what the teacher said, it may well be that the test has been postponed.",
+      "answerZh": "從老師所說的話判斷，測驗很可能已經延期。",
+      "answerZhSource": "pdf",
+      "highlight": "From what the teacher said, it may well be that the test has been postponed."
+    },
+    {
+      "id": "ss274-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In light of the new evidence, there is a real possibility that the original report was incomplete.",
+      "promptZh": "根據新證據，原本的報告很可能並不完整。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In light of the new evidence, it may well be that the original report was incomplete.",
+      "answerZh": "根據新證據，原本的報告很可能並不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "In light of the new evidence, it may well be that the original report was incomplete."
+    },
+    {
+      "id": "ss274-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Because the door was unlocked, there is a strong possibility that someone entered before us.",
+      "promptZh": "由於門沒有上鎖，很可能有人在我們之前進入。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the door was unlocked, it may well be that someone entered before us.",
+      "answerZh": "由於門沒有上鎖，很可能有人在我們之前進入。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the door was unlocked, it may well be that someone entered before us."
+    },
+    {
+      "id": "ss274-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "If the figures are accurate, there is a good chance that sales improved last month.",
+      "promptZh": "如果數字準確，銷售額上月很可能有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the figures are accurate, it may well be that sales improved last month.",
+      "answerZh": "如果數字準確，銷售額上月很可能有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "If the figures are accurate, it may well be that sales improved last month."
+    },
+    {
+      "id": "ss274-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Judging by the empty shelves, the product may quite possibly have sold out earlier today.",
+      "promptZh": "從空置的貨架判斷，產品很可能在今天較早時已經售罄。",
+      "promptZhSource": "pdf",
+      "starter": "Judging",
+      "answer": "Judging by the empty shelves, it may well be that the product sold out earlier today.",
+      "answerZh": "從空置的貨架判斷，產品很可能在今天較早時已經售罄。",
+      "answerZhSource": "pdf",
+      "highlight": "Judging by the empty shelves, it may well be that the product sold out earlier today."
+    },
+    {
+      "id": "ss274-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Despite the warm weather, there is a real possibility that the match will be cancelled.",
+      "promptZh": "儘管天氣和暖，比賽仍很可能會取消。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite the warm weather, it may well be that the match will be cancelled.",
+      "answerZh": "儘管天氣和暖，比賽仍很可能會取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the warm weather, it may well be that the match will be cancelled."
+    },
+    {
+      "id": "ss274-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "We should check the earlier emails because there is a good chance that the change was announced there.",
+      "promptZh": "我們應該查看較早的電郵，因為有關改動很可能在那些電郵中公布了。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should check the earlier emails because it may well be that the change was announced there.",
+      "answerZh": "我們應該查看較早的電郵，因為有關改動很可能在那些電郵中公布了。",
+      "answerZhSource": "pdf",
+      "highlight": "We should check the earlier emails because it may well be that the change was announced there."
+    },
+    {
+      "id": "ss274-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The mechanic needs to inspect the battery because it is quite possible that the battery is causing the problem.",
+      "promptZh": "維修技師需要檢查電池，因為問題很可能是由電池引起的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The mechanic needs to inspect the battery because it may well be that the battery is causing the problem.",
+      "answerZh": "維修技師需要檢查電池，因為問題很可能是由電池引起的。",
+      "answerZhSource": "pdf",
+      "highlight": "The mechanic needs to inspect the battery because it may well be that the battery is causing the problem."
+    },
+    {
+      "id": "ss274-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Please keep your receipt because there is a good chance that you will need it later.",
+      "promptZh": "請保留收據，因為你稍後很可能會需要它。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please keep your receipt, since it may well be that you will need it later.",
+      "answerZh": "請保留收據，因為你稍後很可能會需要它。",
+      "answerZhSource": "pdf",
+      "highlight": "Please keep your receipt, since it may well be that you will need it later."
+    },
+    {
+      "id": "ss274-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The team should review the first survey because there is a strong possibility that some answers were counted twice.",
+      "promptZh": "團隊應該重新檢查第一次調查，因為部分答案很可能被重複計算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team should review the first survey because it may well be that some answers were counted twice.",
+      "answerZh": "團隊應該重新檢查第一次調查，因為部分答案很可能被重複計算。",
+      "answerZhSource": "pdf",
+      "highlight": "The team should review the first survey because it may well be that some answers were counted twice."
+    },
+    {
+      "id": "ss274-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "We ought to contact the station because there is a good chance that the train is using another platform.",
+      "promptZh": "我們應該聯絡車站，因為列車很可能正在使用另一個月台。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We ought to contact the station, as it may well be that the train is using another platform.",
+      "answerZh": "我們應該聯絡車站，因為列車很可能正在使用另一個月台。",
+      "answerZhSource": "pdf",
+      "highlight": "We ought to contact the station, as it may well be that the train is using another platform."
+    },
+    {
+      "id": "ss274-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Do not delete the file yet. There is a real possibility that we need the original version.",
+      "promptZh": "暫時不要刪除檔案。我們很可能需要原本的版本。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not delete the file yet; it may well be that we need the original version.",
+      "answerZh": "暫時不要刪除檔案；我們很可能需要原本的版本。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not delete the file yet; it may well be that we need the original version."
+    },
+    {
+      "id": "ss274-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The nurse will run another test because the first result could easily be inaccurate.",
+      "promptZh": "護士會進行另一項檢查，因為第一次的結果很可能不準確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse will run another test because it may well be that the first result is inaccurate.",
+      "answerZh": "護士會進行另一項檢查，因為第一次的結果很可能不準確。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse will run another test because it may well be that the first result is inaccurate."
+    },
+    {
+      "id": "ss274-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The council should consult residents again because it is quite possible that some voices were not heard.",
+      "promptZh": "區議會應該再次諮詢居民，因為部分人的意見很可能沒有被聽取。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council should consult residents again, as it may well be that some voices were not heard.",
+      "answerZh": "區議會應該再次諮詢居民，因為部分人的意見很可能沒有被聽取。",
+      "answerZhSource": "pdf",
+      "highlight": "The council should consult residents again, as it may well be that some voices were not heard."
+    },
+    {
+      "id": "ss274-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The teacher asked us to reread the passage because there is a good chance that we missed an important detail.",
+      "promptZh": "老師要求我們重讀文章，因為我們很可能遺漏了一項重要細節。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher asked us to reread the passage, since it may well be that we missed an important detail.",
+      "answerZh": "老師要求我們重讀文章，因為我們很可能遺漏了一項重要細節。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher asked us to reread the passage, since it may well be that we missed an important detail."
+    },
+    {
+      "id": "ss274-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Keep the window closed tonight. There is a good chance that the wind will become stronger.",
+      "promptZh": "今晚把窗戶關上。風勢很可能會增強。",
+      "promptZhSource": "pdf",
+      "starter": "Keep",
+      "answer": "Keep the window closed tonight; it may well be that the wind will become stronger.",
+      "answerZh": "今晚把窗戶關上；風勢很可能會增強。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep the window closed tonight; it may well be that the wind will become stronger."
+    },
+    {
+      "id": "ss274-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The manager believes there is a good chance that the delay started in the warehouse.",
+      "promptZh": "經理認為，延誤很可能由貨倉開始。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager believes it may well be that the delay started in the warehouse.",
+      "answerZh": "經理認為，延誤很可能由貨倉開始。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager believes it may well be that the delay started in the warehouse."
+    },
+    {
+      "id": "ss274-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Researchers now think there is a strong possibility that the plant reacts to changes in light.",
+      "promptZh": "研究人員現在認為，這種植物很可能會對光線變化產生反應。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers now think it may well be that the plant reacts to changes in light.",
+      "answerZh": "研究人員現在認為，這種植物很可能會對光線變化產生反應。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers now think it may well be that the plant reacts to changes in light."
+    },
+    {
+      "id": "ss274-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The police think there is a real possibility that the witness saw a different car.",
+      "promptZh": "警方認為，證人很可能看到了另一輛汽車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The police think it may well be that the witness saw a different car.",
+      "answerZh": "警方認為，證人很可能看到了另一輛汽車。",
+      "answerZhSource": "pdf",
+      "highlight": "The police think it may well be that the witness saw a different car."
+    },
+    {
+      "id": "ss274-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The doctor explained that there is a good chance that the pain is caused by stress.",
+      "promptZh": "醫生解釋，痛楚很可能是由壓力引起的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained that it may well be that the pain is caused by stress.",
+      "answerZh": "醫生解釋，痛楚很可能是由壓力引起的。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained that it may well be that the pain is caused by stress."
+    },
+    {
+      "id": "ss274-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The report states that there is a strong possibility that the system failed before the alarm sounded.",
+      "promptZh": "報告指出，系統很可能在警報響起前已經失靈。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report states that it may well be that the system failed before the alarm sounded.",
+      "answerZh": "報告指出，系統很可能在警報響起前已經失靈。",
+      "answerZhSource": "pdf",
+      "highlight": "The report states that it may well be that the system failed before the alarm sounded."
+    },
+    {
+      "id": "ss274-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The committee accepts that there is a real possibility that the original plan was too ambitious.",
+      "promptZh": "委員會承認，原本的計劃很可能過於進取。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the committee, it may well be that the original plan was too ambitious.",
+      "answerZh": "委員會認為，原本的計劃很可能過於進取。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the committee, it may well be that the original plan was too ambitious."
+    },
+    {
+      "id": "ss274-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Local residents fear there is a good chance that the construction work will continue into winter.",
+      "promptZh": "本區居民擔心，建築工程很可能會持續至冬季。",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local residents fear it may well be that the construction work will continue into winter.",
+      "answerZh": "本區居民擔心，建築工程很可能會持續至冬季。",
+      "answerZhSource": "pdf",
+      "highlight": "Local residents fear it may well be that the construction work will continue into winter."
+    },
+    {
+      "id": "ss274-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The technician warned us that there is a real possibility that some data cannot be recovered.",
+      "promptZh": "技術人員警告我們，部分資料很可能無法復原。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The technician warned us it may well be that some data cannot be recovered.",
+      "answerZh": "技術人員警告我們，部分資料很可能無法復原。",
+      "answerZhSource": "pdf",
+      "highlight": "The technician warned us it may well be that some data cannot be recovered."
+    },
+    {
+      "id": "ss274-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Historians believe there is a strong possibility that the building was used for trade.",
+      "promptZh": "歷史學家相信，這座建築物很可能曾經用作貿易活動。",
+      "promptZhSource": "pdf",
+      "starter": "Historians",
+      "answer": "Historians believe it may well be that the building was used for trade.",
+      "answerZh": "歷史學家相信，這座建築物很可能曾經用作貿易活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Historians believe it may well be that the building was used for trade."
+    },
+    {
+      "id": "ss274-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The coach admitted that there is a real possibility that the team changed tactics too late.",
+      "promptZh": "教練承認，球隊很可能太遲才改變戰術。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach admitted that it may well be that the team changed tactics too late.",
+      "answerZh": "教練承認，球隊很可能太遲才改變戰術。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach admitted that it may well be that the team changed tactics too late."
+    },
+    {
+      "id": "ss274-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "After several complaints, the company accepts that there is a strong possibility that some customers were charged twice.",
+      "promptZh": "收到多宗投訴後，公司承認部分顧客很可能被重複收費。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After several complaints, the company accepts that it may well be that some customers were charged twice.",
+      "answerZh": "收到多宗投訴後，公司承認部分顧客很可能被重複收費。",
+      "answerZhSource": "pdf",
+      "highlight": "After several complaints, the company accepts that it may well be that some customers were charged twice."
+    },
+    {
+      "id": "ss274-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Before we blame the staff, it is quite possible that the instructions were unclear.",
+      "promptZh": "在我們怪責員工之前，應先考慮指示很可能並不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we blame the staff, it may well be that the instructions were unclear.",
+      "answerZh": "在我們怪責員工之前，指示很可能並不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Before we blame the staff, it may well be that the instructions were unclear."
+    },
+    {
+      "id": "ss274-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The new photographs matter because there is a strong possibility that they show damage from an earlier storm.",
+      "promptZh": "這些新照片十分重要，因為它們很可能顯示較早前一場暴風雨造成的破壞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new photographs matter because it may well be that they show damage from an earlier storm.",
+      "answerZh": "這些新照片十分重要，因為它們很可能顯示較早前一場暴風雨造成的破壞。",
+      "answerZhSource": "pdf",
+      "highlight": "The new photographs matter because it may well be that they show damage from an earlier storm."
+    },
+    {
+      "id": "ss274-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Even if the first estimate was low, there is a good chance that the project will still remain within budget.",
+      "promptZh": "即使最初的估算偏低，這個項目仍很可能維持在預算之內。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if the first estimate was low, it may well be that the project will still remain within budget.",
+      "answerZh": "即使最初的估算偏低，這個項目仍很可能維持在預算之內。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the first estimate was low, it may well be that the project will still remain within budget."
+    },
+    {
+      "id": "ss274-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "According to the latest survey, there is a real possibility that younger residents use the service differently.",
+      "promptZh": "根據最新調查，年輕居民很可能以不同方式使用這項服務。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the latest survey, it may well be that younger residents use the service differently.",
+      "answerZh": "根據最新調查，年輕居民很可能以不同方式使用這項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the latest survey, it may well be that younger residents use the service differently."
+    },
+    {
+      "id": "ss274-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The school is reviewing its policy because there is a good chance that the present rules discourage some students.",
+      "promptZh": "學校正在檢討政策，因為現行規則很可能令部分學生卻步。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school is reviewing its policy because it may well be that the present rules discourage some students.",
+      "answerZh": "學校正在檢討政策，因為現行規則很可能令部分學生卻步。",
+      "answerZhSource": "pdf",
+      "highlight": "The school is reviewing its policy because it may well be that the present rules discourage some students."
+    },
+    {
+      "id": "ss274-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "What appears to be a technical fault may be more serious. There is a real possibility that the whole unit needs replacing.",
+      "promptZh": "表面看來是技術故障的問題可能更加嚴重。整個裝置很可能需要更換。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What appears to be a technical fault may be more serious; it may well be that the whole unit needs replacing.",
+      "answerZh": "表面看來是技術故障的問題可能更加嚴重；整個裝置很可能需要更換。",
+      "answerZhSource": "pdf",
+      "highlight": "What appears to be a technical fault may be more serious; it may well be that the whole unit needs replacing."
+    },
+    {
+      "id": "ss274-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The delay does not necessarily mean that the order was lost. There is a good chance that customs is still checking it.",
+      "promptZh": "延誤不一定表示訂單已經遺失。海關很可能仍在檢查它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delay does not necessarily mean that the order was lost; it may well be that customs is still checking it.",
+      "answerZh": "延誤不一定表示訂單已經遺失；海關很可能仍在檢查它。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay does not necessarily mean that the order was lost; it may well be that customs is still checking it."
+    },
+    {
+      "id": "ss274-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "While no final decision has been made, there is a real possibility that the centre will open on Sundays.",
+      "promptZh": "雖然尚未作出最終決定，但中心很可能會在星期日開放。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While no final decision has been made, it may well be that the centre will open on Sundays.",
+      "answerZh": "雖然尚未作出最終決定，但中心很可能會在星期日開放。",
+      "answerZhSource": "pdf",
+      "highlight": "While no final decision has been made, it may well be that the centre will open on Sundays."
+    },
+    {
+      "id": "ss274-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 22,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Once all the evidence is considered, there is a good chance that the simplest explanation is the correct one.",
+      "promptZh": "考慮所有證據後，最簡單的解釋很可能就是正確的解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once all the evidence is considered, it may well be that the simplest explanation is the correct one.",
+      "answerZh": "考慮所有證據後，最簡單的解釋很可能就是正確的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Once all the evidence is considered, it may well be that the simplest explanation is the correct one."
+    }
+  ]
+}

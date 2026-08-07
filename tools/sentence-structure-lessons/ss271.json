@@ -1,0 +1,1259 @@
+{
+  "id": "ss271",
+  "order": 271,
+  "slug": "passive-reporting-it-is-said",
+  "title": "「It is said / reported / believed that + clause」",
+  "titleZh": "「It is said / reported / believed that + 子句」轉述消息",
+  "titleEn": "Passive reporting with “It is said / reported / believed that”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 270 -「It is said _ reported _ believed that + clause」.pdf",
+    "pageCount": 28,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "exercisePages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerPages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 270; it is assigned system ID ss271 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It + be + reporting past participle + that + complete clause",
+  "formulas": [
+    {
+      "id": "ss271-formula-01",
+      "labelEn": "Present reporting",
+      "labelZh": "現在的轉述",
+      "formula": "It is + reporting past participle + that + clause"
+    },
+    {
+      "id": "ss271-formula-02",
+      "labelEn": "Past reporting",
+      "labelZh": "過去的轉述",
+      "formula": "It was + reporting past participle + that + clause"
+    },
+    {
+      "id": "ss271-formula-03",
+      "labelEn": "Recent report",
+      "labelZh": "近期報道或確認",
+      "formula": "It has been + reporting past participle + that + clause"
+    },
+    {
+      "id": "ss271-formula-04",
+      "labelEn": "With optional context",
+      "labelZh": "加入可選背景",
+      "formula": "Introductory phrase / clause + it + be + reporting past participle + that + clause"
+    }
+  ],
+  "example": "It is reported that the meeting has been cancelled.",
+  "exampleZh": "據報會議已經取消。",
+  "examples": [
+    {
+      "id": "ss271-example-01",
+      "en": "It is reported that the meeting has been cancelled.",
+      "zh": "據報會議已經取消。",
+      "highlight": "It is reported that the meeting has been cancelled."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型轉述人們所說、新聞或報告所提供、普遍相信、估計、宣佈或證實的消息，把重點放在消息本身而非消息提出者。"
+  },
+  "rules": [
+    {
+      "id": "ss271-rule-01",
+      "zh": "核心句型不包括時間、地點或副詞 核心句型是： It + be + past participle + that + clause 例如： It is believed that the plan will work. 以下成分只是可選的延伸： ● widely ● generally ● commonly ● officially ● recently ● now ● in the village ● according to the report ● after the investigation Examples: It is widely believed that the plan will work. After the investigation, it was believed that the fire had started accidentally. The additional words explain where, when or how widely the information is accepted. They are not part of the fixed core structure. 這些額外成分只是說明消息的時間、來源或普及程度，並不屬於固定核心句型。",
+      "en": "The fixed core is It + be + past participle + that + clause. Time, place, source and adverbs such as widely or recently are optional extensions.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-rule-02",
+      "zh": "是形式主語 這裏的 it 並不代表某件物件、動物或人物。 It is reported that the road is closed. 真正的重要內容是： that the road is closed 使用形式主語 it，可以把較長的消息內容放在句子後半部。",
+      "en": "It is a formal subject here; the real information is carried by the complete that-clause that follows.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-rule-03",
+      "zh": "必須使用過去分詞 Correct: It is believed that the building is safe. Incorrect: It is believe that the building is safe. 常見過去分詞包括： ● say → said ● report → reported ● believe → believed ● think → thought ● know → known ● expect → expected ● claim → claimed ● allege → alleged ● estimate → estimated ● announce → announced ● confirm → confirmed ● predict → predicted ● understand → understood ● suggest → suggested ● establish → established ● acknowledge → acknowledged",
+      "en": "Use the reporting verb's past participle, such as said, reported, believed, known, expected, claimed, alleged, estimated, announced or confirmed.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-rule-04",
+      "zh": "動詞顯示消息是在甚麼時候提出的 Present reporting It is believed that the tunnel is safe. （目前一般相信隧道是安全的。） Past reporting It was believed that the tunnel was safe. （當時一般相信隧道是安全的。） Recent report with present relevance It has been reported that the tunnel will reopen soon. （近日有報道指隧道即將重開。） is、was 和 has been 並非可以隨意交換。答案必須保留原句的時間意思。",
+      "en": "Choose the form of be to preserve reporting time: is for a current report, was for a past report, and has been for a recent report with present relevance.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-rule-05",
+      "zh": "後面必須是完整子句 Correct: It is reported that the train has arrived. that 後面有： ● subject: the train ● verb: has arrived Incorrect: It is reported that the arrival of the train. the arrival of the train 是名詞短語，不是完整子句。 本練習所有答案均須保留 that。",
+      "en": "That must be followed by a complete clause with its own subject and verb, not merely a noun phrase. Retain that throughout this exercise.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-rule-06",
+      "zh": "不同報道動詞表達不同程度的肯定 said 表示有人這樣說，但沒有說明消息是否已證實。 It is said that the house is haunted. （據說這所房子鬧鬼。） reported 表示有新聞、報告或消息來源這樣報道。 It is reported that the road has reopened. （據報道路已經重開。） believed / thought 表示一般看法或判斷。 It is believed that the painting is genuine. （一般相信這幅畫是真品。） known 表示事情被視為已知事實。 It is known that regular exercise benefits health. （眾所周知，恆常運動有益健康。） expected / predicted 表示對將來的預期或預測。 It is expected that prices will rise. （預計價格將會上升。） claimed / alleged 表示有人提出說法，但該說法未必已獲證實。 It is alleged that the official accepted money illegally. （有人指稱該名官員非法收受金錢。） 使用 claimed 或 alleged 並不代表說法一定真實。 estimated 表示數字、數量、成本或時間只是約數。 It is estimated that the repairs will cost £2 million. （估計維修工程將耗資二百萬英鎊。） announced / confirmed 表示消息已正式公布或證實。 It has been confirmed that the event will proceed. （現已證實活動將如期舉行。）",
+      "en": "Choose the reporting participle carefully because said, reported, believed, known, expected, claimed, alleged, estimated, announced and confirmed express different sources or degrees of certainty.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-rule-07",
+      "zh": "與 “Subject is believed to…” 的分 別 這兩個句型通常可以表達相近意思。 It is believed that the cave is 2,000 years old. The cave is believed to be 2,000 years old. 第一句使用形式主語 it，然後以 that 子句提供完整消息。 第二句把消息中的主體 the cave 放在句首，後面使用不定式。 Simple or present action The artist is said to live in Paris. It is said that the artist lives in Paris. Continuing action The artist is said to be working in Paris. It is said that the artist is working in Paris. Earlier action The artist is said to have left Paris. It is said that the artist has left Paris. Earlier action viewed from a past reporting time The team was said to have left before dawn. It was said that the team had left before dawn. Future expectation The storm is expected to reach the coast tonight. It is expected that the storm will reach the coast tonight.",
+      "en": "The it + passive + that-clause pattern and the subject + passive + to-infinitive pattern can express similar meanings, but their grammar differs.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-rule-08",
+      "zh": "不可混合兩種句型 Incorrect: The meeting is reported that it has been cancelled. Correct: It is reported that the meeting has been cancelled. Also correct: The meeting is reported to have been cancelled. 本練習要求使用第一種： It is reported that + clause",
+      "en": "Do not mix the two reporting patterns. Write either “It is reported that the meeting has been cancelled” or “The meeting is reported to have been cancelled.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-rule-09",
+      "zh": "報道句型不一定要放在整句的第一個位置 The core structure can follow a time, place, source or linking clause. After a time phrase Yesterday, it was reported that the road had reopened. After a source phrase According to the latest forecast, it is predicted that temperatures will rise. After a dependent clause Although no official statement has been released, it is reported that the minister will resign. After another main clause The tests are now complete, and it has been confirmed that the system is safe. 這些變化能令句子更自然，也避免所有答案都以完全相同的方式開始。",
+      "en": "The reporting structure can follow a time, place, source, linking phrase or dependent clause; it does not have to begin the complete sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-rule-10",
+      "zh": "注意否定的位置 It is not believed that the plan will succeed. （人們不相信計劃會成功。） It is believed that the plan will not succeed. （人們相信計劃不會成功。） 兩句意思相近，但重點不同： ● 第一種否定 believing； ● 第二種否定 succeeding。 改寫時不可隨意移動 not。 Best Core Grammar Bank 核心句型庫 1. Present reporting It is said / reported / believed that + clause It is believed that the building is safe. （一般相信該建築物是安全的。） 2. Past reporting It was said / reported / believed that + clause It was reported that the flight had been delayed. （當時有報道指航班已經延誤。） 3. Present perfect reporting It has been said / reported / confirmed that + clause It has been confirmed that the event will proceed. （現已證實活動將如期舉行。） 4. With an optional adverb It is widely / generally / commonly believed that + clause It is widely believed that sleep supports memory. （人們普遍相信睡眠有助記憶。） 5. After a time, place or source phrase Introductory phrase + it + be + past participle + that + clause According to the latest forecast, it is predicted that temperatures will rise. （根據最新預測，氣溫預計將會上升。） 6. After another clause Clause + and / but + it + be + past participle + that + clause The investigation continues, but it is reported that no evidence has been found. （調查仍在繼續，但據報尚未發現任何證據。） 7. From a subject-raising structure Subject + be + past participle + to-infinitive → It + be + past participle + that + subject + verb The singer is said to be recording a new album. → It is said that the singer is recording a new album.",
+      "en": "Keep negation in its intended position. “It is not believed that ...” negates the belief, whereas “It is believed that ... not ...” places the negative meaning inside the reported information.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss271-benefit-01",
+      "zh": "把重點放在消息本身 有時候，誰提出消息並不重要、不清楚，或沒有必要說明。 Instead of: People report that the road has reopened. You can write: It is reported that the road has reopened. 讀者會直接把注意力放在道路重開這項消息上。",
+      "en": "It focuses attention on the information itself when the person or group presenting it is unimportant, unknown or unnecessary.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-benefit-02",
+      "zh": "避免反覆使用含糊的主語 初學者經常重複使用： ● people say; ● they believe; ● everyone thinks; ● someone reported. 這個句型可以省略不重要或不明確的說話者。 People believe that the treatment is safe. It is believed that the treatment is safe.",
+      "en": "It avoids repeated vague subjects such as people, they, everyone or someone.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-benefit-03",
+      "zh": "顯示消息有多可靠 你可以選擇不同動詞，向讀者表明消息的性質： ● known：被視為事實； ● confirmed：已證實； ● believed：一般相信； ● reported：有人報道； ● claimed：有人聲稱； ● alleged：有人指稱，但未經證實； ● rumoured：只是傳聞； ● estimated：只是估計。 這能幫助你避免把未經證實的消息寫成事實。",
+      "en": "It shows the status and certainty of the information through a carefully chosen reporting verb.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-benefit-04",
+      "zh": "適合報告、文章和簡報 這個句型常用來介紹： ● 調查結果； ● 新聞消息； ● 專家看法； ● 普遍觀點； ● 統計估計； ● 正式公布； ● 未經證實的指控。 它能令語氣更客觀，不必每次都以 I think 或 people say 開始。",
+      "en": "It is useful in reports, essays and presentations about findings, news, expert views, estimates, announcements and unverified allegations.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-benefit-05",
+      "zh": "增加句子組織方式 你可以先交代時間、來源或背景，再提出主要消息。 Yesterday, it was announced that the school would reopen. According to the report, it is believed that the damage is limited. Although the investigation is continuing, it is reported that no evidence has been found. 這樣能避免所有句子都使用相同開頭。",
+      "en": "It provides more ways to organise a sentence by allowing time, source or background information to come first.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss271-benefit-06",
+      "zh": "把個人說法改為較中立的報道 Compare: The company claims that the product is completely safe. In a company statement, it is claimed that the product is completely safe. 第二句仍然表明消息來自公司，但句子結構把焦點放在公司的說法，而不是公司本身。",
+      "en": "It can turn a personal statement into a more neutral report while still identifying the source when necessary.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 270; it is assigned system ID ss271 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using It + be + reporting past participle + that + clause.",
+      "Preserve the reporting verb, source, time, tense, modality and negation, and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 It + be + 報道動詞過去分詞 + that + 子句改寫每題。",
+      "保留原句的報道動詞、來源、時間、時態、情態及否定意思，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss271-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "People say that the café opens at six every morning.",
+      "promptZh": "人們說這間咖啡店每天早上六時開門。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is said that the café opens at six every morning.",
+      "answerZh": "據說這間咖啡店每天早上六時開門。",
+      "answerZhSource": "pdf",
+      "highlight": "It is said that the café opens at six every morning."
+    },
+    {
+      "id": "ss271-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Reports in local newspapers say that the road will remain closed until Monday.",
+      "promptZh": "本地報章報道，該道路將繼續封閉至星期一。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is reported in local newspapers that the road will remain closed until Monday.",
+      "answerZh": "據本地報章報道，該道路將繼續封閉至星期一。",
+      "answerZhSource": "pdf",
+      "highlight": "It is reported in local newspapers that the road will remain closed until Monday."
+    },
+    {
+      "id": "ss271-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "People in the neighbourhood believe that the new lighting has made the park safer.",
+      "promptZh": "區內居民相信，新安裝的照明設備令公園更加安全。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the neighbourhood, it is believed that the new lighting has made the park safer.",
+      "answerZh": "區內普遍相信，新安裝的照明設備令公園更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "In the neighbourhood, it is believed that the new lighting has made the park safer."
+    },
+    {
+      "id": "ss271-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Experts generally think that the new material is stronger than the old one.",
+      "promptZh": "專家普遍認為這種新物料比舊物料更堅固。",
+      "promptZhSource": "pdf",
+      "starter": "Among",
+      "answer": "Among experts, it is generally thought that the new material is stronger than the old one.",
+      "answerZh": "專家普遍認為這種新物料比舊物料更堅固。",
+      "answerZhSource": "pdf",
+      "highlight": "Among experts, it is generally thought that the new material is stronger than the old one."
+    },
+    {
+      "id": "ss271-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Everyone knows that the public library closes at eight.",
+      "promptZh": "人人都知道公共圖書館在八時關門。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is known that the public library closes at eight.",
+      "answerZh": "眾所周知，公共圖書館在八時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "It is known that the public library closes at eight."
+    },
+    {
+      "id": "ss271-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The organisers expect that about five hundred visitors will attend the exhibition.",
+      "promptZh": "主辦單位預計約有五百名訪客參觀展覽。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the organisers, it is expected that about five hundred visitors will attend the exhibition.",
+      "answerZh": "據主辦單位預計，約有五百名訪客將參觀展覽。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the organisers, it is expected that about five hundred visitors will attend the exhibition."
+    },
+    {
+      "id": "ss271-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A company statement claims that the new model uses less electricity.",
+      "promptZh": "一份公司聲明聲稱，新型號消耗較少電力。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a company statement, it is claimed that the new model uses less electricity.",
+      "answerZh": "公司在一份聲明中聲稱，新型號消耗較少電力。",
+      "answerZhSource": "pdf",
+      "highlight": "In a company statement, it is claimed that the new model uses less electricity."
+    },
+    {
+      "id": "ss271-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Current estimates put the number of people at the event at approximately three hundred.",
+      "promptZh": "目前估計活動約有三百人出席。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is estimated that approximately three hundred people attended the event.",
+      "answerZh": "估計約有三百人出席該活動。",
+      "answerZhSource": "pdf",
+      "highlight": "It is estimated that approximately three hundred people attended the event."
+    },
+    {
+      "id": "ss271-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "An announcement made yesterday said that lessons would resume on Monday.",
+      "promptZh": "昨日發出的公告表示，課堂將於星期一恢復。",
+      "promptZhSource": "pdf",
+      "starter": "Yesterday",
+      "answer": "Yesterday, it was announced that lessons would resume on Monday.",
+      "answerZh": "昨日有公告表示，課堂將於星期一恢復。",
+      "answerZhSource": "pdf",
+      "highlight": "Yesterday, it was announced that lessons would resume on Monday."
+    },
+    {
+      "id": "ss271-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A staff update this morning confirmed that the meeting had been cancelled.",
+      "promptZh": "今早的職員通告證實會議已經取消。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a staff update this morning, it was confirmed that the meeting had been cancelled.",
+      "answerZh": "今早的職員通告證實會議已經取消。",
+      "answerZhSource": "pdf",
+      "highlight": "In a staff update this morning, it was confirmed that the meeting had been cancelled."
+    },
+    {
+      "id": "ss271-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What do people in the village say about the old tunnel? They say that it runs under the hill.",
+      "promptZh": "村民怎樣說那條舊隧道？他們說隧道在山丘下方穿過。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the village, it is said that the old tunnel runs under the hill.",
+      "answerZh": "村內有說法指，那條舊隧道在山丘下方穿過。",
+      "answerZhSource": "pdf",
+      "highlight": "In the village, it is said that the old tunnel runs under the hill."
+    },
+    {
+      "id": "ss271-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Scientists widely believe that sleep plays an important part in memory.",
+      "promptZh": "科學家普遍相信睡眠對記憶有重要作用。",
+      "promptZhSource": "pdf",
+      "starter": "Among",
+      "answer": "Among scientists, it is widely believed that sleep plays an important part in memory.",
+      "answerZh": "科學家普遍相信睡眠對記憶有重要作用。",
+      "answerZhSource": "pdf",
+      "highlight": "Among scientists, it is widely believed that sleep plays an important part in memory."
+    },
+    {
+      "id": "ss271-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The newspaper reported yesterday that the road had reopened.",
+      "promptZh": "該報章昨日報道，道路已經重開。",
+      "promptZhSource": "pdf",
+      "starter": "Yesterday",
+      "answer": "Yesterday, it was reported in the newspaper that the road had reopened.",
+      "answerZh": "該報章昨日報道，道路已經重開。",
+      "answerZhSource": "pdf",
+      "highlight": "Yesterday, it was reported in the newspaper that the road had reopened."
+    },
+    {
+      "id": "ss271-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "What did the engineering team think after the inspection? They thought that the bridge was safe.",
+      "promptZh": "工程團隊完成檢查後有甚麼看法？他們認為大橋是安全的。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the inspection, it was thought that the bridge was safe.",
+      "answerZh": "完成檢查後，工程團隊認為大橋是安全的。",
+      "answerZhSource": "pdf",
+      "highlight": "After the inspection, it was thought that the bridge was safe."
+    },
+    {
+      "id": "ss271-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Most staff understand that the new rule applies to every department.",
+      "promptZh": "大部分職員都明白新規則適用於所有部門。",
+      "promptZhSource": "pdf",
+      "starter": "Among",
+      "answer": "Among staff, it is generally understood that the new rule applies to every department.",
+      "answerZh": "職員普遍明白，新規則適用於所有部門。",
+      "answerZhSource": "pdf",
+      "highlight": "Among staff, it is generally understood that the new rule applies to every department."
+    },
+    {
+      "id": "ss271-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Weather forecasters expect that there will be heavy rain tomorrow afternoon.",
+      "promptZh": "天氣預報員預計明天下午將有大雨。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to weather forecasters, it is expected that there will be heavy rain tomorrow afternoon.",
+      "answerZh": "據天氣預報員預計，明天下午將有大雨。",
+      "answerZhSource": "pdf",
+      "highlight": "According to weather forecasters, it is expected that there will be heavy rain tomorrow afternoon."
+    },
+    {
+      "id": "ss271-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Several witness statements claim that the driver ignored the red light.",
+      "promptZh": "數份證人供詞聲稱該司機沒有理會紅燈。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In several witness statements, it is claimed that the driver ignored the red light.",
+      "answerZh": "數份證人供詞聲稱該司機沒有理會紅燈。",
+      "answerZhSource": "pdf",
+      "highlight": "In several witness statements, it is claimed that the driver ignored the red light."
+    },
+    {
+      "id": "ss271-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "At the press conference, the spokesperson announced that the factory would reopen in June.",
+      "promptZh": "發言人在記者會上宣佈，工廠將於六月重開。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the press conference, it was announced that the factory would reopen in June.",
+      "answerZh": "記者會上有公告表示，工廠將於六月重開。",
+      "answerZhSource": "pdf",
+      "highlight": "At the press conference, it was announced that the factory would reopen in June."
+    },
+    {
+      "id": "ss271-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After completing its review, the committee confirmed that the figures were accurate.",
+      "promptZh": "委員會完成審查後，證實有關數字準確。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the committee’s review, it was confirmed that the figures were accurate.",
+      "answerZh": "委員會完成審查後，有關數字獲證實為準確。",
+      "answerZhSource": "pdf",
+      "highlight": "After the committee’s review, it was confirmed that the figures were accurate."
+    },
+    {
+      "id": "ss271-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Rumour has it that the actor is moving to Scotland.",
+      "promptZh": "有傳聞指該名演員將搬往蘇格蘭。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is rumoured that the actor is moving to Scotland.",
+      "answerZh": "有傳聞指該名演員將搬往蘇格蘭。",
+      "answerZhSource": "pdf",
+      "highlight": "It is rumoured that the actor is moving to Scotland."
+    },
+    {
+      "id": "ss271-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "At present, the missing painting is believed to be in a private collection.",
+      "promptZh": "目前一般相信，失蹤的畫作由私人收藏。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, it is believed that the missing painting is in a private collection.",
+      "answerZh": "目前一般相信，失蹤的畫作由私人收藏。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, it is believed that the missing painting is in a private collection."
+    },
+    {
+      "id": "ss271-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "In the music industry, the singer is said to be recording a new album.",
+      "promptZh": "音樂業界盛傳該名歌手正在錄製新專輯。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the music industry, it is said that the singer is recording a new album.",
+      "answerZh": "音樂業界盛傳該名歌手正在錄製新專輯。",
+      "answerZhSource": "pdf",
+      "highlight": "In the music industry, it is said that the singer is recording a new album."
+    },
+    {
+      "id": "ss271-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Among historians, the ancient wall is thought to be over eight hundred years old.",
+      "promptZh": "歷史學家一般認為這道古城牆已有超過八百年歷史。",
+      "promptZhSource": "pdf",
+      "starter": "Among",
+      "answer": "Among historians, it is thought that the ancient wall is over eight hundred years old.",
+      "answerZh": "歷史學家一般認為這道古城牆已有超過八百年歷史。",
+      "answerZhSource": "pdf",
+      "highlight": "Among historians, it is thought that the ancient wall is over eight hundred years old."
+    },
+    {
+      "id": "ss271-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Recent reports say that the company is closing two of its offices.",
+      "promptZh": "近日有報道指該公司正關閉其中兩間辦事處。",
+      "promptZhSource": "pdf",
+      "starter": "Recently",
+      "answer": "Recently, it has been reported that the company is closing two of its offices.",
+      "answerZh": "近日有報道指該公司正關閉其中兩間辦事處。",
+      "answerZhSource": "pdf",
+      "highlight": "Recently, it has been reported that the company is closing two of its offices."
+    },
+    {
+      "id": "ss271-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "According to current forecasts, the storm is expected to reach the coast tonight.",
+      "promptZh": "根據目前預測，風暴預計將於今晚抵達海岸。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on current forecasts, it is expected that the storm will reach the coast tonight.",
+      "answerZh": "根據目前預測，風暴預計將於今晚抵達海岸。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on current forecasts, it is expected that the storm will reach the coast tonight."
+    },
+    {
+      "id": "ss271-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "What do current predictions say about prices? They predict that prices will fall by five per cent next year.",
+      "promptZh": "目前的預測怎樣看價格走勢？預測指價格明年將下跌百分之五。",
+      "promptZhSource": "pdf",
+      "starter": "Over",
+      "answer": "Over the next year, it is predicted that prices will fall by five per cent.",
+      "answerZh": "據預測，價格將在未來一年下跌百分之五。",
+      "answerZhSource": "pdf",
+      "highlight": "Over the next year, it is predicted that prices will fall by five per cent."
+    },
+    {
+      "id": "ss271-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The two documents are known to contain the same printing error.",
+      "promptZh": "已知兩份文件都包含相同的印刷錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is known that the two documents contain the same printing error.",
+      "answerZh": "已知兩份文件都包含相同的印刷錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "It is known that the two documents contain the same printing error."
+    },
+    {
+      "id": "ss271-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "During the inquiry, the suspect was alleged to have used a false name when registering.",
+      "promptZh": "調查期間，有人指稱疑犯登記時使用了假名。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the inquiry, it was alleged that the suspect had used a false name when registering.",
+      "answerZh": "調查期間，有人指稱疑犯登記時曾使用假名。",
+      "answerZhSource": "pdf",
+      "highlight": "During the inquiry, it was alleged that the suspect had used a false name when registering."
+    },
+    {
+      "id": "ss271-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Current estimates put the total cost of the building at four million pounds.",
+      "promptZh": "目前估計該建築物的總成本為四百萬英鎊。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, it is estimated that the building will cost four million pounds in total.",
+      "answerZh": "目前估計該建築物的總成本將達四百萬英鎊。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, it is estimated that the building will cost four million pounds in total."
+    },
+    {
+      "id": "ss271-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "At the time, the team was said to have left before dawn.",
+      "promptZh": "當時據說該團隊在黎明前已經離開。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the time, it was said that the team had left before dawn.",
+      "answerZh": "當時據說該團隊在黎明前已經離開。",
+      "answerZhSource": "pdf",
+      "highlight": "At the time, it was said that the team had left before dawn."
+    },
+    {
+      "id": "ss271-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The official report states that the water is safe to drink.",
+      "promptZh": "官方報告指出有關食水可以安全飲用。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the official report, it is stated that the water is safe to drink.",
+      "answerZh": "官方報告指出有關食水可以安全飲用。",
+      "answerZhSource": "pdf",
+      "highlight": "In the official report, it is stated that the water is safe to drink."
+    },
+    {
+      "id": "ss271-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The general belief among doctors is that regular movement supports recovery.",
+      "promptZh": "醫生普遍相信恆常活動有助康復。",
+      "promptZhSource": "pdf",
+      "starter": "Among",
+      "answer": "Among doctors, it is generally believed that regular movement supports recovery.",
+      "answerZh": "醫生普遍相信恆常活動有助康復。",
+      "answerZhSource": "pdf",
+      "highlight": "Among doctors, it is generally believed that regular movement supports recovery."
+    },
+    {
+      "id": "ss271-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The common view among teachers is that shorter instructions are easier to follow.",
+      "promptZh": "教師普遍認為較短的指示更容易理解和跟從。",
+      "promptZhSource": "pdf",
+      "starter": "Among",
+      "answer": "Among teachers, it is generally thought that shorter instructions are easier to follow.",
+      "answerZh": "教師普遍認為較短的指示更容易理解和跟從。",
+      "answerZhSource": "pdf",
+      "highlight": "Among teachers, it is generally thought that shorter instructions are easier to follow."
+    },
+    {
+      "id": "ss271-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The latest forecast says that temperatures will rise during the weekend.",
+      "promptZh": "最新預測指週末期間氣溫將會上升。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the latest forecast, it is predicted that temperatures will rise during the weekend.",
+      "answerZh": "根據最新預測，氣溫預計將在週末期間上升。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the latest forecast, it is predicted that temperatures will rise during the weekend."
+    },
+    {
+      "id": "ss271-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "An official announcement says that the new library will open in September.",
+      "promptZh": "官方公告表示新圖書館將於九月啟用。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It has been officially announced that the new library will open in September.",
+      "answerZh": "官方現已宣佈新圖書館將於九月啟用。",
+      "answerZhSource": "pdf",
+      "highlight": "It has been officially announced that the new library will open in September."
+    },
+    {
+      "id": "ss271-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The investigation established that the fire started in the storage room.",
+      "promptZh": "調查確定火警由儲物室開始。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the investigation, it was established that the fire started in the storage room.",
+      "answerZh": "調查期間已確定火警由儲物室開始。",
+      "answerZhSource": "pdf",
+      "highlight": "During the investigation, it was established that the fire started in the storage room."
+    },
+    {
+      "id": "ss271-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The audit confirmed that no money was missing from the account.",
+      "promptZh": "審計確認戶口內沒有款項失蹤。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the audit, it was confirmed that no money was missing from the account.",
+      "answerZh": "審計完成後，已確認戶口內沒有款項失蹤。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the audit, it was confirmed that no money was missing from the account."
+    },
+    {
+      "id": "ss271-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "A rumour is circulating that the two companies will merge.",
+      "promptZh": "目前有傳聞指兩間公司將會合併。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is rumoured that the two companies will merge.",
+      "answerZh": "目前有傳聞指兩間公司將會合併。",
+      "answerZhSource": "pdf",
+      "highlight": "It is rumoured that the two companies will merge."
+    },
+    {
+      "id": "ss271-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "What is widely accepted about clean water? Experts accept that it is essential for public health.",
+      "promptZh": "人們普遍接受清潔食水有甚麼重要性？專家認同清潔食水對公共衞生非常重要。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is widely accepted that clean water is essential for public health.",
+      "answerZh": "人們普遍接受清潔食水對公共衞生非常重要。",
+      "answerZhSource": "pdf",
+      "highlight": "It is widely accepted that clean water is essential for public health."
+    },
+    {
+      "id": "ss271-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The researchers suggested in their study that shorter breaks might improve concentration.",
+      "promptZh": "研究人員在研究中提出，較短的休息時間可能有助改善專注力。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the study, it was suggested that shorter breaks might improve concentration.",
+      "answerZh": "該研究提出，較短的休息時間可能有助改善專注力。",
+      "answerZhSource": "pdf",
+      "highlight": "In the study, it was suggested that shorter breaks might improve concentration."
+    },
+    {
+      "id": "ss271-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "No official statement has been made, but several reporters say that the minister will resign.",
+      "promptZh": "當局尚未發出正式聲明，但數名記者表示部長將會辭職。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No official statement has been made, but it is reported that the minister will resign.",
+      "answerZh": "當局尚未發出正式聲明，但據報部長將會辭職。",
+      "answerZhSource": "pdf",
+      "highlight": "No official statement has been made, but it is reported that the minister will resign."
+    },
+    {
+      "id": "ss271-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The tests are now complete, and the engineers have confirmed that the system can support one thousand users.",
+      "promptZh": "測試現已完成，而工程師已確認系統可以支援一千名用戶。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tests are now complete, and it has been confirmed that the system can support one thousand users.",
+      "answerZh": "測試現已完成，而且系統可以支援一千名用戶一事已獲證實。",
+      "answerZhSource": "pdf",
+      "highlight": "The tests are now complete, and it has been confirmed that the system can support one thousand users."
+    },
+    {
+      "id": "ss271-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Local historians disagree on some details, but most of them believe that the house was built in 1820.",
+      "promptZh": "本地歷史學家對部分細節意見不一，但大多數相信該房屋建於一八二零年。",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local historians disagree on some details, but it is generally believed that the house was built in 1820.",
+      "answerZh": "本地歷史學家對部分細節意見不一，但一般相信該房屋建於一八二零年。",
+      "answerZhSource": "pdf",
+      "highlight": "Local historians disagree on some details, but it is generally believed that the house was built in 1820."
+    },
+    {
+      "id": "ss271-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "During the meeting, the board acknowledged that the original deadline could not be met.",
+      "promptZh": "董事會在會議上承認原定限期無法達到。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the meeting, it was acknowledged that the original deadline could not be met.",
+      "answerZh": "會議上有人承認原定限期無法達到。",
+      "answerZhSource": "pdf",
+      "highlight": "During the meeting, it was acknowledged that the original deadline could not be met."
+    },
+    {
+      "id": "ss271-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The application is still being tested, and testers report that the new version uses less mobile data.",
+      "promptZh": "應用程式仍在測試，而測試人員報告指新版本使用較少流動數據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The application is still being tested, and it is reported that the new version uses less mobile data.",
+      "answerZh": "應用程式仍在測試，而據報新版本使用較少流動數據。",
+      "answerZhSource": "pdf",
+      "highlight": "The application is still being tested, and it is reported that the new version uses less mobile data."
+    },
+    {
+      "id": "ss271-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The investigation is continuing, but the police report that no supporting evidence has been found.",
+      "promptZh": "調查仍在繼續，但警方報告指尚未發現支持有關說法的證據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The investigation is continuing, but it is reported that no supporting evidence has been found.",
+      "answerZh": "調查仍在繼續，但據報尚未發現支持有關說法的證據。",
+      "answerZhSource": "pdf",
+      "highlight": "The investigation is continuing, but it is reported that no supporting evidence has been found."
+    },
+    {
+      "id": "ss271-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Current prices are unstable, but economists expect inflation to remain below three per cent next year.",
+      "promptZh": "目前價格並不穩定，但經濟學家預計明年通脹率將維持在百分之三以下。",
+      "promptZhSource": "pdf",
+      "starter": "Current",
+      "answer": "Current prices are unstable, but it is expected that inflation will remain below three per cent next year.",
+      "answerZh": "目前價格並不穩定，但預計明年通脹率將維持在百分之三以下。",
+      "answerZhSource": "pdf",
+      "highlight": "Current prices are unstable, but it is expected that inflation will remain below three per cent next year."
+    },
+    {
+      "id": "ss271-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "A statement was released today, and the director has confirmed that all affected customers have been contacted.",
+      "promptZh": "今日已發出聲明，而主管已證實所有受影響顧客均已獲聯絡。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A statement was released today, and it has been confirmed that all affected customers have been contacted.",
+      "answerZh": "今日已發出聲明，並已證實所有受影響顧客均已獲聯絡。",
+      "answerZhSource": "pdf",
+      "highlight": "A statement was released today, and it has been confirmed that all affected customers have been contacted."
+    },
+    {
+      "id": "ss271-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The hearing lasted three days, and witnesses alleged that the guard had accepted money from visitors.",
+      "promptZh": "聆訊持續了三日，而證人指稱該名守衞曾收取訪客的金錢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hearing lasted three days, and it was alleged that the guard had accepted money from visitors.",
+      "answerZh": "聆訊持續了三日，其間有人指稱該名守衞曾收取訪客的金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "The hearing lasted three days, and it was alleged that the guard had accepted money from visitors."
+    },
+    {
+      "id": "ss271-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Several recent reviews have been completed, and researchers now believe that the treatment is safer than previously thought.",
+      "promptZh": "數項近期評估已經完成，而研究人員現時相信這種療法比之前所想的更安全。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several recent reviews have been completed, and it is now believed that the treatment is safer than previously thought.",
+      "answerZh": "數項近期評估已經完成，而現時一般相信這種療法比之前所想的更安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Several recent reviews have been completed, and it is now believed that the treatment is safer than previously thought."
+    }
+  ]
+}

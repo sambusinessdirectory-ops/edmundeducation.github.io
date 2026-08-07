@@ -1,0 +1,1228 @@
+{
+  "id": "ss270",
+  "order": 270,
+  "slug": "as-far-as-i-know",
+  "title": "「As far as I know, …」據我所知……",
+  "titleZh": "「As far as I know, …」據我所知……",
+  "titleEn": "Using “As far as I know” to qualify information",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 269 -「As far as I know, …」據我所知…….pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 269; it is assigned system ID ss270 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "as far as + subject + know(s) / knew",
+  "formulas": [
+    {
+      "id": "ss270-formula-01",
+      "labelEn": "Sentence-initial position",
+      "labelZh": "放在句首",
+      "formula": "As far as + subject + know(s), + main clause"
+    },
+    {
+      "id": "ss270-formula-02",
+      "labelEn": "Sentence-final position",
+      "labelZh": "放在句尾",
+      "formula": "Main clause, + as far as + subject + know(s)"
+    },
+    {
+      "id": "ss270-formula-03",
+      "labelEn": "Mid-sentence position",
+      "labelZh": "插入句中",
+      "formula": "Main clause with as far as + subject + know(s) between commas"
+    },
+    {
+      "id": "ss270-formula-04",
+      "labelEn": "Past knowledge",
+      "labelZh": "過去的認知",
+      "formula": "as far as + subject + knew"
+    }
+  ],
+  "example": "As far as I know, no final decision has been made.",
+  "exampleZh": "據我所知，現時尚未作出最後決定。",
+  "examples": [
+    {
+      "id": "ss270-example-01",
+      "en": "As far as I know, no final decision has been made.",
+      "zh": "據我所知，現時尚未作出最後決定。",
+      "highlight": "As far as I know, no final decision has been made."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示說法是根據某人目前或當時掌握的資料作出，但說話者不保證自己知道所有情況。"
+  },
+  "rules": [
+    {
+      "id": "ss270-rule-01",
+      "zh": "核心表達並不一定要放在句首 最常見的形式是： As far as I know, the office is still open. 但以下兩種寫法同樣正確： The office is still open, as far as I know. The office is, as far as I know, still open. 因此，句首位置只是其中一種用法，不是固定位置。",
+      "en": "The expression is not restricted to the beginning. It can appear initially, finally or between commas within the main clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-rule-02",
+      "zh": "不要在 know 後面加 that 正確： As far as I know, the meeting is still on. 錯誤： As far as I know that the meeting is still on. 完整的 as far as I know 已經是一個插入表達，後面直接接主要句子。",
+      "en": "Do not add that after know. “As far as I know” is a complete parenthetical expression and is followed directly by the main clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-rule-03",
+      "zh": "動詞要配合主語 I / you / we / they / plural noun + know As far as we know, the road is clear. As far as the organisers know, every speaker has confirmed. he / she / singular noun + knows As far as she knows, the course begins in September. As far as the manager knows, no complaint has been received. 過去時間統一使用 knew： As far as they knew, the documents were safe.",
+      "en": "Make know agree with its subject: I, you, we, they and plural nouns take know; he, she and singular nouns take knows; past contexts take knew.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-rule-04",
+      "zh": "放在句中時，前後通常使用逗號 The manager has not, as far as I know, approved the request. The keys are, as far as the caretaker knows, in the office. 句中的部分屬於補充說明，因此通常要用兩個逗號把它分隔開。",
+      "en": "When the expression is inserted inside the main clause, normally set it off with a comma on each side.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-rule-05",
+      "zh": "這個句型表示「有限度的認知」，不是絕對肯定 The office is closed. （辦公室已經關閉。） 這句聽起來像一項確定的事實。 As far as I know, the office is closed. （據我所知，辦公室已經關閉。） 這句表示：根據我掌握的資料，辦公室已經關閉，但我可能沒有最新或完整資料。",
+      "en": "The expression marks limited knowledge rather than absolute certainty. It shows that the information may not be complete or fully up to date.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-rule-06",
+      "zh": "和 As far as I am concerned 不同 As far as I know 表示根據自己掌握的資料。 As far as I know, the plan is still being reviewed. （據我所知，這項計劃仍在審議中。） As far as I am concerned 表示個人意見或立場。 As far as I am concerned, the plan is too expensive. （依我看來，這項計劃太昂貴。） 簡單分辨： ● As far as I know = 我所知道的資料 ● As far as I am concerned = 我的個人看法",
+      "en": "Do not confuse “As far as I know”, which refers to available information, with “As far as I am concerned”, which introduces a personal opinion or position.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-rule-07",
+      "zh": "相關表達不是本練習的固定句型 以下說法意思相近，但不屬於本練習要求的核心形式： As far as I can tell, … （就我判斷……） As far as I am aware, … （據我所知……） To the best of my knowledge, … （據我所知……） 本練習的核心表達是： as far as + subject + know(s) / knew",
+      "en": "Related expressions such as “As far as I can tell”, “As far as I am aware” and “To the best of my knowledge” are not the fixed target form in this exercise.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss270-benefit-01",
+      "zh": "資料未必完整時，可以更誠實地表達 你可以說明自己是根據現有資料作答，而不是假裝完全肯定。 As far as I know, the train is still running. （據我所知，火車仍然行駛。）",
+      "en": "It helps you speak honestly when the information available to you may be incomplete.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-benefit-02",
+      "zh": "避免把未確認的資料說成絕對事實 直接說： The event has been cancelled. 會令人以為你完全肯定活動已經取消。 改為： As far as I know, the event has been cancelled. 便能清楚表示這只是根據你目前掌握的資料。",
+      "en": "It prevents an unconfirmed statement from sounding like an absolute fact.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-benefit-03",
+      "zh": "適合用來交代最新情況 當你談論會議、交通、工作安排、調查或仍在發展中的事件時，資料可能隨時改變。這個句型能讓 你在提供實用資訊的同時，保留適當的謹慎。",
+      "en": "It is useful for updates about meetings, transport, work arrangements, investigations and other developing situations.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-benefit-04",
+      "zh": "令糾正或不同意見聽起來較有禮貌 直接說： You are wrong. The office opens at nine. 語氣可能過於強硬。 較自然的說法是： As far as I know, the office opens at nine. （據我所知，辦公室在九時開門。） 你仍然提出不同資料，但不會直接指責對方錯誤。",
+      "en": "It can make corrections and disagreements sound less aggressive by presenting different information cautiously.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss270-benefit-05",
+      "zh": "增加句式變化 你可以把這個表達放在句首、句中或句尾，因此不需要每次都使用相同的句子開頭。 As far as I know, the plan has not changed. The plan has not changed, as far as I know. The plan has not, as far as I know, changed.",
+      "en": "It provides natural variation because the expression can appear at the beginning, in the middle or at the end.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 269; it is assigned system ID ss270 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using as far as + subject + know(s) / knew.",
+      "The expression may appear at the beginning, in the middle or at the end; follow the supplied first word and preserve the original time reference."
+    ],
+    "zh": [
+      "使用 as far as + 主語 + know(s) / knew 改寫每題。",
+      "這個表達可放在句首、句中或句尾；按照已提供的第一個字作答，並保留原句的時間意思。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss270-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "According to the information I have, no final decision has been made.",
+      "promptZh": "根據我掌握的資料，現時尚未作出最後決定。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I know, no final decision has been made.",
+      "answerZh": "據我所知，現時尚未作出最後決定。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I know, no final decision has been made."
+    },
+    {
+      "id": "ss270-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "To the best of my knowledge, the meeting time has not changed.",
+      "promptZh": "據我所知，會議時間沒有更改。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting time has not changed, as far as I know.",
+      "answerZh": "據我所知，會議時間沒有更改。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting time has not changed, as far as I know."
+    },
+    {
+      "id": "ss270-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The information available to me says that the library is open today.",
+      "promptZh": "我掌握的資料顯示，圖書館今天開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is, as far as I know, open today.",
+      "answerZh": "據我所知，圖書館今天開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is, as far as I know, open today."
+    },
+    {
+      "id": "ss270-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My present understanding is that the bus leaves at eight.",
+      "promptZh": "我目前所知，巴士在八時開出。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I know, the bus leaves at eight.",
+      "answerZh": "據我所知，巴士在八時開出。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I know, the bus leaves at eight."
+    },
+    {
+      "id": "ss270-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "According to the latest information I have, the café still accepts cash.",
+      "promptZh": "根據我掌握的最新資料，這間咖啡店仍然接受現金。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café still accepts cash, as far as I know.",
+      "answerZh": "據我所知，這間咖啡店仍然接受現金。",
+      "answerZhSource": "pdf",
+      "highlight": "The café still accepts cash, as far as I know."
+    },
+    {
+      "id": "ss270-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Based on what I know, the parcel was sent yesterday.",
+      "promptZh": "根據我所知，包裹昨天已經寄出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel was sent yesterday, as far as I know.",
+      "answerZh": "據我所知，包裹昨天已經寄出。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel was sent yesterday, as far as I know."
+    },
+    {
+      "id": "ss270-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My current information says that the course is free.",
+      "promptZh": "我目前掌握的資料顯示，這個課程是免費的。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I know, the course is free.",
+      "answerZh": "據我所知，這個課程是免費的。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I know, the course is free."
+    },
+    {
+      "id": "ss270-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I have not been told that the password has changed.",
+      "promptZh": "沒有人告訴我密碼已經更改。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The password has not, as far as I know, changed.",
+      "answerZh": "據我所知，密碼沒有更改。",
+      "answerZhSource": "pdf",
+      "highlight": "The password has not, as far as I know, changed."
+    },
+    {
+      "id": "ss270-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "From the information I have, Anna works from home on Fridays.",
+      "promptZh": "根據我掌握的資料，安娜逢星期五在家工作。",
+      "promptZhSource": "pdf",
+      "starter": "Anna",
+      "answer": "Anna works from home on Fridays, as far as I know.",
+      "answerZh": "據我所知，安娜逢星期五在家工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Anna works from home on Fridays, as far as I know."
+    },
+    {
+      "id": "ss270-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "To the best of my knowledge, the shop closes at nine.",
+      "promptZh": "據我所知，這間店舖在九時關門。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I know, the shop closes at nine.",
+      "answerZh": "據我所知，這間店舖在九時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I know, the shop closes at nine."
+    },
+    {
+      "id": "ss270-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "According to the information Clara has, the interview is on Tuesday.",
+      "promptZh": "根據克拉拉掌握的資料，面試在星期二舉行。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as Clara knows, the interview is on Tuesday.",
+      "answerZh": "據克拉拉所知，面試在星期二舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as Clara knows, the interview is on Tuesday."
+    },
+    {
+      "id": "ss270-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The information I have says that the last train is still running.",
+      "promptZh": "我掌握的資料顯示，尾班車仍然行駛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last train is still running, as far as I know.",
+      "answerZh": "據我所知，尾班車仍然行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "The last train is still running, as far as I know."
+    },
+    {
+      "id": "ss270-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I have received no information that the manager has approved the request.",
+      "promptZh": "我沒有收到資料顯示經理已批准這項要求。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager has not, as far as I know, approved the request.",
+      "answerZh": "據我所知，經理尚未批准這項要求。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager has not, as far as I know, approved the request."
+    },
+    {
+      "id": "ss270-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The information currently available to us says that the road is clear.",
+      "promptZh": "我們目前掌握的資料顯示，道路暢通。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as we know, the road is clear.",
+      "answerZh": "據我們所知，道路暢通。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as we know, the road is clear."
+    },
+    {
+      "id": "ss270-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The police have no information about anyone being injured.",
+      "promptZh": "警方沒有資料顯示有人受傷。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one has been injured, as far as the police know.",
+      "answerZh": "據警方所知，沒有人受傷。",
+      "answerZhSource": "pdf",
+      "highlight": "No one has been injured, as far as the police know."
+    },
+    {
+      "id": "ss270-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Daniel understands that the parcel should arrive tomorrow.",
+      "promptZh": "丹尼爾所知的是，包裹應該會在明天送到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel should arrive tomorrow, as far as Daniel knows.",
+      "answerZh": "據丹尼爾所知，包裹應該會在明天送到。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel should arrive tomorrow, as far as Daniel knows."
+    },
+    {
+      "id": "ss270-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The engineer’s current assessment is that the building is structurally sound.",
+      "promptZh": "工程師目前評估這座大樓的結構安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building is, as far as the engineer knows, structurally sound.",
+      "answerZh": "據工程師所知，這座大樓的結構安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The building is, as far as the engineer knows, structurally sound."
+    },
+    {
+      "id": "ss270-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My understanding is that the fee does not include delivery.",
+      "promptZh": "我所知的是，這項費用不包括送貨。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I know, the fee does not include delivery.",
+      "answerZh": "據我所知，這項費用不包括送貨。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I know, the fee does not include delivery."
+    },
+    {
+      "id": "ss270-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We are not aware of any change to the programme.",
+      "promptZh": "我們不知道這項活動安排有任何改動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme remains unchanged, as far as we know.",
+      "answerZh": "據我們所知，這項活動安排維持不變。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme remains unchanged, as far as we know."
+    },
+    {
+      "id": "ss270-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "According to the caretaker’s information, the keys are in the office.",
+      "promptZh": "根據管理員掌握的資料，鎖匙在辦公室內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The keys are, as far as the caretaker knows, in the office.",
+      "answerZh": "據管理員所知，鎖匙在辦公室內。",
+      "answerZhSource": "pdf",
+      "highlight": "The keys are, as far as the caretaker knows, in the office."
+    },
+    {
+      "id": "ss270-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "According to everything currently known, the painting is genuine.",
+      "promptZh": "根據目前所有已知資料，這幅畫是真品。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as anyone knows, the painting is genuine.",
+      "answerZh": "據目前所知，這幅畫是真品。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as anyone knows, the painting is genuine."
+    },
+    {
+      "id": "ss270-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The staff know of no second entrance.",
+      "promptZh": "職員不知道這裏有第二個入口。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no second entrance, as far as the staff know.",
+      "answerZh": "據職員所知，這裏沒有第二個入口。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no second entrance, as far as the staff know."
+    },
+    {
+      "id": "ss270-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctors are not aware of any serious side effects caused by the medicine.",
+      "promptZh": "醫生不知道這種藥物曾引起任何嚴重副作用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine has, as far as the doctors know, caused no serious side effects.",
+      "answerZh": "據醫生所知，這種藥物沒有引起任何嚴重副作用。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine has, as far as the doctors know, caused no serious side effects."
+    },
+    {
+      "id": "ss270-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organisers’ latest information is that every speaker has confirmed.",
+      "promptZh": "主辦單位掌握的最新資料顯示，所有講者均已確認出席。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as the organisers know, every speaker has confirmed.",
+      "answerZh": "據主辦單位所知，所有講者均已確認出席。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as the organisers know, every speaker has confirmed."
+    },
+    {
+      "id": "ss270-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The information available to us says that the road will reopen on Monday.",
+      "promptZh": "我們掌握的資料顯示，道路將於星期一重開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road will reopen on Monday, as far as we know.",
+      "answerZh": "據我們所知，道路將於星期一重開。",
+      "answerZhSource": "pdf",
+      "highlight": "The road will reopen on Monday, as far as we know."
+    },
+    {
+      "id": "ss270-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I know of only one copy, and it is the missing file.",
+      "promptZh": "據我所知，只有一份副本，就是那份遺失的檔案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The missing file is, as far as I know, the only copy.",
+      "answerZh": "據我所知，那份遺失的檔案是唯一的副本。",
+      "answerZhSource": "pdf",
+      "highlight": "The missing file is, as far as I know, the only copy."
+    },
+    {
+      "id": "ss270-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The police have no information that any witness saw the driver leave.",
+      "promptZh": "警方沒有資料顯示任何目擊者看見司機離開。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as the police know, no witness saw the driver leave.",
+      "answerZh": "據警方所知，沒有目擊者看見司機離開。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as the police know, no witness saw the driver leave."
+    },
+    {
+      "id": "ss270-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The employees have received no official announcement from the company.",
+      "promptZh": "僱員沒有收到公司的任何正式公布。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company has, as far as its employees know, made no official announcement.",
+      "answerZh": "據公司僱員所知，公司尚未作出任何正式公布。",
+      "answerZhSource": "pdf",
+      "highlight": "The company has, as far as its employees know, made no official announcement."
+    },
+    {
+      "id": "ss270-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "She has been told that the course begins in September and knows of no change.",
+      "promptZh": "她得知課程在九月開始，而且不知道有任何改動。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as she knows, the course begins in September.",
+      "answerZh": "據她所知，課程在九月開始。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as she knows, the course begins in September."
+    },
+    {
+      "id": "ss270-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The technicians’ current information says that the software is compatible with older devices.",
+      "promptZh": "技術人員目前掌握的資料顯示，這套軟件與較舊的裝置兼容。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The software is compatible with older devices, as far as the technicians know.",
+      "answerZh": "據技術人員所知，這套軟件與較舊的裝置兼容。",
+      "answerZhSource": "pdf",
+      "highlight": "The software is compatible with older devices, as far as the technicians know."
+    },
+    {
+      "id": "ss270-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At that time, I understood that the shop closed at six.",
+      "promptZh": "當時我所知的是，這間店舖在六時關門。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I knew, the shop closed at six.",
+      "answerZh": "據我當時所知，這間店舖在六時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I knew, the shop closed at six."
+    },
+    {
+      "id": "ss270-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "According to the information we had then, the team had completed all the tests.",
+      "promptZh": "根據我們當時掌握的資料，團隊已完成所有測試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team had, as far as we knew, completed all the tests.",
+      "answerZh": "據我們當時所知，團隊已完成所有測試。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had, as far as we knew, completed all the tests."
+    },
+    {
+      "id": "ss270-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The doctor had no record of the patient having any allergies.",
+      "promptZh": "醫生當時沒有病人患有任何過敏症的紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as the doctor knew, the patient had no allergies.",
+      "answerZh": "據醫生當時所知，病人沒有任何過敏症。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as the doctor knew, the patient had no allergies."
+    },
+    {
+      "id": "ss270-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "According to the information Clara had at the time, the message was genuine.",
+      "promptZh": "根據克拉拉當時掌握的資料，那則訊息是真的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The message was genuine, as far as Clara knew.",
+      "answerZh": "據克拉拉當時所知，那則訊息是真的。",
+      "answerZhSource": "pdf",
+      "highlight": "The message was genuine, as far as Clara knew."
+    },
+    {
+      "id": "ss270-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The driver had been told that the road was still open.",
+      "promptZh": "司機當時獲告知道路仍然開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was, as far as the driver knew, still open.",
+      "answerZh": "據司機當時所知，道路仍然開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was, as far as the driver knew, still open."
+    },
+    {
+      "id": "ss270-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At that time, nobody knew of the documents ever leaving the office.",
+      "promptZh": "當時沒有人知道那些文件曾經離開辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as anyone knew, the documents had never left the office.",
+      "answerZh": "據當時所知，那些文件從未離開辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as anyone knew, the documents had never left the office."
+    },
+    {
+      "id": "ss270-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I had not heard that the meeting had been cancelled.",
+      "promptZh": "我當時沒有聽聞會議已被取消。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting had not been cancelled, as far as I knew.",
+      "answerZh": "據我當時所知，會議並未取消。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting had not been cancelled, as far as I knew."
+    },
+    {
+      "id": "ss270-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "On the information available to the keeper, the animal was harmless.",
+      "promptZh": "根據飼養員當時掌握的資料，這隻動物沒有危險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The animal was, as far as the keeper knew, harmless.",
+      "answerZh": "據飼養員當時所知，這隻動物沒有危險。",
+      "answerZhSource": "pdf",
+      "highlight": "The animal was, as far as the keeper knew, harmless."
+    },
+    {
+      "id": "ss270-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The investigators’ information at the time indicated that the fire had started in the kitchen.",
+      "promptZh": "調查人員當時掌握的資料顯示，火警由廚房開始。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as the investigators knew, the fire had started in the kitchen.",
+      "answerZh": "據調查人員當時所知，火警由廚房開始。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as the investigators knew, the fire had started in the kitchen."
+    },
+    {
+      "id": "ss270-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The accounts team’s records showed that the payment had been sent.",
+      "promptZh": "會計組的紀錄顯示，款項已經發出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The payment had been sent, as far as the accounts team knew.",
+      "answerZh": "據會計組當時所知，款項已經發出。",
+      "answerZhSource": "pdf",
+      "highlight": "The payment had been sent, as far as the accounts team knew."
+    },
+    {
+      "id": "ss270-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The council has received no objections from residents and knows of none.",
+      "promptZh": "市議會沒有收到居民的任何反對意見，也不知道有居民提出反對。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as the council knows, no residents have objected.",
+      "answerZh": "據市議會所知，沒有居民提出反對。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as the council knows, no residents have objected."
+    },
+    {
+      "id": "ss270-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "My understanding is that the new rule will apply only to new applications.",
+      "promptZh": "我所知的是，新規則只適用於新的申請。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule will, as far as I know, apply only to new applications.",
+      "answerZh": "據我所知，新規則只適用於新的申請。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule will, as far as I know, apply only to new applications."
+    },
+    {
+      "id": "ss270-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Nobody is aware of any evidence that the data were altered.",
+      "promptZh": "沒有人知道有任何證據顯示數據曾被修改。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is, as far as anyone knows, no evidence that the data were altered.",
+      "answerZh": "據目前所知，沒有證據顯示數據曾被修改。",
+      "answerZhSource": "pdf",
+      "highlight": "There is, as far as anyone knows, no evidence that the data were altered."
+    },
+    {
+      "id": "ss270-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The hospital’s records show that all affected patients have been contacted.",
+      "promptZh": "醫院的紀錄顯示，所有受影響病人均已獲得聯絡。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as the hospital knows, all affected patients have been contacted.",
+      "answerZh": "據醫院所知，所有受影響病人均已獲得聯絡。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as the hospital knows, all affected patients have been contacted."
+    },
+    {
+      "id": "ss270-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The director has no information indicating that the museum has received the missing painting.",
+      "promptZh": "館長沒有資料顯示博物館已收到那幅遺失的畫作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum has not, as far as its director knows, received the missing painting.",
+      "answerZh": "據館長所知，博物館尚未收到那幅遺失的畫作。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum has not, as far as its director knows, received the missing painting."
+    },
+    {
+      "id": "ss270-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "According to all the information available to us, the decision is final.",
+      "promptZh": "根據我們掌握的所有資料，這項決定已經落實。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision is final, as far as we know.",
+      "answerZh": "據我們所知，這項決定已經落實。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision is final, as far as we know."
+    },
+    {
+      "id": "ss270-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I have not heard that either department has approved the revised budget.",
+      "promptZh": "我沒有聽聞兩個部門中的任何一個已批准修訂預算。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I know, neither department has approved the revised budget.",
+      "answerZh": "據我所知，兩個部門均未批准修訂預算。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I know, neither department has approved the revised budget."
+    },
+    {
+      "id": "ss270-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The manufacturer’s current tests indicate that the device can operate safely at this temperature.",
+      "promptZh": "製造商目前的測試顯示，裝置可以在這個溫度下安全運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The device can, as far as the manufacturer knows, operate safely at this temperature.",
+      "answerZh": "據製造商所知，裝置可以在這個溫度下安全運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The device can, as far as the manufacturer knows, operate safely at this temperature."
+    },
+    {
+      "id": "ss270-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The project team is not aware of any further expected delays.",
+      "promptZh": "項目團隊不知道還會有任何預期延誤。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No further delays are expected, as far as the project team knows.",
+      "answerZh": "據項目團隊所知，預計不會再有延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "No further delays are expected, as far as the project team knows."
+    },
+    {
+      "id": "ss270-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "According to the information available to everyone involved, the agreement remains legally valid.",
+      "promptZh": "根據所有相關人士掌握的資料，這份協議仍然具有法律效力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The agreement remains, as far as anyone involved knows, legally valid.",
+      "answerZh": "據所有相關人士所知，這份協議仍然具有法律效力。",
+      "answerZhSource": "pdf",
+      "highlight": "The agreement remains, as far as anyone involved knows, legally valid."
+    }
+  ]
+}

@@ -1,0 +1,1222 @@
+{
+  "id": "ss219",
+  "order": 219,
+  "slug": "not-until-did-inversion",
+  "title": "「Not until ... did ...」倒裝句",
+  "titleZh": "「Not until ... did ...」倒裝句",
+  "titleEn": "Using “Not until ... did ...” inversion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 218 -「Not until ... did ...」倒裝句.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 218; it is assigned system ID ss219 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Not until + past time / past event + did + subject + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss219-formula-01",
+      "labelEn": "Past event or time",
+      "labelZh": "過去事件或時間",
+      "formula": "Not until + past time / past event + did + subject + base verb + other information"
+    }
+  ],
+  "example": "Not until the final meeting did the team realise how serious the issue was.",
+  "exampleZh": "直到最後一次會議，團隊才意識到問題有多嚴重。",
+  "examples": [
+    {
+      "id": "ss219-example-01",
+      "en": "Not until the final meeting did the team realise how serious the issue was.",
+      "zh": "直到最後一次會議，團隊才意識到問題有多嚴重。",
+      "highlight": "Not until the final meeting did the team realise how serious the issue was."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示某件事情在某個時間或事件發生之前一直沒有發生，直到那一刻才發生。"
+  },
+  "rules": [
+    {
+      "id": "ss219-rule-01",
+      "zh": "必須放在句首 一般句： The team did not realise how serious the issue was until the final meeting. 倒裝句： Not until the final meeting did the team realise how serious the issue was.",
+      "en": "Place Not until at the beginning. Compare the ordinary sentence “The team did not realise how serious the issue was until the final meeting” with the inverted form “Not until the final meeting did the team realise how serious the issue was.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss219-rule-02",
+      "zh": "主句必須使用倒裝語序 一般語序： the team realised 倒裝語序： did the team realise 正確： Not until Friday did Daniel finish the report. 錯誤： Not until Friday Daniel finished the report.",
+      "en": "Use inversion in the main clause: did + subject + base verb. Write “Not until Friday did Daniel finish the report”, not “Not until Friday Daniel finished the report.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss219-rule-03",
+      "zh": "後面必須使用動詞原形 正確： did the team realise did Sarah understand did the bus arrive 錯誤： did the team realised did Sarah understood did the bus arrived",
+      "en": "Use the base form after did: did the team realise, did Sarah understand and did the bus arrive, not realised, understood or arrived.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss219-rule-04",
+      "zh": "後面的部分不使用倒裝 正確： Not until the rain stopped did the children go outside. 錯誤： Not until did the rain stop the children go outside. 只有主句需要倒裝；until 後面的時間從句保持正常語序。",
+      "en": "Do not invert the clause after until. Only the main clause is inverted: “Not until the rain stopped did the children go outside.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss219-rule-05",
+      "zh": "主句不需要再加入 not Not until 本身已經帶有否定意思。 正確： Not until midnight did the bus arrive. 錯誤： Not until midnight did the bus not arrive.",
+      "en": "Do not add not to the inverted main clause because Not until already carries the negative meaning. Write “Not until midnight did the bus arrive.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss219-rule-06",
+      "zh": "這個句型表示「直到……才……」 Not until the teacher explained it again did I understand. 這句不是表示「我一直理解」，而是表示老師再次解釋之前，我一直不明白。",
+      "en": "The structure means “only when that time or event was reached”. It shows that the action had not happened before that point.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss219-rule-07",
+      "zh": "本課只練習過去式 did 倒裝 本課接受： Not until + past time or event + did + subject + base verb 本課不包括： Not until tomorrow will we know the result. Not until recently has the problem become clear. Not until then was he ready. 以上句子可以正確，但使用了其他時態或助動詞，不屬於本課的目標句型。",
+      "en": "This lesson practises past-time inversion with did only. Forms with will, has or was may be grammatical, but they are outside this lesson’s target.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss219-rule-08",
+      "zh": "本練習不接受以下非倒裝答案 It was not until Friday that Daniel finished the report. Daniel did not finish the report until Friday. 以上句子意思相近，但沒有使用本課要求的 Not until ... did ... 倒裝結構。",
+      "en": "Use the required inverted form. Similar non-inverted alternatives such as “It was not until ... that ...” or an ordinary “did not ... until ...” sentence are not accepted in this exercise.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss219-benefit-01",
+      "zh": "這個句型能清楚指出，事情究竟到了哪個時間或發生哪件事之後才出現變化。",
+      "en": "It makes the timing very clear. This structure clearly identifies the exact time or event that finally caused a change.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss219-benefit-02",
+      "zh": "把 Not until 放在句首，可以突出事情比預期更遲發生，或經過一段時間後才發生。 比較： The team did not understand the problem until the final meeting. Not until the final meeting did the team understand the problem. 第二句更強調「直到最後一次會議才明白」。",
+      "en": "It emphasises a delay. Putting Not until at the beginning draws attention to how late something happened.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss219-benefit-03",
+      "zh": "讀者會先看到事情一直沒有發生，然後才知道最後出現甚麼結果，因此能增加故事的懸念。",
+      "en": "It can create suspense in a story. The reader first learns about the delay and then discovers what finally happened.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss219-benefit-04",
+      "zh": "這個句型能清楚連接兩件事情，表示第一件事發生後，第二件事才出現。",
+      "en": "It connects two events clearly. The structure shows that the first event had to happen before the second event could take place.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss219-benefit-05",
+      "zh": "你不需要每次都以人物或事物開始句子，也可以先提出最重要的時間或事件，增加句式變化。",
+      "en": "It gives you another way to organise a sentence. You can begin with the important time or event instead of always beginning with the person or thing performing the action.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss219-benefit-06",
+      "zh": "這個句型適合用於故事、報告和較正式的寫作，尤其適合描述發現、延遲的決定、轉捩點和重要 領悟。",
+      "en": "It is useful in stories, reports and formal writing, especially for discoveries, delayed decisions, turning points and important realisations.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 218; it is assigned system ID ss219 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Not until ... did ....",
+      "Use the past simple form, preserve the original meaning and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 Not until ... did ... 倒裝句改寫以下句子。",
+      "使用一般過去式，保留原句意思，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss219-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I did not leave the office until eight o’clock.",
+      "promptZh": "我直到八時才離開辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until eight o’clock did I leave the office.",
+      "answerZh": "我直到八時才離開辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until eight o’clock did I leave the office."
+    },
+    {
+      "id": "ss219-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia called her mother only after she arrived home.",
+      "promptZh": "米婭回到家後才致電母親。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until she arrived home did Mia call her mother.",
+      "answerZh": "米婭直到回到家後才致電母親。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until she arrived home did Mia call her mother."
+    },
+    {
+      "id": "ss219-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children did not go outside until the rain stopped.",
+      "promptZh": "孩子們直到雨停後才到外面去。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the rain stopped did the children go outside.",
+      "answerZh": "孩子們直到雨停後才到外面去。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the rain stopped did the children go outside."
+    },
+    {
+      "id": "ss219-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We waited until Dad came home before starting dinner.",
+      "promptZh": "我們等到爸爸回家後才開始吃晚飯。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until Dad came home did we start dinner.",
+      "answerZh": "我們直到爸爸回家後才開始吃晚飯。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until Dad came home did we start dinner."
+    },
+    {
+      "id": "ss219-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It was not until Friday that Daniel finished the report.",
+      "promptZh": "丹尼爾直到星期五才完成報告。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until Friday did Daniel finish the report.",
+      "answerZh": "丹尼爾直到星期五才完成報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until Friday did Daniel finish the report."
+    },
+    {
+      "id": "ss219-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe opened the present only when her birthday finally arrived.",
+      "promptZh": "克洛伊直到生日終於來臨時才打開禮物。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until her birthday finally arrived did Chloe open the present.",
+      "answerZh": "克洛伊直到生日終於來臨時才打開禮物。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until her birthday finally arrived did Chloe open the present."
+    },
+    {
+      "id": "ss219-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bus did not arrive until nearly midnight.",
+      "promptZh": "巴士直到接近午夜才到達。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until nearly midnight did the bus arrive.",
+      "answerZh": "巴士直到接近午夜才到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until nearly midnight did the bus arrive."
+    },
+    {
+      "id": "ss219-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When did the students ask questions? They asked questions only after the teacher finished the explanation.",
+      "promptZh": "學生甚麼時候才提問？他們在老師完成解釋後才提問。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the teacher finished the explanation did the students ask questions.",
+      "answerZh": "學生直到老師完成解釋後才提問。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the teacher finished the explanation did the students ask questions."
+    },
+    {
+      "id": "ss219-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop remained open while the final customer was inside. After the customer left, the owner closed it.",
+      "promptZh": "最後一名顧客仍在店內時，店舖一直營業。顧客離開後，店主才關店。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the final customer left did the owner close the shop.",
+      "answerZh": "店主直到最後一名顧客離開後才關店。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the final customer left did the owner close the shop."
+    },
+    {
+      "id": "ss219-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben did not turn on his phone until the plane landed.",
+      "promptZh": "本直到飛機降落後才開啟電話。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the plane landed did Ben turn on his phone.",
+      "answerZh": "本直到飛機降落後才開啟電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the plane landed did Ben turn on his phone."
+    },
+    {
+      "id": "ss219-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah understood the instructions only after reading them twice.",
+      "promptZh": "莎拉把指示閱讀兩次後才明白。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until Sarah read the instructions twice did she understand them.",
+      "answerZh": "莎拉直到把指示閱讀兩次後才明白。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until Sarah read the instructions twice did she understand them."
+    },
+    {
+      "id": "ss219-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It was not until the alarm rang for the second time that Leo woke up.",
+      "promptZh": "里奧直到鬧鐘第二次響起才醒來。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the alarm rang for the second time did Leo wake up.",
+      "answerZh": "里奧直到鬧鐘第二次響起才醒來。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the alarm rang for the second time did Leo wake up."
+    },
+    {
+      "id": "ss219-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Emma waited until the weekend before buying the coat.",
+      "promptZh": "艾瑪等到週末才購買那件外套。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the weekend did Emma buy the coat.",
+      "answerZh": "艾瑪直到週末才購買那件外套。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the weekend did Emma buy the coat."
+    },
+    {
+      "id": "ss219-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace checked the calculation three times before she noticed the error.",
+      "promptZh": "格蕾絲檢查計算三次後才發現錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until Grace checked the calculation for the third time did she notice the error.",
+      "answerZh": "格蕾絲直到第三次檢查計算時才發現錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until Grace checked the calculation for the third time did she notice the error."
+    },
+    {
+      "id": "ss219-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team did not celebrate until the referee blew the final whistle.",
+      "promptZh": "球隊直到球證吹響終場哨子才慶祝。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the referee blew the final whistle did the team celebrate.",
+      "answerZh": "球隊直到球證吹響終場哨子才慶祝。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the referee blew the final whistle did the team celebrate."
+    },
+    {
+      "id": "ss219-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The dog stopped barking only when its owner opened the gate.",
+      "promptZh": "主人打開大閘後，狗才停止吠叫。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until its owner opened the gate did the dog stop barking.",
+      "answerZh": "主人直到打開大閘後，狗才停止吠叫。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until its owner opened the gate did the dog stop barking."
+    },
+    {
+      "id": "ss219-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When did the museum open its doors? It opened them only after the fire officer completed the inspection.",
+      "promptZh": "博物館甚麼時候才開門？消防人員完成檢查後，博物館才開門。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the fire officer completed the inspection did the museum open its doors.",
+      "answerZh": "博物館直到消防人員完成檢查後才開門。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the fire officer completed the inspection did the museum open its doors."
+    },
+    {
+      "id": "ss219-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "The room remained silent. People began talking after the principal left.",
+      "promptZh": "房間內一直保持安靜。校長離開後，大家才開始交談。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the principal left did people begin talking.",
+      "answerZh": "大家直到校長離開後才開始交談。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the principal left did people begin talking."
+    },
+    {
+      "id": "ss219-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It was not until the mechanic lifted the car that he found the oil leak.",
+      "promptZh": "技工直到升起汽車後才發現漏油的位置。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the mechanic lifted the car did he find the oil leak.",
+      "answerZh": "技工直到升起汽車後才發現漏油的位置。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the mechanic lifted the car did he find the oil leak."
+    },
+    {
+      "id": "ss219-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I did not understand the joke until Ava explained the cultural reference.",
+      "promptZh": "我直到艾娃解釋當中的文化背景後才明白那個笑話。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until Ava explained the cultural reference did I understand the joke.",
+      "answerZh": "我直到艾娃解釋當中的文化背景後才明白那個笑話。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until Ava explained the cultural reference did I understand the joke."
+    },
+    {
+      "id": "ss219-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager approved the request only after checking the budget.",
+      "promptZh": "經理檢查預算後才批准申請。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the manager checked the budget did he approve the request.",
+      "answerZh": "經理直到檢查預算後才批准申請。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the manager checked the budget did he approve the request."
+    },
+    {
+      "id": "ss219-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The family waited until the doctor called before sharing the news.",
+      "promptZh": "家人等到醫生來電後才公布消息。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the doctor called did the family share the news.",
+      "answerZh": "家人直到醫生來電後才公布消息。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the doctor called did the family share the news."
+    },
+    {
+      "id": "ss219-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The patient did not feel calm until the doctor explained each step of the treatment.",
+      "promptZh": "病人直到醫生解釋治療的每個步驟後才感到安心。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the doctor explained each step of the treatment did the patient feel calm.",
+      "answerZh": "病人直到醫生解釋治療的每個步驟後才感到安心。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the doctor explained each step of the treatment did the patient feel calm."
+    },
+    {
+      "id": "ss219-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It was not until the final chapter that Maya learnt who had sent the letter.",
+      "promptZh": "瑪雅直到最後一章才得知是誰寄出那封信。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the final chapter did Maya learn who had sent the letter.",
+      "answerZh": "瑪雅直到最後一章才得知是誰寄出那封信。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the final chapter did Maya learn who had sent the letter."
+    },
+    {
+      "id": "ss219-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Elena tried several passwords without success. She accessed her account after resetting the password.",
+      "promptZh": "埃琳娜嘗試了數個密碼，但都不成功。重設密碼後，她才登入帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until Elena reset the password did she access her account.",
+      "answerZh": "埃琳娜直到重設密碼後才登入帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until Elena reset the password did she access her account."
+    },
+    {
+      "id": "ss219-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The crowd cheered only when the singer returned to the stage.",
+      "promptZh": "歌手返回舞台後，觀眾才歡呼。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the singer returned to the stage did the crowd cheer.",
+      "answerZh": "觀眾直到歌手返回舞台後才歡呼。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the singer returned to the stage did the crowd cheer."
+    },
+    {
+      "id": "ss219-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When did the school publish the results? It published them only after all the marks were checked.",
+      "promptZh": "學校甚麼時候才公布成績？所有分數核對完畢後，學校才公布成績。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until all the marks were checked did the school publish the results.",
+      "answerZh": "學校直到所有分數核對完畢後才公布成績。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until all the marks were checked did the school publish the results."
+    },
+    {
+      "id": "ss219-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The technician did not locate the fault until he tested the main cable.",
+      "promptZh": "技術員直到測試主要電纜後才找出故障。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the technician tested the main cable did he locate the fault.",
+      "answerZh": "技術員直到測試主要電纜後才找出故障。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the technician tested the main cable did he locate the fault."
+    },
+    {
+      "id": "ss219-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Nora began her online meeting only after the children fell asleep.",
+      "promptZh": "孩子們入睡後，諾拉才開始網上會議。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the children fell asleep did Nora begin her online meeting.",
+      "answerZh": "諾拉直到孩子們入睡後才開始網上會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the children fell asleep did Nora begin her online meeting."
+    },
+    {
+      "id": "ss219-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We waited until all the guests arrived before serving the food.",
+      "promptZh": "我們等到所有客人到達後才上菜。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until all the guests arrived did we serve the food.",
+      "answerZh": "我們直到所有客人到達後才上菜。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until all the guests arrived did we serve the food."
+    },
+    {
+      "id": "ss219-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee did not make a final decision until it had received all the reports.",
+      "promptZh": "委員會直到收到所有報告後才作出最終決定。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the committee had received all the reports did it make a final decision.",
+      "answerZh": "委員會直到收到所有報告後才作出最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the committee had received all the reports did it make a final decision."
+    },
+    {
+      "id": "ss219-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The road remained closed throughout the morning. The workers reopened it after completing the safety inspection.",
+      "promptZh": "道路整個早上一直封閉。工人完成安全檢查後才重開道路。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the workers completed the safety inspection did they reopen the road.",
+      "answerZh": "工人直到完成安全檢查後才重開道路。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the workers completed the safety inspection did they reopen the road."
+    },
+    {
+      "id": "ss219-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It was not until the teacher compared the two examples that the class recognised the difference.",
+      "promptZh": "老師比較兩個例子後，全班才看出當中的分別。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the teacher compared the two examples did the class recognise the difference.",
+      "answerZh": "老師直到比較兩個例子後，全班才看出當中的分別。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the teacher compared the two examples did the class recognise the difference."
+    },
+    {
+      "id": "ss219-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Olivia solved the puzzle only after receiving a small hint.",
+      "promptZh": "奧莉花得到一個小提示後才解開謎題。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until Olivia received a small hint did she solve the puzzle.",
+      "answerZh": "奧莉花直到得到一個小提示後才解開謎題。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until Olivia received a small hint did she solve the puzzle."
+    },
+    {
+      "id": "ss219-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When did the doctor allow the patient to go home? The doctor gave permission only after the test results arrived.",
+      "promptZh": "醫生甚麼時候才准許病人回家？檢驗結果送到後，醫生才批准病人回家。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the test results arrived did the doctor allow the patient to go home.",
+      "answerZh": "醫生直到檢驗結果送到後才准許病人回家。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the test results arrived did the doctor allow the patient to go home."
+    },
+    {
+      "id": "ss219-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Jason waited until his friend apologised before speaking to him again.",
+      "promptZh": "傑森等到朋友道歉後才再次跟他說話。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until his friend apologised did Jason speak to him again.",
+      "answerZh": "傑森直到朋友道歉後才再次跟他說話。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until his friend apologised did Jason speak to him again."
+    },
+    {
+      "id": "ss219-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The lights did not come back on until the caretaker reset the system.",
+      "promptZh": "管理員重設系統後，燈才再次亮起。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the caretaker reset the system did the lights come back on.",
+      "answerZh": "管理員直到重設系統後，燈才再次亮起。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the caretaker reset the system did the lights come back on."
+    },
+    {
+      "id": "ss219-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The alarm continued to ring. It stopped after the technician replaced the battery.",
+      "promptZh": "警報器一直響。技術員更換電池後，它才停止。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the technician replaced the battery did the alarm stop ringing.",
+      "answerZh": "警報器直到技術員更換電池後才停止響起。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the technician replaced the battery did the alarm stop ringing."
+    },
+    {
+      "id": "ss219-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The audience laughed only when the actor explained the local reference.",
+      "promptZh": "演員解釋當地文化典故後，觀眾才笑起來。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the actor explained the local reference did the audience laugh.",
+      "answerZh": "觀眾直到演員解釋當地文化典故後才笑起來。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the actor explained the local reference did the audience laugh."
+    },
+    {
+      "id": "ss219-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It was not until the police enlarged the image that they recognised the number plate.",
+      "promptZh": "警方放大圖像後才認出車牌。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the police enlarged the image did they recognise the number plate.",
+      "answerZh": "警方直到放大圖像後才認出車牌。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the police enlarged the image did they recognise the number plate."
+    },
+    {
+      "id": "ss219-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the researchers collected the samples in April, they did not confirm the species until the laboratory tests were completed.",
+      "promptZh": "儘管研究人員在四月已收集樣本，但他們直到實驗室測試完成後才確認物種。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the laboratory tests were completed did the researchers confirm the species.",
+      "answerZh": "研究人員直到實驗室測試完成後才確認物種。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the laboratory tests were completed did the researchers confirm the species."
+    },
+    {
+      "id": "ss219-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company changed its refund policy only after the regulator began an investigation.",
+      "promptZh": "監管機構展開調查後，公司才更改退款政策。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the regulator began an investigation did the company change its refund policy.",
+      "answerZh": "公司直到監管機構展開調查後才更改退款政策。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the regulator began an investigation did the company change its refund policy."
+    },
+    {
+      "id": "ss219-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school waited until the parent group raised enough money before installing the security cameras.",
+      "promptZh": "學校等到家長組織籌得足夠款項後才安裝保安攝影機。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the parent group raised enough money did the school install the security cameras.",
+      "answerZh": "學校直到家長組織籌得足夠款項後才安裝保安攝影機。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the parent group raised enough money did the school install the security cameras."
+    },
+    {
+      "id": "ss219-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It was not until the final safety check had been completed that the hospital admitted the first patient to the new ward.",
+      "promptZh": "醫院直到最後的安全檢查完成後，才讓第一名病人入住新病房。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the final safety check had been completed did the hospital admit the first patient to the new ward.",
+      "answerZh": "醫院直到最後的安全檢查完成後，才讓第一名病人入住新病房。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the final safety check had been completed did the hospital admit the first patient to the new ward."
+    },
+    {
+      "id": "ss219-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The engineers tested the bridge several times. They allowed traffic to cross after all the measurements met the safety standards.",
+      "promptZh": "工程師多次測試大橋。所有測量結果符合安全標準後，他們才讓車輛通過。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until all the measurements met the safety standards did the engineers allow traffic to cross the bridge.",
+      "answerZh": "工程師直到所有測量結果符合安全標準後才讓車輛通過大橋。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until all the measurements met the safety standards did the engineers allow traffic to cross the bridge."
+    },
+    {
+      "id": "ss219-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The board did not approve the project until the finance team provided a revised cost estimate.",
+      "promptZh": "董事會直到財務團隊提供修訂後的成本估算才批准項目。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the finance team provided a revised cost estimate did the board approve the project.",
+      "answerZh": "董事會直到財務團隊提供修訂後的成本估算才批准項目。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the finance team provided a revised cost estimate did the board approve the project."
+    },
+    {
+      "id": "ss219-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The repair crew stopped the flow of water only after locating the damaged pipe beneath the road.",
+      "promptZh": "維修人員找到道路下方受損的水管後，才截停水流。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the damaged pipe beneath the road was located did the repair crew stop the flow of water.",
+      "answerZh": "維修人員直到找到道路下方受損的水管後才截停水流。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the damaged pipe beneath the road was located did the repair crew stop the flow of water."
+    },
+    {
+      "id": "ss219-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "When did the committee release its findings to the public? It released them only after every witness statement had been reviewed.",
+      "promptZh": "委員會甚麼時候才向公眾公布調查結果？所有證人供詞審閱完畢後，委員會才公布結果。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until every witness statement had been reviewed did the committee release its findings to the public.",
+      "answerZh": "委員會直到所有證人供詞審閱完畢後才向公眾公布調查結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until every witness statement had been reviewed did the committee release its findings to the public."
+    },
+    {
+      "id": "ss219-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The scientists did not accept the conclusion until several independent studies produced the same result.",
+      "promptZh": "科學家直到多項獨立研究得出相同結果後才接受該結論。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until several independent studies produced the same result did the scientists accept the conclusion.",
+      "answerZh": "科學家直到多項獨立研究得出相同結果後才接受該結論。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until several independent studies produced the same result did the scientists accept the conclusion."
+    },
+    {
+      "id": "ss219-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It was not until the final inspection that the engineers discovered how badly the foundation had been damaged.",
+      "promptZh": "工程師直到最後檢查時才發現地基受損的程度有多嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the final inspection did the engineers discover how badly the foundation had been damaged.",
+      "answerZh": "工程師直到最後檢查時才發現地基受損的程度有多嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the final inspection did the engineers discover how badly the foundation had been damaged."
+    }
+  ]
+}

@@ -32802,5 +32802,8568 @@ export const ACCEPTED_ANSWERS = Object.freeze({
   ],
   "ss218-q50": [
     "The two organisations signed an agreement in May, but neither side has yet to carry out the first stage of the plan."
+  ],
+  "ss219-q01": [
+    "Not until eight o’clock did I leave the office."
+  ],
+  "ss219-q02": [
+    "Not until she arrived home did Tom call her mother."
+  ],
+  "ss219-q03": [
+    "Not until the rain stopped did the children go outside."
+  ],
+  "ss219-q04": [
+    "Not until Dad came home did we start dinner."
+  ],
+  "ss219-q05": [
+    "Not until Friday did Daniel finish the report."
+  ],
+  "ss219-q06": [
+    "Not until her birthday finally arrived did Chloe open the present."
+  ],
+  "ss219-q07": [
+    "Not until nearly midnight did the bus arrive."
+  ],
+  "ss219-q08": [
+    "Not until the teacher finished the explanation did the students ask questions."
+  ],
+  "ss219-q09": [
+    "Not until the final customer left did the owner close the shop."
+  ],
+  "ss219-q10": [
+    "Not until the plane landed did Ben turn on his phone."
+  ],
+  "ss219-q11": [
+    "Not until Sarah read the instructions twice did she understand them."
+  ],
+  "ss219-q12": [
+    "Not until the alarm rang for the second time did Leo wake up."
+  ],
+  "ss219-q13": [
+    "Not until the weekend did Emma buy the coat."
+  ],
+  "ss219-q14": [
+    "Not until Grace checked the calculation for the third time did she notice the error."
+  ],
+  "ss219-q15": [
+    "Not until the referee blew the final whistle did the team celebrate."
+  ],
+  "ss219-q16": [
+    "Not until its owner opened the gate did the dog stop barking."
+  ],
+  "ss219-q17": [
+    "Not until the fire officer completed the inspection did the museum open its doors."
+  ],
+  "ss219-q18": [
+    "Not until the principal left did people begin talking."
+  ],
+  "ss219-q19": [
+    "Not until the mechanic lifted the car did he find the oil leak."
+  ],
+  "ss219-q20": [
+    "Not until Ava explained the cultural reference did I understand the joke."
+  ],
+  "ss219-q21": [
+    "Not until the manager checked the budget did he approve the request."
+  ],
+  "ss219-q22": [
+    "Not until the doctor called did the family share the news."
+  ],
+  "ss219-q23": [
+    "Not until the doctor explained each step of the treatment did the patient feel calm."
+  ],
+  "ss219-q24": [
+    "Not until the final chapter did Maya learn who had sent the letter."
+  ],
+  "ss219-q25": [
+    "Not until Elena reset the password did she access her account."
+  ],
+  "ss219-q26": [
+    "Not until the singer returned to the stage did the crowd cheer."
+  ],
+  "ss219-q27": [
+    "Not until all the marks were checked did the school publish the results."
+  ],
+  "ss219-q28": [
+    "Not until the technician tested the main cable did he locate the fault."
+  ],
+  "ss219-q29": [
+    "Not until the children fell asleep did Nora begin her online meeting."
+  ],
+  "ss219-q30": [
+    "Not until all the guests arrived did we serve the food."
+  ],
+  "ss219-q31": [
+    "Not until the committee had received all the reports did it make a final decision."
+  ],
+  "ss219-q32": [
+    "Not until the workers completed the safety inspection did they reopen the road."
+  ],
+  "ss219-q33": [
+    "Not until the teacher compared the two examples did the class recognise the difference."
+  ],
+  "ss219-q34": [
+    "Not until Olivia received a small hint did she solve the puzzle."
+  ],
+  "ss219-q35": [
+    "Not until the test results arrived did the doctor allow the patient to go home."
+  ],
+  "ss219-q36": [
+    "Not until his friend apologised did Jason speak to him again."
+  ],
+  "ss219-q37": [
+    "Not until the caretaker reset the system did the lights come back on."
+  ],
+  "ss219-q38": [
+    "Not until the technician replaced the battery did the alarm stop ringing."
+  ],
+  "ss219-q39": [
+    "Not until the actor explained the local reference did the audience laugh."
+  ],
+  "ss219-q40": [
+    "Not until the police enlarged the image did they recognise the number plate."
+  ],
+  "ss219-q41": [
+    "Not until the laboratory tests were completed did the researchers confirm the species."
+  ],
+  "ss219-q42": [
+    "Not until the regulator began an investigation did the company change its refund policy."
+  ],
+  "ss219-q43": [
+    "Not until the parent group raised enough money did the school install the security cameras."
+  ],
+  "ss219-q44": [
+    "Not until the final safety check had been completed did the hospital admit the first patient to the new ward."
+  ],
+  "ss219-q45": [
+    "Not until all the measurements met the safety standards did the engineers allow traffic to cross the bridge."
+  ],
+  "ss219-q46": [
+    "Not until the finance team provided a revised cost estimate did the board approve the project."
+  ],
+  "ss219-q47": [
+    "Not until the damaged pipe beneath the road was located did the repair crew stop the flow of water."
+  ],
+  "ss219-q48": [
+    "Not until every witness statement had been reviewed did the committee release its findings to the public."
+  ],
+  "ss219-q49": [
+    "Not until several independent studies produced the same result did the scientists accept the conclusion."
+  ],
+  "ss219-q50": [
+    "Not until the final inspection did the engineers discover how badly the foundation had been damaged."
+  ],
+  "ss220-q01": [
+    "Only when people feel safe do they speak honestly."
+  ],
+  "ss220-q02": [
+    "Only when the room is quiet can I concentrate."
+  ],
+  "ss220-q03": [
+    "Only when Tom feels relaxed does she smile."
+  ],
+  "ss220-q04": [
+    "Only when a passenger presses the button does the bus stop."
+  ],
+  "ss220-q05": [
+    "Only when the library is open can students go inside."
+  ],
+  "ss220-q06": [
+    "Only when the weather is cold does my father turn on the heater."
+  ],
+  "ss220-q07": [
+    "Only when it is sunny do we eat outside."
+  ],
+  "ss220-q08": [
+    "Only when the charging cable is connected does the phone charge."
+  ],
+  "ss220-q09": [
+    "Only when the café is not crowded does Emma study there."
+  ],
+  "ss220-q10": [
+    "Only when someone comes to the door does the dog bark."
+  ],
+  "ss220-q11": [
+    "Only when Leo explained the joke did I understand it."
+  ],
+  "ss220-q12": [
+    "Only when the rain started did they leave the park."
+  ],
+  "ss220-q13": [
+    "Only when the clouds moved away could we see the mountain."
+  ],
+  "ss220-q14": [
+    "Only when the teacher entered the room did the children become quiet."
+  ],
+  "ss220-q15": [
+    "Only when Ben checked the answer did he realise his mistake."
+  ],
+  "ss220-q16": [
+    "Only when a supervisor is present can you use the machine."
+  ],
+  "ss220-q17": [
+    "Only when everyone arrives will we start the meeting."
+  ],
+  "ss220-q18": [
+    "Only when the guide permits it should visitors take photographs."
+  ],
+  "ss220-q19": [
+    "Only when the alarm stops must staff open the door."
+  ],
+  "ss220-q20": [
+    "Only when all the windows are closed is the room safe."
+  ],
+  "ss220-q21": [
+    "Only when I had finished all my work could I relax."
+  ],
+  "ss220-q22": [
+    "Only when the teacher gave a second example did Sara begin to understand the lesson."
+  ],
+  "ss220-q23": [
+    "Only when the electrician fixed the wire did the lights come on."
+  ],
+  "ss220-q24": [
+    "Only when the shop closed did we notice the missing bag."
+  ],
+  "ss220-q25": [
+    "Only when I had practised several times did I feel confident."
+  ],
+  "ss220-q26": [
+    "Only when the room became quiet did the baby fall asleep."
+  ],
+  "ss220-q27": [
+    "Only when cookies are enabled does the website work properly."
+  ],
+  "ss220-q28": [
+    "Only when the doctor says it is necessary should the medicine be taken."
+  ],
+  "ss220-q29": [
+    "Only when all its doors are fully closed can the lift move."
+  ],
+  "ss220-q30": [
+    "Only when the rain stops will the match continue."
+  ],
+  "ss220-q31": [
+    "Only when Noah has finished dinner does he check his messages."
+  ],
+  "ss220-q32": [
+    "Only when we read the final email did we discover the truth."
+  ],
+  "ss220-q33": [
+    "Only when the manager had spoken to every team member did she make a decision."
+  ],
+  "ss220-q34": [
+    "Only when smoke reaches the sensor does the alarm sound."
+  ],
+  "ss220-q35": [
+    "Only when a parent has given permission can a student leave early."
+  ],
+  "ss220-q36": [
+    "Only when the bank confirms the mistake will it return the money."
+  ],
+  "ss220-q37": [
+    "Only when the plants receive enough light do they grow well."
+  ],
+  "ss220-q38": [
+    "Only when Grace read the full report did she see how serious the problem was."
+  ],
+  "ss220-q39": [
+    "Only when the new bridge opened did the village become easy to reach."
+  ],
+  "ss220-q40": [
+    "Only when trained staff are on duty is the service available."
+  ],
+  "ss220-q41": [
+    "Only when customers had shared their comments could the team improve the plan."
+  ],
+  "ss220-q42": [
+    "Only when the weather becomes dangerous will the school cancel outdoor activities."
+  ],
+  "ss220-q43": [
+    "Only when the correct treatment had been given did the patient begin to recover."
+  ],
+  "ss220-q44": [
+    "Only when the family is ready should we share the news."
+  ],
+  "ss220-q45": [
+    "Only when the company had checked every delivery record did it understand the cause of the delay."
+  ],
+  "ss220-q46": [
+    "Only when decisions are explained clearly can the public trust the system."
+  ],
+  "ss220-q47": [
+    "Only when every department follows the new rule will it be effective."
+  ],
+  "ss220-q48": [
+    "Only when Dr Lee had compared the results from all three groups did she recognise the pattern."
+  ],
+  "ss220-q49": [
+    "Only when many residents complained did the council admit that the plan needed changes."
+  ],
+  "ss220-q50": [
+    "Only when we have seen results over a longer period can we judge whether the programme has worked."
+  ],
+  "ss221-q01": [
+    "Only after the report was published did the public understand the scale of the problem."
+  ],
+  "ss221-q02": [
+    "Only after Tom had finished her homework did she relax."
+  ],
+  "ss221-q03": [
+    "Only after the electrician repaired the damaged wire did the lights come back on."
+  ],
+  "ss221-q04": [
+    "Only after we returned home did we realise that the door was unlocked."
+  ],
+  "ss221-q05": [
+    "Only after the teacher explained why his comment was hurtful did Leo apologise."
+  ],
+  "ss221-q06": [
+    "Only after every passenger had boarded did the bus start moving."
+  ],
+  "ss221-q07": [
+    "Only after the rain stopped did the children go outside."
+  ],
+  "ss221-q08": [
+    "Only after the manager approved the budget did the team begin work."
+  ],
+  "ss221-q09": [
+    "Only after completing a final check did the doctor allow the patient to leave."
+  ],
+  "ss221-q10": [
+    "Only after the meeting ended did Emma turn on her phone."
+  ],
+  "ss221-q11": [
+    "Only after reading the instructions did Noah understand how the machine worked."
+  ],
+  "ss221-q12": [
+    "Only after Sam had printed the poster did he notice the spelling mistake."
+  ],
+  "ss221-q13": [
+    "Only after the speaker had finished did the audience begin asking questions."
+  ],
+  "ss221-q14": [
+    "Only after the inspectors completed the safety check did the shop reopen."
+  ],
+  "ss221-q15": [
+    "Only after the teacher gave an example did Olivia answer the question."
+  ],
+  "ss221-q16": [
+    "Only after we compared the two maps did the problem become clear."
+  ],
+  "ss221-q17": [
+    "Only after water reached the hallway did they discover the leak."
+  ],
+  "ss221-q18": [
+    "Only after the joke had been explained did the group laugh."
+  ],
+  "ss221-q19": [
+    "Only after the operator reset the controls did the machine begin working."
+  ],
+  "ss221-q20": [
+    "Only after the documents were released did the reporters learn the truth."
+  ],
+  "ss221-q21": [
+    "Only after receiving several complaints did the council repair the footpath."
+  ],
+  "ss221-q22": [
+    "Only after the nurse demonstrated each step did the patient understand the instructions."
+  ],
+  "ss221-q23": [
+    "Only after the test results arrived did the doctor change the treatment."
+  ],
+  "ss221-q24": [
+    "Only after the evidence was made public did the company admit its error."
+  ],
+  "ss221-q25": [
+    "Only after the council reduced the height of the building did the residents support the proposal."
+  ],
+  "ss221-q26": [
+    "Only after the students began their own projects did they appreciate the value of research."
+  ],
+  "ss221-q27": [
+    "Only after the coach showed the players what they had improved did the team regain its confidence."
+  ],
+  "ss221-q28": [
+    "Only after the security footage had been reviewed did the police identify the suspect."
+  ],
+  "ss221-q29": [
+    "Only after experts confirmed that the painting had been stolen did the museum return it."
+  ],
+  "ss221-q30": [
+    "Only after the engineers raised new safety concerns did the board postpone the launch."
+  ],
+  "ss221-q31": [
+    "Only after the lawyer showed her a photograph did the witness remember the missing detail."
+  ],
+  "ss221-q32": [
+    "Only after the technician disconnected the faulty sensor did the alarm stop."
+  ],
+  "ss221-q33": [
+    "Only after checking the original records did we understand why the figures differed."
+  ],
+  "ss221-q34": [
+    "Only after the new supply pipe had been completed did the village receive clean water."
+  ],
+  "ss221-q35": [
+    "Only after the manager saw the workload data did she agree to hire additional staff."
+  ],
+  "ss221-q36": [
+    "Only after the damaged vehicle had been removed did traffic start moving again."
+  ],
+  "ss221-q37": [
+    "Only after the programme’s results were independently verified did the public begin to trust it."
+  ],
+  "ss221-q38": [
+    "Only after his father found his lost toy did the child stop crying."
+  ],
+  "ss221-q39": [
+    "Only after several legal problems had arisen did the organisation change its policy."
+  ],
+  "ss221-q40": [
+    "Only after every stage had been tested separately did the team identify the cause of the fault."
+  ],
+  "ss221-q41": [
+    "Only after comparing this year’s figures with those from the previous five years did the committee recognise the seriousness of the situation."
+  ],
+  "ss221-q42": [
+    "Only after an internal review revealed repeated recording errors did the hospital introduce a new checking system."
+  ],
+  "ss221-q43": [
+    "Only after air-quality monitors detected dangerous gas levels did the authorities evacuate the area."
+  ],
+  "ss221-q44": [
+    "Only after repeated experiments produced the same unexpected result did the researchers reject their initial explanation."
+  ],
+  "ss221-q45": [
+    "Only after officials guaranteed that the public garden would remain open did the residents accept the redevelopment proposal."
+  ],
+  "ss221-q46": [
+    "Only after engineers had confirmed that no customer data was at risk did the company restore access to the system."
+  ],
+  "ss221-q47": [
+    "Only after the messages had been arranged in chronological order did the court understand their significance."
+  ],
+  "ss221-q48": [
+    "Only after teachers, parents and students had all described how the policy affected them did the school revise it."
+  ],
+  "ss221-q49": [
+    "Only after newly released records contradicted its earlier official statements did the government announce an independent inquiry."
+  ],
+  "ss221-q50": [
+    "Only after repeated apologies failed to improve the public response did the leaders realise that trust could not be rebuilt through promises alone."
+  ],
+  "ss222-q01": [
+    "Only by practising every day can Tom improve her pronunciation."
+  ],
+  "ss222-q02": [
+    "Only by reading the instructions carefully can you use this machine safely."
+  ],
+  "ss222-q03": [
+    "Only by saving money regularly can Leo afford a new laptop."
+  ],
+  "ss222-q04": [
+    "Only by asking questions can pupils understand difficult ideas."
+  ],
+  "ss222-q05": [
+    "Only by getting enough sleep can we stay alert in class."
+  ],
+  "ss222-q06": [
+    "Only by checking the timetable first can Eva avoid missing the last bus."
+  ],
+  "ss222-q07": [
+    "Only by working together can the team finish the large project on time."
+  ],
+  "ss222-q08": [
+    "Only by entering the correct password can users open the protected file."
+  ],
+  "ss222-q09": [
+    "Only by practising speaking regularly can students become more confident speakers."
+  ],
+  "ss222-q10": [
+    "Only by sorting their waste into the right bins can residents use the building’s recycling system correctly."
+  ],
+  "ss222-q11": [
+    "Only by comparing prices carefully can shoppers find the best available deal."
+  ],
+  "ss222-q12": [
+    "Only by keeping your receipts can you prove what you bought."
+  ],
+  "ss222-q13": [
+    "Only by switching off unnecessary lights can a household stop wasting electricity in empty rooms."
+  ],
+  "ss222-q14": [
+    "Only by following the recipe carefully can a beginner bake the cake successfully."
+  ],
+  "ss222-q15": [
+    "Only by updating the software can users remove this known security weakness."
+  ],
+  "ss222-q16": [
+    "Only by listening to both sides can a manager make a fair decision."
+  ],
+  "ss222-q17": [
+    "Only by testing its water regularly can a community know whether it is safe to drink."
+  ],
+  "ss222-q18": [
+    "Only by budgeting carefully can a family keep its monthly spending within its income."
+  ],
+  "ss222-q19": [
+    "Only by practising under examination conditions can candidates learn how quickly they must work."
+  ],
+  "ss222-q20": [
+    "Only by maintaining the equipment regularly can many breakdowns be prevented."
+  ],
+  "ss222-q21": [
+    "Only by providing clear examples can teachers make abstract ideas easier to understand."
+  ],
+  "ss222-q22": [
+    "Only by being honest about their mistakes can leaders begin to rebuild public trust."
+  ],
+  "ss222-q23": [
+    "Only by removing unnecessary packaging can companies reduce the plastic waste produced by their packaging."
+  ],
+  "ss222-q24": [
+    "Only by checking its sources can you verify an online claim."
+  ],
+  "ss222-q25": [
+    "Only by making public transport more convenient can the city make it a realistic alternative to cars."
+  ],
+  "ss222-q26": [
+    "Only by collecting enough evidence can researchers draw a reliable conclusion."
+  ],
+  "ss222-q27": [
+    "Only by protecting customers’ personal information can an organisation maintain their confidence in its data practices."
+  ],
+  "ss222-q28": [
+    "Only by treating symptoms early can doctors reduce the risk of some illnesses becoming serious."
+  ],
+  "ss222-q29": [
+    "Only by allowing staff to raise concerns safely can a company discover hidden workplace problems."
+  ],
+  "ss222-q30": [
+    "Only by reviewing its spending regularly can a charity check whether donations are being used responsibly."
+  ],
+  "ss222-q31": [
+    "Only by investing in teacher training can the school prepare teachers to deliver the new curriculum."
+  ],
+  "ss222-q32": [
+    "Only by planning their routes in advance can emergency teams reach remote areas quickly."
+  ],
+  "ss222-q33": [
+    "Only by cooperating across borders can governments tackle international cybercrime effectively."
+  ],
+  "ss222-q34": [
+    "Only by measuring the results honestly can officials determine whether the policy is working."
+  ],
+  "ss222-q35": [
+    "Only by designing websites with different users’ needs in mind can organisations make online services accessible to people with different abilities."
+  ],
+  "ss222-q36": [
+    "Only by limiting unnecessary meetings can companies give staff more time for focused work."
+  ],
+  "ss222-q37": [
+    "Only by combining renewable energy with reliable storage can a country rely on renewable power at night and during calm weather."
+  ],
+  "ss222-q38": [
+    "Only by consulting local people can planners learn how residents use an area."
+  ],
+  "ss222-q39": [
+    "Only by being transparent about the costs can the hospital answer public concerns about the new funding plan."
+  ],
+  "ss222-q40": [
+    "Only by balancing speed with careful review can news organisations avoid spreading false information."
+  ],
+  "ss222-q41": [
+    "Only by examining the long-term outcomes can policymakers know whether short-term success is genuine."
+  ],
+  "ss222-q42": [
+    "Only by giving disadvantaged pupils additional support can schools stop them from falling further behind."
+  ],
+  "ss222-q43": [
+    "Only by establishing clear rules for data use can governments protect privacy while encouraging innovation."
+  ],
+  "ss222-q44": [
+    "Only by improving both wages and working conditions can the hospital retain its experienced nurses."
+  ],
+  "ss222-q45": [
+    "Only by testing its algorithm on diverse groups can a company determine whether it treats applicants fairly."
+  ],
+  "ss222-q46": [
+    "Only by involving frontline staff in the planning process can an organisation learn whether its proposed procedures will work in practice."
+  ],
+  "ss222-q47": [
+    "Only by reducing demand as well as increasing supply can the city address its water shortages sustainably."
+  ],
+  "ss222-q48": [
+    "Only by publishing both positive and negative results can researchers give the public an accurate picture of a study."
+  ],
+  "ss222-q49": [
+    "Only by considering a project’s financial, environmental and social costs can investors make a complete judgement about it."
+  ],
+  "ss222-q50": [
+    "Only by combining strong regulation with public education can society reduce the harm caused by misleading online content."
+  ],
+  "ss223-q01": [
+    "Hardly had we sat down when the fire alarm went off."
+  ],
+  "ss223-q02": [
+    "Hardly had Tom closed the door when someone knocked."
+  ],
+  "ss223-q03": [
+    "Hardly had the lesson started when the lights went out."
+  ],
+  "ss223-q04": [
+    "Hardly had Tom gone to bed when his phone rang."
+  ],
+  "ss223-q05": [
+    "Hardly had I opened my umbrella when the rain stopped."
+  ],
+  "ss223-q06": [
+    "Hardly had the bus left when Leo realised that his bag was still on it."
+  ],
+  "ss223-q07": [
+    "Hardly had the baby fallen asleep when the dog began to bark."
+  ],
+  "ss223-q08": [
+    "Hardly had Ava turned on the computer when the screen froze."
+  ],
+  "ss223-q09": [
+    "Hardly had we reached the station when the train arrived."
+  ],
+  "ss223-q10": [
+    "Hardly had Ben put the cake on the table when his sister took a piece."
+  ],
+  "ss223-q11": [
+    "Hardly had the match begun when it started to rain."
+  ],
+  "ss223-q12": [
+    "Hardly had Sarah entered the shop when she saw the bag she wanted."
+  ],
+  "ss223-q13": [
+    "Hardly had I sent the message when I noticed a spelling mistake."
+  ],
+  "ss223-q14": [
+    "Hardly had the teacher asked the question when Omar raised his hand."
+  ],
+  "ss223-q15": [
+    "Hardly had the guests arrived when dinner was served."
+  ],
+  "ss223-q16": [
+    "Hardly had Daniel stepped outside when he heard thunder."
+  ],
+  "ss223-q17": [
+    "Hardly had the film started when a baby began to cry."
+  ],
+  "ss223-q18": [
+    "Hardly had Chloe paid for her coffee when she dropped it."
+  ],
+  "ss223-q19": [
+    "Hardly had the doctor entered the room when the patient asked a question."
+  ],
+  "ss223-q20": [
+    "Hardly had we unpacked our bags when the hotel fire alarm sounded."
+  ],
+  "ss223-q21": [
+    "Hardly had the road been reopened when another accident blocked it."
+  ],
+  "ss223-q22": [
+    "Hardly had the new printer been installed when it stopped working."
+  ],
+  "ss223-q23": [
+    "Hardly had the children finished lunch when the bell rang."
+  ],
+  "ss223-q24": [
+    "Hardly had Nina put her phone away when it rang again."
+  ],
+  "ss223-q25": [
+    "Hardly had the team scored its first goal when the other side scored."
+  ],
+  "ss223-q26": [
+    "Hardly had the museum opened when a large group of visitors arrived."
+  ],
+  "ss223-q27": [
+    "Hardly had Ethan locked the front door when he remembered that his keys were inside."
+  ],
+  "ss223-q28": [
+    "Hardly had the nurse left the room when the patient called her back."
+  ],
+  "ss223-q29": [
+    "Hardly had the meeting ended when the manager announced another one."
+  ],
+  "ss223-q30": [
+    "Hardly had the workers repaired the pipe when it began to leak again."
+  ],
+  "ss223-q31": [
+    "Hardly had I taken the first bite when I realised that the soup was too salty."
+  ],
+  "ss223-q32": [
+    "Hardly had the children walked onto the beach when the lifeguard told everyone to leave the water."
+  ],
+  "ss223-q33": [
+    "Hardly had the online lesson begun when the internet connection failed."
+  ],
+  "ss223-q34": [
+    "Hardly had the package been delivered when the customer reported that an item was missing."
+  ],
+  "ss223-q35": [
+    "Hardly had Grace finished cleaning the floor when her dog ran across it with muddy feet."
+  ],
+  "ss223-q36": [
+    "Hardly had the plane landed when several passengers stood up to get their bags."
+  ],
+  "ss223-q37": [
+    "Hardly had the shop assistant changed the price sign when the manager told her to change it back."
+  ],
+  "ss223-q38": [
+    "Hardly had the town repaired the bridge when heavy rain damaged it again."
+  ],
+  "ss223-q39": [
+    "Hardly had we found our seats when the lights went down and the play began."
+  ],
+  "ss223-q40": [
+    "Hardly had the police cleared the road when another broken-down car blocked one lane."
+  ],
+  "ss223-q41": [
+    "Hardly had the school introduced the new timetable when several parents asked for changes."
+  ],
+  "ss223-q42": [
+    "Hardly had the hospital opened the new waiting area when it became too crowded."
+  ],
+  "ss223-q43": [
+    "Hardly had the company sent the final report when a client pointed out an error on the first page."
+  ],
+  "ss223-q44": [
+    "Hardly had the hikers reached the shelter when strong winds began to shake the windows."
+  ],
+  "ss223-q45": [
+    "Hardly had the restaurant reopened after repairs when a water pipe burst in the kitchen."
+  ],
+  "ss223-q46": [
+    "Hardly had the council planted the young trees when a storm damaged several of them."
+  ],
+  "ss223-q47": [
+    "Hardly had the coach explained the new plan when one player noticed that the team did not have enough time to practise it."
+  ],
+  "ss223-q48": [
+    "Hardly had the library launched its online booking system when users began reporting problems with their passwords."
+  ],
+  "ss223-q49": [
+    "Hardly had the rescue team reached the village when another call for help came from the other side of the mountain."
+  ],
+  "ss223-q50": [
+    "Hardly had the school finished testing its new alarm system when a real emergency forced everyone to leave the building."
+  ],
+  "ss224-q01": [
+    "No sooner had Tom sat down than the lesson began."
+  ],
+  "ss224-q02": [
+    "No sooner had I opened the door than the dog ran outside."
+  ],
+  "ss224-q03": [
+    "No sooner had the train stopped than the passengers began to get off."
+  ],
+  "ss224-q04": [
+    "No sooner had Leo turned off the light than his phone rang."
+  ],
+  "ss224-q05": [
+    "No sooner had the rain started than people opened their umbrellas."
+  ],
+  "ss224-q06": [
+    "No sooner had the chef served the soup than the customer asked for some salt."
+  ],
+  "ss224-q07": [
+    "No sooner had we reached the bus stop than the bus arrived."
+  ],
+  "ss224-q08": [
+    "No sooner had Emma finished her homework than she turned on the television."
+  ],
+  "ss224-q09": [
+    "No sooner had the shop opened than the first customer entered."
+  ],
+  "ss224-q10": [
+    "No sooner had the baby fallen asleep than the doorbell rang."
+  ],
+  "ss224-q11": [
+    "No sooner had the bell rung than the students left the classroom."
+  ],
+  "ss224-q12": [
+    "No sooner had Daniel sent the email than his manager replied."
+  ],
+  "ss224-q13": [
+    "No sooner had the lights gone out than the emergency system came on."
+  ],
+  "ss224-q14": [
+    "No sooner had Ava locked the door than she realised that her keys were inside."
+  ],
+  "ss224-q15": [
+    "No sooner had the match ended than the supporters ran onto the pitch."
+  ],
+  "ss224-q16": [
+    "No sooner had the nurse entered the room than the patient began to speak."
+  ],
+  "ss224-q17": [
+    "No sooner had the alarm sounded than the staff left the building."
+  ],
+  "ss224-q18": [
+    "No sooner had the laptop connected to the Wi-Fi network than the updates started downloading."
+  ],
+  "ss224-q19": [
+    "No sooner had the audience taken their seats than the lights dimmed."
+  ],
+  "ss224-q20": [
+    "No sooner had Henry signed the contract than he received a welcome pack."
+  ],
+  "ss224-q21": [
+    "No sooner had the decision been announced than criticism began to spread."
+  ],
+  "ss224-q22": [
+    "No sooner had the final whistle been blown than the crowd started celebrating."
+  ],
+  "ss224-q23": [
+    "No sooner had the road reopened than the traffic began to move."
+  ],
+  "ss224-q24": [
+    "No sooner had the examination results been published than the website crashed."
+  ],
+  "ss224-q25": [
+    "No sooner had the package been delivered than the customer reported that it was damaged."
+  ],
+  "ss224-q26": [
+    "No sooner had the teacher asked the question than several hands went up."
+  ],
+  "ss224-q27": [
+    "No sooner had the medicine been given than the patient’s breathing improved."
+  ],
+  "ss224-q28": [
+    "No sooner had the power returned than the machines restarted automatically."
+  ],
+  "ss224-q29": [
+    "No sooner had the speaker begun her presentation than the microphone stopped working."
+  ],
+  "ss224-q30": [
+    "No sooner had the team completed the safety check than the doors were opened."
+  ],
+  "ss224-q31": [
+    "No sooner had the booking system gone online than all the available spaces were taken."
+  ],
+  "ss224-q32": [
+    "No sooner had the company released the update than users reported an error."
+  ],
+  "ss224-q33": [
+    "No sooner had the children left the room than the cleaner started work."
+  ],
+  "ss224-q34": [
+    "No sooner had the warning been issued than residents began leaving the area."
+  ],
+  "ss224-q35": [
+    "No sooner had the judge entered the courtroom than everyone stood up."
+  ],
+  "ss224-q36": [
+    "No sooner had the new policy come into effect than complaints started arriving."
+  ],
+  "ss224-q37": [
+    "No sooner had Olivia placed the order than she noticed that she had entered the wrong address."
+  ],
+  "ss224-q38": [
+    "No sooner had the curtain risen than the audience became silent."
+  ],
+  "ss224-q39": [
+    "No sooner had the patient returned home than the hospital called again."
+  ],
+  "ss224-q40": [
+    "No sooner had the final payment been made than the keys were handed over."
+  ],
+  "ss224-q41": [
+    "No sooner had the committee approved the proposal than the finance team began preparing the budget."
+  ],
+  "ss224-q42": [
+    "No sooner had the emergency message been sent to the staff than the telephone lines became overloaded."
+  ],
+  "ss224-q43": [
+    "No sooner had the revised timetable been uploaded than students began reporting scheduling conflicts."
+  ],
+  "ss224-q44": [
+    "No sooner had the maintenance team put the lift back into service than it stopped again."
+  ],
+  "ss224-q45": [
+    "No sooner had the last patient left the clinic than the cleaning staff began disinfecting the rooms."
+  ],
+  "ss224-q46": [
+    "No sooner had the company confirmed the merger than journalists started requesting interviews."
+  ],
+  "ss224-q47": [
+    "No sooner had the researchers published their early findings than other teams began questioning their research methods."
+  ],
+  "ss224-q48": [
+    "No sooner had the council introduced the new parking system than residents demanded changes."
+  ],
+  "ss224-q49": [
+    "No sooner had the school informed parents that classes would be suspended than messages flooded the office."
+  ],
+  "ss224-q50": [
+    "No sooner had the organisation completed one round of restructuring than another financial crisis forced it to revise its plans again."
+  ],
+  "ss225-q01": [
+    "Scarcely had the bell rung when the students left the classroom."
+  ],
+  "ss225-q02": [
+    "Scarcely had Tom opened the door when the dog ran outside."
+  ],
+  "ss225-q03": [
+    "Scarcely had I sat down when the phone rang."
+  ],
+  "ss225-q04": [
+    "Scarcely had the rain stopped when the children went outside."
+  ],
+  "ss225-q05": [
+    "Scarcely had the bus arrived when the passengers started boarding."
+  ],
+  "ss225-q06": [
+    "Scarcely had Ben turned off the light when he heard a strange noise."
+  ],
+  "ss225-q07": [
+    "Scarcely had the lesson ended when everyone began packing their bags."
+  ],
+  "ss225-q08": [
+    "Scarcely had Emma sent the message when she received a reply."
+  ],
+  "ss225-q09": [
+    "Scarcely had the shop opened when customers entered."
+  ],
+  "ss225-q10": [
+    "Scarcely had the baby fallen asleep when the parents began cleaning the kitchen."
+  ],
+  "ss225-q11": [
+    "Scarcely had Leo finished breakfast when he left for work."
+  ],
+  "ss225-q12": [
+    "Scarcely had the train stopped when the doors opened."
+  ],
+  "ss225-q13": [
+    "Scarcely had Olivia placed the cake on the table when the children gathered around it."
+  ],
+  "ss225-q14": [
+    "Scarcely had Daniel closed his laptop when his manager called him."
+  ],
+  "ss225-q15": [
+    "Scarcely had the match ended when the crowd cheered."
+  ],
+  "ss225-q16": [
+    "Scarcely had the nurse entered the room when the patient asked a question."
+  ],
+  "ss225-q17": [
+    "Scarcely had the lights come on when the audience applauded."
+  ],
+  "ss225-q18": [
+    "Scarcely had Grace unlocked her bicycle when it began to rain."
+  ],
+  "ss225-q19": [
+    "Scarcely had the waiter served the food when everyone started eating."
+  ],
+  "ss225-q20": [
+    "Scarcely had the computer restarted when the warning message appeared."
+  ],
+  "ss225-q21": [
+    "Scarcely had the report been uploaded when the editor began reviewing it."
+  ],
+  "ss225-q22": [
+    "Scarcely had the road been cleared when traffic began moving again."
+  ],
+  "ss225-q23": [
+    "Scarcely had the new timetable been announced when students started checking their classes."
+  ],
+  "ss225-q24": [
+    "Scarcely had Chloe finished speaking when the chairperson asked her another question."
+  ],
+  "ss225-q25": [
+    "Scarcely had the doctor examined the patient when she ordered further tests."
+  ],
+  "ss225-q26": [
+    "Scarcely had the museum opened its new exhibition when visitors began taking photographs."
+  ],
+  "ss225-q27": [
+    "Scarcely had the firefighters put out the fire when investigators entered the building."
+  ],
+  "ss225-q28": [
+    "Scarcely had the chef removed the bread from the oven when the fire alarm sounded."
+  ],
+  "ss225-q29": [
+    "Scarcely had the teacher handed out the test papers when the room became silent."
+  ],
+  "ss225-q30": [
+    "Scarcely had the final runner crossed the finishing line when the organisers announced the results."
+  ],
+  "ss225-q31": [
+    "Scarcely had the lift doors opened when everyone stepped out."
+  ],
+  "ss225-q32": [
+    "Scarcely had the power been restored when the machines started running again."
+  ],
+  "ss225-q33": [
+    "Scarcely had the announcement ended when reporters began asking questions."
+  ],
+  "ss225-q34": [
+    "Scarcely had the customer completed the online form when a confirmation email arrived."
+  ],
+  "ss225-q35": [
+    "Scarcely had Maya locked the front door when she realised that her keys were still inside."
+  ],
+  "ss225-q36": [
+    "Scarcely had the referee blown the final whistle when players from both teams shook hands."
+  ],
+  "ss225-q37": [
+    "Scarcely had the package been delivered when the customer received a request for feedback."
+  ],
+  "ss225-q38": [
+    "Scarcely had the speaker introduced the topic when several hands went up."
+  ],
+  "ss225-q39": [
+    "Scarcely had the medicine been given when the patient began to feel calmer."
+  ],
+  "ss225-q40": [
+    "Scarcely had the security guard opened the gate when the waiting vehicles moved forward."
+  ],
+  "ss225-q41": [
+    "Scarcely had the committee approved the revised plan when the finance team began preparing the budget."
+  ],
+  "ss225-q42": [
+    "Scarcely had the new booking system gone online when users started reporting a technical problem."
+  ],
+  "ss225-q43": [
+    "Scarcely had the school informed parents about the closure when messages began appearing in the class group."
+  ],
+  "ss225-q44": [
+    "Scarcely had the rescue team reached the injured walker when heavy rain began to fall."
+  ],
+  "ss225-q45": [
+    "Scarcely had the technician finished repairing the network when employees who had been waiting returned to work."
+  ],
+  "ss225-q46": [
+    "Scarcely had the final safety check been completed when the aircraft began moving towards the runway."
+  ],
+  "ss225-q47": [
+    "Scarcely had the company published its results when investors started asking about the sudden fall in profits."
+  ],
+  "ss225-q48": [
+    "Scarcely had the councillor finished explaining the proposal when residents raised concerns about traffic and noise."
+  ],
+  "ss225-q49": [
+    "Scarcely had the last customer left the restaurant when the staff began preparing the dining area for the next day."
+  ],
+  "ss225-q50": [
+    "Scarcely had the emergency services reopened the bridge when a long line of vehicles began crossing it."
+  ],
+  "ss226-q01": [
+    "The teacher explained the rule again, but not until then did I understand it."
+  ],
+  "ss226-q02": [
+    "Tom read the sign beside the lift, but not until then did she find the right room."
+  ],
+  "ss226-q03": [
+    "The rain stopped, but not until then did we leave the house."
+  ],
+  "ss226-q04": [
+    "Ben tasted the soup, but not until then did he realise that it was too salty."
+  ],
+  "ss226-q05": [
+    "The bus finally arrived, but not until then did everyone relax."
+  ],
+  "ss226-q06": [
+    "I checked my email, but not until then did I learn that the meeting had been cancelled."
+  ],
+  "ss226-q07": [
+    "The nurse smiled and said everything was fine, but not until then did the patient feel safe."
+  ],
+  "ss226-q08": [
+    "Mum opened the curtains, but not until then did the room become bright."
+  ],
+  "ss226-q09": [
+    "We reached the top of the hill, but not until then could we see the whole town."
+  ],
+  "ss226-q10": [
+    "Lucy spoke to the manager, but not until then did she understand the new schedule."
+  ],
+  "ss226-q11": [
+    "I charged my phone, but not until then could I make the call."
+  ],
+  "ss226-q12": [
+    "The caretaker opened the door, but not until then could the children enter."
+  ],
+  "ss226-q13": [
+    "The lights came back on, but not until then could I see the number on the wall."
+  ],
+  "ss226-q14": [
+    "The doctor explained the results, but not until then was Sara calm."
+  ],
+  "ss226-q15": [
+    "Our team won its first match, but not until then did we believe we could succeed."
+  ],
+  "ss226-q16": [
+    "Maya turned the map the right way up, but not until then did the route make sense to us."
+  ],
+  "ss226-q17": [
+    "Dad returned from work, but not until then did dinner begin."
+  ],
+  "ss226-q18": [
+    "The shop assistant showed me the size chart, but not until then did I choose a jacket."
+  ],
+  "ss226-q19": [
+    "The alarm rang for the second time, but not until then did Leo wake up."
+  ],
+  "ss226-q20": [
+    "Ms Lee read the full report, but not until then did she notice the mistake."
+  ],
+  "ss226-q21": [
+    "The teacher gave a simple example, but not until then could the students answer the question."
+  ],
+  "ss226-q22": [
+    "Our neighbour pointed to the roof, but not until then did we see the broken tile."
+  ],
+  "ss226-q23": [
+    "The child stopped crying, but not until then could his mother hear the doctor."
+  ],
+  "ss226-q24": [
+    "Amir started the engine, but not until then did he hear the strange noise."
+  ],
+  "ss226-q25": [
+    "The train began to move, but not until then did the passengers realise they were on the wrong train."
+  ],
+  "ss226-q26": [
+    "The sun came out, but not until then was the path safe enough for us to continue."
+  ],
+  "ss226-q27": [
+    "The final bill arrived, but not until then did the family know the total cost."
+  ],
+  "ss226-q28": [
+    "Police officers showed Anna a photograph, but not until then did she recognise the man."
+  ],
+  "ss226-q29": [
+    "I reset my password, but not until then could I enter my account."
+  ],
+  "ss226-q30": [
+    "The teacher returned Ella’s project, but not until then did Ella see how much she had improved."
+  ],
+  "ss226-q31": [
+    "The manager left the room, but not until then did the staff speak openly."
+  ],
+  "ss226-q32": [
+    "Dr Wong removed Leo’s bandage, but not until then could Leo see that the cut had healed."
+  ],
+  "ss226-q33": [
+    "The storm ended, but not until then were the flights allowed to leave."
+  ],
+  "ss226-q34": [
+    "Nora read the final page, but not until then did the story make sense to her."
+  ],
+  "ss226-q35": [
+    "The fire alarm stopped, but not until then did the workers go back into the building."
+  ],
+  "ss226-q36": [
+    "The club lowered its monthly fee, but not until then did more people join."
+  ],
+  "ss226-q37": [
+    "Mr Chan said the test would not be graded, but not until then did the class relax."
+  ],
+  "ss226-q38": [
+    "Our dog barked at the box, but not until then did the family notice a sound inside it."
+  ],
+  "ss226-q39": [
+    "We cleaned the window, but not until then could we see the mountain clearly."
+  ],
+  "ss226-q40": [
+    "The guide turned on the old machine, but not until then did the visitors understand how it worked."
+  ],
+  "ss226-q41": [
+    "The team checked the camera carefully, but not until then did they discover that the video was missing."
+  ],
+  "ss226-q42": [
+    "The hospital received the second test result, but not until then could the doctors choose the right treatment."
+  ],
+  "ss226-q43": [
+    "The school spoke to both students, but not until then was the full story clear."
+  ],
+  "ss226-q44": [
+    "Company staff read the customer messages, but not until then did they understand why the app was unpopular."
+  ],
+  "ss226-q45": [
+    "The bridge reopened, but not until then could buses reach the village again."
+  ],
+  "ss226-q46": [
+    "The last guest arrived, but not until then did the ceremony begin."
+  ],
+  "ss226-q47": [
+    "Police officers checked the station camera, but not until then did they know who had taken the bag."
+  ],
+  "ss226-q48": [
+    "The teacher compared Hannah’s first and final essays, but not until then did Hannah realise how much her writing had improved."
+  ],
+  "ss226-q49": [
+    "The family saw a dark line on the wall, but not until then did they understand how high the floodwater had risen."
+  ],
+  "ss226-q50": [
+    "The rescue team reached the cave entrance, but not until then did they realise that the path inside was blocked."
+  ],
+  "ss227-q01": [
+    "One should read the instructions carefully."
+  ],
+  "ss227-q02": [
+    "To stay focused, one needs enough sleep."
+  ],
+  "ss227-q03": [
+    "One can learn a lot when one makes mistakes."
+  ],
+  "ss227-q04": [
+    "At home, one should keep important documents in a safe place."
+  ],
+  "ss227-q05": [
+    "Before an interview, one often feels nervous."
+  ],
+  "ss227-q06": [
+    "Before one enters the hall, one must show a ticket."
+  ],
+  "ss227-q07": [
+    "When one uses new software, one may need help."
+  ],
+  "ss227-q08": [
+    "One should not share one’s password with strangers."
+  ],
+  "ss227-q09": [
+    "When one practises regularly, one learns more effectively."
+  ],
+  "ss227-q10": [
+    "One cannot always control what happens."
+  ],
+  "ss227-q11": [
+    "When one travels abroad, one should check local customs."
+  ],
+  "ss227-q12": [
+    "If one feels unwell, one should seek medical advice."
+  ],
+  "ss227-q13": [
+    "In a new job, one may need time to learn the routines."
+  ],
+  "ss227-q14": [
+    "Before one signs a contract, one should read every section."
+  ],
+  "ss227-q15": [
+    "After one finishes a task, one should check one’s work."
+  ],
+  "ss227-q16": [
+    "At a busy station, one must watch one’s belongings."
+  ],
+  "ss227-q17": [
+    "To improve one’s English, one needs regular practice."
+  ],
+  "ss227-q18": [
+    "During an emergency, one should remain calm."
+  ],
+  "ss227-q19": [
+    "Without a clear plan, one can easily waste time."
+  ],
+  "ss227-q20": [
+    "In order to save money, one should compare prices."
+  ],
+  "ss227-q21": [
+    "I believe that one should admit one’s mistakes."
+  ],
+  "ss227-q22": [
+    "This experience teaches one to be more patient."
+  ],
+  "ss227-q23": [
+    "A good teacher encourages one to think independently."
+  ],
+  "ss227-q24": [
+    "Clear instructions allow one to complete the task more easily."
+  ],
+  "ss227-q25": [
+    "Regular exercise can help one feel more energetic."
+  ],
+  "ss227-q26": [
+    "It is sometimes difficult for one to change an old habit."
+  ],
+  "ss227-q27": [
+    "How can one stay calm under pressure?"
+  ],
+  "ss227-q28": [
+    "Why should one apologise for something one did not do?"
+  ],
+  "ss227-q29": [
+    "One should give oneself enough time to make an important decision."
+  ],
+  "ss227-q30": [
+    "One can protect oneself by learning basic safety rules."
+  ],
+  "ss227-q31": [
+    "By keeping a diary, one can understand one’s feelings better."
+  ],
+  "ss227-q32": [
+    "Although one may feel uncertain, one should still ask questions."
+  ],
+  "ss227-q33": [
+    "Whenever one uses public Wi-Fi, one should protect one’s personal information."
+  ],
+  "ss227-q34": [
+    "Unless one asks for clarification, one may misunderstand the instructions."
+  ],
+  "ss227-q35": [
+    "As one gains experience, one becomes more confident."
+  ],
+  "ss227-q36": [
+    "Even when one disagrees, one should speak respectfully."
+  ],
+  "ss227-q37": [
+    "Whether one works alone or in a team, one needs clear goals."
+  ],
+  "ss227-q38": [
+    "If one wants others to listen, one must also listen to them."
+  ],
+  "ss227-q39": [
+    "It is easy for one to lose track of time while using social media."
+  ],
+  "ss227-q40": [
+    "A supportive environment makes it easier for one to learn."
+  ],
+  "ss227-q41": [
+    "In my view, one should judge an argument by its evidence."
+  ],
+  "ss227-q42": [
+    "The more carefully one plans, the fewer problems one is likely to face."
+  ],
+  "ss227-q43": [
+    "No matter where one lives, one can contribute to the community."
+  ],
+  "ss227-q44": [
+    "Before making a complaint, one should make sure that one’s information is accurate."
+  ],
+  "ss227-q45": [
+    "When one is responsible for others, one must consider their needs as well as one’s own."
+  ],
+  "ss227-q46": [
+    "One may disagree with a decision without treating others disrespectfully."
+  ],
+  "ss227-q47": [
+    "It is important for one to know when to ask for professional help."
+  ],
+  "ss227-q48": [
+    "One can improve only if one is willing to examine one’s own weaknesses."
+  ],
+  "ss227-q49": [
+    "While one cannot predict every problem, one can prepare for many of them."
+  ],
+  "ss227-q50": [
+    "In situations where emotions are strong, one should pause before expressing one’s opinion."
+  ],
+  "ss228-q01": [
+    "Little did Tom know that the note was meant for him."
+  ],
+  "ss228-q02": [
+    "Little did Tom know that her keys were in her coat pocket."
+  ],
+  "ss228-q03": [
+    "Little did Ben know that the shop had already closed."
+  ],
+  "ss228-q04": [
+    "Little did Lily know that the gift came from her best friend."
+  ],
+  "ss228-q05": [
+    "Little did Jack know that the quiet boy was a talented singer."
+  ],
+  "ss228-q06": [
+    "Little did Emma know that her photo would win the school competition."
+  ],
+  "ss228-q07": [
+    "Little did Daniel know that the bus would arrive early."
+  ],
+  "ss228-q08": [
+    "Little did Chloe know that her new teacher knew her mother."
+  ],
+  "ss228-q09": [
+    "Little did Leo know that the old box was full of family photos."
+  ],
+  "ss228-q10": [
+    "Little did Sarah know that the simple game would become so popular."
+  ],
+  "ss228-q11": [
+    "Little did Alex know that everyone had planned a surprise party for him."
+  ],
+  "ss228-q12": [
+    "Little did Grace know that the café was owned by her former neighbour."
+  ],
+  "ss228-q13": [
+    "Little did Henry know that his wallet was under the sofa."
+  ],
+  "ss228-q14": [
+    "Little did Olivia know that the road ahead was closed."
+  ],
+  "ss228-q15": [
+    "Little did Ethan know that the meeting had been moved to another room."
+  ],
+  "ss228-q16": [
+    "Little did Amy know that her short message had made Nina feel better."
+  ],
+  "ss228-q17": [
+    "Little did Noah know that the dog had followed him all the way home."
+  ],
+  "ss228-q18": [
+    "Little did Maya know that the book contained a letter from her grandfather."
+  ],
+  "ss228-q19": [
+    "Little did David know that the new student could speak four languages."
+  ],
+  "ss228-q20": [
+    "Little did Zoe know that her idea would save the team a great deal of time."
+  ],
+  "ss228-q21": [
+    "Little did the students know that the test had been cancelled."
+  ],
+  "ss228-q22": [
+    "Little did the coach know that one of the players was feeling ill."
+  ],
+  "ss228-q23": [
+    "Little did the family know that their train would be delayed for three hours."
+  ],
+  "ss228-q24": [
+    "Little did the manager know that the computer problem was easy to fix."
+  ],
+  "ss228-q25": [
+    "Little did the nurse know that the patient had already spoken to the doctor."
+  ],
+  "ss228-q26": [
+    "Little did the tourists know that the small path led to a beautiful beach."
+  ],
+  "ss228-q27": [
+    "Little did the chef know that a food writer was eating in the restaurant."
+  ],
+  "ss228-q28": [
+    "Little did the neighbours know that the empty house had just been sold."
+  ],
+  "ss228-q29": [
+    "Little did we know that the last bus had already left."
+  ],
+  "ss228-q30": [
+    "Little did they know that the light rain would turn into a heavy storm."
+  ],
+  "ss228-q31": [
+    "Little did Anna know that the email had been sent to the wrong person."
+  ],
+  "ss228-q32": [
+    "Little did Mark know that his younger brother had fixed the bicycle."
+  ],
+  "ss228-q33": [
+    "Little did the teacher know that the class had prepared a thank-you card."
+  ],
+  "ss228-q34": [
+    "Little did the visitors know that the museum would close early that day."
+  ],
+  "ss228-q35": [
+    "Little did Peter know that the map in his hand was out of date."
+  ],
+  "ss228-q36": [
+    "Little did the workers know that the new machine could finish the task in half the time."
+  ],
+  "ss228-q37": [
+    "Little did the parents know that their child had been practising the song for weeks."
+  ],
+  "ss228-q38": [
+    "Little did the doctor know that the same problem had happened before."
+  ],
+  "ss228-q39": [
+    "Little did the passengers know that another bus was waiting around the corner."
+  ],
+  "ss228-q40": [
+    "Little did the shop owner know that a famous actor had entered the shop."
+  ],
+  "ss228-q41": [
+    "Little did Rachel know that the small plant she had bought would grow across the whole wall."
+  ],
+  "ss228-q42": [
+    "Little did the team know that its quietest member had already found the answer."
+  ],
+  "ss228-q43": [
+    "Little did the villagers know that the new bridge would bring many more visitors to the area."
+  ],
+  "ss228-q44": [
+    "Little did Kevin know that the person who had helped him was the company director."
+  ],
+  "ss228-q45": [
+    "Little did the school know that its simple recycling project would be copied by other schools."
+  ],
+  "ss228-q46": [
+    "Little did the reporter know that the photo she had taken would appear on the front page."
+  ],
+  "ss228-q47": [
+    "Little did the family know that the old letter would help them find a missing relative."
+  ],
+  "ss228-q48": [
+    "Little did the council know that closing the small road would cause long traffic delays."
+  ],
+  "ss228-q49": [
+    "Little did Sophie know that the part-time job she had accepted would lead to a new career."
+  ],
+  "ss228-q50": [
+    "Little did the scientists know that their early test would become the first step towards a much larger discovery."
+  ],
+  "ss229-q01": [
+    "Maya resigned yesterday?"
+  ],
+  "ss229-q02": [
+    "The shop closes at six?"
+  ],
+  "ss229-q03": [
+    "Ben lost his wallet on the bus?"
+  ],
+  "ss229-q04": [
+    "Your sister speaks Italian?"
+  ],
+  "ss229-q05": [
+    "The children walked home in the rain?"
+  ],
+  "ss229-q06": [
+    "This bag costs eighty dollars?"
+  ],
+  "ss229-q07": [
+    "The test is tomorrow morning?"
+  ],
+  "ss229-q08": [
+    "Noah lives near the airport?"
+  ],
+  "ss229-q09": [
+    "Your parents sold their car last week?"
+  ],
+  "ss229-q10": [
+    "The café is closed on Sundays?"
+  ],
+  "ss229-q11": [
+    "You are moving to Canada in September?"
+  ],
+  "ss229-q12": [
+    "Ella is working tonight?"
+  ],
+  "ss229-q13": [
+    "They were waiting outside for an hour?"
+  ],
+  "ss229-q14": [
+    "Leo can repair bicycles?"
+  ],
+  "ss229-q15": [
+    "I should bring my passport?"
+  ],
+  "ss229-q16": [
+    "The bus will arrive in five minutes?"
+  ],
+  "ss229-q17": [
+    "You do not eat meat?"
+  ],
+  "ss229-q18": [
+    "The meeting has been cancelled?"
+  ],
+  "ss229-q19": [
+    "Amy has finished the report already?"
+  ],
+  "ss229-q20": [
+    "The window was broken during the storm?"
+  ],
+  "ss229-q21": [
+    "You met who at the station?"
+  ],
+  "ss229-q22": [
+    "Clara bought what for her brother?"
+  ],
+  "ss229-q23": [
+    "The class starts when?"
+  ],
+  "ss229-q24": [
+    "They are travelling where next month?"
+  ],
+  "ss229-q25": [
+    "This jacket costs how much?"
+  ],
+  "ss229-q26": [
+    "Daniel invited how many people?"
+  ],
+  "ss229-q27": [
+    "I need which form?"
+  ],
+  "ss229-q28": [
+    "The parcel came from where?"
+  ],
+  "ss229-q29": [
+    "She left the office at what time?"
+  ],
+  "ss229-q30": [
+    "Your neighbour said what?"
+  ],
+  "ss229-q31": [
+    "My phone was found in the library?"
+  ],
+  "ss229-q32": [
+    "The new bridge will be opened next week?"
+  ],
+  "ss229-q33": [
+    "You have been learning Korean for two years?"
+  ],
+  "ss229-q34": [
+    "Sam had already left before noon?"
+  ],
+  "ss229-q35": [
+    "Five matches in a row?"
+  ],
+  "ss229-q36": [
+    "On the roof?"
+  ],
+  "ss229-q37": [
+    "Without a map?"
+  ],
+  "ss229-q38": [
+    "The red one?"
+  ],
+  "ss229-q39": [
+    "Two hundred pages?"
+  ],
+  "ss229-q40": [
+    "My old teacher?"
+  ],
+  "ss229-q41": [
+    "You borrowed my car without asking?"
+  ],
+  "ss229-q42": [
+    "Nobody told me about the change?"
+  ],
+  "ss229-q43": [
+    "The doctor said I can go home today?"
+  ],
+  "ss229-q44": [
+    "They are going to replace the whole floor?"
+  ],
+  "ss229-q45": [
+    "My flight was delayed for nine hours?"
+  ],
+  "ss229-q46": [
+    "The library lends musical instruments to members?"
+  ],
+  "ss229-q47": [
+    "My brother cooked this entire meal by himself?"
+  ],
+  "ss229-q48": [
+    "The company gave every worker an extra day off?"
+  ],
+  "ss229-q49": [
+    "I sent the message to the wrong person?"
+  ],
+  "ss229-q50": [
+    "Nina turned down the job because the office was too far away?"
+  ],
+  "ss230-q01": [
+    "I want to know where the nearest bank is."
+  ],
+  "ss230-q02": [
+    "Could you tell me what time the lesson starts?"
+  ],
+  "ss230-q03": [
+    "Do you know why Maya is absent today?"
+  ],
+  "ss230-q04": [
+    "Please check if the front door is locked."
+  ],
+  "ss230-q05": [
+    "I asked whether the train had left."
+  ],
+  "ss230-q06": [
+    "I wonder how much this jacket costs."
+  ],
+  "ss230-q07": [
+    "Can you remember where you put the keys?"
+  ],
+  "ss230-q08": [
+    "No one knows who sent the message."
+  ],
+  "ss230-q09": [
+    "The teacher asked us which book we preferred."
+  ],
+  "ss230-q10": [
+    "We need to find out when the shop closes."
+  ],
+  "ss230-q11": [
+    "I am not sure whether this bus goes to the airport."
+  ],
+  "ss230-q12": [
+    "The guide explained how the machine worked."
+  ],
+  "ss230-q13": [
+    "Please tell me who is responsible for the booking."
+  ],
+  "ss230-q14": [
+    "She wants to know how long the journey will take."
+  ],
+  "ss230-q15": [
+    "We discussed whether the event should be postponed."
+  ],
+  "ss230-q16": [
+    "It depends on whether the weather improves."
+  ],
+  "ss230-q17": [
+    "The question is why the system stopped suddenly."
+  ],
+  "ss230-q18": [
+    "Could you explain what this warning means?"
+  ],
+  "ss230-q19": [
+    "They have not decided which route they will take."
+  ],
+  "ss230-q20": [
+    "I asked Daniel if he needed any help."
+  ],
+  "ss230-q21": [
+    "The report shows where the money was spent."
+  ],
+  "ss230-q22": [
+    "We are trying to understand why the results are different."
+  ],
+  "ss230-q23": [
+    "Please find out if the doctor is available this afternoon."
+  ],
+  "ss230-q24": [
+    "The police asked the driver where he had been going."
+  ],
+  "ss230-q25": [
+    "It is unclear who approved the change."
+  ],
+  "ss230-q26": [
+    "The manager wants to know how many orders were delayed."
+  ],
+  "ss230-q27": [
+    "We need to consider whether the plan is realistic."
+  ],
+  "ss230-q28": [
+    "Can you tell me whose bag this is?"
+  ],
+  "ss230-q29": [
+    "The main issue is whether the building is safe to enter."
+  ],
+  "ss230-q30": [
+    "I cannot remember what she told us to bring."
+  ],
+  "ss230-q31": [
+    "The team is investigating how the error occurred."
+  ],
+  "ss230-q32": [
+    "I would like to know why the payment was rejected."
+  ],
+  "ss230-q33": [
+    "The result will depend on how quickly the repairs are completed."
+  ],
+  "ss230-q34": [
+    "Nobody could explain where the missing files had gone."
+  ],
+  "ss230-q35": [
+    "Before we leave, please check whether everyone has a ticket."
+  ],
+  "ss230-q36": [
+    "The survey asked participants how often they used public transport."
+  ],
+  "ss230-q37": [
+    "We have to decide who will speak first."
+  ],
+  "ss230-q38": [
+    "The nurse asked me whether I had taken the medicine."
+  ],
+  "ss230-q39": [
+    "What matters is how the problem can be solved safely."
+  ],
+  "ss230-q40": [
+    "There is still some doubt about whether the figures are accurate."
+  ],
+  "ss230-q41": [
+    "The committee is examining why the original estimate was so inaccurate."
+  ],
+  "ss230-q42": [
+    "Could you let me know when the revised timetable will be published?"
+  ],
+  "ss230-q43": [
+    "The success of the plan depends on whether local residents support it."
+  ],
+  "ss230-q44": [
+    "The interviewer asked Nadia what she would do if a customer complained."
+  ],
+  "ss230-q45": [
+    "We have not yet discovered who gave the confidential document to the press."
+  ],
+  "ss230-q46": [
+    "The report does not explain how the company intends to reduce its costs."
+  ],
+  "ss230-q47": [
+    "Before approving the purchase, the board needs to know whether the equipment will meet the new safety standard."
+  ],
+  "ss230-q48": [
+    "It remains unclear why the warning was ignored even though several staff members had reported the problem."
+  ],
+  "ss230-q49": [
+    "The researchers are trying to determine whether the change in behaviour was caused by the new environment."
+  ],
+  "ss230-q50": [
+    "The final decision will depend on how much the project is expected to cost and whether the team can complete it on time."
+  ],
+  "ss231-q01": [
+    "I want to know where the nearest bank is."
+  ],
+  "ss231-q02": [
+    "Could you tell me what time the lesson starts?"
+  ],
+  "ss231-q03": [
+    "Do you know why Maya is absent today?"
+  ],
+  "ss231-q04": [
+    "Please check if the front door is locked."
+  ],
+  "ss231-q05": [
+    "I asked whether the train had left."
+  ],
+  "ss231-q06": [
+    "I wonder how much this jacket costs."
+  ],
+  "ss231-q07": [
+    "Can you remember where you put the keys?"
+  ],
+  "ss231-q08": [
+    "No one knows who sent the message."
+  ],
+  "ss231-q09": [
+    "The teacher asked us which book we preferred."
+  ],
+  "ss231-q10": [
+    "We need to find out when the shop closes."
+  ],
+  "ss231-q11": [
+    "I am not sure whether this bus goes to the airport."
+  ],
+  "ss231-q12": [
+    "The guide explained how the machine worked."
+  ],
+  "ss231-q13": [
+    "Please tell me who is responsible for the booking."
+  ],
+  "ss231-q14": [
+    "She wants to know how long the journey will take."
+  ],
+  "ss231-q15": [
+    "We discussed whether the event should be postponed."
+  ],
+  "ss231-q16": [
+    "It depends on whether the weather improves."
+  ],
+  "ss231-q17": [
+    "The question is why the system stopped suddenly."
+  ],
+  "ss231-q18": [
+    "Could you explain what this warning means?"
+  ],
+  "ss231-q19": [
+    "They have not decided which route they will take."
+  ],
+  "ss231-q20": [
+    "I asked Daniel if he needed any help."
+  ],
+  "ss231-q21": [
+    "The report shows where the money was spent."
+  ],
+  "ss231-q22": [
+    "We are trying to understand why the results are different."
+  ],
+  "ss231-q23": [
+    "Please find out if the doctor is available this afternoon."
+  ],
+  "ss231-q24": [
+    "The police asked the driver where he had been going."
+  ],
+  "ss231-q25": [
+    "It is unclear who approved the change."
+  ],
+  "ss231-q26": [
+    "The manager wants to know how many orders were delayed."
+  ],
+  "ss231-q27": [
+    "We need to consider whether the plan is realistic."
+  ],
+  "ss231-q28": [
+    "Can you tell me whose bag this is?"
+  ],
+  "ss231-q29": [
+    "The main issue is whether the building is safe to enter."
+  ],
+  "ss231-q30": [
+    "I cannot remember what she told us to bring."
+  ],
+  "ss231-q31": [
+    "The team is investigating how the error occurred."
+  ],
+  "ss231-q32": [
+    "I would like to know why the payment was rejected."
+  ],
+  "ss231-q33": [
+    "The result will depend on how quickly the repairs are completed."
+  ],
+  "ss231-q34": [
+    "Nobody could explain where the missing files had gone."
+  ],
+  "ss231-q35": [
+    "Before we leave, please check whether everyone has a ticket."
+  ],
+  "ss231-q36": [
+    "The survey asked participants how often they used public transport."
+  ],
+  "ss231-q37": [
+    "We have to decide who will speak first."
+  ],
+  "ss231-q38": [
+    "The nurse asked me whether I had taken the medicine."
+  ],
+  "ss231-q39": [
+    "What matters is how the problem can be solved safely."
+  ],
+  "ss231-q40": [
+    "There is still some doubt about whether the figures are accurate."
+  ],
+  "ss231-q41": [
+    "The committee is examining why the original estimate was so inaccurate."
+  ],
+  "ss231-q42": [
+    "Could you let me know when the revised timetable will be published?"
+  ],
+  "ss231-q43": [
+    "The success of the plan depends on whether local residents support it."
+  ],
+  "ss231-q44": [
+    "The interviewer asked Nadia what she would do if a customer complained."
+  ],
+  "ss231-q45": [
+    "We have not yet discovered who gave the confidential document to the press."
+  ],
+  "ss231-q46": [
+    "The report does not explain how the company intends to reduce its costs."
+  ],
+  "ss231-q47": [
+    "Before approving the purchase, the board needs to know whether the equipment will meet the new safety standard."
+  ],
+  "ss231-q48": [
+    "It remains unclear why the warning was ignored even though several staff members had reported the problem."
+  ],
+  "ss231-q49": [
+    "The researchers are trying to determine whether the change in behaviour was caused by the new environment."
+  ],
+  "ss231-q50": [
+    "The final decision will depend on how much the project is expected to cost and whether the team can complete it on time."
+  ],
+  "ss232-q01": [
+    "No chance."
+  ],
+  "ss232-q02": [
+    "No idea."
+  ],
+  "ss232-q03": [
+    "Too late."
+  ],
+  "ss232-q04": [
+    "Good idea."
+  ],
+  "ss232-q05": [
+    "Not yet."
+  ],
+  "ss232-q06": [
+    "I sent you the old timetable. My mistake."
+  ],
+  "ss232-q07": [
+    "No problem. I can carry the smaller box for you."
+  ],
+  "ss232-q08": [
+    "I have answered the first question. Your turn."
+  ],
+  "ss232-q09": [
+    "No hurry. We have another thirty minutes."
+  ],
+  "ss232-q10": [
+    "All clear."
+  ],
+  "ss232-q11": [
+    "Not bad."
+  ],
+  "ss232-q12": [
+    "Of course."
+  ],
+  "ss232-q13": [
+    "No, thanks."
+  ],
+  "ss232-q14": [
+    "Maybe later."
+  ],
+  "ss232-q15": [
+    "In a minute."
+  ],
+  "ss232-q16": [
+    "After you."
+  ],
+  "ss232-q17": [
+    "At once."
+  ],
+  "ss232-q18": [
+    "“This way,” the receptionist said.",
+    "This way, the receptionist said."
+  ],
+  "ss232-q19": [
+    "Over here."
+  ],
+  "ss232-q20": [
+    "Not today."
+  ],
+  "ss232-q21": [
+    "The notice read: “No entry.”"
+  ],
+  "ss232-q22": [
+    "Staff only."
+  ],
+  "ss232-q23": [
+    "The lift was labelled “Out of order”."
+  ],
+  "ss232-q24": [
+    "The road sign said, “No parking.”"
+  ],
+  "ss232-q25": [
+    "No smoking in the waiting area."
+  ],
+  "ss232-q26": [
+    "One more question before the lesson ends."
+  ],
+  "ss232-q27": [
+    "The outdoor concert was cancelled after months of preparation. A real shame."
+  ],
+  "ss232-q28": [
+    "The missing child was found safe. What a relief."
+  ],
+  "ss232-q29": [
+    "Tom was exhausted after working for fourteen hours. No wonder."
+  ],
+  "ss232-q30": [
+    "“Same again,” Daniel told the server.",
+    "Same again, Daniel told the server."
+  ],
+  "ss232-q31": [
+    "The computer had crashed just before the deadline. What now?"
+  ],
+  "ss232-q32": [
+    "Leo looked at the two keys. Which one?"
+  ],
+  "ss232-q33": [
+    "“Why me?” Nina asked.",
+    "Why me? Nina asked."
+  ],
+  "ss232-q34": [
+    "“How much?” the customer asked.",
+    "How much? The customer asked."
+  ],
+  "ss232-q35": [
+    "“Any questions?” the teacher asked.",
+    "Any questions? The teacher asked."
+  ],
+  "ss232-q36": [
+    "The first stage was complete. What next?"
+  ],
+  "ss232-q37": [
+    "Better now."
+  ],
+  "ss232-q38": [
+    "The teacher showed us a simpler method. Much easier."
+  ],
+  "ss232-q39": [
+    "All set."
+  ],
+  "ss232-q40": [
+    "“Quite enough, thank you,” the guest said.",
+    "Quite enough, thank you, the guest said."
+  ],
+  "ss232-q41": [
+    "“No need to book another appointment,” the receptionist said.",
+    "No need to book another appointment, the receptionist said."
+  ],
+  "ss232-q42": [
+    "Your choice."
+  ],
+  "ss232-q43": [
+    "Another time, perhaps."
+  ],
+  "ss232-q44": [
+    "So far, so good."
+  ],
+  "ss232-q45": [
+    "“No comment,” the director replied.",
+    "No comment, the director replied."
+  ],
+  "ss232-q46": [
+    "“Impossible,” the engineer said.",
+    "Impossible, the engineer said."
+  ],
+  "ss232-q47": [
+    "Not a chance."
+  ],
+  "ss232-q48": [
+    "“One last thing,” the manager said before everyone left.",
+    "One last thing, the manager said before everyone left."
+  ],
+  "ss232-q49": [
+    "“The decision is final. End of story,” the coach said.",
+    "The decision is final. End of story, the coach said."
+  ],
+  "ss232-q50": [
+    "The safety officer rejected the plan. Too risky."
+  ],
+  "ss233-q01": [
+    "What I need most is a short break."
+  ],
+  "ss233-q02": [
+    "More practice is what the students need most."
+  ],
+  "ss233-q03": [
+    "Where we first met was at the library."
+  ],
+  "ss233-q04": [
+    "Friday evening was when the event began."
+  ],
+  "ss233-q05": [
+    "Why Tom called was that she needed advice."
+  ],
+  "ss233-q06": [
+    "Checking every figure twice was how Ben avoided mistakes."
+  ],
+  "ss233-q07": [
+    "Who helped me most was Daniel."
+  ],
+  "ss233-q08": [
+    "The red key, not the silver one, was what opened the back door."
+  ],
+  "ss233-q09": [
+    "Which route we chose was the shorter one."
+  ],
+  "ss233-q10": [
+    "Trust was what the team lacked."
+  ],
+  "ss233-q11": [
+    "What Chloe wants is a clearer explanation, not more examples."
+  ],
+  "ss233-q12": [
+    "A quieter room is what the patient needs most."
+  ],
+  "ss233-q13": [
+    "Where the children hid was behind the curtain."
+  ],
+  "ss233-q14": [
+    "The first week of June was when the course started."
+  ],
+  "ss233-q15": [
+    "The machine’s overheating was why it stopped."
+  ],
+  "ss233-q16": [
+    "How the technician fixed the problem was by restarting the router."
+  ],
+  "ss233-q17": [
+    "Who the class elected was Aisha, not Omar."
+  ],
+  "ss233-q18": [
+    "A refund, rather than a replacement, was what the customer requested."
+  ],
+  "ss233-q19": [
+    "Which option the manager preferred was the safer one."
+  ],
+  "ss233-q20": [
+    "Honest feedback was what improved the final design."
+  ],
+  "ss233-q21": [
+    "What we should do before making a decision is compare the two reports."
+  ],
+  "ss233-q22": [
+    "Speaking to the supervisor immediately was what Ethan asked to do."
+  ],
+  "ss233-q23": [
+    "Where the missing bag was found was under the front seat."
+  ],
+  "ss233-q24": [
+    "Just after midnight was when the alarm went off."
+  ],
+  "ss233-q25": [
+    "Why the meeting was delayed was that two members were absent."
+  ],
+  "ss233-q26": [
+    "Dividing the work fairly was how the group finished on time."
+  ],
+  "ss233-q27": [
+    "Who the police wanted to question was the man in the grey coat."
+  ],
+  "ss233-q28": [
+    "A simple apology was what ended the argument."
+  ],
+  "ss233-q29": [
+    "Which feature users valued most was the longer battery life."
+  ],
+  "ss233-q30": [
+    "Greater privacy for customers was what the new system provided."
+  ],
+  "ss233-q31": [
+    "What the doctor advised me to do was get more rest."
+  ],
+  "ss233-q32": [
+    "Reducing unnecessary costs was what the director decided to do first."
+  ],
+  "ss233-q33": [
+    "Where the community plans to build the garden is beside the sports centre."
+  ],
+  "ss233-q34": [
+    "The end of the month is when applications close."
+  ],
+  "ss233-q35": [
+    "Reliable service was why the shop became popular."
+  ],
+  "ss233-q36": [
+    "How the manager earned the staff’s trust was by listening before responding."
+  ],
+  "ss233-q37": [
+    "Who deserves the credit is the whole team."
+  ],
+  "ss233-q38": [
+    "The final chapter was what surprised me most."
+  ],
+  "ss233-q39": [
+    "Which proposal the committee accepted was the least expensive one."
+  ],
+  "ss233-q40": [
+    "Clearer signs were what made the building easier to navigate."
+  ],
+  "ss233-q41": [
+    "What matters most is whether the information is accurate."
+  ],
+  "ss233-q42": [
+    "Protecting customer data is what the new rule is designed to do."
+  ],
+  "ss233-q43": [
+    "Where the emergency supplies are kept is in the locked cupboard beside reception."
+  ],
+  "ss233-q44": [
+    "When everyone began cheering was immediately after the final results were announced."
+  ],
+  "ss233-q45": [
+    "Why the project succeeded was that every department shared information openly."
+  ],
+  "ss233-q46": [
+    "Reviewing the evidence step by step was how the investigators found the error."
+  ],
+  "ss233-q47": [
+    "Who the organisation should consult first is the local community."
+  ],
+  "ss233-q48": [
+    "A practical solution, not a perfect theory, is what the residents are asking for."
+  ],
+  "ss233-q49": [
+    "Which part of the plan requires the most attention is the transport section."
+  ],
+  "ss233-q50": [
+    "A complete change in how the service handles complaints was what the review recommended."
+  ],
+  "ss234-q01": [
+    "Trust was what the team lacked."
+  ],
+  "ss234-q02": [
+    "A quieter room is what Tom needs for the interview."
+  ],
+  "ss234-q03": [
+    "Fresh fruit was what we bought at the market."
+  ],
+  "ss234-q04": [
+    "Two more chairs are what the classroom still needs."
+  ],
+  "ss234-q05": [
+    "A clear map was what the visitors asked for."
+  ],
+  "ss234-q06": [
+    "More practice is what Ben needs before the test."
+  ],
+  "ss234-q07": [
+    "The blue jacket, not the black one, was what Amy chose."
+  ],
+  "ss234-q08": [
+    "A hot drink is what I would like."
+  ],
+  "ss234-q09": [
+    "Honest feedback is what the manager wants from us."
+  ],
+  "ss234-q10": [
+    "Peace and quiet are what the baby needs right now."
+  ],
+  "ss234-q11": [
+    "Working from home is what many employees prefer."
+  ],
+  "ss234-q12": [
+    "The back entrance is where staff should meet."
+  ],
+  "ss234-q13": [
+    "Friday is when the new course begins."
+  ],
+  "ss234-q14": [
+    "A power cut was why the lights went out."
+  ],
+  "ss234-q15": [
+    "The train is how we usually travel to the city."
+  ],
+  "ss234-q16": [
+    "Ms Lee is who you should speak to about the application."
+  ],
+  "ss234-q17": [
+    "Forty minutes is how long the journey takes."
+  ],
+  "ss234-q18": [
+    "Fifty dollars is how much the repair costs."
+  ],
+  "ss234-q19": [
+    "Twice a week is how often the club meets."
+  ],
+  "ss234-q20": [
+    "The missing documents were what the auditor asked for."
+  ],
+  "ss234-q21": [
+    "More rules are not what the team needs."
+  ],
+  "ss234-q22": [
+    "The local hospital was where the injured cyclist was taken."
+  ],
+  "ss234-q23": [
+    "Six o’clock was when the final bus left."
+  ],
+  "ss234-q24": [
+    "A misunderstanding was why the meeting ended early."
+  ],
+  "ss234-q25": [
+    "Careful planning was how the team avoided delays."
+  ],
+  "ss234-q26": [
+    "Daniel was who the committee selected as its new chairperson."
+  ],
+  "ss234-q27": [
+    "Three months was how long the repairs took."
+  ],
+  "ss234-q28": [
+    "Nearly half the budget was how much the equipment cost."
+  ],
+  "ss234-q29": [
+    "Once every two months is how often the safety system is tested."
+  ],
+  "ss234-q30": [
+    "More time, not more staff, was what the project required."
+  ],
+  "ss234-q31": [
+    "Keeping accurate records is what this role requires staff to do."
+  ],
+  "ss234-q32": [
+    "The community hall is where the public meeting will take place."
+  ],
+  "ss234-q33": [
+    "Next Monday is when applications must be submitted."
+  ],
+  "ss234-q34": [
+    "Poor communication is why many small problems become serious."
+  ],
+  "ss234-q35": [
+    "Giving them regular feedback is how the company keeps new staff on track."
+  ],
+  "ss234-q36": [
+    "Dr Wong was who the patient asked to see."
+  ],
+  "ss234-q37": [
+    "Ten working days is how long the office normally takes to process an application."
+  ],
+  "ss234-q38": [
+    "Around 30 per cent is how much the new system reduces energy use compared with the old one."
+  ],
+  "ss234-q39": [
+    "Every three hours is how often the machine must be checked."
+  ],
+  "ss234-q40": [
+    "A chance to explain herself was what the student had not been given."
+  ],
+  "ss234-q41": [
+    "A larger venue will be what the school needs if more people register."
+  ],
+  "ss234-q42": [
+    "The old theatre was where the community first held its annual festival."
+  ],
+  "ss234-q43": [
+    "The period after lunch is when most errors tend to occur."
+  ],
+  "ss234-q44": [
+    "A lack of reliable data may be why the two studies reached different conclusions."
+  ],
+  "ss234-q45": [
+    "Asking one question at a time was how the interviewer kept the discussion focused."
+  ],
+  "ss234-q46": [
+    "The finance director is who all spending requests must go through."
+  ],
+  "ss234-q47": [
+    "Eighteen months is how long the research team expects the full study to take."
+  ],
+  "ss234-q48": [
+    "Just under two million dollars is how much the entire project is expected to cost."
+  ],
+  "ss234-q49": [
+    "Only once a year is how often the full emergency plan is practised."
+  ],
+  "ss234-q50": [
+    "That the department needed clearer priorities and more realistic deadlines was what the review showed."
+  ],
+  "ss235-q01": [
+    "Tired as Leo was, he finished his homework."
+  ],
+  "ss235-q02": [
+    "Cold though the water was, the children went swimming."
+  ],
+  "ss235-q03": [
+    "Nervous as Tom felt, she gave the speech clearly."
+  ],
+  "ss235-q04": [
+    "Small though the room is, it has enough space for four people."
+  ],
+  "ss235-q05": [
+    "Difficult as the question was, Ben answered it correctly."
+  ],
+  "ss235-q06": [
+    "Strange though the idea sounds, it may solve the problem."
+  ],
+  "ss235-q07": [
+    "Emma still helped her neighbour, busy though she was."
+  ],
+  "ss235-q08": [
+    "Weak as the signal was, the message got through."
+  ],
+  "ss235-q09": [
+    "Ava bought the coat, expensive though it was."
+  ],
+  "ss235-q10": [
+    "Young as Daniel was, he understood the responsibility."
+  ],
+  "ss235-q11": [
+    "The team completed the walk, exhausted though they were."
+  ],
+  "ss235-q12": [
+    "Tiny as the shop was, it remained popular with local residents."
+  ],
+  "ss235-q13": [
+    "Chloe accepted the job, uncertain though she felt."
+  ],
+  "ss235-q14": [
+    "Old as the device was, it worked well."
+  ],
+  "ss235-q15": [
+    "Worried though the students were, they stayed calm."
+  ],
+  "ss235-q16": [
+    "Bright as the room looked, it still needed another lamp."
+  ],
+  "ss235-q17": [
+    "Simple though the plan appeared, it required careful preparation."
+  ],
+  "ss235-q18": [
+    "Buses pass through the neighbourhood frequently, quiet though it is."
+  ],
+  "ss235-q19": [
+    "The book was useful, short as it was."
+  ],
+  "ss235-q20": [
+    "Patient as the nurse seemed, she was becoming frustrated."
+  ],
+  "ss235-q21": [
+    "Marcus continued working, tired though he was."
+  ],
+  "ss235-q22": [
+    "Heavy as the box was, Olivia lifted it."
+  ],
+  "ss235-q23": [
+    "Unpopular though the decision was, it was necessary."
+  ],
+  "ss235-q24": [
+    "Narrow as the path was, it was safe to use."
+  ],
+  "ss235-q25": [
+    "The event will go ahead, unpredictable though the weather may be."
+  ],
+  "ss235-q26": [
+    "Unpleasant as the task might be, someone must do it."
+  ],
+  "ss235-q27": [
+    "The evidence deserves a careful review, weak though it looks."
+  ],
+  "ss235-q28": [
+    "Attractive as the offer sounds, you should read the terms carefully."
+  ],
+  "ss235-q29": [
+    "The students understood the main point, confusing though the explanation was."
+  ],
+  "ss235-q30": [
+    "The children did not complain, long as the journey was."
+  ],
+  "ss235-q31": [
+    "Child though he was, Sam spoke with confidence."
+  ],
+  "ss235-q32": [
+    "Nina learnt quickly, beginner as she was."
+  ],
+  "ss235-q33": [
+    "Newcomer as Omar was, he soon became part of the team."
+  ],
+  "ss235-q34": [
+    "Amateur though the photographer was, her photographs impressed the judges."
+  ],
+  "ss235-q35": [
+    "Maya listened carefully to junior staff, leader as she was."
+  ],
+  "ss235-q36": [
+    "The solution proved effective, unusual though it seemed."
+  ],
+  "ss235-q37": [
+    "Deeply divided as the team members had been, they reached an agreement."
+  ],
+  "ss235-q38": [
+    "The village attracted many visitors, remote as it was."
+  ],
+  "ss235-q39": [
+    "Damaged though the building looked, it was safe."
+  ],
+  "ss235-q40": [
+    "The captain remained cautious, calm as the sea appeared."
+  ],
+  "ss235-q41": [
+    "Important as the deadline is, staff should not rush their work and make careless mistakes."
+  ],
+  "ss235-q42": [
+    "The change can become easier with practice, difficult though it may feel at first."
+  ],
+  "ss235-q43": [
+    "The programme deserves support, limited though its budget is."
+  ],
+  "ss235-q44": [
+    "Responsible as the company claims to be, it has not explained the delay."
+  ],
+  "ss235-q45": [
+    "The advice should be considered carefully, simple though it may sound."
+  ],
+  "ss235-q46": [
+    "Unpopular as the measure has become, it may still be necessary."
+  ],
+  "ss235-q47": [
+    "The route remains useful when the main road is closed, indirect as it is."
+  ],
+  "ss235-q48": [
+    "Valuable though online tools can be, they should not replace all face-to-face contact."
+  ],
+  "ss235-q49": [
+    "Frightened though the witness must have been, she gave a clear account of the event."
+  ],
+  "ss235-q50": [
+    "The manager still asked the team for advice before making the decision, experienced as she was."
+  ],
+  "ss236-q01": [
+    "John ordered tea, and Mary coffee."
+  ],
+  "ss236-q02": [
+    "Tom likes cats, but Leo dogs."
+  ],
+  "ss236-q03": [
+    "The red bag costs $200, and the blue bag $150."
+  ],
+  "ss236-q04": [
+    "Amy chose the window seat, while Ben the aisle seat."
+  ],
+  "ss236-q05": [
+    "The first room is large, but the second small."
+  ],
+  "ss236-q06": [
+    "Daniel read the article, and Chloe the report."
+  ],
+  "ss236-q07": [
+    "Our class starts at nine, and their class at ten."
+  ],
+  "ss236-q08": [
+    "The boys played football, while the girls basketball."
+  ],
+  "ss236-q09": [
+    "Dad cooked the rice, and Mum the soup."
+  ],
+  "ss236-q10": [
+    "One answer was correct, but the other wrong."
+  ],
+  "ss236-q11": [
+    "Nora can speak French, and Sami Spanish."
+  ],
+  "ss236-q12": [
+    "The morning train will stop at Central, and the evening train at Harbour Station."
+  ],
+  "ss236-q13": [
+    "Ava is studying biology, while Noah chemistry."
+  ],
+  "ss236-q14": [
+    "Liam has visited Japan, and Ruby South Korea."
+  ],
+  "ss236-q15": [
+    "The front door was painted white, and the back door green."
+  ],
+  "ss236-q16": [
+    "The first group was given maps, and the second compasses."
+  ],
+  "ss236-q17": [
+    "Our team should prepare the slides, and their team the handout."
+  ],
+  "ss236-q18": [
+    "Emma may take the bus, or Jack the train."
+  ],
+  "ss236-q19": [
+    "The children were eating upstairs, while the adults downstairs."
+  ],
+  "ss236-q20": [
+    "The old model is more expensive, but the new model easier to use."
+  ],
+  "ss236-q21": [
+    "On Monday, the clinic opens at nine, and on Saturday at ten."
+  ],
+  "ss236-q22": [
+    "In Hong Kong, the company employs forty staff, and in Singapore twenty-five."
+  ],
+  "ss236-q23": [
+    "For breakfast, Ella had toast, and for lunch noodles."
+  ],
+  "ss236-q24": [
+    "In the morning, the library is quiet, but after school crowded."
+  ],
+  "ss236-q25": [
+    "At the first meeting, we discussed the budget, and at the second the schedule."
+  ],
+  "ss236-q26": [
+    "During summer, the shop closes at eight, and during winter at six."
+  ],
+  "ss236-q27": [
+    "The science team collected soil samples, and the art team photographs."
+  ],
+  "ss236-q28": [
+    "The teacher gave Group A a worksheet, and Group B a short quiz."
+  ],
+  "ss236-q29": [
+    "The manager asked Priya to contact the client, and Omar to update the file."
+  ],
+  "ss236-q30": [
+    "Lily chose soup, Ryan pasta, and Zoe salad."
+  ],
+  "ss236-q31": [
+    "The east wing contains offices; the west wing, laboratories."
+  ],
+  "ss236-q32": [
+    "In 2025, sales reached $4 million; in 2026, $5 million."
+  ],
+  "ss236-q33": [
+    "The morning session was led by Dr Lee; the afternoon session, by Ms Wong."
+  ],
+  "ss236-q34": [
+    "Some students prefer printed notes; others, digital copies."
+  ],
+  "ss236-q35": [
+    "The north received heavy rain, whereas the south strong winds."
+  ],
+  "ss236-q36": [
+    "The city centre has frequent buses, while the rural area only two services a day."
+  ],
+  "ss236-q37": [
+    "One applicant had five years of experience, and the other only two."
+  ],
+  "ss236-q38": [
+    "The school will provide the venue, and the parents the food."
+  ],
+  "ss236-q39": [
+    "The technician checked the main computer first, and the assistant the printers afterwards."
+  ],
+  "ss236-q40": [
+    "The first proposal was supported by the teachers, but the second by the parents."
+  ],
+  "ss236-q41": [
+    "At the city branch, customers can collect orders after six, and at the airport branch after midnight."
+  ],
+  "ss236-q42": [
+    "The morning class will study climate change, the afternoon class renewable energy, and the evening class public transport."
+  ],
+  "ss236-q43": [
+    "The charity sent the northern villages blankets, and the coastal villages food and medicine."
+  ],
+  "ss236-q44": [
+    "The main chart compares household spending in 2024 with that in 2025, and the second chart business spending in 2025 with that in 2026."
+  ],
+  "ss236-q45": [
+    "At the beginning of the course, students completed a language test; at the end, a presentation."
+  ],
+  "ss236-q46": [
+    "The first route can carry passengers directly to the centre, whereas the second only as far as the station."
+  ],
+  "ss236-q47": [
+    "The research team measured air quality in three districts, and the health team noise levels in five."
+  ],
+  "ss236-q48": [
+    "The old policy gave managers more freedom, but the new policy employees greater protection."
+  ],
+  "ss236-q49": [
+    "In the emergency drill, the ground-floor staff used the front exit, the first-floor staff the side stairs, and the visitors the rear gate."
+  ],
+  "ss236-q50": [
+    "The university will provide first-year students with study-skills workshops, and final-year students with career-planning sessions."
+  ],
+  "ss237-q01": [
+    "Amy enjoyed the film, and Leo too."
+  ],
+  "ss237-q02": [
+    "Maya reads before bed, and Nina too."
+  ],
+  "ss237-q03": [
+    "The red team was ready, and the blue team too."
+  ],
+  "ss237-q04": [
+    "My brother can swim, and I too."
+  ],
+  "ss237-q05": [
+    "Daniel visited the museum, and Grace too."
+  ],
+  "ss237-q06": [
+    "I do not eat seafood, and neither does my sister."
+  ],
+  "ss237-q07": [
+    "Chloe was not late, and neither was Emma."
+  ],
+  "ss237-q08": [
+    "The manager will attend the meeting, and the assistant too."
+  ],
+  "ss237-q09": [
+    "Tom did not understand the question, and neither did Tom."
+  ],
+  "ss237-q10": [
+    "The library is quiet, and the study room too."
+  ],
+  "ss237-q11": [
+    "Ava finished the task early, and Noah too."
+  ],
+  "ss237-q12": [
+    "The hotel has received our booking, and the airline too."
+  ],
+  "ss237-q13": [
+    "The first plan seemed practical, and the second plan too."
+  ],
+  "ss237-q14": [
+    "I would support the proposal, and my colleague too."
+  ],
+  "ss237-q15": [
+    "She is studying French, and her cousin too."
+  ],
+  "ss237-q16": [
+    "Our teacher has not seen the email, and neither has the principal."
+  ],
+  "ss237-q17": [
+    "The train cannot stop here, and neither can the bus."
+  ],
+  "ss237-q18": [
+    "The old printer did not work, and neither did the new one."
+  ],
+  "ss237-q19": [
+    "The kitchen was being cleaned, and the dining room too."
+  ],
+  "ss237-q20": [
+    "Ben should not ignore the warning, and neither should we."
+  ],
+  "ss237-q21": [
+    "The teachers welcomed the change, and the parents too."
+  ],
+  "ss237-q22": [
+    "The museum attracts local visitors, and overseas tourists too."
+  ],
+  "ss237-q23": [
+    "The course is useful for beginners, and experienced learners too."
+  ],
+  "ss237-q24": [
+    "We visited the old market, and the harbour too."
+  ],
+  "ss237-q25": [
+    "The training sessions will take place on Monday, and Wednesday too."
+  ],
+  "ss237-q26": [
+    "The receptionist could not answer my question, and neither could the manager."
+  ],
+  "ss237-q27": [
+    "The children have not finished lunch, and neither have the adults."
+  ],
+  "ss237-q28": [
+    "Sam was not invited to the ceremony, and neither was his partner."
+  ],
+  "ss237-q29": [
+    "The new rule applies to staff, and visitors too."
+  ],
+  "ss237-q30": [
+    "During the storm, the ferries did not operate, and neither did the buses."
+  ],
+  "ss237-q31": [
+    "In the final survey, the teachers supported the plan, and the parents too."
+  ],
+  "ss237-q32": [
+    "The report did not cover costs, or safety either."
+  ],
+  "ss237-q33": [
+    "Tom can speak Cantonese, and English too."
+  ],
+  "ss237-q34": [
+    "The workshop was helpful for new staff, and team leaders too."
+  ],
+  "ss237-q35": [
+    "The morning class has been cancelled, and the evening class too."
+  ],
+  "ss237-q36": [
+    "The software is not easy to use, and neither is the website."
+  ],
+  "ss237-q37": [
+    "I had not expected the delay, and neither had my colleague."
+  ],
+  "ss237-q38": [
+    "The team would not accept the revised offer, and neither would the client."
+  ],
+  "ss237-q39": [
+    "The machine did not work in the office, or at the exhibition hall either."
+  ],
+  "ss237-q40": [
+    "The policy should help small businesses, and local charities too."
+  ],
+  "ss237-q41": [
+    "During the consultation, the first proposal received support, and the second proposal too."
+  ],
+  "ss237-q42": [
+    "The company operates offices in Singapore, and Malaysia too."
+  ],
+  "ss237-q43": [
+    "The new policy protects full-time employees, and part-time workers too."
+  ],
+  "ss237-q44": [
+    "The main hall was inspected before the event, and the conference room too."
+  ],
+  "ss237-q45": [
+    "The survey did not include temporary staff, or freelance workers either."
+  ],
+  "ss237-q46": [
+    "We did not receive a reply from the supplier, or the delivery company either."
+  ],
+  "ss237-q47": [
+    "The committee would not approve the first option; nor would the board."
+  ],
+  "ss237-q48": [
+    "The training was useful for newly hired staff, and experienced supervisors too."
+  ],
+  "ss237-q49": [
+    "The speaker did not discuss the budget, or the timetable either."
+  ],
+  "ss237-q50": [
+    "After reviewing the evidence, the chairperson rejected the application, and the appeal too."
+  ],
+  "ss238-q01": [
+    "Someone rang the bell, but I don’t know who."
+  ],
+  "ss238-q02": [
+    "Maya bought something, but she won’t tell me what."
+  ],
+  "ss238-q03": [
+    "They met somewhere after work, but we aren’t sure where."
+  ],
+  "ss238-q04": [
+    "The train will arrive at some time, though nobody has announced when."
+  ],
+  "ss238-q05": [
+    "The lights went out for some reason; no one knows why."
+  ],
+  "ss238-q06": [
+    "Leo solved the puzzle somehow, but he hasn’t explained how."
+  ],
+  "ss238-q07": [
+    "One of these keys opens the cupboard, but I can’t remember which."
+  ],
+  "ss238-q08": [
+    "Someone’s coat is on my chair, but I don’t know whose."
+  ],
+  "ss238-q09": [
+    "Some students stayed behind. The teacher doesn’t know how many."
+  ],
+  "ss238-q10": [
+    "The meal cost a certain amount, though Ravi won’t say how much."
+  ],
+  "ss238-q11": [
+    "Someone left this note. Who?"
+  ],
+  "ss238-q12": [
+    "Something is making that noise. Can you guess what?"
+  ],
+  "ss238-q13": [
+    "The children hid the present somewhere. Do you know where?"
+  ],
+  "ss238-q14": [
+    "The meeting was moved to another day, but I have forgotten when."
+  ],
+  "ss238-q15": [
+    "They left early, although I’m not sure why."
+  ],
+  "ss238-q16": [
+    "Nina opened the locked box somehow, but she never explained how."
+  ],
+  "ss238-q17": [
+    "One of the buses goes to the museum. The receptionist can tell you which."
+  ],
+  "ss238-q18": [
+    "Someone owns this bicycle. I wonder whose."
+  ],
+  "ss238-q19": [
+    "Several customers complained, but the manager won’t reveal how many."
+  ],
+  "ss238-q20": [
+    "We need a certain amount of paint, but I don’t know how much."
+  ],
+  "ss238-q21": [
+    "I don’t know who, but someone sent the flowers."
+  ],
+  "ss238-q22": [
+    "We cannot remember where, but we parked somewhere near the station."
+  ],
+  "ss238-q23": [
+    "No one understands why, although the alarm rang for some reason."
+  ],
+  "ss238-q24": [
+    "I have forgotten when, but the shop closes at some time this evening."
+  ],
+  "ss238-q25": [
+    "She won’t explain how, but she entered somehow."
+  ],
+  "ss238-q26": [
+    "Someone deleted the file; exactly who remains unknown."
+  ],
+  "ss238-q27": [
+    "The event was cancelled; why has never been explained."
+  ],
+  "ss238-q28": [
+    "The parcel was sent from somewhere, but precisely where remains uncertain."
+  ],
+  "ss238-q29": [
+    "Someone spoke to the director; exactly who is still a mystery."
+  ],
+  "ss238-q30": [
+    "One of the plans was approved, but which one is not yet clear."
+  ],
+  "ss238-q31": [
+    "A guest took my seat, but I have no idea who."
+  ],
+  "ss238-q32": [
+    "The council has chosen a site for the new park, but nobody knows where."
+  ],
+  "ss238-q33": [
+    "The package was delivered to someone, but the receptionist can’t remember who."
+  ],
+  "ss238-q34": [
+    "A message was sent by someone, but we cannot tell by whom."
+  ],
+  "ss238-q35": [
+    "They discussed something during the meeting, though nobody knows what."
+  ],
+  "ss238-q36": [
+    "The children are going somewhere after school, but their parents don’t know where."
+  ],
+  "ss238-q37": [
+    "You may need to contact one of the technicians, but I can’t say which."
+  ],
+  "ss238-q38": [
+    "Someone has been using my desk, but I haven’t discovered who."
+  ],
+  "ss238-q39": [
+    "A number of tickets were sold online, though the organiser can’t confirm how many."
+  ],
+  "ss238-q40": [
+    "The repair may cost a certain amount, but the engineer cannot yet estimate how much."
+  ],
+  "ss238-q41": [
+    "I don’t know who, but one of the applicants changed the figures."
+  ],
+  "ss238-q42": [
+    "Exactly where remains uncertain, but the committee has chosen somewhere for the ceremony."
+  ],
+  "ss238-q43": [
+    "Although the system shut down for some reason, why remains a mystery."
+  ],
+  "ss238-q44": [
+    "The team will announce the results at some point; when has not been decided."
+  ],
+  "ss238-q45": [
+    "The thieves entered somehow without breaking a window; exactly how remains difficult to explain."
+  ],
+  "ss238-q46": [
+    "Someone has changed the password. Who?"
+  ],
+  "ss238-q47": [
+    "The team bought some new equipment. Can you guess what?"
+  ],
+  "ss238-q48": [
+    "One of the witnesses left before the interview, but I can’t remember which one."
+  ],
+  "ss238-q49": [
+    "The charity received a donation from someone, but nobody knows from whom."
+  ],
+  "ss238-q50": [
+    "Someone changed the final schedule for some reason, but nobody knows who or why."
+  ],
+  "ss239-q01": [
+    "Is the library still open? I think so."
+  ],
+  "ss239-q02": [
+    "Will our team win the final? I hope so."
+  ],
+  "ss239-q03": [
+    "Has the bus left? I do not think so."
+  ],
+  "ss239-q04": [
+    "Will it rain tomorrow? I hope not."
+  ],
+  "ss239-q05": [
+    "Did we miss the last train? I am afraid so."
+  ],
+  "ss239-q06": [
+    "Can we enter the hall now? I am afraid not."
+  ],
+  "ss239-q07": [
+    "Is the lift working again? It seems so."
+  ],
+  "ss239-q08": [
+    "The last train leaves at eleven. The timetable says so."
+  ],
+  "ss239-q09": [
+    "Is Tom joining us for lunch? I suppose so."
+  ],
+  "ss239-q10": [
+    "Is Leo free this afternoon? I suppose not."
+  ],
+  "ss239-q11": [
+    "Will the parcel arrive today? The courier thinks so."
+  ],
+  "ss239-q12": [
+    "Will classes resume on Monday? The school believes so."
+  ],
+  "ss239-q13": [
+    "Is the answer correct? Nobody thinks so."
+  ],
+  "ss239-q14": [
+    "The room is available this afternoon. The receptionist says so."
+  ],
+  "ss239-q15": [
+    "Will the weather improve before the event? We imagine so."
+  ],
+  "ss239-q16": [
+    "Can the plan succeed without more funding? The experts do not believe so."
+  ],
+  "ss239-q17": [
+    "Will the outdoor concert continue? The organisers hope so."
+  ],
+  "ss239-q18": [
+    "Will the match be cancelled? The players hope not."
+  ],
+  "ss239-q19": [
+    "Did the alarm cause the problem? The engineer thinks so."
+  ],
+  "ss239-q20": [
+    "Is this medicine safe for children? The doctor does not think so."
+  ],
+  "ss239-q21": [
+    "Check whether the printer is connected. If so, restart the computer."
+  ],
+  "ss239-q22": [
+    "Find out whether the meeting room has been booked. If not, reserve it."
+  ],
+  "ss239-q23": [
+    "Does the shop offer refunds? Perhaps so."
+  ],
+  "ss239-q24": [
+    "Will the road reopen tonight? Probably so."
+  ],
+  "ss239-q25": [
+    "Is the rumour true? Apparently not."
+  ],
+  "ss239-q26": [
+    "Could the figures be wrong? Maybe so."
+  ],
+  "ss239-q27": [
+    "Will the meeting end early? Maybe not."
+  ],
+  "ss239-q28": [
+    "Can students use phones during the test? Certainly not."
+  ],
+  "ss239-q29": [
+    "Is the water safe to drink? Apparently so."
+  ],
+  "ss239-q30": [
+    "Will the project fail because of one delay? Surely not."
+  ],
+  "ss239-q31": [
+    "Why do you think so?"
+  ],
+  "ss239-q32": [
+    "Do you really believe so?"
+  ],
+  "ss239-q33": [
+    "Who told you so?"
+  ],
+  "ss239-q34": [
+    "I told you so."
+  ],
+  "ss239-q35": [
+    "We may leave early if the manager says so."
+  ],
+  "ss239-q36": [
+    "Will the plan work? I think so, but we should check the costs."
+  ],
+  "ss239-q37": [
+    "Will the patient recover? I hope so, although it may take time."
+  ],
+  "ss239-q38": [
+    "Did we miss the deadline? I am afraid so, because the form was sent late."
+  ],
+  "ss239-q39": [
+    "Is the café still open? I do not think so, but I can check."
+  ],
+  "ss239-q40": [
+    "Will the delay affect the event? I hope not, because many guests are travelling."
+  ],
+  "ss239-q41": [
+    "The new system is secure, or so the company claims."
+  ],
+  "ss239-q42": [
+    "The train will arrive on time, or so the station announcement says."
+  ],
+  "ss239-q43": [
+    "The problem has been solved, or so the technician believes."
+  ],
+  "ss239-q44": [
+    "The policy will reduce costs, or so its supporters expect."
+  ],
+  "ss239-q45": [
+    "First check whether the figures are accurate. If so, the company made a profit last quarter. If not, we need another review."
+  ],
+  "ss239-q46": [
+    "The public may support the plan. If so, the council can continue with the project."
+  ],
+  "ss239-q47": [
+    "The door should be unlocked. If not, call security."
+  ],
+  "ss239-q48": [
+    "Had the booking been confirmed? I assumed so, but now I am unsure."
+  ],
+  "ss239-q49": [
+    "Did the treatment work? The researchers believe so, although more evidence is needed."
+  ],
+  "ss239-q50": [
+    "Is the estimate realistic? Few experts think so."
+  ],
+  "ss240-q01": [
+    "Who broke the cup? Not me."
+  ],
+  "ss240-q02": [
+    "Coming with us? Probably not."
+  ],
+  "ss240-q03": [
+    "This café is too crowded. Elsewhere?"
+  ],
+  "ss240-q04": [
+    "Where does Tom want to live? Somewhere quiet near the sea."
+  ],
+  "ss240-q05": [
+    "A place to charge my phone? Nowhere."
+  ],
+  "ss240-q06": [
+    "Where should we wait? Elsewhere, please. The waiting area is full."
+  ],
+  "ss240-q07": [
+    "Why was the match cancelled? Because of the rain."
+  ],
+  "ss240-q08": [
+    "Who wants more soup? Not Ben. He has already eaten."
+  ],
+  "ss240-q09": [
+    "Report ready? Not yet. It still needs one final check."
+  ],
+  "ss240-q10": [
+    "How tired? Very tired."
+  ],
+  "ss240-q11": [
+    "How did Noah travel to the town centre? By bus."
+  ],
+  "ss240-q12": [
+    "Form finished? Not completely. I still need to sign the last page."
+  ],
+  "ss240-q13": [
+    "Whose umbrella? Mine."
+  ],
+  "ss240-q14": [
+    "“I enjoy hiking.” “Me too.”",
+    "I enjoy hiking. Me too."
+  ],
+  "ss240-q15": [
+    "“I do not like crowded places.” “Me neither.”",
+    "I do not like crowded places. Me neither."
+  ],
+  "ss240-q16": [
+    "Which day suits you? Tuesday, not Monday."
+  ],
+  "ss240-q17": [
+    "Leave now? Maybe later."
+  ],
+  "ss240-q18": [
+    "How many times? Only once."
+  ],
+  "ss240-q19": [
+    "Who left the window open? No idea."
+  ],
+  "ss240-q20": [
+    "Anything else? Just one more question."
+  ],
+  "ss240-q21": [
+    "Why did Maya call? To apologise."
+  ],
+  "ss240-q22": [
+    "How should I open the box? With a key."
+  ],
+  "ss240-q23": [
+    "Visitor entry? After noon—no earlier."
+  ],
+  "ss240-q24": [
+    "Main problem? The cost."
+  ],
+  "ss240-q25": [
+    "Where should we meet? Somewhere near the station."
+  ],
+  "ss240-q26": [
+    "Which folder is yours? The blue one, not the red one."
+  ],
+  "ss240-q27": [
+    "Extra copies? If necessary. Otherwise, one is enough."
+  ],
+  "ss240-q28": [
+    "When will the team begin? When everyone is ready."
+  ],
+  "ss240-q29": [
+    "Who can help with the boxes? My sister."
+  ],
+  "ss240-q30": [
+    "Audience reaction? Complete silence. Nobody said a word."
+  ],
+  "ss240-q31": [
+    "Free this afternoon? Not today. Maybe tomorrow."
+  ],
+  "ss240-q32": [
+    "Sent to whom? Tom, not me."
+  ],
+  "ss240-q33": [
+    "Small, but comfortable. That was our impression of the room."
+  ],
+  "ss240-q34": [
+    "The sound? Somewhere upstairs."
+  ],
+  "ss240-q35": [
+    "A notebook? To write down new words."
+  ],
+  "ss240-q36": [
+    "Almost everyone. Only two people disagreed."
+  ],
+  "ss240-q37": [
+    "You, probably. You know the topic best."
+  ],
+  "ss240-q38": [
+    "At six? Probably not. At seven? More likely."
+  ],
+  "ss240-q39": [
+    "After lunch, preferably. Now only if necessary."
+  ],
+  "ss240-q40": [
+    "Only the first two pages. I still have a long way to go."
+  ],
+  "ss240-q41": [
+    "What caused the delay? Not the weather—the missing permit."
+  ],
+  "ss240-q42": [
+    "The answer? Somewhere between emotion and logic."
+  ],
+  "ss240-q43": [
+    "Where did the evidence point? Elsewhere."
+  ],
+  "ss240-q44": [
+    "Fair in every case? In some, yes; in others, no."
+  ],
+  "ss240-q45": [
+    "Rejected? Not completely. More evidence first."
+  ],
+  "ss240-q46": [
+    "Which part needs revision? The timetable—especially the final week."
+  ],
+  "ss240-q47": [
+    "The scientists? Cautiously optimistic."
+  ],
+  "ss240-q48": [
+    "Immediately, if necessary. Otherwise, on standby."
+  ],
+  "ss240-q49": [
+    "Result: clear. Cause: unclear."
+  ],
+  "ss240-q50": [
+    "Follow the original assumption? Certainly not. Evidence first."
+  ],
+  "ss241-q01": [
+    "It takes time to build trust."
+  ],
+  "ss241-q02": [
+    "It takes Tom ten minutes to walk to school."
+  ],
+  "ss241-q03": [
+    "It takes regular practice to improve your pronunciation."
+  ],
+  "ss241-q04": [
+    "It takes about two hours to repair this bicycle."
+  ],
+  "ss241-q05": [
+    "It takes patience to teach a young child."
+  ],
+  "ss241-q06": [
+    "It takes three hours to travel by train."
+  ],
+  "ss241-q07": [
+    "It takes Leo twenty minutes to clean his room."
+  ],
+  "ss241-q08": [
+    "It takes courage to admit a serious mistake."
+  ],
+  "ss241-q09": [
+    "How long does it take to boil the potatoes?"
+  ],
+  "ss241-q10": [
+    "It does not take much effort to open this app."
+  ],
+  "ss241-q11": [
+    "It took Sarah two weeks to prepare for the interview."
+  ],
+  "ss241-q12": [
+    "It may take several months to solve this problem."
+  ],
+  "ss241-q13": [
+    "It should take no more than a minute to restart the computer."
+  ],
+  "ss241-q14": [
+    "Does it take a long time to learn to drive?"
+  ],
+  "ss241-q15": [
+    "It has taken many years to restore the old theatre."
+  ],
+  "ss241-q16": [
+    "It takes little energy to operate this small machine."
+  ],
+  "ss241-q17": [
+    "How much effort does it take to organise the school fair?"
+  ],
+  "ss241-q18": [
+    "It took the team the whole morning to move the equipment."
+  ],
+  "ss241-q19": [
+    "It will take patience to deal with this difficult situation."
+  ],
+  "ss241-q20": [
+    "It can take years to become fully confident in a new language."
+  ],
+  "ss241-q21": [
+    "People often forget that it takes time to develop a strong friendship."
+  ],
+  "ss241-q22": [
+    "The guide explains how long it takes to complete the walking tour."
+  ],
+  "ss241-q23": [
+    "Nobody knows how long it will take to repair the damaged bridge."
+  ],
+  "ss241-q24": [
+    "Do you know how much effort it takes to maintain this garden?"
+  ],
+  "ss241-q25": [
+    "We were surprised that it took only one day to complete the project."
+  ],
+  "ss241-q26": [
+    "The coach says that it takes regular practice to master this skill."
+  ],
+  "ss241-q27": [
+    "Although the device looks simple, it still takes thirty minutes to set up."
+  ],
+  "ss241-q28": [
+    "When the roads are clear, it takes only twenty minutes to complete the journey."
+  ],
+  "ss241-q29": [
+    "Because the task was complicated, it took the team three days to complete it."
+  ],
+  "ss241-q30": [
+    "The report estimates that it will take several years to complete the new railway."
+  ],
+  "ss241-q31": [
+    "What does it take to remain calm during an emergency?"
+  ],
+  "ss241-q32": [
+    "Does it take great physical strength to operate this tool?"
+  ],
+  "ss241-q33": [
+    "Sarah asked how long it would take her to complete the course."
+  ],
+  "ss241-q34": [
+    "We were told that it would take three days to install the new windows."
+  ],
+  "ss241-q35": [
+    "No one expected it to take so much time to complete the repair."
+  ],
+  "ss241-q36": [
+    "The app promises that it takes less than five minutes to create a new account."
+  ],
+  "ss241-q37": [
+    "Even for experts, it takes complete concentration to perform this operation safely."
+  ],
+  "ss241-q38": [
+    "It takes months of honest communication to build trust."
+  ],
+  "ss241-q39": [
+    "The manager wanted to know how long it would take to update the entire system."
+  ],
+  "ss241-q40": [
+    "The doctor explained that it might take several months to make a full recovery."
+  ],
+  "ss241-q41": [
+    "How long it takes to learn the software depends on the user’s previous experience."
+  ],
+  "ss241-q42": [
+    "People often underestimate how much effort it takes to change a long-standing habit."
+  ],
+  "ss241-q43": [
+    "For a complete beginner, it may take many hours of practice to learn these movements."
+  ],
+  "ss241-q44": [
+    "Although the deadline is tight, it will take at least three days to complete the work safely."
+  ],
+  "ss241-q45": [
+    "Whether it takes weeks or months to complete the investigation depends on the evidence available."
+  ],
+  "ss241-q46": [
+    "The committee could not agree on how long it would take to introduce the new policy."
+  ],
+  "ss241-q47": [
+    "It takes both courage and careful thought to give a sincere apology."
+  ],
+  "ss241-q48": [
+    "The public may not realise how many years of research it takes to develop a safe medicine."
+  ],
+  "ss241-q49": [
+    "Before approving the plan, we must consider whether it will take the team too much time and effort to complete it."
+  ],
+  "ss241-q50": [
+    "Even when a task appears simple, it can take considerable skill and patience to perform it well."
+  ],
+  "ss242-q01": [
+    "It is up to you to choose the colour."
+  ],
+  "ss242-q02": [
+    "It is up to Tom to decide where everyone will sit."
+  ],
+  "ss242-q03": [
+    "It is up to the teacher to set the deadline."
+  ],
+  "ss242-q04": [
+    "According to the rules, it is up to the referee to make the final decision."
+  ],
+  "ss242-q05": [
+    "Although we can offer advice, it is up to Ben to choose his own course."
+  ],
+  "ss242-q06": [
+    "The manager explained that it is up to each employee to check the form."
+  ],
+  "ss242-q07": [
+    "Is it up to the captain to select the team?"
+  ],
+  "ss242-q08": [
+    "Do you think it is up to the parents to make the decision?"
+  ],
+  "ss242-q09": [
+    "In the end, it is up to me to decide whether to accept or refuse the offer."
+  ],
+  "ss242-q10": [
+    "It is not up to us to change the school rules."
+  ],
+  "ss242-q11": [
+    "The doctor said that it was up to the patient to choose between the two treatments."
+  ],
+  "ss242-q12": [
+    "At that time, it was up to Chloe to contact the customer."
+  ],
+  "ss242-q13": [
+    "We can suggest a restaurant, but it is up to them to book a table."
+  ],
+  "ss242-q14": [
+    "If the weather improves, it will be up to the organisers to decide whether to restart the event."
+  ],
+  "ss242-q15": [
+    "It has always been up to the owner to approve large repairs."
+  ],
+  "ss242-q16": [
+    "After the interviews, it will be up to the panel to choose the best candidate."
+  ],
+  "ss242-q17": [
+    "The coach reminded us that it was up to us to practise regularly."
+  ],
+  "ss242-q18": [
+    "Is it really up to him to decide how the money is spent?"
+  ],
+  "ss242-q19": [
+    "Even if everyone disagrees, it is up to her to make the final choice."
+  ],
+  "ss242-q20": [
+    "It may be up to the local council to solve the parking problem."
+  ],
+  "ss242-q21": [
+    "The head teacher confirmed that it is up to each department to arrange its own training."
+  ],
+  "ss242-q22": [
+    "By the end of the meeting, it will be up to the chairperson to decide whether to hold a vote."
+  ],
+  "ss242-q23": [
+    "It was not up to the assistant to release the confidential report."
+  ],
+  "ss242-q24": [
+    "When the time comes, it will be up to you to explain the decision."
+  ],
+  "ss242-q25": [
+    "No matter how much pressure he faces, it is up to Daniel to decide whether to resign."
+  ],
+  "ss242-q26": [
+    "The policy makes it clear that it is up to parents to provide accurate information."
+  ],
+  "ss242-q27": [
+    "If no agreement is reached, it may be up to a judge to settle the dispute."
+  ],
+  "ss242-q28": [
+    "It is entirely up to the customer to decide whether to request a refund or an exchange."
+  ],
+  "ss242-q29": [
+    "The guide told us that it was up to each visitor to follow the safety instructions."
+  ],
+  "ss242-q30": [
+    "Before we continue, is it up to the committee to approve this change?"
+  ],
+  "ss242-q31": [
+    "Although the computer can provide suggestions, it is up to the user to select the final option."
+  ],
+  "ss242-q32": [
+    "After all the evidence has been reviewed, it will still be up to the board to make the final decision."
+  ],
+  "ss242-q33": [
+    "The principal said that it was not up to individual teachers to cancel the examination."
+  ],
+  "ss242-q34": [
+    "Whether the plan succeeds or fails, it is up to the team to carry it out properly."
+  ],
+  "ss242-q35": [
+    "Do you believe it should be up to teenagers to decide how they use their pocket money?"
+  ],
+  "ss242-q36": [
+    "In situations like this, it is usually up to the senior nurse to contact the family."
+  ],
+  "ss242-q37": [
+    "The contract states that it is up to the supplier to replace any faulty equipment."
+  ],
+  "ss242-q38": [
+    "If the two sides remain unable to agree, it will be up to the mediator to propose a compromise."
+  ],
+  "ss242-q39": [
+    "It should not be up to one person to control all the information."
+  ],
+  "ss242-q40": [
+    "During an emergency, it is up to the person in charge to give clear instructions."
+  ],
+  "ss242-q41": [
+    "The report concludes that it should be up to the regulator to investigate serious complaints."
+  ],
+  "ss242-q42": [
+    "Once the public consultation has ended, it will be up to the council to decide whether the project should proceed."
+  ],
+  "ss242-q43": [
+    "Although experts can explain the risks, it is ultimately up to each patient to decide whether to give informed consent."
+  ],
+  "ss242-q44": [
+    "The director made it clear that it was up to the production team to solve the technical problem before filming resumed."
+  ],
+  "ss242-q45": [
+    "If the appeal is accepted, it may be up to a different panel to review the evidence again."
+  ],
+  "ss242-q46": [
+    "The school believes that it should be up to students to choose at least one creative subject."
+  ],
+  "ss242-q47": [
+    "Before any personal data is shared, it is up to the organisation to obtain the user's permission."
+  ],
+  "ss242-q48": [
+    "Do the regulations say that it is up to the landlord to arrange the safety inspection?"
+  ],
+  "ss242-q49": [
+    "Even after the advisers have presented both options, it remains up to the client to make the final decision."
+  ],
+  "ss242-q50": [
+    "In a case involving several departments, it may ultimately be up to the chief executive to decide who has final responsibility."
+  ],
+  "ss243-q01": [
+    "The proposal is worth considering."
+  ],
+  "ss243-q02": [
+    "This museum is worth a visit."
+  ],
+  "ss243-q03": [
+    "The guidebook is worth buying."
+  ],
+  "ss243-q04": [
+    "It is worth checking the train times because the service may have changed."
+  ],
+  "ss243-q05": [
+    "The extra lesson is worth the cost."
+  ],
+  "ss243-q06": [
+    "This film is worth seeing."
+  ],
+  "ss243-q07": [
+    "The problem is worth discussing."
+  ],
+  "ss243-q08": [
+    "It is not worth arguing about such a small mistake."
+  ],
+  "ss243-q09": [
+    "Is the exhibition worth visiting?"
+  ],
+  "ss243-q10": [
+    "The old camera is worth about £80."
+  ],
+  "ss243-q11": [
+    "The article is well worth reading."
+  ],
+  "ss243-q12": [
+    "This issue is worth your attention."
+  ],
+  "ss243-q13": [
+    "The repair is not worth the expense."
+  ],
+  "ss243-q14": [
+    "It is worth asking the teacher for clarification."
+  ],
+  "ss243-q15": [
+    "Are these shoes worth the price?"
+  ],
+  "ss243-q16": [
+    "The village is definitely worth visiting in spring."
+  ],
+  "ss243-q17": [
+    "The idea may be worth trying."
+  ],
+  "ss243-q18": [
+    "The meal was worth the wait."
+  ],
+  "ss243-q19": [
+    "The watch is not worth £200."
+  ],
+  "ss243-q20": [
+    "Before you decide, it is worth comparing the two plans."
+  ],
+  "ss243-q21": [
+    "Most reviewers agree that the novel is worth reading."
+  ],
+  "ss243-q22": [
+    "Although the ticket is expensive, the concert is worth attending."
+  ],
+  "ss243-q23": [
+    "If you enjoy science, the new gallery is worth a visit."
+  ],
+  "ss243-q24": [
+    "It is worth remembering that prices may rise."
+  ],
+  "ss243-q25": [
+    "The plan is worth discussing with the whole team."
+  ],
+  "ss243-q26": [
+    "This laptop is not worth repairing."
+  ],
+  "ss243-q27": [
+    "Is it worth booking the tickets early?"
+  ],
+  "ss243-q28": [
+    "The research is worth further investigation."
+  ],
+  "ss243-q29": [
+    "Her suggestion is certainly worth considering."
+  ],
+  "ss243-q30": [
+    "The sculpture is worth more than £5,000."
+  ],
+  "ss243-q31": [
+    "Since the path is short and scenic, it is worth walking."
+  ],
+  "ss243-q32": [
+    "The report is worth reading carefully before the meeting."
+  ],
+  "ss243-q33": [
+    "One question is worth asking before we continue."
+  ],
+  "ss243-q34": [
+    "The cheaper option is not necessarily worth choosing."
+  ],
+  "ss243-q35": [
+    "If the evidence is reliable, the case is worth reopening."
+  ],
+  "ss243-q36": [
+    "The course is well worth the time it requires."
+  ],
+  "ss243-q37": [
+    "It may be worth checking whether the figures are correct."
+  ],
+  "ss243-q38": [
+    "Although the journey is long, the island is worth visiting."
+  ],
+  "ss243-q39": [
+    "The warning is worth taking seriously."
+  ],
+  "ss243-q40": [
+    "Is the cheaper model worth the risk of frequent repairs?"
+  ],
+  "ss243-q41": [
+    "Because it clearly benefits the public, the proposal is worth supporting."
+  ],
+  "ss243-q42": [
+    "Whether the device is worth buying depends on how often you will use it."
+  ],
+  "ss243-q43": [
+    "The manager believes that the training is worth the extra expense."
+  ],
+  "ss243-q44": [
+    "Even if the first attempt fails, the method may still be worth trying again."
+  ],
+  "ss243-q45": [
+    "It is not worth risking your health to meet an unrealistic deadline."
+  ],
+  "ss243-q46": [
+    "The findings are worth discussing in greater detail before publication."
+  ],
+  "ss243-q47": [
+    "If the software saves several hours each week, it is worth the annual fee."
+  ],
+  "ss243-q48": [
+    "The old building may be worth preserving for its historical value."
+  ],
+  "ss243-q49": [
+    "Before rejecting the idea, ask whether it is worth testing on a small scale."
+  ],
+  "ss243-q50": [
+    "Although neither option is perfect, both are worth examining before a final decision is made."
+  ],
+  "ss244-q01": [
+    "It is no use complaining about the weather."
+  ],
+  "ss244-q02": [
+    "It is no good calling the office again because it has already closed."
+  ],
+  "ss244-q03": [
+    "Since the last bus has left, it is no use waiting any longer."
+  ],
+  "ss244-q04": [
+    "It is no good trying to open the door with the wrong key."
+  ],
+  "ss244-q05": [
+    "Because the machine is unplugged, it is no use pressing the button again."
+  ],
+  "ss244-q06": [
+    "If you want the baby to sleep, it is no good making more noise."
+  ],
+  "ss244-q07": [
+    "It is no use asking Sam because he does not know the answer."
+  ],
+  "ss244-q08": [
+    "It is no good arguing about such a small mistake because it will not solve the problem."
+  ],
+  "ss244-q09": [
+    "Now that we are already soaked, it is no use taking an umbrella."
+  ],
+  "ss244-q10": [
+    "Since the phone has been disconnected, it is no good speaking louder."
+  ],
+  "ss244-q11": [
+    "Daniel realised that it was no use continuing to search the wrong room."
+  ],
+  "ss244-q12": [
+    "The customers knew that it was no good complaining to the cashier about the price."
+  ],
+  "ss244-q13": [
+    "After checking the timetable, Chloe saw that it was no use waiting another hour."
+  ],
+  "ss244-q14": [
+    "Because nobody is home, it is no use knocking again."
+  ],
+  "ss244-q15": [
+    "Since the road was completely blocked, it was no good trying the same route again."
+  ],
+  "ss244-q16": [
+    "Grace told us that it was no use sending another email that night."
+  ],
+  "ss244-q17": [
+    "At that stage, it was no good trying to repair the torn paper with water."
+  ],
+  "ss244-q18": [
+    "The teacher explained that it was no use memorising answers without understanding them."
+  ],
+  "ss244-q19": [
+    "You should remember that it is no good blaming others because it will not solve the problem."
+  ],
+  "ss244-q20": [
+    "When the lift is out of order, it is no use pressing the button repeatedly."
+  ],
+  "ss244-q21": [
+    "If all the tickets have been sold, it will be no use refreshing the page again."
+  ],
+  "ss244-q22": [
+    "It would be no good travelling to the museum if it were closed."
+  ],
+  "ss244-q23": [
+    "The doctor said that it was no use taking more medicine than prescribed."
+  ],
+  "ss244-q24": [
+    "Although Henry knew that it was no good asking the same question again, he did so."
+  ],
+  "ss244-q25": [
+    "Once the paint has dried, it is no use wiping it with a dry cloth."
+  ],
+  "ss244-q26": [
+    "As the manager had already made the final decision, it was no use arguing further."
+  ],
+  "ss244-q27": [
+    "The battery is flat, so it is no good shaking the remote control."
+  ],
+  "ss244-q28": [
+    "It is no use blaming the receptionist because doing so will not bring back the lost parcel."
+  ],
+  "ss244-q29": [
+    "The players understood that it was no good making excuses."
+  ],
+  "ss244-q30": [
+    "Since the report has already been sent, it is no use hiding the error."
+  ],
+  "ss244-q31": [
+    "Unless your behaviour changes, it is no use apologising repeatedly."
+  ],
+  "ss244-q32": [
+    "Because the map was out of date, it would be no good following it any further."
+  ],
+  "ss244-q33": [
+    "The team knew that it was no use rushing the final check because this would not help them finish any sooner."
+  ],
+  "ss244-q34": [
+    "Because the security guard does not handle payments, it is no good asking him for a refund."
+  ],
+  "ss244-q35": [
+    "The neighbours realised that it was no use complaining again without evidence."
+  ],
+  "ss244-q36": [
+    "Unless you understand the structure, it is no good simply copying the model answer."
+  ],
+  "ss244-q37": [
+    "The river had risen above the bridge, and at that point it was no use attempting to cross."
+  ],
+  "ss244-q38": [
+    "As the committee had rejected the proposal twice, it was no good resubmitting the identical version."
+  ],
+  "ss244-q39": [
+    "Because the number has been disconnected, it is no use trying to call it."
+  ],
+  "ss244-q40": [
+    "With no paper in the printer, it is no good repeatedly clicking “Print”."
+  ],
+  "ss244-q41": [
+    "After the office had moved, the residents realised that it was no use sending letters to the old address."
+  ],
+  "ss244-q42": [
+    "The instructor warned us that it was no good practising the wrong movement faster."
+  ],
+  "ss244-q43": [
+    "If the password has expired, it is no use entering it again and again."
+  ],
+  "ss244-q44": [
+    "The lawyer knew that it was no use asking the same local office to contact the witness after she had left the country."
+  ],
+  "ss244-q45": [
+    "If the presentation’s main ideas are disorganised, it is no good merely adding more decorations."
+  ],
+  "ss244-q46": [
+    "The engineers concluded that it was no use replacing only one small part because the whole system was damaged."
+  ],
+  "ss244-q47": [
+    "Once the application deadline has passed, it will be no use sending the form without permission."
+  ],
+  "ss244-q48": [
+    "The coach reminded the team that it was no good discussing who was responsible."
+  ],
+  "ss244-q49": [
+    "Unless the listener is willing to pay attention, it is no use explaining the rule many times."
+  ],
+  "ss244-q50": [
+    "After the storm had damaged every road into the village, the rescue team realised that it was no good trying the same route repeatedly."
+  ],
+  "ss245-q01": [
+    "It is only a matter of time before the old battery stops working."
+  ],
+  "ss245-q02": [
+    "If the heavy rain continues, it is only a matter of time before the river overflows."
+  ],
+  "ss245-q03": [
+    "Everyone knows it is only a matter of time before the secret is discovered."
+  ],
+  "ss245-q04": [
+    "The coach believes it is only a matter of time before the young player scores her first goal."
+  ],
+  "ss245-q05": [
+    "Is it only a matter of time before the damaged wall collapses?"
+  ],
+  "ss245-q06": [
+    "Experts are certain that it is only a matter of time before electric buses become common in the city."
+  ],
+  "ss245-q07": [
+    "We knew it was only a matter of time before the ice melted in the warm room."
+  ],
+  "ss245-q08": [
+    "The doctor says it is only a matter of time before the patient recovers."
+  ],
+  "ss245-q09": [
+    "After the team’s repeated losses, it is only a matter of time before the manager makes changes."
+  ],
+  "ss245-q10": [
+    "It is only a matter of time before the cracked pipe starts leaking."
+  ],
+  "ss245-q11": [
+    "People believe it is only a matter of time before the new café becomes popular."
+  ],
+  "ss245-q12": [
+    "Because the machine is making a strange noise, it is only a matter of time before it breaks down."
+  ],
+  "ss245-q13": [
+    "Could the repeated delays mean that it is only a matter of time before passengers lose patience?"
+  ],
+  "ss245-q14": [
+    "The principal warned that it was only a matter of time before the roof needed to be replaced."
+  ],
+  "ss245-q15": [
+    "As the birds keep returning each spring, it is only a matter of time before they build nests here again."
+  ],
+  "ss245-q16": [
+    "It seems to be only a matter of time before online payments replace cash in many shops."
+  ],
+  "ss245-q17": [
+    "The villagers were certain that it was only a matter of time before help arrived."
+  ],
+  "ss245-q18": [
+    "Is it only a matter of time before someone notices the missing file?"
+  ],
+  "ss245-q19": [
+    "Company leaders know it is only a matter of time before they have to respond to these complaints."
+  ],
+  "ss245-q20": [
+    "As the sky grew darker, everyone knew it was only a matter of time before the storm began."
+  ],
+  "ss245-q21": [
+    "The public believes it is only a matter of time before the truth comes out."
+  ],
+  "ss245-q22": [
+    "Because the tyres were badly worn, it was only a matter of time before one of them developed a puncture."
+  ],
+  "ss245-q23": [
+    "If the heat continues, it is only a matter of time before the ice cream melts."
+  ],
+  "ss245-q24": [
+    "According to the researchers, it is only a matter of time before another breakthrough is made."
+  ],
+  "ss245-q25": [
+    "Without repairs, it may only be a matter of time before the old bridge collapses."
+  ],
+  "ss245-q26": [
+    "The teacher was sure it was only a matter of time before the quiet class started talking."
+  ],
+  "ss245-q27": [
+    "Is it only a matter of time before rising costs force the shop to raise its prices?"
+  ],
+  "ss245-q28": [
+    "With the match becoming increasingly tense, it was only a matter of time before a player was sent off."
+  ],
+  "ss245-q29": [
+    "The support team is certain that it is only a matter of time before the software fails completely."
+  ],
+  "ss245-q30": [
+    "Although the change has been slow, it is only a matter of time before paper tickets disappear."
+  ],
+  "ss245-q31": [
+    "The hospital director said it was only a matter of time before the waiting list grew longer."
+  ],
+  "ss245-q32": [
+    "If people continue wasting water, it is only a matter of time before restrictions are introduced."
+  ],
+  "ss245-q33": [
+    "Everyone knew it was only a matter of time before the dog tried to take some of the food."
+  ],
+  "ss245-q34": [
+    "As the crack kept growing, was it only a matter of time before the window broke?"
+  ],
+  "ss245-q35": [
+    "Since the new employee is learning quickly, it seems to be only a matter of time before the new employee is promoted."
+  ],
+  "ss245-q36": [
+    "Once the team had lost trust in its captain, it was only a matter of time before the captain was replaced."
+  ],
+  "ss245-q37": [
+    "The council knows it is only a matter of time before residents demand safer crossings."
+  ],
+  "ss245-q38": [
+    "As the child kept touching the wet paint, it was only a matter of time before his hands got dirty."
+  ],
+  "ss245-q39": [
+    "Unless orders increase, it is only a matter of time before the factory has to close."
+  ],
+  "ss245-q40": [
+    "Many critics think it is only a matter of time before the actor’s latest film wins an award."
+  ],
+  "ss245-q41": [
+    "The security team believes it is only a matter of time before someone discovers the weakness in the system."
+  ],
+  "ss245-q42": [
+    "Because the population is ageing, it is only a matter of time before demand for home-care services rises."
+  ],
+  "ss245-q43": [
+    "The judge warned that, if the offences continued, it was only a matter of time before a prison sentence was imposed."
+  ],
+  "ss245-q44": [
+    "If the company keeps ignoring the rules, is it only a matter of time before it faces legal action?"
+  ],
+  "ss245-q45": [
+    "Given the damage to the sea wall, it is only a matter of time before a powerful storm breaks through it."
+  ],
+  "ss245-q46": [
+    "Having collected enough evidence, the research team believed it was only a matter of time before its findings were published."
+  ],
+  "ss245-q47": [
+    "Even though the talks are moving slowly, both sides agree it is only a matter of time before a deal is reached."
+  ],
+  "ss245-q48": [
+    "According to the head teacher, it was only a matter of time before the temporary classrooms had to be replaced."
+  ],
+  "ss245-q49": [
+    "Once the new law takes effect, it will only be a matter of time before businesses change how they store customer data."
+  ],
+  "ss245-q50": [
+    "Analysts believe that, if the current trend continues, it is only a matter of time before the smaller banks are forced to merge."
+  ],
+  "ss246-q01": [
+    "It remains to be seen whether the new timetable will reduce delays."
+  ],
+  "ss246-q02": [
+    "Whether Ava will enjoy her new class remains to be seen."
+  ],
+  "ss246-q03": [
+    "For now, it remains to be seen whether the weather will improve before the match."
+  ],
+  "ss246-q04": [
+    "Whether the shop will attract enough customers remains to be seen."
+  ],
+  "ss246-q05": [
+    "It remains to be seen whether the medicine will relieve his pain."
+  ],
+  "ss246-q06": [
+    "After the first week, it remains to be seen whether the team can finish the project on time."
+  ],
+  "ss246-q07": [
+    "What remains to be seen is whether the new rule will make the playground safer."
+  ],
+  "ss246-q08": [
+    "At present, it remains to be seen whether the bus service will become more reliable."
+  ],
+  "ss246-q09": [
+    "One thing remains to be seen: whether the plant will grow well indoors."
+  ],
+  "ss246-q10": [
+    "Although the first lesson went well, it remains to be seen whether the students will remember the new words."
+  ],
+  "ss246-q11": [
+    "After the repairs, it remains to be seen whether the roof will stop leaking."
+  ],
+  "ss246-q12": [
+    "Whether the electric bicycle will suit Daniel remains to be seen."
+  ],
+  "ss246-q13": [
+    "The early figures are promising, but it remains to be seen whether sales will continue to rise."
+  ],
+  "ss246-q14": [
+    "It remains to be seen whether the new password system will prevent unauthorised access."
+  ],
+  "ss246-q15": [
+    "What remains to be seen is whether the restaurant can keep its prices low."
+  ],
+  "ss246-q16": [
+    "Even after the interview, it remains to be seen whether Priya will be offered the job."
+  ],
+  "ss246-q17": [
+    "One important thing remains to be seen: whether the new crossing will reduce accidents."
+  ],
+  "ss246-q18": [
+    "At this stage, it remains to be seen whether the new software will save staff time."
+  ],
+  "ss246-q19": [
+    "Whether the river will return to a safe level by morning remains to be seen."
+  ],
+  "ss246-q20": [
+    "The plan has been announced, but it remains to be seen whether local residents will support it."
+  ],
+  "ss246-q21": [
+    "It remained to be seen whether the injured player would recover before the final."
+  ],
+  "ss246-q22": [
+    "Whether the bridge could withstand severe storms remained to be seen."
+  ],
+  "ss246-q23": [
+    "At that point, it remained to be seen whether the missing parcel would arrive before Friday."
+  ],
+  "ss246-q24": [
+    "Although the committee had agreed on the budget, what remained to be seen was whether the project would begin that year."
+  ],
+  "ss246-q25": [
+    "The trial had ended, but it remained to be seen whether the treatment had been effective."
+  ],
+  "ss246-q26": [
+    "It remains to be seen whether the new recycling bins will reduce street waste."
+  ],
+  "ss246-q27": [
+    "Despite passing the first test, it remains to be seen whether the device will work in extreme heat."
+  ],
+  "ss246-q28": [
+    "One practical thing remains to be seen: whether the new room can hold all the guests comfortably."
+  ],
+  "ss246-q29": [
+    "Whether the school can find enough volunteers remains to be seen."
+  ],
+  "ss246-q30": [
+    "It remains to be seen whether the diet improves sleep quality."
+  ],
+  "ss246-q31": [
+    "Even after the survey, what remains to be seen is whether passengers prefer later trains."
+  ],
+  "ss246-q32": [
+    "The equipment has arrived, but it remains to be seen whether it can be installed before Monday."
+  ],
+  "ss246-q33": [
+    "For the moment, it remains to be seen whether the new trees can survive the dry season."
+  ],
+  "ss246-q34": [
+    "Whether the revised proposal will be accepted by the board remains to be seen."
+  ],
+  "ss246-q35": [
+    "One final thing remains to be seen: whether the venue will be ready before the conference."
+  ],
+  "ss246-q36": [
+    "Although the first results look encouraging, what remains to be seen is whether the improvement will last."
+  ],
+  "ss246-q37": [
+    "It remains to be seen whether the robot can recognise voices in a noisy room."
+  ],
+  "ss246-q38": [
+    "After several complaints, it remains to be seen whether the company will change its refund policy."
+  ],
+  "ss246-q39": [
+    "Whether the clinic can meet the growing demand remains to be seen."
+  ],
+  "ss246-q40": [
+    "The first phase is complete, but it remains to be seen whether the project will stay within budget."
+  ],
+  "ss246-q41": [
+    "Despite early signs of improvement, it remains to be seen whether the changes will continue after support ends."
+  ],
+  "ss246-q42": [
+    "What remains to be seen is whether the online course can provide the same level of discussion as a classroom lesson."
+  ],
+  "ss246-q43": [
+    "The council has approved the funding; however, it remains to be seen whether construction will start before winter."
+  ],
+  "ss246-q44": [
+    "Whether the training will produce lasting changes in staff behaviour remains to be seen."
+  ],
+  "ss246-q45": [
+    "At the time, it remained to be seen whether the emergency plan would work under real conditions."
+  ],
+  "ss246-q46": [
+    "The investigation had answered most questions, but one thing still remained to be seen: whether the safety checks had been completed properly."
+  ],
+  "ss246-q47": [
+    "The pilot scheme has expanded, but it remains to be seen whether smaller schools can afford to join it."
+  ],
+  "ss246-q48": [
+    "Even with extra staff, it remains to be seen whether the hospital can shorten waiting times."
+  ],
+  "ss246-q49": [
+    "Whether the agreement can survive future disputes between the two sides remains to be seen."
+  ],
+  "ss246-q50": [
+    "The policy has now been introduced nationwide, but it remains to be seen whether it will achieve its long-term goals."
+  ],
+  "ss247-q01": [
+    "It turned out that the figures were wrong."
+  ],
+  "ss247-q02": [
+    "The quiet man turned out to be the new manager."
+  ],
+  "ss247-q03": [
+    "It turns out that the shop closes at six."
+  ],
+  "ss247-q04": [
+    "The small key turned out to be the right one."
+  ],
+  "ss247-q05": [
+    "Later, it turned out that Lucy had the tickets."
+  ],
+  "ss247-q06": [
+    "The message turned out to be a mistake."
+  ],
+  "ss247-q07": [
+    "It turns out that this road leads to the station."
+  ],
+  "ss247-q08": [
+    "After an expert examined it, the old coin turned out to be valuable."
+  ],
+  "ss247-q09": [
+    "After the accident, it turned out that no one was hurt."
+  ],
+  "ss247-q10": [
+    "After a careful check, our first answer turned out to be correct."
+  ],
+  "ss247-q11": [
+    "Eventually, it turned out that the meeting had been cancelled."
+  ],
+  "ss247-q12": [
+    "The friendly visitor turned out to be a famous writer."
+  ],
+  "ss247-q13": [
+    "It turns out that the café serves vegetarian meals."
+  ],
+  "ss247-q14": [
+    "After we checked the room, the noise turned out to be coming from the air conditioner."
+  ],
+  "ss247-q15": [
+    "It turned out that the parcel belonged to our neighbour."
+  ],
+  "ss247-q16": [
+    "Eventually, the missing file turned out to be in the wrong folder."
+  ],
+  "ss247-q17": [
+    "It may turn out that the delay was caused by bad weather."
+  ],
+  "ss247-q18": [
+    "With further testing, the new method may turn out to be more effective."
+  ],
+  "ss247-q19": [
+    "It turned out that the witness had misunderstood the question."
+  ],
+  "ss247-q20": [
+    "After further checks, the problem turned out not to be serious."
+  ],
+  "ss247-q21": [
+    "Eventually, it turned out that the hotel was farther away than the map suggested."
+  ],
+  "ss247-q22": [
+    "The person on the phone turned out to be my former classmate."
+  ],
+  "ss247-q23": [
+    "Once all the records are checked, it may turn out that the data are incomplete."
+  ],
+  "ss247-q24": [
+    "After we compare everything, the cheaper option may turn out to be the better choice."
+  ],
+  "ss247-q25": [
+    "In the end, it turned out that the machine had not been switched on."
+  ],
+  "ss247-q26": [
+    "After we checked the kitchen, the strange smell turned out to be coming from burnt toast."
+  ],
+  "ss247-q27": [
+    "During the investigation, it turned out that the two reports described the same incident."
+  ],
+  "ss247-q28": [
+    "The person responsible turned out to be a new employee."
+  ],
+  "ss247-q29": [
+    "If the work continues at this speed, it may turn out that we need more time."
+  ],
+  "ss247-q30": [
+    "The original plan may turn out to be too expensive."
+  ],
+  "ss247-q31": [
+    "After a full inspection, the damage turned out to be less serious than expected."
+  ],
+  "ss247-q32": [
+    "After a later check, it turned out that several names had been left off the list."
+  ],
+  "ss247-q33": [
+    "What had looked like a technical fault turned out to be a loose cable."
+  ],
+  "ss247-q34": [
+    "During the review, it turned out that the online review had been written by the owner."
+  ],
+  "ss247-q35": [
+    "Later, the building that looked empty turned out to be a busy training centre."
+  ],
+  "ss247-q36": [
+    "After more tests, it may turn out that the medicine is causing the headaches."
+  ],
+  "ss247-q37": [
+    "In time, the change that worried everyone may turn out to be helpful."
+  ],
+  "ss247-q38": [
+    "Later, it turned out that the company had sent the email to the wrong address."
+  ],
+  "ss247-q39": [
+    "The man we thought was a tourist turned out to be the guide."
+  ],
+  "ss247-q40": [
+    "Eventually, it turned out that the train we had planned to take was not running."
+  ],
+  "ss247-q41": [
+    "Later, the document presented as the final version turned out to be an early draft."
+  ],
+  "ss247-q42": [
+    "After the records were checked, it turned out that the apparent increase was caused by a change in the counting method."
+  ],
+  "ss247-q43": [
+    "Eventually, what had looked like a major disagreement turned out to be a simple misunderstanding."
+  ],
+  "ss247-q44": [
+    "Once the policy is applied, it may turn out that the new rule affects part-time staff as well."
+  ],
+  "ss247-q45": [
+    "The information supplied by the caller may turn out to be unreliable."
+  ],
+  "ss247-q46": [
+    "During the investigation, it turned out that the person who had reported the problem was using an older version of the app."
+  ],
+  "ss247-q47": [
+    "After the results were compared, the small difference turned out not to be important enough to change the conclusion."
+  ],
+  "ss247-q48": [
+    "Once the final estimate is ready, it may turn out that the repairs will cost less than originally estimated."
+  ],
+  "ss247-q49": [
+    "In the end, the decision that initially seemed unfair may turn out to be the safest option for everyone."
+  ],
+  "ss247-q50": [
+    "After a final review, it turned out that the evidence which everyone had overlooked provided the clearest explanation."
+  ],
+  "ss248-q01": [
+    "It is one thing to make a promise; it is another to keep it."
+  ],
+  "ss248-q02": [
+    "In practice, it is one thing to read the rules, but it is another to follow them."
+  ],
+  "ss248-q03": [
+    "For a beginner, it is one thing to buy a guitar; it is another thing to practise every day."
+  ],
+  "ss248-q04": [
+    "In a discussion, it is one thing to have an idea, but it is another to explain it clearly."
+  ],
+  "ss248-q05": [
+    "At first, it is one thing to start a diet; it is another to continue it for months."
+  ],
+  "ss248-q06": [
+    "After a mistake, it is one thing to say sorry, but it is another to change your behaviour."
+  ],
+  "ss248-q07": [
+    "In the kitchen, it is one thing to watch a cooking video; it is another thing to prepare the dish yourself."
+  ],
+  "ss248-q08": [
+    "With money, it is one thing to save a small amount; it is another to build an emergency fund."
+  ],
+  "ss248-q09": [
+    "In language learning, it is one thing to learn new words, but it is another to use them naturally."
+  ],
+  "ss248-q10": [
+    "On a team, it is one thing to become a member; it is another to support your teammates consistently."
+  ],
+  "ss248-q11": [
+    "For new drivers, it is one thing to pass the test; it is another thing to drive confidently in heavy traffic."
+  ],
+  "ss248-q12": [
+    "At school, it is one thing to understand a formula, but it is another to apply it to an unfamiliar problem."
+  ],
+  "ss248-q13": [
+    "During training, it was one thing to practise the procedure; it was another to perform it under pressure."
+  ],
+  "ss248-q14": [
+    "In a meeting, it is one thing to express an opinion, but it is quite another to defend it with evidence."
+  ],
+  "ss248-q15": [
+    "Sometimes, it may be one thing to recognise a problem; it may be another to accept responsibility for it."
+  ],
+  "ss248-q16": [
+    "Within a family, it is one thing for parents to give advice; it is another for teenagers to act on it."
+  ],
+  "ss248-q17": [
+    "In business, it is one thing to attract customers, but it is another to earn their long-term trust."
+  ],
+  "ss248-q18": [
+    "Before a trip, it is one thing to plan a holiday; it is another thing to manage unexpected changes while travelling."
+  ],
+  "ss248-q19": [
+    "During the first meeting, it was one thing to agree on the goal; it was another to decide how the work should be divided."
+  ],
+  "ss248-q20": [
+    "In theory, it is one thing to stay calm; in a real emergency, it is another to do so."
+  ],
+  "ss248-q21": [
+    "The coach reminded the players that it is one thing to know the strategy, but it is another to use it at the right moment."
+  ],
+  "ss248-q22": [
+    "Our teacher explained that it is one thing to memorise a speech, but it is another to deliver it naturally."
+  ],
+  "ss248-q23": [
+    "People often forget that it is one thing to ask for feedback, but it is another to listen without becoming defensive."
+  ],
+  "ss248-q24": [
+    "The manager realised that it was one thing to announce a new policy, but it was another to make sure every employee understood it."
+  ],
+  "ss248-q25": [
+    "We should remember that it is one thing to identify a mistake, but it is another to correct the system that caused it."
+  ],
+  "ss248-q26": [
+    "As the doctor pointed out, it is one thing to know what is healthy; it is another to change a long-established habit."
+  ],
+  "ss248-q27": [
+    "The report shows that it is one thing to collect data, but it is another to interpret it accurately."
+  ],
+  "ss248-q28": [
+    "The committee discovered that it was one thing to approve the project, but it was another to find enough money for it."
+  ],
+  "ss248-q29": [
+    "Experienced teachers know that it is one thing to explain a topic, but it is another to check whether students truly understand it."
+  ],
+  "ss248-q30": [
+    "The interview made clear that it is one thing to appear confident, but it is another to remain calm when challenged."
+  ],
+  "ss248-q31": [
+    "When the weather is pleasant, it is one thing to cycle to work; when it is raining heavily, it is another to do so."
+  ],
+  "ss248-q32": [
+    "Before the shop opened, it was one thing to design an attractive website; after orders arrived, it was another to provide reliable service."
+  ],
+  "ss248-q33": [
+    "If the instructions are simple, it may be one thing to follow them; if several steps are unclear, it may be another."
+  ],
+  "ss248-q34": [
+    "For a public speaker, it is one thing to prepare strong points; it is quite another to respond to an unexpected question."
+  ],
+  "ss248-q35": [
+    "In customer service, it is one thing to solve a problem quickly; it is another to make the customer feel respected."
+  ],
+  "ss248-q36": [
+    "While learning online, it is one thing to watch every lesson; it is another thing to practise what has been taught."
+  ],
+  "ss248-q37": [
+    "After the accident, it was one thing for the driver to admit fault; it was another for him to accept the financial consequences."
+  ],
+  "ss248-q38": [
+    "At the beginning of a project, it is one thing to create an ambitious timetable; it is another to revise it honestly when delays occur."
+  ],
+  "ss248-q39": [
+    "In an argument, it is one thing not to raise your voice; it is another to understand the other person’s point of view."
+  ],
+  "ss248-q40": [
+    "For a leader, it is one thing to ask others to work harder; it is another to set the same standard through personal example."
+  ],
+  "ss248-q41": [
+    "The director warned that it would be one thing to reduce costs for one month, but it would be another to maintain quality after repeated cuts."
+  ],
+  "ss248-q42": [
+    "As the campaign developed, it became clear that it was one thing to gain public attention, but it was another to turn that attention into lasting support."
+  ],
+  "ss248-q43": [
+    "On paper, it is one thing to offer equal opportunities; in practice, it is another to remove the barriers that prevent people from using them."
+  ],
+  "ss248-q44": [
+    "The research team understood that it was one thing to produce a promising result, but it was quite another to reproduce it under different conditions."
+  ],
+  "ss248-q45": [
+    "In international negotiations, it is one thing for both sides to agree on general principles; it is another for them to settle the difficult details."
+  ],
+  "ss248-q46": [
+    "A responsible organisation recognises that it is one thing not to break the law, but it is another to act fairly when the law provides no clear answer."
+  ],
+  "ss248-q47": [
+    "The crisis taught the hospital that it was one thing to have an emergency plan, but it was another thing to carry it out when staff and equipment were under pressure."
+  ],
+  "ss248-q48": [
+    "For anyone managing a large team, it is one thing to communicate a decision; it is another to ensure that different departments interpret it in the same way."
+  ],
+  "ss248-q49": [
+    "History repeatedly shows that it is one thing to win power; it is another to use it without silencing criticism or weakening public trust."
+  ],
+  "ss248-q50": [
+    "By the end of the investigation, everyone understood that it was one thing to suspect what had happened, but it was another to prove it with reliable evidence."
+  ],
+  "ss249-q01": [
+    "It is one thing to make a promise; it is another to keep it."
+  ],
+  "ss249-q02": [
+    "In practice, it is one thing to read the rules, but it is another to follow them."
+  ],
+  "ss249-q03": [
+    "For a beginner, it is one thing to buy a guitar; it is another thing to practise every day."
+  ],
+  "ss249-q04": [
+    "In a discussion, it is one thing to have an idea, but it is another to explain it clearly."
+  ],
+  "ss249-q05": [
+    "At first, it is one thing to start a diet; it is another to continue it for months."
+  ],
+  "ss249-q06": [
+    "After a mistake, it is one thing to say sorry, but it is another to change your behaviour."
+  ],
+  "ss249-q07": [
+    "In the kitchen, it is one thing to watch a cooking video; it is another thing to prepare the dish yourself."
+  ],
+  "ss249-q08": [
+    "With money, it is one thing to save a small amount; it is another to build an emergency fund."
+  ],
+  "ss249-q09": [
+    "In language learning, it is one thing to learn new words, but it is another to use them naturally."
+  ],
+  "ss249-q10": [
+    "On a team, it is one thing to become a member; it is another to support your teammates consistently."
+  ],
+  "ss249-q11": [
+    "For new drivers, it is one thing to pass the test; it is another thing to drive confidently in heavy traffic."
+  ],
+  "ss249-q12": [
+    "At school, it is one thing to understand a formula, but it is another to apply it to an unfamiliar problem."
+  ],
+  "ss249-q13": [
+    "During training, it was one thing to practise the procedure; it was another to perform it under pressure."
+  ],
+  "ss249-q14": [
+    "In a meeting, it is one thing to express an opinion, but it is quite another to defend it with evidence."
+  ],
+  "ss249-q15": [
+    "Sometimes, it may be one thing to recognise a problem; it may be another to accept responsibility for it."
+  ],
+  "ss249-q16": [
+    "Within a family, it is one thing for parents to give advice; it is another for teenagers to act on it."
+  ],
+  "ss249-q17": [
+    "In business, it is one thing to attract customers, but it is another to earn their long-term trust."
+  ],
+  "ss249-q18": [
+    "Before a trip, it is one thing to plan a holiday; it is another thing to manage unexpected changes while travelling."
+  ],
+  "ss249-q19": [
+    "During the first meeting, it was one thing to agree on the goal; it was another to decide how the work should be divided."
+  ],
+  "ss249-q20": [
+    "In theory, it is one thing to stay calm; in a real emergency, it is another to do so."
+  ],
+  "ss249-q21": [
+    "The coach reminded the players that it is one thing to know the strategy, but it is another to use it at the right moment."
+  ],
+  "ss249-q22": [
+    "Our teacher explained that it is one thing to memorise a speech, but it is another to deliver it naturally."
+  ],
+  "ss249-q23": [
+    "People often forget that it is one thing to ask for feedback, but it is another to listen without becoming defensive."
+  ],
+  "ss249-q24": [
+    "The manager realised that it was one thing to announce a new policy, but it was another to make sure every employee understood it."
+  ],
+  "ss249-q25": [
+    "We should remember that it is one thing to identify a mistake, but it is another to correct the system that caused it."
+  ],
+  "ss249-q26": [
+    "As the doctor pointed out, it is one thing to know what is healthy; it is another to change a long-established habit."
+  ],
+  "ss249-q27": [
+    "The report shows that it is one thing to collect data, but it is another to interpret it accurately."
+  ],
+  "ss249-q28": [
+    "The committee discovered that it was one thing to approve the project, but it was another to find enough money for it."
+  ],
+  "ss249-q29": [
+    "Experienced teachers know that it is one thing to explain a topic, but it is another to check whether students truly understand it."
+  ],
+  "ss249-q30": [
+    "The interview made clear that it is one thing to appear confident, but it is another to remain calm when challenged."
+  ],
+  "ss249-q31": [
+    "When the weather is pleasant, it is one thing to cycle to work; when it is raining heavily, it is another to do so."
+  ],
+  "ss249-q32": [
+    "Before the shop opened, it was one thing to design an attractive website; after orders arrived, it was another to provide reliable service."
+  ],
+  "ss249-q33": [
+    "If the instructions are simple, it may be one thing to follow them; if several steps are unclear, it may be another."
+  ],
+  "ss249-q34": [
+    "For a public speaker, it is one thing to prepare strong points; it is quite another to respond to an unexpected question."
+  ],
+  "ss249-q35": [
+    "In customer service, it is one thing to solve a problem quickly; it is another to make the customer feel respected."
+  ],
+  "ss249-q36": [
+    "While learning online, it is one thing to watch every lesson; it is another thing to practise what has been taught."
+  ],
+  "ss249-q37": [
+    "After the accident, it was one thing for the driver to admit fault; it was another for him to accept the financial consequences."
+  ],
+  "ss249-q38": [
+    "At the beginning of a project, it is one thing to create an ambitious timetable; it is another to revise it honestly when delays occur."
+  ],
+  "ss249-q39": [
+    "In an argument, it is one thing not to raise your voice; it is another to understand the other person’s point of view."
+  ],
+  "ss249-q40": [
+    "For a leader, it is one thing to ask others to work harder; it is another to set the same standard through personal example."
+  ],
+  "ss249-q41": [
+    "The director warned that it would be one thing to reduce costs for one month, but it would be another to maintain quality after repeated cuts."
+  ],
+  "ss249-q42": [
+    "As the campaign developed, it became clear that it was one thing to gain public attention, but it was another to turn that attention into lasting support."
+  ],
+  "ss249-q43": [
+    "On paper, it is one thing to offer equal opportunities; in practice, it is another to remove the barriers that prevent people from using them."
+  ],
+  "ss249-q44": [
+    "The research team understood that it was one thing to produce a promising result, but it was quite another to reproduce it under different conditions."
+  ],
+  "ss249-q45": [
+    "In international negotiations, it is one thing for both sides to agree on general principles; it is another for them to settle the difficult details."
+  ],
+  "ss249-q46": [
+    "A responsible organisation recognises that it is one thing not to break the law, but it is another to act fairly when the law provides no clear answer."
+  ],
+  "ss249-q47": [
+    "The crisis taught the hospital that it was one thing to have an emergency plan, but it was another thing to carry it out when staff and equipment were under pressure."
+  ],
+  "ss249-q48": [
+    "For anyone managing a large team, it is one thing to communicate a decision; it is another to ensure that different departments interpret it in the same way."
+  ],
+  "ss249-q49": [
+    "History repeatedly shows that it is one thing to win power; it is another to use it without silencing criticism or weakening public trust."
+  ],
+  "ss249-q50": [
+    "By the end of the investigation, everyone understood that it was one thing to suspect what had happened, but it was another to prove it with reliable evidence."
+  ],
+  "ss250-q01": [
+    "There is more to leadership than giving orders."
+  ],
+  "ss250-q02": [
+    "Young people gradually discover that there is more to friendship than spending time together."
+  ],
+  "ss250-q03": [
+    "A good cook knows that there is more to cooking than following a recipe."
+  ],
+  "ss250-q04": [
+    "Students should understand that there is more to learning English than memorising words."
+  ],
+  "ss250-q05": [
+    "There is more to football than scoring goals."
+  ],
+  "ss250-q06": [
+    "Good teachers know that there is more to teaching than explaining facts."
+  ],
+  "ss250-q07": [
+    "We should remember that there is more to health than avoiding illness."
+  ],
+  "ss250-q08": [
+    "Children soon learn that there is more to sharing than giving away things."
+  ],
+  "ss250-q09": [
+    "There is more to a good photograph than owning an expensive camera."
+  ],
+  "ss250-q10": [
+    "The guide explained that there was more to the old building than its plain exterior."
+  ],
+  "ss250-q11": [
+    "There is a lot more to teamwork than dividing the work equally."
+  ],
+  "ss250-q12": [
+    "Many people discover that there is more to being independent than living alone."
+  ],
+  "ss250-q13": [
+    "Sarah realised that there was more to the job than answering telephone calls."
+  ],
+  "ss250-q14": [
+    "There may be more to his silence than shyness."
+  ],
+  "ss250-q15": [
+    "Is there more to the delay than bad weather?"
+  ],
+  "ss250-q16": [
+    "The students discovered that there was more to the experiment than mixing two liquids."
+  ],
+  "ss250-q17": [
+    "There is more to saving money than spending less."
+  ],
+  "ss250-q18": [
+    "Our coach keeps reminding us that there is more to fitness than running quickly."
+  ],
+  "ss250-q19": [
+    "There is more to the book than an exciting story."
+  ],
+  "ss250-q20": [
+    "Perhaps there is more to her decision than fear of failure."
+  ],
+  "ss250-q21": [
+    "Musicians have always understood that there is more to music than playing the correct notes."
+  ],
+  "ss250-q22": [
+    "There will be more to the course than attending weekly lectures."
+  ],
+  "ss250-q23": [
+    "There seems to be more to the painting than bright colours and simple shapes."
+  ],
+  "ss250-q24": [
+    "The committee accepted that there is more to fairness than treating everyone identically."
+  ],
+  "ss250-q25": [
+    "Could there be more to the complaint than one rude comment?"
+  ],
+  "ss250-q26": [
+    "There is far more to protecting the environment than recycling bottles."
+  ],
+  "ss250-q27": [
+    "We gradually understood that there was more to the village festival than entertainment."
+  ],
+  "ss250-q28": [
+    "The article argues that there is more to success than natural talent."
+  ],
+  "ss250-q29": [
+    "Was there more to the argument than a simple misunderstanding?"
+  ],
+  "ss250-q30": [
+    "Anyone entering this profession should know that there is more to nursing than carrying out medical tasks."
+  ],
+  "ss250-q31": [
+    "It became clear after the second test that there was more to the machine’s failure than a loose wire."
+  ],
+  "ss250-q32": [
+    "There must be more to the decline in sales than higher prices."
+  ],
+  "ss250-q33": [
+    "People should understand that there is more to a meaningful apology than saying sorry."
+  ],
+  "ss250-q34": [
+    "The manager wants staff to recognise that there is more to customer service than answering questions."
+  ],
+  "ss250-q35": [
+    "Although the design looks simple, there is more to the device than meets the eye."
+  ],
+  "ss250-q36": [
+    "What the public often forgets is that there is more to road safety than following speed limits."
+  ],
+  "ss250-q37": [
+    "The fact that there is more to education than examination results should influence school policy."
+  ],
+  "ss250-q38": [
+    "Do you think there is more to the dispute than a disagreement over money?"
+  ],
+  "ss250-q39": [
+    "There was more to the scientist’s resignation than the public knew."
+  ],
+  "ss250-q40": [
+    "At first, we thought the computer error explained the whole problem, but later we realised there was more to it than that."
+  ],
+  "ss250-q41": [
+    "No one should forget that there is more to democracy than holding elections."
+  ],
+  "ss250-q42": [
+    "The report suggests that there may be more to the rise in accidents than poor driving."
+  ],
+  "ss250-q43": [
+    "What new employees need to understand is that there is more to the role than completing assigned tasks."
+  ],
+  "ss250-q44": [
+    "If the plan fails, we may discover that there was more to the problem than limited funding."
+  ],
+  "ss250-q45": [
+    "Experts have long argued that there is more to sleep than resting the body."
+  ],
+  "ss250-q46": [
+    "The interview revealed that there was far more to the athlete’s recovery than physical training."
+  ],
+  "ss250-q47": [
+    "Whether there is more to the story than one person’s mistake remains unclear."
+  ],
+  "ss250-q48": [
+    "After the second inspection, the engineers realised that there was more to the damage than surface cracks."
+  ],
+  "ss250-q49": [
+    "The question is whether there is more to the new policy than reducing costs."
+  ],
+  "ss250-q50": [
+    "By the end of the investigation, everyone understood that there had been much more to the case than a stolen document."
+  ],
+  "ss251-q01": [
+    "There is no such thing as a perfect plan."
+  ],
+  "ss251-q02": [
+    "There is no such thing as instant success."
+  ],
+  "ss251-q03": [
+    "There is no such thing as a risk-free investment."
+  ],
+  "ss251-q04": [
+    "In this competition, there is no such thing as an easy match."
+  ],
+  "ss251-q05": [
+    "Our teacher says there is no such thing as a perfect first draft."
+  ],
+  "ss251-q06": [
+    "For beginners, there is no such thing as a silly question."
+  ],
+  "ss251-q07": [
+    "There was no such thing as online booking at the hotel then."
+  ],
+  "ss251-q08": [
+    "Before the update, there was no such thing as a mobile app for the service."
+  ],
+  "ss251-q09": [
+    "The coach reminded us that there is no such thing as effortless improvement."
+  ],
+  "ss251-q10": [
+    "In real life, there is no such thing as a flawless solution."
+  ],
+  "ss251-q11": [
+    "According to the guide, there is no such thing as a completely safe mountain path."
+  ],
+  "ss251-q12": [
+    "The writer argues that there is no such thing as total freedom from responsibility."
+  ],
+  "ss251-q13": [
+    "When time is limited, there is no such thing as a cost-free delay."
+  ],
+  "ss251-q14": [
+    "As every careful editor knows, there is no such thing as a final draft that cannot be improved."
+  ],
+  "ss251-q15": [
+    "Careful drivers believe that there is no such thing as being too careful on wet roads."
+  ],
+  "ss251-q16": [
+    "There can be no such thing as absolute certainty in this situation."
+  ],
+  "ss251-q17": [
+    "There should be no such thing as deliberate dishonesty in a close friendship."
+  ],
+  "ss251-q18": [
+    "There will soon be no such thing as a paper ticket on this route."
+  ],
+  "ss251-q19": [
+    "The article claims that there is no such thing as completely neutral language."
+  ],
+  "ss251-q20": [
+    "They behaved as if there were no such thing as a deadline."
+  ],
+  "ss251-q21": [
+    "The manager insisted that there was no such thing as a guaranteed promotion."
+  ],
+  "ss251-q22": [
+    "For the rescue team, there was no such thing as an unimportant detail."
+  ],
+  "ss251-q23": [
+    "At that stage, there was no such thing as a fully automatic process."
+  ],
+  "ss251-q24": [
+    "Before the reforms, there had been no such thing as flexible working hours at the company."
+  ],
+  "ss251-q25": [
+    "In this office, there is no such thing as somebody else’s problem."
+  ],
+  "ss251-q26": [
+    "The trainer said that there is no such thing as a perfect technique for every learner."
+  ],
+  "ss251-q27": [
+    "The researcher argued that there is no such thing as a completely unbiased test."
+  ],
+  "ss251-q28": [
+    "In answer to the question, the chef said there is no such thing as a recipe that never needs adjusting."
+  ],
+  "ss251-q29": [
+    "Because conditions keep changing, there is no such thing as a permanent business strategy."
+  ],
+  "ss251-q30": [
+    "In the speaker’s view, there is no such thing as perfect silence."
+  ],
+  "ss251-q31": [
+    "Even with careful planning, there is no such thing as a completely predictable journey."
+  ],
+  "ss251-q32": [
+    "Among honest researchers, there should be no such thing as hidden evidence."
+  ],
+  "ss251-q33": [
+    "The committee concluded that there could be no such thing as complete fairness under the proposed rule."
+  ],
+  "ss251-q34": [
+    "By then, everyone understood that there was no such thing as a guaranteed victory."
+  ],
+  "ss251-q35": [
+    "In the old system, there had been no such thing as direct communication between customers and engineers."
+  ],
+  "ss251-q36": [
+    "The novel presents a world in which there is no such thing as personal privacy."
+  ],
+  "ss251-q37": [
+    "Anyone expecting a perfect result should remember that there is no such thing as error-free human work."
+  ],
+  "ss251-q38": [
+    "As the instructor put it, there is no such thing as a shortcut to genuine skill."
+  ],
+  "ss251-q39": [
+    "The policy is based on the belief that there is no such thing as an insignificant safety warning."
+  ],
+  "ss251-q40": [
+    "If every choice has a cost, there can be no such thing as a completely free decision."
+  ],
+  "ss251-q41": [
+    "What the senior engineer meant was that, in practice, there is no such thing as a failure-proof machine."
+  ],
+  "ss251-q42": [
+    "Although the design was strong, the team knew there was no such thing as a damage-proof material."
+  ],
+  "ss251-q43": [
+    "From their first day, the recruits were taught that there was no such thing as an unimportant customer complaint."
+  ],
+  "ss251-q44": [
+    "In the chairperson’s view, there could be no such thing as a fair decision without hearing both sides."
+  ],
+  "ss251-q45": [
+    "The centre follows a simple principle: there should be no such thing as an unwelcome visitor."
+  ],
+  "ss251-q46": [
+    "The historian described a period when there was no such thing as free public education."
+  ],
+  "ss251-q47": [
+    "However attractive the promise sounds, there is no such thing as a reward without some form of effort."
+  ],
+  "ss251-q48": [
+    "The proverb suggests that there is no such thing as a free lunch."
+  ],
+  "ss251-q49": [
+    "The board rejected the proposal because, in its view, there was no such thing as a completely consequence-free decision."
+  ],
+  "ss251-q50": [
+    "After comparing every option, the team accepted that there could be no such thing as a solution that satisfied every person completely."
+  ],
+  "ss252-q01": [
+    "On the one hand, remote work saves commuting time; on the other hand, it can feel isolating."
+  ],
+  "ss252-q02": [
+    "For students, online learning involves a trade-off: on the one hand, it offers flexibility; on the other hand, it requires strong self-discipline."
+  ],
+  "ss252-q03": [
+    "The new timetable has mixed effects. On the one hand, lunch breaks are shorter; on the other hand, classes finish earlier."
+  ],
+  "ss252-q04": [
+    "When passengers use public transport, they face two considerations: on the one hand, they can avoid parking costs; on the other hand, they may face delays."
+  ],
+  "ss252-q05": [
+    "This plan creates a clear trade-off: on the one hand, it limits some activities; on the other hand, it reduces spending."
+  ],
+  "ss252-q06": [
+    "On the one hand, living near school is convenient; on the other hand, the rent may be high."
+  ],
+  "ss252-q07": [
+    "From a parent’s point of view, homework has both benefits and risks: on the one hand, it can build good habits; on the other hand, too much of it can cause stress."
+  ],
+  "ss252-q08": [
+    "The new phone comes with strengths and weaknesses. On the one hand, it is heavier than the old one; on the other hand, its battery lasts longer."
+  ],
+  "ss252-q09": [
+    "In a shared office, workers face a trade-off: on the one hand, they can exchange ideas easily; on the other hand, noise may reduce their concentration."
+  ],
+  "ss252-q10": [
+    "Choosing a bicycle for short journeys involves advantages and disadvantages: on the one hand, it is cheap to use; on the other hand, bad weather can make travelling difficult."
+  ],
+  "ss252-q11": [
+    "On the one hand, school uniforms can reduce pressure about clothing; on the other hand, they limit personal choice."
+  ],
+  "ss252-q12": [
+    "For local shops, social media advertising brings both benefits and demands: on the one hand, it takes time to manage; on the other hand, it is inexpensive."
+  ],
+  "ss252-q13": [
+    "The new park may affect the area in different ways. On the one hand, residents gain more green space; on the other hand, nearby roads may become busier."
+  ],
+  "ss252-q14": [
+    "When students join a sports team, they face a trade-off: on the one hand, training takes up some of their free time; on the other hand, they can make new friends."
+  ],
+  "ss252-q15": [
+    "Using digital textbooks has advantages and disadvantages: on the one hand, students carry fewer books; on the other hand, they spend more time looking at screens."
+  ],
+  "ss252-q16": [
+    "On the one hand, buying food in bulk may cause some of it to be wasted; on the other hand, it can save money."
+  ],
+  "ss252-q17": [
+    "From an employer’s point of view, flexible hours create both opportunities and challenges: on the one hand, they can improve staff satisfaction; on the other hand, they can make scheduling harder."
+  ],
+  "ss252-q18": [
+    "The city-centre flat comes with clear benefits and drawbacks. On the one hand, it is noisy at night; on the other hand, it is close to many services."
+  ],
+  "ss252-q19": [
+    "In group projects, students face two different possibilities: on the one hand, they can share the workload; on the other hand, some members may contribute less."
+  ],
+  "ss252-q20": [
+    "Deciding to keep a pet involves a trade-off: on the one hand, an animal can provide companionship; on the other hand, caring for it takes time and money."
+  ],
+  "ss252-q21": [
+    "On the one hand, part-time work gives teenagers useful experience; on the other hand, it may reduce their study time."
+  ],
+  "ss252-q22": [
+    "For hospitals, online appointments create both benefits and difficulties: on the one hand, some patients may struggle with the technology; on the other hand, the systems can reduce waiting times."
+  ],
+  "ss252-q23": [
+    "The tourism plan presents a difficult balance. On the one hand, it could create jobs; on the other hand, it might damage the natural area."
+  ],
+  "ss252-q24": [
+    "When people pay by phone, they face a practical trade-off: on the one hand, a dead battery can leave them unable to pay; on the other hand, transactions are normally quick."
+  ],
+  "ss252-q25": [
+    "Working in an open-plan office has mixed effects: on the one hand, communication is easier; on the other hand, private conversations are difficult."
+  ],
+  "ss252-q26": [
+    "On the one hand, artificial intelligence can help workers complete routine tasks; on the other hand, it may replace some jobs."
+  ],
+  "ss252-q27": [
+    "From a teacher’s point of view, group discussions raise two considerations: on the one hand, quieter students may be overlooked; on the other hand, the discussions encourage participation."
+  ],
+  "ss252-q28": [
+    "The road-widening proposal has benefits and costs. On the one hand, traffic may move more smoothly; on the other hand, several trees would be removed."
+  ],
+  "ss252-q29": [
+    "In city life, residents often face a trade-off: on the one hand, living costs are high; on the other hand, they have access to many services."
+  ],
+  "ss252-q30": [
+    "Allowing students to use phones at school involves both opportunity and risk: on the one hand, the devices can support learning; on the other hand, they can cause distraction."
+  ],
+  "ss252-q31": [
+    "On the one hand, a four-day working week may require longer and more tiring working days; on the other hand, it may improve work-life balance."
+  ],
+  "ss252-q32": [
+    "For small businesses, selling online offers opportunities and challenges: on the one hand, it can reach more customers; on the other hand, delivery and return costs can be difficult to control."
+  ],
+  "ss252-q33": [
+    "The decision to build more flats creates a difficult balance. On the one hand, the city needs more homes; on the other hand, residents want to protect open space."
+  ],
+  "ss252-q34": [
+    "When choosing between a permanent job and freelance work, people must weigh two different priorities: on the one hand, a permanent job offers greater security; on the other hand, freelance work may provide more freedom."
+  ],
+  "ss252-q35": [
+    "Living with several generations under one roof brings both support and pressure: on the one hand, family members can support one another; on the other hand, they may have less privacy."
+  ],
+  "ss252-q36": [
+    "On the one hand, electric cars produce no exhaust fumes while being driven; on the other hand, making their batteries requires large amounts of raw materials."
+  ],
+  "ss252-q37": [
+    "From the government’s point of view, raising public transport fares presents a difficult trade-off: on the one hand, it could place greater pressure on low-income passengers; on the other hand, it could increase revenue."
+  ],
+  "ss252-q38": [
+    "The proposal to record all lessons raises two important concerns. On the one hand, teachers and students might feel less comfortable speaking openly; on the other hand, absent students could review the material."
+  ],
+  "ss252-q39": [
+    "In international tourism, communities can experience both benefits and pressure: on the one hand, visitors support local businesses; on the other hand, popular destinations can become overcrowded."
+  ],
+  "ss252-q40": [
+    "Introducing self-service machines offers efficiency but also creates a risk: on the one hand, customers may receive less personal support; on the other hand, they may be served more quickly."
+  ],
+  "ss252-q41": [
+    "On the one hand, allowing employees to choose where they work may improve morale and staff retention; on the other hand, it can make team communication less consistent."
+  ],
+  "ss252-q42": [
+    "For universities, admitting more international students brings both gains and pressures: on the one hand, housing and support services may come under pressure; on the other hand, cultural exchange may increase."
+  ],
+  "ss252-q43": [
+    "The plan to redevelop the old market creates a difficult balance. On the one hand, the area needs safer and more modern facilities; on the other hand, local residents want to preserve its history."
+  ],
+  "ss252-q44": [
+    "When governments introduce stricter environmental rules, they must weigh two effects: on the one hand, some businesses may face higher operating costs; on the other hand, pollution may fall."
+  ],
+  "ss252-q45": [
+    "Expanding airport capacity involves a serious trade-off: on the one hand, it can support tourism and business; on the other hand, it may increase noise and carbon emissions."
+  ],
+  "ss252-q46": [
+    "On the one hand, using facial recognition can improve security in crowded places; on the other hand, it raises concerns about privacy and the misuse of personal data."
+  ],
+  "ss252-q47": [
+    "From a public-health perspective, taxing sugary drinks has both benefits and costs: on the one hand, the policy may affect lower-income households more heavily; on the other hand, it may reduce consumption."
+  ],
+  "ss252-q48": [
+    "The move towards cashless payment creates both opportunity and exclusion. On the one hand, digital payments are fast and easy to record; on the other hand, people without suitable devices or bank accounts may be left behind."
+  ],
+  "ss252-q49": [
+    "In the debate over free university education, governments face two competing priorities: on the one hand, they would need to find a large amount of public funding; on the other hand, removing tuition fees could widen access."
+  ],
+  "ss252-q50": [
+    "Adopting a fully automated transport system involves a serious trade-off: on the one hand, automation could improve efficiency and reduce human error; on the other hand, technical failures could affect many passengers at once."
+  ],
+  "ss253-q01": [
+    "Just because the book is long does not mean it is difficult."
+  ],
+  "ss253-q02": [
+    "It does not mean the restaurant is good just because it is busy."
+  ],
+  "ss253-q03": [
+    "Just because Leo is quiet does not mean he is unfriendly."
+  ],
+  "ss253-q04": [
+    "Just because the sky is cloudy does not mean it will rain."
+  ],
+  "ss253-q05": [
+    "You should remember that just because the bag is expensive does not mean it is well made."
+  ],
+  "ss253-q06": [
+    "Just because a student asks questions does not mean the student is confused."
+  ],
+  "ss253-q07": [
+    "It does not mean the room is cold just because the window is open."
+  ],
+  "ss253-q08": [
+    "Just because the film is popular does not mean everyone will enjoy it."
+  ],
+  "ss253-q09": [
+    "The coach explained that just because the player was fast did not mean he was ready for the team."
+  ],
+  "ss253-q10": [
+    "Just because the answer is short does not mean it is incomplete."
+  ],
+  "ss253-q11": [
+    "We should remember that just because someone works from home does not mean they work less."
+  ],
+  "ss253-q12": [
+    "It does not mean the medicine is unsafe just because it tastes bitter."
+  ],
+  "ss253-q13": [
+    "The teacher reminded us that just because two words look similar does not mean they have the same meaning."
+  ],
+  "ss253-q14": [
+    "Just because the bus arrived late does not mean the driver was careless."
+  ],
+  "ss253-q15": [
+    "Just because a product is cheap does not mean it is poor quality."
+  ],
+  "ss253-q16": [
+    "Parents should understand that just because a child makes one mistake does not mean the child is irresponsible."
+  ],
+  "ss253-q17": [
+    "It does not mean the computer is broken just because it is running slowly."
+  ],
+  "ss253-q18": [
+    "Just because a rule is old does not mean it should be removed."
+  ],
+  "ss253-q19": [
+    "The guide pointed out that just because the path looked easy did not mean it was safe."
+  ],
+  "ss253-q20": [
+    "One fact is clear: just because the shop is small does not mean it has a limited range of products."
+  ],
+  "ss253-q21": [
+    "Just because a person speaks confidently does not mean their information is correct."
+  ],
+  "ss253-q22": [
+    "We must recognise that just because a company makes a promise does not mean it will keep it."
+  ],
+  "ss253-q23": [
+    "It does not mean the plan will fail just because some people disagree with it."
+  ],
+  "ss253-q24": [
+    "The doctor explained that just because the patient felt better did not mean the illness had completely gone."
+  ],
+  "ss253-q25": [
+    "Just because a photograph looks realistic does not mean it has not been edited."
+  ],
+  "ss253-q26": [
+    "The manager warned the team that just because the deadline seemed distant did not mean they could delay the work."
+  ],
+  "ss253-q27": [
+    "It does not mean an online review is reliable just because many people have shared it."
+  ],
+  "ss253-q28": [
+    "Just because a neighbourhood is quiet does not mean public transport is poor."
+  ],
+  "ss253-q29": [
+    "Students should understand that just because an essay uses difficult words does not mean it is well written."
+  ],
+  "ss253-q30": [
+    "The report stressed that just because energy use had fallen did not mean the problem had been solved."
+  ],
+  "ss253-q31": [
+    "Just because a candidate has more experience does not mean they are the best person for the job."
+  ],
+  "ss253-q32": [
+    "It does not mean a device is environmentally friendly just because its packaging is green."
+  ],
+  "ss253-q33": [
+    "The committee recognised that just because the proposal was popular did not mean it was practical."
+  ],
+  "ss253-q34": [
+    "Just because the instructions are simple does not mean the task will be quick."
+  ],
+  "ss253-q35": [
+    "We should remember that just because a person changes their opinion does not mean they are dishonest."
+  ],
+  "ss253-q36": [
+    "It does not mean a child is not learning just because the child is not speaking."
+  ],
+  "ss253-q37": [
+    "The financial adviser explained that just because the investment had risen before did not mean it would continue to rise."
+  ],
+  "ss253-q38": [
+    "Just because a city builds more roads does not mean traffic will automatically improve."
+  ],
+  "ss253-q39": [
+    "The scientist warned that just because two events happen together does not mean one causes the other."
+  ],
+  "ss253-q40": [
+    "One lesson from the project was that just because the system worked in one school did not mean it would work everywhere."
+  ],
+  "ss253-q41": [
+    "Just because a policy helps most people does not mean its effects on smaller groups can be ignored."
+  ],
+  "ss253-q42": [
+    "It does not mean a news report is balanced just because it includes two opinions."
+  ],
+  "ss253-q43": [
+    "The hospital reminded visitors that just because the patient looked well did not mean the patient was ready to receive guests."
+  ],
+  "ss253-q44": [
+    "We must not forget that just because a service is free does not mean it has no cost to provide."
+  ],
+  "ss253-q45": [
+    "Just because technology makes a task faster does not mean it makes the final decision better."
+  ],
+  "ss253-q46": [
+    "The review panel concluded that just because the organisation had followed the rules did not mean it had acted fairly."
+  ],
+  "ss253-q47": [
+    "It does not mean a tradition should remain unchanged just because it has existed for generations."
+  ],
+  "ss253-q48": [
+    "The head teacher emphasised that just because examination results had improved did not mean every student was receiving the support they needed."
+  ],
+  "ss253-q49": [
+    "Just because a solution works in the short term does not mean it will remain effective in the long term."
+  ],
+  "ss253-q50": [
+    "We should recognise that just because an idea challenges common beliefs does not mean it is wrong."
+  ],
+  "ss254-q01": [
+    "Technology can sometimes create problems. This is not to say that it is always harmful."
+  ],
+  "ss254-q02": [
+    "Online lessons are convenient; this is not to say that they suit everyone."
+  ],
+  "ss254-q03": [
+    "Although the test was difficult, this is not to say that it was unfair."
+  ],
+  "ss254-q04": [
+    "We should reduce unnecessary meetings, but this is not to say that all meetings are useless."
+  ],
+  "ss254-q05": [
+    "Some mistakes are harmless. However, this is not to say that checking is unnecessary."
+  ],
+  "ss254-q06": [
+    "The film was long. This is not to say that it was boring."
+  ],
+  "ss254-q07": [
+    "Exercise is important; this is not to say that you must train every day."
+  ],
+  "ss254-q08": [
+    "When I say the room is small, this is not to say that it is uncomfortable."
+  ],
+  "ss254-q09": [
+    "The job is demanding. This is not to say that it cannot be enjoyable."
+  ],
+  "ss254-q10": [
+    "We can learn from the past, but this is not to say that old methods are always best."
+  ],
+  "ss254-q11": [
+    "The new rule may help. Even so, this is not to say that every problem will disappear."
+  ],
+  "ss254-q12": [
+    "Although the restaurant is expensive, this is not to say that the food is poor."
+  ],
+  "ss254-q13": [
+    "I support the plan; this is not to say that I agree with every detail."
+  ],
+  "ss254-q14": [
+    "The book uses simple language. This is not to say that its ideas are simple."
+  ],
+  "ss254-q15": [
+    "We need more technology in schools, but this is not to say that teachers are less important."
+  ],
+  "ss254-q16": [
+    "The weather is warmer today; this is not to say that summer has arrived."
+  ],
+  "ss254-q17": [
+    "When the doctor recommends rest, this is not to say that all activity must stop."
+  ],
+  "ss254-q18": [
+    "The company made a profit. Nevertheless, this is not to say that its finances are strong."
+  ],
+  "ss254-q19": [
+    "Reading summaries can save time, but this is not to say that they can replace the full text."
+  ],
+  "ss254-q20": [
+    "The town needs more housing—this is not to say that every open space should be built on."
+  ],
+  "ss254-q21": [
+    "Although prices have fallen, this is not to say that the product is now affordable for everyone."
+  ],
+  "ss254-q22": [
+    "We should listen to experts; this is not to say that their opinions can never be questioned."
+  ],
+  "ss254-q23": [
+    "The school encourages competition. This is not to say that cooperation is unimportant."
+  ],
+  "ss254-q24": [
+    "Some office work can be done from home, but this is not to say that workplaces have become unnecessary."
+  ],
+  "ss254-q25": [
+    "When we describe the project as successful, this is not to say that everything went according to plan."
+  ],
+  "ss254-q26": [
+    "The medicine can reduce the symptoms; this is not to say that it cures the illness."
+  ],
+  "ss254-q27": [
+    "Public transport has improved. Of course, this is not to say that delays no longer occur."
+  ],
+  "ss254-q28": [
+    "Although the device is easy to use, this is not to say that instructions are unnecessary."
+  ],
+  "ss254-q29": [
+    "We need clear rules, but this is not to say that every situation should be handled in exactly the same way."
+  ],
+  "ss254-q30": [
+    "The article criticises the policy; this is not to say that it rejects every part of it."
+  ],
+  "ss254-q31": [
+    "The museum should attract more visitors. This is not to say that entertainment should replace education."
+  ],
+  "ss254-q32": [
+    "Even though the survey was small, this is not to say that its findings are useless."
+  ],
+  "ss254-q33": [
+    "I believe the deadline should be extended, but this is not to say that the work can be delayed indefinitely."
+  ],
+  "ss254-q34": [
+    "The policy protects consumers; this is not to say that businesses have no rights."
+  ],
+  "ss254-q35": [
+    "When we encourage children to be independent, this is not to say that adults should offer no guidance."
+  ],
+  "ss254-q36": [
+    "The report found several weaknesses. However, this is not to say that the whole system has failed."
+  ],
+  "ss254-q37": [
+    "The city may need taller buildings—this is not to say that every neighbourhood should change in the same way."
+  ],
+  "ss254-q38": [
+    "Although social media can spread false information, this is not to say that it has no positive uses."
+  ],
+  "ss254-q39": [
+    "We should question advertising claims; this is not to say that every advertisement is dishonest."
+  ],
+  "ss254-q40": [
+    "The course requires independent study. This is not to say that students receive no support."
+  ],
+  "ss254-q41": [
+    "Recognising the benefits of tourism is important, but this is not to say that its environmental costs should be ignored."
+  ],
+  "ss254-q42": [
+    "Although economic growth can create jobs, this is not to say that it automatically improves everyone’s quality of life."
+  ],
+  "ss254-q43": [
+    "The committee accepts that change is necessary; this is not to say that every proposed reform is practical."
+  ],
+  "ss254-q44": [
+    "When researchers report a connection between two factors, this is not to say that one necessarily causes the other."
+  ],
+  "ss254-q45": [
+    "We should make services more efficient—this is not to say that speed should become more important than care."
+  ],
+  "ss254-q46": [
+    "The decision may benefit the majority. Even so, this is not to say that the concerns of smaller groups are unimportant."
+  ],
+  "ss254-q47": [
+    "Although artificial intelligence can support teachers, this is not to say that it can replace human judgement in every classroom decision."
+  ],
+  "ss254-q48": [
+    "The law must be enforced consistently; this is not to say that individual circumstances should never be considered."
+  ],
+  "ss254-q49": [
+    "The organisation wants clearer performance standards. This is not to say that every valuable contribution can be measured with a number."
+  ],
+  "ss254-q50": [
+    "Supporting freedom of expression is essential, but this is not to say that people are free from responsibility for the harm their words may cause."
+  ],
+  "ss255-q01": [
+    "Unlike the first proposal, the second includes a clear budget."
+  ],
+  "ss255-q02": [
+    "The new printer works quietly, unlike the old one."
+  ],
+  "ss255-q03": [
+    "Daniel, unlike his brother, enjoys speaking in public."
+  ],
+  "ss255-q04": [
+    "Unlike the city library, the village library closes on Sundays."
+  ],
+  "ss255-q05": [
+    "This jacket, unlike the one I bought last year, is waterproof."
+  ],
+  "ss255-q06": [
+    "Our evening flight left on time, unlike our morning flight."
+  ],
+  "ss255-q07": [
+    "Unlike the red team, the blue team completed every task."
+  ],
+  "ss255-q08": [
+    "The online form can be edited after it is completed, unlike the paper form."
+  ],
+  "ss255-q09": [
+    "The side entrance, unlike the main entrance, has a ramp."
+  ],
+  "ss255-q10": [
+    "Unlike the café near the station, this café serves breakfast all day."
+  ],
+  "ss255-q11": [
+    "The second lesson included practical examples, unlike the first."
+  ],
+  "ss255-q12": [
+    "Ms Wong, unlike her previous manager, gives clear instructions."
+  ],
+  "ss255-q13": [
+    "Unlike the old timetable, the new one allows longer lunch breaks."
+  ],
+  "ss255-q14": [
+    "The northern path remains open in winter, unlike the southern path."
+  ],
+  "ss255-q15": [
+    "Unlike ordinary batteries, rechargeable batteries can be used many times."
+  ],
+  "ss255-q16": [
+    "This medicine, unlike the other tablets, must be taken after meals."
+  ],
+  "ss255-q17": [
+    "Our new classroom has enough power sockets, unlike our old classroom."
+  ],
+  "ss255-q18": [
+    "Unlike Leo, Priya checks every answer before submitting her work."
+  ],
+  "ss255-q19": [
+    "The local market, unlike several small shops nearby, accepts card payments."
+  ],
+  "ss255-q20": [
+    "The afternoon class has space for new students, unlike the morning class."
+  ],
+  "ss255-q21": [
+    "Unlike the first report, the revised report explains how the data was collected."
+  ],
+  "ss255-q22": [
+    "The museum, unlike the art gallery, offers free entry on Wednesdays."
+  ],
+  "ss255-q23": [
+    "The new software saves files automatically, unlike the earlier version."
+  ],
+  "ss255-q24": [
+    "Unlike driving, travelling by train allows me to work during the journey."
+  ],
+  "ss255-q25": [
+    "The west wing has air conditioning, unlike the east wing."
+  ],
+  "ss255-q26": [
+    "Alex, unlike most of his colleagues, prefers to work without background music."
+  ],
+  "ss255-q27": [
+    "Unlike the printed guide, the mobile app provides live updates."
+  ],
+  "ss255-q28": [
+    "This route, unlike the usual route, avoids the busy town centre."
+  ],
+  "ss255-q29": [
+    "The new policy also applies to part-time staff, unlike the previous policy."
+  ],
+  "ss255-q30": [
+    "Unlike last year’s event, this year’s event will be held outdoors."
+  ],
+  "ss255-q31": [
+    "The replacement bus stopped at every village, unlike the express service."
+  ],
+  "ss255-q32": [
+    "Unlike the sports club, the community centre does not charge a joining fee."
+  ],
+  "ss255-q33": [
+    "The second experiment, unlike the first, controlled the room temperature."
+  ],
+  "ss255-q34": [
+    "The updated website works well on mobile phones, unlike the old website."
+  ],
+  "ss255-q35": [
+    "Unlike its main competitor, our supplier can deliver within two days."
+  ],
+  "ss255-q36": [
+    "The premium model, unlike the cheaper model, comes with a five-year guarantee."
+  ],
+  "ss255-q37": [
+    "The evening clinic accepts walk-in patients, unlike the morning clinic."
+  ],
+  "ss255-q38": [
+    "Unlike the earlier chapters, the final chapter is written from the child’s point of view."
+  ],
+  "ss255-q39": [
+    "Using the rules in conversation helps learners remember them, unlike simply memorising them."
+  ],
+  "ss255-q40": [
+    "The new bridge, unlike the coastal road, remained open during the storm."
+  ],
+  "ss255-q41": [
+    "Unlike the original plan, the revised plan reduces costs without cutting staff."
+  ],
+  "ss255-q42": [
+    "Hannah, unlike the other candidates, supported her claims with specific evidence."
+  ],
+  "ss255-q43": [
+    "A digital ticket can be replaced if it is lost, unlike a paper ticket."
+  ],
+  "ss255-q44": [
+    "Unlike the previous research team, the new team published both successful and unsuccessful results."
+  ],
+  "ss255-q45": [
+    "Replacing the damaged pipe should solve the problem for many years, unlike a temporary repair."
+  ],
+  "ss255-q46": [
+    "The smaller venue, unlike the larger one, has better transport links."
+  ],
+  "ss255-q47": [
+    "Unlike the former safety procedure, the new procedure requires two staff members to check the equipment."
+  ],
+  "ss255-q48": [
+    "The course does not include individual coaching, unlike what the advertisement suggested."
+  ],
+  "ss255-q49": [
+    "Unlike the first interview, the second interview revealed several practical problems."
+  ],
+  "ss255-q50": [
+    "The hospital’s new booking system, unlike the old system, allows patients to change appointments online."
+  ],
+  "ss256-q01": [
+    "Far from being a failure, the pilot revealed useful weaknesses."
+  ],
+  "ss256-q02": [
+    "The lesson, far from being boring, kept everyone interested until the end."
+  ],
+  "ss256-q03": [
+    "In fact, far from being useless, the old map helped the hikers find the village."
+  ],
+  "ss256-q04": [
+    "Although some residents feared that the route was unsafe, far from being unsafe, it proved safe and easy to follow."
+  ],
+  "ss256-q05": [
+    "The report found that the repair, far from being expensive, cost less than expected."
+  ],
+  "ss256-q06": [
+    "By the end of the week, far from being a problem, the delay had given us more preparation time."
+  ],
+  "ss256-q07": [
+    "Far from being weak, the material supported the heavy equipment without bending."
+  ],
+  "ss256-q08": [
+    "For the team, far from being a waste of time, the discussion produced several useful ideas."
+  ],
+  "ss256-q09": [
+    "The new assistant, far from being a burden, saved the team several hours of work."
+  ],
+  "ss256-q10": [
+    "At the end of the show, far from being disappointed, the audience applauded for several minutes."
+  ],
+  "ss256-q11": [
+    "The coach explained that the players, far from being careless, had followed the plan exactly."
+  ],
+  "ss256-q12": [
+    "Far from being an accident, the change had been carefully planned several months earlier."
+  ],
+  "ss256-q13": [
+    "In the teacher's view, far from being too difficult, the task challenged the students at the right level."
+  ],
+  "ss256-q14": [
+    "The policy, far from being unfair, gave every applicant the same opportunity."
+  ],
+  "ss256-q15": [
+    "Even now, far from being forgotten, the event continues to influence the community."
+  ],
+  "ss256-q16": [
+    "Far from being outdated, the method remains useful in modern classrooms."
+  ],
+  "ss256-q17": [
+    "The researchers discovered that the bacteria, far from being harmful, helped the plants absorb nutrients."
+  ],
+  "ss256-q18": [
+    "Did the investigation show that the leak, far from being accidental, had been caused deliberately?"
+  ],
+  "ss256-q19": [
+    "Although the room looked plain, far from being uncomfortable, it was warm and quiet."
+  ],
+  "ss256-q20": [
+    "By the end of the course, far from being confused, the students could explain every stage clearly."
+  ],
+  "ss256-q21": [
+    "Far from being merely decorative, the wall also absorbs sound from the next room."
+  ],
+  "ss256-q22": [
+    "The scheme, far from being impractical, has already saved money in three schools."
+  ],
+  "ss256-q23": [
+    "After the repairs, far from being unusable, the hall reopened the following morning."
+  ],
+  "ss256-q24": [
+    "The committee concluded that the training, far from being unnecessary, had significantly reduced errors."
+  ],
+  "ss256-q25": [
+    "For Lena, far from being just a hobby, photography became a successful career."
+  ],
+  "ss256-q26": [
+    "During the trial, far from being unreliable, the device completed every task correctly."
+  ],
+  "ss256-q27": [
+    "The criticism, far from being destructive, helped the writer strengthen her argument."
+  ],
+  "ss256-q28": [
+    "Were the changes, far from being merely cosmetic, intended to improve safety?"
+  ],
+  "ss256-q29": [
+    "Because the evidence, far from being incomplete, covered every major event, the panel reached a firm conclusion."
+  ],
+  "ss256-q30": [
+    "What the survey showed was that the service, far from being unpopular, was used by residents of all ages."
+  ],
+  "ss256-q31": [
+    "The article argues that the town, far from being isolated, is connected to five cities by rail."
+  ],
+  "ss256-q32": [
+    "For many older residents, the centre, far from being merely a building, is an important meeting place."
+  ],
+  "ss256-q33": [
+    "Although critics said that the decision had been rushed, far from being rushed, it followed several months of consultation."
+  ],
+  "ss256-q34": [
+    "Far from being the end of the project, the setback marked the beginning of a better design."
+  ],
+  "ss256-q35": [
+    "The first draft, far from being ready for publication, still required major revisions."
+  ],
+  "ss256-q36": [
+    "When the figures were checked, the fall, far from being evidence of failure, was shown to be the result of a seasonal change."
+  ],
+  "ss256-q37": [
+    "The speaker suggested that young people, far from being passive, had organised the campaign themselves."
+  ],
+  "ss256-q38": [
+    "Could it be argued that the small team, far from being a weakness, allowed decisions to be made more quickly?"
+  ],
+  "ss256-q39": [
+    "The delay, far from being unavoidable, resulted from poor planning and could have been prevented."
+  ],
+  "ss256-q40": [
+    "The museum's decision, far from being opposed by local residents, received broad support."
+  ],
+  "ss256-q41": [
+    "The review makes clear that the experiment, far from being a complete failure, identified three important design flaws."
+  ],
+  "ss256-q42": [
+    "Even if the proposal appears ambitious, far from being unrealistic, it is based on available technology and a practical budget."
+  ],
+  "ss256-q43": [
+    "The principal maintained that the new rule, far from being designed to punish students, was intended to protect learning time."
+  ],
+  "ss256-q44": [
+    "What first seemed to be a disadvantage, far from being harmful, forced the team to develop a stronger solution."
+  ],
+  "ss256-q45": [
+    "The small sample, far from being a reason to dismiss the findings, showed the same pattern in every case examined."
+  ],
+  "ss256-q46": [
+    "Asked whether the closure had damaged the district, the mayor replied that it, far from being permanent, was only a temporary measure."
+  ],
+  "ss256-q47": [
+    "Only after the interviews did the panel realise that the candidate, far from being inexperienced, had led two international projects."
+  ],
+  "ss256-q48": [
+    "The judgement noted that the applicant, far from being denied a fair hearing, had been given three opportunities to respond."
+  ],
+  "ss256-q49": [
+    "Far from being a sign that demand had disappeared, the lower sales figures reflected a temporary shortage of stock."
+  ],
+  "ss256-q50": [
+    "In the final analysis, the trial, far from being a failure, not only revealed useful weaknesses but also prevented a costly mistake."
+  ],
+  "ss257-q01": [
+    "Clear instructions help new employees. The same is true of temporary staff."
+  ],
+  "ss257-q02": [
+    "All visitors must show identification. The same requirement applies to delivery drivers."
+  ],
+  "ss257-q03": [
+    "Large companies need accurate records. The same is true of small businesses."
+  ],
+  "ss257-q04": [
+    "Laboratory staff must wear gloves. The same applies to cleaners."
+  ],
+  "ss257-q05": [
+    "Regular exercise can improve adults’ sleep. The same is true of teenagers."
+  ],
+  "ss257-q06": [
+    "Students can receive the discount. The same applies to apprentices."
+  ],
+  "ss257-q07": [
+    "The northern rooms are cold in winter. The same is true of the southern rooms."
+  ],
+  "ss257-q08": [
+    "You should back up your work files. The same advice applies to personal files."
+  ],
+  "ss257-q09": [
+    "Children need enough sleep. The same is true of adults."
+  ],
+  "ss257-q10": [
+    "Every team must submit the form by Friday. The same deadline applies to individual participants."
+  ],
+  "ss257-q11": [
+    "Online lessons require regular practice, and the same is true of face-to-face lessons."
+  ],
+  "ss257-q12": [
+    "The parking restrictions apply to cars. Do the same restrictions apply to motorcycles?"
+  ],
+  "ss257-q13": [
+    "This description is true of the first report, but the same is not true of the second."
+  ],
+  "ss257-q14": [
+    "The rule applies to paid employment, but the same does not apply to unpaid voluntary work."
+  ],
+  "ss257-q15": [
+    "Learning vocabulary takes time. The same is true of learning pronunciation."
+  ],
+  "ss257-q16": [
+    "Full-time employees receive a travel allowance. The same may be true of part-time employees."
+  ],
+  "ss257-q17": [
+    "Beginners should check each answer carefully. The same advice applies to advanced learners."
+  ],
+  "ss257-q18": [
+    "The policy protects permanent residents. Does the same apply to temporary residents?"
+  ],
+  "ss257-q19": [
+    "Rising costs affected restaurants, and the same was true of cafés."
+  ],
+  "ss257-q20": [
+    "This principle applies to emails. The same principle applies to reports."
+  ],
+  "ss257-q21": [
+    "In 2010, rent was high in the city centre, and the same was true of the surrounding districts."
+  ],
+  "ss257-q22": [
+    "Last year, the fee applied to adults. The same applied to children."
+  ],
+  "ss257-q23": [
+    "From September, the new timetable will apply to weekday services. The same will apply to weekend services."
+  ],
+  "ss257-q24": [
+    "Younger adults may prefer shorter videos, and the same may be true of older adults."
+  ],
+  "ss257-q25": [
+    "The ban may apply to printed advertisements. The same may apply to online advertisements."
+  ],
+  "ss257-q26": [
+    "This principle should apply to public bodies. The same should apply to private contractors."
+  ],
+  "ss257-q27": [
+    "Prices have risen in major cities, and the same has been true of smaller towns."
+  ],
+  "ss257-q28": [
+    "The rule has applied to new applicants since January. Since March, the same has applied to existing members."
+  ],
+  "ss257-q29": [
+    "The tax rule will apply to physical shops. Will the same apply to online sellers?"
+  ],
+  "ss257-q30": [
+    "The trend was common among young workers. Was the same true of older workers?"
+  ],
+  "ss257-q31": [
+    "Researchers found that urban students faced this difficulty and that the same was true of rural students."
+  ],
+  "ss257-q32": [
+    "The rule applies to local orders. Before using it for overseas orders, check whether the same rule applies to them."
+  ],
+  "ss257-q33": [
+    "If this warning applies to electric heaters, the same applies to gas heaters."
+  ],
+  "ss257-q34": [
+    "Although the description is true of most first-year students, the same is not true of mature students."
+  ],
+  "ss257-q35": [
+    "The advice is useful for office workers. We should check whether the same is true of drivers."
+  ],
+  "ss257-q36": [
+    "The dress code applies to permanent staff, and the manager confirmed that the same applies to interns."
+  ],
+  "ss257-q37": [
+    "The main factory needs inspection because these safety conditions apply to it, and the same applies to the warehouse."
+  ],
+  "ss257-q38": [
+    "Students who miss the deadline lose marks, and the same rule applies to late group submissions."
+  ],
+  "ss257-q39": [
+    "The survey suggests that the trend is true of people living alone and that the same is true of couples without children."
+  ],
+  "ss257-q40": [
+    "The rule currently applies to weekday deliveries. We should not assume that the same rule applies to weekend deliveries without checking."
+  ],
+  "ss257-q41": [
+    "Large firms benefit from clear procedures. The same is true of small businesses, although their procedures may be simpler."
+  ],
+  "ss257-q42": [
+    "All permanent employees must declare gifts. The same requirement applies to consultants when they represent the company."
+  ],
+  "ss257-q43": [
+    "The conclusion might be true of urban schools, but the same may not be true of rural schools."
+  ],
+  "ss257-q44": [
+    "The present rules apply to printed records. Beginning next year, the same rules will apply to digital records."
+  ],
+  "ss257-q45": [
+    "The method worked for beginners. Before recommending it to experts, we should ask whether the same will be true of them."
+  ],
+  "ss257-q46": [
+    "Because the same principle applies to private clinics, they must protect patient records just as public hospitals do."
+  ],
+  "ss257-q47": [
+    "The policy applies to paid staff, and the same now applies to volunteers, although this was not true in the past."
+  ],
+  "ss257-q48": [
+    "According to the report, young people increasingly shop online, and the same is true of older consumers, though less strongly."
+  ],
+  "ss257-q49": [
+    "Although the refund rule clearly applies to damaged goods, we still need to determine whether the same applies to late deliveries."
+  ],
+  "ss257-q50": [
+    "The same principle applies to small businesses as to large corporations, although the way it is implemented may differ."
+  ],
+  "ss258-q01": [
+    "Unless we leave now, we will miss the last bus."
+  ],
+  "ss258-q02": [
+    "I will not buy the jacket unless the price falls."
+  ],
+  "ss258-q03": [
+    "Unless you charge the phone, it will not turn on."
+  ],
+  "ss258-q04": [
+    "Plants die unless they receive regular water."
+  ],
+  "ss258-q05": [
+    "You cannot enter unless you show your pass."
+  ],
+  "ss258-q06": [
+    "Unless the weather improves, the picnic will be cancelled."
+  ],
+  "ss258-q07": [
+    "Do not open the door unless you know the visitor."
+  ],
+  "ss258-q08": [
+    "Unless Ben practises regularly, he will not improve."
+  ],
+  "ss258-q09": [
+    "The milk will not stay fresh unless you put it in the fridge."
+  ],
+  "ss258-q10": [
+    "We will not stop for coffee unless there is enough time."
+  ],
+  "ss258-q11": [
+    "You should not sign the form unless you have read it carefully."
+  ],
+  "ss258-q12": [
+    "Will the printer work unless you replace the empty cartridge?"
+  ],
+  "ss258-q13": [
+    "Unless anyone objects, the meeting will begin."
+  ],
+  "ss258-q14": [
+    "Keep the receipt unless you are certain that you will not need a refund."
+  ],
+  "ss258-q15": [
+    "The alarm will sound unless you enter the correct code."
+  ],
+  "ss258-q16": [
+    "Unless I hear from you by Friday, I will assume that you have accepted the offer."
+  ],
+  "ss258-q17": [
+    "We can go hiking unless the weather forecast changes."
+  ],
+  "ss258-q18": [
+    "Unless students wear safety glasses, they may not enter the laboratory."
+  ],
+  "ss258-q19": [
+    "Daniel did not take a taxi unless he was late for work."
+  ],
+  "ss258-q20": [
+    "Unless someone feeds the cat, it will be hungry."
+  ],
+  "ss258-q21": [
+    "You will not solve the connection problem unless you restart the router."
+  ],
+  "ss258-q22": [
+    "Unless she is feeling better tomorrow, she should stay at home."
+  ],
+  "ss258-q23": [
+    "The shop does not issue refunds unless an item is faulty."
+  ],
+  "ss258-q24": [
+    "Unless the package has arrived by noon, contact the courier."
+  ],
+  "ss258-q25": [
+    "You may borrow the equipment unless another class has booked it."
+  ],
+  "ss258-q26": [
+    "Unless the committee approves the project, it cannot begin."
+  ],
+  "ss258-q27": [
+    "The road will remain closed unless the fallen tree is removed."
+  ],
+  "ss258-q28": [
+    "Unless you have been paying attention, the instructions may seem confusing."
+  ],
+  "ss258-q29": [
+    "We will not know the result unless the samples are tested again."
+  ],
+  "ss258-q30": [
+    "Unless the guest has confirmed attendance, do not reserve a meal."
+  ],
+  "ss258-q31": [
+    "I would not accept the position unless the working hours were more flexible."
+  ],
+  "ss258-q32": [
+    "Unless there were an emergency, the hospital would not call the patient’s family."
+  ],
+  "ss258-q33": [
+    "Would you move abroad unless you were offered a better position?"
+  ],
+  "ss258-q34": [
+    "Unless someone lent us the tools, we could not repair the gate."
+  ],
+  "ss258-q35": [
+    "The company would lose more customers unless it improved its customer service."
+  ],
+  "ss258-q36": [
+    "Unless he had kept the receipt, he could not have returned the laptop."
+  ],
+  "ss258-q37": [
+    "The hikers would have got lost unless the guide had checked the map."
+  ],
+  "ss258-q38": [
+    "Unless the fire alarm had sounded, the staff would not have noticed the smoke."
+  ],
+  "ss258-q39": [
+    "We would not have completed the report on time unless Ava had checked the figures."
+  ],
+  "ss258-q40": [
+    "Unless the medicine had been stored correctly, it might have become unsafe."
+  ],
+  "ss258-q41": [
+    "The school cannot reopen unless the inspectors confirm that the building is safe."
+  ],
+  "ss258-q42": [
+    "Unless residents reduce their water use, the reservoir may fall to a dangerously low level."
+  ],
+  "ss258-q43": [
+    "The manager explained that unless the two teams shared their information, the delays would continue."
+  ],
+  "ss258-q44": [
+    "Are emergency exits useful unless they are kept clear?"
+  ],
+  "ss258-q45": [
+    "Unless you are prepared to listen, there is no point continuing the discussion."
+  ],
+  "ss258-q46": [
+    "The application will be rejected unless all the required documents have been attached."
+  ],
+  "ss258-q47": [
+    "Unless the witness can identify the driver, the police may not have enough evidence."
+  ],
+  "ss258-q48": [
+    "Researchers will not publish their findings unless the results are independently checked."
+  ],
+  "ss258-q49": [
+    "Unless an agreement is reached before the deadline, both sides will have to return to negotiations."
+  ],
+  "ss258-q50": [
+    "The village would have remained isolated unless the engineers had built a temporary bridge before winter."
+  ],
+  "ss259-q01": [
+    "Visitors may enter regardless of age."
+  ],
+  "ss259-q02": [
+    "Regardless of the weather, the match will continue."
+  ],
+  "ss259-q03": [
+    "The rule applies regardless of nationality."
+  ],
+  "ss259-q04": [
+    "Should we continue repairing the clock regardless of the cost?"
+  ],
+  "ss259-q05": [
+    "We will help you regardless of your background."
+  ],
+  "ss259-q06": [
+    "Regardless of the result, the team should be proud."
+  ],
+  "ss259-q07": [
+    "Customers, regardless of payment method, receive the same service."
+  ],
+  "ss259-q08": [
+    "Laura attends every lesson regardless of her busy schedule."
+  ],
+  "ss259-q09": [
+    "Regardless of experience, all applicants will be considered."
+  ],
+  "ss259-q10": [
+    "Omar cycles to work regardless of the distance."
+  ],
+  "ss259-q11": [
+    "The event will take place regardless of whether it rains."
+  ],
+  "ss259-q12": [
+    "Regardless of whether we agree, we must follow the procedure."
+  ],
+  "ss259-q13": [
+    "We will finish the project regardless of how long the work takes."
+  ],
+  "ss259-q14": [
+    "Regardless of who wins, both teams will receive certificates."
+  ],
+  "ss259-q15": [
+    "The door, regardless of who is inside, must remain locked."
+  ],
+  "ss259-q16": [
+    "Regardless of what happens, stay calm."
+  ],
+  "ss259-q17": [
+    "She treats everyone politely regardless of where they come from."
+  ],
+  "ss259-q18": [
+    "Regardless of which route we choose, the journey will take at least two hours."
+  ],
+  "ss259-q19": [
+    "You should submit the form regardless of whether you have all the documents."
+  ],
+  "ss259-q20": [
+    "Regardless of how difficult the question is, try to answer it."
+  ],
+  "ss259-q21": [
+    "The policy protects workers regardless of their employment status."
+  ],
+  "ss259-q22": [
+    "Someone will be here to receive the package regardless of when it arrives."
+  ],
+  "ss259-q23": [
+    "Every student, regardless of what they decide to study, will receive support from the teacher."
+  ],
+  "ss259-q24": [
+    "We will learn something useful regardless of whether the plan succeeds or fails."
+  ],
+  "ss259-q25": [
+    "The machine should be checked regularly regardless of how well it appears to be working."
+  ],
+  "ss259-q26": [
+    "We need to correct the mistake immediately regardless of who made it."
+  ],
+  "ss259-q27": [
+    "Customers receive a refund regardless of which branch they bought the item from."
+  ],
+  "ss259-q28": [
+    "Every contribution is appreciated regardless of the size of the donation."
+  ],
+  "ss259-q29": [
+    "The medicine, regardless of where it was purchased, must be stored in a cool place."
+  ],
+  "ss259-q30": [
+    "Please explain your reasons regardless of whether your answer is yes or no."
+  ],
+  "ss259-q31": [
+    "Children may enter the museum free of charge regardless of their place of residence."
+  ],
+  "ss259-q32": [
+    "The data must still be checked regardless of how carefully it was collected."
+  ],
+  "ss259-q33": [
+    "The committee will review the complaint regardless of who submitted it."
+  ],
+  "ss259-q34": [
+    "The final decision belongs to the board regardless of what the survey shows."
+  ],
+  "ss259-q35": [
+    "Staff must report the incident regardless of how minor it appears to be."
+  ],
+  "ss259-q36": [
+    "Passengers deserve an explanation regardless of whether the delay was avoidable."
+  ],
+  "ss259-q37": [
+    "The scholarship is open to qualified students regardless of which school they attend."
+  ],
+  "ss259-q38": [
+    "The company must correct the records regardless of when the error occurred."
+  ],
+  "ss259-q39": [
+    "The emergency service will respond regardless of where the caller is located."
+  ],
+  "ss259-q40": [
+    "The council must protect public safety regardless of how unpopular the decision may be."
+  ],
+  "ss259-q41": [
+    "The law should be applied equally regardless of a person’s wealth or social position."
+  ],
+  "ss259-q42": [
+    "We must report the findings honestly regardless of whether the evidence supports our original theory."
+  ],
+  "ss259-q43": [
+    "The hospital will provide urgent treatment regardless of whether the patient can pay immediately."
+  ],
+  "ss259-q44": [
+    "Both departments must work together to resolve the misunderstanding regardless of who is responsible for it."
+  ],
+  "ss259-q45": [
+    "The safety procedure must be followed regardless of how experienced the operator is."
+  ],
+  "ss259-q46": [
+    "The final examination date will remain the same regardless of what changes are made to the timetable."
+  ],
+  "ss259-q47": [
+    "The organisation promises to protect every complainant regardless of which senior employee is involved."
+  ],
+  "ss259-q48": [
+    "Both sides must respect the same legal conditions regardless of where the negotiations take place."
+  ],
+  "ss259-q49": [
+    "The research should be evaluated on its quality regardless of which organisation funded it."
+  ],
+  "ss259-q50": [
+    "The team must keep a complete record of the discussion regardless of whether the proposal is approved, rejected or revised."
+  ],
+  "ss260-q01": [
+    "In the event of a fire, use the stairs."
+  ],
+  "ss260-q02": [
+    "Keep a torch nearby in the event of a power cut."
+  ],
+  "ss260-q03": [
+    "At the bus stop, in the event that the school bus is late, wait inside the reception area."
+  ],
+  "ss260-q04": [
+    "Contact the teacher in the event that you cannot attend the lesson."
+  ],
+  "ss260-q05": [
+    "In the event of heavy rain, the sports day will be moved indoors."
+  ],
+  "ss260-q06": [
+    "Report the loss immediately in the event that your travel card goes missing."
+  ],
+  "ss260-q07": [
+    "Call this number in the event of a medical emergency."
+  ],
+  "ss260-q08": [
+    "In the event that the alarm sounds, leave the building calmly."
+  ],
+  "ss260-q09": [
+    "Passengers will receive a full refund in the event of a cancellation."
+  ],
+  "ss260-q10": [
+    "In the event of an accident, do not move the injured person unnecessarily."
+  ],
+  "ss260-q11": [
+    "In the event that the lift stops, press the emergency button."
+  ],
+  "ss260-q12": [
+    "Staff should use the backup entrance in the event of a security problem."
+  ],
+  "ss260-q13": [
+    "In the event of a water leak, turn off the main supply."
+  ],
+  "ss260-q14": [
+    "Bring the equipment inside in the event that the weather suddenly changes."
+  ],
+  "ss260-q15": [
+    "In the event of a computer virus, disconnect the device from the network."
+  ],
+  "ss260-q16": [
+    "Customers should keep their receipts in the event that they need to request a refund."
+  ],
+  "ss260-q17": [
+    "In the event that the road is closed, drivers should follow the diversion signs."
+  ],
+  "ss260-q18": [
+    "The match will be postponed in the event of unsafe playing conditions."
+  ],
+  "ss260-q19": [
+    "In the event of a missing child, notify a member of staff immediately."
+  ],
+  "ss260-q20": [
+    "Keep a printed copy of the booking in the event that the app does not work."
+  ],
+  "ss260-q21": [
+    "At the airport, in the event that your flight is cancelled, contact the airline before travelling there."
+  ],
+  "ss260-q22": [
+    "The files can be restored from the backup in the event of data loss."
+  ],
+  "ss260-q23": [
+    "In the event of equipment failure, stop the machine and inform the supervisor."
+  ],
+  "ss260-q24": [
+    "The meeting will continue online in the event that the office becomes inaccessible."
+  ],
+  "ss260-q25": [
+    "In the event that you do not receive a confirmation email, check your spam folder."
+  ],
+  "ss260-q26": [
+    "All visitors must leave through the nearest exit in the event of an evacuation."
+  ],
+  "ss260-q27": [
+    "In the event of an unexpected absence, another team member will lead the presentation."
+  ],
+  "ss260-q28": [
+    "The company will contact an alternative supplier in the event that the original supplier cannot deliver the goods."
+  ],
+  "ss260-q29": [
+    "In the event of severe weather, ferry services may be suspended."
+  ],
+  "ss260-q30": [
+    "In the event that payment is not received by Friday, the order will be placed on hold."
+  ],
+  "ss260-q31": [
+    "Employees should inform their manager immediately in the event that they notice a serious safety risk."
+  ],
+  "ss260-q32": [
+    "In the event of a serious injury, the first aider should remain with the patient until help arrives."
+  ],
+  "ss260-q33": [
+    "In the event that personal data is accidentally shared, the incident must be reported to the privacy officer."
+  ],
+  "ss260-q34": [
+    "The organiser will send updated instructions in the event of a change to the schedule."
+  ],
+  "ss260-q35": [
+    "In the event that a guest loses their entry pass, the reception desk can issue a replacement."
+  ],
+  "ss260-q36": [
+    "The matter will be referred to an independent adviser in the event of a legal dispute."
+  ],
+  "ss260-q37": [
+    "In the event of an internet outage, staff can continue working on the offline system."
+  ],
+  "ss260-q38": [
+    "Switch off the heater immediately in the event that the system begins to overheat."
+  ],
+  "ss260-q39": [
+    "In the event of flooding, residents on the ground floor should move to a higher level."
+  ],
+  "ss260-q40": [
+    "In the event that any information on the form is incorrect, contact the admissions office before submitting it."
+  ],
+  "ss260-q41": [
+    "The council will open the community hall as an emergency shelter in the event of a severe storm."
+  ],
+  "ss260-q42": [
+    "In the event of a shortage of hospital beds, non-urgent procedures may be rescheduled."
+  ],
+  "ss260-q43": [
+    "The organisation must inform affected users promptly in the event that a data breach occurs."
+  ],
+  "ss260-q44": [
+    "In the event that the main supplier is unable to deliver, the purchasing team will use the approved backup supplier."
+  ],
+  "ss260-q45": [
+    "Extra time may be allowed for essential journeys in the event of major transport disruption."
+  ],
+  "ss260-q46": [
+    "In the event that the safety inspection reveals a serious fault, the building must remain closed until repairs are completed."
+  ],
+  "ss260-q47": [
+    "In the event of a disagreement between the two departments, the issue should first be discussed by their managers."
+  ],
+  "ss260-q48": [
+    "The event team will arrange suitable support in the event that a participant requires assistance with access."
+  ],
+  "ss260-q49": [
+    "In the event of the temporary closure of the main library, reserved books can be collected from the community centre."
+  ],
+  "ss260-q50": [
+    "In the event that the automatic payment system fails, staff must record each transaction manually and issue a written receipt."
+  ],
+  "ss261-q01": [
+    "The report may be ready. If so, send it to the manager."
+  ],
+  "ss261-q02": [
+    "The door may already be locked. If not, lock it before leaving."
+  ],
+  "ss261-q03": [
+    "Is Ella joining us for lunch? If so, reserve one more seat."
+  ],
+  "ss261-q04": [
+    "Has the last bus left? If not, we still have time."
+  ],
+  "ss261-q05": [
+    "The figures may be wrong. If so, we should check them again; if not, we can proceed."
+  ],
+  "ss261-q06": [
+    "Check whether the printer is connected and, if so, print a test page."
+  ],
+  "ss261-q07": [
+    "The parcel may have arrived. If so, call me immediately."
+  ],
+  "ss261-q08": [
+    "Ask whether Daniel has the key and, if so, tell him to open the storeroom."
+  ],
+  "ss261-q09": [
+    "The shop may be open on Sunday. If not, we can go on Monday."
+  ],
+  "ss261-q10": [
+    "The water may be safe to drink. If so, we can use it; if not, we should use bottled water."
+  ],
+  "ss261-q11": [
+    "Please confirm whether the hall is available and, if so, book it for Friday."
+  ],
+  "ss261-q12": [
+    "The form may be incomplete; if so, return it to the applicant."
+  ],
+  "ss261-q13": [
+    "Does this train stop at Central? If so, get off there."
+  ],
+  "ss261-q14": [
+    "Are there enough chairs? If not, bring ten more from the next room."
+  ],
+  "ss261-q15": [
+    "We need to know whether the customer has paid and, if so, issue a receipt."
+  ],
+  "ss261-q16": [
+    "The patient may be allergic to penicillin. If so, the doctor must choose another medicine."
+  ],
+  "ss261-q17": [
+    "The answer might be incorrect. If so, explain where the mistake occurred."
+  ],
+  "ss261-q18": [
+    "The weather should improve by the afternoon. If so, the match can continue."
+  ],
+  "ss261-q19": [
+    "Confirm whether all the names are on the list and, if not, add the missing ones."
+  ],
+  "ss261-q20": [
+    "The payment may arrive today. If so, send the goods immediately; if not, hold the order."
+  ],
+  "ss261-q21": [
+    "First, check whether the equipment has been tested. If so, label it; if not, send it to the laboratory."
+  ],
+  "ss261-q22": [
+    "The council may approve the plan. If so, work can begin next month; if not, the plan must be revised."
+  ],
+  "ss261-q23": [
+    "This medicine might cause drowsiness. If so, you should not drive."
+  ],
+  "ss261-q24": [
+    "Find out whether the museum offers group discounts and, if so, ask how much the discount is."
+  ],
+  "ss261-q25": [
+    "The file may already have been backed up. If not, make a copy now."
+  ],
+  "ss261-q26": [
+    "Has the customer received the replacement? If not, why not?"
+  ],
+  "ss261-q27": [
+    "The lights may have been left on. If so, switch them off."
+  ],
+  "ss261-q28": [
+    "We need to establish whether the price includes tax and, if not, add it to the total."
+  ],
+  "ss261-q29": [
+    "This route may be shorter. If so, we should take it; if not, we should use our usual route."
+  ],
+  "ss261-q30": [
+    "Before leaving, check whether all the windows are closed and, if not, close them."
+  ],
+  "ss261-q31": [
+    "The team may have misunderstood the instructions. If so, repeat the briefing."
+  ],
+  "ss261-q32": [
+    "Ask whether the applicant can start on Monday. If so, what time can she arrive; if not, what is her earliest available date?"
+  ],
+  "ss261-q33": [
+    "The battery should be fully charged. If not, connect it to the charger."
+  ],
+  "ss261-q34": [
+    "The public notice may be unclear. If so, rewrite it in simpler language."
+  ],
+  "ss261-q35": [
+    "We should find out whether the room has a projector and, if not, borrow one from the library."
+  ],
+  "ss261-q36": [
+    "The witness may have seen the car. If so, ask what colour it was."
+  ],
+  "ss261-q37": [
+    "The supplier may agree to replace the damaged goods. If so, arrange a collection; if not, request a refund."
+  ],
+  "ss261-q38": [
+    "Once the test is complete, check whether the result is positive. If so, isolate the sample; if not, return it to storage."
+  ],
+  "ss261-q39": [
+    "The new schedule might create staffing problems. If so, adjust the shifts before Monday."
+  ],
+  "ss261-q40": [
+    "The road may reopen tonight. If so, drivers can use this route tomorrow; if not, they must use the bridge."
+  ],
+  "ss261-q41": [
+    "Before the meeting, establish whether the budget has been approved. If so, discuss the starting date; if not, discuss possible cuts."
+  ],
+  "ss261-q42": [
+    "The error may affect only one account. If so, correct that account; if not, pause the update and investigate all the accounts."
+  ],
+  "ss261-q43": [
+    "The committee may have reached a decision. If so, what did it decide; if not, when will it meet again?"
+  ],
+  "ss261-q44": [
+    "We need to check whether the apparent fall in sales is seasonal. If so, compare the figures with the same period last year; if not, investigate other possible causes."
+  ],
+  "ss261-q45": [
+    "The update may have solved the problem. If so, close the case; if not, collect the latest system records."
+  ],
+  "ss261-q46": [
+    "Ask whether the data were collected under the same conditions and, if not, avoid comparing them directly."
+  ],
+  "ss261-q47": [
+    "The building may meet all the accessibility requirements. If so, approve its opening; if not, list the changes that are still required."
+  ],
+  "ss261-q48": [
+    "After reviewing the interview notes, determine whether the evidence supports the claim. If so, include the claim in the report; if not, remove it."
+  ],
+  "ss261-q49": [
+    "The proposed change may save time but increase costs. If so, management must decide which consideration is more important."
+  ],
+  "ss261-q50": [
+    "Once the final results arrive, determine whether the treatment improved recovery times. If so, recommend a wider trial; if not, review the research method."
+  ],
+  "ss262-q01": [
+    "If not this plan, then the group needs a workable alternative."
+  ],
+  "ss262-q02": [
+    "If not today, then tomorrow."
+  ],
+  "ss262-q03": [
+    "For the journey, if not the train, then the coach."
+  ],
+  "ss262-q04": [
+    "At lunch, if not rice, then I will order noodles."
+  ],
+  "ss262-q05": [
+    "The team agreed that if not the library, then the meeting would be held in the classroom."
+  ],
+  "ss262-q06": [
+    "If not the blue shirt, then choose the black one."
+  ],
+  "ss262-q07": [
+    "In this recipe, if not fresh tomatoes, then tinned tomatoes will work."
+  ],
+  "ss262-q08": [
+    "If not by bus, then we can walk."
+  ],
+  "ss262-q09": [
+    "The teacher said that if not page ten, then we should begin on page eleven."
+  ],
+  "ss262-q10": [
+    "If not now, then we must decide before noon."
+  ],
+  "ss262-q11": [
+    "During the repair, if not this tool, then use the smaller one."
+  ],
+  "ss262-q12": [
+    "If not the manager, then ask the assistant manager for approval."
+  ],
+  "ss262-q13": [
+    "The organiser explained, “If not Friday, then Saturday.”"
+  ],
+  "ss262-q14": [
+    "If not at the main entrance, then wait beside the information desk."
+  ],
+  "ss262-q15": [
+    "For payment, if not by card, then please pay in cash."
+  ],
+  "ss262-q16": [
+    "The nurse advised that if not completely rested, then the patient should avoid returning to work."
+  ],
+  "ss262-q17": [
+    "If not ready by six, then call us immediately."
+  ],
+  "ss262-q18": [
+    "In the final paragraph, if not a conclusion, then include a clear recommendation."
+  ],
+  "ss262-q19": [
+    "If not because of the weather, then the delay was probably caused by a technical fault."
+  ],
+  "ss262-q20": [
+    "The committee decided that if not this supplier, then it would invite bids from two others."
+  ],
+  "ss262-q21": [
+    "The employer must offer higher wages; if not, then better working conditions must be offered."
+  ],
+  "ss262-q22": [
+    "If not all the documents, then at least bring the signed form."
+  ],
+  "ss262-q23": [
+    "According to the guide, if not by phone, then bookings should be made through the website."
+  ],
+  "ss262-q24": [
+    "If not the original design, then something close to it should be preserved."
+  ],
+  "ss262-q25": [
+    "At the interview, if not a detailed answer, then give at least one clear example."
+  ],
+  "ss262-q26": [
+    "The coach warned that if not full concentration, then mistakes would be inevitable."
+  ],
+  "ss262-q27": [
+    "If not from the finance team, then the error came from the supplier."
+  ],
+  "ss262-q28": [
+    "In an emergency, if not the nearest exit, then use the safest available route."
+  ],
+  "ss262-q29": [
+    "If not enough evidence to prove the claim, then the article should not present it as fact."
+  ],
+  "ss262-q30": [
+    "The director made it clear that if not a complete solution, then the proposal must at least offer measurable progress."
+  ],
+  "ss262-q31": [
+    "If not the policy itself, then the way it was introduced caused the resistance."
+  ],
+  "ss262-q32": [
+    "The doctor explained that if not an infection, then an allergic reaction was the next possibility."
+  ],
+  "ss262-q33": [
+    "If not this department, then which team is responsible?"
+  ],
+  "ss262-q34": [
+    "During the negotiations, if not a permanent agreement, then both sides should seek a temporary arrangement."
+  ],
+  "ss262-q35": [
+    "If not because the instructions were unclear, then why did so many users make the same mistake?"
+  ],
+  "ss262-q36": [
+    "The chair asked, “If not Monday morning, then would Tuesday afternoon suit everyone?”"
+  ],
+  "ss262-q37": [
+    "If not the most efficient method, then it is certainly one of the safest."
+  ],
+  "ss262-q38": [
+    "In terms of responsibility, if not the board, then the senior management team must explain the decision."
+  ],
+  "ss262-q39": [
+    "If not to reduce costs, then what was the real purpose of the change?"
+  ],
+  "ss262-q40": [
+    "The inspector concluded that if not deliberate damage, then serious carelessness was the most likely cause."
+  ],
+  "ss262-q41": [
+    "The researchers argued that if not a direct cause, then the factor should at least be treated as a significant risk."
+  ],
+  "ss262-q42": [
+    "If not through stricter rules, then how can the organisation prevent the same failure from recurring?"
+  ],
+  "ss262-q43": [
+    "In public policy, if not immediate reform, then there must at least be a clear timetable for change."
+  ],
+  "ss262-q44": [
+    "The panel observed that if not legally responsible, then the company was still morally accountable."
+  ],
+  "ss262-q45": [
+    "If not this interpretation, then the evidence requires a more convincing explanation."
+  ],
+  "ss262-q46": [
+    "For communities facing repeated flooding, if not complete protection, then the project should provide a meaningful reduction in risk."
+  ],
+  "ss262-q47": [
+    "If not the people directly affected, then who should have the strongest voice in the decision?"
+  ],
+  "ss262-q48": [
+    "The review concluded that if not a failure of leadership, then the incident revealed a serious weakness in communication."
+  ],
+  "ss262-q49": [
+    "If not before the contract is signed, then when will the risks be discussed openly?"
+  ],
+  "ss262-q50": [
+    "By the end of the debate, the audience understood that if not this proposal, then a fundamentally different approach would be necessary."
+  ],
+  "ss263-q01": [
+    "But for your help, we would have missed the deadline."
+  ],
+  "ss263-q02": [
+    "The plants would die but for daily watering."
+  ],
+  "ss263-q03": [
+    "But for this map, we could not find the village."
+  ],
+  "ss263-q04": [
+    "The baby would not sleep but for the quiet music."
+  ],
+  "ss263-q05": [
+    "Our team would have lost but for Ben’s final goal."
+  ],
+  "ss263-q06": [
+    "But for the seat belt, the driver might have been badly injured."
+  ],
+  "ss263-q07": [
+    "I could not read the sign but for my glasses."
+  ],
+  "ss263-q08": [
+    "The picnic would have been cancelled but for the covered area."
+  ],
+  "ss263-q09": [
+    "But for the alarm, Olivia would have overslept."
+  ],
+  "ss263-q10": [
+    "We would not be able to contact them but for the satellite phone."
+  ],
+  "ss263-q11": [
+    "The class would be much noisier but for Ms Lee’s clear rules."
+  ],
+  "ss263-q12": [
+    "But for the discount, Daniel could not afford the laptop."
+  ],
+  "ss263-q13": [
+    "According to the guide, the hikers would have taken the wrong path but for the trail markers."
+  ],
+  "ss263-q14": [
+    "But for regular practice, Grace would not play so confidently."
+  ],
+  "ss263-q15": [
+    "The museum could not remain open but for its volunteers."
+  ],
+  "ss263-q16": [
+    "But for the fact that the shop stayed open late, we could not have bought the medicine."
+  ],
+  "ss263-q17": [
+    "Ethan might have missed the interview but for the earlier train."
+  ],
+  "ss263-q18": [
+    "In the chef’s view, the soup would taste flat but for fresh herbs."
+  ],
+  "ss263-q19": [
+    "But for the storm warning, many boats might have remained at sea."
+  ],
+  "ss263-q20": [
+    "They would have arrived late but for the taxi driver’s shortcut."
+  ],
+  "ss263-q21": [
+    "The project would have failed but for the extra funding."
+  ],
+  "ss263-q22": [
+    "But for her experience, Chloe could not manage the event alone."
+  ],
+  "ss263-q23": [
+    "The town would flood every summer but for the new drainage system."
+  ],
+  "ss263-q24": [
+    "But for the nurse’s quick response, the patient might have become much worse."
+  ],
+  "ss263-q25": [
+    "The students could not complete the experiment but for the laboratory assistant’s guidance."
+  ],
+  "ss263-q26": [
+    "The speaker admitted that, but for his detailed notes, he would have forgotten several key points."
+  ],
+  "ss263-q27": [
+    "But for the road closure, we would have driven through the valley."
+  ],
+  "ss263-q28": [
+    "The company might be facing a serious shortage now but for the orders placed last month."
+  ],
+  "ss263-q29": [
+    "But for your reminder, I would still be waiting at the wrong platform."
+  ],
+  "ss263-q30": [
+    "How could the villagers cross the river but for the temporary bridge?"
+  ],
+  "ss263-q31": [
+    "The report concludes that, but for strict safety checks, more accidents would occur."
+  ],
+  "ss263-q32": [
+    "But for the backup copy, we could not have recovered the files."
+  ],
+  "ss263-q33": [
+    "The rescue would have taken much longer but for the local fishermen’s knowledge."
+  ],
+  "ss263-q34": [
+    "But for the trees, the house would be visible from the road."
+  ],
+  "ss263-q35": [
+    "The children might not have found their parents but for the staff member’s announcement."
+  ],
+  "ss263-q36": [
+    "But for the language app, I could not practise pronunciation at home."
+  ],
+  "ss263-q37": [
+    "In a situation such as this, the decision would be impossible but for reliable data."
+  ],
+  "ss263-q38": [
+    "The actor said that he would have forgotten his lines but for repeated rehearsals."
+  ],
+  "ss263-q39": [
+    "But for the protective gloves, the worker might have burnt his hands."
+  ],
+  "ss263-q40": [
+    "It was a journey that would have been far more difficult but for the kindness of several strangers."
+  ],
+  "ss263-q41": [
+    "After reviewing the incident, the inspector concluded that, but for the automatic brake, the collision would have been unavoidable."
+  ],
+  "ss263-q42": [
+    "But for the scholarship, Sofia could not be studying abroad this year."
+  ],
+  "ss263-q43": [
+    "The hospital would struggle to serve the whole district but for its team of part-time volunteers."
+  ],
+  "ss263-q44": [
+    "Although the plan had several weaknesses, it might have collapsed completely but for the engineers’ careful changes."
+  ],
+  "ss263-q45": [
+    "The chairperson acknowledged that, but for the final compromise, neither side would have accepted the agreement."
+  ],
+  "ss263-q46": [
+    "But for the fact that the warning arrived in time, the village might have suffered far greater damage."
+  ],
+  "ss263-q47": [
+    "What would have happened to the research but for the university’s continued financial support?"
+  ],
+  "ss263-q48": [
+    "The new policy could not function effectively but for close cooperation between the schools and local services."
+  ],
+  "ss263-q49": [
+    "Looking back, the manager admitted that, but for one assistant’s accurate records, the company would still be investigating the error."
+  ],
+  "ss263-q50": [
+    "After comparing every stage of the rescue, the committee agreed that the passengers might not have survived but for the captain’s calm decisions."
+  ],
+  "ss264-q01": [
+    "As soon as the results arrive, I will call you."
+  ],
+  "ss264-q02": [
+    "I will send you a message as soon as I reach home."
+  ],
+  "ss264-q03": [
+    "As soon as the bell rang, the students left the classroom."
+  ],
+  "ss264-q04": [
+    "Please tell me as soon as the manager arrives."
+  ],
+  "ss264-q05": [
+    "The dog runs to the door as soon as it hears the key."
+  ],
+  "ss264-q06": [
+    "We will begin lunch as soon as Chloe gets here."
+  ],
+  "ss264-q07": [
+    "As soon as the rain stops, the children will go outside."
+  ],
+  "ss264-q08": [
+    "The doctor will see you as soon as she finishes with the current patient."
+  ],
+  "ss264-q09": [
+    "The computer starts downloading the update as soon as it connects to Wi-Fi."
+  ],
+  "ss264-q10": [
+    "As soon as I finished my homework, I went to bed."
+  ],
+  "ss264-q11": [
+    "We will book the tickets as soon as sales open."
+  ],
+  "ss264-q12": [
+    "Sign the form as soon as you receive it."
+  ],
+  "ss264-q13": [
+    "The alarm sounds as soon as smoke is detected."
+  ],
+  "ss264-q14": [
+    "As soon as the train reached the platform, the doors opened."
+  ],
+  "ss264-q15": [
+    "Sofia always replies as soon as she reads a message."
+  ],
+  "ss264-q16": [
+    "Turn down the heat as soon as the soup begins to boil."
+  ],
+  "ss264-q17": [
+    "I will let everyone know as soon as a final decision is made."
+  ],
+  "ss264-q18": [
+    "The technician can begin the repairs as soon as the replacement part arrives."
+  ],
+  "ss264-q19": [
+    "As soon as the baby fell asleep, Aaron switched off the light."
+  ],
+  "ss264-q20": [
+    "The staff called me as soon as the parcel reached reception."
+  ],
+  "ss264-q21": [
+    "Hand in the form as soon as you have completed both pages."
+  ],
+  "ss264-q22": [
+    "The committee will publish the report as soon as it has checked every figure."
+  ],
+  "ss264-q23": [
+    "As soon as the residents received the warning, they moved indoors."
+  ],
+  "ss264-q24": [
+    "The new timetable will take effect as soon as it is approved."
+  ],
+  "ss264-q25": [
+    "We can reopen the path as soon as the fallen branches have been removed."
+  ],
+  "ss264-q26": [
+    "As soon as Ethan realised that he had made an error, he corrected the figures."
+  ],
+  "ss264-q27": [
+    "The staff began cleaning as soon as the guests had left."
+  ],
+  "ss264-q28": [
+    "The pilot contacted the control tower as soon as the plane had reached a safe altitude."
+  ],
+  "ss264-q29": [
+    "Students can return their books as soon as the library reopens."
+  ],
+  "ss264-q30": [
+    "As soon as the final customer had been served, the shop closed."
+  ],
+  "ss264-q31": [
+    "Open the attachment as soon as I have confirmed the sender."
+  ],
+  "ss264-q32": [
+    "The conference room will become available as soon as the earlier meeting ends."
+  ],
+  "ss264-q33": [
+    "As soon as the weather conditions improved, the rescue team set out."
+  ],
+  "ss264-q34": [
+    "You should update your password as soon as you receive the security warning."
+  ],
+  "ss264-q35": [
+    "The medicine begins working as soon as it enters the bloodstream."
+  ],
+  "ss264-q36": [
+    "As soon as the museum announced that extra tickets were available, they sold out."
+  ],
+  "ss264-q37": [
+    "The school will confirm the students’ places as soon as it receives the parents’ consent forms."
+  ],
+  "ss264-q38": [
+    "The ride reopened as soon as the final safety check had been completed."
+  ],
+  "ss264-q39": [
+    "Contact customer service as soon as you notice an unauthorised payment."
+  ],
+  "ss264-q40": [
+    "As soon as the company learnt that the information was false, it removed the post."
+  ],
+  "ss264-q41": [
+    "Production can resume as soon as the laboratory has confirmed that the sample is safe."
+  ],
+  "ss264-q42": [
+    "The hospital will transfer the patient to a general ward as soon as the doctors decide that intensive care is no longer necessary."
+  ],
+  "ss264-q43": [
+    "As soon as the emergency communication system detected a loss of power, it sent warnings to every control room."
+  ],
+  "ss264-q44": [
+    "The finance department released the first payment as soon as the signed contracts had been received from every supplier."
+  ],
+  "ss264-q45": [
+    "Residents may begin using their taps as soon as they are told that the water is safe again."
+  ],
+  "ss264-q46": [
+    "The university promised to contact applicants as soon as the review panel had reached a final decision."
+  ],
+  "ss264-q47": [
+    "The legal team must inform the project manager as soon as it notices any wording that could create uncertainty."
+  ],
+  "ss264-q48": [
+    "Work should begin as soon as the area has been inspected."
+  ],
+  "ss264-q49": [
+    "The event organisers arranged additional coaches as soon as they learnt that the train service had been suspended."
+  ],
+  "ss264-q50": [
+    "The airport will reopen the affected runway as soon as the monitoring system has confirmed that all faults have been corrected."
+  ],
+  "ss265-q01": [
+    "The next time you visit, bring the original document."
+  ],
+  "ss265-q02": [
+    "I felt nervous the first time I drove alone."
+  ],
+  "ss265-q03": [
+    "The last time we met, you were preparing for an interview."
+  ],
+  "ss265-q04": [
+    "Sarah should ask for a receipt the next time she visits the shop."
+  ],
+  "ss265-q05": [
+    "The first time Daniel cooked a complete meal by himself, he followed a recipe."
+  ],
+  "ss265-q06": [
+    "We learnt how to write a formal email the last time we had a lesson."
+  ],
+  "ss265-q07": [
+    "The next time you use this machine, check that the cover is closed."
+  ],
+  "ss265-q08": [
+    "I remember the first time I saw the sea."
+  ],
+  "ss265-q09": [
+    "They should book a larger room the next time they meet."
+  ],
+  "ss265-q10": [
+    "The last time I called the office, nobody answered."
+  ],
+  "ss265-q11": [
+    "The first time Chloe spoke in public, her hands were shaking."
+  ],
+  "ss265-q12": [
+    "Please tell me earlier the next time you need to change the appointment."
+  ],
+  "ss265-q13": [
+    "I will never forget the first time I travelled by plane."
+  ],
+  "ss265-q14": [
+    "An engineer repaired the machine within an hour the last time it failed."
+  ],
+  "ss265-q15": [
+    "The next time you send an application, include two references."
+  ],
+  "ss265-q16": [
+    "The first time we tried to make bread, we were unsuccessful."
+  ],
+  "ss265-q17": [
+    "Grace attended the course online the last time she took it."
+  ],
+  "ss265-q18": [
+    "This is the first time I have stayed in a tent."
+  ],
+  "ss265-q19": [
+    "It was the first time Ethan had spoken to a television reporter."
+  ],
+  "ss265-q20": [
+    "Everyone left the building calmly the last time the alarm sounded."
+  ],
+  "ss265-q21": [
+    "The next time you buy an electronic product, remember to keep the receipt."
+  ],
+  "ss265-q22": [
+    "That was the first time I had spoken to such a large audience."
+  ],
+  "ss265-q23": [
+    "Olivia found the staff very helpful the last time she stayed at the hotel."
+  ],
+  "ss265-q24": [
+    "I can still remember the first time I visited the science museum with my father."
+  ],
+  "ss265-q25": [
+    "The next time the alarm rings, press the green button before leaving the room."
+  ],
+  "ss265-q26": [
+    "This is the first time the staff have used this booking system."
+  ],
+  "ss265-q27": [
+    "That was the last time the old train was used."
+  ],
+  "ss265-q28": [
+    "The first time I met the new manager, she asked everyone to introduce themselves."
+  ],
+  "ss265-q29": [
+    "Attach the completed form the next time you send us an email."
+  ],
+  "ss265-q30": [
+    "They found several damaged tiles the last time they checked the roof."
+  ],
+  "ss265-q31": [
+    "It was the first time the lawyer had dealt with an international dispute."
+  ],
+  "ss265-q32": [
+    "Staff should offer clear instructions the next time residents use the online service."
+  ],
+  "ss265-q33": [
+    "The first time I spoke in public was during a school assembly."
+  ],
+  "ss265-q34": [
+    "I remember that the last time we discussed the proposal, the meeting ended without a decision."
+  ],
+  "ss265-q35": [
+    "The next time you speak to the supplier, confirm the delivery date in writing."
+  ],
+  "ss265-q36": [
+    "The first time she gave a presentation to the board, it was more successful than she had expected."
+  ],
+  "ss265-q37": [
+    "That was the last time we visited the old theatre before it closed permanently."
+  ],
+  "ss265-q38": [
+    "The next time the manager reviews the figures, she should compare all of them again."
+  ],
+  "ss265-q39": [
+    "This was the first time a team from the school had won the competition."
+  ],
+  "ss265-q40": [
+    "Members voted against the proposal the last time the committee met."
+  ],
+  "ss265-q41": [
+    "It was the first time the hospital had used remote-controlled equipment in an operation."
+  ],
+  "ss265-q42": [
+    "The next time you submit an application, make sure every section has been completed."
+  ],
+  "ss265-q43": [
+    "The first time residents complained about the noise was shortly after the factory opened."
+  ],
+  "ss265-q44": [
+    "The last time the bridge was inspected, engineers found no serious structural damage."
+  ],
+  "ss265-q45": [
+    "This is the first time the committee has approved a project of this size."
+  ],
+  "ss265-q46": [
+    "Please record the exact time and every error message the next time the system fails."
+  ],
+  "ss265-q47": [
+    "Several practical problems appeared the first time the policy was applied."
+  ],
+  "ss265-q48": [
+    "The last time the financial records were audited, the accountants identified a weakness that has since been corrected."
+  ],
+  "ss265-q49": [
+    "We should request a written record of every agreement the next time we negotiate with the landlord."
+  ],
+  "ss265-q50": [
+    "It was the first time an emergency had required the entire hospital to be evacuated."
+  ],
+  "ss266-q01": [
+    "During the final part of the meeting, the discussion became technical to the point where many people could no longer follow it."
+  ],
+  "ss266-q02": [
+    "The rain became heavy to the point where drivers could barely see the road."
+  ],
+  "ss266-q03": [
+    "By midday, the classroom had become hot to the point where the students could not concentrate."
+  ],
+  "ss266-q04": [
+    "The queue grew to the point where it reached the main entrance."
+  ],
+  "ss266-q05": [
+    "After the journey, Leo was tired to the point where he fell asleep at the table."
+  ],
+  "ss266-q06": [
+    "The music was loud to the point where the neighbours could not sleep."
+  ],
+  "ss266-q07": [
+    "Near the top of the hill, the path narrowed to the point where two people could no longer walk side by side."
+  ],
+  "ss266-q08": [
+    "When the visitors arrived, the dog became excited to the point where it would not stop barking."
+  ],
+  "ss266-q09": [
+    "The soup became salty to the point where no one wanted to finish it."
+  ],
+  "ss266-q10": [
+    "As the storm approached, the wind strengthened to the point where ferry services had to stop."
+  ],
+  "ss266-q11": [
+    "By the end of the event, the noise had increased to the point where no one could hear the announcements."
+  ],
+  "ss266-q12": [
+    "Sarah practised the piano to the point where her hands began to hurt."
+  ],
+  "ss266-q13": [
+    "What began as a calm disagreement continued to the point where several people were shouting at one another."
+  ],
+  "ss266-q14": [
+    "By the evening, traffic had worsened to the point where buses were running forty-five minutes late."
+  ],
+  "ss266-q15": [
+    "The screen brightness was reduced to the point where the words became difficult to read."
+  ],
+  "ss266-q16": [
+    "To make the guide easier, the instructions were simplified to the point where important details were omitted."
+  ],
+  "ss266-q17": [
+    "The company cut costs to the point where staff no longer had the equipment they needed."
+  ],
+  "ss266-q18": [
+    "Aaron worried about the examination to the point where he could not sleep the night before."
+  ],
+  "ss266-q19": [
+    "Overnight, the temperature fell to the point where water pipes began to freeze."
+  ],
+  "ss266-q20": [
+    "The town expanded rapidly to the point where the existing roads could no longer cope with the traffic."
+  ],
+  "ss266-q21": [
+    "The medicine made the patient drowsy to the point where she could not keep her eyes open."
+  ],
+  "ss266-q22": [
+    "Repeated criticism damaged his confidence to the point where he stopped speaking during meetings."
+  ],
+  "ss266-q23": [
+    "The chairperson ended the meeting after the discussion became hostile to the point where several members were shouting."
+  ],
+  "ss266-q24": [
+    "The rumour spread to the point where the local shop had to close temporarily."
+  ],
+  "ss266-q25": [
+    "With too many applications running, the computer slowed to the point where it was almost impossible to use."
+  ],
+  "ss266-q26": [
+    "After two days of heavy rain, the river rose to the point where nearby homes had to be evacuated."
+  ],
+  "ss266-q27": [
+    "The deadlines were shortened to the point where many students submitted unfinished work."
+  ],
+  "ss266-q28": [
+    "The project schedule became packed to the point where the team had no time to review its work."
+  ],
+  "ss266-q29": [
+    "The road was closed after the cracks had widened to the point where driving on it was no longer safe."
+  ],
+  "ss266-q30": [
+    "Daniel drank coffee to the point where he could not sleep that night."
+  ],
+  "ss266-q31": [
+    "What began as a joke became personal to the point where it damaged their friendship."
+  ],
+  "ss266-q32": [
+    "The crowd pressed forward to the point where the doors could no longer be opened safely."
+  ],
+  "ss266-q33": [
+    "Repeated budget cuts reduced the bus service to the point where it operated only two days a week."
+  ],
+  "ss266-q34": [
+    "The camera was zoomed in to the point where the image lost its sharpness."
+  ],
+  "ss266-q35": [
+    "By the day of the presentation, Grace had revised the speech to the point where it no longer sounded natural."
+  ],
+  "ss266-q36": [
+    "Construction noise continued to the point where several residents decided to move away."
+  ],
+  "ss266-q37": [
+    "During the second hour, the online discussion became detailed to the point where several beginners left."
+  ],
+  "ss266-q38": [
+    "Staff found the policy difficult to apply because its rules had grown in complexity to the point where legal advice was often needed."
+  ],
+  "ss266-q39": [
+    "After the accident, the phone was damaged to the point where its touch screen stopped responding."
+  ],
+  "ss266-q40": [
+    "Although the river rose considerably, it did not rise to the point where it flooded the village."
+  ],
+  "ss266-q41": [
+    "Over several months, the hospital’s waiting list lengthened to the point where non-urgent patients had to wait almost a year."
+  ],
+  "ss266-q42": [
+    "The staff relied on the automated system to the point where nobody remembered the manual process."
+  ],
+  "ss266-q43": [
+    "The speaker added background information to the point where the main proposal became difficult to identify."
+  ],
+  "ss266-q44": [
+    "As the district developed, its nightlife intensified to the point where local residents could no longer sleep properly."
+  ],
+  "ss266-q45": [
+    "In trying to make the report accessible, the research team simplified the language to the point where some findings became inaccurate."
+  ],
+  "ss266-q46": [
+    "The company monitored its employees to the point where trust between staff and management began to collapse."
+  ],
+  "ss266-q47": [
+    "The debate over safety became polarised to the point where neither side was willing to compromise."
+  ],
+  "ss266-q48": [
+    "The school focused on examination results to the point where creative subjects received very little attention."
+  ],
+  "ss266-q49": [
+    "The restrictions remained in place to the point where many small businesses could no longer survive."
+  ],
+  "ss266-q50": [
+    "Over time, the community became dependent on cars to the point where even very short journeys were made by car."
+  ],
+  "ss267-q01": [
+    "The instructions were translated in order that everyone could understand them."
+  ],
+  "ss267-q02": [
+    "In order that the baby could sleep, Chloe closed the windows."
+  ],
+  "ss267-q03": [
+    "We wrote the date on the box in order that we could remember when it was packed."
+  ],
+  "ss267-q04": [
+    "In order that passengers could find the platform easily, the station put up new signs."
+  ],
+  "ss267-q05": [
+    "Daniel spoke slowly in order that his grandfather could follow the story."
+  ],
+  "ss267-q06": [
+    "In order that the plants could receive enough light, Ava moved them closer to the window."
+  ],
+  "ss267-q07": [
+    "The teacher repeated the question in order that the whole class could hear it."
+  ],
+  "ss267-q08": [
+    "In order that I could arrive before the office closed, I took an earlier bus."
+  ],
+  "ss267-q09": [
+    "The shop keeps coins and small notes at the till in order that staff can give customers the correct change."
+  ],
+  "ss267-q10": [
+    "In order that the soup would not burn, Omar turned down the heat."
+  ],
+  "ss267-q11": [
+    "The files are arranged by date in order that employees can find them quickly."
+  ],
+  "ss267-q12": [
+    "In order that no one would miss the announcement, the organiser sent it by email and text message."
+  ],
+  "ss267-q13": [
+    "Sarah set two alarms in order that she would wake up on time."
+  ],
+  "ss267-q14": [
+    "The meeting was moved online in order that colleagues overseas could join it."
+  ],
+  "ss267-q15": [
+    "In order that the paint could dry properly, Leo left the windows open."
+  ],
+  "ss267-q16": [
+    "Priya uses simple examples in order that beginners can understand the idea."
+  ],
+  "ss267-q17": [
+    "In order that the audience could see the photographs clearly, the lights were dimmed."
+  ],
+  "ss267-q18": [
+    "The medicine is supplied with a measuring spoon in order that patients can take the correct amount."
+  ],
+  "ss267-q19": [
+    "The hikers carried a paper map in order that they would not become lost if their phones stopped working."
+  ],
+  "ss267-q20": [
+    "In order that the guests could sit together, the restaurant reserved a large table."
+  ],
+  "ss267-q21": [
+    "The school installed a ramp in order that wheelchair users could enter the building independently."
+  ],
+  "ss267-q22": [
+    "In order that each payment might be checked later, it was given a reference number."
+  ],
+  "ss267-q23": [
+    "The coach divided the instructions into short steps in order that the younger players could remember them."
+  ],
+  "ss267-q24": [
+    "The doors must remain unlocked in order that people can leave quickly during an emergency."
+  ],
+  "ss267-q25": [
+    "In order that the new rule should be applied consistently, all supervisors received the same training."
+  ],
+  "ss267-q26": [
+    "The council planted trees beside the road in order that residents would have more shade in summer."
+  ],
+  "ss267-q27": [
+    "The password was changed immediately in order that no unauthorised person could access the account."
+  ],
+  "ss267-q28": [
+    "In order that the machine could be repaired safely, the engineer disconnected it from the power supply."
+  ],
+  "ss267-q29": [
+    "The museum provides audio guides in order that visitors with limited vision can learn about the exhibits."
+  ],
+  "ss267-q30": [
+    "The chef prepared one dish without nuts in order that a guest with an allergy could eat safely."
+  ],
+  "ss267-q31": [
+    "If the temperature falls further, the pipes will be covered in order that they should not freeze overnight."
+  ],
+  "ss267-q32": [
+    "In order that every department could comment, the draft policy was circulated two weeks before the meeting."
+  ],
+  "ss267-q33": [
+    "The witness was asked to speak into the microphone in order that the recording would be clear."
+  ],
+  "ss267-q34": [
+    "The farmer opened a second gate in order that the animals could leave the field more quickly."
+  ],
+  "ss267-q35": [
+    "In order that the children would not be frightened, the nurse explained the procedure in a calm voice."
+  ],
+  "ss267-q36": [
+    "The laboratory, in order that outside researchers could verify the findings, published the complete data set."
+  ],
+  "ss267-q37": [
+    "The company will keep a written record in order that any future complaint can be investigated properly."
+  ],
+  "ss267-q38": [
+    "In order that drivers approaching the bend could see it at night, a reflective warning sign was installed."
+  ],
+  "ss267-q39": [
+    "You should save a copy of the form in order that you can refer to it later."
+  ],
+  "ss267-q40": [
+    "The committee, in order that no member should misunderstand the proposal, issued a plain-language summary."
+  ],
+  "ss267-q41": [
+    "The emergency team tested both communication systems in order that one could still be used if the other failed."
+  ],
+  "ss267-q42": [
+    "In order that residents who could not attend the meeting might still express their views, the council opened an online consultation."
+  ],
+  "ss267-q43": [
+    "The hospital introduced coloured wristbands in order that staff could identify patients with particular allergies quickly."
+  ],
+  "ss267-q44": [
+    "The report, in order that readers could distinguish confirmed facts from estimates, presented them in separate sections."
+  ],
+  "ss267-q45": [
+    "In order that the village would not lose access to clean water during the repairs, temporary tanks were installed near the community centre."
+  ],
+  "ss267-q46": [
+    "The lecturer recorded each session in order that students who were ill could watch it later."
+  ],
+  "ss267-q47": [
+    "Unless the original documents are found, certified copies will be prepared in order that the application can proceed without further delay."
+  ],
+  "ss267-q48": [
+    "In order that responsibility for each task would be clear, the project leader listed one named person beside every action point."
+  ],
+  "ss267-q49": [
+    "The new booking system sends two reminders in order that patients are less likely to forget their appointments."
+  ],
+  "ss267-q50": [
+    "The research team, in order that the experiment could be repeated under exactly the same conditions, recorded every stage in detail."
+  ],
+  "ss268-q01": [
+    "He rushed to the station, only to find that the train had left."
+  ],
+  "ss268-q02": [
+    "Lily opened the box, only to find it empty."
+  ],
+  "ss268-q03": [
+    "I called the shop about my order, only to learn that it had closed permanently."
+  ],
+  "ss268-q04": [
+    "Ben turned on his computer, only to see a blank screen."
+  ],
+  "ss268-q05": [
+    "We reached the cinema, only to discover that all the tickets had sold out."
+  ],
+  "ss268-q06": [
+    "Sarah checked her pocket, only to realise that her key was missing."
+  ],
+  "ss268-q07": [
+    "The children ran outside, only to find that it had started to rain."
+  ],
+  "ss268-q08": [
+    "Daniel saved the document, only to lose it when the computer crashed."
+  ],
+  "ss268-q09": [
+    "Emma went to the library, only to find that it was closed."
+  ],
+  "ss268-q10": [
+    "The boy chased the ball, only to see it roll into the river before he could catch it."
+  ],
+  "ss268-q11": [
+    "After waiting for thirty minutes, Olivia reached the counter, only to be told that she had joined the wrong queue."
+  ],
+  "ss268-q12": [
+    "Tom travelled across town for the meeting, only to discover that it had been cancelled."
+  ],
+  "ss268-q13": [
+    "The team began celebrating before the final whistle, only to lose the match in the final minute."
+  ],
+  "ss268-q14": [
+    "Chloe followed the map carefully, only to end up at the wrong building."
+  ],
+  "ss268-q15": [
+    "I entered the password again, only to receive the same error message."
+  ],
+  "ss268-q16": [
+    "The visitors arrived at the museum, only to learn that their tickets included a private tour."
+  ],
+  "ss268-q17": [
+    "Jack opened the oven, only to find that the cake had burnt."
+  ],
+  "ss268-q18": [
+    "We hurried to the bus stop, only to see the bus pull away just as we got there."
+  ],
+  "ss268-q19": [
+    "The customer returned the faulty product, only to be offered a voucher instead of a refund."
+  ],
+  "ss268-q20": [
+    "The students submitted their project, only to be asked to rewrite it."
+  ],
+  "ss268-q21": [
+    "Having saved money for months, Ava bought the new phone, only to discover a serious fault a week later."
+  ],
+  "ss268-q22": [
+    "The driver took a shortcut, only to get stuck in even heavier traffic."
+  ],
+  "ss268-q23": [
+    "At the end of the long climb, we reached the top, only to find the view completely hidden by fog."
+  ],
+  "ss268-q24": [
+    "On launch day, the company released its new website, only to receive hundreds of complaints."
+  ],
+  "ss268-q25": [
+    "Henry carefully wrapped the parcel, only to drop it on the way to the post office."
+  ],
+  "ss268-q26": [
+    "The nurse checked the appointment list twice, only to discover that the patient's name was missing."
+  ],
+  "ss268-q27": [
+    "They booked a quiet room, only to find construction work taking place directly outside."
+  ],
+  "ss268-q28": [
+    "Grace practised her speech for weeks, only to forget the first line when she stepped onto the stage."
+  ],
+  "ss268-q29": [
+    "After repairing one section of the road, the council saw another section collapse following a storm."
+  ],
+  "ss268-q30": [
+    "I downloaded the file, only to discover that it was the wrong version."
+  ],
+  "ss268-q31": [
+    "Some people queue for hours, only to be refused entry when they finally reach the entrance."
+  ],
+  "ss268-q32": [
+    "You may follow every instruction carefully, only to receive an unexpected error message."
+  ],
+  "ss268-q33": [
+    "Marcus returned to the café where he had left his bag, only to learn that another customer had handed it to the police."
+  ],
+  "ss268-q34": [
+    "After driving all night, the family arrived at the hotel, only to find that the staff had no record of their booking."
+  ],
+  "ss268-q35": [
+    "The manager announced what appeared to be a simple change, only to create even more confusion."
+  ],
+  "ss268-q36": [
+    "Having promised a quick solution, the company sent a replacement, only to discover that it had the same fault."
+  ],
+  "ss268-q37": [
+    "At dawn, the rescue team reached the village, only to be told that everyone had already left."
+  ],
+  "ss268-q38": [
+    "The actor stepped onto the stage, only to realise that the microphone was not working."
+  ],
+  "ss268-q39": [
+    "The researchers repeated the experiment, only to obtain the same unclear result."
+  ],
+  "ss268-q40": [
+    "The school installed the new software, only to find that the older computers could not run it."
+  ],
+  "ss268-q41": [
+    "Although Sofia had checked the address twice, she arrived at the building, only to discover that her appointment was somewhere else."
+  ],
+  "ss268-q42": [
+    "Ethan spent the entire weekend repairing his bicycle, only to see the chain snap during his first ride."
+  ],
+  "ss268-q43": [
+    "After a long debate, the committee approved the proposal, only to learn that the funding had been withdrawn that morning."
+  ],
+  "ss268-q44": [
+    "With all the documents prepared, I went to the visa centre, only to be asked for an additional form."
+  ],
+  "ss268-q45": [
+    "The passengers waited for a replacement service, only to hear that all the later trains had also been cancelled."
+  ],
+  "ss268-q46": [
+    "To attract more customers, the restaurant changed its menu, only to upset many regular diners."
+  ],
+  "ss268-q47": [
+    "After months of preparation, the organisers opened the event, only to be forced to close it because of a power cut."
+  ],
+  "ss268-q48": [
+    "Working through the night, the engineers repaired the system, only to discover a different fault when it restarted."
+  ],
+  "ss268-q49": [
+    "We thought that the problem had been solved, only to receive another complaint the following morning."
+  ],
+  "ss268-q50": [
+    "The charity's driver carried supplies towards the remote village, only to find that a landslide had blocked the final kilometre of the road."
+  ],
+  "ss269-q01": [
+    "To the best of my knowledge, the figures are accurate."
+  ],
+  "ss269-q02": [
+    "To the best of my knowledge, the library closes at six."
+  ],
+  "ss269-q03": [
+    "The parcel has, to the best of my knowledge, already been sent."
+  ],
+  "ss269-q04": [
+    "No one has complained about the new timetable, to the best of my knowledge."
+  ],
+  "ss269-q05": [
+    "To the best of my knowledge, Daniel is still working on the report."
+  ],
+  "ss269-q06": [
+    "The road is, to the best of my knowledge, open again."
+  ],
+  "ss269-q07": [
+    "To the best of my knowledge, the keys are in the top drawer."
+  ],
+  "ss269-q08": [
+    "The meeting will begin at ten, to the best of my knowledge."
+  ],
+  "ss269-q09": [
+    "To the best of my knowledge, the shop does not accept cash."
+  ],
+  "ss269-q10": [
+    "The answer is, to the best of my knowledge, correct."
+  ],
+  "ss269-q11": [
+    "The train has not been delayed, to the best of my knowledge."
+  ],
+  "ss269-q12": [
+    "To the best of my knowledge, Grace has never visited Canada."
+  ],
+  "ss269-q13": [
+    "The hall can, to the best of my knowledge, hold about two hundred people."
+  ],
+  "ss269-q14": [
+    "To the best of my knowledge, the form must be submitted by Friday."
+  ],
+  "ss269-q15": [
+    "The computer was, to the best of my knowledge, repaired yesterday."
+  ],
+  "ss269-q16": [
+    "No changes have been made to the schedule, to the best of my knowledge."
+  ],
+  "ss269-q17": [
+    "To the best of my knowledge, the manager has approved the request."
+  ],
+  "ss269-q18": [
+    "The museum is, to the best of my knowledge, free on Sundays."
+  ],
+  "ss269-q19": [
+    "To the best of my knowledge, no students were injured."
+  ],
+  "ss269-q20": [
+    "The email was, to the best of my knowledge, sent to everyone."
+  ],
+  "ss269-q21": [
+    "The new rule applies only to full-time staff, to the best of my knowledge."
+  ],
+  "ss269-q22": [
+    "To the best of my knowledge, the supplier has not replied yet."
+  ],
+  "ss269-q23": [
+    "The device should, to the best of my knowledge, work without an internet connection."
+  ],
+  "ss269-q24": [
+    "No further action is required, to the best of my knowledge."
+  ],
+  "ss269-q25": [
+    "To the best of my knowledge, the information came from an official source."
+  ],
+  "ss269-q26": [
+    "The building has, to the best of my knowledge, passed the safety inspection."
+  ],
+  "ss269-q27": [
+    "To the best of my knowledge, there are no extra charges."
+  ],
+  "ss269-q28": [
+    "The problem was, to the best of my knowledge, caused by a loose cable."
+  ],
+  "ss269-q29": [
+    "To the best of my knowledge, everyone who registered received a confirmation email."
+  ],
+  "ss269-q30": [
+    "The final decision has not, to the best of my knowledge, been announced."
+  ],
+  "ss269-q31": [
+    "To the best of my knowledge, the clinic does not open on public holidays."
+  ],
+  "ss269-q32": [
+    "The data in this table are, to the best of my knowledge, complete."
+  ],
+  "ss269-q33": [
+    "To the best of my knowledge, the contract allows either side to end the agreement with one month's notice."
+  ],
+  "ss269-q34": [
+    "The complaint has, to the best of my knowledge, been dealt with."
+  ],
+  "ss269-q35": [
+    "No one from our department attended the event, to the best of my knowledge."
+  ],
+  "ss269-q36": [
+    "To the best of my knowledge, the software update is compatible with older devices."
+  ],
+  "ss269-q37": [
+    "The village was, to the best of my knowledge, evacuated before the storm arrived."
+  ],
+  "ss269-q38": [
+    "To the best of my knowledge, the committee has not reached a decision."
+  ],
+  "ss269-q39": [
+    "The missing document may, to the best of my knowledge, still be in the archive."
+  ],
+  "ss269-q40": [
+    "All the payments were processed on time, to the best of my knowledge."
+  ],
+  "ss269-q41": [
+    "To the best of my knowledge, what he said during the interview was accurate."
+  ],
+  "ss269-q42": [
+    "The project remains, to the best of my knowledge, within budget."
+  ],
+  "ss269-q43": [
+    "To the best of my knowledge, none of the witnesses saw the accident clearly."
+  ],
+  "ss269-q44": [
+    "The company has not, to the best of my knowledge, received any formal warning."
+  ],
+  "ss269-q45": [
+    "To the best of my knowledge, the revised plan addresses all the concerns raised at the meeting."
+  ],
+  "ss269-q46": [
+    "The records were, to the best of my knowledge, checked by two members of staff."
+  ],
+  "ss269-q47": [
+    "To the best of my knowledge, there is no evidence that the account was accessed without permission."
+  ],
+  "ss269-q48": [
+    "The decision can, to the best of my knowledge, still be changed before the deadline."
+  ],
+  "ss269-q49": [
+    "No confidential information was shared outside the team, to the best of my knowledge."
+  ],
+  "ss269-q50": [
+    "To the best of my knowledge, the report gives a fair account of what happened."
+  ],
+  "ss270-q01": [
+    "As far as I know, no final decision has been made."
+  ],
+  "ss270-q02": [
+    "The meeting time has not changed, as far as I know."
+  ],
+  "ss270-q03": [
+    "The library is, as far as I know, open today."
+  ],
+  "ss270-q04": [
+    "As far as I know, the bus leaves at eight."
+  ],
+  "ss270-q05": [
+    "The café still accepts cash, as far as I know."
+  ],
+  "ss270-q06": [
+    "The parcel was sent yesterday, as far as I know."
+  ],
+  "ss270-q07": [
+    "As far as I know, the course is free."
+  ],
+  "ss270-q08": [
+    "The password has not, as far as I know, changed."
+  ],
+  "ss270-q09": [
+    "Anna works from home on Fridays, as far as I know."
+  ],
+  "ss270-q10": [
+    "As far as I know, the shop closes at nine."
+  ],
+  "ss270-q11": [
+    "As far as Clara knows, the interview is on Tuesday."
+  ],
+  "ss270-q12": [
+    "The last train is still running, as far as I know."
+  ],
+  "ss270-q13": [
+    "The manager has not, as far as I know, approved the request."
+  ],
+  "ss270-q14": [
+    "As far as we know, the road is clear."
+  ],
+  "ss270-q15": [
+    "No one has been injured, as far as the police know."
+  ],
+  "ss270-q16": [
+    "The parcel should arrive tomorrow, as far as Daniel knows."
+  ],
+  "ss270-q17": [
+    "The building is, as far as the engineer knows, structurally sound."
+  ],
+  "ss270-q18": [
+    "As far as I know, the fee does not include delivery."
+  ],
+  "ss270-q19": [
+    "The programme remains unchanged, as far as we know."
+  ],
+  "ss270-q20": [
+    "The keys are, as far as the caretaker knows, in the office."
+  ],
+  "ss270-q21": [
+    "As far as anyone knows, the painting is genuine."
+  ],
+  "ss270-q22": [
+    "There is no second entrance, as far as the staff know."
+  ],
+  "ss270-q23": [
+    "The medicine has, as far as the doctors know, caused no serious side effects."
+  ],
+  "ss270-q24": [
+    "As far as the organisers know, every speaker has confirmed."
+  ],
+  "ss270-q25": [
+    "The road will reopen on Monday, as far as we know."
+  ],
+  "ss270-q26": [
+    "The missing file is, as far as I know, the only copy."
+  ],
+  "ss270-q27": [
+    "As far as the police know, no witness saw the driver leave."
+  ],
+  "ss270-q28": [
+    "The company has, as far as its employees know, made no official announcement."
+  ],
+  "ss270-q29": [
+    "As far as she knows, the course begins in September."
+  ],
+  "ss270-q30": [
+    "The software is compatible with older devices, as far as the technicians know."
+  ],
+  "ss270-q31": [
+    "As far as I knew, the shop closed at six."
+  ],
+  "ss270-q32": [
+    "The team had, as far as we knew, completed all the tests."
+  ],
+  "ss270-q33": [
+    "As far as the doctor knew, the patient had no allergies."
+  ],
+  "ss270-q34": [
+    "The message was genuine, as far as Clara knew."
+  ],
+  "ss270-q35": [
+    "The road was, as far as the driver knew, still open."
+  ],
+  "ss270-q36": [
+    "As far as anyone knew, the documents had never left the office."
+  ],
+  "ss270-q37": [
+    "The meeting had not been cancelled, as far as I knew."
+  ],
+  "ss270-q38": [
+    "The animal was, as far as the keeper knew, harmless."
+  ],
+  "ss270-q39": [
+    "As far as the investigators knew, the fire had started in the kitchen."
+  ],
+  "ss270-q40": [
+    "The payment had been sent, as far as the accounts team knew."
+  ],
+  "ss270-q41": [
+    "As far as the council knows, no residents have objected."
+  ],
+  "ss270-q42": [
+    "The new rule will, as far as I know, apply only to new applications."
+  ],
+  "ss270-q43": [
+    "There is, as far as anyone knows, no evidence that the data were altered."
+  ],
+  "ss270-q44": [
+    "As far as the hospital knows, all affected patients have been contacted."
+  ],
+  "ss270-q45": [
+    "The museum has not, as far as its director knows, received the missing painting."
+  ],
+  "ss270-q46": [
+    "The decision is final, as far as we know."
+  ],
+  "ss270-q47": [
+    "As far as I know, neither department has approved the revised budget."
+  ],
+  "ss270-q48": [
+    "The device can, as far as the manufacturer knows, operate safely at this temperature."
+  ],
+  "ss270-q49": [
+    "No further delays are expected, as far as the project team knows."
+  ],
+  "ss270-q50": [
+    "The agreement remains, as far as anyone involved knows, legally valid."
+  ],
+  "ss271-q01": [
+    "It is said that the café opens at six every morning."
+  ],
+  "ss271-q02": [
+    "It is reported in local newspapers that the road will remain closed until Monday."
+  ],
+  "ss271-q03": [
+    "In the neighbourhood, it is believed that the new lighting has made the park safer."
+  ],
+  "ss271-q04": [
+    "Among experts, it is generally thought that the new material is stronger than the old one."
+  ],
+  "ss271-q05": [
+    "It is known that the public library closes at eight."
+  ],
+  "ss271-q06": [
+    "According to the organisers, it is expected that about five hundred visitors will attend the exhibition."
+  ],
+  "ss271-q07": [
+    "In a company statement, it is claimed that the new model uses less electricity."
+  ],
+  "ss271-q08": [
+    "It is estimated that approximately three hundred people attended the event."
+  ],
+  "ss271-q09": [
+    "Yesterday, it was announced that lessons would resume on Monday."
+  ],
+  "ss271-q10": [
+    "In a staff update this morning, it was confirmed that the meeting had been cancelled."
+  ],
+  "ss271-q11": [
+    "In the village, it is said that the old tunnel runs under the hill."
+  ],
+  "ss271-q12": [
+    "Among scientists, it is widely believed that sleep plays an important part in memory."
+  ],
+  "ss271-q13": [
+    "Yesterday, it was reported in the newspaper that the road had reopened."
+  ],
+  "ss271-q14": [
+    "After the inspection, it was thought that the bridge was safe."
+  ],
+  "ss271-q15": [
+    "Among staff, it is generally understood that the new rule applies to every department."
+  ],
+  "ss271-q16": [
+    "According to weather forecasters, it is expected that there will be heavy rain tomorrow afternoon."
+  ],
+  "ss271-q17": [
+    "In several witness statements, it is claimed that the driver ignored the red light."
+  ],
+  "ss271-q18": [
+    "At the press conference, it was announced that the factory would reopen in June."
+  ],
+  "ss271-q19": [
+    "After the committee’s review, it was confirmed that the figures were accurate."
+  ],
+  "ss271-q20": [
+    "It is rumoured that the actor is moving to Scotland."
+  ],
+  "ss271-q21": [
+    "At present, it is believed that the missing painting is in a private collection."
+  ],
+  "ss271-q22": [
+    "In the music industry, it is said that the singer is recording a new album."
+  ],
+  "ss271-q23": [
+    "Among historians, it is thought that the ancient wall is over eight hundred years old."
+  ],
+  "ss271-q24": [
+    "Recently, it has been reported that the company is closing two of its offices."
+  ],
+  "ss271-q25": [
+    "Based on current forecasts, it is expected that the storm will reach the coast tonight."
+  ],
+  "ss271-q26": [
+    "Over the next year, it is predicted that prices will fall by five per cent."
+  ],
+  "ss271-q27": [
+    "It is known that the two documents contain the same printing error."
+  ],
+  "ss271-q28": [
+    "During the inquiry, it was alleged that the suspect had used a false name when registering."
+  ],
+  "ss271-q29": [
+    "At present, it is estimated that the building will cost four million pounds in total."
+  ],
+  "ss271-q30": [
+    "At the time, it was said that the team had left before dawn."
+  ],
+  "ss271-q31": [
+    "In the official report, it is stated that the water is safe to drink."
+  ],
+  "ss271-q32": [
+    "Among doctors, it is generally believed that regular movement supports recovery."
+  ],
+  "ss271-q33": [
+    "Among teachers, it is generally thought that shorter instructions are easier to follow."
+  ],
+  "ss271-q34": [
+    "According to the latest forecast, it is predicted that temperatures will rise during the weekend."
+  ],
+  "ss271-q35": [
+    "It has been officially announced that the new library will open in September."
+  ],
+  "ss271-q36": [
+    "During the investigation, it was established that the fire started in the storage room."
+  ],
+  "ss271-q37": [
+    "Following the audit, it was confirmed that no money was missing from the account."
+  ],
+  "ss271-q38": [
+    "It is rumoured that the two companies will merge."
+  ],
+  "ss271-q39": [
+    "It is widely accepted that clean water is essential for public health."
+  ],
+  "ss271-q40": [
+    "In the study, it was suggested that shorter breaks might improve concentration."
+  ],
+  "ss271-q41": [
+    "No official statement has been made, but it is reported that the minister will resign."
+  ],
+  "ss271-q42": [
+    "The tests are now complete, and it has been confirmed that the system can support one thousand users."
+  ],
+  "ss271-q43": [
+    "Local historians disagree on some details, but it is generally believed that the house was built in 1820."
+  ],
+  "ss271-q44": [
+    "During the meeting, it was acknowledged that the original deadline could not be met."
+  ],
+  "ss271-q45": [
+    "The application is still being tested, and it is reported that the new version uses less mobile data."
+  ],
+  "ss271-q46": [
+    "The investigation is continuing, but it is reported that no supporting evidence has been found."
+  ],
+  "ss271-q47": [
+    "Current prices are unstable, but it is expected that inflation will remain below three per cent next year."
+  ],
+  "ss271-q48": [
+    "A statement was released today, and it has been confirmed that all affected customers have been contacted."
+  ],
+  "ss271-q49": [
+    "The hearing lasted three days, and it was alleged that the guard had accepted money from visitors."
+  ],
+  "ss271-q50": [
+    "Several recent reviews have been completed, and it is now believed that the treatment is safer than previously thought."
+  ],
+  "ss272-q01": [
+    "Evidence suggests that the change was temporary."
+  ],
+  "ss272-q02": [
+    "The evidence indicates that the bus arrived late because of heavy traffic."
+  ],
+  "ss272-q03": [
+    "Current evidence suggests that regular reading improves vocabulary."
+  ],
+  "ss272-q04": [
+    "Available evidence indicates that the machine failed because it overheated."
+  ],
+  "ss272-q05": [
+    "Recent evidence suggests that the lake is becoming cleaner."
+  ],
+  "ss272-q06": [
+    "The evidence from the survey indicates that most students prefer shorter lessons."
+  ],
+  "ss272-q07": [
+    "This evidence suggests that the animal returned to the same area."
+  ],
+  "ss272-q08": [
+    "Strong evidence indicates that the fire started in the kitchen."
+  ],
+  "ss272-q09": [
+    "Limited evidence suggests that the treatment may reduce pain."
+  ],
+  "ss272-q10": [
+    "The evidence collected at the scene indicates that two vehicles were involved."
+  ],
+  "ss272-q11": [
+    "According to the survey, the evidence suggests that many residents want more trees."
+  ],
+  "ss272-q12": [
+    "In this case, the evidence indicates that the error occurred during data entry."
+  ],
+  "ss272-q13": [
+    "After the trial, the evidence suggested that the new method saved time."
+  ],
+  "ss272-q14": [
+    "During the investigation, the evidence indicated that the window had been broken from the outside."
+  ],
+  "ss272-q15": [
+    "For older adults, the evidence suggests that regular walking improves balance."
+  ],
+  "ss272-q16": [
+    "In both schools, the evidence indicates that students learn better in quieter rooms."
+  ],
+  "ss272-q17": [
+    "At present, the available evidence suggests that the road may reopen tomorrow."
+  ],
+  "ss272-q18": [
+    "From the photographs, the evidence indicates that the wall was already damaged."
+  ],
+  "ss272-q19": [
+    "Although the sample is small, the evidence suggests that the app helps users save time."
+  ],
+  "ss272-q20": [
+    "When all the answers are compared, the evidence indicates that most participants understood the instructions."
+  ],
+  "ss272-q21": [
+    "Researchers say the evidence suggests that sleep affects memory."
+  ],
+  "ss272-q22": [
+    "The report states that the evidence indicates that the damage was caused by water."
+  ],
+  "ss272-q23": [
+    "Scientists agree that the available evidence suggests that the species is moving north."
+  ],
+  "ss272-q24": [
+    "The committee concluded that the evidence indicated that the rule had been unclear."
+  ],
+  "ss272-q25": [
+    "The doctor explained that the evidence suggested that the patient was recovering."
+  ],
+  "ss272-q26": [
+    "Although earlier reports disagreed, the evidence now indicates that the road is safe."
+  ],
+  "ss272-q27": [
+    "Despite the wet weather, the evidence suggests that attendance remained high."
+  ],
+  "ss272-q28": [
+    "Among children under ten, the evidence indicates that regular exercise improves balance."
+  ],
+  "ss272-q29": [
+    "Based on the test results, the evidence suggests that the battery loses power quickly."
+  ],
+  "ss272-q30": [
+    "Taken together, the evidence indicates that the training reduced errors."
+  ],
+  "ss272-q31": [
+    "From the interviews, the evidence suggests that staff need clearer instructions."
+  ],
+  "ss272-q32": [
+    "According to the camera recordings, the evidence indicates that the door was already open."
+  ],
+  "ss272-q33": [
+    "The evidence presented in the report suggests that prices may rise slowly."
+  ],
+  "ss272-q34": [
+    "Based on the information available to the police, the evidence indicates that the missing bag was taken by mistake."
+  ],
+  "ss272-q35": [
+    "Over six months, the evidence collected by the team suggests that the river level is falling."
+  ],
+  "ss272-q36": [
+    "If the figures are accurate, the evidence indicates that sales improved in June."
+  ],
+  "ss272-q37": [
+    "Once the damaged parts are examined, the evidence may suggest that the machine was poorly maintained."
+  ],
+  "ss272-q38": [
+    "The evidence does not suggest that the medicine caused the problem."
+  ],
+  "ss272-q39": [
+    "The evidence does not indicate that any money was stolen."
+  ],
+  "ss272-q40": [
+    "At this stage, the available evidence may suggest that the repair will take longer than expected."
+  ],
+  "ss272-q41": [
+    "Although no single result is decisive, the available evidence suggests that the programme improved confidence."
+  ],
+  "ss272-q42": [
+    "From the interviews and attendance records, the evidence indicates that the new timetable caused confusion."
+  ],
+  "ss272-q43": [
+    "Researchers remain cautious, but the evidence suggests that the treatment may help some patients."
+  ],
+  "ss272-q44": [
+    "When the three studies are considered together, the evidence indicates that early support improves progress."
+  ],
+  "ss272-q45": [
+    "Based on the pattern across all four schools, the evidence suggests that smaller classes encourage participation."
+  ],
+  "ss272-q46": [
+    "Even though the sample was limited, the evidence suggested that the campaign changed some habits."
+  ],
+  "ss272-q47": [
+    "The review panel agreed that the evidence indicated that the original decision had been based on incomplete information."
+  ],
+  "ss272-q48": [
+    "After comparing the written records with the video, investigators concluded that the evidence suggested that the alarm had sounded before the door opened."
+  ],
+  "ss272-q49": [
+    "Although several explanations remain possible, the evidence indicates that human error was the most likely cause."
+  ],
+  "ss272-q50": [
+    "Taken as a whole, the available evidence suggests that the policy produced a short-term improvement but may not have solved the underlying problem."
+  ],
+  "ss273-q01": [
+    "It remains unclear whether the decline will continue."
+  ],
+  "ss273-q02": [
+    "It remains unclear whether the shop will reopen next month."
+  ],
+  "ss273-q03": [
+    "It remains unclear whether the medicine is causing the headaches."
+  ],
+  "ss273-q04": [
+    "At present, it remains unclear whether the missing file can be recovered."
+  ],
+  "ss273-q05": [
+    "Even now, it remains unclear whether the two sides will reach an agreement."
+  ],
+  "ss273-q06": [
+    "It remains unclear whether the new timetable has reduced waiting times."
+  ],
+  "ss273-q07": [
+    "After the first test, it remains unclear whether the machine is safe to use."
+  ],
+  "ss273-q08": [
+    "It remains unclear whether the event will go ahead in the rain."
+  ],
+  "ss273-q09": [
+    "For the moment, it remains unclear whether Daniel will accept the offer."
+  ],
+  "ss273-q10": [
+    "Although the lights are on, it remains unclear whether anyone is inside."
+  ],
+  "ss273-q11": [
+    "The report states that it remains unclear whether the river is becoming cleaner."
+  ],
+  "ss273-q12": [
+    "According to the survey, it remains unclear whether customers prefer the new design."
+  ],
+  "ss273-q13": [
+    "Despite several interviews, it remains unclear whether the witness saw the driver clearly."
+  ],
+  "ss273-q14": [
+    "Researchers agree that it remains unclear whether the treatment works for children."
+  ],
+  "ss273-q15": [
+    "At this stage, it remains unclear whether the repairs will be completed on time."
+  ],
+  "ss273-q16": [
+    "The committee concluded that it remained unclear whether the rule had been applied fairly."
+  ],
+  "ss273-q17": [
+    "Even after the second inspection, it remained unclear whether the building was safe."
+  ],
+  "ss273-q18": [
+    "According to the latest figures, it remains unclear whether sales are recovering."
+  ],
+  "ss273-q19": [
+    "Without further evidence, it will remain unclear whether the account was accessed by someone else."
+  ],
+  "ss273-q20": [
+    "Because the records are incomplete, it remains unclear whether the payment was made."
+  ],
+  "ss273-q21": [
+    "After comparing the samples, the scientists reported that it remained unclear whether they came from the same source."
+  ],
+  "ss273-q22": [
+    "The main finding is that it remains unclear whether online lessons improve long-term results."
+  ],
+  "ss273-q23": [
+    "While several causes have been suggested, it remains unclear whether any one of them explains the problem."
+  ],
+  "ss273-q24": [
+    "The police confirmed that it remained unclear whether the fire had started accidentally."
+  ],
+  "ss273-q25": [
+    "Until the full report is released, it may remain unclear whether the company followed the rules."
+  ],
+  "ss273-q26": [
+    "Although the patient feels better, it remains unclear whether the infection has completely disappeared."
+  ],
+  "ss273-q27": [
+    "From the evidence available so far, it remains unclear whether the damage occurred before or after the storm."
+  ],
+  "ss273-q28": [
+    "The review notes that it remains unclear whether the policy benefits smaller schools."
+  ],
+  "ss273-q29": [
+    "Even with the new data, it remains unclear whether demand will rise or fall."
+  ],
+  "ss273-q30": [
+    "Since the camera footage is incomplete, it remains unclear whether the cyclist crossed on a red light."
+  ],
+  "ss273-q31": [
+    "When the meeting ended, it remained unclear whether the members supported the final proposal."
+  ],
+  "ss273-q32": [
+    "The investigators reported that, despite the new evidence, it remained unclear whether anyone had deliberately deleted the files."
+  ],
+  "ss273-q33": [
+    "Although both plans have advantages, it remains unclear whether either can be completed within the budget."
+  ],
+  "ss273-q34": [
+    "Because the available evidence is limited, it remains unclear whether the change has improved public safety."
+  ],
+  "ss273-q35": [
+    "The report warns that it may remain unclear whether the scheme saved money unless better records are kept."
+  ],
+  "ss273-q36": [
+    "After speaking to both teams, the manager admitted that it remained unclear whether the disagreement had been resolved."
+  ],
+  "ss273-q37": [
+    "Because the sample was small, the researchers said that it remained unclear whether the result applied to the wider population."
+  ],
+  "ss273-q38": [
+    "Until engineers inspect it, it will remain unclear whether the damaged road can reopen safely, even if the weather improves."
+  ],
+  "ss273-q39": [
+    "Since the evidence does not support a firm conclusion, it remains unclear whether the product meets the new standard."
+  ],
+  "ss273-q40": [
+    "The inquiry established that it remained unclear whether officials had received the warning in time."
+  ],
+  "ss273-q41": [
+    "After reviewing five years of data, the panel concluded that it remained unclear whether the programme had reduced inequality."
+  ],
+  "ss273-q42": [
+    "Although the company has promised greater transparency, it remains unclear whether the public will be allowed to examine the full report."
+  ],
+  "ss273-q43": [
+    "The court noted that, without the original document, it would remain unclear whether the signature had been added later."
+  ],
+  "ss273-q44": [
+    "The researchers’ position is that it remains unclear whether the observed improvement resulted from the treatment or from other changes."
+  ],
+  "ss273-q45": [
+    "Even after the witness corrected her statement, it remained unclear whether she had seen the event herself or had heard about it from someone else."
+  ],
+  "ss273-q46": [
+    "According to the audit, it remains unclear whether the missing funds were lost through error, poor control or deliberate action."
+  ],
+  "ss273-q47": [
+    "Because the two studies measured success differently, it remains unclear whether their results genuinely conflict."
+  ],
+  "ss273-q48": [
+    "The committee accepted that it might remain unclear whether the policy had worked until more long-term evidence became available."
+  ],
+  "ss273-q49": [
+    "While the decline appears to have slowed, it remains unclear whether this marks a lasting recovery or only a temporary change."
+  ],
+  "ss273-q50": [
+    "The final report concludes that, despite months of investigation, it remains unclear whether the failure was caused by one major fault or several smaller ones."
+  ],
+  "ss274-q01": [
+    "It may well be that the problem began earlier."
+  ],
+  "ss274-q02": [
+    "It may well be that Ava left her notebook at home."
+  ],
+  "ss274-q03": [
+    "It may well be that the shop is closed today."
+  ],
+  "ss274-q04": [
+    "It may well be that the bus has already left."
+  ],
+  "ss274-q05": [
+    "It may well be that the password has been changed."
+  ],
+  "ss274-q06": [
+    "It may well be that Daniel has misunderstood the instructions."
+  ],
+  "ss274-q07": [
+    "It may well be that the milk has gone off."
+  ],
+  "ss274-q08": [
+    "It may well be that the parcel arrived at the wrong address."
+  ],
+  "ss274-q09": [
+    "It may well be that the children are still asleep."
+  ],
+  "ss274-q10": [
+    "It may well be that the rain will continue all afternoon."
+  ],
+  "ss274-q11": [
+    "According to the receptionist, it may well be that the doctor is running late."
+  ],
+  "ss274-q12": [
+    "After checking the timetable, it may well be that we looked at the wrong date."
+  ],
+  "ss274-q13": [
+    "Given how quiet the office is, it may well be that everyone is working from home."
+  ],
+  "ss274-q14": [
+    "Although the screen is blank, it may well be that the computer is still updating."
+  ],
+  "ss274-q15": [
+    "From what the teacher said, it may well be that the test has been postponed."
+  ],
+  "ss274-q16": [
+    "In light of the new evidence, it may well be that the original report was incomplete."
+  ],
+  "ss274-q17": [
+    "Because the door was unlocked, it may well be that someone entered before us."
+  ],
+  "ss274-q18": [
+    "If the figures are accurate, it may well be that sales improved last month."
+  ],
+  "ss274-q19": [
+    "Judging by the empty shelves, it may well be that the product sold out earlier today."
+  ],
+  "ss274-q20": [
+    "Despite the warm weather, it may well be that the match will be cancelled."
+  ],
+  "ss274-q21": [
+    "We should check the earlier emails because it may well be that the change was announced there."
+  ],
+  "ss274-q22": [
+    "The mechanic needs to inspect the battery because it may well be that the battery is causing the problem."
+  ],
+  "ss274-q23": [
+    "Please keep your receipt, since it may well be that you will need it later."
+  ],
+  "ss274-q24": [
+    "The team should review the first survey because it may well be that some answers were counted twice."
+  ],
+  "ss274-q25": [
+    "We ought to contact the station, as it may well be that the train is using another platform."
+  ],
+  "ss274-q26": [
+    "Do not delete the file yet; it may well be that we need the original version."
+  ],
+  "ss274-q27": [
+    "The nurse will run another test because it may well be that the first result is inaccurate."
+  ],
+  "ss274-q28": [
+    "The council should consult residents again, as it may well be that some voices were not heard."
+  ],
+  "ss274-q29": [
+    "The teacher asked us to reread the passage, since it may well be that we missed an important detail."
+  ],
+  "ss274-q30": [
+    "Keep the window closed tonight; it may well be that the wind will become stronger."
+  ],
+  "ss274-q31": [
+    "The manager believes it may well be that the delay started in the warehouse."
+  ],
+  "ss274-q32": [
+    "Researchers now think it may well be that the plant reacts to changes in light."
+  ],
+  "ss274-q33": [
+    "The police think it may well be that the witness saw a different car."
+  ],
+  "ss274-q34": [
+    "The doctor explained that it may well be that the pain is caused by stress."
+  ],
+  "ss274-q35": [
+    "The report states that it may well be that the system failed before the alarm sounded."
+  ],
+  "ss274-q36": [
+    "According to the committee, it may well be that the original plan was too ambitious."
+  ],
+  "ss274-q37": [
+    "Local residents fear it may well be that the construction work will continue into winter."
+  ],
+  "ss274-q38": [
+    "The technician warned us it may well be that some data cannot be recovered."
+  ],
+  "ss274-q39": [
+    "Historians believe it may well be that the building was used for trade."
+  ],
+  "ss274-q40": [
+    "The coach admitted that it may well be that the team changed tactics too late."
+  ],
+  "ss274-q41": [
+    "After several complaints, the company accepts that it may well be that some customers were charged twice."
+  ],
+  "ss274-q42": [
+    "Before we blame the staff, it may well be that the instructions were unclear."
+  ],
+  "ss274-q43": [
+    "The new photographs matter because it may well be that they show damage from an earlier storm."
+  ],
+  "ss274-q44": [
+    "Even if the first estimate was low, it may well be that the project will still remain within budget."
+  ],
+  "ss274-q45": [
+    "According to the latest survey, it may well be that younger residents use the service differently."
+  ],
+  "ss274-q46": [
+    "The school is reviewing its policy because it may well be that the present rules discourage some students."
+  ],
+  "ss274-q47": [
+    "What appears to be a technical fault may be more serious; it may well be that the whole unit needs replacing."
+  ],
+  "ss274-q48": [
+    "The delay does not necessarily mean that the order was lost; it may well be that customs is still checking it."
+  ],
+  "ss274-q49": [
+    "While no final decision has been made, it may well be that the centre will open on Sundays."
+  ],
+  "ss274-q50": [
+    "Once all the evidence is considered, it may well be that the simplest explanation is the correct one."
+  ],
+  "ss275-q01": [
+    "It is worth noting that the two groups started at different levels."
+  ],
+  "ss275-q02": [
+    "When comparing the two flats, it is worth noting that only one has a balcony."
+  ],
+  "ss275-q03": [
+    "The number of visitors rose overall, but it is worth noting that it fell slightly in May."
+  ],
+  "ss275-q04": [
+    "Although the course is free, it is worth noting that places are limited."
+  ],
+  "ss275-q05": [
+    "In addition, it is worth noting that the library opens on Sundays."
+  ],
+  "ss275-q06": [
+    "The team completed the project early. It is worth noting that two members were absent."
+  ],
+  "ss275-q07": [
+    "Before choosing a route, it is worth noting that the mountain road closes in winter."
+  ],
+  "ss275-q08": [
+    "It is worth noting that the medicine may cause drowsiness."
+  ],
+  "ss275-q09": [
+    "The survey included only eighty people. It is worth noting that the sample was small."
+  ],
+  "ss275-q10": [
+    "For parents, it is worth noting that children under twelve must be accompanied by an adult."
+  ],
+  "ss275-q11": [
+    "However, it is worth noting that the cheaper printer uses more ink."
+  ],
+  "ss275-q12": [
+    "The new policy may save money, but it is worth noting that it will require extra training."
+  ],
+  "ss275-q13": [
+    "When reading the chart, it is worth noting that the vertical scale does not begin at zero."
+  ],
+  "ss275-q14": [
+    "Before reaching a conclusion, it is worth noting that the figures come from only one school."
+  ],
+  "ss275-q15": [
+    "The flat is close to the station. It is worth noting that the last train leaves before midnight."
+  ],
+  "ss275-q16": [
+    "Although online lessons are convenient, it is worth noting that some students lack reliable internet access."
+  ],
+  "ss275-q17": [
+    "In this comparison, it is worth noting that the second phone has twice as much storage."
+  ],
+  "ss275-q18": [
+    "The hospital reduced waiting times, but it is worth noting that weekend figures were not included."
+  ],
+  "ss275-q19": [
+    "For anyone joining the club, it is worth noting that all equipment must be returned on the same day."
+  ],
+  "ss275-q20": [
+    "It is worth noting that the village has no cash machine."
+  ],
+  "ss275-q21": [
+    "Before assessing the results, it is worth noting that the experiment was repeated only twice."
+  ],
+  "ss275-q22": [
+    "The bus service is frequent during the day. It is worth noting that no buses run after 11 p.m."
+  ],
+  "ss275-q23": [
+    "Although sales increased, it is worth noting that profits remained unchanged."
+  ],
+  "ss275-q24": [
+    "When deciding whether to accept the offer, it is worth noting that the contract lasts three years."
+  ],
+  "ss275-q25": [
+    "The software is free, but it is worth noting that technical support costs extra."
+  ],
+  "ss275-q26": [
+    "In addition to the lower price, it is worth noting that the new model uses less electricity."
+  ],
+  "ss275-q27": [
+    "The plan appears simple. It is worth noting that approval may take several months."
+  ],
+  "ss275-q28": [
+    "For a fair comparison, it is worth noting that the two tests measured different skills."
+  ],
+  "ss275-q29": [
+    "Although the neighbourhood is quiet, it is worth noting that a new road is being built nearby."
+  ],
+  "ss275-q30": [
+    "It is worth noting that the report distinguishes between temporary and permanent staff."
+  ],
+  "ss275-q31": [
+    "Before interpreting the improvement, it is worth noting that the weakest students received extra lessons."
+  ],
+  "ss275-q32": [
+    "The river looks clean, but it is worth noting that the water has not yet been tested."
+  ],
+  "ss275-q33": [
+    "When considering the timetable, it is worth noting that the final session overlaps with lunch."
+  ],
+  "ss275-q34": [
+    "The company hired more staff. It is worth noting that most of the new positions are temporary."
+  ],
+  "ss275-q35": [
+    "Although the machine worked well in the trial, it is worth noting that it was tested for only two hours."
+  ],
+  "ss275-q36": [
+    "For customers paying online, it is worth noting that refunds may take five working days."
+  ],
+  "ss275-q37": [
+    "The overall response was positive, but it is worth noting that several residents raised safety concerns."
+  ],
+  "ss275-q38": [
+    "Before comparing this year with last year, it is worth noting that the survey method changed in January."
+  ],
+  "ss275-q39": [
+    "In the discussion of energy use, it is worth noting that heating accounts for nearly half of the total."
+  ],
+  "ss275-q40": [
+    "It is worth noting that the museum is closed on public holidays."
+  ],
+  "ss275-q41": [
+    "Although the new bridge has shortened journey times, it is worth noting that cyclists still have to use the old route."
+  ],
+  "ss275-q42": [
+    "The programme attracted more applicants than expected. It is worth noting that only twenty places were available."
+  ],
+  "ss275-q43": [
+    "When evaluating the treatment, it is worth noting that some patients left the study before it ended."
+  ],
+  "ss275-q44": [
+    "The city planted thousands of trees, but it is worth noting that many were not native species."
+  ],
+  "ss275-q45": [
+    "Before judging the team’s performance, it is worth noting that three regular players were injured."
+  ],
+  "ss275-q46": [
+    "For readers comparing the two reports, it is worth noting that they use different definitions of poverty."
+  ],
+  "ss275-q47": [
+    "Although the new system records information more quickly, it is worth noting that staff still need to check each entry manually."
+  ],
+  "ss275-q48": [
+    "The school’s average score rose. It is worth noting that the number of students taking the test also fell."
+  ],
+  "ss275-q49": [
+    "In considering the proposal’s long-term cost, it is worth noting that maintenance has not been included in the budget."
+  ],
+  "ss275-q50": [
+    "The policy may appear equally helpful to everyone, but it is worth noting that rural families have fewer service centres nearby."
   ]
 });

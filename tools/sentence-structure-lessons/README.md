@@ -1,7 +1,7 @@
 # Sentence Structure imported lesson sources
 
 This directory is the editable, auditable source for Sentence Structure lessons
-`ss5` through `ss218`. Each `ssNN.json` file corresponds to one original PDF and
+`ss5` through `ss275`. Each `ssNN.json` file corresponds to one original PDF and
 contains the lesson material, source-page provenance and exactly 50 bilingual
 questions.
 
@@ -18,7 +18,7 @@ node tools/test-sentence-structure-system.mjs
 The build command generates the public browser bundle:
 
 ```text
-sentence-structure-lessons-5-218.js
+sentence-structure-lessons-5-275.js
 ```
 
 The catalogue command then regenerates the Cloudflare Worker's protected
@@ -33,7 +33,16 @@ The source batch after `ss200` contains two different PDFs both labelled
 
 - `ss201`: `For good reason`;
 - `ss202`: `There is good reason to ...`; and
-- original source numbers 202–217 continue as `ss203`–`ss218`.
+- original source numbers 202–274 continue as `ss203`–`ss275`.
+
+Consequently, source PDFs 218–274 in the latest batch map to `ss219`–`ss275`.
+The source number and permanent lesson ID remain offset by one throughout this
+range because both distinct source documents numbered 201 are retained.
+
+Two pairs in this batch have matching-looking lesson titles but remain separate
+source documents and permanent lessons: source 229/230 map to `ss230`/`ss231`,
+and source 247/248 map to `ss248`/`ss249`. Preserve each exact numbered source
+filename and never collapse either pair.
 
 Keep each exact source filename in `source.file`; do not collapse or renumber the
 two source documents after publication.

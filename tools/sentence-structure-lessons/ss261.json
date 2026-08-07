@@ -1,0 +1,1286 @@
+{
+  "id": "ss261",
+  "order": 261,
+  "slug": "if-so-if-not",
+  "title": "「If so ／ If not」承接前文情況",
+  "titleZh": "「If so ／ If not」承接前文情況",
+  "titleEn": "Using “If so / If not” to refer back to a situation",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 260 -「If so _ If not」承接前文情況.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "Statement or question. If so, + complete clause.",
+  "formulas": [
+    {
+      "id": "ss261-formula-01",
+      "labelEn": "Affirmative reference",
+      "labelZh": "肯定承接",
+      "formula": "Statement or question. If so, + complete clause."
+    },
+    {
+      "id": "ss261-formula-02",
+      "labelEn": "Negative reference",
+      "labelZh": "否定承接",
+      "formula": "Statement or question. If not, + complete clause."
+    },
+    {
+      "id": "ss261-formula-03",
+      "labelEn": "Two outcomes",
+      "labelZh": "兩個結果",
+      "formula": "Statement or question. If so, + outcome A; if not, + outcome B."
+    },
+    {
+      "id": "ss261-formula-04",
+      "labelEn": "Embedded check",
+      "labelZh": "嵌入式核實",
+      "formula": "Verb + whether-clause + and, if so / if not, + action."
+    }
+  ],
+  "example": "The figures may be wrong. If so, we should check them again; if not, we can proceed.",
+  "exampleZh": "這些數字可能有錯。如果確實有錯，我們應該再次核對；如果沒有錯，我們便可以繼續進行。",
+  "examples": [
+    {
+      "id": "ss261-example-01",
+      "en": "The figures may be wrong. If so, we should check them again; if not, we can proceed.",
+      "zh": "這些數字可能有錯。如果確實有錯，我們應該再次核對；如果沒有錯，我們便可以繼續進行。",
+      "highlight": "The figures may be wrong. If so, we should check them again; if not, we can proceed."
+    },
+    {
+      "id": "ss261-example-02",
+      "en": "The printer may be disconnected. If so, reconnect it.",
+      "zh": "打印機可能已經中斷連接。如果是這樣，便重新連接。",
+      "highlight": "The printer may be disconnected. If so, reconnect it."
+    },
+    {
+      "id": "ss261-example-03",
+      "en": "Check whether the door is locked. If not, lock it.",
+      "zh": "檢查門是否已上鎖。如果尚未上鎖，便把它鎖上。",
+      "highlight": "Check whether the door is locked. If not, lock it."
+    }
+  ],
+  "meaning": {
+    "zh": "If so 表示 if that is true / if that is the case；if not 表示 if that is not true / if that is not the case。兩者承接前文整個情況，避免重複完整條件。"
+  },
+  "rules": [
+    {
+      "id": "ss261-rule-01",
+      "zh": "本課固定核心只有 if so 和 if not。逗號、分號、and、問詞和後續子句只是句法外殼或補充內容。",
+      "en": "The fixed core expressions are only if so and if not. Commas, semicolons, and, question words and following clauses are grammatical frames or additional content.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-02",
+      "zh": "so 代替前文整個肯定情況，而不是單一名詞或形容詞。",
+      "en": "So replaces the whole affirmative situation stated earlier, not a single noun or adjective.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-03",
+      "zh": "not 代替前述情況的否定形式，例如 If not 可表示 if the report is not ready。",
+      "en": "Not represents the negative form of the preceding situation; for example, If not can stand for if the report is not ready.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-04",
+      "zh": "前文必須清楚，讓讀者知道 so 或 not 代替哪個情況，也要避免不清楚的代名詞指涉。",
+      "en": "The preceding context must be clear so that the reader knows which situation so or not replaces, and pronoun references must also be unambiguous.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-05",
+      "zh": "表示結果的 so 意味「因此」，前述情況已成立；if so 意味「如果情況確實如此」，前述情況仍未確定。",
+      "en": "Result so means therefore and follows an established fact; if so means if that is true and follows a situation that remains uncertain.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-06",
+      "zh": "即使前文是否定句也可用 if so；此時 so 代替整個前述意思，包括 not。",
+      "en": "If so can refer back even to a negative statement; in that case, so replaces the entire preceding idea, including not.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-07",
+      "zh": "If not 直接否定前面提出的情況；otherwise 通常表示如果不採取某行動便會有另一結果，兩者不能隨意互換。",
+      "en": "If not directly negates the preceding situation, whereas otherwise often states the result of not taking an action. They are not always interchangeable.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-08",
+      "zh": "if so 和 if not 可放在新句開頭，後面通常加逗號；也可放在分號後連接關係密切的部分。",
+      "en": "If so and if not may begin a new sentence and are normally followed by a comma; they may also follow a semicolon joining closely related parts.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-09",
+      "zh": "它們可作句中插入語，例如 and, if so, + action；and 和逗號只是把表達嵌入較長句子的方式。",
+      "en": "They may be inserted within a longer sentence, as in and, if so, + action. And and the commas are simply the grammatical frame.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-10",
+      "zh": "if so 和 if not 可連接兩個相反安排，清楚顯示情況成立和不成立時分別採取的行動。",
+      "en": "If so and if not can link two contrasting arrangements, showing what to do if the situation is true and what to do if it is not.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-11",
+      "zh": "後面可接完整問句或簡短問詞，例如 If so, when ...? 或 If not, why not?；這些是後續問題，不是固定表達的一部分。",
+      "en": "They may be followed by a complete question or a short question phrase, such as If so, when ...? or If not, why not? These are follow-up questions, not part of the fixed expression.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-12",
+      "zh": "後續子句的時態或情態動詞由真正意思決定；if so 和 if not 本身不規定使用 can、should、will、would 等哪一個形式。",
+      "en": "The tense or modal in the following clause depends on the intended meaning. If so and if not do not themselves determine whether to use can, should, will, would or another form.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-rule-13",
+      "zh": "兩者一般承接尚未確定的情況；如果前文已用 definitely 表示完全確定，通常不再需要 if so。",
+      "en": "They normally refer back to an uncertain situation. If the previous statement already presents the situation as definite, if so is usually unnecessary.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss261-benefit-01",
+      "zh": "以 if so 或 if not 代替完整條件，可以避免重複整個條件和名詞，使句子更簡潔。",
+      "en": "They avoid repeating an entire condition and its nouns, making the sentence more concise.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-benefit-02",
+      "zh": "兩者能清楚分開情況成立和不成立時的不同結果，讓讀者立即知道兩種安排。",
+      "en": "They clearly separate two possible outcomes, showing what happens if a situation is true and if it is not.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-benefit-03",
+      "zh": "它們適合指示和工作流程：先核實情況，再清楚說明下一步，常用於電郵、操作指示、安全程序和問題處理。",
+      "en": "They are useful for instructions and workflows because they let you check a situation and then state the next action clearly.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-benefit-04",
+      "zh": "在後續問題中可以省去完整重複的條件，令問題更簡潔自然。",
+      "en": "They make follow-up questions more concise by avoiding repetition of the full condition.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-benefit-05",
+      "zh": "它們把不確定情況和適當行動連接起來，提醒讀者不要把未證實的可能性當作事實。",
+      "en": "They connect an uncertain situation with an appropriate action and prevent an unverified possibility from being treated as fact.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss261-benefit-06",
+      "zh": "它們可代替 if this is true、if this is the case、if the answer is yes / no 等重複表達，使口語和寫作更自然。",
+      "en": "They reduce repetition in speech and writing by replacing expressions such as if this is true, if this is the case, or if the answer is yes or no.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using if so, if not, or both.",
+      "Do not remove important information. You may need to combine two sentences or replace a repeated conditional clause. The first word is provided."
+    ],
+    "zh": [
+      "使用 if so、if not，或同時使用兩者改寫以下句子。",
+      "不要刪除重要資料。你可能需要合併兩句，或取代重複的條件子句。每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss261-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report may be ready. If the report is ready, send it to the manager.",
+      "promptZh": "報告可能已經準備好。如果報告已準備好，便把它交給經理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report may be ready. If so, send it to the manager.",
+      "answerZh": "報告可能已經準備好。如果是，便把它交給經理。",
+      "answerZhSource": "pdf",
+      "highlight": "The report may be ready. If so, send it to the manager."
+    },
+    {
+      "id": "ss261-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The door may already be locked. If the door is not locked, lock it before leaving.",
+      "promptZh": "門可能已經上鎖。如果門尚未上鎖，離開前便把它鎖上。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The door may already be locked. If not, lock it before leaving.",
+      "answerZh": "門可能已經上鎖。如果尚未上鎖，離開前便把它鎖上。",
+      "answerZhSource": "pdf",
+      "highlight": "The door may already be locked. If not, lock it before leaving."
+    },
+    {
+      "id": "ss261-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Is Ella joining us for lunch? If Ella is joining us, reserve one more seat.",
+      "promptZh": "Ella 會和我們一起吃午飯嗎？如果她會參加，便多預留一個座位。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is Ella joining us for lunch? If so, reserve one more seat.",
+      "answerZh": "Ella 會和我們一起吃午飯嗎？如果會，便多預留一個座位。",
+      "answerZhSource": "pdf",
+      "highlight": "Is Ella joining us for lunch? If so, reserve one more seat."
+    },
+    {
+      "id": "ss261-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Has the last bus left? If the last bus has not left, we still have time.",
+      "promptZh": "尾班巴士已經開出了嗎？如果尚未開出，我們仍然有時間。",
+      "promptZhSource": "pdf",
+      "starter": "Has",
+      "answer": "Has the last bus left? If not, we still have time.",
+      "answerZh": "尾班巴士已經開出了嗎？如果尚未開出，我們仍然有時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Has the last bus left? If not, we still have time."
+    },
+    {
+      "id": "ss261-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The figures may be wrong. If the figures are wrong, we should check them again. If they are not wrong, we can proceed.",
+      "promptZh": "這些數字可能有錯。如果有錯，我們應該再次核對。如果沒有錯，我們便可以繼續進行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The figures may be wrong. If so, we should check them again; if not, we can proceed.",
+      "answerZh": "這些數字可能有錯。如果確實有錯，我們應該再次核對；如果沒有錯，我們便可以繼續進行。",
+      "answerZhSource": "pdf",
+      "highlight": "The figures may be wrong. If so, we should check them again; if not, we can proceed."
+    },
+    {
+      "id": "ss261-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Check whether the printer is connected. If it is connected, print a test page.",
+      "promptZh": "檢查打印機是否已連接。如果已連接，便打印測試頁。",
+      "promptZhSource": "pdf",
+      "starter": "Check",
+      "answer": "Check whether the printer is connected and, if so, print a test page.",
+      "answerZh": "檢查打印機是否已連接；如果已連接，便打印測試頁。",
+      "answerZhSource": "pdf",
+      "highlight": "Check whether the printer is connected and, if so, print a test page."
+    },
+    {
+      "id": "ss261-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The parcel may have arrived. If the parcel has arrived, call me immediately.",
+      "promptZh": "包裹可能已經送到。如果已經送到，便立即致電給我。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel may have arrived. If so, call me immediately.",
+      "answerZh": "包裹可能已經送到。如果已經送到，便立即致電給我。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel may have arrived. If so, call me immediately."
+    },
+    {
+      "id": "ss261-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Ask whether Daniel has the key. If he has the key, tell him to open the storeroom.",
+      "promptZh": "詢問 Daniel 是否有鑰匙。如果他有，便叫他打開儲物室。",
+      "promptZhSource": "pdf",
+      "starter": "Ask",
+      "answer": "Ask whether Daniel has the key and, if so, tell him to open the storeroom.",
+      "answerZh": "詢問 Daniel 是否有鑰匙；如果有，便叫他打開儲物室。",
+      "answerZhSource": "pdf",
+      "highlight": "Ask whether Daniel has the key and, if so, tell him to open the storeroom."
+    },
+    {
+      "id": "ss261-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The shop may be open on Sunday. If the shop is not open, we can go on Monday.",
+      "promptZh": "商店星期日可能營業。如果沒有營業，我們可以星期一前往。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop may be open on Sunday. If not, we can go on Monday.",
+      "answerZh": "商店星期日可能營業。如果沒有營業，我們可以星期一前往。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop may be open on Sunday. If not, we can go on Monday."
+    },
+    {
+      "id": "ss261-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The water may be safe to drink. If it is safe, we can use it. If it is not safe, we should use bottled water.",
+      "promptZh": "這些水可能適合飲用。如果安全，我們便可以使用；如果不安全，我們便應該使用樽裝水。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The water may be safe to drink. If so, we can use it; if not, we should use bottled water.",
+      "answerZh": "這些水可能適合飲用。如果安全，我們便可以使用；如果不安全，我們便應該使用樽裝水。",
+      "answerZhSource": "pdf",
+      "highlight": "The water may be safe to drink. If so, we can use it; if not, we should use bottled water."
+    },
+    {
+      "id": "ss261-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Please confirm whether the hall is available. If it is available, book it for Friday.",
+      "promptZh": "請確認禮堂是否可以使用。如果可以，便預訂星期五的時段。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please confirm whether the hall is available and, if so, book it for Friday.",
+      "answerZh": "請確認禮堂是否可以使用；如果可以，便預訂星期五的時段。",
+      "answerZhSource": "pdf",
+      "highlight": "Please confirm whether the hall is available and, if so, book it for Friday."
+    },
+    {
+      "id": "ss261-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The form may be incomplete. Should this be the case, return it to the applicant.",
+      "promptZh": "表格可能並不完整。如果情況確實如此，便把表格退回申請人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The form may be incomplete; if so, return it to the applicant.",
+      "answerZh": "表格可能並不完整；如果確實如此，便把表格退回申請人。",
+      "answerZhSource": "pdf",
+      "highlight": "The form may be incomplete; if so, return it to the applicant."
+    },
+    {
+      "id": "ss261-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Does this train stop at Central? If the answer is yes, get off there.",
+      "promptZh": "這班火車會在 Central 停站嗎？如果答案是會，便在那裏下車。",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does this train stop at Central? If so, get off there.",
+      "answerZh": "這班火車會在 Central 停站嗎？如果會，便在那裏下車。",
+      "answerZhSource": "pdf",
+      "highlight": "Does this train stop at Central? If so, get off there."
+    },
+    {
+      "id": "ss261-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Are there enough chairs? If the answer is no, bring ten more from the next room.",
+      "promptZh": "椅子足夠嗎？如果不足，便從隔壁房間多拿十張過來。",
+      "promptZhSource": "pdf",
+      "starter": "Are",
+      "answer": "Are there enough chairs? If not, bring ten more from the next room.",
+      "answerZh": "椅子足夠嗎？如果不足，便從隔壁房間多拿十張過來。",
+      "answerZhSource": "pdf",
+      "highlight": "Are there enough chairs? If not, bring ten more from the next room."
+    },
+    {
+      "id": "ss261-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We need to know whether the customer has paid. If the customer has paid, issue a receipt.",
+      "promptZh": "我們需要知道顧客是否已經付款。如果已經付款，便發出收據。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to know whether the customer has paid and, if so, issue a receipt.",
+      "answerZh": "我們需要知道顧客是否已經付款；如果已付款，便發出收據。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to know whether the customer has paid and, if so, issue a receipt."
+    },
+    {
+      "id": "ss261-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The patient may be allergic to penicillin. If the patient is allergic to it, the doctor must choose another medicine.",
+      "promptZh": "病人可能對盤尼西林敏感。如果病人確實敏感，醫生便必須選擇另一種藥物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient may be allergic to penicillin. If so, the doctor must choose another medicine.",
+      "answerZh": "病人可能對盤尼西林敏感。如果確實敏感，醫生便必須選擇另一種藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient may be allergic to penicillin. If so, the doctor must choose another medicine."
+    },
+    {
+      "id": "ss261-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The answer might be incorrect. If the answer is incorrect, explain where the mistake occurred.",
+      "promptZh": "答案可能不正確。如果確實不正確，便解釋錯誤出現在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The answer might be incorrect. If so, explain where the mistake occurred.",
+      "answerZh": "答案可能不正確。如果確實不正確，便解釋錯誤出現在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The answer might be incorrect. If so, explain where the mistake occurred."
+    },
+    {
+      "id": "ss261-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The weather should improve by the afternoon. If it improves, the match can continue.",
+      "promptZh": "天氣應該會在下午前好轉。如果確實好轉，比賽便可以繼續。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The weather should improve by the afternoon. If so, the match can continue.",
+      "answerZh": "天氣應該會在下午前好轉。如果確實好轉，比賽便可以繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather should improve by the afternoon. If so, the match can continue."
+    },
+    {
+      "id": "ss261-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Confirm whether all the names are on the list. If all the names are not on the list, add the missing ones.",
+      "promptZh": "確認所有名字是否都在名單上。如果並非全部都在，便補上遺漏的名字。",
+      "promptZhSource": "pdf",
+      "starter": "Confirm",
+      "answer": "Confirm whether all the names are on the list and, if not, add the missing ones.",
+      "answerZh": "確認所有名字是否都在名單上；如有遺漏，便補上欠缺的名字。",
+      "answerZhSource": "pdf",
+      "highlight": "Confirm whether all the names are on the list and, if not, add the missing ones."
+    },
+    {
+      "id": "ss261-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The payment may arrive today. If it arrives today, send the goods immediately. If it does not arrive, hold the order.",
+      "promptZh": "款項可能今天到達。如果今天到達，便立即寄出貨物；如果沒有到達，便暫停處理訂單。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The payment may arrive today. If so, send the goods immediately; if not, hold the order.",
+      "answerZh": "款項可能今天到達。如果到達，便立即寄出貨物；如果沒有到達，便暫停處理訂單。",
+      "answerZhSource": "pdf",
+      "highlight": "The payment may arrive today. If so, send the goods immediately; if not, hold the order."
+    },
+    {
+      "id": "ss261-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "First, check whether the equipment has been tested. If it has been tested, label it. If it has not been tested, send it to the laboratory.",
+      "promptZh": "首先，檢查設備是否已經測試。如果已測試，便貼上標籤；如果尚未測試，便送往實驗室。",
+      "promptZhSource": "pdf",
+      "starter": "First",
+      "answer": "First, check whether the equipment has been tested. If so, label it; if not, send it to the laboratory.",
+      "answerZh": "首先，檢查設備是否已經測試。如果已測試，便貼上標籤；如果尚未測試，便送往實驗室。",
+      "answerZhSource": "pdf",
+      "highlight": "First, check whether the equipment has been tested. If so, label it; if not, send it to the laboratory."
+    },
+    {
+      "id": "ss261-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The council may approve the plan. If the council approves it, work can begin next month. If the council does not approve it, the plan must be revised.",
+      "promptZh": "市議會可能批准計劃。如果批准，工程可以下月開始；如果不批准，計劃便必須修改。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council may approve the plan. If so, work can begin next month; if not, the plan must be revised.",
+      "answerZh": "市議會可能批准計劃。如果批准，工程可以下月開始；如果不批准，計劃便必須修改。",
+      "answerZhSource": "pdf",
+      "highlight": "The council may approve the plan. If so, work can begin next month; if not, the plan must be revised."
+    },
+    {
+      "id": "ss261-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "This medicine might cause drowsiness. If it causes drowsiness, you should not drive.",
+      "promptZh": "這種藥物可能令人昏昏欲睡。如果確實有這種作用，你便不應駕駛。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine might cause drowsiness. If so, you should not drive.",
+      "answerZh": "這種藥物可能令人昏昏欲睡。如果確實有這種作用，你便不應駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine might cause drowsiness. If so, you should not drive."
+    },
+    {
+      "id": "ss261-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Find out whether the museum offers group discounts. If it offers them, ask how much the discount is.",
+      "promptZh": "查明博物館是否提供團體折扣。如果有，便詢問折扣是多少。",
+      "promptZhSource": "pdf",
+      "starter": "Find",
+      "answer": "Find out whether the museum offers group discounts and, if so, ask how much the discount is.",
+      "answerZh": "查明博物館是否提供團體折扣；如果有，便詢問折扣是多少。",
+      "answerZhSource": "pdf",
+      "highlight": "Find out whether the museum offers group discounts and, if so, ask how much the discount is."
+    },
+    {
+      "id": "ss261-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The file may already have been backed up. If it has not been backed up, make a copy now.",
+      "promptZh": "檔案可能已經備份。如果尚未備份，現在便複製一份。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The file may already have been backed up. If not, make a copy now.",
+      "answerZh": "檔案可能已經備份。如果尚未備份，現在便複製一份。",
+      "answerZhSource": "pdf",
+      "highlight": "The file may already have been backed up. If not, make a copy now."
+    },
+    {
+      "id": "ss261-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Has the customer received the replacement? If the customer has not received it, why has the customer not received it?",
+      "promptZh": "顧客已經收到替換貨品嗎？如果尚未收到，原因是甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "Has",
+      "answer": "Has the customer received the replacement? If not, why not?",
+      "answerZh": "顧客已經收到替換貨品嗎？如果尚未收到，原因是甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "Has the customer received the replacement? If not, why not?"
+    },
+    {
+      "id": "ss261-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The lights may have been left on. If the lights were left on, switch them off.",
+      "promptZh": "燈可能沒有關掉。如果確實沒有關掉，便把它們關掉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights may have been left on. If so, switch them off.",
+      "answerZh": "燈可能沒有關掉。如果確實沒有關掉，便把它們關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights may have been left on. If so, switch them off."
+    },
+    {
+      "id": "ss261-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We need to establish whether the price includes tax. If the price does not include tax, add it to the total.",
+      "promptZh": "我們需要確定價格是否包括稅項。如果不包括，便把稅項加入總額。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to establish whether the price includes tax and, if not, add it to the total.",
+      "answerZh": "我們需要確定價格是否包括稅項；如果不包括，便把稅項加入總額。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to establish whether the price includes tax and, if not, add it to the total."
+    },
+    {
+      "id": "ss261-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "This route may be shorter. If it is shorter, we should take it. If it is not shorter, we should use our usual route.",
+      "promptZh": "這條路線可能較短。如果較短，我們便應該選用；如果並非較短，我們便應該使用平常的路線。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This route may be shorter. If so, we should take it; if not, we should use our usual route.",
+      "answerZh": "這條路線可能較短。如果較短，我們便應該選用；如果並非較短，我們便應該使用平常的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "This route may be shorter. If so, we should take it; if not, we should use our usual route."
+    },
+    {
+      "id": "ss261-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before leaving, check whether all the windows are closed. If any window is not closed, close it.",
+      "promptZh": "離開前，檢查所有窗戶是否已關好。如果有窗戶尚未關好，便把它關上。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before leaving, check whether all the windows are closed and, if not, close them.",
+      "answerZh": "離開前，檢查所有窗戶是否已關好；如果尚未關好，便把它們關上。",
+      "answerZhSource": "pdf",
+      "highlight": "Before leaving, check whether all the windows are closed and, if not, close them."
+    },
+    {
+      "id": "ss261-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The team may have misunderstood the instructions. If the team misunderstood them, repeat the briefing.",
+      "promptZh": "團隊可能誤解了指示。如果確實誤解了，便再次進行講解。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team may have misunderstood the instructions. If so, repeat the briefing.",
+      "answerZh": "團隊可能誤解了指示。如果確實誤解了，便再次進行講解。",
+      "answerZhSource": "pdf",
+      "highlight": "The team may have misunderstood the instructions. If so, repeat the briefing."
+    },
+    {
+      "id": "ss261-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Ask whether the applicant can start on Monday. If she can start on Monday, what time can she arrive? If she cannot start on Monday, what is her earliest available date?",
+      "promptZh": "詢問申請人是否可以星期一上班。如果可以，她甚麼時間可以到達？如果不可以，她最早可以在哪一天上班？",
+      "promptZhSource": "pdf",
+      "starter": "Ask",
+      "answer": "Ask whether the applicant can start on Monday. If so, what time can she arrive; if not, what is her earliest available date?",
+      "answerZh": "詢問申請人是否可以星期一上班。如果可以，她甚麼時間可以到達；如果不可以，她最早可以在哪一天上班？",
+      "answerZhSource": "pdf",
+      "highlight": "Ask whether the applicant can start on Monday. If so, what time can she arrive; if not, what is her earliest available date?"
+    },
+    {
+      "id": "ss261-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The battery should be fully charged. If the battery is not fully charged, connect it to the charger.",
+      "promptZh": "電池應該已經完全充電。如果尚未完全充電，便把它連接充電器。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The battery should be fully charged. If not, connect it to the charger.",
+      "answerZh": "電池應該已經完全充電。如果尚未完全充電，便把它連接充電器。",
+      "answerZhSource": "pdf",
+      "highlight": "The battery should be fully charged. If not, connect it to the charger."
+    },
+    {
+      "id": "ss261-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The public notice may be unclear. If the notice is unclear, rewrite it in simpler language.",
+      "promptZh": "公眾告示可能不夠清楚。如果確實不清楚，便以較簡單的語言重寫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public notice may be unclear. If so, rewrite it in simpler language.",
+      "answerZh": "公眾告示可能不夠清楚。如果確實不清楚，便以較簡單的語言重寫。",
+      "answerZhSource": "pdf",
+      "highlight": "The public notice may be unclear. If so, rewrite it in simpler language."
+    },
+    {
+      "id": "ss261-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "We should find out whether the room has a projector. If it does not have one, borrow one from the library.",
+      "promptZh": "我們應該查明房間是否有投影機。如果沒有，便向圖書館借一部。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should find out whether the room has a projector and, if not, borrow one from the library.",
+      "answerZh": "我們應該查明房間是否有投影機；如果沒有，便向圖書館借一部。",
+      "answerZhSource": "pdf",
+      "highlight": "We should find out whether the room has a projector and, if not, borrow one from the library."
+    },
+    {
+      "id": "ss261-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The witness may have seen the car. If the witness saw it, ask what colour it was.",
+      "promptZh": "證人可能看見了那輛汽車。如果確實看見了，便詢問汽車是甚麼顏色。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The witness may have seen the car. If so, ask what colour it was.",
+      "answerZh": "證人可能看見了那輛汽車。如果確實看見了，便詢問汽車是甚麼顏色。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness may have seen the car. If so, ask what colour it was."
+    },
+    {
+      "id": "ss261-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The supplier may agree to replace the damaged goods. If the supplier agrees, arrange a collection. If the supplier does not agree, request a refund.",
+      "promptZh": "供應商可能同意更換損壞的貨品。如果同意，便安排收取貨品；如果不同意，便要求退款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The supplier may agree to replace the damaged goods. If so, arrange a collection; if not, request a refund.",
+      "answerZh": "供應商可能同意更換損壞的貨品。如果同意，便安排收取貨品；如果不同意，便要求退款。",
+      "answerZhSource": "pdf",
+      "highlight": "The supplier may agree to replace the damaged goods. If so, arrange a collection; if not, request a refund."
+    },
+    {
+      "id": "ss261-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Once the test is complete, check whether the result is positive. If the result is positive, isolate the sample. If the result is not positive, return it to storage.",
+      "promptZh": "測試完成後，檢查結果是否呈陽性。如果呈陽性，便把樣本隔離；如果不是，便把樣本放回儲存位置。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the test is complete, check whether the result is positive. If so, isolate the sample; if not, return it to storage.",
+      "answerZh": "測試完成後，檢查結果是否呈陽性。如果呈陽性，便把樣本隔離；如果不是，便把樣本放回儲存位置。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the test is complete, check whether the result is positive. If so, isolate the sample; if not, return it to storage."
+    },
+    {
+      "id": "ss261-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The new schedule might create staffing problems. If it creates such problems, adjust the shifts before Monday.",
+      "promptZh": "新時間表可能會造成人手問題。如果確實造成問題，便在星期一前調整更次。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new schedule might create staffing problems. If so, adjust the shifts before Monday.",
+      "answerZh": "新時間表可能會造成人手問題。如果確實造成問題，便在星期一前調整更次。",
+      "answerZhSource": "pdf",
+      "highlight": "The new schedule might create staffing problems. If so, adjust the shifts before Monday."
+    },
+    {
+      "id": "ss261-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The road may reopen tonight. If it reopens, drivers can use this route tomorrow. If it does not reopen, they must use the bridge.",
+      "promptZh": "道路可能今晚重開。如果重開，司機明天便可以使用這條路線；如果不重開，他們便必須使用大橋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road may reopen tonight. If so, drivers can use this route tomorrow; if not, they must use the bridge.",
+      "answerZh": "道路可能今晚重開。如果重開，司機明天便可以使用這條路線；如果不重開，他們便必須使用大橋。",
+      "answerZhSource": "pdf",
+      "highlight": "The road may reopen tonight. If so, drivers can use this route tomorrow; if not, they must use the bridge."
+    },
+    {
+      "id": "ss261-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Before the meeting, establish whether the budget has been approved. If it has been approved, discuss the starting date. If it has not been approved, discuss possible cuts.",
+      "promptZh": "會議前，確定預算是否已經獲批。如果已獲批，便討論開始日期；如果尚未獲批，便討論可能的削減方案。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the meeting, establish whether the budget has been approved. If so, discuss the starting date; if not, discuss possible cuts.",
+      "answerZh": "會議前，確定預算是否已經獲批。如果已獲批，便討論開始日期；如果尚未獲批，便討論可能的削減方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the meeting, establish whether the budget has been approved. If so, discuss the starting date; if not, discuss possible cuts."
+    },
+    {
+      "id": "ss261-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The error may affect only one account. If this is true, correct that account. If this is not true, pause the update and investigate all the accounts.",
+      "promptZh": "錯誤可能只影響一個戶口。如果確實如此，便修正該戶口；如果並非如此，便暫停更新並調查所有戶口。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The error may affect only one account. If so, correct that account; if not, pause the update and investigate all the accounts.",
+      "answerZh": "錯誤可能只影響一個戶口。如果確實如此，便修正該戶口；如果並非如此，便暫停更新並調查所有戶口。",
+      "answerZhSource": "pdf",
+      "highlight": "The error may affect only one account. If so, correct that account; if not, pause the update and investigate all the accounts."
+    },
+    {
+      "id": "ss261-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The committee may have reached a decision. If it has reached a decision, what did it decide? If it has not reached a decision, when will it meet again?",
+      "promptZh": "委員會可能已經作出決定。如果已經作出決定，它決定了甚麼？如果尚未作出決定，它何時會再次開會？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee may have reached a decision. If so, what did it decide; if not, when will it meet again?",
+      "answerZh": "委員會可能已經作出決定。如果已經作出決定，它決定了甚麼；如果尚未作出決定，它何時會再次開會？",
+      "answerZhSource": "pdf",
+      "highlight": "The committee may have reached a decision. If so, what did it decide; if not, when will it meet again?"
+    },
+    {
+      "id": "ss261-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "We need to check whether the apparent fall in sales is seasonal. If it is seasonal, compare the figures with the same period last year. If it is not seasonal, investigate other possible causes.",
+      "promptZh": "我們需要檢查表面上的銷售下跌是否屬於季節性現象。如果是，便把數字與去年同期比較；如果不是，便調查其他可能原因。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to check whether the apparent fall in sales is seasonal. If so, compare the figures with the same period last year; if not, investigate other possible causes.",
+      "answerZh": "我們需要檢查表面上的銷售下跌是否屬於季節性現象。如果是，便把數字與去年同期比較；如果不是，便調查其他可能原因。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to check whether the apparent fall in sales is seasonal. If so, compare the figures with the same period last year; if not, investigate other possible causes."
+    },
+    {
+      "id": "ss261-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The update may have solved the problem. If it solved the problem, close the case. If it did not solve the problem, collect the latest system records.",
+      "promptZh": "這次更新可能已經解決問題。如果已解決，便結束個案；如果尚未解決，便收集最新的系統紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The update may have solved the problem. If so, close the case; if not, collect the latest system records.",
+      "answerZh": "這次更新可能已經解決問題。如果已解決，便結束個案；如果尚未解決，便收集最新的系統紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The update may have solved the problem. If so, close the case; if not, collect the latest system records."
+    },
+    {
+      "id": "ss261-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Ask whether the data were collected under the same conditions. If the data were not collected under the same conditions, avoid comparing them directly.",
+      "promptZh": "詢問資料是否在相同條件下收集。如果並非在相同條件下收集，便避免直接比較。",
+      "promptZhSource": "pdf",
+      "starter": "Ask",
+      "answer": "Ask whether the data were collected under the same conditions and, if not, avoid comparing them directly.",
+      "answerZh": "詢問資料是否在相同條件下收集；如果並非在相同條件下收集，便避免直接比較。",
+      "answerZhSource": "pdf",
+      "highlight": "Ask whether the data were collected under the same conditions and, if not, avoid comparing them directly."
+    },
+    {
+      "id": "ss261-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The building may meet all the accessibility requirements. If it meets them, approve its opening. If it does not meet them, list the changes that are still required.",
+      "promptZh": "大樓可能符合所有無障礙設施要求。如果符合，便批准開放；如果不符合，便列出仍然需要進行的改動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building may meet all the accessibility requirements. If so, approve its opening; if not, list the changes that are still required.",
+      "answerZh": "大樓可能符合所有無障礙設施要求。如果符合，便批准開放；如果不符合，便列出仍然需要進行的改動。",
+      "answerZhSource": "pdf",
+      "highlight": "The building may meet all the accessibility requirements. If so, approve its opening; if not, list the changes that are still required."
+    },
+    {
+      "id": "ss261-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "After reviewing the interview notes, determine whether the evidence supports the claim. If the evidence supports it, include the claim in the report. If it does not support it, remove the claim.",
+      "promptZh": "審閱訪問筆記後，判斷證據是否支持該項說法。如果支持，便把說法納入報告；如果不支持，便刪除該項說法。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reviewing the interview notes, determine whether the evidence supports the claim. If so, include the claim in the report; if not, remove it.",
+      "answerZh": "審閱訪問筆記後，判斷證據是否支持該項說法。如果支持，便把說法納入報告；如果不支持，便刪除該項說法。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing the interview notes, determine whether the evidence supports the claim. If so, include the claim in the report; if not, remove it."
+    },
+    {
+      "id": "ss261-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The proposed change may save time but increase costs. If this is the case, management must decide which consideration is more important.",
+      "promptZh": "建議的改動可能節省時間，但同時增加成本。如果確實如此，管理層便必須決定哪項考慮因素較為重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposed change may save time but increase costs. If so, management must decide which consideration is more important.",
+      "answerZh": "建議的改動可能節省時間，但同時增加成本。如果確實如此，管理層便必須決定哪項考慮因素較為重要。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposed change may save time but increase costs. If so, management must decide which consideration is more important."
+    },
+    {
+      "id": "ss261-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Once the final results arrive, determine whether the treatment improved recovery times. If it improved them, recommend a wider trial. If it did not improve them, review the research method.",
+      "promptZh": "最終結果到達後，判斷治療是否縮短了康復時間。如果有改善，便建議進行更大規模的試驗；如果沒有改善，便重新檢視研究方法。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the final results arrive, determine whether the treatment improved recovery times. If so, recommend a wider trial; if not, review the research method.",
+      "answerZh": "最終結果到達後，判斷治療是否縮短了康復時間。如果有改善，便建議進行更大規模的試驗；如果沒有改善，便重新檢視研究方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the final results arrive, determine whether the treatment improved recovery times. If so, recommend a wider trial; if not, review the research method."
+    }
+  ]
+}

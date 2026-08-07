@@ -53,7 +53,9 @@ jobs:
         run: node tools/test-schedule-homework-links.mjs
 
       - name: Validate Sentence Structure lessons and data contracts
-        run: node tools/test-sentence-structure-system.mjs
+        run: |
+          node tools/test-sentence-structure-system.mjs
+          node tools/test-mobile-exercise-actions.mjs
 
       - name: Validate unified student progress data and portal contracts
         run: |

@@ -1,7 +1,7 @@
 {
   "schemaName": "edmund_executable_grammar_authoring",
   "schemaVersion": "2.0.0",
-  "corpusVersion": "2026-08-02.19-22.1",
+  "corpusVersion": "2026-08-03.19-23.1",
   "status": "approved_for_bounded_surface_runtime",
   "generatedAt": "2026-08-02T00:00:00.000Z",
   "set": {

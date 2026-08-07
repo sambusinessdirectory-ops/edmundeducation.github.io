@@ -1,0 +1,1226 @@
+{
+  "id": "ss221",
+  "order": 221,
+  "slug": "only-after-did-inversion",
+  "title": "「Only after ... did ...」倒裝句",
+  "titleZh": "「Only after ... did ...」倒裝句",
+  "titleEn": "Using “Only after ... did ...” inversion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 220 -「Only after … did …」倒裝句.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 220; it is assigned system ID ss221 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Only after + event/action + did + subject + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss221-formula-01",
+      "labelEn": "Complete clause",
+      "labelZh": "完整子句",
+      "formula": "Only after + subject + verb + did + subject + base verb"
+    },
+    {
+      "id": "ss221-formula-02",
+      "labelEn": "Gerund phrase",
+      "labelZh": "動名詞短語",
+      "formula": "Only after + V-ing + did + subject + base verb"
+    },
+    {
+      "id": "ss221-formula-03",
+      "labelEn": "Noun phrase",
+      "labelZh": "名詞短語",
+      "formula": "Only after + noun phrase + did + subject + base verb"
+    }
+  ],
+  "example": "Only after the report was published did the public understand the scale of the problem.",
+  "exampleZh": "只有在報告發表之後，大眾才明白問題的規模。",
+  "examples": [
+    {
+      "id": "ss221-example-01",
+      "en": "Only after the report was published did the public understand the scale of the problem.",
+      "zh": "只有在報告發表之後，大眾才明白問題的規模。",
+      "highlight": "Only after the report was published did the public understand the scale of the problem."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示某件事情必須先發生，另一件事情才發生、才變得可能，或某人才獲得某種理解。"
+  },
+  "rules": [
+    {
+      "id": "ss221-rule-01",
+      "zh": "倒裝只出現在主句 Only after 後面的部分使用正常語序。 Correct: Only after the report was published did the public understand the problem. （只有在報告發表之後，大眾才明白這個問題。） Incorrect: Only after was the report published did the public understand the problem. ✗ after 後面的子句應該是： the report was published 而不是： was the report published",
+      "en": "Use inversion only in the main clause. The clause after Only after keeps normal word order: “the report was published”, not “was the report published”.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-rule-02",
+      "zh": "主句使用 did + 主語 + 原形動詞 普通語序： The public understood the problem. 倒裝語序： did the public understand the problem 加入 did 後，主要動詞必須使用原形。 Correct: Only after the report was published did the public understand the problem. Incorrect: Only after the report was published did the public understood the problem. ✗",
+      "en": "Form the main clause with did + subject + base verb. After did, use understand rather than understood.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-rule-03",
+      "zh": "放在主語之前 Correct: Only after the rain stopped did the children go outside. Incorrect: Only after the rain stopped the children did go outside. ✗ 倒裝部分必須是： did + the children + go",
+      "en": "Place did before the subject: “did the children go”, not “the children did go” in this target inversion.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-rule-04",
+      "zh": "這套練習集中使用過去式 本課所有答案均使用： Only after … did … 因此，主要動作發生在過去。 如談論現在或將來，可能需要使用 do、does、can、will 等其他助動詞，但這些形式不屬於本課的 主要目標。",
+      "en": "This exercise focuses on past-time inversion with Only after ... did .... Other auxiliaries may be required for present or future meanings, but they are outside this lesson.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-rule-05",
+      "zh": "表示「之前沒有，之後才有」 Only after A did B 的意思不只是： A happened before B. 而是： B did not happen before A. 例如： Only after the teacher gave an example did Olivia understand the question. （只有在老師舉例之後，奧莉花才明白這條問題。） 這句暗示奧莉花在老師舉例之前並不明白。",
+      "en": "Only after A did B means that B did not happen before A. It expresses more than ordinary chronological order.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-rule-06",
+      "zh": "不要把普通的先後次序強行改成這個句型 以下句子只說明兩件事情先後發生： Leo ate dinner and then watched television. （里奧吃過晚餐，然後看電視。） 它不一定表示里奧在吃晚餐之前不能或不會看電視，因此未必適合改成 Only after。 題目必須清楚表達「直到……之後才……」的意思。",
+      "en": "Do not force this structure onto an ordinary sequence. Use it only when the prompt clearly means that the later event did not happen until after the earlier event.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss221-benefit-01",
+      "zh": "清楚強調事情發生的先後條件 這個句型不只是告訴讀者哪件事情先發生，還清楚表示第一件事情是第二件事情發生前的重要 條件。 Only after the final check did the doctor allow the patient to leave. （只有在完成最後檢查後，醫生才容許病人離開。） 讀者可以立即知道，病人在完成檢查之前不能離開。",
+      "en": "It clearly emphasises the earlier event as a condition for what happened later.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-benefit-02",
+      "zh": "把最重要的轉捩點放在句首 使用 Only after 開始句子，可以先把讀者的注意力放在重要的原因、條件或轉捩點上。 普通語序： The company admitted its mistake only after the evidence was published. 倒裝語序： Only after the evidence was published did the company admit its mistake. 第二句更強調「證據公開」是令公司承認錯誤的關鍵。",
+      "en": "It puts the most important turning point first and directs attention to the event that caused the change.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-benefit-03",
+      "zh": "讓事件之間的關係更清楚 與其只寫兩個分開的句子，這個句型能把較早和較遲發生的事情連接起來。 The alarm was repaired. The building became quiet. 這兩句只表示兩件事情發生了。 Only after the alarm was repaired did the building become quiet. （只有在警鐘修好後，大樓才回復安靜。） 新句子清楚表達兩件事情之間的關係。",
+      "en": "It clarifies the relationship between two events instead of merely listing them as separate facts.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-benefit-04",
+      "zh": "提供另一種句子開頭 學生經常使用： Then… After that… Finally… The company… The students… 使用 Only after 可以改變句子的開頭，令文章不會連續出現相同的主語加動詞結構。",
+      "en": "It provides another sentence opening and reduces repetition of Then, After that, Finally or subject-first clauses.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-benefit-05",
+      "zh": "適合強調遲來的理解、發現或行動 這個句型特別適合描述某人經過一件事情後，才： understood something 明白某事 realised something 意識到某事 discovered something 發現某事 recognised a problem 察覺問題 took action 採取行動 changed a decision 改變決定",
+      "en": "It is especially useful for delayed understanding, discoveries, recognition, decisions and action.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss221-benefit-06",
+      "zh": "令正式寫作更有層次 這個句型常見於故事、新聞報道、報告、論說文及較正式的解釋。 它能幫助學生準確表達事件的發展，而不只是把事情逐件列出。 不過，這是一種帶有強調作用的句式，不需要在每一個表示先後次序的句子中使用。",
+      "en": "It gives stories, reports, essays and formal explanations a more structured and emphatic style.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 220; it is assigned system ID ss221 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Begin with Only after and use an inverted main clause with did.",
+      "Preserve the meaning, subject, tense, object, negation and other details; use the base verb after did."
+    ],
+    "zh": [
+      "把 Only after 放在句首，並在主句使用 did 倒裝改寫每題。",
+      "保留原句意思、主語、時態、受詞、否定意思及其他重要資料；did 後使用原形動詞。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss221-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The public did not understand the scale of the problem until after the report was published.",
+      "promptZh": "大眾直到報告發表之後，才明白問題的規模。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the report was published did the public understand the scale of the problem.",
+      "answerZh": "只有在報告發表之後，大眾才明白問題的規模。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the report was published did the public understand the scale of the problem."
+    },
+    {
+      "id": "ss221-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Mia did not relax until after she had finished her homework.",
+      "promptZh": "米婭直到完成家課後才放鬆下來。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after Mia had finished her homework did she relax.",
+      "answerZh": "只有在完成家課後，米婭才放鬆下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after Mia had finished her homework did she relax."
+    },
+    {
+      "id": "ss221-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The lights did not come back on until after the electrician repaired the damaged wire.",
+      "promptZh": "電工修好損壞的電線後，燈才重新亮起。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the electrician repaired the damaged wire did the lights come back on.",
+      "answerZh": "只有在電工修好損壞的電線後，燈才重新亮起。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the electrician repaired the damaged wire did the lights come back on."
+    },
+    {
+      "id": "ss221-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We realised that the door was unlocked only after we returned home.",
+      "promptZh": "我們回到家後，才發現門沒有上鎖。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after we returned home did we realise that the door was unlocked.",
+      "answerZh": "只有在回到家後，我們才發現門沒有上鎖。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after we returned home did we realise that the door was unlocked."
+    },
+    {
+      "id": "ss221-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "Leo apologised only after the teacher explained why his comment was hurtful.",
+      "promptZh": "老師解釋了里奧的說話為甚麼傷人後，他才道歉。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the teacher explained why his comment was hurtful did Leo apologise.",
+      "answerZh": "只有在老師解釋了他的說話為甚麼傷人後，里奧才道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the teacher explained why his comment was hurtful did Leo apologise."
+    },
+    {
+      "id": "ss221-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The bus did not start moving until every passenger had boarded.",
+      "promptZh": "所有乘客上車後，巴士才開動。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after every passenger had boarded did the bus start moving.",
+      "answerZh": "只有在所有乘客上車後，巴士才開動。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after every passenger had boarded did the bus start moving."
+    },
+    {
+      "id": "ss221-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It was not until the rain stopped that the children went outside.",
+      "promptZh": "直到雨停後，孩子們才走到外面。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the rain stopped did the children go outside.",
+      "answerZh": "只有在雨停後，孩子們才走到外面。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the rain stopped did the children go outside."
+    },
+    {
+      "id": "ss221-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "First, the manager approved the budget. The team did not begin work before that.",
+      "promptZh": "經理先批准預算。在此之前，團隊並沒有開始工作。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the manager approved the budget did the team begin work.",
+      "answerZh": "只有在經理批准預算後，團隊才開始工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the manager approved the budget did the team begin work."
+    },
+    {
+      "id": "ss221-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The doctor allowed the patient to leave only after completing a final check.",
+      "promptZh": "醫生完成最後檢查後，才容許病人離開。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after completing a final check did the doctor allow the patient to leave.",
+      "answerZh": "只有在完成最後檢查後，醫生才容許病人離開。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after completing a final check did the doctor allow the patient to leave."
+    },
+    {
+      "id": "ss221-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When did Emma turn on her phone? She did not turn it on until the meeting ended.",
+      "promptZh": "艾瑪何時才開啟電話？她直到會議結束後才開啟電話。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the meeting ended did Emma turn on her phone.",
+      "answerZh": "只有在會議結束後，艾瑪才開啟電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the meeting ended did Emma turn on her phone."
+    },
+    {
+      "id": "ss221-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It was only after reading the instructions that Noah understood how the machine worked.",
+      "promptZh": "諾亞閱讀指示後，才明白這部機器如何運作。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after reading the instructions did Noah understand how the machine worked.",
+      "answerZh": "只有在閱讀指示後，諾亞才明白這部機器如何運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after reading the instructions did Noah understand how the machine worked."
+    },
+    {
+      "id": "ss221-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "Sam did not notice the spelling mistake until after he had printed the poster.",
+      "promptZh": "森姆印好海報後，才留意到串字錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after Sam had printed the poster did he notice the spelling mistake.",
+      "answerZh": "只有在印好海報後，森姆才留意到串字錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after Sam had printed the poster did he notice the spelling mistake."
+    },
+    {
+      "id": "ss221-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The audience did not begin asking questions until after the speaker had finished.",
+      "promptZh": "講者完成發言後，觀眾才開始提問。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the speaker had finished did the audience begin asking questions.",
+      "answerZh": "只有在講者完成發言後，觀眾才開始提問。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the speaker had finished did the audience begin asking questions."
+    },
+    {
+      "id": "ss221-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The shop did not reopen until after the inspectors completed the safety check.",
+      "promptZh": "檢查人員完成安全檢查後，商店才重新營業。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the inspectors completed the safety check did the shop reopen.",
+      "answerZh": "只有在檢查人員完成安全檢查後，商店才重新營業。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the inspectors completed the safety check did the shop reopen."
+    },
+    {
+      "id": "ss221-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Olivia answered the question only after the teacher gave an example.",
+      "promptZh": "老師舉例後，奧莉花才回答這條問題。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the teacher gave an example did Olivia answer the question.",
+      "answerZh": "只有在老師舉例後，奧莉花才回答這條問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the teacher gave an example did Olivia answer the question."
+    },
+    {
+      "id": "ss221-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The problem did not become clear until after we compared the two maps.",
+      "promptZh": "我們比較兩幅地圖後，問題才變得清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after we compared the two maps did the problem become clear.",
+      "answerZh": "只有在我們比較兩幅地圖後，問題才變得清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after we compared the two maps did the problem become clear."
+    },
+    {
+      "id": "ss221-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "They discovered the leak only after water reached the hallway.",
+      "promptZh": "水流到走廊後，他們才發現漏水問題。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after water reached the hallway did they discover the leak.",
+      "answerZh": "只有在水流到走廊後，他們才發現漏水問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after water reached the hallway did they discover the leak."
+    },
+    {
+      "id": "ss221-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The group did not laugh until after the joke had been explained.",
+      "promptZh": "笑話獲得解釋後，那群人才笑起來。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the joke had been explained did the group laugh.",
+      "answerZh": "只有在笑話獲得解釋後，那群人才笑起來。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the joke had been explained did the group laugh."
+    },
+    {
+      "id": "ss221-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "The machine did not begin working until the operator reset the controls.",
+      "promptZh": "操作員重設控制裝置後，機器才開始運作。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the operator reset the controls did the machine begin working.",
+      "answerZh": "只有在操作員重設控制裝置後，機器才開始運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the operator reset the controls did the machine begin working."
+    },
+    {
+      "id": "ss221-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When did the reporters learn the truth? They did not learn it until the documents were released.",
+      "promptZh": "記者何時才得知真相？他們直到文件公開後才得知真相。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the documents were released did the reporters learn the truth.",
+      "answerZh": "只有在文件公開後，記者才得知真相。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the documents were released did the reporters learn the truth."
+    },
+    {
+      "id": "ss221-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The council did not repair the footpath until after it had received several complaints.",
+      "promptZh": "市議會收到數宗投訴後，才維修行人路。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after receiving several complaints did the council repair the footpath.",
+      "answerZh": "只有在收到數宗投訴後，市議會才維修行人路。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after receiving several complaints did the council repair the footpath."
+    },
+    {
+      "id": "ss221-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The patient understood the instructions only after the nurse demonstrated each step.",
+      "promptZh": "護士示範每個步驟後，病人才明白相關指示。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the nurse demonstrated each step did the patient understand the instructions.",
+      "answerZh": "只有在護士示範每個步驟後，病人才明白相關指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the nurse demonstrated each step did the patient understand the instructions."
+    },
+    {
+      "id": "ss221-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The doctor changed the treatment only after the test results arrived.",
+      "promptZh": "檢測結果出來後，醫生才改變治療方法。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the test results arrived did the doctor change the treatment.",
+      "answerZh": "只有在檢測結果出來後，醫生才改變治療方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the test results arrived did the doctor change the treatment."
+    },
+    {
+      "id": "ss221-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company did not admit its error until the evidence was made public.",
+      "promptZh": "證據公開後，公司才承認錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the evidence was made public did the company admit its error.",
+      "answerZh": "只有在證據公開後，公司才承認錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the evidence was made public did the company admit its error."
+    },
+    {
+      "id": "ss221-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "At first, the residents opposed the proposal. They supported it only after the council reduced the height of the building.",
+      "promptZh": "居民最初反對這項建議。市議會降低大樓高度後，他們才表示支持。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the council reduced the height of the building did the residents support the proposal.",
+      "answerZh": "只有在市議會降低大樓高度後，居民才支持這項建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the council reduced the height of the building did the residents support the proposal."
+    },
+    {
+      "id": "ss221-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 22
+      },
+      "prompt": "The students did not appreciate the value of research until after they began their own projects.",
+      "promptZh": "學生開始進行自己的項目後，才明白研究的價值。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the students began their own projects did they appreciate the value of research.",
+      "answerZh": "只有在開始進行自己的項目後，學生才明白研究的價值。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the students began their own projects did they appreciate the value of research."
+    },
+    {
+      "id": "ss221-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The team did not regain its confidence until the coach showed the players what they had improved.",
+      "promptZh": "教練向球員指出他們有所改善的地方後，球隊才重拾信心。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the coach showed the players what they had improved did the team regain its confidence.",
+      "answerZh": "只有在教練向球員指出他們有所改善的地方後，球隊才重拾信心。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the coach showed the players what they had improved did the team regain its confidence."
+    },
+    {
+      "id": "ss221-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "It was not until the security footage had been reviewed that the police identified the suspect.",
+      "promptZh": "保安錄影片段經過檢視後，警方才認出疑犯。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the security footage had been reviewed did the police identify the suspect.",
+      "answerZh": "只有在保安錄影片段經過檢視後，警方才認出疑犯。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the security footage had been reviewed did the police identify the suspect."
+    },
+    {
+      "id": "ss221-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The museum returned the painting only after experts confirmed that it had been stolen.",
+      "promptZh": "專家確認畫作曾經被盜後，博物館才歸還畫作。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after experts confirmed that the painting had been stolen did the museum return it.",
+      "answerZh": "只有在專家確認畫作曾經被盜後，博物館才歸還畫作。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after experts confirmed that the painting had been stolen did the museum return it."
+    },
+    {
+      "id": "ss221-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Why did the board postpone the launch? It made this decision only after the engineers raised new safety concerns.",
+      "promptZh": "董事會為甚麼押後推出計劃？工程師提出新的安全疑慮後，董事會才作出這項決定。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the engineers raised new safety concerns did the board postpone the launch.",
+      "answerZh": "只有在工程師提出新的安全疑慮後，董事會才押後推出計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the engineers raised new safety concerns did the board postpone the launch."
+    },
+    {
+      "id": "ss221-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The witness remembered the missing detail only after the lawyer showed her a photograph.",
+      "promptZh": "律師向證人展示照片後，她才記起遺漏的細節。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the lawyer showed her a photograph did the witness remember the missing detail.",
+      "answerZh": "只有在律師向證人展示照片後，她才記起遺漏的細節。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the lawyer showed her a photograph did the witness remember the missing detail."
+    },
+    {
+      "id": "ss221-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The alarm was not silenced until the technician disconnected the faulty sensor.",
+      "promptZh": "技術人員截斷故障感應器的連接後，警報才停止。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the technician disconnected the faulty sensor did the alarm stop.",
+      "answerZh": "只有在技術人員截斷故障感應器的連接後，警報才停止。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the technician disconnected the faulty sensor did the alarm stop."
+    },
+    {
+      "id": "ss221-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "We did not understand why the figures differed until after checking the original records.",
+      "promptZh": "我們查看原始紀錄後，才明白數字為甚麼不一致。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after checking the original records did we understand why the figures differed.",
+      "answerZh": "只有在查看原始紀錄後，我們才明白數字為甚麼不一致。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after checking the original records did we understand why the figures differed."
+    },
+    {
+      "id": "ss221-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The village did not receive clean water until the new supply pipe had been completed.",
+      "promptZh": "新的供水管道建成後，村莊才獲得清潔食水。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the new supply pipe had been completed did the village receive clean water.",
+      "answerZh": "只有在新的供水管道建成後，村莊才獲得清潔食水。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the new supply pipe had been completed did the village receive clean water."
+    },
+    {
+      "id": "ss221-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The manager agreed to hire additional staff only after she saw the workload data.",
+      "promptZh": "經理查看工作量數據後，才同意增聘員工。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the manager saw the workload data did she agree to hire additional staff.",
+      "answerZh": "只有在經理查看工作量數據後，她才同意增聘員工。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the manager saw the workload data did she agree to hire additional staff."
+    },
+    {
+      "id": "ss221-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Traffic did not start moving again until after the damaged vehicle had been removed.",
+      "promptZh": "損壞的車輛被移走後，交通才再次開始流動。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the damaged vehicle had been removed did traffic start moving again.",
+      "answerZh": "只有在損壞的車輛被移走後，交通才再次開始流動。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the damaged vehicle had been removed did traffic start moving again."
+    },
+    {
+      "id": "ss221-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The public did not begin to trust the programme until its results were independently verified.",
+      "promptZh": "計劃的結果獲得獨立核實後，公眾才開始信任這項計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the programme’s results were independently verified did the public begin to trust it.",
+      "answerZh": "只有在計劃的結果獲得獨立核實後，公眾才開始信任這項計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the programme’s results were independently verified did the public begin to trust it."
+    },
+    {
+      "id": "ss221-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The child stopped crying only after his father found his lost toy.",
+      "promptZh": "父親找回孩子遺失的玩具後，他才停止哭泣。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after his father found his lost toy did the child stop crying.",
+      "answerZh": "只有在父親找回孩子遺失的玩具後，他才停止哭泣。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after his father found his lost toy did the child stop crying."
+    },
+    {
+      "id": "ss221-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The organisation changed its policy only after several legal problems had arisen.",
+      "promptZh": "出現數項法律問題後，該機構才改變政策。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after several legal problems had arisen did the organisation change its policy.",
+      "answerZh": "只有在出現數項法律問題後，該機構才改變政策。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after several legal problems had arisen did the organisation change its policy."
+    },
+    {
+      "id": "ss221-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The team did not identify the cause of the fault until every stage had been tested separately.",
+      "promptZh": "每個階段經過個別測試後，團隊才找出故障原因。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after every stage had been tested separately did the team identify the cause of the fault.",
+      "answerZh": "只有在每個階段經過個別測試後，團隊才找出故障原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after every stage had been tested separately did the team identify the cause of the fault."
+    },
+    {
+      "id": "ss221-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The committee recognised the seriousness of the situation only after comparing this year’s figures with those from the previous five years.",
+      "promptZh": "委員會把今年的數字與過去五年的數字比較後，才意識到情況的嚴重性。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after comparing this year’s figures with those from the previous five years did the committee recognise the seriousness of the situation.",
+      "answerZh": "只有在把今年的數字與過去五年的數字比較後，委員會才意識到情況的嚴重性。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after comparing this year’s figures with those from the previous five years did the committee recognise the seriousness of the situation."
+    },
+    {
+      "id": "ss221-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The hospital introduced a new checking system only after an internal review revealed repeated recording errors.",
+      "promptZh": "內部檢討發現多次紀錄錯誤後，醫院才引入新的核對系統。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after an internal review revealed repeated recording errors did the hospital introduce a new checking system.",
+      "answerZh": "只有在內部檢討發現多次紀錄錯誤後，醫院才引入新的核對系統。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after an internal review revealed repeated recording errors did the hospital introduce a new checking system."
+    },
+    {
+      "id": "ss221-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The authorities evacuated the area only after air-quality monitors detected dangerous gas levels.",
+      "promptZh": "空氣質素監測器偵測到危險的氣體水平後，當局才疏散該區。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after air-quality monitors detected dangerous gas levels did the authorities evacuate the area.",
+      "answerZh": "只有在空氣質素監測器偵測到危險的氣體水平後，當局才疏散該區。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after air-quality monitors detected dangerous gas levels did the authorities evacuate the area."
+    },
+    {
+      "id": "ss221-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The researchers did not reject their initial explanation until repeated experiments produced the same unexpected result.",
+      "promptZh": "重複實驗得出同一個出乎意料的結果後，研究人員才否定最初的解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after repeated experiments produced the same unexpected result did the researchers reject their initial explanation.",
+      "answerZh": "只有在重複實驗得出同一個出乎意料的結果後，研究人員才否定最初的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after repeated experiments produced the same unexpected result did the researchers reject their initial explanation."
+    },
+    {
+      "id": "ss221-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The residents accepted the redevelopment proposal only after officials guaranteed that the public garden would remain open.",
+      "promptZh": "官員保證公眾花園會繼續開放後，居民才接受重建建議。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after officials guaranteed that the public garden would remain open did the residents accept the redevelopment proposal.",
+      "answerZh": "只有在官員保證公眾花園會繼續開放後，居民才接受重建建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after officials guaranteed that the public garden would remain open did the residents accept the redevelopment proposal."
+    },
+    {
+      "id": "ss221-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The company did not restore access to the system until engineers had confirmed that no customer data was at risk.",
+      "promptZh": "工程師確認沒有顧客資料面臨風險後，公司才恢復系統的使用權限。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after engineers had confirmed that no customer data was at risk did the company restore access to the system.",
+      "answerZh": "只有在工程師確認沒有顧客資料面臨風險後，公司才恢復系統的使用權限。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after engineers had confirmed that no customer data was at risk did the company restore access to the system."
+    },
+    {
+      "id": "ss221-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The court understood the significance of the messages only after they had been arranged in chronological order.",
+      "promptZh": "訊息按時間先後排列後，法庭才明白這些訊息的重要性。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the messages had been arranged in chronological order did the court understand their significance.",
+      "answerZh": "只有在訊息按時間先後排列後，法庭才明白這些訊息的重要性。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the messages had been arranged in chronological order did the court understand their significance."
+    },
+    {
+      "id": "ss221-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The school did not revise the policy until teachers, parents and students had all described how it affected them.",
+      "promptZh": "教師、家長和學生全部說明政策如何影響他們後，學校才修訂政策。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after teachers, parents and students had all described how the policy affected them did the school revise it.",
+      "answerZh": "只有在教師、家長和學生全部說明政策如何影響他們後，學校才修訂政策。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after teachers, parents and students had all described how the policy affected them did the school revise it."
+    },
+    {
+      "id": "ss221-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The government announced an independent inquiry only after newly released records contradicted its earlier official statements.",
+      "promptZh": "新公開的紀錄與政府較早前的官方聲明互相矛盾後，政府才宣布進行獨立調查。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after newly released records contradicted its earlier official statements did the government announce an independent inquiry.",
+      "answerZh": "只有在新公開的紀錄與政府較早前的官方聲明互相矛盾後，政府才宣布進行獨立調查。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after newly released records contradicted its earlier official statements did the government announce an independent inquiry."
+    },
+    {
+      "id": "ss221-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The leaders realised that trust could not be rebuilt through promises alone only after repeated apologies failed to improve the public response.",
+      "promptZh": "多次道歉仍未能改善公眾反應後，領導者才意識到單憑承諾無法重建信任。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after repeated apologies failed to improve the public response did the leaders realise that trust could not be rebuilt through promises alone.",
+      "answerZh": "只有在多次道歉仍未能改善公眾反應後，領導者才意識到單憑承諾無法重建信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after repeated apologies failed to improve the public response did the leaders realise that trust could not be rebuilt through promises alone."
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "id": "ss257",
+  "order": 257,
+  "slug": "same-is-true-of-same-applies-to",
+  "title": "「The same is true of ／ The same applies to X」表達「……也是如此」",
+  "titleZh": "「The same is true of ／ The same applies to X」表達「……也是如此」",
+  "titleEn": "Using “The same is true of / The same applies to X”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 256 -「The same is true of _ The same applies to X」表達「……也是如此」.pdf",
+    "pageCount": 31,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "exercisePages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "answerPages": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "Previous statement. + The same + be + true of + X.",
+  "formulas": [
+    {
+      "id": "ss257-formula-01",
+      "labelEn": "Shared fact or situation",
+      "labelZh": "相同事實或情況",
+      "formula": "Previous statement. + The same + be + true of + X."
+    },
+    {
+      "id": "ss257-formula-02",
+      "labelEn": "Shared rule or principle",
+      "labelZh": "相同規則或原則",
+      "formula": "Previous rule or principle. + The same + apply to + X."
+    },
+    {
+      "id": "ss257-formula-03",
+      "labelEn": "Named rule or principle",
+      "labelZh": "明確指出規則或原則",
+      "formula": "The same + noun + applies / apply to X."
+    },
+    {
+      "id": "ss257-formula-04",
+      "labelEn": "Past fact",
+      "labelZh": "過去的相同情況",
+      "formula": "The same was true of X."
+    },
+    {
+      "id": "ss257-formula-05",
+      "labelEn": "Past rule",
+      "labelZh": "過去適用的規則",
+      "formula": "The same applied to X."
+    },
+    {
+      "id": "ss257-formula-06",
+      "labelEn": "Future fact",
+      "labelZh": "將來的相同情況",
+      "formula": "The same will be true of X."
+    },
+    {
+      "id": "ss257-formula-07",
+      "labelEn": "Future rule",
+      "labelZh": "將來適用的規則",
+      "formula": "The same will apply to X."
+    },
+    {
+      "id": "ss257-formula-08",
+      "labelEn": "Negative fact",
+      "labelZh": "否定相同情況",
+      "formula": "The same is not true of X."
+    },
+    {
+      "id": "ss257-formula-09",
+      "labelEn": "Negative rule",
+      "labelZh": "否定適用規則",
+      "formula": "The same does not apply to X."
+    },
+    {
+      "id": "ss257-formula-10",
+      "labelEn": "Question forms",
+      "labelZh": "疑問形式",
+      "formula": "Is the same true of X? / Does the same apply to X?"
+    }
+  ],
+  "example": "Online learning requires self-discipline. The same is true of working from home.",
+  "exampleZh": "網上學習需要自律。在家工作也是如此。",
+  "examples": [
+    {
+      "id": "ss257-example-01",
+      "en": "Online learning requires self-discipline. The same is true of working from home.",
+      "zh": "網上學習需要自律。在家工作也是如此。",
+      "highlight": "The same is true of working from home."
+    },
+    {
+      "id": "ss257-example-02",
+      "en": "Exercise benefits the body. The same is true of the mind.",
+      "zh": "運動對身體有益，對心靈也是如此。",
+      "highlight": "The same is true of the mind."
+    },
+    {
+      "id": "ss257-example-03",
+      "en": "All employees must protect customer information. The same applies to temporary staff.",
+      "zh": "所有僱員都必須保護顧客資料。臨時職員也須遵守同一規定。",
+      "highlight": "The same applies to temporary staff."
+    },
+    {
+      "id": "ss257-example-04",
+      "en": "The same principle applies to small businesses.",
+      "zh": "同一原則也適用於小型企業.",
+      "highlight": "The same principle applies to small businesses."
+    }
+  ],
+  "meaning": {
+    "zh": "這兩個表達都能避免重複整個陳述。The same is true of X 通常把前述事實、描述、經歷、情況或趨勢延伸至 X；The same applies to X 通常把前述規則、原則、要求、條件或建議延伸至 X。"
+  },
+  "rules": [
+    {
+      "id": "ss257-rule-01",
+      "zh": "the same 必須指向前文已提到或語境中清楚的意思；沒有清楚前文時，讀者可能不知道「相同」的是甚麼。",
+      "en": "The same must refer to information that has already been stated or is clear from the context. Without that context, the reader may not know what is also true or applicable.",
+      "enSource": "pdf",
+      "examples": [
+        "Large companies need accurate records. The same is true of small businesses."
+      ]
+    },
+    {
+      "id": "ss257-rule-02",
+      "zh": "表示「……也是如此」時使用 true of，而不是 true to。true to 表示忠於某人、承諾或原則，意思不同。",
+      "en": "Use true of, not true to, for the target meaning. True to has a different meaning, such as remaining loyal to a person, promise or principle.",
+      "enSource": "pdf",
+      "examples": [
+        "The same is true of younger workers.",
+        "She remained true to her principles."
+      ]
+    },
+    {
+      "id": "ss257-rule-03",
+      "zh": "使用 apply to，而不是 apply of。",
+      "en": "Use apply to, not apply of.",
+      "enSource": "pdf",
+      "examples": [
+        "The same rule applies to online orders.",
+        "Incorrect: The same rule applies of online orders."
+      ]
+    },
+    {
+      "id": "ss257-rule-04",
+      "zh": "在本句型中，apply 表示規則、原則或要求「適用於」某情況；它不是申請工作、塗上油漆或施加壓力的意思。",
+      "en": "In this structure, apply means to be relevant, valid or effective in a particular case. It does not mean apply for a job, apply paint to a wall or apply pressure.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss257-rule-05",
+      "zh": "應按前文意思選擇表達：事實、描述、特點、經歷、情況、趨勢、結果或觀察通常用 The same is true of X；規則、原則、要求、指示、限制、程序、條件、期限或建議通常用 The same applies to X。",
+      "en": "Choose the expression according to the preceding idea. Prefer The same is true of X after a fact, description, quality, experience, situation, tendency, result or observation; prefer The same applies to X after a rule, principle, requirement, instruction, restriction, procedure, condition, deadline or piece of advice.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss257-rule-06",
+      "zh": "改寫時必須保留時態和情態：過去事實使用 was true，過去規則使用 applied；未來使用 will be true 或 will apply；可能或不確定情況須保留適當情態動詞。",
+      "en": "Preserve tense and modality. Past facts require was true; past rules require applied. Future situations require will be true or will apply, and possible or uncertain situations require a suitable modal verb.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss257-rule-07",
+      "zh": "本課目標是較簡潔的 The same is true of X，通常不需要加入 thing。The same thing is true of X 雖然合乎文法，但不是本練習採用的目標形式。",
+      "en": "Use the concise target The same is true of X. The longer form The same thing is true of X is grammatical, but it is not the form used in this exercise.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss257-benefit-01",
+      "zh": "當同一意思也涉及另一個人、群體或情況時，可以避免把整個陳述重複一次。",
+      "en": "It prevents unnecessary repetition: you can avoid repeating an entire statement when it also concerns another person, group or situation.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss257-benefit-02",
+      "zh": "讀者可以立即看出新例子與上文具有相同的事實、規則或原則，清楚理解兩者的關係。",
+      "en": "It shows exactly how a new example connects to the previous one: the reader immediately understands that the second example shares the same fact, rule or principle.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss257-benefit-03",
+      "zh": "你可以把下一個例子直接連接到上文，不必另起一段重新解釋，使說明更流暢和容易理解。",
+      "en": "It helps you move smoothly from one example to another instead of starting a separate explanation.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss257-benefit-04",
+      "zh": "小心選擇兩個句型，可以清楚顯示你是在描述相同情況，還是把同一規則延伸至另一個對象。",
+      "en": "It helps distinguish facts from rules by showing whether you are describing a shared situation or extending a rule.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss257-benefit-05",
+      "zh": "你可以比較不同群體，而不用重複列出相同特點或要求，使比較更簡潔。",
+      "en": "It makes comparisons more concise because you can compare groups without repeating the same quality or requirement.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss257-benefit-06",
+      "zh": "否定和疑問形式可以檢視概括說法是否真的延伸至另一情況，適合討論例外和不確定性，並避免過度概括。",
+      "en": "It helps you discuss exceptions and uncertainty by testing whether a general statement really extends to another case, preventing overgeneralisation.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using an appropriate form of The same is true of X or The same applies to X.",
+      "Preserve the original meaning, tense, modality and logical relationship. The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用 The same is true of X 或 The same applies to X 的適當形式改寫每題。",
+      "保留原句的意思、時態、情態和邏輯關係。每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss257-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Clear instructions help new employees. They help temporary staff too.",
+      "promptZh": "清晰的指示能幫助新僱員，也能幫助臨時職員。",
+      "promptZhSource": "pdf",
+      "starter": "Clear",
+      "answer": "Clear instructions help new employees. The same is true of temporary staff.",
+      "answerZh": "清晰的指示能幫助新僱員。臨時職員也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Clear instructions help new employees. The same is true of temporary staff."
+    },
+    {
+      "id": "ss257-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "All visitors must show identification. Delivery drivers are subject to this requirement too.",
+      "promptZh": "所有訪客都必須出示身分證明。送貨司機也須遵守這項要求。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All visitors must show identification. The same requirement applies to delivery drivers.",
+      "answerZh": "所有訪客都必須出示身分證明。同一要求也適用於送貨司機。",
+      "answerZhSource": "pdf",
+      "highlight": "All visitors must show identification. The same requirement applies to delivery drivers."
+    },
+    {
+      "id": "ss257-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Large companies need accurate records. Small businesses need accurate records too.",
+      "promptZh": "大型公司需要準確的紀錄。小型企業也需要準確的紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "Large",
+      "answer": "Large companies need accurate records. The same is true of small businesses.",
+      "answerZh": "大型公司需要準確的紀錄。小型企業也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Large companies need accurate records. The same is true of small businesses."
+    },
+    {
+      "id": "ss257-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Laboratory staff must wear gloves. Cleaners must follow this rule too.",
+      "promptZh": "實驗室職員必須戴上手套。清潔工人也須遵守這項規則。",
+      "promptZhSource": "pdf",
+      "starter": "Laboratory",
+      "answer": "Laboratory staff must wear gloves. The same applies to cleaners.",
+      "answerZh": "實驗室職員必須戴上手套。同一規定也適用於清潔工人。",
+      "answerZhSource": "pdf",
+      "highlight": "Laboratory staff must wear gloves. The same applies to cleaners."
+    },
+    {
+      "id": "ss257-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Regular exercise can improve adults’ sleep. It can improve teenagers’ sleep too.",
+      "promptZh": "恆常運動可以改善成人的睡眠，也可以改善青少年的睡眠。",
+      "promptZhSource": "pdf",
+      "starter": "Regular",
+      "answer": "Regular exercise can improve adults’ sleep. The same is true of teenagers.",
+      "answerZh": "恆常運動可以改善成人的睡眠。青少年也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular exercise can improve adults’ sleep. The same is true of teenagers."
+    },
+    {
+      "id": "ss257-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Students can receive the discount. Apprentices can receive it too.",
+      "promptZh": "學生可以獲得這項折扣。學徒也可以獲得。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students can receive the discount. The same applies to apprentices.",
+      "answerZh": "學生可以獲得這項折扣。學徒也同樣適用。",
+      "answerZhSource": "pdf",
+      "highlight": "Students can receive the discount. The same applies to apprentices."
+    },
+    {
+      "id": "ss257-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The northern rooms are cold in winter. The southern rooms are cold then too.",
+      "promptZh": "北面的房間冬天很寒冷，南面的房間也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The northern rooms are cold in winter. The same is true of the southern rooms.",
+      "answerZh": "北面的房間冬天很寒冷。南面的房間也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "The northern rooms are cold in winter. The same is true of the southern rooms."
+    },
+    {
+      "id": "ss257-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "You should back up your work files. You should follow this advice with personal files too.",
+      "promptZh": "你應該備份工作檔案。處理私人檔案時也應遵從這項建議。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should back up your work files. The same advice applies to personal files.",
+      "answerZh": "你應該備份工作檔案。同一建議也適用於私人檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "You should back up your work files. The same advice applies to personal files."
+    },
+    {
+      "id": "ss257-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Children need enough sleep. Adults need enough sleep too.",
+      "promptZh": "兒童需要充足睡眠，成人也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "Children",
+      "answer": "Children need enough sleep. The same is true of adults.",
+      "answerZh": "兒童需要充足睡眠。成人也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Children need enough sleep. The same is true of adults."
+    },
+    {
+      "id": "ss257-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Every team must submit the form by Friday. Individual participants have the same deadline.",
+      "promptZh": "每個團隊都必須在星期五前提交表格。個人參加者的截止日期也相同。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every team must submit the form by Friday. The same deadline applies to individual participants.",
+      "answerZh": "每個團隊都必須在星期五前提交表格。同一截止日期也適用於個人參加者。",
+      "answerZhSource": "pdf",
+      "highlight": "Every team must submit the form by Friday. The same deadline applies to individual participants."
+    },
+    {
+      "id": "ss257-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Online lessons require regular practice. Face-to-face lessons require it too.",
+      "promptZh": "網上課堂需要定期練習，面授課堂也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "Online",
+      "answer": "Online lessons require regular practice, and the same is true of face-to-face lessons.",
+      "answerZh": "網上課堂需要定期練習，面授課堂也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Online lessons require regular practice, and the same is true of face-to-face lessons."
+    },
+    {
+      "id": "ss257-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The parking restrictions cover cars. Do they also cover motorcycles?",
+      "promptZh": "泊車限制適用於汽車。它們也適用於電單車嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parking restrictions apply to cars. Do the same restrictions apply to motorcycles?",
+      "answerZh": "泊車限制適用於汽車。同一組限制也適用於電單車嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "The parking restrictions apply to cars. Do the same restrictions apply to motorcycles?"
+    },
+    {
+      "id": "ss257-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "This description accurately represents the first report, but it does not accurately represent the second.",
+      "promptZh": "這項描述準確反映第一份報告，但未能準確反映第二份報告。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This description is true of the first report, but the same is not true of the second.",
+      "answerZh": "這項描述適用於第一份報告，但第二份報告並非如此。",
+      "answerZhSource": "pdf",
+      "highlight": "This description is true of the first report, but the same is not true of the second."
+    },
+    {
+      "id": "ss257-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The rule covers paid employment, but unpaid voluntary work is excluded.",
+      "promptZh": "這項規則適用於受薪工作，但不包括無薪義務工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule applies to paid employment, but the same does not apply to unpaid voluntary work.",
+      "answerZh": "這項規則適用於受薪工作，但不適用於無薪義務工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule applies to paid employment, but the same does not apply to unpaid voluntary work."
+    },
+    {
+      "id": "ss257-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Learning vocabulary takes time. Learning pronunciation takes time too.",
+      "promptZh": "學習詞彙需要時間，學習發音也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "Learning",
+      "answer": "Learning vocabulary takes time. The same is true of learning pronunciation.",
+      "answerZh": "學習詞彙需要時間。學習發音也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Learning vocabulary takes time. The same is true of learning pronunciation."
+    },
+    {
+      "id": "ss257-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Full-time employees receive a travel allowance. Part-time employees may receive one too.",
+      "promptZh": "全職僱員可獲交通津貼，兼職僱員也可能獲得。",
+      "promptZhSource": "pdf",
+      "starter": "Full-time",
+      "answer": "Full-time employees receive a travel allowance. The same may be true of part-time employees.",
+      "answerZh": "全職僱員可獲交通津貼。兼職僱員也可能獲得。",
+      "answerZhSource": "pdf",
+      "highlight": "Full-time employees receive a travel allowance. The same may be true of part-time employees."
+    },
+    {
+      "id": "ss257-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Both beginners and advanced learners should check each answer carefully.",
+      "promptZh": "初學者和高階學習者都應該仔細檢查每個答案。",
+      "promptZhSource": "pdf",
+      "starter": "Beginners",
+      "answer": "Beginners should check each answer carefully. The same advice applies to advanced learners.",
+      "answerZh": "初學者應該仔細檢查每個答案。同一建議也適用於高階學習者。",
+      "answerZhSource": "pdf",
+      "highlight": "Beginners should check each answer carefully. The same advice applies to advanced learners."
+    },
+    {
+      "id": "ss257-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The policy protects permanent residents. Does it protect temporary residents too?",
+      "promptZh": "這項政策保障永久居民。它也保障臨時居民嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy protects permanent residents. Does the same apply to temporary residents?",
+      "answerZh": "這項政策保障永久居民。同一政策也保障臨時居民嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "The policy protects permanent residents. Does the same apply to temporary residents?"
+    },
+    {
+      "id": "ss257-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Rising costs affected restaurants. They affected cafés too.",
+      "promptZh": "成本上升影響了餐廳，也影響了咖啡店。",
+      "promptZhSource": "pdf",
+      "starter": "Rising",
+      "answer": "Rising costs affected restaurants, and the same was true of cafés.",
+      "answerZh": "成本上升影響了餐廳，咖啡店也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Rising costs affected restaurants, and the same was true of cafés."
+    },
+    {
+      "id": "ss257-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "This principle is relevant to emails and reports.",
+      "promptZh": "這項原則適用於電郵和報告。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This principle applies to emails. The same principle applies to reports.",
+      "answerZh": "這項原則適用於電郵。同一原則也適用於報告。",
+      "answerZhSource": "pdf",
+      "highlight": "This principle applies to emails. The same principle applies to reports."
+    },
+    {
+      "id": "ss257-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "In 2010, rent was high in the city centre. It was also high in the surrounding districts.",
+      "promptZh": "2010 年，市中心的租金很高，周邊地區的租金也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In 2010, rent was high in the city centre, and the same was true of the surrounding districts.",
+      "answerZh": "2010 年，市中心的租金很高，周邊地區也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "In 2010, rent was high in the city centre, and the same was true of the surrounding districts."
+    },
+    {
+      "id": "ss257-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Last year, both adults and children were charged the fee.",
+      "promptZh": "去年，成人和兒童都須繳付這項費用。",
+      "promptZhSource": "pdf",
+      "starter": "Last",
+      "answer": "Last year, the fee applied to adults. The same applied to children.",
+      "answerZh": "去年，這項費用適用於成人，也適用於兒童。",
+      "answerZhSource": "pdf",
+      "highlight": "Last year, the fee applied to adults. The same applied to children."
+    },
+    {
+      "id": "ss257-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "From September, the new timetable will govern weekday and weekend services.",
+      "promptZh": "由九月起，新時間表將適用於平日和週末服務。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From September, the new timetable will apply to weekday services. The same will apply to weekend services.",
+      "answerZh": "由九月起，新時間表將適用於平日服務，也會適用於週末服務。",
+      "answerZhSource": "pdf",
+      "highlight": "From September, the new timetable will apply to weekday services. The same will apply to weekend services."
+    },
+    {
+      "id": "ss257-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Younger adults may prefer shorter videos. Older adults may share this preference.",
+      "promptZh": "較年輕的成人可能偏好較短的影片，年長成人也可能有相同偏好。",
+      "promptZhSource": "pdf",
+      "starter": "Younger",
+      "answer": "Younger adults may prefer shorter videos, and the same may be true of older adults.",
+      "answerZh": "較年輕的成人可能偏好較短的影片，年長成人也可能有相同偏好。",
+      "answerZhSource": "pdf",
+      "highlight": "Younger adults may prefer shorter videos, and the same may be true of older adults."
+    },
+    {
+      "id": "ss257-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The ban may cover printed advertisements and online advertisements.",
+      "promptZh": "這項禁令可能適用於印刷廣告和網上廣告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The ban may apply to printed advertisements. The same may apply to online advertisements.",
+      "answerZh": "這項禁令可能適用於印刷廣告，也可能適用於網上廣告。",
+      "answerZhSource": "pdf",
+      "highlight": "The ban may apply to printed advertisements. The same may apply to online advertisements."
+    },
+    {
+      "id": "ss257-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "This principle should govern public bodies and private contractors.",
+      "promptZh": "這項原則應該適用於公共機構和私人承辦商。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This principle should apply to public bodies. The same should apply to private contractors.",
+      "answerZh": "這項原則應該適用於公共機構，也應該適用於私人承辦商。",
+      "answerZhSource": "pdf",
+      "highlight": "This principle should apply to public bodies. The same should apply to private contractors."
+    },
+    {
+      "id": "ss257-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Prices have risen in major cities. They have risen in smaller towns too.",
+      "promptZh": "大城市的物價已經上升，較小型城鎮的物價也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "Prices",
+      "answer": "Prices have risen in major cities, and the same has been true of smaller towns.",
+      "answerZh": "大城市的物價已經上升，較小型城鎮也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Prices have risen in major cities, and the same has been true of smaller towns."
+    },
+    {
+      "id": "ss257-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Since January, new applicants have been subject to the rule. Since March, existing members have been subject to it too.",
+      "promptZh": "自一月起，新申請者須遵守這項規則。自三月起，現有會員也須遵守。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule has applied to new applicants since January. Since March, the same has applied to existing members.",
+      "answerZh": "這項規則自一月起適用於新申請者。自三月起，同一規則也適用於現有會員。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule has applied to new applicants since January. Since March, the same has applied to existing members."
+    },
+    {
+      "id": "ss257-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The tax rule will cover physical shops. Will it cover online sellers too?",
+      "promptZh": "這項稅務規則將適用於實體店。它也會適用於網上賣家嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tax rule will apply to physical shops. Will the same apply to online sellers?",
+      "answerZh": "這項稅務規則將適用於實體店。同一規則也會適用於網上賣家嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "The tax rule will apply to physical shops. Will the same apply to online sellers?"
+    },
+    {
+      "id": "ss257-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The trend was common among young workers. Was it also common among older workers?",
+      "promptZh": "這種趨勢在年輕員工之間很常見。在年長員工之間也是如此嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trend was common among young workers. Was the same true of older workers?",
+      "answerZh": "這種趨勢在年輕員工之間很常見。年長員工也是如此嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "The trend was common among young workers. Was the same true of older workers?"
+    },
+    {
+      "id": "ss257-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Researchers found that urban students faced this difficulty. Rural students faced it too.",
+      "promptZh": "研究人員發現，城市學生面對這項困難，鄉郊學生也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers found that urban students faced this difficulty and that the same was true of rural students.",
+      "answerZh": "研究人員發現，城市學生面對這項困難，鄉郊學生也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers found that urban students faced this difficulty and that the same was true of rural students."
+    },
+    {
+      "id": "ss257-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The rule covers local orders. Before using it for overseas orders, check whether it also covers them.",
+      "promptZh": "這項規則適用於本地訂單。在把它用於海外訂單前，應先核實它是否也適用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule applies to local orders. Before using it for overseas orders, check whether the same rule applies to them.",
+      "answerZh": "這項規則適用於本地訂單。在把它用於海外訂單前，應先核實同一規則是否也適用。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule applies to local orders. Before using it for overseas orders, check whether the same rule applies to them."
+    },
+    {
+      "id": "ss257-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "If this warning is relevant to electric heaters, it is also relevant to gas heaters.",
+      "promptZh": "如果這項警告適用於電暖爐，它也適用於氣體暖爐。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If this warning applies to electric heaters, the same applies to gas heaters.",
+      "answerZh": "如果這項警告適用於電暖爐，同一警告也適用於氣體暖爐。",
+      "answerZhSource": "pdf",
+      "highlight": "If this warning applies to electric heaters, the same applies to gas heaters."
+    },
+    {
+      "id": "ss257-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The description suits most first-year students, but it does not suit mature students.",
+      "promptZh": "這項描述適用於大部分一年級學生，但不適用於成年學生。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the description is true of most first-year students, the same is not true of mature students.",
+      "answerZh": "雖然這項描述適用於大部分一年級學生，但成年學生並非如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the description is true of most first-year students, the same is not true of mature students."
+    },
+    {
+      "id": "ss257-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The advice is useful for office workers. We should check whether it is useful for drivers too.",
+      "promptZh": "這項建議對辦公室職員有用。我們應該核實它對司機是否也有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The advice is useful for office workers. We should check whether the same is true of drivers.",
+      "answerZh": "這項建議對辦公室職員有用。我們應該核實司機是否也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "The advice is useful for office workers. We should check whether the same is true of drivers."
+    },
+    {
+      "id": "ss257-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The dress code covers permanent staff, and the manager confirmed that it also covers interns.",
+      "promptZh": "服裝規定適用於長期員工，而經理確認它也適用於實習生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dress code applies to permanent staff, and the manager confirmed that the same applies to interns.",
+      "answerZh": "服裝規定適用於長期員工，而經理確認同一規定也適用於實習生。",
+      "answerZhSource": "pdf",
+      "highlight": "The dress code applies to permanent staff, and the manager confirmed that the same applies to interns."
+    },
+    {
+      "id": "ss257-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The main factory needs inspection because these safety conditions affect it. The warehouse is subject to the same conditions.",
+      "promptZh": "總廠需要接受檢查，因為這些安全條件適用於該處。貨倉也受同一組條件規管。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main factory needs inspection because these safety conditions apply to it, and the same applies to the warehouse.",
+      "answerZh": "總廠需要接受檢查，因為這些安全條件適用於該處，而貨倉也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "The main factory needs inspection because these safety conditions apply to it, and the same applies to the warehouse."
+    },
+    {
+      "id": "ss257-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "Students who miss the deadline lose marks. Late group submissions receive the same penalty.",
+      "promptZh": "錯過截止日期的學生會被扣分，逾期提交的小組功課也會受到同一懲罰。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students who miss the deadline lose marks, and the same rule applies to late group submissions.",
+      "answerZh": "錯過截止日期的學生會被扣分，而同一規則也適用於逾期提交的小組功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Students who miss the deadline lose marks, and the same rule applies to late group submissions."
+    },
+    {
+      "id": "ss257-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The survey suggests that this trend occurs among people living alone and couples without children.",
+      "promptZh": "調查顯示，獨居人士和沒有子女的夫婦都出現這種趨勢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The survey suggests that the trend is true of people living alone and that the same is true of couples without children.",
+      "answerZh": "調查顯示，獨居人士出現這種趨勢，沒有子女的夫婦也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey suggests that the trend is true of people living alone and that the same is true of couples without children."
+    },
+    {
+      "id": "ss257-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The rule currently covers weekday deliveries. We should not assume that it covers weekend deliveries without checking.",
+      "promptZh": "這項規則目前適用於平日送貨。在未經核實前，我們不應假設它也適用於週末送貨。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule currently applies to weekday deliveries. We should not assume that the same rule applies to weekend deliveries without checking.",
+      "answerZh": "這項規則目前適用於平日送貨。在未經核實前，我們不應假設同一規則也適用於週末送貨。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule currently applies to weekday deliveries. We should not assume that the same rule applies to weekend deliveries without checking."
+    },
+    {
+      "id": "ss257-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 29,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "Large firms benefit from clear procedures. Small businesses also benefit, although their procedures may be simpler.",
+      "promptZh": "大型公司能從清晰程序中受益。小型企業也能受益，儘管它們的程序可能較簡單。",
+      "promptZhSource": "pdf",
+      "starter": "Large",
+      "answer": "Large firms benefit from clear procedures. The same is true of small businesses, although their procedures may be simpler.",
+      "answerZh": "大型公司能從清晰程序中受益。小型企業也是如此，儘管它們的程序可能較簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "Large firms benefit from clear procedures. The same is true of small businesses, although their procedures may be simpler."
+    },
+    {
+      "id": "ss257-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "All permanent employees must declare gifts. Consultants are subject to this requirement when they represent the company.",
+      "promptZh": "所有長期僱員都必須申報禮物。顧問代表公司時，也須遵守這項要求。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All permanent employees must declare gifts. The same requirement applies to consultants when they represent the company.",
+      "answerZh": "所有長期僱員都必須申報禮物。同一要求也適用於代表公司的顧問。",
+      "answerZhSource": "pdf",
+      "highlight": "All permanent employees must declare gifts. The same requirement applies to consultants when they represent the company."
+    },
+    {
+      "id": "ss257-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "The conclusion might accurately describe urban schools, but it may not accurately describe rural schools.",
+      "promptZh": "這項結論可能準確描述城市學校，但未必準確描述鄉郊學校。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The conclusion might be true of urban schools, but the same may not be true of rural schools.",
+      "answerZh": "這項結論可能適用於城市學校，但未必適用於鄉郊學校。",
+      "answerZhSource": "pdf",
+      "highlight": "The conclusion might be true of urban schools, but the same may not be true of rural schools."
+    },
+    {
+      "id": "ss257-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "The present rules cover printed records. Beginning next year, digital records will be covered too.",
+      "promptZh": "現行規則適用於印刷紀錄。由明年起，電子紀錄也會受到規管。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The present rules apply to printed records. Beginning next year, the same rules will apply to digital records.",
+      "answerZh": "現行規則適用於印刷紀錄。由明年起，同一組規則也會適用於電子紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The present rules apply to printed records. Beginning next year, the same rules will apply to digital records."
+    },
+    {
+      "id": "ss257-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "The method worked for beginners. Before recommending it to experts, we should ask whether it will work for them too.",
+      "promptZh": "這個方法對初學者有效。在向專家推薦前，我們應先問它對專家是否也會有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The method worked for beginners. Before recommending it to experts, we should ask whether the same will be true of them.",
+      "answerZh": "這個方法對初學者有效。在向專家推薦前，我們應先問專家是否也會有相同結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The method worked for beginners. Before recommending it to experts, we should ask whether the same will be true of them."
+    },
+    {
+      "id": "ss257-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 24,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "Public hospitals must protect patient records. Private clinics are governed by the same principle.",
+      "promptZh": "公立醫院必須保護病人紀錄。私家診所也受同一原則規管。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the same principle applies to private clinics, they must protect patient records just as public hospitals do.",
+      "answerZh": "由於同一原則也適用於私家診所，它們必須像公立醫院一樣保護病人紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the same principle applies to private clinics, they must protect patient records just as public hospitals do."
+    },
+    {
+      "id": "ss257-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "The policy covers paid staff now. It also covers volunteers, although they were excluded in the past.",
+      "promptZh": "這項政策目前適用於受薪員工，也適用於義工，儘管義工過往並不包括在內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy applies to paid staff, and the same now applies to volunteers, although this was not true in the past.",
+      "answerZh": "這項政策適用於受薪員工，現在也適用於義工，儘管過往並非如此。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy applies to paid staff, and the same now applies to volunteers, although this was not true in the past."
+    },
+    {
+      "id": "ss257-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 30,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "The report says that young people increasingly shop online. Older consumers show the same trend, though less strongly.",
+      "promptZh": "報告指出，越來越多年輕人網上購物。年長消費者也有相同趨勢，但程度較低。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the report, young people increasingly shop online, and the same is true of older consumers, though less strongly.",
+      "answerZh": "根據報告，越來越多年輕人網上購物，年長消費者也是如此，但程度較低。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the report, young people increasingly shop online, and the same is true of older consumers, though less strongly."
+    },
+    {
+      "id": "ss257-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "The refund rule clearly covers damaged goods, but we still need to determine whether it covers late deliveries.",
+      "promptZh": "退款規則明顯適用於損壞貨品，但我們仍須確定它是否適用於延遲送貨。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the refund rule clearly applies to damaged goods, we still need to determine whether the same applies to late deliveries.",
+      "answerZh": "雖然退款規則明顯適用於損壞貨品，但我們仍須確定同一規則是否適用於延遲送貨。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the refund rule clearly applies to damaged goods, we still need to determine whether the same applies to late deliveries."
+    },
+    {
+      "id": "ss257-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "One principle governs both large corporations and small businesses, although they may implement it differently.",
+      "promptZh": "同一原則適用於大型企業和小型企業，儘管它們實施原則的方式可能不同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The same principle applies to small businesses as to large corporations, although the way it is implemented may differ.",
+      "answerZh": "同一原則既適用於大型企業，也適用於小型企業，儘管兩者實施原則的方式可能不同。",
+      "answerZhSource": "pdf",
+      "highlight": "The same principle applies to small businesses as to large corporations, although the way it is implemented may differ."
+    }
+  ]
+}

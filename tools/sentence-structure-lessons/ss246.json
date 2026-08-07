@@ -1,0 +1,1278 @@
+{
+  "id": "ss246",
+  "order": 246,
+  "slug": "remains-to-be-seen-whether",
+  "title": "「It remains to be seen whether + clause」表示結果尚未確定",
+  "titleZh": "「It remains to be seen whether + clause」表示結果尚未確定",
+  "titleEn": "It remains to be seen whether + clause",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 245 -「It remains to be seen whether + clause」表示結果尚未確定.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 245; it is assigned system ID ss246 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It remains to be seen whether + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss246-formula-01",
+      "labelEn": "Main pattern",
+      "labelZh": "主要句型",
+      "formula": "It remains to be seen whether + subject + verb + other information"
+    },
+    {
+      "id": "ss246-formula-02",
+      "labelEn": "After known information",
+      "labelZh": "已知資料之後",
+      "formula": "Main clause, but it remains to be seen whether + clause"
+    },
+    {
+      "id": "ss246-formula-03",
+      "labelEn": "Whether-clause as subject",
+      "labelZh": "whether 子句作主語",
+      "formula": "Whether + clause + remains to be seen"
+    },
+    {
+      "id": "ss246-formula-04",
+      "labelEn": "What-cleft",
+      "labelZh": "What 焦點形式",
+      "formula": "What remains to be seen is whether + clause"
+    },
+    {
+      "id": "ss246-formula-05",
+      "labelEn": "Colon form",
+      "labelZh": "冒號形式",
+      "formula": "One thing remains to be seen: whether + clause"
+    },
+    {
+      "id": "ss246-formula-06",
+      "labelEn": "Past",
+      "labelZh": "過去式",
+      "formula": "It remained to be seen whether + clause"
+    }
+  ],
+  "example": "It remains to be seen whether the policy will work.",
+  "exampleZh": "這項政策是否會奏效，仍有待觀察。",
+  "examples": [
+    {
+      "id": "ss246-example-01",
+      "en": "It remains to be seen whether the policy will work.",
+      "zh": "這項政策是否會奏效，仍有待觀察。",
+      "highlight": "It remains to be seen whether the policy will work."
+    },
+    {
+      "id": "ss246-example-02",
+      "en": "Whether the policy will work remains to be seen.",
+      "zh": "這項政策是否會奏效，仍有待觀察。",
+      "highlight": "Whether the policy will work remains to be seen."
+    },
+    {
+      "id": "ss246-example-03",
+      "en": "What remains to be seen is whether the policy will work.",
+      "zh": "尚待觀察的是這項政策能否奏效。",
+      "highlight": "What remains to be seen is whether the policy will work."
+    }
+  ],
+  "meaning": {
+    "zh": "表示某件事目前仍未有答案，需要等待更多時間、證據或實際結果，才可以知道答案。"
+  },
+  "rules": [
+    {
+      "id": "ss246-rule-01",
+      "zh": "固定表達 remain to be seen 中的 to be seen 是被動不定式，意思接近 to be discovered、to become known 或 to be determined later，不是目的句。",
+      "en": "In the fixed expression remain to be seen, to be seen is a passive infinitive meaning to be discovered, become known or be determined later; it does not express purpose.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It remains to be seen whether the plan will succeed."
+      ]
+    },
+    {
+      "id": "ss246-rule-02",
+      "zh": "whether 後使用陳述句語序，不可把助動詞放在主語之前。",
+      "en": "Use statement word order after whether, not direct-question inversion.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It remains to be seen whether the policy will work.",
+        "Incorrect: whether will the policy work"
+      ]
+    },
+    {
+      "id": "ss246-rule-03",
+      "zh": "whether 後必須有包含主語和動詞的完整子句。",
+      "en": "Whether must introduce a complete clause containing both a subject and a verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "whether the policy will work"
+      ]
+    },
+    {
+      "id": "ss246-rule-04",
+      "zh": "whether or not 是可選補充；or not 只把兩個結果說得更明確，本課核心仍是 whether + clause。",
+      "en": "Whether or not is optional. Or not explicitly names both possible outcomes, but the core pattern remains whether + clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It remains to be seen whether or not the policy will work."
+      ]
+    },
+    {
+      "id": "ss246-rule-05",
+      "zh": "still 可以加入，但 remain 本身已有「仍然處於某狀態」的意思，簡潔寫作通常不需要重複。",
+      "en": "Still is optional because remain already carries the idea of continuing in an unresolved state.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It still remains to be seen whether the policy will work."
+      ]
+    },
+    {
+      "id": "ss246-rule-06",
+      "zh": "本句型不只表示「不知道」；它還說明目前證據不足、需要等待結果，而且答案日後可能變得清楚。",
+      "en": "The structure means more than simple lack of knowledge: evidence is currently insufficient, a result must be awaited and the answer may become clear later.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss246-rule-07",
+      "zh": "Only time will tell 語氣較生動並強調等待時間；It remains to be seen 較中立正式，也可以等待數據、證據或結果。",
+      "en": "Distinguish it from Only time will tell: that expression is more vivid and time-focused, whereas It remains to be seen is more neutral and can await data, evidence or practical results.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss246-benefit-01",
+      "zh": "表達「目前未有答案，但將來可能知道」，提醒讀者現在下結論仍太早。",
+      "en": "It expresses that there is no answer yet but one may become available later.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss246-benefit-02",
+      "zh": "把焦點放在事情本身仍未有結果，而不是「我不知道」，令語氣更客觀。",
+      "en": "It makes the tone more objective by focusing on the unresolved issue rather than the speaker’s ignorance.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss246-benefit-03",
+      "zh": "在初步結果良好時保留謹慎，避免把可能性寫成確定事實。",
+      "en": "It avoids premature certainty and keeps an appropriately cautious tone.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss246-benefit-04",
+      "zh": "可用前半句交代已知事實，再用目標句型帶出未知結果。",
+      "en": "It clearly separates known information from an unknown result.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss246-benefit-05",
+      "zh": "可以用 It、Whether、What 或 but 等方式組織同一意思，增加句式變化。",
+      "en": "It offers several sentence organisations and therefore increases structural variety.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss246-benefit-06",
+      "zh": "特別適合討論政策、研究、試驗、預測、未來表現和長期效果。",
+      "en": "It is especially suitable for policies, research, trials, predictions, future performance and long-term effects.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 245; it is assigned system ID ss246 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using an appropriate form of remain to be seen and a whether clause.",
+      "Preserve the original meaning, time reference and level of certainty. Use the word order indicated by the first-word hint.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用適當形式的 remain to be seen 及 whether 子句改寫以下句子。",
+      "答案須保留原句的意思、時間及不確定程度。請按照首字提示使用合適的句子次序。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss246-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We do not yet know whether the new timetable will reduce delays.",
+      "promptZh": "我們目前仍不知道新時間表能否減少延誤。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains to be seen whether the new timetable will reduce delays.",
+      "answerZh": "新時間表能否減少延誤，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains to be seen whether the new timetable will reduce delays."
+    },
+    {
+      "id": "ss246-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No one can say yet whether Ava will enjoy her new class.",
+      "promptZh": "目前沒有人能確定 Ava 是否會喜歡她的新班級。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether Ava will enjoy her new class remains to be seen.",
+      "answerZh": "Ava 是否會喜歡她的新班級，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether Ava will enjoy her new class remains to be seen."
+    },
+    {
+      "id": "ss246-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "At present, we cannot tell whether the weather will improve before the match.",
+      "promptZh": "目前，我們無法確定比賽前天氣會否好轉。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For now, it remains to be seen whether the weather will improve before the match.",
+      "answerZh": "目前來說，比賽前天氣會否好轉，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "For now, it remains to be seen whether the weather will improve before the match."
+    },
+    {
+      "id": "ss246-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The answer is not yet clear: will the shop attract enough customers?",
+      "promptZh": "答案目前仍未清楚：這間商店能否吸引足夠顧客？",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the shop will attract enough customers remains to be seen.",
+      "answerZh": "這間商店能否吸引足夠顧客，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the shop will attract enough customers remains to be seen."
+    },
+    {
+      "id": "ss246-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We will have to wait to find out whether the medicine will relieve his pain.",
+      "promptZh": "我們需要等待，才知道這種藥物能否減輕他的痛楚。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains to be seen whether the medicine will relieve his pain.",
+      "answerZh": "這種藥物能否減輕他的痛楚，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains to be seen whether the medicine will relieve his pain."
+    },
+    {
+      "id": "ss246-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After the first week, nobody knows whether the team can finish the project on time.",
+      "promptZh": "第一星期過後，沒有人知道團隊能否準時完成項目。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the first week, it remains to be seen whether the team can finish the project on time.",
+      "answerZh": "第一星期過後，團隊能否準時完成項目，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "After the first week, it remains to be seen whether the team can finish the project on time."
+    },
+    {
+      "id": "ss246-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is still unclear whether the new rule will make the playground safer.",
+      "promptZh": "新規則能否令遊樂場更加安全，目前仍未清楚。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What remains to be seen is whether the new rule will make the playground safer.",
+      "answerZh": "尚待觀察的是新規則能否令遊樂場更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "What remains to be seen is whether the new rule will make the playground safer."
+    },
+    {
+      "id": "ss246-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At present, nobody can tell whether the bus service will become more reliable.",
+      "promptZh": "目前，沒有人能確定巴士服務會否變得更加可靠。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, it remains to be seen whether the bus service will become more reliable.",
+      "answerZh": "目前，巴士服務會否變得更加可靠，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, it remains to be seen whether the bus service will become more reliable."
+    },
+    {
+      "id": "ss246-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We still need an answer to one question: will the plant grow well indoors?",
+      "promptZh": "我們仍需要知道一個問題的答案：這種植物能否在室內良好生長？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing remains to be seen: whether the plant will grow well indoors.",
+      "answerZh": "有一件事仍有待觀察：這種植物能否在室內良好生長。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing remains to be seen: whether the plant will grow well indoors."
+    },
+    {
+      "id": "ss246-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The first lesson went well, but nobody knows yet whether the students will remember the new words.",
+      "promptZh": "第一課進行順利，但目前沒有人知道學生能否記得這些新詞。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the first lesson went well, it remains to be seen whether the students will remember the new words.",
+      "answerZh": "雖然第一課進行順利，但學生能否記得這些新詞，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the first lesson went well, it remains to be seen whether the students will remember the new words."
+    },
+    {
+      "id": "ss246-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The roof has been repaired, but we do not yet know whether it will stop leaking.",
+      "promptZh": "屋頂已經修好，但我們仍不知道它會否停止漏水。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the repairs, it remains to be seen whether the roof will stop leaking.",
+      "answerZh": "修理完成後，屋頂會否停止漏水，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "After the repairs, it remains to be seen whether the roof will stop leaking."
+    },
+    {
+      "id": "ss246-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No one knows yet whether the electric bicycle will suit Daniel.",
+      "promptZh": "目前沒有人知道這輛電動單車是否適合 Daniel。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the electric bicycle will suit Daniel remains to be seen.",
+      "answerZh": "這輛電動單車是否適合 Daniel，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the electric bicycle will suit Daniel remains to be seen."
+    },
+    {
+      "id": "ss246-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The early figures are promising, but we cannot yet tell whether sales will continue to rise.",
+      "promptZh": "初步數字令人鼓舞，但我們仍無法確定銷售額會否繼續上升。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The early figures are promising, but it remains to be seen whether sales will continue to rise.",
+      "answerZh": "初步數字令人鼓舞，但銷售額會否繼續上升，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "The early figures are promising, but it remains to be seen whether sales will continue to rise."
+    },
+    {
+      "id": "ss246-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We will have to wait and see whether the new password system will prevent unauthorised access.",
+      "promptZh": "我們需要等待，才知道新密碼系統能否防止未經授權的存取。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains to be seen whether the new password system will prevent unauthorised access.",
+      "answerZh": "新密碼系統能否防止未經授權的存取，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains to be seen whether the new password system will prevent unauthorised access."
+    },
+    {
+      "id": "ss246-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is still unclear whether the restaurant can keep its prices low.",
+      "promptZh": "這間餐廳能否維持低價，目前仍未清楚。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What remains to be seen is whether the restaurant can keep its prices low.",
+      "answerZh": "尚待觀察的是這間餐廳能否維持低價。",
+      "answerZhSource": "pdf",
+      "highlight": "What remains to be seen is whether the restaurant can keep its prices low."
+    },
+    {
+      "id": "ss246-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The interview is over, but no one can yet say whether Priya will be offered the job.",
+      "promptZh": "面試已經結束，但目前沒有人能確定 Priya 會否獲得這份工作。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after the interview, it remains to be seen whether Priya will be offered the job.",
+      "answerZh": "即使面試已經結束，Priya 會否獲得這份工作，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after the interview, it remains to be seen whether Priya will be offered the job."
+    },
+    {
+      "id": "ss246-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "There is one important unanswered question: will the new crossing reduce accidents?",
+      "promptZh": "有一個重要問題仍未有答案：新的過路處能否減少意外？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One important thing remains to be seen: whether the new crossing will reduce accidents.",
+      "answerZh": "有一件重要事情仍有待觀察：新的過路處能否減少意外。",
+      "answerZhSource": "pdf",
+      "highlight": "One important thing remains to be seen: whether the new crossing will reduce accidents."
+    },
+    {
+      "id": "ss246-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At this stage, it is impossible to know whether the new software will save staff time.",
+      "promptZh": "現階段，我們無法知道新軟件能否節省員工的時間。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, it remains to be seen whether the new software will save staff time.",
+      "answerZh": "現階段，新軟件能否節省員工的時間，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, it remains to be seen whether the new software will save staff time."
+    },
+    {
+      "id": "ss246-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We cannot yet tell whether the river will return to a safe level by morning.",
+      "promptZh": "我們仍無法確定河流水位能否在早上前回復至安全水平。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the river will return to a safe level by morning remains to be seen.",
+      "answerZh": "河流水位能否在早上前回復至安全水平，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the river will return to a safe level by morning remains to be seen."
+    },
+    {
+      "id": "ss246-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The plan has been announced, but it is not yet clear whether local residents will support it.",
+      "promptZh": "計劃已經公布，但當地居民會否支持，仍未清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan has been announced, but it remains to be seen whether local residents will support it.",
+      "answerZh": "計劃已經公布，但當地居民會否支持，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan has been announced, but it remains to be seen whether local residents will support it."
+    },
+    {
+      "id": "ss246-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At that time, nobody knew whether the injured player would recover before the final.",
+      "promptZh": "當時，沒有人知道受傷球員能否在決賽前康復。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remained to be seen whether the injured player would recover before the final.",
+      "answerZh": "當時，受傷球員能否在決賽前康復，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "It remained to be seen whether the injured player would recover before the final."
+    },
+    {
+      "id": "ss246-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Engineers could not yet say whether the bridge could withstand severe storms.",
+      "promptZh": "工程師當時仍無法確定這座橋能否抵受猛烈風暴。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the bridge could withstand severe storms remained to be seen.",
+      "answerZh": "當時，這座橋能否抵受猛烈風暴，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the bridge could withstand severe storms remained to be seen."
+    },
+    {
+      "id": "ss246-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At that point, it was still unclear whether the missing parcel would arrive before Friday.",
+      "promptZh": "在那個時候，遺失的包裹能否在星期五前送達，仍未清楚。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At that point, it remained to be seen whether the missing parcel would arrive before Friday.",
+      "answerZh": "在那個時候，遺失的包裹能否在星期五前送達，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "At that point, it remained to be seen whether the missing parcel would arrive before Friday."
+    },
+    {
+      "id": "ss246-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee had agreed on the budget, but it was not yet known whether the project would begin that year.",
+      "promptZh": "委員會已經就預算達成協議，但當時仍未知道項目會否在該年展開。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the committee had agreed on the budget, what remained to be seen was whether the project would begin that year.",
+      "answerZh": "雖然委員會已經就預算達成協議，但項目會否在該年展開，當時仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the committee had agreed on the budget, what remained to be seen was whether the project would begin that year."
+    },
+    {
+      "id": "ss246-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The trial had ended, but nobody yet knew whether the treatment had been effective.",
+      "promptZh": "試驗已經結束，但當時仍沒有人知道治療是否有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trial had ended, but it remained to be seen whether the treatment had been effective.",
+      "answerZh": "試驗已經結束，但治療是否有效，當時仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "The trial had ended, but it remained to be seen whether the treatment had been effective."
+    },
+    {
+      "id": "ss246-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We do not yet know whether the new recycling bins will reduce street waste.",
+      "promptZh": "我們目前仍不知道新的回收箱能否減少街道垃圾。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains to be seen whether the new recycling bins will reduce street waste.",
+      "answerZh": "新的回收箱能否減少街道垃圾，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains to be seen whether the new recycling bins will reduce street waste."
+    },
+    {
+      "id": "ss246-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The device passed the first test, but no one can yet say whether it will work in extreme heat.",
+      "promptZh": "這部裝置通過了第一次測試，但目前沒有人能確定它能否在極端高溫下運作。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite passing the first test, it remains to be seen whether the device will work in extreme heat.",
+      "answerZh": "儘管這部裝置通過了第一次測試，但它能否在極端高溫下運作，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite passing the first test, it remains to be seen whether the device will work in extreme heat."
+    },
+    {
+      "id": "ss246-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "There is still a practical question: can the new room hold all the guests comfortably?",
+      "promptZh": "仍有一個實際問題：新房間能否讓所有客人舒適地留在裏面？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One practical thing remains to be seen: whether the new room can hold all the guests comfortably.",
+      "answerZh": "有一件實際事情仍有待觀察：新房間能否讓所有客人舒適地留在裏面。",
+      "answerZhSource": "pdf",
+      "highlight": "One practical thing remains to be seen: whether the new room can hold all the guests comfortably."
+    },
+    {
+      "id": "ss246-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Nobody can tell yet whether the school can find enough volunteers.",
+      "promptZh": "目前沒有人能確定學校能否找到足夠義工。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the school can find enough volunteers remains to be seen.",
+      "answerZh": "學校能否找到足夠義工，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the school can find enough volunteers remains to be seen."
+    },
+    {
+      "id": "ss246-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We will need more evidence before we know whether the diet improves sleep quality.",
+      "promptZh": "我們需要更多證據，才知道這種飲食方式能否改善睡眠質素。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains to be seen whether the diet improves sleep quality.",
+      "answerZh": "這種飲食方式能否改善睡眠質素，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains to be seen whether the diet improves sleep quality."
+    },
+    {
+      "id": "ss246-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Even after the survey, it is still unclear whether passengers prefer later trains.",
+      "promptZh": "即使調查已經完成，乘客是否較喜歡較晚的列車，目前仍未清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after the survey, what remains to be seen is whether passengers prefer later trains.",
+      "answerZh": "即使調查已經完成，尚待觀察的仍是乘客是否較喜歡較晚的列車。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after the survey, what remains to be seen is whether passengers prefer later trains."
+    },
+    {
+      "id": "ss246-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The equipment has arrived, but we do not yet know whether it can be installed before Monday.",
+      "promptZh": "設備已經送達，但我們仍不知道能否在星期一前完成安裝。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The equipment has arrived, but it remains to be seen whether it can be installed before Monday.",
+      "answerZh": "設備已經送達，但能否在星期一前完成安裝，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "The equipment has arrived, but it remains to be seen whether it can be installed before Monday."
+    },
+    {
+      "id": "ss246-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "For the moment, we do not know whether the new trees can survive the dry season.",
+      "promptZh": "目前，我們不知道新種植的樹木能否捱過旱季。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the moment, it remains to be seen whether the new trees can survive the dry season.",
+      "answerZh": "目前，新種植的樹木能否捱過旱季，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "For the moment, it remains to be seen whether the new trees can survive the dry season."
+    },
+    {
+      "id": "ss246-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It is not yet known whether the revised proposal will be accepted by the board.",
+      "promptZh": "目前仍未知道修訂後的建議會否獲董事會接納。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the revised proposal will be accepted by the board remains to be seen.",
+      "answerZh": "修訂後的建議會否獲董事會接納，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the revised proposal will be accepted by the board remains to be seen."
+    },
+    {
+      "id": "ss246-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "There is one final unanswered question: will the venue be ready before the conference?",
+      "promptZh": "還有最後一個問題未有答案：場地能否在會議前準備妥當？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One final thing remains to be seen: whether the venue will be ready before the conference.",
+      "answerZh": "還有最後一件事情仍有待觀察：場地能否在會議前準備妥當。",
+      "answerZhSource": "pdf",
+      "highlight": "One final thing remains to be seen: whether the venue will be ready before the conference."
+    },
+    {
+      "id": "ss246-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The first results look encouraging, but it is still unclear whether the improvement will last.",
+      "promptZh": "第一批結果令人鼓舞，但改善能否持續，仍未清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the first results look encouraging, what remains to be seen is whether the improvement will last.",
+      "answerZh": "雖然第一批結果令人鼓舞，但尚待觀察的是改善能否持續。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the first results look encouraging, what remains to be seen is whether the improvement will last."
+    },
+    {
+      "id": "ss246-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "No one can yet say whether the robot can recognise voices in a noisy room.",
+      "promptZh": "目前沒有人能確定機械人能否在嘈雜的房間內辨認聲音。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It remains to be seen whether the robot can recognise voices in a noisy room.",
+      "answerZh": "機械人能否在嘈雜的房間內辨認聲音，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "It remains to be seen whether the robot can recognise voices in a noisy room."
+    },
+    {
+      "id": "ss246-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Several complaints have been made, but we do not yet know whether the company will change its refund policy.",
+      "promptZh": "已有多人作出投訴，但我們仍不知道公司會否修改退款政策。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After several complaints, it remains to be seen whether the company will change its refund policy.",
+      "answerZh": "在多人作出投訴後，公司會否修改退款政策，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "After several complaints, it remains to be seen whether the company will change its refund policy."
+    },
+    {
+      "id": "ss246-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It is still impossible to tell whether the clinic can meet the growing demand.",
+      "promptZh": "目前仍無法確定診所能否應付日益增加的需求。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the clinic can meet the growing demand remains to be seen.",
+      "answerZh": "診所能否應付日益增加的需求，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the clinic can meet the growing demand remains to be seen."
+    },
+    {
+      "id": "ss246-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The first phase is complete, but it is not yet clear whether the project will stay within budget.",
+      "promptZh": "第一階段已經完成，但項目能否維持在預算之內，仍未清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first phase is complete, but it remains to be seen whether the project will stay within budget.",
+      "answerZh": "第一階段已經完成，但項目能否維持在預算之內，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "The first phase is complete, but it remains to be seen whether the project will stay within budget."
+    },
+    {
+      "id": "ss246-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Early signs show improvement, but no one knows whether the changes will continue after support ends.",
+      "promptZh": "早期跡象顯示情況有所改善，但沒有人知道支援結束後，這些改變能否持續。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite early signs of improvement, it remains to be seen whether the changes will continue after support ends.",
+      "answerZh": "儘管早期跡象顯示情況有所改善，但支援結束後，這些改變能否持續，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite early signs of improvement, it remains to be seen whether the changes will continue after support ends."
+    },
+    {
+      "id": "ss246-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We still do not know whether the online course can provide the same level of discussion as a classroom lesson.",
+      "promptZh": "我們仍不知道網上課程能否提供與課堂教學相同程度的討論。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What remains to be seen is whether the online course can provide the same level of discussion as a classroom lesson.",
+      "answerZh": "尚待觀察的是網上課程能否提供與課堂教學相同程度的討論。",
+      "answerZhSource": "pdf",
+      "highlight": "What remains to be seen is whether the online course can provide the same level of discussion as a classroom lesson."
+    },
+    {
+      "id": "ss246-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The council has approved the funding; however, nobody can yet say whether construction will start before winter.",
+      "promptZh": "市議會已批准撥款；然而，目前沒有人能確定工程能否在冬季前展開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council has approved the funding; however, it remains to be seen whether construction will start before winter.",
+      "answerZh": "市議會已批准撥款；然而，工程能否在冬季前展開，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "The council has approved the funding; however, it remains to be seen whether construction will start before winter."
+    },
+    {
+      "id": "ss246-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "It is unclear whether the training will produce lasting changes in staff behaviour.",
+      "promptZh": "培訓能否為員工行為帶來持久改變，目前仍未清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the training will produce lasting changes in staff behaviour remains to be seen.",
+      "answerZh": "培訓能否為員工行為帶來持久改變，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the training will produce lasting changes in staff behaviour remains to be seen."
+    },
+    {
+      "id": "ss246-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "At the time, nobody knew whether the emergency plan would work under real conditions.",
+      "promptZh": "當時，沒有人知道緊急應變計劃能否在真實情況下奏效。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the time, it remained to be seen whether the emergency plan would work under real conditions.",
+      "answerZh": "當時，緊急應變計劃能否在真實情況下奏效，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "At the time, it remained to be seen whether the emergency plan would work under real conditions."
+    },
+    {
+      "id": "ss246-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The investigation had answered most questions, but one matter was still unresolved: had the safety checks been completed properly?",
+      "promptZh": "調查已解答大部分問題，但仍有一件事未能確定：安全檢查是否已經妥善完成？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The investigation had answered most questions, but one thing still remained to be seen: whether the safety checks had been completed properly.",
+      "answerZh": "調查已解答大部分問題，但仍有一件事有待確定：安全檢查是否已經妥善完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The investigation had answered most questions, but one thing still remained to be seen: whether the safety checks had been completed properly."
+    },
+    {
+      "id": "ss246-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The pilot scheme has expanded, but nobody knows yet whether smaller schools can afford to join it.",
+      "promptZh": "試行計劃已經擴展，但目前沒有人知道規模較小的學校能否負擔參與計劃的費用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The pilot scheme has expanded, but it remains to be seen whether smaller schools can afford to join it.",
+      "answerZh": "試行計劃已經擴展，但規模較小的學校能否負擔參與計劃的費用，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "The pilot scheme has expanded, but it remains to be seen whether smaller schools can afford to join it."
+    },
+    {
+      "id": "ss246-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Extra staff have been hired, but it is still uncertain whether the hospital can shorten waiting times.",
+      "promptZh": "醫院已增聘員工，但能否縮短輪候時間，仍未確定。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even with extra staff, it remains to be seen whether the hospital can shorten waiting times.",
+      "answerZh": "即使已經增聘員工，醫院能否縮短輪候時間，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Even with extra staff, it remains to be seen whether the hospital can shorten waiting times."
+    },
+    {
+      "id": "ss246-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "No one can yet say whether the agreement can survive future disputes between the two sides.",
+      "promptZh": "目前沒有人能確定這項協議能否經得起雙方日後的爭議。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the agreement can survive future disputes between the two sides remains to be seen.",
+      "answerZh": "這項協議能否經得起雙方日後的爭議，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the agreement can survive future disputes between the two sides remains to be seen."
+    },
+    {
+      "id": "ss246-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The policy has now been introduced nationwide, but there is not yet enough evidence to know whether it will achieve its long-term goals.",
+      "promptZh": "這項政策現已在全國推行，但目前仍未有足夠證據確定它能否達成長遠目標。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy has now been introduced nationwide, but it remains to be seen whether it will achieve its long-term goals.",
+      "answerZh": "這項政策現已在全國推行，但它能否達成長遠目標，仍有待觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy has now been introduced nationwide, but it remains to be seen whether it will achieve its long-term goals."
+    }
+  ]
+}

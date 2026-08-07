@@ -1,0 +1,1294 @@
+{
+  "id": "ss266",
+  "order": 266,
+  "slug": "to-the-point-where-clause",
+  "title": "「To the point where + clause」表示「達到某種程度，以致……」",
+  "titleZh": "「To the point where + clause」表示「達到某種程度，以致……」",
+  "titleEn": "Using “To the point where + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 265 -「To the point where + clause」表示「達到某種程度，以致……」.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "Subject + verb / be / become + description + to the point where + result clause.",
+  "formulas": [
+    {
+      "id": "ss266-formula-01",
+      "labelEn": "Core structure",
+      "labelZh": "核心句型",
+      "formula": "to the point where + complete clause"
+    },
+    {
+      "id": "ss266-formula-02",
+      "labelEn": "Change of state",
+      "labelZh": "狀態變化",
+      "formula": "Subject + become / get / grow + adjective + to the point where + clause."
+    },
+    {
+      "id": "ss266-formula-03",
+      "labelEn": "Change verb",
+      "labelZh": "變化動詞",
+      "formula": "Subject + increase / worsen / rise / fall / narrow / spread + to the point where + clause."
+    },
+    {
+      "id": "ss266-formula-04",
+      "labelEn": "Repeated action",
+      "labelZh": "持續或重複動作",
+      "formula": "Subject + action verb + to the point where + clause."
+    },
+    {
+      "id": "ss266-formula-05",
+      "labelEn": "Causative result",
+      "labelZh": "使某人或物進入狀態",
+      "formula": "Subject + make / push / damage / reduce + object + description + to the point where + clause."
+    },
+    {
+      "id": "ss266-formula-06",
+      "labelEn": "Passive",
+      "labelZh": "被動形式",
+      "formula": "Subject + be + past participle + to the point where + clause."
+    },
+    {
+      "id": "ss266-formula-07",
+      "labelEn": "Negative extent",
+      "labelZh": "否定程度",
+      "formula": "Subject + do not / did not + verb + to the point where + clause."
+    }
+  ],
+  "example": "The discussion became technical to the point where many people could no longer follow it.",
+  "exampleZh": "討論變得非常技術性，以致很多人再也無法理解。",
+  "examples": [
+    {
+      "id": "ss266-example-01",
+      "en": "The discussion became technical to the point where many people could no longer follow it.",
+      "zh": "討論變得非常技術性，以致很多人再也無法理解。",
+      "highlight": "The discussion became technical to the point where many people could no longer follow it."
+    },
+    {
+      "id": "ss266-example-02",
+      "en": "The road narrowed to the point where two cars could not pass each other.",
+      "zh": "道路變窄至兩輛車無法互相駛過的程度。",
+      "highlight": "The road narrowed to the point where two cars could not pass each other."
+    },
+    {
+      "id": "ss266-example-03",
+      "en": "The pressure increased to the point where several workers resigned.",
+      "zh": "壓力不斷增加，以致幾名員工辭職。",
+      "highlight": "The pressure increased to the point where several workers resigned."
+    },
+    {
+      "id": "ss266-example-04",
+      "en": "The instructions were simplified to the point where important details were lost.",
+      "zh": "指示被過度簡化，以致重要細節被刪去。",
+      "highlight": "The instructions were simplified to the point where important details were lost."
+    }
+  ],
+  "meaning": {
+    "zh": "To the point where 表示某個情況、動作或變化已達到明顯或極端的程度，因而造成後面完整子句所描述的結果。此處 where 通常指階段、程度、情況或狀態，而非實際地點。"
+  },
+  "rules": [
+    {
+      "id": "ss266-rule-01",
+      "zh": "固定核心只有 to the point where + clause；前面的主語、動作或描述以及後面的具體內容按句意填入。",
+      "en": "The fixed core is only to the point where + clause. The preceding subject, action or description and the specific result depend on the sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss266-rule-02",
+      "zh": "句型表示情況發展到明顯或極端程度，並導致後面的具體結果，而不只是一般程度增加。",
+      "en": "The structure shows that a situation developed to a marked or extreme degree and produced the stated result, not merely that it increased slightly.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss266-rule-03",
+      "zh": "where 在此通常表示階段、程度、情況或狀態，不一定表示地點。",
+      "en": "Where here normally refers to a stage, level, situation or condition rather than a physical place.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss266-rule-04",
+      "zh": "where 後必須接包含主語和限定動詞的完整子句。",
+      "en": "Where must be followed by a complete clause containing a subject and a finite verb.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss266-rule-05",
+      "zh": "核心可接在 become / get / grow + 形容詞、變化動詞、持續動作、使役結構或被動結構之後，也可使用否定形式。",
+      "en": "The core may follow become / get / grow + adjective, a change verb, a continuing action, a causative pattern or a passive form, and may also be negated.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss266-rule-06",
+      "zh": "不要把 so ... that 與 to the point where 重複混合；兩者可表達相近意思，但每句只需使用一個完整結構。",
+      "en": "Do not combine so ... that with to the point where redundantly. They may express a similar degree-result meaning, but only one complete structure is needed.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss266-rule-07",
+      "zh": "to the point where 表達程度所造成的結果，不表示目的。",
+      "en": "To the point where expresses a result caused by degree, not a purpose.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss266-rule-08",
+      "zh": "to the point where 後接完整子句；to the point of 後通常接名詞或動名詞，兩者結構不同。",
+      "en": "To the point where is followed by a complete clause, whereas to the point of is normally followed by a noun or gerund.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss266-rule-09",
+      "zh": "to a point where 可能合乎文法，但本練習統一使用目標形式 the point。",
+      "en": "To a point where can be grammatical, but this exercise consistently uses the target form the point.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss266-rule-10",
+      "zh": "改寫時須保留原句的時態、情態、肯定／否定和被動語態。",
+      "en": "Preserve the original tense, modality, positive or negative meaning and passive voice.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss266-benefit-01",
+      "zh": "它不只說事情增加、惡化或持續，還清楚顯示事情發展得多嚴重及造成甚麼結果。",
+      "en": "It shows exactly how serious or extreme something became by naming the result produced by that degree.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss266-benefit-02",
+      "zh": "它顯示後面的事件是因為前面的情況達到特定程度而發生，把發展和結果清楚連接。",
+      "en": "It connects a development with its result by showing that the second event followed because the first situation reached a particular level.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss266-benefit-03",
+      "zh": "它可以用具體實際影響取代 very serious、very bad 等籠統描述，補充有用細節。",
+      "en": "It helps you add useful detail by replacing vague descriptions such as very serious or very bad with a concrete effect.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss266-benefit-04",
+      "zh": "它適合描述逐步增加、惡化、擴散、縮窄、發展或持續的變化。",
+      "en": "It is useful for describing gradual change that increases, worsens, spreads, narrows, develops or continues.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss266-benefit-05",
+      "zh": "它適合在作文、報告、簡報和討論中準確解釋後果。",
+      "en": "It makes explanations and reports more precise when discussing consequences in essays, reports, presentations and discussions.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss266-benefit-06",
+      "zh": "它提供 so ... that 以外的程度＋結果句式，避免反覆使用同一結構。",
+      "en": "It gives you an alternative to repeated so ... that sentences while preserving the same degree-result relationship.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair using to the point where + clause.",
+      "Preserve the original meaning, tense, result, degree and logical relationship."
+    ],
+    "zh": [
+      "使用 to the point where + 子句 改寫每句或句子組合。",
+      "保留原句的意思、時態、結果、程度和邏輯關係。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss266-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "During the final part of the meeting, the discussion became so technical that many people could no longer follow it.",
+      "promptZh": "會議最後部分的討論變得非常技術性，令很多人再也無法理解。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the final part of the meeting, the discussion became technical to the point where many people could no longer follow it.",
+      "answerZh": "會議最後部分的討論變得非常技術性，以致很多人再也無法理解。",
+      "answerZhSource": "pdf",
+      "highlight": "During the final part of the meeting, the discussion became technical to the point where many people could no longer follow it."
+    },
+    {
+      "id": "ss266-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The rain became so heavy that drivers could barely see the road.",
+      "promptZh": "雨勢變得非常猛烈，令司機幾乎看不見道路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain became heavy to the point where drivers could barely see the road.",
+      "answerZh": "雨勢變得非常猛烈，以致司機幾乎看不見道路。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain became heavy to the point where drivers could barely see the road."
+    },
+    {
+      "id": "ss266-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "By midday, the classroom was so hot that the students could not concentrate.",
+      "promptZh": "到了中午，課室非常炎熱，令學生無法集中精神。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By midday, the classroom had become hot to the point where the students could not concentrate.",
+      "answerZh": "到了中午，課室已變得非常炎熱，以致學生無法集中精神。",
+      "answerZhSource": "pdf",
+      "highlight": "By midday, the classroom had become hot to the point where the students could not concentrate."
+    },
+    {
+      "id": "ss266-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The queue grew so long that it reached the main entrance.",
+      "promptZh": "隊伍變得非常長，一直延伸至正門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The queue grew to the point where it reached the main entrance.",
+      "answerZh": "隊伍不斷延長，一直延伸至正門。",
+      "answerZhSource": "pdf",
+      "highlight": "The queue grew to the point where it reached the main entrance."
+    },
+    {
+      "id": "ss266-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After the journey, Leo was so tired that he fell asleep at the table.",
+      "promptZh": "旅程結束後，Leo 非常疲倦，在餐桌旁睡着了。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the journey, Leo was tired to the point where he fell asleep at the table.",
+      "answerZh": "旅程結束後，Leo 疲倦至在餐桌旁睡着的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "After the journey, Leo was tired to the point where he fell asleep at the table."
+    },
+    {
+      "id": "ss266-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The music was so loud that the neighbours could not sleep.",
+      "promptZh": "音樂聲非常大，令鄰居無法入睡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The music was loud to the point where the neighbours could not sleep.",
+      "answerZh": "音樂聲非常大，以致鄰居無法入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "The music was loud to the point where the neighbours could not sleep."
+    },
+    {
+      "id": "ss266-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Near the top of the hill, the path became too narrow for two people to walk side by side.",
+      "promptZh": "接近山頂時，小徑變得非常狹窄，無法讓兩人並肩而行。",
+      "promptZhSource": "pdf",
+      "starter": "Near",
+      "answer": "Near the top of the hill, the path narrowed to the point where two people could no longer walk side by side.",
+      "answerZh": "接近山頂時，小徑變窄至兩人再也無法並肩而行的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "Near the top of the hill, the path narrowed to the point where two people could no longer walk side by side."
+    },
+    {
+      "id": "ss266-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When the visitors arrived, the dog became so excited that it would not stop barking.",
+      "promptZh": "訪客到達時，那隻狗變得非常興奮，不停吠叫。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the visitors arrived, the dog became excited to the point where it would not stop barking.",
+      "answerZh": "訪客到達時，那隻狗變得非常興奮，以致不停吠叫。",
+      "answerZhSource": "pdf",
+      "highlight": "When the visitors arrived, the dog became excited to the point where it would not stop barking."
+    },
+    {
+      "id": "ss266-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The soup became so salty that no one wanted to finish it.",
+      "promptZh": "湯變得非常鹹，沒有人想把它喝完。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup became salty to the point where no one wanted to finish it.",
+      "answerZh": "湯變得非常鹹，以致沒有人想把它喝完。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup became salty to the point where no one wanted to finish it."
+    },
+    {
+      "id": "ss266-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "As the storm approached, the wind became strong enough to force ferry services to stop.",
+      "promptZh": "風暴接近時，風勢增強，令渡輪服務被迫停止。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the storm approached, the wind strengthened to the point where ferry services had to stop.",
+      "answerZh": "風暴接近時，風勢不斷增強，以致渡輪服務必須停止。",
+      "answerZhSource": "pdf",
+      "highlight": "As the storm approached, the wind strengthened to the point where ferry services had to stop."
+    },
+    {
+      "id": "ss266-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Why did the organiser pause the event? The noise had become so great that no one could hear the announcements.",
+      "promptZh": "主辦者為甚麼暫停活動？現場聲浪變得非常大，沒有人能聽到廣播。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the event, the noise had increased to the point where no one could hear the announcements.",
+      "answerZh": "到了活動結束前，現場聲浪已增加至沒有人能聽到廣播的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the event, the noise had increased to the point where no one could hear the announcements."
+    },
+    {
+      "id": "ss266-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Sarah practised the piano for so long that her hands began to hurt.",
+      "promptZh": "Sarah 練習鋼琴太久，雙手開始疼痛。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah practised the piano to the point where her hands began to hurt.",
+      "answerZh": "Sarah 練習鋼琴至雙手開始疼痛的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah practised the piano to the point where her hands began to hurt."
+    },
+    {
+      "id": "ss266-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The disagreement began calmly, but it continued until several people were shouting at one another.",
+      "promptZh": "分歧最初以平靜的方式開始，但其後持續下去，直至幾個人互相叫喊。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What began as a calm disagreement continued to the point where several people were shouting at one another.",
+      "answerZh": "最初平靜的分歧持續下去，以致幾個人開始互相叫喊。",
+      "answerZhSource": "pdf",
+      "highlight": "What began as a calm disagreement continued to the point where several people were shouting at one another."
+    },
+    {
+      "id": "ss266-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Traffic became much worse during the afternoon. By the evening, buses were running forty-five minutes late.",
+      "promptZh": "下午的交通情況大幅惡化。到了晚上，巴士延誤了四十五分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the evening, traffic had worsened to the point where buses were running forty-five minutes late.",
+      "answerZh": "到了晚上，交通情況已惡化至巴士延誤四十五分鐘的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "By the evening, traffic had worsened to the point where buses were running forty-five minutes late."
+    },
+    {
+      "id": "ss266-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The screen brightness was reduced so much that the words became difficult to read.",
+      "promptZh": "螢幕亮度被調低太多，令文字變得難以閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The screen brightness was reduced to the point where the words became difficult to read.",
+      "answerZh": "螢幕亮度被調低至文字變得難以閱讀的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The screen brightness was reduced to the point where the words became difficult to read."
+    },
+    {
+      "id": "ss266-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The instructions were simplified so much that important details were omitted.",
+      "promptZh": "指示被過度簡化，令重要細節遭到刪去。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To make the guide easier, the instructions were simplified to the point where important details were omitted.",
+      "answerZh": "為了令指南更容易理解，指示被簡化至重要細節遭到刪去的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "To make the guide easier, the instructions were simplified to the point where important details were omitted."
+    },
+    {
+      "id": "ss266-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The company’s cost reductions were so severe that staff no longer had the equipment they needed.",
+      "promptZh": "公司的成本削減措施非常嚴厲，令員工不再擁有所需設備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company cut costs to the point where staff no longer had the equipment they needed.",
+      "answerZh": "公司削減成本，以致員工不再擁有所需設備。",
+      "answerZhSource": "pdf",
+      "highlight": "The company cut costs to the point where staff no longer had the equipment they needed."
+    },
+    {
+      "id": "ss266-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Aaron worried about the examination so much that he could not sleep the night before.",
+      "promptZh": "Aaron 非常擔心考試，前一晚無法入睡。",
+      "promptZhSource": "pdf",
+      "starter": "Aaron",
+      "answer": "Aaron worried about the examination to the point where he could not sleep the night before.",
+      "answerZh": "Aaron 非常擔心考試，以致前一晚無法入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "Aaron worried about the examination to the point where he could not sleep the night before."
+    },
+    {
+      "id": "ss266-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The temperature fell so low overnight that water pipes began to freeze.",
+      "promptZh": "氣溫在夜間降得非常低，令水管開始結冰。",
+      "promptZhSource": "pdf",
+      "starter": "Overnight",
+      "answer": "Overnight, the temperature fell to the point where water pipes began to freeze.",
+      "answerZh": "氣溫在夜間下降至水管開始結冰的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "Overnight, the temperature fell to the point where water pipes began to freeze."
+    },
+    {
+      "id": "ss266-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The town expanded so rapidly that the existing roads could no longer cope with the traffic.",
+      "promptZh": "市鎮擴展得非常迅速，令現有道路再也無法應付交通流量。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town expanded rapidly to the point where the existing roads could no longer cope with the traffic.",
+      "answerZh": "市鎮迅速擴展，以致現有道路再也無法應付交通流量。",
+      "answerZhSource": "pdf",
+      "highlight": "The town expanded rapidly to the point where the existing roads could no longer cope with the traffic."
+    },
+    {
+      "id": "ss266-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The medicine made the patient so drowsy that she could not keep her eyes open.",
+      "promptZh": "藥物令病人非常昏昏欲睡，以致她無法張開眼睛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine made the patient drowsy to the point where she could not keep her eyes open.",
+      "answerZh": "藥物令病人非常昏昏欲睡，以致她無法張開眼睛。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine made the patient drowsy to the point where she could not keep her eyes open."
+    },
+    {
+      "id": "ss266-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "He was repeatedly criticised. His confidence became so weak that he stopped speaking during meetings.",
+      "promptZh": "他受到反覆批評。他的信心受到嚴重打擊，不再在會議上發言。",
+      "promptZhSource": "pdf",
+      "starter": "Repeated",
+      "answer": "Repeated criticism damaged his confidence to the point where he stopped speaking during meetings.",
+      "answerZh": "反覆的批評嚴重打擊他的信心，以致他不再在會議上發言。",
+      "answerZhSource": "pdf",
+      "highlight": "Repeated criticism damaged his confidence to the point where he stopped speaking during meetings."
+    },
+    {
+      "id": "ss266-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Why did the chairperson end the meeting? The discussion became so hostile that several members began shouting.",
+      "promptZh": "主席為甚麼結束會議？討論變得極具敵意，幾名成員開始叫喊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chairperson ended the meeting after the discussion became hostile to the point where several members were shouting.",
+      "answerZh": "討論變得極具敵意，以致幾名成員開始叫喊，其後主席結束了會議。",
+      "answerZhSource": "pdf",
+      "highlight": "The chairperson ended the meeting after the discussion became hostile to the point where several members were shouting."
+    },
+    {
+      "id": "ss266-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The rumour spread so widely that the local shop had to close temporarily.",
+      "promptZh": "謠言廣泛流傳，令當地店舖不得不暫時停業。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rumour spread to the point where the local shop had to close temporarily.",
+      "answerZh": "謠言不斷流傳，以致當地店舖不得不暫時停業。",
+      "answerZhSource": "pdf",
+      "highlight": "The rumour spread to the point where the local shop had to close temporarily."
+    },
+    {
+      "id": "ss266-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Too many applications were running, so the computer became almost impossible to use.",
+      "promptZh": "同時運行的應用程式太多，令電腦幾乎無法使用。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With too many applications running, the computer slowed to the point where it was almost impossible to use.",
+      "answerZh": "由於同時運行的應用程式太多，電腦變慢至幾乎無法使用的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "With too many applications running, the computer slowed to the point where it was almost impossible to use."
+    },
+    {
+      "id": "ss266-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After two days of heavy rain, the river rose high enough for nearby homes to be evacuated.",
+      "promptZh": "經過兩天大雨後，河水上漲，令附近居民必須撤離。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After two days of heavy rain, the river rose to the point where nearby homes had to be evacuated.",
+      "answerZh": "經過兩天大雨後，河水上漲至附近居民必須撤離的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "After two days of heavy rain, the river rose to the point where nearby homes had to be evacuated."
+    },
+    {
+      "id": "ss266-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The deadlines were shortened so much that many students submitted unfinished work.",
+      "promptZh": "限期被大幅縮短，令很多學生提交尚未完成的功課。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The deadlines were shortened to the point where many students submitted unfinished work.",
+      "answerZh": "限期被縮短至很多學生提交尚未完成的功課的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The deadlines were shortened to the point where many students submitted unfinished work."
+    },
+    {
+      "id": "ss266-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The project schedule became so packed that the team had no time to review its work.",
+      "promptZh": "項目時間表變得非常緊密，令團隊沒有時間檢查工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project schedule became packed to the point where the team had no time to review its work.",
+      "answerZh": "項目時間表變得非常緊密，以致團隊沒有時間檢查工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The project schedule became packed to the point where the team had no time to review its work."
+    },
+    {
+      "id": "ss266-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Why was the road closed? The cracks had become so wide that driving on it was no longer safe.",
+      "promptZh": "道路為甚麼被封閉？裂縫變得非常寬，在路上駕駛已不再安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was closed after the cracks had widened to the point where driving on it was no longer safe.",
+      "answerZh": "裂縫擴闊至在路上駕駛不再安全的程度，其後道路被封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was closed after the cracks had widened to the point where driving on it was no longer safe."
+    },
+    {
+      "id": "ss266-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Daniel drank so much coffee that he could not sleep that night.",
+      "promptZh": "Daniel 喝了太多咖啡，當晚無法入睡。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel drank coffee to the point where he could not sleep that night.",
+      "answerZh": "Daniel 喝了大量咖啡，以致當晚無法入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel drank coffee to the point where he could not sleep that night."
+    },
+    {
+      "id": "ss266-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "What began as a joke became so personal that it damaged their friendship.",
+      "promptZh": "事情最初只是一個玩笑，其後變得涉及私人，以致破壞了他們的友誼。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What began as a joke became personal to the point where it damaged their friendship.",
+      "answerZh": "事情最初只是一個玩笑，其後變得涉及私人，以致破壞了他們的友誼。",
+      "answerZhSource": "pdf",
+      "highlight": "What began as a joke became personal to the point where it damaged their friendship."
+    },
+    {
+      "id": "ss266-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The crowd pressed so far forward that the doors could no longer be opened safely.",
+      "promptZh": "人群不斷向前擠迫，令大門再也無法安全開啟。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The crowd pressed forward to the point where the doors could no longer be opened safely.",
+      "answerZh": "人群不斷向前擠迫，以致大門再也無法安全開啟。",
+      "answerZhSource": "pdf",
+      "highlight": "The crowd pressed forward to the point where the doors could no longer be opened safely."
+    },
+    {
+      "id": "ss266-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "After repeated budget cuts, the bus service operated only two days a week.",
+      "promptZh": "經過多次預算削減後，巴士服務每星期只營運兩天。",
+      "promptZhSource": "pdf",
+      "starter": "Repeated",
+      "answer": "Repeated budget cuts reduced the bus service to the point where it operated only two days a week.",
+      "answerZh": "多次預算削減令巴士服務縮減至每星期只營運兩天。",
+      "answerZhSource": "pdf",
+      "highlight": "Repeated budget cuts reduced the bus service to the point where it operated only two days a week."
+    },
+    {
+      "id": "ss266-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The camera was zoomed in so far that the image lost its sharpness.",
+      "promptZh": "相機把畫面放大得太多，令影像失去清晰度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The camera was zoomed in to the point where the image lost its sharpness.",
+      "answerZh": "相機把畫面放大至影像失去清晰度的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The camera was zoomed in to the point where the image lost its sharpness."
+    },
+    {
+      "id": "ss266-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Grace revised the speech so many times that it no longer sounded natural on the day of the presentation.",
+      "promptZh": "Grace 修改演講稿太多次，令演講稿在簡報當天聽起來不再自然。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the day of the presentation, Grace had revised the speech to the point where it no longer sounded natural.",
+      "answerZh": "到了簡報當天，Grace 已多次修改演講稿，以致它聽起來不再自然。",
+      "answerZhSource": "pdf",
+      "highlight": "By the day of the presentation, Grace had revised the speech to the point where it no longer sounded natural."
+    },
+    {
+      "id": "ss266-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Construction noise continued for so long that several residents decided to move away.",
+      "promptZh": "建築噪音持續了很長時間，令幾名居民決定搬走。",
+      "promptZhSource": "pdf",
+      "starter": "Construction",
+      "answer": "Construction noise continued to the point where several residents decided to move away.",
+      "answerZh": "建築噪音持續下去，以致幾名居民決定搬走。",
+      "answerZhSource": "pdf",
+      "highlight": "Construction noise continued to the point where several residents decided to move away."
+    },
+    {
+      "id": "ss266-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "During the second hour, the online discussion became so detailed that several beginners left.",
+      "promptZh": "到了網上討論的第二個小時，內容變得非常仔細，令幾名初學者離開。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the second hour, the online discussion became detailed to the point where several beginners left.",
+      "answerZh": "到了網上討論的第二個小時，內容變得非常仔細，以致幾名初學者離開。",
+      "answerZhSource": "pdf",
+      "highlight": "During the second hour, the online discussion became detailed to the point where several beginners left."
+    },
+    {
+      "id": "ss266-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Staff found the policy difficult to apply because its rules had become so complex that legal advice was often needed.",
+      "promptZh": "政策的規則變得非常複雜，經常需要法律意見，因此員工認為政策難以執行。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff found the policy difficult to apply because its rules had grown in complexity to the point where legal advice was often needed.",
+      "answerZh": "政策的規則變得極為複雜，以致經常需要法律意見，因此員工認為政策難以執行。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff found the policy difficult to apply because its rules had grown in complexity to the point where legal advice was often needed."
+    },
+    {
+      "id": "ss266-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Why could the phone no longer be used properly after the accident? It was so badly damaged that its touch screen stopped responding.",
+      "promptZh": "意外後，電話為甚麼再也無法正常使用？電話嚴重損壞，觸控螢幕停止反應。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the accident, the phone was damaged to the point where its touch screen stopped responding.",
+      "answerZh": "意外後，電話損壞至觸控螢幕停止反應的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "After the accident, the phone was damaged to the point where its touch screen stopped responding."
+    },
+    {
+      "id": "ss266-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The river rose considerably, but it did not rise high enough to flood the village.",
+      "promptZh": "河水大幅上漲，但並未高至淹浸村莊的程度。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the river rose considerably, it did not rise to the point where it flooded the village.",
+      "answerZh": "雖然河水大幅上漲，但並未上漲至淹浸村莊的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the river rose considerably, it did not rise to the point where it flooded the village."
+    },
+    {
+      "id": "ss266-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Over several months, the hospital’s waiting list grew so long that non-urgent patients had to wait almost a year.",
+      "promptZh": "幾個月內，醫院的輪候名單變得非常長，非緊急病人必須等候接近一年。",
+      "promptZhSource": "pdf",
+      "starter": "Over",
+      "answer": "Over several months, the hospital’s waiting list lengthened to the point where non-urgent patients had to wait almost a year.",
+      "answerZh": "幾個月內，醫院的輪候名單不斷延長，以致非緊急病人必須等候接近一年。",
+      "answerZhSource": "pdf",
+      "highlight": "Over several months, the hospital’s waiting list lengthened to the point where non-urgent patients had to wait almost a year."
+    },
+    {
+      "id": "ss266-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The staff relied so heavily on the automated system that nobody remembered the manual process.",
+      "promptZh": "員工過度依賴自動化系統，沒有人再記得人手操作程序。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The staff relied on the automated system to the point where nobody remembered the manual process.",
+      "answerZh": "員工依賴自動化系統，以致沒有人再記得人手操作程序。",
+      "answerZhSource": "pdf",
+      "highlight": "The staff relied on the automated system to the point where nobody remembered the manual process."
+    },
+    {
+      "id": "ss266-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The speaker added so much background information that the main proposal became difficult to identify.",
+      "promptZh": "講者加入了太多背景資料，令主要建議變得難以辨認。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker added background information to the point where the main proposal became difficult to identify.",
+      "answerZh": "講者不斷加入背景資料，以致主要建議變得難以辨認。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker added background information to the point where the main proposal became difficult to identify."
+    },
+    {
+      "id": "ss266-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "As the district developed, its nightlife became so active that local residents could no longer sleep properly.",
+      "promptZh": "隨着該區發展，夜生活變得非常活躍，令當地居民再也無法安睡。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the district developed, its nightlife intensified to the point where local residents could no longer sleep properly.",
+      "answerZh": "隨着該區發展，夜生活變得非常活躍，以致當地居民再也無法安睡。",
+      "answerZhSource": "pdf",
+      "highlight": "As the district developed, its nightlife intensified to the point where local residents could no longer sleep properly."
+    },
+    {
+      "id": "ss266-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The research team wanted to make the report accessible, but it simplified the language so much that some findings became inaccurate.",
+      "promptZh": "研究團隊希望令報告更容易理解，但它把語言過度簡化，令部分研究結果變得不準確。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In trying to make the report accessible, the research team simplified the language to the point where some findings became inaccurate.",
+      "answerZh": "研究團隊嘗試令報告更容易理解，卻把語言簡化至部分研究結果變得不準確的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "In trying to make the report accessible, the research team simplified the language to the point where some findings became inaccurate."
+    },
+    {
+      "id": "ss266-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The company monitored its employees so closely that trust between staff and management began to collapse.",
+      "promptZh": "公司非常嚴密地監察員工，令員工與管理層之間的信任開始瓦解。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company monitored its employees to the point where trust between staff and management began to collapse.",
+      "answerZh": "公司嚴密監察員工，以致員工與管理層之間的信任開始瓦解。",
+      "answerZhSource": "pdf",
+      "highlight": "The company monitored its employees to the point where trust between staff and management began to collapse."
+    },
+    {
+      "id": "ss266-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The debate over safety became so polarised that neither side was willing to compromise.",
+      "promptZh": "有關安全的辯論變得非常兩極化，雙方都不願意妥協。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The debate over safety became polarised to the point where neither side was willing to compromise.",
+      "answerZh": "有關安全的辯論變得非常兩極化，以致雙方都不願意妥協。",
+      "answerZhSource": "pdf",
+      "highlight": "The debate over safety became polarised to the point where neither side was willing to compromise."
+    },
+    {
+      "id": "ss266-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The school gave so much attention to examination results that creative subjects received very little attention.",
+      "promptZh": "學校過度重視考試成績，令創意科目只得到很少關注。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school focused on examination results to the point where creative subjects received very little attention.",
+      "answerZh": "學校過度重視考試成績，以致創意科目只得到很少關注。",
+      "answerZhSource": "pdf",
+      "highlight": "The school focused on examination results to the point where creative subjects received very little attention."
+    },
+    {
+      "id": "ss266-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The restrictions remained in place for so long that many small businesses could no longer survive.",
+      "promptZh": "限制措施維持了很長時間，令很多小型企業再也無法生存。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restrictions remained in place to the point where many small businesses could no longer survive.",
+      "answerZh": "限制措施持續實施，以致很多小型企業再也無法生存。",
+      "answerZhSource": "pdf",
+      "highlight": "The restrictions remained in place to the point where many small businesses could no longer survive."
+    },
+    {
+      "id": "ss266-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Over time, the community became so dependent on cars that even very short journeys were made by car.",
+      "promptZh": "隨着時間過去，社區變得非常依賴汽車，甚至非常短的路程也會乘車。",
+      "promptZhSource": "pdf",
+      "starter": "Over",
+      "answer": "Over time, the community became dependent on cars to the point where even very short journeys were made by car.",
+      "answerZh": "隨着時間過去，社區變得非常依賴汽車，以致即使非常短的路程也會乘車。",
+      "answerZhSource": "pdf",
+      "highlight": "Over time, the community became dependent on cars to the point where even very short journeys were made by car."
+    }
+  ]
+}

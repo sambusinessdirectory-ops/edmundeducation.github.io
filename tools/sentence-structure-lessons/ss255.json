@@ -1,0 +1,1249 @@
+{
+  "id": "ss255",
+  "order": 255,
+  "slug": "unlike-x-y",
+  "title": "「Unlike X, Y …」句",
+  "titleZh": "「Unlike X, Y …」表達對比",
+  "titleEn": "Unlike X, Y …",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 254 -「Unlike X, Y …」表達對比.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered one lower than this system lesson ID because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "unlike + comparison item",
+  "formulas": [
+    {
+      "id": "ss255-formula-01",
+      "labelEn": "At the beginning",
+      "labelZh": "放在句首",
+      "formula": "Unlike + X, + Y + verb + other information."
+    },
+    {
+      "id": "ss255-formula-02",
+      "labelEn": "In the middle",
+      "labelZh": "放在句中",
+      "formula": "Y, unlike + X, + verb + other information."
+    },
+    {
+      "id": "ss255-formula-03",
+      "labelEn": "At the end",
+      "labelZh": "放在句末",
+      "formula": "Y + verb + other information, unlike + X."
+    },
+    {
+      "id": "ss255-formula-04",
+      "labelEn": "Object pronoun",
+      "labelZh": "接受詞代名詞",
+      "formula": "unlike me / you / him / her / us / them"
+    },
+    {
+      "id": "ss255-formula-05",
+      "labelEn": "Gerund phrase",
+      "labelZh": "接 -ing 短語",
+      "formula": "Unlike + V-ing phrase, + complete clause."
+    },
+    {
+      "id": "ss255-formula-06",
+      "labelEn": "Advanced what-clause",
+      "labelZh": "進階 what 子句",
+      "formula": "unlike what + subject + verb"
+    }
+  ],
+  "example": "Unlike the first proposal, the second includes a clear budget.",
+  "exampleZh": "與第一個提案不同，第二個提案包含清晰的預算。",
+  "examples": [
+    {
+      "id": "ss255-example-01",
+      "en": "Unlike the first proposal, the second includes a clear budget.",
+      "zh": "與第一個提案不同，第二個提案包含清晰的預算。",
+      "highlight": "Unlike the first proposal, the second includes a clear budget."
+    },
+    {
+      "id": "ss255-example-02",
+      "en": "The second proposal, unlike the first, includes a clear budget.",
+      "zh": "第二個提案與第一個不同，包含清晰的預算。",
+      "highlight": "The second proposal, unlike the first, includes a clear budget."
+    },
+    {
+      "id": "ss255-example-03",
+      "en": "The northern path remains open in winter, unlike the southern path.",
+      "zh": "北面的路徑在冬季仍然開放，南面的路徑則不同。",
+      "highlight": "The northern path remains open in winter, unlike the southern path."
+    }
+  ],
+  "meaning": {
+    "zh": "使用 unlike + 比較對象，直接指出兩個人物、事物、活動或情況之間的不同。"
+  },
+  "rules": [
+    {
+      "id": "ss255-rule-01",
+      "zh": "X 和 Y 必須屬同類，或在邏輯上可以互相比較。",
+      "en": "Compare similar types of things. X and Y must be logically comparable.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss255-rule-02",
+      "zh": "unlike 短語放在句首時，短語後通常加逗號。",
+      "en": "Use a comma after an opening unlike phrase.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss255-rule-03",
+      "zh": "unlike 短語插入主句中間時，通常在短語前後各加逗號。",
+      "en": "Use two commas for a middle unlike phrase.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss255-rule-04",
+      "zh": "主要句式中，unlike 後應接名詞短語、代名詞或 -ing 短語，不應直接接完整獨立子句；如比較兩個完整子句，使用 whereas 或 while。",
+      "en": "Do not normally place a complete independent clause directly after unlike. Use a noun phrase, pronoun or -ing phrase; use whereas or while when two complete clauses are required.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss255-rule-05",
+      "zh": "時間、地點或其他額外資料可以省略；核心結構仍是 unlike + comparison item。",
+      "en": "Extra information is optional. The core expression remains unlike plus a comparison item.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss255-benefit-01",
+      "zh": "能立即顯示兩個人物、事物或情況之間的不同。",
+      "en": "It makes the difference clear immediately.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss255-benefit-02",
+      "zh": "能把兩項資料順暢合併成一句。",
+      "en": "It combines two ideas into one sentence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss255-benefit-03",
+      "zh": "能避免反覆使用 but、while 和 whereas。",
+      "en": "It helps avoid repeating but, while and whereas.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss255-benefit-04",
+      "zh": "unlike 短語可放在句首、句中或句末，增加句子開首和結構的變化。",
+      "en": "It allows different sentence openings.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss255-benefit-05",
+      "zh": "適合用來比較計劃、產品、人物、地點、制度、結果和經歷。",
+      "en": "It is useful in comparison writing and speaking.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss255-benefit-06",
+      "zh": "改變 unlike 短語的位置，可以調整讀者先注意的重點。",
+      "en": "Its position can change the emphasis.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered one lower than this system lesson ID because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item as one sentence using unlike.",
+      "The unlike phrase may appear at the beginning, in the middle or at the end of the answer.",
+      "Preserve the original meaning, tense, people, objects and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 unlike，把每題改寫成一句完整句子。",
+      "unlike 短語可以放在答案的句首、句中或句末。",
+      "保留原句的意思、時態、人物、物件和重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss255-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The first proposal does not include a clear budget, but the second proposal does.",
+      "promptZh": "第一個提案沒有包含清晰的預算，但第二個提案有。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the first proposal, the second includes a clear budget.",
+      "answerZh": "與第一個提案不同，第二個提案包含清晰的預算。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the first proposal, the second includes a clear budget."
+    },
+    {
+      "id": "ss255-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The old printer is noisy, whereas the new printer works quietly.",
+      "promptZh": "舊打印機運作時十分嘈吵，而新打印機則十分安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new printer works quietly, unlike the old one.",
+      "answerZh": "新打印機運作安靜，舊打印機則十分嘈吵。",
+      "answerZhSource": "pdf",
+      "highlight": "The new printer works quietly, unlike the old one."
+    },
+    {
+      "id": "ss255-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel enjoys speaking in public, but his brother does not.",
+      "promptZh": "Daniel 喜歡公開發言，但他的兄弟並不喜歡。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel, unlike his brother, enjoys speaking in public.",
+      "answerZh": "Daniel 與他的兄弟不同，他喜歡公開發言。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel, unlike his brother, enjoys speaking in public."
+    },
+    {
+      "id": "ss255-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The city library opens on Sundays. The village library closes on Sundays.",
+      "promptZh": "市立圖書館在星期日開放。鄉村圖書館則在星期日關閉。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the city library, the village library closes on Sundays.",
+      "answerZh": "與市立圖書館不同，鄉村圖書館在星期日關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the city library, the village library closes on Sundays."
+    },
+    {
+      "id": "ss255-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The jacket I bought last year is not waterproof, but this jacket is.",
+      "promptZh": "我去年買的外套並不防水，但這件外套可以防水。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This jacket, unlike the one I bought last year, is waterproof.",
+      "answerZh": "這件外套與我去年買的那件不同，可以防水。",
+      "answerZhSource": "pdf",
+      "highlight": "This jacket, unlike the one I bought last year, is waterproof."
+    },
+    {
+      "id": "ss255-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our morning flight was delayed, while our evening flight left on time.",
+      "promptZh": "我們早上的航班延誤了，而晚上的航班則準時起飛。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our evening flight left on time, unlike our morning flight.",
+      "answerZh": "我們晚上的航班準時起飛，早上的航班則延誤了。",
+      "answerZhSource": "pdf",
+      "highlight": "Our evening flight left on time, unlike our morning flight."
+    },
+    {
+      "id": "ss255-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The red team did not complete every task, but the blue team did.",
+      "promptZh": "紅隊沒有完成所有任務，但藍隊完成了。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the red team, the blue team completed every task.",
+      "answerZh": "與紅隊不同，藍隊完成了所有任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the red team, the blue team completed every task."
+    },
+    {
+      "id": "ss255-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The paper form cannot be edited after it is completed, whereas the online form can.",
+      "promptZh": "紙本表格填妥後不能修改，而網上表格則可以修改。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The online form can be edited after it is completed, unlike the paper form.",
+      "answerZh": "網上表格填妥後仍可修改，紙本表格則不能。",
+      "answerZhSource": "pdf",
+      "highlight": "The online form can be edited after it is completed, unlike the paper form."
+    },
+    {
+      "id": "ss255-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The main entrance has no ramp, but the side entrance has one.",
+      "promptZh": "正門沒有斜道，但側門設有斜道。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The side entrance, unlike the main entrance, has a ramp.",
+      "answerZh": "側門與正門不同，設有斜道。",
+      "answerZhSource": "pdf",
+      "highlight": "The side entrance, unlike the main entrance, has a ramp."
+    },
+    {
+      "id": "ss255-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The café near the station stops serving breakfast early. This café serves breakfast all day.",
+      "promptZh": "車站附近的咖啡店很早便停止供應早餐。這間咖啡店則全日供應早餐。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the café near the station, this café serves breakfast all day.",
+      "answerZh": "與車站附近的咖啡店不同，這間咖啡店全日供應早餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the café near the station, this café serves breakfast all day."
+    },
+    {
+      "id": "ss255-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Only the second lesson included practical examples; the first lesson did not.",
+      "promptZh": "只有第二堂課包含實際例子；第一堂課並沒有。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The second lesson included practical examples, unlike the first.",
+      "answerZh": "第二堂課包含實際例子，第一堂課則沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The second lesson included practical examples, unlike the first."
+    },
+    {
+      "id": "ss255-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Her previous manager rarely gave clear instructions, while Ms Wong gives clear instructions.",
+      "promptZh": "她之前的經理很少給予清晰指示，而黃女士則會給予清晰指示。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Wong, unlike her previous manager, gives clear instructions.",
+      "answerZh": "黃女士與她之前的經理不同，會給予清晰指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Wong, unlike her previous manager, gives clear instructions."
+    },
+    {
+      "id": "ss255-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "There is one important difference between the old and new timetables: the new one allows longer lunch breaks.",
+      "promptZh": "新舊時間表有一項重要分別：新時間表提供較長的午膳時間。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the old timetable, the new one allows longer lunch breaks.",
+      "answerZh": "與舊時間表不同，新時間表提供較長的午膳時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the old timetable, the new one allows longer lunch breaks."
+    },
+    {
+      "id": "ss255-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The southern path closes in winter, whereas the northern path remains open.",
+      "promptZh": "南面小徑在冬季關閉，而北面小徑則維持開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The northern path remains open in winter, unlike the southern path.",
+      "answerZh": "北面小徑在冬季維持開放，南面小徑則會關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The northern path remains open in winter, unlike the southern path."
+    },
+    {
+      "id": "ss255-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ordinary batteries can be used only once, but rechargeable batteries can be used many times.",
+      "promptZh": "普通電池只能使用一次，但充電池可以多次使用。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike ordinary batteries, rechargeable batteries can be used many times.",
+      "answerZh": "與普通電池不同，充電池可以多次使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike ordinary batteries, rechargeable batteries can be used many times."
+    },
+    {
+      "id": "ss255-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This medicine differs from the other tablets because it must be taken after meals.",
+      "promptZh": "這種藥物與其他藥片不同，因為它必須在飯後服用。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine, unlike the other tablets, must be taken after meals.",
+      "answerZh": "這種藥物與其他藥片不同，必須在飯後服用。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine, unlike the other tablets, must be taken after meals."
+    },
+    {
+      "id": "ss255-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our old classroom did not have enough power sockets, but our new classroom does.",
+      "promptZh": "我們的舊課室沒有足夠的電源插座，但新課室有。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our new classroom has enough power sockets, unlike our old classroom.",
+      "answerZh": "我們的新課室有足夠的電源插座，舊課室則沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "Our new classroom has enough power sockets, unlike our old classroom."
+    },
+    {
+      "id": "ss255-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How are Leo and Priya different? Leo often submits his work without checking every answer, but Priya checks every answer first.",
+      "promptZh": "Leo 和 Priya 有甚麼不同？Leo 經常沒有檢查每個答案便提交功課，但 Priya 會先檢查每個答案。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike Leo, Priya checks every answer before submitting her work.",
+      "answerZh": "與 Leo 不同，Priya 會在提交功課前檢查每個答案。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike Leo, Priya checks every answer before submitting her work."
+    },
+    {
+      "id": "ss255-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Several small shops nearby accept only cash, while the local market accepts card payments.",
+      "promptZh": "附近數間小店只接受現金，而本地市場則接受以卡付款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local market, unlike several small shops nearby, accepts card payments.",
+      "answerZh": "本地市場與附近數間小店不同，接受以卡付款。",
+      "answerZhSource": "pdf",
+      "highlight": "The local market, unlike several small shops nearby, accepts card payments."
+    },
+    {
+      "id": "ss255-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The morning class is full. The afternoon class still has space for new students.",
+      "promptZh": "上午班已經滿額。下午班仍有名額供新學生報讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The afternoon class has space for new students, unlike the morning class.",
+      "answerZh": "下午班仍有名額供新學生報讀，上午班則已經滿額。",
+      "answerZhSource": "pdf",
+      "highlight": "The afternoon class has space for new students, unlike the morning class."
+    },
+    {
+      "id": "ss255-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The revised report differs from the first report because it explains how the data was collected.",
+      "promptZh": "修訂後的報告與第一份報告不同，因為它解釋了資料的收集方法。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the first report, the revised report explains how the data was collected.",
+      "answerZh": "與第一份報告不同，修訂後的報告解釋了資料的收集方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the first report, the revised report explains how the data was collected."
+    },
+    {
+      "id": "ss255-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The art gallery charges an entrance fee on Wednesdays, whereas the museum offers free entry.",
+      "promptZh": "藝術館在星期三收取入場費，而博物館則免費開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum, unlike the art gallery, offers free entry on Wednesdays.",
+      "answerZh": "博物館與藝術館不同，在星期三免費開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum, unlike the art gallery, offers free entry on Wednesdays."
+    },
+    {
+      "id": "ss255-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The earlier version of the software did not save files automatically, but the new software does.",
+      "promptZh": "較早版本的軟件不會自動儲存檔案，但新軟件會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new software saves files automatically, unlike the earlier version.",
+      "answerZh": "新軟件會自動儲存檔案，較早版本則不會。",
+      "answerZhSource": "pdf",
+      "highlight": "The new software saves files automatically, unlike the earlier version."
+    },
+    {
+      "id": "ss255-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When I drive, I cannot work during the journey. When I travel by train, I can work.",
+      "promptZh": "駕車時，我不能在途中工作。乘火車時，我則可以工作。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike driving, travelling by train allows me to work during the journey.",
+      "answerZh": "與駕車不同，乘火車讓我可以在途中工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike driving, travelling by train allows me to work during the journey."
+    },
+    {
+      "id": "ss255-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Only the west wing has air conditioning; the east wing does not.",
+      "promptZh": "只有西翼設有冷氣；東翼並沒有。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The west wing has air conditioning, unlike the east wing.",
+      "answerZh": "西翼設有冷氣，東翼則沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The west wing has air conditioning, unlike the east wing."
+    },
+    {
+      "id": "ss255-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Most of Alex’s colleagues like listening to background music while they work, but Alex prefers to work without it.",
+      "promptZh": "Alex 大部分同事工作時都喜歡聽背景音樂，但 Alex 較喜歡在沒有背景音樂的情況下工作。",
+      "promptZhSource": "pdf",
+      "starter": "Alex",
+      "answer": "Alex, unlike most of his colleagues, prefers to work without background music.",
+      "answerZh": "Alex 與大部分同事不同，較喜歡在沒有背景音樂的情況下工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Alex, unlike most of his colleagues, prefers to work without background music."
+    },
+    {
+      "id": "ss255-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The printed guide cannot provide live updates, whereas the mobile app can.",
+      "promptZh": "印刷指南不能提供即時更新，而流動應用程式則可以。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the printed guide, the mobile app provides live updates.",
+      "answerZh": "與印刷指南不同，流動應用程式提供即時更新。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the printed guide, the mobile app provides live updates."
+    },
+    {
+      "id": "ss255-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The usual route goes through the busy town centre, but this route avoids it.",
+      "promptZh": "平常的路線會穿過繁忙的市中心，但這條路線會避開市中心。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This route, unlike the usual route, avoids the busy town centre.",
+      "answerZh": "這條路線與平常的路線不同，會避開繁忙的市中心。",
+      "answerZhSource": "pdf",
+      "highlight": "This route, unlike the usual route, avoids the busy town centre."
+    },
+    {
+      "id": "ss255-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The main difference between the previous and new policies is that the new policy also applies to part-time staff.",
+      "promptZh": "先前政策與新政策的主要分別，是新政策亦適用於兼職員工。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy also applies to part-time staff, unlike the previous policy.",
+      "answerZh": "新政策亦適用於兼職員工，先前的政策則不適用。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy also applies to part-time staff, unlike the previous policy."
+    },
+    {
+      "id": "ss255-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Last year’s event was held indoors, while this year’s event will be held outdoors.",
+      "promptZh": "去年的活動在室內舉行，而今年的活動將在戶外舉行。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike last year’s event, this year’s event will be held outdoors.",
+      "answerZh": "與去年的活動不同，今年的活動將在戶外舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike last year’s event, this year’s event will be held outdoors."
+    },
+    {
+      "id": "ss255-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The express service skipped several villages, but the replacement bus stopped at every village.",
+      "promptZh": "特快服務沒有停靠數條村落，但替代巴士在每條村落都有停站。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The replacement bus stopped at every village, unlike the express service.",
+      "answerZh": "替代巴士在每條村落都有停站，特快服務則沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The replacement bus stopped at every village, unlike the express service."
+    },
+    {
+      "id": "ss255-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The sports club charges a joining fee, but the community centre does not.",
+      "promptZh": "體育會收取入會費，但社區中心不收取。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the sports club, the community centre does not charge a joining fee.",
+      "answerZh": "與體育會不同，社區中心不收取入會費。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the sports club, the community centre does not charge a joining fee."
+    },
+    {
+      "id": "ss255-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What was improved in the second experiment? The first experiment did not control the room temperature, but the second one did.",
+      "promptZh": "第二次實驗改善了甚麼？第一次實驗沒有控制室溫，但第二次實驗有。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The second experiment, unlike the first, controlled the room temperature.",
+      "answerZh": "第二次實驗與第一次不同，有控制室溫。",
+      "answerZhSource": "pdf",
+      "highlight": "The second experiment, unlike the first, controlled the room temperature."
+    },
+    {
+      "id": "ss255-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The old website did not work well on mobile phones, but the updated website does.",
+      "promptZh": "舊網站在流動電話上運作不佳，但更新後的網站運作良好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The updated website works well on mobile phones, unlike the old website.",
+      "answerZh": "更新後的網站在流動電話上運作良好，舊網站則不然。",
+      "answerZhSource": "pdf",
+      "highlight": "The updated website works well on mobile phones, unlike the old website."
+    },
+    {
+      "id": "ss255-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our supplier can deliver within two days, whereas its main competitor cannot.",
+      "promptZh": "我們的供應商可以在兩日內送貨，而其主要競爭對手則不能。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike its main competitor, our supplier can deliver within two days.",
+      "answerZh": "與其主要競爭對手不同，我們的供應商可以在兩日內送貨。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike its main competitor, our supplier can deliver within two days."
+    },
+    {
+      "id": "ss255-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The cheaper model does not come with a five-year guarantee, but the premium model does.",
+      "promptZh": "較便宜的型號不設五年保養，但高級型號設有。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The premium model, unlike the cheaper model, comes with a five-year guarantee.",
+      "answerZh": "高級型號與較便宜的型號不同，設有五年保養。",
+      "answerZhSource": "pdf",
+      "highlight": "The premium model, unlike the cheaper model, comes with a five-year guarantee."
+    },
+    {
+      "id": "ss255-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The morning clinic accepts appointments only, while the evening clinic also accepts walk-in patients.",
+      "promptZh": "上午診所只接受預約病人，而晚間診所亦接受即場求診病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evening clinic accepts walk-in patients, unlike the morning clinic.",
+      "answerZh": "晚間診所接受即場求診病人，上午診所則只接受預約病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The evening clinic accepts walk-in patients, unlike the morning clinic."
+    },
+    {
+      "id": "ss255-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The earlier chapters are not written from the child’s point of view, but the final chapter is.",
+      "promptZh": "較早的章節並非從孩子的角度書寫，但最後一章是。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the earlier chapters, the final chapter is written from the child’s point of view.",
+      "answerZh": "與較早的章節不同，最後一章從孩子的角度書寫。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the earlier chapters, the final chapter is written from the child’s point of view."
+    },
+    {
+      "id": "ss255-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Simply memorising rules does not help learners remember them, but using the rules in conversation does.",
+      "promptZh": "只背誦規則並不能幫助學習者記住它們，但在對話中運用規則則有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "Using",
+      "answer": "Using the rules in conversation helps learners remember them, unlike simply memorising them.",
+      "answerZh": "在對話中運用規則能幫助學習者記住它們，只背誦規則則不能。",
+      "answerZhSource": "pdf",
+      "highlight": "Using the rules in conversation helps learners remember them, unlike simply memorising them."
+    },
+    {
+      "id": "ss255-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The coastal road closed during the storm, but the new bridge remained open.",
+      "promptZh": "沿海道路在暴風雨期間關閉，但新橋仍然開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new bridge, unlike the coastal road, remained open during the storm.",
+      "answerZh": "新橋與沿海道路不同，在暴風雨期間仍然開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The new bridge, unlike the coastal road, remained open during the storm."
+    },
+    {
+      "id": "ss255-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Both plans reduce costs. However, the original plan cuts staff, while the revised plan does not.",
+      "promptZh": "兩個計劃都能減少成本。不過，原有計劃會裁減員工，而修訂後的計劃則不會。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the original plan, the revised plan reduces costs without cutting staff.",
+      "answerZh": "與原有計劃不同，修訂後的計劃能在不裁減員工的情況下減少成本。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the original plan, the revised plan reduces costs without cutting staff."
+    },
+    {
+      "id": "ss255-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The other candidates made general claims without specific evidence, but Hannah supported her claims with specific evidence.",
+      "promptZh": "其他候選人提出概括性的說法，卻沒有提供具體證據，但 Hannah 以具體證據支持自己的說法。",
+      "promptZhSource": "pdf",
+      "starter": "Hannah",
+      "answer": "Hannah, unlike the other candidates, supported her claims with specific evidence.",
+      "answerZh": "Hannah 與其他候選人不同，以具體證據支持自己的說法。",
+      "answerZhSource": "pdf",
+      "highlight": "Hannah, unlike the other candidates, supported her claims with specific evidence."
+    },
+    {
+      "id": "ss255-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A lost paper ticket cannot be replaced, but a lost digital ticket can.",
+      "promptZh": "遺失的紙本門票不能補發，但遺失的電子門票可以補發。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A digital ticket can be replaced if it is lost, unlike a paper ticket.",
+      "answerZh": "電子門票遺失後可以補發，紙本門票則不能。",
+      "answerZhSource": "pdf",
+      "highlight": "A digital ticket can be replaced if it is lost, unlike a paper ticket."
+    },
+    {
+      "id": "ss255-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The previous research team published only successful results, whereas the new team published both successful and unsuccessful results.",
+      "promptZh": "之前的研究團隊只發表成功的結果，而新團隊則同時發表成功和不成功的結果。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the previous research team, the new team published both successful and unsuccessful results.",
+      "answerZh": "與之前的研究團隊不同，新團隊同時發表成功和不成功的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the previous research team, the new team published both successful and unsuccessful results."
+    },
+    {
+      "id": "ss255-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A temporary repair would not solve the problem for many years, but replacing the damaged pipe should.",
+      "promptZh": "臨時維修不能令問題在多年內得到解決，但更換損壞的水管應該可以。",
+      "promptZhSource": "pdf",
+      "starter": "Replacing",
+      "answer": "Replacing the damaged pipe should solve the problem for many years, unlike a temporary repair.",
+      "answerZh": "更換損壞的水管應能令問題在多年內得到解決，臨時維修則不能。",
+      "answerZhSource": "pdf",
+      "highlight": "Replacing the damaged pipe should solve the problem for many years, unlike a temporary repair."
+    },
+    {
+      "id": "ss255-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The larger venue has poor transport links, but the smaller venue has better transport links.",
+      "promptZh": "較大的場地交通接駁不佳，但較小的場地有較好的交通接駁。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The smaller venue, unlike the larger one, has better transport links.",
+      "answerZh": "較小的場地與較大的場地不同，有較好的交通接駁。",
+      "answerZhSource": "pdf",
+      "highlight": "The smaller venue, unlike the larger one, has better transport links."
+    },
+    {
+      "id": "ss255-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The former safety procedure did not require two staff members to check the equipment, but the new procedure does.",
+      "promptZh": "之前的安全程序沒有要求兩名職員檢查設備，但新程序有此要求。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the former safety procedure, the new procedure requires two staff members to check the equipment.",
+      "answerZh": "與之前的安全程序不同，新程序要求兩名職員檢查設備。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the former safety procedure, the new procedure requires two staff members to check the equipment."
+    },
+    {
+      "id": "ss255-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The advertisement suggested that the course included individual coaching, but the course does not include it.",
+      "promptZh": "廣告暗示課程包含個別指導，但課程並不包括這項服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course does not include individual coaching, unlike what the advertisement suggested.",
+      "answerZh": "課程並不包括個別指導，與廣告所暗示的內容不同。",
+      "answerZhSource": "pdf",
+      "highlight": "The course does not include individual coaching, unlike what the advertisement suggested."
+    },
+    {
+      "id": "ss255-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The first interview revealed no practical problems, whereas the second interview revealed several.",
+      "promptZh": "第一次訪問沒有揭示任何實際問題，而第二次訪問則揭示了數個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Unlike",
+      "answer": "Unlike the first interview, the second interview revealed several practical problems.",
+      "answerZh": "與第一次訪問不同，第二次訪問揭示了數個實際問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Unlike the first interview, the second interview revealed several practical problems."
+    },
+    {
+      "id": "ss255-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The old booking system did not allow patients to change appointments online, but the hospital’s new system does.",
+      "promptZh": "舊預約系統不容許病人在網上更改預約，但醫院的新系統可以。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital’s new booking system, unlike the old system, allows patients to change appointments online.",
+      "answerZh": "醫院的新預約系統與舊系統不同，容許病人在網上更改預約。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital’s new booking system, unlike the old system, allows patients to change appointments online."
+    }
+  ]
+}

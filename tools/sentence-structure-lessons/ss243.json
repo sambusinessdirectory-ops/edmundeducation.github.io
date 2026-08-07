@@ -1,0 +1,1292 @@
+{
+  "id": "ss243",
+  "order": 243,
+  "slug": "be-worth-noun-v-ing",
+  "title": "「be worth + noun ／ V-ing」表達價值",
+  "titleZh": "「be worth + noun ／ V-ing」表達價值",
+  "titleEn": "Using be worth + noun / V-ing",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 242 - 「be worth + noun _ V-ing」表達價值.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "exercisePages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerPages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+      "The source filename is numbered 242; it is assigned system ID ss243 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Subject + be + worth + noun / noun phrase",
+  "formulas": [
+    {
+      "id": "ss243-formula-01",
+      "labelEn": "With a noun",
+      "labelZh": "配合名詞",
+      "formula": "Subject + be + worth + noun / noun phrase"
+    },
+    {
+      "id": "ss243-formula-02",
+      "labelEn": "With an action",
+      "labelZh": "配合行動",
+      "formula": "Subject + be + worth + V-ing"
+    },
+    {
+      "id": "ss243-formula-03",
+      "labelEn": "Introductory it",
+      "labelZh": "引導詞 it",
+      "formula": "It + be + worth + V-ing"
+    },
+    {
+      "id": "ss243-formula-04",
+      "labelEn": "Question",
+      "labelZh": "疑問形式",
+      "formula": "Be + subject + worth + noun / V-ing?"
+    },
+    {
+      "id": "ss243-formula-05",
+      "labelEn": "Modal",
+      "labelZh": "情態形式",
+      "formula": "Subject + may / might / could + be worth + noun / V-ing"
+    }
+  ],
+  "example": "The exhibition is worth a visit.",
+  "exampleZh": "這個展覽值得參觀。",
+  "examples": [
+    {
+      "id": "ss243-example-01",
+      "en": "The exhibition is worth a visit.",
+      "zh": "這個展覽值得參觀。",
+      "highlight": "The exhibition is worth a visit."
+    },
+    {
+      "id": "ss243-example-02",
+      "en": "The proposal is worth considering.",
+      "zh": "這項建議值得考慮。",
+      "highlight": "The proposal is worth considering."
+    },
+    {
+      "id": "ss243-example-03",
+      "en": "It is worth checking the details.",
+      "zh": "這些細節值得核實。",
+      "highlight": "It is worth checking the details."
+    },
+    {
+      "id": "ss243-example-04",
+      "en": "The article is well worth reading.",
+      "zh": "這篇文章很值得閱讀。",
+      "highlight": "The article is well worth reading."
+    }
+  ],
+  "meaning": {
+    "zh": "表示某件事具有足夠價值、好處、重要性或實用性，值得花費金錢、時間或努力，承受風險，或進行某項行動。"
+  },
+  "rules": [
+    {
+      "id": "ss243-rule-01",
+      "zh": "worth 後使用 V-ing，不使用 to + 動詞。",
+      "en": "Use the -ing form after worth, not a to-infinitive.",
+      "enSource": "pdf",
+      "examples": [
+        "The proposal is worth considering.",
+        "Incorrect: The proposal is worth to consider."
+      ]
+    },
+    {
+      "id": "ss243-rule-02",
+      "zh": "在 This book is worth reading 中，book 是接受 reading 動作的一方；這個常用結構仍使用主動 V-ing，而非 being read。",
+      "en": "The subject often receives the V-ing action. In This book is worth reading, the book does not perform the reading; nevertheless, the common structure uses active V-ing rather than being read.",
+      "enSource": "pdf",
+      "examples": [
+        "This book is worth reading.",
+        "It is worth reading this book."
+      ]
+    },
+    {
+      "id": "ss243-rule-03",
+      "zh": "V-ing 片語可保留受詞、副詞和其他補語。",
+      "en": "Keep the object, adverb or other details after V-ing when they are part of the action being judged.",
+      "enSource": "pdf",
+      "examples": [
+        "The plan is worth discussing with the whole team.",
+        "The report is worth reading carefully."
+      ]
+    },
+    {
+      "id": "ss243-rule-04",
+      "zh": "worth 可以直接接金額，金額前不要加 of；a value of 是另一個名詞結構。",
+      "en": "Worth can be followed directly by an amount of money. Do not add of; a value of is a separate noun structure.",
+      "enSource": "pdf",
+      "examples": [
+        "The watch is worth £200.",
+        "Incorrect: The watch is worth of £200."
+      ]
+    },
+    {
+      "id": "ss243-rule-05",
+      "zh": "worth it 可代表之前提及的價錢、努力、等待或困難，但只是可選延伸，不是本課主要目標。",
+      "en": "Worth it is an optional extension when it represents a previously mentioned cost, effort, wait or difficulty; it is not the main target of this exercise.",
+      "enSource": "pdf",
+      "examples": [
+        "The journey was tiring, but it was worth it."
+      ]
+    },
+    {
+      "id": "ss243-rule-06",
+      "zh": "worthwhile 是另一個字，使用不同文法；題目可出現，但答案須改用 be worth + noun ／ V-ing。",
+      "en": "Worthwhile is a separate word with different grammar. It may appear in a source prompt, but required answers use be worth + noun / V-ing.",
+      "enSource": "pdf",
+      "examples": [
+        "A visit to the museum would be worthwhile."
+      ]
+    },
+    {
+      "id": "ss243-rule-07",
+      "zh": "worthy of 是另一個正確但不同的結構；本課答案改寫為 be worth + V-ing。",
+      "en": "Worthy of is another grammatical but separate structure. This exercise rewrites it with be worth + V-ing.",
+      "enSource": "pdf",
+      "examples": [
+        "The proposal is worthy of consideration.",
+        "The proposal is worth considering."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss243-benefit-01",
+      "zh": "說明一件事的好處是否足以抵償所需價錢、時間、努力或困難。",
+      "en": "It helps judge whether something gives enough value to justify its price, time, effort or difficulty.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss243-benefit-02",
+      "zh": "不直接命令對方，也能以較溫和的判斷提出建議並保留對方的選擇。",
+      "en": "It gives recommendations without sounding like an order by offering a softer judgement and leaving the final choice to the listener.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss243-benefit-03",
+      "zh": "清楚比較可能好處與金錢、時間、不便或風險。",
+      "en": "It makes cost-and-benefit comparisons clear by showing what benefit is being weighed against money, time, inconvenience or risk.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss243-benefit-04",
+      "zh": "用 be worth 縮短『善用時間』或『好處足以抵償努力』等較長解釋。",
+      "en": "It shortens a longer explanation about whether an action is a good use of time or whether its benefits justify the effort.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss243-benefit-05",
+      "zh": "同一核心結構可描述值得進行的行動、值得注意的事物、值得承受的成本或風險，以及物品的金錢價值。",
+      "en": "It works for actions, objects and monetary value, including actions worth performing, matters worth attention, costs or risks worth accepting and an item’s price.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss243-benefit-06",
+      "zh": "Is it worth doing? 等問題鼓勵比較利弊，適合討論、作文、評論、報告和日常決策。",
+      "en": "It helps discuss decisions rather than give simple opinions, making it useful in discussions, essays, reviews, reports and everyday choices.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+    "The source filename is numbered 242; it is assigned system ID ss243 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using an appropriate form of be worth + noun / V-ing.",
+      "Preserve the original meaning, including negation, uncertainty, degree, time and other important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用適當形式的 be worth + noun / V-ing 改寫以下句子。",
+      "保留原句的意思，包括否定、不確定程度、時間及其他重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss243-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The proposal deserves consideration.",
+      "promptZh": "這項建議值得考慮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal is worth considering.",
+      "answerZh": "這項建議值得考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal is worth considering."
+    },
+    {
+      "id": "ss243-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A visit to this museum would be a good use of your time.",
+      "promptZh": "花時間參觀這間博物館會是值得的。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This museum is worth a visit.",
+      "answerZh": "這間博物館值得參觀。",
+      "answerZhSource": "pdf",
+      "highlight": "This museum is worth a visit."
+    },
+    {
+      "id": "ss243-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Buying the guidebook would be a good use of your money.",
+      "promptZh": "花錢購買這本旅遊指南會是值得的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guidebook is worth buying.",
+      "answerZh": "這本旅遊指南值得購買。",
+      "answerZhSource": "pdf",
+      "highlight": "The guidebook is worth buying."
+    },
+    {
+      "id": "ss243-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "You should check the train times because the service may have changed.",
+      "promptZh": "你應該查閱火車時間，因為服務時間可能已經改變。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is worth checking the train times because the service may have changed.",
+      "answerZh": "火車時間值得查閱，因為服務時間可能已經改變。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worth checking the train times because the service may have changed."
+    },
+    {
+      "id": "ss243-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The extra lesson provides enough value to justify its cost.",
+      "promptZh": "這堂額外課堂帶來的價值足以令其收費合理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The extra lesson is worth the cost.",
+      "answerZh": "這堂額外課堂值得這筆費用。",
+      "answerZhSource": "pdf",
+      "highlight": "The extra lesson is worth the cost."
+    },
+    {
+      "id": "ss243-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Seeing this film would be a good use of your time.",
+      "promptZh": "花時間觀看這部電影會是值得的。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This film is worth seeing.",
+      "answerZh": "這部電影值得觀看。",
+      "answerZhSource": "pdf",
+      "highlight": "This film is worth seeing."
+    },
+    {
+      "id": "ss243-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The problem deserves discussion.",
+      "promptZh": "這個問題值得討論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem is worth discussing.",
+      "answerZh": "這個問題值得討論。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem is worth discussing."
+    },
+    {
+      "id": "ss243-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Arguing about such a small mistake would be a waste of time.",
+      "promptZh": "為這樣一個小錯誤爭論只會浪費時間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not worth arguing about such a small mistake.",
+      "answerZh": "這樣一個小錯誤不值得爭論。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not worth arguing about such a small mistake."
+    },
+    {
+      "id": "ss243-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Should we visit the exhibition, or would that be a waste of time?",
+      "promptZh": "我們應該參觀這個展覽嗎？還是這只會浪費時間？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the exhibition worth visiting?",
+      "answerZh": "這個展覽值得參觀嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is the exhibition worth visiting?"
+    },
+    {
+      "id": "ss243-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The old camera has a value of about £80.",
+      "promptZh": "這部舊相機的價值約為八十英鎊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old camera is worth about £80.",
+      "answerZh": "這部舊相機價值約八十英鎊。",
+      "answerZhSource": "pdf",
+      "highlight": "The old camera is worth about £80."
+    },
+    {
+      "id": "ss243-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I strongly recommend reading the article.",
+      "promptZh": "我非常推薦閱讀這篇文章。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The article is well worth reading.",
+      "answerZh": "這篇文章很值得閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The article is well worth reading."
+    },
+    {
+      "id": "ss243-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "This issue deserves your attention.",
+      "promptZh": "這個問題值得你關注。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This issue is worth your attention.",
+      "answerZh": "這個問題值得你關注。",
+      "answerZhSource": "pdf",
+      "highlight": "This issue is worth your attention."
+    },
+    {
+      "id": "ss243-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The benefit of the repair does not justify the expense.",
+      "promptZh": "這次維修帶來的好處不足以令這筆開支合理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repair is not worth the expense.",
+      "answerZh": "這次維修不值得這筆開支。",
+      "answerZhSource": "pdf",
+      "highlight": "The repair is not worth the expense."
+    },
+    {
+      "id": "ss243-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Asking the teacher for clarification would be useful.",
+      "promptZh": "向老師要求進一步解釋會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is worth asking the teacher for clarification.",
+      "answerZh": "值得向老師要求進一步解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worth asking the teacher for clarification."
+    },
+    {
+      "id": "ss243-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Do these shoes offer enough quality to justify their price?",
+      "promptZh": "這雙鞋的品質是否足以令其價格合理？",
+      "promptZhSource": "pdf",
+      "starter": "Are",
+      "answer": "Are these shoes worth the price?",
+      "answerZh": "這雙鞋值得這個價錢嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Are these shoes worth the price?"
+    },
+    {
+      "id": "ss243-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I definitely recommend visiting the village in spring.",
+      "promptZh": "我絕對推薦在春天參觀這條村落。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The village is definitely worth visiting in spring.",
+      "answerZh": "這條村落絕對值得在春天參觀。",
+      "answerZhSource": "pdf",
+      "highlight": "The village is definitely worth visiting in spring."
+    },
+    {
+      "id": "ss243-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "It may be useful to try the idea.",
+      "promptZh": "嘗試這個想法可能會有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea may be worth trying.",
+      "answerZh": "這個想法可能值得一試。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea may be worth trying."
+    },
+    {
+      "id": "ss243-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The meal was so good that the long wait felt justified.",
+      "promptZh": "這頓飯非常美味，令人覺得長時間等待也是值得的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meal was worth the wait.",
+      "answerZh": "這頓飯值得等待。",
+      "answerZhSource": "pdf",
+      "highlight": "The meal was worth the wait."
+    },
+    {
+      "id": "ss243-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The watch has a value below £200.",
+      "promptZh": "這隻手錶的價值低於二百英鎊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The watch is not worth £200.",
+      "answerZh": "這隻手錶不值二百英鎊。",
+      "answerZhSource": "pdf",
+      "highlight": "The watch is not worth £200."
+    },
+    {
+      "id": "ss243-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Before you decide, comparing the two plans would be useful.",
+      "promptZh": "在你作出決定前，比較兩個計劃會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before you decide, it is worth comparing the two plans.",
+      "answerZh": "在你作出決定前，值得先比較兩個計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Before you decide, it is worth comparing the two plans."
+    },
+    {
+      "id": "ss243-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Most reviewers agree that reading the novel is a good use of time.",
+      "promptZh": "大部分評論員都認為花時間閱讀這本小說是值得的。",
+      "promptZhSource": "pdf",
+      "starter": "Most",
+      "answer": "Most reviewers agree that the novel is worth reading.",
+      "answerZh": "大部分評論員都認為這本小說值得閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Most reviewers agree that the novel is worth reading."
+    },
+    {
+      "id": "ss243-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Although the ticket is expensive, attending the concert provides enough enjoyment to justify the cost.",
+      "promptZh": "雖然門票昂貴，但參加音樂會帶來的享受足以令票價合理。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the ticket is expensive, the concert is worth attending.",
+      "answerZh": "雖然門票昂貴，但這場音樂會值得參加。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the ticket is expensive, the concert is worth attending."
+    },
+    {
+      "id": "ss243-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "If you enjoy science, you should make time for a visit to the new gallery.",
+      "promptZh": "如果你喜歡科學，便應該抽時間參觀新展館。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you enjoy science, the new gallery is worth a visit.",
+      "answerZh": "如果你喜歡科學，新展館值得參觀。",
+      "answerZhSource": "pdf",
+      "highlight": "If you enjoy science, the new gallery is worth a visit."
+    },
+    {
+      "id": "ss243-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Remembering that prices may rise would be useful.",
+      "promptZh": "記住價格可能上升會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is worth remembering that prices may rise.",
+      "answerZh": "值得記住的是，價格可能會上升。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worth remembering that prices may rise."
+    },
+    {
+      "id": "ss243-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The plan deserves discussion with the whole team.",
+      "promptZh": "這個計劃值得與整個團隊討論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan is worth discussing with the whole team.",
+      "answerZh": "這個計劃值得與整個團隊討論。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan is worth discussing with the whole team."
+    },
+    {
+      "id": "ss243-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Repairing this laptop would cost more than the benefit it would provide.",
+      "promptZh": "維修這部手提電腦的費用，會高於維修所帶來的好處。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This laptop is not worth repairing.",
+      "answerZh": "這部手提電腦不值得維修。",
+      "answerZhSource": "pdf",
+      "highlight": "This laptop is not worth repairing."
+    },
+    {
+      "id": "ss243-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Would booking the tickets early provide a real advantage?",
+      "promptZh": "提早預訂門票會帶來實際好處嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is it worth booking the tickets early?",
+      "answerZh": "值得提早預訂門票嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is it worth booking the tickets early?"
+    },
+    {
+      "id": "ss243-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The research deserves further investigation.",
+      "promptZh": "這項研究值得進一步調查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research is worth further investigation.",
+      "answerZh": "這項研究值得進一步調查。",
+      "answerZhSource": "pdf",
+      "highlight": "The research is worth further investigation."
+    },
+    {
+      "id": "ss243-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Her suggestion clearly deserves consideration.",
+      "promptZh": "她的建議顯然值得考慮。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her suggestion is certainly worth considering.",
+      "answerZh": "她的建議確實值得考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Her suggestion is certainly worth considering."
+    },
+    {
+      "id": "ss243-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The sculpture has a value above £5,000.",
+      "promptZh": "這座雕塑的價值超過五千英鎊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sculpture is worth more than £5,000.",
+      "answerZh": "這座雕塑價值超過五千英鎊。",
+      "answerZhSource": "pdf",
+      "highlight": "The sculpture is worth more than £5,000."
+    },
+    {
+      "id": "ss243-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Since the path is short and scenic, walking along it would be a good use of your time.",
+      "promptZh": "由於這條小徑路程短而且景色優美，花時間沿着它步行會是值得的。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the path is short and scenic, it is worth walking.",
+      "answerZh": "由於這條小徑路程短而且景色優美，因此值得沿着它步行。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the path is short and scenic, it is worth walking."
+    },
+    {
+      "id": "ss243-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Reading the report carefully before the meeting would be useful.",
+      "promptZh": "在會議前仔細閱讀報告會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report is worth reading carefully before the meeting.",
+      "answerZh": "這份報告值得在會議前仔細閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The report is worth reading carefully before the meeting."
+    },
+    {
+      "id": "ss243-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Before we continue, there is one question that deserves to be asked.",
+      "promptZh": "在我們繼續之前，有一個問題值得提出。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One question is worth asking before we continue.",
+      "answerZh": "在我們繼續之前，有一個問題值得提出。",
+      "answerZhSource": "pdf",
+      "highlight": "One question is worth asking before we continue."
+    },
+    {
+      "id": "ss243-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Choosing the cheaper option is not necessarily a good decision.",
+      "promptZh": "選擇較便宜的方案不一定是明智的決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cheaper option is not necessarily worth choosing.",
+      "answerZh": "較便宜的方案不一定值得選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "The cheaper option is not necessarily worth choosing."
+    },
+    {
+      "id": "ss243-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "If the evidence is reliable, reopening the case would be justified.",
+      "promptZh": "如果證據可靠，重新調查這宗案件便是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the evidence is reliable, the case is worth reopening.",
+      "answerZh": "如果證據可靠，這宗案件值得重新調查。",
+      "answerZhSource": "pdf",
+      "highlight": "If the evidence is reliable, the case is worth reopening."
+    },
+    {
+      "id": "ss243-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The benefits of the course easily justify the time it requires.",
+      "promptZh": "這個課程帶來的好處，絕對足以抵償所需時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course is well worth the time it requires.",
+      "answerZh": "這個課程很值得我們投入所需時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The course is well worth the time it requires."
+    },
+    {
+      "id": "ss243-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "It may be useful to check whether the figures are correct.",
+      "promptZh": "核實這些數字是否正確可能會有用。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may be worth checking whether the figures are correct.",
+      "answerZh": "這些數字是否正確，可能值得核實。",
+      "answerZhSource": "pdf",
+      "highlight": "It may be worth checking whether the figures are correct."
+    },
+    {
+      "id": "ss243-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Although the journey is long, visiting the island justifies the effort.",
+      "promptZh": "雖然路程漫長，但這座島嶼值得花力氣前往參觀。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the journey is long, the island is worth visiting.",
+      "answerZh": "雖然路程漫長，但這座島嶼值得參觀。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the journey is long, the island is worth visiting."
+    },
+    {
+      "id": "ss243-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The warning deserves serious attention.",
+      "promptZh": "這項警告值得認真看待。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The warning is worth taking seriously.",
+      "answerZh": "這項警告值得認真看待。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning is worth taking seriously."
+    },
+    {
+      "id": "ss243-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Does the cheaper model provide enough savings to justify the risk of frequent repairs?",
+      "promptZh": "較便宜的型號所節省的金錢，是否足以令經常維修的風險變得合理？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the cheaper model worth the risk of frequent repairs?",
+      "answerZh": "較便宜的型號值得承受經常維修的風險嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is the cheaper model worth the risk of frequent repairs?"
+    },
+    {
+      "id": "ss243-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The proposal deserves support because it clearly benefits the public.",
+      "promptZh": "這項建議值得支持，因為它明顯能造福公眾。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because it clearly benefits the public, the proposal is worth supporting.",
+      "answerZh": "由於這項建議明顯能造福公眾，因此值得支持。",
+      "answerZhSource": "pdf",
+      "highlight": "Because it clearly benefits the public, the proposal is worth supporting."
+    },
+    {
+      "id": "ss243-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Whether buying the device is a good use of money depends on how often you will use it.",
+      "promptZh": "購買這部裝置是否物有所值，取決於你會多常使用它。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the device is worth buying depends on how often you will use it.",
+      "answerZh": "這部裝置是否值得購買，取決於你會多常使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the device is worth buying depends on how often you will use it."
+    },
+    {
+      "id": "ss243-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The manager believes that the benefits of the training justify the extra expense.",
+      "promptZh": "經理認為這項培訓帶來的好處，足以令額外開支合理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager believes that the training is worth the extra expense.",
+      "answerZh": "經理認為這項培訓值得這筆額外開支。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager believes that the training is worth the extra expense."
+    },
+    {
+      "id": "ss243-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Even if the first attempt fails, trying the method again may still be useful.",
+      "promptZh": "即使第一次嘗試失敗，再次使用這個方法仍可能有用。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if the first attempt fails, the method may still be worth trying again.",
+      "answerZh": "即使第一次嘗試失敗，這個方法仍可能值得再次嘗試。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the first attempt fails, the method may still be worth trying again."
+    },
+    {
+      "id": "ss243-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Risking your health to meet an unrealistic deadline would be an unacceptable price.",
+      "promptZh": "為了趕上不切實際的期限而拿健康冒險，是無法接受的代價。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not worth risking your health to meet an unrealistic deadline.",
+      "answerZh": "不值得為了趕上不切實際的期限而拿健康冒險。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not worth risking your health to meet an unrealistic deadline."
+    },
+    {
+      "id": "ss243-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The findings deserve more detailed discussion before publication.",
+      "promptZh": "這些研究結果在發表前值得更詳細討論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The findings are worth discussing in greater detail before publication.",
+      "answerZh": "這些研究結果值得在發表前作更詳細的討論。",
+      "answerZhSource": "pdf",
+      "highlight": "The findings are worth discussing in greater detail before publication."
+    },
+    {
+      "id": "ss243-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 26,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "If the software saves several hours each week, its benefits justify the annual fee.",
+      "promptZh": "如果這個軟件每星期能節省數小時，它帶來的好處便足以令年費合理。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the software saves several hours each week, it is worth the annual fee.",
+      "answerZh": "如果這個軟件每星期能節省數小時，它便值得這筆年費。",
+      "answerZhSource": "pdf",
+      "highlight": "If the software saves several hours each week, it is worth the annual fee."
+    },
+    {
+      "id": "ss243-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The old building’s historical value may justify preserving it.",
+      "promptZh": "這座舊建築物的歷史價值可能足以令保留它成為合理做法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old building may be worth preserving for its historical value.",
+      "answerZh": "這座舊建築物可能因其歷史價值而值得保留。",
+      "answerZhSource": "pdf",
+      "highlight": "The old building may be worth preserving for its historical value."
+    },
+    {
+      "id": "ss243-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Before rejecting the idea, ask whether testing it on a small scale would be useful.",
+      "promptZh": "在否決這個想法前，先問一問以小規模測試它是否有用。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before rejecting the idea, ask whether it is worth testing on a small scale.",
+      "answerZh": "在否決這個想法前，先問一問它是否值得以小規模測試。",
+      "answerZhSource": "pdf",
+      "highlight": "Before rejecting the idea, ask whether it is worth testing on a small scale."
+    },
+    {
+      "id": "ss243-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Although neither option is perfect, both deserve examination before a final decision is made.",
+      "promptZh": "雖然兩個方案都不完美，但在作出最終決定前，兩者都值得研究。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although neither option is perfect, both are worth examining before a final decision is made.",
+      "answerZh": "雖然兩個方案都不完美，但在作出最終決定前，兩者都值得研究。",
+      "answerZhSource": "pdf",
+      "highlight": "Although neither option is perfect, both are worth examining before a final decision is made."
+    }
+  ]
+}
