@@ -118,6 +118,10 @@ jobs:
           node tools/test-flashcard-expansion-20260801.mjs
           node tools/test-flashcard-expansion-20260801-ui.mjs
 
+      - name: Validate Civics Book 1 concept vocabulary, voice and Homework links
+        run: |
+          node tools/test-government-civics-book1-flashcards.mjs
+
       - name: Validate immutable packed flashcard audio Worker routing
         run: |
           node tools/test-edmund-audio-worker.mjs

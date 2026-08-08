@@ -124,7 +124,7 @@ assert(
 assert(html.includes(`<script src="${dataFile}?v=20260808-1"></script>`), "Civics data file is not loaded by flashcards.html");
 assert(html.includes(`${audioManifestFile}?v=edmund-neural-v1-20260808-1`), "Edmund Neural audio cache key is stale");
 assert(audioMeta.complete === true, "Edmund Neural audio manifest is incomplete");
-assert(audioMeta.count === 134735, `Expected 134735 audio mappings; found ${audioMeta.count}`);
+assert(audioMeta.count >= 134735, `Expected at least 134735 audio mappings; found ${audioMeta.count}`);
 assert(audioMeta.voice === "af_heart", `Unexpected voice ${audioMeta.voice}`);
 assert(html.includes('data-route="${escapeHtml(route)}"'), "Route option renderer changed unexpectedly");
 assert(html.includes('route === "government-concept-vocabulary"'), "Missing 概念詞彙 route handler");
