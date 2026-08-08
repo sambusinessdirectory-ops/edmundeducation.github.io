@@ -155,6 +155,20 @@ async function flashcardResources(allFiles) {
     ["2", { "Practice 1": "Such a Fascinating Game", ...(sandbox.window.EDMUND_IELTS_READING_PASSAGE_2_TITLES || {}) }],
     ["3", { "Practice 1": "ARE WE MANAGING TO DESTROY SCIENCE?", ...(sandbox.window.EDMUND_IELTS_READING_PASSAGE_3_TITLES || {}) }]
   ]);
+  const civicsBookOneTitles = new Map([
+    ["government/concept-vocabulary/book-1/a-core-policy-group-discussion", "A. Core Policy & Group Discussion 政策及小組討論"],
+    ["government/concept-vocabulary/book-1/b-housing-living-conditions", "B. Housing & Living Conditions 房屋及居住環境"],
+    ["government/concept-vocabulary/book-1/c-healthcare-mental-health", "C. Healthcare & Mental Health 醫療及精神健康"],
+    ["government/concept-vocabulary/book-1/d-elderly-people-carers", "D. Elderly People & Carers 長者及照顧者"],
+    ["government/concept-vocabulary/book-1/e-families-children-working-parents", "E. Families, Children & Working Parents 家庭、兒童及在職父母"],
+    ["government/concept-vocabulary/book-1/f-jobs-wages-employment", "F. Jobs, Wages & Employment 就業、工資及勞工"],
+    ["government/concept-vocabulary/book-1/g-education-young-people", "G. Education & Young People 教育及青年"],
+    ["government/concept-vocabulary/book-1/h-transport-getting-around", "H. Transport & Getting Around 交通及市民出行"],
+    ["government/concept-vocabulary/book-1/i-welfare-poverty-helping-people-in-need", "I. Welfare, Poverty & Helping People in Need 社會福利、扶貧及支援有需要人士"],
+    ["government/concept-vocabulary/book-1/j-cost-of-living-peoples-financial-burden", "J. Cost of Living & People's Financial Burden 生活成本及市民經濟負擔"],
+    ["government/concept-vocabulary/book-1/k-environment-everyday-green-living", "K. Environment & Everyday Green Living 環境及日常綠色生活"],
+    ["government/concept-vocabulary/book-1/l-scams-online-safety-technology", "L. Scams, Online Safety & Technology 騙案、網絡安全及科技"]
+  ]);
 
   return Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})
     .filter(([, cards]) => Array.isArray(cards) && cards.length > 0)
@@ -163,7 +177,8 @@ async function flashcardResources(allFiles) {
       const readingPassage = readingMatch?.[1] || "";
       const readingPractice = readingMatch?.[2] || "";
       const readingTitle = readingTitlesByPassage.get(readingPassage)?.[readingPractice] || "";
-      const exactTitle = taskTwoTitles.get(deckId)
+      const exactTitle = civicsBookOneTitles.get(deckId)
+        || taskTwoTitles.get(deckId)
         || (readingPractice && readingTitle
           ? `IELTS / Reading / Passage ${readingPassage} / ${readingPractice} — ${readingTitle}`
           : "");

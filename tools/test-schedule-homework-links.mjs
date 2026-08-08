@@ -27,12 +27,12 @@ const read = (file) => readFile(path.join(root, file), "utf8");
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3174, "the Homework/Schedule catalogue should include every current learning resource and all 142 August flashcard decks");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3186, "the Homework/Schedule catalogue should include every current learning resource, all 142 August flashcard decks, and the 12 Civics Book 1 decks");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 1261, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType.flashcards || []).length, 1273, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 310, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
@@ -48,6 +48,20 @@ assert.ok(ids.has("idiom:idiom-138"));
 assert.ok(ids.has("proverb:proverb-03"));
 assert.ok(ids.has("phrasal-verb:phrasal-verb-329"));
 assert.ok(ids.has("writing-submission:portal"));
+
+const civicsBookOneFlashcards = (byType.flashcards || []).filter((resource) =>
+  resource.id.startsWith("flash:government/concept-vocabulary/book-1/")
+);
+assert.equal(civicsBookOneFlashcards.length, 12, "all 12 Civics Book 1 decks should be indexed");
+assert.ok(
+  civicsBookOneFlashcards.every((resource) => /[\u3400-\u9fff]/u.test(resource.label)),
+  "Civics Book 1 Homework labels should include their Chinese PDF titles"
+);
+assert.equal(
+  civicsBookOneFlashcards.find((resource) => resource.id.endsWith("/a-core-policy-group-discussion"))?.url,
+  "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fa-core-policy-group-discussion",
+  "Civics Book 1 Homework links should open the exact flashcard deck"
+);
 
 for (const [type, count, prefix] of [
   ["idiom", 138, "idiom"],
@@ -470,7 +484,7 @@ assert.match(scheduleHtml, /data-homework-autocomplete/);
 assert.match(scheduleHtml, /data-homework-picker-search/);
 assert.match(scheduleHtml, /data-homework-attachments/);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources\)/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260807-4"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260808-1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");

@@ -144,6 +144,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-government-civics-book1-data.js",
+        "window.EDMUND_GOVERNMENT_CIVICS_BOOK1_SEED = ",
+        None,
+    ),
+    (
         "flashcards-hkpf-data.js",
         "window.EDMUND_HKPF_SEED = ",
         None,
@@ -326,6 +331,9 @@ def extract_static_fronts(source_root: Path) -> list[str]:
 def spoken_text(display_text: str) -> str:
     """Apply conservative pronunciation fixes without changing the manifest key."""
     text = SPOKEN_OVERRIDES.get(display_text, display_text)
+    # Some source decks show a grammatical part-of-speech label on the card.
+    # Keep it in the manifest/display key, but do not make the voice say "V".
+    text = re.sub(r"^\[V\]\s*", "", text)
     text = re.sub(r"(?:\.{3}|…+)", ", ", text)
     text = re.sub(r"(?<![\w.])−\s*(\d+(?:\.\d+)?)\s*%", r"minus \1 percent", text)
     text = re.sub(r"(?<=\d)\s*[–—]\s*(?=(?:[$£€]\s*)?\d)", " to ", text)

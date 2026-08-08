@@ -4971,6 +4971,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q99"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-1/a-core-policy-group-discussion",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "A. Core Policy & Group Discussion 政策及小組討論",
+    "detail": "Government / Concept Vocabulary / Book 1 / A Core Policy Group Discussion · 53 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fa-core-policy-group-discussion"
+  },
+  {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q39",
     "type": "flashcards",
     "ordinal": 39,
@@ -5043,6 +5051,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q65"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-1/b-housing-living-conditions",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "B. Housing & Living Conditions 房屋及居住環境",
+    "detail": "Government / Concept Vocabulary / Book 1 / B Housing Living Conditions · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fb-housing-living-conditions"
+  },
+  {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q15",
     "type": "flashcards",
     "ordinal": 15,
@@ -5081,6 +5097,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Business English / Business Concepts Standard Response / Q2 Inflation Interest Rates Rising Rent And Rising Wages",
     "detail": "Business English / Business Concepts Standard Response / Q2 Inflation Interest Rates Rising Rent And Rising Wages · 82 cards",
     "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq2-inflation-interest-rates-rising-rent-and-rising-wages"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-1/c-healthcare-mental-health",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "C. Healthcare & Mental Health 醫療及精神健康",
+    "detail": "Government / Concept Vocabulary / Book 1 / C Healthcare Mental Health · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fc-healthcare-mental-health"
   },
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q49",
@@ -5177,6 +5201,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Custom Setup / Sprint Text 2",
     "detail": "Custom Setup / Sprint Text 2 · 100 cards",
     "url": "flashcards.html?deck=custom-setup%2Fsprint-text-2"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-1/d-elderly-people-carers",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "D. Elderly People & Carers 長者及照顧者",
+    "detail": "Government / Concept Vocabulary / Book 1 / D Elderly People Carers · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fd-elderly-people-carers"
   },
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q12",
@@ -8171,6 +8203,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q6"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-1/e-families-children-working-parents",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "E. Families, Children & Working Parents 家庭、兒童及在職父母",
+    "detail": "Government / Concept Vocabulary / Book 1 / E Families Children Working Parents · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fe-families-children-working-parents"
+  },
+  {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q15",
     "type": "flashcards",
     "ordinal": 15,
@@ -8203,6 +8243,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q38"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-1/f-jobs-wages-employment",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "F. Jobs, Wages & Employment 就業、工資及勞工",
+    "detail": "Government / Concept Vocabulary / Book 1 / F Jobs Wages Employment · 44 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Ff-jobs-wages-employment"
+  },
+  {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q11",
     "type": "flashcards",
     "ordinal": 11,
@@ -8233,6 +8281,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "For centuries, important parts of education have remained such as reading, writing and maths. With the advent of computers, some people think that computer skill should be made as ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q36 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q36"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-1/g-education-young-people",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "G. Education & Young People 教育及青年",
+    "detail": "Government / Concept Vocabulary / Book 1 / G Education Young People · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fg-education-young-people"
   },
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q47",
@@ -8523,6 +8579,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fhkpf%2Fwriting-composition%2Fcomposition-6"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-1/h-transport-getting-around",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "H. Transport & Getting Around 交通及市民出行",
+    "detail": "Government / Concept Vocabulary / Book 1 / H Transport Getting Around · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fh-transport-getting-around"
+  },
+  {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q58",
     "type": "flashcards",
     "ordinal": 58,
@@ -8537,6 +8601,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Human activity has had a negative impact on plants and animals around the world. Some people think that this cannot be changed, while others believe actions can be taken to bring a",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q19 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q19"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-1/i-welfare-poverty-helping-people-in-need",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "I. Welfare, Poverty & Helping People in Need 社會福利、扶貧及支援有需要人士",
+    "detail": "Government / Concept Vocabulary / Book 1 / I Welfare Poverty Helping People In Need · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fi-welfare-poverty-helping-people-in-need"
   },
   {
     "id": "flash:ielts/listening/Practice 1/part-1",
@@ -13689,6 +13761,30 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "It is thought by some that a school teacher’s role is to motivate and inspire students. However, other people believe that a teacher’s primary role is to pass on knowledge. What do",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q16 · 58 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q16"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-1/j-cost-of-living-peoples-financial-burden",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "J. Cost of Living & People's Financial Burden 生活成本及市民經濟負擔",
+    "detail": "Government / Concept Vocabulary / Book 1 / J Cost Of Living Peoples Financial Burden · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fj-cost-of-living-peoples-financial-burden"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-1/k-environment-everyday-green-living",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "K. Environment & Everyday Green Living 環境及日常綠色生活",
+    "detail": "Government / Concept Vocabulary / Book 1 / K Environment Everyday Green Living · 38 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fk-environment-everyday-green-living"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-1/l-scams-online-safety-technology",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "L. Scams, Online Safety & Technology 騙案、網絡安全及科技",
+    "detail": "Government / Concept Vocabulary / Book 1 / L Scams Online Safety Technology · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fl-scams-online-safety-technology"
   },
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q80",
