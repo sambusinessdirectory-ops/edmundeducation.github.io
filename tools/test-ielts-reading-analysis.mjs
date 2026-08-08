@@ -13,7 +13,7 @@ function loadBrowserData(source, variableName) {
   return context.window[variableName];
 }
 
-const [indexSource, contentSource, html, css, client, examResources, sitemap, workflow] =
+const [indexSource, contentSource, html, css, client, examResources, resources, sitemap, workflow] =
   await Promise.all([
     read("ielts-reading-analysis-index.js"),
     read("ielts-reading-analysis-content.js"),
@@ -21,6 +21,7 @@ const [indexSource, contentSource, html, css, client, examResources, sitemap, wo
     read("ielts-reading-analysis.css"),
     read("ielts-reading-analysis.js"),
     read("exam-resources.html"),
+    read("resources.html"),
     read("sitemap.xml"),
     read(".github/workflows/pages.yml"),
   ]);
@@ -72,9 +73,40 @@ assert.deepEqual(
   Array.from({ length: 14 }, (_, index) => index + 1),
 );
 
+const tasteArticle = content.articles["if-you-can-get-used-to-the-taste"];
+assert.ok(tasteArticle, "If You Can Get Used to the Taste analysis is missing");
+assert.equal(tasteArticle.catalogueId, "p1-092");
+assert.equal(tasteArticle.passage, 1);
+assert.equal(tasteArticle.questionCount, 13);
+assert.deepEqual(
+  Array.from(tasteArticle.answerKey),
+  ["FALSE", "TRUE", "FALSE", "NOT GIVEN", "calcium", "Thailand", "indigenous Africans", "mopane leaves", "southern China", "arachnids", "D", "A", "D"],
+);
+assert.deepEqual(
+  Array.from(tasteArticle.questions, ({ number }) => number),
+  Array.from({ length: 13 }, (_, index) => index + 1),
+);
+assert.equal(tasteArticle.paragraphOverview.paragraphs.length, 7);
+assert.deepEqual(
+  Array.from(tasteArticle.paragraphOverview.paragraphs, ({ number }) => number),
+  [1, 2, 3, 4, 5, 6, 7],
+);
+assert.ok(
+  tasteArticle.paragraphOverview.paragraphs.every(({ summary }) => summary.trim().length > 100),
+  "the seven-paragraph skim roadmap is incomplete",
+);
+assert.equal(tasteArticle.questions[0].prompt, "“The French are well known for eating insects.”");
+assert.equal(tasteArticle.questions[12].answer, "D — probably eats rice weevil larvae");
+assert.ok(contentSource.includes("most famously by the French"));
+assert.ok(contentSource.includes("phenomenal rate at which insects breed"));
+assert.ok(contentSource.includes("rice-weevil larvae"));
+
 const supportedBlockKinds = new Set(["paragraph", "label", "quote", "comparison", "bullet"]);
-for (const question of article.questions) {
-  assert.equal(question.answerKey, article.answerKey[question.number - 1]);
+for (const question of [...article.questions, ...tasteArticle.questions]) {
+  const owningArticle = question === article.questions[question.number - 1]
+    ? article
+    : tasteArticle;
+  assert.equal(question.answerKey, owningArticle.answerKey[question.number - 1]);
   assert.ok(question.answer.trim(), `Q${question.number}: answer missing`);
   assert.ok(question.prompt.trim(), `Q${question.number}: prompt missing`);
   assert.ok(question.translation.trim(), `Q${question.number}: translation missing`);
@@ -122,6 +154,8 @@ const clientScript = html.indexOf("ielts-reading-analysis.js");
 assert.ok(indexScript < contentScript && contentScript < clientScript, "scripts load out of order");
 assert.match(html, /rel="manifest" href="\/manifest\.webmanifest"/);
 assert.match(html, /rel="canonical" href="https:\/\/edmundeducation\.com\/ielts-reading-analysis\.html"/);
+assert.match(html, /data-article-overview hidden/);
+assert.match(html, /data-overview-list/);
 assert.match(css, /\.reading-toolbar\s*\{[\s\S]*?position:\s*fixed/);
 assert.match(
   css,
@@ -135,11 +169,21 @@ assert.match(client, /normalise\(record\.title\)\.includes\(needle\)/);
 assert.match(client, /history\[replace \? "replaceState" : "pushState"\]/);
 assert.match(client, /url\.hash = "";/, "new routes must clear stale question anchors");
 assert.match(client, /prompt\.lang = "en";/, "English prompts need a language tag");
+assert.match(client, /function renderArticleOverview\(/);
+assert.match(client, /String\(sectionIndex \+ 1\)/, "step numbers must follow each question's real section order");
+assert.match(css, /\.analysis-step-number\s*\{/);
 assert.doesNotMatch(client, /record\.sourceOrder|\$\{\s*record\.sourceOrder\s*\}/, "source numbering leaked into UI renderer");
 
-assert.match(
+assert.doesNotMatch(
   examResources,
-  /href="ielts-reading-analysis\.html">IELTS 閱讀理解 - 解卷分析<\/a>/,
+  /href="ielts-reading-analysis\.html"/,
+  "the analysis link must appear only after Start Free",
+);
+assert.match(examResources, /href="resources\.html">Start Free<\/a>/);
+assert.equal(
+  (resources.match(/href="ielts-reading-analysis\.html"/g) || []).length,
+  1,
+  "resources.html should expose one IELTS analysis entry after Start Free",
 );
 assert.equal(
   (sitemap.match(/https:\/\/edmundeducation\.com\/ielts-reading-analysis\.html/g) || []).length,
@@ -148,4 +192,4 @@ assert.equal(
 );
 assert.match(workflow, /node tools\/test-ielts-reading-analysis\.mjs/);
 
-console.log("IELTS Reading analysis checks passed: 507 catalogue titles and 14 Mungo Man questions.");
+console.log("IELTS Reading analysis checks passed: 507 titles, Mungo Man, and the 13-question Taste guide.");

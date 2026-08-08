@@ -200,6 +200,11 @@ a { -webkit-tap-highlight-color: transparent; }
   color: #ffdda5;
 }
 
+.question-jumps .overview-jump {
+  border-color: rgba(167, 216, 255, 0.56);
+  color: #cce9ff;
+}
+
 .reading-shell {
   width: min(1340px, calc(100% - 32px));
   margin: 0 auto;
@@ -581,6 +586,7 @@ button.title-card {
 }
 
 .answer-key-panel,
+.article-overview,
 .question-analysis { padding: clamp(24px, 4.5vw, 58px); }
 
 .answer-key-panel {
@@ -623,6 +629,88 @@ button.title-card {
   color: var(--green);
   font-size: 18px;
   font-weight: 900;
+}
+
+.answer-cell-empty { background: #fbfaf7; }
+
+.article-overview {
+  scroll-margin-top: calc(var(--toolbar-offset) + env(safe-area-inset-top, 0px));
+  border-bottom: 1px solid var(--line);
+  background:
+    linear-gradient(135deg, rgba(234, 243, 251, 0.88), rgba(255, 253, 248, 0.94));
+}
+
+.overview-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(260px, 1.1fr);
+  align-items: end;
+  gap: 26px;
+}
+
+.overview-heading h2 {
+  margin: 0;
+  color: var(--navy-900);
+  font-size: clamp(32px, 4.5vw, 54px);
+  line-height: 1.08;
+}
+
+.overview-heading > p {
+  margin: 0;
+  border-left: 4px solid var(--amber);
+  border-radius: 0 13px 13px 0;
+  padding: 13px 16px;
+  color: var(--navy-700);
+  background: rgba(255, 255, 255, 0.8);
+  font-weight: 750;
+  line-height: 1.65;
+}
+
+.overview-list {
+  margin: 28px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  list-style: none;
+}
+
+.overview-card {
+  min-width: 0;
+  border: 1px solid #cbdbe8;
+  border-radius: 18px;
+  padding: 19px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 25px rgba(16, 42, 76, 0.055);
+}
+
+.overview-number {
+  min-width: 45px;
+  height: 45px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: var(--navy-800);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.overview-copy h3 {
+  margin: 1px 0 7px;
+  color: var(--navy-900);
+  font-size: 18px;
+}
+
+.overview-copy p {
+  margin: 0;
+  color: #40566f;
+  font-size: 15px;
+  line-height: 1.75;
 }
 
 .question-analysis {
@@ -673,6 +761,8 @@ button.title-card {
 
 .question-heading strong,
 .question-heading small { display: block; }
+
+.question-heading { margin: 0; }
 
 .question-heading strong {
   color: var(--navy-900);
@@ -735,9 +825,11 @@ button.title-card {
 
 .analysis-steps {
   margin-top: 22px;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
+  list-style: none;
 }
 
 .analysis-step {
@@ -748,16 +840,40 @@ button.title-card {
   background: var(--paper);
 }
 
-.analysis-step:nth-child(5),
-.analysis-step:nth-child(6) { background: var(--blue-50); }
+.analysis-step--answer-form,
+.analysis-step--options,
+.analysis-step--paraphrase,
+.analysis-step--why-not { background: var(--blue-50); }
 
-.analysis-step:last-child {
+.analysis-step--trap {
   border-color: #ecd1c7;
   background: var(--rose-soft);
 }
 
+.analysis-step-heading {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.analysis-step-number {
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: var(--navy-800);
+  box-shadow: inset 0 -3px 0 rgba(200, 120, 28, 0.55);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
+
 .analysis-step h3 {
-  margin: 0 0 16px;
+  margin: 0;
   color: var(--navy-900);
   font-size: 19px;
 }
@@ -855,10 +971,13 @@ button.title-card {
 
   .passage-picker,
   .title-list,
-  .analysis-steps { grid-template-columns: 1fr; }
+  .analysis-steps,
+  .overview-list { grid-template-columns: 1fr; }
 
   .catalogue-heading,
   .panel-heading { align-items: flex-start; flex-direction: column; }
+
+  .overview-heading { grid-template-columns: 1fr; }
 
   .analysis-hero { align-items: flex-start; flex-direction: column; }
 }
@@ -929,6 +1048,7 @@ button.title-card {
   }
 
   .answer-key-panel,
+  .article-overview,
   .question-analysis { padding: 24px 16px; }
 
   .answer-table th,
@@ -954,6 +1074,12 @@ button.title-card {
 
   .question-source,
   .analysis-step { padding: 17px; }
+
+  .analysis-step-number {
+    width: 33px;
+    height: 33px;
+    border-radius: 10px;
+  }
 
   .analysis-comparison { grid-template-columns: 1fr; }
 

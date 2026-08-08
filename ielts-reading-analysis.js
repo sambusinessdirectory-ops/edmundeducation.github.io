@@ -26,6 +26,10 @@
     emptyState: document.querySelector("[data-empty-state]"),
     questionJumps: document.querySelector("[data-question-jumps]"),
     answerTable: document.querySelector("[data-answer-table]"),
+    articleOverview: document.querySelector("[data-article-overview]"),
+    overviewTitle: document.querySelector("[data-overview-title]"),
+    overviewIntro: document.querySelector("[data-overview-intro]"),
+    overviewList: document.querySelector("[data-overview-list]"),
     questionList: document.querySelector("[data-question-list]"),
     analysisEyebrow: document.querySelector("[data-analysis-eyebrow]"),
     analysisTitle: document.querySelector("[data-analysis-title]"),
@@ -177,9 +181,18 @@
     table.setAttribute("aria-label", `${article.title} 答案表`);
     const body = document.createElement("tbody");
 
-    for (let row = 0; row < 7; row += 1) {
+    const columnLength = Math.ceil(article.answerKey.length / 2);
+    for (let row = 0; row < columnLength; row += 1) {
       const tr = document.createElement("tr");
-      [row, row + 7].forEach((answerIndex) => {
+      [row, row + columnLength].forEach((answerIndex) => {
+        if (answerIndex >= article.answerKey.length) {
+          const emptyHeading = make("th", "answer-cell-empty", "");
+          const emptyAnswer = make("td", "answer-cell-empty", "");
+          emptyHeading.setAttribute("aria-hidden", "true");
+          emptyAnswer.setAttribute("aria-hidden", "true");
+          tr.append(emptyHeading, emptyAnswer);
+          return;
+        }
         const questionNumber = answerIndex + 1;
         const th = make("th", "", `Q${questionNumber}`);
         th.scope = "row";
@@ -196,6 +209,32 @@
 
     table.append(body);
     elements.answerTable.replaceChildren(table);
+  }
+
+  function renderArticleOverview(article) {
+    const overview = article.paragraphOverview;
+    if (!overview || !overview.paragraphs?.length) {
+      elements.articleOverview.hidden = true;
+      elements.overviewList.replaceChildren();
+      return;
+    }
+
+    elements.overviewTitle.textContent = overview.title || "全篇段落速覽";
+    elements.overviewIntro.textContent = overview.intro || "先掌握每段功能，再開始逐題分析。";
+    const cards = overview.paragraphs.map((paragraph) => {
+      const card = make("li", "overview-card");
+      const badge = make("span", "overview-number", `P${paragraph.number}`);
+      badge.setAttribute("aria-hidden", "true");
+      const copy = make("div", "overview-copy");
+      copy.append(
+        make("h3", "", `Paragraph ${paragraph.number}`),
+        make("p", "", paragraph.summary),
+      );
+      card.append(badge, copy);
+      return card;
+    });
+    elements.overviewList.replaceChildren(...cards);
+    elements.articleOverview.hidden = false;
   }
 
   function renderBlock(block) {
@@ -231,7 +270,7 @@
     details.open = indexInArticle === 0;
 
     const summary = document.createElement("summary");
-    const heading = make("span", "question-heading");
+    const heading = make("h2", "question-heading");
     heading.append(
       make("strong", "", `第 ${question.number} 題`),
       make("small", "", question.type),
@@ -252,10 +291,14 @@
       make("p", "question-translation", question.translation),
     );
 
-    const steps = make("div", "analysis-steps");
-    question.sections.forEach((section) => {
-      const sectionNode = make("section", "analysis-step");
-      sectionNode.append(make("h3", "", section.title));
+    const steps = make("ol", "analysis-steps");
+    question.sections.forEach((section, sectionIndex) => {
+      const sectionNode = make("li", `analysis-step analysis-step--${section.id}`);
+      const stepHeading = make("div", "analysis-step-heading");
+      const stepNumber = make("span", "analysis-step-number", String(sectionIndex + 1));
+      stepNumber.setAttribute("aria-hidden", "true");
+      stepHeading.append(stepNumber, make("h3", "", section.title));
+      sectionNode.append(stepHeading);
       section.blocks.forEach((block) => sectionNode.append(renderBlock(block)));
       steps.append(sectionNode);
     });
@@ -276,13 +319,21 @@
   function renderQuestionJumps(article) {
     const answerLink = make("a", "answer-jump", "答案表");
     answerLink.href = "#answer-key";
+    const overviewLink = article.paragraphOverview?.paragraphs?.length
+      ? make("a", "overview-jump", "段落速覽")
+      : null;
+    if (overviewLink) overviewLink.href = "#paragraph-overview";
     const links = article.questions.map((question) => {
       const link = make("a", "", `Q${question.number}`);
       link.href = `#q${question.number}`;
       link.dataset.questionTarget = String(question.number);
       return link;
     });
-    elements.questionJumps.replaceChildren(answerLink, ...links);
+    elements.questionJumps.replaceChildren(
+      answerLink,
+      ...(overviewLink ? [overviewLink] : []),
+      ...links,
+    );
   }
 
   function renderArticle(article) {
@@ -293,6 +344,7 @@
     elements.analysisDescription.textContent = article.description;
     elements.questionCount.textContent = String(article.questionCount);
     renderAnswerTable(article);
+    renderArticleOverview(article);
     elements.questionList.replaceChildren(
       ...article.questions.map(renderQuestion),
     );
@@ -352,7 +404,7 @@
       } else if (state.view === "catalogue") {
         navigate({});
       } else {
-        window.location.href = "exam-resources.html";
+        window.location.href = "resources.html";
       }
     });
 

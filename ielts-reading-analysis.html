@@ -25,7 +25,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="ielts-reading-analysis.css?v=20260808-1">
+  <link rel="stylesheet" href="ielts-reading-analysis.css?v=20260808-2">
 </head>
 
 <body>
@@ -120,6 +120,17 @@
         <div class="answer-table-wrap" data-answer-table></div>
       </section>
 
+      <section class="article-overview" id="paragraph-overview" aria-labelledby="paragraph-overview-title" data-article-overview hidden>
+        <div class="overview-heading">
+          <div>
+            <p class="section-eyebrow">BEFORE QUESTION 1</p>
+            <h2 id="paragraph-overview-title" data-overview-title>全篇段落速覽</h2>
+          </div>
+          <p data-overview-intro></p>
+        </div>
+        <ol class="overview-list" data-overview-list></ol>
+      </section>
+
       <section class="question-analysis" aria-label="逐題分析" data-question-list></section>
     </article>
   </main>
@@ -128,8 +139,8 @@
     <div class="noscript-message">請啟用 JavaScript，以使用文章搜尋及逐題分析導覽。</div>
   </noscript>
 
-  <script src="ielts-reading-analysis-index.js?v=20260808-1"></script>
-  <script src="ielts-reading-analysis-content.js?v=20260808-1"></script>
-  <script src="ielts-reading-analysis.js?v=20260808-1"></script>
+  <script src="ielts-reading-analysis-index.js?v=20260808-2"></script>
+  <script src="ielts-reading-analysis-content.js?v=20260808-2"></script>
+  <script src="ielts-reading-analysis.js?v=20260808-2"></script>
 </body>
 </html>
