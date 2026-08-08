@@ -10,6 +10,7 @@ const SHELL_URLS = [
   "/manifest.webmanifest",
   "/pwa-ui.css",
   "/pwa-register.js",
+  "/apostrophe-normalizer.mjs",
   "/favicon.ico",
   "/apple-touch-icon.png",
   "/assets/icons/favicon-48x48.png",

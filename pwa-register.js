@@ -1,6 +1,13 @@
 (() => {
   "use strict";
 
+  window.EdmundTextReady = import("/apostrophe-normalizer.mjs")
+    .then(() => window.EdmundText)
+    .catch((error) => {
+      console.warn("EdmundEducation apostrophe normalizer failed to load", error);
+      return null;
+    });
+
   const DISMISS_KEY = "edmund-pwa-install-dismissed-until";
   const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000;
   const standalone = window.matchMedia("(display-mode: standalone)").matches
