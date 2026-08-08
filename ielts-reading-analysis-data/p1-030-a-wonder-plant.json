@@ -1,0 +1,1919 @@
+{
+  "id": "p1-030-a-wonder-plant",
+  "catalogueId": "p1-030",
+  "catalogueIds": [
+    "p1-030"
+  ],
+  "passage": 1,
+  "title": "A Wonder Plant",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "F",
+    "D",
+    "B",
+    "A",
+    "D",
+    "C",
+    "F",
+    "A",
+    "B",
+    "B",
+    "D",
+    "soil erosion",
+    "paper"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Comparison of bamboo with other plant species”",
+      "translation": "把 bamboo 和其他植物種類作比較。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找一段包含「比較 bamboo 和其他植物」的資訊。定位時要留意 other plant species、hardwoods、another plant、most important plant 這些比較語言。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Around the world, bamboo species are routinely protected as part of forest ecosystems in national parks and reserves, but there is next to nothing that protects bamboo in the wild for its own sake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在世界各地，bamboo species 通常作為森林生態系統的一部分，在國家公園和保護區中受到保護；但幾乎沒有任何措施專門為野生 bamboo 本身提供保護。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need to go out there, look at these plants and see how they survive and then use that information to conserve them for the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們需要走到實地，觀察這些植物，看看它們如何生存，然後用這些資料為未來保育它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，F 段看似主要談 bamboo conservation。不過中間有 Ray Townsend 對 bamboo 地位的評價，會把 bamboo 和其他植物，例如 hardwoods，放在一起比較。因此題目可以定位到 F段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的是 “comparison” 和 “other plant species”。掃描 F 段時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“When you talk about places such as the Amazon, everyone always thinks about the hardwoods.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“I can’t think of another plant that is used so much and is so commercially important in so many countries.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都把 bamboo 放進其他植物的比較框架中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When you talk about places such as the Amazon, everyone always thinks about the hardwoods. Of course these are significant, but there is a tendency to overlook the plants they are associated with, which are often bamboo species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們談到 Amazon 這類地方時，大家總會想到硬木。這些硬木當然重要，但人們往往忽略與它們共生或相關的植物，而這些植物常常是 bamboo species。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many ways, it is the most important plant known to man. I can’t think of another plant that is used so much and is so commercially important in so many countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從許多方面看，它是人類所知最重要的植物。我想不到另一種植物，在這麼多國家被如此廣泛使用，並且有如此重要的商業價值。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “comparison of bamboo with other plant species”= 原文 “hardwoods” 和 “another plant” 形成的比較"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 段也有 “Bamboo is a type of grass” 和 “world’s fastest-growing woody plant”，有植物分類和速度比較。不過 F 段直接把 bamboo 和 hardwoods、another plant 放在同一比較框架中，更貼近題目所說的 comparison。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“Commercial products of bamboo”",
+      "translation": "bamboo 的商業產品。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 bamboo 被加工成哪些商品或產品。定位詞是 commercial products，也要留意 flooring、laminates、paper、commodity 這些產品或市場詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, bamboo’s most immediate significance lies in its economic value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，bamboo 最直接的重要性在於它的經濟價值。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Bamboo can be harvested from forest areas or grown quickly elsewhere, and then converted simply without expensive machinery or facilities,’ he says. ‘In this way, it contributes substantially to poverty alleviation and wealth creation.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「Bamboo 可以從森林地區採收，也可以在其他地方快速種植，之後不需昂貴機器或設施便能簡單轉化使用。透過這種方式，它大大有助於減貧和創造財富。」只看首尾句，D 段明顯處理 economic value。題目問 commercial products，這段最有可能列出bamboo 可轉化成的商品。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “commercial products” 未必原字出現。掃描時要找 “products”、“used in a variety of ways”、“flooring”、“laminates”、“paper”。D 段直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the fastest-growing bamboo products is paper.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern processing techniques mean that it can be used in a variety of ways, for example, as flooring and laminates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代加工技術意味著 bamboo 可以用於多種方式，例如作為地板材料和層壓板。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the fastest-growing bamboo products is paper: 25 percent of paper produced in India is made from bamboo fiber, and in Brazil, 100,000 hectares of bamboo are grown for its production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "增長最快的 bamboo 產品之一是紙：印度生產的紙有 25% 由 bamboo fibre 製成；在巴西，有100,000 公頃 bamboo 被種植作造紙用途。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Commercial products”= 原文 “flooring and laminates” + “paper” + “bamboo products”答案是 D，因為 D 段最集中地列出 bamboo 的商業產品。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段也提到 houses、mats、baskets，但那裡主要講當地人日常使用和資源壓力。D 段用economic value、modern processing、products、commodity 等語言，和 commercial products 更吻合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Limited extent of existing research”",
+      "translation": "現有研究範圍有限。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找研究不足、科學認識有限、真正研究只集中在少數種類的資訊。定位詞包括 research、little、ignorance、only、priority species。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sadly, this isn’t an isolated story.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，這並非單一個案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People have only started looking hard at this during the past 10-15 years, and only now are they getting a handle on how to go about it systematically,’ says Dr. Valerie Kapos, one of the report’s authors and a senior adviser in forest ecology and conservation to the UNEP.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告作者之一、UNEP 森林生態與保育高級顧問 Valerie Kapos 博士說：「人們只是在過去 10 至15 年才開始認真研究這件事，而且只是到了現在才開始掌握如何有系統地處理它。」只看首尾句，B 段從全球 bamboo range shrinkage 轉到我們對 bamboo 知識不足。最後一句直接說系統研究起步很晚，因此題目中的 limited research 很可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “research” 和 “limited extent”。B 段有幾個強訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“we know surprisingly little about it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“our ignorance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only 38 ‘priority species’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“any real scientific research”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of these, only 38 ‘priority species’ identified for their commercial value have been the subject of any real scientific research, and this has focused mostly on matters relating to their viability as a commodity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些品種中，只有 38 種因商業價值而被列為 priority species 的 bamboo 真正受到科學研究，而且這些研究多數集中在它們作為商品是否可行的問題上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩層限制：第一，研究對象很少：only 38 priority species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，研究範圍很窄：mostly on viability as a commodity。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “limited extent of existing research”= 原文 “only 38” + “any real scientific research” + “focused mostly on... commodity”所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F 段也說需要 scientists into the field，但那是未來保育研究的方向。Question 3 問 existing research 的 limited extent，B 段有明確數字和 “only” 這個限制詞，證據最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“A human development that destroyed large areas of bamboo”",
+      "translation": "一項人類發展活動破壞了大面積 bamboo。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 human development 對 bamboo forest 的破壞。定位詞是 destroyed large areas，原文可能用 cleared、make way for farms、commercial plantations。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every year, during the rainy season, the mountain gorillas of Central Africa migrate to the foothills and lower slopes of the Virunga Mountains to graze on bamboo.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年雨季，中非的 mountain gorillas 都會遷移到 Virunga Mountains 的山腳和較低山坡吃bamboo。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in the past 100 years or so, resources have come under increasing pressure as populations have exploded and large areas of bamboo forest have been cleared to make way for farms and commercial plantations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在過去約一百年，隨著人口暴增，大面積 bamboo forest 被清除，以讓位給農場和商業種植園，這些資源承受越來越大壓力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段從 gorillas 的 bamboo diet 開始，到人類清除 bamboo forest 結束。題目問destroyed large areas，因此 A 段最後一句是最直接位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “destroyed” 在原文中對應 “cleared”。“human development” 對應 “farms and commercial plantations”。掃描時也要留意 “large areas” 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“large areas of bamboo forest have been cleared to make way for farms and commercial plantations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大面積 bamboo forest 被清除，以讓位給農場和商業種植園。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “destroyed large areas of bamboo”= 原文 “large areas of bamboo forest have been cleared”題目 “human development”= 原文 “farms and commercial plantations”答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 段也提到 forest 被轉成 cattle pasture，這也會令 bamboo 無處生長。不過 Question 4 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“large areas” 和 “cleared to make way for farms and commercial plantations” 在 A 段完全重合，因此 A 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“How bamboo is put to a variety of uses”",
+      "translation": "bamboo 如何被用於多種用途。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 bamboo 的多用途。定位詞是 variety of uses，原文很可能出現 “used in a variety of ways” 或列舉多種應用。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, bamboo’s most immediate significance lies in its economic value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，bamboo 最直接的重要性在於它的經濟價值。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Bamboo can be harvested from forest areas or grown quickly elsewhere, and then converted simply without expensive machinery or facilities,’ he says. ‘In this way, it contributes substantially to poverty alleviation and wealth creation.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「Bamboo 可以從森林採收，也可以在其他地方快速種植，然後不需昂貴機器或設施便可簡單轉化使用。透過這種方式，它大大有助於減貧和創造財富。」只看首尾句，D 段把 bamboo 的 economic value 放在中心。中間若列出 flooring、paper、houses、construction，就能回答 “variety of uses”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “put to a variety of uses” 和原文 “used in a variety of ways” 幾乎等同。D 段第二句直接出現這個對應："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“it can be used in a variety of ways”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Modern processing techniques mean that it can be used in a variety of ways, for example, as flooring and laminates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代加工技術意味著 bamboo 可以用於多種方式，例如地板材料和層壓板。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, bamboo’s main function has always been in domestic applications...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，bamboo 的主要功能一直在家庭用途方面。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of its versatility, flexibility and strength... it has traditionally been used in construction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於它用途廣、具彈性且強度高，它傳統上一直用於建築。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “put to a variety of uses”= 原文 “used in a variety of ways” + “domestic applications” + “construction”答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段也有 building houses、mats、baskets，但 D 段更完整地由現代加工到傳統家庭用途，再到建築和貧困改善，能覆蓋 “variety of uses” 的整體意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“An explanation of how bamboo can help the survival of a range of plants”",
+      "translation": "解釋 bamboo 如何幫助多種植物生存。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 bamboo 對其他植物 survival / diversity 的幫助。定位詞是 survival、range of plants，原文可能用 preserve diversity、certain plant species do better、gaps in canopy。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bamboo is a type of grass.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bamboo 是一種草。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Patchiness helps to preserve diversity because certain plant species do better during the early stages of regeneration when there are gaps in the canopy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種斑塊狀環境有助保存多樣性，因為在 canopy 出現空隙、森林再生的早期階段，某些植物種類會生長得更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段從 bamboo 的植物分類開始，到它如何透過 forest patchiness 保持植物多樣性作結。題目問 bamboo 幫助一系列植物生存，這和最後一句高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “survival of a range of plants” 對應原文 “preserve diversity” 和 “certain plant species do better”。掃描時也要留意 “mass flowering and mass death”、“open ground”、“gaps in the canopy”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Patchiness helps to preserve diversity because certain plant species do better during the early stages of regeneration when there are gaps in the canopy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "斑塊狀環境有助保存多樣性，因為當 canopy 有空隙、森林處於再生早期時，某些植物種類會生長得更好。"
+            },
+            {
+              "kind": "label",
+              "text": "前文解釋這種 patchiness 如何出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“When these burn, they create patches of open ground within the forest far bigger than would be left by a fallen tree.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這些乾燥生物量燃燒時，它們會在森林中造成開放地面斑塊，其面積遠大於倒下的樹所留下的空間。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “help the survival of a range of plants”= 原文 “helps to preserve diversity” + “certain plant species do better”答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不能只看 “bamboo provides food and habitat for animals”。題目問的是 plants，不是animals。C 段後半的 “plant species” 才真正定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“The methods used to study bamboo”",
+      "translation": "研究 bamboo 的方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找如何研究 bamboo，特別是 field study、look at plants、see how they survive、use information 這類研究步驟。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Around the world, bamboo species are routinely protected as part of forest ecosystems in national parks and reserves, but there is next to nothing that protects bamboo in the wild for its own sake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界各地的 bamboo species 通常作為森林生態系統的一部分在國家公園和保護區中受到保護；但幾乎沒有專門為野生 bamboo 本身而設的保護措施。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need to go out there, look at these plants and see how they survive and then use that information to conserve them for the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們需要走到實地，觀察這些植物，看看它們如何生存，然後利用這些資料保育它們的未來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，F 段由保護不足開始，以實地研究和保育方法作結。題目問 methods used to study bamboo，最後一句直接提供方法鏈。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “methods” 和 “study”。原文沒有直接寫 methods，但有一組動作："
+            },
+            {
+              "kind": "quote",
+              "text": "“go out there”"
+            },
+            {
+              "kind": "quote",
+              "text": "“look at these plants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“see how they survive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“use that information”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He believes that the most important first step is to get scientists into the field. ‘We need to go out there, look at these plants and see how they survive and then use that information to conserve them for the future.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為最重要的第一步，是讓科學家走進野外現場。「我們需要走到實地，觀察這些植物，看看它們如何生存，然後利用這些資料為未來保育它們。」"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “methods used to study bamboo”= 原文 “get scientists into the field” + “look at these plants” + “see how they survive”答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 段談 scientific research limited 和 systematic assessment，確實與研究有關。不過 Question 7問 methods used to study bamboo，F 段列出實地研究的具體做法，因此更貼合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "A — Ian Redmond",
+      "answerKey": "A — Ian Redmond",
+      "type": "Matching Features",
+      "prompt": "“Destroying bamboo jeopardises wildlife.”",
+      "translation": "破壞 bamboo 會危及野生動物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要把人物和觀點配對。定位時先找人物 Ian Redmond，再讀他前後句，看他說的 wildlife risk 是甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every year, during the rainy season, the mountain gorillas of Central Africa migrate to the foothills and lower slopes of the Virunga Mountains to graze on bamboo.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年雨季，中非 mountain gorillas 會遷移到 Virunga Mountains 的山腳和較低山坡吃 bamboo。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in the past 100 years or so, resources have come under increasing pressure as populations have exploded and large areas of bamboo forest have been cleared to make way for farms and commercial plantations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但過去約一百年，隨著人口暴增，大面積 bamboo forest 被清除，以讓位給農場和商業種植園，資源承受越來越大壓力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段講 bamboo 是 gorillas 的重要食物來源，也講 bamboo forest 被清除。題目說destroying bamboo jeopardises wildlife，正好連到 mountain gorillas。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人物定位"
+            },
+            {
+              "kind": "label",
+              "text": "人物定位詞是 “Ian Redmond”。A 段中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without it, says Ian Redmond, chairman of the Ape Alliance, their chances of survival would be reduced significantly.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句值得細讀，因為它直接說沒有 bamboo 會降低大猩猩生存機會。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without it, says Ian Redmond, chairman of the Ape Alliance, their chances of survival would be reduced significantly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ape Alliance 主席 Ian Redmond 說，沒有 bamboo，牠們的生存機會會大幅降低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “it” 指 bamboo；“their” 指前文的 mountain gorillas。題目的 “jeopardises wildlife” 把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“chances of survival would be reduced significantly” 概括成危及野生動物。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Destroying bamboo jeopardises wildlife”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “Without it... chances of survival would be reduced significantly”答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 wildlife 概括，原文具體例子是 mountain gorillas。這是具體例子轉上位類別，合理，因為mountain gorillas 屬於野生動物。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — Valerie Kapos",
+      "answerKey": "B — Valerie Kapos",
+      "type": "Matching Features",
+      "prompt": "“People have very limited knowledge of bamboo.”",
+      "translation": "人們對 bamboo 的認識非常有限。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪位人物指出 bamboo research / conservation knowledge 很不足。定位詞是 limited knowledge，原文可能寫 little、ignorance、only started looking hard。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sadly, this isn’t an isolated story.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，這並非單一個案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People have only started looking hard at this during the past 10-15 years, and only now are they getting a handle on how to go about it systematically,’ says Dr. Valerie Kapos, one of the report’s authors and a senior adviser in forest ecology and conservation to the UNEP.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告作者之一、UNEP 森林生態與保育高級顧問 Valerie Kapos 博士說：「人們只是在過去 10 至15 年才開始認真研究這件事，而且只是現在才開始掌握如何有系統地處理它。」只看首尾句，B 段明顯談 bamboo knowledge 和 conservation science 的不足。Valerie Kapos 在最後一句出現，因此這題定位很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人物和觀點定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物定位詞是 “Valerie Kapos”。觀點定位詞是 “limited knowledge”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“we know surprisingly little about it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“our ignorance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only started looking hard”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But despite bamboo’s importance, we know surprisingly little about it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但儘管 bamboo 很重要，我們對它的認識卻少得令人驚訝。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Valerie Kapos 的話："
+            },
+            {
+              "kind": "quote",
+              "text": "“People have only started looking hard at this during the past 10-15 years, and only now are they getting a handle on how to go about it systematically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們只是在過去 10 至 15 年才開始認真研究這件事，而且只是到了現在才開始掌握如何有系統地處理。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “very limited knowledge”= 原文 “know surprisingly little” + “only started looking hard”答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這個觀點也來自 UNEP / INBAR report 的整體發現，但題目要配人物。Valerie Kapos 是 report author，並且有直接引述，所以答案應填 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "B — Valerie Kapos",
+      "answerKey": "B — Valerie Kapos",
+      "type": "Matching Features",
+      "prompt": "“Some people do not think that bamboo is endangered.”",
+      "translation": "有些人不認為 bamboo 正受威脅。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。定位詞是 “do not think endangered”，原文可能用 “don’t perceive it as being endangered”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given bamboo’s value in economic and ecological terms, the picture painted by the UNEP report is all the more worrying.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到 bamboo 在經濟和生態方面的價值，UNEP report 所描繪的情況就更加令人擔憂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When forest goes, it is converted into something else: there isn’t anywhere for forest plants such as bamboo to grow if you create a cattle pasture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當森林消失，它會被改造成其他東西；如果你把它變成牛牧場，像 bamboo 這類森林植物就沒有地方生長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段處理 bamboo 是否真的 endangered 的表面矛盾。題目中 “some people do not think...” 很可能來自這段中的人物引述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人物和否定定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 E 段可找到 Valerie Kapos 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a lot of places, the people who live with bamboo don’t perceive it as being endangered in any way.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘In a lot of places, the people who live with bamboo don’t perceive it as being endangered in any way,’ says Kapos.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kapos 說：「在很多地方，與 bamboo 一起生活的人完全不覺得它正受威脅。」"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Some people do not think that bamboo is endangered”= 原文 “the people who live with bamboo don’t perceive it as being endangered”答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的主張不是作者最終結論。E 段後面會說真正受威脅的是 habitat。不過題目只問「有些人不覺得 bamboo endangered」這個觀點由誰提出，Kapos 的引述最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "D — Chris Stapleton",
+      "answerKey": "D — Chris Stapleton",
+      "type": "Matching Features",
+      "prompt": "“Bamboo has considerable commercial potential.”",
+      "translation": "bamboo 有相當大的商業潛力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要找哪位人物指出 bamboo 容易取得、可快速種植、可簡單轉化，並能帶來 wealth creation。定位詞是 commercial potential，原文可能用 economic value、raw material、converted、wealth creation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, bamboo’s most immediate significance lies in its economic value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，bamboo 最直接的重要性在於它的經濟價值。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Bamboo can be harvested from forest areas or grown quickly elsewhere, and then converted simply without expensive machinery or facilities,’ he says. ‘In this way, it contributes substantially to poverty alleviation and wealth creation.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「Bamboo 可以從森林地區採收，也可在其他地方快速種植，之後不需昂貴機器或設施便能簡單轉化使用。透過這種方式，它大大有助於減貧和創造財富。」只看首尾句，D 段主軸是 economic value。Chris Stapleton 在本段後半出現，並直接解釋bamboo 如何轉化為經濟收益。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人物定位"
+            },
+            {
+              "kind": "label",
+              "text": "人物定位詞是 “Chris Stapleton”。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bamboo is often the only readily available raw material for people in many developing countries, says Chris Stapleton, a research associate at the Royal Botanic Gardens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著他的引述說明商業和經濟潛力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bamboo can be harvested from forest areas or grown quickly elsewhere, and then converted simply without expensive machinery or facilities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bamboo 可以從森林地區採收，也可以在其他地方快速種植，然後在不需要昂貴機器或設施的情況下簡單轉化使用。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this way, it contributes substantially to poverty alleviation and wealth creation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過這種方式，它大大有助於減貧和創造財富。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “commercial potential”= 原文 “converted simply” + “wealth creation”答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Ray Townsend 在 F 段也說 bamboo “commercially important”。那句強調 bamboo 已經非常重要。Question 11 用 “potential”，更貼近 Chris Stapleton 所說的快速種植、低成本轉化和創造財富能力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "soil erosion",
+      "answerKey": "soil erosion",
+      "type": "Short-answer Questions",
+      "prompt": "“What environmental problem does the unique root system of bamboo prevent?”",
+      "translation": "bamboo 獨特的根系能防止哪一個環境問題？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。問題問 “What environmental problem”，答案需要是一個環境問題名詞短語。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bamboo is a type of grass.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bamboo 是一種草。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Patchiness helps to preserve diversity because certain plant species do better during the early stages of regeneration when there are gaps in the canopy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "斑塊狀環境有助保存多樣性，因為在 canopy 出現空隙、森林再生早期，某些植物種類會生長得更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段介紹 bamboo 的植物特徵和生態作用。題目問 root system，這段中間有rhizome systems，應該是目標位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “unique root system”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“root systems known as rhizomes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extensive rhizome systems”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再找 prevent，原文直接有 “preventing”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its extensive rhizome systems, which bind the top layers of soil, are crucial in preventing soil erosion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它廣泛延伸的 rhizome systems 會固定表層土壤，對防止 soil erosion 至關重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 environmental problem。原文中的 “soil erosion” 就是被防止的環境問題。答案是 soil erosion，兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “unique root system”= 原文 “extensive rhizome systems”題目 “prevent”= 原文 “preventing”答案是 soil erosion。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 rhizome systems。那是 bamboo 的根系，不是環境問題。題目問 prevent what，所以要填被防止的結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "paper",
+      "answerKey": "paper",
+      "type": "Short-answer Questions",
+      "prompt": "“Which bamboo product is experiencing market expansion?”",
+      "translation": "哪一種 bamboo 產品正在市場上增長？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。問題問 product，答案應是一種產品名。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, bamboo’s most immediate significance lies in its economic value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，bamboo 最直接的重要性在於它的經濟價值。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Bamboo can be harvested from forest areas or grown quickly elsewhere, and then converted simply without expensive machinery or facilities,’ he says. ‘In this way, it contributes substantially to poverty alleviation and wealth creation.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「Bamboo 可以從森林採收，也可在其他地方快速種植，之後不用昂貴機器或設施便能簡單轉化使用。透過這種方式，它大大有助於減貧和創造財富。」只看首尾句，D 段是 bamboo economic value 段。題目問 product experiencing market expansion，應在本段找 “fastest-growing bamboo products”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “market expansion” 對應原文 “fastest-growing”。掃描 D 段可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the fastest-growing bamboo products is paper.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the fastest-growing bamboo products is paper: 25 percent of paper produced in India is made from bamboo fiber, and in Brazil, 100,000 hectares of bamboo are grown for its production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "增長最快的 bamboo 產品之一是紙：印度生產的紙有 25% 由 bamboo fibre 製成；在巴西，有100,000 公頃 bamboo 被種植作造紙用途。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “experiencing market expansion”= 原文 “fastest-growing”題目 “bamboo product”= 原文 “bamboo products”答案是 paper，一個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "flooring 和 laminates 也是 bamboo products，但原文沒有說它們是 fastest-growing。題目問正在擴張的產品，要抓住 “fastest-growing” 這個訊號。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "_Question Analysis Website Free Resource - Passage 1 - A Wonder Plant _.pdf",
+    "sha256": "2b197db64c2d83e7e4ec704b168849d4f53aec2ed4535335add49a5240e0dad8",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段第一句說，中非山地大猩猩每年雨季會遷移到 Virunga Mountains 的山腳和低坡吃 bamboo。最後一句說，過去約一百年，人口暴增，加上大面積 bamboo forest 被清除，改作 farms 和commercial plantations，令資源承受越來越大壓力。只看首尾句，可以估計本段用 mountain gorillas 作開場，說明 bamboo 對野生動物和當地人都重要，同時點出人類開發正破壞 bamboo habitat。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段第一句說，這並非單一個案；全球許多 bamboo species 的分布範圍似乎正在縮小，威脅依賴它們的人和動物。最後一句引用 Valerie Kapos，指出植物保育狀態評估的科學近十至十五年才開始較系統地發展。只看首尾句，可知本段主要處理研究不足和保育知識缺口。中間會講 UNEP /INBAR report、1,600 種 bamboo、1,200 種 woody varieties，以及只有 38 種 priority species 真正受研究。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段第一句直接說 bamboo 是一種 grass。最後一句說，forest 中的 patchiness 有助保存diversity，因為某些植物在 canopy 有空隙的早期再生階段長得較好。只看首尾句，可以估計本段介紹 bamboo 的生物特徵和生態作用：高度差異大、生長極快、rhizome systems 能固定土壤、防止 soil erosion；mass flowering and mass death 會製造開放地面，間接幫助其他植物多樣性。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段第一句用 However 轉向 bamboo 最直接的重要性：economic value。最後一句引用 Chris Stapleton，指出 bamboo 可從森林採收，也可快速種植，並且不需昂貴機器或設施便能轉化使用，因而有助 poverty alleviation 和 wealth creation。只看首尾句，本段主軸是經濟用途：flooring、laminates、paper、domestic applications、construction、bamboo houses，以及在 developing countries 中作為容易取得的 raw material。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段第一句說，考慮到 bamboo 的經濟和生態價值，UNEP report 描繪的情況更令人擔憂。最後一句說，當 forest 被改造成 cattle pasture，forest plants such as bamboo 就沒有地方生長。只看首尾句，可以估計本段處理一個表面矛盾：園藝愛好者可能覺得 bamboo 很 invasive，當地人也未必覺得它瀕危；但真正受威脅的是 habitat，尤其是森林被改造成其他土地用途。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段第一句說，全球 bamboo species 常作為 forest ecosystems 一部分在 national parks 和reserves 中受保護，但幾乎沒有措施專門為野生 bamboo 本身設立。最後一句說，科學家需要到field 去觀察這些植物如何生存，再用所得資料保育它們。只看首尾句，可知本段是保育行動總結： UNEP-INBAR report 是一步進展，bamboo 長期被忽略，未來需要實地研究和專門保護措施。答案總表Questio Answer n 1 F 2 D 3 B 4 A 5 D 6 C 7 F 8 A 9 B 10 B 11 D 12 soil erosion 13 paper"
+      }
+    ]
+  }
+}

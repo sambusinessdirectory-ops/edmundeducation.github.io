@@ -1,0 +1,1763 @@
+{
+  "id": "p1-099-from-sunnyd-and-pizza-to-bread-and-water",
+  "catalogueId": "p1-099",
+  "catalogueIds": [
+    "p1-099"
+  ],
+  "passage": 1,
+  "title": "From SunnyD and Pizza to Bread and Water",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "F",
+    "D",
+    "E",
+    "competitive",
+    "healthy drink",
+    "distribution rights",
+    "drinking yoghurts",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Most consumers have changed their eating habits over the last year.”",
+      "translation": "大部分消費者在過去一年改變了飲食習慣。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找出哪一段包含這項資訊。手冊提醒這類題要先建立段落地圖，再找題目中的稀有概念和同義詞，最後確認該段真的包含題目要求的資訊功能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The National Consumer Council’s food expert, Sue Dibb, said the news showed companies would have to change to survive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "National Consumer Council 的食品專家 Sue Dibb 說，這些消息顯示公司若要生存，就必須改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But over the past year or so, the penny really seems to have dropped.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在過去一年左右，人們似乎終於真正明白了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 的功能是解釋食品公司受壓的原因：消費者已經意識到健康飲食，企業也要跟着改變。題目問 “Most consumers” 和 “over the last year”，這正好與本段的消費者行為變化相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Most consumers”、“changed their eating habits” 和 “over the last year”。原文可能不用 “most”，所以要留意數量表達，例如 two-thirds。也要留意 “changed what they eat” 這類改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our research showed that two-thirds of consumers have made changes to what they eat in the last year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的研究顯示，三分之二的消費者在過去一年已經改變了他們所吃的東西。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Most consumers”= 原文 “two-thirds of consumers”題目 “have changed their eating habits”= 原文 “have made changes to what they eat”題目 “over the last year”= 原文 “in the last year”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“two-thirds” 即三分之二，已超過一半，因此可以概括為 most consumers。答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 段也說 Asda 看到 buying patterns 改變，但 Question 1 的重點是 “Most consumers” 和 “over the last year”。B 段直接提供 “two-thirds of consumers” 這個數量證據，因此比 C 段更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“The suggestion that parents are more aware of how advertisers try to sell products”",
+      "translation": "有人暗示父母更能看穿廣告商如何推銷產品。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找的是一種 suggestion，即某人的看法或暗示；重點字是parents、advertisers / marketing、more aware。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kath Dalmeny, the Food Commission’s senior policy adviser, greeted the news of SunnyD’s delisting with satisfaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Food Commission 的高級政策顧問 Kath Dalmeny 對 SunnyD 被下架的消息表示滿意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The marketing director, Rob Spencer, told The Grocer magazine: ‘In Asda, two-thirds of our sales come from no-added-sugar versions, which are up by 1% year on year.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "市場總監 Rob Spencer 告訴《The Grocer》雜誌：「在 Asda，三分之二的銷售來自無添加糖版本，這些版本按年上升 1%。」只看首尾句，可以先估計 F 段會呈現兩方對 SunnyD 被下架的解讀。第一方是 Food Commission 的批評者，第二方是 Gerber 的市場總監。題目問 parents 是否更看穿 marketing，應該看第一方對 SunnyD 行銷的評論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “parents”、“advertisers try to sell products”。原文未必寫 advertisers，而可能寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“marketing”。掃描 F 段可以找到 “parents have seen through that kind of marketing”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Sunny Delight didn’t live up to its claims and parents have seen through that kind of marketing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sunny Delight 沒有符合它自己的宣稱，而父母已經看穿了那種行銷手法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “parents are more aware”= 原文 “parents have seen through”題目 “how advertisers try to sell products”= 原文 “that kind of marketing”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“see through” 不是單純「看見」，意思是識破、看穿背後手法。這句正好說父母已明白 SunnyD 的健康行銷並不可信，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 段有 advertisement 的具體描述，但 Question 2 問的是父母更有意識、看穿推銷手法。這個態度判斷在 F 段的 “parents have seen through” 最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“The ingredients of a once-popular drink”",
+      "translation": "一款曾經流行的飲品的成分。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找 “ingredients”，即配方成分。核心定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“once-popular drink”，應連到 Sunny Delight 曾經熱賣及其 original recipe。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D第一句：“The decline of Sunny Delight is matched by the fall of other soft drinks—two weeks ago, Britvic admitted a ‘severe decline’ in sales of its carbonated drinks, which include Tango, 7UP and Pepsi—although the fate of the SunnyD brand has attracted particular schadenfreude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sunny Delight 的下滑與其他汽水飲品的下跌相呼應；兩星期前，Britvic 承認旗下碳酸飲品，包括Tango、7UP 和 Pepsi，銷售出現「嚴重下滑」。然而 SunnyD 品牌的命運尤其引來幸災樂禍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sunny Delight burst on to the market in 1998 and reached the league table of top brands in 1999 by selling itself as a healthy drink, although its original recipe contained only 5% juice, along with plenty of sugar and water, as well as vegetable oil, thickeners, added vitamins, flavourings, and colourings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sunny Delight 於 1998 年突然打入市場，並在 1999 年進入頂級品牌榜，靠的是把自己包裝成健康飲品；然而它的原配方只有 5% 果汁，還有大量糖和水，以及植物油、增稠劑、添加維他命、香味劑和色素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 D 段同時講 SunnyD 的衰落和曾經成功。最後一句列出大量成分，因此這段就是題目所需位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “ingredients”。原文沒有直接用 ingredients，但 “original recipe contained” 就是成分清單的典型訊號。另一個定位詞 “once-popular” 對應 “reached the league table of top brands”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“its original recipe contained only 5% juice, along with plenty of sugar and water, as well as vegetable oil, thickeners, added vitamins, flavourings, and colourings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的原配方只有 5% 果汁，還有大量糖和水，以及植物油、增稠劑、添加維他命、香味劑和色素。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “ingredients”= 原文 “original recipe contained”題目 “once-popular drink”= 原文 “reached the league table of top brands in 1999”這句列出飲品的配方成分，答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段也提到 Sunny Delight 曾是 UK’s third-largest-selling drink，但沒有列出成分。Matching Information 要找「資訊功能」，所以找到品牌流行背景仍未足夠；要找 ingredient list，D 段才符合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“A description of an advertisement”",
+      "translation": "一個廣告的描述。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問 advertisement description，不只是提到 marketing 或advertisers，而要有具體廣告內容。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The health watchdog, the Food Commission, accused then-owners Procter and Gamble of a con for selling it from fridge cabinets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "健康監察組織 Food Commission 指控當時的擁有者 Procter and Gamble 把它放在雪櫃櫃位出售，有欺騙之嫌。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its collapse was as dramatic as its rise to fame, and Gerber Foods Soft Drinks, which bought distribution rights to the brand in 2005, has been unable to reverse its fortunes despite efforts to reduce the sugar content, change the recipe, and introduce new variations, including a bright green apple and kiwi flavour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的崩塌和成名一樣戲劇化；Gerber Foods Soft Drinks 於 2005 年買下該品牌的經銷權，雖然嘗試減糖、改配方並推出新變化，包括鮮綠色蘋果奇異果口味，仍無法扭轉命運。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 E 段會描述 SunnyD 的公關危機和品牌崩塌。題目問 advertisement，應在中間找 advert / television adverts 相關句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “advertisement”。原文直接出現 “television adverts”。這是強定位詞，找到後要看句子是否真的描述了廣告內容。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The marketing dream turned to a nightmare: by coincidence, television adverts at the time showed two white snowmen raiding the fridge for SunnyD and turning bright orange.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個行銷夢變成了一場惡夢：巧合的是，當時的電視廣告展示兩個白色雪人打開雪櫃偷喝SunnyD，然後變成鮮橙色。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “A description of an advertisement”= 原文 “television adverts ... showed two white snowmen ... turning bright orange”這句不是只提及有廣告，還清楚描述廣告畫面：兩個白色雪人、雪櫃、SunnyD、變橙。答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F 段有 “marketing” 一字，D 段有 “selling itself as a healthy drink”，但兩段沒有描寫某個廣告畫面。Question 4 的重點是 description，所以 E 段最準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "competitive",
+      "answerKey": "competitive",
+      "type": "Sentence Completion",
+      "prompt": "“Shops are becoming more 5 ______ about stocking healthy food and drink products.”",
+      "translation": "商店在供應健康食品和飲品方面變得更 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 “becoming more”，後面接形容詞。答案要來自文章，不多於兩個字。手冊提醒 Summary / Sentence Completion 要先讀空格前後文法，再掃描同義段落，並檢查字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The National Consumer Council’s food expert, Sue Dibb, said the news showed companies would have to change to survive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "National Consumer Council 的食品專家 Sue Dibb 說，這些消息顯示公司若要生存，就必須改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But over the past year or so, the penny really seems to have dropped.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在過去一年左右，人們似乎終於真正明白了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 B 段會講食品公司和超市面對健康飲食潮流時的反應。題目中的 shops對應 supermarkets，healthy food and drink products 對應 health。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Shops”、“becoming more” 和 “healthy”。原文對應 “Supermarkets are getting competitive about health”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Supermarkets are getting competitive about health.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超市在健康這個範疇上正變得更有競爭性。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Shops”= 原文 “Supermarkets”題目 “are becoming more”= 原文 “are getting”題目 “about stocking healthy food and drink products”= 原文 “about health”空格需要形容詞，原文形容詞是 competitive。答案是 competitive。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 health。題目已經說 “healthy food and drink products”，空格需要描述 shops 的狀態。文法上 “more health” 也不自然；“more competitive” 才正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "healthy drink",
+      "answerKey": "healthy drink",
+      "type": "Sentence Completion",
+      "prompt": "“Sunny Delight was originally marketed as a 6 ______”",
+      "translation": "Sunny Delight 最初被包裝成一種 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 “a”，後面需要單數名詞短語。題目中的 “marketed as” 要找原文中的 “selling itself as”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The decline of Sunny Delight is matched by the fall of other soft drinks—two weeks ago, Britvic admitted a ‘severe decline’ in sales of its carbonated drinks, which include Tango, 7UP and Pepsi—although the fate of the SunnyD brand has attracted particular schadenfreude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sunny Delight 的下滑與其他汽水飲品的下跌相呼應；兩星期前，Britvic 承認旗下碳酸飲品，包括Tango、7UP 和 Pepsi，銷售出現「嚴重下滑」。然而 SunnyD 品牌的命運尤其引來幸災樂禍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sunny Delight burst on to the market in 1998 and reached the league table of top brands in 1999 by selling itself as a healthy drink, although its original recipe contained only 5% juice, along with plenty of sugar and water, as well as vegetable oil, thickeners, added vitamins, flavourings, and colourings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sunny Delight 於 1998 年突然打入市場，並在 1999 年進入頂級品牌榜，靠的是把自己包裝成健康飲品；然而它的原配方只有 5% 果汁，還有大量糖和水，以及植物油、增稠劑、添加維他命、香味劑和色素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 D 段同時講 SunnyD 的下降和早期品牌形象。題目問 originally marketed as，最後一句的 “selling itself as a healthy drink” 直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Sunny Delight”、“originally marketed as”。原文的 “burst on to the market in 1998” 和 “selling itself as” 都很接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sunny Delight burst on to the market in 1998 and reached the league table of top brands in 1999 by selling itself as a healthy drink...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sunny Delight 於 1998 年突然打入市場，並在 1999 年進入頂級品牌榜，靠的是把自己包裝成健康飲品。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “was originally marketed as”= 原文 “selling itself as”答案是 healthy drink，兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 juice。原文說原配方只有 5% juice，這是產品真實成分；題目問 marketed as，即行銷形象。答案要填 healthy drink。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "distribution rights",
+      "answerKey": "distribution rights",
+      "type": "Sentence Completion",
+      "prompt": "“Gerber Foods Soft Drinks has the 7 ______ for Sunny Delight.”",
+      "translation": "Gerber Foods Soft Drinks 擁有 Sunny Delight 的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 “has the”，後面需要名詞短語。題目用現在式 “has”，但原文可能用過去式 “bought”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The health watchdog, the Food Commission, accused then-owners Procter and Gamble of a con for selling it from fridge cabinets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "健康監察組織 Food Commission 指控當時的擁有者 Procter and Gamble 把它放在雪櫃櫃位出售，有欺騙之嫌。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its collapse was as dramatic as its rise to fame, and Gerber Foods Soft Drinks, which bought distribution rights to the brand in 2005, has been unable to reverse its fortunes despite efforts to reduce the sugar content, change the recipe, and introduce new variations, including a bright green apple and kiwi flavour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的崩塌和成名一樣戲劇化；Gerber Foods Soft Drinks 於 2005 年買下該品牌的經銷權，雖然嘗試減糖、改配方並推出新變化，包括鮮綠色蘋果奇異果口味，仍無法扭轉命運。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段會講 SunnyD 由原擁有者到 Gerber 接手後仍未復甦的過程。題目直接提到 Gerber Foods Soft Drinks，所以 E 段最後一句是目標位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Gerber Foods Soft Drinks”。這是專有名詞，定位力很強。掃描原文會找到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“bought distribution rights to the brand in 2005”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Gerber Foods Soft Drinks, which bought distribution rights to the brand in 2005, has been unable to reverse its fortunes...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gerber Foods Soft Drinks 於 2005 年買下該品牌的經銷權，但一直無法扭轉它的命運。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “has the ______ for Sunny Delight”= 原文 “bought distribution rights to the brand”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the brand” 指 Sunny Delight / SunnyD。答案是 distribution rights，兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “brand”。Gerber 不是 “has the brand” 這種原文說法；原文精準名詞是 distribution rights，即經銷權。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "drinking yoghurts",
+      "answerKey": "drinking yoghurts",
+      "type": "Sentence Completion",
+      "prompt": "“The most dramatic change in consumption has been for 8 ______”",
+      "translation": "消費變化最劇烈的是 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 “for”，後面要填產品類別。題目中的 “most dramatic change” 需要比較數字大小，不能只找 “grown phenomenally”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But market research figures from the company AC Nielsen show that the pressure on Sunny Delight and Northern Foods is part of a wider trend.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 AC Nielsen 公司的市場研究數字顯示，Sunny Delight 和 Northern Foods 面對的壓力屬於更廣泛的趨勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It said Unilever, Kraft Foods, PepsiCo, Coca-Cola, McDonald’s, and Cadbury Schweppes had the highest risk of suffering a backlash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它指出 Unilever、Kraft Foods、PepsiCo、Coca-Cola、McDonald’s 和 Cadbury Schweppes 面臨最高的反彈風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 G 段是市場數據總結段。題目問最劇烈消費變化，應在本段尋找百分比數字並比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “most dramatic change”。原文沒有這幾個字，但列出多個百分比：pizzas and frozen foods fell 9.2%，confectionery 3.1%，bagged snacks 1.2%，carbonated soft drinks 1.7%， drinking yoghurts up 51%，juices 15.6%，water 9.4%。最大的變化是 51%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drinking yoghurts were up 51%, juices 15.6%, and water 9.4%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "飲用乳酪上升 51%，果汁上升 15.6%，水上升 9.4%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組數字中，51% 是最大幅度。題目說 “most dramatic change in consumption”，即要找變化幅度最大的產品。答案是 drinking yoghurts。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “most dramatic change”= 原文中最大百分比變化 “up 51%”題目 “consumption”= 原文 “sales” / market research figures"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 段說 “water sales have grown phenomenally”，phenomenally 很搶眼，但那裡沒有給出與其他產品比較的最大數字。G 段用 AC Nielsen 數據列出百分比，drinking yoghurts 的 51% 最大，所以答案應跟數字比較走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most of the foods produced by Northern Foods are healthy.”",
+      "translation": "Northern Foods 生產的大部分食品都是健康的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。手冊提醒這類題的重點是同義、相反或資料缺失；若原文提供相反方向的資料，答案是 FALSE，若缺少核心資料才是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another bad week in a bad month for the food and drink industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對食品和飲品業來說，這是糟糕一個月中的又一個糟糕星期。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shares fell 17% to a five-year low of £1.08.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "股價下跌 17%，跌至五年低位 1.08 英鎊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 A 段講食品飲品業的壞消息和市場壓力。題目提到 Northern Foods，所以應在 A 段找該公司的產品和它受健康飲食潮流影響的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Northern Foods” 和 “healthy”。Paragraph A 直接出現 “Northern Foods, makers of biscuits, pies, pizzas and ready meals” 以及 “trend towards healthier food was causing it problems”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yesterday, it was the turn of Northern Foods, makers of biscuits, pies, pizzas and ready meals, to admit that the trend towards healthier food was causing it problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "昨天輪到 Northern Foods 承認，健康食品趨勢正給它帶來問題；該公司生產餅乾、批、薄餅和即食餐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的邏輯很清楚：Northern Foods 的產品線受到健康飲食趨勢打擊。若其大部分產品本身屬於健康食品，文章不會把 “trend towards healthier food” 描述成造成它困難的原因。後文 G 段也把Northern Foods 的壓力放入 “wider trend”，並列出 pizzas and frozen foods 下跌、unhealthy products declined 的大背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Northern Foods 的大部分食品是 healthy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： Northern Foods 受到 healthier food trend 打擊，並以 biscuits、pies、pizzas、ready meals 為代表產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目方向和文章整體呈現相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了 “Most”，而原文沒有逐字說 “most Northern Foods products are unhealthy”。不過文章明確說健康飲食潮流正造成 Northern Foods 問題，並把它放在 unhealthy products 下跌的大趨勢之中。這足以排除題目所說「大部分健康」的方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Duncan Cameron is a doctor.”",
+      "translation": "Duncan Cameron 是醫生。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問人物身份，定位詞是人名 Duncan Cameron。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The health watchdog, the Food Commission, accused then-owners Procter and Gamble of a con for selling it from fridge cabinets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "健康監察組織 Food Commission 指控當時的擁有者 Procter and Gamble 把它放在雪櫃櫃位出售，有欺騙之嫌。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its collapse was as dramatic as its rise to fame, and Gerber Foods Soft Drinks, which bought distribution rights to the brand in 2005, has been unable to reverse its fortunes despite efforts to reduce the sugar content, change the recipe, and introduce new variations, including a bright green apple and kiwi flavour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的崩塌和成名一樣戲劇化；Gerber Foods Soft Drinks 於 2005 年買下該品牌的經銷權，雖然嘗試減糖、改配方並推出新變化，包括鮮綠色蘋果奇異果口味，仍無法扭轉命運。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段圍繞 SunnyD 的健康爭議和品牌危機。Duncan Cameron 出現在這段中間，與醫學報告和五歲女孩變黃事件有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “Duncan Cameron”。掃描 E 段可直接找到 “paediatrician Duncan Cameron”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1999, paediatrician Duncan Cameron reported a new and alarming condition in the medical journals: Sunny Delight Syndrome.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1999 年，兒科醫生 Duncan Cameron 在醫學期刊中報告了一種新的、令人警覺的病況：Sunny Delight Syndrome。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“paediatrician” 指兒科醫生，是 doctor 的一種。題目把具體醫生類別 paediatrician 概括成 doctor，這是上位類別改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “doctor”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “paediatrician”原文和題目方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要因為原文沒有直接寫 “doctor” 就選 NOT GIVEN。IELTS 常用職業上位詞改寫；paediatrician已足夠證明他是醫生。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Rob Spencer works for Asda.”",
+      "translation": "Rob Spencer 為 Asda 工作。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問人物 Rob Spencer 的工作機構。要留意同一句附近有 Asda，也有 Gerber Foods Soft Drinks。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kath Dalmeny, the Food Commission’s senior policy adviser, greeted the news of SunnyD’s delisting with satisfaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Food Commission 的高級政策顧問 Kath Dalmeny 對 SunnyD 被下架的消息表示滿意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The marketing director, Rob Spencer, told The Grocer magazine: ‘In Asda, two-thirds of our sales come from no-added-sugar versions, which are up by 1% year on year.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "市場總監 Rob Spencer 告訴《The Grocer》雜誌：「在 Asda，三分之二的銷售來自無添加糖版本，這些版本按年上升 1%。」只看首尾句，可以估計 F 段有兩方聲音：Food Commission 批評 SunnyD 的健康形象，Gerber Foods Soft Drinks 則為品牌辯護。Rob Spencer 出現在 Gerber 那方說法後面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Rob Spencer” 和 “Asda”。原文最後一句兩個詞都出現，容易造成相鄰資訊陷阱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此要回看前一句確認 “The marketing director” 屬於哪家公司。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gerber Foods Soft Drinks said SunnyD was suffering from an inherited and unjustified image problem. The marketing director, Rob Spencer, told The Grocer magazine: ‘In Asda, two-thirds of our sales come from no-added-sugar versions, which are up by 1% year on year.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gerber Foods Soft Drinks 表示 SunnyD 正受一個承襲而來且不合理的形象問題困擾。市場總監Rob Spencer 告訴《The Grocer》雜誌：「在 Asda，三分之二的銷售來自無添加糖版本，這些版本按年上升 1%。」這裡 “The marketing director” 承接上一句的 Gerber Foods Soft Drinks 說法。Rob Spencer 是Gerber 方面的 marketing director；他只是談到 “In Asda” 的銷售情況。Asda 是銷售渠道，不是他的僱主。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Rob Spencer works for Asda.原文命題： Rob Spencer 是 Gerber Foods Soft Drinks 一方的 marketing director，並談及 Asda 裡的SunnyD 銷售。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目把銷售地點 Asda 誤當成 Rob Spencer 的工作機構，與原文關係相衝，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最大陷阱是 “In Asda”。學生看到 Rob Spencer 的引號內有 Asda，便可能以為他屬於 Asda。真正要看的是引號前的 reporting context：Gerber Foods Soft Drinks said... The marketing director, Rob Spencer..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Sales of Coca-Cola are declining in Britain.”",
+      "translation": "Coca-Cola 在英國的銷售正在下降。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有三個核心元素：Coca-Cola、sales declining、in Britain。三者都要有原文支援，才可選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But market research figures from the company AC Nielsen show that the pressure on Sunny Delight and Northern Foods is part of a wider trend.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 AC Nielsen 公司的市場研究數字顯示，Sunny Delight 和 Northern Foods 面對的壓力屬於更廣泛的趨勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It said Unilever, Kraft Foods, PepsiCo, Coca-Cola, McDonald’s, and Cadbury Schweppes had the highest risk of suffering a backlash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它指出 Unilever、Kraft Foods、PepsiCo、Coca-Cola、McDonald’s 和 Cadbury Schweppes 面臨最高的反彈風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段既有市場銷售數字，也有大型食品公司未來風險評估。題目提到Coca-Cola，因此要看最後一句是否提供 actual sales decline。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Coca-Cola”。原文最後一句直接出現 Coca-Cola。另一個定位詞 “sales are declining” 需要找 sales fell / declined 一類字眼。G 段有 carbonated soft drinks declined by 1.7%，但沒有說 Coca-Cola 在 Britain 的銷售下降。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most products seen as unhealthy declined—confectionery by 3.1%, bagged snacks by 1.2%, and carbonated soft drinks by 1.7%—while those seen as healthy boomed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多被視為不健康的產品銷售下跌：糖果下跌 3.1%，袋裝零食下跌 1.2%，碳酸汽水下跌 1.7%；同時，被視為健康的產品則大幅上升。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“It said Unilever, Kraft Foods, PepsiCo, Coca-Cola, McDonald’s, and Cadbury Schweppes had the highest risk of suffering a backlash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它指出 Unilever、Kraft Foods、PepsiCo、Coca-Cola、McDonald’s 和 Cadbury Schweppes 面臨最高的反彈風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有兩件相關資料：第一，carbonated soft drinks 作為一個類別銷售下跌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，Coca-Cola 作為公司被列入最高反彈風險名單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目要求的是： Coca-Cola 這個品牌／公司的 sales 正在 Britain 下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有提供 Coca-Cola 在英國的實際銷售數字，也沒有說它的銷售已經下降。被列為 high risk of backlash 只是風險評估，不等於銷售正在下跌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：相關背景存在，但核心資料缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“carbonated soft drinks declined” 很容易令人想到 Coca-Cola。可是類別下跌不等於指定品牌銷售下跌。最後一句有 Coca-Cola 原字，也只說 risk，沒有說 actual decline。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Fast food companies are looking to developing countries to increase their profits.”",
+      "translation": "快餐公司正尋求透過發展中國家增加利潤。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有幾個核心元素：fast food companies、developing countries、increase profits。文章若只提到 McDonald’s 或 food manufacturers，仍未必足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But market research figures from the company AC Nielsen show that the pressure on Sunny Delight and Northern Foods is part of a wider trend.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 AC Nielsen 公司的市場研究數字顯示，Sunny Delight 和 Northern Foods 面對的壓力屬於更廣泛的趨勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It said Unilever, Kraft Foods, PepsiCo, Coca-Cola, McDonald’s, and Cadbury Schweppes had the highest risk of suffering a backlash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它指出 Unilever、Kraft Foods、PepsiCo、Coca-Cola、McDonald’s 和 Cadbury Schweppes 面臨最高的反彈風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段討論整個食品行業健康反彈的風險。題目提到 fast food companies，最後一句的 McDonald’s 可能相關，但仍要檢查 developing countries 和 profits 有沒有出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “fast food companies”、“developing countries” 和 “profits”。原文有 McDonald’s，但沒有 developing countries，也沒有 companies looking to increase profits 的行動描述。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It said Unilever, Kraft Foods, PepsiCo, Coca-Cola, McDonald’s, and Cadbury Schweppes had the highest risk of suffering a backlash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它指出 Unilever、Kraft Foods、PepsiCo、Coca-Cola、McDonald’s 和 Cadbury Schweppes 面臨最高的反彈風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句確實提到 McDonald’s，而 McDonald’s 可被視為 fast food company。但原文只說這些公司面臨 backlash risk，原因是 turnover 中有較高比例來自 unhealthy category。文章沒有提到developing countries，也沒有說這些公司正在尋找新市場提高 profits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：快餐公司正轉向 developing countries，以增加 profits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： McDonald’s 等公司有較高 backlash risk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文沒有提供題目所需的地區和盈利策略，因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 McDonald’s 會令人想到 fast food companies，這只是部分對應。TRUE / FALSE / NOT GIVEN 題要檢查整句命題。developing countries 和 increase profits 兩個核心元素都沒有出現，所以不能把常識補入答案。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - From SunnyD and Pizza to Bread and Water.pdf",
+    "sha256": "8ed7b427f4be3d162881932ba5c4f2d88c5c65ede60ab94377ec114517292273",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段第一句直接說食品飲品業又經歷了一個壞星期，先建立行業受壓的新聞背景。最後一句提到Northern Foods 因餅乾和 pastry 銷售下跌而發出 profit warning，股價也跌至五年低位。只看首尾句，可以先估計本段是「行業危機開場」：Sunny Delight 被 Asda 下架，Northern Foods 也受健康飲食潮流打擊。若題目問 Northern Foods、sales slump、profit warning 或 unhealthy food trend，A 段很可能有答案。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段第一句引用 National Consumer Council 的 Sue Dibb，指出這些消息顯示食品公司若要生存便必須改變。最後一句由 Clive Black 說 “the penny really seems to have dropped”，意思是消費者終於真正意識到健康飲食的重要。只看首尾句，可見本段功能是解釋行業困境背後的消費者轉向：大部分消費者改變飲食，超市也在健康產品方面競爭。Questions 1 和 5 會主要看這段。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段第一句說 Asda 和其他超市一樣，在過去一年看到購買模式出現明顯改變。最後一句指出這股趨勢受媒體報道和 “Jamie Oliver effect” 推動。只看首尾句，可以猜本段會從超市角度補充健康消費轉變：消費者想要 more natural and authentic products，碳酸飲品市場下跌，juice market 和water sales 上升。若題目問 Asda、buying patterns、carbonated drinks、juice、water 或 media influence，C 段是重要定位區。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段第一句說 Sunny Delight 的下滑和其他 soft drinks 的下跌相呼應，但 SunnyD 的命運尤其引起幸災樂禍。最後一句詳細列出 Sunny Delight 原配方：只有 5% juice，另有 sugar、water、vegetable oil、thickeners、added vitamins、flavourings 和 colourings。只看首尾句，可知本段處理SunnyD 的品牌興衰和產品真相。它一方面說品牌曾以 healthy drink 形象出售，另一方面揭示其成分與健康形象之間的落差。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段第一句說 Food Commission 指控當時的擁有者 Procter and Gamble 有欺騙成分，因為它被放在雪櫃櫃位出售。最後一句說 Gerber Foods Soft Drinks 雖取得品牌 distribution rights 並嘗試減糖、改配方、推出新口味，仍無法扭轉命運。只看首尾句，可以估計本段會描述 SunnyD 的公關災難：五歲女孩因大量飲用變黃、廣告中的 snowmen 也變橙，令品牌由 marketing dream 變成nightmare。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段第一句說 Food Commission 的 Kath Dalmeny 對 SunnyD 被 delisted 感到滿意。最後一句引用 Gerber 的 marketing director Rob Spencer，指出在 Asda 裏，三分之二 SunnyD 銷售來自no-added-sugar 版本，而且按年上升 1%。只看首尾句，可見本段呈現兩方說法：批評者認為父母已看穿健康行銷，Gerber 則認為品牌受 inherited and unjustified image problem 影響。 Questions 2 和 11 主要在這裡定位。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段第一句說 AC Nielsen 的市場研究顯示 Sunny Delight 和 Northern Foods 的壓力屬於更廣泛趨勢。最後一句說 EIRIS 把多家大型食品公司列為最高風險，因為它們 turnover 中有高比例來自unhealthy category。只看首尾句，本段是總結性市場數據段：pizza、frozen foods、confectionery、bagged snacks、carbonated soft drinks 下跌；drinking yoghurts、juices、water 上升。若題目問最大消費變化、Coca-Cola 或 industry-wide backlash，G 段很關鍵。 Answer Key Questio Answer n 1 B 2 F 3 D 4 E 5 competitive 6 healthy drink 7 distribution rights 8 drinking yoghurts 9 FALSE 10 TRUE 11 FALSE 12 NOT GIVEN 13 NOT GIVEN"
+      }
+    ]
+  }
+}

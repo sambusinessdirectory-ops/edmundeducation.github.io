@@ -13,9 +13,10 @@ function loadBrowserData(source, variableName) {
   return context.window[variableName];
 }
 
-const [indexSource, contentSource, html, css, client, examResources, resources, sitemap, workflow] =
+const [indexSource, availabilitySource, contentSource, html, css, client, examResources, resources, sitemap, workflow] =
   await Promise.all([
     read("ielts-reading-analysis-index.js"),
+    read("ielts-reading-analysis-availability.js"),
     read("ielts-reading-analysis-content.js"),
     read("ielts-reading-analysis.html"),
     read("ielts-reading-analysis.css"),
@@ -30,12 +31,20 @@ const index = loadBrowserData(
   indexSource,
   "EDMUND_IELTS_READING_ANALYSIS_INDEX",
 );
+const availability = loadBrowserData(
+  availabilitySource,
+  "EDMUND_IELTS_READING_ANALYSIS_AVAILABILITY",
+);
 const content = loadBrowserData(
   contentSource,
   "EDMUND_IELTS_READING_ANALYSIS_CONTENT",
 );
 
 const records = Object.values(index.passages).flat();
+assert.equal(availability.articles["mungo-man"].catalogueId, "p1-161");
+assert.equal(availability.articles["if-you-can-get-used-to-the-taste"].catalogueId, "p1-092");
+assert.equal(availability.articles["mungo-man"].source, "bundled");
+assert.equal(availability.articles["if-you-can-get-used-to-the-taste"].source, "bundled");
 assert.deepEqual(
   Object.fromEntries(
     Object.entries(index.passages).map(([passage, entries]) => [passage, entries.length]),
@@ -149,9 +158,16 @@ for (const required of [
   assert.ok(html.includes(required), `page is missing ${required}`);
 }
 const indexScript = html.indexOf("ielts-reading-analysis-index.js");
+const availabilityScript = html.indexOf("ielts-reading-analysis-availability.js");
 const contentScript = html.indexOf("ielts-reading-analysis-content.js");
 const clientScript = html.indexOf("ielts-reading-analysis.js");
-assert.ok(indexScript < contentScript && contentScript < clientScript, "scripts load out of order");
+assert.ok(
+  indexScript < availabilityScript
+    && availabilityScript < contentScript
+    && contentScript < clientScript,
+  "scripts load out of order",
+);
+assert.match(html, /<script type="module" src="ielts-reading-analysis\.js/);
 assert.match(html, /rel="manifest" href="\/manifest\.webmanifest"/);
 assert.match(html, /rel="canonical" href="https:\/\/edmundeducation\.com\/ielts-reading-analysis\.html"/);
 assert.match(html, /data-article-overview hidden/);
@@ -167,6 +183,9 @@ assert.match(client, /\[1, 2, 3\]/, "all three passage selectors must be rendere
 assert.match(client, /Intl\.Collator/);
 assert.match(client, /normalise\(record\.title\)\.includes\(needle\)/);
 assert.match(client, /history\[replace \? "replaceState" : "pushState"\]/);
+assert.match(client, /createArticleRepository/);
+assert.match(client, /articleRepository\.availabilityForCatalogueId/);
+assert.match(client, /async function applyRoute\(\)/);
 assert.match(client, /url\.hash = "";/, "new routes must clear stale question anchors");
 assert.match(client, /prompt\.lang = "en";/, "English prompts need a language tag");
 assert.match(client, /function renderArticleOverview\(/);

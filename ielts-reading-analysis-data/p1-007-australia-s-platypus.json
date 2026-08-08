@@ -1,0 +1,2074 @@
+{
+  "id": "p1-007-australia-s-platypus",
+  "catalogueId": "p1-007",
+  "catalogueIds": [
+    "p1-007"
+  ],
+  "passage": 1,
+  "title": "AUSTRALIA'S PLATYPUS",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "YES",
+    "YES",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "YES",
+    "poisonous spur",
+    "two buds",
+    "underground nest",
+    "rich milk",
+    "Common but Vulnerable",
+    "urban and agricultural",
+    "food",
+    "permit"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The appearance of the platypus caused experts to doubt it was real.”",
+      "translation": "Platypus 的外貌令專家懷疑牠是否真實存在。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷作者的 claim 是否和題目一致。題目重點是 appearance、experts、doubt it was real。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是說，原文要支援「專家因為牠看起來太奇怪，所以懷疑牠是真的」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of all the creatures on the earth, the Australian platypus, Omithorbynchusparadoxus, is perhaps one of the most mysterious and reclusive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在地球所有生物之中，澳洲 platypus 也許是最神秘、最隱秘的動物之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, the incredible collection of its body parts – broad, flat tail, rubbery snout, webbed feet and short dense fur – make it one of the world’s most unusual animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "的確，牠身上那一組令人難以置信的身體部位——寬扁尾巴、橡膠般的口鼻、蹼足和短密毛髮——使牠成為世界上最不尋常的動物之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會介紹 platypus 的神秘性和外貌特殊。題目中的appearance 正好與最後一句的 body parts 相關，所以這段應該繼續細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“appearance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“experts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“doubt”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必直接用 appearance 或 doubt，因此要找 sketches、body parts、hoax、unusual animal。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 中間有一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon being discovered in Australia in the 1700s, sketches of this unusual creature were made and sent back to England whereupon they were considered by experts to be a hoax.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 sketches、experts、hoax，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon being discovered in Australia in the 1700s, sketches of this unusual creature were made and sent back to England whereupon they were considered by experts to be a hoax.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠在 1700 年代於澳洲被發現後，人們畫下這種奇異生物的素描並送回英國；專家隨即認為那些素描是惡作劇或騙局。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 sketches of this unusual creature，判斷者是 experts，判斷內容是 hoax。Hoax 指騙局、惡作劇，表示專家不相信這生物是真的。下一句列出牠的 strange body parts，解釋為何這種懷疑出現：牠的身體組合太不尋常。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“appearance of the platypus”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“sketches of this unusual creature”"
+            },
+            {
+              "kind": "quote",
+              "text": "“incredible collection of its body parts”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“caused experts to doubt it was real”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“considered by experts to be a hoax”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向一致。原文明確說英國專家把牠視作 hoax，因此答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有用 “hoax” 這個字，而用 “doubt it was real” 解釋 hoax 的意思。看到 hoax 時，不要只理解成「玩笑」；在這裡，它等於專家懷疑這動物不是自然真實存在的生物。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The amount of venom in a male platypus changes during the year.”",
+      "translation": "雄性 platypus 體內毒液的量會在一年中某些時期改變。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 amount of venom 是否會按時間變化。題目沒有說全年如何變，只說 changes during the year，所以原文只要指出某段時間毒液增加或減少，就足夠支持 YES。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Officially classified as a mammal, the egg-laying platypus is mostly active during the night, a nocturnal animal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Platypus 被正式分類為哺乳動物，但牠會下蛋，而且主要在夜間活動，是一種夜行動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To be stung by a male platypus is a rare event with only a very small number of people being on the receiving end of this most reclusive creature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被雄性 platypus 刺傷是罕見事件，只有極少數人真正遭遇過這種極隱秘動物的攻擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段大概會介紹 platypus 的特殊生理和行為，尤其雄性的毒刺和刺傷情況。題目提到 male platypus 和 venom，因此 Paragraph 2 很可能是答案段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“amount of venom”"
+            },
+            {
+              "kind": "quote",
+              "text": "“male platypus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changes during the year”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要找 venom、poison、breeding season、increases。Paragraph 2 後半直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the breeding season, the amount of venom in the male platypus increases.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句與題目高度重合。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the breeding season, the amount of venom in the male platypus increases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在繁殖季節，雄性 platypus 的毒液量會增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的時間是 during the breeding season，表示一年中的特定時期。核心動詞是 increases，意思是增加。題目用 “changes during the year” 概括 “breeding season increases”。因為毒液量在繁殖季節上升，這已經證明它不是全年固定不變。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“changes during the year”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the breeding season … increases”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“amount of venom in a male platypus”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the amount of venom in the male platypus”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文同方向，答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 changes，原文說 increases。Change 是較廣概念，increase 是其中一種變化。這種「具體動作 → 上位概括」在 IELTS 很常見，不能因為 changes 沒有原字重現就選 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Most platypus live in Eastern Australia.”",
+      "translation": "大多數 platypus 生活在澳洲東部。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否提供 platypus 分布比例。控制詞是 Most，要求文章支援「大多數」。如果文章只提到 eastern Australia 的 surveys 或 studies，仍未必能證明 most live there。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Australia, the platypus is officially classified as ‘Common but Vulnerable’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在澳洲，platypus 的官方分類是 “Common but Vulnerable”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small frogs and fish eggs are also eaten occasionally, along with some terrestrial insects that fall into the water from overhanging vegetation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們偶爾也會吃小青蛙和魚卵，以及從懸垂植被掉入水中的一些陸生昆蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 會先講 conservation status，後面轉到族群密度和食物來源。題目問 most live where，可能會和這段的 catchments / eastern Australia / Victoria 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most platypus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Eastern Australia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Platypus surveys have only been carried out in a few catchments in eastern Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Platypus 調查只在澳洲東部少數幾個 catchments 中進行過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句含有 eastern Australia，但要仔細檢查它說的是居住分布，還是調查地點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Platypus surveys have only been carried out in a few catchments in eastern Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Platypus 調查只在澳洲東部少數幾個集水區進行過。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is therefore impossible to provide an accurate estimate of the total number of platypus remaining in the wild.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，不可能準確估計野外仍存有多少 platypus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說的是研究範圍有限，並不是 platypus 的整體分布比例。原文甚至說無法準確估算總數，所以更加不能從這裡推出「大多數生活在 Eastern Australia」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據： Most platypus= 大多數個體live in Eastern Australia= 棲息地主要位於澳洲東部原文實際有的資料： surveys in a few catchments in eastern Australia= 調查只在東部少數 catchments 做過no accurate estimate of total number= 總數無法準確估計判斷：文章提到 Eastern Australia，但缺少 “most live there” 的比例或分布結論。原文也沒有說大多數不在 Eastern Australia，所以不能選 NO。資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“eastern Australia” 原字重現很吸引，但這裡只是 survey location。IELTS 很常把「研究地點」和「物種主要分布地」分開考。看到地名重現後，還要問：原文是否真的建立了 Most 這個比例？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Snake venom and platypus venom are very similar.”",
+      "translation": "蛇毒和 platypus 毒液非常相似。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否比較 snake venom 和 platypus venom。重點是 venom 是否 similar，而不是spur 或 fang 是否 similar。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Officially classified as a mammal, the egg-laying platypus is mostly active during the night, a nocturnal animal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Platypus 被正式分類為哺乳動物，但牠會下蛋，而且主要夜間活動，是夜行動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To be stung by a male platypus is a rare event with only a very small number of people being on the receiving end of this most reclusive creature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被雄性 platypus 刺傷是罕見事件，只有很少人曾被這種極隱秘的動物刺中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 講 venomous male platypus、spur、pain 和 breeding season。題目提到 snake venom，應該掃描這段中和 snake 有關的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snake venom”"
+            },
+            {
+              "kind": "quote",
+              "text": "“platypus venom”"
+            },
+            {
+              "kind": "quote",
+              "text": "“similar”"
+            },
+            {
+              "kind": "label",
+              "text": "原文只有一處 snake 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The spur – about 2 centimetres in length – is quite similar to the fang of a snake and, if provoked, is used as a means of defence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個毒刺約 2 厘米長，與蛇的毒牙相當相似；如果受到挑釁，牠會用它作防禦手段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 similar 和 snake，但要留意比較對象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文比較的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The spur … is quite similar to the fang of a snake”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "platypus 的毒刺與蛇的毒牙相當相似。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目比較的是： Snake venom and platypus venom也就是蛇毒與 platypus 毒液。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是身體構造相似：spur 類似 fang。它沒有說化學成分、毒性機制、毒液特質或效果與蛇毒相似。Paragraph 2 雖然也提到 platypus poison / venom，但沒有把它與 snake venom 作比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有： spur similar to snake fang= 外形或功能上的構造比較原文缺少： platypus venom similar to snake venom= 毒液本身的比較判斷：相關字 snake、venom、similar 都在附近出現，但核心比較對象被題目換了。原文沒有提供 snake venom 與 platypus venom 的相似性，也沒有明確說兩者不相似。資料不足，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 “similar to the fang of a snake” 誤導。真正控制答案的是比較對象：原文比較 spur和 fang；題目比較 venom 和 venom。比較對象不同，不能直接選 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Because their environment is specialised, platypus cannot be kept as pets.”",
+      "translation": "由於牠們的生活環境需求特殊，platypus 不能被當作寵物飼養。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有 because 因果關係。要找原文是否說 platypus 有 specialised living requirements，並因此不適合由公眾帶回家或當寵物。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the early twentieth century, platypus were widely killed for their fur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到二十世紀初，platypus 曾因皮毛而被大量捕殺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Current Australian government policy does not allow this species to be taken overseas for any reason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲現行政府政策不允許這個物種因任何原因被帶到海外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 主要講保護規定和限制，包括捕殺、飼養、人工圈養和輸出海外。題目問 pets 和 specialised environment，應看這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“environment is specialised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“kept as pets”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“wild animals with specialised living requirements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“illegal for members of the public to keep them in captivity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“should never be taken home and treated as a pet”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三個短語都在 Paragraph 5。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Platypus are wild animals with specialised living requirements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Platypus 是野生動物，有特殊的生活需求。"
+            },
+            {
+              "kind": "quote",
+              "text": "“It is illegal for members of the public to keep them in captivity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般公眾把牠們圈養是非法的。"
+            },
+            {
+              "kind": "quote",
+              "text": "“A platypus which has been accidentally captured along a stream or found wandering in an unusual place should never be taken home and treated as a pet, even for a brief time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 platypus 在溪流旁被意外捕獲，或被發現在不尋常的地方遊蕩，絕不應被帶回家當寵物，即使只是短時間也不行。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The animal will not survive the experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這隻動物無法在這種經歷中存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組句子建立完整因果。先說牠是 wild animal，有 specialised living requirements；再說公眾不得圈養；接著明確禁止帶回家當寵物；最後說牠不能存活。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“environment is specialised”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“specialised living requirements”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be kept as pets”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“should never be taken home and treated as a pet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“will not survive the experience”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向一致，答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "有些學生可能只看到 “illegal” 就覺得原因是法律，和題目 because environment specialised 不一樣。其實原文在法律句前先說 specialised living requirements，後面又說動物無法存活。題目的because 概括了生存需求這一層原因，沒有越出原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "poisonous spur",
+      "answerKey": "poisonous spur",
+      "type": "Summary Completion",
+      "prompt": "“For example, on the hind feet, the male has a 6________________ while the young female has 7________________.”",
+      "translation": "例如，在後足位置，雄性有一個 ______，而年幼雌性有 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 和 Paragraph 3 Paragraph 2 第一段相關首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Officially classified as a mammal, the egg-laying platypus is mostly active during the night, a nocturnal animal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Platypus 被正式分類為哺乳動物，但會下蛋，而且主要夜間活動。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To be stung by a male platypus is a rare event with only a very small number of people being on the receiving end of this most reclusive creature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被雄性 platypus 刺傷是罕見事件，只有極少數人有這種經歷。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the same area of the hind foot where the male has the poisonous spur, the female platypus only develops two buds which drop off in their first year of life never to appear again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在雄性後足有毒刺的同一區域，雌性 platypus 只會長出兩個小芽狀構造，這些構造會在牠們出生第一年脫落，之後不再出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 3 第一個句子，Question 6 和 7 幾乎直接定位成功。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“hind feet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“male”"
+            },
+            {
+              "kind": "quote",
+              "text": "“female”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the same area of the hind foot where the male has the poisonous spur”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 hind foot、male 和答案詞 poisonous spur。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the same area of the hind foot where the male has the poisonous spur, the female platypus only develops two buds which drop off in their first year of life never to appear again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在雄性後足有毒刺的同一區域，雌性 platypus 只會長出兩個小芽狀構造，這些構造會在出生第一年脫落，之後不再出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要填 male has a ___。原文對應 “the male has the poisonous spur”。答案可以是 “poisonous spur”，兩個字，符合 no more than three words。雖然 Paragraph 2 也說 “a sharply pointed, moveable spur”，但這超過三個字，而且 Paragraph 3 的 “poisonous spur” 更直接與 female 的two buds 放在同一句比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 poisonous spur。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "two buds",
+      "answerKey": "two buds",
+      "type": "Summary Completion",
+      "prompt": "“...while the young female has 7________________.”",
+      "translation": "而年幼雌性有 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the same area of the hind foot where the male has the poisonous spur, the female platypus only develops two buds which drop off in their first year of life never to appear again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在雄性後足有毒刺的同一區域，雌性 platypus 只會長出兩個小芽狀構造，這些構造會在牠們出生第一年脫落，之後不再出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Male platypus do not help to raise the young.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雄性 platypus 不會幫忙養育幼崽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接比較雄性和雌性後足差異，Question 7 就在首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“young female”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hind feet”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文雖然沒有 young female 這個完整短語，但 “drop off in their first year of life” 表示這是年幼雌性早期才有的構造。答案詞是 “two buds”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the female platypus only develops two buds which drop off in their first year of life never to appear again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雌性 platypus 只會長出兩個 buds，這些 buds 會在出生第一年脫落，之後不再出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 young female，原文說 buds 會在 first year of life 脫落。這表示這些 buds 只出現在雌性早期生命階段，因此和 young female 對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： two buds = 兩個字來自原文放入句子：the young female has two buds所以答案是 two buds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "underground nest",
+      "answerKey": "underground nest",
+      "type": "Summary Completion",
+      "prompt": "“In the 8________________ the mother keeps her eggs warm…”",
+      "translation": "在 ______ 中，母親使蛋保持溫暖。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the same area of the hind foot where the male has the poisonous spur, the female platypus only develops two buds which drop off in their first year of life never to appear again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在雄性有毒刺的同一後足區域，雌性只會長出兩個 buds，出生第一年後脫落。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Male platypus do not help to raise the young.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雄性 platypus 不會幫忙養育幼崽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 主要講雌性的繁殖、孵蛋和育幼。題目問 mother keeps her eggs warm 的地點，應看中段有 eggs、warm、underground 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“keeps her eggs warm”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mother is believed to keep the eggs warm…”"
+            },
+            {
+              "kind": "label",
+              "text": "這句必須細讀到句尾，因為地點在後面："
+            },
+            {
+              "kind": "quote",
+              "text": "“as she rests in an underground nest…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mother is believed to keep the eggs warm by placing them between her lower belly and curled-up tail for a period of about 10 or 11 days as she rests in an underground nest made of leaves or other vegetation collected from the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們相信，母親會在約 10 或 11 天期間，把蛋放在下腹和捲起的尾巴之間來保暖；此時牠會待在一個由葉子或從水中收集來的其他植物材料構成的地下巢穴中休息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “In the ___ the mother keeps her eggs warm”。最直接的地點短語是 “an underground nest”。答案最多三個字，underground nest 符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the ___”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“as she rests in an underground nest”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“keeps her eggs warm”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“keep the eggs warm”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 underground nest。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "前文也有 “incubating them in an underground burrow”。這也和孵蛋地點有關。不過題目使用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“keeps her eggs warm” 這個精準表達，與後一句 “keep the eggs warm … as she rests in an underground nest” 完全對應，所以 underground nest 較穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "rich milk",
+      "answerKey": "rich milk",
+      "type": "Summary Completion",
+      "prompt": "“...and, once born, supplies her 9 ________________.”",
+      "translation": "而幼崽出生後，母親提供牠的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3第一句講雌性後足 buds，最後一句說雄性不幫忙養育幼崽。中間必然描述母親如何孵蛋和餵養幼崽。題目中的 once born 和 supplies 指向 baby platypus drinks milk 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“once born”"
+            },
+            {
+              "kind": "quote",
+              "text": "“supplies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 supplies，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The baby platypus drinks a rich milk…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是供給幼崽的內容。接著原文還說 milk secreted from skin patches，說明母親如何提供乳汁。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The baby platypus drinks a rich milk which is secreted from two round patches of skin midway along the mother’s belly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Platypus 幼崽會喝一種濃厚而營養豐富的乳汁，這種乳汁由母親腹部中段兩塊圓形皮膚區域分泌出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “supplies her ___”。語法上這句略微不自然，但在摘要中明顯指母親提供給幼崽的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的名詞短語是 “a rich milk”。答案通常去掉冠詞，填 rich milk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： rich milk = 兩個字來自原文符合 no more than three words所以答案是 rich milk。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "有些學生可能想填 young，因為下一句說 male does not help raise the young。但題目這一格問的是 mother supplies 的東西，原文真正供應的是 milk。後一句的 young 是育幼對象，並非這一格最自然的答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "Common but Vulnerable",
+      "answerKey": "Common but Vulnerable",
+      "type": "Sentence Completion",
+      "prompt": "“Even though the platypus is not endangered, it is considered 10 ________________”",
+      "translation": "即使 platypus 未被視為瀕危，牠仍被認為是 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Australia, the platypus is officially classified as ‘Common but Vulnerable’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在澳洲，platypus 的官方分類是 “Common but Vulnerable”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small frogs and fish eggs are also eaten occasionally, along with some terrestrial insects that fall into the water from overhanging vegetation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們偶爾也會吃小青蛙和魚卵，以及從懸垂植被掉入水中的一些陸生昆蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 首句已直接提供 conservation status。題目有 “not endangered” 和 “considered”，應在首句後面找到答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“not endangered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“considered”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中緊接著有："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a species, it is not currently considered to be endangered.”"
+            },
+            {
+              "kind": "label",
+              "text": "但前一句已給出官方分類："
+            },
+            {
+              "kind": "quote",
+              "text": "“officially classified as ‘Common but Vulnerable’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句要一起讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Australia, the platypus is officially classified as ‘Common but Vulnerable’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在澳洲，platypus 的官方分類是 “Common but Vulnerable”。"
+            },
+            {
+              "kind": "quote",
+              "text": "“As a species, it is not currently considered to be endangered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為一個物種，牠目前未被視為瀕危。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩句合成一句：Even though not endangered, it is considered ___. 所以空格應填官方分類 “Common but Vulnerable”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： Common but Vulnerable = 三個字來自原文引號內分類符合 no more than three words答案是 Common but Vulnerable。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "urban and agricultural",
+      "answerKey": "urban and agricultural",
+      "type": "Sentence Completion",
+      "prompt": "“Platypus numbers in 11 ________________ areas have declined in many catchments.”",
+      "translation": "在許多 catchments 中，______ 地區的 platypus 數量已經下降。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句說 platypus 被分類為 “Common but Vulnerable”。最後一句列出食物來源。中間會處理族群下降、消失和原因。題目中有 declined、many catchments，所以 Paragraph 4 是唯一目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“declined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many catchments”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, platypus populations are believed to have declined or disappeared in many catchments, particularly in urban and agricultural landscapes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句與題目高度相似。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, platypus populations are believed to have declined or disappeared in many catchments, particularly in urban and agricultural landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們相信 platypus 族群在許多 catchments 中已經下降或消失，尤其是在城市和農業地景中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “landscapes” 改成 “areas”，空格放在 areas 前面，所以需要填形容詞短語 “urban and agricultural”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“areas”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“landscapes”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“numbers … have declined”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“populations are believed to have declined or disappeared”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 urban and agricultural。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把答案寫成 “urban and agricultural landscapes”，因為題目後面已經有 areas。若填完整短語，會變成 “landscapes areas”，語法不順，也超過題目需要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "food",
+      "answerKey": "food",
+      "type": "Sentence Completion",
+      "prompt": "“Platypus numbers are low which is probably due to a lack of 12 ________________”",
+      "translation": "Platypus 數量低，可能是因為缺少 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4首句講官方保育分類，末句列出牠們會吃的小青蛙、魚卵和昆蟲。中段談 population density 和food availability。題目有 numbers low、lack of，應掃描 “limited by” 和 “availability”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“numbers are low”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lack of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 lack of，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“their numbers are most often limited by the availability of food”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "limited by the availability of food 意思就是數量受食物供應限制。題目把它改成 due to a lack of food。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because platypus are predators near the top of the food chain and require large amounts of food to survive (up to about 30% of a given animal’s body weight each day), it is believed that their numbers are most often limited by the availability of food…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 platypus 是接近食物鏈頂端的捕食者，而且需要大量食物才能生存，每天最多可達個體體重約 30%，所以人們相信牠們的數量通常受食物供應限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 lack of __。原文說 availability of food 限制數量。若食物供應不足，數量就受限制。因此空格填 food 最自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： food = 一個字符合 no more than three words放入句子：due to a lack of food答案是 food。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "permit",
+      "answerKey": "permit",
+      "type": "Sentence Completion",
+      "prompt": "“Platypus captivity for research and study purposes requires a 13 ________________”",
+      "translation": "為研究和學術目的圈養 platypus 需要一個 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the early twentieth century, platypus were widely killed for their fur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到二十世紀初，platypus 曾因皮毛而被大量捕殺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Current Australian government policy does not allow this species to be taken overseas for any reason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲現行政府政策不允許這個物種因任何原因被帶到海外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 主題是法律保護和飼養限制。題目問 captivity for research，需要看 zoos、universities、permit。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“captivity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“requires”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only a small number of Australian zoos and universities hold a permit to maintain platypus in captivity for legitimate display or research purposes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 permit、captivity、research purposes，是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only a small number of Australian zoos and universities hold a permit to maintain platypus in captivity for legitimate display or research purposes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有少數澳洲動物園和大學持有許可證，可以為合法展示或研究目的圈養 platypus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “requires a ___”。原文說 “hold a permit to maintain platypus in captivity”。permit 就是進行合法圈養所需的許可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“captivity for research and study purposes requires a…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“hold a permit to maintain platypus in captivity for legitimate display or research purposes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 permit。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - AUSTRALIA’S PLATYPUS-1.pdf",
+    "sha256": "63e7ff03683f9aaf94ba16355bd1b4dff38a998d970ca7c6ec07f6be74dd4415",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句，這段先說 Australian platypus 是地球上最神秘、最隱秘的動物之一。只看末句，段落說牠由寬扁尾巴、橡膠般的口鼻、蹼足和短密毛髮組成，令牠成為世界上最不尋常的動物之一。因此 Paragraph 1 主要介紹 platypus 的奇特外貌、名字來源、澳洲象徵地位，以及早期英國專家為何懷疑牠是 hoax。Question 1 很明顯會定位到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "只看首句，這段指出 platypus 被正式分類為哺乳動物，但會下蛋，而且主要夜間活動。只看末句，段落說被雄性 platypus 刺傷是罕見事件，只有很少人真的遇過。由首尾句可估計，Paragraph 2會集中講雄性 platypus 的特殊性，尤其是 venomous spur、刺傷後的腫脹與疼痛，以及 breeding season 時毒液增加。Questions 2、4 和 Question 6 會用到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "只看首句，這段比較雌性和雄性的後足：雄性有毒刺的位置，雌性只長出兩個 buds，而且第一年會脫落。只看末句，段落說雄性 platypus 不會幫忙養育幼崽。由首尾句可見，Paragraph 3 主要介紹繁殖與育幼：雌性下蛋、在地下巢穴孵蛋、用身體和尾巴保暖、幼崽喝母乳，雄性不參與育幼。 Questions 7、8、9 都主要來自這段。"
+      },
+      {
+        "number": "4",
+        "summary": "只看首句，這段說在澳洲 platypus 的官方分類是 “Common but Vulnerable”。只看末句，段落列出牠們偶爾也會吃小青蛙、魚卵，以及掉入水中的陸生昆蟲。這段主要講保育狀況和族群數量：牠們未被視為 endangered，但在許多 catchments 中數量下降或消失，尤其城市和農業地景；原因可能與食物供應有關。Questions 3、10、11、12 都會看這段。"
+      },
+      {
+        "number": "5",
+        "summary": "只看首句，這段說直到二十世紀初，platypus 曾因皮毛而被大量獵殺。只看末句，段落說澳洲政府現行政策不允許這個物種因任何原因被帶到海外。由首尾句可見，Paragraph 5 主要是保護法規和人工飼養限制：牠們受法律保護、一般公眾不得飼養、誤捕也不應帶回家，只有少數動物園和大學能持 permit 作展示或研究。Questions 5 和 13 會用到這段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "小提醒：Question 8 也有人可能填 “underground burrow”。但題目問 mother keeps her eggs warm 的位置，原文最直接的句子是 “as she rests in an underground nest”，所以 “underground nest” 較貼近。Question 9 的句子 “supplies her ___” 原本語法有點彆扭，按原文最穩答案是 “rich milk”。"
+  ]
+}

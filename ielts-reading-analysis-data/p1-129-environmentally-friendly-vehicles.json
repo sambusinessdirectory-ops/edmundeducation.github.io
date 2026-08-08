@@ -1,0 +1,2246 @@
+{
+  "id": "p1-129-environmentally-friendly-vehicles",
+  "catalogueId": "p1-129",
+  "catalogueIds": [
+    "p1-129"
+  ],
+  "passage": 1,
+  "title": "Environmentally-Friendly! Vehicles",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "A",
+    "B",
+    "A",
+    "C",
+    "YES",
+    "NO",
+    "YES",
+    "NO",
+    "YES",
+    "D",
+    "B",
+    "I",
+    "E",
+    "K"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "A — The factory should have benefited US domestic industry.",
+      "answerKey": "A — The factory should have benefited US domestic industry.",
+      "type": "Multiple Choice",
+      "prompt": "“What does the writer think about the Ford Fusion factory in Sonora, Mexico?”",
+      "translation": "作者怎樣看 Ford Fusion 位於墨西哥 Sonora 的工廠？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 writer think，所以要找作者態度，不只找 Ford Fusion 的客觀資料。定位詞是 Ford Fusion、Sonora、Mexico。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early 1990s, the California Air Resources Board (CARB), the government of California’s‘clean air agency’, began a push for more fuel-efficient, lower-emissions vehicles, with the ultimate goal being a move to zero-emissions vehicles such as electric vehicles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1990 年代初，加州政府的清潔空氣機構 CARB 開始推動更省油、排放更低的車輛，最終目標是轉向電動車等零排放車輛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I thought going green was supposed to provide the US with more jobs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我原以為走向環保應該會為美國提供更多工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph A 一方面交代加州推動環保車，另一方面在末句出現作者個人評論。題目問 writer think，答案很可能藏在這句帶諷刺意味的評論裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ford Fusion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Sonora, Mexico”"
+            },
+            {
+              "kind": "quote",
+              "text": "“writer think”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Ford Fusion is manufactured at Ford’s Hermosillo Stamping & Assembly plant, located in Sonora, Mexico. I thought going green was supposed to provide the US with more jobs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ford Fusion 在 Ford 位於墨西哥 Sonora 的 Hermosillo Stamping & Assembly plant 製造。我原以為走向環保應該會為美國提供更多工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者先說 Ford Fusion 在 Mexico 生產，接著說自己以為 going green 會 provide the US with more jobs。這句不是純粹描述工廠位置，它帶出作者的失望和諷刺：如果環保車產業被說成能創造工作，工廠卻在美國以外，這似乎沒有直接惠及美國本土就業。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The factory should have benefited US domestic industry.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括作者態度。US domestic industry 對應 “the US with more jobs”。should have benefited 對應 “was supposed to provide”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。原文的 “was supposed to provide the US with more jobs” 表示作者原先期待綠色車業帶動美國工作機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。原文沒有說 consumers 更環保會令 US employment increase。作者反而指出現實和期待有落差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。原文沒有談 more competitive cars entering the market。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。作者語氣相當清楚，是質疑工廠不在美國，沒有說 difficult to predict。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "factory should have benefited US domestic industry= going green was supposed to provide the US with more jobs"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易只看到 “Mexico” 後選和市場競爭或預測有關的答案。但題目問 writer think，決定答案的是末句第一身評論，不是工廠地點本身。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B — Attractiveness",
+      "answerKey": "B — Attractiveness",
+      "type": "Multiple Choice",
+      "prompt": "“During the 1990s, what aspect of environmentally friendly vehicles declined among Americans?”",
+      "translation": "在 1990 年代，美國人對環保車哪一方面下降了？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 declined 的對象。定位詞是 During the 1990s、declined、Americans、environmentally friendly vehicles。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1990s, the appeal of fuel-efficient or environmentally friendly cars declined among Americans, who instead favoured sport utility vehicles, which were affordable to operate despite their poor fuel efficiency thanks to lower gasoline prices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個 1990 年代，美國人對省油或環保車的吸引力感下降，反而偏好 sport utility vehicles；由於汽油價格較低，即使這些車燃油效率差，使用成本仍可負擔。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1999, the Honda Insight hybrid car became the first hybrid to be sold in North America since the little-known Woods hybrid of 1917.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1999 年，Honda Insight hybrid car 成為自 1917 年鮮為人知的 Woods hybrid 之後，第一部在北美出售的 hybrid。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph D 從 1990 年代美國人不太喜歡環保車，轉到 hybrid 在1999 年重新出現。題目直接問 1990s 下降的是哪一方面，所以答案很可能在第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“1990s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“declined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Americans”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句已經完全對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1990s, the appeal of fuel-efficient or environmentally friendly cars declined among Americans…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個 1990 年代，美國人對省油或環保車的吸引力感下降……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主語是 “the appeal of fuel-efficient or environmentally friendly cars”。核心動詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“declined”。所以下降的是 appeal。選項中，appeal 最接近 B “Attractiveness”。appeal 在這裡不是呼籲，也不是上訴，而是「吸引力」。環保車對美國消費者變得不吸引，原因是低油價令 SUVs 雖耗油但仍便宜好用。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Production錯。原文沒有說 1990 年代環保車生產下降。前面和後面都有不同車款發展。 B Attractiveness正確。appeal = attractiveness。 C Publicity錯。原文沒有說宣傳下降。 D Expectations錯。原文沒有說美國人對環保車的期望下降。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "appeal= attractiveness declined among Americans= became less attractive to Americans"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“appeal” 是本題定案字。學生如果把 appeal 誤解成「呼籲」或「倡議」，就會看不出 B。這題其實是詞義題，定位非常直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "A — EV1s",
+      "answerKey": "A — EV1s",
+      "type": "Multiple Choice",
+      "prompt": "“What did GM notably donate to engineering schools and museums?”",
+      "translation": "GM 著名地把甚麼捐給工程學校和博物館？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 what，所以要找 GM、donated、engineering schools、museums。答案應是名詞或車款名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After public protests by EV drivers’ groups upset by the repossession of their cars, Toyota offered the last 328 RAV4-EVs for sale to the general public for six months, until 22 November 2002.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 EV 司機團體因車輛被收回而公開抗議後，Toyota 把最後 328 部 RAV4-EVs 向公眾出售六個月，直到 2002 年 11 月 22 日。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“GM famously deactivated the few EV1s that were donated to engineering schools and museums.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GM 著名地停用了少數捐給工程學校和博物館的 EV1s。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph C 講早期電動車被收回、出售、撤出市場和停用。題目中的 GM donated to schools and museums 幾乎直接出現在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“GM”"
+            },
+            {
+              "kind": "quote",
+              "text": "“donate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“engineering schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“museums”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“GM famously deactivated the few EV1s that were donated to engineering schools and museums.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GM 著名地停用了少數捐給工程學校和博物館的 EV1s。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What did GM notably donate…?” 原文句子裡 “that were donated to engineering schools and museums” 修飾 “the few EV1s”。所以被捐贈的是 EV1s。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要留意：句子的主要動詞其實是 deactivated，表示 GM 後來停用了這些 EV1s。不過題目問donate 的 object，所以答案仍是 EV1s。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A EV1s正確。原文逐字出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B CARB vehicles錯。CARB 是 California Air Resources Board，不是車款。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C RAV4s錯。RAV4-EVs 是 Toyota 的車，前句出現，但捐給學校和博物館的是 GM 的 EV1s。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D MINI Es錯。文章沒有提到 MINI Es。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "notably= famously donate to engineering schools and museums= were donated to engineering schools and museums"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 同時出現 Toyota RAV4-EVs 和 GM EV1s。題目主體是 GM，因此不能把 Toyota 的RAV4-EVs 拿來作答。定位時要把公司名和車款綁在一起看。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C — pent-up demand",
+      "answerKey": "C — pent-up demand",
+      "type": "Multiple Choice",
+      "prompt": "“Senior leaders at Nissan and GM said the Roadster’s popularity reflected its…”",
+      "translation": "Nissan 和 GM 的高層表示，Roadster 的受歡迎反映了它的甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Roadster 的 popularity / significance 反映甚麼。定位詞是 Senior leaders、Nissan、GM、Roadster。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2000, Hybrid Technologies, later renamed Li-ion Motors, started manufacturing electric cars in Mooresville, North Carolina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2000 年，Hybrid Technologies 後來改名為 Li-ion Motors，開始在 North Carolina 的 Mooresville製造電動車。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That was the crowbar that helped break up the logjam.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那就是幫助打破僵局的撬棍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph H 講新一波 electric cars 和新公司如何影響大車廠。末句用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“crowbar” 比喻 Tesla 對 GM 內部僵局的刺激，所以 Roadster 的意義會在中後段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“Senior leaders”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Nissan and General Motors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Roadster”"
+            },
+            {
+              "kind": "quote",
+              "text": "“demonstrated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Senior leaders at several large automakers, including Nissan and General Motors, have stated that the Roadster was a catalyst that demonstrated that there is pent-up consumer demand for more efficient vehicles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "包括 Nissan 和 General Motors 在內的幾家大型車廠高層表示，Roadster 是一個催化劑，證明消費者對更高效車輛有被壓抑已久的需求。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Roadster “demonstrated that there is pent-up consumer demand for more efficient vehicles”。題目把 demonstrated / reflected 改寫成 reflected its。選項 C “pent-up demand” 正好抓住核心短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pent-up demand” 指需求原本存在，但長期沒有得到滿足或釋放。Roadster 的出現讓大車廠看到：消費者其實想要更高效的車，只是市場先前沒有提供足夠吸引的選擇。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A legendary concept錯。文章沒有說 Roadster 的 popularity 反映 legendary concept。 B huge market share錯。後文提到 GM 的 dwindling market share，不是 Roadster huge market share。 C pent-up demand正確。原文直接出現。 D engine quality錯。原文沒有討論 Roadster engine quality。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "popularity reflected= demonstrated pent-up demand= pent-up consumer demand for more efficient vehicles"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 B 用 market share 吸引人，因為同段後面提到 GM’s dwindling market share。不過那是GM 開發 Chevrolet Volt 希望扭轉的問題，並非 Roadster 受歡迎反映出的東西。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Some automakers were accused of suppressing the true demand for electric cars to protect their access to the lucrative Californian market while appearing to satisfy CARB.”",
+      "translation": "一些車廠被指控壓低電動車的真實需求，好保住它們進入有利可圖的加州市場的機會，同時表面上滿足 CARB。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目說的是作者呈現的 accusation，並非要求證明車廠實際一定這樣做。定位詞是 automakers、accused、CARB、lucrative Californian market。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The automakers were accused of pandering to the wishes of CARB in order to continue to be allowed to sell cars in the lucrative Californian market, while failing to adequately promote their electric vehicles in order to create the impression that consumers were not interested in the cars, all the while joining oil industry lobbyists in vigorously protesting CARB’s mandate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "車廠被指控迎合 CARB 的要求，只為了繼續獲准在有利可圖的加州市場賣車；同時它們沒有充分推廣自己的電動車，好製造消費者對這些車沒有興趣的印象，並且還和石油業遊說者一起強烈反對 CARB 的規定。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chrysler, Toyota, and a group of GM dealers sued CARB in federal court, leading to the eventual neutering of CARB’s ZEV Mandate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chrysler、Toyota 和一群 GM 經銷商在聯邦法院起訴 CARB，最終導致 CARB 的 ZEV Mandate被削弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph B 是對車廠的批評段：它們一邊看似配合 CARB，一邊削弱電動車需求印象和反對政策。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“accused”"
+            },
+            {
+              "kind": "quote",
+              "text": "“CARB”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lucrative Californian market”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consumers were not interested”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句已經集合全部定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“The automakers were accused of pandering to the wishes of CARB in order to continue to be allowed to sell cars in the lucrative Californian market, while failing to adequately promote their electric vehicles in order to create the impression that consumers were not interested in the cars…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "車廠被指控迎合 CARB 的要求，只為繼續在有利可圖的加州市場賣車；同時未有充分推廣電動車，製造消費者沒有興趣的印象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題可以拆成四部分： Some automakers were accused原文：The automakers were accused protect their access to lucrative Californian market原文：continue to be allowed to sell cars in the lucrative Californian market appearing to satisfy CARB原文：pandering to the wishes of CARB suppressing true demand原文：failing to adequately promote their electric vehicles in order to create the impression that consumers were not interested原文和題目方向一致。題目用 “suppressing the true demand” 概括原文中「不充分推廣，製造消費者不感興趣的印象」。這是嚴格可支持的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "suppressing true demand= failing to adequately promote / create the impression consumers were not interested protect access= continue to be allowed to sell cars lucrative Californian market= lucrative Californian market答案判斷：題目命題和原文 accusation 完全一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求我們判斷車廠是否真的有罪，只問這種說法是否和文章一致。原文使用 “were accused of”，題目也保留 “were accused of”，所以不需要額外證明 accusation 的真實性。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Toyota sold 328 RAV4-EVs in order to increase its market share.”",
+      "translation": "Toyota 出售 328 部 RAV4-EVs 是為了增加市場佔有率。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目重點在原因：in order to increase its market share。定位詞是Toyota、328 RAV4-EVs。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After public protests by EV drivers’ groups upset by the repossession of their cars, Toyota offered the last 328 RAV4-EVs for sale to the general public for six months, until 22 November 2002.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 EV 司機團體因車輛被收回而公開抗議後，Toyota 把最後 328 部 RAV4-EVs 向公眾出售六個月，直到 2002 年 11 月 22 日。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“GM famously deactivated the few EV1s that were donated to engineering schools and museums.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GM 著名地停用了少數捐給工程學校和博物館的 EV1s。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 是車款被收回、撤出或停用的後續段。Toyota 的 328 RAV4-EVs 出現在首句，題目應直接定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Toyota”"
+            },
+            {
+              "kind": "quote",
+              "text": "“328 RAV4-EVs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in order to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After public protests by EV drivers’ groups upset by the repossession of their cars, Toyota offered the last 328 RAV4-EVs for sale to the general public for six months…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 EV 司機團體因車輛被收回而公開抗議後，Toyota 把最後 328 部 RAV4-EVs 向公眾出售六個月……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文清楚給出的背景是："
+            },
+            {
+              "kind": "quote",
+              "text": "“After public protests by EV drivers’ groups upset by the repossession of their cars”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 Toyota 出售最後 328 部 RAV4-EVs 的直接語境是車主團體抗議車輛被收回。題目則把原因改成 “in order to increase its market share”，但這個目的不但沒有在原文出現，也和段落描述的壓力背景不配合。"
+            },
+            {
+              "kind": "label",
+              "text": "同一段還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost all other production electric cars were withdrawn from the market…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎所有其他量產電動車都被撤出市場……這個上下文不是擴張市場佔有率，而是早期電動車被撤退和收回的背景。Toyota 的做法比較像在抗議壓力下短暫出售餘下車輛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Toyota sold 328 RAV4-EVs= 原文支持in order to increase market share= 原文方向不支持；原文給出 public protests / repossession context所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 對比關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "in order to increase market share= 以擴大市場佔有率為目的After public protests= 在抗議發生後採取行動"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“for sale to the general public” 可能令人以為 Toyota 在積極擴大市場。但細讀段落，這只是六個月內出售最後 328 部車，並且發生在抗議之後。題目加入 market share 這個商業目的，原文沒有支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“In some countries, American automakers preferred larger vehicles because they offered higher profit margins than smaller ones.”",
+      "translation": "在一些國家，美國車廠偏好較大型車輛，因為它們比小型車有更高利潤率。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目核心是 larger vehicles、American automakers、higher profit margins。定位詞是 American automakers、larger vehicles、profit margins。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1990s, the appeal of fuel-efficient or environmentally friendly cars declined among Americans, who instead favoured sport utility vehicles, which were affordable to operate despite their poor fuel efficiency thanks to lower gasoline prices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個 1990 年代，美國人對省油或環保車的吸引力感下降，反而偏好 sport utility vehicles；由於油價較低，即使這些車燃油效率差，使用成本仍可負擔。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1999, the Honda Insight hybrid car became the first hybrid to be sold in North America since the little-known Woods hybrid of 1917.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1999 年，Honda Insight hybrid car 成為自 1917 年鮮為人知的 Woods hybrid 之後，第一部在北美出售的 hybrid。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph D 講 1990 年代美國市場偏好 SUVs，車廠轉向較大型、利潤較高的車款，然後才引出 hybrid。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“American automakers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“larger vehicles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“profit margins”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“American automakers chose to focus their product lines on the truck-based vehicles, which enjoyed larger profit margins than the smaller cars that were preferred in places like Europe or Japan.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國車廠選擇把產品線集中在以 truck 為基礎的車輛上；這些車的利潤率比歐洲或日本等地較受歡迎的小型車更高。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 American automakers chose to focus their product lines on truck-based vehicles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "truck-based vehicles 在上下文中包括 sport utility vehicles，屬於 larger vehicles。原因是這些車"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“enjoyed larger profit margins than the smaller cars”。題目說 “In some countries” 可能概括了原文中不同地區市場偏好的差異：美國偏好較大型truck-based vehicles，而 Europe / Japan 偏好 smaller cars。原文主要談 American market，但也用 Europe or Japan 作比較背景。題目的核心因果關係完全有支持。題目命題： American automakers preferred larger vehicles= chose to focus product lines on truck-based vehicles because they offered higher profit margins= enjoyed larger profit margins than smaller ones= than the smaller cars答案判斷：核心主體、動作、原因、比較都一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“places like Europe or Japan” 只是比較小型車偏好的地區，不是說美國車廠在歐洲或日本也偏好大型車。題目真正要判斷的是 American automakers 為何集中做 truck-based vehicles；答案落在 larger profit margins。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Hybrid cars combine an environmentally friendly image and an electric powertrain with a lower purchase price.”",
+      "translation": "Hybrid cars 結合環保形象和電動動力系統，而且購買價格較低。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有三個元素：environmentally friendly image、electric powertrain、lower purchase price。要檢查最後一項是否被原文支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hybrids, which featured a combined gasoline-and-electric powertrain, were seen as a balance, offering an environmentally friendly image and improved fuel economy, without being hindered by the limited range of electric vehicles, albeit at a higher price than comparable gasoline cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hybrids 配備汽油和電力結合的動力系統，被視為一種折衷方案：它們提供環保形象和更佳燃油效益，又不受電動車有限續航所阻礙，雖然價格比同類汽油車更高。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several began to produce new electric car prototypes, as consumers called for cars that would free them from the fluctuations of oil prices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數家車廠開始製造新的電動車原型，因為消費者要求能讓他們擺脫油價波動的車輛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph G 講 hybrids 的折衷定位，以及能源危機如何重新激發市場興趣。題目幾乎直接改寫第一句，但 price 的方向需要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hybrid cars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“environmentally friendly image”"
+            },
+            {
+              "kind": "quote",
+              "text": "“electric powertrain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lower purchase price”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句提供答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hybrids, which featured a combined gasoline-and-electric powertrain, were seen as a balance, offering an environmentally friendly image and improved fuel economy… albeit at a higher price than comparable gasoline cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hybrids 配備汽油和電力結合的動力系統，提供環保形象和較佳燃油效益……但價格比同類汽油車更高。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目前半有原文支持： environmentally friendly image= offering an environmentally friendly image electric powertrain= combined gasoline-and-electric powertrain問題出在最後：題目說 lower purchase price原文說 higher price than comparable gasoline cars這是明確相反。hybrid cars 的優點是環保形象、fuel economy、沒有純電動車的續航限制；代價是價格較高，不是較低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：因為核心 price direction 和原文相反，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lower purchase price= cheaper to buy higher price= more expensive to buy"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目前半非常像原文，容易令人直接選 YES。這類題要逐個命題檢查。只要其中一個核心元素被原文明確推翻，整句就是 NO。這裡的控制詞是 lower，原文的定案詞是 higher。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“GM’s declining market share and financial losses helped motivate the company to develop a plug-in hybrid.”",
+      "translation": "GM 下降的市場佔有率和財務虧損，幫助推動公司開發 plug-in hybrid。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目核心是 GM、declining market share、financial losses、develop a plug-in hybrid。定位詞是 GM、Chevrolet Volt、market share、financial losses。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2000, Hybrid Technologies, later renamed Li-ion Motors, started manufacturing electric cars in Mooresville, North Carolina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2000 年，Hybrid Technologies 後來改名為 Li-ion Motors，在 North Carolina 的 Mooresville 開始製造電動車。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That was the crowbar that helped break up the logjam.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那就是幫助打破僵局的撬棍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph H 講新公司和新電動車如何刺激大車廠。GM 的 Chevrolet Volt 出現在中後段，會和 Roadster 的刺激、GM 市場困境有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“GM”"
+            },
+            {
+              "kind": "quote",
+              "text": "“declining market share”"
+            },
+            {
+              "kind": "quote",
+              "text": "“financial losses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plug-in hybrid”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“GM Vice Chairman Bob Lutz said in 2007 that the Tesla Roadster inspired him to push GM to develop the Chevrolet Volt, a plug-in hybrid sedan prototype that aims to reverse years of dwindling market share and massive financial losses for America’s largest automaker.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GM 副主席 Bob Lutz 在 2007 年表示，Tesla Roadster 啟發他推動 GM 開發 Chevrolet Volt；這是一款 plug-in hybrid sedan prototype，目標是扭轉這家美國最大車廠多年來市場佔有率下降和巨大財務虧損的局面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個推動因素：第一，Tesla Roadster inspired Bob Lutz。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，Chevrolet Volt aims to reverse years of dwindling market share and massive financial losses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 market share 和 financial losses “helped motivate” GM to develop a plug-in hybrid。原文的 “aims to reverse” 表示這些問題正是 Volt 開發目標之一。雖然 Roadster 是直接刺激，但 GM的市場和財務困境也構成開發動機背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： GM’s declining market share= years of dwindling market share financial losses= massive financial losses develop a plug-in hybrid= develop the Chevrolet Volt, a plug-in hybrid sedan prototype helped motivate= aims to reverse these problems答案判斷：題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Roadster 也是推動 GM 的重要原因。學生可能因此懷疑 market share / financial losses 是否不算原因。但原文說 Volt aims to reverse 這兩個問題，所以題目的 “helped motivate” 是合理概括，沒有排除 Roadster 的作用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "D — concept car",
+      "answerKey": "D — concept car",
+      "type": "Summary Completion",
+      "prompt": "“A 10 _________________ was first introduced by Toyota in 1995.”",
+      "translation": "Toyota 在 1995 年首次推出了一部 10 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “A”，所以答案應是單數可數名詞。題目有 Toyota、1995，定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1995, Toyota debuted a hybrid concept car at the Tokyo Motor Show, with testing following a year later.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1995 年，Toyota 在 Tokyo Motor Show 展出一部 hybrid concept car，並於一年後開始測試。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The NHW10 Prius styling came from Californian designers, whose proposal was selected over competing designs from other Toyota studios.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NHW10 Prius 的造型來自 California designers，他們的方案擊敗了 Toyota 其他設計室的競爭設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph E 講 Prius 起源，由 1995 年 concept car 到 NHW10 設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 10 直接對應首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Toyota”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1995”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first introduced”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1995, Toyota debuted a hybrid concept car at the Tokyo Motor Show…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1995 年，Toyota 在東京車展展出一部 hybrid concept car……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “was first introduced” 對應原文 “debuted”。debuted 指首次公開展示或推出。原文說 Toyota debuted a hybrid concept car，所以空格答案是 concept car。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於選項中 D 是 concept car，所以答案填 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first introduced= debuted a ___= a hybrid concept car"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：D"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 A electric car。雖然整篇文章講 environmentally friendly vehicles，也常提 electric cars，但 1995 年 Toyota 首次展示的是 hybrid concept car，未正式成為量產 Prius。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — United Kingdom",
+      "answerKey": "B — United Kingdom",
+      "type": "Summary Completion",
+      "prompt": "“The Prius was sold not only in Japan but was also privately imported into countries such as the 11 _________________ and nations in Oceania.”",
+      "translation": "Prius 不只在日本出售，也被私人進口到一些國家，例如 11 __________ 和大洋洲國家。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the”，後面和 “nations in Oceania” 並列，答案應是地名。定位詞是 privately imported、Japan、Oceania。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1995, Toyota debuted a hybrid concept car at the Tokyo Motor Show, with testing following a year later.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1995 年，Toyota 在東京車展展出一部 hybrid concept car，一年後開始測試。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The NHW10 Prius styling came from Californian designers, whose proposal was selected over competing designs from other Toyota studios.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NHW10 Prius 的造型來自 California designers，他們的方案擊敗 Toyota 其他設計室的競爭設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 講第一代 Prius 的推出、銷售地和設計來源，所以 Question 11 也在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“privately imported”"
+            },
+            {
+              "kind": "quote",
+              "text": "“United Kingdom”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Australia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was available only in Japan, though it has been imported privately into at least the United Kingdom, Australia, and New Zealand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它只在日本供應，不過至少已被私人進口到 United Kingdom、Australia 和 New Zealand。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “countries such as the ___ and nations in Oceania”。原文列出 United Kingdom, Australia, and New Zealand。Australia 和 New Zealand 屬於 Oceania nations，所以題目把它們概括為 nations in Oceania；剩下的地名就是 United Kingdom。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中 B 是 United Kingdom，所以答案填 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "privately imported into= imported privately into nations in Oceania= Australia and New Zealand"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 C market 或 H consumers。空格前的 “the” 和後面的 “countries such as” 已經限定答案必須是地名。選項中只有 United Kingdom 合適。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "I — gasoline and electricity",
+      "answerKey": "I — gasoline and electricity",
+      "type": "Summary Completion",
+      "prompt": "“The first-generation Prius was the first mass-produced car powered by 12_________________.”",
+      "translation": "第一代 Prius 是第一部由 12 __________ 驅動的量產車。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “powered by”，所以答案應是能源或動力來源。定位詞是 first-generation Prius、first mass-produced、powered by。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1995, Toyota debuted a hybrid concept car at the Tokyo Motor Show, with testing following a year later.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1995 年，Toyota 在東京車展展出一部 hybrid concept car，一年後開始測試。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The NHW10 Prius styling came from Californian designers, whose proposal was selected over competing designs from other Toyota studios.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NHW10 Prius 的造型來自 California designers，他們的方案擊敗 Toyota 其他設計室的競爭設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段介紹 Prius 的性質和第一代地位，所以 “first mass-produced” 很可能在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first-generation Prius”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first mass-produced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gasoline-electric hybrid”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first-generation Prius, at its launch, became the world’s first mass-produced gasoline-electric hybrid car.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一代 Prius 在推出時成為全球第一部量產汽油—電力 hybrid car。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “gasoline-electric hybrid car” 改寫成 “car powered by ___”。gasoline-electric 意思是使用汽油和電力。因此選項 I “gasoline and electricity” 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案不是 A electric car，因為 Prius 是 hybrid，不是純 electric car。文章使用 gasoline-electric hybrid，表示雙動力來源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "gasoline-electric hybrid car= car powered by gasoline and electricity first mass-produced= world’s first mass-produced"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：I"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A electric car 很吸引，因為標題和文章前半講 electric vehicles。不過 Prius 的定義是 hybrid， summary 也說 first-generation Prius，所以要用 gasoline and electricity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "E — longer distances",
+      "answerKey": "E — longer distances",
+      "type": "Summary Completion",
+      "prompt": "“The updated NHW11 Prius met Americans’ demand for higher speeds and 13_________________.”",
+      "translation": "更新版 NHW11 Prius 滿足了美國人對更高速度和 13 __________ 的需求。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格和 “higher speeds” 並列，應是名詞短語。定位詞是 NHW11 Prius、Americans’ demand、higher speeds。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the United States, the NHW11 was the first Prius to be sold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，NHW11 是第一款出售的 Prius。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the larger Prius could seat five, its battery pack restricted cargo space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然較大的 Prius 可容納五人，但它的電池組限制了載物空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph F 講 Prius 進入美國市場後的調整和限制。題目中的 NHW11、Americans’ demand 都在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“NHW11”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Americans’ demand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“higher speeds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The NHW11 Prius became more powerful partly to meet Americans’ demand for higher speeds and longer driving distances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NHW11 Prius 變得更有力，部分原因是為了滿足美國人對更高速度和更長行駛距離的需求。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目保留 “higher speeds and”，空格要填原文中 and 後面的並列項。原文是 “higher speeds and longer driving distances”。選項中最接近的是 E “longer distances”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文完整短語是 longer driving distances，但選項只有 longer distances，意思仍然符合。因為 driving 在這裡只是限定 distances 的用途，summary 已經在 car context 中，不影響理解。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "longer driving distances= longer distances met Americans’ demand= to meet Americans’ demand"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：E"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 G battery。battery 在下一句出現，但和 Americans’ demand 無關。題目空格要和 higher speeds 並列，所以應填一種行駛性能需求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "K — cargo space",
+      "answerKey": "K — cargo space",
+      "type": "Summary Completion",
+      "prompt": "“However, its battery restricted its 14 _________________.”",
+      "translation": "不過，它的電池限制了它的 14 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 restricted its，答案應是被限制的部分或功能。定位詞是 battery、restricted。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the United States, the NHW11 was the first Prius to be sold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，NHW11 是第一款出售的 Prius。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the larger Prius could seat five, its battery pack restricted cargo space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然較大的 Prius 可容納五人，但它的電池組限制了載物空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，答案已幾乎直接出現。Paragraph F 最後一句處理 Prius 的 size、seating 和 battery限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“battery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“restricted”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the larger Prius could seat five, its battery pack restricted cargo space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然較大的 Prius 可坐五人，但它的電池組限制了載物空間。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “its battery restricted its ___”。原文說 “its battery pack restricted cargo space”。所以答案是 cargo space，選項 K。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句中 while 帶出讓步：Prius 比較大，可以坐五人；可是 battery pack 佔用空間，令 cargo space 受限制。這也解釋為何 Question 14 和 Question 13 都在 Paragraph F：前者講為美國市場增強性能，後者講這些設計帶來的空間限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "battery= battery pack restricted its cargo space= restricted cargo space"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：K"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 G battery。題目已經把 battery 放在空格前，所以空格不會再填 battery。要問的是battery 限制了甚麼，原文答案是 cargo space。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Environmentally-Friendly Vehicles.pdf",
+    "sha256": "f5a42286a8106e6aa22e366bb9d9c2257041281996a5b4bb4e8e9701fc4044c5",
+    "pageCount": 30
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 1990 年代初，California Air Resources Board 推動更省油、低排放，最終希望走向zero-emissions vehicles。末句用第一身評論 Ford Fusion 在 Mexico 生產，質疑 green industry是否真的為美國創造工作。只看首尾句，可以先估計本段功能是交代加州政策如何推動電動車，同時帶出作者對綠色車業和美國就業之間落差的諷刺態度。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 automakers 被指控只是迎合 CARB，好讓自己繼續在加州這個有利可圖的市場賣車。末句說 Chrysler、Toyota 和 GM dealers 起訴 CARB，導致 ZEV Mandate 最終被削弱。只看首尾句，可以判斷本段是批評車廠的反電動車策略：表面配合加州規定，實際上沒有積極推廣，甚至和石油業一起反對政策。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說在 EV drivers’ groups 抗議車被收回後，Toyota 把最後 328 部 RAV4-EVs 向公眾出售六個月。末句說 GM 把捐給工程學校和博物館的少數 EV1s deactivated。只看首尾句，可以判斷本段處理早期量產電動車的結局：大多數電動車被撤出市場，Toyota 稍微繼續支援，GM 的 EV1 則成為被停用的著名例子。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說整個 1990 年代，美國人對省油或環保車的 appeal 下降，反而偏好 SUVs。末句說 1999年 Honda Insight 成為北美自 1917 年 Woods hybrid 後第一部 hybrid。只看首尾句，可以估計本段是過渡段：先交代美國市場在低油價時代不熱衷環保車，再引出 hybrid cars 重新出現。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Toyota 在 1995 年 Tokyo Motor Show 展出 hybrid concept car，一年後開始測試。末句說NHW10 Prius 的造型來自 California designers，並勝過 Toyota 其他設計室方案。只看首尾句，可以判斷本段介紹 Prius 的起源：由 concept car 到 1997 年日本上市，再到第一代 Prius 成為全球第一部 mass-produced gasoline-electric hybrid car。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說在美國，NHW11 是第一款在當地出售的 Prius。末句說較大的 Prius 可坐五人，但 battery pack 限制了 cargo space。只看首尾句，可以估計本段會講 Prius 進入美國市場後的定位、價格和調整：為迎合美國人對速度和續航的需求，車款更有力，但電池佔用空間。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 hybrids 結合 gasoline-and-electric powertrain，被視為折衷方案，既有環保形象和較佳燃油效益，又避免純電動車續航限制。末句說消費者希望車輛能讓他們擺脫 oil prices 波動，各車廠開始推出 hybrids 和 electric prototypes。只看首尾句，可以判斷本段講市場興趣由低迷轉向復興，能源危機重新推高 hybrid / electric demand。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 2000 年 Hybrid Technologies 在 North Carolina 開始製造 electric cars。末句引用 Bob Lutz，說 Tesla 這間小型 California startup 打破了 GM 對 lithium-ion 技術的僵局。只看首尾句，可以判斷本段講新一波電動車發展，尤其 Tesla Roadster 如何證明市場需求，並刺激 GM 等大型車廠重新投入 plug-in hybrid / electric development。"
+      }
+    ]
+  }
+}

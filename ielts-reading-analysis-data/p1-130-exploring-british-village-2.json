@@ -1,0 +1,1185 @@
+{
+  "id": "p1-130-exploring-british-village-2",
+  "catalogueId": "p1-130",
+  "catalogueIds": [
+    "p1-130"
+  ],
+  "passage": 1,
+  "title": "Exploring british village 2",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "iv",
+    "v",
+    "i",
+    "vii",
+    "viii",
+    "ix",
+    "ii",
+    "cottages",
+    "Domesday",
+    "self-sufficient",
+    "cluster",
+    "defence",
+    "triangular"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "iv — The origin of a particular ancient building",
+      "answerKey": "iv — The origin of a particular ancient building",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A題目要求：為 Paragraph A 選最能概括全段主旨的 heading。Heading iv 的重點是 origin 和ancient building，所以要找段落是否介紹某種古代建築的來源、名稱或早期形態。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Neolithic longhouse was a long, narrow timber dwelling built by the first farmers in Europe beginning at least as early as the period 5,000 to 6,000 BC.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Neolithic longhouse 是一種長而窄的木製住所，最早由歐洲第一批農民建造，時間至"
+            },
+            {
+              "kind": "paragraph",
+              "text": "少可追溯至公元前 5000 至 6000 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The houses in Scotland were built high rather than wide; however, some were built small and wide.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：蘇格蘭的房屋建得較高，不太寬；不過有些也建得較小而寬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，段落已經同古代 dwelling、早期農民、建築形態有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "段中最重要的定位句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The origin of the name ‘blackhouse’ is a matter of some debate.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：“blackhouse” 這個名稱的來源仍有一些爭議。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 一方面介紹 Neolithic longhouse 的古代背景，一方面討論 blackhouse 名稱"
+            },
+            {
+              "kind": "paragraph",
+              "text": "來源，包括它可能用來區分 older blackhouses 和 newer white houses，也可能與 Gaelic 字音混淆有關。因此 heading iv 最能覆蓋本段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v “internal structure” 很吸引，因為 A 也談 houses；但 A 沒有描述牆、屋頂、火"
+            },
+            {
+              "kind": "paragraph",
+              "text": "塘、隔間等內部構造。那些內容集中在 Paragraph B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "v — The internal structure of the building",
+      "answerKey": "v — The internal structure of the building",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The buildings were generally built with double dry-stone walls packed with earth and wooden rafters covered with a thatch of turf and cereal straw or reed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些建築通常有雙層乾石牆，中間填土，木椽上覆蓋草皮、穀物稻草或蘆葦茅草。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“People lived at one end and the animals lived at the other with a partition between them.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：人住在一端，動物住在另一端，中間有隔板分開。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最有定位力的概念是 walls、floor、hearth、chimney、livestock、partition。這些全部與建築"
+            },
+            {
+              "kind": "paragraph",
+              "text": "內外結構有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段逐步說明 blackhouse 的材料和內部安排：牆如何建、屋頂如何覆蓋、地面用甚麼、中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "央火塘、沒有 chimney、煙從屋頂排出，以及人和牲畜如何分區。Heading v 的 “internal structure”正好概括全段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段也有 “livestock as well as people”，但主題不只是生活方式；人畜同住只是內部空間"
+            },
+            {
+              "kind": "paragraph",
+              "text": "安排的一部分。全段焦點仍是建築構造。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "i — Questions arise that need to be answered",
+      "answerKey": "i — Questions arise that need to be answered",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is estimated that there are over ten thousand villages in Britain, yet defining the term ‘village’ isn’t as simple as it may at first sound.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：據估計英國有超過一萬條村，但定義 “village” 這個詞並沒有一開始聽起來那麼簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“And when does a village become a town?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一條 village 又在甚麼時候變成 town？"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這段有兩個明顯問句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When does a hamlet become a village?”"
+            },
+            {
+              "kind": "quote",
+              "text": "“And when does a village become a town?”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 的功能是提出問題，為後面 D、E、F 三段鋪路。它先說 village 難以定義，再"
+            },
+            {
+              "kind": "paragraph",
+              "text": "提出 hamlet、village、town 之間界線不清。Heading i “Questions arise that need to be answered”完全貼合。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading x 也像有關，因為 C 提到 defining village；但 C 沒有真正列出定義元素，只負責"
+            },
+            {
+              "kind": "paragraph",
+              "text": "提出疑問。具體解釋要到後面段落。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "vii — Terms relating to villages explained",
+      "answerKey": "vii — Terms relating to villages explained",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Strictly speaking, the term ‘village’ comes from the Latin ‘villaticus’, which roughly translates as‘a group of houses outside a villa farmstead’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：嚴格來說，“village” 這個詞來自拉丁語 “villaticus”，大致可譯作 “villa farmstead 外的一"
+            },
+            {
+              "kind": "paragraph",
+              "text": "組房屋”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Villagers will share communal resources such as access roads, a water supply, and usually a place of worship.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：村民會共享公共資源，例如通道、水源，通常還有一個 worship place。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本題最重要的線索是 term ‘village’、hamlet、town、communal or public building、parish"
+            },
+            {
+              "kind": "paragraph",
+              "text": "church、public house、shop、post office 等。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 解釋 “village” 一詞的詞源和現代意義：它通常至少有 20 座建築，大於"
+            },
+            {
+              "kind": "paragraph",
+              "text": "hamlet，小於 town，並有至少一個公共或社群建築。這些內容都在說明與 village 相關的術語和界定方式，所以 heading vii 最合適。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading x 有吸引力，因為本段確實列出定義條件。不過 heading x 比較像宏觀因素題，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如地理、商業、經濟、社會因素；Paragraph D 的中心較貼近 “term ‘village’” 的解釋，所以 vii 更準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "viii — Definition of a type of village",
+      "answerKey": "viii — Definition of a type of village",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A hamlet is a smaller grouping of buildings that does not necessarily have any public or service buildings to support it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Hamlet 是較小的建築群，不一定有公共或服務建築支援。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A significant difference is that it won’t have a parish church like a village does, and most hamlets contain only between three and twenty buildings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一個重要差別是，hamlet 沒有 village 那樣的 parish church，而且多數 hamlet 只有三"
+            },
+            {
+              "kind": "paragraph",
+              "text": "至二十座建築。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 hamlet、smaller grouping、public or service buildings、parish church、three and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "twenty buildings。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段用 “A hamlet is...” 直接下定義，說明 hamlet 的規模、公共建築缺乏、沒有 parish"
+            },
+            {
+              "kind": "paragraph",
+              "text": "church、建築數量較少。Heading viii 說 “Definition of a type of village”，在這裡可以理解為對village 相關小型聚落類別的定義。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把 E 配到 ix。E 有比較 hamlet 和 village，但沒有討論 village 何時成為 town；town"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的法律界線在 Paragraph F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "ix — The difference between a village and a town",
+      "answerKey": "ix — The difference between a village and a town",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The point at which a village becomes a town is difficult to determine and is probably best defined by those who live there.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一條 village 在甚麼時候變成 town 很難判斷，也許最好由住在那裡的人來界定。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The situation is confused by the fact that there are many town-like suburban communities calling themselves villages ...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：情況變得混亂，因為有很多像 town 的 suburban communities 也稱自己為 villages。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 village becomes a town、legal term、borough charter、town-like suburban"
+            },
+            {
+              "kind": "paragraph",
+              "text": "communities。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 專門說明 village 與 town 的界線。原文提到 Middle Ages 以來 town 是法律"
+            },
+            {
+              "kind": "paragraph",
+              "text": "用語，涉及 borough charter；同時，現代很多 town-like suburban communities 又自稱 village，令分類更複雜。Heading ix 完整概括本段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的 “Questions arise” 屬 Paragraph C。F 已開始回答 town 的界線問題，所以"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ix 更準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "ii — A contrast between present and past data",
+      "answerKey": "ii — A contrast between present and past data",
+      "type": "Matching Headings",
+      "prompt": "Question 7",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 2001 census shows us that approximately 80 per cent of people in England live in an urban environment, with under 7 per cent living in rural villages...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：2001 年人口普查顯示，英格蘭約 80% 人口住在城市環境，少於 7% 住在 rural villages"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As late as 1851 agriculture remained the largest single source of employment in Britain, yet today under 3 per cent of us work on the land.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：直到 1851 年，農業仍是英國最大的單一就業來源；但今天少於 3% 的人從事土地工"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 census、2001、two centuries ago、1851、today、per cent。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段明顯用數字作今昔對比：2001 年多數人住城市；兩百年前情況相反，多數人住 rural"
+            },
+            {
+              "kind": "paragraph",
+              "text": "villages；1851 年農業仍是最大就業來源；今天少於 3% 人從事土地工作。Heading ii 的 present and past data 正好概括這種統計對比。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只把本段看成 agriculture 段落。農業就業只是其中一組數據，真正段落功能是用人"
+            },
+            {
+              "kind": "paragraph",
+              "text": "口和就業數據比較過去與現在。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "cottages",
+      "answerKey": "cottages",
+      "type": "Summary Completion",
+      "prompt": "“A British village is usually imagined as a collection of traditional 8 _________________ with a church and manor house.”",
+      "translation": "人們通常把 British village 想像成一組傳統的 ______，旁邊有 church 和 manor house。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 traditional、church、manor house。原文第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we think of a British village, we probably imagine a settlement of traditional cottages around a village green with a church and ancient manor house as a backdrop.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當我們想到一條英國村落時，通常會想像一個由傳統 cottages 組成的聚落，圍繞著"
+            },
+            {
+              "kind": "paragraph",
+              "text": "village green，背景有 church 和 ancient manor house。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “settlement of traditional cottages” 改成 “collection of traditional ____”。collection"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對應 settlement；traditional 原字保留；church and manor house 也保留。因此答案是 cottages。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：cottages 一個字，符合 NO MORE THAN ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 settlement。題目已經有 “collection”，空格後接 “with a church and manor house”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，需要的是建築類別，cottages 才合文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "Domesday",
+      "answerKey": "Domesday",
+      "type": "Summary Completion",
+      "prompt": "“However, records in 9 _________________ indicate that England was already a cultivated and populated country in the 11th century.”",
+      "translation": "然而，______ 中的記錄顯示，英格蘭在十一世紀已經是耕作充分、人口稠密的國家。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph K"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 11th century、cultivated、populated。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the time that the Domesday Book was written in 1086, most of the good agricultural land in Britain was already under cultivation, and England was a densely populated country.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：到 1086 年 Domesday Book 寫成時，英國大部分優良農地已經被耕種，而英格蘭是一"
+            },
+            {
+              "kind": "paragraph",
+              "text": "個人口稠密的國家。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 cultivated 對應 “under cultivation”；populated 對應 “densely populated country”；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "11th century 對應 1086。原文完整短語是 “Domesday Book”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：題目要求 NO MORE THAN ONE WORD。因為 “Domesday Book” 是兩個字，所以答案要填 Domesday。只填 Book 會太普通，不能指向特定記錄。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "self-sufficient",
+      "answerKey": "self-sufficient",
+      "type": "Summary Completion",
+      "prompt": "“During medieval times, farmers had to support themselves and their communities and therefore needed to be 10 _________________.”",
+      "translation": "中世紀時，農民需要支撐自己和社群，因此必須 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph L"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 support themselves、communities、therefore。原文最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the medieval village, virtually everyone would have earned their living on the territory; hence the community had to be relatively self-sufficient.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在中世紀村落裡，幾乎每個人都會在那片土地上謀生；因此，社群必須相對自給自足。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “earned their living on the territory” 和 “support themselves and their communities”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "連起來，再用 therefore 對應原文 hence。空格前是 be，所以需要形容詞。self-sufficient 正好合文法，意思是自給自足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：self-sufficient 雖然有 hyphen，但 IELTS 通常視為一個 hyphenated word，符合 ONE WORD 限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "cluster",
+      "answerKey": "cluster",
+      "type": "Summary Completion",
+      "prompt": "“A green village was usually a 11 _________________ of dwellings established after the Norman invasion...”",
+      "translation": "Green village 通常是一個由 dwellings 組成的 ______，在 Norman invasion 後建立。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs I and M"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 green village、dwellings、Norman invasion。Paragraph I 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“...many villages started out as a cluster of agricultural dwellings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：很多村落一開始是 agricultural dwellings 的 cluster。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph M 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Green Villages’ were a common village form in which houses clustered around a central green of common land.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Green Villages 是一種常見村落形式，房屋圍繞中央公共綠地聚集。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are often the remnants of planned settlements introduced after the Norman Conquest in the 11th century.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它們常是 11 世紀 Norman Conquest 後引入的 planned settlements 的遺跡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "summary 把幾個句子壓縮起來：dwellings 的 cluster 來自 Paragraph I；Green Villages 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "houses clustered around central green 和 Norman Conquest 後的 planned settlements 來自Paragraph M。因此空格應填 cluster。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：cluster 一個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 settlements。題目句式是 “a ___ of dwellings”，最自然也最貼原文的是 “cluster of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "dwellings”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "defence",
+      "answerKey": "defence",
+      "type": "Summary Completion",
+      "prompt": "“...and its houses were grouped mainly for 12 _________________.”",
+      "translation": "它的房屋主要為了 ______ 而聚集。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph M"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 grouped / arrangement / Norman。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is suggested that this arrangement allowed for easier defence, especially compared to the village form most common before the Normans, which consisted of simple clusters of farms.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有人認為，這種安排使防衛更容易，尤其是與 Norman 以前最常見、由簡單農場群組成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的村落形式相比。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “houses were grouped” 對應原文 “this arrangement”。“mainly for” 後面需要名詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，原文有 “defence”。“allowed for easier defence” 即這種布局方便防衛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：defence 一個字，符合限制。注意英式拼法是 defence，不要改成美式 defense。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "triangular",
+      "answerKey": "triangular",
+      "type": "Summary Completion",
+      "prompt": "“The village green’s 13 _________________ shape reflected its location at the meeting of roads...”",
+      "translation": "Village green 的 ______ 形狀反映它位於道路交會處。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph N"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 shape、meeting of roads、memorials、sports grounds。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Village greens often take a triangular form, usually reflecting the fact that the village was at the meeting of three roads.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Village greens 通常呈三角形，通常反映出該村位於三條道路交會處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “shape” 對應原文 “form”；“meeting of roads” 對應 “meeting of three roads”。空"
+            },
+            {
+              "kind": "paragraph",
+              "text": "格放在 shape 前面，需要形容詞，所以填 triangular。"
+            },
+            {
+              "kind": "label",
+              "text": "後文也支持 summary 的現代延續："
+            },
+            {
+              "kind": "quote",
+              "text": "“The continuing importance of the village green to modern-day communities is reflected in the presence of war memorials, village notice boards, cricket pitches and public benches.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Village green 對現代社群仍然重要，這可從 war memorials、village notice boards、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cricket pitches 和 public benches 的存在看出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：triangular 一個字，符合限制。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Exploring british village 2.pdf",
+    "sha256": "86d9c475aef3b005f3c29115f69609ee4b2e5094d0a028d05e86192b97e976f8",
+    "pageCount": 13
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把時間拉到 Neolithic longhouse，說這是一種由歐洲早期農民建造的長而窄的木屋。末句轉到蘇格蘭房屋的形狀，指出有些建得高而不寬，也有些較矮較寬。只看首尾句，可以估計本段會介紹古代住宅、blackhouse 名稱來源、房屋類型和地區建築特色。題目若問 ancient building、origin、name 或 early dwelling，應優先看 A。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接描述建築材料和結構：雙層乾石牆、中間填土、木椽、草皮和稻草或蘆葦屋頂。末句說人住一端，動物住另一端，中間有隔板。只看首尾句，可以判斷本段集中處理 blackhouse 的實際構造和內部分隔，包括牆、屋頂、地面、火塘、煙的排出方式，以及人畜共住的安排。題目若問structure、interior、layout、livestock，目標很可能是 B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說英國估計有超過一萬條村，但定義 village 這個詞並沒有表面看起來那麼簡單。末句提出第二個問題：一條 village 何時變成 town？只看首尾句，可以看出本段是問題引入段，功能是提出分類難題：hamlet、village、town 之間界線在哪裡。它沒有真正提供定義細節，主要是把後面幾段的討論問題先拋出來。"
+      },
+      {
+        "number": "D",
+        "summary": "首句從詞源入手，說 village 來自拉丁語 villaticus，大意是 villa farmstead 外的一組房屋。末句說村民會共享道路、水源和通常一個 worship place。只看首尾句，可以估計本段會解釋 village 這個詞的意思和基本條件，包括建築數量、規模、公共建築、教堂或商店等共同設施，以及 communal resources。題目若問 village term 或 definition，應看 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句定義 hamlet：它是較小的建築群，不一定有公共或服務建築支援。末句補充多數 hamlet 只有三至二十座建築。只看首尾句，可以判斷本段專門解釋 hamlet 這個小型聚落類別，並用 parish church 和建築數量把它與 village 分開。題目若問一種較小的 village-like settlement 或 type /definition，Paragraph E 是目標段落。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說一條 village 在甚麼時候變成 town 很難判斷，最好由當地居民界定。末句補充有些suburban communities 和 designed suburban villages 也稱自己為 villages，使情況更混亂。只看首尾句，可以估計本段重點在 village 和 town 的界線，特別是 legal term、borough charter，以及現代 suburban “village” 名稱造成的混淆。題目若問 village-town difference，應看 F。"
+      },
+      {
+        "number": "G",
+        "summary": "首句引用 2001 census，說英格蘭約 80% 人口住在 urban environment，少於 7% 住在 rural villages。末句說 1851 年農業仍是最大就業來源，但今天只有少於 3% 的人從事土地工作。只看首尾句，可以判斷本段用數據對比現在和過去：兩百年前多數人住在農村，現在大多住在城市；農業就業也大幅下降。題目若問 present vs past data，答案在 G。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 villages 的形成和演變來自地理、商業、經濟和社會因素的特定組合。末句說本文會介紹英國常見的 village forms。只看首尾句，可以估計本段是過渡段，由前面的定義討論轉入後面的village types。它提醒讀者 village 會擴張、衰落、遷移、隨時代波動，接下來不再只談定義，會進入中世紀村落、green village 等形態。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說我們想到 British village 時，通常會想像 traditional cottages 圍繞 village green，背景有church 和 ancient manor house。末句說這種常見 village form 的根源在 medieval period，當時很多村落由 agricultural dwellings 的 cluster 開始。只看首尾句，可以判斷本段引入典型英國村落印象，並把它連到中世紀農業聚落起源。Summary 題的 cottages 和 cluster 線索在此段。"
+      },
+      {
+        "number": "J",
+        "summary": "首句把今日的 farmsteads 與中世紀情況作對比：今日農場散落在 landscape，但中世紀務農者多住在小型 nucleated settlements。末句說直到 1800 年以前，在英國很多地方，settlement boundary 外看到 farm 或 cottage 會很不尋常。只看首尾句，可以估計本段說明中世紀農民聚居模式和 open-field agriculture，重點是農居集中，而非散居。"
+      },
+      {
+        "number": "K",
+        "summary": "首句說到 1086 年 Domesday Book 寫成時，英國大部分優良農地已經被耕種，英格蘭人口稠密。末句說兩個世紀後，nucleated settlements 已遍及英國很多地方，通常是坐落於 open fields 中的有組織村落。只看首尾句，可以判斷本段提供歷史記錄和時間背景，說明 11 至 13 世紀英國農地開發和村落密集程度。Summary 題的 Domesday 線索在此段。"
+      },
+      {
+        "number": "L",
+        "summary": "首句說在低地英國、肥沃土壤上，通常每隔幾英里就有一個 settlement，社群會使用周邊開放農地。末句說中世紀村落中，幾乎每個人都在該地謀生，因此社群必須相對 self-sufficient。只看首尾句，可以估計本段講 village 的空間配置和經濟結構：教堂、manor house、cottage tenements、strip fields、common land，以及本地自給自足。"
+      },
+      {
+        "number": "M",
+        "summary": "首句直接定義 Green Villages：房屋圍繞中央 common land 的 green 聚集。末句說雖然它常被視為 Norman Conquest 後的 planned settlement 遺跡，但 Anglo-Saxon 和 Romano-British sites也有 village greens 的證據。只看首尾句，可以判斷本段集中處理 Green Village 形態、Norman Conquest 後的規劃、defence 功能，以及更早期的歷史證據。Summary 題的 cluster / defence 線索在 M。"
+      },
+      {
+        "number": "N",
+        "summary": "首句說 village green 很快成為村落的主要社交空間，也與 church 或 chapel 一起成為焦點。末句提供現代登記數據：2005 年英格蘭約有 3,650 個 registered greens，威爾斯約 220 個。只看首尾句，可以估計本段講 village green 的社會功能和現代延續，包括 triangular form、三條道路交會、war memorials、notice boards、cricket pitches 和 benches。"
+      }
+    ]
+  }
+}

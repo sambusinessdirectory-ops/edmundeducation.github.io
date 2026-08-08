@@ -1,0 +1,1662 @@
+{
+  "id": "p1-022-foot-pedal-irrigation",
+  "catalogueId": "p1-022",
+  "catalogueIds": [
+    "p1-022"
+  ],
+  "passage": 1,
+  "title": "Foot Pedal Irrigation",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "需參考題圖",
+    "需參考題圖",
+    "需參考題圖",
+    "需參考題圖",
+    "half an acre",
+    "corrugated tin",
+    "37.5 million"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It is more effective to resolve poverty or food problems on a large scale rather than on a small scale.”",
+      "translation": "用大型方案處理 poverty 或 food problems，比小型方案更有效。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心是 large scale 是否比 small scale 更有效，尤其牽涉 poverty 和 food problems。要留意題目把 poverty 和 food supply 放在一起，但文章其實把兩者分開討論。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until now, governments and development agencies have tried to tackle the problem through large-scale projects: gigantic dams, sprawling, irrigation canals and vast new fields of high-yield crops introduced during the Green Revolution, the famous campaign to increase grain harvests in developing nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，政府和發展機構一直嘗試透過大型項目處理問題，例如巨大水壩、龐大的灌溉渠道，以及 Green Revolution 中引入的大面積高產作物田。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Continued improvements in the productivity of large farms may play the main role in boosting food supply, but local efforts to provide cheap, individual irrigation systems to small farms may offer a better way to lift people out of poverty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "持續提高大型農場的生產力，可能在增加糧食供應方面扮演主要角色；但為小農場提供便宜、個別使用的灌溉系統，可能是幫助人們脫貧的更好方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段是比較大型發展和小型灌溉方案的段落。首句列出大型工程，末句把food supply 和 poverty 分開：大型農場幫 food supply，小型灌溉更能幫 poverty。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的詞是 “large scale”、“small scale”、“poverty” 和 “food problems”。Paragraph A 首句有 “large-scale projects”，末句有 “small farms” 和 “lift people out of poverty”，所以這段是核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Continued improvements in the productivity of large farms may play the main role in boosting food supply, but local efforts to provide cheap, individual irrigation systems to small farms may offer a better way to lift people out of poverty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型農場生產力提升可能主要增加糧食供應；小農場的便宜個別灌溉系統，可能更能幫人脫貧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句其實很平衡。對 food supply 來說，大型農場有重要作用；對 poverty 來說，作者把更大希望放在 small farms 的 cheap, individual irrigation systems 上。題目把 large scale 概括成更有效處理 poverty or food problems，範圍過大，並且和作者對 poverty 的判斷相衝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與判斷",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“resolve poverty … on a large scale”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“small farms may offer a better way to lift people out of poverty”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“food problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“boosting food supply”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目將兩個問題合併成一個大判斷，但原文指出 poverty 的更好方法偏向 local、cheap、individual、small farms。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “large farms may play the main role in boosting food supply” 就急著選 TRUE。這句只支援 food supply，未支援 poverty。題目同時提到 poverty，最終要以整句的完整對比判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Construction of gigantic dams costs more time in developing countries.”",
+      "translation": "在 developing countries 建造 gigantic dams 需要更多時間。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 construction time，比較焦點是 gigantic dams 在 developing countries 是否更耗時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要找文章有沒有提及建造時間、工期、slow / fast / more time 等資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until now, governments and development agencies have tried to tackle the problem through large-scale projects: gigantic dams, sprawling, irrigation canals and vast new fields of high-yield crops introduced during the Green Revolution, the famous campaign to increase grain harvests in developing nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府和發展機構一直透過大型工程處理問題，包括巨大水壩、龐大灌溉渠道和 Green Revolution的高產作物田。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Continued improvements in the productivity of large farms may play the main role in boosting food supply, but local efforts to provide cheap, individual irrigation systems to small farms may offer a better way to lift people out of poverty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型農場生產力提升可能主要增加糧食供應；小農場的便宜個別灌溉系統可能更能幫助人們脫貧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph A 會談大型項目的問題，以及小型灌溉的可能優勢。題目提到gigantic dams，所以先看這段合理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最強定位詞是 “gigantic dams”。原文第一句直接出現 “gigantic dams”。接著 Paragraph A提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditional irrigation, however, has degraded the soil in many areas, and the reservoirs behind dams can quickly fill up with silt…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統灌溉在很多地方令土壤退化，而水壩後方的水庫可能很快被淤泥填滿。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供了 gigantic dams 和 reservoirs 的環境問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“reservoirs behind dams can quickly fill up with silt”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水壩後方的水庫可能很快被淤泥填滿。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “quickly” 形容 reservoirs 被 silt 填滿的速度，不是建造水壩所需時間。文章也沒有比較developing countries 和其他地方的 dam construction time。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的資料是： gigantic dams 的 construction time； developing countries 中是否 more time；與其他地區或其他方法相比是否更慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有的資料是： gigantic dams 是 large-scale projects； reservoirs behind dams may quickly fill with silt；傳統灌溉有 soil degradation 問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "核心資料缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“quickly fill up with silt” 會吸引學生，因為它和時間有關。不過它講的是水庫使用後的淤積速度，題目問建造時間。時間詞出現，不代表題目中的時間關係成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Green revolution failed to increase global crop production from the mid 20th century.”",
+      "translation": "Green Revolution 自二十世紀中期以來未能增加全球農作物產量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Green Revolution 是否 failed to increase global crop production。定位詞是 Green Revolution、increase、global crop production、mid 20th century。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until now, governments and development agencies have tried to tackle the problem through large-scale projects: gigantic dams, sprawling, irrigation canals and vast new fields of high-yield crops introduced during the Green Revolution, the famous campaign to increase grain harvests in developing nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府和發展機構一直透過大型項目處理問題，其中包括 Green Revolution 引入的大面積高產作物田；Green Revolution 是著名的提高發展中國家穀物收成的運動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Continued improvements in the productivity of large farms may play the main role in boosting food supply, but local efforts to provide cheap, individual irrigation systems to small farms may offer a better way to lift people out of poverty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型農場生產力提升可能主要增加糧食供應；小農場便宜個別灌溉系統可能更能幫助人們脫貧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph A 會提 Green Revolution 的目的與效果，也會引出 poverty 仍未解決。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞 “Green Revolution” 在 Paragraph A 出現兩次。真正定案的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, although the Green Revolution has greatly expanded worldwide farm production since 1950, poverty stubbornly persists in Africa, Asia and Latin America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，雖然 Green Revolution 自 1950 年以來大幅擴大全球農業生產，但 poverty 在 Africa、Asia和 Latin America 仍頑固存在。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句有一個很重要的讓步結構："
+            },
+            {
+              "kind": "quote",
+              "text": "“although the Green Revolution has greatly expanded worldwide farm production since 1950”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Green Revolution 自 1950 年以來大幅擴大全球農業生產。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “failed to increase global crop production”。原文說 “greatly expanded worldwide farm production”。兩者方向相反。題目中的 “from the mid 20th century” 對應原文 “since 1950”，時間吻合，但動作完全衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“failed to increase global crop production”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“has greatly expanded worldwide farm production”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“from the mid 20th century”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“since 1950”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚說生產增加，而且是 greatly expanded。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章確實批評 Green Revolution 未能 eradicate poverty or hunger。可是它沒有否定 Green Revolution 在增加 farm production 上的成果。這題考的是 production，不是 poverty。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Agricultural production in Bangladesh declined in the last decade.”",
+      "translation": "Bangladesh 的 agricultural production 在過去十年下降。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Bangladesh 的 agricultural production trend，尤其是 last decade 是否 declined。要找Bangladesh、agricultural production、decline、last decade 相關資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F and Paragraph G Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human-powered pump can irrigate half an acre of vegetables and costs only $25 (including the expense of drilling a tube well down to the groundwater).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種人力泵可以灌溉半英畝蔬菜，成本只有 25 美元，包括鑽井到地下水的費用。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bangladesh is particularly well suited for the treadle pump because a huge reservoir of groundwater lies just a few meters below the farmers’ feet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bangladesh 特別適合 treadle pump，因為大量地下水就在農民腳下幾米處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句可以判斷，後半部分集中講 Bangladesh 中 treadle pump 的使用、適合原因和市場推廣。題目提 Bangladesh，這兩段是最合理定位範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Bangladesh”、“agricultural production”、“declined”、“last decade”。文章中Bangladesh 出現在 Paragraph F 和 G，但沒有 “declined” 或 “last decade”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀資料是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 講 Abdul 使用 pump 後的個人產量和收入改善："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the five-month dry season, when Bangladeshis typically farm very little, Abdul used the treadle pump to grow a quarter-acre of chili peppers, tomatoes, cabbage and eggplants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在五個月旱季期間，Bangladesh 人通常耕作很少；Abdul 使用 treadle pump 種了四分之一英畝的辣椒、番茄、椰菜和茄子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 講全國推廣："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the next 12 years one and a half million farm families purchased treadle pumps…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在接下來 12 年裡，150 萬農戶購買了 treadle pumps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子顯示 treadle pump 的採用增加，農民收入上升，但沒有提供 Bangladesh 整體agricultural production 在 last decade 是否下降的資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要： Bangladesh overall agricultural production； last decade 的時間範圍； declined 的趨勢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有：旱季通常耕作很少； Abdul 使用 pump 後生產增加； 12 年內大量農戶購買 treadle pumps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少核心趨勢資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Bangladeshis typically farm very little” 容易令人誤會為 agricultural production declined。這句只描述 dry season 的耕作習慣或季節性限制，未提供十年下降趨勢。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Farmer Abdul Rahman knew how to increase production himself.”",
+      "translation": "農民 Abdul Rahman 自己知道如何提高生產。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Abdul 是否知道自己需要甚麼才能脫貧或提高農作物產出。題目中的 “how to increase production” 可能對應原文 “what he needed to move out of poverty” 和 “control of water for my crops”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Polak saw firsthand the need for a small-scale strategy in 1981 when he met Abdul Rahman, a farmer in the Noakhali district of Bangladesh.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Polak 在 1981 年遇到 Bangladesh Noakhali district 的農民 Abdul Rahman 時，親眼看到小規模策略的需要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Polak walked with him through the scattered fields he had inherited from his father, Polak asked what he needed to move out of poverty. ‘Control of water for my crops,’ he said, ‘at a price I can afford.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Polak 和他走過那些從父親繼承而來、分散的田地時，問他需要甚麼才能脫貧。他回答：「以我負擔得起的價格，控制作物用水。」只看首尾句，可以判斷這段用 Abdul 的個案說明小農貧窮的原因和需求。最後一句非常直接地顯示 Abdul 自己說出解法：控制作物用水。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Abdul Rahman”、“increase production” 和 “himself”。原文中 Abdul 的直接引語最重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“Control of water for my crops,” he said, “at a price I can afford.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文問題是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Polak asked what he needed to move out of poverty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Polak 問他需要甚麼才能脫貧。"
+            },
+            {
+              "kind": "label",
+              "text": "Abdul 的回答是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Control of water for my crops … at a price I can afford.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以他負擔得起的價格，控制作物用水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 Abdul 清楚知道限制生產和脫貧的關鍵在 water control。前文也交代他只有 rain-fed rice fields，每年 rice 產量比家庭需要少 300 kilograms。當他說需要 water control，他其實已指出提高生產的核心條件。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“knew how to increase production himself”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“what he needed to move out of poverty”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Control of water for my crops”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的推論距離很短：他知道自己需要控制作物用水，這正是後文 treadle pump 能提高產量的原因。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Abdul 未必知道 treadle pump 這個具體裝置；Paragraph E 才說 Polak learned about the device。可是題目說他 knew how to increase production，重點在他知道需要 water control，不是他已知道 pump 的技術名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Small pump spread into big projects in Bangladesh in the past decade.”",
+      "translation": "這種小型 pump 在 Bangladesh 於往後十多年中擴展成大規模推廣。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題 wording 有點不自然。“big projects” 若理解為 gigantic dams 那類大型工程，便會出問題；若理解為 treadle pump 從小型工具變成大規模推廣，文章有清楚支援。根據 Paragraph G 的內容，這題最合理應判 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bangladesh is particularly well suited for the treadle pump because a huge reservoir of groundwater lies just a few meters below the farmers’ feet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bangladesh 特別適合 treadle pump，因為大量地下水就在農民腳下幾米處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In contrast, the expense of building a conventional dam and canal system to irrigate an equivalent area of farmland would be in the range of $2,000 per acre, or $1.5 billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，若建造傳統 dam and canal system 灌溉同等面積農田，每英畝約需 2,000 美元，總成本約 15 億美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段在說 treadle pump 為何適合 Bangladesh，以及它和大型傳統灌溉工程相比成本如何。這段很可能回答 pump 在 Bangladesh 的推廣規模。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Bangladesh”、“pump”、“past decade / spread”。Paragraph G 中對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the next 12 years one and a half million farm families purchased treadle pumps…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在接下來 12 年裡，150 萬農戶購買了 treadle pumps。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "完整證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early 1980s IDE initiated a campaign to market the pump, encouraging 75 small private-sector companies to manufacture the devices and several thousand village dealers and tube-well drillers to sell and install them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1980 年代初，IDE 發起一項推廣 treadle pump 的市場活動，鼓勵 75 間小型私營公司製造這些裝置，並鼓勵數千名村莊經銷商和 tube-well drillers 銷售和安裝它們。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the next 12 years one and a half million farm families purchased treadle pumps…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接下來 12 年，150 萬農戶購買了 treadle pumps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子顯示，小型 pump 透過 IDE campaign、私人公司、village dealers 和 drillers 形成大規模採用。雖然題目說 “past decade” 不如原文 “over the next 12 years” 精準，但大方向是小泵在Bangladesh 被大規模推廣。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small pump spread”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“one and a half million farm families purchased treadle pumps”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“big projects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“IDE initiated a campaign”"
+            },
+            {
+              "kind": "quote",
+              "text": "“75 small private-sector companies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“several thousand village dealers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“over the next 12 years”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：若按文章意圖理解，這題支援 TRUE。不過要提醒學生，這裡的 “big projects” 應理解成大規模推廣活動，不宜理解成 Paragraph A 中的 gigantic dams 類大型工程。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "需參考題圖",
+      "answerKey": "需參考題圖",
+      "type": "Diagram Label Completion",
+      "prompt": "“Filling the blanks in diagram of treadle pump’s each part.”",
+      "translation": "根據圖示填出 treadle pump 各部件名稱。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Diagram Label Completion。黃金手冊對這類題的重點是：先看圖的箭嘴方向和部件位置，再回到描述結構或流程的段落，按圖上位置填答案。現在你貼出的題目缺少 diagram，因此不能精準判斷 7、8、9、10 的次序。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soon Polak learned about a simple device that could help Abdul achieve his goal: the treadle pump.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Polak 很快得知一個可以幫 Abdul 達成目標的簡單裝置：treadle pump。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The treadle action creates alternate strokes in the two pistons that lift the water in pulses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "踏板動作在兩個 pistons 中產生交替行程，將水一陣一陣提上來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph E 是 treadle pump 的結構和運作段。第一句引入裝置，最後一句講 pistons 如何提水。Diagram label 幾乎一定要看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有具體文字，只說 diagram 的 parts。掃描時要找所有可作標籤的部件名詞。Paragraph E中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“a pair of treadles and two handle arms made of bamboo”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一對 treadles 和兩支由竹製成的 handle arms。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Each treadle pump has two cylinders which are made of engineering plastic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每部 treadle pump 有兩個由 engineering plastic 製成的 cylinders。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The pump mechanism has piston and foot valve assemblies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個泵的機械結構有 piston 和 foot valve assemblies。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可用答案範圍"
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據文章，可用作 7–10 的答案大概是： handle arms treadles cylinders piston and foot valve assemblies pistons foot valve assemblies答案形式檢查： handle arms = 2 words treadles = 1 word cylinders = 1 word piston and foot valve assemblies = 5 words，若題目限制 NO MORE THAN THREE WORDS，這個完整短語超過限制；若圖箭嘴只指其中一部分，答案可能要寫 pistons 或 foot valve assemblies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "foot valve assemblies = 3 words pistons = 1 word判斷邊界：由於題目要求填 7–10，而圖沒有出現，我不能把某個部件硬配到某個號碼。最穩妥的做法是：先列出文章支援的部件，再等 diagram 補上後，根據箭嘴位置決定次序。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "half an acre",
+      "answerKey": "half an acre",
+      "type": "Short-answer Questions",
+      "prompt": "“How large an area can a treadle pump irrigate the field at a low level of expense?”",
+      "translation": "這種低成本 treadle pump 可以灌溉多大面積？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 “How large an area”，所以答案需要面積。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“treadle pump”、“irrigate” 和 “low level of expense”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F第一句：“The human-powered pump can irrigate half an acre of vegetables and costs only $25 (including the expense of drilling a tube well down to the groundwater).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種人力泵可以灌溉半英畝蔬菜，成本只有 25 美元，包括鑽 tube well 到地下水的費用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He told me that the treadle pump was a gift from God.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他告訴我，treadle pump 是上天的禮物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 是 treadle pump 的實際效益段。第一句已經同時講灌溉面積和低成本，因此是 Question 11 的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “How large an area”、“irrigate” 和 “low level of expense”。Paragraph F 第一個句子直接有 “irrigate half an acre” 和 “costs only $25”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human-powered pump can irrigate half an acre of vegetables and costs only $25…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種人力泵可以灌溉半英畝蔬菜，成本只有 25 美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問面積，不問價錢。所以答案要取 “half an acre”，而不是 $25。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“at a low level of expense”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“costs only $25”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“How large an area can a treadle pump irrigate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“can irrigate half an acre”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： half an acre = 3 words，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "corrugated tin",
+      "answerKey": "corrugated tin",
+      "type": "Short-answer Questions",
+      "prompt": "“What is Abdul’s new roof made of?”",
+      "translation": "Abdul 的新屋頂由甚麼材料製成？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問材料，定位詞是 “Abdul”、“new roof”。答案應該是名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human-powered pump can irrigate half an acre of vegetables and costs only $25 (including the expense of drilling a tube well down to the groundwater).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種人力泵可以灌溉半英畝蔬菜，成本只有 25 美元。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He told me that the treadle pump was a gift from God.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他告訴我，treadle pump 是上天的禮物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段講 Abdul 使用 pump 後生活改善。roof 是其中一個生活改善細節，應該在段落後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “roof”。Paragraph F 中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Polak visited him again in 1984, he had doubled the size of his vegetable plot and replaced the thatched roof on his house with corrugated tin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Polak 在 1984 年再次探訪他時，他已把 vegetable plot 面積加倍，並把屋上的 thatched roof 換成 corrugated tin。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What is Abdul’s new roof made of?” 原文說 “replaced the thatched roof … with corrugated tin”。這表示新屋頂材料是 corrugated tin。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“new roof”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“replaced the thatched roof … with corrugated tin”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： corrugated tin = 2 words，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "thatched roof 是舊屋頂。題目問 new roof，所以要取 replaced with 後面的材料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "37.5 million",
+      "answerKey": "37.5 million",
+      "type": "Short-answer Questions",
+      "prompt": "“How much did Bangladesh farmers invest by IDE’s stimulation? $13 ________________”",
+      "translation": "在 IDE 的推動下，Bangladesh farmers 投資了多少錢？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目已經在空格前提供 $，所以答案需要金額數字，不需要再加dollar sign。定位詞是 “Bangladesh farmers”、“invest” 和 “IDE”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bangladesh is particularly well suited for the treadle pump because a huge reservoir of groundwater lies just a few meters below the farmers’ feet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bangladesh 特別適合 treadle pump，因為大量地下水就在農民腳下幾米處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In contrast, the expense of building a conventional dam and canal system to irrigate an equivalent area of farmland would be in the range of $2,000 per acre, or $1.5 billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，若建造傳統 dam and canal system 灌溉同等面積農地，每英畝約需 2,000 美元，總成本約 15 億美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph G 講 Bangladesh 推廣 treadle pump 的成本和投資效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 13 問 IDE 和 farmers’ investment，所以這段最適合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “IDE”、“investment” 和 “farmers”。Paragraph G 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The cost of IDE’s market-creation activities was only $12 million, leveraged by the investment of $37.5 million from the farmers themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "IDE 創造市場活動的成本只有 1,200 萬美元，並帶動農民自身投資 3,750 萬美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有兩個金額：$12 million= IDE’s market-creation activities 的成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "$37.5 million= farmers themselves 的 investment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Bangladesh farmers invest”，所以答案要選 farmers 的金額：37.5 million。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“by IDE’s stimulation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“IDE’s market-creation activities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“leveraged by”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“farmers invest”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“investment of $37.5 million from the farmers themselves”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查：題目空格前已經有 $，所以答案寫 37.5 million。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若寫 $37.5 million，實際答題紙可能會變成 $$37.5 million，因此最好只填 37.5 million。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Foot Pedal Irrigation.pdf",
+    "sha256": "20f9d6dc05f3222a1ea152d8c12f80620b94430fbb0ba6a7961a791832ee3671",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說過去 governments 和 development agencies 主要用大型工程處理問題，例如 gigantic dams、irrigation canals 和 Green Revolution 的高產作物。末句轉向 small farms，指出 cheap, individual irrigation systems 可能更能幫助 people out of poverty。只看首尾句，可以估計這段在比較大型農業發展和小型灌溉方案：大型方案可增加 food supply，但 soil degradation、silt 和poverty persistence 令作者轉向 small-scale irrigation。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Green Revolution 的設計目標是增加整體 food supply，並非提高 rural poor 的收入。末句指出即使 rich countries 向 poor countries 投入更多資金，若一切照舊，大多數 Millennium goals仍難以達成。只看首尾句，可以判斷這段在批評 supply-driven strategy 的局限：糧食總量充足不代表窮人吃得起，India 的例子會用來說明 self-sufficient 仍可有 malnutrition。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Green Revolution 的 supply-driven strategies 未必幫到 subsistence farmers，他們要靠自身 strengths 在 global marketplace 競爭。末句說 subsistence farmers 應利用最低 labour costs 的 comparative advantage，種植和銷售 high-value、intensely farmed crops。只看首尾句，可以估計這段集中講小農的現實限制與優勢：土地細、機械太貴、不能和大型補貼農場競爭，因此要轉向高價值密集種植。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Paul Polak 在 1981 年遇到 Bangladesh 農民 Abdul Rahman 時，親眼看到 small-scale strategy 的需要。末句引用 Abdul 的答案：他需要 affordable control of water for crops。只看首尾句，可以判斷這段用個案展示 poverty problem。Abdul 的 rice production 不足以養家，雨水依賴令他在 harvest 前陷入饑餓，而他自己清楚知道關鍵是水源控制。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Polak 很快得知一個能幫 Abdul 達成目標的 simple device：treadle pump。末句說 treadle action 會在 two pistons 中產生 alternate strokes，把水一陣一陣提上來。只看首尾句，可以判斷這段是 treadle pump 的結構與運作段。重點包括 Gunnar Barnes、bamboo handle arms、treadles、engineering plastic cylinders、7 meters maximum depth、rubber components、piston和 foot valve assemblies。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說這種 human-powered pump 只需 $25，便可灌溉 half an acre of vegetables。末句說Abdul 認為 treadle pump 是 God 的禮物。只看首尾句，可以估計這段是 Abdul 使用 pump 後的成果段：他借錢買泵、四個月還清、旱季種 chili peppers、tomatoes、cabbage 和 eggplants，賺$100，改善家庭食物、教育、嫁妝、屋頂和家畜狀況。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Bangladesh 特別適合 treadle pump，因為大量 groundwater 就在農民腳下幾米深處。末句比較成本：傳統 dam and canal system 灌溉同等面積可能需 $1.5 billion。只看首尾句，可以判斷這段由 Abdul 個案擴展至全國推廣。IDE 的 campaign 令私人公司、village dealers 和 drillers參與，12 年內 150 萬農戶購買，農民收入大幅增加，成本遠低於傳統大壩渠道工程。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "重要說明：Questions 7–10 缺少圖。Questions 7–10 要求 “Filling the blanks in diagram of treadle pump’s each part”。這類 Diagram Label Completion 必須看圖上的箭嘴位置，才能判斷 7、8、9、10 各自指向哪個部件。",
+    "文章只提供 treadle pump 的部件資料，例如：“a pair of treadles and two handle arms made of bamboo”（中文意思：一對踏板和兩支由竹製成的扶手。）；“Each treadle pump has two cylinders which are made of engineering plastic.”（中文意思：每部 treadle pump 有兩個由工程塑膠製成的 cylinders。）；“The pump mechanism has piston and foot valve assemblies.”（中文意思：這個泵的機械結構有 piston 和 foot valve 組件。）",
+    "所以，文章能告訴我們可能標籤是甚麼，但未能告訴我們圖中第 7、8、9、10 號箭嘴分別指向哪裡。若你補回 diagram，我可以即時把 7–10 精準配好。"
+  ]
+}

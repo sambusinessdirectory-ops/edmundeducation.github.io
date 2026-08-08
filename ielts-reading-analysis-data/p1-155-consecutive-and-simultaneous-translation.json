@@ -1,0 +1,602 @@
+{
+  "id": "p1-155-consecutive-and-simultaneous-translation",
+  "catalogueId": "p1-155",
+  "catalogueIds": [
+    "p1-155"
+  ],
+  "passage": 1,
+  "title": "Consecutive and Simultaneous Translation",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "D",
+    "C",
+    "C",
+    "A",
+    "2–3 seconds",
+    "10 seconds",
+    "100–120",
+    "200",
+    "B",
+    "C",
+    "E",
+    "F"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B — In both general and specialised senses",
+      "answerKey": "B — In both general and specialised senses",
+      "type": "詳細分析",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 author 一開始如何 define translation。目標段落是 Paragraph A。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 時，Paragraph A 首句說",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“When people are faced with a foreign-language barrier, the usual way around it is to find someone to interpret or translate for them.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當人們遇到外語障礙時，通常會找人替他們口譯或翻譯。"
+            },
+            {
+              "kind": "label",
+              "text": "末句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some writers on translation, indeed, consider the interpreting task to be more suitable for extrovert personalities, and the translating task for introverts.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一些翻譯研究者甚至認為，口譯工作較適合外向人格，筆譯工作較適合內向人格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段大概先由一般語言障礙入手，然後轉到 interpreting / translating 的專業分工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 的定位詞是 “define translation”、“beginning”。原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term ‘translation’ is the neutral term used for all tasks where the meaning expressed in one language … is rendered in another…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：“translation” 這個詞可作為中性總稱，指把一種語言表達的意思轉成另一種語言的所有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "任務。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In specific professional contexts, however, a distinction is drawn…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在特定專業語境中，會再區分不同工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。general sense 對應 neutral term used for all tasks；specialised sense 對應specific professional contexts。A 的 abstract / concrete 原文沒有建立。C 說 several examples of different meanings，但原文真正重點是廣義總稱和專業分工。D 說 different meanings in different professions，範圍太散，沒有 B 精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "D — a major linguistic exercise is taking place",
+      "answerKey": "D — a major linguistic exercise is taking place",
+      "type": "詳細分析",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 時，首句說",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Interpreting is today widely known from its use in international political life.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：今日，口譯最廣為人知的用途之一是在國際政治生活中。"
+            },
+            {
+              "kind": "label",
+              "text": "末句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given the importance and frequency of this task, therefore, it is remarkable that so little study has been made…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：由於這項工作既重要又頻繁，相關研究竟然這麼少，實在令人意外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能是展示 interpreting 的常見場景和重要性。Scan 時，題目定位詞非常直接：headphones、United Nations conference。原文寫道："
+            },
+            {
+              "kind": "quote",
+              "text": "“At major conferences, such as the United Nations General Assembly, the presence of headphones is a clear indication that a major linguistic exercise is taking place.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在大型會議，例如聯合國大會，耳機的出現清楚顯示正在進行一項大型語言工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 indicates 對應原文 a clear indication。答案 D 完全重現核心意思。A television programme、B radio programme、C two sides debating 都沒有原文支援。學生容易被 political life 和 television record 吸引，但題目問 headphones at a United Nations conference，真正定案短語是 major linguistic exercise。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C — Consecutive interpreting has a long history.",
+      "answerKey": "C — Consecutive interpreting has a long history.",
+      "type": "詳細分析",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Doubtless the recency of developments in the field partly explains this neglect.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：毫無疑問，這個領域的某些發展較近期，部分解釋了它為何被忽視。"
+            },
+            {
+              "kind": "label",
+              "text": "末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In larger and more formal settings, however, it has been generally replaced by simultaneous interpreting—a recent development…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在較大型、較正式的場合，consecutive interpreting 通常已被 simultaneous"
+            },
+            {
+              "kind": "paragraph",
+              "text": "interpreting 取代；後者是較新的發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph D 在比較 old consecutive interpreting 和 recent simultaneous interpreting。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞是 Tower of Babel。原文說",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“One procedure, consecutive interpreting, is very old—and presumably dates from the Tower of Babel!”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：其中一種程序，即 consecutive interpreting，非常古老，甚至可說追溯到巴別塔時代。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者提 Tower of Babel 的功能，是用一個誇張、帶文化典故的說法，突出 consecutive interpreting的古老歷史。所以 C 正確。A 說 secret stored in the Tower，完全過度字面化。B 說 interpreters exactly first appeared then，exactly 太強；原文 presumably 帶有推測和幽默語氣。D 說應該abandoned，原文沒有這個態度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C — It relies on specialised equipment.",
+      "answerKey": "C — It relies on specialised equipment.",
+      "type": "詳細分析",
+      "prompt": "Question 4",
+      "translation": "在較大型、較正式的場合，它通常已被 simultaneous interpreting 取代；simultaneous interpreting 是較新的發展，源於現代音響設備的出現。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D，並需要用 Paragraph E 排除錯項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首尾句已顯示，這段把 simultaneous interpreting 當作較新的發展。Scan 定位詞是simultaneous interpreting。原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In larger and more formal settings, however, it has been generally replaced by simultaneous interpreting—a recent development that arose from the availability of modern audio equipment…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 C 的 specialised equipment 對應 modern audio equipment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除也很清楚。A 說 old and obsolete，但原文說 simultaneous 是 recent development。B 說不需要 exceptional professional ability，Paragraph E 剛好說它需要 remarkable skills。D 說ear–voice span always less than two seconds，但 Paragraph E 說通常 2–3 seconds，複雜時可達 10 seconds。always less than two seconds 和原文衝突。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A — Remember only selected parts in advance",
+      "answerKey": "A — Remember only selected parts in advance",
+      "type": "詳細分析",
+      "prompt": "Question 5",
+      "translation": "可是，口譯員往往要翻譯一段長達數十分鐘甚至更久的演說。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 首句說 oral translation 有 consecutive 和 simultaneous 兩種。末句說 notation 和 memory training 是 interpreter training 的重要部分。這已提示：長段 consecutive interpreting 會涉及記憶和筆記。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 定位詞是 long section、consecutively、interpreter。原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As often as not, however, the interpreter is expected to translate a long speech which has lasted for scores of minutes or even longer.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this case he has to remember a great number of messages and keep them in mind until he begins his translation.”"
+            },
+            {
+              "kind": "label",
+              "text": "再接一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To make this possible the interpreter has to take notes on the original messages…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 比 D 更合理，因為原文說 remember a great number of messages，加上 take notes，重點是保存大量訊息與重點，不是逐字記住 entire section。B 的 break the section into smaller parts first沒有原文支援。C 的 respond as quickly as possible 更像 simultaneous 的壓力，和長段consecutive 不吻合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 6–9這組是 Summary Completion。手冊要求這類題要檢查空格前後文法、詞性、字數限制、原文證據和題目改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "2–3 seconds",
+      "answerKey": "2–3 seconds",
+      "type": "詳細分析",
+      "prompt": "Question 6",
+      "translation": "這種「耳—聲間距」通常約為 2 至 3 秒。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ear–voice span normally lasts about 6 ____________…”"
+            },
+            {
+              "kind": "label",
+              "text": "空格前有 about，後面要填時間長度。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This ‘ear-voice span’ is usually about 2–3 seconds…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "usually 對應 normally；about 也重現。答案是 2–3 seconds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "10 seconds",
+      "answerKey": "10 seconds",
+      "type": "詳細分析",
+      "prompt": "Question 7",
+      "translation": "如果文本複雜，它可能長達 10 秒。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "同一句繼續說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…but it may be as long as 10 seconds if the text is complex.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “may sometimes reach” 對應原文 may be as long as。答案是 10 seconds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "100–120",
+      "answerKey": "100–120",
+      "type": "詳細分析",
+      "prompt": "Question 8",
+      "translation": "看來，每分鐘 100 至 120 詞的輸入速度是口譯的舒適速度。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 comfortable input rate was ___ w.p.m. 原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It seems that an input speed of 100–120 words per minute is a comfortable rate for interpreting…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經提供 w.p.m.，所以答案填 100–120 即可。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "200",
+      "answerKey": "200",
+      "type": "詳細分析",
+      "prompt": "Question 9",
+      "translation": "上限約為每分鐘 200 詞。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "同句後半說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…with an upper limit of around 200 w.p.m.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "upper limit 原字重現。題目已給 w.p.m.，所以填 200。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "B, C, E, F",
+      "answerKey": "B, C, E, F",
+      "type": "詳細分析",
+      "prompt": "Questions 10–13",
+      "translation": "研究項目已開始研究這些因素，例如成功口譯在多大程度上受差劣聆聽條件或源語言語速影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple-answer Questions。手冊提醒，這類題每個正確選項都要獨立證明，不能用一段模糊證據一次包辦所有答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落主要是 Paragraph F 和 Paragraph G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — The speed of incoming speech原文 Paragraph G 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research projects have now begun to look at these factors—to determine, for example, how far successful interpreting is affected by poor listening conditions or the speed at which the source language is spoken.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的 speed of incoming speech 對應 the speed at which the source language is spoken。後文還說 small increases in speed can dramatically affect accuracy，所以 B 很穩。"
+            },
+            {
+              "kind": "label",
+              "text": "C — Background noise Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the confined environment of an interpreting booth, the presence of background noise…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 的 background noise 是原文直接重現。Paragraph G 的 poor listening conditions 也可以支援它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E — Differences in cultural background Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other considerations, such as cultural background, also require interpreters to pay close attention…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 的 cultural background 直接對應原文 cultural background。這是明確因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F — Awareness of the need for precision Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the awareness that major decisions may depend upon the accuracy of the work.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 的 need for precision 對應 accuracy of the work。Paragraph G 也說 errors of commission 包括vagueness replacing precision，並指出 international communication 需要 accuracy。因此 F 有兩處支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 D 和 G D emotional state 沒有原文支援。文章有壓力情境，但沒有說 interpreter’s emotional state 是被研究或列出的 factor。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G maximum volume of the speakers 也沒有原文支援。文章談 background noise、poor listening conditions、speech speed，但沒有談 speakers 的 maximum volume。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的邊界A “The structure and grammar of source-language sentences” 的確和 Paragraph E 有關，因為原文提到 “anticipate the construction” 和 “grammatical future”。不過 Questions 10–13 問的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“factors affect interpreting”，按照題目答案設計，重點集中在 Paragraph F–G 明確列出的研究因素：speed、noise / listening conditions、culture、accuracy pressure。A 比較像 simultaneous interpreting 的句法困難背景，支援度不及 B/C/E/F 直接。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Consecutive and Simultaneous Translation.pdf",
+    "sha256": "18de8510d13d3e8d01554209f43de6a56739d98139a14812b32c339279dc68d0",
+    "pageCount": 9
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段由 foreign-language barrier 入手，表示人遇到語言障礙時會找人 interpret 或translate。只看末句，段落最後轉到 interpreters 和 translators 可能適合不同性格：口譯偏外向，筆譯偏內向。所以 Paragraph A 大概會先定義 translation 的廣義意思，再收窄到專業語境中interpreter / translator 的分工。這段最可能服務 Question 1，因為它處理 translation 的 general sense 和 specialised sense。"
+      },
+      {
+        "number": "B",
+        "summary": "首句指出 interpreting 今日最常被人聯想到 international political life。末句說，雖然 interpreting很重要、很常見，研究卻很少。由首尾句可見，Paragraph B 先用政治場合建立口譯的可見度，再擴展到 everyday circumstances，例如法院、醫院、學校、仲裁等，最後指出研究缺口。這段最可能回答 Question 2，因為 United Nations、headphones、major linguistic exercise 都集中在這裡。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接說 oral translation 有兩種主要形式：consecutive 和 simultaneous。末句說 notation 和memory training 是 interpreter training 的重要部分。由此可估計，Paragraph C 主要介紹consecutive interpreting 的運作方式：短句可緊貼原文；長段 speech 需要記住大量訊息、做筆記、訓練記憶。這段特別關連 Question 5，也幫學生區分 consecutive 和 simultaneous 的基本概念。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說這個領域被忽視，部分原因在於相關發展很新。末句說 simultaneous interpreting 是較新的發展，來自 modern audio equipment 和二戰後增加的國際交流。由首尾句可見，Paragraph D會把 old consecutive interpreting 和 recent simultaneous interpreting 放在一起比較。Tower of Babel 會用來說明 consecutive interpreting 歷史悠久；audio equipment 則連到 simultaneous interpreting 的現代條件。這段對 Questions 3 和 4 很重要。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 simultaneous interpreting 最吸引研究興趣，原因是任務複雜、技能要求極高。末句用Great nimbleness is called for 收尾，強調口譯員需要極高靈活度。只看首尾句，已可估計這段會解釋 simultaneous interpreting 為何困難：同時聽和說、保持語義一致、處理 ear–voice span、記住剛聽到的內容、聽現在的內容、預測後面句法。這段最關連 Question 4、6、7，也對 factors 題有背景價值。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 How it is all done is not at all clear，指出 simultaneous interpreting 的運作仍令人驚訝。末句轉到 cultural background、authors and recipients、source and target languages。由首尾句可估計，Paragraph F 會列出口譯困難的實際因素：長時間工作、口譯室狹窄、背景噪音、準確度壓力、文化背景和語言差異。這段是 Questions 10–13 的核心段之一。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 research projects 已開始研究這些因素，例如 listening conditions 和 speaking speed。末句說 communication research 仍急需擴展。由首尾句可估計，Paragraph G 會把前段的困難轉成研究結果：舒適輸入速度、上限、速度增加對準確度的影響、錯譯、遺漏，以及未來研究需要。 Questions 8、9 直接來自這段；Questions 10–13 的 speed factor 也主要由此段支撐。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "小提醒：Question 5 的 A「Remember only selected parts in advance」措辭有點窄。原文真正支援的是 interpreter 要記住 “a great number of messages”，並用 notes 幫助保存訊息；D 的 “entire section” 太強，所以 A 仍較貼近原文。常見線上版本的答案表亦列 Q5 為 A、Q10–13 為 B/C/E/F；下方仍以本文原句作主要證據。"
+  ]
+}

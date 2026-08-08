@@ -1,0 +1,2179 @@
+{
+  "id": "p1-071-3d-printers",
+  "catalogueId": "p1-071",
+  "catalogueIds": [
+    "p1-071"
+  ],
+  "passage": 1,
+  "title": "3D Printers",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "E",
+    "G",
+    "F",
+    "B",
+    "visible surface details",
+    "create the structure",
+    "to be supported",
+    "short timeframe",
+    "the potential",
+    "mainstream technology",
+    "ambitious",
+    "very distant"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D — Z-axis motor",
+      "answerKey": "D — Z-axis motor",
+      "type": "Diagram Label Completion",
+      "prompt": "“1 ______ Z-axis motor”",
+      "translation": "第 1 格要標示 Z-axis motor 的位置。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Diagram Label Completion。題目已經給出部件名稱 “Z-axis motor”，我們要在圖中找它的位置。因為你貼出的文字沒有 diagram，本題字母答案需要靠原題圖示核對；文章本身負責提供位置關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extruder moves through three-dimensional space along three axes, each controlled by motors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "extruder 會沿三個軸在三維空間中移動，每個軸都由 motors 控制。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The printer is controlled by the printer control board and the PC which contains the programme of the model that is being printed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "printer 由 printer control board 和 PC 控制，而 PC 內有正在列印的模型程式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 3 會講 X、Y、Z 三個軸，以及各 motor 如何控制 printer movement。題目問 Z-axis motor，所以 Paragraph 3 是最直接目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Z-axis motor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two Z-axis motors…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是完全原字重現，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two Z-axis motors, which are located on either side of the heated printing bed, move the entire X-axis up and down via two threaded rods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個 Z-axis motors 位於 heated printing bed 的兩側，透過兩條 threaded rods 令整個 X-axis 上下移動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供兩個定位訊號。第一，Z-axis motors 有兩個。第二，它們位於 heated printing bed 的兩側。因此在 diagram 中，凡是標在 heated printing bed 左右兩邊、與上下移動結構相關的位置，就應該是 Z-axis motor。原題圖示解析把這個位置標為 D，所以 Question 1 答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "located on either side of the heated printing bed= 位於加熱列印床兩側move the entire X-axis up and down= 控制垂直方向移動"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易只看 motor 這個字，然後把 X-axis motor、Y-axis motor、Z-axis motor 混在一起。這題真正控制答案的是 “on either side of the heated printing bed” 和 “up and down”。Z-axis 負責上下方向，因此要找圖中兩側垂直支架附近的 motor。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "E — hot end of extruder",
+      "answerKey": "E — hot end of extruder",
+      "type": "Diagram Label Completion",
+      "prompt": "“2 ______ hot end of extruder”",
+      "translation": "第 2 格要標示 extruder 的 hot end。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Diagram Label Completion。hot end 是 extruder 內負責加熱塑膠的位置，因此要找它與heated bed、extruder motor 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 and Paragraph 3 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The design of the 3D home printer is nevertheless refreshingly simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，3D home printer 的設計相當簡潔，令人耳目一新。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the heated plastic emerges, or is ‘extruded’ to use the correct terminology, it cools and is arranged in layers to create a solid 3D model.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當加熱後的塑膠流出，或用正確術語說被 extruded 出來時，它會冷卻，並以層層排列方式形成一個實心 3D 模型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 第一句又說 extruder 在三個軸上移動。這兩段合起來，一段講 hot end 的功能，一段講 hot end 和 heated bed 的位置。Question 2 應該先看這兩段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“hot end”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extruder”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“a heated extruder or ‘hot end’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“directly underneath the hot end of the extruder”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extruder motor in turn is connected to a heated extruder or ‘hot end’ that heats the plastic filament during printing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "extruder motor 又連接到 heated extruder，也就是 “hot end”；它在列印時加熱 plastic filament。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 補充位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“The heated bed of the printer, which lies directly underneath the hot end of the extruder, is moved back and forth beneath the extruder by the Y-axis motor located beneath it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "printer 的 heated bed 位於 extruder 的 hot end 正下方，並由位於其下方的 Y-axis motor 帶動，在 extruder 下方前後移動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句建立位置鏈：hot end 在 heated bed 上方，heated bed 在 hot end 正下方。換句話說，圖中在 heated bed 上方、位於 extruder 底部、負責把 heated plastic 擠出的部件，就是 hot end。原題圖示解析把這個位置標為 E，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heated extruder= hot end heats the plastic filament= 加熱塑膠線材directly underneath the hot end= heated bed 在 hot end 正下方"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "hot end 和 extruder motor 很容易混淆。extruder motor 控制塑膠用量和推送，hot end 負責加熱並讓塑膠流出。圖中靠近噴嘴、在 heated bed 正上方的位置才是 hot end。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "G — extruder motor",
+      "answerKey": "G — extruder motor",
+      "type": "Diagram Label Completion",
+      "prompt": "“3 ______ extruder motor”",
+      "translation": "第 3 格要標示 extruder motor。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The design of the 3D home printer is nevertheless refreshingly simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，3D home printer 的設計相當簡潔，令人耳目一新。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the heated plastic emerges, or is ‘extruded’ to use the correct terminology, it cools and is arranged in layers to create a solid 3D model.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加熱後的塑膠被擠出後會冷卻，並以層層排列方式形成實心 3D 模型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的功能是介紹 printer 的主要 components 和 extrusion process。Question 3 問extruder motor，所以它應該在這段中間找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“extruder motor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中多次出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“connecting to the extruder motor inside the printer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the controlled movement of the extruder motor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The extruder motor in turn is connected to a heated extruder or ‘hot end’…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A plastic filament of around 3 mm in diameter feeds into the printer from an external source, connecting to the extruder motor inside the printer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直徑約 3 毫米的 plastic filament 從外部來源送入 printer，並連接到 printer 內部的 extruder motor。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During printing, the controlled movement of the extruder motor ensures that the correct amount of plastic is used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "列印時，extruder motor 的受控移動確保使用正確數量的塑膠。"
+            },
+            {
+              "kind": "label",
+              "text": "再下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extruder motor in turn is connected to a heated extruder or ‘hot end’ that heats the plastic filament during printing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "extruder motor 又連接到 heated extruder，即 hot end；hot end 在列印時加熱 plastic filament。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句說明 extruder motor 位於 plastic filament 和 hot end 之間。filament 從外部進入後先接到extruder motor，再由 motor 控制用量，最後通向 hot end 加熱。圖中如果有一個部件位於filament 入口與 hot end 之間，就應該是 extruder motor。原題圖示解析把這個位置標為 G，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "controlled movement= 受控推送或移動ensures the correct amount of plastic is used= 控制塑膠用量connected to hot end= motor 和加熱噴出部件相連"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "extruder motor 並非噴出塑膠的尖端。真正噴出 heated plastic 的位置是 hot end；extruder motor的重點是推送和控制 plastic filament 的量。diagram labeling 要看「連接順序」：filament →extruder motor → hot end。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "F — plastic filament",
+      "answerKey": "F — plastic filament",
+      "type": "Diagram Label Completion",
+      "prompt": "“4 ______ plastic filament”",
+      "translation": "第 4 格要標示 plastic filament。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The design of the 3D home printer is nevertheless refreshingly simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，3D home printer 的設計相當簡潔，令人耳目一新。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the heated plastic emerges, or is ‘extruded’ to use the correct terminology, it cools and is arranged in layers to create a solid 3D model.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加熱後的塑膠被擠出後冷卻，並以層層排列方式形成實心 3D 模型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理 plastic 如何進入 printer、被加熱、被擠出、最後成型。Question 4 問 plastic filament，位置就在這個流程的起點附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“plastic filament”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“A plastic filament of around 3 mm in diameter feeds into the printer from an external source…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A plastic filament of around 3 mm in diameter feeds into the printer from an external source, connecting to the extruder motor inside the printer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直徑約 3 毫米的 plastic filament 從外部來源送入 printer，並連接到 printer 內部的 extruder motor。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供兩個圖像定位訊號。第一，plastic filament 來自 external source，即 printer 外部。第二，它會進入 printer 並連接 extruder motor。所以在圖中，從機器外部引入、像線材或塑膠條一樣通向 extruder motor 的部分，就是 plastic filament。原題圖示解析把它標為 F，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "feeds into the printer= 送入 printer from an external source= 從外部來源進入connecting to the extruder motor= 連到 extruder motor"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "plastic filament 和 finished plastic model 要分清。filament 是列印前的原材料，直徑約 3 mm，從外部進入機器。heated plastic / extruded plastic 是加熱後從 hot end 流出的材料狀態。題目問filament，所以要找進入 printer 前後的線材位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "B — X-axis motor",
+      "answerKey": "B — X-axis motor",
+      "type": "Diagram Label Completion",
+      "prompt": "“5 ______ X-axis motor”",
+      "translation": "第 5 格要標示 X-axis motor。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extruder moves through three-dimensional space along three axes, each controlled by motors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "extruder 會沿三個軸在三維空間移動，每個軸都由 motors 控制。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The printer is controlled by the printer control board and the PC which contains the programme of the model that is being printed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "printer 由 printer control board 和 PC 控制，而 PC 內有正在列印的模型程式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 3 會講三個 axis motors 的位置和功能。X-axis motor 是其中一個，所以 Paragraph 3 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“X-axis motor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The X-axis motor…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The X-axis motor, located in a midway position on the metal framework of the printer, moves the extruder left and right, using a pulley.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "X-axis motor 位於 printer 金屬框架的中間位置，利用 pulley 令 extruder 左右移動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有三個重要定位點。第一，X-axis motor 位於 metal framework 上。第二，它在 midway position，即中間位置。第三，它負責 left and right movement，即左右方向移動。diagram 中若有一個 motor 在框架中間位置、連接橫向移動結構，就應該是 X-axis motor。原題圖示解析把這個位置標為 B，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "midway position= 中間位置metal framework= printer 的金屬框架moves the extruder left and right= 控制 X 軸左右移動"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "X-axis motor 和 Z-axis motors 都在 framework 附近，但方向不同。X-axis motor 控制左右； Z-axis motors 透過 threaded rods 控制上下。圖中如果標示在中間橫向結構附近，較符合 X-axis motor。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "visible surface details",
+      "answerKey": "visible surface details",
+      "type": "Note Completion",
+      "prompt": "Question 6",
+      "translation": "完成品遠非完美，除了 banding 外，還會顯示 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“The finished product is far from perfect, exhibiting 6 ______ in addition to banding.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “exhibiting”，後面需要名詞短語。題目中的 “in addition to banding” 表示原文很可能有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“banding and X” 這種並列結構。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“Once assembled, in theory it should be possible to print a 3D version of virtually anything.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組裝完成後，理論上應該可以列印幾乎任何東西的 3D 版本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another problem is that the plastic structures have to be supported as they are laid down on the heated bed, or they will distort or fall away as the plastic cools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個問題是，plastic structures 在 heated bed 上成型時必須被支撐，否則塑膠冷卻時會變形或掉落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 4 會先承認 3D printing 理論上能力很強，接著列出實際技術限制。題目問 finished product 的缺陷，所以這段非常可能有答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“finished product”"
+            },
+            {
+              "kind": "quote",
+              "text": "“banding”"
+            },
+            {
+              "kind": "quote",
+              "text": "“surface”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The finished product will always have banding and visible surface details…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The finished product will always have banding and visible surface details as evidence of how the model was laid down.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完成品永遠會有 banding 和 visible surface details，顯示模型是如何一層層鋪設出來的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文改寫成 “exhibiting ___ in addition to banding”。“in addition to banding” 等於把原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“banding and…” 中的第一項已經給了我們。因此空格要填第二項： visible surface details"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "will always have= exhibiting banding and visible surface details= banding plus visible surface details far from perfect= 有明顯製作痕跡答案形式檢查： visible surface details = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "有些版本答案可能只寫 surface details，也可表達核心意思；但你貼出的原文完整短語是 “visible surface details”，三個字內完全符合要求，因此填完整短語最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "create the structure",
+      "answerKey": "create the structure",
+      "type": "Note Completion",
+      "prompt": "Question 7",
+      "translation": "為了 ______ 所需的結構，選擇要使用的 plastic filaments 時必須極度小心。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to 7 ______ desired, extreme care has to be taken in selecting the plastic filaments to be used.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “In order to” 後面，需要動詞原形開頭的短語。題目句尾有 “desired”，所以完整意思應是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“create the structure desired”，即製造想要的結構。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“Once assembled, in theory it should be possible to print a 3D version of virtually anything.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組裝完成後，理論上應該可以列印幾乎任何東西的 3D 版本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another problem is that the plastic structures have to be supported as they are laid down on the heated bed, or they will distort or fall away as the plastic cools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個問題是，plastic structures 在 heated bed 上成型時必須被支撐，否則塑膠冷卻時會變形或掉落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理 limitations，其中一項是 plastic filament 的選擇。Question 7 出現 “plastic filaments”，所以應在 Paragraph 4 中段找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“plastic filaments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“selecting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extreme care”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Extreme care also has to be taken in the choice of plastic filament which will ultimately create the structure of the model.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Extreme care also has to be taken in the choice of plastic filament which will ultimately create the structure of the model.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在選擇 plastic filament 時也必須極度小心，因為它最終會形成模型的結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “extreme care has to be taken in selecting the plastic filaments” 幾乎直接改寫原文"
+            },
+            {
+              "kind": "quote",
+              "text": "“Extreme care also has to be taken in the choice of plastic filament”。真正要填的是 filament 的作用：“create the structure”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目後面的 “desired” 補充了 “of the model” 的意思，完整句子可以理解為： In order to create the structure desired…即：為了形成想要的結構。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "choice of plastic filament= selecting the plastic filaments will ultimately create the structure of the model= in order to create the structure desired答案形式檢查： create the structure = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“plastic filament” 本身不應填入空格，因為題目已經給了 plastic filaments。空格位置在 “to” 後面，需要動詞短語；create 才符合文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "to be supported",
+      "answerKey": "to be supported",
+      "type": "Note Completion",
+      "prompt": "Question 8",
+      "translation": "為了避免列印模型變形，plastic structures 在列印過程中也必須 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is also necessary for plastic structures 8 ______ during the printing process to avoid distorting the printed model.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “It is necessary for plastic structures…”，後面應接 “to + verb” 結構。題目中的 “avoid distorting” 對應原文的 distort or fall away。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once assembled, in theory it should be possible to print a 3D version of virtually anything.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組裝完成後，理論上應該可以列印幾乎任何東西的 3D 版本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another problem is that the plastic structures have to be supported as they are laid down on the heated bed, or they will distort or fall away as the plastic cools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個問題是，plastic structures 在 heated bed 上成型時必須被支撐，否則塑膠冷卻時會變形或掉落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 8 幾乎直接來自 Paragraph 4 最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“plastic structures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“distorting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“during the printing process”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“plastic structures have to be supported”"
+            },
+            {
+              "kind": "quote",
+              "text": "“as they are laid down on the heated bed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“or they will distort…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another problem is that the plastic structures have to be supported as they are laid down on the heated bed, or they will distort or fall away as the plastic cools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個問題是，plastic structures 在 heated bed 上成型時必須被支撐，否則塑膠冷卻時會變形或掉落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “have to be supported” 改成 “It is necessary for plastic structures ___”。這是典型語法轉換： have to be supported= it is necessary for them to be supported題目後半 “to avoid distorting the printed model” 對應原文 “or they will distort or fall away”。原文用負面結果說明原因；題目把它改寫成避免負面結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： to be supported = 3 words，符合 NO MORE THAN THREE WORDS，並且和 “It is necessary for plastic structures…” 文法自然連接。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "have to= it is necessary as they are laid down= during the printing process or they will distort= to avoid distorting the printed model"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 supported。雖然意思接近，但題目句型需要 “for plastic structures to be supported”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果只填 supported，句子變成 “necessary for plastic structures supported”，文法不完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "short timeframe",
+      "answerKey": "short timeframe",
+      "type": "Note Completion",
+      "prompt": "Question 9",
+      "translation": "只需要非常 ______ 就可以製作 3D models。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only a very 9 ______ is required to produce 3D models.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “a very” 後面，要填一個形容詞加名詞的短語。題目中的 “produce 3D models” 對應原文的 product can be produced。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is virtually certain, however, that such issues will be overcome in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這些問題未來幾乎肯定會被克服。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, despite expensive set-up costs, in the long run, 3D printing works out far cheaper than normal manufacturing processes since there is far less need for labour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，即使 setup costs 昂貴，長遠而言 3D printing 比 normal manufacturing processes 便宜得多，因為對 labour 的需要少很多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 5 由 limitations 轉向 advantages。Question 9 位於 Pros 區域，應該在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“produce”"
+            },
+            {
+              "kind": "quote",
+              "text": "“very”"
+            },
+            {
+              "kind": "quote",
+              "text": "“time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the product can be produced on the spot within a very short timeframe”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Firstly, the product can be produced on the spot within a very short timeframe, thereby reducing the time and cost involved in manufacturing by traditional means.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "首先，產品可以在現場、在非常短的時間內製作出來，從而減少傳統製造方式涉及的時間和成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文 “the product can be produced” 改成 “to produce 3D models”。原文的 “within a very short timeframe” 對應題目 “Only a very ___ is required”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要填： short timeframe這樣句子變成： Only a very short timeframe is required…中文意思就是「只需要很短時間」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： short timeframe = 2 words，符合 NO MORE THAN THREE WORDS。你貼出的原文把timeframe 寫成一個字；若你手上版本寫作 “time frame”，則可填 short time frame。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "within a very short timeframe= only a very short timeframe is required product can be produced= produce 3D models thereby reducing the time= time advantage"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “on the spot”。它也是優點，但題目句型是 “Only a very ___ is required”，需要時間名詞短語；short timeframe 才能自然完成句子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "the potential",
+      "answerKey": "the potential",
+      "type": "Note Completion",
+      "prompt": "Question 10",
+      "translation": "理論上，3D printers 能創造幾乎任何東西，從薄餅到戰鬥機，其 ______ 令人震驚。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“In theory, 10 ______ of 3D printers to create virtually anything, from pizza to fighter planes, is astounding.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面有 “of 3D printers”，所以答案大概是 “the + noun”。題目中的 “astounding” 會對應原文的 jaw-dropping。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the 3D printer is still very much in its early stages and can be likened to early home computers which, with hindsight, now seem so cumbersome and slow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，3D printer 仍然處於非常早期的階段，可以比作早期 home computers；事後看來，早期電腦現在顯得笨重又緩慢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, in theory, if we have come so far in a matter of years, then who knows what the future may hold for 3D printers?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，理論上，如果我們短短多年已經進步這麼多，那誰知道 3D printers 的未來會怎樣？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 6 會由 early stage 講到 future potential。Question 10 的 “In theory” 和 “fighter planes” 都明顯指向 Paragraph 6。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“in theory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fighter planes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“astounding”"
+            },
+            {
+              "kind": "quote",
+              "text": "“potential”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the potential of 3D printers is jaw-dropping.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fighter planes will carry onboard printers capable of printing out other fighter planes…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the potential of 3D printers is jaw-dropping.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，3D printers 的潛力令人瞠目結舌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接提供空格答案： the potential題目把 “jaw-dropping” 改成 “astounding”，兩者都表示非常驚人。題目又加入 “to create virtually anything, from pizza to fighter planes”，這是把全文例子整合起來：Paragraph 1 有 shoes 和pizza；Paragraph 6 有 fighter planes。原文也曾說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once assembled, in theory it should be possible to print a 3D version of virtually anything.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組裝完成後，理論上應該可以列印幾乎任何東西的 3D 版本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，Question 10 的句子是在概括全文對 3D printers 潛力的描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： the potential = 2 words，符合 NO MORE THAN THREE WORDS。句子變成 “the potential of 3D printers… is astounding”，文法完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "jaw-dropping= astounding virtually anything= from pizza to fighter planes potential of 3D printers= 3D printers 能做到的可能性"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “future”。雖然 Paragraph 6 最後談 future，但題目句子的主語需要能接 “of 3D printers”並由 “is astounding” 評價。原文中最直接、最合文法的答案是 “the potential”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "mainstream technology",
+      "answerKey": "mainstream technology",
+      "type": "Summary Completion",
+      "prompt": "“Although 3D printing is far from becoming 11 ______, experiments with the new technology have been promising.”",
+      "translation": "雖然 3D printing 距離成為 ______ 仍有一段距離，但新技術的實驗一直有前景。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “becoming” 後面，需要名詞短語。題目中的 “far from becoming” 對應原文 “not yet”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ever wished you could find a pair of shoes to match your outfit?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你有沒有希望過，可以找到一雙和衣著完全配襯的鞋？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Currently, however, the technology remains firmly in the province of geeks and gadget lovers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，目前這項技術仍然牢牢屬於 geeks 和 gadget lovers 的領域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 的功能是用日常例子引入 3D printing 的想像空間，再指出它目前尚未普及。Question 11 問是否已成為普及技術，正好對應這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“far from becoming”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mainstream”"
+            },
+            {
+              "kind": "quote",
+              "text": "“3D printing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although 3D printing is not yet mainstream technology…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although 3D printing is not yet mainstream technology, it is only a matter of time before a 3D printer becomes as common in the home as a television or washing machine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 3D printing 尚未成為 mainstream technology，但 3D printer 變得像電視或洗衣機一樣在家中常見，只是時間問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “not yet mainstream technology” 改寫成 “far from becoming mainstream technology”。兩者意思接近：它還未普及，仍未成為一般家庭常見科技。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： mainstream technology = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not yet= far from becoming as common in the home as a television or washing machine= mainstream / 普及化technology remains in the province of geeks and gadget lovers= 目前仍屬小眾科技"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“experiments with the new technology have been promising” 來自 Paragraph 6 的 “impressive”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，但空格 11 的答案來自 Paragraph 1。Summary 題有時會跨段整合，不能只在同一句附近找答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "ambitious",
+      "answerKey": "ambitious",
+      "type": "Summary Completion",
+      "prompt": "“Although 3D printers have yet to produce anything as 12 ______ as fighter planes, the foundation for such a technology is in place.”",
+      "translation": "雖然 3D printers 尚未製造出像 fighter planes 那樣 ______ 的東西，但這種技術的基礎已經存在。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “as ___ as fighter planes” 中間，需要形容詞。題目中的 fighter planes 是最強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the 3D printer is still very much in its early stages and can be likened to early home computers which, with hindsight, now seem so cumbersome and slow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，3D printer 仍然處於非常早期的階段，可以比作早期 home computers；事後看來，早期電腦現在顯得笨重又緩慢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, in theory, if we have come so far in a matter of years, then who knows what the future may hold for 3D printers?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，理論上，如果我們短短多年已經進步這麼多，那誰知道 3D printers 的未來會怎樣？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 是未來潛力段，包含 military field 和 fighter planes。Question 12 必然定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fighter planes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most ambitious plan yet for 3D printing is in the military field.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“fighter planes will carry onboard printers capable of printing out other fighter planes…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most ambitious plan yet for 3D printing is in the military field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前為止，3D printing 最具雄心、最具野心的計劃是在軍事領域。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If all goes to plan, at some, probably very distant, point in the future, fighter planes will carry onboard printers capable of printing out other fighter planes to replenish the flying squad.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一切按計劃進行，在未來某個可能非常遙遠的時點，fighter planes 將會攜帶 onboard printers，能列印其他 fighter planes，以補充飛行隊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 fighter planes 作為例子，並問 “as ___ as fighter planes”。原文用 “most ambitious plan”來形容這個 military / fighter plane 計劃，所以答案是 ambitious。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： ambitious = 1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "most ambitious plan= something as ambitious as fighter planes have yet to produce= 目前仍未真正做到foundation is in place= early experiments / technological development 已經開始"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 military。military 是 field，不是用來形容 fighter planes 的程度形容詞。空格要接在 “as___ as” 中，必須填形容詞，ambitious 才合文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "very distant",
+      "answerKey": "very distant",
+      "type": "Summary Completion",
+      "prompt": "“For the moment, however, the realisation of such projects remains in the 13 ______ future.”",
+      "translation": "然而，目前這些項目的實現仍然屬於 ______ 的未來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 future 前面，需要形容詞短語。題目中的 “such projects” 指 Question 12 提到的 fighter planes 之類遠大計劃。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the 3D printer is still very much in its early stages and can be likened to early home computers which, with hindsight, now seem so cumbersome and slow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，3D printer 仍然處於非常早期的階段，可以比作早期 home computers；事後看來，早期電腦現在顯得笨重又緩慢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, in theory, if we have come so far in a matter of years, then who knows what the future may hold for 3D printers?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，理論上，如果我們短短多年已經進步這麼多，那誰知道 3D printers 的未來會怎樣？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句的 “early stages” 已經暗示這些宏大計劃未能立即實現。題目問 “future” 的形容詞，答案會在fighter plane plan 附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“future”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fighter planes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“realisation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“at some, probably very distant, point in the future”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If all goes to plan, at some, probably very distant, point in the future, fighter planes will carry onboard printers capable of printing out other fighter planes to replenish the flying squad.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一切按計劃進行，在未來某個可能非常遙遠的時點，fighter planes 將會攜帶 onboard printers，能列印其他 fighter planes，以補充飛行隊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “at some, probably very distant, point in the future” 壓縮成 “remains in the ___ future”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要填的形容詞短語就是： very distant答案形式檢查： very distant = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "at some, probably very distant, point in the future= in the very distant future realisation of such projects= fighter planes printing fighter planes actually happening for the moment= 現階段仍處於 early stages"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “early stages”。early stages 描述 3D printer 現在的發展狀態；題目空格修飾 future，原文直接修飾 future point 的短語是 very distant。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - 3D Printers.pdf",
+    "sha256": "0b10792a61dcd87d73784f2de8278d2124990343b7a7fc3670e826c068fdb4ff",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句用兩個日常願望開場：想找到配襯衣服的鞋，或想吃薄餅但不想外出等待。末句說目前 3D printing 仍屬於 geeks 和 gadget lovers 的領域。只看首尾句，可以先估計這段是引言：作者用生活化例子展示 3D home printer 的想像空間，同時提醒它尚未普及。這段對 Question 11 很重要，因為 mainstream technology 的原文就在這裡。"
+      },
+      {
+        "number": "2",
+        "summary": "首句指出 3D home printer 的設計其實相當簡單；末句說 heated plastic 被 extruded 後冷卻，並以層層排列方式形成 solid 3D model。只看首尾句，可以估計這段主要講 3D printer 的基本結構和成型原理。中間會介紹 metal framework、printer control board、PC、plastic filament、extruder motor 和 hot end。這段對 diagram labeling 特別重要，尤其 Questions 3–4。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 extruder 會沿三個軸在三維空間移動，每個軸由 motors 控制；末句說 printer 由 control board 和 PC 控制，PC 內有正在列印的模型程式。只看首尾句，可以估計這段會詳細解釋 X、Y、Z 三個方向如何運作。中間應會出現 X-axis motor、Z-axis motors、heated bed、hot end 和 Y-axis motor 的位置關係。這段是 Questions 1、2、5 的核心。"
+      },
+      {
+        "number": "4",
+        "summary": "首句先說理論上，組裝完成後可以列印幾乎任何東西；末句立即補充，plastic structures 在heated bed 上成型時必須被支撐，否則冷卻時會變形或掉落。只看首尾句，可以看出這段主題是3D printing 的 technical limitations。中間會提到 banding、visible surface details、撞到機器造成distortion、plastic filament 的選擇、warping、顏色限制和支撐問題。Questions 6–8 都集中在這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句用 however 轉向較樂觀的預測，說這些問題未來幾乎肯定會被克服；末句指出，即使 setup costs 昂貴，長遠而言 3D printing 比 normal manufacturing 更便宜，因為 labour 需求少很多。只看首尾句，可以判斷這段集中講 3D printers 的優勢：即場生產、時間短、成本低、無需儲存空間、長遠減少人工成本。Question 9 的 short timeframe 來自這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 3D printer 仍處於 early stages，可比作早期笨重緩慢的 home computers；末句以開放問題收結：既然多年內科技已進步至此，誰知道 3D printers 的未來會怎樣？只看首尾句，可以估計這段是未來展望。中間先承認早期實驗 impressive but not earth-shattering，再提出 jaw-dropping potential，甚至談到 military field 和 fighter planes。Questions 10、12、13 都在這段。"
+      }
+    ]
+  }
+}

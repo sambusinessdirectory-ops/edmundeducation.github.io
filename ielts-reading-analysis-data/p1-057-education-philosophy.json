@@ -1,0 +1,1764 @@
+{
+  "id": "p1-057-education-philosophy",
+  "catalogueId": "p1-057",
+  "catalogueIds": [
+    "p1-057"
+  ],
+  "passage": 1,
+  "title": "Education Philosophy",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "iii",
+    "v",
+    "i",
+    "vi",
+    "A",
+    "B",
+    "B",
+    "C",
+    "C",
+    "A",
+    "B",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "iii — Why children were not highly valued",
+      "answerKey": "iii — Why children were not highly valued",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A題目要求為 Paragraph A 選 heading。Heading iii 的意思是「為甚麼兒童沒有被高度重視」。這題要看整段因果：高死亡率 → 父母預期部分孩子早死 → 避免情感投入 → 嬰兒和兒童的價值被壓低。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although accurate statistics on child mortality in the pre-industrial era are unavailable, evidence suggests that in the 1660s as many as 30% of newborns died within fourteen days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 pre-industrial era 的兒童死亡率沒有準確統計，但證據顯示，在 1660 年代，多達 30% 新生兒可能在十四天內死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is therefore unsurprising to find accounts of mothers abandoning babies in gutters or mentioning a child’s death in the same paragraph as pickles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，看到母親把嬰兒遺棄在溝渠，或在提到醃菜的同一段提到孩子死亡，也就不令人意外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜本段在解釋一種冷淡甚至殘酷的親子態度，而原因和 child mortality 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的核心是 “children were not highly valued”。原文沒有直接寫 valued，但有幾個同義線索："
+            },
+            {
+              "kind": "quote",
+              "text": "“parents expected to bury some of their children”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "父母預期自己會埋葬部分孩子。"
+            },
+            {
+              "kind": "quote",
+              "text": "“they avoided forming a strong emotional commitment to an infant”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們避免和嬰兒建立強烈情感承諾。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because parents expected to bury some of their children, they found it difficult to invest emotionally in newborns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為父母預期自己會埋葬部分孩子，所以他們很難在情感上投入新生兒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 parents，原因是 expected to bury some children，結果是 found it difficult to invest emotionally。接下來的 “avoided forming a strong emotional commitment” 進一步說明這種低情感投入。Heading iii 把這條因果概括為 “Why children were not highly valued”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：children were not highly valued原文：difficult to invest emotionally / avoided forming a strong emotional commitment Heading：Why原文：Because parents expected to bury some of their children"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iv “children dying in hospital” 不合適。Paragraph A 的確講 child mortality，但沒有hospital，也沒有解釋醫院死亡。真正焦點是高死亡率如何影響父母對 infants 的情感態度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "v — The first appearance of modern educational philosophy",
+      "answerKey": "v — The first appearance of modern educational philosophy",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C題目要求為 Paragraph C 選 heading。Paragraph C 前半講 1800s 美國兒童生活和家庭勞動變化，後半引出 John Locke 的 “environmental position” 和 modern learning theory。Heading v 最能覆蓋轉折後重點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children’s lives changed drastically in the United States during the 1800s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1800 年代，美國兒童的生活發生巨大變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His teachings on childcare gained wide recognition in colonial America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 childcare teachings 在 colonial America 獲得廣泛認可。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會從兒童生活變化，過渡到某位思想家的教育理念。最後一句的 “His teachings” 提示中間會出現一位重要教育思想家。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的定位概念是 “first appearance” 和 “modern educational philosophy”。原文中最強句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Locke, one of the period’s most influential writers, produced the first clear and comprehensive statement of the ‘environmental position’: family education determines a child’s life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Locke 是當時最有影響力的作家之一，他首次清楚而全面地提出 “environmental position”：家庭教育決定孩子的人生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “first clear and comprehensive statement” 和 “father of modern learning theory”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through this work, he became the father of modern learning theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過這項工作，他成為 modern learning theory 之父。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 說 “first appearance of modern educational philosophy”。原文雖用 “learning theory”，但這段討論 family education determines a child’s life，屬於教育哲學 / 學習理論的核心。Locke的 statement 是 “first clear and comprehensive”，所以 heading v 合理。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first appearance = first clear and comprehensive statement modern educational philosophy = modern learning theory / environmental position educational philosophy = family education determines a child’s life"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 已給 Paragraph B 作 example，不能再用。Paragraph C 也提到 children’s labour reduced，但該內容只是背景，段落後半真正轉向 Locke 的理論貢獻。Matching Headings 要看整段收束，不可只抓前半背景。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "i — The evolution and development of educational concepts of different thinkers",
+      "answerKey": "i — The evolution and development of educational concepts of different thinkers",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D Paragraph D 同時講 Rousseau 和 Pestalozzi。Heading i 的意思是「不同思想家的教育概念演變與發展」，能覆蓋兩位人物和思想承接。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Jean-Jacques Rousseau, who lived during the era of the American and French Revolutions, people were ‘noble savages’ in the state of nature: innocent, free and uncorrupted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照 Jean-Jacques Rousseau 的看法，人在自然狀態中是「高貴的野蠻人」：天真、自由且未受腐化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His approach included both general and specific methods and began by establishing an emotionally healthy, homelike learning environment before introducing more specific instruction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的做法包含一般和具體方法，並先建立一個情感健康、像家一樣的學習環境，再引入更具體教學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 明顯從 Rousseau 的人性觀，推進到 Pestalozzi 的教育方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的定位概念是 “different thinkers” 和 “educational concepts”。原文有兩個思想家： Jean-Jacques Rousseau Johann Heinrich Pestalozzi並且出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“educational philosophy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“developmental theory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“schools that nurtured children’s all-round development”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 先說 Rousseau 的 Emile："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1762, Rousseau wrote the famous novel Emile to express his educational philosophy through the story of a boy’s development from infancy to adulthood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1762 年，Rousseau 寫下著名小說 Emile，透過一個男孩由嬰兒到成年的發展故事表達他的教育哲學。"
+            },
+            {
+              "kind": "label",
+              "text": "之後說 Pestalozzi："
+            },
+            {
+              "kind": "quote",
+              "text": "“Johann Heinrich Pestalozzi, who lived during the early Industrial Revolution, sought to create schools that nurtured children’s all-round development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Johann Heinrich Pestalozzi 生活在 early Industrial Revolution 時期，他希望創立能培養兒童全面發展的學校。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來顯示：本段不是只介紹某一位思想家，也不是單講一個學校方法；它展示教育觀念如何從 Rousseau 的人性與發展理論，延伸到 Pestalozzi 的學校環境和教學安排。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "different thinkers = Rousseau and Pestalozzi educational concepts = educational philosophy / developmental theory / approach evolution and development = Rousseau’s theory → Pestalozzi’s agreement and school method"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “kindergarten” 應留給 Paragraph F，因為 Froebel 和 kindergarten 完全不在Paragraph D。Paragraph D 的主軸是 Rousseau 與 Pestalozzi 的思想承接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "vi — The application of a creative learning method to a feral child",
+      "answerKey": "vi — The application of a creative learning method to a feral child",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E Paragraph E 講 Victor 這個 feral child，以及 Jean Marc Gaspard Itard 對他的五年教育計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 最貼合。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the best-documented cases associated with Pestalozzi’s theory concerned Victor, a so-called feral child captured in a small town in southern France in 1800.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 Pestalozzi 理論相關、記錄最充分的案例之一，是 Victor，一名於 1800 年在法國南部小鎮被捕獲的所謂 feral child。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although he never fully achieved his goal of teaching Victor basic speech, Victor learnt elementary forms of communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他從未完全達成教 Victor 基本說話的目標，但 Victor 學會了初步溝通形式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示本段會講一個 feral child 的教育案例，以及教育嘗試的結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的關鍵是 “application”, “creative learning method”, “feral child”。原文直接出現 “feral child”，並說 Itard “began a five-year plan to civilise him and teach him to speak”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A young physician, Jean Marc Gaspard Itard, remained optimistic about Victor’s future and began a five-year plan to civilise him and teach him to speak.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位年輕醫生 Jean Marc Gaspard Itard 仍對 Victor 的未來保持樂觀，並開始一項五年計劃，要使他文明化並教他說話。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“With a government subsidy, Itard recruited a local woman, Madame Guérin, to help provide Victor with the semblance of a home, and he devoted enormous time and effort to the child.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在政府資助下，Itard 招募當地女子 Madame Guérin，幫助為 Victor 提供近似家庭的環境，而他也把大量時間和努力投入這個孩子身上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子顯示 Itard 把前段的 homelike environment 和發展式教育理念放到 Victor 身上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 用 “application” 概括這種實踐。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "feral child = Victor, a so-called feral child application = five-year plan / recruited Madame Guérin / devoted time and effort learning method = civilise him and teach him to speak / provide the semblance of a home"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “kindergarten” 也屬於 creative learning，但 Paragraph E 完全沒有 kindergarten 或Froebel。這段的特殊對象是 Victor，heading vi 的 feral child 是決定答案的強訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A — the 18th century",
+      "answerKey": "A — the 18th century",
+      "type": "Matching Dates",
+      "prompt": "the need for children to work",
+      "translation": "兒童需要工作的情況。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求把事件配到年代。定位詞是 “children to work” 和 “need”。Paragraph B 已在題目中作example，且正好講工業化時期童工。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 18th century saw the transformation of an agrarian economy into an industrial one, one of the most important social changes in the Western world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "18 世紀見證了農業經濟轉變成工業經濟，這是西方世界最重要的社會變化之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although this role has disappeared from most wealthy countries, child labour remains widespread in developing nations and has by no means vanished.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這種角色在多數富裕國家已經消失，但童工在 developing nations 仍然普遍，絕未消失。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “need” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The poorest families needed extra income, so young children entered employment and their childhoods became painfully short.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最貧困家庭需要額外收入，因此幼童開始就業，他們的童年變得痛苦地短暫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已把段落時間定在 “The 18th century”。答案句說 “needed extra income”，這就是題目"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the need for children to work” 的原因。兒童工作並非單純個人選擇，而是家庭收入壓力下的結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the need for children to work = families needed extra income, so young children entered employment date = The 18th century因此答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B — the 19th century",
+      "answerKey": "B — the 19th century",
+      "type": "Matching Dates",
+      "prompt": "the rise of the middle class",
+      "translation": "中產階級的興起。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞很直接：rise of the middle class。文章中原字重現，目標段落是 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children’s lives changed drastically in the United States during the 1800s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1800 年代，美國兒童生活發生巨大變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His teachings on childcare gained wide recognition in colonial America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 childcare teachings 在 colonial America 獲得廣泛認可。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Technological advances in the mid-1800s, the rise of the middle class and the redefinition of family roles gradually separated work from home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1800 年代中期的科技進步、中產階級興起，以及家庭角色重新定義，逐漸把工作和家庭分開。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mid-1800s” 屬於 19th century。題目選項 B 是 “the 19th century (1800–1899)”。原文不只說1800s，還精準說 mid-1800s，因此答案非常穩。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "rise of the middle class = the rise of the middle class mid-1800s = the 19th century答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — the 19th century",
+      "answerKey": "B — the 19th century",
+      "type": "Matching Dates",
+      "prompt": "the emergence of a kindergarten",
+      "translation": "kindergarten 的出現。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 kindergarten 第一次出現或誕生的時間。定位詞是 “kindergarten”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other educators began to recognise a simple truth within Rousseau’s philosophy: identifying the stages of children’s development was not enough; education had to be tailored to those stages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他教育者開始認出 Rousseau philosophy 中的一個簡單真理：辨認兒童發展階段還不夠，教育必須配合那些階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their number grew across Europe, and the movement eventually reached and flourished in the United States during the 20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "kindergartens 的數量在歐洲增長，這個 movement 最終在 20 世紀傳到並興盛於美國。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“One early example was kindergarten, both a term and a movement created in 1840 by the German-born educator Friedrich Froebel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個早期例子是 kindergarten，這既是一個詞，也是一場 movement，由德國出生的教育家Friedrich Froebel 於 1840 年創立。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“created in 1840” 是最強時間訊號。1840 屬於 19th century，即 1800–1899。題目的“emergence” 對應原文 “created”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "emergence = created kindergarten = kindergarten 1840 = the 19th century答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C — the 20th century",
+      "answerKey": "C — the 20th century",
+      "type": "Matching Dates",
+      "prompt": "the spread of kindergartens around the U.S.",
+      "translation": "kindergartens 在美國各地擴展。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 spread around the U.S.，要找 United States 和 movement spread 的時間。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other educators began to recognise a simple truth within Rousseau’s philosophy: identifying the stages of children’s development was not enough; education had to be tailored to those stages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他教育者開始認出 Rousseau philosophy 中的一個簡單真理：辨認兒童發展階段還不夠，教育必須配合那些階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their number grew across Europe, and the movement eventually reached and flourished in the United States during the 20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "kindergartens 的數量在歐洲增長，這個 movement 最終在 20 世紀傳到並興盛於美國。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “U.S.” 對應原文 “the United States”。“spread” 對應 “reached and flourished”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文最後一句直接說 “during the 20th century”。題目用 “spread around the U.S.” 概括 “reached and flourished in the United States”。“flourished” 比單純出現更進一步，表示發展興盛。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "spread around the U.S. = reached and flourished in the United States date = during the 20th century答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "C — Jean Marc Gaspard Itard",
+      "answerKey": "C — Jean Marc Gaspard Itard",
+      "type": "Matching Features",
+      "prompt": "was not successful in proving a theory",
+      "translation": "未能成功證明某個理論 / 未能完全達成相關教育目標。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題屬於 Matching Features。定位詞是 “not successful” 和 “proving a theory”。文章中最接近的是 Victor 個案：原本被期待回答 human nature 的大問題，後來這個目標被放棄；Itard 雖持樂觀態度，也未完全達成教 Victor 說話的目標。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the best-documented cases associated with Pestalozzi’s theory concerned Victor, a so-called feral child captured in a small town in southern France in 1800.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 Pestalozzi 理論相關、記錄最充分的案例之一，是 Victor，一名於 1800 年在法國南部小鎮被捕獲的所謂 feral child。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although he never fully achieved his goal of teaching Victor basic speech, Victor learnt elementary forms of communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他從未完全達成教 Victor 基本說話的目標，但 Victor 學會了初步溝通形式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “not successful” 對應原文 “never fully achieved his goal”。人物定位詞則是 “Jean Marc Gaspard Itard”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A young physician, Jean Marc Gaspard Itard, remained optimistic about Victor’s future and began a five-year plan to civilise him and teach him to speak.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位年輕醫生 Jean Marc Gaspard Itard 對 Victor 的未來保持樂觀，並開始一項五年計劃，要使他文明化並教他說話。"
+            },
+            {
+              "kind": "label",
+              "text": "結果句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although he never fully achieved his goal of teaching Victor basic speech, Victor learnt elementary forms of communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他沒有完全達成教 Victor 基本說話的目標，但 Victor 學會了初步溝通形式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “he” 指 Itard。題目用 “was not successful” 概括 “never fully achieved his goal”。所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Pestalozzi’s theory 出現在第一句，所以 B 有干擾力。不過真正執行計劃並未完全成功的人是Itard。Matching Features 要看「誰做了這件事」，不能只看某理論名稱出現在哪一句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — Jean-Jacques Rousseau",
+      "answerKey": "A — Jean-Jacques Rousseau",
+      "type": "Matching Features",
+      "prompt": "based his work on extensive observations of children",
+      "translation": "他的作品建基於對兒童的大量觀察。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “extensive observations of children”。這組詞在 Paragraph D 幾乎原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Jean-Jacques Rousseau, who lived during the era of the American and French Revolutions, people were ‘noble savages’ in the state of nature: innocent, free and uncorrupted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照 Jean-Jacques Rousseau 的看法，人在自然狀態中是「高貴的野蠻人」：天真、自由且未受腐化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His approach included both general and specific methods and began by establishing an emotionally healthy, homelike learning environment before introducing more specific instruction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的做法包含一般和具體方法，並先建立情感健康、像家一樣的學習環境，再引入更具體教學。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The work drew on extensive observation of children and adolescents, his developmental theory and memories of his own childhood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這部作品取材於對兒童和青少年的廣泛觀察、他的發展理論，以及他自己的童年記憶。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The work” 指前一句的 Emile。前文說：“In 1762, Rousseau wrote the famous novel Emile to express his educational philosophy through the story of a boy’s development from infancy to adulthood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1762 年，Rousseau 寫下著名小說 Emile，透過一個男孩由嬰兒到成年的發展故事表達他的教育哲學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，based his work on extensive observations of children = Emile drew on extensive observation of children and adolescents。人物是 Rousseau。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "based his work on = The work drew on children = children and adolescents his work = Emile答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — Johann Heinrich Pestalozzi",
+      "answerKey": "B — Johann Heinrich Pestalozzi",
+      "type": "Matching Features",
+      "prompt": "proposed a learning environment that prioritised emotional comfort",
+      "translation": "提出以情感舒適 / 情感健康為優先的學習環境。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “learning environment” 和 “emotional comfort”。原文在 Paragraph D 最後一句出現"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“emotionally healthy, homelike learning environment”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D第一句：“According to Jean-Jacques Rousseau, who lived during the era of the American and French Revolutions, people were ‘noble savages’ in the state of nature: innocent, free and uncorrupted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照 Jean-Jacques Rousseau 的看法，人在自然狀態中是「高貴的野蠻人」：天真、自由且未受腐化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His approach included both general and specific methods and began by establishing an emotionally healthy, homelike learning environment before introducing more specific instruction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的做法包含一般和具體方法，並先建立情感健康、像家一樣的學習環境，再引入更具體教學。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “emotional comfort” 沒有原字出現，但和 “emotionally healthy, homelike” 同義。homelike也表示像家庭一樣安全、親近、舒適。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文前一句交代人物："
+            },
+            {
+              "kind": "quote",
+              "text": "“Johann Heinrich Pestalozzi, who lived during the early Industrial Revolution, sought to create schools that nurtured children’s all-round development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Johann Heinrich Pestalozzi 生活在 early Industrial Revolution 時期，他希望創立能培養兒童全面發展的學校。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“His approach included both general and specific methods and began by establishing an emotionally healthy, homelike learning environment before introducing more specific instruction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的做法包含一般和具體方法，並先建立情感健康、像家一樣的學習環境，再引入更具體教學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“His approach” 的 his 指 Pestalozzi。題目中的 “prioritised emotional comfort” 對應 “began by establishing an emotionally healthy, homelike learning environment”。began by 表示這是教學前的第一步，確實有優先次序。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "prioritised = began by emotional comfort = emotionally healthy, homelike learning environment = learning environment答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A — Jean-Jacques Rousseau",
+      "answerKey": "A — Jean-Jacques Rousseau",
+      "type": "Matching Features",
+      "prompt": "argued that corruption was not part of people’s natural character",
+      "translation": "主張腐化並非人的自然本性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “corruption”, “natural character”。文章中最直接的概念是 Rousseau 的 “state of nature: innocent, free and uncorrupted”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Jean-Jacques Rousseau, who lived during the era of the American and French Revolutions, people were ‘noble savages’ in the state of nature: innocent, free and uncorrupted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照 Jean-Jacques Rousseau 的看法，人在自然狀態中是「高貴的野蠻人」：天真、自由且未受腐化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His approach included both general and specific methods and began by establishing an emotionally healthy, homelike learning environment before introducing more specific instruction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的做法包含一般和具體方法，並先建立情感健康、像家一樣的學習環境，再引入更具體教學。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “natural character” 對應原文 “state of nature”。“corruption was not part” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“uncorrupted”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“According to Jean-Jacques Rousseau ... people were ‘noble savages’ in the state of nature: innocent, free and uncorrupted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照 Jean-Jacques Rousseau 的看法，人在自然狀態中是「高貴的野蠻人」：天真、自由且未受腐化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 Rousseau 的觀點。state of nature 表示人原本的自然狀態；uncorrupted 表示未受腐化。因此，題目 “corruption was not part of people’s natural character” 就是把 “in the state of nature ... uncorrupted” 改寫成普通說法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "people’s natural character = people in the state of nature corruption was not part = uncorrupted argued = According to Rousseau"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Pestalozzi 也在同段後半 “agreed with Rousseau that human beings were naturally good but corrupted by society”。所以 B 看起來有根據。若題目寫 “agreed that people were naturally good but corrupted by society”，B 會更強；但現在題目用 “natural character” 和 “argued”，最直接源頭是 Rousseau 的 state of nature 觀點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "D — Friedrich Froebel",
+      "answerKey": "D — Friedrich Froebel",
+      "type": "Matching Features",
+      "prompt": "was responsible for increasing the number of a particular type of school",
+      "translation": "促成某類學校數量增加。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “particular type of school” 和 “increasing the number”。Paragraph F 的 kindergarten是最明顯的學校類型。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other educators began to recognise a simple truth within Rousseau’s philosophy: identifying the stages of children’s development was not enough; education had to be tailored to those stages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他教育者開始認出 Rousseau philosophy 中的一個簡單真理：辨認兒童發展階段還不夠，教育必須配合那些階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their number grew across Europe, and the movement eventually reached and flourished in the United States during the 20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "kindergartens 的數量在歐洲增長，這個 movement 最終在 20 世紀傳到並興盛於美國。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “particular type of school” 對應 kindergarten。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“One early example was kindergarten, both a term and a movement created in 1840 by the German-born educator Friedrich Froebel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個早期例子是 kindergarten，這既是一個詞，也是一場 movement，由德國出生的教育家Friedrich Froebel 於 1840 年創立。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文後半說："
+            },
+            {
+              "kind": "quote",
+              "text": "“By Froebel’s death in 1852, dozens of kindergartens had been established in Germany. Their number grew across Europe, and the movement eventually reached and flourished in the United States during the 20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 Froebel 於 1852 年去世時，德國已建立數十間 kindergartens。它們的數量在歐洲增長，這個movement 最終在 20 世紀傳到並興盛於美國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “was responsible for increasing the number” 對應 Froebel created kindergarten as a term and movement，並且到他去世時已有 dozens established。雖然後續擴展不全是他一人親自完成，但文章把 kindergarten 的創立和 movement 源頭放在 Froebel 身上，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a particular type of school = kindergarten increasing the number = dozens established / number grew responsible for = created ... by Friedrich Froebel / his invention spread"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Pestalozzi 也 “sought to create schools”，所以 B 有一點吸引力。不過題目說 “particular type of school” 和 “number grew”，這兩個訊號都指向 kindergarten，不是一般 schools。真正目標人物是Froebel。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Education Philosophy.pdf",
+    "sha256": "24557dc782f85d55e6a49a3551f886386a3f8785fff64d1a032d3ed3939fa192",
+    "pageCount": 19
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 pre-industrial era 的 child mortality 沒有準確統計，但 1660s 可能有多達 30% 新生兒十四天內死亡。尾句說當時可見母親把嬰兒遺棄在溝渠，或把孩子死亡和 pickles 放在同一段提及。只看首尾句，可以判斷本段會解釋古代兒童死亡率高，父母難以投入感情，兒童因此未被高度珍視。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 18 世紀 agrarian economy 轉向 industrial economy，是西方世界重要社會變化之一。尾句說雖然童工在多數富裕國家已消失，但在 developing nations 仍然普遍。只看首尾句，可以判斷本段主題是工業化和城市化如何造成貧窮、疾病、差劣居住環境，並迫使貧困家庭讓兒童工作，縮短童年。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 1800s 美國兒童生活有巨大變化。尾句說 Locke 的 childcare teachings 在 colonial America 獲得廣泛認可。只看首尾句，可以先估計本段會講 19 世紀家庭、工作和兒童角色的變化，並引出 John Locke 的教育思想。中間的 “environmental position” 和 “father of modern learning theory” 是關鍵訊號。"
+      },
+      {
+        "number": "D",
+        "summary": "首句引入 Jean-Jacques Rousseau，說他生活在美國和法國革命時代，認為人在自然狀態中是innocent、free 和 uncorrupted。尾句說 Pestalozzi 先建立 emotionally healthy、homelike learning environment，再引入更具體教學。只看首尾句，可以看到本段會比較兩位教育思想家，從Rousseau 的自然人觀念，發展到 Pestalozzi 的學校實踐。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說與 Pestalozzi’s theory 有關的一個有充分記錄案例，是 1800 年在法國南部被捕獲的 feral child Victor。尾句說 Itard 雖未完全達成教 Victor 基本說話的目標，但 Victor 學會了 elementary forms of communication。只看首尾句，可以判斷本段是教育理論的實驗應用，重點是 Victor 個案、Itard 的五年計劃和有限成果。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說其他教育者開始認出 Rousseau philosophy 中的一個簡單真理：知道兒童發展階段還不夠，教育必須配合這些階段。尾句說 kindergarten movement 最後在 20 世紀傳到並興盛於美國。只看首尾句，可以判斷本段會講 kindergarten 的出現、Froebel 對 play 的重視，以及這個教育形式如何從德國擴展到歐洲和美國。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Q12 有一點邊界：文章也說 Pestalozzi agreed with Rousseau，但題目用 “argued that corruption was not part of people’s natural character”，最直接對應 Rousseau 的 “state of nature: innocent, free and uncorrupted”。所以答案採 A。"
+  ]
+}

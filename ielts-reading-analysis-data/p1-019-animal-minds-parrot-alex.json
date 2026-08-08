@@ -1,0 +1,2332 @@
+{
+  "id": "p1-019-animal-minds-parrot-alex",
+  "catalogueId": "p1-019",
+  "catalogueIds": [
+    "p1-019"
+  ],
+  "passage": 1,
+  "title": "Animal Minds: Parrot Alex",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "100 English words",
+    "chimpanzees",
+    "avian cognition",
+    "especially smart",
+    "Co-lor / color",
+    "wrong pronunciation",
+    "a teenager"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Firstly, Alex has grasped quite a lot of vocabulary.”",
+      "translation": "首先，Alex 已掌握了相當多詞彙。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目重點在 “quite a lot of vocabulary”，所以要找 Alex 學會多少 words，並判斷這個數量是否可支持「相當多」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Some people actually called me crazy for trying this,’ she said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "她說：「有些人真的因為我嘗試這件事而叫我 crazy。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Apples taste a little bit like bananas to him, and they look a little bit like cherries, Alex made up that word for them,’ Pepperberg said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pepperberg 說：「對 Alex 來說，蘋果嚐起來有點像香蕉，看起來又有點像櫻桃，所以牠為蘋果創造了那個詞。」只看首尾句，可以先估計 Paragraph E 會處理 Pepperberg 研究為何看起來大膽，以及 Alex 具體學會了怎樣使用聲音和詞彙。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“vocabulary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grasped quite a lot”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 vocabulary，但有 “English words”："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alex learned how to use his vocal tract to imitate almost one hundred English words…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Under Pepperberg’s patient tutelage, Alex learned how to use his vocal tract to imitate almost one hundred English words, including the sounds for various foods, although he calls an apple a‘beanery.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Pepperberg 耐心指導下，Alex 學會用牠的發聲器官模仿接近一百個英語詞，包括不同食物的聲音，雖然牠把 apple 叫做 “beanery”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Alex，核心動作是 learned，內容是 imitate almost one hundred English words。接近一百個英文詞，足以支持題目中的 “quite a lot of vocabulary”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“has grasped quite a lot of vocabulary”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“learned … almost one hundred English words”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： grasped vocabulary = learned words quite a lot = almost one hundred判斷題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “grasped” 可能令人以為 Alex 完全理解所有詞義。原文最直接支持的是牠學會模仿和使用接近一百個英文詞。由於後文也展示牠能回答 color / shape 等問題，題目「掌握相當多詞彙」這個概括可接受。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“At the beginning of study, Alex felt frightened in the presence of humans.”",
+      "translation": "研究剛開始時，Alex 在人類面前感到害怕。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Alex 初期是否 frightened。控制詞是 “at the beginning of study” 和 “felt frightened”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們要找情緒反應，不只是 Alex 被帶進實驗室或接受訓練。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1977 Irene Pepperberg, a recent graduate of Harvard University, did something very bold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1977 年，Irene Pepperberg 這位剛從 Harvard University 畢業的人做了一件非常大膽的事。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘I thought if he learned to communicate, I could ask him questions about how he sees the world.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我想，如果牠學會溝通，我就可以問牠關於牠如何看世界的問題。」只看首尾句，可以估計 Paragraph A 是研究開端，會說 Pepperberg 如何把 Alex 帶進實驗室，以及研究目標是甚麼。題目提到 beginning of study，因此這段最值得先看。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“beginning of study”"
+            },
+            {
+              "kind": "quote",
+              "text": "“frightened”"
+            },
+            {
+              "kind": "quote",
+              "text": "“presence of humans”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph A，可以找到 Alex 剛被帶進 lab："
+            },
+            {
+              "kind": "quote",
+              "text": "“She brought a one-year-old African gray parrot she named Alex into her lab…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但沒有 frightened、afraid、scared、nervous、fearful 等情緒詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She brought a one-year-old African gray parrot she named Alex into her lab to teach him to reproduce the sounds of the English language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她把一隻一歲的 African gray parrot 帶進實驗室，給牠取名 Alex，並教牠重現英語聲音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 Alex 被帶入實驗室和研究目的。它沒有描述 Alex 對人類的情緒，也沒有說牠害怕、適應不良或抗拒人類。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 後來說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The humans, along with two younger parrots, also served as Alex’s flock, providing the social input all parrots crave.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類和兩隻較年輕的鸚鵡也充當 Alex 的 flock，提供所有鸚鵡都渴望的社交輸入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句甚至顯示人類後來是牠社交環境的一部分，但它仍然沒有回到研究初期的 frightened 情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文有 Alex 入實驗室的背景，仍缺少 “felt frightened” 這個核心資訊。文章也沒有明確說牠沒有害怕，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能會用常識想像：一歲鸚鵡進入陌生 lab，也許會害怕。但 IELTS Reading 不能用合理想像補資料。這題缺少的正是情緒證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Previously, many scientists realized that animals possess the ability of thinking.”",
+      "translation": "以前，許多科學家已意識到動物擁有思考能力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問的是過去科學界對 animal thinking 的看法。控制詞是 “previously”、“many scientists” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“possess the ability of thinking”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B第一句：“When Pepperberg began her dialogue with Alex, who died last September at the age of 31, many scientists believed animals were incapable of any thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Pepperberg 開始和 Alex 對話時，很多科學家相信動物沒有任何思考能力；Alex 去年九月去世，享年 31 歲。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They were clearly a team – and because of their work, the notion that animals can think is no longer so fanciful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們顯然是一個團隊；也因為他們的工作，動物能思考這個想法已不再那麼像空想。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph B 正在描述科學界態度由懷疑轉向較開放。這與題目完全相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“many scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“thought / thinking”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“many scientists believed animals were incapable of any thought.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Pepperberg began her dialogue with Alex… many scientists believed animals were incapable of any thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Pepperberg 開始和 Alex 對話時，很多科學家相信動物沒有任何思考能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 many scientists realized animals possess thinking ability。原文說 many scientists believed animals were incapable of thought。兩者方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“possess the ability of thinking”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“incapable of any thought”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "反向點： possess ability = 有能力incapable = 沒有能力判斷原文提供明確相反資料，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 最後說 “the notion that animals can think is no longer so fanciful”，可能令人誤以為很多科學家早就接受這個看法。細讀時間很重要：題目說 previously；原文說當研究開始時，許多科學家其實持否定態度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It has taken a long time before people get to know cognition existing in animals.”",
+      "translation": "人們花了很長時間才逐步認識到動物有認知能力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是動物認知被認識的過程是否長。控制詞是 “taken a long time” 和 “cognition existing in animals”。要找 gradual、bit by bit、researchers documented 等時間過程。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain skills are considered key signs of higher mental abilities: good memory, a grasp of grammar and symbols, self-awareness, understanding others’ motives, imitating others, and being creative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些能力被視為高階心智能力的重要標誌：良好記憶、理解 grammar 和 symbols、自我意識、理解別人動機、模仿他人，以及創造力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Alex the parrot turned out to be a surprisingly good talker.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alex 這隻鸚鵡結果成為一個令人驚訝的出色說話者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 會介紹不同高階心智能力，以及研究如何把這些能力在其他動物身上逐步找出來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“long time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cognition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“animals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 cognition 這個字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“higher mental abilities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Bit by bit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gradually chipping away”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bit by bit, in ingenious experiments, researchers have documented these talents in other species, gradually chipping away at what we thought made human beings distinctive while offering a glimpse of where our own abilities came from.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員透過巧妙實驗，一點一點地記錄其他物種也具有這些才能，逐步削弱我們以為人類獨有的特質，並讓我們瞥見自身能力的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “Bit by bit” 和 “gradually”。兩個詞都表示認識過程不是突然完成，而是經過一段長時間逐步累積。題目中的 “cognition existing in animals” 對應原文的 “these talents in other species” 和 “higher mental abilities”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“taken a long time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bit by bit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gradually”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“cognition existing in animals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“higher mental abilities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“these talents in other species”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文支持動物認知能力是逐步被研究和承認的，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題沒有要求「所有人都完全接受」。原文只支援一個漸進過程：研究慢慢累積證據，令人類獨特性的界線被逐步削弱。題目語氣也偏概括，所以 TRUE 合理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“As Alex could approximately imitate the sounds of English words, he was capable of roughly answering Irene’s questions regarding the world.”",
+      "translation": "由於 Alex 能近似地模仿英語詞的聲音，所以牠能大致回答 Irene 關於世界的問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷因果關係：Alex 能模仿英語聲音，因此 Pepperberg 可以向牠提問，並得到關於牠基本世界理解的答案。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, because Alex was able to produce a close approximation of the sounds of some English words, Pepperberg could ask him questions about a bird’s basic understanding of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，因為 Alex 能發出一些英語詞聲音的近似版本，Pepperberg 可以問牠關於鳥類對世界基本理解的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the words – and what can only be called the thoughts – were entirely his.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這些詞語，以及只能稱為 thoughts 的東西，完全屬於牠自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 已經直接對應題目。第一句給出因果，最後一句強調 Alex 的回答有自己的 thought 成分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“approximately imitate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“English words”"
+            },
+            {
+              "kind": "quote",
+              "text": "“questions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“world”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“produce a close approximation of the sounds of some English words”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ask him questions about a bird’s basic understanding of the world”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, because Alex was able to produce a close approximation of the sounds of some English words, Pepperberg could ask him questions about a bird’s basic understanding of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，由於 Alex 能發出某些英語詞聲音的近似版本，Pepperberg 可以問牠關於鳥類對世界基本理解的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Alex，能力是 produce a close approximation。結果是 Pepperberg could ask him questions。題目用 “approximately imitate” 改寫 “produce a close approximation”，用 “regarding the world” 改寫 “basic understanding of the world”。"
+            },
+            {
+              "kind": "label",
+              "text": "後文用實驗示範："
+            },
+            {
+              "kind": "quote",
+              "text": "“What’s same?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alex answered: “Co-lor.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“What’s different?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alex answered: “Shape.”這說明牠能回答關於 similarity、difference、color、shape 的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “regarding the world” 看起來較廣，原文範圍較精確，是 “a bird’s basic understanding of the world”。這題可選 TRUE，因為題目用了 roughly，語氣有收窄；牠能回答的是基本概念問題，不是哲學式內心獨白。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“By breaking in other parrots as well as producing the incorrect answers, he tried to be focused.”",
+      "translation": "Alex 打斷其他鸚鵡並給出錯誤答案，是為了讓自己保持專注。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Alex 打斷和答錯的原因。控制詞是 “tried to be focused”。要找原文是否說他這樣做是因為專注，或相反是因為 boredom / obstinacy。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the next 20 minutes, Alex ran through his tests, distinguishing colors, shapes, sizes, and materials (wool versus wood versus metal).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接下來二十分鐘，Alex 完成一連串測試，分辨顏色、形狀、大小和材料，例如 wool、wood 和metal。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘At this stage, he’s like a teenager; he’s moody, and I’m never sure what he’ll do.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「到這個階段，牠像 teenager；牠情緒多變，我永遠不確定牠接下來會做甚麼。」只看首尾句，可以估計 Paragraph H 會同時展示 Alex 的能力和牠的性格／行為問題。題目提到interrupt 和 wrong answer，應在這段後半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“interrupts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wrong answer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“focused”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“He knows all this, and he gets bored, so he interrupts the others, or he gives the wrong answer just to be obstinate.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He knows all this, and he gets bored, so he interrupts the others, or he gives the wrong answer just to be obstinate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠知道這些內容，而且牠會感到無聊，所以會打斷其他鳥，或者只是為了固執作對而給出錯誤答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句給出的原因很清楚：原因一：he gets bored原因二：to be obstinate題目說原因是 “tried to be focused”。原文方向相反：牠打斷和答錯是因為無聊、固執，不是為了集中。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“tried to be focused”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“gets bored”"
+            },
+            {
+              "kind": "quote",
+              "text": "“to be obstinate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "反向點： focused = 專注bored / obstinate = 無聊、故意作對判斷原文提供相反原因，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Alex 正在做測試，前文也展示牠分辨顏色、形狀和材料，所以學生可能以為所有行為都與保持測試狀態有關。真正控制答案的是 “gets bored” 和 “obstinate”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "100 English words",
+      "answerKey": "100 English words",
+      "type": "Summary Completion",
+      "prompt": "“After the training of Irene, Parrot Alex can use his vocal tract to pronounce more than 7______…”",
+      "translation": "在 Irene 訓練後，Alex 可以用牠的發聲器官發出超過 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 “more than”，後面承接 “while other scientists…”，所以空格應是數量加詞彙類別，與 Alex 學會發音的英語詞有關。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Some people actually called me crazy for trying this,’ she said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "她說：「有些人真的因為我嘗試這件事而叫我 crazy。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Apples taste a little bit like bananas to him, and they look a little bit like cherries, Alex made up that word for them,’ Pepperberg said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pepperberg 說：「對 Alex 來說，蘋果嚐起來有點像香蕉，看起來又有點像櫻桃，所以牠為蘋果創造了那個詞。」只看首尾句，可以知道這段會說 Alex 的語音學習成果和使用詞語的例子。題目有 vocal tract，這段是最直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“vocal tract”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pronounce”"
+            },
+            {
+              "kind": "quote",
+              "text": "“English words”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Under Pepperberg’s patient tutelage, Alex learned how to use his vocal tract to imitate almost one hundred English words…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Under Pepperberg’s patient tutelage, Alex learned how to use his vocal tract to imitate almost one hundred English words, including the sounds for various foods…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Pepperberg 耐心指導下，Alex 學會用牠的發聲器官模仿接近一百個英語詞，包括不同食物的聲音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文完整意思是 “almost one hundred English words”。題目使用 “more than” 和三字限制，令答案形式有點尷尬。若完全照原文，答案會超過三字；在考試填格中通常會把 one hundred 寫成數字，形成 “100 English words”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查100 English words = 一個數字 + 兩個 words，能放入三字限制內。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但要提醒學生：原文意思是 almost one hundred，不是明確超過一百。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“use his vocal tract to pronounce”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“use his vocal tract to imitate”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“more than 100 English words”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“almost one hundred English words”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷答案填 100 English words 最符合題面和限制；理解時要保留原文的 “almost” 語氣。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最大問題在題面本身。若學生寫 “almost one hundred”，文法會變成 “more than almost one hundred”，不自然；若寫完整 “almost one hundred English words”，又超過字數限制。實戰中用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“100 English words” 最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "chimpanzees",
+      "answerKey": "chimpanzees",
+      "type": "Summary Completion",
+      "prompt": "“…while other scientists believe that animals have no this advanced ability of thinking, they would rather teach 8 ______…”",
+      "translation": "當其他科學家不相信動物有這種高階思考能力時，他們較傾向教 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 teach 後面，應是一種動物或研究對象。題目與 Paragraph E 中 scientists thought that chimpanzees were better subjects 對應。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Some people actually called me crazy for trying this,’ she said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "她說：「有些人真的因為我嘗試這件事而叫我 crazy。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Apples taste a little bit like bananas to him, and they look a little bit like cherries, Alex made up that word for them,’ Pepperberg said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pepperberg 說：「對 Alex 來說，蘋果嚐起來有點像香蕉，看起來又有點像櫻桃，所以牠為蘋果創造了那個詞。」只看首尾句，可以猜這段會比較 Pepperberg 的鳥類研究和其他科學家看重的研究對象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“other scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“teach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“better subjects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists thought that chimpanzees were better subjects, although, of course, chimps can’t speak.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists thought that chimpanzees were better subjects, although, of course, chimps can’t speak.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家認為 chimpanzees 是更好的研究對象，雖然 chimpanzees 當然不能說話。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chimpanzees, bonobos, and gorillas have been taught to use sign language and symbols to communicate with us, often with impressive results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chimpanzees、bonobos 和 gorillas 曾被教導使用 sign language 和 symbols 與我們溝通，結果常常令人印象深刻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “they would rather teach…” 對應前一句的 “chimpanzees were better subjects”。後一句說猿類被教 sign language and symbols，進一步說明科學家為何偏向使用 chimpanzees 一類的動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查chimpanzees = one word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“they would rather teach…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“chimpanzees were better subjects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Chimpanzees … have been taught…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷答案是 chimpanzees。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "後一句同時出現 bonobos 和 gorillas。可是題目問 “would rather teach” 的主要對象，原文第一個直接評價為 better subjects 的是 chimpanzees，所以填 chimpanzees 最精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "avian cognition",
+      "answerKey": "avian cognition",
+      "type": "Summary Completion",
+      "prompt": "“Pepperberg clarified that she wanted to conduct a study concerning 9 ______ but not to teach him to talk.”",
+      "translation": "Pepperberg 澄清，她想研究的是 ______，重點不在教 Alex 說話本身。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個研究範疇。題目中的 “not to teach him to talk” 對應原文 “I’m not trying to see if Alex can learn a human language.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It sounded a bit mad, the idea of a bird having lessons to practice, and willingly doing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一隻鳥上課練習，而且還願意做，這個想法聽起來有點瘋狂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘That’s never been the point. My plan always was to use his imitative skills to get a better understanding of avian cognition.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「那從來都不是重點。我的計劃一直是利用牠的模仿能力，去更好地理解鳥類認知。」只看最後一句，答案幾乎已經出現。這段功能是澄清 Pepperberg 的研究目的。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“not to teach him to talk”"
+            },
+            {
+              "kind": "quote",
+              "text": "“study concerning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cognition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“get a better understanding of avian cognition”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘I’m not trying to see if Alex can learn a human language,’ she added. ‘That’s never been the point. My plan always was to use his imitative skills to get a better understanding of avian cognition.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她補充說：「我不是想看看 Alex 能不能學會人類語言。那從來都不是重點。我的計劃一直是利用牠的模仿能力，更好地理解鳥類認知。」這組句子清楚對應題目。題目說 “but not to teach him to talk”，原文說 “not trying to see if Alex can learn a human language”。真正研究對象是 “avian cognition”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查avian cognition = two words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“study concerning…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“get a better understanding of…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“not to teach him to talk”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“not trying to see if Alex can learn a human language”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷答案是 avian cognition。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Alex 的確在上 English lessons，也會 imitate English words。表層看似語言教學，深層研究目的是鳥類認知。這題要分清手段和目的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "especially smart",
+      "answerKey": "especially smart",
+      "type": "Summary Completion",
+      "prompt": "“The store’s assistant picked out a bird at random for her for the sake of avoiding other scientists saying that the bird is 10 ______ afterwards.”",
+      "translation": "店員替她隨機挑選一隻鳥，是為了避免其他科學家事後說那隻鳥 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “the bird is…” 後面，應是形容詞短語。題目問 Pepperberg 為甚麼讓店員挑鳥，而不是自己挑。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thirty years after the Alex studies began; Pepperberg and a changing collection of assistants were still giving him English lessons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alex 研究開始三十年後，Pepperberg 和不斷更換的一群 assistants 仍在給牠上英語課。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that Alex’s brain was the size of a shelled walnut, most researchers thought Pepperberg’s interspecies communication study would be futile.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到 Alex 的腦只有去殼核桃大小，多數研究者認為 Pepperberg 的跨物種溝通研究會是徒勞的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段會講 Alex 的訓練背景、研究環境和外界懷疑。題目提到 pet store 和scientists’ later comments，應在這段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“store’s assistant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“picked him out”"
+            },
+            {
+              "kind": "quote",
+              "text": "“especially smart bird”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pepperberg bought Alex in a Chicago pet store where she let the store’s assistant pick him out because she didn’t want other scientists saying later that she’d particularly chosen an especially smart bird for her work.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pepperberg bought Alex in a Chicago pet store where she let the store’s assistant pick him out because she didn’t want other scientists saying later that she’d particularly chosen an especially smart bird for her work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pepperberg 在 Chicago 一間寵物店買下 Alex，並讓店員替她挑選，因為她不想其他科學家日後說她特意挑選了一隻特別聰明的鳥來做研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的原因由 because 引出。她讓店員挑選，目的在於排除 selection bias，即避免別人質疑她早已選了天生特別聰明的鳥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查especially smart = two words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果填 especially smart bird，雖然也是三字，但題目已有 “the bird is”，所以 “the bird is especially smart” 最自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“picked out a bird at random”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“let the store’s assistant pick him out”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“saying that the bird is…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“saying later that she’d particularly chosen an especially smart bird”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷答案是 especially smart。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “at random” 概括店員挑選。原文沒有 random 這個字，但讓店員挑而非 Pepperberg 自己挑，目的就是避免被指她特意挑選高智商個體。這是合理概括。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "Co-lor / color",
+      "answerKey": "Co-lor / color",
+      "type": "Short-answer Questions",
+      "prompt": "“What did Alex reply regarding the similarity of the subjects showed to him?”",
+      "translation": "當問到展示給 Alex 的兩件物件有甚麼相同之處時，Alex 回答了甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer。題目問 Alex 的 reply，所以要找直接引號。定位詞是 similarity / same /subjects shown to him。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, because Alex was able to produce a close approximation of the sounds of some English words, Pepperberg could ask him questions about a bird’s basic understanding of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，因為 Alex 能發出一些英語詞聲音的近似版本，Pepperberg 可以問牠關於鳥類對世界基本理解的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the words – and what can only be called the thoughts – were entirely his.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這些詞語，以及只能稱為 thoughts 的東西，完全屬於牠自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph G 會展示 Pepperberg 如何向 Alex 提問，並顯示牠自己的回答。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“similarity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“same”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reply”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 Pepperberg 問："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘What’s same?’ she asked.”"
+            },
+            {
+              "kind": "label",
+              "text": "Alex 回答："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Co-lor.’”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She held up the two items to Alex’s eye. ‘What’s same?’ she asked. Without hesitation, Alex’s beak opened: ‘Co-lor.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她把兩件物品舉到 Alex 眼前。她問：「有甚麼相同？」Alex 毫不猶豫地張開嘴回答：「Co-lor。」前文說兩件物品是 “a green key and a small green cup”。它們相同的地方是 color，都是 green。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alex 的回答在原文中寫作 “Co-lor”，呈現牠的發音方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查Co-lor 是原文形式；color 是正常拼法。兩者都在意思上可接受。若考試要求原文形式，寫 Co-lor最穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷答案是 Co-lor / color。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “subjects” 其實指兩件 items，不是研究科目。定位時不要被 subject 這個字帶偏，要找"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“What’s same?” 這個直接提問。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "wrong pronunciation",
+      "answerKey": "wrong pronunciation",
+      "type": "Short-answer Questions",
+      "prompt": "“What is the problem of the young parrots except Alex?”",
+      "translation": "Alex 以外的年輕鸚鵡有甚麼問題？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 younger birds 的問題。定位詞是 “younger birds / parrots” 和 “problem”。答案應是名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the next 20 minutes, Alex ran through his tests, distinguishing colors, shapes, sizes, and materials (wool versus wood versus metal).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接下來二十分鐘，Alex 完成一連串測試，分辨顏色、形狀、大小和材料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘At this stage, he’s like a teenager; he’s moody, and I’m never sure what he’ll do.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「到這個階段，牠像 teenager；牠情緒多變，我永遠不確定牠接下來會做甚麼。」只看首尾句，可以知道 Paragraph H 會從 Alex 的能力展示轉到牠和其他鳥互動時的行為。題目問 young parrots，因此要看段中其他鳥出現的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“younger birds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wrong pronunciation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Talk clearly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Talk clearly!’ he commanded, when one of the younger birds Pepperberg was also teaching talked with wrong pronunciation.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Talk clearly!’ he commanded, when one of the younger birds Pepperberg was also teaching talked with wrong pronunciation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Pepperberg 也在教的一隻較年輕的鳥發音錯誤時，Alex 命令道：「說清楚！」這句的主語是 one of the younger birds。牠的問題是 talked with wrong pronunciation。題目問"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“What is the problem”，答案應取出問題本身： wrong pronunciation答案形式檢查wrong pronunciation = two words，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“problem of the young parrots”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“talked with wrong pronunciation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷答案是 wrong pronunciation。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Talk clearly!” 是 Alex 說出的命令，不是 younger bird 的問題本身。題目問 problem，應填 wrong pronunciation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "a teenager",
+      "answerKey": "a teenager",
+      "type": "Short-answer Questions",
+      "prompt": "“To some extent, through the way he behaved what we can call him”",
+      "translation": "從 Alex 的行為看，某程度上我們可以把牠稱作甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer。題目問 “what we can call him”，要找原文對 Alex 的比喻或描述。定位詞是behaved / call him，可能對應 “like a teenager”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the next 20 minutes, Alex ran through his tests, distinguishing colors, shapes, sizes, and materials (wool versus wood versus metal).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接下來二十分鐘，Alex 完成一連串測試，分辨顏色、形狀、大小和材料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘At this stage, he’s like a teenager; he’s moody, and I’m never sure what he’ll do.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「到這個階段，牠像 teenager；牠情緒多變，我永遠不確定牠接下來會做甚麼。」只看最後一句，已經看到題目要找的比喻。這段後半形容 Alex 打斷別人、故意答錯和情緒化，因此把牠比作 teenager。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“behaved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“call him”"
+            },
+            {
+              "kind": "quote",
+              "text": "“like”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“he’s like a teenager”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At this stage, he’s like a teenager; he’s moody, and I’m never sure what he’ll do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到這個階段，牠像一個青少年；牠情緒多變，我永遠不確定牠會做甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “like a teenager” 是比喻。Pepperberg 用 teenage behaviour 形容 Alex：牠知道答案，會無聊，會打斷其他鳥，甚至故意答錯。這些行為令牠看起來像一個情緒多變、帶點反叛的青少年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查a teenager = two words，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若答案格只容許名詞，teenager 也可接受；保留原文片語 a teenager 最自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“through the way he behaved what we can call him”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“he’s like a teenager”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷答案是 a teenager。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “what we can call him”，容易令人找 Alex 的身份，例如 parrot 或 African gray parrot。真正答案在行為比喻，不在物種身份。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Animal Minds_ Parrot Alex.pdf",
+    "sha256": "8cc07434885f30091766b994cd4aca374528ae8fdc246be570a5c1b748fbda85",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句說 Irene Pepperberg 在 1977 年做了一件十分大膽的事，當時很多人仍把動物視為automatons。最後一句說她希望 Alex 學會溝通後，能回答關於牠如何看世界的問題。只看首尾句，可以估計這段是研究開場：Pepperberg 想透過教 African gray parrot Alex 發出英語聲音，測試動物心智和溝通能力。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說 Pepperberg 開始和 Alex 對話時，許多科學家相信動物沒有任何 thought。最後一句說因為她和 Alex 的工作，animals can think 這個想法已不再那麼空想。只看首尾句，可以看到這段主要交代研究背景和科學界態度轉變：由懷疑動物有思考能力，到 Alex 研究令這個想法變得較有可信度。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句列出 higher mental abilities 的重要標誌，例如 memory、grammar、symbols、self-awareness、imitation 和 creativity。最後一句說 Alex 這隻 parrot 結果成為 surprisingly good talker。只看首尾句，可以估計這段會把 Alex 放入更大的 animal cognition 研究背景之中，列出不同物種已被證明具備某些高階心智能力。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說 Alex 研究開始三十年後，Pepperberg 和不同 assistants 仍在給牠 English lessons。最後一句說多數研究者覺得 Pepperberg 的跨物種溝通研究會是 futile，因為 Alex 的腦只有 shelled walnut 大小。只看首尾句，可以看到這段描寫 Alex 的訓練環境、社交群體，以及當時外界對研究成效的低期待。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句引用 Pepperberg，說有些人甚至稱她 crazy，因為她嘗試用這種方式研究 Alex。最後一句說 Alex 自創 “beanery” 來稱呼 apple，因為蘋果對牠來說像 banana 和 cherry 的混合。只看首尾句，可以估計這段比較 parrot 和 chimpanzees 等研究對象，重點在 Alex 能用 vocal tract 模仿接近一百個英語詞。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說一隻鳥上課練習且願意做，聽起來有點瘋狂。最後一句說 Pepperberg 的目標一直是用Alex 的 imitation skills 了解 avian cognition。只看首尾句，可以看到這段在澄清研究目的：她不只是想教鳥說人話，更想利用 Alex 模仿聲音的能力，進一步研究鳥類認知。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說因為 Alex 能發出一些英語詞的近似聲音，Pepperberg 可以問牠關於鳥類基本世界理解的問題。最後一句說這些 words 和可稱為 thoughts 的東西完全屬於 Alex。只看首尾句，可以估計這段會展示 Alex 如何回答 same / different、color / shape 等問題，證明牠並非只機械重複聲音。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說接下來二十分鐘，Alex 完成測試，分辨 colors、shapes、sizes 和 materials。最後一句說Pepperberg 把 Alex 形容得像 teenager：moody，而且行為難以預測。只看首尾句，可以看到這段是能力展示與性格描寫：Alex 不只會答題，也會糾正其他鳥、打斷訓練，甚至故意答錯。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "小提示：Question 7 的題面有一點不嚴謹。原文是 “almost one hundred English words”，但空格前寫了 “more than”。按題目三字限制，最可用的考試式答案是 “100 English words”；嚴格按原文意思，應理解為「接近一百個英文詞」。"
+  ]
+}

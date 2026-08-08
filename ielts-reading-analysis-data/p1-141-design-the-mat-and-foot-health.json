@@ -1,0 +1,2287 @@
+{
+  "id": "p1-141-design-the-mat-and-foot-health",
+  "catalogueId": "p1-141",
+  "catalogueIds": [
+    "p1-141"
+  ],
+  "passage": 1,
+  "title": "Design the mat and Foot health",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "C",
+    "B",
+    "A",
+    "parallels",
+    "stress",
+    "reduction",
+    "soles",
+    "pathway"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Charles Brantingham and Bruce Beekman pioneered research into the connection between hypertension and walking-surface conditions.”",
+      "translation": "Charles Brantingham 和 Bruce Beekman 開創了關於高血壓與行走表面條件之間關係的研究。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查三個元素：人物是否正確、研究是否屬於 pioneered、研究內容是否涉及 hypertension和 walking-surface conditions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The technology may be cutting edge, but its origins are deep and exotic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項技術可能很先進，但它的源頭很深，也帶有異國色彩。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They reckoned that the growing epidemic of high blood pressure, varicose veins and deep-vein thromboses might be linked to the uniformity of the surfaces that we tend to stand and walk on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們認為，高血壓、靜脈曲張和深層靜脈血栓愈來愈普遍，可能和我們平常站立及行走表面的均一性有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 會講這種健康設計的早期研究來源。最後一句已經出現 high blood pressure 和 surfaces，所以這段很可能回答 Question 1。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Charles Brantingham”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Bruce Beekman”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hypertension”"
+            },
+            {
+              "kind": "quote",
+              "text": "“walking-surface conditions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有使用 hypertension，但有 “high blood pressure”。這是常見同義改寫： hypertension = high blood pressure walking-surface conditions = surfaces that we tend to stand and walk on"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research into the idea that flat floors could be detrimental to our health was pioneered back in the late 1960s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於平坦地板可能有害健康這個想法的研究，早在 1960 年代末已被開創。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“...podiatrist Charles Brantingham and physiologist Bruce Beekman were concerned with more pedestrian matters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "足病醫生 Charles Brantingham 和生理學家 Bruce Beekman 關注的是更與行走有關的事情。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“They reckoned that the growing epidemic of high blood pressure... might be linked to the uniformity of the surfaces that we tend to stand and walk on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們認為高血壓等問題可能和人們站立及行走表面的均一性有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句合起來證明題目成立。第一句提供 pioneered research；第二句提供人物；第三句提供 high blood pressure 與 uniform surfaces 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“hypertension”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“high blood pressure”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“walking-surface conditions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the uniformity of the surfaces that we tend to stand and walk on”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“pioneered research”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research ... was pioneered back in the late 1960s”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目說他們開創了高血壓與行走表面條件關係的研究。原文說研究在 1960 年代末被開創，並把Charles Brantingham 和 Bruce Beekman 放在這個研究背景內，再說他們認為高血壓可能和站走表面均一性有關。方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“hypertension” 沒有原字重現，但 “high blood pressure” 就是高血壓。這題不能只找原字，要找醫學概念的同義詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People who walked on cobblestones experienced a deterioration in their physical condition.”",
+      "translation": "在鵝卵石上行走的人，身體狀況變差了。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較「身體狀況變差」和原文結果。deterioration 是負面變化；若原文說改善，就是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earlier this year, however, the idea was given a new lease of life when researchers in Oregon announced findings from a similar experiment with people over 60.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，今年較早時，Oregon 的研究人員公布了一個針對 60 歲以上人士的類似實驗結果，令這個想法重新受到重視。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People in a control group who walked on ordinary floors also improved but not as dramatically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在普通地板上行走的控制組也有改善，但改善程度沒有那麼明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯講一個實驗，以及實驗後的改善。題目說 deterioration，已經和段落最後一句的 improved 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“walked on cobblestones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“deterioration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“physical condition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“designed a mat intended to replicate the effect of walking on cobblestones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“showed marked improvements in balance and mobility”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a significant reduction in blood pressure”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After 16 weeks, these people showed marked improvements in balance and mobility, and even a significant reduction in blood pressure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "16 星期後，這些人在平衡力和活動能力方面有明顯改善，甚至血壓也有顯著下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供三個正面結果： balance improved mobility improved blood pressure reduced題目中的 “deterioration” 表示惡化、變差。原文的 “marked improvements” 和 “significant reduction in blood pressure” 都是正面健康結果，和 deterioration 直接相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與相反關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“experienced a deterioration in their physical condition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“showed marked improvements in balance and mobility”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a significant reduction in blood pressure”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目說身體狀況變差；原文說平衡力、活動能力和血壓都有改善。原文提供明確相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “walked on cobblestones”，但實驗其實是讓人走在 “mats intended to replicate the effect of walking on cobblestones”。這個差別不影響答案判斷，因為題目真正錯在 deterioration。真正控制答案的是身體變化方向：原文是改善。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Production of Fisher’s cobblestone mats is booming because of strong demand for the product.”",
+      "translation": "由於產品需求強勁，Fisher 的鵝卵石墊產量正在快速增加。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查兩件事：第一，production 是否增加；第二，是否有 strong demand 的證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mats are now on sale at $35.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些墊現在以 35 美元出售。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘In the big cities, people take off their shoes and walk on these paths for 5 or 10 minutes, perhaps several times a day,’ Fisher says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fisher 說：「在大城市裡，人們會脫鞋在這些小路上走 5 或 10 分鐘，也許一天走幾次。」只看首尾句，Paragraph F 由產品銷售講到中國城市居民的健康步行習慣。這段前半很可能處理cobblestone mats 的市場反應，後半講文化來源和健康概念。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Production”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Fisher’s cobblestone mats”"
+            },
+            {
+              "kind": "quote",
+              "text": "“strong demand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our first 1,000 cobblestone mats sold in three weeks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Production is now being scaled up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“demand could exceed supply”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Our first 1,000 cobblestone mats sold in three weeks,’ Fisher says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fisher 說：「我們第一批 1,000 張鵝卵石墊在三星期內售出。」原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Production is now being scaled up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在產量正在擴大。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even so, demand could exceed supply...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，需求仍可能超過供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句形成完整證據鏈。第一批 1,000 張三星期售出，顯示需求很強。Production is now being scaled up，直接說產量增加。Demand could exceed supply 進一步說明需求可能高於供應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Production ... is booming”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Production is now being scaled up.”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“strong demand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“1,000 ... sold in three weeks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“demand could exceed supply”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目說產量因需求強勁而增加。原文說第一批產品很快售出，產量正在擴大，需求甚至可能超過供應。意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“booming” 並沒有原字出現。IELTS 不一定逐字重複；這裡用 “being scaled up” 表示生產規模增加，用快速售罄和需求可能超供應支援 strong demand。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The customised pathway proposed by Barbara and Kevin Kunz was inspired by an overseas trip.”",
+      "translation": "Barbara 和 Kevin Kunz 建議的自製小路，是受到一次海外旅行啟發。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 inspiration 的主體。文章確實提到 overseas visits，但要確認那是否屬於 Barbara 和Kevin Kunz。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G，並需要對照 Paragraph F Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is now taking off in Europe too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個想法現在也在歐洲流行起來。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“American reflexologists Barbara and Kevin Kunz, based in Albuquerque, New Mexico, advise that you cobble together a walkway using broom handles, bamboo poles, hosepipes, gravel, pebbles, dried peas, driftwood, fallen logs, sand, doormats and strips of turf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "住在新墨西哥州 Albuquerque 的美國反射療法師 Barbara 和 Kevin Kunz 建議，人們可以用掃帚柄、竹竿、水管、碎石、鵝卵石、乾豌豆、漂流木、倒下的木頭、沙、門墊和草皮條拼出一條小路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 重點是歐洲的 barefoot parks 和 DIY health pathway。最後一句只說Kunz 建議人們如何自製 walkway，沒有交代靈感來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Barbara and Kevin Kunz”"
+            },
+            {
+              "kind": "quote",
+              "text": "“customised pathway”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inspired by an overseas trip”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描後會找到兩處相關資訊： Paragraph G：Kunz 建議 DIY walkway。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F：Fisher 說自己從定期到中國得到想法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“American reflexologists Barbara and Kevin Kunz... advise that you cobble together a walkway...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國反射療法師 Barbara 和 Kevin Kunz 建議人們自行拼出一條小路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只提供建議內容，沒有說他們因海外旅行受到啟發。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fisher admits he got the idea from regular visits to the country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fisher 承認，他是從經常到中國的經歷中得到這個想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Fisher，不是 Barbara 和 Kevin Kunz。題目把 inspiration 放到 Kunz 身上，但原文沒有支援這個轉移。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： Barbara and Kevin Kunz + inspired by overseas trip原文有： Kunz + advise DIY walkway Fisher + got the idea from regular visits to China缺少： Kunz 的靈感來源Kunz 的海外旅行Kunz 是否到中國或其他國家判斷原文沒有說 Kunz 的 walkway 靈感來自海外旅行，也沒有說不是。文章只把海外經驗連到 Fisher。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是人物錯配。文章確實有 “got the idea from regular visits to the country”，但那是Fisher 的經歷。題目問 Barbara and Kevin Kunz，不能把 Fisher 的資料轉給另一組人物。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Benno Nigg suggests that Masai Barefoot Technology shoes have a specific age restriction.”",
+      "translation": "Benno Nigg 表示，Masai Barefoot Technology 鞋有特定年齡限制。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Benno Nigg 對 MBT shoes 的說法，並檢查是否有 age restriction，例如只限某年齡、某年齡以下不可使用、只適合長者等。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If your enthusiasm for DIY doesn’t stretch to this, and Fisher’s cobblestone mats are all sold out, there is another option.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你對 DIY 沒有那麼大熱情，而且 Fisher 的鵝卵石墊也已經售罄，還有另一個選擇。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Forces in the joint are reduced, putting less strain on the system, Nigg claims.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nigg 聲稱，關節所受的力量會減少，整個系統承受的壓力也較小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 是介紹另一種產品：MBT shoes。段落重點是鞋的設計、如何使人搖動、如何訓練肌肉，以及如何減少 strain。首尾句沒有任何年齡限制訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Benno Nigg”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Masai Barefoot Technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“age restriction”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可定位到："
+            },
+            {
+              "kind": "quote",
+              "text": "“says Benno Nigg...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Known as Masai Barefoot Technology, or MBTs...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但找不到 age、older、children、adults only、restriction、limit 這類資訊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘These shoes have an unbelievable effect,’ says Benno Nigg...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "Benno Nigg 說：「這些鞋有令人難以置信的效果。」原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are one of the best things to have happened to humankind for years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們是多年來發生在人類身上的最好事情之一。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Known as Masai Barefoot Technology, or MBTs, the shoes have rounded soles that cause you to rock slightly when you stand still...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種鞋稱為 Masai Barefoot Technology，簡稱 MBT；鞋底呈圓弧形，令你站立不動時也會輕微搖動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子評價 MBT 的效果和設計，但沒有提到年齡。雖然 Paragraph E 和 F 有 older adults，但那是 Fisher 的 cobblestone mats 和 hypertension 研究，不是 Benno Nigg 對 MBT shoes 的年齡限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： Benno Nigg + MBT shoes + specific age restriction原文有： Benno Nigg + positive evaluation MBT shoes + rounded soles MBT shoes + exercise ankle muscles MBT shoes + reduce joint forces缺少：任何年齡限制任何只適合某年齡層的說法任何禁止某年齡使用的說法判斷原文沒有足夠資料判斷 MBT shoes 是否有 specific age restriction，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“people over 60” 出現在 Paragraph E，但那是 Oregon cobblestone mat experiment 的受試者，不是 MBT shoes。題目指名 Benno Nigg 和 MBT shoes，定位不能跳錯產品。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C — More than half of the participants reported a positive response.",
+      "answerKey": "C — More than half of the participants reported a positive response.",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following is true of Brantingham and Beekman’s variable-terrain experiment in paragraph D?”",
+      "translation": "以下哪一項正確描述 Paragraph D 中 Brantingham 和 Beekman 的 variable-terrain experiment？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To test their ideas, they got 65 clerks and factory workers to try standing on a variable terrain floor—spongy mats with varying amounts of give across the surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了測試他們的想法，他們找來 65 名文員和工廠工人，嘗試站在一種 variable terrain floor 上，也就是表面不同位置有不同彈性的海綿墊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet decades later, the flooring of the world’s workplaces remains relentlessly smooth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是幾十年後，世界各地工作場所的地板仍然非常平滑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 是早期實驗段：研究者測試不平整地面對工人的影響。段落中間會交代實驗結果，所以 Question 6 必定在這段細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“variable-terrain experiment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“paragraph D”"
+            },
+            {
+              "kind": "quote",
+              "text": "“participants / volunteers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“65 clerks and factory workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“volunteers’ feet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“two-thirds of the volunteers”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And two-thirds of the volunteers reported feeling much less tired.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且三分之二的志願者表示自己疲勞感大大減少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "two-thirds = 三分之二，明顯多於一半。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "feeling much less tired = positive response，正面反應。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Spongy mats made the volunteers feel unbalanced.”原文說墊的表面有不同 give，讓腳底 slightly deviate from the horizontal，也說 slight wobble activated muscles。但原文沒有說志願者主觀上 “felt unbalanced”。A 把機械上的輕微搖晃改成主觀感受，證據不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “A feature of Chinese culture makes the experiment applicable only in certain areas.” Paragraph D 完全沒有中國文化。中國 cobblestone paths 在 Paragraph F 才出現，而且沒有說實驗只適用於某些地區。B 錯在段落和內容都不配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “More than half of the participants reported a positive response.”正確。原文的 “two-thirds of the volunteers reported feeling much less tired” 直接支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "two-thirds 多於 half；much less tired 是正面反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “The method unexpectedly cured cardiovascular disease.”原文說 “As the researchers hoped”，代表結果符合研究者期待，不是 unexpectedly。原文也只說減少 cardiovascular system 的 stress，沒有說 cured cardiovascular disease。D 同時誇大效果和改變實驗態度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than half”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“two-thirds”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“reported a positive response”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“reported feeling much less tired”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷C 是唯一同時符合數量和結果的選項，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — the control group’s blood pressure improved, but not as much as that of the other",
+      "answerKey": "B — the control group’s blood pressure improved, but not as much as that of the other",
+      "type": "Multiple Choice",
+      "prompt": "“John Fisher and colleagues at the Oregon Research Institute found that...”",
+      "translation": "John Fisher 和 Oregon Research Institute 的同事發現……",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "group."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earlier this year, however, the idea was given a new lease of life when researchers in Oregon announced findings from a similar experiment with people over 60.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，今年較早時，Oregon 的研究人員公布了一個針對 60 歲以上人士的類似實驗結果，令這個想法重新受到重視。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People in a control group who walked on ordinary floors also improved but not as dramatically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在普通地板上行走的控制組也有改善，但改善程度沒有那麼明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示這段在講 Oregon 實驗和 control group 的比較。Question 7 指名 John Fisher 和Oregon Research Institute，所以定位很穩定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Fisher”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Oregon Research Institute”"
+            },
+            {
+              "kind": "quote",
+              "text": "“control group”"
+            },
+            {
+              "kind": "quote",
+              "text": "“blood pressure”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Fisher and colleagues at the Oregon Research Institute...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a significant reduction in blood pressure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“People in a control group... also improved but not as dramatically”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“After 16 weeks, these people showed marked improvements in balance and mobility, and even a significant reduction in blood pressure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "16 星期後，這些人在平衡力和活動能力方面有明顯改善，甚至血壓也有顯著下降。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“People in a control group who walked on ordinary floors also improved but not as dramatically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在普通地板上行走的控制組也有改善，但改善程度沒有那麼明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二句中的 “also improved” 承接前一句的實驗結果。控制組也有改善，但幅度小於走cobblestone mats 的組別。因此 B 是最貼近原文的答案。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “people who walked on specially designed mats improved only in blood pressure.”錯在 only。原文說他們在 balance、mobility 和 blood pressure 都改善，不只血壓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “the control group’s blood pressure improved, but not as much as that of the other group.”正確。原文先說實驗組有 significant reduction in blood pressure，再說 control group also improved but not as dramatically。B 抓住了比較方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “older people improved more dramatically than younger people.”原文只測試 people over 60，沒有 younger people 比較。C 加入文章沒有的年齡比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the 16-week testing period was the significant factor in the experiment.”原文提到 after 16 weeks，但沒有說 16-week period 本身是 significant factor。D 把時間背景改成因果重點，缺乏支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“control group’s blood pressure improved”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“People in a control group... also improved”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“not as much as that of the other group”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“not as dramatically”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷B 是最佳答案。它保留了 control group、improved 和 not as dramatically 這三個核心元素。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 的 “blood pressure” 原字很吸引，但 only 是陷阱。原文還有 balance and mobility，所以 A 的範圍過窄。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "A — Specially designed soles make the feet more stable.",
+      "answerKey": "A — Specially designed soles make the feet more stable.",
+      "type": "Multiple Choice",
+      "prompt": "“Why are MBT shoes beneficial to health?”",
+      "translation": "為甚麼 MBT 鞋對健康有益？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If your enthusiasm for DIY doesn’t stretch to this, and Fisher’s cobblestone mats are all sold out, there is another option.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你對 DIY 沒有那麼大熱情，而且 Fisher 的鵝卵石墊也賣光了，還有另一個選擇。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Forces in the joint are reduced, putting less strain on the system, Nigg claims.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nigg 聲稱，關節所受的力量會減少，整個系統承受的壓力也較小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示這段介紹一種替代產品，並解釋它如何減少 strain。Question 8 問 MBT shoes 的健康益處，目標就是 Paragraph H 中後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“MBT shoes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“beneficial to health”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stable / stability”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Known as Masai Barefoot Technology, or MBTs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rounded soles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exercising the small muscles around the ankle”"
+            },
+            {
+              "kind": "quote",
+              "text": "“responsible for fore-aft stability”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Forces in the joint are reduced”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Known as Masai Barefoot Technology, or MBTs, the shoes have rounded soles that cause you to rock slightly when you stand still, exercising the small muscles around the ankle that are responsible for fore-aft stability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種鞋稱為 Masai Barefoot Technology，簡稱 MBT；它們有圓弧形鞋底，令你站立不動時也會輕微搖動，從而鍛鍊腳踝周圍負責前後穩定的小肌肉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句指出 MBT 的益處來自鞋底設計。rounded soles 讓人輕微搖動，這會訓練腳踝附近負責fore-aft stability 的小肌肉。fore-aft stability 是前後方向的穩定性。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Specially designed soles make the feet more stable.”正確。Specially designed soles 對應 rounded soles；make the feet more stable 對應 exercise small muscles around the ankle responsible for fore-aft stability。雖然原文更精確地說是腳踝周圍肌肉和前後方向穩定，A 是最貼近的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “The researcher has previous experience in this field.”原文說 Calgary laboratory 做過 manufacturers 的 contract research，但這不是 MBT 健康益處的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “African-style shoes were very successful in shops.” Masai 這個名稱可能令學生聯想到 African-style，但原文沒有說商店成功，也沒有用銷售成績解釋健康益處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “They protect the ankles and muscles around the feet.”原文說 exercising the small muscles around the ankle，不是 protecting muscles。原文也說forces in the joint are reduced，但沒有說直接保護 ankles and muscles around the feet。D 的用詞和動作不準。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Specially designed soles”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“rounded soles”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“make the feet more stable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“exercising the small muscles around the ankle that are responsible for fore-aft stability”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷A 最能概括 MBT shoes 的健康益處，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "parallels",
+      "answerKey": "parallels",
+      "type": "Summary Completion",
+      "prompt": "“The anatomy of the human foot is complex and 9 ______ that of the human hand.”",
+      "translation": "人類足部的解剖結構很複雜，並且與人手的解剖結構 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trouble, as they saw it, was that walking continuously on flat floors, sidewalks and streets concentrates forces on just a few areas of the foot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他們看來，問題在於長期在平坦地板、人行道和街道上行走，會把力量集中在腳的少數位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brantingham and Beekman became convinced that damage was being done simply by people standing on even surfaces and that this could be rectified by introducing a wobble.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brantingham 和 Beekman 開始相信，人們只要站在平整表面上就會造成損害，而加入搖晃感可以修正這個問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“anatomy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“human foot”"
+            },
+            {
+              "kind": "quote",
+              "text": "“human hand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The anatomy of the foot parallels that of the human hand...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The anatomy of the foot parallels that of the human hand—each having 26 bones, 33 joints and more than 100 muscles, tendons and ligaments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "足部的解剖結構與人手的解剖結構相似；兩者各有 26 塊骨頭、33 個關節，以及超過 100 條肌肉、肌腱和韌帶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “is complex and”，後面接 “that of the human hand”。這裡需要一個動詞，原文正是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“parallels”。答案檢查parallels = 與……相似／相對應字數：1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "stress",
+      "answerKey": "stress",
+      "type": "Summary Completion",
+      "prompt": "“An experiment conducted on employees showed that body movement on surfaces with different conditions can lower the 10 ______ on the heart.”",
+      "translation": "一項在員工身上進行的實驗顯示，在不同表面條件上產生的身體活動可以降低心臟所承受的______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To test their ideas, they got 65 clerks and factory workers to try standing on a variable terrain floor—spongy mats with varying amounts of give across the surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了測試想法，他們找來 65 名文員和工廠工人，嘗試站在 variable terrain floor 上，也就是表面不同位置彈性不一的海綿墊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet decades later, the flooring of the world’s workplaces remains relentlessly smooth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是幾十年後，世界各地工作場所的地板仍然非常平滑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“employees” = clerks and factory workers“surfaces with different conditions” = variable terrain floor / spongy mats with varying amounts of give“heart” = hearts / cardiovascular system“lower” = reducing"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The muscle action prevented the pooling of blood in their feet and legs, reducing the stress on the entire cardiovascular system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肌肉活動防止血液聚積在腳部和腿部，降低整個心血管系統所承受的壓力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “entire cardiovascular system” 簡化成 “the heart”。空格前是 “lower the”，後面是 “on the heart”，所以需要名詞。原文中的名詞是 “stress”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案檢查stress = 壓力、負擔字數：1 word，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "reduction",
+      "answerKey": "reduction",
+      "type": "Summary Completion",
+      "prompt": "“The test also showed a substantial 11 ______ in blood pressure.”",
+      "translation": "這項測試也顯示血壓有大幅 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earlier this year, however, the idea was given a new lease of life when researchers in Oregon announced findings from a similar experiment with people over 60.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，今年較早時，Oregon 的研究人員公布了一個針對 60 歲以上人士的類似實驗結果，令這個想法重新受到重視。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People in a control group who walked on ordinary floors also improved but not as dramatically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在普通地板上行走的控制組也有改善，但改善程度沒有那麼明顯。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Oregon Research Institute”"
+            },
+            {
+              "kind": "quote",
+              "text": "“blood pressure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“substantial”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a significant reduction in blood pressure”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After 16 weeks, these people showed marked improvements in balance and mobility, and even a significant reduction in blood pressure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "16 星期後，這些人在平衡力和活動能力方面有明顯改善，甚至血壓也有顯著下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “substantial” 對應原文 “significant”。空格需要一個名詞，放在 “a substantial ___ in blood pressure” 之中。原文答案就是 “reduction”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案檢查reduction = 下降、減少字數：1 word，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "soles",
+      "answerKey": "soles",
+      "type": "Summary Completion",
+      "prompt": "“Reflexologists advise people to walk on textured surfaces to stimulate certain points in the body through the 12 ______ of the feet.”",
+      "translation": "反射療法師建議人們在有紋理的表面上行走，透過腳的 ______ 刺激身體某些點。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mats are now on sale at $35.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些墊現在以 35 美元出售。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘In the big cities, people take off their shoes and walk on these paths for 5 or 10 minutes, perhaps several times a day,’ Fisher says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fisher 說：「在大城市裡，人們會脫鞋在這些小路上走 5 或 10 分鐘，也許一天走幾次。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reflexologists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“textured surfaces”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stimulate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“points”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feet”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reflexologists have long advocated walking on textured surfaces”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stimulate so-called ‘acupoints’ on the soles of the feet”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reflexologists have long advocated walking on textured surfaces to stimulate so-called‘acupoints’ on the soles of the feet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反射療法師長期提倡在有紋理的表面上行走，以刺激腳底所謂的「穴位」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “acupoints” 改成 “certain points in the body”，並把 “on the soles of the feet” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“through the ___ of the feet”。空格需要填 “soles”。答案檢查soles = 腳底字數：1 word，符合限制。單複數也正確，因為題目是 “of the feet”，所以用 plural “soles”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "pathway",
+      "answerKey": "pathway",
+      "type": "Summary Completion",
+      "prompt": "“Finally, the writer suggests that people can build their own health 13 ______ instead of buying special mats and shoes.”",
+      "translation": "最後，作者建議人們可以自建自己的健康 ______，不用購買特別的墊或鞋。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is now taking off in Europe too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個想法現在也在歐洲流行起來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“American reflexologists Barbara and Kevin Kunz, based in Albuquerque, New Mexico, advise that you cobble together a walkway using broom handles, bamboo poles, hosepipes, gravel, pebbles, dried peas, driftwood, fallen logs, sand, doormats and strips of turf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "住在新墨西哥州 Albuquerque 的美國反射療法師 Barbara 和 Kevin Kunz 建議，人們可用掃帚柄、竹竿、水管、碎石、鵝卵石、乾豌豆、漂流木、倒下的木頭、沙、門墊和草皮條拼出一條小路。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“build their own”"
+            },
+            {
+              "kind": "quote",
+              "text": "“health”"
+            },
+            {
+              "kind": "quote",
+              "text": "“instead of buying special mats and shoes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is not difficult to construct your own ‘health pathway’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“advise that you cobble together a walkway...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And it is not difficult to construct your own ‘health pathway’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且，要建造你自己的「健康小路」並不困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “build their own” 對應 “construct your own”。“health ___” 直接對應原文 “health pathway”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案檢查pathway = 小路、路徑字數：1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Design the mat and Foot health.pdf",
+    "sha256": "72c575eb96e98d9fce48f8632fe4fc540a6c28905f7d3895bc3cb5fc21338576",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看第一句，讀者會先看到一種給室內人士使用的 cobblestone walkway：它其實是一張表面凸凹的塑膠墊，讓人在家中也能搖晃地走路。最後一句提到，較愛冒險的人還可以選擇會令人失去平衡的鞋。首尾句合起來看，這段主要用兩個產品作開場：一個是墊，一個是鞋。作者暫時未解釋科學原理，只先指出「不平穩」似乎成為一種健康設計。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說這種技術看似很新，但源頭很深，也帶有異國背景。最後一句說 Brantingham 和Beekman 認為，高血壓、靜脈曲張和深層靜脈血栓的增加，可能和人們長時間站在、走在太均一的表面上有關。只看首尾句，這段功能很明顯：文章從產品轉入研究歷史，並交代一個核心假設——平坦地面可能對人體循環和足部健康有害。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說，根據兩位研究者的看法，長期在平坦地板、人行道和街道上走路，會把力量集中在腳的少數位置。最後一句說，他們相信站在平面上會造成損害，這可以透過加入 wobble 來修正。首尾句顯示這段解釋理論機制：天然地面會令足部以不同角度接觸地面，現代平面卻限制腳的彈性。這段會支援足部解剖、stress 和 wobble 原理。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說，為了測試想法，他們找來 65 名文員和工廠工人，讓他們嘗試站在 variable terrain floor 上。最後一句說，幾十年後，世界各地工作場所的地板仍然非常平滑。首尾句形成一個「實驗成功但現實未改」的結構。中間細節會講 spongy mats、肌肉活動、血液回流、心血管壓力下降，以及志願者疲勞感減少。這段是 Question 6 和 summary 的重要來源。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說，今年較早時，這個想法因 Oregon 的研究再次獲得新生命，實驗對象是 60 歲以上人士。最後一句說，在普通地板上行走的 control group 也有進步，但程度沒有那麼明顯。首尾句顯示這段是 Brantingham 和 Beekman 早期研究的現代版本：John Fisher 團隊設計類似鵝卵石效果的墊，測試長者步行後在平衡、活動能力和血壓方面的變化。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說，這些墊現在以 35 美元出售。最後一句引用 Fisher 的說法，指北京和上海居民每天會脫鞋在 cobbled paths 上行走數分鐘，甚至一天多次。首尾句顯示這段有兩條線：第一是cobblestone mats 的商品化、銷量和需求；第二是這種足底刺激活動與中國健康文化、反射療法和城市習慣的連接。Question 3 和 Question 4 的中伏位都在這裡。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說，這個想法現在也在歐洲流行起來。最後一句說，Barbara 和 Kevin Kunz 建議人們可用broom handles、bamboo poles、gravel、pebbles、sand、doormats 和 turf 等材料自行拼出walkway。首尾句顯示這段焦點是 DIY 和歐洲版本：從 barefoot parks、paths of the senses，到自家 health pathway。這段特別支援 Question 4 和 Question 13。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說，如果你不想 DIY，而 Fisher 的墊也賣光了，還有另一個選擇。最後一句說，這種鞋可減少關節受力，令系統承受較少 strain。首尾句顯示最後一段介紹 MBT shoes 作為替代產品。中間解釋鞋底是圓弧形，站立時會令人輕微搖動，從而訓練腳踝周邊的小肌肉，改善前後方向穩定性。這段是 Question 5 和 Question 8 的主要定位段。 Answer Key 1. TRUE 2. FALSE 3. TRUE 4. NOT GIVEN 5. NOT GIVEN 6. C 7. B 8. A 9. parallels 10. stress 11. reduction 12. soles 13. pathway"
+      }
+    ]
+  }
+}

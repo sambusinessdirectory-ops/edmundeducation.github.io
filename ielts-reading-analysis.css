@@ -342,6 +342,7 @@ body.has-analysis .reading-shell {
 }
 
 .view-catalogue,
+.view-article-status,
 .view-analysis {
   border: 1px solid rgba(16, 42, 76, 0.11);
   border-radius: 30px;
@@ -350,6 +351,91 @@ body.has-analysis .reading-shell {
 }
 
 .view-catalogue { padding: clamp(24px, 4vw, 54px); }
+
+.view-article-status {
+  min-height: min(620px, calc(100vh - 170px));
+  padding: clamp(30px, 7vw, 88px);
+  display: grid;
+  place-items: center;
+}
+
+.article-status-card {
+  width: min(680px, 100%);
+  padding: clamp(30px, 6vw, 64px);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  text-align: center;
+  background: var(--paper);
+  box-shadow: 0 20px 50px rgba(16, 42, 76, 0.1);
+}
+
+.article-status-icon {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 24px;
+  border: 5px solid #dbe7f0;
+  border-top-color: var(--navy-700);
+  border-radius: 50%;
+  display: block;
+  animation: article-status-spin 850ms linear infinite;
+}
+
+.article-status-card.is-error .article-status-icon {
+  border: 0;
+  display: grid;
+  place-items: center;
+  color: #9a4a18;
+  background: var(--amber-soft);
+  animation: none;
+}
+
+.article-status-card.is-error .article-status-icon::before {
+  content: "!";
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.article-status-card h1 {
+  margin: 0;
+  color: var(--navy-900);
+  font-size: clamp(30px, 5vw, 50px);
+  line-height: 1.15;
+}
+
+.article-status-card > p:not(.section-eyebrow) {
+  max-width: 520px;
+  margin: 18px auto 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.article-status-actions {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.article-status-actions button {
+  min-height: 46px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 20px;
+  color: var(--navy-800);
+  background: #fff;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.article-status-actions [data-action="retry-article"] {
+  border-color: var(--navy-800);
+  color: #fff;
+  background: var(--navy-800);
+}
+
+@keyframes article-status-spin { to { transform: rotate(360deg); } }
 
 .catalogue-heading,
 .panel-heading {
@@ -549,13 +635,16 @@ button.title-card {
   gap: 28px;
 }
 
+.analysis-hero > div:first-child { min-width: 0; }
+
 .analysis-hero h1 {
   margin: 0;
   font-size: clamp(52px, 9vw, 104px);
   line-height: 0.94;
+  overflow-wrap: anywhere;
 }
 
-.analysis-hero > div > p:last-child {
+.analysis-hero [data-analysis-description] {
   max-width: 700px;
   margin: 22px 0 0;
   color: #dce8f2;
@@ -633,6 +722,35 @@ button.title-card {
 
 .answer-cell-empty { background: #fbfaf7; }
 
+.source-notes {
+  margin-top: 18px;
+  border: 1px solid #e7c584;
+  border-left: 5px solid var(--amber);
+  border-radius: 14px;
+  padding: 15px 17px;
+  color: var(--navy-800);
+  background: rgba(255, 247, 224, 0.92);
+  overflow-wrap: anywhere;
+}
+
+.source-notes strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #81520b;
+  font-size: 15px;
+}
+
+.source-notes ul {
+  margin: 0;
+  padding-left: 1.2em;
+  display: grid;
+  gap: 6px;
+}
+
+.source-notes li {
+  line-height: 1.65;
+}
+
 .article-overview {
   scroll-margin-top: calc(var(--toolbar-offset) + env(safe-area-inset-top, 0px));
   border-bottom: 1px solid var(--line);
@@ -689,15 +807,18 @@ button.title-card {
 
 .overview-number {
   min-width: 45px;
-  height: 45px;
+  min-height: 45px;
+  padding: 7px 10px;
   border-radius: 14px;
   display: grid;
   place-items: center;
+  text-align: center;
   color: #fff;
   background: var(--navy-800);
   font-family: ui-sans-serif, system-ui, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 900;
+  line-height: 1.15;
 }
 
 .overview-copy h3 {
@@ -1021,9 +1142,12 @@ button.title-card {
   .passage-card { min-height: 168px; }
 
   .view-catalogue,
+  .view-article-status,
   .view-analysis { border-radius: 23px; }
 
   .view-catalogue { padding: 24px 16px; }
+
+  .view-article-status { padding: 24px 16px; }
 
   .passage-tabs { width: 100%; }
 
@@ -1041,6 +1165,11 @@ button.title-card {
   .title-card { padding: 16px; }
 
   .analysis-hero { padding: 34px 24px; }
+
+  .analysis-hero h1 {
+    font-size: clamp(38px, 13vw, 58px);
+    line-height: 1;
+  }
 
   .analysis-summary {
     width: 100%;

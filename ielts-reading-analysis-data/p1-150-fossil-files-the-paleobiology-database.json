@@ -1,0 +1,1671 @@
+{
+  "id": "p1-150-fossil-files-the-paleobiology-database",
+  "catalogueId": "p1-150",
+  "catalogueIds": [
+    "p1-150"
+  ],
+  "passage": 1,
+  "title": "Fossil Files \"The Paleobiology Database\"",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "iii",
+    "vii",
+    "ii",
+    "vi",
+    "v",
+    "iv",
+    "B",
+    "D",
+    "C",
+    "B",
+    "D",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "iii — The purpose of the Paleobiology Database",
+      "answerKey": "iii — The purpose of the Paleobiology Database",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A題目要求我們為 Paragraph A 選一個能概括全段功能的 heading。這類題不能只看某一個細節，例如 “sixth extinction” 或 “Human Genome Project”；真正要找的是整段主要在做甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Are we now living through the sixth extinction as our own activities destroy ecosystems and wipe out diversity?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們是否正因自己的活動破壞生態系統、消滅多樣性，而經歷第六次大滅絕？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The database may even indicate whether life can rebound no matter what we throw at it, or whether a human-induced extinction could be without parallel, changing the rules that have applied throughout the rest of the planet’s history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個資料庫甚至可能顯示生命是否不論遭受甚麼衝擊都能反彈，或者人類造成的滅絕是否前所未有，足以改變地球歷史一直適用的規則。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph A 是引入段。它先提出現代滅絕危機，再引出一個能幫助人類理解過去和未來 biodiversity 變化的新項目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 heading iii 的定位詞是 “purpose” 和 “Paleobiology Database”。Paragraph A 中最直"
+            },
+            {
+              "kind": "label",
+              "text": "接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A new project aims to fill some of the gaps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個新項目旨在填補其中一些知識空白。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Paleobiology Database aspires to be an online repository of information about every fossil ever dug up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paleobiology Database 立志成為一個網上資料庫，收錄每一件曾被挖掘出來的化石資料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀後可見，Paragraph A 的中心不是單純說現在有生物危機。它用現代危機作引子，然後"
+            },
+            {
+              "kind": "paragraph",
+              "text": "說我們缺少對過去 extinction events 和 biodiversity changes 的清楚圖像，所以需要Paleobiology Database。它的目的包括：收集化石資料、記錄生物多樣性的歷史、理解環境變化如何塑造生命，並用過去經驗判斷未來風險。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading iii："
+            },
+            {
+              "kind": "quote",
+              "text": "“The purpose of the Paleobiology Database”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“aims to fill some of the gaps”"
+            },
+            {
+              "kind": "quote",
+              "text": "“aspires to be an online repository”"
+            },
+            {
+              "kind": "quote",
+              "text": "“organisers hope that by recording the history of biodiversity they will gain an insight…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子都在交代資料庫的目的、功能和研究意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 heading vi。Paragraph A 確實說這個項目很龐大，甚至被比作 Human Genome Project，但它未談 since launch 之後取得了甚麼成果。Achievements 要到 Paragraph D 才清楚出現。因此 Question 1 選 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "vii — Criticism of the project’s reliance on existing records",
+      "answerKey": "vii — Criticism of the project’s reliance on existing records",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B這題問 Paragraph B 的 heading。段落開頭已有明顯轉折詞 “But”，通常代表文章由介紹項目轉向反對意見或限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But already the project is attracting harsh criticism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這個項目已經招來尖銳批評。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others are more sceptical still, arguing that we can never get the full picture because the fossil record is riddled with holes and biases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些人甚至更加懷疑，認為我們永遠無法得到完整圖像，因為化石紀錄充滿漏洞和偏差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷這段功能非常明確：它列出對 Paleobiology Database 的批評。首句直接說 harsh criticism，末句進一步說 fossil record 本身有 holes and biases。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vii 的定位詞是 “Criticism” 和 “existing records”。Paragraph B 中最重要的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“They point out that a database is only as good as the data fed into it, and that even if all the current fossil finds were catalogued, they would provide an incomplete inventory of life because we are far from discovering every fossilised species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們指出，一個資料庫的質素取決於輸入的資料；即使所有目前的化石發現都被編入目錄，也只能提供不完整的生命清單，因為我們距離發現每一種化石物種仍很遙遠。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句說明批評者的核心問題。資料庫看似龐大，但如果它主要依靠現有化石資料，資料本"
+            },
+            {
+              "kind": "label",
+              "text": "身已經不完整，資料庫自然也不能完整反映生命歷史。後面一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“They say that researchers should step away from their computers and return to fieldwork to dig up new fossils.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們說研究者應該離開電腦，重新回到野外工作，挖掘新的化石。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句正好支援 heading vii 的 “reliance on existing records”。批評者覺得研究者太依靠已經收集、已經輸入、已經存在的資料，需要回到 fieldwork 補充新化石。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading i “Potential errors in the database” 是中伏位。Paragraph B 確實說資料庫有問題，但重點不是資料輸入時可能打錯字或內部運算錯誤。這段焦點放在「現有化石紀錄不足」和「依賴既有資料會令圖像不完整」。因此 vii 比 i 更貼合全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "ii — A supporter restates the database’s value",
+      "answerKey": "ii — A supporter restates the database’s value",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C這題要找 Paragraph C 的主旨。Paragraph B 剛剛集中批評，Paragraph C 開頭轉向 “Fans”，這已經提示本段會展示支持者如何回應。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fans of the Paleobiology Database acknowledge that the fossil record will always be incomplete.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paleobiology Database 的支持者承認，化石紀錄永遠都會不完整。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It allows us to say just how bad it is in relative terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它讓我們能用相對角度說明目前情況到底有多嚴重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段功能是「承認限制後重新說明價值」。支持者沒有否認化石紀錄不完整，但他們認為資料庫仍能提供有用比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading ii 的定位詞是 “supporter” 和 “value”。原文中 “Fans” 對應 supporter；“best tool” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“benchmark” 對應 value。關鍵句是：“The fossil record is the best tool we have for understanding how diversity and extinction work in normal times,” says John Alroy."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Alroy 說：「化石紀錄是我們理解正常時期多樣性和滅絕如何運作的最佳工具。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “best tool”。支持者承認 fossil record incomplete，但仍認為它是現有最好的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "工具。接著：“Having a background extinction estimate gives us a benchmark for understanding the mass extinction that’s currently under way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有了背景滅絕估算，就能提供一個基準，幫助我們理解目前正在發生的大滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就清楚表明資料庫的價值：它可以提供 benchmark，讓現代 extinction crisis 有歷史比較基準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii 中的 “restates the database’s value” 正好概括這段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 heading iii。Paragraph C 也談資料庫用途，但它不是第一次介紹目的；它是在批評之後由支持者重新解釋價值。因此 Question 3 選 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "vi — Achievements of the Paleobiology Database since its launch",
+      "answerKey": "vi — Achievements of the Paleobiology Database since its launch",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D Paragraph D 開頭有 “To this end”，承接上一段的價值說明，然後進入資料庫實際運作、已輸入資料和研究結果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this end, the Paleobiology Database aims to be the most thorough attempt yet to come up with good global diversity curves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了這個目的，Paleobiology Database 旨在成為至今最完整的一次嘗試，用來建立良好的全球多樣性曲線。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once it’s full, no more new species can squeeze in, until extinctions free up new spaces or something rare and catastrophic adds a new floor to the car park.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦車場滿了，新的物種便無法再擠進去，除非滅絕騰出新空間，或某種罕見而災難性的事件為車場增加新一層。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會由資料庫目標，走向它已經帶出的研究解釋。最後的車場比喻顯示這段會談一個重要發現：地球可容納的物種數量可能有限。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vi 的定位詞是 “Achievements” 和 “since its launch”。Paragraph D 中有很強的時"
+            },
+            {
+              "kind": "label",
+              "text": "間和成果訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since it got up and running in 1998, scientists have entered almost 340,000 specimens…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1998 年開始運作以來，科學家已輸入將近 340,000 件標本。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Already, the database has thrown up some surprising results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個資料庫已經產生了一些令人驚訝的結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段列出多個 launch 之後的成果：每天有 10 至 15 位科學家加入資料；自 1998 年起已輸"
+            },
+            {
+              "kind": "paragraph",
+              "text": "入近 340,000 件標本；網站每小時更新總數；任何人都可下載公開部分資料；資料庫還產生了意外研究結果，例如 biodiversity 可能很早已達到 plateau。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iii “purpose” 是中伏位，因為第一句有 “aims”。但整段不只在說 aim。它花更多篇幅說已輸入多少 specimens、資料如何公開、已發現甚麼結果。段落焦點已經從目的轉到實際成果。因此Question 4 選 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "v — Duplicate species recorded under different names",
+      "answerKey": "v — Duplicate species recorded under different names",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E這題定位到 Paragraph E。段落開頭直接出現 “species names”，很適合用來判斷 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alroy has also used the database to reassess the accuracy of species names.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alroy 也利用這個資料庫重新評估物種名稱的準確性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, his statistical analysis indicates that of the 4,861 North American fossil mammal species catalogued in the database, between 24 and 31 per cent will eventually prove to be duplicates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，他的統計分析顯示，在資料庫收錄的 4,861 種北美化石哺乳動物中，24 至 31 per cent 最終會證明是重複項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以清楚看到本段主題是 species names 的準確性，以及 duplicates。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading v 的定位詞是 “Duplicate species” 和 “different names”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Single species often end up with several names, he says, due to misidentification or poor communication between taxonomists in different countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，由於誤認或不同國家分類學家之間溝通不足，單一物種往往最後擁有幾個名稱。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句就是 heading v 的完整證據鏈。題目 heading 說 “Duplicate species recorded under"
+            },
+            {
+              "kind": "paragraph",
+              "text": "different names”，原文說 “Single species … several names”。兩者意思一致：同一物種被不同名稱重複記錄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 還解釋這種問題會怎樣影響 biodiversity curves："
+            },
+            {
+              "kind": "quote",
+              "text": "“Repetition like this can distort diversity curves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類重複可以扭曲多樣性曲線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 heading i “Potential errors in the database”。Paragraph E 的確涉及資料庫中的誤差，但 heading v 更精準，因為整段集中在重複命名和 duplicate species。IELTS Matching Headings要選最能覆蓋全段且最具體的 heading。因此 Question 5 選 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "iv — Why certain species are absent from the record",
+      "answerKey": "iv — Why certain species are absent from the record",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F Paragraph F 的首句直接說 fossil record patchy，是關於化石紀錄缺失和偏差的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, the fossil record is undeniably patchy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，化石紀錄無可否認是零散不完整的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He estimates, for example, that only 41 per cent of North American mammals that have ever lived are known from fossils, and he suspects that a similar proportion of fossils are missing from other groups, such as fungi and insects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，他估計曾經存在過的北美哺乳動物中，只有 41 per cent 能從化石中得知；他也懷疑其他群體如真菌和昆蟲，也有相近比例的化石缺失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段主題是 fossil record 為何不完整，以及有多少物種缺失於紀錄之中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的定位詞是 “certain species” 和 “absent from the record”。原文中最清楚的句子"
+            },
+            {
+              "kind": "label",
+              "text": "是："
+            },
+            {
+              "kind": "quote",
+              "text": "“And certain kinds of creatures—those with hard parts that lived in oceans, for example—are more likely to leave a record behind, while others, like jellyfish, will always remain a mystery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些類型的生物，例如生活在海洋中且有硬體部位的生物，比較可能留下紀錄；其他生物，例如水母，將永遠是謎。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句直接解釋為何某些 species 會 absent from the fossil record。能留下化石，取決於保"
+            },
+            {
+              "kind": "paragraph",
+              "text": "存條件、身體構造和環境。硬體部位較容易化石化；像 jellyfish 這類柔軟生物很難留下化石痕跡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading i “Potential errors in the database” 仍然是中伏位。這段不是集中講資料庫本身出錯，而是講化石紀錄天然不完整，以及不同生物留下紀錄的機會不均等。因此 Question 6 選 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — John Alroy",
+      "answerKey": "B — John Alroy",
+      "type": "Matching Statements with",
+      "prompt": "“Creating the database would help scientists identify patterns connecting species.”",
+      "translation": "建立這個資料庫會幫助科學家找出生物物種之間相關的模式。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Paragraph C 首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fans of the Paleobiology Database acknowledge that the fossil record will always be incomplete.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paleobiology Database 的支持者承認化石紀錄永遠不完整。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It allows us to say just how bad it is in relative terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它讓我們能用相對角度說明目前情況到底有多嚴重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段會解釋支持者為何仍覺得資料庫有價值。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “patterns” 和 “species”。原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they see value in looking for global patterns that show relative changes in biodiversity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他們認為，尋找能顯示生物多樣性相對變化的全球模式，是有價值的。"
+            },
+            {
+              "kind": "label",
+              "text": "接著出現人物："
+            },
+            {
+              "kind": "quote",
+              "text": "“says John Alroy…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “identify patterns connecting species” 對應原文 “looking for global patterns that"
+            },
+            {
+              "kind": "paragraph",
+              "text": "show relative changes in biodiversity”。雖然題目用了 species，原文用 biodiversity，但兩者在這裡都指生物種類的多樣性和變化模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物判斷上，這段引用的是 John Alroy。他說 fossil record 是理解 diversity and extinction 的最佳工具，又說 background extinction estimate 可以提供 benchmark。因此答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph A 的 “organisers hope”。Paragraph A 也說 organisers 希望透過資料庫理解biodiversity history，但題目要求在 A–D 的人物選項中選人；Paragraph C 明確把這個價值連到John Alroy。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D — Edward O. Wilson",
+      "answerKey": "D — Edward O. Wilson",
+      "type": "Matching Statements with",
+      "prompt": "“Detailed records should extend beyond well-known species.”",
+      "translation": "詳細紀錄不應只限於人們熟悉的物種，也應涵蓋其他物種。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Paragraph H 首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With an inventory of all living species, ecologists could start to put the current biodiversity crisis in historical perspective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有了所有現存物種的清單，生態學家便可以開始把當前生物多樣性危機放在歷史角度中理解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Let the counting continue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "讓點算工作繼續下去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段支持繼續建立 species inventory，尤其是 living species inventory。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “detailed records” 和 “beyond well-known species”。原文中最直接的句子是"
+            },
+            {
+              "kind": "label",
+              "text": "Edward O. Wilson 的引述："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need this kind of information in much more detail to protect all of biodiversity, not just the species we know well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們需要更詳細的這類資訊，以保護整個生物多樣性，而不只是我們熟悉的物種。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目句子幾乎是這句原文的概括改寫。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Detailed records”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “information in much more detail”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extend beyond well-known species”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “not just the species we know well”說這句話的人是 Harvard biologist Edward O. Wilson。因此答案是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 ALL Species Foundation。這個基金會希望 25 年內建立 living species list，但題目問statement 對應哪位 person。具體說出 “not just the species we know well” 的人是 Wilson。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "C — David Jablonski",
+      "answerKey": "C — David Jablonski",
+      "type": "Matching Statements with",
+      "prompt": "“This researcher reached a finding that contradicted claims of widespread species decline.”",
+      "translation": "這位研究者得出一項發現，與物種廣泛下降的說法相反。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Paragraph G 首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not everyone is impressed with such mathematical wizardry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "並非所有人都欣賞這種數學技巧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, a recent and thorough examination of the literature on marine bivalve fossils has convinced David Jablonski from the University of Chicago and his colleagues that their diversity has increased steadily over the past 5 million years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，一項近期且徹底的海洋雙殼類化石文獻研究，使芝加哥大學的 David Jablonski 和同事相信，牠們的多樣性在過去五百萬年間一直穩步增加。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “contradicted claims of decline” 和 “finding”。Paragraph G 有兩個人物："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jonathan Adrain 和 David Jablonski。Adrain 是提出警告；Jablonski 是有具體研究發現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 Jablonski 的研究發現 marine bivalve diversity “has increased steadily over the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "past 5 million years”。這與 “species decline” 的方向相反。題目說 “reached a finding”，這也更貼近 Jablonski and colleagues 的 literature examination，而不是 Adrain 的一般提醒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 A Jonathan Adrain。他也在 Paragraph G 中批評統計方法，說統計處理可能製造不存在的大滅絕。但題目問的是「得出一項發現」，而 Jablonski 才是做出具體研究結論的人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "B and D",
+      "answerKey": "B and D",
+      "type": "Choose TWO Letters",
+      "prompt": "“Which TWO descriptions of the Paleobiology Database are correct?”",
+      "translation": "以下哪兩項對 Paleobiology Database 的描述正確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是雙選題。方法上要逐個選項核對，而不能只找兩個看起來熟悉的字。每個正確選項都要有獨立證據；每個錯項都要檢查是否加入了原文沒有支持的內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A"
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost all experts welcome the project.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎所有專家都歡迎這個項目。"
+            },
+            {
+              "kind": "label",
+              "text": "原文 Paragraph B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“But already the project is attracting harsh criticism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這個項目已經招來尖銳批評。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接排除 A。文章明確說有 harsh criticism，後面還說 some experts believe it to be seriously flawed。既然有明顯批評，就不能說 almost all experts welcome the project。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯在範圍過大。“Almost all” 是強量詞，但原文呈現的是支持與批評並存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B"
+            },
+            {
+              "kind": "quote",
+              "text": "“It has attracted both support and criticism from experts.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它吸引了專家的支持，也受到專家的批評。"
+            },
+            {
+              "kind": "label",
+              "text": "原文 Paragraph B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“But already the project is attracting harsh criticism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這個項目已經招來尖銳批評。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fans of the Paleobiology Database acknowledge that the fossil record will always be incomplete.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paleobiology Database 的支持者承認化石紀錄永遠不完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Fans” 顯示有人支持；“harsh criticism” 顯示有人批評。因此 B 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "support= Fans of the Paleobiology Database criticism= attracting harsh criticism所以 B 是第一個正確答案。選項 C“Every creature in the database has a unique name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料庫中每一種生物都有唯一名稱。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 直接否定這個說法："
+            },
+            {
+              "kind": "quote",
+              "text": "“Single species often end up with several names…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單一物種往往最後有幾個名稱。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“between 24 and 31 per cent will eventually prove to be duplicates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "24 至 31 per cent 最終會證明是重複項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 的問題在 “every” 和 “unique”。原文強調同一物種可能有多個名稱，並導致 duplicate records。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 C 錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D"
+            },
+            {
+              "kind": "quote",
+              "text": "“It aims to include information on fossils from around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它旨在收錄世界各地化石的資料。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Paleobiology Database aspires to be an online repository of information about every fossil ever dug up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paleobiology Database 立志成為一個網上資料庫，收錄每一件曾被挖掘出來的化石資料。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 亦說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every day between 10 and 15 scientists around the world add information about fossil finds to the database.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每天世界各地有 10 至 15 位科學家把化石發現的資料加入資料庫。"
+            },
+            {
+              "kind": "quote",
+              "text": "“every fossil ever dug up” 和 “scientists around the world” 支援 D。雖然原文沒有逐字說 “fossils from around the world”，但資料庫目標是全球化石資訊，加上 Paragraph D 提到 global diversity curves，所以 D 正確。選項 E“It obtains more information from existing records than from fieldwork.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它從現有紀錄取得的資料多於從野外工作取得的資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這選項有迷惑性。Paragraph B 的批評者確實說研究者應該 return to fieldwork，顯示他們覺得資料庫太依靠現有化石資料。但選項 E 加入了 “more … than …” 的比較。文章沒有提供資料來源比例，也沒有說 database 實際上從 existing records 得到的資訊多於 fieldwork。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 E 缺乏足夠原文支援，不能選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終答案：B and D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        10,
+        11
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — Species unlikely to leave a fossil record",
+      "answerKey": "B — Species unlikely to leave a fossil record",
+      "type": "Multiple Choice",
+      "prompt": "“According to the passage, which category do jellyfish belong to in relation to the fossil record?”",
+      "translation": "根據文章，就化石紀錄而言，水母屬於哪一類？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, the fossil record is undeniably patchy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，化石紀錄無可否認是零散不完整的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He estimates, for example, that only 41 per cent of North American mammals that have ever lived are known from fossils, and he suspects that a similar proportion of fossils are missing from other groups, such as fungi and insects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，他估計曾經存在過的北美哺乳動物中，只有 41 per cent 能從化石中得知；他也懷疑其他群體如真菌和昆蟲，也有相近比例的化石缺失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph F 在講 fossil record 的缺漏，以及某些生物群體為何難以被化石紀錄保存。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目最強定位詞是 “jellyfish”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“And certain kinds of creatures—those with hard parts that lived in oceans, for example—are more likely to leave a record behind, while others, like jellyfish, will always remain a mystery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些類型的生物，例如生活在海洋中且有硬體部位的生物，比較可能留下紀錄；其他生物，例如水母，將永遠是謎。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句把生物分成兩類。第一類是有 hard parts 並較可能留下化石紀錄的生物。第二類是像"
+            },
+            {
+              "kind": "paragraph",
+              "text": "jellyfish 這樣，很難留下可辨認化石紀錄的生物。原文的 “will always remain a mystery” 表示牠們在 fossil record 中很可能無法清楚呈現。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Species recorded repeatedly錯。這是 Paragraph E 的 duplicate species 問題，與 jellyfish 無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Species unlikely to leave a fossil record正確。這對應 “while others, like jellyfish, will always remain a mystery”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Species recorded in exceptional detail錯。原文方向相反；jellyfish 不是被詳細記錄，而是難以留下紀錄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Species that are currently living錯。水母當然可以是現存生物，但題目問的是 “in relation to the fossil record”。選項 D 沒有回答化石紀錄中的分類問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — Creating an inventory of living species",
+      "answerKey": "C — Creating an inventory of living species",
+      "type": "Multiple Choice",
+      "prompt": "“What does the author advocate at the end of the passage?”",
+      "translation": "作者在文章結尾主張甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With an inventory of all living species, ecologists could start to put the current biodiversity crisis in historical perspective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有了所有現存物種的清單，生態學家便可以開始把當前生物多樣性危機放在歷史角度中理解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Let the counting continue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "讓點算工作繼續下去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經可以看出作者結尾支持繼續點算 species，尤其是 living species。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “at the end of the passage” 和 “advocate”。Paragraph H 的核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although creating such a list would be a task to rival even the Paleobiology Database, it is exactly what the San Francisco-based ALL Species Foundation hopes to achieve in the next 25 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然建立這樣一份清單會是一項甚至可與 Paleobiology Database 相比的艱巨任務，但這正是位於三藩市的 ALL Species Foundation 希望在未來 25 年達成的目標。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “such a list” 回指前面的 “an inventory of all living species”。結尾還引用 Edward O."
+            },
+            {
+              "kind": "label",
+              "text": "Wilson："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need this kind of information in much more detail to protect all of biodiversity, not just the species we know well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們需要更詳細的這類資訊，以保護整個生物多樣性，而不只是我們熟悉的物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句 “Let the counting continue” 是作者自己的收結語，語氣上支持繼續進行物種點算工作。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Continuing to add only fossil species to the Paleobiology Database錯。結尾段已轉向 living species，不限於 fossil species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Stopping work on the Paleobiology Database錯。作者沒有叫人停止資料庫工作。結尾的語氣是繼續 counting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Creating an inventory of living species正確。這直接對應 “an inventory of all living species”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Focusing on fieldwork rather than published research錯。這是 Paragraph B 中批評者的看法，不是文章結尾作者的主張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Fossil Files “The Paleobiology Database”.pdf",
+    "sha256": "025f86525c46e2ce398602be3165e2fe513daac8d43488c311056567b2ac7a67",
+    "pageCount": 19
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句用「我們是否正經歷第六次大滅絕」作開場，最後一句把焦點拉到 Paleobiology Database可能帶來的長遠意義：它或許能判斷生命是否總能反彈，或人類造成的滅絕是否前所未有。只看首尾句，可以先估這段是全文引入，功能是交代現代生物多樣性危機、知識缺口，以及這個化石資料庫希望回答的大問題。"
+      },
+      {
+        "number": "B",
+        "summary": "首句用 “But” 轉折，指出這個項目已經受到尖銳批評；最後一句說有些人更懷疑，因為 fossil record 充滿漏洞和偏差。只看首尾句，可以判斷這段主要處理反對聲音。批評方向大概包括：資料庫受限於輸入資料、現有化石發現並不完整、研究者應多做 fieldwork，以及化石紀錄本身有系統性缺失。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說支持者承認 fossil record 永遠不完整；最後一句說有了 background extinction estimate，就能用相對角度判斷目前大滅絕有多嚴重。只看首尾句，可以先估這段是支持者的回應：即使化石資料不完整，它仍可用來觀察全球模式、理解正常時期的多樣性和滅絕，並為今日危機提供比較基準。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Paleobiology Database 旨在建立最完整的 global diversity curves；最後一句用多層停車場比喻，說物種數量可能有容量限制，除非滅絕騰出空間或罕見災難增加新層。只看首尾句，可以看出這段不只講目的，也會講項目上線後的進展、數據規模、公開使用方式，以及它已經產生的出人意料研究結果。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Alroy 用資料庫重新評估 species names 的準確性；最後一句說在北美化石哺乳動物中， 24 至 31 per cent 可能最後會證明是 duplicates。只看首尾句，可以立即判斷這段聚焦於分類命名問題。資料庫中的物種數字可能被重複命名、誤認和溝通不足推高，進一步扭曲 biodiversity curves。"
+      },
+      {
+        "number": "F",
+        "summary": "首句直接承認 fossil record undeniably patchy；最後一句說 Alroy 懷疑其他群體如 fungi 和insects 也有類似比例的化石缺失。只看首尾句，可以估計這段在解釋為何某些物種很難進入化石紀錄。原因包括地點、年代、採樣程度、身體構造和保存條件；有硬體部位的海洋生物較容易留下痕跡，jellyfish 一類則很可能永遠難以追蹤。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說並非所有人都欣賞這些 mathematical wizardry；最後一句指出 Jablonski 和同事研究marine bivalve fossils 後，認為牠們在過去 5 million years 持續增加。只看首尾句，可以看出這段再次轉向質疑統計方法。重點是：數據處理可能製造假象，sea level 或 sampling methods 也可能令人誤判 biodiversity 變化。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說如果有 all living species 的 inventory，ecologists 就能把當前生物多樣性危機放進歷史視角；最後一句 “Let the counting continue” 表示作者支持繼續點算。只看首尾句，可以判斷結尾段把焦點由化石物種轉向現生物種。這段提出另一項龐大任務：建立現存物種清單，幫助保護整體biodiversity。"
+      }
+    ]
+  }
+}

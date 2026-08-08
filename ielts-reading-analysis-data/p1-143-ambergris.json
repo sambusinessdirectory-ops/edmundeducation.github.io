@@ -1,0 +1,2012 @@
+{
+  "id": "p1-143-ambergris",
+  "catalogueId": "p1-143",
+  "catalogueIds": [
+    "p1-143"
+  ],
+  "passage": 1,
+  "title": "Ambergris",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "A",
+    "A",
+    "D",
+    "A",
+    "B",
+    "beaks",
+    "passage",
+    "vomited",
+    "hardens",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "A — ambergris only",
+      "answerKey": "A — ambergris only",
+      "type": "題型總覽",
+      "prompt": "“Very expensive”",
+      "translation": "非常昂貴。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A 和 Paragraph H。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The name ambergris is derived from the Spanish ‘ambar gris’, ambar meaning amber and gris meaning grey, thus the name signifies grey amber.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ambergris 這個名稱來自西班牙語 “ambar gris”；ambar 意思是 amber，gris 意思是灰色，所以這個名字表示灰色 amber。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It occupies a very important place in the perfumery of the East, and there it is also used in pharmacy and as a flavouring material in cookery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在東方香水業中佔有很重要的位置，在那裡也用於藥物和烹調調味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 介紹 ambergris 的名稱和用途。雖然價錢在中間句，但這段明顯是ambergris 的基本介紹段。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The industries founded on ambergris resulted in the slaughter of sperm whales almost to extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 ambergris 為基礎的產業導致 sperm whale 幾乎被捕殺至滅絕。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the United States, possession of any part of an endangered species—including ambergris that has washed ashore—is a violation of the Endangered Species Act of 1978.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，持有任何瀕危物種的一部分，包括沖上海岸的 ambergris，都違反 1978 年的《瀕危物種法》。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 從產業、捕鯨、法律談到價值，也適合核對「very expensive」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “expensive”。原文在 Paragraph A 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its high price varies from $15 to $25 an ounce…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的高價由每盎司 15 至 25 美元不等。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 又有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ambergris remains the most expensive product obtained from a sperm whale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ambergris 仍然是從 sperm whale 身上取得的最昂貴產品。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depending on its quality, raw ambergris fetches approximately US$20 per gram.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "視乎品質，未加工 ambergris 約可賣到每克 20 美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句都把高價清楚放在 ambergris 身上。Paragraph A 用 “high price”，Paragraph H 用 “most expensive product” 和 “US$20 per gram”。這足以支持 “Very expensive”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再檢查 amber。Paragraph B 說 amber “prized for jewellery”，中文是「因珠寶用途而受到珍視」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "prized 表示受重視、珍貴，但原文沒有直接說 amber “very expensive”。在分類題中，不能把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prized” 自行擴張成 “very expensive”。題目要求的是哪一種物質明確被稱為昂貴；原文清楚支持ambergris。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Very expensive”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its high price…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the most expensive product…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“US$20 per gram”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： very expensive = high price / most expensive / fetches US$20 per gram所以答案是 A，ambergris only。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易被 Paragraph B 的 “prized for jewellery” 吸引。Amber 確實可用於珠寶，也受到珍視，但這仍未等於文章明確說它「非常昂貴」。IELTS 分類題要看原文把特徵明確歸給誰；這題真正定案詞是 ambergris 的 “high price” 和 “most expensive product”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A — ambergris only",
+      "answerKey": "A — ambergris only",
+      "type": "題型總覽",
+      "prompt": "“Used as a food flavouring”",
+      "translation": "用作食物調味。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The name ambergris is derived from the Spanish ‘ambar gris’, ambar meaning amber and gris meaning grey, thus the name signifies grey amber.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ambergris 這個名稱來自西班牙語 “ambar gris”；ambar 意思是 amber，gris 意思是灰色，所以這個名字表示灰色 amber。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It occupies a very important place in the perfumery of the East, and there it is also used in pharmacy and as a flavouring material in cookery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在東方香水業中佔有很重要的位置，在那裡也用於藥物和烹調調味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看末句已經能初步判斷，這段很可能回答 Question 2，因為 “flavouring material in cookery” 和food flavouring 高度接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “food flavouring”。原文未必用 food，但可預期看到 cookery、flavour、flavouring、cooking 這類字。Paragraph A 最後一句直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“as a flavouring material in cookery”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常直接的定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It occupies a very important place in the perfumery of the East, and there it is also used in pharmacy and as a flavouring material in cookery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在東方香水業中佔有很重要的位置，在那裡也用於藥物和烹調調味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “It”，指 Paragraph A 一直討論的 ambergris。句中的 “flavouring material in cookery” 等同於題目的 “food flavouring”。Cookery 是烹調；flavouring material 是調味材料。兩者合起來就是「用於食物或烹調調味」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再檢查 amber。Paragraph B 說 amber 是 fossilised resin、organic material、prized for jewellery，沒有提到 cookery、food 或 flavouring。因此此特徵只適用於 ambergris。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Used as a food flavouring”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“used … as a flavouring material in cookery”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： food = cookery context flavouring = flavouring material used as = used as答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題主要中伏位在名稱。Ambergris 名字中有 amber，容易讓學生把 amber 和 ambergris 混在一起。Paragraph B 開頭特意說 amber 是 “quite a different substance from ambergris”，所以分類前要先把兩者分清楚。食物調味只出現在 ambergris 的用途中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D — neither amber nor ambergris",
+      "answerKey": "D — neither amber nor ambergris",
+      "type": "題型總覽",
+      "prompt": "“Used as currency”",
+      "translation": "用作貨幣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要全篇掃描，因為 currency 可能出現在歷史用途、貿易或價錢相關段落。最可能檢查Paragraph A、C、H。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 由名稱和用途入手，末句列出香水、藥用、烹調調味。Paragraph C 末句提到一塊ambergris 被賣到 £500 sterling。Paragraph H 中間提到 US$20 per gram。這些段落都含有價值、用途或交易線索，所以要掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “currency”。掃描時要找 currency、money、coin、payment、exchange、used as money 這類概念。原文沒有出現 currency，也沒有說 amber 或 ambergris 被當作錢使用。"
+            },
+            {
+              "kind": "label",
+              "text": "最接近的句子是 Paragraph C："
+            },
+            {
+              "kind": "quote",
+              "text": "“...a piece of ambergris which weighed about 130 lb, and sold for £500 sterling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一塊重約 130 磅的 ambergris 被賣了 500 英鎊。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depending on its quality, raw ambergris fetches approximately US$20 per gram.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "視乎品質，未加工 ambergris 約可賣到每克 20 美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子只說 ambergris 可以出售，而且價錢很高。Used as currency 需要更強的證據：它本身被當作交易媒介、付款工具、貨幣或替代金錢使用。原文只有價格和交易，沒有「用作貨幣」這個用途。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amber 方面，Paragraph B 說它 “prized for jewellery”，也沒有 currency 的意思。Prized、sold、fetches a price 全部都只說物品有價值；currency 指「拿來作為金錢使用」。文章沒有把這個特徵放在 amber 或 ambergris 身上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷Ambergris：有高價、有出售記錄，但沒有用作貨幣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amber：有珠寶價值，但沒有用作貨幣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D，neither amber nor ambergris。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選 A，因為 Paragraph C 有 “sold for £500 sterling”。不過 sold for money 只表示「賣出換錢」，used as currency 表示「物品本身充當錢」。這是用途和交易結果的差別。IELTS 很常用money words 製造干擾；看到 £500 或 US$20 仍要問：原文有沒有說它本身當貨幣使用？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A — ambergris only",
+      "answerKey": "A — ambergris only",
+      "type": "題型總覽",
+      "prompt": "“Referred to in a communication”",
+      "translation": "在一份 communication 中被提及。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The true source and character of ambergris was first satisfactorily established by Dr Swediaur in a communication to the Royal Society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Swediaur 在提交給 Royal Society 的一份 communication 中，首次令人滿意地確立了ambergris 的真正來源和性質。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That observation, in connection with the fact of ambergris being frequently taken from the intestines of the sperm whale, sufficiently proved that the substance is produced by the whale’s intestines as a means of facilitating the passage of undigested hard, sharp beaks of squid that the whale has eaten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項觀察，加上 ambergris 經常從 sperm whale 腸道中取出的事實，足以證明這種物質由鯨魚腸道產生，用來幫助鯨魚吃下但未消化的魷魚堅硬尖銳的喙通過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph E 是 ambergris 科學來源的核心段，也直接出現communication。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “communication”。這個字在全文不常見。掃描時很快找到 Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...in a communication to the Royal Society.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The true source and character of ambergris was first satisfactorily established by Dr Swediaur in a communication to the Royal Society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Swediaur 在提交給 Royal Society 的一份 communication 中，首次令人滿意地確立了ambergris 的真正來源和性質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 “The true source and character of ambergris”。也就是說，被這份 communication討論、確立來源和性質的是 ambergris。Paragraph B 講 amber 的形成，但沒有說 amber 被 Dr Swediaur 在 communication 中提及。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Referred to in a communication”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the true source and character of ambergris was … established … in a communication”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： referred to = discussed / treated / established in a communication communication = communication to the Royal Society答案是 A，ambergris only。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “Referred to” 比原文的 “established” 淺很多。原文其實不只提及 ambergris，還在該communication 中確立其真正來源和性質。因此，只要看到 “communication to the Royal Society”，就要回看該句的主語：ambergris。主語決定分類。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "B — amber only",
+      "answerKey": "B — amber only",
+      "type": "題型總覽",
+      "prompt": "“Transparent”",
+      "translation": "透明的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B 和 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amber, however, is quite a different substance from ambergris and this discrepancy has puzzled some people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，amber 和 ambergris 是完全不同的物質，而這種差異令一些人感到困惑。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There, the trees and their resins became covered with sediment, and over millions of years the resin hardened into amber.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那裡，樹木和樹脂被沉積物覆蓋，經過數百萬年，樹脂硬化成 amber。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 主要講 amber 的本質和形成。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ambergris and amber are related by the fact that both wash up on beaches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ambergris 和 amber 的共同點在於兩者都會被沖上海灘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 後面轉為描述 ambergris 的顏色、氣味、來源、漂浮性和產地。這兩段一起可分辨transparent 屬於哪一種物質。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “transparent”。Paragraph B 直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although considered a gem, amber is a hard, transparent and wholly organic material derived from the resin of extinct species of trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 amber 被視為寶石，但它是一種堅硬、透明、完全有機的物質，來自已滅絕樹種的樹脂。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “amber”。後面三個形容詞 “hard, transparent and wholly organic” 都修飾 amber。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Transparent 因此明確屬於 amber。"
+            },
+            {
+              "kind": "label",
+              "text": "再對比 ambergris。Paragraph C 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ambergris is a solid, waxy and flammable substance of a dull grey or blackish colour…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ambergris 是一種固體、蠟狀、可燃的物質，顏色暗灰或偏黑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dull grey or blackish” 和 transparent 不同。原文沒有說 ambergris 透明，還用了 dull grey /blackish 這類顏色描述。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Transparent”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“amber is a hard, transparent and wholly organic material”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原字重現，答案是 B，amber only。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一聲明兩者都會被沖上海灘，這是共同點；但 transparent 不在共同點句子裡。分類題要把「共同點」和「單一特徵」分開。兩者都 wash up on beaches，但只有 amber 被明確描述為 transparent。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "beaks",
+      "answerKey": "beaks",
+      "type": "Summary Completion",
+      "prompt": "“First, when a sperm whale eats the hard, sharp 6 ____________ of squid…”",
+      "translation": "首先，當 sperm whale 吃下魷魚堅硬尖銳的 ______ 時……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The true source and character of ambergris was first satisfactorily established by Dr Swediaur in a communication to the Royal Society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Swediaur 在提交給 Royal Society 的一份 communication 中，首次令人滿意地確立了ambergris 的真正來源和性質。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That observation, in connection with the fact of ambergris being frequently taken from the intestines of the sperm whale, sufficiently proved that the substance is produced by the whale’s intestines as a means of facilitating the passage of undigested hard, sharp beaks of squid that the whale has eaten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項觀察，加上 ambergris 經常從 sperm whale 腸道中取出的事實，足以證明這種物質由鯨魚腸道產生，用來幫助鯨魚吃下但未消化的魷魚堅硬尖銳的喙通過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看末句，已可見 hard, sharp beaks of squid，這正是 summary 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “hard, sharp” 和 “squid”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“hard, sharp beaks of squid”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“...facilitating the passage of undigested hard, sharp beaks of squid that the whale has eaten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幫助鯨魚吃下但未消化的魷魚堅硬尖銳的喙通過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “hard, sharp”，後面是 “of squid”，需要一個複數名詞。原文中符合的詞是 “beaks”。雖然同段早前也出現 “horny mandibles or beaks of the squid”，但 summary 的搭配是 “hard, sharp___ of squid”，最自然和最直接的答案是 beaks。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“when a sperm whale eats the hard, sharp ___ of squid”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“hard, sharp beaks of squid that the whale has eaten”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 beaks。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "passage",
+      "answerKey": "passage",
+      "type": "Summary Completion",
+      "prompt": "“...its intestine produces ambergris to facilitate their 7 ____________.”",
+      "translation": "牠的腸道產生 ambergris，以幫助它們 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph E。首句說 Dr Swediaur 確立 ambergris 的真正來源；末句說 ambergris由鯨魚腸道產生，用來幫助魷魚硬喙通過。這段正好解釋 ambergris 的形成原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “facilitate”。原文末句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“as a means of facilitating the passage…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵片語："
+            },
+            {
+              "kind": "quote",
+              "text": "“as a means of facilitating the passage of undigested hard, sharp beaks of squid…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為一種幫助未消化的魷魚硬喙通過的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文 “facilitating the passage” 改成 “facilitate their ___”。空格前的 their 指 Question 6 的beaks。需要填一個名詞，表示這些 beaks 被幫助完成的動作。原文名詞是 “passage”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查ONE WORD：passage 是一個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "詞性：名詞，符合 facilitate their passage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思：幫助硬喙通過腸道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 passage。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "vomited",
+      "answerKey": "vomited",
+      "type": "Summary Completion",
+      "prompt": "“Ambergris can then be 8 ____________ up by the sperm whale and float on the water.”",
+      "translation": "Ambergris 之後可以被 sperm whale ______ 出來，然後漂浮在水面。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was further observed that whales containing ambergris were either dead or, if alive, severely emaciated and evidently in a sickly condition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進一步觀察發現，含有 ambergris 的鯨魚要麼已死；如果仍活著，也嚴重消瘦，明顯處於病態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its smell has been described by many as a vastly richer and smoother version of isopropanol without its stinging harshness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人把它的氣味形容為一種比 isopropanol 豐富和柔和得多的版本，而且沒有那種刺鼻的刺激感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 會講 ambergris 與病態鯨魚的關係，以及 ambergris 形成後的外觀和氣味變化。題目中的 “float on the water” 很可能也在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “float on the water”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often expelled by vomiting, ambergris floats in chunks on the water…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ambergris 常常通過嘔吐被排出，然後以塊狀漂浮在水面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵片語："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often expelled by vomiting…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "常常通過嘔吐被排出。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句型是："
+            },
+            {
+              "kind": "quote",
+              "text": "“can then be ___ up”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "英文自然搭配是 “be vomited up”，意思是「被嘔吐出來」。原文沒有直接寫 “vomited”，而是寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“expelled by vomiting”。意思完全對應，但詞形上不完全一樣。答案判斷從意思和文法看，答案應是 vomited： be vomited up = be expelled by vomiting需要注意：題目指示說 ONE WORD from the passage，但 passage 中的實際字是 “vomiting”。若把 vomiting 放入空格，會變成 “be vomiting up”，語法不合。這表示這條題目本身有一點不嚴謹。教學上應讓學生知道，答案概念來自 “expelled by vomiting”，題目自然完成形式是 vomited。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "hardens",
+      "answerKey": "hardens",
+      "type": "Summary Completion",
+      "prompt": "“After months of exposure to the air, it 9 ____________ and its colour turns dark grey or black.”",
+      "translation": "經過數月暴露於空氣後，它會 ______，顏色變成深灰或黑色。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。首句說含有 ambergris 的鯨魚多數死亡或生病；末句描述 ambergris 最終氣味。段落中間自然會交代 ambergris 被排出後如何在海中轉化。因此題目中的 exposure、colour turns dark grey or black，很可能對應這段的 photodegradation and oxidation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“months”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dark grey or black”"
+            },
+            {
+              "kind": "quote",
+              "text": "“colour”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Following months to years of photodegradation and oxidation in the ocean, this precursor gradually hardens, developing a dark grey or black colour…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過數月至數年在海洋中的光降解和氧化，這種前體物會逐漸硬化，形成深灰或黑色。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵動詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“gradually hardens”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "逐漸硬化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子是 “it ___ and its colour turns dark grey or black”。空格需要一個動詞，主語是 it，所以第三身單數現在式應為 hardens。原文剛好是 hardens。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“After months of exposure to the air”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Following months to years of photodegradation and oxidation in the ocean”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“its colour turns dark grey or black”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“developing a dark grey or black colour”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hardens雖然題目用 “exposure to the air” 概括了氧化過程，真正答案詞仍是原文的 hardens。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In the twentieth century, most ambergris was obtained during the killing of sperm whales.”",
+      "translation": "在二十世紀，大部分 ambergris 是在捕殺 sperm whales 的過程中取得的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The industries founded on ambergris resulted in the slaughter of sperm whales almost to extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 ambergris 為基礎的產業導致 sperm whales 幾乎被捕殺至滅絕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the United States, possession of any part of an endangered species—including ambergris that has washed ashore—is a violation of the Endangered Species Act of 1978.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，持有任何瀕危物種的一部分，包括沖上海岸的 ambergris，都違反 1978 年的《瀕危物種法》。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 明顯講 ambergris、捕鯨、瀕危、法律和取得方式。題目有 “twentieth century” 和 “killing of sperm whales”，非常可能定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“twentieth century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most ambergris”"
+            },
+            {
+              "kind": "quote",
+              "text": "“killing of sperm whales”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 20th century, 90 per cent of ambergris was obtained during the processing of killed sperm whales.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在二十世紀，90% 的 ambergris 是在處理被殺死的 sperm whales 時取得的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “most ambergris”。原文說 “90 per cent of ambergris”。90% 明顯等於大部分，所以 most成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “during the killing of sperm whales”。原文說 “during the processing of killed sperm whales”。原文更精確：ambergris 是在處理已被殺死的 sperm whales 時取得。題目用 killing 概括這個捕殺和處理過程，意思方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "twentieth century + most ambergris + obtained during killing of sperm whales原文： 20th century + 90 per cent + obtained during processing of killed sperm whales三個核心元素都吻合，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能覺得 “processing of killed sperm whales” 和 “killing of sperm whales” 不完全同字。這裡要看命題方向：題目問取得 ambergris 是否與被殺死的 sperm whales 有關。原文明確說 90% 來自處理 killed sperm whales，所以足夠支持 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The price of ambergris has increased recently.”",
+      "translation": "Ambergris 的價格最近上升了。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最可能段落：Paragraph A 和 Paragraph H。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 第一句介紹 ambergris 的名字來源；末句介紹它在東方香水、藥物和烹調中的用途。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中間有 “high price”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 第一句講 ambergris 產業導致 sperm whales 幾乎被捕殺至滅絕；末句講美國法律禁止持有瀕危物種部分。中間有 “US$20 per gram”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段都有價錢資料，所以要一起掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“price”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increased”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recently”"
+            },
+            {
+              "kind": "label",
+              "text": "原文價錢相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its high price varies from $15 to $25 an ounce…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的高價由每盎司 15 至 25 美元不等。"
+            },
+            {
+              "kind": "label",
+              "text": "原文價錢相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depending on its quality, raw ambergris fetches approximately US$20 per gram.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "視乎品質，未加工 ambergris 約可賣到每克 20 美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要兩個元素：第一，price increased，即價格上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，recently，即最近發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只提供不同位置的價錢資訊，沒有明確說「價格上升」。Paragraph A 的 $15 to $25 an ounce未清楚標明是哪個時期，也沒有和 Paragraph H 的 US$20 per gram 建立時間比較。Paragraph H 的 “Most recent estimates” 指的是 sperm whale population estimates，不是 ambergris price estimates。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使讀者可以自己換算每克和每盎司，IELTS Reading 不能靠自行計算後加入「recently increased」這個結論。文章沒有說 price has increased、has risen、now higher than before、recent price rise 等資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文有： ambergris 價格高不同品質有不同價錢raw ambergris 約 US$20 per gram原文缺少：最近價格上升過去價格和現在價格的明確比較任何 price trend所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是兩個價錢數字。學生可能會看到 $15–$25 an ounce 和 US$20 per gram，自己換算後覺得價格似乎更高。不過題目問的是文章是否提供 “has increased recently” 這個事實。數字並排出現不等於文章建立了價格趨勢。這題的控制詞是 “recently” 和 “increased”，兩者原文都沒有清楚支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Ambergris is still used in perfume-making.”",
+      "translation": "Ambergris 仍然用於香水製作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A 和 Paragraph I。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 第一句解釋 ambergris 名稱；最後一句說它在東方香水業有重要位置，也用於藥物和烹調。這段已經提供用途。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historically, the primary commercial use of ambergris has been in fragrance chemistry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史上，ambergris 最主要的商業用途是在香料化學中。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Procedures for the microbial production of Ambrox have also been devised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們也已設計出以微生物生產 Ambrox 的程序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 會講香水業用途和替代品。題目有 “still used”，要看現在用途是否仍存在。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“still”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perfume-making”"
+            },
+            {
+              "kind": "label",
+              "text": "原文 Paragraph A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The use of ambergris in Europe is now confined to use as a perfumery material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在歐洲，ambergris 現在的用途限於作為香水材料。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historically, the primary commercial use of ambergris has been in fragrance chemistry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史上，ambergris 最主要的商業用途是在香料化學中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 12 的關鍵是 “still used”。Paragraph A 的 “now confined to use as a perfumery material” 很直接。Now 表示現在；perfumery material 表示香水材料。Although “confined to” 表示用途範圍收窄，但句子仍然表示它現在還有 perfumery use。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 說 “Historically…” 之後提到供應問題和 replacement compounds，說明香水業一直對 ambergris 有需求，只是因為供應不穩定和價格高，所以尋找替代物。原文沒有說 ambergris已完全停止使用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“still used in perfume-making”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“is now confined to use as a perfumery material”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： still = now perfume-making = perfumery / fragrance chemistry used = use as material所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 的 replacement compounds 可能令人以為 ambergris 已不再使用。但原文說的是replacement compounds “have been sought” 和 Ambrox 很常用，這不會取消 Paragraph A 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“now … perfumery material”。這題要分清：替代品存在，並不自動等於原材料完全停用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Ambergris is still the most important amber odourant in perfume manufacture.”",
+      "translation": "Ambergris 仍然是香水製造中最重要的 amber odourant。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historically, the primary commercial use of ambergris has been in fragrance chemistry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史上，ambergris 最主要的商業用途是在香料化學中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Procedures for the microbial production of Ambrox have also been devised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們也已設計出以微生物生產 Ambrox 的程序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph I 會由 ambergris 的歷史香料用途，轉到現代替代品 Ambrox。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “still the most important amber odourant”，很可能要看 Ambrox 的地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“most important”"
+            },
+            {
+              "kind": "quote",
+              "text": "“amber odourant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perfume manufacture”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most important of these is Ambrox, which has taken its place as the most widely used amber odourant in perfume manufacture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中最重要的是 Ambrox，它已取代其位置，成為香水製造中最廣泛使用的 amber odourant。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句的主語是 “Ambrox”，不是 ambergris。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most important of these is Ambrox”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些替代化合物之中最重要的是 Ambrox。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“has taken its place as the most widely used amber odourant in perfume manufacture”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它已取代其位置，成為香水製造中最廣泛使用的 amber odourant。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“taken its place” 表示 Ambrox 取代了 ambergris 的位置。題目卻說 ambergris “is still the most important amber odourant”。這和原文方向相反。原文把現代香水製造中最重要／最常用的amber odourant 地位給了 Ambrox。命題比較"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ambergris still holds the most important amber odourant position.原文： Ambrox is the most important replacement compound and has taken ambergris’s place as the most widely used amber odourant.核心衝突在主體：題目主體是 ambergris；原文定案主體是 Ambrox。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 12 剛剛確認 ambergris 仍可用於香水，學生可能順勢選 TRUE。但 “still used” 和 “still the most important” 是兩個完全不同的命題。Paragraph A 支持 ambergris 仍用於香水； Paragraph I 則說 Ambrox 已成為最廣泛使用的 amber odourant。這題要看程度詞 “most important”，不能只看 “perfume manufacture” 這個共同主題。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Ambergris.pdf",
+    "sha256": "36f6a2bb82701eb9c4dd5527d98d9103464fdd432b6275ba91c6ce0385392df0",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段先解釋 ambergris 這個名字的來源：來自西班牙語 “ambar gris”，意思是 grey amber。只看末句，段落最後說它在東方香水業、藥用和烹調調味中都有重要位置。因此， Paragraph A 大概會介紹 ambergris 的名稱、價值和用途。這段很可能回答「昂貴」、「食物調味」、「香水用途」等題目，特別是 Questions 1、2、12 的早期定位段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句用 “however” 把 amber 和 ambergris 分開，指出 amber 是完全不同的物質。末句說樹脂經過數百萬年硬化成 amber。只看首尾句，可以知道 Paragraph B 主要介紹 amber 的來源和形成過程：它來自古代樹木樹脂，經沉積物覆蓋後逐漸硬化。這段最適合定位「amber only」的資料，例如 transparent、fossilised resin、organic material、jewellery 等，特別關連 Question 5。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 ambergris 和 amber 的共同點是兩者都會被沖上海灘。末句舉出一位漁夫在鯨魚體內發現重達 130 磅 ambergris 並賣出高價。由首尾句可見，Paragraph C 會從共同點轉向 ambergris本身的形態、顏色、氣味、來源、產地和重量。這段主要幫學生分辨 ambergris 的物理特徵，例如灰黑、蠟狀、可漂浮、來自 sperm whale，不太適合回答 amber 的題目。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 ambergris 的來源以前不清楚，因此人們因其神秘來源而賦予它特殊價值。末句提到過去有人猜測它是海洋中的真菌生長物。只看首尾句，Paragraph D 明顯是在講錯誤假說和神秘化想像。它的功能不是提供現代科學答案，而是交代歷史上對 ambergris 來源的誤解。遇到題目問 old hypotheses、mysterious source、solidified foam 或 fungi，就應先定位到這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句直接說 Dr Swediaur 首次令人滿意地確立了 ambergris 的真正來源和性質。末句解釋ambergris 是鯨魚腸道產生的物質，用來幫助未消化的魷魚硬喙通過。只看首尾句，Paragraph E是全文的科學解釋核心：ambergris 的真實來源、Royal Society communication、squid beaks、whale intestines 全在這裡。Questions 4、6、7 都很可能定位到這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說含有 ambergris 的鯨魚通常已死，或活著但嚴重消瘦、生病。末句描述 ambergris 氣味像更豐富、更柔和的 isopropanol。由首尾句可以估計，Paragraph F 會講 ambergris 與 sperm whale 病態狀況的關係，以及它被排出後在海中逐步變化。中間會很可能出現 vomiting、photodegradation、oxidation、hardens、dark grey / black 等過程詞。Questions 8、9 主要靠這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句開始列出 ambergris 在特定狀態下的 specific gravity，即比重範圍。末句推論 ambergris 很可能是一種 biliary concretion，類似其他哺乳動物體內形成的結石。只看首尾句，Paragraph G 明顯轉入化學和生理性質：熔點、溶解性、ambrein、cholesterin、biliary calculi。這段比較像補充科學性質，若題目問 chemical constitution、ambrein、biliary concretion，才需要細讀。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說建基於 ambergris 的產業導致 sperm whales 幾乎被捕殺至滅絕。末句說在美國，持有瀕危物種任何部分，包括沖上海岸的 ambergris，都違反 Endangered Species Act of 1978。只看首尾句，Paragraph H 主題是捕鯨、保育、法律和價值。這段尤其關連 twentieth century、90 per cent、killed sperm whales、US$20 per gram、possession illegal 等資料。Questions 1、10、11 會用到這段。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 ambergris 歷史上最主要的商業用途是 fragrance chemistry，即香料和香水化學。末句說Ambrox 也已有 microbial production 的程序。由首尾句可見，Paragraph I 主要講香水業中的商業用途、供應問題和合成替代品。中間會說高品質 ambergris 供應難以穩定，香料業因此尋找replacement compounds，其中 Ambrox 取代了 ambergris 的位置。Questions 12、13 的核心證據在這裡。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Question 8 有一個小瑕疵：原文是 “Often expelled by vomiting”，但題目句型是 “can then be ___up”，自然英文需要填 “vomited”。如果嚴格執行 “ONE WORD from the passage”，這題的命題文字不太理想；不過按語法和原文意思，考試答案應是 vomited。"
+  ]
+}

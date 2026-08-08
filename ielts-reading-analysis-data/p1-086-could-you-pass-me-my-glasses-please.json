@@ -1,0 +1,2219 @@
+{
+  "id": "p1-086-could-you-pass-me-my-glasses-please",
+  "catalogueId": "p1-086",
+  "catalogueIds": [
+    "p1-086"
+  ],
+  "passage": 1,
+  "title": "Could You Pass Me My Glasses, Please?",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "Myopia",
+    "concave lenses",
+    "convex lenses",
+    "Johannes Kepler",
+    "conscious effort",
+    "temperature changes",
+    "peripheral vision",
+    "A",
+    "C",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most people study hard today.”",
+      "translation": "現今大多數人都用功學習。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心在 “study hard today”。它不要求我們判斷所有人都讀書很辛苦，只要原文是否支持「現代社會中密集學習很普遍」這個方向。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human eye was not designed for the years of intensive book learning that are now common in modern society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人眼原本沒有為現代社會中常見的多年密集書本學習而設計。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Correcting faulty vision with these devices is something almost everyone will probably encounter at some stage in life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用這些裝置矯正視力問題，是幾乎每個人在人生某個階段都可能會遇到的事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 的功能：這段在說現代社會的閱讀和學習負擔令視力問題普遍化，並引出眼鏡作為普遍解決方法。題目問 today 的學習情況，所以第一段最可能藏答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“study hard”"
+            },
+            {
+              "kind": "quote",
+              "text": "“today”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有逐字寫 “study hard”，但有 “intensive book learning”。“intensive” 表示密集、強度高；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“book learning” 指書本學習。題目的 today 對應原文 “modern society”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The human eye was not designed for the years of intensive book learning that are now common in modern society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人眼原本沒有為現代社會中常見的多年密集書本學習而設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “years of intensive book learning”。它描述的不是短時間讀幾頁書，而是長年累月、密集的書本學習。原文又用 “now common in modern society”，說這種情況在現代社會很常見。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“study hard today”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“years of intensive book learning that are now common in modern society”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： study hard = intensive book learning today = now / modern society most people = common in modern society 的概括方向答案判斷：題目把原文較正式的 “intensive book learning” 改成較口語的 “study hard”。雖然 “most people”比 “common” 稍強，但在這篇文章的語境中，作者正在說現代社會普遍存在長期學習負擔，並以此解釋眼鏡為何幾乎人人都可能需要。因此答案判 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易卡在 “Most people”。若按極嚴格統計語氣，原文沒有提供百分比；但 IELTS 這類入門題常把 “common in modern society” 概括成一般人普遍面對的情況。真正控制方向的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“intensive book learning” 和 “now common”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“When glasses were invented, most people could read.”",
+      "translation": "眼鏡被發明時，大多數人都能閱讀。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷眼鏡早期出現時，社會識字率是否高。控制詞是 “most people could read”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is not surprising that the first eyeglasses were made by the Catholic monks dedicated to the writing, translation, and reproduction of finely written religious texts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最早的眼鏡由致力於書寫、翻譯和複製精美宗教文本的天主教修士製作，這並不令人意外。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the usefulness of glasses had already long been realised by the population at large, and by 1300 the trade of lens-grinding was widespread enough to require formal guilds and regulations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，眼鏡的用途早已被廣大民眾認識；到 1300 年，磨製鏡片的行業已普遍到需要正式行會和規例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段講眼鏡早期歷史和使用擴散。題目提到 glasses were invented 和 most people could read，所以應看早期社會背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“glasses were invented”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most people could read”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文相關詞包括 “first eyeglasses”、“low levels of education and literacy”。“literacy” 就是閱讀和書寫能力，對應題目 “could read”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In contrast to the generally low levels of education and literacy at the time, these monks were versed in many languages and worked for years in dimly lit, candlelit ‘scriptoriums’ – an effort which took its toll on their eyesight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與當時普遍較低的教育和識字水平相比，這些修士精通多種語言，並多年在昏暗、以蠟燭照明的抄寫室工作；這種努力損害了他們的視力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “most people could read”，但原文說 “generally low levels of education and literacy at the time”。literacy levels low 表示能閱讀的人並不普遍。這和題目方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“most people could read”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“generally low levels of education and literacy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： could read = literacy most people could read = literacy levels were high generally low literacy = 大多數人能閱讀這個說法不成立答案判斷：原文明確說當時教育和識字水平普遍較低，所以題目說大多數人能閱讀，方向相反。答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段末說 “population at large” 已認識眼鏡用途，容易令人以為大眾也普遍能閱讀。但那句說的是人們知道眼鏡有用，並沒有說大多數人識字。判斷要回到 “low levels of education and literacy”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most monks suffered eye problems.”",
+      "translation": "大多數修士都有眼睛問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 “Most monks” 這個範圍。原文有沒有說大多數修士都視力受損？或者只說某一類修士因工作而視力受影響？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is not surprising that the first eyeglasses were made by the Catholic monks dedicated to the writing, translation, and reproduction of finely written religious texts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最早的眼鏡由致力於書寫、翻譯和複製精美宗教文本的天主教修士製作，這並不令人意外。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the usefulness of glasses had already long been realised by the population at large, and by 1300 the trade of lens-grinding was widespread enough to require formal guilds and regulations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，眼鏡的用途早已被廣大民眾認識；到 1300 年，磨製鏡片的行業已普遍到需要正式行會和規例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 講最早眼鏡和修士的關係，也講後來鏡片行業擴散。題目有 monks，所以目標段落清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“monks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eye problems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Most”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應詞包括 “Catholic monks”、“eyesight”、“took its toll”。“took its toll on their eyesight” 表示對視力造成損害。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In contrast to the generally low levels of education and literacy at the time, these monks were versed in many languages and worked for years in dimly lit, candlelit ‘scriptoriums’ – an effort which took its toll on their eyesight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與當時普遍較低的教育和識字水平相比，這些修士精通多種語言，並多年在昏暗、以蠟燭照明的抄寫室工作；這種努力損害了他們的視力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是 “these monks”，即前一句提到的那些從事書寫、翻譯和複製宗教文本的 Catholic monks。原文確實指出這類工作損害他們的視力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Most monks內容：suffered eye problems原文命題：主體：these monks，即參與宗教文本抄寫、翻譯和複製工作的修士內容：their work took its toll on their eyesight比較結果：原文支持「從事抄寫工作的修士視力受損」，但沒有提供「大多數修士」這個範圍。修士群體可能包括很多不從事長年抄寫的人，文章沒有交代比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文沒有足夠資料判斷 “Most monks” 是否成立；它也沒有明確說大多數修士沒有眼疾。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“these monks” 很容易被讀成 “monks in general”。但 IELTS 要特別留意指代範圍：these monks指前面那一類抄寫修士，不等於所有修士，也不等於大多數修士。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "Myopia",
+      "answerKey": "Myopia",
+      "type": "Diagram Completion",
+      "prompt": "Diagram label 4 under “Two Focusing Problems”",
+      "translation": "圖表要求填寫兩種聚焦問題中的其中一種。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Diagram Completion，限制為 NO MORE THAN TWO WORDS。題目標題是 “Two Focusing Problems”，所以答案應該來自原文中直接列出的兩種 focusing disorders。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although popular and effective, no one was quite sure of the mechanism involved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "眼鏡雖然流行而有效，但當時沒有人很清楚其中涉及的機制。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hyperopia (long-sightedness) uses convex lenses to do the opposite, bringing the focal point forward to the retina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠視使用凸透鏡做相反的事，把焦點向前帶回視網膜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，第三段會解釋眼鏡如何運作，尤其涉及不同聚焦問題和對應鏡片。圖表題標題正是Two Focusing Problems，所以 Paragraph 3 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two Focusing Problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are two main focusing disorders: myopia and hyperopia.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句明確列出兩個答案來源。題目已經給出 Hyperopia，所以另一個聚焦問題就是 Myopia。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are two main focusing disorders: myopia and hyperopia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要有兩種聚焦障礙：近視和遠視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的兩個名詞是並列關係： myopia hyperopia圖表中已給 Hyperopia，因此空格 4 應填另一個 disorder：Myopia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： Myopia = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Myopia。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句後面有 “short-sightedness”。如果圖表空格位置是要填問題名稱，應填 Myopia； short-sightedness 是 myopia 的解釋，不是和 Hyperopia 同一層級的正式問題名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "concave lenses",
+      "answerKey": "concave lenses",
+      "type": "Diagram Completion",
+      "prompt": "Diagram label 5",
+      "translation": "圖表要求填寫 Myopia 對應使用的鏡片類型。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題仍是 Diagram Completion。由於 Passage 3 按順序講 myopia，再講 hyperopia，空格 5 應跟 myopia 的矯正方法有關。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although popular and effective, no one was quite sure of the mechanism involved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "眼鏡雖然流行而有效，但當時沒有人很清楚其中涉及的機制。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hyperopia (long-sightedness) uses convex lenses to do the opposite, bringing the focal point forward to the retina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠視使用凸透鏡做相反的事，把焦點向前帶回視網膜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段會把眼鏡機制、兩種視力問題和鏡片種類連起來。Diagram 題通常要按原文順序填，因此先讀 myopia 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞可用圖表結構： Myopia lenses focusing problem原文在 myopia 的解釋中出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“concave lenses are used”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常直接的答案短語。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of the first (short-sightedness, in which it is difficult to see objects at a distance), concave lenses are used, compensating for the eye’s refractive error by pushing the focal point back to the retina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在第一種情況，即近視中，人很難看清遠處物件；這時會使用凹透鏡，透過把焦點推回視網膜來補償眼睛的屈光錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “the first” 指上一句提到的第一個 focusing disorder，即 myopia。myopia 的症狀是看遠處困難；它使用的鏡片是 concave lenses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： concave lenses = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表： Myopia → 5 ________原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of the first ... concave lenses are used”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 concave lenses。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “short-sightedness”，因為它是 myopia 的另一名稱或症狀說明。如果空格跟鏡片類型相連，答案必須是 concave lenses。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "convex lenses",
+      "answerKey": "convex lenses",
+      "type": "Diagram Completion",
+      "prompt": "Diagram label 6",
+      "translation": "圖表要求填寫 Hyperopia 對應使用的鏡片類型。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題和 Question 5 平行。既然 myopia 對應 concave lenses，hyperopia 應尋找另一種 lens type。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although popular and effective, no one was quite sure of the mechanism involved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "眼鏡雖然流行而有效，但當時沒有人很清楚其中涉及的機制。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hyperopia (long-sightedness) uses convex lenses to do the opposite, bringing the focal point forward to the retina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠視使用凸透鏡做相反的事，把焦點向前帶回視網膜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段最後一句已經直接包含 Hyperopia 和 convex lenses，所以 Question 6 可由尾句定案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hyperopia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hyperopia (long-sightedness) uses convex lenses...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此停在最後一句細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hyperopia (long-sightedness) uses convex lenses to do the opposite, bringing the focal point forward to the retina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠視使用凸透鏡做相反的事，把焦點向前帶回視網膜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句主語是 Hyperopia。核心動詞是 “uses”。賓語是 “convex lenses”。因此若圖表要填 Hyperopia的矯正鏡片，答案就是 convex lenses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： convex lenses = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表： Hyperopia → 6 ________原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hyperopia ... uses convex lenses”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 convex lenses。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“long-sightedness” 只是 hyperopia 的解釋。如果空格在鏡片類型位置，不能填 long-sightedness；要填 “convex lenses”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "Johannes Kepler",
+      "answerKey": "Johannes Kepler",
+      "type": "Short-answer Questions",
+      "prompt": "“Who first explained how glasses function?”",
+      "translation": "誰首次解釋眼鏡如何運作？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，限制為 NO MORE THAN TWO WORDS。題目問 Who，所以答案應是人名。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although popular and effective, no one was quite sure of the mechanism involved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "眼鏡雖然流行而有效，但當時沒有人很清楚其中涉及的機制。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hyperopia (long-sightedness) uses convex lenses to do the opposite, bringing the focal point forward to the retina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠視使用凸透鏡做相反的事，把焦點向前帶回視網膜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說 no one was sure of the mechanism involved。題目問 first explained how glasses function，和 mechanism 有直接關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Who”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first explained”"
+            },
+            {
+              "kind": "quote",
+              "text": "“function”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first detailed mathematical explanation would not come until Johannes Kepler published his work on optics in 1604.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“first detailed mathematical explanation” 就是 “first explained how glasses function” 的正式說法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The first detailed mathematical explanation would not come until Johannes Kepler published his work on optics in 1604.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一個詳細的數學解釋，要到 Johannes Kepler 在 1604 年出版他的光學著作時才出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “first detailed mathematical explanation”。題目問 “Who first explained”，所以要找這個 explanation 與哪個人連在一起。答案就是 Johannes Kepler。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： Johannes Kepler = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“first explained how glasses function”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first detailed mathematical explanation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“published his work on optics”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Johannes Kepler。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Kepler” 之外的整句，也不要填 “his work on optics”。題目問 Who，答案必須是人名。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "conscious effort",
+      "answerKey": "conscious effort",
+      "type": "Short-answer Questions",
+      "prompt": "“What is needed when viewing through bifocal glasses?”",
+      "translation": "使用雙焦點眼鏡觀看時需要甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 What is needed，所以答案應是名詞短語。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“bifocal glasses”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“Yet to accommodate the range of situations in which clear vision is needed, from reading books and computer monitors to watching television and driving cars, some glasses are equipped with more than one lens type.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了配合各種需要清晰視力的情境，從閱讀書本和電腦螢幕，到看電視和駕車，有些眼鏡會配備多於一種鏡片類型。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The simplest system is merely to have several pairs of glasses, reserving them for specific tasks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最簡單的系統只是準備幾副眼鏡，並將它們保留給特定任務使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出這段講不同視覺任務與不同鏡片安排。bifocal glasses 也屬於這一類多鏡片安排。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“bifocal glasses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most common are bifocal lenses...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "往後讀一句，就看到 “A conscious effort is therefore needed...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A conscious effort is therefore needed to look through the appropriate section of the lens for the task at hand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，需要有意識地努力，透過鏡片中適合當前任務的部分觀看。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是使用 bifocal lenses 時的要求。因為雙焦點鏡片有兩個不同的水平觀看區域，使用者要刻意選擇適合任務的鏡片區域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： conscious effort = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is needed...?”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“A conscious effort is therefore needed...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 conscious effort。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “appropriate section”。那是使用者要看 through 的位置；題目問 needed 的東西，原文語法直接指向 “conscious effort”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "temperature changes",
+      "answerKey": "temperature changes",
+      "type": "Short-answer Questions",
+      "prompt": "“What can cause condensation on glasses?”",
+      "translation": "甚麼會令眼鏡出現凝結水氣？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 What can cause，所以答案應是原因名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most modern lenses are made of polycarbonate plastic, offering lower weight and greater scratch resistance, as well as the ability to screen out harmful ultraviolet and infrared rays from the sun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數現代鏡片由聚碳酸酯塑膠製成，重量較低、防刮能力較強，也能阻隔太陽中的有害紫外線和紅外線。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Glasses are also awkward during fast-paced sports or manual work, are rather easily broken and are not cheap to repair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "眼鏡在快速運動或體力工作中也很不方便，頗容易破損，而且維修並不便宜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 先講現代鏡片優點，再講眼鏡不便。condensation 屬於眼鏡不便之一，因此應在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“condensation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“fogged by condensation caused by temperature changes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常直接的答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They can be streaked by grease, dirt, sweat and vapour while the wearer is eating or cooking, and fogged by condensation caused by temperature changes (such as when exiting a heated building into the colder outdoors).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "佩戴者進食或煮食時，眼鏡可能被油脂、污垢、汗水和水蒸氣弄出痕跡；眼鏡也可能因溫度變化造成的凝結而起霧，例如從暖氣建築走到較冷的戶外時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 cause condensation。原文說 condensation is caused by temperature changes。因此答案是 temperature changes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： temperature changes = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“What can cause condensation...?”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“condensation caused by temperature changes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 temperature changes。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "grease、dirt、sweat、vapour 會令眼鏡有 streaks，未必是 condensation 的原因。題目專問condensation，真正原因是 temperature changes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "peripheral vision",
+      "answerKey": "peripheral vision",
+      "type": "Short-answer Questions",
+      "prompt": "“What aspect of vision do contact lenses improve more effectively than glasses?”",
+      "translation": "隱形眼鏡比普通眼鏡更有效改善視覺的哪一方面？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 aspect of vision，所以答案應是一個視覺種類或視覺能力。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously then, contact lenses have considerable advantages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，隱形眼鏡顯然有不少優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They can also result in dryness and irritation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們也可能導致乾燥和刺激。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段會先列出 contact lenses 的好處，再指出缺點。題目問 contact lenses improve what aspect of vision，答案應在優點部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“contact lenses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“vision”"
+            },
+            {
+              "kind": "quote",
+              "text": "“improve”"
+            },
+            {
+              "kind": "label",
+              "text": "原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because they cover the pupil completely, contact lenses also offer better peripheral vision...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“better” 對應 “improve more effectively”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Because they cover the pupil completely, contact lenses also offer better peripheral vision, and are more appropriate for certain less common vision impairments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為隱形眼鏡完全覆蓋瞳孔，所以它們也能提供更好的周邊視野，並且更適合某些較不常見的視力障礙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 contact lenses。核心動詞是 “offer better”。答案短語是 “peripheral vision”，即周邊視野。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： peripheral vision = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“improve more effectively than glasses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“offer better peripheral vision”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 peripheral vision。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句後半有 “less common vision impairments”，但題目問 aspect of vision，不是問哪類impairment。要填視覺方面，所以答案是 peripheral vision。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "A — safer",
+      "answerKey": "A — safer",
+      "type": "Multiple Choice",
+      "prompt": "“Modern lenses are”",
+      "translation": "現代鏡片是怎樣的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A safer B heavier C softer D more flexible"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 modern lenses 的特徵，目標段落應是介紹 modern lenses 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most modern lenses are made of polycarbonate plastic, offering lower weight and greater scratch resistance, as well as the ability to screen out harmful ultraviolet and infrared rays from the sun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數現代鏡片由聚碳酸酯塑膠製成，重量較低、防刮能力較強，也能阻隔太陽中的有害紫外線和紅外線。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Glasses are also awkward during fast-paced sports or manual work, are rather easily broken and are not cheap to repair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "眼鏡在快速運動或體力工作中也很不方便，頗容易破損，而且維修並不便宜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接講 modern lenses 的材料和優點，已足以定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern lenses”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接出現 “Most modern lenses”。這是強定位。細讀首句即可判斷選項。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most modern lenses are made of polycarbonate plastic, offering lower weight and greater scratch resistance, as well as the ability to screen out harmful ultraviolet and infrared rays from the sun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數現代鏡片由聚碳酸酯塑膠製成，重量較低、防刮能力較強，也能阻隔太陽中的有害紫外線和紅外線。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A safer正確。原文沒有直接用 safer，但 modern lenses 能阻隔有害紫外線和紅外線，也更防刮，這些都指向更安全、更保護眼睛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B heavier錯。原文說 “lower weight”，即重量較低，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C softer錯。原文沒有說 lenses softer。polycarbonate plastic 也不能自動推成 softer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D more flexible錯。下一句說 “the frames are flexible and lightweight”，flexible 描述 frames，不是 lenses。題目問 modern lenses，所以 D 把特徵套到錯誤物件上。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A safer= screen out harmful ultraviolet and infrared rays= greater scratch resistance答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很有迷惑性，因為原文真的出現 “flexible”。但 flexible 的主語是 frames。做 MCQ 時，不能只看形容詞有沒有出現，還要看它修飾的是 lenses 還是 frames。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "C — generate substantial revenue for shops",
+      "answerKey": "C — generate substantial revenue for shops",
+      "type": "Multiple Choice",
+      "prompt": "“‘Off-the-shelf’ glasses”",
+      "translation": "現成眼鏡是怎樣的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A are not popular B can cause glaucoma C generate substantial revenue for shops D are recommended"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。定位詞 “off-the-shelf” 很強，原文只在 Paragraph 7 出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly though, the modern era has seen eyeglasses become something of a fashion accessory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，現代眼鏡已某程度上成為一種時尚配件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although they are a source of much revenue, opticians advise people first to have proper eye examinations, both to ensure the best results and to detect potential eye diseases early, such as glaucoma, which might actually be the root cause of focusing problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然它們帶來大量收入，但視光師建議人們先進行適當眼睛檢查，以確保最佳效果，也可及早發現 glaucoma 等潛在眼疾；這些眼疾其實可能是聚焦問題的根源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段從眼鏡時尚化講到現成購買和驗眼建議。題目問 off-the-shelf glasses，正好在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Off-the-shelf”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Glasses can now even be bought ‘off the shelf’, without an eye examination, meeting the demand for quick solutions in a busy society.”"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although they are a source of much revenue, opticians advise people first to have proper eye examinations...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“source of much revenue” 對應選項 C。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“Glasses can now even be bought ‘off the shelf’, without an eye examination, meeting the demand for quick solutions in a busy society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在甚至可以不經眼睛檢查便購買現成眼鏡，以滿足忙碌社會中人們對快速解決方案的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although they are a source of much revenue, opticians advise people first to have proper eye examinations...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然它們帶來大量收入，但視光師建議人們先進行適當眼睛檢查……"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A are not popular錯。原文說它們滿足 busy society 對 quick solutions 的需求，並沒有說不受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B can cause glaucoma錯。原文說 proper eye examinations 可及早發現 glaucoma。glaucoma 可能是 focusing problems 的根源，不是 off-the-shelf glasses 造成的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C generate substantial revenue for shops正確。原文 “a source of much revenue” 直接表示它們帶來大量收入。shops 是對 revenue 接收方的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D are recommended錯。原文說 opticians advise people first to have proper eye examinations，表示視光師提醒人們不要只靠現成眼鏡直接解決問題。原文沒有推薦直接購買 off-the-shelf glasses。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "generate substantial revenue= are a source of much revenue答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的 glaucoma 很吸引人，因為原文確實有 glaucoma。但原文把 glaucoma 放在「需要驗眼才能及早發現」的語境中；選項 B 把它改成「現成眼鏡會導致 glaucoma」，這個因果關係沒有原文支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — becoming more popular",
+      "answerKey": "C — becoming more popular",
+      "type": "Multiple Choice",
+      "prompt": "“Laser eye surgery is”",
+      "translation": "激光矯視是怎樣的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A of limited benefit B more convenient than glasses C becoming more popular D complex"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。定位詞 “laser eye surgery” 非常強，答案在最後一段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The face of the future may well be ‘laser eye surgery’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "未來的面貌很可能是「激光眼科手術」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nothing, it seems, can match the simple convenience of putting on a pair of glasses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，沒有甚麼能比得上戴上一副眼鏡那種簡單方便。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段先展望 laser eye surgery，再回到 glasses 的簡單方便。題目問 laser eye surgery 的特徵，應細讀段中描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Laser eye surgery”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the procedure is straightforward and increasingly safe and affordable...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“despite the growth of such surgery...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“growth” 對應 becoming more popular。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“Although the procedure is straightforward and increasingly safe and affordable, the delicacy of the eye means that a small risk of failure and resulting vision problems remains, such as ghosting or halos.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這個程序簡單直接，且越來越安全和可負擔，但眼睛十分精細，意味著仍有小機會失敗並造成視覺問題，例如重影或光暈。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is an interesting fact that, despite the growth of such surgery and the use of contacts, traditional lenses remain as popular as ever.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，儘管這類手術和隱形眼鏡的使用有所增長，傳統鏡片仍和以往一樣受歡迎。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A of limited benefit錯。原文說 laser beams can “provide long-term corrective benefits”。因此它並非只有有限好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B more convenient than glasses錯。尾句說 “Nothing ... can match the simple convenience of putting on a pair of glasses.” 這句反而強調眼鏡的簡單方便難以匹敵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C becoming more popular正確。原文說 “the growth of such surgery”，表示這類手術正在增長，對應 becoming more popular。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D complex錯。原文說 “the procedure is straightforward”，即程序簡單直接。complex 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "becoming more popular= the growth of such surgery答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“face of the future” 可能讓人誤選 B，覺得它一定比眼鏡更方便。但作者最後明確說眼鏡的simple convenience 仍難被超越。MCQ 要讀完整段，尤其要留意最後一句對前面新科技的平衡。最後方法總結這篇文章的主線很清楚：Paragraph 1 引入現代用眼負擔與眼鏡普及；Paragraph 2 講早期眼鏡和修士；Paragraph 3 解釋 myopia、hyperopia 和鏡片原理；Paragraph 4 講多焦點鏡片；Paragraph 5 比較現代眼鏡優點和不便；Paragraph 6 講隱形眼鏡；Paragraph 7 講眼鏡時尚化和現成眼鏡； Paragraph 8 講激光矯視與傳統眼鏡仍受歡迎。做這篇時，最重要是看清範圍詞和主語：most people、most monks、modern lenses、frames、glaucoma、laser surgery 都容易因相鄰資訊而誤判。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Could You Pass Me My Glasses, Please_.pdf",
+    "sha256": "19765e849a37f1183068a92b99abf02ec634f91daf87e6b32492380221810546",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一段首句說，人眼原本沒有為現代社會常見的長年密集書本學習而設計；尾句說，用眼鏡矯正視力幾乎是每個人在人生某階段都可能遇到的事。只看首尾句，可以先估計這段是全文引入：現代學習與生活方式增加視力負擔，眼鏡因此成為普遍、日常、幾乎人人可能需要接觸的解決方法。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句說，最早的眼鏡由天主教修士製作並不令人意外；尾句說，到 1300 年，磨製鏡片的行業已普遍到需要正式行會和規例。只看首尾句，可以估計這段會交代眼鏡的早期歷史：修士在昏暗環境中長期抄寫宗教文本，視力受損；之後眼鏡用途被大眾認識，相關工藝也逐漸制度化。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說，眼鏡雖然流行而有效，但當時無人很清楚其運作機制；尾句說，遠視使用凸透鏡，把焦點向前帶回視網膜。只看首尾句，可以估計這段會解釋眼鏡的科學原理，尤其是 Kepler 的光學說明，以及 myopia 和 hyperopia 兩種聚焦問題如何分別用 concave 和 convex lenses 矯正。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說，人們在不同情境都需要清晰視力，例如閱讀、看電腦、看電視和駕駛；尾句說，最簡單的方法是準備幾副眼鏡，按不同任務使用。只看首尾句，可以估計這段會講多焦點需求和多種鏡片安排，尤其是 bifocal lenses、progressive transitions，以及不同場合用不同眼鏡的實用方法。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句說，現代鏡片多由 polycarbonate plastic 製成，重量較低、防刮能力較強，也能阻隔有害紫外線和紅外線；尾句說，眼鏡在高速運動或體力工作時不方便，也容易破損且維修不便宜。只看首尾句，可以估計這段先講現代眼鏡材料優點，再轉入眼鏡在生活中的實際不便。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句說，contact lenses 明顯有不少優勢；尾句說，它們也可能導致乾燥和刺激。只看首尾句，可以估計這段會比較 contact lenses 和 traditional glasses，包括隱形、美觀、周邊視野更好、適合某些視力問題；同時也會指出配戴和取下不舒服、眼乾和刺激等缺點。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句說，有趣的是，現代眼鏡已某程度上成為 fashion accessory；尾句說，proper eye examinations 可確保最佳效果，也可及早發現 glaucoma 等潛在眼疾。只看首尾句，可以估計這段會講眼鏡的時尚化、名人款式、現成眼鏡 off the shelf，以及 opticians 對未經檢查購買眼鏡的提醒。"
+      },
+      {
+        "number": "8",
+        "summary": "第八段首句說，未來的臉孔可能會是 laser eye surgery；尾句說，儘管手術和隱形眼鏡增長，傳統鏡片仍和以往一樣流行，似乎沒有甚麼能比得上戴眼鏡的簡單方便。只看首尾句，可以估計這段會介紹激光矯視的做法、好處、風險和發展趨勢，最後重新肯定普通眼鏡仍然有強大吸引力。"
+      }
+    ]
+  }
+}

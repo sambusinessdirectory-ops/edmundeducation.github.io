@@ -25,7 +25,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="ielts-reading-analysis.css?v=20260808-2">
+  <link rel="stylesheet" href="ielts-reading-analysis.css?v=20260808-4">
 </head>
 
 <body>
@@ -93,12 +93,29 @@
       </div>
     </section>
 
+    <section class="view view-article-status" data-view="article-status" aria-labelledby="article-status-title" aria-live="polite" hidden>
+      <div class="article-status-card" data-article-status-card>
+        <span class="article-status-icon" data-article-status-icon aria-hidden="true"></span>
+        <p class="section-eyebrow" data-article-status-eyebrow>ARTICLE ANALYSIS</p>
+        <h1 id="article-status-title" data-article-status-title>正在載入解卷分析</h1>
+        <p data-article-status-message>只會在開啟文章時下載這份分析資料。</p>
+        <div class="article-status-actions">
+          <button type="button" data-action="retry-article" hidden>重新載入</button>
+          <button type="button" data-action="status-catalogue">返回文章目錄</button>
+        </div>
+      </div>
+    </section>
+
     <article class="view view-analysis" data-view="analysis" aria-labelledby="analysis-title" hidden>
       <header class="analysis-hero">
         <div>
           <p class="section-eyebrow" data-analysis-eyebrow>IELTS Reading · Passage 1</p>
           <h1 id="analysis-title" data-analysis-title>Mungo Man</h1>
           <p data-analysis-description></p>
+          <aside class="source-notes" data-source-notes hidden>
+            <strong>閱讀前提示</strong>
+            <ul data-source-note-list></ul>
+          </aside>
         </div>
         <div class="analysis-summary">
           <strong data-question-count>14</strong>
@@ -139,8 +156,9 @@
     <div class="noscript-message">請啟用 JavaScript，以使用文章搜尋及逐題分析導覽。</div>
   </noscript>
 
-  <script src="ielts-reading-analysis-index.js?v=20260808-2"></script>
-  <script src="ielts-reading-analysis-content.js?v=20260808-2"></script>
-  <script src="ielts-reading-analysis.js?v=20260808-2"></script>
+  <script src="ielts-reading-analysis-index.js?v=20260808-4"></script>
+  <script src="ielts-reading-analysis-availability.js?v=20260808-4"></script>
+  <script src="ielts-reading-analysis-content.js?v=20260808-4"></script>
+  <script type="module" src="ielts-reading-analysis.js?v=20260808-4"></script>
 </body>
 </html>

@@ -1,0 +1,2116 @@
+{
+  "id": "p1-039-classifying-societies",
+  "catalogueId": "p1-039",
+  "catalogueIds": [
+    "p1-039"
+  ],
+  "passage": 1,
+  "title": "CLASSIFYING SOCIETIES",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "tools",
+    "nomadic",
+    "grouped together",
+    "foodstuffs",
+    "20,000 people",
+    "craft specialists"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There’s little economic difference between members of a clan.”",
+      "translation": "clan 成員之間幾乎沒有經濟差異。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 clan 內部是否存在明顯 economic differences。題目說 “little economic difference”，意思是差異很小或不明顯。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Clan 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are small-scale societies of hunters and gatherers, generally of fewer than 100 people, who move seasonally to exploit wild (undomesticated) food resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些是由 hunters and gatherers 組成的小規模社會，通常少於 100 人，並會按季節移動，以利用野生、未馴化的食物資源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clans lack formal leaders, so there are no marked economic differences or disparities in status among their members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "clans 沒有正式領袖，因此成員之間沒有明顯經濟差異，也沒有明顯地位差距。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到 clan 是低複雜度、低階級化的小型採獵社會。最後一句已經直接觸及題目中的 economic difference。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “economic difference” 和 “members of a clan”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“no marked economic differences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“among their members”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句非常直接，值得進入 Read。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clans lack formal leaders, so there are no marked economic differences or disparities in status among their members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "clans 沒有正式領袖，因此成員之間沒有明顯經濟差異，也沒有明顯地位差距。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 “Clans”。核心因果是：lack formal leaders → no marked economic differences。題目說 little economic difference，原文說 no marked economic differences。兩者方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“little economic difference”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“no marked economic differences”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： little = no marked / not obvious between members = among their members答案判斷原文清楚支持 clan 成員之間沒有明顯經濟差異，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “little”，原文用 “no marked”。這裡不用要求逐字相同。no marked economic differences的意思是沒有明顯差異，足以支援 little economic difference。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The farmers of a tribe grow a wide range of plants.”",
+      "translation": "tribe 的農民種植很多不同種類的植物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查兩件事：tribes 是否有 farmers，以及這些 farmers 是否 grow a wide range of plants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文若只說 cultivated plants，沒有說種類是否廣泛，就屬於資料不足。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Tribe 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are generally larger than mobile hunter-gatherer groups, but rarely number more than a few thousand, and their diet or subsistence is based largely on cultivated plants and domesticated animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些社會通常比流動 hunter-gatherer groups 大，但很少超過幾千人；它們的飲食或生計主要基於栽培植物和馴化動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although some tribes have officials and even a ‘capital’ or seat of government, such officials lack the economic base necessary for the effective use of power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然有些 tribes 有 officials，甚至有 “capital” 或政府所在地，但這些 officials 缺乏有效使用權力所需的經濟基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 tribes 的生計與 cultivated plants 有關，所以這段與題目部分相關。但 “wide range” 是否成立，需要進一步細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wide range of plants”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“cultivated plants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Typically, they are settled farmers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些只說明 tribes 可以是農民，並種植作物。掃描後仍要問：原文有沒有 “wide range / many types / various plants” 一類資訊？"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typically, they are settled farmers, but they may be nomadic with a very different, mobile economy based on the intensive exploitation of livestock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，他們是定居農民；但他們也可能是 nomadic，擁有非常不同的流動經濟，主要密集利用牲畜。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“their diet or subsistence is based largely on cultivated plants and domesticated animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的飲食或生計主要基於栽培植物和馴化動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只支援 “tribes may be settled farmers” 和 “cultivated plants”。題目加入 “wide range” 這個程度資訊，要求文章說明植物種類很多或範圍廣。原文沒有提供這項資料。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與缺失",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目有："
+            },
+            {
+              "kind": "quote",
+              "text": "“grow a wide range of plants”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“cultivated plants”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少： wide range many different plants variety of crops a broad selection of plants答案判斷原文沒有說 tribe farmers 種植很多不同種類的植物，也沒有說種類很少。資料不足，所以答案是NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“cultivated plants” 容易令人直接選 TRUE。可是 cultivated 只表示植物被栽培，沒有表示種類廣泛。題目真正控制答案的是 “a wide range”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“One settlement is more important than any other settlement in a tribe.”",
+      "translation": "在 tribe 中，有一個 settlement 比其他 settlement 更重要。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 tribe 的 settlement pattern 是否有一個 dominant settlement。題目說 one settlement is more important；原文若說 no one settlement dominates，就是相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Tribe 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The typical settlement pattern for tribes is one of settled agricultural homesteads or villages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "tribes 的典型定居模式是定居農業 homesteads 或 villages。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternatively, they may be clusters of buildings grouped together, for example, the pueblos of the American Southwest, and the early farming village or small town of Catalhoyuk in modern Turkey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種情況是，它們可能是 grouped together 的建築群，例如 American Southwest 的 pueblos，以及現代土耳其的早期農業村落或小鎮 Catalhoyuk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段談 tribe 的 settlement pattern。題目問一個 settlement 是否比其他更重要，應在這段找 dominates / important / settlement 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“one settlement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more important”"
+            },
+            {
+              "kind": "quote",
+              "text": "“any other settlement”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Characteristically, no one settlement dominates any of the others in the region.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “dominates” 就是 “more important / more powerful” 的強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Characteristically, no one settlement dominates any of the others in the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "典型情況下，沒有任何一個 settlement 會支配該地區其他 settlement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 “no one settlement”。核心動詞是 “dominates”。程度詞 “no” 直接否定題目說法。題目說一個 settlement 比其他重要；原文說沒有一個 settlement dominates others。兩者方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與相反關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“One settlement is more important than any other settlement”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“no one settlement dominates any of the others”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： more important = dominates any other settlement = any of the others題目肯定；原文否定答案判斷原文提供清楚相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落後半有 “villages”、“clusters”、“Catalhoyuk” 等例子，容易令人只注意聚落形式。真正決定答案的是 “no one settlement dominates”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A member’s status in a chiefdom is determined by how much land he owns.”",
+      "translation": "在 chiefdom 中，一名成員的地位由他擁有多少土地決定。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要查 status 的決定因素。題目說 land ownership；原文若說 closeness to the chief，就構成相反關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Chiefdom 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These operate on the principle of ranking—differences in social status between people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類社會根據 ranking 運作，即人與人之間存在 social status 差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The role of the chief is crucial.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chief 的角色非常關鍵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯處理 chiefdom 的地位秩序和 chief 的中心地位。題目問 member’s status，目標段落很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“status”"
+            },
+            {
+              "kind": "quote",
+              "text": "“determined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“land”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prestige and rank are determined by how closely related one is to the chief”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 “determined”，值得細讀。原文沒有 land ownership 作為地位來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prestige and rank are determined by how closely related one is to the chief, and there is no true stratification into classes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "prestige 和 rank 由一個人與 chief 的親近程度決定，並沒有真正分化成不同階級。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 “Prestige and rank”。核心動詞是 “are determined by”。決定因素是 “how closely related one is to the chief”。題目把決定因素改成 “how much land he owns”，文章沒有這樣說，而且原文已給出另一個明確因素。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與相反關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“status … determined by how much land he owns”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prestige and rank are determined by how closely related one is to the chief”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果： status = prestige and rank determined by = are determined by land ownership 與 closeness to chief 不同答案判斷原文直接給出地位決定因素，和題目說法不一致，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "chiefdom 後文提到 foodstuffs、surpluses、centre of power，會讓人想到經濟資源。但 Q4 問的是status 的正式原理，答案必須回到 “related to the chief”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There are people who craft goods in chiefdoms.”",
+      "translation": "chiefdoms 中有人製作手工或工藝品。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要確認 chiefdom 是否有 craft production 或 craft specialists。題目說 people who craft goods，原文可能寫 craft products 或 craft specialists。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Chiefdom 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, there is local specialisation in craft products, and surpluses of these and of foodstuffs are periodically paid as an obligation to the chief.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，當地會有 craft products 的專門化生產，而這些工藝品和 foodstuffs 的剩餘會定期作為義務交給 chief。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chiefdoms vary greatly in size, but the range is generally between about 5,000 and 20,000 people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chiefdoms 的規模差異很大，但通常介乎約 5,000 至 20,000 人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接出現 craft products，所以題目高度可能在這段找到答案。中間還有 “craft specialists”，更能支援題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“craft goods”"
+            },
+            {
+              "kind": "quote",
+              "text": "“people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應有兩處："
+            },
+            {
+              "kind": "quote",
+              "text": "“craft products”"
+            },
+            {
+              "kind": "quote",
+              "text": "“craft specialists”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“craft specialists” 指專門製作工藝品的人，和題目說 people who craft goods 非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The chiefdom generally has a centre of power, often with temples, residences of the chief and his retainers, and craft specialists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chiefdom 通常有一個權力中心，經常包括 temples、chief 和 retainers 的住所，以及 craft specialists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說 chiefdom 有 craft specialists。再看段首 “local specialisation in craft products”，可見這些人與 craft products 的生產有關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“people who craft goods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“craft specialists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“local specialisation in craft products”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： people who craft goods = craft specialists goods = craft products答案判斷原文清楚提到 chiefdom 中有 craft specialists，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The king maintains order in a state by using an army.”",
+      "translation": "在 state 中，king 透過軍隊維持秩序或執行統治。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要查 early state 的 ruler 是否能用 army enforce laws。題目中的 king 是 ruler 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Early State 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These preserve many of the features of chiefdoms, but the ruler (perhaps a king or sometimes a queen) has explicit authority to establish laws and also to enforce them through the use of a standing army.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "early states 保留 chiefdom 的許多特徵，但 ruler，也許是 king 或 queen，有明確權力制定法律，並且透過 standing army 來執行法律。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many early states developed complex redistribution systems to support these essential services.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 early states 發展出複雜的再分配系統，以支援這些 essential services。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接包含 king / ruler、laws、standing army，是 Q6 的答案段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“king”"
+            },
+            {
+              "kind": "quote",
+              "text": "“army”"
+            },
+            {
+              "kind": "quote",
+              "text": "“maintains order”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“ruler (perhaps a king or sometimes a queen)”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enforce them through the use of a standing army”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the ruler (perhaps a king or sometimes a queen) has explicit authority to establish laws and also to enforce them through the use of a standing army.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ruler，也許是 king 或 queen，有明確權力制定法律，並透過 standing army 執行法律。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “maintains order”。原文說 “establish laws” and “enforce them”。在政治社會語境中，制定並執行法律就是維持秩序的一種方式。原文還明確說透過 standing army 執行，因此題目方向成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "king = ruler, perhaps a king maintains order = establish laws and enforce them using an army = through the use of a standing army答案判斷原文支援 king / ruler 以軍隊執行法律，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “maintains order”，原文沒有逐字出現 order。判斷要看 laws + enforce + standing army這組概念，它足以支援維持秩序的概括。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Bureaucratic officers receive higher salaries than other members.”",
+      "translation": "官僚 officers 比其他成員得到更高薪酬。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要查 bureaucratic officers 的待遇，尤其是 salary comparison。若原文只說他們 collect revenue，沒有比較薪酬，就屬資料不足。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Early State 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These preserve many of the features of chiefdoms, but the ruler (perhaps a king or sometimes a queen) has explicit authority to establish laws and also to enforce them through the use of a standing army.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "early states 保留 chiefdom 的許多特徵，但 ruler，也許是 king 或 queen，有明確權力制定法律，並透過 standing army 執行法律。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many early states developed complex redistribution systems to support these essential services.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 early states 發展出複雜的再分配系統，以支援這些 essential services。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談 early state 的統治、階級和 revenue distribution，所以 Q7 可能在這段。但是否有 salary comparison，要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bureaucratic officers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“higher salaries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other members”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The central capital houses a bureaucratic administration of officials…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但掃描不到 salaries、higher pay、wages、more income 等資訊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The central capital houses a bureaucratic administration of officials; one of their principal purposes is to collect revenue (often in the form of taxes and tolls) and distribute it to the government, the army and craft specialists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中央首都容納一套由 officials 組成的官僚行政系統；他們的一個主要目的，是收取 revenue，通常是 taxes 和 tolls 的形式，並把它分配給政府、軍隊和 craft specialists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 officials 的 principal purposes 是收 revenue 和 distribute revenue。它沒有說 officials 自己得到多少收入，也沒有說他們比其他人 salary higher。文章提到分配對象包括 government、army、craft specialists，但不等於官僚 officers 的薪酬高於其他成員。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： bureaucratic officers receive higher salaries than other members原文有： bureaucratic administration of officials collect revenue distribute it to government, army and craft specialists缺少： salaries higher / lower comparison officials’ personal income答案判斷原文沒有足夠資料判斷 bureaucratic officers 是否收取較高薪酬，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 revenue 和 distribute，學生容易想到 salary。可是 revenue distribution 是國家資源分配，不等同於官員薪酬比較。題目加入了 salary hierarchy，文章沒有提供。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "tools",
+      "answerKey": "tools",
+      "type": "Short-answer Questions",
+      "prompt": "“What is made at clan work sites?”",
+      "translation": "clan 的 work sites 會製作甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 What，所以答案應是物件名詞。題目定位詞是 “clan work sites”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Clan 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because clans are composed of mobile groups of hunter-gatherers, their sites consist mainly of seasonally occupied camps, and other smaller and more specialised sites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 clans 由流動 hunter-gatherer groups 組成，所以其遺址主要包括季節性 camps，以及其他更小、更專門的地點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The base camp of such a group may give evidence of rather insubstantial dwellings or temporary shelters, along with the debris of residential occupation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類群體的 base camp 可能留下相當不堅固的 dwellings 或 temporary shelters 的證據，以及居住活動留下的 debris。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段談 clan 的不同 archaeological sites。題目提 work sites，應在中間找專門活動地點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “work sites”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“work sites, where tools are made or other specific activities carried out.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among the latter are kill or butchery sites—locations where large mammals are killed and sometimes butchered—and work sites, where tools are made or other specific activities carried out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後者包括 kill or butchery sites，也就是大型哺乳動物被殺死、有時被屠宰的地點；也包括 work sites，在那裡會製作 tools 或進行其他特定活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What is made?” 原文說 “tools are made”。答案就是 tools。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查tools = 1 word符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "made at work sites = where tools are made"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "nomadic",
+      "answerKey": "nomadic",
+      "type": "Short-answer Questions",
+      "prompt": "“What is the other way of life for tribes besides settled farming?”",
+      "translation": "除了定居農耕之外，tribes 的另一種生活方式是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 way of life，答案應是生活型態。定位詞是 “settled farming” 和 “other way”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Tribe 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are generally larger than mobile hunter-gatherer groups, but rarely number more than a few thousand, and their diet or subsistence is based largely on cultivated plants and domesticated animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "tribes 通常比流動 hunter-gatherer groups 大，但很少超過幾千人；其飲食或生計主要基於栽培植物和馴化動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although some tribes have officials and even a ‘capital’ or seat of government, such officials lack the economic base necessary for the effective use of power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然有些 tribes 有 officials，甚至有 capital 或政府所在地，但這些 officials 缺乏有效使用權力所需的經濟基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段介紹 tribe 的規模、生計和權力限制。題目問 settled farming 之外的生活方式，應看中間對 subsistence 的比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“settled farming”"
+            },
+            {
+              "kind": "quote",
+              "text": "“besides”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typically, they are settled farmers, but they may be nomadic…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typically, they are settled farmers, but they may be nomadic with a very different, mobile economy based on the intensive exploitation of livestock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，他們是定居農民；但他們也可能是 nomadic，擁有一種非常不同的流動經濟，主要密集利用牲畜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “the other way of life”。原文用 but 引出 alternative：nomadic。後面的 “mobile economy based on livestock” 解釋 nomadic 的生活方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查nomadic = 1 word符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "other way of life = may be nomadic besides settled farming = but they may be nomadic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "grouped together",
+      "answerKey": "grouped together",
+      "type": "Short-answer Questions",
+      "prompt": "“How are Catalhoyuk’s housing units arranged?”",
+      "translation": "Catalhoyuk 的 housing units 是如何排列的？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 How，所以答案通常是方式短語。定位詞是 “Catalhoyuk”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Tribe 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The typical settlement pattern for tribes is one of settled agricultural homesteads or villages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "tribes 的典型定居模式是定居農業 homesteads 或 villages。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternatively, they may be clusters of buildings grouped together, for example, the pueblos of the American Southwest, and the early farming village or small town of Catalhoyuk in modern Turkey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種情況是，它們可能是 grouped together 的建築群，例如 American Southwest 的 pueblos，以及現代土耳其的早期農業村落或小鎮 Catalhoyuk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接出現 Catalhoyuk 和 housing arrangement，因此是目標句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Catalhoyuk”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文在同一句中給出排列方式："
+            },
+            {
+              "kind": "quote",
+              "text": "“clusters of buildings grouped together”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternatively, they may be clusters of buildings grouped together, for example, the pueblos of the American Southwest, and the early farming village or small town of Catalhoyuk in modern Turkey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種情況是，它們可能是 grouped together 的建築群，例如 American Southwest 的 pueblos，以及現代土耳其的早期農業村落或小鎮 Catalhoyuk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “housing units” 改寫成 “buildings”。“How are they arranged?” 對應原文 “grouped together”。如果填 “clusters of buildings” 會超過兩個詞，所以最合適答案是 grouped together。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查grouped together = 2 words符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "housing units = buildings arranged = grouped together"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "foodstuffs",
+      "answerKey": "foodstuffs",
+      "type": "Short-answer Questions",
+      "prompt": "“What does a chief give to his subjects as rewards besides crafted goods?”",
+      "translation": "除了 crafted goods 之外，chief 還會把甚麼給 subjects 作為回報或再分配？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 What，所以答案應是物品名詞。題目中的 crafted goods 對應 craft products，要找另一類東西。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Chiefdom 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, there is local specialisation in craft products, and surpluses of these and of foodstuffs are periodically paid as an obligation to the chief.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，當地會有 craft products 的專門化生產，而這些工藝品和 foodstuffs 的剩餘會定期作為義務交給 chief。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chiefdoms vary greatly in size, but the range is generally between about 5,000 and 20,000 people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chiefdoms 的規模差異很大，但通常介乎約 5,000 至 20,000 人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接列出 craft products 和 foodstuffs。題目問 besides crafted goods，即要找 craft products之外的另一項。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“chief”"
+            },
+            {
+              "kind": "quote",
+              "text": "“subjects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crafted goods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“craft products”"
+            },
+            {
+              "kind": "quote",
+              "text": "“foodstuffs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“redistribution to his subjects”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, there is local specialisation in craft products, and surpluses of these and of foodstuffs are periodically paid as an obligation to the chief.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，當地會有 craft products 的專門化生產，而這些工藝品和 foodstuffs 的剩餘會定期作為義務交給 chief。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He uses these to maintain his retainers, and may use them for redistribution to his subjects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他會使用這些物品來維持 retainers，也可能把它們重新分配給 subjects。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二句的 “these” 指前一句的 craft products 和 foodstuffs。題目說 besides crafted goods，所以剩下的是 foodstuffs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查foodstuffs = 1 word符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "crafted goods = craft products give to subjects as rewards = use them for redistribution to his subjects besides crafted goods = foodstuffs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "20,000 people",
+      "answerKey": "20,000 people",
+      "type": "Short-answer Questions",
+      "prompt": "“What is the largest possible population of a chiefdom?”",
+      "translation": "chiefdom 最大可能人口是多少？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 population，答案應是數字，可連同單位 people。定位詞是 “chiefdom” 和 “largest possible population”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Chiefdom 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, there is local specialisation in craft products, and surpluses of these and of foodstuffs are periodically paid as an obligation to the chief.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，當地會有 craft products 的專門化生產，而這些工藝品和 foodstuffs 的剩餘會定期作為義務交給 chief。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chiefdoms vary greatly in size, but the range is generally between about 5,000 and 20,000 people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chiefdoms 的規模差異很大，但通常介乎約 5,000 至 20,000 人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接給出人口範圍，題目問 largest possible population，所以取上限。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“largest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“population”"
+            },
+            {
+              "kind": "quote",
+              "text": "“chiefdom”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“range is generally between about 5,000 and 20,000 people”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chiefdoms vary greatly in size, but the range is generally between about 5,000 and 20,000 people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chiefdoms 的規模差異很大，但通常介乎約 5,000 至 20,000 人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有一個範圍：5,000 是下限，20,000 是上限。題目問 largest possible population，所以答案是20,000 people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查20,000 people = 1 number + 1 word符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "largest possible population = upper end of the range between about 5,000 and 20,000 people = 20,000 people"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "craft specialists",
+      "answerKey": "craft specialists",
+      "type": "Short-answer Questions",
+      "prompt": "“Which group of people is at the bottom of an early state but higher than the farmers?”",
+      "translation": "在 early state 的階級中，哪一類人位於農民之上？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Which group of people，所以答案應是人群名稱。題目措辭有一點壓縮；若把 “farmers”理解為原文中的 agricultural workers，原文直接說在他們之上的群體是 craft specialists。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Early State 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These preserve many of the features of chiefdoms, but the ruler (perhaps a king or sometimes a queen) has explicit authority to establish laws and also to enforce them through the use of a standing army.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "early states 保留 chiefdom 的許多特徵，但 ruler，也許是 king 或 queen，有明確權力制定法律，並透過 standing army 執行法律。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many early states developed complex redistribution systems to support these essential services.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 early states 發展出複雜的再分配系統，以支援這些 essential services。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會講 state 的 class stratification，題目問 hierarchy，所以目標段落明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“bottom”"
+            },
+            {
+              "kind": "quote",
+              "text": "“higher than the farmers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Agricultural workers and the poorer urban dwellers form the lowest classes, with the craft specialists above…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Agricultural workers and the poorer urban dwellers form the lowest classes, with the craft specialists above, and the priests and kinsfolk of the ruler higher still.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "agricultural workers 和 poorer urban dwellers 構成最低階級；craft specialists 在其上；priests 和ruler 的親屬則更高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句給出清楚階級順序：最低層：agricultural workers + poorer urban dwellers其上：craft specialists更高：priests + ruler’s kinsfolk題目中的 farmers 對應 agricultural workers。問 higher than the farmers，原文答案是 craft specialists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查craft specialists = 2 words符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "farmers = agricultural workers higher than = above group of people = craft specialists"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“poorer urban dwellers” 和 agricultural workers 一起形成 lowest classes，所以若題目只是問lowest classes，這會是答案之一。可是題目加了 “higher than the farmers”，因此要找 agricultural workers 之上的群體。原文的 “with the craft specialists above” 直接定案。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - CLASSIFYING SOCIETIES.pdf",
+    "sha256": "97796c6a6e374e04526bd75cafe593bd35f93adbe1c1f3179f3759f8a35bca97",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看第一句，讀者會先知道人類歷史上有很多社會類型，社會學家和人類學家常根據社會內部不同群體取得資源、prestige 或 power 的不平等程度來分類。最後一句直接列出四種基本社會： clans、tribes、chiefdoms、states，並按社會複雜程度由低至高排列。首尾句合起來看，這段是全文總框架，告訴我們後文會逐一比較四種社會的規模、權力、階級、經濟和定居模式。",
+        "label": "Introduction"
+      },
+      {
+        "number": "2",
+        "summary": "只看第一句，讀者會先知道 clan 是 small-scale societies，由 hunters and gatherers 組成，通常少於 100 人，並會按季節移動以利用野生食物資源。最後一句說 clans 沒有正式領袖，因此成員之間沒有明顯 economic differences 或 status disparities。首尾句顯示，這段重點是 clan 的低複雜度和相對平等：人少、流動、靠採獵維生、成員多有親屬關係，沒有正式權力和明顯階級差距。",
+        "label": "Clan 1"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說，因為 clans 由流動的 hunter-gatherer groups 組成，所以其遺址主要是季節性 camps，以及較小、較專門的地點。最後一句說，base camp 可能留下不太堅固的 dwellings 或temporary shelters，以及居住活動留下的 debris。首尾句顯示，這段轉向考古證據：clan 的生活方式會反映在不同類型遺址中，例如 kill or butchery sites、work sites、base camps。Q8 的答案會在 work sites 找到。",
+        "label": "Clan 2"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說 tribes 通常比流動 hunter-gatherer groups 大，但很少超過幾千人，飲食或 subsistence主要基於 cultivated plants 和 domesticated animals。最後一句說，雖然有些 tribes 有 officials 甚至 capital，但這些 officials 缺乏有效使用權力所需的 economic base。首尾句顯示，tribe 複雜過clan，但仍未形成強大統治權。中間特別提到 settled farmers 和 nomadic livestock economy，會支援 Q2 和 Q9。",
+        "label": "Tribe 1"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說，tribes 的典型 settlement pattern 是 settled agricultural homesteads 或 villages。最後一句說，另一種形式是 buildings grouped together，例如 American Southwest 的 pueblos，以及現代土耳其的 Catalhoyuk。首尾句顯示，這段焦點是 tribe 的居住模式：可能是分散、永久居住的houses，也可能是 permanent villages。關鍵句 “no one settlement dominates” 直接控制 Q3，而Catalhoyuk 的 grouped together 會支援 Q10。",
+        "label": "Tribe 2"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說 chiefdoms 根據 ranking 運作，即人與人之間存在 social status 差異。最後一句說， chief 的角色非常關鍵。首尾句顯示，這段要解釋 chiefdom 的權力和 prestige 結構。中間說不同lineages 按 prestige 排列，senior lineage 由 chief 管治，而個人 rank 取決於和 chief 的親近程度。這段會支援 Q4，因為地位來源在 kinship relation，不在土地擁有量。",
+        "label": "Chiefdom 1"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說 chiefdoms 常有 local specialisation in craft products，並且 craft products 和 foodstuffs的 surplus 會定期交給 chief。最後一句說 chiefdoms 規模差異很大，但通常約有 5,000 至20,000 人。首尾句顯示，這段處理 chiefdom 的經濟運作和人口規模。chief 接收物品後維持retainers，也可能重新分配給 subjects。這段會支援 Q5、Q11 和 Q12。",
+        "label": "Chiefdom 2"
+      },
+      {
+        "number": "8",
+        "summary": "第一句說 early states 保留很多 chiefdom 特徵，但 ruler，例如 king 或 queen，有明確權力制定法律，並透過 standing army 執行法律。最後一句說，許多 early states 發展出複雜的redistribution systems，以支援政府、軍隊和 craft specialists 等 essential services。首尾句顯示，這段集中解釋 state 的高複雜度：法律、軍隊、階級、稅收、官僚行政、首都和資源再分配。Q6、Q7、Q13 都在這段。",
+        "label": "Early State 1"
+      },
+      {
+        "number": "9",
+        "summary": "第一句說，這套由 Elman Service 提出、William Sanders 和 Joseph Marino 補充的 social typology 可以受到批評，也不應被不加思考地使用。最後一句說，Service’s categories 仍提供一個好框架，幫助我們整理對 early societies 的想法。首尾句顯示，作者最後不是把四分類視為絕對真理，而是提醒它是一個有用但需要小心使用的概念工具。這段沒有直接出題，但幫助理解全文態度。 Answer Key 1. TRUE 2. NOT GIVEN 3. FALSE 4. FALSE 5. TRUE 6. TRUE 7. NOT GIVEN 8. tools 9. nomadic 10. grouped together 11. foodstuffs 12. 20,000 people 13. craft specialists",
+        "label": "Conclusion"
+      }
+    ]
+  }
+}

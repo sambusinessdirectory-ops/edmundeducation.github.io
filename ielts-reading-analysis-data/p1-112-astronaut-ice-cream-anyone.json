@@ -1,0 +1,1923 @@
+{
+  "id": "p1-112-astronaut-ice-cream-anyone",
+  "catalogueId": "p1-112",
+  "catalogueIds": [
+    "p1-112"
+  ],
+  "passage": 1,
+  "title": "Astronaut ice cream, anyone?",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "transportation",
+    "pharmaceuticals",
+    "manuscripts",
+    "sublimation",
+    "simple drying / simple drying techniques",
+    "chamber / freeze-drying chamber",
+    "shelves",
+    "freezing coil",
+    "compressor / refrigerator compressor",
+    "enzymes",
+    "composition",
+    "overheating",
+    "high altitudes"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "transportation",
+      "answerKey": "transportation",
+      "type": "Notes Completion",
+      "prompt": "“easy 1 _________________ of food items”",
+      "translation": "食物項目的容易__________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格前有形容詞 easy，後面有 “of food items”，所以空格需要一個名詞，意思要和「食物變得更容易搬運或運輸」相關。字數限制是 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freeze-drying significantly reduces the total weight of the food because most food is largely made up of water; for example, many fruits are 80–90% water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冷凍乾燥會大幅降低食物總重量，因為大多數食物主要由水構成；例如，許多水果有 80–90% 是水。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The military and camping-supply companies freeze-dry foods to make them easier for an individual to carry and NASA has also freeze-dried foods for the cramped quarters on board spacecraft.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "軍方和露營用品公司會冷凍乾燥食物，使個人更容易攜帶；NASA 也為太空船上狹小的空間使用冷凍乾燥食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段很明顯在說 food weight reduction 和 easier carrying，所以和題目中的 easy of food items 有直接關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “easy” 和 “food items”。原文沒有用 “food items”，但反覆用 “food”。掃描Paragraph 2 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Removing this makes the food much lighter and therefore makes transportation less difficult.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含 transportation 和 less difficult，正好對應題目 easy。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Removing this makes the food much lighter and therefore makes transportation less difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去除水分會使食物輕得多，因此使運輸變得較不困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “transportation less difficult” 改寫成 “easy transportation”。空格前的 easy 已經給出形容詞，所以空格只需要名詞 transportation。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：easy transportation of food items"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：makes transportation less difficult / makes the food much lighter改寫關係： easy = less difficult food items = food transportation = transportation 原字重現答案形式檢查transportation 是一個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：transportation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "pharmaceuticals",
+      "answerKey": "pharmaceuticals",
+      "type": "Notes Completion",
+      "prompt": "“long-term storage of 2 _________________ and biological samples”",
+      "translation": "__________ 和生物樣本的長期儲存。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面有 “and biological samples”，所以空格應該是另一類可被長期保存的材料。題目用long-term storage，原文可能用 shelf life、preserve for long periods of time 這類表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The process is also used to preserve other sorts of material, such as pharmaceuticals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程也用於保存其他種類的材料，例如藥品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even valuable manuscripts that had been water-damaged have been saved by using this process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使是已被水損壞的珍貴手稿，也曾透過這個過程被保存下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經點出 pharmaceuticals，末句補充 manuscripts，整段都是 non-food preservation 的應用。題目同時提到 biological samples，正好落在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“long-term storage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“biological samples”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“extend the shelf life of pharmaceuticals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“preserve biological samples for long periods of time”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chemists can greatly extend the shelf life of pharmaceuticals by freeze-drying the material and storing it in a container free of oxygen and water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "化學家可以透過冷凍乾燥材料，並把它存放在沒有氧氣和水分的容器中，大大延長藥品的保存期限。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, research scientists may use freeze-drying to preserve biological samples for long periods of time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，研究科學家可能會使用冷凍乾燥，長時間保存生物樣本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這兩句合併成一個 note：long-term storage of pharmaceuticals and biological samples。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "long-term storage = extend the shelf life / preserve for long periods of time pharmaceuticals = pharmaceuticals 原字重現biological samples = biological samples 原字重現答案形式檢查pharmaceuticals 是一個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：pharmaceuticals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "manuscripts",
+      "answerKey": "manuscripts",
+      "type": "Notes Completion",
+      "prompt": "“preservation of precious 3 _________________”",
+      "translation": "珍貴__________的保存。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 precious，空格需要名詞。題目中的 preservation 會對應原文 saved / preserve。要找一種 precious 或 valuable 的物件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The process is also used to preserve other sorts of material, such as pharmaceuticals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程也用於保存其他種類的材料，例如藥品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even valuable manuscripts that had been water-damaged have been saved by using this process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使是已被水損壞的珍貴手稿，也曾透過這個過程被保存下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落首句說保存其他材料；末句直接提到 valuable manuscripts。題目中的 precious 很可能改寫valuable。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “precious” 和 “preservation”。原文沒有 precious，但有 “valuable”；沒有preservation，但有 “saved”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even valuable manuscripts that had been water-damaged have been saved by using this process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使是已被水損壞的珍貴手稿，也曾透過這個過程被保存下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “precious” 對應原文 “valuable”；“preservation” 對應 “have been saved”。空格要填被保存的物件，即 manuscripts。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "precious = valuable preservation = saved manuscripts = manuscripts 原字重現答案形式檢查manuscripts 是一個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：manuscripts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "sublimation",
+      "answerKey": "sublimation",
+      "type": "Notes Completion",
+      "prompt": "“Freeze-drying is based on the process of 4 _________________”",
+      "translation": "冷凍乾燥基於__________這個過程。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “process of”，所以空格需要一個過程名稱。題目問 freeze-drying 的科學基礎，不是問用途，因此應定位到原理解釋段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is possible because in freeze-drying, solid water—ice—is converted directly into water vapour, missing out the liquid phase entirely.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這之所以可能，是因為在冷凍乾燥中，固態水——冰——會直接轉化成水蒸氣，完全跳過液態階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the temperature is above freezing point, so that ice can thaw, but the atmospheric pressure is too low for a liquid to form (below 0.06 atmospheres, or atm), the water becomes a gas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當溫度高於冰點，使冰可以融化，但大氣壓低到不足以形成液體時，水就會變成氣體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句描述 solid 直接變 gas，這正是 sublimation。最後句補充發生條件：heat 和 low atmospheric pressure。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“based on”"
+            },
+            {
+              "kind": "quote",
+              "text": "“process”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is called ‘sublimation’, the shift from a solid directly into a gas.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is called ‘sublimation’, the shift from a solid directly into a gas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這稱為「昇華」，即從固體直接轉變成氣體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 freeze-drying is based on the process of ______。原文直接命名此過程為 sublimation。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "process of sublimation = the shift from a solid directly into a gas based on = possible because / This is the principle答案形式檢查sublimation 是一個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：sublimation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "simple drying / simple drying techniques",
+      "answerKey": "simple drying / simple drying techniques",
+      "type": "Notes Completion",
+      "prompt": "“Freeze-drying is more efficient than 5 _________________”",
+      "translation": "冷凍乾燥比__________更有效。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “more efficient than”，所以要找文章中拿 freeze-drying 作比較的另一種方法。定位詞是 more efficient / different from / simple drying。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freeze-drying is different from simple drying because it is able to remove almost all the water from materials, whereas simple drying techniques can only remove 90–95%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冷凍乾燥不同於普通乾燥，因為它能從材料中去除幾乎所有水分；相比之下，普通乾燥技術只能去除 90–95%。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, the composition and structure of the material are not significantly changed, so materials can be revitalised without compromising the quality of the original.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，材料的成分和結構不會明顯改變，因此材料可以重新恢復，而不會損害原本品質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段就在比較 freeze-drying 和 simple drying，並指出前者更徹底、品質保留更好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“more efficient than”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“different from simple drying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remove almost all the water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“simple drying techniques can only remove 90–95%”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freeze-drying is different from simple drying because it is able to remove almost all the water from materials, whereas simple drying techniques can only remove 90–95%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冷凍乾燥和普通乾燥不同，因為它能去除材料中幾乎所有水分；普通乾燥技術只能去除 90–95%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “able to remove almost all water” 概括為 “more efficient”。比較對象是 simple drying 或simple drying techniques。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "more efficient = able to remove almost all the water than simple drying = different from simple drying / simple drying techniques can only remove 90–95%答案形式檢查simple drying 是兩個字；simple drying techniques 是三個字。兩者都符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：simple drying / simple drying techniques"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "chamber / freeze-drying chamber",
+      "answerKey": "chamber / freeze-drying chamber",
+      "type": "Diagram Label Completion",
+      "prompt": "Label the diagram: 6 _________________",
+      "translation": "標示圖中第 6 號部件。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Diagram Label Completion。空格要填機器部件名稱，字數限制是 NO MORE THAN TWO WORDS。由於你貼出的圖像箭嘴不可見，號碼位置需按同題 diagram 對應；文本本身能確認該部件名稱來自 Paragraph 6。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the principle on which a freeze-drying machine is based.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是冷凍乾燥機所依據的原理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The water vapour condenses onto the freezing coil in the form of solid ice, in the same way that water condenses as frost on a cold day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水蒸氣會以固態冰的形式凝結在冷凍線圈上，就像寒冷日子裡水凝結成霜一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段由機器原理開始，到水蒸氣在 coil 上凝結作結，正是 diagram label 的來源段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Diagram 題要按圖中位置掃描部件。Paragraph 6 的第一批部件包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“freeze-drying chamber”"
+            },
+            {
+              "kind": "quote",
+              "text": "“freezing coil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“refrigerator compressor”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The material to be preserved is placed in a freeze-drying chamber which is connected to a freezing coil and refrigerator compressor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要被保存的材料會被放進一個冷凍乾燥室，而這個乾燥室連接著冷凍線圈和冰箱壓縮機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果圖中第 6 號指向主要容器或外殼，答案就是 chamber / freeze-drying chamber。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查chamber 是一個字；freeze-drying chamber 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：chamber / freeze-drying chamber"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "shelves",
+      "answerKey": "shelves",
+      "type": "Diagram Label Completion",
+      "prompt": "Label the diagram: 7 _________________",
+      "translation": "標示圖中第 7 號部件。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題仍是 Diagram Label。空格需要機器內部部件名詞。根據同題 diagram 對應，第 7 號指向shelves，即材料放置或受熱的位置。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the principle on which a freeze-drying machine is based.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是冷凍乾燥機所依據的原理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The water vapour condenses onto the freezing coil in the form of solid ice, in the same way that water condenses as frost on a cold day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水蒸氣會以固態冰的形式凝結在冷凍線圈上，就像寒冷日子裡水凝結成霜一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 的中段逐步描述機器內部操作，包括抽氣、加熱、shelves 和 ice phase change。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文中與 shelves 相關的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The heating units apply a small amount of heat to the shelves in the chamber…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The heating units apply a small amount of heat to the shelves in the chamber, causing the ice to change phase.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加熱裝置會向乾燥室內的架子施加少量熱力，使冰改變狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 shelves 位於 chamber 內部，並接受 heating units 的小量加熱。若 diagram 第 7 號箭嘴指向 chamber 內放材料的層板，答案就是 shelves。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "diagram label = machine part原文部件名 = shelves答案形式檢查shelves 是一個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：shelves"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "freezing coil",
+      "answerKey": "freezing coil",
+      "type": "Diagram Label Completion",
+      "prompt": "Label the diagram: 8 _________________",
+      "translation": "標示圖中第 8 號部件。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要標示冷凍乾燥機中的其中一個連接部件。根據同題 diagram 對應，第 8 號是 freezing coil。這個詞在 Paragraph 6 出現多次，定位非常穩。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the principle on which a freeze-drying machine is based.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是冷凍乾燥機所依據的原理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The water vapour condenses onto the freezing coil in the form of solid ice, in the same way that water condenses as frost on a cold day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水蒸氣會以固態冰的形式凝結在冷凍線圈上，就像寒冷日子裡水凝結成霜一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接出現 freezing coil，因此這是很強的圖表標籤證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要找和水蒸氣流動及凝結有關的部件。原文兩次出現 freezing coil："
+            },
+            {
+              "kind": "quote",
+              "text": "“connected to a freezing coil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flows past the freezing coil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“condenses onto the freezing coil”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the pressure in the chamber is so low, the ice turns directly into water vapour, which leaves the freeze-drying chamber and flows past the freezing coil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於乾燥室內壓力很低，冰會直接變成水蒸氣，離開冷凍乾燥室並流經冷凍線圈。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The water vapour condenses onto the freezing coil in the form of solid ice…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水蒸氣會以固態冰的形式凝結在冷凍線圈上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句清楚說明 freezing coil 的功能：接收並凝結水蒸氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查freezing coil 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：freezing coil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "compressor / refrigerator compressor",
+      "answerKey": "compressor / refrigerator compressor",
+      "type": "Diagram Label Completion",
+      "prompt": "Label the diagram: 9 _________________",
+      "translation": "標示圖中第 9 號部件。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題同樣是 Diagram Label。根據同題 diagram 對應，第 9 號是 compressor，完整原文名稱是refrigerator compressor。要注意字數限制：refrigerator compressor 剛好兩個字，可以填完整名稱；compressor 也可接受。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the principle on which a freeze-drying machine is based.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是冷凍乾燥機所依據的原理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The water vapour condenses onto the freezing coil in the form of solid ice, in the same way that water condenses as frost on a cold day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水蒸氣會以固態冰的形式凝結在冷凍線圈上，就像寒冷日子裡水凝結成霜一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 描述整台機器的部件和工作程序，compressor 是其中一個早段出現的冷卻部件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 compressor 出現在兩句附近："
+            },
+            {
+              "kind": "quote",
+              "text": "“connected to a freezing coil and refrigerator compressor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the compressor lowers the temperature inside it”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the chamber is sealed, the compressor lowers the temperature inside it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當乾燥室被密封後，壓縮機會降低其中的溫度。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句交代完整名稱："
+            },
+            {
+              "kind": "quote",
+              "text": "“The material to be preserved is placed in a freeze-drying chamber which is connected to a freezing coil and refrigerator compressor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要保存的材料會被放入冷凍乾燥室，而這個乾燥室連接著冷凍線圈和冰箱壓縮機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "compressor 的功能是 lowering the temperature，因此若 diagram 第 9 號箭嘴指向負責降溫的外接裝置，答案就是 compressor / refrigerator compressor。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查compressor 是一個字；refrigerator compressor 是兩個字，兩者符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：compressor / refrigerator compressor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "enzymes",
+      "answerKey": "enzymes",
+      "type": "Summary Completion",
+      "prompt": "“Freeze-drying prevents food from going bad by stopping the activity of microorganisms or 10_________________.”",
+      "translation": "冷凍乾燥透過停止微生物或__________的活動，防止食物變壞。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “microorganisms or”，所以答案應該是另一種會令食物變壞或成熟的生物／化學因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要複數名詞或不可數名詞。定位詞是 microorganisms、going bad、activity。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freeze-drying is like suspended animation for food: you can store a freeze-dried meal for years, and then, when you’re finally ready to eat it, you can completely revitalise it with a little hot water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冷凍乾燥就像讓食物進入暫停生命活動的狀態：你可以把冷凍乾燥餐存放多年，當你準備食用時，只需一點熱水便能完全恢復它。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, the enzymes which occur naturally in food cannot cause ripening without water, so removing water from food will also stop the ripening process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，食物中自然存在的酵素沒有水便不能促成成熟，因此從食物中去除水分也會停止成熟過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講長期保存，末句講 enzymes 停止作用，和題目完全相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“microorganisms”"
+            },
+            {
+              "kind": "quote",
+              "text": "“going bad”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“microorganisms such as bacteria that cause spoiling”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enzymes which occur naturally in food”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, the enzymes which occur naturally in food cannot cause ripening without water, so removing water from food will also stop the ripening process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，食物中自然存在的酵素沒有水便不能促成成熟，因此去除食物中的水也會停止成熟過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “going bad” 概括了 spoiling 和 ripening 兩種問題。原文先說 microorganisms / bacteria不能存活，後說 enzymes 不能促成 ripening。題目用 “microorganisms or ______” 合併兩者，所以空格填 enzymes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "going bad = spoiling / ripening stopping the activity = cannot survive / cannot cause ripening microorganisms or enzymes = microorganisms such as bacteria + enzymes答案形式檢查enzymes 是一個字，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：enzymes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "composition",
+      "answerKey": "composition",
+      "type": "Summary Completion",
+      "prompt": "“Its advantages are that the food tastes and feels the same as the original because both the 11_________________ and structure are preserved.”",
+      "translation": "它的優點是，食物的味道和質感與原本一樣，因為__________和結構都被保存。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面有 “and structure”，所以空格應該是與 structure 並列的名詞。原文很可能直接有 “X and structure”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freeze-drying is different from simple drying because it is able to remove almost all the water from materials, whereas simple drying techniques can only remove 90–95%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冷凍乾燥不同於普通乾燥，因為它能去除材料中幾乎所有水分；普通乾燥技術只能去除 90–95%。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, the composition and structure of the material are not significantly changed, so materials can be revitalised without compromising the quality of the original.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，材料的成分和結構不會明顯改變，因此材料可以被重新恢復，而不會損害原本品質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接出現 “composition and structure”，所以定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“structure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“preserved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“same as the original”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“composition and structure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not significantly changed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without compromising the quality of the original”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, the composition and structure of the material are not significantly changed, so materials can be revitalised without compromising the quality of the original.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，材料的成分和結構不會明顯改變，因此材料能被重新恢復，且不會損害原本品質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “not significantly changed” 改寫成 “are preserved”。空格與 structure 並列，所以填composition。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "composition and structure are not significantly changed= composition and structure are preserved same as the original= without compromising the quality of the original答案形式檢查composition 是一個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：composition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "overheating",
+      "answerKey": "overheating",
+      "type": "Summary Completion",
+      "prompt": "“The process is carried out slowly in order to ensure that 12 _________________ does not take place.”",
+      "translation": "這個過程要慢慢進行，以確保__________不會發生。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後是 “does not take place”，所以空格需要一個名詞或動名詞，表示需要避免的問題。定位詞是 slowly、process、ensure、does not take place。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The process continues for many hours (even days) while the material gradually dries out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程會持續很多小時，甚至很多天，期間材料會逐漸乾燥。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If everything works correctly, the material will go through the entire process almost completely unscathed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一切運作正確，材料在完成整個過程後幾乎完全不受損。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句的 many hours / days 和 gradually dries out 對應題目 slowly。末句的 unscathed 說明這樣做是為了避免損害材料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“slowly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ensure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not take place”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“This time is necessary to avoid overheating”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This time is necessary to avoid overheating, which might affect the structure of the material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段時間是必要的，目的是避免過熱，因為過熱可能影響材料的結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “avoid overheating” 改寫成 “ensure that overheating does not take place”。空格要填被避免的情況，即 overheating。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "carried out slowly = continues for many hours / gradually dries out ensure that X does not take place = avoid X overheating = overheating 原字重現答案形式檢查overheating 是一個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：overheating"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "high altitudes",
+      "answerKey": "high altitudes",
+      "type": "Summary Completion",
+      "prompt": "“The people of one ancient mountain civilisation were able to use this method of food preservation because the conditions needed were present at 13 _________________.”",
+      "translation": "某個古代山地文明的人能使用這種保存食物的方法，因為所需條件在__________存在。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “at”，答案應該是一個地點或環境位置。題目提到 ancient mountain civilisation，這會定位到 ancient Incas 和 Andes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, freeze-drying, as a general concept, is not new, but has been around for centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，冷凍乾燥作為一個一般概念並不新，已經存在了數百年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extremely cold temperatures and low pressure at those high altitudes preserved food in much the same way as a modern freeze-drying machine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些高海拔地區的極低溫和低氣壓，以非常接近現代冷凍乾燥機的方式保存食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句引出古老概念，末句直接說明條件出現在 high altitudes，所以這段就是答案段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ancient mountain civilisation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conditions needed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“present at”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“ancient Incas of Peru”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mountain peaks in the Andes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extremely cold temperatures and low pressure at those high altitudes”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extremely cold temperatures and low pressure at those high altitudes preserved food in much the same way as a modern freeze-drying machine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些高海拔地區的極低溫和低氣壓，以與現代冷凍乾燥機大致相同的方式保存食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中真正回答原因的是 “extremely cold temperatures and low pressure”。但題目空格前是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“present at”，要求填這些條件存在的位置。因此答案應填 high altitudes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ancient mountain civilisation = ancient Incas of Peru conditions needed = extremely cold temperatures and low pressure were present at = at those high altitudes答案形式檢查high altitudes 是兩個字，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：high altitudes"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Astronaut ice cream, anyone_.pdf",
+    "sha256": "88d5cefe3329911383301fe8958dbc1aa80c39c3496ff6283b4ea2cc3e56718e",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "SECTION 0：Skim Roadmap 全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句把 freeze-drying 比作 food 的 “suspended animation”，說食物可存放多年後再用熱水恢復；末句說食物中的 enzymes 沒有水便不能促成 ripening。只看首尾句，可以先看到這段主要介紹freeze-drying 的基本目的和原理：透過去除水分保存食物，令微生物和酵素活動停止，從而避免腐壞和成熟。遇到 food preservation、microorganisms、enzymes、spoiling、ripening 這類題目，應優先回到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 freeze-drying 會大幅降低食物總重量，因為很多食物主要由水構成；末句提到 military、camping-supply companies 和 NASA 都使用 freeze-dried foods，方便個人攜帶和太空船儲存。只看首尾句，可以估計這段焦點在「減重」和「運輸便利」。如果題目問 food items easier to carry、transportation、spacecraft 或 astronaut food，答案大多會藏在這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說這個過程也用於保存其他材料，例如 pharmaceuticals；末句說即使 valuable manuscripts被水損壞，也曾透過此方法保存。只看首尾句，這段明顯把應用範圍從 food 擴展到 non-food materials。中間會處理 pharmaceuticals 的 shelf life、biological samples 的 long-term preservation，以及 manuscripts 的保存。因此遇到 long-term storage、biological samples、precious materials 或 manuscripts，可以先定位 Paragraph 3。"
+      },
+      {
+        "number": "4",
+        "summary": "首句直接比較 freeze-drying 和 simple drying，說 freeze-drying 能去除幾乎所有水分；末句說material 的 composition 和 structure 沒有明顯改變，所以可重新恢復而不損害原本品質。只看首尾句，這段主要回答「freeze-drying 為何比普通乾燥更有效」。重點包括 remove almost all water、stop bacteria and enzymes、preserve composition and structure。遇到 efficiency、simple drying、quality、composition、structure，應掃描這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 freeze-drying 中的 solid water，即 ice，會直接變成 water vapour，跳過 liquid phase；末句說當溫度高於冰點、但氣壓低到液體不能形成時，水會變成 gas。只看首尾句，這段是科學原理解釋段，核心概念是 sublimation。它會解釋 solid → gas、heat、atmospheric pressure、below 0.06 atm 等條件。遇到 process、principle、solid directly into gas，答案應在這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 freeze-drying machine 正是基於前段原理；末句說 water vapour 會在 freezing coil 上凝結成 solid ice。只看首尾句，這段是機器流程段，會描述 chamber、freezing coil、compressor、vacuum pump、heating units 和 shelves 如何配合。Diagram Label 題幾乎一定來自這段，因為它逐步說明材料放在哪裡、如何降溫、如何抽氣、如何加熱，以及水蒸氣最後去哪裡。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說整個過程會持續 many hours，甚至 many days，材料會慢慢乾燥；末句說若一切運作正確，材料幾乎能毫髮無損地完成整個過程。只看首尾句，可以看到本段焦點在 process duration、slow drying、avoid overheating 和 final packaging。若題目問為何過程要慢、怎樣避免損害、保存多年後如何恢復，應定位 Paragraph 7。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 freeze-drying 作為一般概念其實並不新，已有數百年歷史；末句說高海拔地區的 extreme cold temperatures 和 low pressure 以類似現代機器的方式保存食物。只看首尾句，這段提供歷史例子：ancient Incas 利用 Andes mountain peaks 的自然低溫低壓保存食物。遇到 ancient civilisation、Incas、Andes、mountain peaks、high altitudes，答案應在此段。"
+      }
+    ]
+  }
+}

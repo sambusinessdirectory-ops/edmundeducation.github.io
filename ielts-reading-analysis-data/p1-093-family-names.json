@@ -1,0 +1,2019 @@
+{
+  "id": "p1-093-family-names",
+  "catalogueId": "p1-093",
+  "catalogueIds": [
+    "p1-093"
+  ],
+  "passage": 1,
+  "title": "Family Names",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "random nature",
+    "some description",
+    "poll tax",
+    "increasing bureaucracy",
+    "D",
+    "B",
+    "C",
+    "E",
+    "A",
+    "son of",
+    "deliberate modifications",
+    "exact meaning",
+    "vertical writing"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "random nature",
+      "answerKey": "random nature",
+      "type": "Short-answer Questions",
+      "prompt": "“What aspect of family names should prompt us to think more about them?”",
+      "translation": "family names 的哪一個方面應該促使我們更深入思考？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，要求 “NO MORE THAN TWO WORDS”。題目問 “what aspect”，所以答案要是一個名詞短語。題目中的 “prompt us to think more about them” 會對應原文中的warrants reflection。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any specific study of words and language almost invariably has an obscure name, and that includes the study of people’s names themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何對詞語和語言的專門研究，幾乎總有一個晦澀名稱，連研究人名本身也包括在內。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After all, that is the name people will carry throughout their lives (name changes aside), and pass on to their descendants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畢竟，那是人們一生都會帶著的名字，撇開改名不談，也會傳給後代。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 是引言：它先介紹 name study 的學術名稱，再指出 family names 和人的一生及後代有關，因此值得反思。Question 1 問 family names 哪個 aspect 令人要思考，應看本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“prompt us to think more”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有逐字重複 think more，但可以找到同義表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“A family name’s apparently random nature warrants reflection…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“warrants reflection” 意思是「值得反思、值得思考」。這正好對應題目 “should prompt us to think more”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“A family name’s apparently random nature warrants reflection because tracing it far enough back in time inevitably reveals some logic behind its formation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "family name 表面上隨機的性質值得反思，因為只要把它往足夠久遠的時間追溯，必然會發現它形成背後有某種邏輯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “A family name’s apparently random nature”。核心動詞是 “warrants reflection”。題目問 “What aspect…?”，所以答案要從主語中抽出 aspect。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於題目限制 NO MORE THAN TWO WORDS，完整 phrase “apparently random nature” 有三個字，超出限制。最合適保留核心名詞短語： random nature"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "prompt us to think more= warrants reflection aspect of family names= family name’s random nature答案形式檢查： random nature = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“apparently random nature” 是原文完整意思，但三個字超出題目限制。這類題要先確定答案，再用字數限制修剪到可接受範圍。刪去 apparently 後，random nature 仍保留核心意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "some description",
+      "answerKey": "some description",
+      "type": "Short-answer Questions",
+      "prompt": "“Originally, what was needed to distinguish two people with the same first name?”",
+      "translation": "最初，如果有兩個人有相同 first name，需要甚麼來區分他們？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，答案要 NO MORE THAN TWO WORDS。題目中的 “Originally” 對應文章早期英國社會；“two people with the same first name” 對應 John 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In early Britain, people lived in small farming hamlets, where they generally stayed throughout their lives and had only one name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在早期英國，人們住在小型農村聚落，一般一生都留在那裡，而且只有一個名字。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But of course, life was not destined to remain that simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但當然，生活不可能一直保持那麼簡單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出這段先描述早期命名制度很簡單，再預告後來會變複雜。Question 2 問originally 的情況，所以 Paragraph 2 是最直接段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“same first name”"
+            },
+            {
+              "kind": "quote",
+              "text": "“distinguish”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being the only person named ‘John’…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“If another John did exist…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“add some description to the name”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有用 John，但 “two people with the same first name” 就是 “another John did exist” 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If another John did exist, one could simply add some description to the name: ‘John the carpenter’ versus ‘John near the hill’, and a third could be ‘John, Peter’s son’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果確實有另一個 John，人們只需在名字上加上一些描述，例如 “John the carpenter” 對比"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“John near the hill”，第三個可以叫 “John, Peter’s son”。這句的動作是 “add some description”。題目問 “what was needed”，所以答案就是名詞短語“some description”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "two people with the same first name= another John did exist distinguish= add information so one John differs from another what was needed= some description答案形式檢查： some description = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "例子中有 “the carpenter”、“near the hill”、“Peter’s son”。這些都是 description 的例子，不應選其中一個特定例子作總答案。題目問一般需要甚麼，原文總結詞是 some description。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "poll tax",
+      "answerKey": "poll tax",
+      "type": "Short-answer Questions",
+      "prompt": "“What legislation began the process of using family names?”",
+      "translation": "哪一項法例／政府措施開始了使用 family names 的過程？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，答案最多兩個字。題目問 “began the process”，要找文章中哪個制度被描述為一個合理起點。這裡要小心 1379 的 poll tax 和 1413 的 Additions Statute，兩者都和命名制度有關，但先後不同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With townships increasing in population, people becoming more mobile, and invading armies flowing to and fro, complications set in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著城鎮人口增加、人們變得更流動、入侵軍隊來回流動，複雜情況開始出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such increasing bureaucracy, fixed and heritable family names would eventually become a necessity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著這種官僚行政不斷增加，固定並可繼承的 family names 最終會變成必要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 3 講社會變複雜後，行政管理如何推動固定姓氏的出現。Question 3 問最初開始這個過程的 legislation，應看本段前半的時間和政府措施。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“legislation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“began the process”"
+            },
+            {
+              "kind": "quote",
+              "text": "“using family names”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“if one had to pick a fixed date, 1379 would be a good start”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the government introduced a poll tax”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the later Additions Statute (1413)”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“good start” 是特別重要的定位訊號，因為它對應題目的 “began”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“In England, the process of adopting family names (or ‘surnames’ or ‘second names’) did not happen suddenly, but if one had to pick a fixed date, 1379 would be a good start.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在英格蘭，採用 family names，也就是 surnames 或 second names 的過程並非突然發生；但如果一定要選一個固定日期，1379 年會是一個合適起點。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was when the government introduced a poll tax, the administration of which required a list of the names of every adult in the kingdom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一年，政府引入 poll tax；管理這項稅務需要一份王國中每位成年人的姓名清單。"
+            },
+            {
+              "kind": "quote",
+              "text": "“poll tax” 是 1379 年的政府措施，也被原文放在 “good start” 後面。題目問 “What legislation began the process”，所以答案是 poll tax。為何不是 Additions Statute？原文說：“To resolve this issue, the later Additions Statute (1413) insisted that all names also come with the bearers’ occupation and place of residence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了解決這個問題，後來的 1413 年 Additions Statute 要求所有名字也要附上持有人職業和居住地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Additions Statute 是 later，功能是進一步解決 too many Johns 的問題。Question 3 問 began the process，1379 的 poll tax 更貼近 “good start”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "began the process= would be a good start legislation / government measure= government introduced a poll tax答案形式檢查： poll tax = 2 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "increasing bureaucracy",
+      "answerKey": "increasing bureaucracy",
+      "type": "Short-answer Questions",
+      "prompt": "“What made family names, in time, necessary?”",
+      "translation": "隨著時間過去，是甚麼令 family names 變成必要？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目中的 “in time” 對應原文 eventually；“made family names necessary” 對應 “would eventually become a necessity”。要找原因短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With townships increasing in population, people becoming more mobile, and invading armies flowing to and fro, complications set in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著城鎮人口增加、人們變得更流動、入侵軍隊來回流動，複雜情況開始出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such increasing bureaucracy, fixed and heritable family names would eventually become a necessity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著這種官僚行政不斷增加，固定並可繼承的 family names 最終會變成必要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 4 幾乎直接對應最後一句，因此 Paragraph 3 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“necessary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“eventually become a necessity”"
+            },
+            {
+              "kind": "label",
+              "text": "這句前面的原因短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such increasing bureaucracy…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such increasing bureaucracy, fixed and heritable family names would eventually become a necessity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著這種官僚行政不斷增加，固定並可繼承的 family names 最終會變成必要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “fixed and heritable family names”。核心結果是 “would eventually become a necessity”。原因放在句首："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such increasing bureaucracy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是「因為行政管理愈來愈複雜、愈來愈制度化」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What made… necessary?”，所以答案要填原因： increasing bureaucracy"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "in time= eventually made family names necessary= family names would become a necessity what made this happen= increasing bureaucracy答案形式檢查： increasing bureaucracy = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 也提到 population increase、mobility、invading armies、poll tax、Additions Statute。這些都與背景有關，但題目問最終令 fixed and heritable names 成為必要的概括原因。原文最後一句把原因總結為 increasing bureaucracy，因此答案應取這個總括短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D — Mononym",
+      "answerKey": "D — Mononym",
+      "type": "Matching Features",
+      "prompt": "“Bono”",
+      "translation": "Bono 這個名字的形成基礎是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要先找到 Bono 在文章中的位置，再看它所屬的分類。這題的難點是： Bono 也可被理解為 invented name，但選項沒有 invented name；它在原文段落中服務於mononym 這個主題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All this study of family names might lead one to believe that using them is universal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以上對 family names 的研究可能令人以為使用 family names 是普遍現象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As with all Icelanders, she has no family name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和所有 Icelanders 一樣，她沒有 family name。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段討論 family names 並非到處存在，並引入 only one name 的情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bono 位於這段，所以要以 mononym 主題理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bono”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the West, some people invent names (Bono, Sting, Prince), or just use family names (Liberace, Morrissey), or their first names (Shakira, Cher).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在西方，有些人會創造名字，例如 Bono、Sting、Prince；有些人只用 family names，例如Liberace、Morrissey；有些人只用 first names，例如 Shakira、Cher。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句前文先定義："
+            },
+            {
+              "kind": "quote",
+              "text": "“the technical word for a single name only is a mononym.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只使用單一名字的專門詞是 mononym。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bono 出現在 entertainment / celebrity context 中，屬於只用一個名字的例子。因此即使原文說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“invent names”，題目給出的可選分類中，最貼近 Bono 在段落中的功能是 D Mononym。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "single name only= mononym Bono= one-name public identity答案判斷： Bono 對應 D Mononym。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能覺得 Bono 是 invented name，但選項沒有 “invented name”。Matching 題要把例子放回段落主題。這段先定義 mononym，再列 Bono 等單名例子，所以選 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B — Place of residence",
+      "answerKey": "B — Place of residence",
+      "type": "Matching Features",
+      "prompt": "“da Vinci”",
+      "translation": "da Vinci 這個名字的形成基礎是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There were many methods by which these names were formed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些名字有很多形成方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Guilfoyle means ‘follower of (Saint) Paul’; Kennedy means ‘ugly head’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Guilfoyle 的意思是「聖保羅的追隨者」；Kennedy 的意思是「醜陋的頭」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段是 surname formation 的分類段，包含居住地、信仰、外貌和語源。da Vinci 的定位應在本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“da Vinci”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Italy, however, this did not prevent Leonardo da Vinci (from Vinci) becoming the town’s most famous export.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而在意大利，這並沒有阻止 Leonardo da Vinci，也就是來自 Vinci 的 Leonardo，成為該鎮最著名的輸出人物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文括號 “from Vinci” 直接解釋 da Vinci 的意思。Vinci 是地名，da Vinci 表示來自 Vinci。因此形成基礎是 place of residence，或更準確說與居住地／來源地相關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "from Vinci= place of residence / place of origin答案判斷： da Vinci 對應 B Place of residence。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把 da Vinci 當成普通 hereditary family name。原文用它來說明「用居住地或來源地形成名字」的做法。括號中的 “from Vinci” 是定案證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "C — Mistake",
+      "answerKey": "C — Mistake",
+      "type": "Matching Features",
+      "prompt": "“Pershing”",
+      "translation": "Pershing 這個名字的形成基礎是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the mixing of populations from different countries (especially in America), the original foreign names were often altered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著來自不同國家的人口混合，尤其在美國，原本的外國名字常常被改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old English spellings, for example, were often lost in favour of phonetic intelligibility, making the determination of exact meaning difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Old English spellings 常常為了語音上的可理解性而消失，令確定名字的 exact meaning變得困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要講 foreign names 如何因發音、拼寫和英語化而改變。Pershing 位於此段，應找它是怎樣從原名變來的。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pershing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“This occurred either through mispronunciation, which saw names such as Pfoersching become Pershing, or through deliberate modifications to accommodate English pronunciation and spelling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況可能透過 mispronunciation 發生，例如 Pfoersching 變成 Pershing；也可能透過deliberate modifications 發生，以配合英語發音和拼寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pershing 的形成原因是 “mispronunciation”。mispronunciation 指錯讀、誤讀、發音錯誤。選項中最接近的是 C Mistake。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "mispronunciation= pronunciation mistake Pfoersching become Pershing= name altered through a mistake答案判斷： Pershing 對應 C Mistake。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句也出現 deliberate modifications，但那是另一條改名路徑，例子是 Krankheit → Cronkite、Wistinghausen → Westinghouse。Pershing 對應前半句的 mispronunciation，因此不能選其他基礎。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "E — Profession",
+      "answerKey": "E — Profession",
+      "type": "Matching Features",
+      "prompt": "“Heyward”",
+      "translation": "Heyward 這個名字的形成基礎是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Family names were also commonly derived from a person’s trade or profession, resulting in names such as Smith, Butcher, and Carpenter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "family names 也常由一個人的行業或職業而來，形成 Smith、Butcher、Carpenter 等名字。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Scottish Gaelic, ‘Mac’ was used, giving MacDonald, MacPherson, and others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Scottish Gaelic 中，人們使用 “Mac”，形成 MacDonald、MacPherson 等名字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提出 profession 這一類 surname source。Heyward 是本段前半的職業例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Heyward”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of these refer to occupations that no longer exist, such as Fletcher (arrow maker), Cooper (barrel maker), or Heyward (fence maintainer).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中許多名字指向已經不存在的職業，例如 Fletcher，即製箭者；Cooper，即木桶製造者； Heyward，即圍欄維護者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heyward 的括號解釋是 “fence maintainer”。這是一種 occupation，即職業。段首已說 trade or profession，因此選項 E 最準確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "occupation= profession fence maintainer= a job / trade答案判斷： Heyward 對應 E Profession。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heyward 的意思包含 fence，容易被誤放入 Geographic feature。不過 “fence maintainer” 是做某項工作的人，重點在 maintainer 這個職業身份，所以答案是 Profession。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — Personal belief",
+      "answerKey": "A — Personal belief",
+      "type": "Matching Features",
+      "prompt": "“Guilfoyle”",
+      "translation": "Guilfoyle 這個名字的形成基礎是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There were many methods by which these names were formed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些名字有很多形成方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Guilfoyle means ‘follower of (Saint) Paul’; Kennedy means ‘ugly head’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Guilfoyle 的意思是「聖保羅的追隨者」；Kennedy 的意思是「醜陋的頭」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹多種 surname origins，包括 place of residence、personal beliefs、physical attributes 和Gaelic meanings。Guilfoyle 的意思和 Saint Paul 有關，因此要回看它前面的分類。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Guilfoyle”"
+            },
+            {
+              "kind": "label",
+              "text": "原文前文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In England, family names could also derive from personal beliefs (resulting in Mope, Christian, Godley, and others) or physical attributes, giving us Armstrong, Short, Brown, and others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在英格蘭，family names 也可以來自個人信仰，形成 Mope、Christian、Godley 等名字；也可以來自身體特徵，形成 Armstrong、Short、Brown 等名字。"
+            },
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Guilfoyle means ‘follower of (Saint) Paul’; Kennedy means ‘ugly head’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Guilfoyle 的意思是「聖保羅的追隨者」；Kennedy 的意思是「醜陋的頭」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“follower of (Saint) Paul” 帶有宗教信仰或宗教歸屬意味。選項中與這種來源最貼近的是 A Personal belief。Kennedy 的 “ugly head” 會對應 physical attribute，但題目問 Guilfoyle，所以要留意同一句有兩個名字。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "follower of Saint Paul= religious / personal belief connection personal belief= belief-based naming source答案判斷： Guilfoyle 對應 A Personal belief。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句中 Kennedy 是 physical attribute，而 Guilfoyle 是 follower of Saint Paul。做 Matching 時要逐名對應，不要把相鄰例子的分類混在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "son of",
+      "answerKey": "son of",
+      "type": "Sentence Completion",
+      "prompt": "“In Scottish Gaelic, ‘Mac’ means 10 ______.”",
+      "translation": "在 Scottish Gaelic 中，“Mac” 的意思是 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，要求 NO MORE THAN TWO WORDS。空格在 “means” 後面，需要一個意思解釋。題目中的 Scottish Gaelic 和 Mac 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Family names were also commonly derived from a person’s trade or profession, resulting in names such as Smith, Butcher, and Carpenter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "family names 也常由一個人的行業或職業而來，形成 Smith、Butcher、Carpenter 等名字。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Scottish Gaelic, ‘Mac’ was used, giving MacDonald, MacPherson, and others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Scottish Gaelic 中，人們使用 “Mac”，形成 MacDonald、MacPherson 等名字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半講家庭關係如何形成 surname。Question 10 正好在段落最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scottish Gaelic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mac”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Scottish Gaelic, ‘Mac’ was used…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但要知道 Mac 的意思，需要看前一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文前一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, names often showed the relationships among families, where ‘son of Peter’ became‘Peter’s son’, in turn becoming ‘Peterson’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，名字常常顯示家庭之間的關係，其中 “son of Peter” 變成 “Peter’s son”，再變成 “Peterson”。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, there are Johnson, Harrison, and Robertson.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣，也有 Johnson、Harrison 和 Robertson。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Scottish Gaelic, ‘Mac’ was used, giving MacDonald, MacPherson, and others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Scottish Gaelic 中，人們使用 “Mac”，形成 MacDonald、MacPherson 等名字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句形成一條關係鏈：先講 “son of Peter” → Peterson，再講 Johnson、Harrison、Robertson，最後說 Scottish Gaelic 用 Mac。由此可知 Mac 表示 son of。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： son of = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有孤立寫 “Mac means son of”。答案要從前文 “relationships among families” 和 “son of Peter” 推出。這是短距離推論，可以被原文直接支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "deliberate modifications",
+      "answerKey": "deliberate modifications",
+      "type": "Sentence Completion",
+      "prompt": "“To make them easier to write, foreign names often underwent 11 ______.”",
+      "translation": "為了讓外國名字更容易書寫，它們常經歷 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，空格前有 “underwent”，後面需要名詞或名詞短語。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“foreign names” 和 “easier to write” 對應原文的 foreign names、English pronunciation and spelling。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6第一句：“With the mixing of populations from different countries (especially in America), the original foreign names were often altered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著來自不同國家的人口混合，尤其在美國，原本的外國名字常常被改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old English spellings, for example, were often lost in favour of phonetic intelligibility, making the determination of exact meaning difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Old English spellings 常常為了語音上的可理解性而消失，令確定 exact meaning 變得困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主題是名字因發音和拼寫需要而改變。Question 11 的 “foreign names” 直接定位到首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“foreign names”"
+            },
+            {
+              "kind": "quote",
+              "text": "“write”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spelling”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“original foreign names were often altered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“deliberate modifications to accommodate English pronunciation and spelling”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This occurred either through mispronunciation, which saw names such as Pfoersching become Pershing, or through deliberate modifications to accommodate English pronunciation and spelling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種改變可能透過誤讀發生，例如 Pfoersching 變成 Pershing；也可能透過 deliberate modifications 發生，以配合英語發音和拼寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “To make them easier to write”，原文對應 “to accommodate English pronunciation and spelling”。其中 spelling 就是書寫層面的適應。空格前的 “underwent” 可自然接： underwent deliberate modifications"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "make them easier to write= accommodate English spelling foreign names often underwent= original foreign names were often altered through答案形式檢查： deliberate modifications = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句有 two mechanisms：mispronunciation 和 deliberate modifications。題目說 “to make them easier to write”，這較貼近 deliberate modifications to accommodate English pronunciation and spelling。mispronunciation 對應 Pershing，不是本題主因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "exact meaning",
+      "answerKey": "exact meaning",
+      "type": "Sentence Completion",
+      "prompt": "“Spelling changes in names can make it hard to know their 12 ______.”",
+      "translation": "名字拼寫上的變化會令人難以知道它們的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 “their”，後面需要名詞短語。題目中的 “Spelling changes”對應原文 Old English spellings were often lost。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the mixing of populations from different countries (especially in America), the original foreign names were often altered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著來自不同國家的人口混合，尤其在美國，原本的外國名字常常被改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old English spellings, for example, were often lost in favour of phonetic intelligibility, making the determination of exact meaning difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Old English spellings 常常為了語音上的可理解性而消失，令確定 exact meaning 變得困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 12 幾乎直接改寫段落最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spelling changes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hard to know”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“spellings … were often lost”"
+            },
+            {
+              "kind": "quote",
+              "text": "“making the determination of exact meaning difficult”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old English spellings, for example, were often lost in favour of phonetic intelligibility, making the determination of exact meaning difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Old English spellings 常常為了語音上的可理解性而消失，令確定 exact meaning 變得困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的原因是 old spellings were lost；結果是 exact meaning difficult to determine。題目把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“making the determination … difficult” 改成 “make it hard to know”。意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "hard to know= difficult to determine their= names’ exact meaning= exact meaning答案形式檢查： exact meaning = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 meaning。雖然 meaning 在語法上可行，但原文完整答案是 exact meaning。IELTS completion 題通常要求保留能精準對應原文的限定詞，exact 是重要程度詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "vertical writing",
+      "answerKey": "vertical writing",
+      "type": "Sentence Completion",
+      "prompt": "“The term ‘upper name’ is used because of Asia’s 13 ______.”",
+      "translation": "“upper name” 這個術語的使用，是因為亞洲的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 Asia’s，需要名詞短語。題目中的 “upper name” 是非常強的定位詞，直接帶到最後一段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8第一句：“A final point of interest is that in Western cultures, the family name is usually given after the first name (in both speaking and writing)—hence the terms ‘first’ and ‘last’ name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一個有趣之處是，在西方文化中，family name 通常放在 first name 之後，無論說話還是書寫都是如此，因此有 first name 和 last name 這些術語。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since many of these cultures have vertical writing, what is a ‘last name’ in the West is an‘upper name’ in the East.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於許多這些文化使用 vertical writing，西方所謂的 “last name” 在東方就是 “upper name”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段比較 Western cultures 和 Asian cultures 的姓名順序。Question 13 直接來自最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“upper name”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“what is a ‘last name’ in the West is an ‘upper name’ in the East.”"
+            },
+            {
+              "kind": "label",
+              "text": "原因由 since 引出："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since many of these cultures have vertical writing…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since many of these cultures have vertical writing, what is a ‘last name’ in the West is an ‘upper name’ in the East.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於許多這些文化使用 vertical writing，西方所謂的 “last name” 在東方就是 “upper name”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 since 表示原因。題目問 “because of Asia’s…” 正好對應 since 後面的原因。Asia’s 後面要填一個名詞短語，因此答案是 vertical writing。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "because of= since Asia’s= many of these cultures, referring to Asian cultures upper name= family name placed above in vertical writing答案形式檢查： vertical writing = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 也提到 Asian cultures 把 family name 放前面，反映 greater emphasis on family relationships。可是 “upper name” 這個術語的直接原因是 vertical writing，不是 family relationships。題目問 term 的由來，要抓 since 後面的原因。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Family Names.pdf",
+    "sha256": "781d361752ccec338229ef92592d59efdee9a1d2b4113aeb41336dd8f7118047",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說任何對詞語和語言的專門研究幾乎都有一個 obscure name，連研究人名也有專門術語anthroponomastics。末句說 family name 是人一生會帶著、並傳給後代的名字。只看首尾句，可以估計這段是引言：先用學術名稱帶出 names 這個主題，再指出 family names 值得思考。中間的“apparently random nature warrants reflection” 對 Question 1 很重要。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說早期英國人住在 small farming hamlets，通常一生留在同一地方，而且只有 one name。末句說生活不會一直如此簡單。首尾句形成一個由簡單到複雜的轉折：起初單名足夠識別一個人，但人口流動和社會複雜化之後，單名便不夠用。中間的 John 例子說明當兩人同名時，只需加some description，對 Question 2 是直接證據。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說城鎮人口增加、人們流動性提高、軍隊往來，令命名問題變得複雜。末句說隨著 increasing bureaucracy，固定並可繼承的 family names 最終變成必要。這段是 family names 在英格蘭制度化的歷史原因：人口和行政管理使名字需要更穩定。1379 年 poll tax 及 1413 年 Additions Statute 都是關鍵時間點，分別對 Questions 3–4 有用。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 family names 有很多形成方法，最明顯的是使用 place of residence。末句舉 Gaelic-origin names 的例子：Guilfoyle 意思是 follower of Saint Paul，Kennedy 意思是 ugly head。只看首尾句，可以估計這段集中講 surname formation 的不同來源，包括居住地、信仰、外貌和語源遮蔽。da Vinci 和 Guilfoyle 的答案都來自這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 family names 也常由一個人的 trade or profession 形成，例如 Smith、Butcher 和Carpenter。末句說 Scottish Gaelic 使用 “Mac”，形成 MacDonald、MacPherson 等名字。這段延續 surname formation 的分類，重點轉向職業、地理特徵和家庭關係。Heyward、Mac、Peterson等例子都在這裡。Questions 8 和 10 主要看本段，尤其 profession 和 “son of” 的關係。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說不同國家人口混合後，原本的 foreign names 經常被 altered。末句說 Old English spellings 常為了 phonetic intelligibility 而失去，令 exact meaning 難以判定。這段主要講名字在移民、發音、拼寫和英語化過程中的改變。Pershing、Cronkite、Westinghouse 是例子。Questions 7、11、12 都定位到這段，因為它們問 mispronunciation、modifications 和 meaning。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說研究 family names 可能令人以為它們 universal，但事實遠不如此：單名的專門詞是mononym。末句說 Björk 按自己的 Icelandic culture 使用 mononym；如所有 Icelanders 一樣，她沒有 family name。這段主要介紹沒有 family name 或只用一個名字的文化和娛樂界現象。Bono、Sting、Prince、Cher、Björk 等例子都服務於 mononym 這個主題。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說在 Western cultures，family name 通常放在 first name 之後，所以有 first name 和 last name 這些說法。末句說在東方，西方所謂 last name 會成為 upper name。這段是最後補充，主要比較東西方姓名排列次序。亞洲文化把 family name 放前面，反映對 family relationships 的重視；vertical writing 則解釋 upper name 這個術語。"
+      }
+    ]
+  }
+}

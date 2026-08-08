@@ -1,0 +1,1867 @@
+{
+  "id": "p1-149-density-and-crowding",
+  "catalogueId": "p1-149",
+  "catalogueIds": [
+    "p1-149"
+  ],
+  "passage": 1,
+  "title": "Density and Crowding",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "iv",
+    "vii",
+    "x",
+    "i",
+    "vi",
+    "ii",
+    "viii",
+    "privacy",
+    "fights",
+    "personal space",
+    "attraction",
+    "help",
+    "control"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "iv — Problems that contribute to crowding",
+      "answerKey": "iv — Problems that contribute to crowding",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A題目要求為 Paragraph A 選 heading。Heading iv 的意思是「促成擁擠的問題」。這題要看整段功能，不要只被 population growth 其中一個細節吸走。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of the myriad problems humanity faces today, there are three significant trends which stand above all others in importance...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在人類今天面對的無數問題中，有三個重要趨勢比其他問題更突出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All of these trends are producing increased crowding and the perception of crowding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有這些趨勢都正在製造更多擁擠，以及對擁擠的感覺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 的功能很清楚：先列出三個現代趨勢，再說這些趨勢共同導致increased crowding 和 perception of crowding。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 的定位詞是 “Problems” 和 “contribute to crowding”。原文沒有直接說 contribute，但有 “producing increased crowding”。這就是 contribute to 的同義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文列出三個因素："
+            },
+            {
+              "kind": "quote",
+              "text": "“unprecedented population growth”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前所未有的人口增長。"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasing urbanisation”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市化加劇。"
+            },
+            {
+              "kind": "quote",
+              "text": "“tremendous explosion of communication and social contact”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "溝通和社會接觸大幅增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三者都在最後一句被總結為 producing increased crowding。因此 heading iv 能覆蓋全段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “Psychological reactions to crowding” 看似有關，因為最後有 perception of crowding，但 Paragraph A 的重點不在心理反應本身，而在三個造成擁擠感上升的宏觀趨勢。Heading iv更能概括全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "vii — Definitions of crowding and density",
+      "answerKey": "vii — Definitions of crowding and density",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B題目要求為 Paragraph B 選 heading。Heading vii 的意思是「crowding 和 density 的定義」。這題相當直接，因為段落第一句已經提出兩者不一定相同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is important to emphasise at the outset that crowding and density are not necessarily the same.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一開始必須強調，crowding 和 density 不一定相同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hence, crowding is very much a psychological and ecological phenomenon, not just a physical condition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，crowding 很大程度上是一種心理和生態現象，不只是物理狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示本段會區分兩個概念：density 偏向物理測量，crowding 偏向心理和環境互動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的定位詞是 “Definitions”。原文直接給出定義："
+            },
+            {
+              "kind": "quote",
+              "text": "“Density is the number of individuals per unit area or unit space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Density 是每單位面積或空間中的個體數量。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Crowding is a product of density, communication, contact, and activity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crowding 是密度、溝通、接觸和活動共同產生的結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段並非只說 crowding，也同時說 density。density 是 “simple physical measurement”， crowding 則 “implies a pressure, a force, and a psychological reaction”。後面的 frontiersman 和suburbanite 例子只是用來證明：物理密度高低不能直接等同心理擁擠感。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “Psychological reactions to crowding” 只符合本段後半。Paragraph B 的完整任務是把 density 和 crowding 分開定義，所以 vii 比 iii 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "x — The nature and results of Calhoun’s experiment",
+      "answerKey": "x — The nature and results of Calhoun’s experiment",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C題目要求為 Paragraph C 選 heading。Heading x 的意思是「Calhoun 實驗的性質和結果」。這段由頭到尾都圍繞 Calhoun 的老鼠實驗。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A classic crowding study was done by Calhoun (1962), who put rats into a physical environment designed to accommodate 50 rats...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Calhoun 於 1962 年做了一項經典擁擠研究，他把老鼠放進一個設計上可容納 50 隻老鼠的物理環境中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...more frequent aggressive physical attacks occurred; sexual variation increased, including hypersexuality, inhibited sexuality, homosexuality, and bisexuality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更頻繁的攻擊行為出現；性行為變化也增加，包括性亢進、性抑制、同性性行為和雙性性行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段先講實驗設定，後講實驗結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading x 的強定位詞是 “Calhoun’s experiment”。原文第一句已有 “Calhoun (1962)” 和 “study”。“nature” 對應實驗設計，“results” 對應後面列出的負面情況。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段說環境本來設計容納 50 隻老鼠，但 rat population peaked at 80，造成 crowded living conditions。重要的是，牠們沒有食物、水、築巢材料不足的問題，限制主要來自空間。結果包括dominant males 佔用更多空間、雌鼠不築巢和棄養幼鼠、懷孕率下降、死亡率上升、攻擊增加，以及性行為變化。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “The social effects of crowding” 也有一點合理，因為老鼠出現社會行為變化。不過Paragraph C 的主角是 Calhoun 的特定實驗；Heading x 明確包含 nature and results，比 ii 更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "i — Subsequent research offering a clearer interpretation of Calhoun’s findings",
+      "answerKey": "i — Subsequent research offering a clearer interpretation of Calhoun’s findings",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D題目要求為 Paragraph D 選 heading。Heading i 的意思是「後續研究為 Calhoun 的發現提供更清楚的解釋」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Calhoun’s results have led to other research on crowding’s effects on human beings...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Calhoun 的結果引發了其他關於 crowding 對人類影響的研究。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, if crowding is defined in terms of social density... then crowding better predicts negative psychological and physical effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，如果 crowding 以 social density，即必須互動的人數來定義，它便能更好預測心理和身體上的負面影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段承接 Calhoun，再轉向人類研究，並修正「高密度就是唯一原因」的簡化理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的定位詞是 “Subsequent research” 和 “Calhoun’s findings”。原文第一句直接說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Calhoun’s results have led to other research”。“clearer interpretation” 對應本段對 spatial density 和 social density 的區分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵句是：“...high density is not the single cause of negative effects on humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高密度並不是對人類造成負面效果的單一原因。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...if crowding is defined in terms of social density... then crowding better predicts negative psychological and physical effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果以 social density 定義 crowding，它更能預測負面的心理和身體影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明後續研究不只是重複 Calhoun 的結論，也讓解釋更精準：空間密度本身效果不穩定，社會互動密度才更能預測負面結果。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “Definitions of crowding and density” 看似也有關，因為本段提到 spatial density 和social density。但本段不是主要做基本定義；它是承接 Calhoun，說後續研究如何重新理解crowding 對人的影響。答案選 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "vi — Why crowding makes people uncomfortable",
+      "answerKey": "vi — Why crowding makes people uncomfortable",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E題目要求為 Paragraph E 選 heading。Heading vi 的意思是「為甚麼 crowding 令人不舒服」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are several reasons why crowding makes us feel uncomfortable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crowding 令人感到不舒服有幾個原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are strong feelings of a lack of privacy—being unable to pay attention to what you want without being repeatedly interrupted or observed by others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人會強烈感到缺乏私隱，也就是無法專注在自己想做的事上，因為不斷被他人打斷或觀察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句幾乎直接對應 heading vi。最後一句補充其中一個具體心理原因：lack of privacy。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的定位詞是 “why” 和 “uncomfortable”。原文第一句完全重現 “why crowding makes us feel uncomfortable”。另外，段中還有 “stimulus overload”，說明刺激過多如何造成不適。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "本段的兩個主要原因是："
+            },
+            {
+              "kind": "quote",
+              "text": "“One reason is related to stimulus overload...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個原因與刺激過量有關。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are strong feelings of a lack of privacy...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人會強烈感到缺乏私隱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "harried mother 的例子展示太多刺激同時爭奪注意力：孩子、電話、門鈴一齊出現，使人confused, fatigued and yearning to withdraw。這些都在解釋 uncomfortable 的原因。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “Psychological reactions to crowding” 也可能吸引學生，因為本段確實有心理反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過 vi 更精準，因為原文第一句明確說 “There are several reasons why...” 本段主旨是原因解釋，不只是列出反應。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "ii — The social effects of crowding",
+      "answerKey": "ii — The social effects of crowding",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F題目要求為 Paragraph F 選 heading。Heading ii 的意思是「crowding 的社會影響」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Field studies done in a variety of settings illustrate that social density is associated with negative effects on human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在不同環境中進行的實地研究顯示，social density 與人類負面影響有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This may be due to the fact that people diffuse responsibility among themselves with no one feeling that they ought to be the one to help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能是因為人們在彼此之間分散責任，沒有任何人覺得自己應該成為出手幫助的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段會用實地研究說明 social density 如何影響人類行為，尤其是人際互動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 的定位詞是 “social effects”。原文有 “social density”，並列出 aggression、attraction、helping behaviour、diffusion of responsibility 等人際行為結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "本段內容包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“In male prisons, inmates living in higher-density conditions were more likely to become involved in fights.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在男性監獄中，住在較高密度環境的囚犯更可能捲入打鬥。"
+            },
+            {
+              "kind": "quote",
+              "text": "“high density reduces attraction—both physical attraction and liking towards others”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高密度會降低吸引力，包括身體吸引和對他人的喜歡。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The greater the density, the less helping behaviour occurs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "密度越高，幫助行為越少出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都屬於 crowding 對社會行為的影響，所以 heading ii 覆蓋全段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v “The diffusion of responsibility” 只符合最後一部分。Heading ix “Differences in how crowding affects attraction in men and women” 只符合中間部分。Paragraph F 的範圍較廣，包含aggression、gender differences、attraction、helping behaviour，所以 ii 最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "viii — Ways to cope with crowded environments",
+      "answerKey": "viii — Ways to cope with crowded environments",
+      "type": "Matching Headings",
+      "prompt": "Question 7",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G題目要求為 Paragraph G 選 heading。Heading viii 的意思是「應付擁擠環境的方法」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How, then, should we address these problems?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，我們應如何處理這些問題？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This includes behaviours such as averting the gaze and using negative body language to attempt to block any potential intrusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這包括避免目光接觸，以及使用負面身體語言，試圖阻擋任何潛在打擾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段從問題轉向應對。它不再主要描述 crowding 的負面後果，而是討論如何降低或處理這些後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的定位詞是 “cope” 和 “crowded environments”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the main coping strategies employed to limit the impact of high density is social withdrawal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用來限制高密度影響的主要應對策略之一，是社交退縮。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "本段提出幾個應對或緩衝因素："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more control a person has over a crowded environment, the less negatively they experience it...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人對擁擠環境擁有越多控制，他對該環境的負面感受就越少。"
+            },
+            {
+              "kind": "quote",
+              "text": "“High density will be interpreted less negatively if individuals experience it with people they like.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果人們與自己喜歡的人一起經歷高密度環境，他們對高密度的理解會較少負面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後再講 social withdrawal，例如 averting the gaze 和 negative body language。這些都屬於coping。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “Psychological reactions to crowding” 只可概括部分內容。Paragraph G 的真正轉向是 address these problems 和 coping strategies，所以 viii 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "privacy",
+      "answerKey": "privacy",
+      "type": "Sentence Completion",
+      "prompt": "“Repeated interruptions leave the harried mother frustrated by a lack of ____________.”",
+      "translation": "反覆被打斷令那位忙亂的母親因缺乏 ____________ 而感到沮喪。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “a lack of”，後面需要一個名詞或名詞短語。題目限制是 NO MORE THAN THREE WORDS，所以答案必須直接從原文抄出，不需要改詞形。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are several reasons why crowding makes us feel uncomfortable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crowding 令人感到不舒服有幾個原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are strong feelings of a lack of privacy—being unable to pay attention to what you want without being repeatedly interrupted or observed by others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人會強烈感到缺乏私隱，也就是無法專注在自己想做的事上，因為不斷被他人打斷或觀察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示 Paragraph E 解釋 crowding 令人不舒服的原因，而最後一句直接出現 “a lack of privacy”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Repeated interruptions” 和 “harried mother”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This feeling is typical of the harried mother...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種感覺正是那位忙亂母親的典型感受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面又有 “being repeatedly interrupted”。這和題目 “Repeated interruptions” 直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are strong feelings of a lack of privacy—being unable to pay attention to what you want without being repeatedly interrupted or observed by others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人會強烈感到缺乏私隱，也就是無法專注在自己想做的事上，因為不斷被他人打斷或觀察。"
+            },
+            {
+              "kind": "label",
+              "text": "題目把原文改寫成："
+            },
+            {
+              "kind": "quote",
+              "text": "“Repeated interruptions leave the harried mother frustrated by a lack of...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文答案短語就是 “privacy”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：Repeated interruptions"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：repeatedly interrupted"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：frustrated by a lack of..."
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：strong feelings of a lack of privacy答案形式privacy 是一個名詞，放在 “a lack of privacy” 後文法完整，而且只有一個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “stimuli”。Paragraph E 前面確實講 too many stimuli，但題目特別問 repeated interruptions 造成哪一種 lack。真正答案在最後一句 “lack of privacy”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "fights",
+      "answerKey": "fights",
+      "type": "Sentence Completion",
+      "prompt": "“Inmates in high-density settings were more likely to become involved in ____________.”",
+      "translation": "在高密度環境中的囚犯更可能捲入 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “become involved in”，後面通常接名詞或名詞短語。題目問 prison studies 中inmates 的結果，所以應定位到 Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Field studies done in a variety of settings illustrate that social density is associated with negative effects on human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在不同環境中的實地研究顯示，social density 與人類負面影響有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This may be due to the fact that people diffuse responsibility among themselves with no one feeling that they ought to be the one to help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能是因為人們在彼此之間分散責任，沒有任何人覺得自己應該出手幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段會列出不同場景下 crowding 對人類行為的負面影響，其中 prison studies 很可能在段落前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Inmates” 和 “high-density settings”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In male prisons, inmates living in higher-density conditions were more likely to become involved in fights.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在男性監獄中，住在較高密度環境的囚犯更可能捲入打鬥。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文和題目幾乎是直接重現："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：Inmates in high-density settings"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：inmates living in higher-density conditions"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：were more likely to become involved in"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：were more likely to become involved in原文在這個片語後面接 “fights”，所以答案是 fights。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式fights 是複數名詞，放入句子後是 “become involved in fights”，自然完整。答案一個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “aggressive physical attacks”。該短語出現在 Paragraph C 的老鼠實驗，不是 Paragraph F 的 inmates 題。題目主體是 inmates，所以要回到 prison studies 的句子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "personal space",
+      "answerKey": "personal space",
+      "type": "Sentence Completion",
+      "prompt": "“The different reactions of men and women are associated with their differing requirements for____________.”",
+      "translation": "男女不同反應與他們對 ____________ 的不同需要有關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “requirements for”，後面需要名詞短語。題目中的 “men and women” 和 “different reactions” 應定位到 Paragraph F 中關於 gender differences 的部分。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Field studies done in a variety of settings illustrate that social density is associated with negative effects on human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同環境中的實地研究顯示，social density 與人類負面影響有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This may be due to the fact that people diffuse responsibility among themselves with no one feeling that they ought to be the one to help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能是因為人們把責任分散給彼此，沒有人覺得自己應該幫忙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 會處理 social density 的多種社會效果，其中包括男女差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “men and women” 和 “requirements”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Males rated themselves as more aggressive in small rooms... whilst the females rated themselves as more aggressive in large rooms...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男性在小房間中評價自己更具攻擊性，而女性在大房間中評價自己更具攻擊性。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句直接解釋："
+            },
+            {
+              "kind": "quote",
+              "text": "“These differences relate to the different personal space requirements of the genders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些差異與不同性別對個人空間的不同需求有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These differences relate to the different personal space requirements of the genders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些差異與不同性別對個人空間的不同需求有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “of the genders” 改寫成 “of men and women”，把 “relate to” 改寫成 “are associated with”。空格答案是 “personal space”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式personal space 是兩字名詞短語，放入 “requirements for personal space” 之後文法自然，也符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “density”。題目問男女反應差異和甚麼需要有關；原文答案不是 general density，而是personal space requirements。density 是研究情境，personal space 才是解釋差異的原因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "attraction",
+      "answerKey": "attraction",
+      "type": "Sentence Completion",
+      "prompt": "“Baum and Greenberg found that, especially among men, ____________ declined as density increased.”",
+      "translation": "Baum 和 Greenberg 發現，尤其在男性之中，隨著密度增加，____________ 下降。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於主語位置，需要名詞或名詞短語。題目有專名 “Baum and Greenberg”，是很強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Field studies done in a variety of settings illustrate that social density is associated with negative effects on human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同環境中的實地研究顯示，social density 與人類負面影響有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This may be due to the fact that people diffuse responsibility among themselves with no one feeling that they ought to be the one to help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能是因為人們把責任分散給彼此，沒有人覺得自己應該出手幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段列出不同 social density effects，其中 Baum and Greenberg 位於中後段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Baum and Greenberg”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, Baum and Greenberg found that high density reduces attraction—both physical attraction and liking towards others—and that its impact varies by gender, with males experiencing a more extreme reaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，Baum 和 Greenberg 發現，高密度會降低 attraction，包括身體吸引和對他人的喜歡；其影響會因性別而異，男性反應更強烈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文核心是 “high density reduces attraction”。題目把它改成 “attraction declined as density increased”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "reduces = declined high density / density increased = 密度增加with males experiencing a more extreme reaction = especially among men原文後面的 “both physical attraction and liking towards others” 是對 attraction 的解釋。題目空格只有一個位置，最簡潔、最符合原文的答案是 attraction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式attraction 是名詞，放入句子後是 “attraction declined as density increased”，文法完整。它只有一個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “physical attraction and liking”。這超過三個字，而且題目句子需要一個總括名詞。原文用破折號解釋 attraction 包含兩方面，答案應抄總括詞 attraction。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "help",
+      "answerKey": "help",
+      "type": "Sentence Completion",
+      "prompt": "“Diffusion of responsibility may explain why a person is reluctant to ____________.”",
+      "translation": "責任分散可能解釋為何一個人不願意 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “reluctant to”，後面需要動詞原形。題目定位詞 “Diffusion of responsibility” 很強，直接出現在 Paragraph F 後段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Field studies done in a variety of settings illustrate that social density is associated with negative effects on human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同環境中的實地研究顯示，social density 與人類負面影響有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This may be due to the fact that people diffuse responsibility among themselves with no one feeling that they ought to be the one to help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能是因為人們把責任分散給彼此，沒有任何人覺得自己應該成為幫忙的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句幾乎直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Diffusion of responsibility”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“One reason why the level of helping behaviour may be reduced in crowded situations is linked to the concept of diffusion of responsibility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在擁擠情境中，幫助行為減少的一個原因，與責任分散這個概念有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more people who are present in a situation that requires help, the less often help is given.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在需要幫助的情境中，在場人數越多，幫助越少出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“...with no one feeling that they ought to be the one to help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有人覺得自己應該成為出手幫助的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “a person is reluctant to...” 對應原文 “no one feeling that they ought to be the one to help”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 help。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式help 是動詞原形，接在 “reluctant to” 後面正確：reluctant to help。答案一個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “diffuse responsibility”。題目已經給出 diffusion of responsibility，空格問這個概念解釋人為何不願做甚麼。答案要回到具體行為：help。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "control",
+      "answerKey": "control",
+      "type": "Sentence Completion",
+      "prompt": "“Schmidt and Keating suggest that greater ____________ would reduce the stress caused by crowding.”",
+      "translation": "Schmidt 和 Keating 指出，更多 ____________ 可以減少 crowding 造成的壓力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “greater”，後面需要不可數名詞或名詞短語。題目有專名 “Schmidt and Keating”，很容易定位到 Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How, then, should we address these problems?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，我們應如何處理這些問題？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This includes behaviours such as averting the gaze and using negative body language to attempt to block any potential intrusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這包括避免目光接觸，以及使用負面身體語言，試圖阻擋任何潛在打擾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 轉向 coping strategies 和緩解 crowding 負面感受的方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Schmidt and Keating” 和 “greater”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more control a person has over a crowded environment, the less negatively they experience it and the less crowding they perceive (Schmidt and Keating).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人對擁擠環境擁有越多控制，他對該環境的負面感受就越少，感知到的擁擠也越少。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文 “The more control... the less negatively they experience it” 改寫成 “greater control would reduce the stress caused by crowding”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "The more control = greater control less negatively experience it = reduce the stress / reduce negative experience crowded environment = crowding所以答案是 control。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式control 是不可數名詞，放在 “greater control” 後自然完整。答案一個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “social withdrawal”。同段後面確實講 social withdrawal，但那是 coping strategy 的一種行為；題目指名 Schmidt and Keating，對應的句子講的是 control。控題技巧是：專名出現時，先找該專名附近的句子，不要被同段其他策略吸走。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Density and Crowding.pdf",
+    "sha256": "d4dffbe4f561522a4391a03ae4c228ee0f78efc0ac2b0c7c73c81802feff3d4c",
+    "pageCount": 17
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句提出人類今天面對很多問題，其中三個趨勢最重要：人口急速增長、城市化，以及全球溝通與社會接觸爆炸式增加。最後一句把三者收束成一個共同結果：這些趨勢都製造了更多 crowding和 perception of crowding。只看首尾句，可以先判斷本段不是在定義 crowding，而是在交代為何現代社會越來越容易出現擁擠感。功能偏向「造成擁擠問題的背景因素」。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句直接提醒讀者：crowding 和 density 不一定相同。最後一句總結 crowding 是 psychological and ecological phenomenon，不只是 physical condition。首尾句合作得很清楚：本段主要做概念區分。density 是物理密度，即單位面積或空間內有多少人；crowding 則牽涉壓力、接觸、活動和心理反應。段中 frontiersman 和 suburbanite 的例子，只是用來證明同一物理密度不必然帶來同一擁擠感。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句介紹 Calhoun 的經典老鼠實驗：他把老鼠放進一個本來容納 50 隻老鼠的環境，並提供足夠食物、水和築巢材料。最後一句仍在列出實驗中出現的負面行為，包括攻擊增加和不同形式的性行為變化。只看首尾句，可以估計這段會完整描述一個動物 crowding experiment，包括實驗設定、人口高峰、空間限制，以及由擁擠引發的行為和生殖問題。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說 Calhoun 的結果引發了後續關於 crowding 對人類影響的研究，而這些研究顯示 high density 不是造成負面效果的單一原因。最後一句進一步指出，如果 crowding 以 social density，即必須互動的人數來定義，它更能預測心理和身體負面影響。首尾句顯示本段功能是重新解讀Calhoun 的發現：重點從單純空間密度轉向社會互動密度。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句直接說 crowding 令人不舒服有幾個原因。最後一句指出人會強烈感到 lack of privacy，因為無法專心做自己想做的事，又不斷被打斷或被他人觀察。只看首尾句，可以判斷本段會解釋擁擠感的心理原因。中間的 harried mother 例子只是具體展示 stimulus overload：太多刺激同時爭奪注意力，令人困惑、疲倦，想退出當下情境。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句指出不同 field studies 顯示 social density 和對人類的負面影響有關。最後一句說在需要幫助的情境中，若在場人數越多，人們越會分散責任，沒有人覺得自己應該出手。只看首尾句，可以知道本段不是只講 aggression，也不只是講 attraction；它用監獄、房間大小、性別差異、吸引力下降、helping behaviour 減少等例子，概括 social density 對人際行為的負面影響。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句用問題開頭：那麼我們應如何處理這些問題？最後一句說常用 coping strategy 是 social withdrawal，例如避免眼神接觸和用負面身體語言阻擋他人打擾。首尾句顯示本段轉向解決或應對方式。中間補充兩個影響因素：人在擁擠環境中有越多 control，負面感受越少；若與喜歡的人一起經歷高密度環境，感受也較少負面。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1182 @@
+{
+  "id": "p1-091-an-essential-intermediary",
+  "catalogueId": "p1-091",
+  "catalogueIds": [
+    "p1-091"
+  ],
+  "passage": 1,
+  "title": "An Essential Intermediary",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "圖像缺失，不能確定題號順序",
+    "圖像缺失，不能確定題號順序",
+    "圖像缺失，不能確定題號順序",
+    "圖像缺失，不能確定題號順序",
+    "圖像缺失，不能確定題號順序",
+    "B",
+    "B",
+    "A",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some dinosaurs were bigger than the blue whale.”",
+      "translation": "有些恐龍比藍鯨更大。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷「某些恐龍是否比藍鯨大」。控制詞是 “Some dinosaurs” 和 “bigger than the blue whale”。我們要找藍鯨和恐龍的比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a strange irony about the blue whale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藍鯨有一個奇特的諷刺之處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It lies in the fact that this huge beast feeds primarily on one of the smallest life forms in the oceans, a tiny crustacean known as krill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個諷刺之處在於，這種巨大的動物主要以海洋中最小的生命形式之一為食，也就是一種名為krill 的細小甲殼類動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段會介紹藍鯨的巨大體型，以及牠與 krill 的體型反差。恐龍比較也在同一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “dinosaurs” 和 “blue whale”。Paragraph 1 中直接出現 dinosaurs："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yes, not even the most imposing of the dinosaurs from the Jurassic era can match this sleek, streamlined aquatic mammal in scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "是的，即使侏羅紀時代最令人敬畏的恐龍，在體型規模上也比不上這種光滑、流線型的水生哺乳動物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “not even the most imposing of the dinosaurs ... can match ... in scale”。這句的意思是：連最具壓迫感、最龐大的恐龍都不能與藍鯨相比。題目說 “Some dinosaurs were bigger than the blue whale”，剛好和原文方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：some dinosaurs were bigger"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：not even the most imposing dinosaurs can match it in scale"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“can match ... in scale” 指體型可相比。原文加上 “not even”，代表連最大型恐龍都比不上藍鯨。因此題目說有些恐龍更大，答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能用常識想到恐龍很大，於是覺得題目合理。這裡不能靠常識；原文已明確說藍鯨是 “the largest animal in the world” 以及 “the largest to have ever existed”。這兩句已排除恐龍更大的可能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The blue whale eats foods other than krill.”",
+      "translation": "藍鯨除了 krill 之外，也吃其他食物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷藍鯨是否只吃 krill，還是主要吃 krill 但也可能吃其他東西。控制詞是 “other than krill”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a strange irony about the blue whale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藍鯨有一個奇特的諷刺之處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It lies in the fact that this huge beast feeds primarily on one of the smallest life forms in the oceans, a tiny crustacean known as krill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個諷刺之處在於，這種巨大動物主要以海洋中最小的生命形式之一為食，也就是名為 krill 的細小甲殼類動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接包含食物資訊，所以是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “blue whale”, “eats”, “krill”。原文用 “feeds primarily on ... krill” 表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“feeds primarily on ... krill”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要以 krill 為食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“primarily” 是判斷核心。它表示「主要地、首要地」。如果原文想說藍鯨只吃 krill，通常會使用 only、exclusively、solely 這類限制詞。現在原文使用 primarily，意思是 krill 是主要食物來源，同時保留其他食物的可能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：eats foods other than krill"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：feeds primarily on krill“primarily” 使題目成立，因為它暗示 krill 是主要食物，不等於唯一食物。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易錯在把 “primarily” 看成 “only”。IELTS Reading 很重視程度詞。primarily 控制答案方向：它說主要食物是 krill，但沒有把其他食物排除。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some krill are smaller than shrimp.”",
+      "translation": "有些 krill 比 shrimp 更小。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較 krill 和 shrimp 的大小。要選 TRUE，原文必須說某些 krill 比 shrimp 小；要選 FALSE，原文要說 krill 沒有比 shrimp 小，或 shrimp 比 krill 小。若原文只說外形相似，沒有大小比較，就應選 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Krill lives in every ocean of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Krill 生活在世界每一個海洋中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This and their small size lead to the deceptive conclusion that they are an insubstantial presence, of little importance, until one is informed that an adult blue whale can consume almost 40 million krill, with a total weight of 3,600 kilograms, in just one day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透明外骨骼和細小體型會令人誤以為牠們微不足道、並不重要，直到人們知道一隻成年藍鯨一天可以吃掉接近 4,000 萬隻 krill，總重量達 3,600 公斤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 確實介紹 krill 外形和 small size，所以是合理目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “krill”, “shrimp”, “smaller”。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“They therefore come in many species, although they all sport a similar shrimp-like appearance...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此牠們有許多品種，雖然牠們都有類似蝦的外觀。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“These creatures are distinguishable from shrimp by their external gills...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些生物可憑外露的鰓與 shrimp 區分開來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只提到兩件事：第一，krill 有 “similar shrimp-like appearance”，即外形像 shrimp。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，krill 可由 “external gills” 與 shrimp 區分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 shrimp 的大小，也沒有比較 krill 和 shrimp 的大小。雖然原文有 “their small size”，但這只是說 krill 細小，並未說牠們比 shrimp 更小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目需要的是比較關係：some krill < shrimp。原文只有外形相似和身體特徵差異，缺少大小比較。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“shrimp-like appearance” 很容易令人把 shrimp 和 krill 的體型也連在一起。但 “appearance” 只指外觀相似，不自動包括大小比較。看到 “small size” 也不能自行加入 “smaller than shrimp”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There are about 500 million tons of krill in the ocean.”",
+      "translation": "海洋中大約有 5 億噸 krill。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的重點在範圍。題目把 “krill in the ocean” 說成整體 krill 的數量。原文是否講所有 krill？還是只講某一個 species？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is their huge numbers that make these mysterious ghost-like crustaceans so important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是牠們龐大的數量，使這些神秘、幽靈般的甲殼類動物如此重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The question is whether humans can get in on the act.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題是人類是否也能參與其中、利用這項資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 會講 krill 的數量、biomass，以及牠們作為食物資源的重要性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “500 million tons”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The collective weight (or biomass) of just one species, Antarctic krill, is estimated to be about 500 million tons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單單一個品種 Antarctic krill 的總重量，即 biomass，估計約為 5 億噸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “just one species, Antarctic krill”。原文講的是 Antarctic krill 這一個 species的 biomass，不是世界所有 krill 的總重量。題目刪去了 Antarctic 和 just one species，把範圍擴大成 “krill in the ocean”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 範圍比較",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：krill in the ocean"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：just one species, Antarctic krill這裡的問題在範圍擴張。原文數字只屬於 Antarctic krill。題目把它說成整體 krill，資訊範圍不一致，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “500 million tons” 很容易直接判 TRUE。但數字重現只幫我們定位，不能直接定案。要看數字修飾的是誰：原文修飾 “just one species, Antarctic krill”，題目修飾整體 krill。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "圖像缺失，不能確定題號順序",
+      "answerKey": "圖像缺失，不能確定題號順序",
+      "type": "Diagram Completion",
+      "prompt": "“Complete the diagram. Choose ONE WORD from the passage for each answer.”",
+      "translation": "完成圖表。每個答案從文章中選 ONE WORD。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這組題缺少實際圖像，所以不能確定 5–9 的箭嘴位置。不過答案來源非常明顯，應在 Paragraph 2，因為它集中描述 krill 的外部結構。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Krill lives in every ocean of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Krill 生活在世界每一個海洋中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This and their small size lead to the deceptive conclusion that they are an insubstantial presence, of little importance, until one is informed that an adult blue whale can consume almost 40 million krill, with a total weight of 3,600 kilograms, in just one day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透明外骨骼和細小體型會令人誤以為牠們微不足道，直到人們知道一隻成年藍鯨一天可吃接近4,000 萬隻 krill，總重量達 3,600 公斤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 先介紹 krill 的分布，後面說到外形和 small size。因此中間句很可能是diagram 的來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Diagram 題要找結構詞。Paragraph 2 的結構描寫集中在這一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They therefore come in many species, although they all sport a similar shrimp-like appearance, with an exoskeleton divided into three parts, two large antennae at the front and pairs of legs running along the underside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此牠們有許多品種，雖然外觀都像蝦，有一個分成三部分的外骨骼，前方有兩條大型觸角，腹部下方有成對的腳。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These creatures are distinguishable from shrimp by their external gills, which resemble rows of fibrous combs alongside their bodies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些生物可憑外露的鰓與 shrimp 區分；這些鰓像一排排纖維狀的梳子，位於身體旁邊。"
+            },
+            {
+              "kind": "label",
+              "text": "再下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another oddity is that their exoskeleton is usually transparent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個奇特之處是牠們的外骨骼通常是透明的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可填答案詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據這幾句，diagram 最可能用以下詞： exoskeleton外骨骼。若箭嘴指向外層硬殼，或文字是 “an ______ divided into three parts”，答案是exoskeleton。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "parts部分。若圖中文字是 “divided into three ______”，答案是 parts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "antennae觸角。若箭嘴指向前方兩條長觸角，答案是 antennae。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "legs腳。若箭嘴指向 underside 下方成對的腳，答案是 legs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "gills鰓。若箭嘴指向身體旁邊梳狀外露結構，答案是 gills。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "transparent透明。若圖中描述外骨骼的特徵，例如 “usually ______”，答案是 transparent。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這組題不能只按文章順序硬填，因為 diagram 題的答案次序取決於箭嘴位置。有圖時要先看箭嘴指向：front 對應 antennae，underside 對應 legs，alongside bodies 對應 gills，body covering對應 exoskeleton，appearance / shell feature 對應 transparent。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "B — mostly done in Antarctic waters",
+      "answerKey": "B — mostly done in Antarctic waters",
+      "type": "Multiple Choice",
+      "prompt": "“Fishing for krill is...”",
+      "translation": "捕撈 krill 是……選項： A not too difficult. B mostly done in Antarctic waters. C mostly done in Japanese waters. D done with large fishing nets.",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seafood-loving Japan is the only country in the world in which some krill end up on the table.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "熱愛海鮮的日本，是世界上唯一有部分 krill 最終被端上餐桌的國家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The majority of krill trawlers thus target the waters around coastal Antarctica, but it is a remote region, subject to harsh weather conditions, making operations there difficult and expensive, as well as raising concerns about the ecological consequences, especially given the importance of krill as the basis of the food chain in that pristine and untouched environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，多數 krill trawlers 針對南極沿岸附近水域，但那是一個偏遠地區，天氣惡劣，使作業困難且昂貴，也引起生態後果方面的憂慮，尤其考慮到 krill 在這片原始環境中是食物鏈基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經能看到 fishing location 和 difficulty。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Fishing for krill”。原文用 “krill trawlers” 表示捕撈 krill 的拖網漁船。選項 B 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mostly” 對應原文 “The majority”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The majority of krill trawlers thus target the waters around coastal Antarctica...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多數 krill 拖網漁船因此瞄準南極沿岸附近水域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The majority” = mostly“target the waters around coastal Antarctica” = done in Antarctic waters所以 B 正確。錯項分析A 錯在方向相反。原文說 operations there difficult and expensive，所以捕撈並不容易。 C 有 Japan 原字，但日本是消費國，並非主要捕撈水域。 D 錯在 large fishing nets。Paragraph 4 說 “Very fine fishing nets are needed”，需要的是 very fine nets，不是 large nets。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — are processed soon after capture",
+      "answerKey": "B — are processed soon after capture",
+      "type": "Multiple Choice",
+      "prompt": "“Krill...”",
+      "translation": "Krill……選項： A move like ghosts. B are processed soon after capture. C are mostly used for human consumption. D come in two varieties.",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Antarctic krill are the largest species, reaching six centimetres in length.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antarctic krill 是最大品種，可長到六厘米。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of these problems, processed krill is used mostly as fish food in aquariums or aquaculture, or as bait in commercial fishing operations, and otherwise remains largely out of the public eye.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於這些問題，處理過的 krill 大多用作水族館或水產養殖的魚糧，或商業捕魚作業中的魚餌，除此之外大多不為公眾所見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段會講 krill 捕撈和處理困難，答案多半在 Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的定位概念是 processed soon after capture。原文沒有 capture，但有 “prepared and frozen quickly”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, they must be prepared and frozen quickly because strong enzymes in their guts would otherwise cause rapid putrefaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，牠們必須迅速處理並冷凍，因為牠們腸道中的強效酶否則會造成快速腐敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prepared and frozen quickly” 對應 “processed soon after capture”。quickly 表示捕獲後不能拖延，因為會 rapid putrefaction。錯項分析A 使用了 “ghost-like” 這個原文字眼，但原文說的是外觀像幽靈，不是游動方式像幽靈。 C 錯在 mostly used for human consumption。Paragraph 4 說 processed krill mostly 作魚糧或魚餌；Paragraph 5 只說日本有部分 krill 進入餐桌。 D 錯在 two varieties。Paragraph 2 說 krill “come in many species”，不只兩種。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A — outnumber krill",
+      "answerKey": "A — outnumber krill",
+      "type": "Multiple Choice",
+      "prompt": "“Phytoplankton...”",
+      "translation": "Phytoplankton……選項： A outnumber krill. B produce over half of the oxygen in the world. C can be seen with the naked eye. D can live anywhere in the ocean.",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To explore this food chain fully, one must go smaller still.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若要完整探索這條食物鏈，就必須看更小的生物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is, in fact, so much phytoplankton that its collective photosynthesis accounts for up to half of the oxygen produced in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，phytoplankton 數量如此龐大，以至於其整體光合作用佔全球氧氣生產多達一半。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句說明 Paragraph 6 會講 phytoplankton 的數量、位置、能量來源和食物鏈地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Phytoplankton”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since krill exist in such large numbers, their primary food source must logically be even more numerous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "既然 krill 數量如此龐大，牠們的主要食物來源按理必定數量更多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“their primary food source” 指 phytoplankton，因為前文說 krill “extract microscopic organisms known as phytoplankton”。“even more numerous” 表示比 krill 數量更多。這正好對應 A“outnumber krill”。錯項分析B 錯在 over half。原文是 “up to half”，意思是多達一半，不是超過一半。 C 錯在 naked eye。原文稱 phytoplankton 是 “microscopic organisms”，即顯微級生物，肉眼看不見。 D 錯在 anywhere。原文說牠們只在 “well-lit surface layers”，因為需要 sunlight，並非海洋任何位置都能生存。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — prefer to be alone",
+      "answerKey": "C — prefer to be alone",
+      "type": "Multiple Choice",
+      "prompt": "“Blue whales...”",
+      "translation": "藍鯨……選項： A are a very large species of fish. B can weigh 200 tons. C prefer to be alone. D are in the middle of a food chain.",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, as with krill, the vast numbers of phytoplankton live unnoticed and unobserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，如同 krill 一樣，數量龐大的 phytoplankton 也在不被注意、不被觀察的情況下生存。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the small ghostly krill are the essential intermediary in this wondrous process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而那些細小、幽靈般的 krill，正是這個奇妙過程中的關鍵中介。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段總結 phytoplankton → krill → blue whale 的食物鏈，也提到 blue whales 的行為。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Blue whales”。Paragraph 7 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This can similarly bring the usually solitary blue whales together...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這同樣可以把通常獨居的藍鯨聚集在一起。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“usually solitary” 是答案核心。solitary 指通常單獨生活、不成群。選項 C “prefer to be alone” 是比較自然的概括：牠們平常多為獨居狀態，只有在 currents 把 phytoplankton 壓在一起、krill 集中覓食時，藍鯨才會聚集。錯項分析A 錯在 fish。Paragraph 1 明確稱 blue whale 為 “aquatic mammal”，即水生哺乳動物。 B 很有迷惑性，因為 Paragraph 1 說藍鯨 “weighing in at almost 200 tons”。選項把 almost 拿走，變成 200 tons，精確度下降。 D 錯在 food chain 位置。Paragraph 7 的鏈條是 phytoplankton → krill → blue whale。krill 是intermediary，藍鯨在這條鏈的末端，不在中間。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - An Essential Intermediary.pdf",
+    "sha256": "0c8cf21e88d0bfe6648d72e4c71b9cc74d89ce1cb6b98c92fd7213dec8eaccb1",
+    "pageCount": 15
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 blue whale 有一個 strange irony，並指出成年藍鯨可長達 30 metres、重近 200 tons。尾句揭示這個 irony：如此巨大的動物主要以極小的 krill 為食。只看首尾句，可以先判斷本段是引入全文主題，用藍鯨和 krill 的體型反差吸引讀者。這段會支援關於藍鯨體型、恐龍比較、藍鯨食物的題目。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 krill lives in every ocean of the world。尾句說成年藍鯨一天可吃接近 40 million krill，總重3,600 kilograms。只看首尾句，可以估計本段先介紹 krill 的分布和外形，再用藍鯨進食量證明這種小生物其實很重要。中間的 exoskeleton、antennae、legs、gills、transparent 等細節，最可能對應 diagram labels。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 krill 的 huge numbers 令牠們非常重要。尾句提出問題：humans 是否可以 get in on the act，即人類能否利用這個龐大資源。只看首尾句，可以判斷本段主題是 krill 的 biomass 和食物鏈價值，並把焦點從自然界動物取食轉向人類捕撈可能性。500 million tons、whales、seals、penguins 等食物鏈資訊都在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Antarctic krill 是最大品種，可長到 six centimetres。尾句說由於捕撈和處理困難， processed krill 主要用作 aquarium / aquaculture fish food 或 commercial fishing bait，並大多不被大眾看見。只看首尾句，可以知道本段在解釋人類為何難以大量食用 krill：體型小、網具要求高、容易壓碎、氟含量高、腐敗快。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說日本是唯一有部分 krill 被端上餐桌的國家。尾句指出多數 krill trawlers 針對 coastal Antarctica waters，但該地偏遠、天氣惡劣、成本高，還引起生態憂慮。只看首尾句，可以判斷本段講 krill 的商業利用：日本少量食用，南極品種較有商業潛力，但捕撈地點困難，而且牽涉 fragile food chain 的保育問題。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說若要完整探索這條 food chain，就要看更小的生物。尾句指出 phytoplankton 的總體光合作用佔全球氧氣生產多達一半。只看首尾句，可以判斷本段由 krill 轉向 krill 的食物phytoplankton。重點是 food chain 底層：krill filter feed on phytoplankton，而 phytoplankton 需要陽光，所以只能在 well-lit surface layers 生存。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說如同 krill，phytoplankton 數量巨大卻常被忽視。尾句總結：small ghostly krill 是從微小phytoplankton 到巨大 blue whale 之間的 essential intermediary。只看首尾句，可以看到全文結論：自然界中最小元素經由 krill 連到最大動物。這段也提到 usually solitary blue whales 會因 krill聚集而聚在一起，是 Q13 的關鍵。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 5–9 的可用答案詞很可能來自 Paragraph 2：外骨骼：exoskeleton；前方兩條大型觸角：antennae；腹部下方成對的腳：legs；身體旁邊外露的鰓：gills；外骨骼的特徵：transparent。",
+    "如果圖上其中一格寫的是 “divided into three ______”，答案便應是 parts。因為真正 diagram 沒有出現在 prompt 內，這一組題最穩妥的做法是把圖補回來後，再按箭嘴位置定 5–9 的次序。"
+  ]
+}

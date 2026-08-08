@@ -1,0 +1,1503 @@
+{
+  "id": "p1-142-can-scientists-tell-us-what-happiness-is",
+  "catalogueId": "p1-142",
+  "catalogueIds": [
+    "p1-142"
+  ],
+  "passage": 1,
+  "title": "Can Scientists tell us: What happiness is?",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "A",
+    "F",
+    "C",
+    "G",
+    "H",
+    "E",
+    "candy",
+    "defining",
+    "catastrophic brain",
+    "landscapes or dolphins playing",
+    "more primitive parts",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Which paragraph contains",
+      "prompt": "An experiment in which several groups were formed, one of which received a positive incentive",
+      "translation": "一個實驗把人分成幾組，其中一組得到正面激勵。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一段功能已經很清楚。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A few pioneers in experimental psychology bucked the trend.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：少數實驗心理學先驅逆著主流方向而行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A thousand therapists were coached in the new science.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一千名治療師接受了這門新科學的訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 會講 positive psychology 如何從少數實驗心理學先驅開始，逐漸發展成有研究資金、研究團隊和培訓制度的新方向。題目出現 experiment、groups、positive incentive，和 experimental psychology 的段落功能高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的詞是 experiment、several groups、positive incentive。原文沒有直接寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "positive incentive，但有具體例子 candy。掃描 Paragraph B，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Isen divided doctors making a tricky diagnosis into three groups: one received candy, one read humanistic statements about medicine, one was a control group.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Isen 把正在進行困難診斷的醫生分成三組：一組收到糖果，一組閱讀關於醫學的人文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "陳述，一組是控制組。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 several groups were formed，原文說 divided doctors ... into three groups。題目說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "one received a positive incentive，原文說 one received candy。candy 是一種小獎勵，屬於positive incentive。後一句 “The doctors who had candy displayed the most creative thinking and worked more efficiently” 進一步證明糖果組在實驗中有正面效果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "several groups were formed= divided doctors into three groups received a positive incentive= received candy"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看到 “positive emotions” 就停下。真正證明答案的是 divided into three groups 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "received candy 這兩個實驗設計細節。段落 B 後半的 Seligman funding 也和 positive psychology有關，但沒有 several groups 的實驗結構。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Which paragraph contains",
+      "prompt": "A review of a poorly researched area of psychology",
+      "translation": "對心理學中一個研究不足領域的回顧。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Economists accept that if people describe themselves as happy, then they are happy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：經濟學家接受一種看法：如果人們形容自己快樂，那他們就是快樂的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“For every 100 psychology papers dealing with anxiety or depression, only one concerns a positive trait.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：每 100 篇處理焦慮或抑鬱的心理學論文中，只有 1 篇涉及正面特質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph A 是背景和研究缺口段。它先提出 happiness 的定義問題，再以論文比例說明 positive trait 長期研究不足。題目中的 poorly researched area 很明顯對應這種研究缺口。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 poorly researched area、psychology。原文中有幾組對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“psychology has had little to say about goodness and contentment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：心理學對 goodness 和 contentment 幾乎沒有多少話可說。"
+            },
+            {
+              "kind": "quote",
+              "text": "“It hasn’t been respectable science to study what happens when lives go well.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究人生順利時發生甚麼，過去並未被視為體面的科學。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Positive experiences, such as joy, kindness, altruism and heroism, have mainly been ignored.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：正面經驗，例如喜悅、善意、利他和英雄行為，基本上一直被忽略。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 a poorly researched area of psychology 概括原文三個訊息：psychology has had"
+            },
+            {
+              "kind": "paragraph",
+              "text": "little to say、has mainly been ignored、only one paper concerns a positive trait。這些句子都指向同一點：心理學長期重視 anxiety、depression、misery，對 positive experiences 和 positive traits研究很少。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "poorly researched= had little to say / mainly ignored / only one concerns area of psychology= positive experiences, goodness, contentment, positive traits"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也談 experimental psychology 的 pioneers，但 B 是介紹少數人開始研究這"
+            },
+            {
+              "kind": "paragraph",
+              "text": "個領域。Question 2 問的是「這個領域研究不足」的整體回顧，Paragraph A 的證據更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Which paragraph contains",
+      "prompt": "A contrast between the brain’s responses to positive and negative stimuli",
+      "translation": "大腦對正面和負面刺激反應的對比。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is it about the structure of the brain that underlies our bias towards negative thinking?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：大腦結構中是甚麼造成我們偏向負面思考？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prefrontal cortex, which registers happiness, is the part used for higher thinking, an area that evolved later in human history.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：負責記錄幸福感的前額葉皮質，是用於高層次思考的部分，也是人類歷史中較後期演"
+            },
+            {
+              "kind": "paragraph",
+              "text": "化出的區域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph F 會從腦部結構解釋 negative thinking 和 happiness。題目中的 brain’s responses、positive and negative stimuli，和這段非常吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 brain responses、positive、negative、stimuli。原文沒有用 stimuli，但用 pleasant"
+            },
+            {
+              "kind": "label",
+              "text": "and unpleasant pictures 來表達實驗刺激："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Iowa University, neuroscientists studied what happens when people are shown pleasant and unpleasant pictures.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 Iowa University，神經科學家研究人們看到愉快和不愉快圖片時會發生甚麼。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文把反應分開："
+            },
+            {
+              "kind": "quote",
+              "text": "“When subjects see landscapes or dolphins playing, part of the frontal lobe of the brain becomes active.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：受試者看到風景或海豚嬉戲時，大腦額葉的一部分會變得活躍。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But when they are shown unpleasant images ... the response comes from more primitive parts of the brain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但當他們看到不愉快圖片時，反應來自大腦中更原始的部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 contrast 對應原文的 But。positive stimuli 對應 pleasant pictures，例如"
+            },
+            {
+              "kind": "paragraph",
+              "text": "landscapes or dolphins playing；negative stimuli 對應 unpleasant images，例如 oil-covered bird或 dead soldier。brain’s responses 對應 frontal lobe becomes active 和 response comes from more primitive parts。這段不只提到兩類圖片，還明確比較兩類腦反應位置。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "positive stimuli= pleasant pictures / landscapes or dolphins playing negative stimuli= unpleasant images brain’s responses= frontal lobe becomes active / response comes from more primitive parts"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也談 positive 和 negative emotions，但它主要列出情緒類別和負面思維證"
+            },
+            {
+              "kind": "paragraph",
+              "text": "據。Question 3 問 brain’s responses，必須有大腦部位和實驗圖片反應，所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Which paragraph contains",
+      "prompt": "A sceptical view that the research was a waste of money",
+      "translation": "一種懷疑看法，認為這項研究花錢不值得。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But critics are demanding answers to big questions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但批評者要求回答一些重大問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“His plan to stop the new science floating ‘on the waves of self-improvement fashion’ is to make sure it is anchored to positive philosophy above, and to positive biology below.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他的計劃是把這門新科學固定在上層的正面哲學和下層的正面生物學上，以免它只隨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "著自我提升潮流漂浮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 是批評與辯護段。題目說 sceptical view，最自然應該在critics 出現的段落尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 sceptical、waste of money、research、funds。掃描 Paragraph C，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Can you justify spending funds to research positive states when there are problems such as famine, flood and epidemic depression to be solved?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當仍有饑荒、洪水和大規模抑鬱等問題需要解決時，你能否合理解釋花錢研究正面狀"
+            },
+            {
+              "kind": "paragraph",
+              "text": "態這件事？"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 waste of money，原文沒有逐字使用 waste，但 “Can you justify spending funds...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是非常典型的質疑語氣。它暗示批評者覺得資金應該用來處理 famine、flood、epidemic depression 等更急迫問題，而 positive states 的研究未必值得投入資源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a sceptical view= critics are demanding answers / Can you justify...?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "research was a waste of money= spending funds to research positive states when serious problems remain"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 提到 Seligman raised millions of dollars of research money，這是資金來源"
+            },
+            {
+              "kind": "paragraph",
+              "text": "；但題目問 skeptical view，真正出現質疑花錢合理性的地方是 Paragraph C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Which paragraph contains",
+      "prompt": "A substance that produces much wanting but little liking",
+      "translation": "一種會製造大量渴求、但帶來很少喜歡或享受的物質。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our difficulty, according to Daniel Nettle, is that the brain systems for liking and wanting are separate.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Daniel Nettle 認為，我們的困難在於 liking 和 wanting 的大腦系統是分開的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In humans, a drug like nicotine produces much craving but little pleasure.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在人類身上，像尼古丁這樣的藥物會產生大量渴求，但帶來很少快感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Question 5 幾乎可以直接定位。題目中的 much wanting but little liking，是原文much craving but little pleasure 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 substance、wanting、liking。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“In humans, a drug like nicotine produces much craving but little pleasure.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在人類身上，像尼古丁這樣的藥物會產生大量渴求，但快感很少。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 substance，原文說 a drug like nicotine。題目說 much wanting，原文說 much"
+            },
+            {
+              "kind": "paragraph",
+              "text": "craving；craving 是強烈渴求，屬於 wanting system。題目說 little liking，原文說 little pleasure； pleasure 是 liking 的表現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "substance= a drug like nicotine much wanting= much craving little liking= little pleasure"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 前面有 rat experiment，rat 的行為也顯示 wanting 和 enjoyment 分離。但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 5 問的是 a substance，原文中明確的物質是 nicotine，所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Which paragraph contains",
+      "prompt": "A conclusion that lasting happiness is difficult to achieve because of the nature of the brain",
+      "translation": "一個結論：由於大腦本質，持久幸福很難達成。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In essence, what the biology lesson tells us is that negative emotions are fundamental to the human condition and it’s no wonder they are difficult to eradicate.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：本質上，這堂生物學課告訴我們，負面情緒是人類狀態的根本部分；難怪它們很難根"
+            },
+            {
+              "kind": "paragraph",
+              "text": "除。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the same time, by a trick of nature, our brains are designed to crave but never really achieve lasting happiness.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：同時，由於自然的一種設計，我們的大腦會不斷渴求，卻永遠難以真正達到持久幸福。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph H 是全文結論。Question 6 的 lasting happiness 和 nature of the brain 直接對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 conclusion、lasting happiness、nature of the brain。原文中 “In essence” 是總結"
+            },
+            {
+              "kind": "paragraph",
+              "text": "標誌；“by a trick of nature” 對應 nature；“our brains are designed” 對應 nature of the brain；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“never really achieve lasting happiness” 對應 difficult to achieve lasting happiness。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這一段不是提供新實驗細節，而是把前文生物學、負面情緒和 wanting / liking 分離整合成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "結論。題目說 difficult to achieve，原文語氣更強，用 never really achieve。因為大腦被 designed to crave，所以我們會追求幸福，但難以維持 lasting happiness。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "because of the nature of the brain= by a trick of nature, our brains are designed to crave lasting happiness is difficult to achieve= never really achieve lasting happiness"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也談 catastrophic brain，解釋大腦為何會 look for what’s wrong；但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 6 明確問 lasting happiness 的結論，Paragraph H 的末句最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Which paragraph contains",
+      "prompt": "A description listing the categories of human emotion",
+      "translation": "一段列出人類情緒類別的描述。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although most people rate themselves as happy, there is a wealth of evidence to show that negative thinking is deeply ingrained in the human psyche.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：雖然大多數人把自己評為快樂，但大量證據顯示負面思維深深植根於人類心理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the psychologist Daniel Nettle, author of Happiness, and one of the Royal Institution lecturers, each negative emotion tells us ‘something bad has happened’ and suggests a different course of action.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：心理學家 Daniel Nettle 認為，每一種負面情緒都告訴我們「有壞事發生了」，並提示一"
+            },
+            {
+              "kind": "paragraph",
+              "text": "種不同的行動方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 會講 negative thinking 的證據和 negative emotions 的作用。題目中的 categories of human emotion 應該在此段尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 categories、human emotion。原文直接列出："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of the six universal emotions, four—anger, fear, disgust and sadness—are negative and only one, joy, is positive. (The sixth, surprise, is neutral.)”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：六種普遍情緒之中，有四種——憤怒、恐懼、厭惡和悲傷——是負面的，只有一種 joy"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是正面的。第六種 surprise 是中性的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 listing the categories of human emotion，原文正是把 six universal emotions 分成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "negative、positive、neutral 三類，還列出具體例子。anger、fear、disgust、sadness 屬負面；joy 屬正面；surprise 屬中性。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "categories of human emotion= six universal emotions / negative / positive / neutral listing= four—anger, fear, disgust and sadness; one, joy; the sixth, surprise"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也區分 levels of happiness，但它分類的是 happiness 的層次，不是 human"
+            },
+            {
+              "kind": "paragraph",
+              "text": "emotion categories。Question 7 要找 universal emotions 的列表，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "candy",
+      "answerKey": "candy",
+      "type": "Summary Completion",
+      "prompt": "In addition to a control group, one group was asked to read humanistic statements about medicine and another received 8 ____________.",
+      "translation": "除了控制組外，一組被要求閱讀關於醫學的人文陳述，另一組收到 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的功能是介紹 positive psychology 的 pioneers 和實驗證據。第一句提到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "experimental psychology，已經提示此題應在 B。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 control group、humanistic statements、received。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Isen divided doctors making a tricky diagnosis into three groups: one received candy, one read humanistic statements about medicine, one was a control group.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Isen 把正在進行困難診斷的醫生分成三組：一組收到糖果，一組閱讀關於醫學的人文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "陳述，一組是控制組。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 received，所以空格需要一個名詞或名詞短語，表示收到的東西。原文直接說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "one received candy。candy 是一個字，符合 NO MORE THAN FOUR WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "another received ___= one received candy答案形式：candy 是原文詞，字數符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 positive emotions。題目問實驗中某組收到甚麼，不是問實驗研究的抽象主題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "defining",
+      "answerKey": "defining",
+      "type": "Summary Completion",
+      "prompt": "Critics questioned the value of 9 ____________ both levels of happiness and classifying virtues.",
+      "translation": "批評者質疑 ______ 幸福層次以及分類 virtues 的價值。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 首句說 critics are demanding answers to big questions，所以 critics"
+            },
+            {
+              "kind": "paragraph",
+              "text": "questioned the value 這種語氣應在 C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 critics、levels of happiness、classifying virtues。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is the point of defining levels of happiness and classifying the virtues?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：界定幸福的層次和分類各種美德，到底有甚麼意義？"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "summary 把原文的問句改成陳述句。原文 “What is the point of...” 對應 “questioned the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "value of...”。空格後面有 “both levels of happiness and classifying virtues”，句子形式略不自然；但從原文可見，要填的是 defining。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "What is the point of...?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= questioned the value of... defining levels of happiness= defining both levels of happiness classifying the virtues= classifying virtues答案形式：defining 是一個字，符合 NO MORE THAN FOUR WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 levels of happiness。空格前有 “the value of”，後面已經有 “levels of happiness”，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格需要一個動名詞，defining 才能接後面的內容。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "catastrophic brain",
+      "answerKey": "catastrophic brain",
+      "type": "Summary Completion",
+      "prompt": "Seligman responded with an evolutionary theory: survival in times of adversity forged our brains to look for what is wrong because we have a 10 ____________.",
+      "translation": "Seligman 以進化理論回應：逆境中的生存經驗塑造了我們的大腦，使它會尋找錯誤和危險，因為我們有一個 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句說回到 evolutionary past，末句說我們的大腦在冰、洪水、饑荒時代演化"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，因此會 look for what’s wrong。這段正是題目 summary 的來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 evolutionary theory、adversity、look for what is wrong。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Survival in a time of adversity forged our brains into a persistent mould.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在逆境時代求生，把我們的大腦鍛造成一種持續存在的模式。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Seligman 的引述："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because our brain evolved during a time of ice, flood and famine, we have a catastrophic brain. The brain works by looking for what’s wrong.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因為我們的大腦是在冰、洪水和饑荒的時代演化而來，所以我們有一個災難型大腦。大"
+            },
+            {
+              "kind": "paragraph",
+              "text": "腦的運作方式是尋找出錯或有問題的地方。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，需要單數名詞短語。原文直接是 “a catastrophic brain”。題目後面 “to look"
+            },
+            {
+              "kind": "paragraph",
+              "text": "for what is wrong” 也直接來自下一句 “looking for what’s wrong”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "survival in times of adversity= brain evolved during a time of ice, flood and famine forged our brains= evolved / forged our brains into a persistent mould look for what is wrong= looking for what’s wrong答案形式：catastrophic brain 兩個字，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "landscapes or dolphins playing",
+      "answerKey": "landscapes or dolphins playing",
+      "type": "Summary Completion",
+      "prompt": "When positive images such as 11 ____________ were shown, part of the frontal lobe became active.",
+      "translation": "當正面圖片，例如 ______，被展示時，額葉的一部分會活躍。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 第一和最後一句都圍繞 brain structure、negative thinking 和 happiness 的腦"
+            },
+            {
+              "kind": "paragraph",
+              "text": "部基礎。題目問 positive images 和 frontal lobe，應看 Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 positive images、frontal lobe、became active。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When subjects see landscapes or dolphins playing, part of the frontal lobe of the brain becomes active.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當受試者看到風景或海豚嬉戲時，大腦額葉的一部分會變得活躍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 positive images 對應原文 pleasant pictures。原文給出的例子是 landscapes or"
+            },
+            {
+              "kind": "paragraph",
+              "text": "dolphins playing。空格後面是 “were shown”，所以填複數或複合例子都可以。完整原文短語landscapes or dolphins playing 是四個字，符合 NO MORE THAN FOUR WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "positive images= pleasant pictures such as ___= landscapes or dolphins playing part of the frontal lobe became active= part of the frontal lobe of the brain becomes active答案形式：landscapes or dolphins playing，四個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 pleasant pictures。題目已經用 positive images 概括了圖片類型，空格要填具體"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "more primitive parts",
+      "answerKey": "more primitive parts",
+      "type": "Summary Completion",
+      "prompt": "When unpleasant images were shown, however, the response came from 12____________ of the brain.",
+      "translation": "但當不愉快圖片被展示時，反應來自大腦中 ______ 的部分。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "與 Question 11 同段。Paragraph F 先問 brain structure 如何造成負面偏向，後面用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pleasant / unpleasant pictures 的實驗作說明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 unpleasant images、response、came from。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But when they are shown unpleasant images—a bird covered in oil or a dead soldier with part of his face missing—the response comes from more primitive parts of the brain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但當他們看到不愉快圖片，例如一隻沾滿油污的鳥，或一名臉部缺失的死去士兵時，反"
+            },
+            {
+              "kind": "paragraph",
+              "text": "應來自大腦中更原始的部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面已有 “of the brain”，所以答案應填 “more primitive parts”，不能把 of the brain 一"
+            },
+            {
+              "kind": "paragraph",
+              "text": "併填入。這樣句子變成 “from more primitive parts of the brain”，完全符合原文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "unpleasant images were shown= they are shown unpleasant images the response came from= the response comes from答案形式：more primitive parts，三個字，符合 NO MORE THAN FOUR WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 ancient danger-recognition system。這個短語出現在下一句，解釋 negative"
+            },
+            {
+              "kind": "paragraph",
+              "text": "emotions 的來源；但題目句子直接要求 “from ___ of the brain”，最貼合的是 more primitive parts。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "D — The brain’s internal mechanisms do not help us achieve lasting happiness.",
+      "answerKey": "D — The brain’s internal mechanisms do not help us achieve lasting happiness.",
+      "type": "Multiple Choice",
+      "prompt": "According to Daniel Nettle, what can scientists conclude about happiness from the final two paragraphs?",
+      "translation": "根據 Daniel Nettle，從最後兩段科學家可以對 happiness 得出甚麼結論？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs G–H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 首句說 liking 和 wanting 的 brain systems 是 separate，末句用 nicotine 說明"
+            },
+            {
+              "kind": "paragraph",
+              "text": "craving 很多、pleasure 很少。Paragraph H 首句總結 biological lesson，末句說 brains are designed to crave but never really achieve lasting happiness。這兩段合起來，就是要解釋為甚麼大腦機制令 lasting happiness 很難達成。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Daniel Nettle、final two paragraphs、happiness。Paragraph G 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our difficulty, according to Daniel Nettle, is that the brain systems for liking and wanting are separate.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Daniel Nettle 認為，我們的困難在於 liking 和 wanting 的大腦系統是分開的。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the same time, by a trick of nature, our brains are designed to crave but never really achieve lasting happiness.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：同時，由於自然的一種設計，我們的大腦會不斷渴求，卻難以真正達到持久幸福。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這兩句要一起讀。Paragraph G 先解釋機制：wanting 和 liking 分離，所以想要某物不等於"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正享受某物。Paragraph H 再給出結論：我們的大腦設計會促使 craving，但無法真正獲得lasting happiness。題目問 scientists conclude about happiness，不能只抓 nicotine 例子；要抓最後兩段共同結論。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Brain systems always combine liking and wanting.錯。原文說 “the brain systems for liking and wanting are separate”，方向相反。A 把 separate 改成 always combine。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Negative emotions can easily be eliminated by positive thinking.錯。Paragraph H 說 negative emotions are fundamental to the human condition and difficult to eradicate。easily eliminated 和 difficult to eradicate 相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Happiness resembles nicotine: we crave it but derive little pleasure from it.這個選項有迷惑性，因為 Paragraph G 確實提到 nicotine produces much craving but little pleasure。但原文用 nicotine 作為 wanting 和 liking 分離的例子，沒有把 happiness 本身直接比作 nicotine。這個選項把例子擴大成整體結論，範圍太闊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The brain’s internal mechanisms do not help us achieve lasting happiness.正確。brain systems for liking and wanting are separate，加上 brains are designed to crave but never really achieve lasting happiness，正好支持 D。internal mechanisms 對應 brain systems /brains are designed；do not help us achieve lasting happiness 對應 never really achieve lasting happiness。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "brain’s internal mechanisms= brain systems for liking and wanting / brains are designed to crave do not help us achieve lasting happiness= never really achieve lasting happiness"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 最吸引人，因為 nicotine 是原文原字。但它只是例子；D 才能概括 final two paragraphs"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的總結。Multiple Choice 要選最完整、最精確受原文支援的一項，不要被單一原字帶走。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Can Scientists tell us What happiness is_.pdf",
+    "sha256": "b5347300f9fe121f19dd1e8b63f043b5ed12893ce99391dec044ac650f0b2167",
+    "pageCount": 17
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句先說 economists 接受人們自稱 happy 便是 happy，但 psychologists 會區分不同層次的happiness。末句用數字對比收結：每 100 篇關於 anxiety 或 depression 的心理學論文，只有 1 篇研究 positive trait。只看首尾句，可以估計 Paragraph A 是全文背景段：它介紹 happiness 作為研究對象，並指出心理學長期集中於負面情緒和痛苦，positive psychology 曾經研究不足。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 experimental psychology 中有少數 pioneers bucked the trend，開始研究正面情緒。末句說一千名 therapists 接受了這門 new science 的培訓。只看首尾句，可以估計 Paragraph B 會由個別實驗擴展到整個 positive psychology 運動。中間很可能出現 Alice Isen 的實驗、Seligman 的資金、研究中心和培訓活動。題目若問 experiment、groups、candy、positive incentive，目標段落很大機會是 B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句用 But critics are demanding answers to big questions 轉折，說 critics 要求回答重大問題。末句說 Seligman 想把新科學固定在 positive philosophy 和 positive biology 之上之下，避免它漂浮在 self-improvement fashion 之中。只看首尾句，可以估計 Paragraph C 的功能是展示批評和回應：有人質疑 happiness 研究太模糊、花錢不值得；Seligman 則想用哲學和生物學支撐它。"
+      },
+      {
+        "number": "D",
+        "summary": "首句把話題帶回 evolutionary past。末句引用 Seligman，說我們的大腦在冰、洪水和饑荒時代形成，會尋找 wrong 的東西；這在 Pleistocene era 有用，但在現代世界效果不好。只看首尾句，可以估計 Paragraph D 是進化解釋段：人類祖先生活在艱難環境中，大腦因此形成災難預警模式。題目若問 catastrophic brain 或 why we look for what is wrong，應看此段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說雖然大多數人自評 happy，但大量證據顯示 negative thinking 深深植根於 human psyche。末句引用 Daniel Nettle，說每一種 negative emotion 都告訴我們 something bad has happened，並提示不同的行動方向。只看首尾句，可以判斷 Paragraph E 會整理負面思維的證據，包括記憶失敗比成功深刻、六種 universal emotions 中四種為負面、joy 才是唯一正面情緒。題目若問human emotion categories，目標在 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句問大腦結構中是甚麼造成我們偏向 negative thinking，並問 joy 是否也有 biology。末句說感受 negative emotions 的能力來自古老的 danger-recognition system，而記錄 happiness 的prefrontal cortex 是較後期演化出的 higher thinking 區域。只看首尾句，可以估計 Paragraph F 會比較 positive 和 negative stimuli 在腦中的反應。題目若問 pleasant / unpleasant pictures 或brain responses，應看此段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Daniel Nettle 認為困難在於 liking 和 wanting 的 brain systems 是 separate。末句說在人類身上，nicotine 會產生強烈 craving，但 little pleasure。只看首尾句，可以估計 Paragraph G 是「想要」與「喜歡」的神經機制段：wanting 涉及 amygdala、nucleus accumbens 和 dopamine reward system；動物實驗和 nicotine 例子都說明 craving 可以很強，但真正 pleasure 很少。"
+      },
+      {
+        "number": "H",
+        "summary": "首句總結 biology lesson：negative emotions 是 human condition 的 fundamental part，所以difficult to eradicate。末句說大腦被設計成會 crave，但 never really achieve lasting happiness。只看首尾句，可以判斷 Paragraph H 是全文結論段：生物學上，負面情緒很難完全消除；同時，大腦的追求系統讓人持續渴望，卻難以得到持久幸福。題目若問 final conclusion 或 lasting happiness，應看 H。"
+      }
+    ]
+  }
+}

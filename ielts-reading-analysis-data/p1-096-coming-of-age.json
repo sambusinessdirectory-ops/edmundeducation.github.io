@@ -1,0 +1,1252 @@
+{
+  "id": "p1-096-coming-of-age",
+  "catalogueId": "p1-096",
+  "catalogueIds": [
+    "p1-096"
+  ],
+  "passage": 1,
+  "title": "Coming of Age",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "F",
+    "B",
+    "A",
+    "B",
+    "invent new technologies",
+    "on imports",
+    "relatively scarcer",
+    "reform",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "Advice for developed countries",
+      "translation": "給已開發國家的建議。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問哪一段包含「建議」，所以要找 should、must、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cannot afford、governments、developed countries、reform 這類語氣。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 指向",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F。這段首句說 governments have more scope to compensate losers，末"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句說 countries that embrace change can share in emerging economies’ wealth。只看首尾句，已經能看出它有政策建議和未來行動方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “Advice” 和 “developed countries”。Paragraph F 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The intensifying competition from emerging economies makes flexible labour and product markets even more imperative...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：來自新興經濟體的競爭加劇，使靈活的勞動市場和產品市場變得更加必要。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why Europe and Japan cannot afford to drag their heels over reform or leave workers ill-equipped to take up tomorrow’s jobs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這就是為何歐洲和日本不能拖延改革，也不能讓工人缺乏能力去承擔明日的工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 advice for developed countries，原文用 Europe and Japan 作為 developed"
+            },
+            {
+              "kind": "paragraph",
+              "text": "countries 的例子，並提出不能拖延 reform、不能讓 workers ill-equipped、要 abandon declining industries、move upmarket into new industries and services。這些全是對已開發經濟體的行動建議，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Advice= cannot afford to drag their heels / should move upmarket / embrace change developed countries= Europe and Japan / developed countries"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也談 rich countries 會得益，但它主要反駁恐懼。真正提出「應該怎樣做」的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是 Paragraph F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "The reason that it is faster to develop nowadays",
+      "translation": "現在發展可以更快的原因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找「為甚麼今天比以前更快發展」。定位詞是 faster、develop、nowadays、reason。原"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文可能用 today、catch up、technology、advanced countries 來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 指向",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B。首句講最大經濟力量轉移，末句講歷史上中國和印度曾是最大經濟體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落中間很可能解釋今日新興經濟體為何能快速追趕。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph B 有明確比較："
+            },
+            {
+              "kind": "quote",
+              "text": "“During their industrial revolutions, America and Britain took 50 years to double their real incomes per head; today China is achieving that in a single decade.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在美國和英國的工業革命期間，它們用了 50 年才令實質人均收入翻倍；今天中國在短"
+            },
+            {
+              "kind": "paragraph",
+              "text": "短十年內做到這點。"
+            },
+            {
+              "kind": "label",
+              "text": "原因句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an open world, it is much easier to catch up by adopting advanced countries’ technology than it is to be an economic leader that has to invent new technologies in order to keep growing.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在一個開放世界中，透過採用先進國家的技術去追趕，比起作為必須發明新技術才能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "持續增長的經濟領導者，容易得多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問「發展更快的原因」，答案在 “adopting advanced countries’ technology”。今日的新"
+            },
+            {
+              "kind": "paragraph",
+              "text": "興經濟體不用從零開始發明所有技術，可以直接採用先進國家的技術，所以 catching up 更快。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "faster to develop nowadays= much easier to catch up today / in an open world reason= adopting advanced countries’ technology所以答案段落是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "The fact that in the 30 years before 2004, not all large developing economies grew",
+      "translation": "在 2004 年前的三十年，並非所有大型發展中經濟體都增長。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的定位詞很強，包括 30 years、before 2004、large developing economies、grew。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文應該有 years、2004、2005、recession 或 crisis。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 指向",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A。這段首句說 three striking facts，末句說 emerging economies have"
+            },
+            {
+              "kind": "paragraph",
+              "text": "grown up。段落中間應列出具體數據與時間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“And third, perhaps most striking of all, the 32 biggest emerging economies grew in both 2004 and 2005.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：第三，也許最令人注目的是，32 個最大的新興經濟體在 2004 和 2005 年都錄得增長。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句更直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every previous year during the past three decades saw at least one country in recession—if not a deep crisis.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在此前三十年的每一年，至少有一個國家陷入衰退，甚至深度危機。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 in the 30 years before 2004, not all large developing economies grew。原文說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "every previous year during the past three decades saw at least one country in recession。只要至少有一個國家 recession，就代表不是所有大型新興經濟體都在增長。Paragraph A 完整提供這個時間和事實。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not all ... grew= at least one country in recession 30 years before 2004= every previous year during the past three decades large developing economies= the 32 biggest emerging economies答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "The fact that domination of the global economy by Western countries is unusual in global history",
+      "translation": "西方國家主導全球經濟，在世界歷史中其實並不尋常。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問歷史角度。定位詞是 domination、Western countries、unusual、global history。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文可能不會直接說 Western domination，而會說 China and India used to be biggest economies 或 emerging economies used to account for bulk of production。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 指向",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B。首句講美國崛起以來最大經濟力量轉移，末句談十九世紀末以前中國"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和印度是世界兩大經濟體。這正好對應 global history。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is returning the world to the sort of state that endured throughout most of its history.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這正在使世界回到歷史上大部分時間都存在過的狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“People forget that, until the late 19th century, China and India were the world’s two biggest economies and today’s ‘emerging economies’ accounted for the bulk of world production.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：人們忘記了，直到十九世紀末，中國和印度都是世界兩大經濟體，而今日所謂的「新興"
+            },
+            {
+              "kind": "paragraph",
+              "text": "經濟體」曾佔世界生產的大部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 Western countries dominating the global economy is unusual in global history。原"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文沒有直接使用 Western domination，但說 emerging economies 佔世界生產大部分才是歷史上多數時期的狀態。因此，西方長期主導全球經濟只屬較近代現象，放在 global history 中並不典型。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "domination by Western countries is unusual= emerging economies accounted for the bulk of world production throughout most of history global history= throughout most of its history / until the late 19th century答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "invent new technologies",
+      "answerKey": "invent new technologies",
+      "type": "Sentence Completion",
+      "prompt": "Developing economies can catch up with developed ones faster because they don’t have to 5 _________________.",
+      "translation": "發展中經濟體能更快追上已開發經濟體，因為它們不用 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS。空格前是 “don’t have to”，後面需要原形動詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 catch up、faster、developed ones。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an open world, it is much easier to catch up by adopting advanced countries’ technology than it is to be an economic leader that has to invent new technologies in order to keep growing.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在開放世界中，透過採用先進國家的技術去追趕，比作為必須發明新技術才能持續增"
+            },
+            {
+              "kind": "paragraph",
+              "text": "長的經濟領導者容易得多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 developing economies don’t have to do something。原文對比 economic leader"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“has to invent new technologies”。發展中經濟體可以 adopt advanced countries’ technology，所以不用 invent new technologies。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "catch up faster= much easier to catch up developed ones= advanced countries / economic leader don’t have to= unlike leaders that have to答案形式：invent new technologies，三個字，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "on imports",
+      "answerKey": "on imports",
+      "type": "Sentence Completion",
+      "prompt": "Growth in developing countries helps developed economies because of spending 6_________________.",
+      "translation": "發展中國家的增長幫助已開發經濟體，因為它們會花錢 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS。空格接在 spending 後面，最自然需要介詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Growth in developing countries、helps developed economies、spending。原文說"
+            },
+            {
+              "kind": "label",
+              "text": "："
+            },
+            {
+              "kind": "quote",
+              "text": "“But more exports give developing countries more money to spend on imports—mainly from developed economies.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但更多出口會給發展中國家更多錢去花在進口上，而這些進口主要來自已開發經濟"
+            },
+            {
+              "kind": "paragraph",
+              "text": "體。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 developing countries 的 growth helps developed economies。原文解釋是：發展中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "國家出口更多，收入增加，於是有更多錢 spend on imports，而這些 imports mainly from developed economies。已開發國家因此得到需求和市場。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Growth in developing countries helps developed economies= more exports give developing countries more money to spend on imports mainly from developed economies because of spending= spend on imports答案形式：on imports，兩個字，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "relatively scarcer",
+      "answerKey": "relatively scarcer",
+      "type": "Sentence Completion",
+      "prompt": "Capital is being used more efficiently because it is 7 _________________.",
+      "translation": "資本被更有效率地使用，因為它變得 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS。空格前是 “it is”，需要形容詞或形容詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 capital、efficiently。Paragraph E 有兩個相關位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“To the extent that this has made labour more abundant, and capital relatively scarcer, it has put downward pressure on wages relative to the return on capital.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在某種程度上，這使勞動力更充裕，資本相對更稀缺，於是對工資相對於資本回報造成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "下行壓力。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“As shareholders and future pensioners, they stand to gain from a more efficient use of global capital.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：作為股東和未來退休人士，他們有望從全球資本更有效率的使用中得益。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把兩個句子壓縮在一起。全球 labour force doubled，使 labour more abundant，也令"
+            },
+            {
+              "kind": "paragraph",
+              "text": "capital relatively scarcer。當資本相對更稀缺，就更需要有效配置，於是形成 “more efficient use of global capital”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Capital is being used more efficiently= more efficient use of global capital because it is= capital relatively scarcer答案形式：relatively scarcer，兩個字，符合要求。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “more efficient use”。題目已經說 being used more efficiently，空格要解釋原因，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以應填 relatively scarcer。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "reform",
+      "answerKey": "reform",
+      "type": "Sentence Completion",
+      "prompt": "Economic 8 ________________ is required in many developed economies.",
+      "translation": "許多已開發經濟體需要經濟 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS。空格前是 Economic，空格需要名詞。最自然是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“economic reform”。目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 developed economies、required、economic。Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The intensifying competition from emerging economies makes flexible labour and product markets even more imperative...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：來自新興經濟體的競爭加劇，使靈活的勞動市場和產品市場變得更加必要。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why Europe and Japan cannot afford to drag their heels over reform or leave workers ill-equipped to take up tomorrow’s jobs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這就是為何歐洲和日本不能拖延改革，也不能讓工人缺乏能力去承擔明日的工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 Economic ___ is required。原文沒有直接寫 “economic reform”，但 “Europe and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Japan cannot afford to drag their heels over reform” 表示改革不可拖延，即改革是必須的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Europe and Japan 是 developed economies 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "is required= cannot afford to drag their heels many developed economies= Europe and Japan / developed countries Economic reform= reform of labour and product markets / shift from old industries to new ones答案形式：reform，一個字，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Large developing economies should not have any problems in the future.",
+      "translation": "大型發展中經濟體未來不應有任何問題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 開頭列出 emerging economies 的 striking facts，結尾說 young emerging"
+            },
+            {
+              "kind": "paragraph",
+              "text": "economies have grown up。這段表面很正面，但中間也會提到未來是否一定順利。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 future、problems、large developing economies。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some economies will inevitably stumble over the coming years, but, thanks to sounder policies, most can look forward to rapid long-term growth.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：未來幾年，一些經濟體將不可避免地遇到挫折；但由於政策更穩健，大多數經濟體可以"
+            },
+            {
+              "kind": "paragraph",
+              "text": "期待快速的長期增長。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “should not have any problems”，範圍非常絕對。原文說 “Some economies will"
+            },
+            {
+              "kind": "paragraph",
+              "text": "inevitably stumble”，意思是一些經濟體必然會遇到困難。這與題目方向相反。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：large developing economies 未來不會有任何問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：some economies 未來必然會 stumble。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "problems= stumble in the future= over the coming years因為原文直接否定 “not have any problems”，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "If one country increases production, another country will have to reduce its production.",
+      "translation": "如果一個國家增加產出，另一個國家就必須減少產出。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 首句說富裕世界擔心新興經濟體成功會損害自己；末句說新興經濟體正在幫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "助提升 world GDP growth。只看首尾句，已經可以預測本段會反駁「一方增長必然傷害另一方」的想法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 one country、increase production、another country、reduce production。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fears that the third world will steal rich-world output and jobs are based on the old fallacy that an increase in one country’s output must be at the expense of another’s.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有人害怕第三世界會搶走富裕世界的產出和工作，這種恐懼建基於一個舊謬誤：一個"
+            },
+            {
+              "kind": "paragraph",
+              "text": "國家產出增加，必然以另一個國家的損失為代價。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目提出的說法正是原文稱為 “old fallacy” 的想法。fallacy 是謬誤、錯誤觀念。作者後面還"
+            },
+            {
+              "kind": "paragraph",
+              "text": "說 faster growth in poor countries is more likely to increase the output of richer counterparts than to reduce it，表示窮國增長更可能提高富國產出。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：A 國增加產出，B 國必須減產。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：這種想法是 old fallacy；poor countries 增長更可能增加 rich countries 產出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Globalisation is causing greater differences in income.",
+      "translation": "全球化正在造成更大的收入差異。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句說 developed countries 整體會受益，但 not everybody will be a winner。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句說 owners of capital 取得更大份額。這段明顯處理分配不均。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Globalisation、differences in income。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Globalisation is causing the biggest shift in relative prices (of labour, capital, commodities, and goods) for a century, and this in turn is causing a significant redistribution of income.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：全球化正在造成一百年來勞動、資本、商品和貨物相對價格最大的轉變，而這又導致重"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大的收入重新分配。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Low-skilled workers in developed economies are losing out relative to skilled workers. And owners of capital are grabbing a bigger slice of the cake relative to workers as a whole.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：已開發經濟體中的低技能工人相對於高技能工人正在失利。資本擁有人相對於整體工"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人取得更大份額。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 greater differences in income 對應 “significant redistribution of income” 以及"
+            },
+            {
+              "kind": "paragraph",
+              "text": "low-skilled workers、skilled workers、owners of capital、workers 之間的相對差距變化。雖然原文用 redistribution，不直接寫 greater differences，但後面說明資本擁有人分得更多、低技能工人相對失利，支持收入差距擴大。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "greater differences in income= significant redistribution of income / bigger slice relative to workers / losing out relative to skilled workers答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Low-skilled workers in developed economies are earning less.",
+      "translation": "已開發經濟體中的低技能工人正在賺得更少。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs D–E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 講 income redistribution，Paragraph E 講 global labour force doubling、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "wages under pressure，以及工人作為 consumers 和 shareholders 也有得益。這題要細看"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“earning less” 的程度和比較基準。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Low-skilled workers、developed economies、earning less。原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Low-skilled workers in developed economies are losing out relative to skilled workers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：已開發經濟體中的低技能工人相對於高技能工人正在失利。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hence, Western workers as a whole do not appear to have shared fully in the fruits of globalisation; many low-skilled ones may even be worse off.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，西方工人整體似乎沒有完全分享到全球化成果；許多低技能工人甚至可能處境"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更差。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Workers’ wages may be squeezed, but as consumers they benefit from lower prices.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：工人的工資可能受到擠壓，但作為消費者，他們受益於較低價格。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 low-skilled workers 相對於 skilled workers 失利，也說很多低技能工人 may"
+            },
+            {
+              "kind": "paragraph",
+              "text": "even be worse off，還說 wages may be squeezed。可是題目說 “are earning less”，語氣是確定的收入下降。原文沒有明確說低技能工人的實際工資正在下降，也沒有提供他們現在賺得比以前少的直接資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷要落在兩個細節：第一，原文的 “relative to skilled workers” 是相對失利，不等於實際收入下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，原文用 “may even be worse off” 和 “may be squeezed”，語氣是可能性，題目改成確定陳述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以原文支持「低技能工人相對處境變差」，但不足以證明「他們正在賺得更少」。答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Japan is not spending enough on education.",
+      "translation": "日本在教育上的支出不足。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 首句說 governments have more scope to compensate losers，末句說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "embracing change 的國家最能分享新興經濟體財富。這段確實會談政府角色、改革和工人能力，但未必會談教育支出。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Japan、spending、education。Paragraph F 中 Japan 出現在："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why Europe and Japan cannot afford to drag their heels over reform or leave workers ill-equipped to take up tomorrow’s jobs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這就是為何歐洲和日本不能拖延改革，也不能讓工人缺乏能力去承擔明日的工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 Europe and Japan 不能拖延 reform，也不能讓 workers ill-equipped。這可能與教"
+            },
+            {
+              "kind": "paragraph",
+              "text": "育、培訓或技能提升有關，但原文沒有說 Japan 的 education spending 不足，也沒有提到spending、budget、schools、education funding 這些資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據是： Japan spending on education is not enough.原文實際提供的是： Europe and Japan should not delay reform and should not leave workers ill-equipped.兩者相關，但缺少 “spending” 和 “education” 兩個核心元素。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ill-equipped 很容易令人想到 education，但 IELTS 不能用合理聯想補足原文沒有寫出的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "內容。原文只說工人不應缺乏明日工作所需能力，沒有說日本教育開支不足。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Coming of Age.pdf",
+    "sha256": "f220274e0d50908128dd969dcb8d3ad0776e57a6eb2c50761aabfdbfc875702d",
+    "pageCount": 14
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說三個 striking facts 顯示近年 first-world 和 third-world economies 的相對經濟力量出現dramatic shift。末句說年輕的新興經濟體已經在多方面長大成熟。只看首尾句，可以估計本段是全文開場，重點在 emerging economies 的成長數據和穩定性。中間很可能會列出世界產出、GDP 增長和 2004–2005 年大型新興經濟體共同增長的事實。題目若問過去三十年大型developing economies 是否全部增長，應看 A。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說這些變化是美國一百多年前崛起以來，經濟力量最大的一次轉移。末句提醒讀者，直到十九世紀末，中國和印度仍是世界兩大經濟體，今日所謂 emerging economies 曾佔世界生產大部分。只看首尾句，可以估計本段會從歷史和科技追趕角度解釋 emerging economies 為何發展更快，也會指出西方長期主導全球經濟其實只是近代現象。題目若問 catching up faster 或 Western dominance unusual，應看 B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說富裕世界中的許多老闆、工人和政治人物害怕新興經濟體成功會損害自己利益。末句說emerging economies 正在幫助提升 world GDP growth，尤其在富裕國家人口老化本來會拖慢增長的時候。只看首尾句，可以估計本段會反駁「窮國增長會搶走富國產出和工作」的恐懼。中間應會談 exports、imports 和 developed economies 的受益方式。題目若問 developing countries 如何幫助 developed economies，目標段落是 C。"
+      },
+      {
+        "number": "D",
+        "summary": "首句承認，雖然 emerging economies 的較強增長會令 developed countries 整體受益，但並非每個人都是 winner。末句說資本擁有人相對於整體工人取得更大份額。只看首尾句，可以估計本段從整體利益轉到分配問題：globalisation 改變 labour、capital、commodities 和 goods 的相對價格，導致 income redistribution。題目若問收入差異、low-skilled workers 和 owners of capital， Paragraph D 是重要段落。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說由於 China、India 和 former Soviet Union 接受 market capitalism，全球 labour force 的規模翻倍。末句說 emerging economies 的競爭也會刺激 rich-world productivity growth 和 average incomes。只看首尾句，可以估計本段會解釋全球勞動供應增加如何壓低工資相對資本回報，同時也說工人作為 consumers、shareholders 和 future pensioners 仍可能受益。題目若問 capital scarce、efficient use of capital 或 workers’ mixed position，應看 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說如果 rich economies 整體上能從 emerging economies 的新財富中受益，政府便有更大空間補償 losers。末句說接受改變的國家最能分享 emerging economies 的驚人新財富。只看首尾句，可以估計本段是建議與總結：政府要補償受損者，也要推動 labour and product market reform，幫助工人轉向未來工作。題目若問 advice for developed countries 或 reform，答案大多在 F。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "第 12 題是最容易爭議的一題。原文明確說 low-skilled workers are losing out relative to skilled workers，也說 wages may be squeezed，但沒有清楚說他們的實際收入正在下降。因此嚴格按TRUE / FALSE / NOT GIVEN 規則，答案應判 NOT GIVEN。"
+  ]
+}

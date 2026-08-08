@@ -1,10 +1,17 @@
+import {
+  createArticleRepository,
+  questionNumberLabel,
+  questionNumbers,
+} from "./ielts-reading-analysis-loader.mjs?v=20260808-4";
+
 (function () {
   "use strict";
 
   const index = window.EDMUND_IELTS_READING_ANALYSIS_INDEX;
-  const content = window.EDMUND_IELTS_READING_ANALYSIS_CONTENT;
+  const content = window.EDMUND_IELTS_READING_ANALYSIS_CONTENT || { articles: {} };
+  const availability = window.EDMUND_IELTS_READING_ANALYSIS_AVAILABILITY || { articles: {} };
 
-  if (!index || !content) {
+  if (!index) {
     console.error("IELTS Reading analysis data could not be loaded.");
     return;
   }
@@ -34,7 +41,14 @@
     analysisEyebrow: document.querySelector("[data-analysis-eyebrow]"),
     analysisTitle: document.querySelector("[data-analysis-title]"),
     analysisDescription: document.querySelector("[data-analysis-description]"),
+    sourceNotes: document.querySelector("[data-source-notes]"),
+    sourceNoteList: document.querySelector("[data-source-note-list]"),
     questionCount: document.querySelector("[data-question-count]"),
+    articleStatusView: document.querySelector('[data-view="article-status"]'),
+    articleStatusCard: document.querySelector("[data-article-status-card]"),
+    articleStatusTitle: document.querySelector("[data-article-status-title]"),
+    articleStatusMessage: document.querySelector("[data-article-status-message]"),
+    articleStatusRetry: document.querySelector('[data-action="retry-article"]'),
   };
 
   const state = {
@@ -43,9 +57,15 @@
     article: null,
     query: "",
   };
+  let routeRevision = 0;
 
-  const articlesByCatalogueId = new Map(
-    Object.values(content.articles).map((article) => [article.catalogueId, article]),
+  const articleRepository = createArticleRepository({
+    availabilityManifest: availability,
+    bundledArticles: content.articles,
+    fetchImpl: window.fetch?.bind(window),
+  });
+  const catalogueRecordsById = new Map(
+    Object.values(index.passages).flat().map((record) => [record.id, record]),
   );
 
   function normalise(value) {
@@ -71,8 +91,8 @@
     );
   }
 
-  function articleForRecord(record) {
-    return articlesByCatalogueId.get(record.id);
+  function availabilityForRecord(record) {
+    return articleRepository.availabilityForCatalogueId(record.id);
   }
 
   function showView(name) {
@@ -83,6 +103,7 @@
     const isAnalysis = name === "analysis";
     document.body.classList.toggle("has-analysis", isAnalysis);
     elements.questionJumps.hidden = !isAnalysis;
+    if (name !== "article-status") elements.articleStatusView.setAttribute("aria-busy", "false");
   }
 
   function routeUrl(route) {
@@ -100,7 +121,7 @@
   function navigate(route, replace) {
     const url = routeUrl(route);
     window.history[replace ? "replaceState" : "pushState"]({}, "", url);
-    applyRoute();
+    void applyRoute();
     window.scrollTo({ top: 0, behavior: "auto" });
   }
 
@@ -139,21 +160,24 @@
   }
 
   function renderTitleCard(record) {
-    const article = articleForRecord(record);
-    const card = make(article ? "button" : "article", `title-card${article ? " available" : ""}`);
-    if (article) card.type = "button";
+    const articleAvailability = availabilityForRecord(record);
+    const card = make(
+      articleAvailability ? "button" : "article",
+      `title-card${articleAvailability ? " available" : ""}`,
+    );
+    if (articleAvailability) card.type = "button";
 
     const copy = make("span", "title-card-copy");
     copy.append(
       make("strong", "", record.title),
-      make("small", "", article ? "完整答案及逐題解卷分析" : "文章名稱已收錄"),
+      make("small", "", articleAvailability ? "完整答案及逐題解卷分析" : "文章名稱已收錄"),
     );
     card.append(copy);
 
-    if (article) {
+    if (articleAvailability) {
       card.append(make("span", "title-card-arrow", "→"));
       card.setAttribute("aria-label", `開啟 ${record.title} 解卷分析`);
-      card.addEventListener("click", () => navigate({ article: article.id }));
+      card.addEventListener("click", () => navigate({ article: articleAvailability.id }));
     }
 
     return card;
@@ -222,12 +246,14 @@
     elements.overviewTitle.textContent = overview.title || "全篇段落速覽";
     elements.overviewIntro.textContent = overview.intro || "先掌握每段功能，再開始逐題分析。";
     const cards = overview.paragraphs.map((paragraph) => {
+      const paragraphLabel = paragraph.label || `Paragraph ${paragraph.number}`;
+      const badgeLabel = paragraph.badge || (paragraph.label ? paragraph.label : `P${paragraph.number}`);
       const card = make("li", "overview-card");
-      const badge = make("span", "overview-number", `P${paragraph.number}`);
+      const badge = make("span", "overview-number", badgeLabel);
       badge.setAttribute("aria-hidden", "true");
       const copy = make("div", "overview-copy");
       copy.append(
-        make("h3", "", `Paragraph ${paragraph.number}`),
+        make("h3", "", paragraphLabel),
         make("p", "", paragraph.summary),
       );
       card.append(badge, copy);
@@ -265,18 +291,21 @@
   }
 
   function renderQuestion(question, indexInArticle) {
+    const numbers = questionNumbers(question);
+    const numberLabel = questionNumberLabel(question);
     const details = make("details", "question-card");
-    details.id = `q${question.number}`;
+    details.id = `q${numbers[0]}`;
+    details.dataset.questionNumbers = numbers.join(" ");
     details.open = indexInArticle === 0;
 
     const summary = document.createElement("summary");
     const heading = make("h2", "question-heading");
     heading.append(
-      make("strong", "", `第 ${question.number} 題`),
+      make("strong", "", `第 ${numberLabel} 題`),
       make("small", "", question.type),
     );
     summary.append(
-      make("span", "question-number", `Q${question.number}`),
+      make("span", "question-number", `Q${numberLabel}`),
       heading,
       make("span", "answer-pill", `答案：${question.answer}`),
     );
@@ -308,7 +337,9 @@
   }
 
   function openAndScrollToQuestion(number) {
-    const target = document.querySelector(`#q${number}`);
+    const target = elements.questionList.querySelector(
+      `[data-question-numbers~="${number}"]`,
+    );
     if (!target) return;
     target.open = true;
     window.requestAnimationFrame(() => {
@@ -323,12 +354,14 @@
       ? make("a", "overview-jump", "段落速覽")
       : null;
     if (overviewLink) overviewLink.href = "#paragraph-overview";
-    const links = article.questions.map((question) => {
-      const link = make("a", "", `Q${question.number}`);
-      link.href = `#q${question.number}`;
-      link.dataset.questionTarget = String(question.number);
-      return link;
-    });
+    const links = article.questions.flatMap((question) =>
+      questionNumbers(question).map((number) => {
+        const link = make("a", "", `Q${number}`);
+        link.href = `#q${number}`;
+        link.dataset.questionTarget = String(number);
+        return link;
+      }),
+    );
     elements.questionJumps.replaceChildren(
       answerLink,
       ...(overviewLink ? [overviewLink] : []),
@@ -342,6 +375,13 @@
     elements.analysisEyebrow.textContent = article.eyebrow;
     elements.analysisTitle.textContent = article.title;
     elements.analysisDescription.textContent = article.description;
+    const sourceNotes = Array.isArray(article.sourceNotes)
+      ? article.sourceNotes.filter((note) => typeof note === "string" && note.trim())
+      : [];
+    elements.sourceNoteList.replaceChildren(
+      ...sourceNotes.map((note) => make("li", "", note)),
+    );
+    elements.sourceNotes.hidden = sourceNotes.length === 0;
     elements.questionCount.textContent = String(article.questionCount);
     renderAnswerTable(article);
     renderArticleOverview(article);
@@ -351,21 +391,83 @@
     renderQuestionJumps(article);
   }
 
-  function applyRoute() {
+  function articleTitleForAvailability(articleAvailability) {
+    return catalogueRecordsById.get(articleAvailability?.catalogueId)?.title
+      || articleAvailability?.id
+      || "這篇文章";
+  }
+
+  function renderArticleStatus(articleAvailability, status) {
+    const isError = status !== "loading";
+    const canRetry = status === "error";
+    const title = articleTitleForAvailability(articleAvailability);
+    elements.articleStatusCard.classList.toggle("is-error", isError);
+    elements.articleStatusView.setAttribute("aria-busy", isError ? "false" : "true");
+    elements.articleStatusTitle.textContent = status === "not-found"
+      ? "找不到這篇解卷分析"
+      : isError
+      ? `未能載入「${title}」`
+      : `正在載入「${title}」`;
+    elements.articleStatusMessage.textContent = status === "not-found"
+      ? "這個文章連結並不存在，請返回文章目錄重新選擇。"
+      : isError
+      ? "請檢查網絡連線後重新載入，或先返回文章目錄。"
+      : "只會在您開啟文章時下載這份分析資料，請稍候。";
+    elements.articleStatusRetry.hidden = !canRetry;
+  }
+
+  function finishArticleRoute(article) {
+    renderArticle(article);
+    showView("analysis");
+    document.title = `${article.title} 解卷分析 | EdmundEducation`;
+    const anchoredQuestion = window.location.hash.match(/^#q(\d{1,2})$/);
+    if (anchoredQuestion) {
+      window.requestAnimationFrame(() =>
+        openAndScrollToQuestion(Number(anchoredQuestion[1])),
+      );
+    }
+  }
+
+  async function applyRoute() {
+    const revision = ++routeRevision;
     const params = new URLSearchParams(window.location.search);
     const articleId = params.get("article");
-    const article = articleId ? content.articles[articleId] : null;
     const requestedPassage = Number(params.get("passage"));
 
-    if (article) {
-      renderArticle(article);
-      showView("analysis");
-      document.title = `${article.title} 解卷分析 | EdmundEducation`;
-      const anchoredQuestion = window.location.hash.match(/^#q(\d{1,2})$/);
-      if (anchoredQuestion) {
-        window.requestAnimationFrame(() =>
-          openAndScrollToQuestion(Number(anchoredQuestion[1])),
-        );
+    if (articleId) {
+      const articleAvailability = articleRepository.availabilityForId(articleId);
+      if (!articleAvailability) {
+        state.article = null;
+        renderArticleStatus({ id: articleId }, "not-found");
+        showView("article-status");
+        document.title = "找不到解卷分析 | EdmundEducation";
+        return;
+      }
+
+      state.article = null;
+      state.passage = articleAvailability.passage;
+      const loadedArticle = articleRepository.getLoaded(articleId);
+      if (loadedArticle) {
+        finishArticleRoute(loadedArticle);
+        return;
+      }
+
+      renderArticleStatus(articleAvailability, "loading");
+      showView("article-status");
+      document.title = `正在載入 ${articleTitleForAvailability(articleAvailability)} | EdmundEducation`;
+
+      try {
+        const article = await articleRepository.load(articleId);
+        const currentArticleId = new URLSearchParams(window.location.search).get("article");
+        if (revision !== routeRevision || currentArticleId !== articleId) return;
+        finishArticleRoute(article);
+      } catch (error) {
+        const currentArticleId = new URLSearchParams(window.location.search).get("article");
+        if (revision !== routeRevision || currentArticleId !== articleId) return;
+        console.error(`IELTS Reading article ${articleId} could not be loaded.`, error);
+        renderArticleStatus(articleAvailability, "error");
+        showView("article-status");
+        document.title = `未能載入 ${articleTitleForAvailability(articleAvailability)} | EdmundEducation`;
       }
       return;
     }
@@ -399,7 +501,7 @@
     });
 
     document.querySelector('[data-action="previous"]').addEventListener("click", () => {
-      if (state.view === "analysis") {
+      if (state.view === "analysis" || state.view === "article-status") {
         navigate({ passage: state.passage });
       } else if (state.view === "catalogue") {
         navigate({});
@@ -410,6 +512,14 @@
 
     document.querySelector('[data-action="catalogue"]').addEventListener("click", () => {
       navigate({ passage: state.passage || 1 });
+    });
+
+    document.querySelector('[data-action="status-catalogue"]').addEventListener("click", () => {
+      navigate({ passage: state.passage || 1 });
+    });
+
+    elements.articleStatusRetry.addEventListener("click", () => {
+      void applyRoute();
     });
 
     document.querySelector('[data-action="expand-all"]').addEventListener("click", () => {
@@ -431,7 +541,7 @@
       openAndScrollToQuestion(Number(link.dataset.questionTarget));
     });
 
-    window.addEventListener("popstate", applyRoute);
+    window.addEventListener("popstate", () => void applyRoute());
   }
 
   window.EDMUND_IELTS_READING_ANALYSIS_TEST = Object.freeze({
@@ -441,5 +551,5 @@
 
   renderPassageNavigation();
   bindControls();
-  applyRoute();
+  void applyRoute();
 })();

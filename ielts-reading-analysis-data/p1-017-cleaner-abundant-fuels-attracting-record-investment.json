@@ -1,0 +1,1769 @@
+{
+  "id": "p1-017-cleaner-abundant-fuels-attracting-record-investment",
+  "catalogueId": "p1-017",
+  "catalogueIds": [
+    "p1-017"
+  ],
+  "passage": 1,
+  "title": "Cleaner, Abundant Fuels Attracting Record Investment",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "G",
+    "A",
+    "I",
+    "agricultural waste",
+    "targets",
+    "coal",
+    "a vast market",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“Cases where the use of renewable fuels is in competition with non-renewable ones”",
+      "translation": "renewable fuels 與 non-renewable fuels 競爭的情況或市場例子。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找哪一段包含「renewable fuels 和傳統燃料競爭」這項資訊。定位詞包括 competition、renewable fuels、non-renewable ones。原文未必用 non-renewable，可能用 conventional fuels 或 fossil fuels。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martinot and 100-plus researchers in more than 20 countries assessed several renewable technologies: small hydro (meaning small dams), modem biomass (agricultural waste, for example), wind, solar, geothermal, and biofuels such as ethanol and biodiesel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Martinot 和 20 多個國家的 100 多名研究者評估了數種可再生技術：small hydro，即 small dams；modern biomass，例如 agricultural waste；wind、solar、geothermal，以及 ethanol 和 biodiesel等 biofuels。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These technologies now compete with conventional fuels in four distinct markets: power generation, hot water and space heating, transportation fuels, and rural (off-grid) energy supplies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技術現在在四個不同市場中與傳統燃料競爭：發電、熱水和空間供暖、交通燃料，以及鄉村離網能源供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 C 段的功能是介紹不同 renewable technologies，並說明它們進入哪些市場。最後一句直接出現 compete with conventional fuels，因此這段和題目高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “competition”。原文對應動詞是 “compete”。“non-renewable ones” 在原文中改寫為 “conventional fuels”。掃描 Paragraph C 時，最後一句同時包含 compete、conventional fuels 和 four distinct markets，所以值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These technologies now compete with conventional fuels in four distinct markets: power generation, hot water and space heating, transportation fuels, and rural (off-grid) energy supplies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技術現在在四個不同市場中與傳統燃料競爭：發電、熱水和空間供暖、交通燃料，以及鄉村離網能源供應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “renewable fuels”= 原文 “These technologies”，指前一句列出的 renewable technologies題目 “non-renewable ones”= 原文 “conventional fuels”題目 “in competition with”= 原文 “compete with”答案判斷： Paragraph C 直接列出 renewable technologies 與 conventional fuels 競爭的四個市場，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也提到 oil、coal、gas 等 fossil fuels，容易令人想到 renewable 和 non-renewable的對比。不過 D 段重點在污染和 climate change；Question 1 要找的是「競爭市場」，真正有compete with 的句子在 C 段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“The membership of REN21”",
+      "translation": "REN21 的成員組成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問 membership，即某組織由哪些人或機構組成。最強定位詞是REN21，因為它是專有名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mandates for blending biofuels into vehicle fuels have been enacted in 20-plus states and provinces worldwide as well as in three key countries – Brazil, China, and India – the report said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告指出，全球 20 多個州和省，以及 Brazil、China、India 三個關鍵國家，已制定把 biofuels 混入 vehicle fuels 的規定。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Market leaders in renewable energy in 2004 included Brawl in biofuels, China in solar hot water, Germany in solar electricity, and Spain in wind power, the report said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告指出，2004 年 renewable energy 的市場領先者包括 biofuels 方面的 Brawl、solar hot water方面的 China、solar electricity 方面的 Germany，以及 wind power 方面的 Spain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，G 段大概會談政府規定、市場成功和各國市場領先者。題目問 REN21 的membership，雖然首尾句沒有直接出現，但本段中間有 REN21 的組成說明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “REN21”。掃描全文時，REN21 在 A 段首次出現為 Renewable Energy Policy Network；G 段再次出現並有解釋性關係子句："
+            },
+            {
+              "kind": "quote",
+              "text": "“REN21, which is composed of representatives of governments and non-governmental organisations.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “composed of” 就是 membership 題的訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Government leadership has ensured market success, according to REN21, which is composed of representatives of governments and non-governmental organisations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 REN21 的說法，政府領導確保了市場成功；REN21 由政府和非政府組織的代表組成。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “membership of REN21”= 原文 “REN21, which is composed of...”題目 “membership”= 原文 “representatives of governments and non-governmental organisations”答案判斷：這段清楚交代 REN21 由哪些代表組成，因此答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段出現 REN21 的全名和報告來源，但 A 段沒有說它由誰組成。找專有名詞時，第一次出現不一定是答案；要看哪一段提供題目指定的資訊功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The rates at which the use of renewable fuels is growing faster than the use of nonrenewable ones in the world”",
+      "translation": "全球 renewable fuels 的使用增長率比 non-renewable fuels 快多少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「增長率比較」。定位詞是 rates、growing faster、renewable、nonrenewable。這種題通常看數字和 compared to。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Renewable energy captured from the wind, sun, Earth’s heat, tides, and from small dams is drawing record levels of investment as poor villagers and entire nations alike seek clean, abundant ways to fuel economic growth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自風、太陽、地熱、潮汐和小型水壩的 renewable energy 正吸引創紀錄投資，因為貧困村民和整個國家都在尋找乾淨、充足的方法來推動經濟增長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are growing at rates of around 20-30 per cent per year, however, compared to two or three per cent for oil and gas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這些技術每年以約 20–30% 的速度增長，相比之下，oil and gas 的增長率只有 2–3%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段從 renewable energy 的投資熱潮開始，以 renewable energy 和 oil and gas 的增長率比較收結。因此，Question 3 幾乎可以直接定位到 A 段最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “rates” 和 “growing faster” 對應原文 “growing at rates”。“nonrenewable ones” 對應 “oil and gas”。“compared to” 是比較題的重要訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are growing at rates of around 20-30 per cent per year, however, compared to two or three per cent for oil and gas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技術每年以約 20–30% 的速度增長；相比之下，oil and gas 的增長率只有 2–3%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “They” 指前一句提到的 wind、solar、biomass、geothermal 和 small hydro 等 renewable technologies。句子本身提供兩組數字：renewable technologies 約 20–30% per year；oil and gas約 2–3%。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “renewable fuels”= 原文 “Technologies such as wind, solar, biomass, geothermal, and small hydro”題目 “nonrenewable ones”= 原文 “oil and gas”題目 “rates ... growing faster”= 原文 “growing at rates ... compared to”答案判斷： A 段提供 renewable 和 oil/gas 增長率的直接比較，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "H 段也有很多增長率，例如 solar PV 每年 60%、wind power 28%。不過 Question 3 問的是renewable fuels 整體和 nonrenewable ones 的全球比較；H 段只處理個別 renewable technologies，沒有和 oil/gas 比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“The sources of funding for renewable fuels in developing countries”",
+      "translation": "發展中國家 renewable fuels 的資金來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找 funding sources，定位詞是 funding、developing countries。原文可能使用 development assistance、funds、donors 等字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An estimated $500 million goes to developing countries each year as development assistance for renewable energy projects, training, and market support, with the German Development Finance Group (GDFG), the World Bank Group, and the Global Environment Facility (GEF) providing the majority of these funds, and dozens of other donors and programmes providing the rest, the report said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告指出，每年估計有 5 億美元以 development assistance 形式流向發展中國家，用於renewable energy projects、training 和 market support；其中大部分資金由 German Development Finance Group、World Bank Group 和 Global Environment Facility 提供，其餘由數十個其他捐助者和計劃提供。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia is seen as a vast market for renewable energy as it seeks to meet growing demand for power to feed rapid economic expansion amid runaway oil prices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在油價失控上升之際，亞洲需要滿足快速經濟擴張帶來的電力需求，因此被視為 renewable energy 的龐大市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，I 段第一句直接講 developing countries、development assistance 和資金提供者；最後一句轉到亞洲市場。因此題目問 funding sources 時，I 段最合適。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “funding” 和 “developing countries”。原文對應字包括 “development assistance”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“funds”、“donors”。Paragraph I 第一句同時出現 developing countries 和 providing the majority of these funds，證據非常集中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“...with the German Development Finance Group (GDFG), the World Bank Group, and the Global Environment Facility (GEF) providing the majority of these funds, and dozens of other donors and programmes providing the rest...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……其中大部分資金由 German Development Finance Group、World Bank Group 和 Global Environment Facility 提供，其餘由數十個其他捐助者和計劃提供。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “sources of funding”= 原文 “providing the majority of these funds” + “providing the rest”題目 “developing countries”= 原文 “developing countries”答案判斷： I 段清楚列出發展中國家 renewable energy 資金的主要提供者和其他捐助者，所以答案是 I。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 段也提到 developing countries，尤其是 rising oil prices 對 oil-importing developing countries的影響。不過 E 段處理政策和能源需求，沒有列出 funding sources。Question 4 的控制詞是funding。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "agricultural waste",
+      "answerKey": "agricultural waste",
+      "type": "Sentence Completion",
+      "prompt": "“Biomass technology can use 5 ______”",
+      "translation": "Biomass technology 可以使用 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 use，答案應是 biomass technology 可以使用的材料或資源。字數限制是 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martinot and 100-plus researchers in more than 20 countries assessed several renewable technologies: small hydro (meaning small dams), modem biomass (agricultural waste, for example), wind, solar, geothermal, and biofuels such as ethanol and biodiesel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Martinot 和 20 多個國家的 100 多名研究者評估了數種可再生技術：small hydro，即 small dams；modern biomass，例如 agricultural waste；wind、solar、geothermal，以及 ethanol 和 biodiesel等 biofuels。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These technologies now compete with conventional fuels in four distinct markets: power generation, hot water and space heating, transportation fuels, and rural (off-grid) energy supplies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技術現在在四個不同市場中與傳統燃料競爭：發電、熱水和空間供暖、交通燃料，以及鄉村離網能源供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段介紹 renewable technologies 的種類和市場用途。Question 5 中的 biomass technology 直接對應本段第一句的 modern biomass。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Biomass”。原文中有 “modern biomass (agricultural waste, for example)”。括號內通常是例子或解釋，正好回答 biomass 可以使用甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...modem biomass (agricultural waste, for example)...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……modern biomass，例如 agricultural waste……題目把 “modern biomass” 改寫成 “Biomass technology”，把括號中的 example 變成填空答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 agricultural waste，兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Biomass technology can use...”= 原文 “modern biomass (agricultural waste, for example)”答案判斷： biomass 的例子是 agricultural waste，所以答案是 agricultural waste。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “biofuels” 或 “ethanol and biodiesel”。它們在同一句出現，但屬於另一類 renewable technology。題目問 biomass，因此要取括號內的 agricultural waste。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "targets",
+      "answerKey": "targets",
+      "type": "Sentence Completion",
+      "prompt": "“Governments with renewable energy policies usually set 6 ______ for renewable energy use.”",
+      "translation": "有 renewable energy policies 的政府通常會為 renewable energy use 設定 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 set，後面通常接 goals、targets、limits 等名詞。答案要來自原文，最多三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Additionally, renewable energy could empower millions of poor and vulnerable people who lack access to reliable, affordable, and clean modem energy services, UN Secretary General Kofi Annan said in a message to the Beijing International Renewable Energy Conference, which opened Monday.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，聯合國秘書長 Kofi Annan 在星期一開幕的北京國際可再生能源會議訊息中表示， renewable energy 可以賦權給數以百萬計缺乏可靠、可負擔、乾淨現代能源服務的貧困和脆弱人口。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typically, they include targets to ensure that renewable sources generate 5-30 per cent of energy use in a given country by around 2010-2012.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，這些政策包括 targets，以確保 renewable sources 到約 2010–2012 年在某一國家產生5–30% 的能源使用量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段由 renewable energy 對貧困人口的價值，轉到政府政策和目標設定。題目中的governments with policies 和 set targets 很明顯應看本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “policies” 和 “set”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“At least 48 countries now have some type of renewable energy promotion policy...”"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typically, they include targets...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “they” 指 renewable energy promotion policies。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typically, they include targets to ensure that renewable sources generate 5-30 per cent of energy use in a given country by around 2010-2012.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，這些政策包括目標，以確保 renewable sources 到約 2010–2012 年在某一國家產生5–30% 的能源使用量。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Governments with renewable energy policies usually set...”= 原文 “renewable energy promotion policy” + “Typically, they include...”題目 “for renewable energy use”= 原文 “renewable sources generate 5-30 per cent of energy use”答案判斷：政策通常包括 targets，所以答案是 targets。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “5-30 per cent”。這是 targets 的具體數值範圍。題目問政府通常 set 甚麼，因此答案應是targets。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "coal",
+      "answerKey": "coal",
+      "type": "Sentence Completion",
+      "prompt": "“The most important source of energy for China in 2020 is expected to be 7 ______”",
+      "translation": "到 2020 年，中國最重要的能源來源預計會是 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格需要能源名稱。定位詞是 China、2020、most important source。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The renewable sector’s prospects appeared to receive a further boost Monday, when China announced it was raising its target for reliance on renewable energy even as it acknowledged that coal would remain its primary source for electricity for decades to come.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "星期一，中國宣布提高對 renewable energy 依賴的目標，renewable sector 的前景似乎因此得到進一步推動；同時，中國也承認 coal 仍會在未來數十年保持其 electricity 的主要來源地位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Renewable energy should account for 15 per cent of national consumption by 2020.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2020 年，renewable energy 應佔全國能源消費的 15%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，F 段講中國 2020 年的 renewable energy 目標，同時也明確說 coal 仍是主要electricity source。題目問 most important source，第一句已經提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “China” 和 “2020”。同段還要找 “most important” 的原文對應詞。原文用 “primary source”，意思是主要來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...it acknowledged that coal would remain its primary source for electricity for decades to come.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……中國承認 coal 在未來數十年仍會是其 electricity 的主要來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “in 2020”，原文說 “for decades to come”，範圍包含 2020。題目說 “most important source of energy”，原文說 “primary source for electricity”。在本段能源語境中，coal 是答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “most important source”= 原文 “primary source”題目 “is expected to be”= 原文 “would remain”答案判斷：中國雖然提高 renewable target，但到 2020 年前後 coal 仍是主要來源，所以答案是 coal。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 renewable energy。F 段確實說 renewable energy 會佔 15%，但 “15 per cent” 並不等於most important source。真正控制答案的是 “coal would remain its primary source”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "a vast market",
+      "answerKey": "a vast market",
+      "type": "Sentence Completion",
+      "prompt": "“Economic expansion and high oil prices mean that Asian countries are 8 ______ for renewable sources of energy.”",
+      "translation": "經濟擴張和高油價意味著亞洲國家會成為 renewable energy sources 的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格在 “Asian countries are ___ for renewable sources” 中，答案應是名詞短語。定位詞是 Asian countries、economic expansion、high oil prices。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An estimated $500 million goes to developing countries each year as development assistance for renewable energy projects, training, and market support...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年估計有 5 億美元以 development assistance 形式流向發展中國家，用於 renewable energy projects、training 和 market support……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia is seen as a vast market for renewable energy as it seeks to meet growing demand for power to feed rapid economic expansion amid runaway oil prices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在油價失控上升之際，亞洲需要滿足快速經濟擴張帶來的電力需求，因此被視為 renewable energy 的龐大市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，I 段從 developing countries 的資金支援轉到亞洲市場前景。題目中的 economic expansion 和 high oil prices 直接對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Asia”、“economic expansion”、“oil prices”。原文同一句有 “Asia”、“rapid economic expansion” 和 “runaway oil prices”。這句同時包含題目原因和答案名詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia is seen as a vast market for renewable energy as it seeks to meet growing demand for power to feed rapid economic expansion amid runaway oil prices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在油價失控上升之際，亞洲需要滿足快速經濟擴張帶來的電力需求，因此被視為 renewable energy 的龐大市場。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Asian countries are...”= 原文 “Asia is seen as...”題目 “renewable sources of energy”= 原文 “renewable energy”題目 “Economic expansion and high oil prices mean...”= 原文 “rapid economic expansion amid runaway oil prices”答案判斷：原文說 Asia is seen as a vast market for renewable energy，所以答案是 a vast market。三個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “growing demand”。這是亞洲需要更多能源的原因。題目空格要接 “for renewable sources of energy”，最自然也最貼近原文的是 a vast market。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Eric Martinot advises large companies on investing in renewable energy.”",
+      "translation": "Eric Martinot 就 renewable energy 投資向大型公司提供建議。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要判斷 Martinot 的工作內容是否包括 advising large companies。核心定位詞是 Eric Martinot、large companies、advises。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Renewable energy has become big business,’ said Eric Martinot, lead author of the study,‘Renewables 2005: Global Status Report’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Renewables 2005: Global Status Report》的主要作者 Eric Martinot 說：「renewable energy 已經成為大生意。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Altogether, renewable energy industries provide 1.7 million jobs, most of them skilled and well paid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "總體而言，renewable energy industries 提供 170 萬個工作職位，其中大部分技術含量高且薪酬良好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段介紹 Martinot 的觀點、身份，以及 renewable energy 作為大產業的規模。題目問 Martinot 是否向大公司提供投資建議，需要看本段中間關於 large companies 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Eric Martinot” 和 “large companies”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martinot ... said renewable energy has attracted some of the world’s largest companies...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句會把學生帶到答案附近。不過要特別檢查動詞：題目用 advises；原文用 attracted。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martinot, a senior fellow at the Washington, DC-based think tank Worldwatch Institute and a lecturer at Tsinghua University in Beijing, said renewable energy has attracted some of the world’s largest companies, including General Electric, Siemens, Sharp, and Royal Dutch Shell.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Martinot 是位於 Washington, DC 的智庫 Worldwatch Institute 的 senior fellow，也是北京清華大學講師；他說 renewable energy 已吸引世界上一些最大公司，包括 General Electric、Siemens、Sharp 和 Royal Dutch Shell。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Eric Martinot advises large companies on investing in renewable energy.原文命題： Martinot 是報告主要作者、智庫 senior fellow、清華講師；他說 renewable energy 已吸引大型公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文沒有說他替大型公司提供建議，也沒有說他是投資顧問。大型公司被提到，只是作為renewable energy 已成為 big business 的證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：文章提供了 Martinot 的身份和大公司參與，但沒有提供 advising 這個動作。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "大公司名字在 Martinot 的句子中出現，很容易讓人把 “said renewable energy has attracted companies” 誤讀成 “advises companies”。判斷時要看動詞：原文是 attracted，題目是 advises。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Eric Martinot has over 100 people working in his team.”",
+      "translation": "Eric Martinot 的團隊有超過 100 人參與工作。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。核心定位詞是 Eric Martinot、over 100 people、team。原文未必直接寫 team，可能用 “Martinot and 100-plus researchers”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martinot and 100-plus researchers in more than 20 countries assessed several renewable technologies: small hydro (meaning small dams), modem biomass (agricultural waste, for example), wind, solar, geothermal, and biofuels such as ethanol and biodiesel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Martinot 和 20 多個國家的 100 多名研究者評估了數種可再生技術：small hydro、modern biomass、wind、solar、geothermal，以及 ethanol 和 biodiesel 等 biofuels。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These technologies now compete with conventional fuels in four distinct markets: power generation, hot water and space heating, transportation fuels, and rural (off-grid) energy supplies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技術現在在四個不同市場中與傳統燃料競爭：發電、熱水和空間供暖、交通燃料，以及鄉村離網能源供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段講 Martinot 和大量研究者共同進行技術評估。題目中的 over 100 people 很明顯可定位到 100-plus researchers。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “over 100 people”。原文對應 “100-plus researchers”。“working in his team” 沒有原字重現，但 Martinot 是前文報告 lead author，C 段說 Martinot and 100-plus researchers assessed technologies，可理解為研究團隊一起工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martinot and 100-plus researchers in more than 20 countries assessed several renewable technologies...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Martinot 和 20 多個國家的 100 多名研究者評估了數種可再生技術……這句的主語是 “Martinot and 100-plus researchers”。核心動詞是 “assessed”，表示他們共同完成研究評估。題目說 “has over 100 people working in his team”，在 IELTS 改寫中可視為對 “lead author + 100-plus researchers” 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “over 100 people”= 原文 “100-plus researchers”題目 “working in his team”= 原文 “Martinot and ... researchers ... assessed”答案判斷：原文支援 Martinot 與超過 100 名研究者共同工作，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要留意 “team” 不是原文字。原文沒有說這些人是他的長期員工，也沒有說全部受他管理；但題目在 IELTS 語境中重點是人數和共同研究工作。若把 “team” 理解成該報告的研究團隊，原文足以支持 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Increases in oil prices hurt developing economies more than developed ones.”",
+      "translation": "油價上升對發展中經濟體的傷害比對已發展經濟體更大。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要判斷 rising oil prices 對 developing economies 的影響是否特別嚴重。定位詞是 oil prices、developing economies、hurt more。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Additionally, renewable energy could empower millions of poor and vulnerable people who lack access to reliable, affordable, and clean modem energy services, UN Secretary General Kofi Annan said in a message to the Beijing International Renewable Energy Conference, which opened Monday.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，聯合國秘書長 Kofi Annan 在北京國際可再生能源會議訊息中表示，renewable energy 可以賦權給數以百萬計缺乏可靠、可負擔、乾淨現代能源服務的貧困和脆弱人口。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typically, they include targets to ensure that renewable sources generate 5-30 per cent of energy use in a given country by around 2010-2012.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，這些政策包括 targets，以確保 renewable sources 到約 2010–2012 年在某一國家產生5–30% 的能源使用量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段談發展需求、貧困人口、油價壓力和政府政策。題目問 oil prices 對 developing economies 的影響，應看本段中間的 Kofi Annan 句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “oil prices” 和 “developing”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“rising oil prices have hit oil-importing developing countries especially hard”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“especially hard” 是判斷比較程度的重要字。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Annan said that rising oil prices have hit oil-importing developing countries especially hard and underscore the need for alternative energy supplies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Annan 說，油價上升對進口石油的發展中國家打擊尤其沉重，並凸顯了替代能源供應的需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Increases in oil prices hurt developing economies more than developed ones.原文命題： Rising oil prices have hit oil-importing developing countries especially hard.比較結果："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“especially hard” 表示受到特別嚴重的打擊。題目用 “more than developed ones” 概括這個比較方向。原文更精確地限定為 oil-importing developing countries；題目沒有使用 all，所以可以視為概括表述。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Increases in oil prices”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “rising oil prices”題目 “hurt”= 原文 “hit ... hard”題目 “developing economies”= 原文 “developing countries”答案判斷：原文支援油價上升對發展中國家打擊特別嚴重，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目省略了原文的 “oil-importing”。考試時要注意這類限定。這裡原文仍然支持主要方向：受油價衝擊特別嚴重的是進口石油的發展中國家。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The use of solar power grew by 60% between the year 2000 and the year 2004.”",
+      "translation": "solar power 的使用量在 2000 年至 2004 年之間增長了 60%。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有數字和時間，最重要是看 60% 是整段期間總增長，還是每年增長。定位詞是 solar power、60%、2000–2004。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fastest growing energy technology in the world is grid-connected solar photovoltaic (PV), existing capacity of which blossomed by sixty per cent per year from 2000-2004, to cover more than 400,000 rooftops in Japan, Germany, and the United States, it found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告發現，世界上增長最快的能源技術是 grid-connected solar photovoltaic；其現有容量在2000–2004 年間每年增長 60%，覆蓋日本、德國和美國超過 400,000 個屋頂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Production of ethanol, biodiesel, and other biofuels exceeded 33 billion litres in 2004, when ethanol displaced about three per cent of the 1,200 billion litres of gasoline produced globally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2004 年，ethanol、biodiesel 和其他 biofuels 的產量超過 330 億升；當年 ethanol 取代了全球生產的 1.2 萬億升汽油中的約 3%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，H 段是技術增長數據段。第一句直接含有 solar PV、60% 和 2000–2004，是本題目標句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “60%” 和 “2000 and 2004”。原文有 “sixty per cent per year from 2000-2004”。必須細讀 “per year”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fastest growing energy technology in the world is grid-connected solar photovoltaic (PV), existing capacity of which blossomed by sixty per cent per year from 2000-2004...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界上增長最快的能源技術是併網太陽能光伏；其現有容量在 2000–2004 年間每年增長60%……題目命題： Solar power grew by 60% between 2000 and 2004.這聽起來像整個 2000–2004 期間總共增長 60%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： Solar PV capacity grew by 60% per year from 2000–2004.即每年增長 60%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目漏掉 “per year”，把年增長率改成整個期間的總增長。這會大幅改變數字意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文說每年 60%，題目說 2000–2004 之間增長 60%。時間和增長率關係不一致，所以答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 60% 原字吸引。真正控制答案的是 “per year”。數字題不能只看數字相同，還要看單位、期間和比較方式。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“‘Green’ power consumers only get part of their electricity from alternative energy sources.”",
+      "translation": "“Green” power consumers 只從 alternative energy sources 取得部分電力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要判斷 green power consumers 是否只取得 part of electricity。定位詞是 “Green” power consumers、part、electricity、alternative energy sources。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I第一句：“An estimated $500 million goes to developing countries each year as development assistance for renewable energy projects, training, and market support...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年估計有 5 億美元以 development assistance 形式流向發展中國家，用於 renewable energy projects、training 和 market support……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia is seen as a vast market for renewable energy as it seeks to meet growing demand for power to feed rapid economic expansion amid runaway oil prices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在油價失控上升之際，亞洲需要滿足快速經濟擴張帶來的電力需求，因此被視為 renewable energy 的龐大市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，I 段談發展中國家資金、綠電消費者和亞洲市場。題目中的 “green power consumers” 直接在本段中間出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “‘Green’ power consumers”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 4.5 million ‘green’ power consumers ... purchased renewable electricity in 2004...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供購買行為，但要檢查有沒有 “only part”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 4.5 million ‘green’ power consumers in Europe, the United States, Canada, Australia, and Japan purchased renewable electricity in 2004, it added.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告補充說，2004 年，歐洲、美國、加拿大、澳洲和日本有超過 450 萬名 “green” power consumers 購買了 renewable electricity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Green power consumers only get part of their electricity from alternative energy sources.原文命題： Over 4.5 million green power consumers purchased renewable electricity in 2004.比較結果：原文只說他們購買 renewable electricity，沒有說這些電力佔他們總用電量的多少。文章沒有說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“only part”，也沒有說 “all”。答案判斷：題目加入了比例資訊 “only part”，原文沒有提供。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “purchased renewable electricity” 時，學生可能憑常識推想綠電消費者只購買部分綠電。但IELTS Reading 只看文章證據；這裡缺少 electricity proportion，所以不能選 TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Cleaner, Abundant Fuels Attracting Record Investment.pdf",
+    "sha256": "12b5bf0a93983f5e2b3a8cc35ce7d3d8d8547c3c713a9c921b7d2b5ff1a908db",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段第一句說 renewable energy 來自 wind、sun、Earth’s heat、tides 和 small dams，並正吸引record levels of investment。最後一句把 renewable energy 的增長率與 oil and gas 比較：前者約每年 20–30%，後者只有 2–3%。只看首尾句，可以估計本段是全文開場和宏觀數據段，重點是投資創新高、發電容量、全球佔比和增長速度。若題目問 record investment 或 renewable 與 fossil fuel 的增長率比較，A 段很重要。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段第一句引用 Eric Martinot，說 renewable energy has become big business。最後一句說renewable energy industries 提供 1.7 million jobs，而且多數是 skilled and well paid。只看首尾句，可以估計本段主要講 renewable energy 已從環保概念變成大型產業。中間會提到 Eric Martinot的身份、報告名稱、大公司參與，以及太陽能熱水設備家庭數量。若題目問 Martinot、large companies、households、jobs，本段是可能定位區。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段第一句說 Martinot 和 100-plus researchers 在 20 多個國家評估多項 renewable technologies。最後一句說這些技術現在在四個市場中與 conventional fuels 競爭。只看首尾句，可以估計本段是「技術分類和市場應用」段。它列出 small hydro、modern biomass、wind、solar、geothermal、biofuels 等，也指出 renewable technologies 已進入 power generation、heating、transportation fuels 和 rural off-grid energy supplies。Question 1 和 Question 5 會看這段。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段第一句解釋 renewable energy 受歡迎的原因：供應近乎無限，且相對 fossil fuels 污染較少。最後一句把 fossil fuel burning 連到 carbon dioxide、greenhouse gases、climate change、droughts、floods、storms 和 tropical diseases spread。只看首尾句，可以估計本段是環境原因段，處理 renewable energy 為何比 oil、coal、gas 更受支持。若題目問 pollution、fossil fuels 或climate change，這段最適合定位。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段第一句說 renewable energy 可以賦權給缺乏 reliable、affordable、clean modern energy services 的貧困和脆弱人口。最後一句說許多政府政策會設 targets，要求 renewable sources 到2010–2012 左右佔能源使用的 5–30%。只看首尾句，可以估計本段處理發展中國家、油價壓力和政府政策。中間有 Kofi Annan、oil-importing developing countries、48 countries 和 promotion policy。Questions 6 和 11 主要在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段第一句說 renewable sector 的前景在星期一得到進一步 boost，因為中國提高了 renewable energy target。最後一句說到 2020 年，renewable energy 應佔中國 national consumption 的15%。只看首尾句，可以估計本段集中講中國政策目標。中間最重要的限制是 China 同時承認coal 仍會在未來數十年保持 primary source for electricity。若題目問 China 2020、renewable target 或 coal，F 段是目標段。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段第一句說全球 20 多個 states and provinces，以及 Brazil、China、India 三個關鍵國家，已制定 biofuels blending mandates。最後一句列出 2004 年 renewable energy 的 market leaders，例如 China in solar hot water、Germany in solar electricity、Spain in wind power。只看首尾句，可以估計本段主題是政府規定和市場領先者。它也交代 REN21 的組成：governments and non-governmental organisations，因此 Question 2 會定位到這段。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段第一句說世界上增長最快的能源技術是 grid-connected solar photovoltaic，2000–2004 年每年增長 60%。最後一句說 2004 年 ethanol、biodiesel 和 other biofuels 產量超過 33 billion litres， ethanol 取代全球 gasoline production 約 3%。只看首尾句，可以估計本段是具體技術增長數據段。它比較 solar PV、wind power 和 biofuels 的發展速度。Question 12 的 60% 會在此定位。"
+      },
+      {
+        "number": "I",
+        "summary": "I 段第一句說每年約 $500 million 以 development assistance 形式流向 developing countries，用於 renewable energy projects、training 和 market support。最後一句說 Asia 因 power demand快速增長和 runaway oil prices，被視為 renewable energy 的 vast market。只看首尾句，可以估計本段集中在資金來源、綠電消費者和亞洲市場前景。Questions 4、8 和 13 都會看這段。 Answer Key Questio Answer n 1 C 2 G 3 A 4 I 5 agricultural waste 6 targets 7 coal 8 a vast market 9 NOT GIVEN 10 TRUE 11 TRUE 12 FALSE 13 NOT GIVEN"
+      }
+    ]
+  }
+}

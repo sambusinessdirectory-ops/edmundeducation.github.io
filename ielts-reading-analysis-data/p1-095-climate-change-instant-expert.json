@@ -1,0 +1,2127 @@
+{
+  "id": "p1-095-climate-change-instant-expert",
+  "catalogueId": "p1-095",
+  "catalogueIds": [
+    "p1-095"
+  ],
+  "passage": 1,
+  "title": "Climate Change: Instant Expert",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "A",
+    "B",
+    "G",
+    "water resources",
+    "global warming",
+    "developing",
+    "iron",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“The effects of global warming on animals.”",
+      "translation": "全球暖化對動物的影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 animals / species / biodiversity 一類資訊。題目用 animals 作概括，原文未必逐字重複animals，可能使用 species 或 ecosystems。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As natural ecosystems—such as coral reefs—are disrupted, biodiversity is reduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當珊瑚礁等自然生態系統被破壞時，生物多樣性會下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This would condemn the world to a sea-level rise of six metres—enough to flood land occupied by billions of people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這會使世界面臨六米的海平面上升，足以淹沒數十億人居住的土地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 明顯處理 ecosystem、biodiversity 和 sea level。題目問 animals，最接近的是 biodiversity 和 species，因此目標段落是 D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“effects”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要留意同義詞： animals = species effects = cannot migrate / evolving / biodiversity is reduced"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most species cannot migrate fast enough to keep up, though others are already evolving in response to warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數物種無法遷移得足夠快以跟上變化，但另一些物種已經開始因暖化而演化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說明 global warming 對動物或物種造成的影響：有些物種遷移速度跟不上，有些正在演化。段首的 “biodiversity is reduced” 也補充了生物層面的結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“animals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“biodiversity”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“effects of global warming”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot migrate fast enough”"
+            },
+            {
+              "kind": "quote",
+              "text": "“already evolving in response to warming”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷Paragraph D 是唯一集中處理 species、biodiversity 和 ecosystem disruption 的段落，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也有 diseases、crops 和 drought，但那些主要是人類社會、農業和水資源影響。題目問 animals，最穩定的定位是 Paragraph D 的 species。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The ways in which ordinary people can see the global climate is changing.”",
+      "translation": "普通人可以如何看見全球氣候正在改變。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 ordinary people 的觀察例子。題目沒有問 scientific proof alone，所以要找人群、地區和日常可見現象。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Climate change is with us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氣候變化已經與我們同在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Earth has probably never warmed as fast as in the past 30 years—a period when natural influences on global temperatures, such as solar cycles and volcanoes, should have cooled us down.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球升溫速度可能從未像過去三十年般快；在這段時期，太陽週期和火山等自然因素本應令地球降溫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接宣告 climate change 已經發生。中間連續出現不同人群如何 see it，所以 Paragraph A對 Question 2 最貼合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“ordinary people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“see”"
+            },
+            {
+              "kind": "quote",
+              "text": "“climate is changing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接重複 “see it”："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canada’s Inuit see it…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The shantytown dwellers… see it…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Europeans see it…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists see it…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canada’s Inuit see it in disappearing Arctic ice and permafrost.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加拿大 Inuit 從正在消失的北極冰和永久凍土中看見它。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The shantytown dwellers of Latin America and South Asia see it in lethal storms and floods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "拉丁美洲和南亞貧民區居民從致命風暴和洪水中看見它。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Europeans see it in disappearing glaciers, forest fires and fatal heat waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歐洲人從消失中的冰川、森林火災和致命熱浪中看見它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子把 climate change 變成普通人可感知的現象。Inuit、shantytown dwellers、Europeans都是社會群體，不限於科學家。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ordinary people = Inuit / shantytown dwellers / Europeans can see = see it in climate is changing = disappearing ice, storms, floods, glaciers, forest fires, heat waves判斷Paragraph A 用多個地區和人群示範「人們如何看見氣候變化」，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提到 scientists see it in tree rings、coral 和 ice cores。可是題目說 ordinary people，判斷時要抓前面幾個非科學家群體，而不是只停留在 scientific evidence。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“The science behind global warming.”",
+      "translation": "全球暖化背後的科學原理。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 greenhouse effect、CO₂、radiation、troposphere 這類科學解釋。只講 warming effects的段落不夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Climatologists reporting for the UN Intergovernmental Panel on Climate Change (IPCC) say we are seeing global warming caused by human activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為 UN IPCC 報告的氣候學家指出，我們正在看見由人類活動造成的全球暖化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some studies suggest that cosmic rays may also be involved in warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些研究認為，宇宙射線也可能參與暖化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，這段集中討論 warming 的原因與科學解釋。中間會交代燃燒化石燃料、CO₂ 和greenhouse effect。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“science”"
+            },
+            {
+              "kind": "quote",
+              "text": "“behind global warming”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可定位到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The physics of the ‘greenhouse effect’ has been a matter of scientific fact for a century.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“CO₂ is a greenhouse gas…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“traps the Sun’s radiation…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The physics of the ‘greenhouse effect’ has been a matter of scientific fact for a century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「溫室效應」的物理原理，一個世紀以來一直是科學事實。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“CO₂ is a greenhouse gas that traps the Sun’s radiation within the troposphere, the lower atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "CO₂ 是一種溫室氣體，會把太陽輻射困在對流層，即較低層的大氣之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句直接解釋全球暖化背後的科學：人類釋放 CO₂，CO₂ 作為 greenhouse gas，困住太陽輻射，令低層大氣保留更多熱量。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "science behind global warming= physics of the greenhouse effect= CO₂ traps the Sun’s radiation判斷Paragraph B 不只說人類活動造成 warming，也解釋 CO₂ 如何在大氣中造成 greenhouse effect，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也有 atmospheric CO₂ concentrations 和 temperature rise，但它主要預測未來結果。Question 3 問 science behind，Paragraph B 的 physics / greenhouse effect 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Possible solutions to global warming.”",
+      "translation": "全球暖化的可能解決方案。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 solutions / energy efficiency / renewable energy / emission cuts 一類資料。題目問possible solutions，所以可包含傳統能源方案和較非常規的工程方案。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In any case, according to the IPCC, the world needs to quickly improve the efficiency of its energy usage and develop renewable, non-carbon energy sources such as wind, solar, tidal, wave and perhaps nuclear power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論如何，根據 IPCC，世界需要迅速提高能源使用效率，並發展可再生、非碳能源，例如風能、太陽能、潮汐能、波浪能，也可能包括核能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The quicker we do that, the less extreme the heat in our future world will be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們越快做到這一點，未來世界的高溫就越不極端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經清楚顯示 Paragraph G 是 solution 段。它由 improve efficiency 和 develop renewable energy 開始，以減少未來熱度作結。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“solutions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“global warming”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“improve the efficiency”"
+            },
+            {
+              "kind": "quote",
+              "text": "“renewable, non-carbon energy sources”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hydrogen fuel cells”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mega-engineering”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cut CO₂ emissions”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other less conventional solutions include ideas to stave off warming by ‘mega-engineering’ the planet with giant mirrors to deflect the Sun’s rays, seeding the oceans with iron to generate algal blooms, or burying greenhouse gases below the sea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他較非常規的解決方案包括：用大型工程改造地球，例如用巨型鏡子反射太陽光、向海洋投放鐵以製造藻華，或把溫室氣體埋在海底。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確使用 “solutions”，並列出多個可能方案。段尾再說需要 cut CO₂ emissions by 70 per cent to 80 per cent，進一步補充真正需要的減排幅度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "possible solutions= improve energy efficiency= renewable energy= hydrogen fuel cells= mega-engineering= cut CO₂ emissions判斷Paragraph G 完整列出科技、能源和減排方案，所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "water resources",
+      "answerKey": "water resources",
+      "type": "Sentence Completion",
+      "prompt": "“Wars could be fought over reduced 5 ______.”",
+      "translation": "戰爭可能會因減少的 ______ 而爆發。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If current trends continue, we will raise atmospheric CO₂ concentrations to double pre-industrial levels during this century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果目前趨勢持續，本世紀我們會把大氣 CO₂ 濃度提高到工業化前水平的兩倍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clashes over dwindling water resources may cause conflicts in many regions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圍繞日益減少的水資源而起的衝突，可能在許多地區造成爭端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已能看到 conflicts 和 water resources。題目中的 “Wars could be fought” 是對conflicts 的概括，因此 Paragraph C 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fought over”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduced”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clashes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“over”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dwindling”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water resources”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clashes over dwindling water resources may cause conflicts in many regions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圍繞日益減少的水資源而起的衝突，可能在許多地區造成爭端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Clashes over dwindling water resources”，核心動詞是 “may cause”，結果是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“conflicts in many regions”。題目把 conflicts 進一步改寫成 wars，把 dwindling 改寫成 reduced。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Wars could be fought = clashes may cause conflicts reduced = dwindling water resources = water resources答案形式water resources = 2 words，符合 NO MORE THAN THREE WORDS。“dwindling water resources” 雖然也是原文，但題目已有 reduced，因此填 water resources 最自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "global warming",
+      "answerKey": "global warming",
+      "type": "Sentence Completion",
+      "prompt": "“Certain pollutants actually protect us from 6 ______.”",
+      "translation": "某些污染物實際上保護我們免受 ______ 的影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Global warming would be more pronounced were it not for sulphur particles and other pollutants that shade us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若沒有硫粒子和其他會遮蔽我們的污染物，全球暖化會更加明顯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent research suggests that natural CO₂ ‘sinks’, like peat bogs and forests, are actually starting to release CO₂.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最新研究顯示，泥炭沼澤和森林等天然 CO₂「吸收庫」實際上開始釋放 CO₂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段首已指出 sulphur particles and other pollutants 有遮蔽作用，令 global warming 沒有那麼明顯。題目中的 protect us from 對應原文 shade us。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“pollutants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“protect us”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“pollutants that shade us”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Global warming would be more pronounced were it not for…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Global warming would be more pronounced were it not for sulphur particles and other pollutants that shade us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若沒有硫粒子和其他會遮蔽我們的污染物，全球暖化會更加明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的意思是：某些污染物會遮蔽一部分暖化效果，所以 global warming 的表現沒有那麼強。題目把 “shade us” 改成 “protect us from”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Certain pollutants = sulphur particles and other pollutants protect us from = shade us / make warming less pronounced global warming = global warming答案形式global warming = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“shade us” 字面上像「遮陽」，容易令人想填 Sun’s radiation。不過這題要從句子整體理解：被減弱的是 global warming 的程度，所以答案是 global warming。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "developing",
+      "answerKey": "developing",
+      "type": "Sentence Completion",
+      "prompt": "“7 ______ countries were not required to make cuts in emissions under the Kyoto Protocol.”",
+      "translation": "______ 國家在 Kyoto Protocol 下未被要求減少排放。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the Earth Summit in 1992, the world agreed to prevent ‘dangerous’ climate change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1992 年 Earth Summit 上，世界同意防止「危險」氣候變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most scientists believe we are underestimating the dangers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數科學家相信我們低估了危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 是國際協議和政策段。題目指名 Kyoto Protocol，所以必然定位於此段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kyoto Protocol”"
+            },
+            {
+              "kind": "quote",
+              "text": "“emissions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first step was the 1997 Kyoto Protocol…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“It will bring modest emission reductions from industrialised countries.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“developing nations… will one day have to join in.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It will bring modest emission reductions from industrialised countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它會使工業化國家作出適度減排。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many observers say deeper cuts are needed and developing nations, which have large and growing populations, will one day have to join in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多觀察者認為需要更深入的減排，而人口龐大且持續增長的發展中國家有一天也必須加入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來表示：Kyoto Protocol 目前要求 industrialised countries 作出減排；developing nations 將來才需要加入。題目空格後已有 countries，所以只填 developing。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "developing nations = developing countries were not required = will one day have to join in make cuts in emissions = emission reductions / deeper cuts答案形式developing = 1 word，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要填 developing nations，因為題目後面已有 countries，寫成 “developing nations countries”會不通順。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "iron",
+      "answerKey": "iron",
+      "type": "Sentence Completion",
+      "prompt": "“Algal blooms feed on 8 ______.”",
+      "translation": "藻華以 ______ 為養分。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In any case, according to the IPCC, the world needs to quickly improve the efficiency of its energy usage and develop renewable, non-carbon energy sources such as wind, solar, tidal, wave and perhaps nuclear power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 IPCC，世界需要迅速提高能源使用效率，並發展可再生、非碳能源，例如風能、太陽能、潮汐能、波浪能，也可能包括核能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The quicker we do that, the less extreme the heat in our future world will be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們越快做到這一點，未來世界的高溫就越不極端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 是 solutions 段，題目中的 algal blooms 是非常稀有的定位詞，應直接掃描此段的非常規方案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Algal blooms”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“seeding the oceans with iron to generate algal blooms”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other less conventional solutions include ideas to stave off warming by ‘mega-engineering’ the planet with giant mirrors to deflect the Sun’s rays, seeding the oceans with iron to generate algal blooms, or burying greenhouse gases below the sea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他較非常規的解決方案包括：用巨型鏡子反射太陽光、向海洋投放鐵以製造藻華，或把溫室氣體埋在海底。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “feed on”，原文說 “seeding the oceans with iron to generate algal blooms”。意思是透過向海洋加入 iron，促進 algal blooms 生成。因此答案是 iron。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "feed on = generated by seeding the oceans with iron = iron答案形式iron = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Volcanoes can influence the global climate.”",
+      "translation": "火山可以影響全球氣候。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 volcanoes 和 climate / global temperatures 的關係。題目用 can influence，語氣較保守，只需原文支持火山能影響全球氣溫即可。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Climate change is with us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氣候變化已經與我們同在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Earth has probably never warmed as fast as in the past 30 years—a period when natural influences on global temperatures, such as solar cycles and volcanoes, should have cooled us down.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球升溫速度可能從未像過去三十年般快；在這段時期，太陽週期和火山等對全球氣溫的自然影響，本應令地球降溫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接提到 volcanoes 和 global temperatures，所以 Paragraph A 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Volcanoes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“influence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“global climate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“natural influences on global temperatures, such as solar cycles and volcanoes”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“natural influences on global temperatures, such as solar cycles and volcanoes, should have cooled us down.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太陽週期和火山等對全球氣溫的自然影響，本應令我們降溫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 volcanoes 列入 “natural influences on global temperatures”。題目說 can influence global climate，原文說 volcanoes 是 natural influences on global temperatures，方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "global climate = global temperatures can influence = natural influences volcanoes = volcanoes判斷原文明確支持火山可以影響全球氣溫，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 should have cooled us down，即火山等自然因素本應令地球降溫。題目沒有說火山一定令地球變暖，只說能影響氣候，因此 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Billions of people live near the sea.”",
+      "translation": "數十億人住在海邊附近。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 billions of people 和 sea-level rise / flood land 的關係。題目用 near the sea，原文可能以 sea-level rise flooding land 來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As natural ecosystems—such as coral reefs—are disrupted, biodiversity is reduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當珊瑚礁等自然生態系統被破壞時，生物多樣性會下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This would condemn the world to a sea-level rise of six metres—enough to flood land occupied by billions of people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這會使世界面臨六米的海平面上升，足以淹沒數十億人居住的土地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接有 billions of people，也有 sea-level rise 和 flood land。題目中的 near the sea 是對可被海平面上升淹沒地區的概括。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Billions of people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sea”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“sea-level rise of six metres”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flood land occupied by billions of people”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This would condemn the world to a sea-level rise of six metres—enough to flood land occupied by billions of people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這會使世界面臨六米的海平面上升，足以淹沒數十億人居住的土地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“occupied by billions of people” 表示這些土地有人居住。若海平面上升能淹沒這些土地，這些土地自然屬於受海水上升影響的沿海或低窪地區。題目的 “live near the sea” 是對這個地理關係的合理概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Billions of people live = land occupied by billions of people near the sea = land that could be flooded by sea-level rise判斷原文說海平面上升會淹沒數十億人居住的土地，這支援大量人口住在受海平面影響的海邊或低地區域，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有逐字出現 “coast” 或 “near the sea”。判斷要看 sea-level rise 和 flood land 的關係。這是短距離推論，沒有超出原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Peat bogs never release CO₂.”",
+      "translation": "泥炭沼澤從不釋放 CO₂。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 never 這個絕對詞。若原文說 peat bogs are starting to release CO₂，題目就和原文相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Global warming would be more pronounced were it not for sulphur particles and other pollutants that shade us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若沒有硫粒子和其他會遮蔽我們的污染物，全球暖化會更加明顯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent research suggests that natural CO₂ ‘sinks’, like peat bogs and forests, are actually starting to release CO₂.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最新研究顯示，泥炭沼澤和森林等天然 CO₂「吸收庫」實際上開始釋放 CO₂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接提到 peat bogs 和 release CO₂，與題目完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peat bogs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“never release CO₂”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“peat bogs and forests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“are actually starting to release CO₂”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent research suggests that natural CO₂ ‘sinks’, like peat bogs and forests, are actually starting to release CO₂.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最新研究顯示，泥炭沼澤和森林等天然 CO₂「吸收庫」實際上開始釋放 CO₂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “never release”，即永不釋放。原文說 “are actually starting to release”，即實際上正開始釋放。這是清楚的相反資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與相反關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "never release CO₂原文： are actually starting to release CO₂判斷原文直接否定 never，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段中前面說 forests and oceans absorb around half of the CO₂ we produce，這會令人以為天然系統只吸收 CO₂。段尾用 actually 轉向，指出某些 CO₂ sinks 已開始釋放 CO₂。真正控制答案的是最後一句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Improving energy efficiency can be done quickly.”",
+      "translation": "提高能源效率可以很快完成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要分清 “needs to quickly improve” 和 “can be done quickly”。前者是需要／應該快點做；後者是能力或可行性，表示做得到很快完成。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In any case, according to the IPCC, the world needs to quickly improve the efficiency of its energy usage and develop renewable, non-carbon energy sources such as wind, solar, tidal, wave and perhaps nuclear power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 IPCC，世界需要迅速提高能源使用效率，並發展可再生、非碳能源，例如風能、太陽能、潮汐能、波浪能，也可能包括核能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The quicker we do that, the less extreme the heat in our future world will be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們越快做到這一點，未來世界的高溫就越不極端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都提到 quickly / quicker，但這些字表達的是緊迫性和好處，未直接說技術上能否很快完成。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Improving energy efficiency”"
+            },
+            {
+              "kind": "quote",
+              "text": "“can be done quickly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“needs to quickly improve the efficiency of its energy usage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The quicker we do that…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the world needs to quickly improve the efficiency of its energy usage…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界需要迅速提高能源使用效率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the world”，核心動詞是 “needs to improve”。它表達的是必要性，不是能力。題目中的 “can be done quickly” 則要求原文證明這件事能夠迅速完成。原文沒有說 improving energy efficiency 容易、快速、已有方法可立即完成，也沒有說需要多久。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有： needs to quickly improve = 需要迅速改善題目需要： can be done quickly = 能夠快速完成缺少的核心資料：可行速度執行難度是否能短時間完成判斷原文只說應該快點提高能源效率，沒有說這件事可很快完成。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大的中伏位是 quickly 原字重現。看到 quickly，不應直接選 TRUE。要看 quickly 修飾的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“needs to improve”，還是 “can be done”。題目加入了能力判斷，原文只提供政策緊迫性。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Burying greenhouse gases under the sea is not possible.”",
+      "translation": "把溫室氣體埋在海底是不可能的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 burying greenhouse gases below the sea。題目說 not possible，原文若把它列為possible solutions / ideas，方向就相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In any case, according to the IPCC, the world needs to quickly improve the efficiency of its energy usage and develop renewable, non-carbon energy sources such as wind, solar, tidal, wave and perhaps nuclear power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 IPCC，世界需要迅速提高能源使用效率，並發展可再生、非碳能源，例如風能、太陽能、潮汐能、波浪能，也可能包括核能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The quicker we do that, the less extreme the heat in our future world will be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們越快做到這一點，未來世界的高溫就越不極端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 是解決方案段。題目中的 burying greenhouse gases under the sea 是非常明顯的定位短語。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Burying greenhouse gases”"
+            },
+            {
+              "kind": "quote",
+              "text": "“under the sea”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not possible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other less conventional solutions include ideas to stave off warming…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“burying greenhouse gases below the sea”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other less conventional solutions include ideas to stave off warming by ‘mega-engineering’ the planet with giant mirrors to deflect the Sun’s rays, seeding the oceans with iron to generate algal blooms, or burying greenhouse gases below the sea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他較非常規的解決方案包括：用大型工程改造地球，例如用巨型鏡子反射太陽光、向海洋投放鐵以製造藻華，或把溫室氣體埋在海底。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把 “burying greenhouse gases below the sea” 放在 “less conventional solutions” 之下，表示這是被提出的解決方案之一。題目說 “is not possible”，和原文將它列作方案的方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與相反關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "under the sea = below the sea not possible = 原文沒有這個否定，並將它列為 solution idea burying greenhouse gases = burying greenhouse gases判斷原文把海底埋藏溫室氣體列入可能方案，題目說它不可能，方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文用 “less conventional solutions” 和 “ideas”，說明這些方案較非常規，可能仍屬構想或新方法。但 “less conventional” 不等於 impossible。題目用了強否定 “not possible”，超出了原文方向。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Climate Change_ Instant Expert.pdf",
+    "sha256": "6fb60529cb11acb0838fc107162d9a481ee57f072a332e12a6090638ac0c7a63",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看第一句，讀者會先知道 climate change 已經發生，十年前仍像猜測，現在卻在眼前展開。最後一句說，過去三十年地球升溫速度可能前所未有，即使太陽週期和火山等自然因素本應令氣溫下降。首尾句顯示，這段主要建立「氣候變化已可被看見」的現實感。中間用 Inuit、貧民區居民、歐洲人和科學證據展示不同人如何觀察到變化。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說，為 UN IPCC 報告的氣候學家認為，我們正在看見由人類活動造成的 global warming。最後一句補充，有些研究認為 cosmic rays 也可能參與 warming。首尾句顯示，這段進入成因與科學解釋：人類燃燒煤、石油和天然氣，釋放大量 CO₂；CO₂ 作為 greenhouse gas，會在低層大氣中困住太陽輻射。這段是「全球暖化背後科學原理」的主要定位段。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說，若現有趨勢繼續，本世紀大氣 CO₂ 濃度會升至工業化前的兩倍。最後一句說，因水資源減少而引發的衝突，可能在許多地區發生。首尾句顯示，這段由未來 CO₂ 濃度和升溫幅度，推向多種不穩定後果。中間涵蓋冰融化、河流泛濫或乾涸、疾病擴散、農作物增產或減產，以及water resources 引起的 conflict。Q5 會在這段定位。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說，當 coral reefs 等自然生態系統被破壞時，biodiversity 會下降。最後一句說，若Greenland ice sheet 不可逆地融化，六米海平面上升足以淹沒數十億人居住的土地。首尾句顯示，這段有兩個主軸：自然生態和海平面上升。中間指出多數物種無法快速遷移，也有一些物種已因暖化而演化。Q1 和 Q10 都會用到這段。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說，若沒有 sulphur particles 和其他遮蔽我們的污染物，global warming 會更明顯。最後一句說，最新研究顯示 peat bogs 和 forests 等天然 CO₂ sinks 實際上開始釋放 CO₂。首尾句顯示，這段在處理地球系統中的緩衝因素：某些污染物暫時遮蔽暖化，森林和海洋吸收約一半人類產生的 CO₂；可是 CO₂ 累積速度加快，自然吸收能力可能接近極限。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說，1992 年 Earth Summit 上，世界同意防止「危險」氣候變化。最後一句說，大多數科學家相信我們低估了危險。首尾句顯示，這段主要處理國際政治和政策回應。中間提到 1997 Kyoto Protocol，2005 年生效，只會令工業化國家作出 modest emission reductions；developing nations將來或要加入。段落也呈現美國布殊政府、US 和 Australia 對 Kyoto 的立場。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說，根據 IPCC，世界需要迅速提高 energy usage efficiency，並發展 wind、solar、tidal、wave 甚至 nuclear 等 non-carbon energy sources。最後一句說，越快做到減排，未來世界的熱度就越不極端。首尾句顯示，這段是解決方案段。中間列出 renewable energy、hydrogen fuel cells、giant mirrors、ocean iron seeding、burying greenhouse gases below the sea，以及減少 CO₂emissions 70% 至 80%。 Answer Key 1. D 2. A 3. B 4. G 5. water resources 6. global warming 7. developing 8. iron 9. TRUE 10. TRUE 11. FALSE 12. NOT GIVEN 13. FALSE"
+      }
+    ]
+  }
+}

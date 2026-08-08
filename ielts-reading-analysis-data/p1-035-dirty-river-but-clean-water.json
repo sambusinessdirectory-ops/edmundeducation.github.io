@@ -1,0 +1,1816 @@
+{
+  "id": "p1-035-dirty-river-but-clean-water",
+  "catalogueId": "p1-035",
+  "catalogueIds": [
+    "p1-035"
+  ],
+  "passage": 1,
+  "title": "Dirty River But Clean Water",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "spring",
+    "sediment",
+    "razorback sucker",
+    "common carp",
+    "visibility",
+    "sand"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Damage caused by fire is worse than that caused by floods”",
+      "translation": "火災造成的破壞比洪水造成的破壞更嚴重。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章有沒有比較 fire damage 和 flood damage 的嚴重程度。題目真正控制答案的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“worse than”，即需要一個明確比較。若文章只說 fire 和 flood 都很可怕，但沒有比較哪一個更嚴重，就不能選 TRUE 或 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A第一句：“Fire and flood are two of humanity’s worst nightmares.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火災和洪水是人類最可怕的兩種噩夢之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By Thursday, March 6 it was running at full throttle, which was expected to be sustained for 60 hours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 3 月 6 日星期四時，這股人工洪流已全速流動，預計會維持 60 小時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 會由 fire 和 flood 這兩種人類恐懼，引入 Grand Canyon 的人工放洪。第一句有 fire 和 flood，值得定位；但首尾句本身未顯示兩者破壞力比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “fire”, “flood”, “damage”, “worse than”。Paragraph A 有 fire 和 flood，但沒有damage comparison。Introductory paragraph 有 flood damage，卻只談洪水對 homes and businesses 的破壞，也沒有火災破壞資料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fire and flood are two of humanity’s worst nightmares.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火災和洪水是人類最可怕的兩種噩夢之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 fire 和 flood 並列為 worst nightmares，意思是兩者都令人恐懼。它沒有說 fire is worse，也沒有說 flood is worse。題目要求比較 “Damage caused by fire” 和 “damage caused by floods”，但原文只提供共同分類，沒有提供破壞程度排名。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與資料缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：fire damage is worse than flood damage"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：fire and flood are two of humanity’s worst nightmares原文有兩個災害名稱，缺少 damage severity comparison。這是 NOT GIVEN 的典型情況：相關概念出現了，但題目需要的比較關係沒有出現。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “worst nightmares” 就覺得火災和洪水一定有高低比較。其實 “two of” 表示兩者都屬於最可怕的一類，沒有排序。遇到 “worse than” 題目，必須找明確比較詞或比較數據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The flood peaks at almost 1,500 cubic metres per second every eight years.”",
+      "translation": "洪水每八年左右會在接近每秒 1,500 立方米時達到峰值。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查兩個數字關係：1,500 cubic metres per second 和 every eight years。題目把 “almost 1,500” 和 “every eight years” 連在一起，所以要看原文中每個數字各自修飾甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Floods once raged through the canyon every year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去洪水每年都會猛烈流經峽谷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These floods infused the river with sediment, carved its beaches and built its sandbars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些洪水為河流注入泥沙，切削河灘，並形成沙洲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph B 講自然洪水的頻率、流量和生態地貌作用。題目有 cubic metres per second 和 every eight years，因此必然定位到本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “1,500 cubic metres” 和 “every eight years”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spring snow from as far away as Wyoming would melt and swell the Colorado River to a flow that averaged around 1,500 cubic metres (50,000 cubic feet) a second.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠至 Wyoming 的春季積雪會融化，使 Colorado River 膨脹至平均約每秒 1,500 立方米的流量。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every eight years or so, that figure rose to almost 3,000 cubic metres.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約每八年，這個數字會上升到接近 3,000 立方米。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把 1,500 描述為 averaged around 1,500，即平均春季洪水流量。每八年左右上升的是 “that figure”，而且上升至 almost 3,000 cubic metres。題目說 every eight years 的 peak 是 almost 1,500，這把平均值和八年一次的高峰值混在一起。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：almost 1,500 every eight years"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：average around 1,500；every eight years rose to almost 3,000真正衝突在數字配對。1,500 是 average flow；3,000 才是 every eight years or so 的高流量。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的陷阱是兩個數字都在同一段相鄰句子出現。看到 1,500 和 every eight years 都有原字，不代表題目成立。數字題一定要看「數字修飾哪個名詞或情況」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The sediment delivered by tributaries has little impact.”",
+      "translation": "支流帶來的泥沙影響很小。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 tributaries 帶來的 sediment 是否作用有限。定位詞很清楚：sediment、tributaries、little impact。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in the four decades since the building of the Glen Canyon Dam, just upstream of the Grand Canyon, the only sediment that it has collected has come from tiny, undammed tributaries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在 Glen Canyon Dam 建成後的四十年間，Grand Canyon 上游的這座水壩使峽谷所收集到的唯一泥沙，只來自細小、未築壩的支流。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even that has not been much use as those tributaries are not powerful enough to distribute the sediment in an ecologically valuable way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使那些泥沙也沒有太大用處，因為那些支流不夠有力，無法以具生態價值的方式分配泥沙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph C 正在講 dam 後 sediment 來源不足，以及 tributaries 的泥沙效果有限。這段直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “sediment delivered by tributaries” 對應原文 “sediment ... has come from tiny, undammed tributaries”。“little impact” 對應 “has not been much use”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even that has not been much use as those tributaries are not powerful enough to distribute the sediment in an ecologically valuable way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使那些泥沙也沒有太大用處，因為那些支流不夠有力，無法以具生態價值的方式分配泥沙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “that” 指前一句提到的 sediment from tiny, undammed tributaries。核心判斷短語是 “has not been much use”，即用途不大、效果有限。原因是 tributaries “are not powerful enough”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：has little impact"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：has not been much use"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：sediment delivered by tributaries"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：sediment ... has come from tiny, undammed tributaries判斷題目與原文同向，答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “little impact”，原文說 “not been much use”。這不是逐字重現，但意思非常接近。這題要特別處理代名詞 “that”：它指代支流帶來的 sediment，不是指整座 dam。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The decline in chub numbers has been caused entirely by the introduction of trout since the mid-20th century.”",
+      "translation": "chub 數量下降完全由 20 世紀中期引入 trout 所造成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 chub decline 的原因。控制詞是 “entirely”，意思是完全由某原因造成。只要原文說trout 只是表面原因，或真正原因另有其事，題目就會被推翻。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This lack of flooding has harmed local wildlife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺乏洪水已經傷害了當地野生生物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without the cloudy water the chub became vulnerable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有混濁河水後，chub 變得脆弱，容易受到威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph D 會用 wildlife，特別是 chub，說明缺乏洪水和 sediment 如何傷害生態。題目問 chub decline，Paragraph D 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “chub”, “trout”, “introduced”, “mid-20th century”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first sight, it looked as if the reason was that the chub were being eaten by trout introduced for sport fishing in the mid-20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "乍看之下，原因似乎是 chub 被 20 世紀中期為 sport fishing 引入的 trout 吃掉。"
+            },
+            {
+              "kind": "label",
+              "text": "但下一句馬上修正："
+            },
+            {
+              "kind": "quote",
+              "text": "“But trout and chub co-existed until the Glen Canyon Dam was built, so something else is going on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但是 trout 和 chub 一直共存到 Glen Canyon Dam 建成，因此另有原因正在發生作用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “trout introduced for sport fishing in the mid-20th century” 當成完全原因。原文先承認這是 “At first sight” 的表面印象，之後用 But 修正。Steve Gloss 的解釋是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Steve Gloss ... reckons that the chub’s decline is the result of their losing their most valuable natural defense, the Colorado’s rusty sediment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Steve Gloss 認為 chub 的下降，是因為牠們失去了最寶貴的天然防禦，也就是 Colorado River的紅色泥沙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以原文的因果鏈是：dam 減少洪水和 sediment → 河水不再混濁 → chub 失去 hiding protection → 更易被 predators 捕食。trout 可能相關，但 “entirely caused by introduction of trout”與文章修正後的解釋衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：caused entirely by trout introduction"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：At first sight it looked as if... But... something else is going on真正控制答案的是 “At first sight” 和 “But”。它們表示 trout 解釋只是初步表象，後文給出更深層原因。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題非常容易被原文相同詞吸引：trout、introduced、mid-20th century 都原字重現。真正決定答案的是句子態度。看到 “At first sight” 要有警覺，因為後面常會出現修正。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“At first, the artificial flood in 1996 appeared to be partly successful.”",
+      "translation": "起初，1996 年的人工洪水似乎有部分成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 1996 artificial flood 的初期效果。控制詞是 “At first” 和 “appeared”。題目沒有說最終成功，只問初期看起來是否部分成功。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So flooding is the obvious answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，放洪是顯而易見的答案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So if a flood is going to do some good, this is the time to unleash one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，如果洪水真的能帶來一些好處，現在就是釋放一次洪水的時候。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph F 會討論人工放洪作為解決方法，以及過去放洪結果是否足夠理想。題目指定 1996，應在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “1996” 和 “At first”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Floods were sent down the Grand Canyon in 1996 and 2004 and the results were mixed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1996 年和 2004 年都曾有洪水被送下 Grand Canyon，結果好壞參半。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1996 the flood was allowed to go on too long. To start with, all seemed well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1996 年那次洪水被允許持續太久。起初，一切看起來都很好。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文真正支援題目的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To start with, all seemed well. The floodwaters built up sandbanks and infused the river with sediment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，一切看起來都很好。洪水建立了沙洲，並為河流注入泥沙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“To start with” 對應題目 “At first”。“all seemed well” 對應 “appeared to be partly successful”。後一句給出成功的具體表現：built up sandbanks 和 infused sediment。題目用 “partly” 很合理，因為原文後來說 continued flow washed most sediment out of the canyon，最終效果有問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "At first = To start with appeared to be partly successful = all seemed well / built up sandbanks / infused sediment artificial flood in 1996 = floods were sent down ... in 1996判斷題目和原文同向，答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "若只看 “the results were mixed” 或 “washed most of the sediment out”，可能會想選 FALSE。題目限定 “At first”，所以只需判斷初期表現。時間限制詞在這題十分關鍵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The current artificial flood has a lower flow rate than an average natural flood.”",
+      "translation": "目前這次人工洪水的流量比平均自然洪水低。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較 current artificial flood 和 average natural flood 的 flow rate。定位詞是 “current artificial flood”, “lower flow rate”, “average natural flood”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even so, it may turn out to be an empty gesture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，這次行動最終也可能只是空洞姿態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those glorious inundations moved massive quantities of sediment through the Grand Canyon, wiping the slate dirty, and making a muddy mess of silt and muck that would make modern river rafters cringe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些壯觀的大洪水曾把大量泥沙帶過 Grand Canyon，把河道重新弄髒，形成滿是淤泥和污物的泥濘景象，足以令現代泛舟者退縮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph G 對這次人工洪水的力度提出懷疑，並與昔日自然大洪水比較。題目問 current artificial flood vs average natural flood，正好定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “current artificial flood” 對應本段中的 “this flood”。“average natural flood” 對應 “an average spring flood”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At less than 1,200 cubic metres a second, this flood is smaller than even an average spring flood, let alone one of the mightier deluges of the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這次洪水每秒少於 1,200 立方米，甚至比平均春季洪水還小，更不用說與過去那些更強大的洪水相比。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “this flood”，即目前討論中的人工放洪。核心描述是 “smaller than even an average spring flood”。在本段語境中，smaller 指流量規模較小，前面的 “less than 1,200 cubic metres a second” 明確說的是 flow rate。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "current artificial flood = this flood has a lower flow rate = at less than 1,200 cubic metres a second / smaller than average natural flood = an average spring flood判斷原文直接支持題目，答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“smaller” 在不同文章可能指面積、規模或影響，但這裡前面立刻給出 “cubic metres a second”，單位是流量。因此它指 flow rate，不能理解為河流寬度或洪水覆蓋面積。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mighty floods produced fast-moving flows of clean, high-quality water.”",
+      "translation": "巨大的洪水產生快速流動、乾淨且高品質的水流。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 past mighty floods 的水質和流動特徵。題目加入 “clean, high-quality water”，要看原文是否支持 clean，或給出相反描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even so, it may turn out to be an empty gesture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，這次行動最終也可能只是空洞姿態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those glorious inundations moved massive quantities of sediment through the Grand Canyon, wiping the slate dirty, and making a muddy mess of silt and muck that would make modern river rafters cringe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些壯觀的大洪水曾把大量泥沙帶過 Grand Canyon，把河道重新弄髒，形成滿是淤泥和污物的泥濘景象，足以令現代泛舟者退縮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接描述 past mighty floods 的效果，與 clean water 形成明顯衝突。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Mighty floods”, “clean”, “high-quality water”。原文對應 “mighty deluges of the past” 和 “glorious inundations”。水質描述則是 “massive quantities of sediment”, “wiping the slate dirty”, “muddy mess of silt and muck”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those glorious inundations moved massive quantities of sediment through the Grand Canyon, wiping the slate dirty, and making a muddy mess of silt and muck that would make modern river rafters cringe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些壯觀的大洪水把大量泥沙帶過 Grand Canyon，把河道重新弄髒，形成由淤泥和污物構成的泥濘景象，足以令現代泛舟者退縮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是 dirty、muddy、silt、muck。題目說 clean, high-quality water，方向相反。文章標題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Dirty River but Clean Water” 也提醒讀者：從生態角度看，帶泥沙的水可能更有益，但水本身外觀並不乾淨。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：clean, high-quality water"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：massive quantities of sediment / slate dirty / muddy mess of silt and muck判斷原文提供相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“glorious inundations” 可能聽起來很正面，但正面評價指生態功能，不代表水清澈。這題要分清ecological value 和 visual cleanliness。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "spring",
+      "answerKey": "spring",
+      "type": "Summary Completion",
+      "prompt": "“Snow from as far away as Wyoming melted in 8 _________________ and caused the Colorado River to swell.”",
+      "translation": "遠至 Wyoming 的雪在 ____________ 融化，令 Colorado River 水量上升。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Summary Completion，限制是 NO MORE THAN TWO WORDS。空格前是 “melted in”，需要時間名詞。定位詞是 Wyoming、snow、melted、Colorado River。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Floods once raged through the canyon every year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去洪水每年都會猛烈流經峽谷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These floods infused the river with sediment, carved its beaches and built its sandbars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些洪水為河流注入泥沙，切削河灘，並建立沙洲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段講過去自然洪水的頻率、來源和作用。題目問 Wyoming 的雪何時融化，所以應該在本段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Wyoming”。原文只有一處："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spring snow from as far away as Wyoming would melt and swell the Colorado River to a flow that averaged around 1,500 cubic metres (50,000 cubic feet) a second.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠至 Wyoming 的春季積雪會融化，使 Colorado River 水量上升至平均約每秒 1,500 立方米。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “Spring snow” 是名詞短語，意思是春季積雪。題目把它拆成 “Snow ... melted in ___”，所以要把原文形容詞 Spring 轉成時間答案 spring。填入後句子變成 “melted in spring”，文法完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Spring snow would melt = snow melted in spring swell the Colorado River = caused the Colorado River to swell答案形式spring 是一個字，來自原文 “Spring snow”，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 Wyoming。Wyoming 是地點，題目已經給出 “from as far away as Wyoming”。空格要求時間，真正答案是 spring。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "sediment",
+      "answerKey": "sediment",
+      "type": "Summary Completion",
+      "prompt": "“In the four decades after the Glen Canyon Dam was built, it collected only 9_________________ from tiny, undammed tributaries.”",
+      "translation": "Glen Canyon Dam 建成後四十年間，它只從細小、未築壩的支流收集到 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “collected only ___ from...” 後，需要名詞。定位詞是 “four decades”, “Glen Canyon Dam”, “tiny, undammed tributaries”。限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in the four decades since the building of the Glen Canyon Dam, just upstream of the Grand Canyon, the only sediment that it has collected has come from tiny, undammed tributaries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在 Glen Canyon Dam 建成後四十年間，它所收集到的唯一泥沙來自細小、未築壩的支流。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even that has not been much use as those tributaries are not powerful enough to distribute the sediment in an ecologically valuable way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使那些泥沙也沒有太大用處，因為那些支流不夠有力，無法以具生態價值的方式分配泥沙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句幾乎直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “four decades after the Glen Canyon Dam was built” 對應原文 “in the four decades since the building of the Glen Canyon Dam”。“collected only” 對應 “the only sediment that it has collected”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “the only sediment that it has collected”。題目把語序改成 “it collected only ___”。空格要填 collected 的賓語，即 sediment。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "after the dam was built = since the building of the dam collected only = the only ... that it has collected tiny, undammed tributaries = tiny, undammed tributaries答案形式sediment 是一個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “tributaries”。支流是來源，不是被收集的東西。句子文法也提示答案應是 collected 的object。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "razorback sucker",
+      "answerKey": "razorback sucker",
+      "type": "Summary Completion",
+      "prompt": "“Several species disappeared, including the Colorado pikeminnow, 10 _________________and the roundtail chub.”",
+      "translation": "幾個物種消失了，包括 Colorado pikeminnow、____________ 和 roundtail chub。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於物種列表中，需要一個魚類名稱。限制是 NO MORE THAN TWO WORDS。定位詞是Colorado pike-minnow / pikeminnow 和 round-tail chub。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the chub are not alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而 chub 並非唯一受影響的物種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, aliens including fathead minnows, channel catfish and common carp, which would have been hard put to survive in the savage waters of the undammed canyon, have moved in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，一些外來物種，包括 fathead minnows、channel catfish 和 common carp，已經進入；在未築壩峽谷的狂野水流中，牠們本來很難生存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段列出消失的本地物種和進入的外來物種。題目問 disappeared species，應看本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Colorado pikeminnow” 和 “roundtail chub”。原文寫作："
+            },
+            {
+              "kind": "quote",
+              "text": "“These include the Colorado pike-minnow, the razorback sucker and the round-tail chub.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些包括 Colorado pike-minnow、razorback sucker 和 round-tail chub。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列表有三個物種。題目已給第一和第三，空格自然是中間的 “razorback sucker”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Colorado pikeminnow = Colorado pike-minnow roundtail chub = round-tail chub disappeared = vanished altogether答案形式razorback sucker 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 common carp。common carp 是後一句 “aliens ... have moved in” 中的外來物種，與disappeared species 屬於相反方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "common carp",
+      "answerKey": "common carp",
+      "type": "Summary Completion",
+      "prompt": "“Meanwhile, other species moved in, such as fathead minnows, channel catfish and 11_________________.”",
+      "translation": "同時，其他物種進入，例如 fathead minnows、channel catfish 和 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於外來物種列表中，需要一個魚類名稱。限制是 NO MORE THAN TWO WORDS。定位詞是 fathead minnows 和 channel catfish。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the chub are not alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而 chub 並非唯一受影響的物種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, aliens including fathead minnows, channel catfish and common carp, which would have been hard put to survive in the savage waters of the undammed canyon, have moved in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，一些外來物種，包括 fathead minnows、channel catfish 和 common carp，已經進入；在未築壩峽谷的狂野水流中，牠們本來很難生存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “moved in” 原文也有 “have moved in”。“fathead minnows” 和 “channel catfish” 直接重現，方便定位到同一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的列表是 “fathead minnows, channel catfish and common carp”。題目保留前兩項，空格問第三項，所以答案是 common carp。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "other species = aliens moved in = have moved in such as = including答案形式common carp 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“aliens” 在這裡不是外星人，指外來物種。這組題要分清 vanished species 和 moved-in species，兩個列表在同一段，容易混淆。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "visibility",
+      "answerKey": "visibility",
+      "type": "Summary Completion",
+      "prompt": "“The loss of sediment threatened the chub because they relied on poor 12_________________ to hide from predators.”",
+      "translation": "泥沙流失威脅 chub，因為牠們依賴較差的 ____________ 來躲避捕食者。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “poor”，後面需要名詞。題目限制 NO MORE THAN TWO WORDS。定位詞是 chub、sediment、hide from predators。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This lack of flooding has harmed local wildlife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺乏洪水已經傷害了當地野生生物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without the cloudy water the chub became vulnerable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有混濁河水後，chub 變得脆弱，容易受到威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出本段解釋 lack of flooding 如何令 chub 失去保護。題目問 poor 甚麼，應定位到 thick red water / cloudy water 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “hide from predators” 對應原文 “depended on it to hide from predators”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chub were well adapted to the poor visibility created by the thick, red water which gave the river its name, and depended on it to hide from predators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chub 很適應由濃厚紅水造成的低能見度；Colorado River 的名字也來自這種紅水，而 chub 依靠它來躲避捕食者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格位於 “poor ___”，原文完整短語是 “poor visibility”。visibility 指能見度。厚重紅色泥沙令水變濁，predators 較難看到 chub，所以 chub 依靠這種低能見度作天然防禦。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "relied on poor visibility = depended on it to hide from predators loss of sediment threatened the chub = losing their most valuable natural defense, the Colorado’s rusty sediment答案形式visibility 是一個字，符合 NO MORE THAN TWO WORDS。題目已有 poor，所以只需填 visibility。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “cloudy water”。它和答案意思接近，但題目空格前已有 poor，原文固定搭配是 “poor visibility”。填 cloudy water 會變成 “poor cloudy water”，文法不自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "sand",
+      "answerKey": "sand",
+      "type": "Summary Completion",
+      "prompt": "“In 2004, the volume of 13 _________________ behind the dam was too low to rebuild the sandbanks.”",
+      "translation": "2004 年，dam 後方的 ____________ 數量太低，無法重建沙洲。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “the volume of ___ behind the dam” 中，需要物質名詞。限制是 NO MORE THAN TWO WORDS。定位詞是 2004、behind the dam、too low、rebuild the sandbanks。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So flooding is the obvious answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，放洪是顯而易見的答案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So if a flood is going to do some good, this is the time to unleash one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，如果洪水真的能帶來一些好處，現在就是釋放一次洪水的時候。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段討論人工放洪是否可行，並比較過去嘗試。題目中的 2004 明確指向本段中部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “2004”, “volume”, “behind the dam”, “too low”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This problem was avoided in 2004, but unfortunately, on that occasion, the volume of sand available behind the dam was too low to rebuild the sandbanks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2004 年避免了這個問題，但不幸的是，那一次 dam 後方可用的沙量太低，無法重建沙洲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 “the volume of sand available behind the dam” 是答案核心。題目把 “available” 省略，保留 “volume of ___ behind the dam”。空格要填 sand。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "In 2004 = in 2004 / on that occasion volume of sand behind the dam = volume of sand available behind the dam too low to rebuild the sandbanks = too low to rebuild the sandbanks答案形式sand 是一個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “sediment”。整篇多次談 sediment，但 Question 13 的原文句子精確使用 sand。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion 要抄原文答案詞，尤其當題目旁邊有 “sandbanks” 時，答案更可能是 sand。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Dirty River But Clean Water.pdf",
+    "sha256": "f35729053529243348a3885879e34546274b5bf345a304c1e685177b50418904",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "首句說當河流流量超過河道容量時，尤其在 bends 或 meanders，便可能發生 floods。尾句解釋人類為何傳統上仍住在河邊：土地平坦肥沃，河流也方便交通、商業和工業。只看首尾句，可以判斷這段是背景導入，說明洪水為何造成破壞，以及人類為何長期無法完全遠離河流。它提供 flood的一般背景，未進入 Grand Canyon 的生態主線。",
+        "label": "Introductory paragraph"
+      },
+      {
+        "number": "A",
+        "summary": "首句把 fire 和 flood 稱為 humanity’s worst nightmares，指出人類一直想控制它們。尾句說 Grand Canyon 出現 man-made torrent，並會以 full throttle 維持 60 小時。只看首尾句，可以看到本段由「人類控制自然災害」轉向「科學家重新理解 flood 的必要性」。中間提到森林需要火，河流和生態系統也需要洪水，為人工放洪鋪路。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 floods once raged through the canyon every year，顯示過去 Grand Canyon 定期受自然洪水影響。尾句說這些 floods infused sediment、carved beaches 和 built sandbars。只看首尾句，可以估計本段在交代自然洪水的歷史功能：春季融雪令 Colorado River 水量上升，而洪水帶來泥沙、塑造河灘和沙洲，是維持峽谷生態地貌的重要過程。"
+      },
+      {
+        "number": "C",
+        "summary": "首句用 However 轉折，說 Glen Canyon Dam 建成後四十年間，峽谷只從細小、未築壩的支流得到 sediment。尾句說這些 tributaries 不夠有力，不能以有生態價值的方式分配泥沙。只看首尾句，可以判斷本段主題是 dam 阻斷泥沙來源後造成的問題：雖然仍有支流帶來少量 sediment，但影響有限，未能有效重建生態所需地貌。"
+      },
+      {
+        "number": "D",
+        "summary": "首句直接說 lack of flooding has harmed local wildlife。尾句說沒有 cloudy water 後，humpback chub 變得 vulnerable。只看首尾句，可以判斷本段會用 humpback chub 作例子，說明洪水和紅色泥沙如何保護原生魚。中間先提出 trout 捕食的表面解釋，再指出 chub 真正失去的是厚紅水造成的低能見度防護，令牠們較易被捕食。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 chub are not alone，表示受害的不止 humpback chub。尾句說一些外來物種已經 moved in，包括原本難以在 undammed canyon savage waters 生存的魚類。只看首尾句，可以判斷本段擴大生態後果：Glen Canyon Dam 建成後，部分本地物種消失，外來物種進入，整個河流生物群落被改變。這段是物種名填充題的重要來源。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 flooding is the obvious answer，但馬上補充 easier said than done。尾句說如果 flood 會帶來好處，現在就是釋放洪水的時機。只看首尾句，可以估計本段會評估人工放洪的嘗試和條件。中間比較 1996 和 2004 的 mixed results：一次時間過長沖走泥沙，一次泥沙量不足；這次sediment 比 2004 多三倍，因此研究者較有信心。"
+      },
+      {
+        "number": "G",
+        "summary": "首句提醒 even so, it may turn out to be an empty gesture，表示作者對這次放洪仍有保留。尾句描述過去巨大洪水會把大量 sediment 帶過 Grand Canyon，製造滿是 silt 和 muck 的 muddy mess。只看首尾句，可以判斷本段是收束和質疑：現時人工洪水流量小於平均春季洪水，遠不及昔日大洪水，因此未必能複製自然洪水的泥沙效果。"
+      }
+    ]
+  }
+}

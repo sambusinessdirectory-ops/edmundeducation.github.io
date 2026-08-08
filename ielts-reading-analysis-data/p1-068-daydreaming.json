@@ -1,0 +1,2043 @@
+{
+  "id": "p1-068-daydreaming",
+  "catalogueId": "p1-068",
+  "catalogueIds": [
+    "p1-068"
+  ],
+  "passage": 1,
+  "title": "Daydreaming",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "develop new ideas",
+    "problem-solving",
+    "C",
+    "B",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People usually daydream when they are walking around.”",
+      "translation": "人們通常在四處走動時 daydream。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目中的控制詞是 “usually” 和 “walking around”。我們要判斷原文是否說人們通常在走動時 daydream。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everyone daydreams sometimes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個人有時都會做白日夢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We might daydream that we are in another person’s place, or doing something that we have always wanted to do, or that other people like or admire us much more than they normally do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可能會想像自己處於另一個人的位置，或正在做自己一直想做的事，又或者想像別人比平常更喜歡或欣賞我們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會介紹 daydreaming 的一般情況和常見內容。題目問人們 daydream時的身體狀態，所以 Paragraph 1 是最自然的定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“usually”"
+            },
+            {
+              "kind": "quote",
+              "text": "“walking around”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 walking around，反而在第二句直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“We sit or lie down, close our eyes and use our imagination to think about something that might happen in the future or could have happened in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們坐下或躺下，閉上眼睛，運用想像力去想一些將來可能發生，或過去本來可能發生的事。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文描述 daydreaming 的典型狀態是 “sit or lie down” 和 “close our eyes”。題目說 people usually daydream when they are walking around，這和原文提供的典型狀態不相容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：人們通常一邊四處走動，一邊 daydream。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：人們坐下或躺下，閉上眼，用想像力思考事情。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “walking around”對不上原文 “sit or lie down”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供相反狀態，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “usually” 很重要。現實中有人可能走路時發呆，但 IELTS Reading 只看文章。文章給出的典型畫面是坐下或躺下、閉眼想像，因此不能用生活常識補成 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some people can daydream when they are asleep.”",
+      "translation": "有些人在睡著時也能 daydream。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 daydreaming 是否可以在 asleep 狀態下發生。題目用 “Some people”，看似保守，但原文若有明確排除，就仍然是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daydreams are not dreams, because we can only daydream if we are awake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白日夢和睡眠中的夢不同，因為只有在清醒時，我們才能 daydream。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We use our imagination to help us understand the world and other people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們運用想像力，幫助自己理解世界和其他人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 2 主要區分 daydreams 和 dreams，並說明 daydreaming 的功能。題目正是問 asleep / awake，所以首句已經很接近答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“asleep”"
+            },
+            {
+              "kind": "quote",
+              "text": "“daydream”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“we can only daydream if we are awake”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有在清醒時，我們才能 daydream。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “only”。Only 限定了 daydreaming 的條件：awake。只要條件是 awake，asleep 便被排除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Some people can daydream when asleep.原文命題： We can only daydream if awake."
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “when they are asleep”和原文 “only … if we are awake” 方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文直接排除睡著時 daydream 的可能，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “Some people” 會令人覺得可能有例外。但原文的 only 覆蓋所有人：只有清醒時才可以daydream。看到 only，要立刻檢查題目是否提出了被排除的情況。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some daydreams help us to be more successful in our lives.”",
+      "translation": "有些白日夢能幫助我們在人生中更成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Some daydreams”，所以不需要證明所有 daydreams 都有幫助。核心是 help us 和successful。原文可能用 helpful、work out、best results 來改寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daydreams are not dreams, because we can only daydream if we are awake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白日夢和睡眠中的夢不同，因為只有在清醒時，我們才能 daydream。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We use our imagination to help us understand the world and other people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們運用想像力，幫助自己理解世界和其他人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 2 不只在區分 dreams 和 daydreams，也會說明 imagination的實際功能。題目說 daydreams help us，所以本段很可能藏有答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some daydreams”"
+            },
+            {
+              "kind": "quote",
+              "text": "“help”"
+            },
+            {
+              "kind": "quote",
+              "text": "“successful”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最接近的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“With these, our daydreams often help us to work out what we want to do, or how to do it to get the best results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對於這類白日夢，它們常常幫助我們想清楚自己想做甚麼，或怎樣去做才可以得到最好的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句也很直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, these daydreams are helpful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，這些白日夢是有幫助的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“these” 指前一句 “some daydreams are about things that are likely to happen”。也就是說，有些daydreams 關於可能會發生的事情。這些 daydreams 能幫助我們： work out what we want to do想清楚自己想做甚麼how to do it to get the best results想清楚怎樣做才會有最好的結果題目把 “get the best results” 概括成 “be more successful in our lives”。這個推論距離合理，因為原文說這些 daydreams 能幫助我們做出更有效的行動安排。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Some daydreams”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “some daydreams are about things that are likely to happen”題目 “help us to be more successful”= 原文 “help us to work out… how to do it to get the best results”判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章也說很多 daydreams 是 unlikely to happen。不要只抓住 unlikely 便否定整題。題目說Some daydreams，原文也明確說 some daydreams are about things that are likely to happen，而且這些 daydreams are helpful。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most lorry drivers daydream in their jobs to make them more interesting.”",
+      "translation": "大多數貨車司機在工作中 daydream，以令工作更有趣。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 lorry drivers 是否屬於經常 daydream 的工作者，原因是否是 make work more interesting。定位詞是 lorry drivers、boring jobs、more interesting。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in the 1980s showed that most daydreams are about ordinary, everyday events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1980 年代的研究顯示，大多數白日夢都關於普通的日常事件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this respect, daydreaming is the same as dreaming during sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這方面，白日夢和睡眠中的做夢相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 主要講 research findings。中間會包含 daydreaming 的頻率、工作情境和 brain function。題目提到 lorry drivers，是很具體的職業名詞，應在本段掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lorry drivers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“jobs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“interesting”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also showed that over 75% of workers in so-called ‘boring jobs’, such as lorry drivers and security guards, spend a lot of time daydreaming in order to make their time at work more interesting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究也顯示，在所謂「沉悶工作」中的工作者，例如貨車司機和保安員，有超過 75% 花很多時間daydream，以令工作時間更有趣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主語是 “over 75% of workers in so-called ‘boring jobs’”。這個比例超過 75%，自然可概括為 most。Lorry drivers 是原文列出的 boring jobs 例子之一。目的由 “in order to make their time at work more interesting” 明確說出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Most lorry drivers daydream in their jobs to make them more interesting.原文命題： Over 75% of workers in boring jobs, such as lorry drivers and security guards, spend a lot of time daydreaming to make work time more interesting."
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Most”= 原文 “over 75%”題目 “in their jobs”= 原文 “at work”題目 “to make them more interesting”= 原文 “to make their time at work more interesting”判斷：原文直接支援題目，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最需要留意的是 “workers in boring jobs” 和 “lorry drivers” 的關係。Lorry drivers 是原文列出的例子；題目把例子獨立拿出來。這屬於例子化改寫，方向仍然合理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Factory workers daydream more than lorry drivers.”",
+      "translation": "工廠工人比貨車司機更常 daydream。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是比較題。控制點是 “more than”。只要題目要求 A 比 B 多，原文就必須提供兩者比較。看到 factory workers 和 lorry drivers 都出現，也不能直接判 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 and Paragraph 5 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in the 1980s showed that most daydreams are about ordinary, everyday events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1980 年代的研究顯示，大多數白日夢都關於普通的日常事件。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this respect, daydreaming is the same as dreaming during sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這方面，白日夢和睡眠中的做夢相同。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although there do seem to be many advantages to daydreaming, in many cultures it is considered a bad thing to do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 daydreaming 似乎有很多好處，但在許多文化中，它被看成一件壞事。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therefore, many people decided that there was no benefit in daydreaming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，許多人認為 daydreaming 沒有好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 4 提到 boring jobs，Paragraph 5 提到 factories / assembly lines 的歷史背景。題目把兩種工作者拿來比較，因此需要跨段確認。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Factory workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lorry drivers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more than”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 lorry drivers 出現在 Paragraph 4："
+            },
+            {
+              "kind": "quote",
+              "text": "“over 75% of workers in so-called ‘boring jobs’, such as lorry drivers and security guards…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在所謂沉悶工作中的工作者，例如貨車司機和保安員，有超過 75%……factory / assembly lines 出現在 Paragraph 5："
+            },
+            {
+              "kind": "quote",
+              "text": "“This happened in particular when people started working in factories on assembly lines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況尤其發生在人們開始在工廠流水線工作時。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 給出的是 boring jobs workers 的比例，例子包括 lorry drivers and security guards。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 說在工廠 assembly lines 中，工作很重複，不能有創意，所以當時很多人認為daydreaming 沒有 benefit。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有： lorry drivers daydreaming 的資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "factory assembly lines 和 daydreaming 被看成 lazy / no benefit 的背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少： factory workers daydream 的比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "factory workers 和 lorry drivers 的直接比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "誰 daydream more 的數據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目要求比較關係 “more than”，文章沒有提供比較數據，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的陷阱在於兩類人都與 boring / repetitive work 相關。資訊相關不代表比較成立。IELTS 比較題一定要找比較詞或可直接建立的數據鏈；這裡缺少 factory workers > lorry drivers 的證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Daydreaming helps people to be creative.”",
+      "translation": "Daydreaming 幫助人們變得有創意。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題非常直接，定位詞是 creative。要找文章是否明確說 daydreaming 和 creativity 有正面關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daydreams can help people to be creative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白日夢可以幫助人們變得有創意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, Albert Einstein said that imagination is more important than knowledge because knowledge is limited whereas imagination is not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，Albert Einstein 說 imagination 比 knowledge 更重要，因為 knowledge 是有限的， imagination 則沒有這種限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句已經直接命中題目。這段功能就是說明 daydreaming 如何促進創意，並用不同職業與Einstein quote 支持。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daydreaming”"
+            },
+            {
+              "kind": "quote",
+              "text": "“creative”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daydreams can help people to be creative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白日夢可以幫助人們變得有創意。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文主語是 “Daydreams”，核心動詞是 “can help”，對象是 “people”，結果是 “to be creative”。題目只是把 Daydreams 改成 Daydreaming，意思一致。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“People in creative or artistic careers, such as composers, novelists and filmmakers, develop new ideas through daydreaming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從事創意或藝術職業的人，例如作曲家、小說家和電影製作人，會透過 daydreaming 發展新想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句進一步支援創意功能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Daydreaming helps people to be creative”= 原文 “Daydreams can help people to be creative”判斷：題目和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題雖然有原字重現，但仍要注意 “can help” 的程度。題目沒有說 always helps，也沒有說everyone becomes creative，所以不會超出原文。Can help 和 helps 在這裡方向一致。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Old people daydream more than young people.”",
+      "translation": "老年人比年輕人更常 daydream。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是比較題。控制詞是 old people、young people、more than。要找 age group 之間的daydreaming frequency 比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全文相關段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章提到不同類型的人：everyone、creative people、research scientists、mathematicians、workers in boring jobs、lorry drivers、security guards、factory workers、people prone to escapism。段落地圖沒有任何一段以 age groups 作為主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最可能被誤連的是 Paragraph 4，因為它談 workers；Paragraph 6，因為它談 people who often daydream。但兩段都沒有 old vs young。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“young people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more than”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描全文，沒有找到 old people / young people / age / older / younger 等資訊。文章也沒有把daydreaming 和年齡層比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀資料缺口"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 “Everyone daydreams sometimes”，但 everyone 只表示所有人都有時會 daydream。它沒有把不同年齡層分開，也沒有比較頻率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據是： Old people daydream a lot / more often Young people daydream less或兩者之間有 direct comparison這些資料都沒有出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章沒有提供足夠資料判斷，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要因為 “Everyone daydreams sometimes” 就判 TRUE。Everyone 只能支持「老人和年輕人都可能 daydream」，不能支持「老人更多」。比較題的重點永遠在比較關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People prone to escapism are generally very happy.”",
+      "translation": "容易 escapism 的人通常非常快樂。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要判斷 people prone to escapism 的一般狀態是否 happy。定位詞 escapism 非常強，直接帶到 Paragraph 6。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other people have said that daydreaming leads to ‘escapism’ and that this is not healthy, either.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些人說 daydreaming 會導致 “escapism”，而這也不健康。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, they often do not have any close friends at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他們常常完全沒有親密朋友。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 6 講 daydreaming 的負面面向：escapism、不健康、缺少 close friends。題目問 happiness，本段很可能提供相反證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“prone to escapism”"
+            },
+            {
+              "kind": "quote",
+              "text": "“happy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such people often seem to be unhappy and are unable or unwilling to improve their daily lives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類人常常看起來不快樂，而且不能或不願改善自己的日常生活。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Such people” 指上一句的 “People prone to escapism”。原文說他們 often seem to be unhappy，題目說 generally very happy。兩者方向明顯相反。題目命題： People prone to escapism are generally very happy.原文命題： Such people often seem to be unhappy."
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “generally very happy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對不上原文 “often seem to be unhappy”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目可能利用 dream world 中的 successful and popular 製造干擾。Escapism 的幻想世界裡，他們可能想像自己成功和受歡迎；原文對他們現實狀態的評價是 unhappy。因此要分清幻想內容和現實狀態。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "develop new ideas",
+      "answerKey": "develop new ideas",
+      "type": "Sentence Completion",
+      "prompt": "“Writers, artists and other creative people use daydreaming to 9 _________________”",
+      "translation": "作家、藝術家和其他 creative people 使用 daydreaming 去 9 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “to” 後面，需要填動詞短語。題目中的 writers, artists and creative people 對應文章中的composers, novelists, filmmakers 和 creative or artistic careers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daydreams can help people to be creative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白日夢可以幫助人們變得有創意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, Albert Einstein said that imagination is more important than knowledge because knowledge is limited whereas imagination is not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，Albert Einstein 說 imagination 比 knowledge 更重要，因為 knowledge 有限， imagination 無限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會說明 imagination / daydreaming 和 creativity 的關係。題目正問creative people 用 daydreaming 做甚麼，因此 Paragraph 3 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Writers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“artists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“creative people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“use daydreaming to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People in creative or artistic careers, such as composers, novelists and filmmakers, develop new ideas through daydreaming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從事創意或藝術職業的人，例如作曲家、小說家和電影製作人，會透過 daydreaming 發展新想法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Writers, artists and other creative people” 是對原文 “People in creative or artistic careers” 的概括。Novelists 對應 writers；composers 和 filmmakers 屬於 creative / artistic careers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “through daydreaming” 被題目改成 “use daydreaming to”。空格要接在 to 後面，所以答案需要動詞短語：develop new ideas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案格式檢查： develop new ideas = 3 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 develop new ideas。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "problem-solving",
+      "answerKey": "problem-solving",
+      "type": "Sentence Completion",
+      "prompt": "“The areas of the brain used in daydreaming are also used for complicated 10_________________”",
+      "translation": "daydreaming 時使用的腦部區域，也用於複雜的 10 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “complicated”，所以答案應該是名詞或名詞短語。題目中的 complicated 很可能改寫原文的 complex。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in the 1980s showed that most daydreams are about ordinary, everyday events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1980 年代的研究顯示，大多數白日夢都關於普通的日常事件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this respect, daydreaming is the same as dreaming during sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這方面，白日夢和睡眠中的做夢相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段是研究結果段。題目講 brain areas，應該在本段後半的 brain scan research 中找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“complicated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“areas”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experiments with MRI brain scans show that the parts of the brain linked with complex problem-solving are more active during daydreaming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MRI brain scans 的實驗顯示，與 complex problem-solving 相關的腦部區域在 daydreaming 時更加活躍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “areas of the brain used in daydreaming” 對應原文 “parts of the brain … are more active during daydreaming”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “complicated” 對應原文 “complex”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格要填 “problem-solving”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案格式檢查： problem-solving 是一個 hyphenated word，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要填 “complex problem-solving”，因為題目已有 “complicated”，再填 complex 會重複意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 problem-solving。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "C — often about things that we would like to happen.",
+      "answerKey": "C — often about things that we would like to happen.",
+      "type": "Multiple Choice",
+      "prompt": "“Daydreams are…”",
+      "translation": "Daydreams 是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 daydreams 的基本特徵，最可能定位到 Paragraph 1 和Paragraph 2。要找 daydreams 的常見內容，而非夢境定義。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everyone daydreams sometimes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個人有時都會 daydream。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We might daydream that we are in another person’s place, or doing something that we have always wanted to do, or that other people like or admire us much more than they normally do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可能會想像自己在另一個人的位置，或正在做自己一直想做的事，又或者想像別人比平常更喜歡或欣賞我們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 1 介紹 daydreaming 的普遍性和常見內容。題目問Daydreams are…，這段最適合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daydreams are”"
+            },
+            {
+              "kind": "quote",
+              "text": "“would like to happen”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most daydreaming is pleasant. We would like the daydream to happen and we would be very happy if it did actually happen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數 daydreaming 是愉快的。我們希望白日夢中的事情真的發生；如果它真的發生，我們會非常高興。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A dreams that we have when we fall asleep during the day.錯。Paragraph 2 說 “we can only daydream if we are awake”。白日夢發生在清醒時，不是睡著後的夢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B about things that happened that make us sad.錯。Paragraph 1 說 “Most daydreaming is pleasant”，而且我們希望它發生。題目選項中的 sad和原文 pleasant 方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C often about things that we would like to happen.正確。原文 “We would like the daydream to happen” 直接支援 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D activities that only a few people are able to do.錯。文章開頭說 “Everyone daydreams sometimes”，所以 daydreaming 很普遍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C “things that we would like to happen”= 原文 “We would like the daydream to happen”所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 利用 day + dreams 製造字面誤會。Daydreams 不是 day time sleep dreams；Paragraph 2 明確說 daydreaming 只在 awake 時發生。遇到術語題，要看文章給出的定義，不要只拆字面意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — a way of avoiding work.",
+      "answerKey": "B — a way of avoiding work.",
+      "type": "Multiple Choice",
+      "prompt": "“In the nineteenth century, many people believed that daydreaming was…”",
+      "translation": "十九世紀時，許多人認為 daydreaming 是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。定位詞很明確：nineteenth century。題目問當時 many people 的看法，要看 Paragraph 5。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although there do seem to be many advantages to daydreaming, in many cultures it is considered a bad thing to do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 daydreaming 似乎有很多好處，但在許多文化中，它被看成一件壞事。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therefore, many people decided that there was no benefit in daydreaming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，許多人認為 daydreaming 沒有好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段講 daydreaming 的負面評價。題目有 “nineteenth century”，中間很可能有具體時代例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“nineteenth century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“believed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 19th century, for example, people who daydreamed a lot were judged to be lazy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如在十九世紀，經常 daydream 的人會被評為懶惰。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句也很重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“One reason for this is that when you are daydreaming, you are not working.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個原因是，當你 daydream 時，你沒有在工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A helpful in factory work.錯。原文說 assembly line work repetitive，cannot be creative，很多人認為 daydreaming 沒有benefit。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B a way of avoiding work.正確。原文說 daydreaming 時 “you are not working”，且 daydreamers were judged to be lazy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lazy 的判斷和 avoiding work 的意思相近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C something that few people did.錯。文章沒有說十九世紀少數人才 daydream；全文開頭還說 everyone daydreams sometimes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D a healthy activity.錯。Paragraph 5 說許多文化 considered it a bad thing，Paragraph 6 又說 escapism is not healthy。D 和原文態度不合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 B “a way of avoiding work”= 原文 “when you are daydreaming, you are not working”= 原文 “were judged to be lazy”所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 會吸引人，因為原文提到 factories and assembly lines。但該段提 factories 的作用，是解釋為何人們覺得 daydreaming 無益。選項 A 把語境反轉了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "D — do not have as many friends as other people.",
+      "answerKey": "D — do not have as many friends as other people.",
+      "type": "Multiple Choice",
+      "prompt": "“People who daydream a lot…”",
+      "translation": "經常 daydream 的人……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 frequent daydreamers 的特徵，定位詞是 daydream a lot。要看Paragraph 6 末段關於 close friends 的研究。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other people have said that daydreaming leads to ‘escapism’ and that this is not healthy, either.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些人說 daydreaming 會導致 escapism，而這也不健康。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, they often do not have any close friends at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他們常常完全沒有親密朋友。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 daydreaming 的負面後果，包括 escapism 和 friendship problems。題目問 people who daydream a lot，這段最貼近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“daydream a lot”"
+            },
+            {
+              "kind": "quote",
+              "text": "“friends”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, recent studies show that people who often daydream have fewer close friends than other people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "確實，近期研究顯示，經常 daydream 的人比其他人有較少 close friends。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, they often do not have any close friends at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他們常常完全沒有任何親密朋友。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A usually have creative jobs.錯。Paragraph 3 說 creative people may develop ideas through daydreaming，但沒有說經常daydream 的人通常都有 creative jobs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B are much happier than other people.錯。Paragraph 6 說 escapism-prone people often seem to be unhappy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C are less intelligent than other people.錯。文章沒有比較 intelligence。Paragraph 3 還提到 scientists and mathematicians 可透過imagination 發展想法，但這也不能推出 frequent daydreamers 更聰明或較不聰明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D do not have as many friends as other people.正確。原文 “have fewer close friends than other people” 直接支援 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 D “do not have as many friends as other people”= 原文 “have fewer close friends than other people”所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 利用了 Paragraph 3 的 creative careers。原文只說 creative people can use daydreaming to develop ideas；題目問的是 people who daydream a lot 的普遍特徵。兩者主體不同。真正答案在recent studies about close friends。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Daydreaming.pdf",
+    "sha256": "5463f7323607a48130edf39f40c5ea272cc77ae3a24192a4861faaf0d8b24190",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句 “Everyone daydreams sometimes.” 和末句 “We might daydream…” 可以看到本段是白日夢的基本介紹。它說每個人有時都會 daydream，通常是坐下或躺下、閉上眼，用 imagination想像將來可能發生，或過去本來可能發生的事。末句列出常見內容：想像自己在別人的位置、做一直想做的事、被別人更喜歡或更欣賞。這段很適合回答「daydreams 通常關於甚麼」和「人們甚麼狀態下 daydream」。"
+      },
+      {
+        "number": "2",
+        "summary": "首句 “Daydreams are not dreams…” 直接區分 daydreams 和 dreams；末句說我們用imagination 幫助自己理解世界和他人。本段功能是解釋 daydream 的特徵和實際用途：白日夢發生在清醒時，而且內容通常可由自己選擇。部分 daydream 不太可能成真；另一些則和可能發生的事情有關，能幫助我們想清楚想做甚麼，以及怎樣做才有較好結果。這段很適合處理 awake、asleep、helpful、best results 一類題目。"
+      },
+      {
+        "number": "3",
+        "summary": "首句 “Daydreams can help people to be creative.” 已經直接點出本段主題：白日夢和創意的關係。末句引用 Einstein，說 imagination 比 knowledge 更重要，因為 knowledge 有限，imagination無限。本段功能是舉 creative or artistic careers 為例，例如 composers、novelists、filmmakers，也把 research scientists 和 mathematicians 包括進來。這段很適合回答「daydreaming 是否幫助creativity」和「creative people 如何使用 daydreaming」。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 1980s 的研究發現，多數 daydreams 關於 ordinary, everyday events；末句說在這方面， daydreaming 和睡眠中的 dreaming 相同。本段功能是介紹研究發現：很多 boring jobs 的工作者，例如 lorry drivers 和 security guards，會用 daydreaming 令工作時間更有趣。後半段轉向 brain research，MRI 顯示和 complex problem-solving 相關的腦區在 daydreaming 時更活躍，也指出daydreaming 可幫助 brain consolidates learning。"
+      },
+      {
+        "number": "5",
+        "summary": "首句以 Although 開始，承認 daydreaming 有好處，但很多文化仍把它看成壞事；末句說許多人因此認為 daydreaming 沒有 benefit。本段功能是介紹負面看法的歷史原因：daydreaming 時人沒有工作，因此 19th century 的人常把 daydreamers 視作 lazy。工廠 assembly lines 的工作重複、固定、缺乏創意空間，令許多人覺得 daydreaming 對工作沒有幫助。本段很適合處理 lazy、factory、work avoidance 題。"
+      },
+      {
+        "number": "6",
+        "summary": "首句引出另一個批評：daydreaming 會導致 escapism，而且這也不健康；末句說經常 daydream的人有較少 close friends，甚至完全沒有 close friends。本段功能是說明 daydreaming 的另一面：若人長時間活在成功、受歡迎的幻想世界中，卻不處理真實生活問題，便可能與 escapism 有關。這些人往往看起來不快樂，也不願或不能改善日常生活。本段很適合回答 escapism、happiness、friendship 題。 Answer Key Questio Answer n 1 FALSE 2 FALSE 3 TRUE 4 TRUE 5 NOT GIVEN 6 TRUE 7 NOT GIVEN 8 FALSE 9 develop new ideas 10 problem-solving 11 C 12 B 13 D"
+      }
+    ]
+  }
+}

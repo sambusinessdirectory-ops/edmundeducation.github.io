@@ -1,0 +1,1833 @@
+{
+  "id": "p1-069-albert-einstein",
+  "catalogueId": "p1-069",
+  "catalogueIds": [
+    "p1-069"
+  ],
+  "passage": 1,
+  "title": "ALBERT EINSTEIN",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "pointed north",
+    "on his own",
+    "B",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The general theory of relativity is a very important theory in modern physics.”",
+      "translation": "廣義相對論是現代物理學中非常重要的理論。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 general theory of relativity 是否非常重要。題目核心是 “general theory of relativity”和 “very important”。目標應放在介紹 Einstein 科學成就的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Albert Einstein is perhaps the best-known scientist of the 20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Albert Einstein 可能是 20 世紀最著名的科學家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His family was Jewish, but he was not very religious in his youth, although he became very interested in Judaism later in life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的家庭是猶太家庭，但他年輕時宗教感不強，雖然後來對猶太教產生濃厚興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會總覽 Einstein 的身份、成就和背景。題目問 relativity 的重要性，所以要在本段前半找理論相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “general theory of relativity”。原文使用的表達是 “special and general relativity”。掃描 Paragraph 1，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“He received the Nobel Prize in Physics in 1921 and his theories of special and general relativity are of great importance to many branches of physics and astronomy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他於 1921 年獲得諾貝爾物理學獎，而他的狹義和廣義相對論對物理學和天文學的許多分支都非常重要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文主語是 “his theories of special and general relativity”，核心描述是 “are of great importance”。題目只取其中的 general relativity，說它是 “very important”。原文說它對 many branches of physics and astronomy 有 great importance，範圍甚至比題目更具體。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：very important"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：of great importance"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：modern physics"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：many branches of physics and astronomy判斷題目與原文同向，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要因為原文同時提到 special and general relativity，就懷疑題目只講 general relativity 不成立。原文把兩者一起說成 very important，general relativity 包含在其中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Einstein had such difficulty with language that those around him thought he would never learn how to speak.”",
+      "translation": "Einstein 在語言方面有很大困難，以至於身邊的人以為他永遠不會學會說話。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Einstein 小時候的 speaking difficulty 是否嚴重到令家人擔心他永遠不會說話。定位詞是 “difficulty with language” 和 “never learn how to speak”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is well documented that Einstein did not begin speaking until after the age of three.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有充分記錄顯示，Einstein 三歲後才開始說話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And this is how Einstein became interested in studying science and mathematics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 Einstein 開始對科學和數學產生興趣的方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接帶出 speaking，所以 Paragraph 2 是目標段落。本段由語言發展遲緩，轉到compass 如何啟發科學興趣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “difficulty” 對應原文 “found speaking so difficult”。“those around him” 對應 “his family”。“would never learn how to speak” 對應 “would never start to speak”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, he found speaking so difficult that his family were worried that he would never start to speak.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他覺得說話非常困難，以至於他的家人擔心他永遠不會開始說話。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 he，核心短語是 “found speaking so difficult”。結果是 “his family were worried”。擔心的內容是 “he would never start to speak”。題目的 “those around him” 是對 family 的概括；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“learn how to speak” 是對 start to speak 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "difficulty with language = found speaking so difficult those around him = his family thought / worried = were worried would never learn how to speak = would never start to speak判斷原文完整支援題目，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It seemed to Einstein that nothing could be pushing the needle of the compass around except the wind.”",
+      "translation": "在 Einstein 看來，除了風之外，似乎沒有任何東西能推動羅盤指針轉動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Einstein 對 compass needle 的理解。控制詞是 “except the wind”。題目說 wind 可能是唯一外力；原文要看是否包含或排除了 wind。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is well documented that Einstein did not begin speaking until after the age of three.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有充分記錄顯示，Einstein 三歲後才開始說話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And this is how Einstein became interested in studying science and mathematics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 Einstein 開始對科學和數學產生興趣的方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中後半講 compass，是題目最可能所在位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “needle”, “compass”, “wind”。原文直接有 “needle”, “compass” 和 “wind”："
+            },
+            {
+              "kind": "quote",
+              "text": "“It looked as if the needle was moving by itself. But the needle was inside a closed case, so no other force (such as the wind) could have been moving it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看起來好像指針是自己在移動。但指針在一個封閉盒子裡，所以沒有其他力量，例如風，可以推動它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “no other force (such as the wind) could have been moving it”。這句明確把 wind 作為不能推動指針的例子。題目說 “nothing could be pushing ... except the wind”，意思是風可能是例外，可能在推動它。這和原文方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：except the wind"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：no other force, such as the wind, could have been moving it判斷原文排除了 wind；題目把 wind 放成可能的例外。兩者衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易被 “wind” 原字吸引。看到原字只代表位置正確，最終要看 wind 在句中扮演甚麼角色。這裡 wind 是被排除的外力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Einstein enjoyed the teaching methods in Switzerland.”",
+      "translation": "Einstein 喜歡瑞士的教學方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Einstein 對 Switzerland 教學的態度。控制詞是 “enjoyed”。如果原文說他不喜歡那裡的 teaching，答案就會是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, he was so clever that at the age of 12 he taught himself Euclidean geometry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他非常聰明，12 歲時自學了歐幾里得幾何。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While he was working there, he wrote the papers that first made him famous as a great scientist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在那裡工作期間，寫出了最早使他以偉大科學家身份成名的論文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段介紹學習經歷、學校、考試、老師評價和 patent office 工作，與 teaching methods 直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “Switzerland” 對應原文 “Aarau, Switzerland” 和 “Swiss Federal Institute of Technology in Zurich”。題目中的 “enjoyed” 可預期在原文中以 like / did not like / found boring 出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He finished secondary school in Aarau, Switzerland and entered the Swiss Federal Institute of Technology in Zurich from which he graduated in 1900. But Einstein did not like the teaching there either.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在瑞士 Aarau 完成中學，並進入 Zurich 的 Swiss Federal Institute of Technology，於 1900 年畢業。但 Einstein 也不喜歡那裡的教學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“there” 指 Swiss Federal Institute of Technology in Zurich。原文使用 “did not like”，題目使用“enjoyed”。兩者方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：enjoyed the teaching methods"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：did not like the teaching there either判斷原文清楚否定喜歡，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "前文說他 successfully graduated，容易令人以為他適應學校。可是畢業不等於喜歡教學。真正控制答案的是 “did not like”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Einstein taught himself how to play the violin.”",
+      "translation": "Einstein 自學拉小提琴。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 “taught himself violin” 是否有原文支援。文章確實提到 violin，但要看它是否說明學習方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, he was so clever that at the age of 12 he taught himself Euclidean geometry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他非常聰明，12 歲時自學了歐幾里得幾何。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While he was working there, he wrote the papers that first made him famous as a great scientist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在那裡工作期間，寫出了最早使他以偉大科學家身份成名的論文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句出現 “taught himself”，本段中間又有 “play the violin”，很容易產生混淆。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “taught himself” 和 “violin”。原文有兩個相鄰但不同的資訊："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, he was so clever that at the age of 12 he taught himself Euclidean geometry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他非常聰明，12 歲時自學了歐幾里得幾何。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“He often missed classes and used the time to study physics on his own or to play the violin instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他經常缺課，並把時間用來自己學物理，或去拉小提琴。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說他 “play the violin”，也說他 “study physics on his own”。“on his own” 在句中直接修飾study physics，不足以證明他自學 violin。文章也沒有說他如何學會拉小提琴、是否有人教他，或他是否自學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Einstein動作：taught himself對象：how to play the violin原文提供他自學 Euclidean geometry；他自己學 physics；他有 play the violin。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少的核心資料是：violin 的學習方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文沒有足夠資料判斷他是否自學 violin，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題把同段三個相近元素拼在一起：taught himself、on his own、violin。要小心修飾關係：taught himself 修飾 geometry，on his own 修飾 physics，沒有修飾 violin。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“His daughter died of schizophrenia when she was two.”",
+      "translation": "他的女兒兩歲時死於 schizophrenia。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷女兒的死亡原因和年齡。題目把 daughter、died at two、schizophrenia 放在一起，要細讀 Paragraph 4 中兩名孩子的資訊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two of Einstein’s children with his first wife, Mileva, had serious health conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Einstein 與第一任妻子 Mileva 的兩名孩子有嚴重健康問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He spent decades in hospitals and died in Zurich in 1965.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在醫院中度過數十年，並於 1965 年在 Zurich 去世。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段講兩名孩子的健康問題。尾句的 “He” 指兒子 Eduard，所以要分清 daughter 和son。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “daughter”, “schizophrenia”, “two”。原文中三個概念都出現，但分屬不同人物或不同資訊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關於女兒："
+            },
+            {
+              "kind": "quote",
+              "text": "“His daughter (whose name we do not know) was born in January 1902, about a year before their marriage. She was looked after by her Serbian grandparents until she died at the age of two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的女兒（我們不知道她的名字）於 1902 年 1 月出生，大約在他們結婚前一年。她由塞爾維亞祖父母照顧，直到兩歲時去世。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is generally believed that she died from scarlet fever but there are those who believe that she may have suffered from a disorder known as Down syndrome.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般認為她死於 scarlet fever，但也有人認為她可能患有 Down syndrome。"
+            },
+            {
+              "kind": "label",
+              "text": "關於 schizophrenia："
+            },
+            {
+              "kind": "quote",
+              "text": "“Einstein and Mileva’s son, Eduard, was diagnosed with schizophrenia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Einstein 和 Mileva 的兒子 Eduard 被診斷出 schizophrenia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兒子的 schizophrenia 放到女兒身上，關係錯置。女兒的死亡原因在原文中是 scarlet fever的一般看法，另有 Down syndrome 的不確定推測；schizophrenia 屬於兒子 Eduard。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目與原文衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本題最易中伏的位置是 Paragraph 4 連續提到 daughter 和 son。讀到 schizophrenia 時，要回頭確認主語是 Eduard，並非前面的 daughter。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The existence of a daughter only became known to the world between 1897 and 1903.”",
+      "translation": "女兒的存在只是在 1897 至 1903 年之間才為世人所知。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷女兒存在被發現的時間。控制詞是 “became known” 和 “between 1897 and 1903”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要看原文中這段年份修飾哪件事。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two of Einstein’s children with his first wife, Mileva, had serious health conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Einstein 與第一任妻子 Mileva 的兩名孩子有嚴重健康問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He spent decades in hospitals and died in Zurich in 1965.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在醫院中度過數十年，並於 1965 年在 Zurich 去世。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段是子女資訊段，女兒是否存在、如何被知道，必然在這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “daughter”, “known”, “1897 and 1903”。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, no one even knew that she had existed until Einstein’s granddaughter found 54 love letters that Einstein and Mileva had written to each other between 1897 and 1903.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，甚至沒有人知道她曾經存在，直到 Einstein 的孫女發現了 Einstein 和 Mileva 在 1897至 1903 年之間互相寫的 54 封情書。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子的主幹是 “no one even knew ... until Einstein’s granddaughter found 54 love letters”。也就是說，女兒存在被知道，是因為 granddaughter later found the letters。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“between 1897 and 1903” 在語法上修飾 “had written to each other”，意思是那些 love letters 是在 1897–1903 年間寫的。這個年份並沒有修飾 “found”，也沒有表示女兒存在於那段時間被公開知道。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：existence became known between 1897 and 1903"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：letters were written between 1897 and 1903; existence became known when granddaughter found them判斷題目把寫信時間錯放成發現時間，和原文的語法關係相衝，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 1897–1903 很容易直接抄去判斷時間題。遇到年份，必須問：這個年份修飾哪個動作？本句中它修飾 wrote letters，不修飾 became known。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In 1933, Einstein moved to the United States where he became an American citizen.”",
+      "translation": "1933 年，Einstein 移居美國，並在那裡成為美國公民。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題包含兩個命題：第一，1933 年 Einstein moved to the United States；第二，他 became an American citizen。兩部分都要有原文支援，整句才可判 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句 / 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just before the start of World War I, Einstein moved back to Germany and became director of a school there. But in 1933, following death threats from the Nazis, he moved to the United States, where he died on 18 April 1955.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一次世界大戰開始前不久，Einstein 搬回 Germany，並成為那裡一所學校的校長。但在 1933年，因 Nazis 的死亡威脅，他移居 United States，並於 1955 年 4 月 18 日在那裡去世。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段直接講 1933、United States 和 death，但未必有 citizenship。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “1933”, “United States”, “American citizen”。原文有 1933 和 United States，但沒有 citizen / citizenship。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文支援第一部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in 1933, following death threats from the Nazis, he moved to the United States...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在 1933 年，因 Nazis 的死亡威脅，他移居美國。"
+            },
+            {
+              "kind": "label",
+              "text": "原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“where he died on 18 April 1955.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他於 1955 年 4 月 18 日在那裡去世。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供 moved to the United States 和 died there。它沒有說他成為 American citizen，也沒有說他沒有成為 American citizen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目加入 citizenship 這個核心資料，文章沒有交代，因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要用常識補答案。即使讀者知道 Einstein 後來與美國有長期關係，這一題只能用文章提供的句子判斷。原文支援移居美國，不支援成為美國公民。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "pointed north",
+      "answerKey": "pointed north",
+      "type": "Sentence Completion",
+      "prompt": "“He tried hard to understand how the needle could seem to move by itself so that it always 9_________________.”",
+      "translation": "他努力想理解指針為何看似自己移動，並且總是 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “it always”，後面需要動詞短語。題目限制是 NO MORE THAN THREE WORDS。定位詞是 “needle”, “move by itself”, “always”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is well documented that Einstein did not begin speaking until after the age of three.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有充分記錄顯示，Einstein 三歲後才開始說話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And this is how Einstein became interested in studying science and mathematics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 Einstein 開始對科學和數學產生興趣的方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段中間講 magnetic compass，所以是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “needle” 和 “always” 直接帶到原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“He wanted to understand why the needle always pointed north whichever way he turned the compass.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他想明白為甚麼無論他怎樣轉動羅盤，指針總是指向北方。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文 “why the needle always pointed north” 改寫成 “how the needle could seem to move by itself so that it always...” 空格要填指針最終呈現的動作。原文答案短語是 “pointed north”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "needle could seem to move by itself = It looked as if the needle was moving by itself always ___ = always pointed north答案形式pointed north 是兩個字，符合 NO MORE THAN THREE WORDS；放入句子後文法完整：it always pointed north。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "on his own",
+      "answerKey": "on his own",
+      "type": "Sentence Completion",
+      "prompt": "“He often did not go to classes and used the time to study physics 10 _________________ or to play music.”",
+      "translation": "他經常不上課，並把時間用來 ____________ 學物理，或去演奏音樂。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 “study physics ___” 後，需要副詞短語，說明他如何學物理。字數限制是 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, he was so clever that at the age of 12 he taught himself Euclidean geometry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他非常聰明，12 歲時自學了歐幾里得幾何。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While he was working there, he wrote the papers that first made him famous as a great scientist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在那裡工作期間，寫出了最早使他以偉大科學家身份成名的論文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段講學校、學習方式、缺課和自學，所以是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “often did not go to classes” 對應原文 “often missed classes”。“play music” 對應 “play the violin”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He often missed classes and used the time to study physics on his own or to play the violin instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他經常缺課，並把時間用來自己學物理，或去拉小提琴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “missed classes” 改成 “did not go to classes”，把 “play the violin” 概括成 “play music”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格問 study physics 的方式，所以答案是 “on his own”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "often did not go to classes = often missed classes play music = play the violin study physics ___ = study physics on his own答案形式on his own 是三個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — is a mystery",
+      "answerKey": "B — is a mystery",
+      "type": "Multiple Choice",
+      "prompt": "“The name of Einstein’s daughter...”",
+      "translation": "Einstein 女兒的名字……選項： A was not chosen by him. B is a mystery. C is shared by his granddaughter. D was discovered in a shoebox.",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Einstein 女兒的名字。定位詞是 “daughter” 和 “name”。要找原文是否提供女兒姓名，或說明姓名未知。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two of Einstein’s children with his first wife, Mileva, had serious health conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Einstein 與第一任妻子 Mileva 的兩名孩子有嚴重健康問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He spent decades in hospitals and died in Zurich in 1965.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在醫院中度過數十年，並於 1965 年在 Zurich 去世。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段有女兒和兒子的資料，題目問女兒姓名，定位在本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“His daughter (whose name we do not know) was born in January 1902, about a year before their marriage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的女兒（我們不知道她的名字）於 1902 年 1 月出生，大約在他們結婚前一年。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵短語是 “whose name we do not know”。這表示文章沒有提供她的名字，並指出這個名字未知。選項 B “is a mystery” 正是對 “we do not know” 的自然概括。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “was not chosen by him”：原文沒有說名字是否由 Einstein 選擇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “is a mystery”：正確，對應 “whose name we do not know”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “is shared by his granddaughter”：原文沒有說女兒和孫女同名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “was discovered in a shoebox”：shoebox 裡發現的是 love letters，不是名字。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很吸引，因為原文真的有 shoebox。但原文說 “She found these letters inside a shoebox”，被發現的是 letters。題目問 name，不能把發現物件換成姓名。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A — they did not think highly of him",
+      "answerKey": "A — they did not think highly of him",
+      "type": "Multiple Choice",
+      "prompt": "“His teachers would not recommend him for a university position because...”",
+      "translation": "他的老師不願推薦他擔任大學職位，原因是……選項： A they did not think highly of him. B they thought he was a Nazi. C his wife was Serbian. D he seldom skipped classes.",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問原因。定位詞是 “teachers”, “recommend”, “university position”。要找老師為甚麼 refused to recommend him。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, he was so clever that at the age of 12 he taught himself Euclidean geometry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他非常聰明，12 歲時自學了歐幾里得幾何。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While he was working there, he wrote the papers that first made him famous as a great scientist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在那裡工作期間，寫出了最早使他以偉大科學家身份成名的論文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段從學習、學校態度講到求職不順，teachers 和 university position 都在這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His teachers did not have a good opinion of him and refused to recommend him for a university position.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的老師對他評價不佳，並拒絕推薦他擔任大學職位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中，“did not have a good opinion of him” 是原因；“refused to recommend him for a university position” 是結果。選項 A “they did not think highly of him” 是對 “did not have a good opinion of him” 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。did not think highly of him = did not have a good opinion of him。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。Nazis 出現在 Paragraph 5，與老師推薦大學職位無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。Serbian grandparents 在 Paragraph 4 出現，與老師評價無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。原文說 “He often missed classes”，不是 seldom skipped classes；而且這不是選項 A 那句直接給出的原因。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 使用了 classes 這個同段概念，但方向相反。原文是 often missed classes；選項說 seldom skipped classes，程度詞已經不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B — Jewish origin",
+      "answerKey": "B — Jewish origin",
+      "type": "Multiple Choice",
+      "prompt": "“The famous physicist Albert Einstein was of...”",
+      "translation": "著名物理學家 Albert Einstein 是……出身。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A Swiss origin. B Jewish origin. C American origin. D Austrian origin."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Einstein 的 origin。要看文章如何交代家庭背景，而不只看他出生、讀書或移居地。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Albert Einstein is perhaps the best-known scientist of the 20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Albert Einstein 可能是 20 世紀最著名的科學家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His family was Jewish, but he was not very religious in his youth, although he became very interested in Judaism later in life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的家庭是猶太家庭，但他年輕時宗教感不強，雖然後來對猶太教產生濃厚興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段同時介紹科學身份和家庭宗教背景，所以 Q13 的答案在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “origin”。原文未必使用 origin，但會用 “was born in” 和 “family was”。要同時檢查birthplace 和 family background。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩句相關資訊："
+            },
+            {
+              "kind": "quote",
+              "text": "“Einstein was born in Württemberg, Germany, on 14 March 1879.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Einstein 於 1879 年 3 月 14 日出生在 Germany 的 Württemberg。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“His family was Jewish...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的家庭是猶太家庭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中沒有 German origin，只有 Swiss, Jewish, American, Austrian。文章明確提供 Jewish family background，所以最合適答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Swiss origin：他在 Switzerland 讀書和工作過，但文章沒有說他是 Swiss origin。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Jewish origin：正確，對應 “His family was Jewish”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C American origin：他 1933 年搬到 United States，並在那裡去世；移居地不等於 origin。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Austrian origin：文章沒有提到 Austrian origin。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 和 C 都有地點干擾。Switzerland 與 United States 都是 Einstein 人生中的重要地點，但題目問origin。原文能直接支援的出身背景是 Jewish family。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - ALBERT EINSTEIN.pdf",
+    "sha256": "4de309428c7ac08ed40f771bdc4205666d68f89fc87ee4e852f5334bbf332dca",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句介紹 Albert Einstein 可能是 20 世紀最著名的科學家，並提到他在 1921 年獲得 Nobel Prize in Physics。尾句補充他的家庭是 Jewish，但他年輕時宗教感不強，後來才對 Judaism 產生濃厚興趣。只看首尾句，可以先判斷本段是人物總覽：介紹 Einstein 的科學地位、主要理論、出生地和家庭背景。這段會支援有關 relativity、Jewish origin 和整體身份的題目。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Einstein 三歲後才開始說話，這件事有充分記錄。尾句說他因為 compass 的針總是指北，開始對 science and mathematics 感興趣。只看首尾句，可以判斷本段講他的童年特徵和科學興趣來源。中間的 speaking difficulty、family worried、magnetic compass、needle pointed north、closed case 等資訊，會支援語言發展和羅盤題。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Einstein 很聰明，12 歲時自學 Euclidean geometry。尾句說他在 patent office 工作期間寫出使他成名的科學論文。只看首尾句，可以估計本段會講他的教育經歷、學習方式和早期職涯。中間提到 Munich、Aarau、Swiss Federal Institute、missed classes、studied physics on his own、played violin，以及 teachers refused to recommend him，都是本段的重要定位點。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Einstein 和第一任妻子 Mileva 的兩名孩子有嚴重健康問題。尾句說兒子 Eduard 被診斷出 schizophrenia，長年住院，並於 1965 年在 Zurich 去世。只看首尾句，可以判斷本段集中處理Einstein 家庭中的子女資訊，尤其是女兒的身世、死亡原因的不確定性、love letters 的發現，以及兒子的精神疾病。這段會支援女兒姓名、死亡原因和 schizophrenia 題。"
+      },
+      {
+        "number": "5",
+        "summary": "這段只有一句，說 Einstein 在 World War I 前夕搬回 Germany，後來因 Nazis 的死亡威脅，在1933 年移居 United States，並於 1955 年 4 月 18 日去世。只看這一句，可以判斷本段功能是簡短交代他晚年的地點變化和死亡資訊。這段能回答 moved to the United States 和 died there，但沒有提供 citizenship 資料。"
+      }
+    ]
+  }
+}

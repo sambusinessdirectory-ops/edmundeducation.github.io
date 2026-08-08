@@ -1,0 +1,1911 @@
+{
+  "id": "p1-115-geoff-brash",
+  "catalogueId": "p1-115",
+  "catalogueIds": [
+    "p1-115"
+  ],
+  "passage": 1,
+  "title": "Geoff Brash",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "share scheme",
+    "Roland group",
+    "trade fair",
+    "jazz",
+    "1998",
+    "education",
+    "technology",
+    "branches"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Brash business originally sold pianos.”",
+      "translation": "Brash 這盤生意最初售賣鋼琴。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Brash business 的原始業務是否是 pianos。題目中的控制詞是 “originally”，所以不能只看 Geoff Brash 後來賣甚麼產品，要回到家族生意的起源。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born in Melbourne to Elsa and Alfred Brash, he was educated at Scotch College.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他出生於 Melbourne，父母是 Elsa 和 Alfred Brash，並在 Scotch College 接受教育。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It carried the slogan ‘A home is not a home without a piano.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這盤生意的標語是：「沒有鋼琴的家，不算真正的家。」只看首尾句，可以先猜 Paragraph 2 在交代 Geoff 的家庭背景和家族音樂生意，尾句直接出現piano，因此很可能回答 Q1。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Brash business”, “originally”, “pianos”。掃描 Paragraph 2，可以找到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the Brash retail music business”, “founded in 1862”, “specialising in pianos”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“His father, Alfred, ran the Brash retail music business that had been founded in 1862 by his grandfather, the German immigrant Marcus Brasch, specialising in pianos.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的父親 Alfred 經營 Brash 音樂零售生意；這盤生意由他的祖父、德國移民 Marcus Brasch 於1862 年創立，專門售賣鋼琴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 “the Brash retail music business”。“had been founded in 1862 by his grandfather”交代起源；“specialising in pianos” 說明當時的專門產品。題目說 originally sold pianos，正好概括founded in 1862 和 specialising in pianos。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：originally sold pianos"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：founded in 1862 ... specialising in pianos"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：The Brash business"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：the Brash retail music business判斷原文清楚支持題目，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "後文提到 washing machines、refrigerators、electric guitars 和 modern audio equipment，容易令人覺得 Brash’s 業務很廣。不過 Q1 的控制詞是 “originally”，答案要回到 Paragraph 2 的家族生意起點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Geoff Brash’s first job was with his grandfather’s company.”",
+      "translation": "Geoff Brash 的第一份工作是在他祖父創立的公司。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 first job 是否在家族公司。控制詞是 “first job”。只要原文提供他加入家族公司之前曾在其他地方工作，就會和題目衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a young man, Brash enjoyed the good life, playing golf and sailing, and spending some months travelling through Europe on a leisurely holiday.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕時，Brash 享受優渥生活，打高爾夫球、航海，並花了數月在歐洲悠閒旅行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After initially complaining about his extravagance, his father grew to accept the change and gave his son increasing responsibility in the business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父親起初抱怨他花費奢侈，但後來接受了這個改變，並逐漸給兒子更多公司責任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 3 會講他年輕時期和加入家族生意初期的情況，因此適合定位 Q2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的高價值詞是 “first job” 和 “grandfather’s company”。原文未必寫 first job，但會出現worked、before joining、family business。掃描 Paragraph 3，關鍵句是 “He worked for a time at Myer department stores before joining the family business in 1949...”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He worked for a time at Myer department stores before joining the family business in 1949 and quickly began to put his stamp on things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他曾在 Myer 百貨公司工作了一段時間，然後於 1949 年加入家族生意，並很快開始留下自己的管理風格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句最重要的是 “before joining the family business”。時間順序非常清楚：先在 Myer department stores 工作，之後才加入 family business。題目說他的 first job 是在 grandfather’s company，但原文指出他加入家族公司之前已有 Myer 工作經驗。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：first job was with his grandfather’s company"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：worked for a time at Myer department stores before joining the family business grandfather’s company 對應 Paragraph 2 中祖父創立的 Brash business；family business 也指同一盤家族生意。可是時間順序與題目相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文提供明確相反資料，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 說家族生意由祖父創立，Paragraph 3 又說 Geoff 加入 family business，兩者連起來看，很容易誤以為他的職涯一開始就在家族公司。真正控制答案的是 “before joining”。這個before 直接推翻 first job 的說法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Alfred Brash thought that his son wasted money.”",
+      "translation": "Alfred Brash 認為他的兒子浪費金錢。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Alfred 對 Geoff 花錢方式的看法。題目沒有要求他永久保持這個看法，只要原文顯示他曾經認為兒子 extravagance，就足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a young man, Brash enjoyed the good life, playing golf and sailing, and spending some months travelling through Europe on a leisurely holiday.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕時，Brash 享受優渥生活，打高爾夫球、航海，還花數月在歐洲悠閒旅行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After initially complaining about his extravagance, his father grew to accept the change and gave his son increasing responsibility in the business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父親起初抱怨他花費奢侈，但後來接受了這個改變，並逐漸給兒子更多公司責任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，already 可以看到 Alfred 對 Geoff 的 spending 有負面反應，因此 Paragraph 3 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Alfred Brash”, “son”, “wasted money”。原文不一定用 wasted money，較可能用extravagance、frugal、complaining 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In one of his first management decisions, he diverged from his father’s sense of frugal aesthetics by re-carpeting the old man’s office while he was away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他最早期的管理決定之一中，他趁父親不在時為父親的辦公室重新鋪地毯，這做法偏離了父親節儉的審美觀。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After initially complaining about his extravagance, his father grew to accept the change and gave his son increasing responsibility in the business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父親起初抱怨他的奢侈花費，但後來接受了這個改變，並逐漸給兒子更多公司責任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“frugal” 表示節儉；“extravagance” 表示奢侈、花費過度。題目中的 “wasted money” 是對“complaining about his extravagance” 的自然概括。Alfred 起初覺得兒子重新鋪地毯太花錢，這支援題目。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：thought that his son wasted money"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：complaining about his extravagance"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：Alfred Brash"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：his father判斷原文清楚支持 Alfred 曾抱怨 Geoff 的奢侈花費，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最後一句也說 Alfred later accepted the change。這只是後來態度變得接受，沒有取消他起初complaining about extravagance 的事實。題目只說 Alfred thought his son wasted money，沒有說他一直都這樣想。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“By the time Geoff Brash took control, the Brash business was selling some electrical products.”",
+      "translation": "到 Geoff Brash 接掌公司時，Brash business 已經在售賣一些電器產品。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷時間先後：在 Geoff took control 之前或當時，公司是否已經售賣 electrical products。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "控制詞是 “By the time”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After World War II (1939–1945), Brash’s began to focus on white goods, such as washing machines and refrigerators, as the consumer boom took hold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二次世界大戰後，隨著消費熱潮出現，Brash’s 開始專注於 white goods，例如洗衣機和雪櫃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually, 170 stores traded across the continent under the Brash’s banner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終，全澳大陸共有 170 間店以 Brash’s 的名義營業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段講公司由產品轉型到店舖擴張。第一句的 white goods 很可能對應題目的electrical products。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “took control”, “selling some electrical products”。原文相關詞包括 “took over as managing director in 1957” 和 “white goods, such as washing machines and refrigerators”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After World War II (1939–1945), Brash’s began to focus on white goods, such as washing machines and refrigerators, as the consumer boom took hold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二次世界大戰後，Brash’s 開始專注於 white goods，例如洗衣機和雪櫃，因為消費熱潮開始形成。"
+            },
+            {
+              "kind": "label",
+              "text": "後文："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Geoff Brash took over as managing director in 1957, the company had two stores...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Geoff Brash 在 1957 年接任 managing director 時，公司有兩間店。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "二戰結束在 1945 年；Geoff 在 1957 年接任。原文說二戰後公司 began to focus on white goods，然後才說 1957 年 Geoff 接任。washing machines 和 refrigerators 屬於 electrical products，所以題目成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：electrical products"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：white goods, such as washing machines and refrigerators"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：took control"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：took over as managing director"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：By the time"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文時間線：After World War II → in 1957判斷原文時間線和產品內容都支援題目，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章一開始說家族生意 specialising in pianos，可能令人以為 Geoff 接手前仍只賣音樂產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 的第一句已經交代二戰後業務轉向 white goods，所以不能只靠早期家族背景判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Geoff Brash had ambitions to open Brash stores in other countries.”",
+      "translation": "Geoff Brash 有志向在其他國家開設 Brash stores。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Geoff 的 expansion ambition 是否包括 overseas stores。注意題目有 “other countries”，所以只看到 expansion 或 overseas relationships 仍不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4，並需留意 Paragraph 6–7 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After World War II (1939–1945), Brash’s began to focus on white goods, such as washing machines and refrigerators, as the consumer boom took hold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二次世界大戰後，Brash’s 開始專注於 white goods，例如洗衣機和雪櫃，因為消費熱潮形成。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually, 170 stores traded across the continent under the Brash’s banner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終，全澳大陸共有 170 間店以 Brash’s 的名義營業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 4 首尾句，可以看到本段確實講 expansion 和 stores。但 “across the continent”需要細讀，不能自動理解成 different countries。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “ambitions”, “open Brash stores”, “other countries”。原文中可以找到 “expansion as vital”, “opened suburban stores”, “across the continent”。後文也有 “overseas relationships”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Japan”, “China”。這些都是相關背景，但要檢查有沒有 “stores in other countries”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：“However, while his father was content with the business he had built, the younger Brash viewed expansion as vital.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，父親對自己建立的生意感到滿足，年輕的 Brash 則認為擴張至關重要。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Geoff Brash took over as managing director in 1957, the company had two stores, but, after floating it on the stock exchange the following year, he expanded rapidly and opened suburban stores...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Geoff Brash 在 1957 年接任 managing director 時，公司有兩間店；翌年公司上市後，他迅速擴張，開設郊區分店。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually, 170 stores traded across the continent under the Brash’s banner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終，整個大陸共有 170 間店以 Brash’s 的名義營業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 Geoff 重視 expansion，並且開了 suburban stores，也讓 170 stores 在整個大陸營業。可是文章沒有說他 had ambitions to open stores in other countries。Paragraph 6–7 提到Japan 和 China，但內容是 technology, joint venture, trade fair, piano factory, jazz trip，不是開設Brash retail stores overseas。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有：expansion as vital / opened suburban stores / overseas relationships題目需要：ambitions + open Brash stores + other countries缺少的核心資料是 “other countries” 的 Brash stores。原文的 overseas relationships 不能等同海外開店。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文沒有提供足夠資料判斷他是否有這項 ambition，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 Paragraph 6 的 “developing overseas relationships”。這句只說他發展海外關係，例如與 Roland group 合作。商業合作和海外開店是兩種不同事情。另一個中伏位是 “across the continent”。在澳洲傳記語境中，它指在澳洲大陸各地，而題目說 other countries，需要跨國證據；文章沒有提供。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "share scheme",
+      "answerKey": "share scheme",
+      "type": "Short-answer Questions",
+      "prompt": "“Which arrangement did Alfred Brash set up for his employees?”",
+      "translation": "Alfred Brash 為他的員工設立了哪一項安排？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "問題問 Which arrangement，答案應是名詞短語。限制是 NO MORE THAN THREE WORDS OR A NUMBER，所以可以填不多於三字的原文短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Geoff Brash learned from his father’s focus on customer service.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Geoff Brash 從父親重視 customer service 的做法中學習。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alfred Brash had also been a pioneer in introducing a share scheme for his staff, and his son retained and expanded the plan following the float.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Brash 也是為員工引入 share scheme 的先驅；公司上市後，他的兒子保留並擴展了這個計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看尾句，已經可以看到 Alfred、staff、arrangement 的答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Alfred Brash”, “employees”, “arrangement”。原文中 employees 改成 “staff”，set up 改成 “introducing”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alfred Brash had also been a pioneer in introducing a share scheme for his staff...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Brash 也是為員工引入 share scheme 的先驅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“introducing” 表示設立、引入；“his staff” 對應 employees。答案短語就是 “share scheme”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "set up = introducing employees = staff arrangement = scheme答案形式share scheme 是兩個字，符合 NO MORE THAN THREE WORDS OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “customer service”。它是 Alfred 的管理重點，但題目問的是為 employees 設立的arrangement。員工安排對應 share scheme。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "Roland group",
+      "answerKey": "Roland group",
+      "type": "Short-answer Questions",
+      "prompt": "“Which Japanese company did Geoff Brash collaborate with?”",
+      "translation": "Geoff Brash 與哪一間日本公司合作？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "問題問 Which Japanese company，答案應是公司名稱。限制是不多於三個字或一個數字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Geoff Brash was optimistic and outward-looking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Geoff Brash 樂觀，而且目光向外。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He developed a relationship with Taro Kakehashi, the founder of Japan’s Roland group, which led to a joint venture that brought electronic musical devices to Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他與日本 Roland group 的創辦人 Taro Kakehashi 建立關係，這促成了一項 joint venture，把電子音樂設備帶到澳洲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段講海外關係和新科技，尾句直接出現 Japanese company。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Japanese company” 和 “collaborate”。原文沒有 collaborate，但 “developed a relationship” 和 “joint venture” 表示合作關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He developed a relationship with Taro Kakehashi, the founder of Japan’s Roland group, which led to a joint venture that brought electronic musical devices to Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他與日本 Roland group 的創辦人 Taro Kakehashi 建立關係，這促成一項 joint venture，把電子音樂設備帶到澳洲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中，日本公司是 “Japan’s Roland group”。題目問 company，所以答案填 Roland group 已足夠。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "collaborate with = developed a relationship with / led to a joint venture Japanese company = Japan’s Roland group答案形式Roland group 是兩個字，符合限制。大小寫可保留原文。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Taro Kakehashi”。他是人名，身份是 Roland group 的 founder；題目問 company，所以答案要填公司名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "trade fair",
+      "answerKey": "trade fair",
+      "type": "Short-answer Questions",
+      "prompt": "“What type of event in China marked the beginning of Geoff Brash’s relationship with that country?”",
+      "translation": "Geoff Brash 與中國關係的開始，是中國哪一類活動？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "問題問 What type of event，答案應是事件類型的名詞短語。定位詞很強：China、beginning、relationship。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1965, Brash and his wife attended a trade fair in Guangzhou, the first of its kind in China; the couple were among the first Western businesspeople allowed into the country following Mao Zedong’s Communist Revolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1965 年，Brash 和妻子參加了廣州的一個 trade fair，這是中國首個同類活動；這對夫婦是毛澤東共產革命後首批獲准進入中國的西方商人之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brash also took leading jazz musicians Don Burrows and James Morrison to China, on a trip that reintroduced jazz to many Chinese musicians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brash 還帶著著名爵士音樂人 Don Burrows 和 James Morrison 到中國，這趟旅程讓許多中國音樂人重新接觸 jazz。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段講 Brash 與中國的商業和音樂交流，第一句交代起點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “beginning of Geoff Brash’s relationship with that country” 對應原文中最早的時間 “In 1965” 和 “attended a trade fair in Guangzhou”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1965, Brash and his wife attended a trade fair in Guangzhou, the first of its kind in China...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1965 年，Brash 和妻子參加了廣州的一個 trade fair，這是中國首個同類活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What type of event”，所以答案是 event type，不需要填 Guangzhou，也不需要填 1965。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "event in China = trade fair in Guangzhou marked the beginning = In 1965... attended that country = China答案形式trade fair 是兩個字，符合 NO MORE THAN THREE WORDS OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Guangzhou”。Guangzhou 是地點，題目問 type of event。也不要填 “first of its kind”，這只是描述 trade fair 的特別性。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "jazz",
+      "answerKey": "jazz",
+      "type": "Short-answer Questions",
+      "prompt": "“What style of music did Geoff Brash help to promote in China?”",
+      "translation": "Geoff Brash 幫助在中國推廣哪一種音樂風格？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "問題問 What style of music，答案應是音樂類型。定位詞是 music、China、promote。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1965, Brash and his wife attended a trade fair in Guangzhou, the first of its kind in China...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1965 年，Brash 和妻子參加了廣州的一個 trade fair，這是中國首個同類活動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brash also took leading jazz musicians Don Burrows and James Morrison to China, on a trip that reintroduced jazz to many Chinese musicians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brash 還帶著著名 jazz 音樂人 Don Burrows 和 James Morrison 到中國，這趟旅程讓許多中國音樂人重新接觸 jazz。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接回答音樂風格問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “style of music” 對應原文 “jazz musicians” 和 “jazz”。“help to promote” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reintroduced ... to many Chinese musicians”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Brash also took leading jazz musicians Don Burrows and James Morrison to China, on a trip that reintroduced jazz to many Chinese musicians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brash 還帶著著名爵士音樂人 Don Burrows 和 James Morrison 到中國，這趟旅程讓許多中國音樂人重新接觸 jazz。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “jazz musicians” 已提示音樂風格；“reintroduced jazz” 是答案核心。題目用 “help to promote” 概括 reintroduced jazz to many Chinese musicians。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "style of music = jazz promote in China = reintroduced ... to many Chinese musicians Geoff Brash helped = Brash took leading jazz musicians to China答案形式jazz 是一個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 Don Burrows 或 James Morrison。他們是音樂人，不是音樂風格。題目問 style，因此答案是 jazz。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "1998",
+      "answerKey": "1998",
+      "type": "Short-answer Questions",
+      "prompt": "“When did the Brash company finally stop doing business?”",
+      "translation": "Brash 公司最終在甚麼時候停止營業？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "問題問 When，答案應是年份或時間。限制容許 A NUMBER，所以年份可直接填 1998。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He stood down as executive chairman of Brash’s in 1988, but under the new management debt became a problem, and in 1994 the banks called in administrators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在 1988 年卸任 Brash’s 的 executive chairman，但在新管理層之下，債務成為問題；1994 年，銀行召入 administrators。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it was not long before he invested in a restructured Allans music business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但不久之後，他便投資了重組後的 Allans 音樂生意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段會講 Brash’s 的後期問題和 Geoff 離開後的發展。答案很可能在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “finally stop doing business”。原文可能用 “continued to trade until...” 或 “went into administration”。掃描 Paragraph 8 可見 1998。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The company was sold to Singaporean interests and continued to trade until 1998, when it again went into administration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司被賣給新加坡方面的利益相關者，並繼續營業至 1998 年；當時它再次進入 administration。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Brash name then disappeared from the retail world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後，Brash 這個名字從零售世界中消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 finally stop doing business，原文 “continued to trade until 1998” 直接提供答案。後一句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“disappeared from the retail world” 加強了停止營業的意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "finally stop doing business = continued to trade until 1998 / disappeared from the retail world When = 1998答案形式1998 是一個數字，符合 NO MORE THAN THREE WORDS OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 1994。1994 是 banks called in administrators 的第一次危機，但公司之後被賣出並continued to trade until 1998。題目有 “finally”，所以要找最後停止營業的時間。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "education",
+      "answerKey": "education",
+      "type": "Notes Completion",
+      "prompt": "“A non-commercial organisation providing support for music and music 11_________________”",
+      "translation": "一個非商業組織，為音樂和音樂 ____________ 提供支持。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “music and music ___” 後面，應填一個名詞，和前面的 music 組成 “music education” 或類似概念。題目要求 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brash was a committed philanthropist who, in the mid-1980s, established the Brash Foundation, which eventually morphed, with other partners, into the Soundhouse Music Alliance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brash 是一位投入慈善的人；他在 1980 年代中期成立 Brash Foundation，該基金後來與其他伙伴發展成 Soundhouse Music Alliance。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The organisation has also established branches in New Zealand, South Africa and Ireland, as well as numerous sites around Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該組織還在 New Zealand、South Africa 和 Ireland 設立分支，並在澳洲各地設有多個地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段講 Soundhouse Music Alliance 的來源、性質和發展，正好對應 notes。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “non-commercial organisation”, “support”, “music and music...”。原文沒有non-commercial，但有 “not-for-profit organisation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was a not-for-profit organisation overseeing and promoting multimedia music-making and education for teachers and students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個非牟利組織，負責監督並推廣給 teachers and students 的 multimedia music-making和 education。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “non-commercial organisation” 對應 “not-for-profit organisation”。“providing support for” 對應 “overseeing and promoting”。“music and music ___” 對應 “music-making and education”。為了令 notes 句子自然，空格填 education，形成 “music education”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "non-commercial = not-for-profit providing support for = overseeing and promoting music and music education = music-making and education答案形式education 是一個字，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “making”。原文有 “music-making”，但題目句子是 “music and music ___”，最自然搭配是music education。再加上題目說 organisation provides support，並非要求抄完整 “music-making”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "technology",
+      "answerKey": "technology",
+      "type": "Notes Completion",
+      "prompt": "“Allows opportunities for using up-to-date 12 _________________”",
+      "translation": "提供使用最新 ____________ 的機會。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “up-to-date”，後面需要名詞。題目要求 ONE WORD ONLY。up-to-date 很可能改寫原文 “latest”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brash was a committed philanthropist who, in the mid-1980s, established the Brash Foundation, which eventually morphed, with other partners, into the Soundhouse Music Alliance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brash 是投入慈善的人；他在 1980 年代中期成立 Brash Foundation，後來它與其他伙伴發展成Soundhouse Music Alliance。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The organisation has also established branches in New Zealand, South Africa and Ireland, as well as numerous sites around Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該組織還在 New Zealand、South Africa 和 Ireland 設立 branches，並在澳洲各地設有多個地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間會說 Soundhouse 做甚麼，因此 Q12 要看 offers opportunities 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “opportunities” 和 “up-to-date”。原文直接出現 “offers ... the opportunity” 和 “latest music technology”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Soundhouse offers teachers and young people the opportunity to explore the latest music technology and use it to compose and record their own music, either alone or in collaboration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Soundhouse 為 teachers 和 young people 提供機會，讓他們探索最新音樂科技，並使用它來創作和錄製自己的音樂，可以獨自完成，也可以合作完成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子 “Allows opportunities for using up-to-date ___” 對應原文 “offers ... the opportunity to explore the latest music technology and use it...”。“up-to-date” 改寫 “latest”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "allows opportunities = offers ... the opportunity up-to-date = latest technology = technology答案形式technology 是一個字，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “music technology”，因為題目要求 ONE WORD ONLY。空格前已經有 up-to-date，填technology 已足夠；music 也已在整個 notes 標題和前句中交代。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "branches",
+      "answerKey": "branches",
+      "type": "Notes Completion",
+      "prompt": "“Has 13 _________________ in several countries.”",
+      "translation": "在幾個國家設有 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “Has ___ in several countries” 中，需要複數名詞。題目要求 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brash was a committed philanthropist who, in the mid-1980s, established the Brash Foundation, which eventually morphed, with other partners, into the Soundhouse Music Alliance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brash 是投入慈善的人；他在 1980 年代中期成立 Brash Foundation，後來它與其他伙伴發展成Soundhouse Music Alliance。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The organisation has also established branches in New Zealand, South Africa and Ireland, as well as numerous sites around Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該組織還在 New Zealand、South Africa 和 Ireland 設立 branches，並在澳洲各地設有多個地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接回答 Q13。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “several countries”。原文列出 “New Zealand, South Africa and Ireland”，這正是several countries。空格對應 “branches”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The organisation has also established branches in New Zealand, South Africa and Ireland, as well as numerous sites around Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該組織也已在 New Zealand、South Africa 和 Ireland 設立分支，並在澳洲各地設有許多地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把具體國家壓縮成 “several countries”。“has” 對應 “has established”。答案是 branches。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "several countries = New Zealand, South Africa and Ireland has = has established branches = branches答案形式branches 是一個字，且是複數，符合 “in several countries” 的語境和 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “sites”。原文說 numerous sites around Australia，這些是在澳洲各地；題目說 several countries，對應 New Zealand、South Africa 和 Ireland 的 branches。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Geoff Brash.pdf",
+    "sha256": "7df08b56b86efc050eabc4a8642495a29fa204c736af3cb973d5a53b12900b05",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句也是全段唯一一句，直接介紹 Geoff Brash 的整體身份：他在 2010 年去世，是一位外向、善於交際的澳洲商人和慈善家，並鼓勵年輕人發揮潛能。只看這一句，可以先判斷全文會是一篇人物傳記，主線很可能包括他的商業成就、個性特質、慈善工作，以及對年輕人或音樂教育的支持。這段提供的是總覽，不太會藏具體年份或細節答案。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Geoff Brash 出生於 Melbourne，受教育於 Scotch College。尾句引用家族音樂零售生意的標語：“A home is not a home without a piano.” 只看首尾句，可以估計本段會交代家庭背景和Brash business 的起源。中間提到父親 Alfred 經營家族音樂零售業，而這盤生意由祖父 Marcus Brasch 於 1862 年創立，並以 pianos 為專門產品。這段對 Q1 很重要。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Brash 年輕時享受生活，打高爾夫、航海，並在歐洲悠閒旅行。尾句說父親最初抱怨他的extravagance，後來接受改變，並給他更多責任。只看首尾句，可以判斷本段會講 Geoff 加入家族生意之前與早期管理階段。中間的 Myer department stores 和 joining the family business 是 Q2的關鍵；re-carpeting his father’s office 則支援 Q3。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說二戰後 Brash’s 開始專注 white goods，例如 washing machines 和 refrigerators。尾句說最終有 170 stores 以 Brash’s banner 在整個大陸營業。只看首尾句，可以看到本段主題是商業轉型與擴張：由音樂零售走向家電，再由兩間店擴展到大型連鎖。這段對 Q4 很重要，也容易令人聯想到 Q5 的 overseas expansion，但要細讀地域範圍。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Geoff Brash 從父親對 customer service 的重視中學習。尾句說 Alfred Brash 曾為員工引入 share scheme，而 Geoff 在公司上市後保留並擴展這個計劃。只看首尾句，可以判斷本段重點是父子兩代在管理理念上的承接，尤其是 customer service 和 employee arrangement。這段很短，但 Q6 的答案 share scheme 幾乎直接出現在尾句。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Geoff Brash 樂觀、向外看。尾句說他與日本 Roland group 創辦人 Taro Kakehashi 建立關係，形成 joint venture，把電子音樂設備帶到澳洲。只看首尾句，可以估計本段會講新技術和海外商業關係。中間列出 electric guitars、organs、modern audio and video equipment，說明他能引入新產品；Roland group 是 Q7 的關鍵定位。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 1965 年 Brash 與妻子參加 Guangzhou 的 trade fair，這是中國首個同類活動。尾句說他帶 Don Burrows 和 James Morrison 到中國，重新把 jazz 介紹給許多中國音樂人。只看首尾句，可以判斷本段主題是 Brash 與中國的關係：從 trade fair 開始，後來參與北京鋼琴廠顧問工作，也推動中澳音樂交流。這段對 Q8 和 Q9 很重要。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 Brash 在 1988 年卸任 Brash’s executive chairman，但新管理層下債務成為問題，1994年銀行召入 administrators。尾句說他很快又投資重組後的 Allans music business。只看首尾句，可以看到本段主題是公司後期衰落、被出售、再度進入 administration，以及 Brash 本人對音樂零售的持續投入。中間的 1998 是 Q10 的核心答案。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Brash 是 committed philanthropist，在 1980 年代中期成立 Brash Foundation，後來與其他伙伴發展成 Soundhouse Music Alliance。尾句說該組織在 New Zealand、South Africa、Ireland，以及澳洲多地設立 branches。只看首尾句，可以判斷本段會講他的慈善和音樂教育工作。中間的 not-for-profit、music-making and education、latest music technology，對 Q11–13 全部有用。"
+      }
+    ]
+  }
+}

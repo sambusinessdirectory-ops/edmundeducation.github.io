@@ -1,0 +1,2221 @@
+{
+  "id": "p1-098-from-hand-to-mouth",
+  "catalogueId": "p1-098",
+  "catalogueIds": [
+    "p1-098"
+  ],
+  "passage": 1,
+  "title": "From Hand to Mouth",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "F",
+    "D",
+    "B",
+    "newly planted crops",
+    "too much water",
+    "fuel shortages",
+    "low-tech pumps",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“The main reasons why there is a lack of food in southern Africa year after year”",
+      "translation": "southern Africa 年復一年缺糧的主要原因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找出哪一段集中解釋「長期、反覆」缺糧原因。控制詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“year after year”，所以要找 chronic、recurs、repeated problem 這類意思。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C第一句：“Though the problem is particularly severe this year, it recurs across southern Africa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然今年問題特別嚴重，但這個問題在 southern Africa 反覆出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the region has the world’s highest rate of AIDS.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且該地區有全球最高的 AIDS 比率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段已經清楚指向「長期反覆的原因」。第一句有 recurs，直接對應 year after year；尾句加入 AIDS，顯示這段會列出多個結構性因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“main reasons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lack of food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“year after year”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“recurs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“subsistence farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no irrigation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Bad roads”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unreliable transport”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no proper marketing channels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Maize is ill-suited”"
+            },
+            {
+              "kind": "quote",
+              "text": "“too many people for the land”"
+            },
+            {
+              "kind": "quote",
+              "text": "“yields are low”"
+            },
+            {
+              "kind": "quote",
+              "text": "“highest rate of AIDS”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Food is produced mainly by subsistence farmers on small plots with no irrigation; their fate is tied to rain falling in the right amount at the right time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "糧食主要由在小塊土地上耕作的自給農民生產，而且沒有灌溉；他們的命運取決於雨水是否在正確時間、以正確分量落下。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Bad roads and unreliable transport make it expensive to move food and seeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "惡劣道路和不可靠運輸令糧食和種子的運送成本變高。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Without proper marketing channels, small farmers cannot sell whatever surplus they may have outside their neighbourhoods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有適當銷售渠道，小農即使有剩餘作物，也無法賣到鄰近地區以外。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Maize is ill-suited to the climate, needing too much water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "玉米不適合該地氣候，因為它需要太多水。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“year after year”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“it recurs across southern Africa”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“main reasons why there is a lack of food”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文： no irrigation / bad roads / unreliable transport / no marketing channels / maize needing too much water / too many people for the land / low yields / AIDS判斷： Paragraph C 集中列出長期糧食短缺的根本原因，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也講 drought、late rain、seeds、fertiliser 和高糧價，但它主要說今年危機的規模和即時觸發因素。Question 1 的 “year after year” 指向長期重複問題，C 段更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“How small development schemes can help to solve the problem”",
+      "translation": "小型發展計劃如何幫助解決問題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harnessing what the region already has would go a long way to offsetting its chronic hunger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "善用該地區已經擁有的資源，將能大大抵消長期飢餓問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A few kilometres down the road, the land is hopelessly dry and barren.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾公里外，土地卻乾枯荒蕪，幾乎沒有希望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，F 段會用對比展示：有水利管理的地方可以綠化和增產，缺乏水利的地方仍然乾旱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 small development schemes 很可能對應中間的小型 irrigation scheme。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“small development schemes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“help to solve”"
+            },
+            {
+              "kind": "quote",
+              "text": "“problem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a smaller but no less hopeful scale”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Chitsukwa irrigation scheme”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cost only about $20,000”"
+            },
+            {
+              "kind": "quote",
+              "text": "“provided canals and enough low-tech pumps”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sustain 176 farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“three crops a year”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a smaller but no less hopeful scale, the nearby Chitsukwa irrigation scheme cost only about $20,000 and provided canals and enough low-tech pumps to water 18 hectares (45 acres), which sustain 176 farmers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在較小但同樣有希望的規模上，附近的 Chitsukwa 灌溉計劃只花約 20,000 美元，提供了水渠和足夠的低技術水泵，可灌溉 18 公頃，即 45 英畝，並支持 176 名農民。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now armed with better knowledge, farmers are aiming at three crops a year, instead of the precarious single one to which they were accustomed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，農民有了更好的知識，目標是一年三造，而過去他們習慣的是風險很高的一造。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "small development schemes= Chitsukwa irrigation scheme / smaller scale / low-tech pumps help to solve the problem= water 18 hectares / sustain 176 farmers / three crops a year判斷： Paragraph F 展示小型灌溉計劃如何用低成本提高農業穩定性，所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“The things that some desperate farmers do to feed themselves and their families”",
+      "translation": "一些絕望農民為了養活自己和家人所做的事情。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many small farmers struggle to make ends meet even in good years, so one bad season can be disastrous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多小農即使在好年份也只能勉強維持生活，所以一個壞季節已可能造成災難。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others venture into crocodile-infested rivers to dig out water-lily tubers for food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些人冒險進入有鱷魚出沒的河流，挖水蓮塊莖充飢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段已經顯示農民在壞季節後走到非常危險的地步。題目中的 desperate farmers和 feed themselves 直接對應此段尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“desperate farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feed themselves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“families”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unable to grow enough to feed themselves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resort to cutting and selling firewood”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fishing in already depleted waters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dig out water-lily tubers for food”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unable to grow enough to feed themselves or borrow their way out of hard times, farmers end up losing the few assets they have.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農民無法種出足夠糧食養活自己，也無法靠借貸渡過困境，最後失去僅有的資產。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In Malawi, those without anything left often resort to cutting and selling firewood, further eroding the soil and making their plots still less productive, or else fishing in already depleted waters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Malawi，一無所有的人常常轉而砍柴和賣柴，進一步侵蝕土壤，使田地更不肥沃；或者在已經枯竭的水域捕魚。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Others venture into crocodile-infested rivers to dig out water-lily tubers for food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些人冒險進入有鱷魚出沒的河流，挖水蓮塊莖作食物。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "desperate farmers= those without anything left / unable to grow enough things they do= cutting and selling firewood / fishing / digging water-lily tubers feed themselves and their families= to feed themselves / for food判斷： Paragraph D 專門描述農民失去選擇後的求生方法，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“The size and cost of the problem in southern Africa”",
+      "translation": "southern Africa 糧食問題的規模和成本。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aid agencies are sounding the alarm, hoping that help will come before haunting images of emaciated children, such as those recently seen in Niger, appear on Western television screens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "援助機構正在發出警報，希望援助能在西方電視出現像 Niger 近期那種消瘦兒童畫面之前到來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maize, the staple food, is scarce in some areas; prices in markets have shot up beyond the means of the hungriest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "玉米這種主食在一些地區很稀缺；市場價格已急升到最飢餓的人也負擔不起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段會描述危機規模和即時嚴重性。題目中的 size and cost 很可能在中間以人數、金額和時間出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cost”"
+            },
+            {
+              "kind": "quote",
+              "text": "“southern Africa”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“close to 12 million people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more than $150 million”"
+            },
+            {
+              "kind": "quote",
+              "text": "“over the next six months”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Malawi and Zimbabwe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mozambique, Zambia, Lesotho, and Swaziland”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The UN’s World Food Programme (WFP) says that close to 12 million people across southern Africa will need food aid before the next harvest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聯合國世界糧食計劃署表示，在下一次收成前，southern Africa 近 1,200 萬人將需要糧食援助。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The agency is short of more than $150 million to feed them over the next six months.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該機構在未來六個月餵飽這些人方面，仍短缺超過 1.5 億美元。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "size of the problem= close to 12 million people cost of the problem= short of more than $150 million判斷： Paragraph B 同時給出受影響人數和所需資金，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "newly planted crops",
+      "answerKey": "newly planted crops",
+      "type": "Sentence Completion",
+      "prompt": "“The January rains are described as ‘crucial’ because 5 _________________ need the water.”",
+      "translation": "一月的雨被形容為「關鍵」，因為 5 ________ 需要水。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是句子填空，限制是 NO MORE THAN THREE WORDS。空格前後顯示答案應是複數名詞短語，作為 need water 的主語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aid agencies are sounding the alarm, hoping that help will come before haunting images of emaciated children, such as those recently seen in Niger, appear on Western television screens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "援助機構正在發出警報，希望援助能在西方電視出現消瘦兒童畫面之前到來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maize, the staple food, is scarce in some areas; prices in markets have shot up beyond the means of the hungriest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "玉米這種主食在一些地區稀缺；市場價格已急升至最飢餓的人也負擔不起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段處理當前危機的即時因素，包括 rain、seeds、fertiliser 和 food prices。題目有 January rains，直接指向此段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“January rains”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crucial”"
+            },
+            {
+              "kind": "quote",
+              "text": "“need water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接有 “The crucial rains of January, when newly planted crops need water...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The crucial rains of January, when newly planted crops need water, did not come on time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一月的關鍵雨水，即新種下的作物需要水的時候，沒有按時到來。"
+            },
+            {
+              "kind": "label",
+              "text": "空格句："
+            },
+            {
+              "kind": "quote",
+              "text": "“because 5 ________ need the water”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“newly planted crops need water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 newly planted crops。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： newly planted crops = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“are described as ‘crucial’ because ... need the water”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“crucial rains of January, when newly planted crops need water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 newly planted crops。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "too much water",
+      "answerKey": "too much water",
+      "type": "Sentence Completion",
+      "prompt": "“Maize is an unsuitable crop in much of southern Africa because it requires 6_________________”",
+      "translation": "玉米在 southern Africa 很多地方都不適合種植，因為它需要 6 ________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though the problem is particularly severe this year, it recurs across southern Africa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然今年問題特別嚴重，但它在 southern Africa 反覆出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the region has the world’s highest rate of AIDS.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且該地區有全球最高的 AIDS 比率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段會列出長期缺糧原因。題目有 Maize 和 unsuitable crop，這正好對應 C 段中間關於氣候和玉米的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maize”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unsuitable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“requires”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maize is ill-suited to the climate, needing too much water.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ill-suited” 對應 unsuitable；“needing” 對應 requires。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Maize is ill-suited to the climate, needing too much water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "玉米不適合該氣候，因為它需要太多水。"
+            },
+            {
+              "kind": "label",
+              "text": "空格句："
+            },
+            {
+              "kind": "quote",
+              "text": "“because it requires 6 ________”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“needing too much water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 too much water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： too much water = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "unsuitable= ill-suited requires= needing判斷：答案是 too much water。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "fuel shortages",
+      "answerKey": "fuel shortages",
+      "type": "Sentence Completion",
+      "prompt": "“In Zimbabwe, much agricultural produce cannot be moved because of 7 _________________”",
+      "translation": "在 Zimbabwe，很多農產品無法運輸，原因是 7 ________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bad government policy sometimes makes things worse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "糟糕的政府政策有時會令情況惡化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The World Bank will give $30 million.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界銀行將提供 3,000 萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段先講 Zimbabwe 政策如何令農業和糧食問題惡化，再講 Malawi 和國際援助。題目明確提到Zimbabwe，答案應在 E 段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zimbabwe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“agricultural produce”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be moved”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“fuel shortages stymie crop transport”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“crop transport” 對應 agricultural produce moved；“stymie” 表示阻礙。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Hyperinflation and lack of foreign exchange make it hard to buy seeds and fertiliser, while fuel shortages stymie crop transport.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "惡性通脹和外匯短缺令購買種子和肥料變得困難，而燃料短缺阻礙作物運輸。"
+            },
+            {
+              "kind": "label",
+              "text": "空格句："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be moved because of 7 ________”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“fuel shortages stymie crop transport”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 fuel shortages。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： fuel shortages = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cannot be moved= crop transport is stymied because of= while fuel shortages...判斷：答案是 fuel shortages。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句也有 hyperinflation 和 lack of foreign exchange，但它們影響的是 buying seeds and fertiliser。題目問 agricultural produce cannot be moved，定案詞是 crop transport。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "low-tech pumps",
+      "answerKey": "low-tech pumps",
+      "type": "Sentence Completion",
+      "prompt": "“8 _________________ can be used instead of irrigation canals to water crops.”",
+      "translation": "8 ________ 可以用來灌溉作物。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harnessing what the region already has would go a long way to offsetting its chronic hunger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "善用該地區已經擁有的資源，將能大大抵消長期飢餓。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A few kilometres down the road, the land is hopelessly dry and barren.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾公里外，土地卻乾枯荒蕪，幾乎沒有希望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段集中處理 irrigation 和小型水利方案。題目問灌溉作物的工具，應在 Chitsukwa scheme 的設備描述中尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“irrigation canals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water crops”"
+            },
+            {
+              "kind": "quote",
+              "text": "“can be used”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“provided canals and enough low-tech pumps to water 18 hectares”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a smaller but no less hopeful scale, the nearby Chitsukwa irrigation scheme cost only about $20,000 and provided canals and enough low-tech pumps to water 18 hectares (45 acres), which sustain 176 farmers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "附近的 Chitsukwa 灌溉計劃只花約 20,000 美元，提供了水渠和足夠的低技術水泵，可灌溉 18公頃，即 45 英畝，並支持 176 名農民。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格句需要一個複數名詞作主語。原文中能直接配合 “can be used ... to water crops” 的詞是low-tech pumps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： low-tech pumps = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "water crops= water 18 hectares / pumping water into their fields答案是 low-tech pumps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "小提醒：題目中的 “instead of irrigation canals” 比原文略強。原文說這個 scheme “provided canals and enough low-tech pumps”，即水渠和水泵一同出現。按空格定位和可填入原文短語來看，預期答案仍是 low-tech pumps。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some farmers didn’t get seeds to plant this season.”",
+      "translation": "有些農民今季沒有得到種子來播種。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aid agencies are sounding the alarm, hoping that help will come before haunting images of emaciated children, such as those recently seen in Niger, appear on Western television screens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "援助機構正在發出警報，希望援助在消瘦兒童畫面出現於西方電視之前到來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maize, the staple food, is scarce in some areas; prices in markets have shot up beyond the means of the hungriest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "玉米這種主食在一些地區稀缺；市場價格已急升至最飢餓的人也負擔不起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段處理當季危機因素，包括雨水、種子、肥料和糧價。題目有 seeds，所以 B 段最可能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“some farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“didn’t get seeds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“this season”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nor, in some places, did seeds and fertiliser.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句要連回上一句 “did not come on time”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The crucial rains of January, when newly planted crops need water, did not come on time. Nor, in some places, did seeds and fertiliser.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一月的關鍵雨水，即新種下的作物需要水的時候，沒有按時到來。在一些地方，種子和肥料也沒有按時到來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：some farmers內容：didn’t get seeds時間：to plant this season原文命題：地點範圍：in some places內容：seeds and fertiliser did not come on time語境：newly planted crops / January rains / this growing season比較結果：原文說一些地方的 seeds 沒有按時到，支援題目中 Some farmers didn’t get seeds 的說法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Some farmers= in some places didn’t get seeds= seeds did not come on time to plant this season= newly planted crops / January rains 的種植季節語境判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Poor infrastructure means that parts of Mozambique are without food while other parts have plenty.”",
+      "translation": "基礎設施差，導致 Mozambique 有些地區缺糧，但其他地區糧食充足。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though the problem is particularly severe this year, it recurs across southern Africa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然今年問題特別嚴重，但它在 southern Africa 反覆出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the region has the world’s highest rate of AIDS.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且該地區有全球最高的 AIDS 比率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段列出長期缺糧原因，其中包括 road、transport 和 marketing channels。題目提到infrastructure 和 Mozambique，所以可定位到 C 段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Poor infrastructure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mozambique”"
+            },
+            {
+              "kind": "quote",
+              "text": "“parts ... without food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other parts have plenty”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bad roads and unreliable transport”"
+            },
+            {
+              "kind": "quote",
+              "text": "“southern Mozambicans hungry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crops are plentiful up north”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bad roads and unreliable transport make it expensive to move food and seeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "惡劣道路和不可靠運輸令糧食和種子的運送成本變高。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Without proper marketing channels, small farmers cannot sell whatever surplus they may have outside their neighbourhoods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有適當銷售渠道，小農無法把剩餘作物賣到鄰近地區以外。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This leaves southern Mozambicans hungry, even when crops are plentiful up north.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這導致 Mozambique 南部居民挨餓，即使北部作物充足。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Poor infrastructure= bad roads / unreliable transport / no proper marketing channels parts of Mozambique are without food= southern Mozambicans hungry other parts have plenty= crops are plentiful up north判斷：原文明確說南部缺糧、北部作物充足，原因和道路、運輸、銷售渠道有關。答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Southern Africa does not have many of the resources it needs to help solve its food problem.”",
+      "translation": "Southern Africa 並沒有很多能幫助解決糧食問題的資源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harnessing what the region already has would go a long way to offsetting its chronic hunger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "善用該地區已經擁有的資源，將能大大抵消長期飢餓問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A few kilometres down the road, the land is hopelessly dry and barren.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾公里外，土地卻乾枯荒蕪，幾乎沒有希望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，F 段的方向已經很清楚：該地區其實擁有可利用的資源，只是尚未善用。這和題目說缺乏很多所需資源的方向相衝。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“resources”"
+            },
+            {
+              "kind": "quote",
+              "text": "“solve its food problem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“what the region already has”"
+            },
+            {
+              "kind": "quote",
+              "text": "“southern Malawi, rivers regularly flood”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sprinklers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“irrigation scheme”"
+            },
+            {
+              "kind": "quote",
+              "text": "“low-tech pumps”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harnessing what the region already has would go a long way to offsetting its chronic hunger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "善用該地區已經擁有的資源，將能大大抵消其長期飢餓問題。"
+            },
+            {
+              "kind": "label",
+              "text": "後文例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In southern Malawi, rivers regularly flood—and are badly managed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Malawi 南部，河流經常氾濫，而且管理很差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示問題的核心不一定是完全缺資源；水源其實存在，甚至會氾濫，問題在於管理和灌溉利用不足。Paragraph G 也說 Malawi lacks know-how and money，這代表仍有技術和資金限制，但Question 11 說的是 southern Africa 缺乏 many resources。F 段首句已經指出該地區有現成資源可善用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“does not have many of the resources it needs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“what the region already has would go a long way”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目說資源缺乏；原文強調已有資源若被善用，便能大幅改善情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供相反方向，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 說 Malawi lacks the know-how and money，這只表示某些條件不足，尤其是知識和資金。Question 11 把範圍擴大成 southern Africa 缺乏很多所需資源，與 Paragraph F 的整體方向不符。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Zimbabwe’s government policies have actually helped neighbouring countries in one way.”",
+      "translation": "Zimbabwe 的政府政策在某一方面實際上幫助了鄰近國家。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E 和 Paragraph G，需要跨段理解。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bad government policy sometimes makes things worse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "糟糕的政府政策有時會令情況惡化。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 相關首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uladi Mussa, Malawi’s minister for agriculture and food security, insists that expanding small-scale irrigation is a top priority.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malawi 農業及糧食安全部長 Uladi Mussa 堅持，擴大小型灌溉是首要任務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目同時包含 Zimbabwe’s government policies 和 neighbouring countries helped，所以要先看E 段的 Zimbabwe 政策，再掃描後文是否出現鄰國受益。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zimbabwe’s government policies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“helped neighbouring countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Zimbabwe ... land grabs...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Zambia and Mozambique have both welcomed exiled white Zimbabwean farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“whose skills are already boosting local agriculture”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Zimbabwe, once the region’s breadbasket, land grabs have crippled commercial agriculture and irrigation systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zimbabwe 曾是該地區的糧倉，但土地搶奪已重創商業農業和灌溉系統。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zambia and Mozambique have both welcomed exiled white Zimbabwean farmers, whose skills are already boosting local agriculture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zambia 和 Mozambique 都歡迎被迫離開 Zimbabwe 的白人農民，而這些人的技術已經在提升當地農業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 policies have actually helped neighbouring countries “in one way”。這個 “one way” 對應G 段：Zimbabwe 農民流亡到 Zambia 和 Mozambique，他們的農業技術提升了當地農業。雖然 E段強調 Zimbabwe 政策本身造成嚴重破壞，但跨段看，這些政策產生的流亡農民在鄰國帶來技術收益。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Zimbabwe’s government policies= land grabs / bad government policy in Zimbabwe neighbouring countries= Zambia and Mozambique helped in one way= skills are already boosting local agriculture判斷：文章支援這個短距離跨段推論，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 段整體語氣非常負面，學生可能以為任何關於 Zimbabwe policy 的正面說法都不可能成立。題目加了 “in one way”，範圍很窄；它只問鄰國是否在某方面受益，而 G 段確實說 exiled farmers 的skills 正在提升當地農業。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“About half of Malawi’s children aged under 5 are malnourished.”",
+      "translation": "Malawi 約一半五歲以下兒童營養不良。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uladi Mussa, Malawi’s minister for agriculture and food security, insists that expanding small-scale irrigation is a top priority.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malawi 農業及糧食安全部長 Uladi Mussa 堅持，擴大小型灌溉是首要任務。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For them, the damage will remain long after the rains have come.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對他們來說，即使雨水回來後，傷害仍會持續很久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 後半談 chronic hunger 對下一代的影響。題目提到 children under 5，所以目標是 G段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“half”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Malawi’s children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“under 5”"
+            },
+            {
+              "kind": "quote",
+              "text": "“malnourished”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Close to half of Malawi’s children under five are stunted.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Close to half of Malawi’s children under five are stunted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malawi 五歲以下兒童中，接近一半發育遲滯。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Schools unable to feed their pupils report drops in attendance, as children are too weak to walk or are forced to help their parents find food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無法為學生提供食物的學校報告出席率下降，因為孩子太虛弱，無法步行上學，或被迫幫父母尋找食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “stunted” 改寫成 “malnourished”。在這篇文章的語境中，Paragraph G 前一句說 chronic hunger is threatening future generations，後文又說兒童太虛弱和缺食物，所以 “stunted” 可理解為長期缺乏營養造成的發育受阻。題目用 malnourished 作概括，推論距離短。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "About half= close to half children aged under 5= children under five malnourished= stunted，在 chronic hunger 語境下指發育因營養不足受影響判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 “malnourished” 描述這個接近一半的群體，而用了 “stunted”。但整段都在講chronic hunger 對兒童的長期影響，因此題目的改寫可以接受。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - From Hand to Mouth.pdf",
+    "sha256": "5077b4bd8aabb29bd17240bb310f2b45784407d93947d0283b74829fa58d9d00",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說 southern Africa 再次面對嚴重 food crisis，而且這是長期問題；尾句說下一次收成還要等六個月。只看首尾句，可以先估計這段是危機開場，用 Malawi 一名兒童和家庭失收作具體例子，讓讀者看到糧食短缺已造成兒童營養不良，也暗示問題會持續到下一次 harvest。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說援助機構正在發出警報，希望援助在電視出現飢餓兒童畫面前到來；尾句說 maize 變得稀少，市價已超出最飢餓者能負擔的水平。只看首尾句，可以估計這段會交代危機規模、受影響國家、需要多少援助金額，以及 drought、rain、seeds、fertiliser 和 staple food 價格如何加劇問題。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說今年情況特別嚴重，但這個問題在 southern Africa 反覆出現；尾句說該地區有全球最高 AIDS 比率。只看首尾句，可以先估計這段會解釋長期糧食短缺的結構性原因，包括小農依賴雨水、沒有灌溉、道路和運輸差、銷售渠道不足、maize 不適合氣候、人口壓力、農法問題和疾病負擔。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說很多小農即使在好年份也只能勉強維持生活，一個壞季節已足以造成災難；尾句說有些人冒險到有鱷魚的河流挖 water-lily tubers 充飢。只看首尾句，可以估計這段會講農民在連續乾旱和沒有資產後的絕望應對，例如賣柴、破壞土壤、在枯竭水域捕魚，以及冒生命危險尋找野生食物。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說糟糕的政府政策有時會令問題惡化；尾句說 World Bank 將提供 3,000 萬美元。只看首尾句，可以估計這段會比較不同政府的處理方式，重點先放在 Zimbabwe 的土地、通脹、外匯、燃料、城市清拆和拒絕 UN emergency programme，再轉到 Malawi 願意尋求援助和國際資金。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說善用該地區已經擁有的資源，能大大抵消長期飢餓；尾句說幾公里外的土地卻仍乾枯荒蕪。只看首尾句，可以估計這段會展示 irrigation 的解決潛力。它大概會用南 Malawi 的河流、糖廠綠洲和 Chitsukwa 小型灌溉計劃作例子，說明低成本水利設施如何提高產量。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說 Malawi 農業及糧食安全部長 Uladi Mussa 堅持擴大小型灌溉是首要任務；尾句說兒童所受損害會在雨季回來後仍然持續。只看首尾句，可以估計這段先講未來解方和限制，例如know-how、money、外來農民技術，後面再轉向長期後果：兒童發育遲滯、學校出席率下降和下一代受損。"
+      }
+    ]
+  }
+}

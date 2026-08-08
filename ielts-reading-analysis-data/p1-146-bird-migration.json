@@ -1,0 +1,1927 @@
+{
+  "id": "p1-146-bird-migration",
+  "catalogueId": "p1-146",
+  "catalogueIds": [
+    "p1-146"
+  ],
+  "passage": 1,
+  "title": "Bird Migration",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "iv",
+    "v",
+    "ii",
+    "x",
+    "vii",
+    "i",
+    "viii",
+    "A",
+    "C",
+    "guidance",
+    "compass",
+    "predators",
+    "visible"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "iv — Physical characteristics that allow birds to migrate",
+      "answerKey": "iv — Physical characteristics that allow birds to migrate",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A題目要求我們為 Paragraph A 選一個能概括全段的 heading。Matching headings 題不能只看某一個例子，要看整段反覆談甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birds have many unique design features that enable them to perform such amazing feats of endurance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鳥類有許多獨特的身體設計特徵，使牠們能完成這些驚人的耐力壯舉。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the later stages of the summer breeding season, when food is plentiful, their bodies can accumulate considerable layers of fat to provide sufficient energy for their long migratory flights.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在夏季繁殖期後期，食物充足時，牠們的身體可以累積相當厚的脂肪層，為長途遷徙飛行提供足夠能量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 的功能已經很清楚：它在解釋鳥類身體如何支援長途遷徙。第一句用design features 開題，最後一句用 fat stores 收尾，兩者都屬於 physical characteristics。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iv 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physical characteristics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“allow birds to migrate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段內可找到 hollow bones、feathers、navigation systems、heat-conserving design、respiratory systems、fat。這些全部都是鳥類身體或生理系統的特徵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說鳥有 lightweight, hollow bones、intricately designed feathers、heat-conserving design、efficient respiratory systems 和 fat reserves。這些例子雖然不同，但共同功能都是支援 rapid flight、sustained flights at altitude 和 long migratory flights。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iv：Physical characteristics that allow birds to migrate原文：unique design features / hollow bones / feathers / respiratory systems / fat改寫關係：physical characteristics = design features；allow birds to migrate = enable them to perform feats of endurance / provide energy for long migratory flights。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要被 navigation systems 吸引去選 vii。Paragraph A 確實提到 navigation systems，但它只是眾多 design features 之一。Paragraph E 才是專門講導航研究的段落。Paragraph A 的總主題是身體條件，所以答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "v — The main reason why birds migrate",
+      "answerKey": "v — The main reason why birds migrate",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fundamental reason that birds migrate is to find adequate food during the winter months when it is in short supply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鳥類遷徙的根本原因，是在冬季食物短缺時尋找足夠食物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, intriguing questions remain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，仍然有一些引人入勝的問題未解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接給出段落主旨：fundamental reason。末句則把讀者帶到下一段，提示雖然基本原因清楚，仍有其他謎團。這段的核心不是某個冬季地點，也不是長短距離比較，而是「主要遷徙原因」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading v 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“main reason”"
+            },
+            {
+              "kind": "quote",
+              "text": "“why birds migrate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fundamental reason that birds migrate…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fundamental reason that birds migrate is to find adequate food during the winter months when it is in short supply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鳥類遷徙的根本原因，是在冬季食物短缺時尋找足夠食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“fundamental reason” 比 “main reason” 更直接，意思是最基本、最根本的理由。段落之後補充，這特別適用於在 Northern Hemisphere 的 temperate and Arctic regions 繁殖的鳥，因為短暫生長季有豐富食物，但冬季食物不足。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v：The main reason why birds migrate原文：The fundamental reason that birds migrate main = fundamental；why = reason；birds migrate = birds migrate 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vi “The best wintering grounds for birds” 可能吸引人，因為段落提到 winter months。但Paragraph B 沒有比較哪裡是最佳越冬地，只說冬季食物不足會推動遷徙。真正控制答案的是fundamental reason。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "ii — The unexplained rejection of closer feeding grounds",
+      "answerKey": "ii — The unexplained rejection of closer feeding grounds",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One puzzling fact is that many birds journey much further than would be necessary just to find food and good weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個令人困惑的事實是，很多鳥飛行的距離遠超過單純為了尋找食物和好天氣所需的距離。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While we may not fully understand birds’ reasons for going to particular places, we can marvel at their feats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然我們未必完全理解鳥類前往特定地方的原因，但我們可以驚嘆牠們的壯舉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 puzzling fact，末句有 may not fully understand，兩者一起顯示這段處理一個未解釋的現象。中間的 British swallows、arctic terns 和 shorebirds 都是例子，說明鳥類常飛過看似合適的地方，繼續前往更遠目的地。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading ii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“unexplained”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rejection”"
+            },
+            {
+              "kind": "quote",
+              "text": "“closer feeding grounds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接說 rejection，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“many birds journey much further than would be necessary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“overfly other areas of seemingly suitable habitat”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“One puzzling fact is that many birds journey much further than would be necessary just to find food and good weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人困惑的一點是，許多鳥飛得比尋找食物和好天氣所需距離更遠。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet, en route to their final destination in far-flung southern latitudes, all these individuals overfly other areas of seemingly suitable habitat spanning two hemispheres.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在前往遙遠南方緯度最終目的地途中，這些鳥都飛越了橫跨兩個半球、看似適合棲息的其他地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“overfly other areas of seemingly suitable habitat” 就是 heading 中 “rejection of closer feeding grounds” 的意思基礎：牠們沒有停在較近且看似適合的地方。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ii：unexplained rejection of closer feeding grounds原文：puzzling fact / Nobody knows / may not fully understand = unexplained closer feeding grounds = areas of seemingly suitable habitat rejection = overfly / journey much further than necessary"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vi “The best wintering grounds for birds” 也提到 wintering grounds，但 Paragraph C 沒有判斷哪裡最好。它真正處理的是：為何鳥類飛過較近而看似合適的地方。答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "x — Mysterious migration without parental instruction",
+      "answerKey": "x — Mysterious migration without parental instruction",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the greatest mysteries is how young birds know how to find the traditional wintering areas without parental guidance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最大的謎團之一，是幼鳥如何在沒有父母指引下，知道怎樣找到傳統越冬地。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet nobody has the slightest idea as to how this is possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，沒有人對這件事如何可能發生有絲毫概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句高度一致：mysteries 和 nobody has the slightest idea 都指出未解之謎；young birds 和without parental guidance 則直接對應 heading x。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading x 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mysterious”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without parental instruction”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the greatest mysteries…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without parental guidance”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的 cuckoo 例子非常重要。Cuckoo 把蛋下在其他鳥巢中，從不遇見自己的幼鳥。幼cuckoo 由 host species 養大，仍能前往祖先越冬地，再單獨回到北歐尋找同類配偶。這個例子證明段落焦點是「沒有父母帶領或示範，幼鳥仍能遷徙」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading x：without parental instruction原文：without parental guidance / Very few adults migrate with juveniles in tow instruction = guidance；mysterious = greatest mysteries / nobody has the slightest idea。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 提到 cuckoo 的 mental image of what another cuckoo looks like，但這不是段落主旨。那只是補充「牠如何知道同類」的另一個謎。全段真正主軸是幼鳥沒有親代指引仍能完成傳統遷徙，所以答案是 x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "vii — Research findings on how birds navigate",
+      "answerKey": "vii — Research findings on how birds navigate",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mounting evidence has confirmed that birds use the positions of the sun and stars to obtain compass directions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越來越多證據已確認，鳥類會利用太陽和星星的位置取得羅盤方向。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, at night the air is generally cool and less turbulent and so conducive to sustained, stable flight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，夜間空氣通常較涼、較少亂流，因此有利於持續而穩定的飛行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接出現 evidence 和 compass directions，說明本段會講研究發現與導航方法。末句補充夜間飛行的另一項好處，但段落前半和中段大量講 sun, stars, magnetic field, polarised light，所以整體 heading 應是 vii。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research findings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“how birds navigate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mounting evidence has confirmed…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“birds use the positions of the sun and stars…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“detect the Earth’s magnetic field”"
+            },
+            {
+              "kind": "quote",
+              "text": "“calibrates their compass”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 不只說鳥會飛夜間，也解釋牠們如何定向。鳥類用太陽、星星、地磁場和偏振光等cues。原文說 accurate navigation requires awareness of position and time，還指出被帶到陌生大陸後，鳥仍能快速回到巢位。這些都是導航能力的研究證據。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii：Research findings on how birds navigate原文：Mounting evidence has confirmed / experiments have shown / use the positions of the sun and stars / magnetic field / polarised light navigate = obtain compass directions / returning rapidly to nest sites。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 也有 navigation systems，但那在 Paragraph A 只是身體特徵清單的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 才集中講研究證據和導航機制，所以答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "i — The best time to migrate",
+      "answerKey": "i — The best time to migrate",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, all journeys involve considerable risk, and part of the skill in arriving safely is setting off at the right time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，所有旅程都有相當風險，而安全抵達的一部分技巧，是在正確時間出發。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet they return to Holland ahead of a thaw, their arrival linked to a pressure change presaging an improvement in the weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，牠們會在解凍前返回荷蘭；牠們的到達與預示天氣改善的氣壓變化有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句的 setting off at the right time 是本段最強主題句。末句說鳥甚至能在天氣改善前返回，仍然圍繞「時間判斷」和「天氣預測」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading i 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“best time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“migrate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“setting off at the right time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weather forecasting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before there is any visible sign”"
+            },
+            {
+              "kind": "quote",
+              "text": "“return … ahead of a thaw”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 解釋鳥類如何選擇遷徙時機。牠們能利用 favourable winds，也能感知微小氣壓差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lapwings 在 cold snap 到來時向西逃離荷蘭，因為地面結冰會導致飢餓；天氣好轉前又能回來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明牠們掌握離開和返回的時機。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading i：The best time to migrate原文：setting off at the right time / accurate weather forecasting / return ahead of a thaw best time = right time；migrate = flee west / return to Holland。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “The influence of weather on migration routes” 有一定吸引力，因為段落有 weather和 winds。但 Paragraph F 的第一句已經把焦點放在 right time；weather 是幫助判斷時間的因素。更精準的 heading 是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "viii — Successful migration despite adverse winds",
+      "answerKey": "viii — Successful migration despite adverse winds",
+      "type": "Matching Headings",
+      "prompt": "Question 7",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In one instance, a Manx shearwater from Wales, carried to America and released, was back in its burrow on Skokholm Island, off the Pembrokeshire coast, one day before a letter announcing its release!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一次，一隻來自威爾斯的 Manx shearwater 被帶到美國放飛，卻在宣布牠被放飛的信件到達前一天，已回到 Pembrokeshire 海岸外 Skokholm Island 的洞穴中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only do they arrive safely in Europe, but, based on ringing evidence, some make it back to North America the following spring, after probably spending the winter with European migrants in sunny African climes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們不僅能安全抵達歐洲，而且根據環誌證據，有些在可能與歐洲遷徙鳥一起於陽光充足的非洲過冬後，翌年春天能回到北美。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句和末句都講「被移離常規位置後仍成功回返」。第二個例子更明確提到 birds are blown across the Atlantic by fast-moving westerly tailwinds。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading viii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Successful migration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“despite adverse winds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“blown across the Atlantic by fast-moving westerly tailwinds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“arrive safely in Europe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“make it back to North America”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 的兩個例子都在展示鳥類即使偏離正常位置，仍有驚人的成功回返能力。Manx shearwater 被人帶到 America，仍返回 Wales。北美鳥被強勁西風帶到歐洲後，不只安全抵達，有些還能翌年回北美。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading viii：Successful migration despite adverse winds原文：blown across the Atlantic / arrive safely / make it back successful migration = arrive safely and make it back；adverse winds = fast-moving westerly tailwinds that push birds across the Atlantic, causing unusual displacement。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 也可被 weather / winds 吸引，但 Paragraph G 的重點不在一般天氣如何影響路線，重點在「被帶離或吹離後仍成功抵達和返回」。所以 viii 最貼近整段功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "A, C",
+      "answerKey": "A, C",
+      "type": "Choose TWO letters",
+      "prompt": "“Which TWO of the following statements are true of bird migration?”",
+      "translation": "以下哪兩項關於鳥類遷徙的說法是正確的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple-answer 題。題目要求 TWO，所以每個正確選項都要有獨立原文證據。不能因為選項聽起來合理就選，也不能用同一個模糊概念同時支持兩個答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option A A Birds often fly farther than they need to."
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一提醒我們 “One puzzling fact” 是很多鳥飛得比需要更遠；最後一句說我們未必完全理解牠們去特定地方的原因。這段正好處理「飛得過遠」的現象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“farther”"
+            },
+            {
+              "kind": "quote",
+              "text": "“need to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“many birds journey much further than would be necessary”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One puzzling fact is that many birds journey much further than would be necessary just to find food and good weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人困惑的一點是，很多鳥飛得比單純尋找食物和好天氣所需距離更遠。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Birds often fly farther than they need to= many birds journey much further than would be necessary A 完全符合原文，所以是正確選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option C C Birds flying at night need less water."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 前半講導航，後半講夜間飛行的好處。題目 C 提到 flying at night 和 water，因此應定位到後半部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“flying at night”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接說 “need less water”，但出現 dehydration，即缺水、脫水。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daytime predators are avoided and the danger of dehydration due to flying for long periods in warm, sunlit skies is reduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們可以避開日間捕食者，而且因長時間在溫暖、有陽光的天空中飛行而造成脫水的危險也會降低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“danger of dehydration … is reduced” 表示夜間飛行較不容易缺水。題目把這點概括成 “need less water”。意思成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "need less water= danger of dehydration is reduced flying at night= Travelling at night C 是正確選項。錯項分析Option B B Birds travelling in family groups are safe. Paragraph D 明確說：“Very few adults migrate with juveniles in tow…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少成鳥會帶著幼鳥一起遷徙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文重點是幼鳥通常沒有父母同行；文章也沒有說 family groups 安全。因此 B 缺乏支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option D D Birds have much sharper eyesight than humans. Paragraph E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“their sensory perception of the world is superior to ours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們對世界的感官感知優於我們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是整體 sensory perception，不等於 much sharper eyesight。雖然段落提到偏振光，但題目把整體感官改成視力銳利度，範圍和說法都改了，所以 D 不能選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E E Only shorebirds are resistant to strong winds. Paragraph C 提到 shorebirds，Paragraph G 提到 winds，但原文沒有說 only shorebirds，也沒有說牠們特別 resistant to strong winds。Only 是非常強的限制詞，原文沒有支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終答案： 8 A 9 C"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        8,
+        9
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "guidance",
+      "answerKey": "guidance",
+      "type": "Sentence Completion",
+      "prompt": "“It is a mystery that young birds such as cuckoos can find their wintering grounds without____________.”",
+      "translation": "幼鳥如杜鵑在沒有__________的情況下仍能找到越冬地，這是一個謎。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN ONE WORD OR A NUMBER所以答案必須是原文中的一個字，不能寫 parental guidance 兩個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the greatest mysteries is how young birds know how to find the traditional wintering areas without parental guidance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最大的謎團之一，是幼鳥如何在沒有父母指引下，知道怎樣找到傳統越冬地。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet nobody has the slightest idea as to how this is possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，沒有人對這件事如何可能發生有絲毫概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接包含題目 almost complete 的改寫：young birds、wintering areas、without parental guidance。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“young birds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cuckoos”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wintering grounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“young birds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional wintering areas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without parental guidance”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the greatest mysteries is how young birds know how to find the traditional wintering areas without parental guidance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最大的謎團之一，是幼鳥如何在沒有父母指引下，知道怎樣找到傳統越冬地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子已經給了 without，空格要填一個名詞。原文短語是 “parental guidance”。由於只能填一個字，所以要填 guidance。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "wintering grounds = traditional wintering areas without ______ = without parental guidance young birds such as cuckoos = young birds / familiar example is cuckoo答案形式檢查guidance 是一個字，符合 NO MORE THAN ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：guidance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "compass",
+      "answerKey": "compass",
+      "type": "Sentence Completion",
+      "prompt": "“Evidence shows that birds can use the sun and stars to obtain directions like a____________.”",
+      "translation": "證據顯示，鳥類可以利用太陽和星星取得像__________一樣的方向。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN ONE WORD OR A NUMBER目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mounting evidence has confirmed that birds use the positions of the sun and stars to obtain compass directions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越來越多證據已確認，鳥類會利用太陽和星星的位置取得羅盤方向。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, at night the air is generally cool and less turbulent and so conducive to sustained, stable flight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，夜間空氣通常較涼、較少亂流，因此有利於持續而穩定的飛行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經直接給答案。題目中的 Evidence shows 對應 Mounting evidence has confirmed；use the sun and stars 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sun and stars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“directions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mounting evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sun and stars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compass directions”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mounting evidence has confirmed that birds use the positions of the sun and stars to obtain compass directions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越來越多證據已確認，鳥類會利用太陽和星星的位置取得羅盤方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “obtain compass directions” 改寫成 “obtain directions like a ______”。既然 directions 前面被 like a 引導，空格要填一個可以提供方向的工具名詞。原文中的 compass 正好符合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Evidence shows = Mounting evidence has confirmed use the sun and stars = use the positions of the sun and stars directions like a compass = compass directions答案形式檢查compass 是一個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：compass"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "predators",
+      "answerKey": "predators",
+      "type": "Sentence Completion",
+      "prompt": "“One advantage of flying at night is that birds can avoid ____________.”",
+      "translation": "夜間飛行的一個好處是，鳥類可以避開__________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN ONE WORD OR A NUMBER目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mounting evidence has confirmed that birds use the positions of the sun and stars to obtain compass directions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越來越多證據已確認，鳥類會利用太陽和星星的位置取得羅盤方向。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, at night the air is generally cool and less turbulent and so conducive to sustained, stable flight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，夜間空氣通常較涼、較少亂流，因此有利於持續而穩定的飛行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 後半段明確轉入 night migration 的 benefits，因此題目中的 “advantage of flying at night” 應定位到該段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“flying at night”"
+            },
+            {
+              "kind": "quote",
+              "text": "“advantage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“avoid”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Travelling at night provides other benefits.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Daytime predators are avoided…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Travelling at night provides other benefits. Daytime predators are avoided and the danger of dehydration due to flying for long periods in warm, sunlit skies is reduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "夜間旅行也提供其他好處。牠們可以避開日間捕食者，而且長時間在溫暖、有陽光的天空中飛行造成脫水的危險也會降低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “birds can avoid ______”。原文被動句 “Daytime predators are avoided” 要轉回主動： birds avoid predators。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "flying at night = Travelling at night advantage = benefits can avoid predators = predators are avoided答案形式檢查predators 是一個字。雖然原文是 daytime predators，但題目只留一格，且只能填一個字，所以答案是 predators。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：predators"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "visible",
+      "answerKey": "visible",
+      "type": "Sentence Completion",
+      "prompt": "“Laboratory tests show that birds can detect changes in the weather without ____________signs.”",
+      "translation": "實驗室測試顯示，鳥類可以在沒有__________跡象的情況下偵測天氣變化。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN ONE WORD OR A NUMBER目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, all journeys involve considerable risk, and part of the skill in arriving safely is setting off at the right time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，所有旅程都有相當風險，而安全抵達的一部分技巧，是在正確時間出發。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet they return to Holland ahead of a thaw, their arrival linked to a pressure change presaging an improvement in the weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，牠們會在解凍前返回荷蘭；牠們的到達與預示天氣改善的氣壓變化有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向 weather timing 和 weather prediction。題目提到 Laboratory tests 和 detect changes in the weather，因此應在 Paragraph F 中掃描 tests、barometric pressure、visible sign等字眼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Laboratory tests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“detect changes in the weather”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without signs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“in laboratory tests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“detect the minute difference in barometric pressure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before there is any visible sign of them”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birds are adept at both and, in laboratory tests, some have been shown to detect the minute difference in barometric pressure between the floor and ceiling of a room.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鳥類擅長這兩方面；在實驗室測試中，有些鳥被證明能偵測房間地板與天花板之間極微小的氣壓差異。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often birds react to weather changes before there is any visible sign of them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鳥類常常在天氣變化出現任何可見跡象之前，便已作出反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “without ______ signs”。原文是 “before there is any visible sign”。題目把 before there is any 改成 without，並把 sign 改成 signs。空格需要形容詞，所以填 visible。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Laboratory tests show = in laboratory tests, some have been shown detect changes in the weather = react to weather changes / detect barometric pressure without visible signs = before there is any visible sign答案形式檢查visible 是一個字，放在 signs 前面作形容詞，文法正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：visible"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Bird Migration.pdf",
+    "sha256": "45444e2c41dfafc4468f0e7fc77e3192356660657c70135e313b848a87487b7a",
+    "pageCount": 18
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "SECTION 0：Skim Roadmap 全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句已經指出鳥類有 many unique design features，可以完成驚人的 endurance feats；末句再補充牠們在繁殖季後期能儲存 considerable layers of fat，為長途飛行提供能量。只看首尾句，這段明顯不是在講路線或原因，而是在介紹鳥類能遷徙的身體條件：骨骼、羽毛、導航、保溫、呼吸系統和脂肪儲備。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接說 fundamental reason that birds migrate is to find adequate food during winter months，已經把主旨放在「為何遷徙」。末句 However, intriguing questions remain 又提示：雖然基本原因清楚，後文會處理仍未解開的謎。只看首尾句，這段功能是交代主要原因，並自然引出下一段的疑問。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 one puzzling fact 是很多鳥飛得比尋找食物和好天氣所需距離更遠；末句說我們未必完全明白牠們前往特定地點的理由，但可以驚嘆牠們的能力。只看首尾句，這段焦點是「為何放棄較近而似乎合適的地點」，例如燕子和北極燕鷗的遠距離選擇。"
+      },
+      {
+        "number": "D",
+        "summary": "首句提出最大謎團之一：幼鳥沒有父母指引，仍知道如何到傳統越冬地。末句說 nobody has the slightest idea as to how this is possible，強調這個能力仍無法解釋。只看首尾句，這段會圍繞「無親代教導的遷徙知識」，中間的 cuckoo 例子只是用來具體說明這個謎。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說證據顯示鳥類用太陽和星星取得 compass directions；末句說夜間空氣較涼、較少亂流，有利於穩定長途飛行。只看首尾句，這段有兩層：前半集中講導航研究，包括太陽、星星、磁場、偏振光；後半補充夜間飛行的好處，如避開捕食者、減少缺水風險和穩定飛行。"
+      },
+      {
+        "number": "F",
+        "summary": "首句用 nevertheless 轉入風險，指出安全抵達的技巧之一是 setting off at the right time。末句說lapwings 會在解凍前返回荷蘭，牠們的到達與氣壓變化相關。只看首尾句，這段焦點是鳥類如何掌握出發和返回時機，特別是天氣預測、氣壓感知和有利風向。"
+      },
+      {
+        "number": "G",
+        "summary": "首句舉 Manx shearwater 被帶到美國後仍飛回威爾斯巢穴的驚人例子；末句說部分被吹到歐洲的北美鳥，翌年春天仍能回到北美。只看首尾句，這段焦點是鳥類即使被帶離或被風吹離常規路線，仍能成功抵達或回返，展示遷徙與導航的驚人穩定性。"
+      }
+    ]
+  }
+}
