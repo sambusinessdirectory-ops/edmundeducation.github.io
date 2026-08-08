@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <title>IELTS 閱讀理解 - 解卷分析 | EdmundEducation</title>
+  <meta name="description" content="IELTS 閱讀理解解卷分析：按 Passage 搜尋文章名稱，查看答案表、定位方法、同義改寫及逐題解說。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="theme-color" content="#102a4c">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://edmundeducation.com/ielts-reading-analysis.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="EdmundEducation">
+  <meta property="og:title" content="IELTS 閱讀理解 - 解卷分析">
+  <meta property="og:description" content="以答案證據、定位、同義改寫及中伏位拆解 IELTS Reading。">
+  <meta property="og:url" content="https://edmundeducation.com/ielts-reading-analysis.html">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+  <link rel="stylesheet" href="ielts-reading-analysis.css?v=20260808-1">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">跳到主要內容</a>
+  <header class="reading-toolbar" data-toolbar>
+    <div class="toolbar-main">
+      <a class="toolbar-brand" href="ielts-reading-analysis.html" aria-label="IELTS 閱讀理解解卷分析首頁">
+        <img src="/assets/icons/edmundeducation-logo-512.png" alt="">
+        <span>
+          <strong>EdmundEducation</strong>
+          <small>IELTS Reading Analysis</small>
+        </span>
+      </a>
+
+      <nav class="toolbar-actions" aria-label="頁面導覽">
+        <a href="exam-resources.html">離開</a>
+        <button type="button" data-action="previous">上一頁</button>
+        <a href="index.html">主頁</a>
+        <button type="button" data-action="catalogue">文章目錄</button>
+      </nav>
+    </div>
+
+    <nav class="question-jumps" data-question-jumps aria-label="題目快速前往" hidden></nav>
+  </header>
+
+  <main class="reading-shell" id="main-content" tabindex="-1">
+    <section class="view view-chooser" data-view="chooser" aria-labelledby="chooser-title">
+      <div class="catalogue-hero">
+        <p class="hero-eyebrow">IELTS READING · FREE RESOURCE</p>
+        <h1 id="chooser-title">IELTS 閱讀理解<br><span>解卷分析</span></h1>
+        <p>先選擇 Passage，再按文章名稱查找。每篇分析會把答案、定位、同義改寫及容易中伏的位置分開整理。</p>
+        <div class="hero-stat" aria-label="收錄文章名稱總數">
+          <strong data-total-count>507</strong>
+          <span>篇文章名稱</span>
+        </div>
+      </div>
+
+      <div class="passage-picker" data-passage-picker aria-label="選擇 Passage"></div>
+    </section>
+
+    <section class="view view-catalogue" data-view="catalogue" aria-labelledby="catalogue-title" hidden>
+      <div class="catalogue-heading">
+        <div>
+          <p class="section-eyebrow">IELTS READING CATALOGUE</p>
+          <h1 id="catalogue-title" data-catalogue-title>Passage 1</h1>
+          <p>只顯示文章名稱；原有練習編號已隱藏。</p>
+        </div>
+        <div class="passage-tabs" data-passage-tabs aria-label="切換 Passage"></div>
+      </div>
+
+      <div class="search-panel">
+        <label for="passage-search">搜尋文章名稱</label>
+        <div class="search-field">
+          <span aria-hidden="true">⌕</span>
+          <input id="passage-search" type="search" autocomplete="off" placeholder="例如：Mungo Man、climate、language…" data-search>
+          <button type="button" data-action="clear-search">清除</button>
+        </div>
+        <p class="result-count" role="status" aria-live="polite" data-result-count></p>
+      </div>
+
+      <div class="title-list" data-title-list></div>
+      <div class="empty-state" data-empty-state hidden>
+        <strong>找不到相符名稱</strong>
+        <p>請嘗試較短的關鍵字，或清除搜尋後重新查看。</p>
+      </div>
+    </section>
+
+    <article class="view view-analysis" data-view="analysis" aria-labelledby="analysis-title" hidden>
+      <header class="analysis-hero">
+        <div>
+          <p class="section-eyebrow" data-analysis-eyebrow>IELTS Reading · Passage 1</p>
+          <h1 id="analysis-title" data-analysis-title>Mungo Man</h1>
+          <p data-analysis-description></p>
+        </div>
+        <div class="analysis-summary">
+          <strong data-question-count>14</strong>
+          <span>題逐題分析</span>
+        </div>
+      </header>
+
+      <section class="answer-key-panel" id="answer-key" aria-labelledby="answer-key-title">
+        <div class="panel-heading">
+          <div>
+            <p class="section-eyebrow">QUICK CHECK</p>
+            <h2 id="answer-key-title">答案表</h2>
+          </div>
+          <div class="expand-actions">
+            <button type="button" data-action="expand-all">展開全部</button>
+            <button type="button" data-action="collapse-all">收起全部</button>
+          </div>
+        </div>
+        <div class="answer-table-wrap" data-answer-table></div>
+      </section>
+
+      <section class="question-analysis" aria-label="逐題分析" data-question-list></section>
+    </article>
+  </main>
+
+  <noscript>
+    <div class="noscript-message">請啟用 JavaScript，以使用文章搜尋及逐題分析導覽。</div>
+  </noscript>
+
+  <script src="ielts-reading-analysis-index.js?v=20260808-1"></script>
+  <script src="ielts-reading-analysis-content.js?v=20260808-1"></script>
+  <script src="ielts-reading-analysis.js?v=20260808-1"></script>
+</body>
+</html>

@@ -107,6 +107,9 @@ jobs:
           node tools/test-ielts-reading-passage3-flashcards.mjs
           node tools/test-ielts-reading-passage3-integration.mjs
 
+      - name: Validate IELTS Reading analysis catalogue and Mungo Man content
+        run: node tools/test-ielts-reading-analysis.mjs
+
       - name: Validate August flashcard expansion taxonomy and lazy loading
         run: |
           node tools/test-flashcard-expansion-20260801.mjs

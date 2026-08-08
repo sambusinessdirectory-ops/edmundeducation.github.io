@@ -17,6 +17,7 @@ const htmlPages = [
   "flashcards.html",
   "forum.html",
   "idiom-system.html",
+  "ielts-reading-analysis.html",
   "index.html",
   "major-music.html",
   "model-essay-downloads.html",
