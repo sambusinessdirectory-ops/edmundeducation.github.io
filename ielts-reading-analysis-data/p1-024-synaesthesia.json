@@ -1,0 +1,2336 @@
+{
+  "id": "p1-024-synaesthesia",
+  "catalogueId": "p1-024",
+  "catalogueIds": [
+    "p1-024"
+  ],
+  "passage": 1,
+  "title": "Synaesthesia",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "D",
+    "F",
+    "G",
+    "A",
+    "C",
+    "B",
+    "E",
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "TRUE",
+    "memory",
+    "function",
+    "teach"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“some of the disadvantages related to synaesthesia”",
+      "translation": "與 synaesthesia 相關的一些缺點。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找的是「某段提到 synaesthesia 的 disadvantages」。定位時要留意 drawbacks、unpleasant、distressing、curse 這類負面詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What makes synaesthesia a particularly interesting condition is that it isn’t an illness at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "synaesthesia 特別有趣之處，在於它完全不是一種疾病。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overall, however, synaesthesia is widely considered more of a blessing than a curse and it is often linked to intelligence and creativity, with celebrities such as Lady Gaga and Pharrell Williams claiming to have it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過整體而言，synaesthesia 普遍被視為一種福氣，多於一種詛咒，而且常與智力和創造力連結；Lady Gaga 和 Pharrell Williams 等名人也聲稱自己有這種情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph D 的功能是評價 synaesthesia 的利弊。第一句先說它不是illness，末句又說 blessing 多於 curse。既然題目問 disadvantages，本段中間很可能提到少量負面例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“disadvantages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“related to synaesthesia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接用 disadvantages，但有非常接近的詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Very few drawbacks have been described, usually minimal…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有關它的缺點很少被描述出來，而且通常很輕微。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 drawbacks 就是 disadvantages 的直接同義詞，所以可以停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Very few drawbacks have been described, usually minimal: for instance, some words might have an unpleasant taste (imagine the word ‘hello’ tasting like spoilt milk), while some synaesthetes find it distressing when they encounter people with names which don’t reflect their personality…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有關它的缺點很少被描述出來，而且通常很輕微。例如，有些字可能帶有令人不快的味道，像"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hello” 這個字嘗起來像壞掉的牛奶；也有些共感者遇到名字與人格不相稱的人時，會感到困擾。題目說 “some of the disadvantages”，原文說 “Very few drawbacks”，再舉出 unpleasant taste 和distressing names 兩個例子。這正好是題目要找的資訊功能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "disadvantages= drawbacks related to synaesthesia= some words might have an unpleasant taste / synaesthetes find it distressing"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 整體語氣偏正面，因為作者說 synaesthesia more of a blessing than a curse。學生可能因此忽略中間的 drawback 句。不過 Matching Information 看的是某段是否「提到」該資訊，不要求整段主旨完全負面。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“what scientists think about synaesthesia’s real-life usefulness”",
+      "translation": "科學家認為 synaesthesia 在現實生活中有甚麼實用價值。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 scientists / researchers 對 synaesthesia 實際用途的看法。定位詞包括 usefulness、benefits、improve、memory、cognitive function。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As it turns out, the benefits of teaching synaesthesia would be tremendous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果顯示，教授 synaesthesia 的好處會非常巨大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rothen and his colleagues corroborate the theory: in a paper published in 2011, they suggest that synaesthesia might be more than a hereditary condition, as the non-synaesthetic subjects of their study were able to mimic synaesthetic associations long after leaving the lab.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rothen 和他的同事支持這個理論：在 2011 年發表的一篇論文中，他們提出 synaesthesia 可能不只是一種遺傳情況，因為他們研究中的非共感受試者在離開實驗室很久後，仍能模仿synaesthetic associations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會討論「教 synaesthesia」的現實好處和科學證據。這和題目中的real-life usefulness 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientists think”"
+            },
+            {
+              "kind": "quote",
+              "text": "“real-life usefulness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to research conducted by Dr Clare Jonas at the University of East London, teaching people to create grapheme-colour associations the same way as a synaesthete may have the possibility to improve cognitive function and memory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 East London 大學 Dr Clare Jonas 的研究，教人像共感者一樣建立 grapheme-colour associations，可能有機會改善認知功能和記憶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 scientist、research、improve cognitive function and memory，所以可直接進入 Read。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 real-life usefulness。Paragraph F 的實用價值包括三項：第一，improve cognitive function。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改善認知功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，improve memory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改善記憶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，guarding against cognitive decline in older people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "幫助年長者抵禦認知衰退。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“using synaesthesia in the creation of mnemonics to remember things such as shopping lists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "利用 synaesthesia 創造記憶法，記住購物清單等事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都屬於非常實際的生活用途。題目用 “real-life usefulness” 概括了 cognitive function、memory、shopping lists 和 older people 這些內容。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "real-life usefulness= improve cognitive function and memory / mnemonics / remember shopping lists / guard against cognitive decline scientists think= According to research conducted by Dr Clare Jonas / Rothen and his colleagues corroborate"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也說 synaesthesia could potentially benefit future generations，但它主要是提出可能性和一項磁石研究；Paragraph F 才真正展開「實際好處」和科學家如何看待這些用途。因此答案選 F 更準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“a prediction for the future of synaesthesia”",
+      "translation": "一個關於 synaesthesia 未來的預測。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找 future prediction。定位詞包括 future、before long、might、once we do、teach、non-synaesthetes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is obviously still a long way to go before we can fully understand synaesthesia and what causes it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很明顯，在我們完全理解 synaesthesia 及其成因之前，仍有很長一段路要走。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once we do, however, it might not be too long before we find out how to teach non-synaesthetes how to imitate its symptoms in a way that induces the same benefits 4.4% of the world’s population currently enjoy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，一旦我們做到這一點，也許不用太久，我們便能找到方法，教非共感者模仿其症狀，並獲得目前世界 4.4% 人口享有的同樣好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph G 是文章結尾，功能是總結未來方向。末句本身就是一個prediction。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“prediction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“future”"
+            },
+            {
+              "kind": "label",
+              "text": "原文未必使用 prediction 一字，但末句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“it might not be too long before we find out how to teach…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許不用太久，我們便能找到方法去教……might not be too long 是典型預測語氣，表示作者推測未來可能發生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once we do, however, it might not be too long before we find out how to teach non-synaesthetes how to imitate its symptoms…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，一旦我們完全理解它，也許不用太久，我們便會知道如何教非共感者模仿它的症狀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有三個時間層次：現在：we still have a long way to go。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "將來第一步：fully understand synaesthesia and what causes it。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "將來第二步：teach non-synaesthetes to imitate symptoms and gain benefits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “a prediction for the future of synaesthesia”，Paragraph G 正好預測未來可能能夠教一般人模仿 synaesthesia，享受其好處。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "prediction= it might not be too long before…future of synaesthesia= teach non-synaesthetes how to imitate its symptoms"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也提出 “might it not be possible that synaesthesia can actually be taught?”，那是研究問題。Paragraph G 則用 “it might not be too long before…” 給出更明確的未來預測。因此 G更貼近題目。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“an example of how grapheme-colour synaesthesia works”",
+      "translation": "一個說明 grapheme-colour synaesthesia 如何運作的例子。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 example，而且是 grapheme-colour synaesthesia。定位詞非常明確：grapheme、colour、letter、number、example。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Imagine a page with a square box in the middle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想像一頁紙中間有一個方形盒子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With all the 5s painted in one colour and the rogue S painted in another, a grapheme – colour synaesthete will usually only need a split second to identify the latter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當所有 5 都呈現同一種顏色，而那個混在其中的 S 呈現另一種顏色時，grapheme-colour synaesthete 通常只需一瞬間就能辨認出後者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph A 是用具體視覺場景引入共感例子。它不是定義段，而是展示這類人如何靠顏色快速辨認字母和數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“grapheme-colour synaesthesia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“example”"
+            },
+            {
+              "kind": "quote",
+              "text": "“works”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unless that is, you are a grapheme – colour synaesthete – a person who sees each letter and number in different colours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除非你是 grapheme-colour synaesthete，也就是會把每個字母和數字看成不同顏色的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接解釋該類共感者如何感知文字和數字。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 的例子是：一個方格內有很多 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中藏著一個大寫 S。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般人因為 5 和 S 形狀相近，要花時間找。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "grapheme-colour synaesthete 會看到 5 和 S 呈現不同顏色，所以能很快找到 S。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With all the 5s painted in one colour and the rogue S painted in another…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當所有 5 都呈現同一種顏色，而那個混入其中的 S 呈現另一種顏色……這正是 grapheme-colour synaesthesia 的運作方式：grapheme 指文字單位，如字母和數字； colour 指這些文字單位在感知中自動連到顏色。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "how grapheme-colour synaesthesia works= sees each letter and number in different colours example= box full of 5s with one capital S"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也提到 letters and numbers having personality，但那屬於另一種 association。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 4 指定 grapheme-colour，所以最直接答案是 Paragraph A 的 5 和 S 例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“a brief history of synaesthesia”",
+      "translation": "synaesthesia 的簡短歷史。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求找 historical overview。定位詞包括 first documented、early 19th century、mid-1990s、empirical research。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Synaesthesia was first documented in the early 19th century by German physician Georg Sachs, who dedicated two pages of his dissertation on his own experience with the condition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "synaesthesia 最早在 19 世紀初由德國醫生 Georg Sachs 記錄；他在自己的論文中用了兩頁描述自己對這種情況的經驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t, however, until the mid-1990s that empirical research proved its existence when Professor Simon Baron-Cohen and his colleagues used fMRls on six synaesthetes and discovered that the parts of the brain associated with vision were active during auditory stimulation, even though the subjects were blindfolded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，直到 1990 年代中期，實證研究才證明它的存在；Professor Simon Baron-Cohen 和同事對六名共感者使用 fMRI，發現即使受試者被蒙眼，接受聲音刺激時，與視覺相關的腦區仍然活躍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段由 19 世紀初說到 1990 年代中期，正是一段 brief history。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“history”"
+            },
+            {
+              "kind": "quote",
+              "text": "“synaesthesia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的強定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first documented”"
+            },
+            {
+              "kind": "quote",
+              "text": "“early 19th century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mid-1990s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“empirical research proved its existence”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是歷史時間線訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 包含兩個歷史節點：第一個節點：early 19th century Georg Sachs first documented synaesthesia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個節點：mid-1990s Simon Baron-Cohen and colleagues used fMRIs and produced empirical evidence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 brief history，不需要整段是長篇歷史敘述；只要段落交代「最早記錄」和「後來科學證明」這兩步，就足以成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "brief history= first documented in the early 19th century + empirical research in the mid-1990s synaesthesia’s history= Georg Sachs → Simon Baron-Cohen"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 和 F 也有 2013、2011 等研究年份，但那些年份是後來研究的例子，主題不是歷史概覽。Paragraph C 的 first documented 和 proved its existence 才真正符合 brief history。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“some of the various different types of synaesthesia”",
+      "translation": "synaesthesia 的一些不同類型。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找 types / combinations / examples。定位詞是 types、different、various。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Synaesthesia, loosely translated as ‘senses coming together’ from the Greek words syn (‘with’) and aesthesis (‘sensation’), is an interesting neurological phenomenon that causes different senses to be combined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "synaesthesia 大致可由希臘文翻譯為「感官一起出現」，是一種有趣的神經現象，會令不同感官結合。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What all these sensory associations have in common is that they are all involuntary and impossible to repress and that they usually remain quite stable over time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些感官聯想的共同點是，它們全部都是不由自主、無法壓抑的，而且通常會隨時間保持相當穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph B 會先定義 synaesthesia，再列出不同感官聯想，最後總結共同特徵。題目要找 different types，這段非常合適。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“various different types”"
+            },
+            {
+              "kind": "quote",
+              "text": "“synaesthesia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句群："
+            },
+            {
+              "kind": "quote",
+              "text": "“This might mean that words have a particular taste…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“It might also mean that each letter and number has its own personality…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some synaesthetes might even experience other people’s sensations…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能表示某些字有特定味道；也可能表示每個字母和數字都有自己的性格；有些共感者甚至可能感受到他人的感覺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子連續列舉不同類型。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 提到的種類包括： words have a particular taste字詞有味道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "certain smells produce a particular colour某些氣味產生特定顏色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "each letter and number has its own personality每個字母和數字有自己的性格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "experience other people’s sensations感受到他人的感覺，例如看電影人物中槍時胸口感到疼痛。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“at least 60 different combinations of senses have been reported so far.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，已報告至少 60 種不同感官組合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “various different types” 就是把這些 examples 和 combinations 概括起來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "types of synaesthesia= different combinations of senses / sensory associations various= words taste like bacon / smells produce colours / letters have personalities / feeling others’ sensations"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 只展示 grapheme-colour 這一種，無法覆蓋 “various different types”。Paragraph B一次列舉多種情況，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“information about a study that suggests synaesthetic symptoms aren’t arbitrary”",
+      "translation": "某項研究指出 synaesthetic symptoms 並非隨機、任意產生。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目重點是 study 和 aren’t arbitrary。原文可能用 similar pairings、traced back、environment、determining role 這些概念表達「配對不是任意的」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another fascinating side of synaesthesia is the way it could potentially benefit future generations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "synaesthesia 另一個迷人面向，是它可能造福未來世代。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If that was true, researchers asked, then might it not be possible that synaesthesia can actually be taught?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者問，如果這是真的，那麼 synaesthesia 會不會其實可以被教出來？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段處理「synaesthesia 的形成是否受環境影響」和「是否可教」。若症狀可由環境塑造，便不會只是任意出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“study”"
+            },
+            {
+              "kind": "quote",
+              "text": "“arbitrary”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 arbitrary，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“grapheme-colour synaesthetes who had never met each other before experienced strikingly similar pairings between graphemes and colours…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從未見過面的 grapheme-colour synaesthetes，在字母／數字與顏色之間出現了驚人相似的配對。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“pairings which were later traced back to a popular set of Fischer-Price magnets…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些配對後來被追溯到一套流行的 Fischer-Price 磁石玩具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子正好表示配對有來源，並非完全隨機。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a 2013 study, Dr Witthof and Dr Winawer discovered that grapheme-colour synaesthetes who had never met each other before experienced strikingly similar pairings between graphemes and colours…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 2013 年的一項研究中，Dr Witthof 和 Dr Winawer 發現，從未見過面的 grapheme-colour synaesthetes，在 graphemes 和 colours 的配對上有驚人相似之處。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the findings suggested that a synaesthete’s environment might play a determining role in establishing synaesthetic associations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現暗示，共感者的環境可能在建立 synaesthetic associations 時扮演決定性角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “aren’t arbitrary” 可以理解為「不是毫無規律、沒有來源」。原文指出不同人有相似配對，而且可追溯到童年玩具磁石，說明這些 symptoms / associations 可能受共同環境影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "aren’t arbitrary= strikingly similar pairings / traced back to magnets / environment might play a determining role study= In a 2013 study, Dr Witthof and Dr Winawer discovered…"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也有研究，但它重點是非共感者能否模仿 associations。Question 7 的核心是「配對並非隨機」，最直接證據是 Paragraph E 的 Fischer-Price magnets 研究。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There are 60 different types of synaesthesia.”",
+      "translation": "synaesthesia 有 60 種不同類型。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目看似簡單，但控制詞在數字。要檢查原文說的是 exactly 60，還是 at least 60。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Synaesthesia, loosely translated as ‘senses coming together’ from the Greek words syn (‘with’) and aesthesis (‘sensation’), is an interesting neurological phenomenon that causes different senses to be combined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "synaesthesia 大致可譯為「感官一起出現」，是一種使不同感官結合的神經現象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What all these sensory associations have in common is that they are all involuntary and impossible to repress and that they usually remain quite stable over time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些感官聯想的共同點是全部都不由自主、無法壓抑，而且通常長時間保持穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出本段會定義 synaesthesia 並講不同感官聯想。題目涉及 types 的數量，所以要在本段中找數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“60”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different types”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The possibilities are endless: even though synaesthesia is believed to affect less than 5% of the general population, at least 60 different combinations of senses have been reported so far.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能性是無窮的：雖然一般相信 synaesthesia 影響少於 5% 的總人口，但到目前為止，已報告至少 60 種不同感官組合。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩個重要限制："
+            },
+            {
+              "kind": "quote",
+              "text": "“at least 60”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "至少 60 種，不是剛好 60 種。"
+            },
+            {
+              "kind": "quote",
+              "text": "“have been reported so far”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止已被報告，表示這是已知數量，未必是最終總數。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “There are 60 different types”，自然讀法是「共有 60 種」。這比原文精確得過頭。原文還用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The possibilities are endless” 加強開放性，說明不應把數量固定成 60。題目命題：主體：synaesthesia數量：60 different types原文命題：主體：combinations of senses數量：at least 60 reported so far比較結果：題目把「至少 60」壓成「60」，數量範圍被縮小，和原文不一致。答案判斷：根據 TRUE / FALSE / NOT GIVEN 規則，原文提供相反的數量範圍，因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易因為 60 原字重現而選 TRUE。數字重現只負責定位，真正定案的是 at least 和 so far。看到數字題，要特別檢查 exactly、about、at least、more than 這些限定詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Before Professor Simon Baron-Cohen’s research, synaesthesia was thought to be a myth.”",
+      "translation": "在 Professor Simon Baron-Cohen 的研究之前，synaesthesia 被認為是神話或虛構。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否提到研究前人們把 synaesthesia 視為 myth。定位詞是 Professor Simon Baron-Cohen、before、myth。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Synaesthesia was first documented in the early 19th century by German physician Georg Sachs, who dedicated two pages of his dissertation on his own experience with the condition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "synaesthesia 最早在 19 世紀初由德國醫生 Georg Sachs 記錄，他在論文中用了兩頁描述自己的經驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t, however, until the mid-1990s that empirical research proved its existence when Professor Simon Baron-Cohen and his colleagues used fMRls on six synaesthetes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，直到 1990 年代中期，Professor Simon Baron-Cohen 和同事用 fMRI 研究六名共感者後，實證研究才證明它的存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段談 synaesthesia 從早期記錄到實證證明的歷史。題目提到 Baron-Cohen，因此目標段落是 C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Simon Baron-Cohen”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before”"
+            },
+            {
+              "kind": "quote",
+              "text": "“myth”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到 Baron-Cohen："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Simon Baron-Cohen and his colleagues used fMRls on six synaesthetes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Professor Simon Baron-Cohen 和同事對六名共感者使用 fMRI……但原文沒有 myth、fiction、imaginary、not real、people believed it was false 這類說法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的資訊是： 19 世紀初，Georg Sachs documented synaesthesia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1990 年代中期，empirical research proved its existence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可以說明 Baron-Cohen 之前缺少 empirical proof，但不能推出「人們認為它是 myth」。未經實證證明和被視為神話，是兩種不同說法。前者說科學證據不足，後者涉及大眾或學界的否定態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：synaesthesia時間：before Baron-Cohen’s research觀點：was thought to be a myth原文命題：主體：synaesthesia時間：early 19th century / mid-1990s內容：was documented; later empirical research proved its existence比較結果：文章提到 proof 出現較晚，但沒有提供 myth 這個社會觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：題目加入了原文沒有交代的評價，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“proved its existence” 容易令人推想之前大家不相信它。這是合理聯想，但文章沒有說 “people thought it was a myth”。IELTS 判斷題不能把「尚未證明」自動升級成「被認為虛構」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A lot of celebrities are affected by synaesthesia.”",
+      "translation": "很多名人受到 synaesthesia 影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷數量範圍。題目說 a lot of celebrities，原文若只舉出一兩個例子，就不足以支持 “a lot”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What makes synaesthesia a particularly interesting condition is that it isn’t an illness at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "synaesthesia 特別有趣之處，在於它完全不是一種疾病。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overall, however, synaesthesia is widely considered more of a blessing than a curse and it is often linked to intelligence and creativity, with celebrities such as Lady Gaga and Pharrell Williams claiming to have it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過整體而言，synaesthesia 普遍被視為一種福氣，多於一種詛咒，而且常與智力和創造力連結；Lady Gaga 和 Pharrell Williams 等名人也聲稱自己有這種情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 celebrities 出現在 Paragraph D 最後一句，因此本段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“celebrities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a lot”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...with celebrities such as Lady Gaga and Pharrell Williams claiming to have it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……Lady Gaga 和 Pharrell Williams 等名人也聲稱自己有這種情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供名人例子，但沒有說很多名人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “such as” 表示例子，不表示總量。Lady Gaga 和 Pharrell Williams 是兩個例子，最多只能支持「some celebrities claim to have it」。題目說 “A lot of celebrities”，要求文章提供大量名人的概念，例如 many celebrities、a large number of famous people、numerous celebrities 等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說：很多名人有 synaesthesia；名人中特別普遍；受影響名人數量很大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也沒有說只有兩位名人有，所以不能判 FALSE。資料不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：celebrities數量：a lot狀態：are affected by synaesthesia原文命題：主體：celebrities such as Lady Gaga and Pharrell Williams狀態：claiming to have it比較結果：原文有例子，缺少 “a lot” 的數量證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：缺少核心數量資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 celebrities 原字重現時，很容易直接選 TRUE。真正要檢查的是 a lot。例子不等於大量，尤其 IELTS 很常用 such as 來考「例子」和「普遍數量」的差異。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most scientists believe that synaesthesia runs in families.”",
+      "translation": "大多數科學家相信 synaesthesia 會在家族中遺傳。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 hereditary / runs in families。定位詞是 scientists believe、runs in families、hereditary。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another fascinating side of synaesthesia is the way it could potentially benefit future generations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "synaesthesia 另一個迷人面向，是它可能造福未來世代。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If that was true, researchers asked, then might it not be possible that synaesthesia can actually be taught?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者問，如果這是真的，那麼 synaesthesia 會不會其實可以被教出來？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 會討論 synaesthesia 形成原因，尤其是 hereditary 和environment 的關係。題目問 runs in families，因此本段很可能有答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“runs in families”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Most scientists believe”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 runs in families，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“synaesthesia is predominantly considered to be a hereditary condition…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "synaesthesia 主要被認為是一種遺傳情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hereditary” 就是 runs in families 的直接同義概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“This was particularly peculiar as synaesthesia is predominantly considered to be a hereditary condition…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點特別奇怪，因為 synaesthesia 主要被認為是一種遺傳情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句中的 “predominantly considered” 表示主要被認為、普遍被認為。題目用 “Most scientists believe” 作概括，雖然原文沒有逐字寫 scientists，但在研究語境中，這是對 prevailing scientific view 的合理改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hereditary condition” 指會由遺傳因素影響的情況，也就是 runs in families。題目命題：主體：Most scientists觀點：synaesthesia runs in families原文命題：主體：general research view觀點：synaesthesia is predominantly considered hereditary比較結果：方向一致，核心概念一致。答案判斷：題目和原文意思相符，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 後半說 environment might play a determining role，這可能令人以為 hereditary 被否定。其實原文的邏輯是：正因為 synaesthesia 主要被視為 hereditary，所以磁石研究顯得peculiar。文章提出環境也可能重要，沒有取消 hereditary 這個主流看法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "memory",
+      "answerKey": "memory",
+      "type": "Summary Completion",
+      "prompt": "“Recent research has suggested that teaching synaesthesia to non-synaesthetes can enhance 12 __________ and guard against the deterioration of cognitive 13 __________…”",
+      "translation": "近期研究指出，把 synaesthesia 教給非共感者，能增強 12 __________，並防止 cognitive 13__________ 退化。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 enhance，後面和 cognitive function 分開。enhance 後通常接名詞，例如 memory、ability、performance。定位詞是 teaching synaesthesia、enhance、non-synaesthetes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As it turns out, the benefits of teaching synaesthesia would be tremendous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果顯示，教授 synaesthesia 的好處會非常巨大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rothen and his colleagues corroborate the theory: in a paper published in 2011, they suggest that synaesthesia might be more than a hereditary condition, as the non-synaesthetic subjects of their study were able to mimic synaesthetic associations long after leaving the lab.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rothen 和同事支持這個理論：他們指出 synaesthesia 可能不只是一種遺傳情況，因為非共感受試者離開實驗室很久後仍能模仿 synaesthetic associations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph F 正在講 teaching synaesthesia 的 benefits，以及non-synaesthetic subjects 能否模仿。Summary 也談 teaching synaesthesia，因此目標段落是 F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“teaching synaesthesia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enhance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“non-synaesthetes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to research conducted by Dr Clare Jonas at the University of East London, teaching people to create grapheme-colour associations the same way as a synaesthete may have the possibility to improve cognitive function and memory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 East London 大學 Dr Clare Jonas 的研究，教人像共感者一樣建立 grapheme-colour associations，可能有機會改善認知功能和記憶。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “improve cognitive function and memory”。題目把 improve 改成 enhance。空格 12 放在enhance 後，應填可被增強的名詞。由於 summary 後半已經寫 “cognitive 13”，所以 Question 12對應剩下的 memory。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "enhance= improve teaching synaesthesia= teaching people to create grapheme-colour associations the same way as a synaesthete memory= memory答案形式： memory 是 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 function。原文有 cognitive function and memory，但題目後面已經留給 Question 13"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“cognitive ___”。按文法和順序，Question 12 應填 memory。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "function",
+      "answerKey": "function",
+      "type": "Summary Completion",
+      "prompt": "“...guard against the deterioration of cognitive 13 __________…”",
+      "translation": "……防止 cognitive 13 __________ 的退化。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 cognitive，應填一個名詞，形成固定搭配 cognitive function。題目中的 deterioration 對應原文中的 decline。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As it turns out, the benefits of teaching synaesthesia would be tremendous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果顯示，教授 synaesthesia 的好處會非常巨大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rothen and his colleagues corroborate the theory…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rothen 和同事支持這個理論……Paragraph F 講 teaching synaesthesia 的 benefits，包含 improve cognitive function and memory，以及 older people 的 cognitive decline。因此 Question 13 仍在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cognitive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“deterioration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“guard against”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩個關鍵位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“improve cognitive function and memory”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "改善認知功能和記憶。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“one possibility is guarding against cognitive decline in older people…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一種可能性，是幫助年長者抵禦認知衰退。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩句合併成 “guard against the deterioration of cognitive ___”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “cognitive decline” 指認知衰退。題目改寫成 “deterioration of cognitive ___”， deterioration 和 decline 意思接近。從搭配看，最自然也最符合原文的是 cognitive function。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完整對應是： cognitive decline= deterioration of cognitive function improve cognitive function= enhance / protect cognitive function因此答案是 function。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： function 是 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 decline。雖然原文有 “cognitive decline”，但題目已經用了 “deterioration” 表示 decline 的意思。如果填 decline，句子會變成 “deterioration of cognitive decline”，語意重複且不自然。空格要補的是 decline 所影響的對象：function。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "teach",
+      "answerKey": "teach",
+      "type": "Summary Completion",
+      "prompt": "“...unfortunately, it might be a while before we come up with a beneficial way to 14 __________it to the general population.”",
+      "translation": "可惜，我們可能還要一段時間，才能想出一個有益的方法，把它 14 __________ 給一般大眾。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “way to”，所以答案應是動詞原形。空格後是 “it to the general population”，最自然是teach it to people。定位詞是 “it might be a while”、 “general population”、 “teach”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is obviously still a long way to go before we can fully understand synaesthesia and what causes it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很明顯，在我們完全理解 synaesthesia 及其成因之前，仍有很長一段路要走。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once we do, however, it might not be too long before we find out how to teach non-synaesthetes how to imitate its symptoms in a way that induces the same benefits 4.4% of the world’s population currently enjoy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，一旦我們做到這點，也許不用太久，我們便能找到方法，教非共感者模仿其症狀，並引發目前世界 4.4% 人口享有的同樣好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph G 是未來展望：仍需研究，但未來可能找到方法教non-synaesthetes。Question 14 的 “might be a while” 和 “general population” 正好對應這個結尾。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“way to”"
+            },
+            {
+              "kind": "quote",
+              "text": "“general population”"
+            },
+            {
+              "kind": "quote",
+              "text": "“teach”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“we find out how to teach non-synaesthetes how to imitate its symptoms…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們找到方法，教非共感者如何模仿其症狀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 teach 就是答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 句中的 it 指 synaesthesia。題目說 “a beneficial way to ___ it to the general population”，意思是把 synaesthesia 的有益形式推廣給一般人。原文的說法更具體： teach non-synaesthetes教沒有 synaesthesia 的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "how to imitate its symptoms如何模仿其症狀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "in a way that induces the same benefits以一種能帶來同樣好處的方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此空格填 teach。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "general population= non-synaesthetes / people outside the 4.4%come up with a beneficial way to teach it= find out how to teach non-synaesthetes how to imitate its symptoms答案形式： teach 是 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 imitate。原文確實有 “imitate its symptoms”，但題目句型是 “way to ___ it to the general population”。英文可以 teach it to the general population；不自然說 imitate it to the general population。文法會幫你排除 imitate。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Synaesthesia.pdf",
+    "sha256": "dad6aece8449da106e71905e80e59d3a83fbd8b842a4a4e673c4037a6eb12450",
+    "pageCount": 30
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句叫讀者想像一個滿是數字 5 的方格，當中藏著一個大寫 S。末句說 grapheme-colour synaesthete 只需一瞬間，便能因 5 和 S 呈現不同顏色而找出那個 S。只看首尾句，可以判斷本段是用視覺例子引入 grapheme-colour synaesthesia：一般人要辛苦辨認形狀差異，但這類共感者可直接靠顏色差異快速辨識。"
+      },
+      {
+        "number": "B",
+        "summary": "首句解釋 synaesthesia 來自希臘文，意思大約是 “senses coming together”，即不同感官結合。末句說這些感官聯想都有共同特徵：不由自主、無法壓抑，而且通常長時間保持穩定。只看首尾句，可以判斷本段功能是定義和分類：它會列舉多種 synaesthesia 形式，例如字有味道、氣味有顏色、字母有人格，並總結共同特點。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 synaesthesia 最早在 19 世紀初由德國醫生 Georg Sachs 記錄。末句說 Baron-Cohen 團隊用 fMRI 證明，受試者蒙眼接受聲音刺激時，視覺相關腦區仍然活躍。只看首尾句，可以判斷本段是簡短歷史：從早期個人記錄，到 1990 年代中期出現實證研究，證明 synaesthesia 具有可觀察的神經基礎。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 synaesthesia 特別有趣，因為它根本不是 illness。末句說整體而言，它普遍被視為blessing，多於 curse，並常與 intelligence 和 creativity 連結。只看首尾句，可以估計本段會討論synaesthesia 的好壞兩面：它通常不被視為疾病，部分人甚至覺得它豐富生活；但段中也會提及少量 drawback，例如難聞味道或名字與人格不合帶來不適。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 synaesthesia 另一個迷人面向，是它可能造福未來世代。末句提出問題：如果環境真的能影響 synaesthetic associations，那麼 synaesthesia 是否可以被教出來？只看首尾句，可以判斷本段介紹一項研究和新的可能性：grapheme-colour synaesthetes 的顏色配對相似，可能與童年玩具磁石有關，暗示配對未必全然隨機。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說如果能教 synaesthesia，其好處會非常巨大。末句說 Rothen 等人的研究支持這個理論：非共感者離開實驗室後，仍能長時間模仿 synaesthetic associations。只看首尾句，可以判斷本段聚焦實用價值：教人建立 grapheme-colour associations 可能改善認知功能和記憶，甚至用作mnemonics，幫助年長者抵禦 cognitive decline。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說我們距離完全理解 synaesthesia 及其成因仍有很長一段路。末句預測，一旦理解更深入，或許不久後便能教 non-synaesthetes 模仿症狀，取得目前 4.4% 人口享有的好處。只看首尾句，可以判斷本段是結論和未來展望：研究仍未完成，但作者預測未來可能把 synaesthesia 的benefits 推廣到一般人身上。"
+      }
+    ]
+  }
+}

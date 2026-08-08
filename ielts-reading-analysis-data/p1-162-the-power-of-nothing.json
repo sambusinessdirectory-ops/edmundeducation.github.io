@@ -1,0 +1,3756 @@
+{
+  "id": "p1-162-the-power-of-nothing",
+  "catalogueId": "p1-162",
+  "catalogueIds": [
+    "p1-162"
+  ],
+  "passage": 1,
+  "title": "The Power of Nothing",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "D",
+    "A",
+    "G",
+    "B",
+    "H",
+    "F",
+    "A",
+    "D",
+    "C",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D — should last for a minimum period",
+      "answerKey": "D — should last for a minimum period",
+      "type": "Question Analysis",
+      "prompt": "“Sessions with an alternative practitioner ______.”",
+      "translation": "與另類療法從業者進行的治療時段 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 sentence endings。題目要求我們把句子前半部分和正確句尾配對。關鍵是要找原文中對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sessions” 的描述，尤其是治療時段的長度、形式或要求。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A第一句：“Want to devise a new form of alternative medicine?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想設計一種新的另類療法嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Something invented off the top of your head could not possibly work, could it?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你心裡可能會說：一種隨口想出來的東西，不可能真的有效吧？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以先猜 Paragraph A 的功能：作者用半諷刺、半指導式的語氣，列出一套「設計另類療法」的配方。第一句像在問讀者要不要創造新療法，最後一句則挑戰讀者的直覺：這種隨意發明的療法真的會有效嗎？所以這段大概率會列出另類療法常見的外在包裝和操作方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個段落功能和 Question 1 很相關，因為題目問 “Sessions with an alternative practitioner”，即另類療法從業者的治療時段應該有甚麼特點。Paragraph A 正正列出治療時段應如何安排。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sessions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph A 時，要找和 session / treatment / patients 有關的字。原文中直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“each session with your patients should last at least half an hour”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你和病人的每一次治療時段都應該至少持續半小時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句同時包含 “session” 和 “last”，所以它是最直接的答案位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your treatment should involve physical contact, and each session with your patients should last at least half an hour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的治療應該包含身體接觸，而且每一次與病人的治療時段都應該至少持續半小時。"
+            },
+            {
+              "kind": "label",
+              "text": "這句中最重要的部分是："
+            },
+            {
+              "kind": "quote",
+              "text": "“each session … should last at least half an hour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“each session” 對應題目 “Sessions”。“should last” 表示應該持續。“at least half an hour” 表示最低半小時，即有一個最低時長要求。選項 D：“should last for a minimum period”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應該持續一段最低時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括 “should last at least half an hour”。at least 是關鍵，因為它表示「不少於」，也就是minimum period。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sessions with an alternative practitioner”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“each session with your patients”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“should last for a minimum period”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“should last at least half an hour”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： sessions= each session minimum period= at least half an hour should last= should last所以完整句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sessions with an alternative practitioner should last for a minimum period.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：另類療法的治療時段應有最低時長要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 D。因為原文明確說每次 session 至少半小時，而 D 用概括語言表達同一件事。這不是推測，也不是背景知識；它是原文直接支持的配對。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 Paragraph A 還提到 “physical contact”。學生可能被治療方式吸引，但題目主語是 “Sessions”，問的是時段本身，不是治療是否要身體接觸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是選項 E “must be treated at the right time”。Paragraph B 的確提到 “at just the right time”，但那是說病人的 illness 有時剛好會自然好轉，治療者可能因此得到功勞。這和Question 1 的 “Sessions” 沒有直接配合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “at least half an hour”。看到 at least，就要想到 minimum。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A — should be easy to understand",
+      "answerKey": "A — should be easy to understand",
+      "type": "Question Analysis",
+      "prompt": "“An alternative practitioner’s description of a treatment ______.”",
+      "translation": "另類療法從業者對治療的描述 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題同樣是 sentence endings。題目問的不是治療本身是否有效，也不是治療過程如何，而是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“description of a treatment”，即療法應該如何被描述、如何被包裝成語言。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A第一句：“Want to devise a new form of alternative medicine?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想設計一種新的另類療法嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Something invented off the top of your head could not possibly work, could it?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種隨口想出來的東西，不可能真的有效吧？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph A 正在列出一套「另類療法配方」。作者像在教讀者如何發明一種看似可信的治療方式。這段裡自然會包含治療者的態度、病人參與、收費方式，以及療法的語言包裝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 2 的 “description” 很明顯會對應這段中和 “Describe your treatment…” 有關的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“description”"
+            },
+            {
+              "kind": "quote",
+              "text": "“treatment”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph A，很快看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Describe your treatment in familiar words, but embroidered with a hint of mysticism…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用熟悉的字眼描述你的治療，但再加上一點神秘色彩作裝飾……這一句直接出現 “Describe your treatment”，和題目 “description of a treatment” 是高度對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Describe your treatment in familiar words, but embroidered with a hint of mysticism: energy fields, energy flows, energy blocks, meridians, forces, auras, rhythms and the like.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用熟悉的字眼描述你的治療，但再加上一點神秘色彩作裝飾，例如能量場、能量流、能量阻塞、經絡、力量、氣場、節奏等等。"
+            },
+            {
+              "kind": "label",
+              "text": "這句的核心在："
+            },
+            {
+              "kind": "quote",
+              "text": "“in familiar words”"
+            },
+            {
+              "kind": "quote",
+              "text": "“familiar” 指熟悉的、容易被人理解的。作者說療法描述要用 familiar words，意思是病人聽起來不應太陌生或太難懂。選項 A 說：“should be easy to understand”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應該容易理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 “in familiar words” 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要小心，原文後面還有 “embroidered with a hint of mysticism”。“embroidered” 在這裡不是字面上的繡花，而是「加上裝飾」。作者意思是：描述要用熟悉字眼作基礎，再加入一些神秘元素，使療法聽起來有深度和特殊力量。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“An alternative practitioner’s description of a treatment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Describe your treatment…”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“should be easy to understand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“in familiar words”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： description= describe easy to understand= in familiar words所以完整句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“An alternative practitioner’s description of a treatment should be easy to understand.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：另類療法從業者描述治療時，應用病人熟悉、容易理解的語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 A。原文直接說療法要用 familiar words 描述，而 A 準確概括這一點。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一個中伏位是 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“should not involve any mysticism”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不應涉及任何神秘色彩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文方向不合。原文說描述要 “embroidered with a hint of mysticism”，即要加上一點神秘感。題目問 description，所以學生可能看到 mysticism 就選 C；但 C 說不應有 mysticism，原文卻說要有一點 mysticism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是把 “familiar words” 理解得太弱。這不是單純說用普通字，而是說療法描述要讓病人容易接受和理解。選項 A 抓住的是語言可理解性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正答案來自 “in familiar words”，不是後面那串 energy fields、auras、rhythms 的例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "G — can earn the practitioner a good living",
+      "answerKey": "G — can earn the practitioner a good living",
+      "type": "Question Analysis",
+      "prompt": "“An alternative practitioner who believes in the treatment ______.”",
+      "translation": "一位相信自己療法的另類療法從業者 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 “practitioner who believes in the treatment” 的結果。題目重點不只在 alternative practitioner，而在 “believes”。所以掃描時要找 believe、belief、genuinely believe、convincing 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Well, yes, it could—and often well enough to earn you a living.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嗯，是的，它可以有效，而且往往有效到足以讓你靠它謀生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your healing power would be the outcome of a paradoxical force that conventional medicine recognises but remains oddly ambivalent about: the placebo effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的治癒力量會來自一種矛盾的力量；傳統醫學承認它，卻對它抱有奇怪的矛盾態度：安慰劑效應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以先猜 Paragraph B 的功能：這段回答 Paragraph A 結尾的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 問「隨口想出的療法真的會有效嗎？」Paragraph B 回答：是的，有時甚至足以讓你謀生。段末再揭示真正力量來自 placebo effect。這段會解釋另類療法為何看似有效，以及從業者如何因此得到收入或功勞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 3 問相信療法的 practitioner，因此很可能在 Paragraph B 前半部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“believes in the treatment”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“It could provide a good living if you are sufficiently convincing or, better still, genuinely believe in your therapy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你足夠有說服力，或者更理想地說，如果你真心相信自己的療法，它可以為你帶來不錯的收入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接包含 “genuinely believe in your therapy”，正好對應題目 “believes in the treatment”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It could provide a good living if you are sufficiently convincing or, better still, genuinely believe in your therapy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你足夠有說服力，或者更理想地說，如果你真心相信自己的療法，它可以為你帶來不錯的收入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “It” 指上一段那種自行設計的 alternative medicine。"
+            },
+            {
+              "kind": "quote",
+              "text": "“provide a good living” 指提供不錯的生計，即能靠它賺到足夠甚至不錯的收入。“genuinely believe in your therapy” 對應題目中的 “believes in the treatment”。選項 G：“can earn the practitioner a good living”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以令從業者獲得不錯的收入／謀生能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文 “provide a good living” 幾乎是直接改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“An alternative practitioner who believes in the treatment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“genuinely believe in your therapy”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 G："
+            },
+            {
+              "kind": "quote",
+              "text": "“can earn the practitioner a good living”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“It could provide a good living”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： believes in the treatment= genuinely believe in your therapy can earn the practitioner a good living= could provide a good living所以完整句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“An alternative practitioner who believes in the treatment can earn the practitioner a good living.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更自然地理解就是：真心相信自己療法的另類療法從業者，可能靠它獲得不錯的收入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 G。原文直接把 “genuinely believe in your therapy” 和 “provide a good living” 連在同一句中，證據非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 Question 3 和 Question 5 都涉及 alternative treatment 的效果。Question 3 問的是 practitioner 的結果，即從業者可以獲得甚麼；Question 5 問的是 patients 的 improvements，即病人改善和療法的關係。兩題主語不同，答案也不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “convincing”。原文說足夠有說服力也可能賺到收入，但題目特別寫 “who believes in the treatment”，所以要抓 “genuinely believe in your therapy”。這裡不是單純靠騙術或表演力，原文特別說 “better still”，意思是真心相信療法甚至更有利。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “provide a good living”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B — may improve on their own",
+      "answerKey": "B — may improve on their own",
+      "type": "Question Analysis",
+      "prompt": "“The illnesses of patients who believe in alternative medicine ______.”",
+      "translation": "相信另類療法的病人的疾病 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要把 “illnesses” 和正確句尾配對。題目重點是 illnesses 本身如何變化，而不是治療者如何治療，也不是 placebo effect 如何產生。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Well, yes, it could—and often well enough to earn you a living.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "是的，它可以有效，而且往往有效到足以讓你靠它謀生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your healing power would be the outcome of a paradoxical force that conventional medicine recognises but remains oddly ambivalent about: the placebo effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的治癒力量會來自一種矛盾的力量；傳統醫學承認它，卻對它抱有奇怪的矛盾態度：安慰劑效應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的功能是解釋為何看似隨意發明的療法仍可能有效。這段會提供兩種解釋：部分病情自然好轉，部分改善來自 placebo effect。Question 4 問 illnesses，所以應先找與 illness / get better 有關的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“illnesses”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many illnesses get better on their own…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多疾病會自行好轉……這句和題目主語 “The illnesses…” 直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many illnesses get better on their own, so if you are lucky and administer your treatment at just the right time you will get the credit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多疾病會自行好轉，所以如果你夠幸運，剛好在正確時機施行治療，你就會得到功勞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩層意思。"
+            },
+            {
+              "kind": "label",
+              "text": "第一層："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many illnesses get better on their own”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多疾病本來就可能自己變好。這不是說療法造成了改善，而是說病情可能自然改善。"
+            },
+            {
+              "kind": "label",
+              "text": "第二層："
+            },
+            {
+              "kind": "quote",
+              "text": "“if you are lucky and administer your treatment at just the right time you will get the credit”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果治療者剛好在病情自然轉好的時候施行療法，別人便可能把功勞歸給治療者。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“may improve on their own”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能自行改善。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這與 “get better on their own” 完全配合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“The illnesses of patients who believe in alternative medicine”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many illnesses”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“may improve on their own”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“get better on their own”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： illnesses= illnesses improve= get better on their own= on their own may= many illnesses can / often do, depending on case"
+            },
+            {
+              "kind": "label",
+              "text": "完整句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The illnesses of patients who believe in alternative medicine may improve on their own.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：相信另類療法的病人，其疾病有時可能自然好轉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 B。原文直接說 “Many illnesses get better on their own”，B 是幾乎逐字意義配對。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一個中伏位是 E："
+            },
+            {
+              "kind": "quote",
+              "text": "“must be treated at the right time”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "必須在正確時間接受治療。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 確實有 “at just the right time”，但原文不是說 illnesses 必須在正確時間被治療。它說的是，如果治療者剛好在病情自然好轉的時候施行治療，治療者會得到功勞。E 把 “right time”抽出來後改變了句子重點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是題目中的 “patients who believe in alternative medicine”。學生可能因此想到placebo effect。但這題主語是 “illnesses”，而最直接配對是 “illnesses get better on their own”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "placebo effect 會在 Question 5 和 Question 6 中更重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正答案來自 “get better on their own”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "H — need not depend on a specific treatment",
+      "answerKey": "H — need not depend on a specific treatment",
+      "type": "Question Analysis",
+      "prompt": "“Improvements experienced by patients receiving alternative treatment ______.”",
+      "translation": "接受另類療法的病人所經歷的改善 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要處理 “improvements” 的來源。題目問的是病人接受另類治療後的改善，是否必然來自具體療法本身。這題需要把 Paragraph B 和 Paragraph C 的意思連起來。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B 和 Paragraph C Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Well, yes, it could—and often well enough to earn you a living.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "是的，它可以有效，而且往往有效到足以讓你靠它謀生。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your healing power would be the outcome of a paradoxical force that conventional medicine recognises but remains oddly ambivalent about: the placebo effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的治癒力量會來自一種矛盾的力量；傳統醫學承認它，卻對它抱有奇怪的矛盾態度：安慰劑效應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一和最後一句也值得看。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一條核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Placebos are treatments that have no direct effect on the body, yet still work because the patient has faith in their power to heal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "安慰劑是對身體沒有直接作用的治療，但它們仍然有效，因為病人相信它們有治癒力量。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the placebo effect is a powerful part of all medical care, orthodox or otherwise, though its role is often neglected or misunderstood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，安慰劑效應是所有醫療照護中強而有力的一部分，不論是正統醫療還是其他療法，只是它的角色常被忽視或誤解。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 後可以猜到",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 先說另類療法可能帶來改善，Paragraph C 則解釋改善可能來自"
+            },
+            {
+              "kind": "paragraph",
+              "text": "placebo effect。Question 5 的 “Improvements experienced by patients” 正好要看這兩段如何解釋改善來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Improvements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“patients receiving alternative treatment”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the improvement really would be down to you.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一些改善確實會歸功於你。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著段末說這種 healing power 來自 placebo effect。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 進一步解釋 placebo："
+            },
+            {
+              "kind": "quote",
+              "text": "“treatments that have no direct effect on the body, yet still work because the patient has faith…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對身體沒有直接作用，卻因病人相信而仍然有效的治療。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the improvement really would be down to you.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一些改善確實會歸功於你。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句說病人的改善不全是自然好轉；有一部分確實與治療者有關。可是下一句立即解釋，這種力量不是來自神秘治療本身的直接身體作用，而是來自 placebo effect。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your healing power would be the outcome of a paradoxical force… the placebo effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的治癒力量會來自一種矛盾的力量：安慰劑效應。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Placebos are treatments that have no direct effect on the body, yet still work because the patient has faith in their power to heal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "安慰劑是對身體沒有直接作用的治療，但它們仍然有效，因為病人相信它們有治癒力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句合起來說明：病人的改善可以真實發生，但不一定依靠某一種具體療法的直接醫學作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要病人相信治療有用，placebo effect 也可能產生改善。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 H："
+            },
+            {
+              "kind": "quote",
+              "text": "“need not depend on a specific treatment”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不一定依賴某一種具體治療。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括 placebo effect 的邏輯。原文還說 placebo 可以是 dummy pill、sticking plaster、crystal 甚至 operation，範圍很廣："
+            },
+            {
+              "kind": "quote",
+              "text": "“it applies just as much to any device or procedure…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它同樣可以適用於任何器具或程序……這進一步支持 H。改善重點在病人的信念和治療情境，不限於某一種特定治療。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Improvements experienced by patients receiving alternative treatment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the improvement…”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 H："
+            },
+            {
+              "kind": "quote",
+              "text": "“need not depend on a specific treatment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“treatments that have no direct effect on the body, yet still work because the patient has faith…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： improvements= improvement / still work need not depend on a specific treatment= placebo can work even without direct bodily effect; it can apply to many devices or procedures"
+            },
+            {
+              "kind": "label",
+              "text": "完整句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Improvements experienced by patients receiving alternative treatment need not depend on a specific treatment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：病人在另類療法中感受到的改善，不一定由某一種特定療法本身造成，也可能來自安慰劑效應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 H。這題不是只看一個單字，而是要理解 Paragraph B 至 C 的連接：病人改善可能真實存在，但原因可來自 placebo effect，而 placebo effect 不限於某一種具體療法。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 B “may improve on their own”。這個選項適合 Question 4，因為 Question 4 的主語是 illnesses。Question 5 的主語是 improvements，重點是改善是否依賴具體療法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 G “can earn the practitioner a good living”。這適合 Question 3，因為那題主語是practitioner。Question 5 問的是病人改善，不是從業者收入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是把 placebo effect 理解為「完全無效」。原文說 placebo 對身體沒有 direct effect，但仍可能 work。這裡要分清 direct bodily effect 和 real patient improvement。沒有直接藥理作用，仍可以透過信念和心理生理機制帶來改善。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "F — should receive more recognition",
+      "answerKey": "F — should receive more recognition",
+      "type": "Question Analysis",
+      "prompt": "“Conventional medicine’s view of the placebo effect ______.”",
+      "translation": "傳統醫學對安慰劑效應的看法 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 conventional medicine 如何看待 placebo effect。題目重點是 “view”，即態度、立場或評價。答案很可能出現在提到 conventional medicine、orthodox medicine、neglected、misunderstood 等詞的地方。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B 和 Paragraph C，核心在 Paragraph C Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your healing power would be the outcome of a paradoxical force that conventional medicine recognises but remains oddly ambivalent about: the placebo effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的治癒力量會來自一種矛盾的力量；傳統醫學承認它，卻對它抱有奇怪的矛盾態度：安慰劑效應。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一條核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Placebos are treatments that have no direct effect on the body, yet still work because the patient has faith in their power to heal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "安慰劑是對身體沒有直接作用的治療，但它們仍然有效，因為病人相信它們有治癒力量。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the placebo effect is a powerful part of all medical care, orthodox or otherwise, though its role is often neglected or misunderstood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，安慰劑效應是所有醫療照護中強而有力的一部分，不論正統醫療還是其他療法，只是它的角色常被忽視或誤解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以判斷這部分的功能是：定義 placebo effect，並指出它在醫療中的重要性和被忽視的狀態。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional medicine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“placebo effect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“view”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有兩個關鍵位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“conventional medicine recognises but remains oddly ambivalent about…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“its role is often neglected or misunderstood”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩處共同說明傳統醫學對 placebo effect 的態度：它承認存在，卻沒有充分重視。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“conventional medicine recognises but remains oddly ambivalent about: the placebo effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統醫學承認安慰劑效應，卻對它抱有奇怪的矛盾態度。"
+            },
+            {
+              "kind": "quote",
+              "text": "“recognises” 表示承認。“ambivalent” 表示態度矛盾、猶豫、不完全接受。這說明傳統醫學不是完全否定 placebo effect，但也未充分擁抱它。關鍵句二：“In fact, the placebo effect is a powerful part of all medical care, orthodox or otherwise, though its role is often neglected or misunderstood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，安慰劑效應是所有醫療照護中強而有力的一部分，不論正統醫療還是其他療法，只是它的角色常被忽視或誤解。"
+            },
+            {
+              "kind": "quote",
+              "text": "“powerful part of all medical care” 表示它很重要。“neglected or misunderstood” 表示它常被忽略或誤解。選項 F：“should receive more recognition”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應該得到更多承認／重視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括原文態度：它已被 conventional medicine recognised，但仍被 neglected or misunderstood，所以應得到更多認可和重視。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional medicine’s view of the placebo effect”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“conventional medicine recognises but remains oddly ambivalent about…”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 F："
+            },
+            {
+              "kind": "quote",
+              "text": "“should receive more recognition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“its role is often neglected or misunderstood”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： neglected= not given enough attention misunderstood= not properly recognised should receive more recognition= deserves more attention and proper understanding"
+            },
+            {
+              "kind": "label",
+              "text": "完整句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional medicine’s view of the placebo effect should receive more recognition.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更自然地理解：從傳統醫學的角度來看，安慰劑效應雖然被承認，但仍應得到更多重視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 F。原文說 placebo effect 是所有醫療中的強大部分，但其角色常被忽視或誤解。這直接支持 “should receive more recognition”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 H “need not depend on a specific treatment”。這是 placebo effect 本身的特點，但 Question 6 問 conventional medicine 的 view，不是 placebo effect 的機制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是把 “recognises” 看成已經充分重視。原文確實說 conventional medicine recognises placebo effect，但接著加上 “ambivalent”、“neglected”、“misunderstood”。所以答案要反映「承認存在但重視不足」這一層。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 “orthodox or otherwise”。orthodox 在這裡接近 conventional medicine，表示正統醫療。原文說 placebo effect 屬於所有醫療的一部分，這加強了它應得到更多理解和重視。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — To show that emotions can affect the body",
+      "answerKey": "A — To show that emotions can affect the body",
+      "type": "Question Analysis",
+      "prompt": "“In paragraph E, why does the writer mention anger and sadness?”",
+      "translation": "在 Paragraph E 中，作者為甚麼提到憤怒和悲傷？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple choice，問作者提到例子的目的。遇到 “why does the writer mention…” 題，不能只解釋 anger 和 sadness 是甚麼；要問：作者用這兩個例子來支持哪一句主題句？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At one level, it should come as no surprise that our state of mind can influence our physiology: anger opens the superficial blood vessels of the face; sadness pumps the tear glands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某個層面上，我們的心理狀態能影響生理，這並不應令人驚訝：憤怒會令面部表層血管擴張；悲傷會刺激淚腺分泌眼淚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, attention has turned to the endorphins, morphine-like neurochemicals known to help control pain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這方面，研究注意力已轉向內啡肽，即類似嗎啡、已知有助控制疼痛的神經化學物質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以猜 Paragraph E 的功能：這段先提出一個一般原則——心理狀態能影響身體；然後轉入 placebo effect 的醫學機制研究，特別是疼痛控制和內啡肽。anger 和sadness 出現在第一句中，功能應該是用具體例子說明心理能影響身體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“anger”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sadness”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一正式句直接出現這兩個詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“anger opens the superficial blood vessels of the face; sadness pumps the tear glands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "憤怒會令面部表層血管擴張；悲傷會刺激淚腺。"
+            },
+            {
+              "kind": "label",
+              "text": "這兩個例子前面有更重要的概括句："
+            },
+            {
+              "kind": "quote",
+              "text": "“our state of mind can influence our physiology”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的心理狀態能影響身體生理。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At one level, it should come as no surprise that our state of mind can influence our physiology: anger opens the superficial blood vessels of the face; sadness pumps the tear glands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某個層面上，我們的心理狀態能影響生理，這並不應令人驚訝：憤怒會令面部表層血管擴張；悲傷會刺激淚腺分泌眼淚。"
+            },
+            {
+              "kind": "label",
+              "text": "這句中冒號前是主張："
+            },
+            {
+              "kind": "quote",
+              "text": "“our state of mind can influence our physiology”"
+            },
+            {
+              "kind": "label",
+              "text": "冒號後是例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“anger opens…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sadness pumps…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 anger 和 sadness 的作用，是讓讀者看到 emotional states 如何帶來 bodily changes。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“To show that emotions can affect the body”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了說明情緒可以影響身體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 “state of mind can influence our physiology” 完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。"
+            },
+            {
+              "kind": "quote",
+              "text": "“emotions” 對應 anger 和 sadness；“affect the body” 對應 “influence our physiology”。 B：“To show that scientists do not understand how the mind influences the body”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句混合了後文 “exactly how placebos work … is still largely unknown”，但 anger 和 sadness不是用來說明科學家不懂心理如何影響身體。它們是用來展示心理影響身體這件事本身並不奇怪。"
+            },
+            {
+              "kind": "label",
+              "text": "C："
+            },
+            {
+              "kind": "quote",
+              "text": "“To show that research on the placebo effect is limited”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 後面確實說 “Most of the scant research…”，即研究不多。但 anger 和 sadness 出現在前面，用來支持心理影響生理的基本觀點，不是用來說研究數量有限。"
+            },
+            {
+              "kind": "label",
+              "text": "D："
+            },
+            {
+              "kind": "quote",
+              "text": "“To show that the way placebos work is not yet understood”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和下一句 “But exactly how placebos work…” 有關。作者先說心理影響身體不奇怪，再轉折說placebo 的具體運作方式仍不清楚。anger 和 sadness 屬於轉折前的例子，不是轉折後的未知機制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“our state of mind can influence our physiology”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“emotions can affect the body”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： state of mind= emotions / mental state influence= affect physiology= body functions所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 D。因為同一段馬上說 “exactly how placebos work … is still largely unknown”，學生可能把整段後半的內容套到 anger 和 sadness 身上。其實題目問的是作者為甚麼提到 anger and sadness。這兩個例子緊貼冒號前面的句子，功能是展示心理狀態影響生理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要教學生一個方法：看到例子，先看例子前面的概括句。冒號前通常就是例子的功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D — Pain is common and lends itself to experimental study",
+      "answerKey": "D — Pain is common and lends itself to experimental study",
+      "type": "Question Analysis",
+      "prompt": "“Why has pain control attracted most of the research attention?”",
+      "translation": "為甚麼疼痛控制吸引了最多研究注意？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple choice，問原因。題幹中的 “why” 和 “pain control” 是核心。掃描時要找文章中關於 research focused on pain 的句子，尤其是 because / because it / lends itself to 等原因表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At one level, it should come as no surprise that our state of mind can influence our physiology: anger opens the superficial blood vessels of the face; sadness pumps the tear glands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某個層面上，我們的心理狀態能影響生理，這不應令人驚訝：憤怒會令面部血管擴張；悲傷會刺激淚腺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, attention has turned to the endorphins, morphine-like neurochemicals known to help control pain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這方面，研究注意力已轉向內啡肽，即類似嗎啡、已知有助控制疼痛的神經化學物質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後可見，Paragraph E 從心理影響身體，轉到 placebo effect 的研究，最後落到 pain control和 endorphins。因此 Question 8 的答案應在 Paragraph E 中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“pain control”"
+            },
+            {
+              "kind": "quote",
+              "text": "“research attention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“why”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有一句非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the scant research done so far has focused on the control of pain because it’s one of the commonest complaints and lends itself to experimental study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，為數不多的研究大多集中在疼痛控制上，因為疼痛是最常見的投訴之一，而且適合進行實驗研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句同時包含 pain、research、focused、because，是本題答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the scant research done so far has focused on the control of pain because it’s one of the commonest complaints and lends itself to experimental study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，有限的研究大多集中於疼痛控制，因為疼痛是最常見的投訴之一，而且適合實驗研究。"
+            },
+            {
+              "kind": "label",
+              "text": "這句有兩個原因：第一："
+            },
+            {
+              "kind": "quote",
+              "text": "“it’s one of the commonest complaints”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "疼痛是最常見的病人投訴之一。"
+            },
+            {
+              "kind": "label",
+              "text": "第二："
+            },
+            {
+              "kind": "quote",
+              "text": "“lends itself to experimental study”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它適合用來做實驗研究。"
+            },
+            {
+              "kind": "quote",
+              "text": "“lends itself to” 是一個重要片語，意思是「適合某用途」。所以 pain control 被研究得最多，並非只因為 endorphins 被發現，也不是因為研究人員很少，而是因為疼痛常見且容易設計實驗。選項 D：“Pain is common and lends itself to experimental study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "疼痛很常見，而且適合實驗研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾乎直接重述原文。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 正確。"
+            },
+            {
+              "kind": "quote",
+              "text": "“common” 對應 “one of the commonest complaints”；“lends itself to experimental study” 完全原文重現。 A：“Scientists have discovered that endorphins reduce pain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文後面確實說 endorphins are known to help control pain，但這不是 pain control 吸引最多研究的原因。它是研究焦點轉向 endorphins 的後續內容。"
+            },
+            {
+              "kind": "label",
+              "text": "B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only a limited number of researchers have relevant experience.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “scant research”，即相關研究數量有限，不是說研究者數量有限，更沒有說只有少數研究者有經驗。"
+            },
+            {
+              "kind": "label",
+              "text": "C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pain-reducing chemicals may also be involved in the placebo effect.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 Paragraph F 的 Don Price 引言有關：“neurochemicals involved in transmitting pain impulses…” 可能參與 placebo response。但 Question 8 問的是為何 pain control 吸引最多研究注意，答案在 Paragraph E 的 because 句。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why has pain control attracted most of the research attention?”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the scant research… has focused on the control of pain because…”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pain is common and lends itself to experimental study.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“it’s one of the commonest complaints and lends itself to experimental study”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： pain control attracted most research attention= research has focused on the control of pain pain is common= one of the commonest complaints suitable for experiments= lends itself to experimental study"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 A。因為 endorphins 和 pain 的關係很強，學生可能直接選 A。但題目問原因，原文真正的原因由 because 引出：pain 常見，而且適合實驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 C。C 的內容和 placebo effect 的機制研究有關，但它回答的是「哪些化學物質可能參與 placebo response」，不是「為何 pain control 成為最多研究的對象」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題最重要的閱讀技巧是：why 題要找 because 或其他原因結構。這裡 because 後面的兩個原因就是答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "C — Their effects can be blocked by naloxone",
+      "answerKey": "C — Their effects can be blocked by naloxone",
+      "type": "Question Analysis",
+      "prompt": "“What does Fabrizio Benedetti’s research on endorphins indicate?”",
+      "translation": "Fabrizio Benedetti 關於內啡肽的研究顯示了甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple choice，問一項研究指出甚麼。題目定位詞非常明顯：Fabrizio Benedetti、endorphins。需要找到他的實驗，細讀研究設計和結論。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘But endorphins are still out in front.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "「但內啡肽仍然領先。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here was direct proof that placebo analgesia is mediated, at least in part, by these natural opiates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接證明，安慰劑鎮痛至少部分是由這些天然鴉片類物質所媒介的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph G 的功能：這段要支持 endorphins 在 placebo pain relief 中的重要角色。第一句說 endorphins 仍是最前線候選者，最後一句說實驗提供直接證明。中間自然會描述 Benedetti 的研究如何證明這一點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fabrizio Benedetti”"
+            },
+            {
+              "kind": "quote",
+              "text": "“endorphins”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“That case has been strengthened by the recent work of Fabrizio Benedetti of the University of Turin, who showed that the placebo effect can be abolished by a drug, naloxone, which blocks the effects of endorphins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "都靈大學 Fabrizio Benedetti 最近的研究加強了這個論點；他顯示安慰劑效應可以被一種叫naloxone 的藥物消除，而 naloxone 會阻斷內啡肽的作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句就是本題最核心證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“who showed that the placebo effect can be abolished by a drug, naloxone, which blocks the effects of endorphins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他顯示安慰劑效應可以被 naloxone 這種藥物消除；naloxone 會阻斷內啡肽的作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩層：第一，naloxone 可以 abolish placebo effect，即消除安慰劑效應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，naloxone blocks the effects of endorphins，即阻斷內啡肽的作用。"
+            },
+            {
+              "kind": "label",
+              "text": "Benedetti 的實驗設計也很重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“He did this several times a day for several days, using morphine each time to control the pain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他連續幾天每天做數次這個實驗，每次都用嗎啡控制疼痛。"
+            },
+            {
+              "kind": "quote",
+              "text": "“On the final day, without saying anything, he replaced the morphine with a saline solution. This still relieved the subjects’ pain: a placebo effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一天，他沒有說明，將嗎啡換成鹽水。這仍然減輕了受試者的疼痛：這就是安慰劑效應。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But when he added naloxone to the saline, the pain relief disappeared.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但當他在鹽水中加入 naloxone，疼痛緩解便消失了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明 placebo pain relief 和 endorphins 有關，因為阻斷 endorphins 的 naloxone 令止痛效果消失。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their effects can be blocked by naloxone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們的作用可以被 naloxone 阻斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “Their” 指 endorphins。這和原文 “naloxone, which blocks the effects of endorphins” 完全吻合。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接說 naloxone blocks the effects of endorphins。"
+            },
+            {
+              "kind": "label",
+              "text": "A："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are widely used to regulate pain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 endorphins are known to help control pain，也說 natural opiates 參與 placebo analgesia。可是 “widely used” 不是原文重點，而且 endorphins 是人體內的神經化學物質，不是像藥物般被廣泛使用。"
+            },
+            {
+              "kind": "label",
+              "text": "B："
+            },
+            {
+              "kind": "quote",
+              "text": "“They can be released by willpower alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“no one knows how belief triggers endorphin release, or why most people can’t achieve placebo pain relief simply by willing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有人知道信念如何觸發內啡肽釋放，也不知道為何大多數人不能單靠意志取得安慰劑式止痛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 B 的方向不合。"
+            },
+            {
+              "kind": "label",
+              "text": "D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their pain-relieving effects do not last long enough.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說內啡肽的止痛效果維持時間不足。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Benedetti’s research on endorphins indicate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“showed that…”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their effects can be blocked by naloxone”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“naloxone, which blocks the effects of endorphins”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： indicate= showed their effects= the effects of endorphins can be blocked by naloxone= naloxone blocks the effects"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 B。學生可能看到 belief triggers endorphin release，就以為意志力可以直接釋放內啡肽。可是 Paragraph H 清楚說 no one knows how belief triggers release，而且 most people can’t achieve pain relief simply by willing it。B 加入了文章未支持的 “willpower alone”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是把實驗結論理解得太泛。Benedetti 的研究不是只說 placebo 有效；重點是加入naloxone 後止痛效果消失，這提供了 endorphins 參與 placebo analgesia 的證據。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的短語是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“blocks the effects of endorphins”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Scientists have enough information to understand the placebo effect fully.”",
+      "translation": "科學家已有足夠資料，可以完全理解安慰劑效應。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目要判斷 statement 是否和文章資料一致。重點是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“enough information” 和 “understand … fully”。這兩個詞表示科學家已經充分理解 placebo effect。掃描時要找 unknown、don’t know、largely unknown、research 等語言。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E 和 Paragraph H Paragraph E 第一句：“At one level, it should come as no surprise that our state of mind can influence our physiology…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某個層面上，我們的心理狀態能影響生理，這不應令人驚訝……Paragraph E 中段："
+            },
+            {
+              "kind": "quote",
+              "text": "“But exactly how placebos work their medical magic is still largely unknown.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但安慰劑究竟如何發揮其醫學魔力，至今仍大多未知。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Still, no one knows how belief triggers endorphin release, or why most people can’t achieve placebo pain relief simply by willing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，沒有人知道信念如何觸發內啡肽釋放，也不知道為何大多數人不能單靠意志力取得安慰劑式止痛。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even branding can make a difference…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至品牌也可以造成差異……"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 後可以看出",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章一方面介紹 placebo effect 的研究線索，另一方面反覆指出科學界尚未完"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全理解其機制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“understand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fully”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 “fully understand”，但有非常明確的反向表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“exactly how placebos work… is still largely unknown”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“no one knows how belief triggers endorphin release”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都否定了 fully understand。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“But exactly how placebos work their medical magic is still largely unknown.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但安慰劑究竟如何發揮其醫學魔力，至今仍大多未知。"
+            },
+            {
+              "kind": "quote",
+              "text": "“exactly how” 對應 fully understand 的「完整機制」。“still largely unknown” 表示仍然大部分未知。關鍵句二：“Still, no one knows how belief triggers endorphin release…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，沒有人知道信念如何觸發內啡肽釋放……"
+            },
+            {
+              "kind": "quote",
+              "text": "“no one knows” 是非常強的否定。這說明即使有 Benedetti 的實驗證據，科學家仍不知道信念如何啟動內啡肽釋放。題目說：“Scientists have enough information to understand the placebo effect fully.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示科學家已經有足夠資料完全理解 placebo effect。原文方向相反：研究已有一些進展，但具體機制仍大多未知。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“have enough information to understand … fully”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“still largely unknown”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no one knows”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "反向關係： understand fully↔ largely unknown have enough information↔ no one knows how…所以這題不是資料缺失，而是原文直接給出相反資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 FALSE。文章明確說 placebo effect 的精確機制仍大多未知，也說沒有人知道信念如何觸發 endorphin release。這直接反駁 “understand … fully”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 Paragraph G。Benedetti 的研究確實提供了 “direct proof” that placebo analgesia is mediated in part by natural opiates。學生可能因 “direct proof” 以為科學家已經完全理解 placebo effect。可是 “direct proof” 只證明其中一部分機制，Paragraph H 馬上說 “no one knows how belief triggers endorphin release”。"
+            },
+            {
+              "kind": "label",
+              "text": "第二個中伏位是 “a fair bit of knowledge”："
+            },
+            {
+              "kind": "quote",
+              "text": "“they have accumulated a fair bit of knowledge about how to trigger the effect”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們已累積了不少關於如何觸發安慰劑效應的知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說科學家知道一些 trigger effect 的方法，例如顏色、品牌、醫生態度等。它不等於 fully understand mechanism。知道如何觸發，不代表完全知道為何和如何運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “still largely unknown” 和 “no one knows”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“A London-based researcher discovered that red pills should be taken off the market.”",
+      "translation": "一位倫敦研究者發現紅色藥丸應該被停售／下架。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目包含兩部分：第一，A London-based researcher discovered something。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，red pills should be taken off the market。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要判斷是否有足夠資料支持「紅色藥丸應該下架」這個結論。掃描時要找 London、red pills、researcher、market 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Still, no one knows how belief triggers endorphin release, or why most people can’t achieve placebo pain relief simply by willing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，沒有人知道信念如何觸發內啡肽釋放，也不知道為何大多數人不能單靠意志力取得安慰劑式止痛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even branding can make a difference: if Aspro or Tylenol is what you like to take for a headache, their chemically identical generic equivalents may be less effective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至品牌也可以造成差異：如果 Aspro 或 Tylenol 是你頭痛時喜歡服用的品牌，那些化學成分相同的普通版本可能效果較差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以猜 Paragraph H 的功能：這段先說 placebo effect 的機制仍未完全清楚，再轉到科學家已知道一些觸發或影響 placebo effect 的因素，例如藥丸顏色和品牌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 11 提到 London-based researcher 和 red pills，答案應在這段中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“London-based researcher”"
+            },
+            {
+              "kind": "quote",
+              "text": "“red pills”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taken off the market”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“A London rheumatologist found, for example, that red dummy capsules made more effective painkillers than blue, green or yellow ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一位倫敦風濕病學家發現，紅色假膠囊比藍色、綠色或黃色假膠囊更能作為有效止痛劑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句對應 London 和 red，但沒有 market 或 taken off the market。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A London rheumatologist found, for example, that red dummy capsules made more effective painkillers than blue, green or yellow ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一位倫敦風濕病學家發現，紅色假膠囊比藍色、綠色或黃色假膠囊更能作為有效止痛劑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說明一項研究發現：紅色假膠囊在止痛效果上比其他顏色更有效。它沒有說紅色藥丸有危險，也沒有說應該被停售，沒有提到市場、監管、禁售、下架、銷售許可等內容。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“red pills should be taken off the market”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思是：紅色藥丸應該從市場上移除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一項監管或建議性的結論。原文沒有提供這個結論。原文也沒有討論 real pills 的銷售問題；它說的是 “red dummy capsules”，即假膠囊，用來研究 placebo effect。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“red pills should be taken off the market”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“red dummy capsules made more effective painkillers than blue, green or yellow ones”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有：● London researcher；● red dummy capsules；● effectiveness as painkillers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有：● should；● taken off；● market；● safety concern；● sales ban；● regulatory recommendation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以題目中的關鍵結論缺失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題不應選 TRUE，因為原文沒有說紅色藥丸要下架。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也不應選 FALSE，因為原文沒有直接說紅色藥丸不應下架，或有任何市場決策。雖然原文說紅色假膠囊更有效，這讓 “taken off the market” 聽起來不合理，但 IELTS 判斷要看文章是否直接提供相反資訊。這裡文章只提供顏色和效果研究，沒有討論市場處理。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “red”。題目和原文都出現 red，容易令人以為答案很直接。但真正要判斷的不是red 有沒有出現，而是研究發現的內容是甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “London-based researcher”。原文確實有 “A London rheumatologist”，所以前半句有支援。可是 TRUE / FALSE / NOT GIVEN 要看整句 statement。前半句對，不代表整句對。題目後半加入 “should be taken off the market”，原文沒有這項資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是把 “dummy capsules” 看成一般市場上的藥丸。dummy capsules 是研究用的假膠囊或安慰劑，不等同於市場銷售中的真藥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的核心方法是：看到題目半句有原文支援時，不要急著選 TRUE。必須檢查整句的每一個核心成分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“People’s preferences for particular brands can affect the effectiveness of treatment.”",
+      "translation": "人們對特定品牌的偏好可以影響治療效果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目要判斷 brand preference 是否會影響 treatment effectiveness。掃描時要找 brands、branding、Aspro、Tylenol、generic equivalents、effective 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Still, no one knows how belief triggers endorphin release, or why most people can’t achieve placebo pain relief simply by willing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，沒有人知道信念如何觸發內啡肽釋放，也不知道為何大多數人不能單靠意志力取得安慰劑式止痛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even branding can make a difference: if Aspro or Tylenol is what you like to take for a headache, their chemically identical generic equivalents may be less effective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至品牌也可以造成差異：如果 Aspro 或 Tylenol 是你頭痛時喜歡服用的品牌，那些化學成分相同的普通版本可能效果較差。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 後可以看出",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 後半講 placebo effect 的觸發因素，包括顏色、藥丸種類和品牌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 12 明確提到 brands，所以答案在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“preferences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“particular brands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“effectiveness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even branding can make a difference…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“if Aspro or Tylenol is what you like to take for a headache…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “what you like to take” 對應 “preferences”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even branding can make a difference: if Aspro or Tylenol is what you like to take for a headache, their chemically identical generic equivalents may be less effective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至品牌也可以造成差異：如果 Aspro 或 Tylenol 是你頭痛時喜歡服用的品牌，那些化學成分相同的普通版本可能效果較差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “branding can make a difference” 是總結。意思是品牌本身會影響效果。"
+            },
+            {
+              "kind": "quote",
+              "text": "“what you like to take” 表示個人偏好的品牌。“chemically identical generic equivalents” 指化學成分相同的普通版本或非品牌版本。“may be less effective” 表示可能效果較差。題目說：“People’s preferences for particular brands can affect the effectiveness of treatment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括原文：如果人們偏好某品牌，成分相同的普通版本可能較沒效，代表品牌偏好會影響治療效果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“People’s preferences for particular brands”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“if Aspro or Tylenol is what you like to take”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫： preferences= what you like particular brands= Aspro or Tylenol"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“can affect the effectiveness of treatment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“branding can make a difference”"
+            },
+            {
+              "kind": "quote",
+              "text": "“generic equivalents may be less effective”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫： affect effectiveness= make a difference / may be less effective所以原文和題目方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 TRUE。原文清楚說品牌可以造成差異，而且成分相同的普通版本可能較沒效。這直接支持題目中的 brand preference affects effectiveness。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “chemically identical”。學生可能以為化學成分相同，效果就必然一樣。但placebo effect 研究正要說明，病人信念、顏色、品牌等非化學因素也會影響效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是把 “branding” 理解成廣告或市場推廣。這裡 branding 不只是廣告，而是病人對熟悉品牌的信任和偏好。題目用 “preferences for particular brands” 把這一點說得更清楚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 “may be less effective”。may 表示可能，題目也用 can affect。兩者程度一致，都不是絕對說每一次都會影響。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“what you like to take”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“may be less effective”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Doctors held a range of views about the newly introduced drug chlorpromazine.”",
+      "translation": "醫生們對新引入的 chlorpromazine 這種藥持有一系列不同看法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目重點是 “range of views” 和 “newly introduced drug chlorpromazine”。掃描時要找 chlorpromazine，以及醫生態度分類。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It matters, too, how the treatment is delivered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "治療如何被提供，也同樣重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physicians who adopt a warm, friendly and reassuring manner,” he reported, “are more effective than those whose consultations are formal and do not offer reassurance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他報告說，採取溫暖、友善、令人安心態度的醫生，比那些會診形式化且不給予安慰的醫生更有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以猜 Paragraph I 的功能：這段要說明治療的「提供方式」會影響療效，尤其是醫生態度和 bedside manner。中間的 chlorpromazine 例子應是用來說明醫生態度如何影響藥物表現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“chlorpromazine”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Decades ago, when the major tranquilliser chlorpromazine was being introduced, a doctor in Kansas categorised his colleagues according to whether they were keen on it, openly sceptical of its benefits, or took a ‘let’s try and see’ attitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數十年前，當主要鎮靜劑 chlorpromazine 正被引入時，堪薩斯的一位醫生按同事對它的態度分類：他們有些熱衷，有些公開懷疑其好處，有些則採取「試試看」的態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“a doctor in Kansas categorised his colleagues according to whether they were keen on it, openly sceptical of its benefits, or took a ‘let’s try and see’ attitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "堪薩斯的一位醫生把同事分類，依據是他們是否熱衷於它、是否公開懷疑它的好處，或是否採取「試試看」的態度。"
+            },
+            {
+              "kind": "label",
+              "text": "這句列出三種不同態度：第一："
+            },
+            {
+              "kind": "quote",
+              "text": "“keen on it”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對它熱衷、支持。"
+            },
+            {
+              "kind": "label",
+              "text": "第二："
+            },
+            {
+              "kind": "quote",
+              "text": "“openly sceptical of its benefits”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "公開懷疑它的好處。"
+            },
+            {
+              "kind": "label",
+              "text": "第三："
+            },
+            {
+              "kind": "quote",
+              "text": "“took a ‘let’s try and see’ attitude”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "採取試試看再說的態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三種態度由支持到懷疑，再到中間觀望，正好構成 “a range of views”。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Doctors held a range of views about the newly introduced drug chlorpromazine.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說這種藥正在 being introduced，醫生被按不同態度分類。意思完全一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Doctors held a range of views”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“categorised his colleagues according to whether they were keen…, sceptical…, or took a ‘let’s try and see’ attitude”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： doctors= colleagues of the doctor range of views= keen / sceptical / let’s try and see newly introduced drug= chlorpromazine was being introduced所以原文支持題目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 TRUE。文章明確描述醫生對 chlorpromazine 有不同態度：支持、懷疑、觀望。這就是range of views。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是題目中的 “newly introduced”。原文沒有用 newly 這個字，但 “was being introduced” 表示當時正在引入，意思上可對應 newly introduced。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “held a range of views”。原文沒有直接說 range of views，但列出三種不同立場。IELTS 常用具體分類改寫成概括說法。這是典型 paraphrase。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 Paragraph I 的後半講 bedside manner，學生可能以為 chlorpromazine 例子只和醫生熱情程度有關。其實題目問的是 doctors 是否有不同看法，答案由 “keen / sceptical / let’s try and see” 直接支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是這三個態度分類。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Alternative practitioners are seldom known for applying the placebo effect.”",
+      "translation": "另類療法從業者很少以運用安慰劑效應見稱。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目重點是 “Alternative practitioners” 和 “seldom known for applying the placebo effect”。seldom 表示很少。掃描時要找 alternative practitioners / CAM practitioners / complementary practitioners，以及 mobilising / deploying the placebo effect。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D 和 Paragraph J，核心在 Paragraph J Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the great strengths of CAM may be its practitioners’ skill in deploying the placebo effect to accomplish real healing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充與另類醫學的一大強項，可能是其從業者善於運用安慰劑效應來達成真正的治癒。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The question is whether CAM could be integrated into conventional medicine, as some would like, without losing much of this power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題是，補充與另類醫學能否如一些人所願，融入傳統醫學，同時不失去這種力量。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph J 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Warm, friendly and reassuring are precisely CAM’s strong suits, of course.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "溫暖、友善、令人安心，當然正是補充與另類醫學的強項。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph J 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s hardly surprising, then, that complementary practitioners are generally best at mobilising the placebo effect, says Arthur Kleinman, professor of social anthropology at Harvard University.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "哈佛大學社會人類學教授 Arthur Kleinman 說，因此補充療法從業者通常最擅長調動安慰劑效應，這一點並不令人驚訝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後已可見，文章多次說 CAM / complementary practitioners 擅長運用 placebo effect。題目說 “seldom known”，方向很可能相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternative practitioners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“placebo effect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seldom”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應詞可能不是 alternative practitioners，而是："
+            },
+            {
+              "kind": "quote",
+              "text": "“CAM practitioners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Complementary practitioners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“complementary practitioners”"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the great strengths of CAM may be its practitioners’ skill in deploying the placebo effect…”"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“complementary practitioners are generally best at mobilising the placebo effect…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子都和題目直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the great strengths of CAM may be its practitioners’ skill in deploying the placebo effect to accomplish real healing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充與另類醫學的一大強項，可能是其從業者善於運用安慰劑效應來達成真正治癒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“great strengths” 表示強項。“skill in deploying” 表示有運用能力。“placebo effect” 直接對應題目。關鍵句二：“Complementary practitioners are miles better at producing non-specific effects and good therapeutic relationships,” says Edzard Ernst…"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Edzard Ernst 說，補充療法從業者在產生非特定效果和良好治療關係方面強得多。“non-specific effects” 在這裡與 placebo-related effects 有關，即不依賴特定藥理作用的治療效果。關鍵句三：“complementary practitioners are generally best at mobilising the placebo effect”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充療法從業者通常最擅長調動安慰劑效應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“generally best” 和題目 “seldom known” 明顯衝突。seldom means rarely，很少；generally best表示通常最擅長。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternative practitioners are seldom known for applying the placebo effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“CAM … practitioners’ skill in deploying the placebo effect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“complementary practitioners are generally best at mobilising the placebo effect”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： Alternative practitioners= CAM / complementary practitioners applying= deploying / mobilising seldom known↔ great strengths / generally best所以題目方向和原文方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 FALSE。原文不是說他們很少運用 placebo effect；原文強調這正是 CAM 的強項，而且complementary practitioners 通常最擅長 mobilising the placebo effect。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “seldom”。這個字很小，但決定整題。若題目只說 alternative practitioners apply the placebo effect，答案會接近 TRUE。加入 seldom 後，意思變成「很少以此見稱」，這和"
+            },
+            {
+              "kind": "quote",
+              "text": "“generally best” 相反。第二個中伏位是 apply / deploy / mobilise 的同義改寫。原文沒有用 applying，但用了 deploying和 mobilising。這三個詞在此都表示「運用、調動、發揮」。第三個中伏位是 CAM、complementary medicine、alternative medicine 的稱呼變化。文章把complementary and alternative medicine 縮寫為 CAM，所以題目中的 alternative practitioners 對應原文 CAM / complementary practitioners。真正控制答案的是：“great strengths”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“generally best at mobilising the placebo effect”。這兩個短語直接反駁 “seldom known”。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Power of Nothing.pdf",
+    "sha256": "fa657df96fb0788e100c1670f2f01f16dede9e44adfd84d1d815c4254c2997f4",
+    "pageCount": 50
+  },
+  "version": "2026-08-08.2"
+}

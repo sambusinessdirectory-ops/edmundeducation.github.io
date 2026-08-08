@@ -1,0 +1,1843 @@
+{
+  "id": "p1-087-the-spice-of-life",
+  "catalogueId": "p1-087",
+  "catalogueIds": [
+    "p1-087"
+  ],
+  "passage": 1,
+  "title": "The Spice of Life!",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "viii",
+    "vii",
+    "iii",
+    "i",
+    "x",
+    "v",
+    "stigma tips",
+    "vivid colour",
+    "Iran",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "viii — Some spices",
+      "answerKey": "viii — Some spices",
+      "type": "Matching Headings",
+      "prompt": "Paragraph B",
+      "translation": "為 B 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spices are dried seeds, fruits, roots, bark, or vegetative parts of plants, added to food in small amounts to enhance flavour or colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香料是植物的乾燥種子、果實、根、樹皮或營養部位，少量加入食物中，用來增強味道或顏色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ever-popular masala, as noted, could be anything, depending on the chef.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如前所述，一直很受歡迎的 masala 可以是任何組合，視乎廚師而定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 B 段會介紹香料是甚麼，以及不同香料如何來自植物不同部分。最後一句再把焦點推到香料混合物，例如 masala。整段的主要功能是列舉和分類香料，而非只講烹飪用途。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "viii “Some spices” 的核心是列舉若干香料。掃描 B 段會看到大量香料名稱和來源： mustard、black pepper、cinnamon、cloves、ginger、turmeric、mace、saffron、chilli powder、mixed spice、masala。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Looking at the sources of some common spices, mustard and black pepper are from seeds, cinnamon from bark, cloves from dried flower buds, ginger and turmeric from roots, while mace and saffron are from seed covers and stigma tips, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看看一些常見香料的來源：芥末和黑胡椒來自種子，肉桂來自樹皮，丁香來自乾燥花蕾，薑和薑黃來自根，而肉豆蔻衣和番紅花則分別來自種皮和柱頭尖端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接展示 “some common spices”。段落先定義 spice，再列出多種例子和來源，最後講pre-made combinations。heading viii 能覆蓋全段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii “Spices for cooking” 有吸引力，因為本段確實提到 added to food 和 baking。不過這個heading 太偏向用途；B 段更主要在介紹不同 spice examples 和它們的植物來源。i “Uses of spice” 也太寬，較適合 E 段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "vii — The power of spice",
+      "answerKey": "vii — The power of spice",
+      "type": "Matching Headings",
+      "prompt": "Paragraph C",
+      "translation": "為 C 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although human communities were using spices tens of thousands of years ago, trade in these commodities only began about 2000 BC, in the Middle East.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然人類社群早在數萬年前已經使用香料，但這些商品的貿易約到公元前 2000 年才在中東開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be hard to underestimate the role spices have played in human history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香料在人類歷史中所扮演的角色，很難被低估。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 C 段會由香料貿易的起源，發展到香料對人類歷史的巨大影響。這段不只介紹路線，也強調香料如何推動世界經濟、國際競爭、探索和征服。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vii “The power of spice” 的重點是香料的影響力。掃描 C 段可看到強訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“driving force of the world economy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pitted nation against nation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“major impetus for exploration and conquest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“role spices have played in human history”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From then on, spices became a driving force of the world economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從那時起，香料成為世界經濟的一股推動力量。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their high prices pitted nation against nation and provided a major impetus for exploration and conquest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香料的高價格使國與國之間互相競爭，並為探索和征服提供了重要推動力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句把香料放在世界經濟、國際競爭、探索和征服的層面上。heading vii “The power of spice”能概括這種歷史力量。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vi “Famous spice routes” 看似合理，因為本段確實提到 Silk Road 和 maritime advances。不過路線只是中間細節；段末把焦點升高到 world economy、exploration、conquest 和 human history，所以 vii 更能概括整段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "iii — Changing leaders",
+      "answerKey": "iii — Changing leaders",
+      "type": "Matching Headings",
+      "prompt": "Paragraph D",
+      "translation": "為 D 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Originally, Muslim traders dominated these routes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，穆斯林商人支配這些路線。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cloves, nutmeg, and pepper were some of the most valuable spices of the time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "丁香、肉豆蔻和胡椒是當時最有價值的一些香料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段開頭直接講誰支配 spice routes。中間應會交代控制權如何轉移，最後用有價值香料作收束。段落核心是「誰掌控香料貿易」在不同時期發生變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iii “Changing leaders” 的核心是主導者改變。掃描 D 段可以看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Muslim traders dominated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“European involvement was slow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Portugal was the dominant power”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the British and Dutch eventually gained the upper hand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the British controlled India”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the Dutch controlled ... East Indies”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, Portugal was the dominant power, but the British and Dutch eventually gained the upper hand, so that by the 19th century, the British controlled India, while the Dutch controlled the larger share of the East Indies (Indonesia).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，葡萄牙是主導力量，但英國和荷蘭最終取得優勢；到十九世紀，英國控制印度，而荷蘭控制東印度群島，即印尼的大部分地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚顯示領導者／控制者由 Portugal 轉到 Britain and the Netherlands。配合第一句的Muslim traders dominated，整段形成主導權轉移鏈。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vi “Famous spice routes” 也可能吸引學生，因為本段第一句有 “routes”。可是本段的重點不在介紹路線本身，而在誰支配這些路線、誰控制香料貿易。iii “Changing leaders” 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "i — Uses of spice",
+      "answerKey": "i — Uses of spice",
+      "type": "Matching Headings",
+      "prompt": "Paragraph E",
+      "translation": "為 E 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But why were spices always in such demand?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但為甚麼香料一直有如此大的需求？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, because saffron is obtained from a tiny part of each flower, it has always been among the world’s most costly spices by weight, valued mostly for its vivid colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，由於番紅花來自每朵花極細小的一部分，它一直是世界上按重量計最昂貴的香料之一，主要因其鮮明色彩而受重視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段會回答「香料為何受歡迎」。段中很可能列出不同用途：醫療、預防疾病、調味、增色。最後一句的 saffron vivid colour 是用途之一。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "i “Uses of spice” 的核心是用途。掃描 E 段可見多個用途訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“medicinal properties”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prevent maladies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flavoured the bland meat-based European cuisines”"
+            },
+            {
+              "kind": "quote",
+              "text": "“valued mostly for its vivid colour”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early days, they were thought to have strong medicinal properties by balancing the‘humours’...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期，人們認為香料有強大的藥用特性，能平衡所謂的「體液」。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“But most obviously, spices flavoured the bland meat-based European cuisines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但最明顯的是，香料為味道平淡、以肉類為主的歐洲飲食增添風味。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 saffron："
+            },
+            {
+              "kind": "quote",
+              "text": "“valued mostly for its vivid colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要因其鮮明色彩而受重視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段列出多種香料用途：藥用、防病、調味、增色。因此 i “Uses of spice” 覆蓋最完整。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ix “Medicinal spices” 只符合段落前半，因為 E 段確實講 medicinal properties 和 plague。但後半轉到 flavour 和 colour，heading ix 範圍過窄。i 能容納所有需求原因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "x — Spice providers",
+      "answerKey": "x — Spice providers",
+      "type": "Matching Headings",
+      "prompt": "Paragraph F",
+      "translation": "為 F 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Predictably, the majority of the world’s spices are produced in India, although specific spices are often produced in greater amounts in other countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以預料，世界上大部分香料由印度生產，雖然某些特定香料往往在其他國家有更大產量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the rhizomes (underground stems) of turmeric are boiled for several hours, then dried in ovens, after which they are ground into the yellow powder popular in South Asian and Middle Eastern cuisines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，薑黃的根莖，即地下莖，會先煮數小時，再在烤爐中乾燥，之後磨成黃色粉末，這種粉末在南亞和中東飲食中很受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 F 段主要講香料來源國和供應方式。第一句直接說哪些國家生產香料；後半再講出口、儲存、運輸和加工。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "x “Spice providers” 的核心是供應者或生產地。掃描 F 段可以看到： India、Vietnam、Indonesia、Iran、Sri Lanka，以及 producer、exporter、production。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vietnam is the largest producer and exporter of pepper, meeting nearly one third of the world’s demand. Indonesia holds a clear lead in nutmeg production, Iran in saffron, and Sri Lanka in cinnamon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越南是胡椒最大生產國和出口國，滿足全球近三分之一需求。印尼在肉豆蔻生產方面明顯領先，伊朗在番紅花方面領先，斯里蘭卡則在肉桂方面領先。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完整列出不同香料的主要供應國。heading x “Spice providers” 最能概括這段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "v “Preserving flavours” 會令人想到後半的 drying、storage、shipping、shelf life，但那只是出口加工的一部分。F 段的主軸先放在 producing countries 和 exporting countries，因此 x 更貼近全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "v — Preserving flavours",
+      "answerKey": "v — Preserving flavours",
+      "type": "Matching Headings",
+      "prompt": "Paragraph G",
+      "translation": "為 G 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there are disadvantages in grinding spices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，磨碎香料也有缺點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This allows grinding to be done at the moment of cooking or eating, maximising the flavour and effect, which is why pepper ‘grinders’, rather than ‘shakers’, grace the tables of better restaurants around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這使人們可以在烹調或進食的一刻才研磨，從而最大化香味和效果；這也解釋了為何世界各地較高級餐廳的桌上常有胡椒研磨器，而較少用胡椒粉罐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段重點是如何保留香料的香味。開頭說磨碎有缺點，結尾說即磨可最大化 flavour and effect。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "v “Preserving flavours” 的核心是保存味道。掃描 G 段可見："
+            },
+            {
+              "kind": "quote",
+              "text": "“evaporation and oxidation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flavour-bearing and aromatic compounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“whole dried spices retain these for much longer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“maximising the flavour and effect”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In contrast, whole dried spices retain these for much longer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，完整的乾燥香料能把這些物質保留更久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “these” 指前一句的 “flavour-bearing and aromatic compounds”，即承載味道和香氣的化合物。完整香料能保存這些成分更久，因此香味保留更好。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading “Preserving flavours”= 原文 “retain these for much longer” + “maximising the flavour and effect”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii “Spices for cooking” 有吸引力，因為最後一句提到 cooking or eating。但 cooking 只是即磨的時間點，真正主題是避免香味流失、保留芳香化合物。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "stigma tips",
+      "answerKey": "stigma tips",
+      "type": "Sentence Completion",
+      "prompt": "“Saffron, from the small 7 ______ of flowers, has a 8 ______ and is mostly grown in 9 ______.”",
+      "translation": "番紅花來自花朵細小的 ______，有 ______，並主要種植於 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。Question 7 空格前有 “from the small”，後面接 “of flowers”，所以答案應是花朵的一個細小部位。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B，並由 Paragraph E 補充 “small” 的概念。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spices are dried seeds, fruits, roots, bark, or vegetative parts of plants, added to food in small amounts to enhance flavour or colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香料是植物的乾燥種子、果實、根、樹皮或營養部位，少量加入食物中，用來增強味道或顏色。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ever-popular masala, as noted, could be anything, depending on the chef.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如前所述，一直很受歡迎的 masala 可以是任何組合，視乎廚師而定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 B 段首尾句，可以估計本段會講不同香料來自植物哪一部分。Saffron 這類植物部位題，很可能在 B 段找到精確詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Saffron” 和 “flowers”。掃描 B 段可找到 “mace and saffron are from seed covers and stigma tips, respectively”。“respectively” 很重要，表示前後一一對應：mace 對 seed covers， saffron 對 stigma tips。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...while mace and saffron are from seed covers and stigma tips, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而肉豆蔻衣和番紅花則分別來自種皮和柱頭尖端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中： mace = seed covers saffron = stigma tips題目說 “from the small ______ of flowers”，而 Paragraph E 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“saffron is obtained from a tiny part of each flower”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "番紅花來自每朵花極細小的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段提供這個細小部分的準確名稱：stigma tips。答案是兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “tiny part”。這是 E 段對部位大小的概括，題目需要的是具體部位名稱。也不要填 “seed covers”，因為 respectively 顯示 seed covers 對應 mace，stigma tips 才對應 saffron。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "vivid colour",
+      "answerKey": "vivid colour",
+      "type": "Sentence Completion",
+      "prompt": "“Saffron, from the small 7 ______ of flowers, has a 8 ______ and is mostly grown in 9 ______.”",
+      "translation": "番紅花來自花朵細小的柱頭尖端，有 ______，並主要種植於 Iran。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 8 空格前是 “has a”，所以答案需要單數名詞短語。題目問 saffron 有甚麼特徵，應找saffron 被 valued for 甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But why were spices always in such demand?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但為甚麼香料一直有如此大的需求？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, because saffron is obtained from a tiny part of each flower, it has always been among the world’s most costly spices by weight, valued mostly for its vivid colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，由於番紅花來自每朵花極細小的一部分，它一直是世界上按重量計最昂貴的香料之一，主要因其鮮明色彩而受重視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 E 段在講香料需求原因，最後一句直接講 saffron 的價值來源。Question 8和 “has a” 的特徵應在這句找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Saffron” 和 “has a”。原文沒有 “has a”，但有 “valued mostly for its vivid colour”。“vivid colour” 是一個名詞短語，也符合題目文法 “has a vivid colour”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...valued mostly for its vivid colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要因其鮮明色彩而受重視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “valued mostly for its vivid colour” 改寫成 “has a vivid colour”。兩者方向一致：原文說番紅花因 vivid colour 有價值；題目只要求填出它具有的特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： vivid colour兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “costly spices”。原文確實說 saffron 很昂貴，但題目句子是 “has a ______”，自然文法和原文重點都指向 “vivid colour”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "Iran",
+      "answerKey": "Iran",
+      "type": "Sentence Completion",
+      "prompt": "“Saffron, from the small 7 ______ of flowers, has a 8 ______ and is mostly grown in 9 ______.”",
+      "translation": "番紅花來自花朵細小的柱頭尖端，有鮮明色彩，並主要種植於 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 9 空格前是 “mostly grown in”，所以答案應是國家或地方名稱。字數限制不多於兩個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Predictably, the majority of the world’s spices are produced in India, although specific spices are often produced in greater amounts in other countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以預料，世界上大部分香料由印度生產，雖然某些特定香料往往在其他國家有更大產量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the rhizomes (underground stems) of turmeric are boiled for several hours, then dried in ovens, after which they are ground into the yellow powder popular in South Asian and Middle Eastern cuisines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，薑黃的根莖，即地下莖，會先煮數小時，再在烤爐中乾燥，之後磨成黃色粉末，這種粉末在南亞和中東飲食中很受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 F 段講香料生產地、出口和加工。題目問 saffron mostly grown in 哪裡，因此 F 段是合理目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “saffron”。掃描 F 段找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indonesia holds a clear lead in nutmeg production, Iran in saffron, and Sri Lanka in cinnamon.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indonesia holds a clear lead in nutmeg production, Iran in saffron, and Sri Lanka in cinnamon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "印尼在肉豆蔻生產方面明顯領先，伊朗在番紅花方面領先，斯里蘭卡則在肉桂方面領先。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個省略結構： Indonesia holds a clear lead in nutmeg production. Iran holds a clear lead in saffron production. Sri Lanka holds a clear lead in cinnamon production.所以 saffron 的主要生產領先國是 Iran。題目 “mostly grown in” 把 “holds a clear lead in saffron production” 改寫成主要種植地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： Iran一個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 India。F 段第一句說世界大部分香料由 India 生產，但同一句後半提醒 specific spices often produced in greater amounts in other countries。saffron 的特定答案是 Iran。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The ingredients of masala are fairly standardised.”",
+      "translation": "masala 的成分相當標準化。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “fairly standardised”，即成分是否固定、是否大致有標準。要找 masala 和 ingredients 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A 和 Paragraph B Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When people think of the most popular restaurant dish in the UK, ‘chicken tikka masala’ does not spring readily to mind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們想到英國最受歡迎的餐廳菜式時，通常不會立刻想到 “chicken tikka masala”。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“British cuisine? Yes, spices have come a long way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國菜？是的，香料已經走了很遠的路。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spices are dried seeds, fruits, roots, bark, or vegetative parts of plants, added to food in small amounts to enhance flavour or colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香料是植物的乾燥種子、果實、根、樹皮或營養部位，少量加入食物中，用來增強味道或顏色。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ever-popular masala, as noted, could be anything, depending on the chef.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如前所述，一直很受歡迎的 masala 可以是任何組合，視乎廚師而定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段引出 chicken tikka masala，B 段最後一句又回到 masala 的可變性。題目問成分是否標準化，這兩段都需要掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “masala” 和 “ingredients”。A 段有 “exact ingredients of the sauce vary from restaurant to restaurant”；B 段有 “could be anything, depending on the chef”。這些都和 “standardised” 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“The exact ingredients of the sauce vary from restaurant to restaurant...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種醬汁的確切成分會因餐廳而異。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ever-popular masala, as noted, could be anything, depending on the chef.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一直很受歡迎的 masala 可以是任何組合，視乎廚師而定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： masala 的 ingredients are fairly standardised。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即：成分相當固定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： exact ingredients vary from restaurant to restaurant；could be anything, depending on the chef。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即：成分會按餐廳和廚師改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文提供明確相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了 “fairly” 這個較溫和的字，似乎只要求「大致標準化」。可是原文 “vary from restaurant to restaurant” 和 “could be anything” 表示變化很大，足以推翻題目。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The demand for spices led to greater exploration.”",
+      "translation": "人們對香料的需求促成了更多探索。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問因果關係：demand for spices 是否 led to greater exploration。要找 demand、prices、exploration 之間是否有直接關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although human communities were using spices tens of thousands of years ago, trade in these commodities only began about 2000 BC, in the Middle East.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然人類社群早在數萬年前已經使用香料，但這些商品的貿易約到公元前 2000 年才在中東開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be hard to underestimate the role spices have played in human history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香料在人類歷史中所扮演的角色，很難被低估。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 C 段會講香料貿易的開始和香料對歷史的巨大影響。題目問exploration，所以要在 C 段找 “exploration” 或相關詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “exploration”。原文直接出現 “exploration and conquest”。再向前看原因，是 high prices 和 world economy 的作用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their high prices pitted nation against nation and provided a major impetus for exploration and conquest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香料的高價格使國與國之間互相競爭，並為探索和征服提供了重要推動力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “Their” 指 spices。香料價格高，代表需求大、價值高，所以國家願意競爭和探索。題目把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“provided a major impetus for exploration” 改寫成 “led to greater exploration”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “led to greater exploration”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “provided a major impetus for exploration”題目 “demand for spices”= 原文 C 段中由 trade、high prices、world economy 建立出的香料高需求／高價值背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目方向和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不需要文章逐字寫 “demand”。C 段已說香料成為 world economy 的 driving force，且 high prices 推動 exploration。這是短距離、可由原文直接支持的改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Vietnam consumes a lot of pepper.”",
+      "translation": "越南消耗大量胡椒。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “consumes”，即消費、使用、吃掉或用掉。要確認原文是否談 Vietnam 的 consumption，而非 production 或 export。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Predictably, the majority of the world’s spices are produced in India, although specific spices are often produced in greater amounts in other countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以預料，世界上大部分香料由印度生產，雖然某些特定香料往往在其他國家有更大產量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the rhizomes (underground stems) of turmeric are boiled for several hours, then dried in ovens, after which they are ground into the yellow powder popular in South Asian and Middle Eastern cuisines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，薑黃的根莖，即地下莖，會先煮數小時，再在烤爐中乾燥，之後磨成黃色粉末，這種粉末在南亞和中東飲食中很受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 F 段處理 production、exporting 和加工。題目問 consumes，方向上已經要小心，因為生產或出口多不等於本國消耗多。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Vietnam” 和 “pepper”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vietnam is the largest producer and exporter of pepper...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vietnam is the largest producer and exporter of pepper, meeting nearly one third of the world’s demand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越南是胡椒最大生產國和出口國，滿足全球近三分之一需求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Vietnam consumes a lot of pepper.即：越南本身消耗很多胡椒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： Vietnam is the largest producer and exporter of pepper.即：越南大量生產和出口胡椒，供應全球需求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文沒有說越南本地人消耗多少胡椒。大量 producer / exporter 可以意味著大量賣到國外；它不能證明本國 consumption 高。文章也沒有提供相反資訊說越南消耗少，因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“meeting nearly one third of the world’s demand” 很吸引，因為有 demand 這個字。但這是世界需求，不是 Vietnam’s own consumption。題目要求的是 Vietnam consumes，核心資料缺失。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Seed-based spices can be easily stored.”",
+      "translation": "以種子為基礎的香料容易儲存。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 seed-based spices 和 easily stored。要找seed-based varieties 是否能 stored well。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there are disadvantages in grinding spices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，磨碎香料也有缺點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This allows grinding to be done at the moment of cooking or eating, maximising the flavour and effect, which is why pepper ‘grinders’, rather than ‘shakers’, grace the tables of better restaurants around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這使人們可以在烹調或進食的一刻才研磨，從而最大化香味和效果；這也解釋了為何世界各地較高級餐廳的桌上常有胡椒研磨器，而較少用胡椒粉罐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段在講 whole spices、ground spices 和 flavour preservation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Seed-based spices 很可能會在本段作為能整粒保存的例子出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Seed-based spices”。原文直接有 “seed-based varieties”。題目 “can be easily stored”對應原文括號中的 “can be packaged and stored well”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, seed-based varieties (which can be packaged and stored well) are often purchased in this form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，以種子為基礎的品種，這些品種可以妥善包裝和良好儲存，常以這種形式購買。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “this form” 指上一句的 whole dried spices。原文說 seed-based varieties 可以 packaged and stored well，題目把它改寫成 can be easily stored。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Seed-based spices”= 原文 “seed-based varieties”題目 “can be easily stored”= 原文 “can be packaged and stored well”判斷：題目和原文意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要因為 G 段開頭說 “disadvantages in grinding spices” 就以為香料不容易保存。原文的問題在grinding 之後香味容易流失；seed-based whole dried spices 反而能良好儲存。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Spice of Life!.pdf",
+    "sha256": "270738c50b980dbc0cd5bcbb835eabe5d85550ad74b682619fe9532435d824b9",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段第一句用英國最受歡迎餐廳菜式 “chicken tikka masala” 引出一個有點意外的答案，最後一句 “spices have come a long way” 把焦點放到香料如何進入英國飲食文化。只看首尾句，可以先猜本段是導入段：它用一個看似不典型的 “British national dish” 介紹香料的文化流動。這段不太像考細節答案，主要是解釋標題和例子 A 為何配 heading “A strange choice”。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段第一句直接定義 spices，說它們是植物的乾燥種子、果實、根、樹皮或營養部位，用少量加入食物以增味或增色。最後一句說 masala 可以是任何組合，視乎廚師而定。只看首尾句，可以估計本段主要處理香料的種類、來源和組合：mustard、pepper、cinnamon、cloves、ginger、turmeric、mace、saffron 都會作為例子出現。若題目問某種香料來自植物哪一部分，B 段很重要。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段第一句說人類雖早在數萬年前使用香料，但香料貿易到約公元前 2000 年才在中東開始。最後一句說很難低估香料在人類歷史中的角色。只看首尾句，可以先估計本段功能是交代香料從早期用途走向世界貿易和歷史推動力。中間應會講 Silk Road、海上貿易、世界經濟、探索和征服。若題目問香料需求和探索之間的關係，C 段是核心。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段第一句說最初 Muslim traders 支配香料路線，最後一句列出當時最有價值的香料包括cloves、nutmeg 和 pepper。只看首尾句，可以估計本段講香料貿易控制權的轉移：由 Muslim traders，到 Portugal，再到 British 和 Dutch。重點不只在路線本身，還在不同勢力如何輪流控制Far East 和 spice trade。若 heading 涉及 “leaders” 或 “control”，D 段最有可能。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段第一句直接問為何香料一直需求如此高，最後一句轉到 saffron，說它因來自每朵花極細小部分而按重量計十分昂貴，主要因鮮明色彩而受重視。只看首尾句，本段明顯在回答香料用途和需求原因：medicine、plague prevention、flavouring bland European meat-based cuisines、pepper的高需求，以及 saffron 的顏色價值。若 heading 是 “Uses of spice”，E 段最合適。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段第一句說世界大部分香料由 India 生產，但某些香料在其他國家產量更大。最後一句以turmeric 為例，說其地下莖經長時間煮、烘乾，再磨成黃色粉末。只看首尾句，可以先猜本段講香料產地、出口和加工：Vietnam 產 pepper，Indonesia 產 nutmeg，Iran 產 saffron，Sri Lanka 產cinnamon。它也解釋 whole 或 powder 形式為何方便購買、儲存、運輸和延長保存期。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段第一句用 However 轉折，指出 grinding spices 有缺點。最後一句說因此高級餐廳桌上常見pepper grinders，而較少用 shakers，因為即磨可最大化香味和效果。只看首尾句，可以估計本段焦點是保存香味：磨粉會加速 flavour-bearing and aromatic compounds 的蒸發和氧化；whole dried spices 能保留更久。若 heading 涉及 preserving flavours，G 段就是目標段。 Answer Key Questio Answer n 1 viii 2 vii 3 iii 4 i 5 x 6 v 7 stigma tips 8 vivid colour 9 Iran 10 FALSE 11 TRUE 12 NOT GIVEN 13 TRUE"
+      }
+    ]
+  }
+}

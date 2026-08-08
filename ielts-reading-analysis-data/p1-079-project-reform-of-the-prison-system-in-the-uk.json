@@ -1,0 +1,2189 @@
+{
+  "id": "p1-079-project-reform-of-the-prison-system-in-the-uk",
+  "catalogueId": "p1-079",
+  "catalogueIds": [
+    "p1-079"
+  ],
+  "passage": 1,
+  "title": "PROJECT: Reform Of The Prison System In The UK",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "E",
+    "B",
+    "G",
+    "C",
+    "A",
+    "A",
+    "C",
+    "B",
+    "C",
+    "discrete external area / external area",
+    "bed",
+    "storage",
+    "sliding doors"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "E — security and control.",
+      "answerKey": "E — security and control.",
+      "type": "Sentence Endings",
+      "prompt": "“The agenda of the current British prison system is primarily…”",
+      "translation": "目前英國監獄制度的主要方向是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Endings。題目中的控制詞是 “current British prison system” 和 “primarily”。我們要找的是現行制度現在主要追求甚麼，而非改革方案理想上應追求甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such high rates of recidivism are a serious problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如此高的重犯率是一個嚴重問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most are poorly educated young men under 30 (at least 60 per cent of whom are functionally illiterate and innumerate), so without education and skills few will be able to build meaningful lives away from crime, no matter how often they go to prison, or how long they spend there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數囚犯是教育程度低、30 歲以下的年輕男性；其中至少 60% 在功能上不具備讀寫和計算能力。因此，沒有教育和技能，不論他們入獄多少次、坐牢多久，很少人能建立遠離犯罪的有意義生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會說明為何現有監獄制度失效：重犯率高、監獄人口增加、囚犯需要教育與技能。題目問 current system 的 agenda，所以要細看這段中對現行監獄設計的評價。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“current British prison system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“primarily”"
+            },
+            {
+              "kind": "quote",
+              "text": "“agenda”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain’s ‘new Victorian’ prisons are designed for security and control rather than for the rehabilitation and education which are increasingly recognised as what prisoners need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國這些「新維多利亞式」監獄的設計目標是 security and control；相較之下，rehabilitation and education 才是越來越被認定為囚犯真正需要的東西。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Britain’s ‘new Victorian’ prisons”。核心動詞是 “are designed for”。真正定案的短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“security and control”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “agenda” 可以理解為制度的主導目標或設計方向。原文用 “designed for” 表達同一意思。現行或新建監獄仍然承襲十九世紀式邏輯，重點放在安全和控制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“agenda … is primarily”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“are designed for”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 E："
+            },
+            {
+              "kind": "quote",
+              "text": "“security and control”"
+            },
+            {
+              "kind": "label",
+              "text": "答案判斷：完整句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“The agenda of the current British prison system is primarily security and control.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文完全一致，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B “rehabilitation and education” 也在同一句出現，很容易吸引人。但原文說這是囚犯需要的方向，並非目前監獄設計的主要方向。判斷時要看 “designed for” 後面先接甚麼：security and control。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B — rehabilitation and education.",
+      "answerKey": "B — rehabilitation and education.",
+      "type": "Sentence Endings",
+      "prompt": "“The primary role of prisons should be…”",
+      "translation": "監獄的首要角色應該是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題和 Question 1 很近，但方向不同。Question 1 問 current system 現在主要做甚麼；Question 2 問 prisons should be，即理想上應該做甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such high rates of recidivism are a serious problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如此高的重犯率是一個嚴重問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most are poorly educated young men under 30 … so without education and skills few will be able to build meaningful lives away from crime…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數囚犯是教育程度低的年輕男性；沒有教育和技能，很少人能建立遠離犯罪的生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段會由 recidivism problem 推到囚犯真正需要甚麼。題目有 should be，通常要找作者認為「應有方向」的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“primary role”"
+            },
+            {
+              "kind": "quote",
+              "text": "“should be”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prisons”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain’s ‘new Victorian’ prisons are designed for security and control rather than for the rehabilitation and education which are increasingly recognised as what prisoners need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國「新維多利亞式」監獄的設計偏向 security and control；rehabilitation and education 則越來越被認為是囚犯真正需要的東西。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “should be”，原文沒有直接用 should，但 “what prisoners need” 明確表達了應然方向。囚犯需要的是 rehabilitation and education，而非單靠關押、監控和懲罰。"
+            },
+            {
+              "kind": "label",
+              "text": "這與下一句互相支持："
+            },
+            {
+              "kind": "quote",
+              "text": "“without education and skills few will be able to build meaningful lives away from crime”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有教育和技能，很少囚犯能建立遠離犯罪的生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明教育與技能不是附加裝飾，而是避免再犯罪的核心條件。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“primary role of prisons should be”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“what prisoners need”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“rehabilitation and education”"
+            },
+            {
+              "kind": "label",
+              "text": "答案判斷：完整句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The primary role of prisons should be rehabilitation and education.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚支持這個方向，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E “security and control” 是現行設計方向。B 是作者認為監獄應轉向的功能。兩題相鄰，最容易把current role 和 ideal role 混在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "G — a learning environment rather than a punitive compound.",
+      "answerKey": "G — a learning environment rather than a punitive compound.",
+      "type": "Sentence Endings",
+      "prompt": "“The new prison scheme will create…”",
+      "translation": "新的監獄方案會創造……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 new prison scheme 的結果。定位時要找 model、scheme、Learning Prison、learning、rehabilitation 等詞。選項 G 中 “learning environment” 是很強的提示。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any transformation of the penal system must start with the redesign of prison buildings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何監獄制度的轉型，都必須由重新設計監獄建築開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This model also enables resources to be dramatically redeployed … freeing up much-needed funds to invest in educational programmes, thereby helping to promote rehabilitation, reduce recidivism and initiate a virtuous cycle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個模式也能大幅重新分配資源，把急需資金釋放出來投放到教育課程中，從而促進更生、減少重犯，並啟動良性循環。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 會介紹新監獄模式如何透過建築和教育重新設定監獄功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 “new prison scheme will create” 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new prison scheme”"
+            },
+            {
+              "kind": "quote",
+              "text": "“create”"
+            },
+            {
+              "kind": "quote",
+              "text": "“learning”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The model is not intended as a blueprint but rather a series of principles that might be adapted to support the wider concept of the ‘Learning Prison’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個模式並非一份固定藍圖；它更接近一系列可被調整的原則，用來支持更大的 “Learning Prison” 概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Learning Prison” 是答案核心。它說明新監獄方案的目標不是單純建造另一種封閉懲罰空間，而是建立一個以學習、更生和發展為中心的環境。段落後面也補強：“the system places educational and other facilities at the heart of the building”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個系統把教育和其他設施放在建築的核心位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此選項 G “a learning environment rather than a punitive compound” 最能概括原文。punitive compound 指懲罰式封閉場所；Learning Prison 和 educational facilities at the heart of the building 則指向學習環境。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“new prison scheme will create”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“support the wider concept of the ‘Learning Prison’”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 G："
+            },
+            {
+              "kind": "quote",
+              "text": "“a learning environment rather than a punitive compound”"
+            },
+            {
+              "kind": "label",
+              "text": "答案判斷：完整句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new prison scheme will create a learning environment rather than a punitive compound.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F “an alternative prison model” 很吸引，因為原文有 “alternative prison model”。但題目問 will create 的結果；F 只是說研究者開發了一個替代模式，沒有把新方案的教育功能說完整。G 更能承接 Learning Prison 的核心概念。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C — reduced efficiency, morale and interaction.",
+      "answerKey": "C — reduced efficiency, morale and interaction.",
+      "type": "Sentence Endings",
+      "prompt": "“Existing prison architecture causes…”",
+      "translation": "現有監獄建築造成……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 existing architecture 的後果。定位詞是 “prison architecture” 和 “efficiency / morale /interaction” 這組抽象名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any transformation of the penal system must start with the redesign of prison buildings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何監獄制度的轉型，都必須從重新設計監獄建築開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This model also enables resources to be dramatically redeployed … thereby helping to promote rehabilitation, reduce recidivism and initiate a virtuous cycle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個模式也能大幅重新分配資源，幫助促進更生、減少重犯，並啟動良性循環。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 3 把建築設計放在改革核心。題目問 architecture causes，所以這段是最直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“architecture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“efficiency”"
+            },
+            {
+              "kind": "quote",
+              "text": "“morale”"
+            },
+            {
+              "kind": "quote",
+              "text": "“interaction”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prison architecture has a clearly discernible effect on behaviour, operational efficiency, interaction and morale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "監獄建築對行為、運作效率、互動和士氣有明顯可辨的影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句表面上說 architecture has an effect，沒有直接寫 reduced。可是前文已經說現有overcrowding 會："
+            },
+            {
+              "kind": "quote",
+              "text": "“hampering opportunities for education and rehabilitation and lowering staff and prisoner morale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "妨礙教育和更生機會，並降低職員和囚犯士氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當文章提出 redesign prison buildings，邏輯是：現有建築和空間組織已經影響效率、互動和士氣，所以改革必須從建築開始。選項 C “reduced efficiency, morale and interaction” 正好概括現有建築帶來的負面效果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Existing prison architecture causes…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“architecture has … effect on … operational efficiency, interaction and morale”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“reduced efficiency, morale and interaction”"
+            },
+            {
+              "kind": "label",
+              "text": "答案判斷：完整句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Existing prison architecture causes reduced efficiency, morale and interaction.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “improved security, supervision and education” 看似與新方案相關，但題目問 existing prison architecture。現有建築帶來的是問題；改善效果屬於 reform model。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A — improved security, supervision and education.",
+      "answerKey": "A — improved security, supervision and education.",
+      "type": "Sentence Endings",
+      "prompt": "“The positive results of reducing the number of prisoners in one space include…”",
+      "translation": "減少同一空間中的囚犯數量，其正面結果包括……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 reducing the number of prisoners in one space。原文不一定逐字寫這句，而會用 small communities / houses of between 30 and 40 inmates 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 3–4 Paragraph 3 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any transformation of the penal system must start with the redesign of prison buildings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何監獄制度的轉型，都必須從重新設計監獄建築開始。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Buschow Henley’s scheme, the proposed group size of 30–40 offers the potential for social accountability: each prisoner is known within the community and personally accountable for their behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Buschow Henley 的方案中，30–40 人的小組規模能帶來 social accountability：每名囚犯在社群內都被認識，也要為自己的行為負責。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以看到答案會和 small communities / group size 相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“reducing the number of prisoners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“positive results”"
+            },
+            {
+              "kind": "quote",
+              "text": "“supervision”"
+            },
+            {
+              "kind": "quote",
+              "text": "“education”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Key to this is the introduction of a system that groups together prisoners in small communities or ‘houses’ of between 30 and 40 inmates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個方案的關鍵，是引入一個把囚犯分成 30 至 40 人小社群或 “houses” 的制度。"
+            },
+            {
+              "kind": "quote",
+              "text": "“First, the more compact spatial organisation of the house reduces staff time spent on supervising and escorting prisoners.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，house 較緊湊的空間組織減少了職員花在監督和押送囚犯上的時間。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, the system places educational and other facilities at the heart of the building…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，這個系統把教育和其他設施放在建築的核心位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的正面結果有三層：第一，30–40 人小組提升 social accountability，即每個人更容易被看見和被要求負責。這對安全和秩序有幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，緊湊空間減少監督和押送所需時間，使 supervision 更容易、更有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，教育設施放在核心位置，增加囚犯接觸教育的機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A “improved security, supervision and education” 雖然是概括句，但最能合併這三層結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“reducing the number of prisoners in one space”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“small communities or ‘houses’ of between 30 and 40 inmates”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“improved security, supervision and education”"
+            },
+            {
+              "kind": "label",
+              "text": "原文支撐："
+            },
+            {
+              "kind": "quote",
+              "text": "“social accountability” + “reduces staff time spent on supervising” + “educational … facilities at the heart”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D “reduced risk of self-harm” 也是真實優點，但它來自 Paragraph 5 的 buddy cell 和 sliding doors，並非由 30–40 人小組直接帶出。因此 Question 5 要選 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A — is progressive.",
+      "answerKey": "A — is progressive.",
+      "type": "Multiple Choice",
+      "prompt": "“The project to reform the penal system in the UK…”",
+      "translation": "這個改革英國監獄制度的項目……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問整個 project 的性質，不是問其中一個 cell design 細節。要看lead-in 和全文對改革項目的評價。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標位置：Lead-in第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The UK’s large prison population is fuelled by a high level of recidivism—when criminals return to crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國龐大的監獄人口由高重犯率推動；recidivism 指罪犯再次犯罪。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This project for a model prison tackles issues of architecture, management and funding in an enlightened attempt to achieve lasting rehabilitation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 model prison project 會處理建築、管理和資金問題，是一次開明的嘗試，目標是達到持久更生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 lead-in 的最後一句，已經看到 “enlightened attempt”。enlightened 指開明、進步、具改革意識。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“project”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reform”"
+            },
+            {
+              "kind": "quote",
+              "text": "“penal system”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“an enlightened attempt to achieve lasting rehabilitation”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“enlightened attempt” 表示這個項目有開明、進步的改革取向。它不只是增加監獄容量，也不只是讓囚犯住得舒服；它嘗試從 architecture、management、funding 入手，達到 lasting rehabilitation。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “is progressive.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確。enlightened attempt 對應 progressive。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “is inexpensive.”原文沒有說項目便宜。相反，全文多次提到 prison estate investment、costs 和 funds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “will eliminate the need for supervision.”原文只說 “makes general supervision easier” 和 “minimum of supervision”，沒有說完全取消監督。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “is primarily to make prisoners more comfortable.” comfort 不是核心。項目目標是 rehabilitation、education 和 constructive prison environment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 的 “progressive Western democracy” 描述的是英國作為國家，不是直接描述project。不過 lead-in 的 “enlightened attempt” 已經足以支持 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "C — there is an increasing population of offenders in the UK.",
+      "answerKey": "C — there is an increasing population of offenders in the UK.",
+      "type": "Multiple Choice",
+      "prompt": "“The proposal to create 12,000 new prison places within the next few years indicates that…”",
+      "translation": "未來幾年內新增 12,000 個監獄名額，顯示……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求我們判斷 12,000 new prison places 反映甚麼背景。定位詞非常明顯：12,000 new prison places。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such high rates of recidivism are a serious problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如此高的重犯率是一個嚴重問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most are poorly educated young men under 30 … so without education and skills few will be able to build meaningful lives away from crime…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數囚犯是教育程度低的年輕男性；沒有教育和技能，很少人能建立遠離犯罪的生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 2 解釋監獄人口增加的原因與後果。12,000 這個數字就在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“12,000 new prison places”"
+            },
+            {
+              "kind": "quote",
+              "text": "“within the next few years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“indicates”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This means that the prison population is continuing to grow at an alarming rate (recently by as many as 700 people a week), so overcrowding is endemic…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著監獄人口正以令人警惕的速度持續增長，最近甚至每週增加多達 700 人，因此overcrowding 已成普遍問題。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“To ease this pressure, the UK government is investing in the prison estate at historic levels, with 12,000 new prison places proposed within the next few years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了緩解這種壓力，英國政府正以前所未有的水平投資監獄設施，並計劃在未來幾年增加12,000 個監獄名額。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“this pressure” 指前面說的 prison population continuing to grow 和 overcrowding。新增 12,000個名額，是對監獄人口增加和過度擠迫的回應。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “prison cells are too small.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 overcrowding，但沒有把 12,000 places 直接歸因於 cells 太小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “a lot of money is invested in educating offenders.”原文說政府投資 prison estate，即監獄設施，不是直接說大量金錢已投入教育犯人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “there is an increasing population of offenders in the UK.”正確。對應 “prison population is continuing to grow”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the government is getting tougher on offenders.”原文沒有說政府態度更嚴厲；只是因 overcrowding 和人口增長而新增名額。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“investing in the prison estate” 容易讓人選 B，但 estate 指監獄建築和設施，不等於 educational programmes。教育資金重配是後文 model 的理想效果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B — boost self-esteem and social behaviour.",
+      "answerKey": "B — boost self-esteem and social behaviour.",
+      "type": "Multiple Choice",
+      "prompt": "“The proposed changes to prison architecture are designed primarily to…”",
+      "translation": "建議中的監獄建築改動，主要是為了……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 proposed changes 的 primary purpose。要看建築改革背後的目的，而非只看某個單一設計細節。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 3–6 Paragraph 3 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any transformation of the penal system must start with the redesign of prison buildings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何監獄制度轉型都必須由重新設計監獄建築開始。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We have got to accept that prison must be a humane and constructive place…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們必須接受，監獄應該是一個人道且有建設性的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩處，可以看到建築改動的目的不是審美，也不是單純增加空間，而是把監獄變成有助行為改變、活動參與和真正更生的地方。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“changes to prison architecture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“designed primarily”"
+            },
+            {
+              "kind": "quote",
+              "text": "“behaviour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“social”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prison architecture has a clearly discernible effect on behaviour, operational efficiency, interaction and morale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "監獄建築對行為、運作效率、互動和士氣有明顯可辨的影響。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph 4："
+            },
+            {
+              "kind": "quote",
+              "text": "“the proposed group size of 30–40 offers the potential for social accountability”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "30–40 人的小組規模能帶來社會責任感。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的 “self-esteem and social behaviour” 並非逐字重現，但它概括了兩組原文資訊： morale= 士氣、自我狀態、自我感受interaction / social accountability / supportive social environment= 社交互動、社群責任、社會行為建築改動的主要方向是改善囚犯如何行動、如何互動、如何參與活動，並為 genuine rehabilitation打基礎。Paragraph 6 也說，囚犯會按 “the scope of their activities and achievements” 被評價，這與建立自我價值和正向行為有關。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “improve the aesthetic value of the building.”原文完全沒有以美觀作為主要目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “boost self-esteem and social behaviour.”正確。它概括 behaviour、interaction、morale、social accountability 和 achievements。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “allow prisoners more living space.”這是 cell design 的一個局部效果，例如床架高後 “freeing up space below”。但整體建築改革的primary purpose 更大，指向行為、互動和更生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “increase running costs within prisons.”方向相反。原文說資源可從 security 轉向 rehabilitation，並釋放資金投放教育。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 有真實原文支援，因為 Paragraph 5 確實說床放高能騰出下方空間。可是 Question 8 問的是proposed changes to prison architecture 的 primary purpose。要用 Paragraph 3–6 的整體目的判斷，不能只拿 cell 內一個空間效果作全題答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "C — to allow room below for storage and shelves.",
+      "answerKey": "C — to allow room below for storage and shelves.",
+      "type": "Multiple Choice",
+      "prompt": "“Why is the bed placed lengthways along the external wall at high level?”",
+      "translation": "為甚麼床要沿外牆縱向放置，並放在較高位置？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是細節原因題。定位詞非常強：bed、lengthways、external wall、high level。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual cells are replanned to make them less like domestic lavatories and more conducive to learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個別囚室被重新規劃，使它們較少像家用廁所，更有利於學習。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each cell is paired with a neighbouring ‘buddy’ cell linked by sliding doors controlled by individual prisoners to mitigate the risk of self-harm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個囚室都與相鄰的 “buddy” cell 配對，兩者由囚犯可自行控制的滑門連接，以降低自我傷害風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 5 是囚室設計細節段。床、儲物、學習桌、洗漱空間和滑門都在這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“bed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lengthways”"
+            },
+            {
+              "kind": "quote",
+              "text": "“external wall”"
+            },
+            {
+              "kind": "quote",
+              "text": "“high level”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an inversion of the conventional layout, the bed is placed lengthways along the external wall at high level, freeing up space below.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種設計顛倒了傳統布局：床沿外牆縱向放置，並置於高處，從而騰出下方空間。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Storage is built in and each inmate is provided with a moveable table equipped with electronic tools for study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儲物空間被內置，每名囚犯也配有一張可移動桌子，桌上有供學習用的電子工具。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正原因是："
+            },
+            {
+              "kind": "quote",
+              "text": "“freeing up space below”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "床被放高，是為了讓下方有可用空間。後一句說 storage is built in，因此選項 C 最貼近。雖然選項寫 “storage and shelves”，原文只明確提到 storage，但四個選項中 C 是唯一抓住 below space和 storage 的答案。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “to make room below for washing facilities”洗漱設施在 “a small adjoining space”，即相鄰小空間，不在床下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “to improve the inmates’ hygiene” hygiene 與 washing facilities 有關，但不是床放高的直接原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to allow room below for storage and shelves”正確。對應 “freeing up space below” 和 “Storage is built in”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “to make room for sliding doors” sliding doors 連接 buddy cell，和床下空間無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很容易吸引人，因為下一句有 washing facilities。但原文說洗漱設施在 adjoining space，不在床下。這題要跟緊 “below” 這個位置詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "discrete external area / external area",
+      "answerKey": "discrete external area / external area",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 10",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：圖示題第 10 格通常指向 building 外部的一塊獨立戶外空間。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Buschow Henley’s scheme, the proposed group size of 30–40 offers the potential for social accountability: each prisoner is known within the community and personally accountable for their behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Buschow Henley 的方案中，30–40 人的小組規模能帶來社會責任感：每名囚犯在社群內都被認識，也要為自己的行為負責。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Buildings are arranged in a chessboard formation, as opposed to pavilions marooned in space, each with a discrete external area that can be productively used for sport, games or gardening with a minimum of supervision.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建築以棋盤式排列，而非一座座孤立的 pavilion；每座建築都有一個獨立外部區域，可在最低監督下用於運動、遊戲或園藝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經看到圖示題常考的空間標籤：chessboard formation 和 discrete external area。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖示若指向建築旁或建築外的一格空地，就要找 location / area 類名詞。原文給出的答案短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a discrete external area”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“discrete” 指獨立、分開；“external area” 指外部空間。這個空間可用於 sport、games 或gardening。題目要求 NO MORE THAN THREE WORDS，所以： discrete external area = 3 words external area = 2 words兩者都符合字數限制。若考試要求完全按原文，寫 “discrete external area” 最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "bed",
+      "answerKey": "bed",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 11",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：第 11 格通常指向 cell 內沿外牆、高位放置的床。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual cells are replanned to make them less like domestic lavatories and more conducive to learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個別囚室被重新規劃，使它們較少像家用廁所，更有利於學習。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each cell is paired with a neighbouring ‘buddy’ cell linked by sliding doors controlled by individual prisoners to mitigate the risk of self-harm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個囚室都與相鄰的 “buddy” cell 配對，由囚犯可控制的滑門連接，以降低自我傷害風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 5 是 cell design 的主要答案段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "圖中若箭嘴指向高位、靠牆、長條形家具，應掃描 bed 的位置描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“the bed is placed lengthways along the external wall at high level”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "床沿外牆縱向放置，並放在高處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的物件名稱就是 bed。題目要求 NO MORE THAN THREE WORDS，所以寫 one word： bed"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把整句 “external wall” 填入床的位置。若箭嘴指向物件本身，答案是 bed；若箭嘴指向牆，才考慮 external wall。但同題答案順序顯示第 11 格是 bed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "storage",
+      "answerKey": "storage",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 12",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：第 12 格通常指向床附近或床下方的儲物位置。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual cells are replanned to make them less like domestic lavatories and more conducive to learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個別囚室被重新規劃，使它們更有利於學習。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each cell is paired with a neighbouring ‘buddy’ cell linked by sliding doors…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個囚室都與相鄰的 “buddy” cell 配對，由滑門連接。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 中間按空間順序講床、下方空間、storage、movable table、washing facilities、buddy cell 和 sliding doors。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Storage is built in and each inmate is provided with a moveable table equipped with electronic tools for study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儲物空間被內置，每名囚犯也配有一張可移動桌子，桌上有學習用電子工具。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中若箭嘴指向內置櫃、床下或牆邊儲物區，答案就是 storage。它是 one word，完全符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中可能畫成 cupboard / shelf / storage space，但答案需來自 passage。原文給的是 storage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 storage。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "sliding doors",
+      "answerKey": "sliding doors",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 13",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：第 13 格通常指向兩個相鄰 cells 之間的連接門。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual cells are replanned to make them less like domestic lavatories and more conducive to learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個別囚室被重新規劃，使它們更有利於學習。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each cell is paired with a neighbouring ‘buddy’ cell linked by sliding doors controlled by individual prisoners to mitigate the risk of self-harm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個囚室都與相鄰的 “buddy” cell 配對，兩者由囚犯可控制的滑門連接，以降低自我傷害風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句本身就是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若圖中箭嘴指向兩個 cells 之間的門或連接處，要找 linked / doors / buddy cell 相關短語。"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“sliding doors”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sliding doors” 是連接 neighbouring “buddy” cell 的設備。它們由 individual prisoners 控制，目的在於 mitigating the risk of self-harm，即降低自傷風險。答案形式檢查： sliding doors = 2 words，符合 NO MORE THAN THREE WORDS。答案是 sliding doors。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“buddy cell” 也在同一句出現，但如果箭嘴指向的是門，答案要填 sliding doors。buddy cell 是相鄰囚室本身；sliding doors 是連接兩個囚室的部件。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - PROJECT_ Reform Of The Prison System In The UK.pdf",
+    "sha256": "7535d33e93ae3378ddb1aee27eedef32b4edefafa3d20f77a012c53349661c77",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "首句說英國龐大的監獄人口由 high level of recidivism 推動，即犯人出獄後再犯罪。末句說這個model prison project 會處理 architecture、management 和 funding，目標是 lasting rehabilitation。只看首尾句，可以先看到全文主線：英國監獄問題的根源是重犯率高，而這個改革方案希望透過建築、管理和資金重新設計監獄，使監獄真正有助長期更生。",
+        "label": "Lead-in"
+      },
+      {
+        "number": "1",
+        "summary": "首句說 penal system 是國家權力最直接的表現之一，也反映國民心理和公眾對 punishment /rehabilitation 的態度。末句說雖然投入巨大，超過一半英國囚犯在出獄兩年內再犯。只看首尾句，可以估計這段是問題背景：英國作為富裕民主國家，監獄人口高、成本高、成效低。這段提供prison population、cost、re-offend 等宏觀數據。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說如此高的 recidivism rate 是嚴重問題。末句說多數囚犯是教育程度低、30 歲以下的年輕男性；沒有教育和技能，他們很難遠離犯罪建立有意義的生活。只看首尾句，可以看到這段解釋重犯率如何造成監獄人口上升和 overcrowding，也批評新建監獄仍偏重 security and control，未能回應囚犯真正需要的 education and rehabilitation。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說任何 penal system 的轉型都必須從 redesign prison buildings 開始。末句說這個 model能把資源由 security 轉向 rehabilitation，投放教育課程，幫助減少重犯並形成 virtuous cycle。只看首尾句，可以估計這段是全文核心方案：建築設計會影響 behaviour、efficiency、interaction 和morale；Buschow Henley 的 Learning Prison 透過小型 houses、教育設施和資源重配推動更生。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Buschow Henley 的方案中，30–40 人的小組規模能帶來 social accountability。末句說建築以 chessboard formation 排列，每組有獨立 external area，可用於 sport、games 或 gardening，且只需 minimum supervision。只看首尾句，可以估計這段講空間組織：小型 community、semi-autonomous houses、簡化 circulation，以及有生產性用途的戶外空間，重點在責任感、社群和監督效率。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 individual cells 被重新規劃，使它們較少像 domestic lavatories，更有利於 learning。末句說每個 cell 會和 neighbouring “buddy” cell 配對，由 sliding doors 連接，以減少 self-harm 風險。只看首尾句，可以看到這段是 cell design 的細節段：床的位置、下方空間、storage、movable table、electronic tools、washing facilities、buddy cell 和 sliding doors 都會是圖示題的答案來源。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說這種新型監獄看似 somewhat liberal，但內外空間和功能安排其實 tightly controlled。末句引用 Martin Narey 的話：監獄必須是 humane and constructive place，因為幾乎所有囚犯終有一天會回家。只看首尾句，可以看到這段是總結和理念說明：有控制的設計反而讓活動更多、監督更易，也讓囚犯按 activities and achievements 被評價，為 genuine rehabilitation 打基礎。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 10–13 的原題 diagram 沒有顯示。來源 PDF 根據 Paragraphs 4–5 的結構描述和同題常見圖示順序，採用 discrete external area / external area、bed、storage、sliding doors；實際作答時應以紙本圖的箭嘴位置為準。"
+  ]
+}

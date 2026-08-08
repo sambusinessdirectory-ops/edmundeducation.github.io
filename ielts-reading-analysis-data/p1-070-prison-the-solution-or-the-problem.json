@@ -1,0 +1,2733 @@
+{
+  "id": "p1-070-prison-the-solution-or-the-problem",
+  "catalogueId": "p1-070",
+  "catalogueIds": [
+    "p1-070"
+  ],
+  "passage": 1,
+  "title": "Prison: The Solution or the Problem?",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "rehabilitating offenders",
+    "has been accelerating",
+    "all expectations",
+    "question the validity",
+    "than alleviate",
+    "more effective alternatives",
+    "social and economic",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "rehabilitating offenders",
+      "answerKey": "rehabilitating offenders",
+      "type": "Sentence Completion",
+      "prompt": "“A decrease in crime in the Netherlands and parts of the US is attributable more to 1_________________ than to incarceration.”",
+      "translation": "Netherlands 和美國部分地區犯罪率下降，更多可歸因於 ______，而非監禁。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 “attributable more to”，後面有 “than to incarceration”，所以答案需要是一個原因或政策方向。題目已經指出地點是 Netherlands and parts of the US，因此應先看文章開頭。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Netherlands and parts of the USA such as Johnson County, a move towards rehabilitating offenders has helped to reduce both crime and incarceration rates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Netherlands 和 USA 部分地區，例如 Johnson County，轉向 rehabilitating offenders 已經有助於同時降低犯罪率和監禁率。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without a shadow of a doubt, out of all European countries, the UK has adopted the most hardline approach to offenders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，在所有歐洲國家之中，UK 對 offenders 採取了最強硬的做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 1 的功能是比較兩種路線：Netherlands / parts of the USA 採取 rehabilitation，UK 則採取 hardline incarceration approach。這正好對應題目問 “crime decrease” 應歸因於甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Netherlands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“parts of the US”"
+            },
+            {
+              "kind": "quote",
+              "text": "“decrease in crime”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句同時出現 Netherlands、parts of the USA 和 reduce crime，所以要停下細讀："
+            },
+            {
+              "kind": "quote",
+              "text": "“a move towards rehabilitating offenders has helped to reduce both crime and incarceration rates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉向 rehabilitating offenders 已經有助於同時降低犯罪率和監禁率。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “a move towards rehabilitating offenders”。核心動詞是 “has helped to reduce”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是 “both crime and incarceration rates”。也就是說，犯罪下降和監禁下降都和 rehabilitating offenders 這個政策方向有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文 “has helped to reduce crime” 改寫成 “A decrease in crime … is attributable more to”。這是原因和結果的改寫："
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a decrease in crime”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce … crime”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“is attributable more to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a move towards … has helped to”"
+            },
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“rehabilitating offenders”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“rehabilitating offenders”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： rehabilitating offenders = 2 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入題目後是： A decrease in crime … is attributable more to rehabilitating offenders than to incarceration.句子意思完整，文法自然。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能被 “incarceration rates” 吸引，因為原文也說 incarceration rates 下降。但題目已經把incarceration 放在 “than to incarceration” 後面，表示它不是空格答案。空格要填的是造成下降的政策方向，即 rehabilitating offenders。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "has been accelerating",
+      "answerKey": "has been accelerating",
+      "type": "Sentence Completion",
+      "prompt": "“The closure of prisons in the Netherlands 2 _________________ at an unprecedented rate over recent years.”",
+      "translation": "近年來，Netherlands 關閉監獄的速度 ______，達到前所未有的程度。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Sentence Completion。空格位於主語 “The closure of prisons in the Netherlands” 之後，所以需要動詞短語。題目中的 “at an unprecedented rate” 會對應原文的 “phenomenal pace”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trend towards imposing prison sentences on offenders in the UK seems all the harsher because the Dutch Justice Ministry is actively in the process of systematically closing down prisons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "UK 對 offenders 判處監禁的趨勢顯得更加嚴厲，因為 Dutch Justice Ministry 正積極、系統性地關閉監獄。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If anything, the Dutch reform of the prison system has been accelerating at a phenomenal pace, with 19 of the prisons being shut down in 2014 alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果說有甚麼變化的話，Dutch prison system reform 一直以驚人的速度加快；單在 2014 年，就有 19 所監獄被關閉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段主題是 Dutch prison closures，而且重點在 closure 的速度和規模。這正好回應題目中的 “at an unprecedented rate”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“closure of prisons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Netherlands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unprecedented rate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對應最清楚的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Dutch reform of the prison system has been accelerating at a phenomenal pace”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dutch prison system reform 一直以驚人的速度加快。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“has been accelerating at a phenomenal pace”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一直在加速，而且速度驚人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “phenomenal pace” 改寫成 “unprecedented rate”。兩者都表示速度非常快、不同尋常。空格放在主語後面，需要完整動詞短語，所以答案要保留 “has been accelerating”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“at an unprecedented rate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“at a phenomenal pace”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“The closure of prisons in the Netherlands”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Dutch reform of the prison system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prisons being shut down”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： has been accelerating = 3 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入題目後是： The closure of prisons in the Netherlands has been accelerating at an unprecedented rate over recent years.文法完整。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“28 prisons were closed in total” 和 “19 … in 2014 alone” 都是重要數字，但它們不能直接放入空格。題目需要動詞短語，不是數字或名詞。Completion 題要先看空格文法，再找原文答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "all expectations",
+      "answerKey": "all expectations",
+      "type": "Sentence Completion",
+      "prompt": "“Against 3 _________________, the Netherlands is seeing a drop in crime along with the closure of prisons.”",
+      "translation": "與 ______ 相反，Netherlands 在關閉監獄的同時，犯罪率也正在下降。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 “Against” 後面，需要名詞短語。題目中的 “drop in crime along with the closure of prisons” 對應 Paragraph 3 末句。這題很可能考 “Defying all expectations” 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As would be expected, closures of prisons in the Netherlands have led to a drop in the numbers of incarcerated offenders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如人們會預期的那樣，Netherlands 關閉監獄導致被監禁 offenders 的數字下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Defying all expectations of the pro-incarceration lobbyists, crime rates in the Netherlands are also decreasing in direct proportion to the closure of prisons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出乎支持監禁的遊說者所有預期之外，Netherlands 的犯罪率也正隨著監獄關閉而按比例下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段先講 expected result，再講 unexpected result。被監禁人數下降是預期之中；犯罪率也下降則挑戰 pro-incarceration lobbyists 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Against”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drop in crime”"
+            },
+            {
+              "kind": "quote",
+              "text": "“closure of prisons”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “Defying all expectations” 就是 “Against all expectations” 的改寫基礎："
+            },
+            {
+              "kind": "quote",
+              "text": "“Defying all expectations of the pro-incarceration lobbyists…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出乎支持監禁的遊說者所有預期之外……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Defying all expectations of the pro-incarceration lobbyists, crime rates in the Netherlands are also decreasing in direct proportion to the closure of prisons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出乎支持監禁的遊說者所有預期之外，Netherlands 的犯罪率也正隨著監獄關閉而按比例下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “Defying all expectations” 改成 “Against all expectations”。這是非常直接的同義改寫： Defying all expectations= Against all expectations= 違反所有預期；出乎意料題目把 “crime rates … decreasing” 改成 “a drop in crime”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “closure of prisons” 保留為原字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： all expectations = 2 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入題目後是： Against all expectations, the Netherlands is seeing a drop in crime along with the closure of prisons.文法和意思都自然。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可以填 “pro-incarceration lobbyists” 嗎？不適合。原文是 “expectations of the pro-incarceration lobbyists”，題目是 “Against ______”。最自然、最符合原文短語結構的是 “all expectations”。若填pro-incarceration lobbyists，句子變成 “Against pro-incarceration lobbyists”，文法上仍可能勉強成立，但它沒有保留 “expectations” 這個真正被 defy 的對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "question the validity",
+      "answerKey": "question the validity",
+      "type": "Sentence Completion",
+      "prompt": "“Since statistics do not support the argument for incarceration, this has made many 4_________________ of such a practice.”",
+      "translation": "由於統計數字不支持監禁論點，這使許多人開始 ______ 這種做法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “made many” 後面，需要動詞短語。題目中的 “statistics” 和 “argument for incarceration”指向 Paragraph 4 開頭，因為該段用 “such statistics laid bare” 引出人們對 incarceration 的質疑。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such statistics laid bare for all to see, many are now beginning to question the validity of incarceration as a method of reforming offenders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這些統計數字清楚擺在所有人面前時，許多人現在開始質疑 incarceration 作為 reforming offenders 方法的有效性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Serving a probation or community service order would also be 12 times less costly than the average prison placement for an offender.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "服 probation 或 community service order 的成本，也會比一名 offender 的平均 prison placement低 12 倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段處理「統計數字令監禁有效性受到質疑」以及「替代方案更便宜」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 4 的 wording 幾乎直接來自第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“statistics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“made many”"
+            },
+            {
+              "kind": "quote",
+              "text": "“incarceration”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such statistics laid bare for all to see, many are now beginning to question the validity of incarceration…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 statistics、many 和 incarceration，值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“many are now beginning to question the validity of incarceration”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人現在開始質疑 incarceration 的有效性。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“this has made many ______ of such a practice.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要讓句子完整，答案要放入 “question the validity”。放入後： this has made many question the validity of such a practice.意思是：這使許多人質疑這種做法的有效性。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“statistics do not support the argument for incarceration”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such statistics laid bare for all to see”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“made many”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“many are now beginning to”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“such a practice”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“incarceration as a method of reforming offenders”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： question the validity = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“as a method of reforming offenders” 很容易吸引學生填太長答案，但空格後已經有 “of such a practice”。真正需要的是動詞短語 “question the validity”，不需要把 incarceration 或 method of reforming offenders 再抄一次。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "than alleviate",
+      "answerKey": "than alleviate",
+      "type": "Sentence Completion",
+      "prompt": "“In fact, incarceration may serve to fuel rather 5 _________________ crime, thereby defeating the purpose of such a punishment.”",
+      "translation": "事實上，incarceration 可能會加劇犯罪，而非 ______ 犯罪，因此違背這種懲罰的目的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格跟在 “rather” 後面，常見搭配是 “rather than + verb”。題目中的 “fuel crime” 會對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“create the problem of crime”。要找 prison term 對 crime 的效果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5第一句：“More tellingly, reoffending statistics published by the UK Ministry of Justice show a lower rate among offenders who receive a community sentence rather than a custodial one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更有說服力的是，UK Ministry of Justice 發布的再犯統計顯示，接受 community sentence 的offenders，比接受 custodial sentence 的 offenders 再犯率更低。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, the report also argued that there should be a range of community-based sentences which would be cheaper and more effective alternatives to prison.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，該報告也主張應設立一系列 community-based sentences，作為比監獄更便宜、更有效的替代方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 5 會說 community sentences 效果較好，prison sentence 的效果較差。Question 5 問 incarceration 是否加劇 crime，正好定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“fuel”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rather”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crime”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最接近的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This supports the argument that serving a prison term tends to create rather than alleviate the problem of crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支持一個論點：服 prison term 往往會製造犯罪問題，而非減輕犯罪問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“serving a prison term tends to create rather than alleviate the problem of crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "服 prison term 往往會製造犯罪問題，而非減輕犯罪問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “create” 改寫成 “fuel”。兩者在這裡都表示讓問題變得更嚴重。題目已經提供 “rather”，所以答案要接出 “than alleviate”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“incarceration may serve to fuel … crime”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“serving a prison term tends to create … the problem of crime”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“rather ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“rather than alleviate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： than alleviate = 2 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入後： fuel rather than alleviate crime句子文法自然，意思清楚。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能想填 “create rather” 或 “create rather than”，因為原文這幾個字很顯眼。但題目已經用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“fuel” 替代了 create，也已經給了 “rather”。Completion 題要看題目句子缺哪一部分，不能把原文整段照搬。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "more effective alternatives",
+      "answerKey": "more effective alternatives",
+      "type": "Sentence Completion",
+      "prompt": "“In recognition of the fact that custodial sentences achieve little, less costly and 6_________________ were put forward by the Conservatives in 1990.”",
+      "translation": "因為承認 custodial sentences 成效有限，Conservatives 在 1990 年提出了成本較低且 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題空格在 “less costly and” 後面，需要一個能和 less costly 並列的形容詞加名詞短語。題目提到 Conservatives in 1990，直接定位到 Paragraph 5 的 Conservative white paper / report。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More tellingly, reoffending statistics published by the UK Ministry of Justice show a lower rate among offenders who receive a community sentence rather than a custodial one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更有說服力的是，UK Ministry of Justice 的再犯統計顯示，接受 community sentence 的offenders，比接受 custodial sentence 的 offenders 再犯率更低。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, the report also argued that there should be a range of community-based sentences which would be cheaper and more effective alternatives to prison.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，該報告也主張應設立一系列 community-based sentences，作為比監獄更便宜、更有效的替代方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段從再犯率低轉向 community-based alternatives。Question 6 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Conservatives in 1990” 和 “less costly” 正好對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是：“Conservatives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1990”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less costly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a Conservative white paper concluded in 1990…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如一份 1990 年的 Conservative white paper 所總結……接著最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“community-based sentences which would be cheaper and more effective alternatives to prison.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“cheaper and more effective alternatives to prison”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "比監獄更便宜、更有效的替代方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “cheaper” 改寫成 “less costly”，所以空格需要填 “more effective alternatives”。題目句子如下： less costly and more effective alternatives were put forward…這樣 “less costly” 和 “more effective” 同時修飾 alternatives，句子完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“less costly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“cheaper”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“were put forward by the Conservatives in 1990”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a Conservative white paper concluded in 1990”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the report also argued that there should be…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： more effective alternatives = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "只填 “more effective” 會令句子變成 “less costly and more effective were put forward”，名詞不夠完整。原文中的 “alternatives” 很重要，因為題目空格後沒有名詞，所以答案要包括 alternatives。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "social and economic",
+      "answerKey": "social and economic",
+      "type": "Sentence Completion",
+      "prompt": "“Crime is not only down to individual behaviour but is also a result of 7 _________________influences.”",
+      "translation": "犯罪不只源於個人行為，也受到 ______ 影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面已有 “influences”，所以答案需要形容詞短語。題目中的 “individual behaviour” 對應Paragraph 6 中 prisoner being completely responsible for actions；“other influences” 對應 social and economic factors。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Quite apart from the cost and relative ineffectiveness of incarceration is the short-sightedness of imposing a custodial sentence in the first place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 incarceration 的成本和相對無效之外，一開始 impose custodial sentence 這件事本身也十分短視。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such an oversight only serves to perpetuate crime and punish offenders who need help rather than a penal sentence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種忽視只會延續犯罪，並懲罰那些需要幫助、多於需要刑罰的 offenders。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段批評 custodial sentence 的思想基礎：若只把 crime 歸咎於個人，便會忽視其他促成犯罪的因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“individual behaviour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“influences”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such an approach overlooks social and economic factors that can play an integral role in the incidence of crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種做法忽略了 social and economic factors，而這些因素可能在犯罪發生中扮演重要角色。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“social and economic factors”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社會和經濟因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “factors” 改寫成 “influences”，所以空格只需要填前面的形容詞部分 “social and economic”。放入後： a result of social and economic influences意思是：犯罪也是社會和經濟影響的結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“individual behaviour”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the prisoner is considered answerable for their behaviour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“completely responsible for their actions”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“influences”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“factors that can play an integral role”"
+            },
+            {
+              "kind": "label",
+              "text": "題目答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“social and economic”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“social and economic factors”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： social and economic = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不能填 “social and economic factors”，因為題目後面已經有 “influences”。如果填 factors，句子會變成 “factors influences”，文法不通。這題的核心不是只找到原文字，還要讓答案和題目句子接合自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mothers who receive a custodial sentence are worse role models for their children than fathers who receive similar sentences.”",
+      "translation": "被判 custodial sentence 的母親，比被判類似刑罰的父親更不是好榜樣。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目有兩個核心：第一，mothers 和 fathers 的比較；第二，role models，即父母作為榜樣的好壞。原文確實比較 imprisoned mothers 和 imprisoned fathers的子女犯罪風險，但是否有討論 role model quality，要細讀確認。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overlooking the social circumstances of the offender can also be detrimental to children’s welfare, especially if a mother is convicted and given a custodial sentence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "忽略 offender 的 social circumstances 也可能損害兒童福利，尤其當一位母親被定罪並被判custodial sentence 時。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Viewing the offender and their crime in isolation and disregarding all other social and environmental factors is therefore mistaken, if not downright morally reprehensible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，把 offender 和其 crime 孤立看待，並無視其他 social and environmental factors，是錯誤的；甚至可說在道德上應受嚴厲批評。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 8 講母親入獄如何影響 children’s welfare，以及為何不能忽略家庭和社會環境。這段與題目中的 mothers and children 有關，但未必談 role models。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“mothers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fathers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“role models”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph 8，可以找到 mothers、children、fathers："
+            },
+            {
+              "kind": "quote",
+              "text": "“Worse still, figures show that adult children of imprisoned mothers are more likely to be convicted of a crime than adult children of imprisoned fathers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更糟的是，數字顯示，被監禁母親的成年子女，比被監禁父親的成年子女更有可能被定罪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但原文沒有出現 role models，也沒有討論母親或父親作為榜樣的質素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“adult children of imprisoned mothers are more likely to be convicted of a crime than adult children of imprisoned fathers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被監禁母親的成年子女，比被監禁父親的成年子女更有可能被定罪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供的是結果比較：成年子女日後被定罪的可能性。它沒有解釋原因，也沒有說母親作為榜樣比父親更差。role model 涉及父母對孩子行為、價值觀或模仿對象的影響，這層解釋在原文中沒有出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題拆解：主體：mothers who receive custodial sentence比較對象：fathers who receive similar sentences判斷內容：mothers are worse role models比較方向：mothers worse than fathers原文命題：主體：adult children of imprisoned mothers比較對象：adult children of imprisoned fathers判斷內容：more likely to be convicted of a crime沒有提供：role model quality比較結果：文章提供與題目相關的統計背景，但缺少 “worse role models” 這個核心判斷。沒有明確衝突，也沒有足夠支援，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選 TRUE 的地方是原文確實說 imprisoned mothers 的 adult children 更可能被定罪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是「子女更可能犯罪」不等於「母親作為榜樣更差」。這是一個原因解釋，文章沒有講出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "IELTS 判斷時，要分清結果統計和原因評價。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Custodial sentences are intended primarily to reform prisoners.”",
+      "translation": "Custodial sentences 的主要目的，是 reform prisoners。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 custodial sentences 的基本目的。題目中的 “primarily” 是控制詞，表示主要目的。原文一方面提到 incarceration as a method of reforming offenders，但後文更清楚指出 custodial system 的思想基礎是 punitive，即懲罰。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Quite apart from the cost and relative ineffectiveness of incarceration is the short-sightedness of imposing a custodial sentence in the first place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 incarceration 的成本和相對無效之外，一開始 impose custodial sentence 這件事本身也十分短視。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such an oversight only serves to perpetuate crime and punish offenders who need help rather than a penal sentence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種忽視只會延續犯罪，並懲罰那些需要幫助、多於需要刑罰的 offenders。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 6 在批評 custodial sentence 的根本假設。最後一句說offenders need help more than penal sentence，說明作者認為現行做法太偏向 punishment。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“custodial sentences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“intended”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reform”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最重要的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A punitive system of incarceration presupposes that the prisoner needs to be punished for bad behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一套 punitive incarceration system 預設 prisoner 需要因 bad behaviour 受到懲罰。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A punitive system of incarceration presupposes that the prisoner needs to be punished for bad behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一套懲罰性的監禁制度預設 prisoner 需要因不良行為受到懲罰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心詞是 “punitive”。Punitive 指以懲罰為導向。後面 “needs to be punished” 進一步把目的說明為 punishment。題目說主要目的在 reform prisoners，但 Paragraph 6 對 custodial system的描述集中在 punishment and responsibility。"
+            },
+            {
+              "kind": "label",
+              "text": "同段還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the prisoner is considered answerable for their behaviour, it is believed that they are also completely responsible for their actions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 prisoner 被視為要為自己的行為負責，因此人們相信他們也要為自己的行動完全負責。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組句子顯示，custodial sentence 的邏輯基礎是個人責任和懲罰。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“intended primarily to reform prisoners”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“punitive system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“needs to be punished for bad behaviour”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目說主要目的在 reform；原文指出制度以 punishment 作出發點。這是方向衝突，所以答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 的確出現 “incarceration as a method of reforming offenders”。但那一句的語境是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“many are now beginning to question the validity”，也就是很多人開始質疑這種說法。不能只抓“reforming offenders” 這幾個字。真正控制 Q9 的是 Paragraph 6 對 punitive system 的分析。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Factors other than an individual’s guilt are rarely taken into account by the English judicial system.”",
+      "translation": "除了個人罪責之外，其他因素很少被 English judicial system 考慮。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 English judicial / penal approach 是否忽略個人以外的因素。題目中的 “individual’s guilt”對應原文的 “completely responsible for their actions”；“factors other than” 對應 social, economic, environmental factors。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Quite apart from the cost and relative ineffectiveness of incarceration is the short-sightedness of imposing a custodial sentence in the first place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 incarceration 的成本和相對無效之外，一開始 impose custodial sentence 這件事本身也十分短視。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such an oversight only serves to perpetuate crime and punish offenders who need help rather than a penal sentence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種忽視只會延續犯罪，並懲罰那些需要幫助、多於需要刑罰的 offenders。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段主要講 punitive approach 的盲點。Question 10 的 “factors other than individual guilt” 正是這個盲點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“individual”"
+            },
+            {
+              "kind": "quote",
+              "text": "“factors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taken into account”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such an approach overlooks social and economic factors that can play an integral role in the incidence of crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種做法忽略 social and economic factors，而這些因素可能在犯罪發生中扮演重要角色。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 還有補充句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Viewing the offender and their crime in isolation and disregarding all other social and environmental factors is therefore mistaken…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把 offender 和其 crime 孤立看待，並無視其他 social and environmental factors，是錯誤的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 的核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such an approach overlooks social and economic factors that can play an integral role in the incidence of crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種做法忽略社會和經濟因素，而這些因素可能在犯罪發生中扮演重要角色。"
+            },
+            {
+              "kind": "quote",
+              "text": "“overlooks” 對應題目 “rarely taken into account”。意思是這些因素未被充分考慮。題目中的“individual’s guilt” 則來自前文：“it is believed that they are also completely responsible for their actions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們相信他們也要為自己的行動完全負責。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以文章先描述現行 punitive approach 把責任放在個人身上，再批評它忽略 social and economic factors。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“individual’s guilt”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“completely responsible for their actions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“answerable for their behaviour”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“factors other than…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“social and economic factors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“social and environmental factors”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“rarely taken into account”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“overlooks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disregarding”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：題目與原文方向一致。文章明確批評現行 approach 忽略個人以外的因素，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“English judicial system” 在原文較常寫成 “English penal system” 或 “punitive system of incarceration”。題目使用 broader wording，但整篇文章討論的是英國監禁和刑罰制度。這個概括沒有越過文章範圍，因為結論段明確說 “English penal system” 需要 shake-up。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A proven link exists between mothers receiving a custodial sentence and their offspring committing crimes in later life.”",
+      "translation": "母親被判 custodial sentence 和其子女日後犯罪之間，存在已被數字顯示的關聯。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否提供 mothers’ imprisonment 和 adult children’s crime 之間的 link。需要留意，這裡的 link 應理解為統計關聯，不宜擴大成文章明確證明了直接因果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overlooking the social circumstances of the offender can also be detrimental to children’s welfare, especially if a mother is convicted and given a custodial sentence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "忽略 offender 的 social circumstances 也可能損害兒童福利，尤其當一位母親被定罪並被判custodial sentence 時。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Viewing the offender and their crime in isolation and disregarding all other social and environmental factors is therefore mistaken, if not downright morally reprehensible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，把 offender 和其 crime 孤立看待，並無視其他 social and environmental factors，是錯誤的；甚至可說在道德上應受嚴厲批評。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段會講母親入獄對兒童福利的影響，並用此說明不能把 offender isolated 起來看。Question 11 正好在這個範圍內。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“mothers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“offspring”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crimes in later life”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Worse still, figures show that adult children of imprisoned mothers are more likely to be convicted of a crime than adult children of imprisoned fathers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更糟的是，數字顯示，被監禁母親的成年子女，比被監禁父親的成年子女更有可能被定罪。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“figures show that adult children of imprisoned mothers are more likely to be convicted of a crime…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數字顯示，被監禁母親的成年子女更有可能被定罪。"
+            },
+            {
+              "kind": "label",
+              "text": "這句包含三個重要元素："
+            },
+            {
+              "kind": "quote",
+              "text": "“figures show”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 數字顯示，有統計根據。"
+            },
+            {
+              "kind": "quote",
+              "text": "“adult children of imprisoned mothers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 被監禁母親的成年子女，對應題目 offspring in later life。"
+            },
+            {
+              "kind": "quote",
+              "text": "“more likely to be convicted of a crime”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 更有可能被定罪，對應 committing crimes in later life。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “a proven link exists”。原文的 “figures show” 足以支援一種統計關聯。這裡不應把 “link”解讀成文章已證明母親入獄直接造成子女犯罪；文章只明確提供「兩者有關聯」和「比例較高」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“mothers receiving a custodial sentence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“imprisoned mothers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a mother is convicted and given a custodial sentence”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“offspring committing crimes in later life”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“adult children … more likely to be convicted of a crime”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“proven link exists”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“figures show”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：文章提供統計句支援題目，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易過度解讀。TRUE 的原因是文章支援 “link exists”。若題目改成 “mothers’ imprisonment directly causes their children to commit crimes”，答案便會缺少因果證據。現在題目只說 link，所以可以成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The English judicial system stands to benefit from incarcerating offenders.”",
+      "translation": "English judicial system 會從監禁 offenders 中得益。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 incarceration 是否帶來 identifiable benefit。目標位置在結論段，因為作者總結整個English penal system 的得失。題目中的 “stands to benefit” 要找原文是否提到 winners、benefits或 gains。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All evidence would seem to point to a much-needed shake-up of the English penal system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有證據似乎都指向一點：English penal system 急需大幅改革。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maybe we would do better to go one step further and amend his quotation to ‘The degree of civilisation in a society is revealed by not having prisons and instead by addressing social issues in society itself.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許我們更應該再走前一步，把他的名言改成：一個社會的文明程度，體現在不設監獄，並在社會本身處理社會問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到結論段對 English penal system 的評價非常負面，作者主張改革並把焦點轉向 social issues。這與題目說 judicial system benefits from incarceration 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“benefit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“incarcerating offenders”"
+            },
+            {
+              "kind": "quote",
+              "text": "“English judicial system”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 中最直接的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As things stand, there are too many losers and no identifiable winners.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按現況來看，輸家太多，且沒有可辨認的贏家。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As things stand, there are too many losers and no identifiable winners.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以目前情況而言，輸家太多，而且看不到任何明確的贏家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 English judicial system truly stood to benefit, 原文應該至少承認有一方受益。可是作者說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“no identifiable winners”。這直接推翻題目說法。整篇文章也列出 taxpayer cost、reoffending、children’s welfare 等損害，結論進一步說沒有 winners。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“stands to benefit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“no identifiable winners”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“English judicial system”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“English penal system”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“incarcerating offenders”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“prisons” / “penal system” / “incarceration”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文提供相反證據：現行制度下沒有可辨認的得益者，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “judicial system” 而原文用 “penal system”。兩者在這篇文章中都指向英國處理 offenders的刑罰制度。真正要判斷的不是用詞差異，而是 benefit 是否存在。結論段的 “no identifiable winners” 已經清楚定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There are signs that custodial sentences are becoming less popular in the UK.”",
+      "translation": "有跡象顯示 custodial sentences 在 UK 正變得較不常用或較不受制度偏好。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 UK 對 custodial sentences 的趨勢。題目中的 “becoming less popular” 需要和原文中的 prison population、trend towards imposing prison sentences、hardline approach 比較。雖然文章後面說很多人開始質疑 incarceration，實際制度趨勢仍要回到開頭。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Netherlands and parts of the USA such as Johnson County, a move towards rehabilitating offenders has helped to reduce both crime and incarceration rates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Netherlands 和 USA 部分地區，例如 Johnson County，轉向 rehabilitating offenders 已經有助於同時降低犯罪率和監禁率。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without a shadow of a doubt, out of all European countries, the UK has adopted the most hardline approach to offenders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，在所有歐洲國家之中，UK 對 offenders 採取了最強硬的做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 1 把 UK 放在 rehabilitation trend 的反面：其他地方轉向rehabilitation，UK 採取最 hardline approach。這已經不支持 “custodial sentences becoming less popular”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“custodial sentences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less popular”"
+            },
+            {
+              "kind": "quote",
+              "text": "“UK”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 中最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bucking this trend, the UK’s prison population has increased by an average of 3.6% per year since 1993.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與這個趨勢相反，UK 的 prison population 自 1993 年以來平均每年增加 3.6%。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trend towards imposing prison sentences on offenders in the UK seems all the harsher…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "UK 對 offenders imposed prison sentences 的趨勢顯得更加嚴厲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“the UK’s prison population has increased by an average of 3.6% per year since 1993.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "UK 的 prison population 自 1993 年以來平均每年增加 3.6%。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The trend towards imposing prison sentences on offenders in the UK seems all the harsher…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "UK 對 offenders 判處 prison sentences 的趨勢顯得更加嚴厲。"
+            },
+            {
+              "kind": "quote",
+              "text": "“the UK has adopted the most hardline approach to offenders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "UK 對 offenders 採取了最強硬的做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子共同指向同一方向：UK 仍然大量使用 imprisonment，而且走向更嚴厲。題目說custodial sentences becoming less popular，與這個趨勢相衝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“custodial sentences are becoming less popular”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“prison population has increased”"
+            },
+            {
+              "kind": "quote",
+              "text": "“trend towards imposing prison sentences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most hardline approach”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目說使用或偏好下降；原文說 prison population 上升、判監趨勢更嚴厲、制度路線最強硬。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 說 “many are now beginning to question the validity of incarceration”。這確實表示批評聲音增加，但它未能推翻制度使用上的明確趨勢。題目說的是 custodial sentences in the UK becoming less popular；從文章開頭的數據和趨勢看，實際情況正好相反。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Prison_ The Solution or the Problem_.pdf",
+    "sha256": "be1018002a08a7e296e803c6c62fcbef9ed1a97f5c58969635a3a7311733f9fb",
+    "pageCount": 30
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 Netherlands 和 USA 部分地區轉向 rehabilitating offenders，成功減少 crime 和incarceration rates；末句說在所有歐洲國家中，UK 對 offenders 採取最 hardline approach。只看首尾句，可以先估這段是全文立場開場：作者把荷蘭和美國部分地區的 rehabilitation trend，和英國持續上升的 prison population 作對比，建立「監禁政策是否有效」這個核心問題。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 UK 對 offenders imposed prison sentences 的趨勢顯得更嚴厲，因為 Dutch Justice Ministry 正積極關閉監獄；末句說 Dutch reform of the prison system 正以 phenomenal pace 加速，2014 年單年已關閉 19 所監獄。只看首尾句，可以判斷這段集中講 Netherlands prison closures，而且重點在速度和規模：荷蘭改革並非零散小變化，而是快速、系統性地縮減監獄。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Netherlands 的 prison closures 如預期導致 incarcerated offenders 數字下降；末句說crime rates 也隨 prisons closure 按 direct proportion 下降，這挑戰 pro-incarceration lobbyists 的預期。只看首尾句，可以估計這段會處理一個反直覺結果：監獄關閉、電子標籤增加，卻沒有帶來犯罪上升；相反，犯罪率也下降，支援非監禁措施的有效性。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說統計數字公開後，很多人開始質疑 incarceration 作為 reforming offenders 方法的 validity；末句說 probation 或 community service order 的成本比 average prison placement 低 12 倍。只看首尾句，可以判斷這段主要處理成本和替代方案：監禁昂貴，而且 fails to deliver；electronic tagging、probation 和 community service 被塑造成更便宜、可能更有效的處理方式。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 UK Ministry of Justice 的 reoffending statistics 顯示，community sentence 的再犯率低於custodial sentence；末句說 1990 年 Conservative report 主張設立一系列 community-based sentences，作為 cheaper and more effective alternatives to prison。只看首尾句，可以估計這段會把焦點由成本轉到效果：監禁可能 create crime problem，community-based alternatives 在再犯率和成本上都更有說服力。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說除了 incarceration 的成本和相對無效外，問題還包括一開始 imposed custodial sentence的 short-sightedness；末句說這種 oversight 只會 perpetuate crime，並懲罰其實需要 help 的offenders。只看首尾句，可以判斷這段在批評 punitive system 的思想基礎：它把犯罪視作個人完全負責，卻忽略 social and economic factors 對犯罪發生的作用。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 UK 借鑑 Netherlands 不會有壞處，因為 Netherlands 透過 addressing social problems 減少 crime 和 incarceration；末句說犯事者會得到 rehabilitation programmes 的幫助。只看首尾句，可以估計這段提供正面模型：若要減少犯罪，政策焦點應放在 social services、deterring crime 和rehabilitation 上，而不是單靠 punishment。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說忽略 offender 的 social circumstances 也會損害 children’s welfare，尤其當 mother 被判custodial sentence；末句說把 offender 和 crime isolated 起來、無視 social and environmental factors，是 mistaken，甚至 morally reprehensible。只看首尾句，可以判斷這段把監禁問題擴展到家庭和兒童：母親入獄會造成 childcare 混亂，也可能與下一代犯罪風險有關。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說所有證據似乎都指向 English penal system 需要大幅 shake-up；末句改寫 Dostoevsky 的名言，主張文明程度可由不設監獄、改為處理社會問題來體現。只看首尾句，可以判斷這是結論段：作者總結監禁制度帶來 too many losers and no identifiable winners，最後把議題提升到文明、社會責任和制度改革層面。"
+      }
+    ]
+  }
+}

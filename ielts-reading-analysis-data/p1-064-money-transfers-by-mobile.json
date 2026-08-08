@@ -1,0 +1,2199 @@
+{
+  "id": "p1-064-money-transfers-by-mobile",
+  "catalogueId": "p1-064",
+  "catalogueIds": [
+    "p1-064"
+  ],
+  "passage": 1,
+  "title": "Money Transfers by Mobile",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "C",
+    "E",
+    "A",
+    "biggest",
+    "a registered agent",
+    "tea",
+    "long dominated",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A possible security problem”",
+      "translation": "一個可能的安全問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找出哪一段提到安全風險。定位詞是 “security problem”，原文可能用 concerns、danger、stolen、PIN、wrong number 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mobile phone growth in Kenya, as in most of Africa, has been remarkable, even among the rural poor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kenya 的手機增長非常驚人，非洲大部分地區也一樣，即使農村窮人也使用手機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr Joseph said the only danger is sending cash to the wrong mobile number and the recipient redeeming it straight away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Joseph 先生說，唯一危險是把錢寄到錯誤手機號碼，而收款人立即兌現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 一方面講手機普及，另一方面以 “the only danger” 收結。題目問possible security problem，尾句已經直接指向答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“security”"
+            },
+            {
+              "kind": "quote",
+              "text": "“problem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接寫 “security problem”，但 D 段有："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are concerns about security...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“PIN system prevents unauthorised withdrawals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the only danger is sending cash to the wrong mobile number”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三處都和安全問題有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are concerns about security, but Safaricom insists that even if someone’s phone is stolen, the PIN system prevents unauthorised withdrawals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人對安全問題感到擔憂，但 Safaricom 堅稱，即使某人的手機被偷，PIN 系統也能防止未經授權提款。"
+            },
+            {
+              "kind": "label",
+              "text": "真正定案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr Joseph said the only danger is sending cash to the wrong mobile number and the recipient redeeming it straight away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Joseph 先生說，唯一危險是把錢寄到錯誤手機號碼，而收款人立即兌現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a possible security problem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“concerns about security”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the only danger is sending cash to the wrong mobile number”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： possible security problem = danger / concern about security wrong mobile number = 具體安全風險判斷： Paragraph D 清楚指出 M-Pesa 的安全顧慮，以及最實際的危險：寄錯手機號碼。因此答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "手機被偷看似更像安全問題，但原文說 PIN system prevents unauthorised withdrawals。真正被作者留下的 danger 是寄錯號碼後被立即兌現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“The cost of M-Pesa”",
+      "translation": "M-Pesa 的使用費用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 M-Pesa 服務本身的 cost 或 charge。要留意 cost 可能用 commission、fees、charge表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“M-Pesa is simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "M-Pesa 很簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A commission of up to 170 shillings (£1.25) is paid by the recipient, but this compares favourably with fees levied by the major banks, whose services are too expensive for most of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "收款人要支付最高 170 shillings，即 £1.25 的佣金，但這比主要銀行收取的費用更有利，因為銀行服務對大部分人口來說太昂貴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段很明顯是使用流程段。尾句直接講 commission 和 bank fees，和題目 cost 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cost”"
+            },
+            {
+              "kind": "quote",
+              "text": "“M-Pesa”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“commission”"
+            },
+            {
+              "kind": "quote",
+              "text": "“up to 170 shillings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“too expensive”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A commission of up to 170 shillings (£1.25) is paid by the recipient, but this compares favourably with fees levied by the major banks, whose services are too expensive for most of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "收款人要支付最高 170 shillings，即 £1.25 的佣金，但這比主要銀行收取的費用更划算，因為銀行服務對大部分人口來說太昂貴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句交代了 M-Pesa 的成本：誰付費：recipient金額：up to 170 shillings比較對象：major banks比較結果：M-Pesa 更有利"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“cost of M-Pesa”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“commission of up to 170 shillings”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： cost = commission / fee M-Pesa cost = recipient pays commission判斷： Paragraph C 包含 M-Pesa 的費用資料，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也提到寄 £50 收約 £3，但那是未來英國到 Kenya 的國際短訊匯款服務。Question 2 問 M-Pesa 的基本使用成本，Paragraph C 的 commission 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“An international service similar to M-Pesa”",
+      "translation": "一項類似 M-Pesa 的國際服務。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 “international service”。M-Pesa 本身在 Kenya 推出，但題目問類似的國際服務，所以要找 UK、send money home、worldwide、international cash transfer 這些訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The project is being watched closely by mobile operators around the world as a way of targeting the multibillion-pound international cash transfer industry long dominated by companies such as Western Union and MoneyGram.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球手機營辦商正密切留意這個項目，因為它可用來進入價值數十億英鎊、長期由 Western Union 和 MoneyGram 等公司主導的國際現金轉帳產業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The charge for sending £50 is expected to be about £3, less than a third of what some traditional services charge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "寄 £50 的收費預計約為 £3，少於某些傳統服務收費的三分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 的功能是把本地手機轉帳連到國際匯款市場。題目中的 international service 應在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“international”"
+            },
+            {
+              "kind": "quote",
+              "text": "“similar to M-Pesa”"
+            },
+            {
+              "kind": "quote",
+              "text": "“service”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“international cash transfer industry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Kenyans in the UK”"
+            },
+            {
+              "kind": "quote",
+              "text": "“send money home via text message”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vodafone has entered into a partnership with Citigroup that will soon allow Kenyans in the UK to send money home via text message.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vodafone 已和 Citigroup 建立合作關係，這項合作很快會讓身在英國的 Kenya 人透過短訊把錢寄回家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的服務和 M-Pesa 很相似，因為兩者都用 text message 轉帳。差別在於，這項服務涉及Kenyans in the UK sending money home，屬於跨國匯款。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“international service similar to M-Pesa”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kenyans in the UK to send money home via text message”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： international = UK to Kenya similar to M-Pesa = via text message money transfer service = Vodafone-Citigroup partnership判斷： Paragraph E 描述了與 M-Pesa 類似的國際短訊匯款服務，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The fact that most Kenyans do not have a bank account”",
+      "translation": "大多數 Kenya 人沒有銀行戶口這一事實。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問的是金融排除現象。定位詞是 “most Kenyans” 和 “bank account”。原文可能用 excluded from the formal financial sector 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ping of a text message has never sounded so sweet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一則短訊的提示聲從未如此悅耳。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from transferring cash – a service much in demand among urban Kenyans supporting relatives in rural areas – customers of the Safaricom network will be able to keep up to 50,000 shillings (£370) in a ‘virtual account’ on their handsets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了轉帳現金之外，Safaricom 網絡的客戶還可以在手機上的「虛擬戶口」中存放最多 50,000 shillings；這種轉帳服務很受城市 Kenya 人歡迎，因為他們要支援農村親屬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段在介紹 M-Pesa 針對的社會背景和基本功能。題目問大多數人缺乏銀行戶口，應在這段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“most Kenyans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bank account”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“more than 80% of people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“excluded from the formal financial sector”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “formal financial sector” 包括正式銀行服務。more than 80% 明確支援 most。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Known as M-Pesa, or mobile money, the service is expected to revolutionise banking in a country where more than 80% of people are excluded from the formal financial sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項服務名為 M-Pesa，即 mobile money；在一個超過 80% 人口被排除於正式金融體系之外的國家，它預計會徹底改變銀行服務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “most Kenyans do not have a bank account” 概括原文的 “more than 80% excluded from the formal financial sector”。這不是逐字重複，但意思方向一致：大部分人口沒有正式銀行金融服務。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "most Kenyans= more than 80% of people do not have a bank account= are excluded from the formal financial sector判斷： Paragraph A 直接交代 Kenya 多數人缺乏正式金融服務，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的 “without them ever having to open a real bank account” 也提到銀行戶口，但 A段有 “more than 80%” 這個支援 “most” 的數字，段落更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "biggest",
+      "answerKey": "biggest",
+      "type": "Sentence Completion",
+      "prompt": "“Safaricom is the 5 _________________ mobile phone company in Kenya.”",
+      "translation": "Safaricom 是 Kenya 的 5 ________ 手機公司。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是句子填空，限制為 NO MORE THAN THREE WORDS。空格前有 “the”，後面接 “mobile phone company”，所以答案應是最高級形容詞或描述詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ping of a text message has never sounded so sweet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一則短訊的提示聲從未如此悅耳。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from transferring cash – a service much in demand among urban Kenyans supporting relatives in rural areas – customers of the Safaricom network will be able to keep up to 50,000 shillings (£370) in a ‘virtual account’ on their handsets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了轉帳現金之外，Safaricom 網絡的客戶還可以在手機上的「虛擬戶口」中存放最多 50,000 shillings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 段介紹 Safaricom 和 M-Pesa，因此 Safaricom 的公司身份會在開頭附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Safaricom”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mobile phone company”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Kenya”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kenya’s biggest mobile operator”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "mobile operator 在這裡等於 mobile phone company。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In what is being touted as a world first, Kenya’s biggest mobile operator is allowing subscribers to send cash to other phone users by SMS.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項被宣傳為全球首創的服務中，Kenya 最大的流動網絡營辦商正在讓用戶透過 SMS 向其他手機用戶寄錢。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Safaricom is the 5 ______ mobile phone company in Kenya.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kenya’s biggest mobile operator”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此空格應填 biggest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： biggest = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "mobile phone company= mobile operator Kenya’s biggest= the biggest ... in Kenya答案是 biggest。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "a registered agent",
+      "answerKey": "a registered agent",
+      "type": "Sentence Completion",
+      "prompt": "“An M-Pesa account needs to be credited by 6 _________________.”",
+      "translation": "M-Pesa 戶口需要由 6 ________ 入帳。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找誰負責為 virtual account 入帳。空格前是 “by”，答案應是人或機構名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“M-Pesa is simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "M-Pesa 很簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A commission of up to 170 shillings (£1.25) is paid by the recipient, but this compares favourably with fees levied by the major banks, whose services are too expensive for most of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "收款人要支付最高 170 shillings 的佣金，但這比主要銀行的收費更划算，因為銀行服務對大部分人口而言太昂貴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段是 M-Pesa 的操作流程段。題目問 account credited by whom，自然要在這段找 credits your virtual account 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“account”"
+            },
+            {
+              "kind": "quote",
+              "text": "“credited”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“who credits your virtual account”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "往前看主語，就是 “a registered agent – typically a retailer”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To send money, you hand over the cash to a registered agent – typically a retailer – who credits your virtual account.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要寄錢時，你把現金交給一名已登記代理人，通常是零售商；該代理人會把金額存入你的虛擬戶口。"
+            },
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“An M-Pesa account needs to be credited by...”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“a registered agent ... credits your virtual account”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 a registered agent。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： a registered agent = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "account= virtual account needs to be credited by= who credits your virtual account答案是 a registered agent。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“typically a retailer” 是補充例子。若題目問一般角色，答案要用較上位的 “a registered agent”，因為 retailer 只是常見代理類型。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "tea",
+      "answerKey": "tea",
+      "type": "Sentence Completion",
+      "prompt": "“7 _________________ companies are particularly interested in using M-Pesa.”",
+      "translation": "7 ________ 公司特別有興趣使用 M-Pesa。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是句子填空。空格後已經有 “companies”，所以答案通常是一個修飾 companies 的名詞或形容詞。題目問哪類公司對 M-Pesa 感興趣。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mobile phone growth in Kenya, as in most of Africa, has been remarkable, even among the rural poor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kenya 的手機增長非常驚人，非洲大部分地區也一樣，即使農村窮人也使用手機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr Joseph said the only danger is sending cash to the wrong mobile number and the recipient redeeming it straight away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Joseph 先生說，唯一危險是把錢寄到錯誤手機號碼，而收款人立即兌現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段中間提到 M-Pesa 的未來功能和企業發薪用途。題目問 companies interested，應在這部分找 employer / companies。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“companies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“interested”"
+            },
+            {
+              "kind": "quote",
+              "text": "“using M-Pesa”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“already attracted the interest of larger employers, such as the tea companies”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies will be able to pay salaries directly into workers’ phones – something that has already attracted the interest of larger employers, such as the tea companies, whose workers often have to be paid in cash as they do not have bank accounts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司將能夠把薪金直接支付到工人的手機中；這一點已經吸引較大型僱主的興趣，例如茶葉公司，因為這些公司的工人通常要以現金支薪，原因是他們沒有銀行戶口。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“7 ______ companies are particularly interested...”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the tea companies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於題目已經提供 companies，空格只需要填 tea。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： tea = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "particularly interested= attracted the interest of tea companies= tea + companies答案是 tea。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "若填 “tea companies”，題目會變成 “tea companies companies”，文法重複。Sentence Completion 要同時看原文和空格前後文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "long dominated",
+      "answerKey": "long dominated",
+      "type": "Sentence Completion",
+      "prompt": "“Companies like MoneyGram and Western Union have 8 _________________ the international money transfer market.”",
+      "translation": "MoneyGram 和 Western Union 這類公司已經 8 ________ 國際匯款市場。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 have 後面，應填過去分詞或副詞 + 過去分詞。題目明確點名 MoneyGram 和 Western Union，所以定位很快。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The project is being watched closely by mobile operators around the world as a way of targeting the multibillion-pound international cash transfer industry long dominated by companies such as Western Union and MoneyGram.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球手機營辦商正密切留意這個項目，因為它可用來進入價值數十億英鎊、長期由 Western Union 和 MoneyGram 等公司主導的國際現金轉帳產業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The charge for sending £50 is expected to be about £3, less than a third of what some traditional services charge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "寄 £50 的收費預計約為 £3，少於某些傳統服務收費的三分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段開首句已直接出現 Western Union、MoneyGram 和 international cash transfer industry。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“MoneyGram”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Western Union”"
+            },
+            {
+              "kind": "quote",
+              "text": "“international money transfer market”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“international cash transfer industry long dominated by companies such as Western Union and MoneyGram”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The project is being watched closely by mobile operators around the world as a way of targeting the multibillion-pound international cash transfer industry long dominated by companies such as Western Union and MoneyGram.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球手機營辦商正密切留意這個項目，因為它可用來進入價值數十億英鎊、長期由 Western Union 和 MoneyGram 等公司主導的國際現金轉帳產業。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies like MoneyGram and Western Union have 8 ______ the international money transfer market.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“industry long dominated by companies such as Western Union and MoneyGram”"
+            },
+            {
+              "kind": "label",
+              "text": "空格放在 have 後面，最自然填 “long dominated”："
+            },
+            {
+              "kind": "quote",
+              "text": "“have long dominated the international money transfer market”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： long dominated = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "international money transfer market= international cash transfer industry companies like MoneyGram and Western Union= companies such as Western Union and MoneyGram答案是 long dominated。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most Kenyans working in urban areas have relatives in rural areas.”",
+      "translation": "大多數在城市工作的 Kenya 人都有住在農村的親屬。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “Most Kenyans working in urban areas” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“have relatives in rural areas”。真正要檢查的是文章有沒有提供 “most” 這個比例。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A第一句：“The ping of a text message has never sounded so sweet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一則短訊的提示聲從未如此悅耳。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from transferring cash – a service much in demand among urban Kenyans supporting relatives in rural areas – customers of the Safaricom network will be able to keep up to 50,000 shillings (£370) in a ‘virtual account’ on their handsets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了轉帳現金之外，Safaricom 網絡的客戶還可以在手機上的「虛擬戶口」存放最多 50,000 shillings；這種服務很受城市 Kenya 人歡迎，因為他們要支援農村親屬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段的確提到 urban Kenyans 和 rural relatives，所以這段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“urban areas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relatives in rural areas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Most”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“urban Kenyans supporting relatives in rural areas”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有出現 most、majority、more than half 這類比例詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from transferring cash – a service much in demand among urban Kenyans supporting relatives in rural areas – customers of the Safaricom network will be able to keep up to 50,000 shillings (£370) in a ‘virtual account’ on their handsets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了轉帳現金之外，Safaricom 網絡的客戶還可以在手機上的「虛擬戶口」存放最多 50,000 shillings；這項服務很受那些支援農村親屬的城市 Kenya 人歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Most Kenyans working in urban areas內容：have relatives in rural areas原文命題：主體：urban Kenyans supporting relatives in rural areas內容：這類人對轉帳服務有大量需求比較結果：原文只說有一群城市 Kenya 人在支援農村親屬，並說這項服務對他們需求很大。它沒有說大多數城市工作者都有農村親屬，也沒有提供比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有相關背景，但缺少 “Most” 這個核心數量資訊，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“much in demand” 容易讓人以為人數一定很多。不過需求大不等於 “most urban workers have rural relatives”。數量題要有明確比例支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“So far, most of the people using M-Pesa have used it to send small amounts of money.”",
+      "translation": "到目前為止，大部分 M-Pesa 使用者都是用它來寄小額金錢。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 M-Pesa 目前的使用情況。控制詞是 “So far”、“most” 和 “small amounts of money”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Developed by Vodafone, which holds a 35% share in Safaricom, M-Pesa was formally launched in Kenya two weeks ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "M-Pesa 由持有 Safaricom 35% 股權的 Vodafone 開發，兩星期前在 Kenya 正式推出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We are effectively giving people ATM cards without them ever having to open a real bank account,’ said Michael Joseph, chief executive of Safaricom, who called the money transfer concept the ‘next big thing’ in mobile telephony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Safaricom 行政總裁 Michael Joseph 說：「我們實際上是在給人們 ATM cards，卻不需要他們開真正的銀行戶口。」他稱這種轉帳概念是 mobile telephony 的下一件大事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 先講推出時間，再講初期註冊人數和轉帳金額，因此題目中的 “so far” 很可能在此段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far”"
+            },
+            {
+              "kind": "quote",
+              "text": "“small amounts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“using M-Pesa”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“so far”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mostly in tiny denominations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "tiny denominations = small amounts of money。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 10,000 people have signed up for the service, with around 8 million shillings transferred so far, mostly in tiny denominations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已有超過 10,000 人登記使用這項服務，到目前為止已轉帳約 800 萬 shillings，大多數都是很小的金額。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含三個重點： More than 10,000 people have signed up= 已有很多人使用或準備使用服務transferred so far= 到目前為止的使用情況mostly in tiny denominations= 大多為小額款項"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“small amounts of money”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“tiny denominations”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“so far”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文說目前已轉帳金額大多屬 tiny denominations，題目把這概括成大多數使用情況涉及小額轉帳。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文嚴格來說描述的是 transferred money mostly in tiny denominations，題目則說 most people using it。若做極細邏輯區分，這兩者有距離；不過在本題語境中，重點是 M-Pesa 初期使用主要為小額轉帳，因此判 TRUE 較符合題目設計。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“M-Pesa can only be used by people using one phone network.”",
+      "translation": "M-Pesa 只能由使用同一個手機網絡的人使用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 M-Pesa 是否只限同一網絡。控制詞是 “only” 和 “one phone network”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“M-Pesa is simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "M-Pesa 很簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A commission of up to 170 shillings (£1.25) is paid by the recipient, but this compares favourably with fees levied by the major banks, whose services are too expensive for most of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "收款人要支付最高 170 shillings 的佣金，但這比主要銀行收費更划算，因為銀行服務對大部分人口而言太昂貴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段講操作流程，包括寄款人、收款人、SMS、agent 和 network。題目問 network 限制，應在這段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“one phone network”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“even someone on a different mobile network”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "different mobile network 是題目 “one phone network” 的反向證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You then send between 100 shillings (74p) and 35,000 shillings (£259) via text message to the desired recipient – even someone on a different mobile network – who cashes it in at an agent by entering a secret code and showing ID.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後你可以透過短訊向指定收款人寄出 100 shillings 至 35,000 shillings；收款人甚至可以是使用不同手機網絡的人，他們可在代理人處輸入密碼並出示身份證明後兌現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： M-Pesa can only be used by people using one phone network= 只限同一網絡原文命題： even someone on a different mobile network= 甚至可寄給不同網絡的人比較結果：題目加入了 “only”，原文卻明確說可跨不同 mobile network。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 說 customers of the Safaricom network，可能令學生以為只限 Safaricom 用戶。不過 C 段明確說收款人可以在 different mobile network。判斷要落在 “recipient” 的網絡範圍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“M-Pesa can be used to buy products and services.”",
+      "translation": "M-Pesa 可以用來購買產品和服務。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要注意時間。題目用現在式 “can be used”，因此要檢查文章是否說目前已可購物，還是只屬未來功能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mobile phone growth in Kenya, as in most of Africa, has been remarkable, even among the rural poor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kenya 的手機增長非常驚人，非洲大部分地區也一樣，即使農村窮人也使用手機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr Joseph said the only danger is sending cash to the wrong mobile number and the recipient redeeming it straight away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Joseph 先生說，唯一危險是把錢寄到錯誤手機號碼，而收款人立即兌現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段除了講手機普及和安全問題，中間也提到 M-Pesa 的未來功能。題目中的 buy products and services 對應 make purchases。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“buy products and services”"
+            },
+            {
+              "kind": "quote",
+              "text": "“can be used”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“make purchases”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In time, M-Pesa will allow...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡最重要的是 “In time” 和 “will allow”，表示未來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In time, M-Pesa will allow people to borrow and repay money, and make purchases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "將來，M-Pesa 將會讓人們借錢、還錢，以及購物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：時間：現在內容：M-Pesa can be used to buy products and services原文命題：時間：In time / will內容：將來會 allow people to make purchases比較結果：原文把購物功能放在未來，沒有說目前已經可以使用。題目用 “can be used” 表示現在能力，時間不一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "buy products and services= make purchases但時間不同： can be used = 現在可以will allow / in time = 將來會可以判斷：題目把未來功能改成現有功能，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生看到 make purchases 可能立即選 TRUE。這題真正控制答案的是前面的 “In time” 和 “will allow”。時間詞比名詞重現更重要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The GSM Association is a consumer organisation.”",
+      "translation": "GSM Association 是一個消費者組織。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要辨認 GSM Association 的身份。定位詞非常強：GSM Association 只在 E 段出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The project is being watched closely by mobile operators around the world as a way of targeting the multibillion-pound international cash transfer industry long dominated by companies such as Western Union and MoneyGram.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球手機營辦商正密切留意這個項目，因為它可用來進入價值數十億英鎊、長期由 Western Union 和 MoneyGram 等公司主導的國際現金轉帳產業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The charge for sending £50 is expected to be about £3, less than a third of what some traditional services charge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "寄 £50 的收費預計約為 £3，少於某些傳統服務收費的三分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段談國際轉帳市場和全球手機營辦商。題目問 GSM Association 身份，應在此段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“GSM Association”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consumer organisation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“which represents more than 700 mobile operators worldwide”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "mobile operators 是手機營辦商，不是 consumers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The GSM Association, which represents more than 700 mobile operators worldwide, believes this could quadruple by 2012 if transfers by SMS become the norm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GSM Association 代表全球超過 700 家手機營辦商；它認為，如果透過 SMS 轉帳成為常態，這個數字到 2012 年可能增加四倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： GSM Association = consumer organisation原文命題： GSM Association represents more than 700 mobile operators worldwide比較結果： consumer organisation 應代表消費者利益；原文說它代表的是 mobile operators，即業界營辦商。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個身份衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供相反身份資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Association 這個字本身很中性，可能是消費者組織，也可能是業界組織。真正定案的是後面的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“represents more than 700 mobile operators worldwide”。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Money Transfers by Mobile.pdf",
+    "sha256": "18a7134fc1fea3636b5ca6bf17c89138abb603cdb00e976754680e31054c7d9f",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說，手機短訊的提示聲從未如此「甜美」，因為 Kenya 最大的流動網絡營辦商正在讓用戶透過 SMS 向其他手機用戶寄錢。尾句說，Safaricom 客戶還可以在手機上的 virtual account 存放最多 50,000 shillings。只看首尾句，可以先估計這段是全文引入，重點在 M-Pesa 的基本功能、Kenya 缺乏正式銀行服務的人口背景，以及手機轉帳對日常生活的潛在重要性。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說，M-Pesa 由持有 Safaricom 35% 股權的 Vodafone 開發，兩星期前在 Kenya 正式推出。尾句引用 Safaricom 行政總裁 Michael Joseph 的說法，指這相當於給人們 ATM cards，卻不需要真正開銀行戶口，並稱它是 mobile telephony 的下一件大事。只看首尾句，可以估計這段會處理 M-Pesa 的推出情況、初期使用數字、已轉帳金額，以及公司對未來增長的信心。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說 M-Pesa 很簡單，毋須新手機或新 SIM card。尾句說收款人要支付最高 170 shillings的 commission，但這比主要銀行的收費有利，因為銀行服務對大部分人口來說太昂貴。只看首尾句，可以估計這段會解釋 M-Pesa 的實際操作流程：如何入錢、如何用短訊寄錢、收款人如何兌現，以及服務費如何和銀行比較。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說 Kenya 的手機增長非常驚人，和非洲大部分地區相似，即使農村窮人也使用手機。尾句說 Michael Joseph 認為唯一危險是把錢寄到錯誤手機號碼，而收款人立即兌現。只看首尾句，可以估計這段會說明為何手機轉帳在 Kenya 有發展空間：手機網絡廣、銀行覆蓋有限，並會補充未來功能、企業發薪用途和安全問題。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說，全球手機營辦商正密切留意這項計劃，因為它可用來進入長期由 Western Union 和MoneyGram 等公司主導的國際現金轉帳產業。尾句說，從英國寄 £50 回 Kenya 的收費預計約£3，少於某些傳統服務收費的三分之一。只看首尾句，可以估計這段會把 M-Pesa 從 Kenya 本地服務擴展到國際匯款市場，並討論全球營辦商、移工匯款和收費比較。"
+      }
+    ]
+  }
+}

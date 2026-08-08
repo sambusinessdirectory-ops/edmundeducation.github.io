@@ -1,0 +1,2509 @@
+{
+  "id": "p1-134-reclaiming-the-future-of-aral-sea",
+  "catalogueId": "p1-134",
+  "catalogueIds": [
+    "p1-134"
+  ],
+  "passage": 1,
+  "title": "Reclaiming the future of aral sea",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "F",
+    "A",
+    "E",
+    "C",
+    "A",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "freshwater and sediment",
+    "river flows",
+    "salinity",
+    "spawning and feeding"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "A mission that is impossible",
+      "translation": "一項不可能完成的任務。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目沒有問整段 heading，而是問哪一段包含「某項任務不可能完成」這個資訊功能。定位時要找 impossible、unrealistic、cannot be done、too difficult 之類的概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Returning the entire Aral Sea to its 1960s state is unrealistic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把整個 Aral Sea 恢復到 1960 年代的狀態，是不現實的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kazakhstan has nonetheless tried to partially restore the northern Aral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管如此，Kazakhstan 仍嘗試局部恢復北部 Aral。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 已經很有方向。第一句直接判定全面恢復不現實；最後一句轉到Kazakhstan 只能做局部恢復。段落功能大概是解釋「全面恢復為何不可行，但局部恢復仍有嘗試」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“mission”"
+            },
+            {
+              "kind": "quote",
+              "text": "“impossible”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有用 impossible，但第一句有 “unrealistic”。這就是最強同義訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Returning the entire Aral Sea to its 1960s state is unrealistic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把整個 Aral Sea 恢復到 1960 年代的狀態，是不現實的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Returning the entire Aral Sea to its 1960s state”，即「全面恢復 Aral Sea」。核心判斷是 “is unrealistic”，意思是現實上不可行。題目用 “A mission that is impossible” 把這句概括成「不可能完成的任務」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“A mission that is impossible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Returning the entire Aral Sea to its 1960s state is unrealistic.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： mission = returning the entire Aral Sea to its 1960s state impossible = unrealistic"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也講 restoration，容易令人想到恢復計劃。但 Paragraph E 的語氣是 “Further restoration is possible”，偏向未來可行方案。Question 1 要找的是 impossible / unrealistic，所以Paragraph D 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "An extremely worrying trend for one main part of the Aral Sea",
+      "translation": "Aral Sea 其中一個主要部分出現極令人擔憂的趨勢。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「某個主要部分」的「非常令人擔憂的發展趨勢」。定位時要找 Large Aral / Small Aral 這些主要部分，再看語氣是否負面。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Large Aral faces a difficult future; it continues to shrink rapidly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Large Aral 面對艱難的未來；它仍在快速萎縮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lake would still be relatively deep, reaching 37 metres in spots, but salinity would rise well above 100 g/l.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個湖盆仍會相對較深，有些地方可達 37 米，但鹽度會升至遠高於 100 g/l。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 的段落功能很清楚：預測 Large Aral 的未來惡化。第一句有 “difficult future” 和 “shrink rapidly”；最後一句有 “salinity would rise well above 100 g/l”。這些都是明顯負面趨勢。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“extremely worrying trend”"
+            },
+            {
+              "kind": "quote",
+              "text": "“one main part”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Large Aral”"
+            },
+            {
+              "kind": "quote",
+              "text": "“difficult future”"
+            },
+            {
+              "kind": "quote",
+              "text": "“continues to shrink rapidly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“salinity would rise well above 100 g/l”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Large Aral faces a difficult future; it continues to shrink rapidly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Large Aral 面對艱難的未來；它仍在快速萎縮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句已經把主要部分和負面趨勢放在一起。Large Aral 是 Aral Sea 的主要部分；“continues to shrink rapidly” 表示惡化仍在持續，而且速度快。後文再補充 eastern basin 可能只剩 brine shrimp and bacteria，western basin 鹽度也會升至很高，進一步加強 worrying 的語氣。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“An extremely worrying trend”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“faces a difficult future”"
+            },
+            {
+              "kind": "quote",
+              "text": "“continues to shrink rapidly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： one main part = the Large Aral worrying trend = difficult future / shrink rapidly / rising salinity"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也描述 Aral Sea 分裂和水量下降，確實有負面資訊。但 Question 2 指向 “one main part”，Paragraph F 明確以 Large Aral 開頭並預測其未來，所以 F 是最準答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "An unfinished project for political reasons",
+      "translation": "一項因政治原因而未完成或被終止的計劃。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 project / plan，以及它因政治變動而中止。定位詞不是一般 environmental damage，而是 project、political reason、ended、dissolution 這組概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Aral Sea gets almost all its water from the Amu and Syr rivers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aral Sea 幾乎所有水源都來自 Amu 和 Syr 兩條河。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 1991 dissolution of the Soviet Union divided the lake between newly formed Kazakhstan and Uzbekistan, ending a grand Soviet plan to channel in water from distant Siberian rivers and establishing competition for the dwindling resource.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1991 年蘇聯解體後，這個湖被新成立的 Kazakhstan 和 Uzbekistan 分割，從遙遠 Siberian rivers引水的大型蘇聯計劃也因此終止，並形成對日漸減少水資源的競爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 先交代水源，最後轉入政治分裂和蘇聯引水計劃終止。這段明顯含有「大型計劃」和「政治變動」兩個訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“project”"
+            },
+            {
+              "kind": "quote",
+              "text": "“political reasons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unfinished”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a grand Soviet plan”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the 1991 dissolution of the Soviet Union”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ending”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 1991 dissolution of the Soviet Union divided the lake between newly formed Kazakhstan and Uzbekistan, ending a grand Soviet plan to channel in water from distant Siberian rivers and establishing competition for the dwindling resource.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1991 年蘇聯解體後，湖被新成立的 Kazakhstan 和 Uzbekistan 分割，從遙遠 Siberian rivers 引水的大型蘇聯計劃也被終止，並形成對日漸減少水資源的競爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 “The 1991 dissolution of the Soviet Union”，屬於重大政治事件。它造成兩個結果：第一，湖泊被分割；第二，蘇聯從 Siberian rivers 引水的 grand plan 被 ending。題目中的unfinished project 就是這個被終止的 grand Soviet plan。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“An unfinished project for political reasons”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“ending a grand Soviet plan”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the 1991 dissolution of the Soviet Union”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： project = grand Soviet plan political reasons = dissolution of the Soviet Union / new states formed unfinished = ending the plan"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 有 “political will”，很容易吸引學生。但 D 講的是現代化 irrigation canals 需要很多錢和政治意願，原文沒有說這項工程已經開始後中止。Paragraph A 直接出現 “ending a grand Soviet plan”，更貼近 unfinished project。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "A promising recovery in the future",
+      "translation": "未來有希望的恢復前景。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 recovery / restoration 的正面前景。定位時要看語氣：promising 代表 possible、should return、could stabilise、restart、improve 這類正面或可行訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We expect salinities in the Small Aral to settle at three to 14 g/l, depending on location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們預期 Small Aral 的鹽度會依地點不同，穩定在每公升 3 至 14 克之間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The country is, however, now discussing more modest proposals to bring water closer to Aralsk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，該國現在正在討論較溫和的方案，將水帶到更接近 Aralsk 的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph E 在談 Small Aral 的恢復計劃。第一句鹽度下降並穩定，是生態恢復的前提；最後一句提到 Kazakhstan 正討論把水帶近 Aralsk 的方案，語氣比 Paragraph F正面得多。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“promising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recovery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“future”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“many more indigenous species should return”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Further restoration is possible”"
+            },
+            {
+              "kind": "quote",
+              "text": "“could stabilise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“commercial fishing vessels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shipping could restart”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fish populations would improve”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Further restoration is possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進一步恢復是可能的。"
+            },
+            {
+              "kind": "label",
+              "text": "後文繼續說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marshlands and fish populations would improve even more because of a further reduction in salinity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於鹽度進一步下降，沼澤地和魚類數量會有更大改善。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的證據非常集中。它先說鹽度會降至較可接受水平，接著說 indigenous species should return，再說 irrigation improvements 可以令湖面穩定、海岸線靠近 Aralsk、漁船重回湖中、航運重啟、濕地和魚類改善。這些都支援 promising recovery。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“A promising recovery in the future”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Further restoration is possible”"
+            },
+            {
+              "kind": "quote",
+              "text": "“should return”"
+            },
+            {
+              "kind": "quote",
+              "text": "“could stabilise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“would improve”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： recovery = restoration / species return / fish populations improve promising = possible / feasible / could / would improve"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也提到 Kazakhstan 嘗試局部恢復 northern Aral，但 D 的核心是全面恢復不現實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 才真正展開未來恢復的可行方案和正面結果，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "A severely affected populated area",
+      "translation": "一個受嚴重影響的人口聚居地區。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 populated area 和 severe impact。定位詞可以是 densely settled、population、severe storms、health、impacted。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The receding sea has exposed and dried 54,000 square kilometres of seabed, which is choked with salt and in some places laced with pesticides and other agricultural chemicals deposited by runoff from area farming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "退縮的海水暴露並乾涸了 54,000 平方公里的湖床；湖床充滿鹽分，有些地方還混有農業徑流留下的農藥和其他農業化學物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The loss of fish has also greatly reduced dietary variety, worsening malnutrition and anaemia, particularly in pregnant women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "魚類消失也大大減少飲食種類，使營養不良和貧血惡化，孕婦尤其受影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 由受污染的乾湖床開始，最後落到人類健康和營養問題。這段不只談自然環境，也談人居地區承受的污染與健康後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“severely affected”"
+            },
+            {
+              "kind": "quote",
+              "text": "“populated area”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the most severe storms”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seriously impacting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the most densely settled”"
+            },
+            {
+              "kind": "quote",
+              "text": "“local population suffers”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Winds from the north and northeast drive the most severe storms, seriously impacting the Amu delta to the south—the most densely settled and most economically and ecologically important area in the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自北方和東北方的風帶來最嚴重的風暴，嚴重影響南面的 Amu delta；那裡是本區人口最密集、經濟和生態上最重要的地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時滿足題目的兩部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“seriously impacting” 對應 severely affected。“the most densely settled” 對應 populated area。後文的 respiratory illnesses、cancer、digestive disorders、liver and kidney ailments 進一步證明這個人口區受害嚴重。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“A severely affected populated area”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“seriously impacting the Amu delta”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the most densely settled”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： severely affected = seriously impacting populated area = most densely settled area"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 有 jobs lost、fisheries gone，亦屬於人類影響。但 Question 5 明確問 populated area，Paragraph C 直接出現 “most densely settled”，因此 C 最精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "The disclosure of a major secret",
+      "translation": "一個重大秘密被公開。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 secret / hide / reveal。題目用 disclosure，文章可能用 revealed、hid、hidden、secret 相關概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Aral Sea gets almost all its water from the Amu and Syr rivers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aral Sea 幾乎所有水源都來自 Amu 和 Syr 兩條河。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 1991 dissolution of the Soviet Union divided the lake between newly formed Kazakhstan and Uzbekistan, ending a grand Soviet plan to channel in water from distant Siberian rivers and establishing competition for the dwindling resource.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1991 年蘇聯解體後，湖被 Kazakhstan 和 Uzbekistan 分割，從遙遠 Siberian rivers 引水的大型蘇聯計劃終止，並出現對日漸減少水資源的競爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 主要提供 Aral Sea 萎縮背景，包括水源、灌溉、蘇聯時期和政治改變。雖然首尾句沒有 secret，但中段很可能補充歷史事件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“disclosure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“secret”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有用 disclosure，但有非常直接的對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“hid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“revealed”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Soviet Union hid the sea’s demise for decades until 1985, when leader Mikhail Gorbachev revealed the great environmental and human tragedy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蘇聯把這片海的衰亡隱瞞了數十年，直到 1985 年，領導人 Mikhail Gorbachev 才揭露這場重大的環境與人道悲劇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “hid … for decades” 表示重大秘密被長期隱瞞；“revealed” 直接等於 disclosure，即公開、揭露。題目 “major secret” 對應 “great environmental and human tragedy” 以及它被蘇聯隱藏多年。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“The disclosure of a major secret”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“hid the sea’s demise for decades”"
+            },
+            {
+              "kind": "quote",
+              "text": "“revealed the great environmental and human tragedy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： disclosure = revealed major secret = sea’s demise hidden for decades / great environmental and human tragedy"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 有大量數字和分裂資訊，容易令學生忽略這句。做 Matching Information 時，遇到disclosure 這類抽象名詞，要想到 reveal / hide 這組動詞，定位會快很多。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In response to population growth, not all nations near the Aral Sea are considering plans that would exacerbate the problems facing it.”",
+      "translation": "為回應人口增長，並非所有 Aral Sea 附近國家都正在考慮會加劇其問題的計劃。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。要比較三個部分：第一，是否與 population growth 有關；第二，是否有 nations near the Aral Sea；第三，是否 “not all” 都打算做會加劇問題的事。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Returning the entire Aral Sea to its 1960s state is unrealistic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把整個 Aral Sea 恢復到 1960 年代狀態是不現實的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kazakhstan has nonetheless tried to partially restore the northern Aral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管如此，Kazakhstan 仍嘗試局部恢復北部 Aral。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 的功能是解釋全面恢復不可行，以及 Kazakhstan 的例外行動。這已經和題目中的 not all 很相關，因為段落可能會比較不同國家的做法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“population growth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not all nations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exacerbate the problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“four of the five former Soviet republics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Kazakhstan is the exception”"
+            },
+            {
+              "kind": "quote",
+              "text": "“intend to expand irrigation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mainly to feed growing populations”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet four of the five former Soviet republics in the Aral Sea basin (Kazakhstan is the exception) intend to expand irrigation, mainly to feed growing populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Aral Sea basin 中五個前蘇聯加盟共和國裡，有四個打算擴大灌溉；Kazakhstan 是例外。這主要是為了養活不斷增長的人口。"
+            },
+            {
+              "kind": "label",
+              "text": "前文也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only means would be to curtail irrigation, which accounts for 92 per cent of water withdrawals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一方法會是削減灌溉，而灌溉佔取水量的 92%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來：恢復 Aral Sea 需要減少灌溉；但五國中四國打算擴大灌溉，以應付人口增長。擴大灌溉會使問題惡化。Kazakhstan 是例外，所以 “not all nations” 成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“In response to population growth”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“mainly to feed growing populations”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“not all nations”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“four of the five … Kazakhstan is the exception”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“plans that would exacerbate the problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“intend to expand irrigation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前文說恢復需要 “curtail irrigation”，所以 expand irrigation 會加劇問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題和原文一致。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“not all” 是本題關鍵。原文沒有說全部國家都擴大灌溉；它明確說 four of the five，並補充Kazakhstan is the exception。只看 “four of the five” 會漏掉題目的否定範圍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Kazakhstan’s willingness to take further action to restore the Small Aral Sea is uncertain.”",
+      "translation": "Kazakhstan 是否願意採取進一步行動恢復 Small Aral Sea，仍不確定。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Kazakhstan 的 willingness / desire 是否 uncertain。定位詞是 Kazakhstan、further action、restore、uncertain。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We expect salinities in the Small Aral to settle at three to 14 g/l, depending on location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們預期 Small Aral 的鹽度會依地點不同，穩定在每公升 3 至 14 克之間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The country is, however, now discussing more modest proposals to bring water closer to Aralsk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，該國現在正討論較溫和的方案，把水帶近 Aralsk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 明顯談 Small Aral 的恢復前景，以及 Kazakhstan 對方案的考慮。最後一句的 “more modest proposals” 暗示更大方案未必會做，這和 willingness uncertain 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kazakhstan”"
+            },
+            {
+              "kind": "quote",
+              "text": "“willingness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“further action”"
+            },
+            {
+              "kind": "quote",
+              "text": "“uncertain”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is not clear”"
+            },
+            {
+              "kind": "quote",
+              "text": "“has the means or desire”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pursue it”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such a plan would require a much longer and higher dike, as well as reconstruction of the gate facility, and it is not clear that Kazakhstan has the means or desire to pursue it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣的計劃需要更長、更高的堤壩，也需要重建閘門設施；目前並不清楚 Kazakhstan 是否有能力或意願去推行它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“desire” 直接對應 willingness。“it is not clear” 直接對應 uncertain。“Such a plan” 指前面進一步提高湖面、靠近 Aralsk、重啟航運、改善濕地和魚類的更大恢復方案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“willingness … is uncertain”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is not clear that Kazakhstan has the means or desire”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： willingness = desire uncertain = it is not clear take further action = pursue such a plan判斷原文與題目一致。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最後一句說 Kazakhstan 正討論較溫和方案，可能讓人以為它一定願意做所有進一步行動。但題目問的是 further action to restore the Small Aral Sea，尤其是前文較大型方案。原文只說更大方案的 means or desire 不清楚，所以 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The western basin appears to have a predetermined future regardless of groundwater inflow.”",
+      "translation": "western basin 的未來似乎已經預先固定，不受地下水流入量影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 predetermined / regardless of groundwater inflow 是否與原文一致。若原文說 western basin 的命運取決於 groundwater inflow，就會和題目相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Large Aral faces a difficult future; it continues to shrink rapidly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Large Aral 面對艱難未來；它仍快速萎縮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lake would still be relatively deep, reaching 37 metres in spots, but salinity would rise well above 100 g/l.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個湖盆仍會相對較深，有些地方達 37 米，但鹽度會升至遠高於 100 g/l。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 是 Large Aral 的未來預測。題目專門問 western basin，所以要在段中找 western basin 及 groundwater inflow。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“western basin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“groundwater inflow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“predetermined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“regardless”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The western basin’s fate depends on groundwater inflow, estimates for which are uncertain.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The western basin’s fate depends on groundwater inflow, estimates for which are uncertain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "western basin 的命運取決於地下水流入量，而對這個流入量的估算仍不確定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心動詞是 “depends on”，意思是「取決於」。題目說 “regardless of groundwater inflow”，意思是「不管地下水流入量如何都一樣」。兩者方向相反。原文還補充 estimates are uncertain，表示未來並未完全固定。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“predetermined future regardless of groundwater inflow”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“fate depends on groundwater inflow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“estimates … are uncertain”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關係： regardless of = 不受影響depends on = 受其影響、取決於它uncertain = 未能完全預定判斷題目和原文衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 後面有 “Our most reliable calculations indicate…” 以及具體數字 2,100 km²、37 metres、above 100 g/l，容易讓人覺得 western basin 的未來已經固定。但原文先說其命運取決於groundwater inflow，且估算不確定。真正控制答案的是 depends on。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "freshwater and sediment",
+      "answerKey": "freshwater and sediment",
+      "type": "Summary Completion",
+      "prompt": "“The 10 _________________ carried by floodwaters are the main resources sustaining the wetlands.”",
+      "translation": "洪水帶來的 __________ 是維持濕地的主要資源。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS所以答案最多三個字，且要符合空格前後文法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Desiccation of the Aral Sea has wrought severe consequences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aral Sea 的乾涸造成了嚴重後果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Groundwater levels dropped with falling lake levels, intensifying desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著湖面下降，地下水位也下降，進一步加劇沙漠化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 是後果段，會談濕地、魚類、漁業、航運、地下水和沙漠化。題目問wetlands，因此 Paragraph B 是合理目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“floodwaters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wetlands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sustaining”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“spring floods”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sustained wetlands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“freshwater and enriched sediment”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Greatly reduced river flows ended the spring floods that sustained wetlands with freshwater and enriched sediment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大幅減少的河流流量終止了春季洪水，而這些洪水原本以淡水和富含養分的沉積物維持濕地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說濕地靠兩項東西維持：freshwater 和 enriched sediment。題目句子改成 “carried by floodwaters”，即洪水帶來或提供的資源。由於字數限制是 NO MORE THAN THREE WORDS，完整短語 “freshwater and enriched sediment” 有四個字，不能全填。為了保留兩個核心名詞，答案應寫成 “freshwater and sediment”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“carried by floodwaters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resources sustaining the wetlands”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“spring floods that sustained wetlands with freshwater and enriched sediment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： floodwaters = spring floods sustaining the wetlands = sustained wetlands freshwater and sediment = freshwater and enriched sediment 的核心內容答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“freshwater and sediment” 是三個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：freshwater and sediment"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "直接抄 “freshwater and enriched sediment” 會超出字數限制。IELTS Summary Completion 必須同時看原文證據和字數限制；本題要保留兩個名詞，省略修飾語 enriched。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "river flows",
+      "answerKey": "river flows",
+      "type": "Summary Completion",
+      "prompt": "“These floods ceased because of the decrease in 11 _________________ into the Aral Sea.”",
+      "translation": "這些洪水停止，是因為流入 Aral Sea 的 __________ 減少。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Desiccation of the Aral Sea has wrought severe consequences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aral Sea 的乾涸造成了嚴重後果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Groundwater levels dropped with falling lake levels, intensifying desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著湖面下降，地下水位也下降，進一步加劇沙漠化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的首句已經說明本段會列出乾涸後果。Question 11 延續 Question 10 的 floods，因此仍然定位 Paragraph B 開頭部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“These floods ceased”"
+            },
+            {
+              "kind": "quote",
+              "text": "“decrease”"
+            },
+            {
+              "kind": "quote",
+              "text": "“into the Aral Sea”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Greatly reduced river flows ended the spring floods”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Greatly reduced river flows ended the spring floods that sustained wetlands with freshwater and enriched sediment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大幅減少的河流流量終止了春季洪水，而這些洪水原本以淡水和富含養分的沉積物維持濕地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “These floods ceased because of the decrease in ______”。原文說 “Greatly reduced river flows ended the spring floods”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ended” 對應 ceased。“Greatly reduced” 對應 decrease。所以空格要填造成洪水停止的東西：river flows。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“These floods ceased”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“ended the spring floods”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“because of the decrease in”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Greatly reduced”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "paragraph",
+              "text": "river flows答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“river flows” 是兩個字，符合 NO MORE THAN THREE WORDS。放入句子後是 “the decrease in river flows into the Aral Sea”，文法自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：river flows"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “spring floods”。題目已經用 These floods 指回前一句，空格問的是造成 floods ceased的原因。真正原因是 river flows 減少。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "salinity",
+      "answerKey": "salinity",
+      "type": "Summary Completion",
+      "prompt": "“The number of fish species declined dramatically because of the increase in 12_________________ and the loss of grounds for 13 _________________, one example being the disappearance of a particular fish species.”",
+      "translation": "魚類物種數量大幅下降，是因為 __________ 增加，以及 __________ 場地消失；其中一個例子是某種魚消失。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Desiccation of the Aral Sea has wrought severe consequences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aral Sea 的乾涸造成了嚴重後果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Groundwater levels dropped with falling lake levels, intensifying desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著湖面下降，地下水位也下降，進一步加劇沙漠化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 是環境和經濟後果段，題目問 fish species declined，應在本段中部找 fish species、salinity、grounds。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“fish species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“declined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increase in”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The number of fish species in the lakes dropped from 32 to 6 because of rising salinity and loss of spawning and feeding grounds”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The number of fish species in the lakes dropped from 32 to 6 because of rising salinity and loss of spawning and feeding grounds (most survived in the river deltas).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "湖中魚類物種數量由 32 種下降至 6 種，原因是鹽度上升，以及產卵和覓食地消失；大部分魚在河口三角洲中倖存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “increase in ______”。原文說 “rising salinity”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "rising = increase in salinity = 鹽度所以答案是 salinity。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“declined dramatically”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“dropped from 32 to 6”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“increase in”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“rising”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "paragraph",
+              "text": "salinity答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“salinity” 是一個字，符合 NO MORE THAN THREE WORDS。放在 “increase in salinity” 中，文法正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：salinity"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “saltwater” 或 “salt”。Paragraph B 後面提到 Black Sea flounder 是 saltwater fish，但Question 12 問魚類物種整體下降的原因。原文直接原因是 rising salinity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "spawning and feeding",
+      "answerKey": "spawning and feeding",
+      "type": "Summary Completion",
+      "prompt": "“The number of fish species declined dramatically because of the increase in 12_________________ and the loss of grounds for 13 _________________, one example being the disappearance of a particular fish species.”",
+      "translation": "魚類物種數量大幅下降，是因為鹽度增加，以及用作 __________ 的場地消失；其中一個例子是某種魚消失。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Desiccation of the Aral Sea has wrought severe consequences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aral Sea 的乾涸造成了嚴重後果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Groundwater levels dropped with falling lake levels, intensifying desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著湖面下降，地下水位也下降，進一步加劇沙漠化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題和 Question 12 同一句原文相關，仍在 Paragraph B 中部。題目空格在 “grounds for ______”後面，所以答案應該是功能用途，例如 spawning / feeding。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“loss of grounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fish species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“particular fish species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“loss of spawning and feeding grounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Black Sea flounder”"
+            },
+            {
+              "kind": "quote",
+              "text": "“by 2003 it had disappeared from the southern lakes”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The number of fish species in the lakes dropped from 32 to 6 because of rising salinity and loss of spawning and feeding grounds (most survived in the river deltas).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "湖中魚類物種數量由 32 種下降至 6 種，原因是鹽度上升，以及產卵和覓食地消失；大部分魚在河口三角洲中倖存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文 “loss of spawning and feeding grounds” 改寫成 “loss of grounds for ______”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文結構：spawning and feeding grounds題目結構：grounds for spawning and feeding所以空格填 spawning and feeding。"
+            },
+            {
+              "kind": "label",
+              "text": "後文例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most common remaining lake occupant was the Black Sea flounder … but by 2003 it had disappeared from the southern lakes because salinity was more than 70 g/l…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最常見的剩餘湖中生物是 Black Sea flounder，但到 2003 年，由於鹽度超過 70 g/l，它也已從南部湖泊中消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個例子補充說明鹽度和棲息條件惡化如何影響魚類。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“loss of grounds for ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“loss of spawning and feeding grounds”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： grounds for spawning and feeding = spawning and feeding grounds答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“spawning and feeding” 是三個字，符合 NO MORE THAN THREE WORDS。放入句子後是“grounds for spawning and feeding”，文法正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：spawning and feeding"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Reclaiming the future of aral sea.pdf",
+    "sha256": "d7f4fd8bd139582be85c8a1c1fa632f7bc6a58437d01aa7c981e1b310c8b5617",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "SECTION 0：Skim Roadmap 全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Aral Sea 幾乎全靠 Amu 和 Syr 兩河供水；末句寫蘇聯解體後，湖泊被新成立的Kazakhstan 和 Uzbekistan 分割，遠從 Siberia 調水的蘇聯大計終止，水資源競爭出現。只看首尾句，可先估計本段會交代 Aral Sea 萎縮的水文、灌溉和政治背景，也可能藏有「秘密被揭露」及「大型計劃中止」的資訊。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接指出 Aral Sea 乾涸造成嚴重後果；末句說湖面下降令地下水位下降，加劇沙漠化。只看首尾句，這段功能明顯是列出環境和經濟後果。中間大概會談濕地、洪水、魚類、漁業、航運和地下水。遇到 fish species、floods、wetlands、shipping、desertification 這類題目時，Paragraph B 會是最優先定位段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說退縮的湖水暴露出 54,000 平方公里乾涸湖床，上面充滿鹽分，部分地方有農藥和化學物。末句說魚類消失令飲食種類大減，孕婦營養不良和貧血更嚴重。只看首尾句，這段大概會處理乾湖床、鹽塵暴、污染物和人類健康後果。若題目問人口密集地區受害、疾病、salt-laden air 或malnutrition，應定位 Paragraph C。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說把整個 Aral Sea 恢復到 1960 年代狀態並不現實；末句說 Kazakhstan 仍嘗試局部恢復北部 Aral。只看首尾句，這段先定下「全面恢復不可行」的框架，再轉向局部恢復。中間大概會解釋原因：灌溉取水、作物選擇、運河滲漏、成本、政治意願。若題目問 impossible mission、irrigation expansion、political will，Paragraph D 很重要。"
+      },
+      {
+        "number": "E",
+        "summary": "首句預測 Small Aral 的鹽度會穩定在 3 至 14 g/l；末句說 Kazakhstan 正討論較溫和的方案，把水帶近 Aralsk。只看首尾句，這段功能是展望北部 Small Aral 的恢復前景。中間會說本地魚種回歸、湖面上升、海岸線靠近 Aralsk、漁業和航運重啟，以及更大工程是否可行。這段明顯偏向promising recovery。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Large Aral 面對艱難未來，仍快速萎縮；末句說 western basin 仍會相對較深，但鹽度會升至遠高於 100 g/l。只看首尾句，這段功能是預測 Large Aral 的未來惡化。中間會分 eastern basin 和 western basin 討論：水道可能關閉、鹽度極高、只剩 brine shrimp 和 bacteria、groundwater inflow 不確定。這段多數回答 Large Aral future 的題目。"
+      }
+    ]
+  }
+}

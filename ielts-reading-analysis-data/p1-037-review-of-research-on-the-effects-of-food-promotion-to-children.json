@@ -1,0 +1,2179 @@
+{
+  "id": "p1-037-review-of-research-on-the-effects-of-food-promotion-to-children",
+  "catalogueId": "p1-037",
+  "catalogueIds": [
+    "p1-037"
+  ],
+  "passage": 1,
+  "title": "REVIEW OF RESEARCH ON THE EFFECTS OF FOOD PROMOTION TO- CHILDREN",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "viii",
+    "ii",
+    "vi",
+    "v",
+    "i",
+    "x",
+    "iii",
+    "NO",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "YES"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "viii — Advertising’s focus on unhealthy options",
+      "answerKey": "viii — Advertising’s focus on unhealthy options",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "Paragraph A 的中心內容是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph A 選出最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Headings。重點不是找一個段內出現過的字，而要看整段反覆處理甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 有 “Big Four”，但整段真正聚焦的是：兒童食品廣告主要推銷不健康食品，而健康飲食建議缺少宣傳支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children’s food promotion is dominated by television advertising, and the great majority of this promotes the so-called ‘Big Four’ of pre-sugared breakfast cereals, soft drinks, confectionery and savoury snacks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童食品推廣主要由電視廣告主導，而其中絕大部分都在推廣所謂 “Big Four”：預先加糖的早餐穀物、汽水、糖果和鹹味零食。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, the recommended diet gets little promotional support.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，建議中的健康飲食幾乎得不到宣傳支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷本段方向：廣告集中推銷某些食品類別，健康飲食一方宣傳不足。這正好對應 heading viii。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading viii 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Advertising’s focus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unhealthy options”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 中的對應訊號包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“dominated by television advertising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“great majority”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Big Four”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pre-sugared breakfast cereals, soft drinks, confectionery and savoury snacks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“advertised diet contrasts sharply with that recommended by public health advisers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recommended diet gets little promotional support”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正定案的是這一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The advertised diet contrasts sharply with that recommended by public health advisers, and themes of fun and fantasy or taste, rather than health and nutrition, are used to promote it to children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "廣告所呈現的飲食，與公共健康顧問建議的飲食形成鮮明對比；廣告用來吸引兒童的主題是 fun、fantasy 或 taste，健康和營養並非宣傳重心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把段落主旨說清楚：廣告推廣的飲食和健康建議方向相差很大。Heading viii “Advertising’s focus on unhealthy options” 能完整概括這段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 iv “Advertising effects of the ‘Big Four’”？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Big Four” 確實在首句出現，但 Paragraph A 主要講 promotion 的 nature：兒童看到的是不健康飲食廣告，健康飲食缺乏宣傳。它沒有詳細分析 “Big Four” 的 effects。iv 只抓到一個例子，覆蓋不了 recommended diet gets little support 這個段末重點。所以 Question 1 答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "ii — How much children really know about food",
+      "answerKey": "ii — How much children really know about food",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "Paragraph B 的主旨是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph B 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is plenty of evidence that children notice and enjoy food promotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有大量證據顯示，兒童會注意到並喜歡食品推廣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, seeing soft drink and cereal adverts reduced primary-aged children’s ability to determine correctly whether or not certain products contained real fruit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，看過汽水和早餐穀物廣告後，小學生正確判斷某些產品是否含有真正水果的能力下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段由 children notice and enjoy promotion 開始，最後落在 children’s food knowledge，尤其是能否正確判斷食品成分。這讓 heading ii 很合適。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading ii 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“know about food”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“what children know about food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nutritional knowledge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“healthy diet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“specific types of nutritional knowledge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“determine correctly whether or not certain products contained real fruit”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文中段說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In terms of nutritional knowledge, food advertising seems to have little influence on children’s general perceptions of what constitutes a healthy diet, but, in certain contexts, it does have an effect on more specific types of nutritional knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就營養知識而言，食品廣告似乎對兒童關於甚麼構成健康飲食的一般理解影響不大；但在某些情境下，它確實會影響較具體的營養知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確把本段帶到 nutritional knowledge。Heading ii “How much children really know about food” 是對這個重點的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 vi “Evidence that advertising affects what children buy to eat”？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 提到 studies 也看 behaviour，但本段最後聚焦在 knowledge，例如 healthy diet 和real fruit。真正處理 purchase behaviour 的是 Paragraph C。Heading vi 更適合下一段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 2 答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "vi — Evidence that advertising affects what children buy to eat",
+      "answerKey": "vi — Evidence that advertising affects what children buy to eat",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph C 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The review also found evidence that food promotion influences children’s food preferences and their purchase behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這份 review 也找到證據，顯示食品推廣會影響兒童的食物偏好和購買行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One, for example, showed that advertising influenced a primary class’s choice of daily snack at playtime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，其中一項研究顯示，廣告影響了一班小學生在 playtime 選擇 daily snack 的決定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 的主題非常直接：food promotion affects preferences, purchase behaviour, and eating choices。Heading vi 最貼近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vi 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“advertising affects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children buy to eat”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 中的對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“found evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“influences children’s food preferences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“purchase behaviour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“what was bought by secondary school pupils”"
+            },
+            {
+              "kind": "quote",
+              "text": "“influence what children eat”"
+            },
+            {
+              "kind": "quote",
+              "text": "“choice of daily snack”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A study of primary school children, for instance, found that exposure to advertising influenced which foods they claimed to like; and another showed that labelling and signage on a vending machine had an effect on what was bought by secondary school pupils.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一項針對小學生的研究發現，接觸廣告會影響他們聲稱喜歡哪些食物；另一項研究顯示， vending machine 上的 label 和 signage 會影響中學生買甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 “what children buy to eat”。段末再加入 daily snack 的例子，說明影響不只在claimed preference，也伸延到 actual food choice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何 heading vi 沒有完全提到 “eat”？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 說 “buy to eat”，雖然 Paragraph C 還有 eat / snack choice，但核心仍是廣告影響兒童食物選擇與購買。它是可覆蓋整段的最佳 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 3 答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "v — The connection between advertising and children’s weight problems",
+      "answerKey": "v — The connection between advertising and children’s weight problems",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph D 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next step, of trying to establish whether or not a link exists between food promotion and diet or obesity, is extremely difficult as it requires research to be done in real-world settings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一步是嘗試確定 food promotion 與 diet 或 obesity 之間是否存在關聯；這非常困難，因為研究需要在真實環境中進行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This showed that the more food adverts they saw, the more snacks and calories they consumed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顯示兒童看到越多食品廣告，就吃下越多零食和卡路里。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示本段重心：food promotion / advertising 和 diet、obesity、calories 之間的關係，以及研究上很難分清因果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading v 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“connection”"
+            },
+            {
+              "kind": "quote",
+              "text": "“advertising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children’s weight problems”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“link exists between food promotion and diet or obesity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“television viewing and diet, obesity, and cholesterol levels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“snacks and calories”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文中段說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have established a clear link between television viewing and diet, obesity, and cholesterol levels.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些研究已經建立了 television viewing 與 diet、obesity 和 cholesterol levels 之間的清楚關聯。"
+            },
+            {
+              "kind": "label",
+              "text": "接著作者補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is impossible to say, however, whether this effect is caused by the advertising, the sedentary nature of television viewing or snacking that might take place whilst viewing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，無法判斷這個影響到底來自廣告、看電視時久坐不動的性質，還是看電視時可能發生的吃零食行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明：weight problems 的 connection 存在，但 cause 很難拆分。Heading v 最能概括本段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 vi？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也提到 snacks and calories，但本段主線不在購買行為；它討論的是 advertising /TV viewing 和 obesity 之間的關聯，以及研究上的因果困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 4 答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "i — General points of agreement and disagreement among researchers",
+      "answerKey": "i — General points of agreement and disagreement among researchers",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph E 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus the literature does suggest food promotion is influencing children’s diet in a number of ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，相關文獻確實顯示 food promotion 正以多種方式影響兒童飲食。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nonetheless, many studies have found clear effects and they have used sophisticated methodologies that make it possible to determine that i) these effects are not just due to chance; ii) they are independent of other factors that may influence diet, such as parents’ eating habits or attitudes; and iii) they occur at a brand and category level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管如此，許多研究找到清楚效果，並使用較精密的方法，使研究者能判定這些效果不只是偶然、獨立於父母飲食習慣或態度等其他因素，並且出現在品牌和食品類別層面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段是總結文獻立場：整體支持有影響，但證據不是絕對。中間還提到 several studies have not found an effect，這正好是 disagreement。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading i 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“agreement and disagreement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“among researchers”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 的對應內容包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“does suggest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not amount to proof”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Nor do all studies point to this conclusion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“several have not found an effect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many studies have found clear effects”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This does not amount to proof; as noted above with this kind of research, incontrovertible proof simply isn’t attainable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這並不構成證明；如上文所說，這類研究無法取得無可爭辯的證明。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nor do all studies point to this conclusion; several have not found an effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "並非所有研究都指向這個結論；有幾項研究沒有發現影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明本段不是單純支持或反對，而是把整體研究立場整理出來：多數有 clear effects，但仍有保留和不同結果。因此 heading i 最合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 vii “How parents influence children’s eating habits”？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 確實提到 parents’ eating habits or attitudes，但那只是 other factors 的例子，用來說明 sophisticated methodologies 如何排除其他因素。整段焦點是研究證據的共識與分歧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 5 答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "x — Underestimating the effects advertising has on children",
+      "answerKey": "x — Underestimating the effects advertising has on children",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph F 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, two factors suggest that these findings actually downplay the effect that food promotion has on children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，有兩個因素顯示，這些 findings 其實低估了 food promotion 對兒童的影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, promotion for fast food outlets may not only influence the child, but also encourage parents to take them for meals and reinforce the idea that this is a normal and desirable behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，fast food outlets 的推廣不只可能影響孩子，也可能鼓勵父母帶孩子去用餐，並強化這是一種正常且理想行為的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接點出 downplay，即低估。末句提供 indirect influence 的例子，說明實際影響可能大於研究所量度到的影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading x 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Underestimating”"
+            },
+            {
+              "kind": "quote",
+              "text": "“effects advertising has on children”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 中最直接的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“downplay the effect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cumulative effect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“significantly greater”"
+            },
+            {
+              "kind": "quote",
+              "text": "“understate indirect influences”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, the literature focuses principally on television advertising; the cumulative effect of this combined with other forms of promotion and marketing is likely to be significantly greater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，文獻主要集中在電視廣告；若把電視廣告和其他推廣及行銷形式累積起來，其總效果很可能大得多。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, the studies have looked at direct effects on individual children, and understate indirect influences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，這些研究看的是對個別兒童的直接效果，因此低估了間接影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句完整支援 heading x。現有研究量到的影響可能偏低，原因包括 promotion form 範圍太窄，以及 indirect effects 未充分呈現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 6 答案是 x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "iii — Need to take action",
+      "answerKey": "iii — Need to take action",
+      "type": "Matching Headings",
+      "prompt": "Question 7",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph G 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This does not amount to proof of an effect, but in our view does provide sufficient evidence to conclude that an effect exists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這仍未構成 effect 的 proof，但在作者看來，已經有足夠證據可得出 effect exists 的結論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The debate should now shift to what action is needed, and specifically to how the power of commercial marketing can be used to bring about improvements in young people’s eating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在的討論應該轉向需要採取甚麼行動，特別是如何利用 commercial marketing 的力量改善年輕人的飲食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph G 是全文結論。作者承認沒有 absolute proof，但認為 evidence sufficient，因此下一步應討論 action。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iii 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Need”"
+            },
+            {
+              "kind": "quote",
+              "text": "“take action”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“what action is needed”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一句就是定案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The debate should now shift to what action is needed…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "討論現在應該轉向需要採取甚麼行動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把文章由 “Is there an effect?” 推向 “What should be done?”。Heading iii “Need to take action” 精準概括這個結論方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 i？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 沒有繼續整理研究者的 agreement / disagreement；這項工作已在 Paragraph E 完成。Paragraph G 的功能是提出下一步方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 7 答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“There is little difference between the number of healthy food advertisements and the number of unhealthy food advertisements.”",
+      "translation": "健康食品廣告和不健康食品廣告的數量差別很小。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目核心是 “little difference between the number of healthy and unhealthy food advertisements”。要找作者是否認為兩者數量接近。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children’s food promotion is dominated by television advertising, and the great majority of this promotes the so-called ‘Big Four’ of pre-sugared breakfast cereals, soft drinks, confectionery and savoury snacks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童食品推廣主要由電視廣告主導，其中絕大部分推廣 “Big Four”：加糖早餐穀物、汽水、糖果和鹹味零食。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, the recommended diet gets little promotional support.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，建議中的健康飲食幾乎沒有宣傳支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句已經能初步判斷：不健康食品得到大量廣告支持，健康飲食得到很少支持。題目說兩者數量差別很小，方向很可疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“healthy food advertisements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unhealthy food advertisements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“little difference”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“great majority”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Big Four”"
+            },
+            {
+              "kind": "quote",
+              "text": "“advertised diet contrasts sharply”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recommended diet gets little promotional support”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The advertised diet contrasts sharply with that recommended by public health advisers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "廣告所呈現的飲食，與公共健康顧問建議的飲食形成鮮明對比。"
+            },
+            {
+              "kind": "label",
+              "text": "再看段末："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, the recommended diet gets little promotional support.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，建議中的健康飲食幾乎沒有宣傳支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題是：healthy 和 unhealthy 廣告數量差不多。原文命題是：不健康或非建議飲食廣告佔優勢，recommended diet 得到很少 promotional support。兩者方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "healthy food advertisements= promotion for the recommended diet unhealthy food advertisements= promotion of Big Four / advertised diet little difference= 數量接近原文的 “great majority” 和 “little promotional support” 顯示差距明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能只看到 “television advertising” 和 “food promotion” 這類廣泛字眼，沒有留意 “great majority” 和 “little promotional support”。這兩個程度詞才真正決定答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“TV advertising has successfully taught children nutritional knowledge about vitamins and other nutrients.”",
+      "translation": "電視廣告成功教會兒童關於維他命和其他營養素的營養知識。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目核心是 “successfully taught children nutritional knowledge”。要檢查原文對 advertising 和 nutritional knowledge 的描述是否正面。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is plenty of evidence that children notice and enjoy food promotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有大量證據顯示，兒童會注意到並喜歡食品推廣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, seeing soft drink and cereal adverts reduced primary-aged children’s ability to determine correctly whether or not certain products contained real fruit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，看過汽水和早餐穀物廣告後，小學生正確判斷某些產品是否含有真正水果的能力下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段討論 promotion 對 children 的影響，最後例子顯示 advertising 使某種食品判斷能力下降。這和 “successfully taught” 的方向不一致。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“TV advertising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nutritional knowledge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“successfully taught”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In terms of nutritional knowledge…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food advertising seems to have little influence…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduced primary-aged children’s ability…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In terms of nutritional knowledge, food advertising seems to have little influence on children’s general perceptions of what constitutes a healthy diet, but, in certain contexts, it does have an effect on more specific types of nutritional knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就營養知識而言，食品廣告似乎對兒童關於甚麼構成健康飲食的一般理解影響不大；但在某些情境下，它確實會影響較具體的營養知識。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文給出的具體例子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, seeing soft drink and cereal adverts reduced primary-aged children’s ability to determine correctly whether or not certain products contained real fruit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，看過汽水和早餐穀物廣告後，小學生正確判斷某些產品是否含有真正水果的能力下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 TV advertising successfully taught children nutritional knowledge。原文說 food advertising 對 general nutritional knowledge 影響不大，並且舉例說某些廣告降低了兒童正確判斷成分的能力。這和 “successfully taught” 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "successfully taught= 正面提升知識原文方向： little influence on general perceptions reduced ability to determine correctly嚴格說，vitamins 沒有在原文逐字出現；但題目中心落在「廣告是否成功提升營養知識」。原文給出的判斷是影響很小或造成判斷能力下降，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“does have an effect on more specific types of nutritional knowledge” 可能令人誤以為效果是正面的。要繼續讀 example：這個 effect 在例子中表現為 reduced ability，方向不利於題目。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“It is hard to decide which aspect of TV viewing has caused children’s weight problems.”",
+      "translation": "很難判斷看電視的哪一個方面造成兒童體重問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目核心是 hard to decide which aspect caused weight problems。要找原文是否說 obesity / diet 的原因難以分辨。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next step, of trying to establish whether or not a link exists between food promotion and diet or obesity, is extremely difficult as it requires research to be done in real-world settings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一步是嘗試確定 food promotion 與 diet 或 obesity 是否有關聯；這非常困難，因為研究必須在真實環境中進行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This showed that the more food adverts they saw, the more snacks and calories they consumed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顯示兒童看到越多食品廣告，就吃下越多零食和卡路里。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段討論廣告、看電視、飲食和肥胖。題目問 cause 是否難以判定，正好對應中段的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“impossible to say”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“hard to decide”"
+            },
+            {
+              "kind": "quote",
+              "text": "“TV viewing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weight problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“extremely difficult”"
+            },
+            {
+              "kind": "quote",
+              "text": "“television viewing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“obesity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“impossible to say”"
+            },
+            {
+              "kind": "quote",
+              "text": "“caused by”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is impossible to say, however, whether this effect is caused by the advertising, the sedentary nature of television viewing or snacking that might take place whilst viewing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，無法判斷這種影響到底是由廣告造成，還是由看電視時久坐不動造成，或由看電視時可能吃零食造成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援題目。題目中的 “which aspect of TV viewing” 對應原文列出的三種可能因素： advertising= 廣告本身sedentary nature of television viewing= 看電視時久坐不動snacking whilst viewing= 看電視時吃零食題目中的 “weight problems” 對應 Paragraph D 中的 obesity。原文說 impossible to say，即 hard to decide。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段同時說 “clear link between television viewing and diet, obesity, and cholesterol levels”。學生可能看到 clear link 就急著覺得原因很清楚。可是下一句立刻說 impossible to say which factor caused the effect。這題真正控制答案的是 cause，而非 link。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Children’s food preferences are affected by their age and gender.”",
+      "translation": "兒童的食物偏好受到年齡和性別影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有兩個條件：age 和 gender。原文若只說 advertising affects preferences，仍未足以支持 age and gender。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The review also found evidence that food promotion influences children’s food preferences and their purchase behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這份 review 也找到證據，顯示食品推廣會影響兒童的食物偏好和購買行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One, for example, showed that advertising influenced a primary class’s choice of daily snack at playtime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一項研究顯示，廣告影響了一班小學生在 playtime 對 daily snack 的選擇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 的確處理 food preferences，但原因是 food promotion / advertising，不是 age 或 gender。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“food preferences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“age”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gender”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“food preferences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“primary school children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“secondary school pupils”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但找不到： gender boys / girls older / younger comparison age affects preference"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A study of primary school children, for instance, found that exposure to advertising influenced which foods they claimed to like…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一項針對小學生的研究發現，接觸廣告會影響他們聲稱喜歡哪些食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支持 “food preferences are affected by advertising”。題目要求的是 “affected by their age and gender”。原文沒有說不同年齡或不同性別的孩子有不同 food preferences，也沒有說 age /gender 是影響因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： children’s food preferences are affected by age and gender.原文命題： children’s food preferences are affected by advertising / exposure to food promotion.比較結果：有關 food preferences 的背景存在，但 age 和 gender 這兩個核心因素缺失。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 提到 primary school children 和 secondary school pupils，學生可能把這些理解成年齡差異研究。可是原文只是用不同研究對象舉例，沒有比較年齡如何影響 preferences。gender完全沒有出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Wealthy parents tend to buy more ‘sensible foods’ for their children.”",
+      "translation": "富裕父母傾向為孩子購買更多「明智／健康合理」的食物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目涉及 wealthy parents、buy more、sensible foods。要找文章是否討論父母收入或階層如何影響購買。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看可能相關段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E / Paragraph F Paragraph E 最後一句提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“...other factors that may influence diet, such as parents’ eating habits or attitudes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……其他可能影響飲食的因素，例如父母的飲食習慣或態度。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“...encourage parents to take them for meals and reinforce the idea that this is a normal and desirable behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……鼓勵父母帶孩子去用餐，並強化這是一種正常且理想行為的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段都有 parents，但都沒有直接處理 wealthy parents 或 sensible foods。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wealthy parents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“buy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sensible foods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“parents’ eating habits or attitudes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“encourage parents to take them for meals”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "找不到： wealthy rich income sensible foods buy more healthy food"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "原文在 Paragraph E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“...they are independent of other factors that may influence diet, such as parents’ eating habits or attitudes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……這些 effects 獨立於其他可能影響飲食的因素，例如父母的飲食習慣或態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這只說父母飲食習慣和態度可能影響 diet。它沒有說 wealthy parents，也沒有說他們購買更多sensible foods。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的 parents 例子也只是說 fast food promotion may encourage parents to take children for meals，與富裕程度或健康食物購買無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：富裕父母會買更多 sensible foods。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有： parents’ eating habits or attitudes 可能影響飲食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失部分： wealthy parents buy more sensible foods所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 parents 會吸引學生到 Paragraph E 和 F。找到 parents 後不能立即判 YES，還要檢查修飾詞 wealthy 和購買對象 sensible foods。這兩項都沒有原文支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“There has been little investigation of food promotion methods other than TV advertising.”",
+      "translation": "除電視廣告以外，其他食品推廣方法受到的研究很少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目核心是 little investigation of non-TV promotion methods。要找 review 是否說研究主要集中在 television advertising，其他形式較少。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B and Paragraph F Paragraph B 第一段相關開首："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is plenty of evidence that children notice and enjoy food promotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有大量證據顯示，兒童會注意並喜歡食品推廣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 中段說 studies 的範圍。Paragraph F 第一、最後句又提到研究低估 effect 的原因，其中一項是 literature focuses principally on television advertising。這題需要跨兩段驗證。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“little investigation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other than TV advertising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“promotion methods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The majority of studies examined food advertising, but a few examined other forms of food promotion.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the literature focuses principally on television advertising”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The majority of studies examined food advertising, but a few examined other forms of food promotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大部分研究檢視食品廣告，但只有少數研究檢視其他形式的食品推廣。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, the literature focuses principally on television advertising; the cumulative effect of this combined with other forms of promotion and marketing is likely to be significantly greater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，文獻主要集中在電視廣告；如果把它和其他推廣及行銷形式的累積效果加起來，影響很可能大得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來清楚支持題目。題目中的 “little investigation” 對應 “a few examined other forms” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“focuses principally on television advertising”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "little investigation= a few examined / literature focuses principally on TV methods other than TV advertising= other forms of food promotion and marketing題目命題和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 說 television advertising 的 dominance has recently begun to wane，可能令人以為其他方法已被大量研究。不過 “wane” 講的是 promotion market 的變化；Question 13 問 research literature 的研究重心。Paragraph F 明確說 literature focuses principally on television advertising，因此 YES 成立。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - REVIEW OF RESEARCH ON THE EFFECTS OF FOOD PROMOTION TO CHILDREN.pdf",
+    "sha256": "0560151426c021271d3ab7d314202ff7c8a683dc0fa9f781b843e4d9659be03a",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 children’s food promotion 主要由 television advertising 主導，並且大部分都推廣所謂“Big Four”：加糖早餐穀物、汽水、糖果和鹹味零食。末句說 recommended diet 幾乎沒有promotional support。只看首尾句，可以估計本段重點是兒童食品廣告集中推銷不健康選項，與公共健康建議的飲食方向形成強烈對比。中間的 fast food、global branding、fun、fantasy、taste都是 supporting details。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說有大量證據顯示 children notice and enjoy food promotion；末句舉例說看 soft drink 和cereal adverts 會降低小學生判斷產品是否含 real fruit 的能力。只看首尾句，可以估計本段主題是食品廣告對兒童 food knowledge 的影響。中間提到研究如何檢視 knowledge、preferences、behaviour 和 health outcomes，其中 nutritional knowledge 是本段最後聚焦的重點。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接說 review 發現 food promotion 影響 children’s food preferences 和 purchase behaviour；末句說一項研究顯示 advertising 影響一班小學生 playtime 時 daily snack 的選擇。只看首尾句，可以清楚看出本段處理廣告對兒童喜好、購買和實際食用行為的影響。中間的 primary school children、vending machine labelling、signage 和 snack choice 都是具體研究例子。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說下一步要建立 food promotion 和 diet 或 obesity 之間是否有 link，這非常困難，因為研究要在 real-world settings 進行。末句說一項 viewing diary 研究顯示，兒童看到越多 food adverts，就吃越多 snacks and calories。首尾句顯示本段重點是廣告、看電視、飲食、肥胖和膽固醇之間的關係，以及因果判斷的困難。"
+      },
+      {
+        "number": "E",
+        "summary": "首句總結 literature suggest food promotion is influencing children’s diet in a number of ways；末段說許多研究找到 clear effects，並且使用 sophisticated methodologies，能判斷這些效果不只是chance，且獨立於其他因素。只看首尾句，可以估計本段是研究證據的整體評估：有支持、有保留、有反例，也有方法較強的研究。本段適合處理 researchers 之間的 agreement 和disagreement。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 two factors suggest that these findings actually downplay the effect food promotion has on children；末句說 fast food promotion 可能不只影響孩子，也會鼓勵父母帶孩子外出用餐，並強化這種行為正常且可取的想法。只看首尾句，本段明顯指出現有研究可能低估了廣告影響。兩個原因是：研究主要集中在 TV advertising，以及研究多看 direct effects，較少量度 indirect influences。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說這仍未構成 proof of an effect，但作者認為已提供足夠證據，可 concluded that an effect exists。末句說 debate should now shift to what action is needed，以及如何利用 commercial marketing 改善 young people’s eating。只看首尾句，可以看出本段是結論段：作者不再只討論是否有影響，重點轉向行動和政策方向，特別是如何把商業行銷力量用於改善飲食。"
+      }
+    ]
+  }
+}

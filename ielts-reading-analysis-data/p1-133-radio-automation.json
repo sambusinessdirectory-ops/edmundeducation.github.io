@@ -1,0 +1,1281 @@
+{
+  "id": "p1-133-radio-automation",
+  "catalogueId": "p1-133",
+  "catalogueIds": [
+    "p1-133"
+  ],
+  "passage": 1,
+  "title": "Radio Automation",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "chip",
+    "grit",
+    "molten zinc",
+    "milling machine",
+    "sockets",
+    "loudspeakers",
+    "valves",
+    "cheaper",
+    "components",
+    "lighter",
+    "cost",
+    "A",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "chip",
+      "answerKey": "chip",
+      "type": "Diagram Completion",
+      "prompt": "Question 1",
+      "translation": "1944 年，Sargrove 首先想出了一種原始的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1944, Sargrove first came up with a primitive ______.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1944, Sargrove came up with the answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1944 年，Sargrove 想出了答案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the end of the war, Sargrove built an automatic production line, which he called ECME (electronic circuit-making equipment), in a small factory in Effingham, Surrey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰爭結束時，Sargrove 在 Surrey 的 Effingham 一間小工廠建立了一條自動生產線，並稱之為ECME，即電子電路製造設備。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “1944” 和 “primitive”。Paragraph B 第二句直接出現 “primitive chip”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His solution was to dispense with most of the fiddly bits by inventing a primitive chip—a slab of Bakelite with all the receiver’s electrical components and connections embedded in it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的解決方法是發明一種原始晶片，從而省去大部分難處理的小零件；這是一塊 Bakelite 板，裏面嵌入了接收器所有電氣零件和連接。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “primitive ______” 完全對應原文 “a primitive chip”。答案只需一個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Bakelite”。Bakelite 是 chip 的材料；圖中的空格問的是 Sargrove 想出的東西本身，所以答案是 chip。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 2–7 共用 Skim：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An operator sat at one end of each ECME line, feeding in die plates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名操作員坐在每條 ECME 生產線的一端，把 die plates 放入機器。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When ECME was working flat out, the whole process took 20 seconds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 ECME 全速運作時，整個過程只需 20 秒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph C 是生產流程段。它會按時間順序描述 die plates 被放入後，經過 sandblaster、cleaning、spraying、milling、lacquering、testing 和 robot hands fitting sockets。做 diagram 題時，最穩定的方法是跟着流程順序，不要跳讀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "grit",
+      "answerKey": "grit",
+      "type": "Diagram Completion",
+      "prompt": "Question 2",
+      "translation": "噴砂機／噴砂步驟去除 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sandblaster gets rid of ______.”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sandblaster” 和 “gets rid of”。原文先說 sandblaster roughened the surface，下一句說cleaned to remove any traces of grit。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First stop was the sandblaster, which roughened the surface of the plastic so that molten metal would stick to it. The plates were then cleaned to remove any traces of grit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一站是噴砂機，它把塑膠表面弄粗糙，使熔化的金屬能黏附在上面。然後，這些板會被清潔，以去除任何砂粒痕跡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題圖把 sandblaster 和後續 cleaning 壓縮成一個步驟。空格前的 “gets rid of” 對應原文 “remove any traces of”。被移除的是 grit，所以答案是 grit。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "sandblaster 的主要動作是 roughened the surface，但題目問 gets rid of，即移除甚麼。真正答案來自下一句的 “remove any traces of grit”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "molten zinc",
+      "answerKey": "molten zinc",
+      "type": "Diagram Completion",
+      "prompt": "Question 3",
+      "translation": "八個噴嘴噴出 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“eight nozzles emit ______.”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “eight nozzles”。Paragraph C 中有 “eight nozzles rotated into position and sprayed molten zinc”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There, eight nozzles rotated into position and sprayed molten zinc over both sides of the plate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那裏，八個噴嘴旋轉到位，並把熔化的鋅噴在板的兩面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “emit” 對應原文 “sprayed”。八個噴嘴噴出的物質是 molten zinc。答案兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 “zinc”。原文完整答案是 molten zinc，表示「熔化的鋅」。若題目限制 NO MORE THAN TWO WORDS，保留 molten 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "milling machine",
+      "answerKey": "milling machine",
+      "type": "Diagram Completion",
+      "prompt": "Question 4",
+      "translation": "______ 移除金屬表層。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“______ removes the layer of metal.”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “removes the layer of metal”。原文用近義表達 “ground away the surface layer of metal”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next stop was the milling machine, which ground away the surface layer of metal to leave the circuit and other components in the grooves and recesses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一站是銑床，它磨掉金屬表層，只留下凹槽和凹位中的電路及其他部件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “removes” 對應 “ground away”；“the layer of metal” 對應 “the surface layer of metal”。執行這個動作的機器是 the milling machine，所以答案是 milling machine。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “metal”。metal 是被移除的東西；空格位於句子主語位置，問的是哪一部機器做這個動作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "sockets",
+      "answerKey": "sockets",
+      "type": "Diagram Completion",
+      "prompt": "Question 5",
+      "translation": "最後安裝了 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“______ are installed in the end.”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “installed in the end” 和 “attach components”。Paragraph C 最後部分出現 robot hands fitted it with sockets。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the time it emerged from the end of the line, robot hands had fitted it with sockets to attach components such as valves and loudspeakers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它從生產線末端出來時，機械手已經為它裝上 sockets，用來連接 valves 和 loudspeakers 等部件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “installed” 對應原文 “fitted it with”。被安裝上去的是 sockets。答案要用複數，因為原文是sockets，題目空格後也有 “are”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 valves 或 loudspeakers。它們是 sockets 連接的 components；真正被安裝的是 sockets。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "loudspeakers",
+      "answerKey": "loudspeakers",
+      "type": "Diagram Completion",
+      "prompt": "Question 6",
+      "translation": "連接例如 ______ 和 ______ 這類部件。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“attach components such as ______ and ______.”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “components such as”。原文同一句列出 valves and loudspeakers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the time it emerged from the end of the line, robot hands had fitted it with sockets to attach components such as valves and loudspeakers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它從生產線末端出來時，機械手已經為它裝上 sockets，用來連接例如 valves 和 loudspeakers這些部件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Q6 和 Q7 都來自同一句。按常見原題圖的箭嘴位置，Q6 對應 loudspeakers。答案是loudspeakers。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "純看原文句子順序會先看到 valves，再看到 loudspeakers；但 diagram 題要按圖中箭嘴和部件位置填答案。若你的圖中 Q6 箭嘴指向 valve，則 Q6/Q7 需要對調。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "valves",
+      "answerKey": "valves",
+      "type": "Diagram Completion",
+      "prompt": "Question 7",
+      "translation": "連接例如 ______ 和 ______ 這類部件。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“attach components such as ______ and ______.”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞仍是 “components such as”。原文列出兩個可連接部件：valves and loudspeakers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the time it emerged from the end of the line, robot hands had fitted it with sockets to attach components such as valves and loudspeakers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它從生產線末端出來時，機械手已經為它裝上 sockets，用來連接例如 valves 和 loudspeakers這些部件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "按常見原題圖的部件位置，Q7 對應 valves。答案是 valves，使用複數，符合原文。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "valves 在這裏不是 “valve socket” 這種組合詞。題目問 components such as X and Y，所以直接填部件名稱 valves 即可。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "cheaper",
+      "answerKey": "cheaper",
+      "type": "Summary Completion",
+      "prompt": "“Sargrove had been dedicated to creating a 8 ______ radio by automating its manufacture.”",
+      "translation": "Sargrove 一直致力於透過自動化製造，創造一種更 ______ 的收音機。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Sargrove, the visionary engineer who developed the technology, was way ahead of his time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Sargrove 是發展這項技術的有遠見工程師，他遠遠走在時代之前。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Making radios required highly skilled labour—and lots of it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製造收音機需要高度熟練的勞工，而且需要很多。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “dedicated to creating” 和 “automating its manufacture”。原文中沒有 dedicated，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“had been trying to figure out”。空格前有 “a”，空格後是 radio，所以需要形容詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“For more than a decade, Sargrove had been trying to figure out how to make cheaper radios. Automating the manufacturing process would help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十多年來，Sargrove 一直試圖找出如何製造更便宜的收音機。把製造過程自動化會有幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “had been dedicated to creating” 對應原文 “had been trying to figure out how to make”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“by automating its manufacture” 對應 “Automating the manufacturing process would help”。答案是 cheaper。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “automatic”。Sargrove 用自動化作方法，目標是 cheaper radios。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "components",
+      "answerKey": "components",
+      "type": "Summary Completion",
+      "prompt": "“The old version of the radio had a large number of independent 9 ______.”",
+      "translation": "舊式收音機有大量獨立的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Sargrove, the visionary engineer who developed the technology, was way ahead of his time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Sargrove 是發展這項技術的有遠見工程師，他遠遠走在時代之前。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Making radios required highly skilled labour—and lots of it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製造收音機需要高度熟練的勞工，而且需要很多。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “old version”、“large number” 和 “independent”。原文沒有 independent，但說 “30 separate components”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even a simple receiver might have 30 separate components and 80 hand-soldered connections.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使是一部簡單接收器，也可能有 30 個獨立部件和 80 個手工焊接連接點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “a large number of independent” 對應原文 “30 separate”。空格需要名詞複數，答案是components。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "connections 也很多，有 80 個，但題目說 old version had a large number of independent______。summary 前後講 old radio 的零件多，下一句又說 after innovation fewer components，所以 components 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "lighter",
+      "answerKey": "lighter",
+      "type": "Summary Completion",
+      "prompt": "“After this innovation was introduced, wireless-style radios became 10 ______ and inexpensive to export overseas.”",
+      "translation": "這項創新出現後，無線式收音機變得更 ______，出口海外也更便宜。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The receivers had many advantages over their predecessors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些接收器比前代產品有很多優點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They could be curved, opening up the prospect of building the electronics into the cabinet of Bakelite radios.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們可以做成彎曲形狀，開啟了把電子部件內建到 Bakelite 收音機外殼中的可能性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “export overseas” 和 “inexpensive”。原文中 “ship abroad” 就是 export overseas 的近義表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No wires also meant the radios were lighter and cheaper to ship abroad.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有電線也意味着這些收音機更輕，運往海外的成本也更低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “inexpensive to export overseas” 對應 “cheaper to ship abroad”。在同一句中，收音機也became “lighter”。答案是 lighter。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 cheaper，因為題目已經用 “inexpensive to export overseas” 改寫了 cheaper to ship abroad。空格要填另一個優點：lighter。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "cost",
+      "answerKey": "cost",
+      "type": "Summary Completion",
+      "prompt": "“As Sargrove saw it, the real benefit of ECME was that it reduced the 11 ______ of manual work and could be used to manufacture more complex electronic devices.”",
+      "translation": "在 Sargrove 看來，ECME 的真正好處是它降低了人工工作的 ______，並可用來製造更複雜的電子設備。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs G–H Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sargrove was all for introducing this type of automation to other products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sargrove 非常支持把這類自動化引入其他產品。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was another problem Sargrove hadn’t foreseen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "還有另一個 Sargrove 沒有預見的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這題有兩部分："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“manufacture more complex electronic devices” 對應 Paragraph G 的 “more complex electronic equipment than radios”；“reduced the ______ of manual work” 對應 Paragraph H 的 “savings on the cost of labour”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“It could be used to make more complex electronic equipment than radios, he argued.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他主張，這項技術可以用來製造比收音機更複雜的電子設備。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of ECME’s biggest advantages—the savings on the cost of labour—also accelerated its downfall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ECME 最大優點之一，即節省勞工成本，也加速了它的失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “manual work” 對應原文 “labour”。“reduced the ______” 對應 “savings on the cost of labour”。答案是 cost。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 labour。題目已經用 “manual work” 表達 labour 的意思。空格前是 “reduced the”，最自然是 reduced the cost of manual work。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A — Anxious.",
+      "answerKey": "A — Anxious.",
+      "type": "Multiple Choice",
+      "prompt": "“What was the workers’ initial attitude towards the ECME model?”",
+      "translation": "工人一開始對 ECME 模式的態度是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The workers saw things differently.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工人的看法不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Britain lost its lead in a technology that would transform industry just a few years later.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國失去了在一項幾年後將改變工業的技術上的領先地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “workers’ attitude”。Paragraph I 是 Sargrove 的態度，Paragraph J 才是 workers 的態度。第一句 “saw things differently” 已提示要從 Sargrove 的樂觀看法轉到工人的不安。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They viewed automation in the same light as the everlasting light bulb or the suit that never wears out—as a threat to people’s livelihoods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們看待自動化，就像看待永不熄滅的燈泡或永不磨損的西裝一樣，視之為對人們生計的威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“If automation spread, they wouldn’t be released to do more exciting jobs. They’d be released to join the dole queue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果自動化擴散，他們不會被釋放去做更令人興奮的工作。他們會被釋放去排失業救濟隊。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Anxious.正確。工人把 ECME 視為 threat to livelihoods，又擔心 join the dole queue，所以態度是焦慮和不安。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Welcoming.錯。這是接近 Sargrove 的理想化態度，不符合 workers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Indifferent.錯。工人並非無所謂；他們覺得生計受威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Inspired.錯。inspired 比較接近被新技術鼓舞，但原文呈現的是 fear of unemployment。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 的 “liberate men and women from being slaves of machines” 很容易令人以為工人會歡迎 ECME。但題目問 workers，不問 Sargrove。人物一換，答案也換。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — An application of automation at an early stage.",
+      "answerKey": "C — An application of automation at an early stage.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the main idea of the passage?”",
+      "translation": "本文主旨是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看全篇，不可只看某一段。標題是 “Radio Automation”，Introduction 把現代自動化工廠和1940 年代的 ECME 對比；B–D 講 ECME 如何被發明和運作；F 講產品優點；G–J 講它的限制、工人反應和失敗結局。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “main idea”。這類題要找全篇重複主題詞：automation、automatic production line、ECME、workerless factory、radio receivers、technology ahead of its time。文章反覆回到「早期自動化技術」這條線。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵總覽證據： Introduction 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the mid-1940s, the workerless factory was still the stuff of science fiction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1940 年代中期，無人工廠仍然像科幻小說中的東西。"
+            },
+            {
+              "kind": "label",
+              "text": "接着說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet hidden away in the English countryside was a highly automated production line called ECME…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在英國鄉郊隱藏着一條高度自動化生產線，名為 ECME。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句已建立全文主題：ECME 是自動化在很早階段的一個驚人應用。後文再用 A–J 段展開：為何需要它、如何發明、如何運作、為何先進、為何失敗、工人如何反應。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A An approach to reducing the price of radios.這只覆蓋 Sargrove 的起點：make cheaper radios。它是發明動機，不足以概括全文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B A new generation of highly popular products and a successful business.錯。文章後半說 financial backing fizzled out、money dried up，ECME 沒有成為成功商業故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C An application of automation at an early stage.正確。全篇核心是 1940 年代已有高度自動化的 ECME 生產線，技術非常超前，但受商業、經濟和勞工反應限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D ECME technology can be applied to many product fields.這是強干擾。Paragraph E 和 G 的確說 ECME 可用於 television、other electronic apparatus 和更複雜電子設備。但這只是其中一個優點，無法涵蓋 C 段製造流程、D 段先進性、H–J 段勞工反彈和失敗結局。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 有原文支援，所以很吸引；但 main idea 題要選覆蓋全篇的一項。D 只覆蓋技術可擴展的局部內容。C 能包住 introduction 的今昔對比、ECME 的流程、先進性、優勢和最終失敗，因此最適合作主旨答案。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Radio Automation.pdf",
+    "sha256": "59c08b1faafce1ddad4643a36d3ae0cc1cc66515d73c0d48cb86dc6901110580",
+    "pageCount": 16
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "開首說現代生產線由電腦控制、機械人操作，最後說在 1940 年代英國鄉郊已有 ECME，每天幾乎不用人手可製造 1,500 部收音機。只看首尾句，讀者可先見到今昔對比：今天常見的無人工廠，在當年接近科幻。這段功能是引出核心案例，提示文章不只講收音機價格，也會處理自動化技術早期突破。",
+        "label": "Introduction"
+      },
+      {
+        "number": "A",
+        "summary": "A 段第一句介紹 John Sargrove 是發展這項技術的超前工程師，最後一句說製造收音機需要大量高技術工人。只看首尾句，可以先估計本段功能是交代問題背景：Sargrove 想生產更便宜的收音機，但傳統收音機零件多、焊接多、檢查多，很難自動化。這段會是 summary 題中 cheaper radio、components、manual labour 等答案的重要來源。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段第一句說 1944 年 Sargrove 找到答案，最後一句說他在 Effingham, Surrey 建立自動生產線ECME。只看首尾句可知，本段是突破方案段：他用一種 primitive chip 取代大量細碎零件，並設計機器製造它。這段會回答與 1944、primitive chip、ECME 起源、automatic production line 有關的題目，尤其是 diagram 的第一個空格。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段第一句說操作員只需坐在線的一端放入 die plates，最後一句說 ECME 全速運行時，整個過程只需 20 秒。只看首尾句，這段明顯是製造流程段。中間會按順序講 sandblaster、cleaning、spraying、milling、lacquering、testing、robot hands fitting sockets 等步驟。因此 Questions 2–7的 diagram completion 幾乎都要在這段按流程順序尋找。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段第一句說 ECME advanced 得令人驚訝，最後一句說 Sargrove 的 circuit board 更像現代chip。只看首尾句可知，本段功能是評價 ECME 的技術先進性。中間會講 electronic eyes、photocells、automatic testing、faulty plates、machine adjustment 等。若題目問自動檢查、故障處理、modern chip、printed circuit 的先驅，本段很可能是目標段落。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段第一句說 Sargrove 在 1947 年向 British Institution of Radio Engineers 展示發明，最後一句引用 The Times，說這方法也可用於 television 和其他 electronic apparatus。只看首尾句，本段是公開展示與外界反應段。它說明工程師和媒體都被 ECME 打動，也帶出技術可擴展到其他電子產品。若問 public reception 或 application to other products，可定位到這段。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段第一句說這些 receivers 比前代產品有很多優點，最後一句說 circuit boards 不一定要是平的，甚至可做成彎曲形狀。只看首尾句，本段是產品優勢段。中間會講 fewer components、more robust、fewer mistakes、lighter、cheaper to ship、more reliable 等。若 summary 問改良後收音機有甚麼優點，例如 lighter 或 cheaper to export，本段就是主要答案段。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段第一句說 Sargrove 希望把這種自動化引入其他產品，最後一句說他的 financial backers 開始失去信心。只看首尾句，這段從願景轉到困難：技術可用於更複雜的電子設備，也可節省成本；但 ECME 太超前，retooling、frequent disruption、old-fashioned relays and valves、power cuts、material shortages 都令它難以商業化。這段適合處理 wider application 和 business failure 的題目。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段第一句說 Sargrove 沒有預見另一個問題，最後一句說剩下的工作只是裝入 Bakelite panels並檢查能否運作。只看首尾句，本段功能是揭示 labour-saving 的反效果。ECME 的最大優勢是節省勞工成本，但這也加速了它的失敗。中間說兩條 ECME production lines 可完成一千名裝配工的工作，因此這段對 cost of labour、manual work、job loss 類題目很重要。"
+      },
+      {
+        "number": "I",
+        "summary": "I 段第一句說 Sargrove 把自動化視為解決戰後勞工短缺的方法，最後一句引用他說任務是把男女從機器奴役中解放。只看首尾句，本段展示 Sargrove 本人的理想化看法。他覺得 automation可以釋放人們，使他們離開沉悶重複的工廠工作，轉去做更有趣的工作。若題目問 Sargrove’s view、idealism、labour shortages 或 liberate workers，就看這段。"
+      },
+      {
+        "number": "J",
+        "summary": "J 段第一句說工人看法不同，最後一句說英國失去了幾年後將改變工業的技術領先地位。只看首尾句，本段是工人反應與結局段。工人把 automation 視為威脅生計的東西，擔心被釋放後只是去排失業救濟隊。結果 financial backing 消失，money dried up，ECME 沒有延續。若題目問workers’ attitude 或 passage main idea 的失敗結尾，本段很關鍵。 Answer Key Questio Answer n 1 chip 2 grit 3 molten zinc 4 milling machine 5 sockets 6 loudspeakers 7 valves 8 cheaper 9 components 10 lighter 11 cost 12 A 13 C Q6–7 小提醒：原文句子順序是 “valves and loudspeakers”，但原題圖的空格 6 和 7 要按圖中箭嘴對應部件。常見題圖排列是 6 loudspeakers，7 valves。若你的紙本圖箭嘴剛好相反，Q6/Q7 可按圖對調；兩個詞都來自同一句原文。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 6–7 的原文順序是 “valves and loudspeakers”，但答案要按原題圖的箭嘴對應部件。來源 PDF 採用常見題圖排列：6 loudspeakers、7 valves；如果紙本圖的箭嘴相反，Q6 和 Q7 應按圖對調。"
+  ]
+}

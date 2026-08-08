@@ -1,0 +1,1741 @@
+{
+  "id": "p1-018-the-evolution-of-language",
+  "catalogueId": "p1-018",
+  "catalogueIds": [
+    "p1-018"
+  ],
+  "passage": 1,
+  "title": "THE EVOLUTION OF LANGUAGE",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "iii",
+    "ii",
+    "vii",
+    "viii",
+    "YES",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "NO",
+    "NO",
+    "NO",
+    "B",
+    "D",
+    "F"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "iii — Influences on speech",
+      "answerKey": "iii — Influences on speech",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B題目要求我們為 Paragraph B 選 heading。Heading 題要找能覆蓋整段的主題，不能只抓一個例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, expansion of our vocabulary is just one element involved in how and why language evolves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，詞彙擴展只是語言如何演變、為何演變的其中一個元素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many phrases with American origins are now commonplace in British English for example, due to the frequency with which they are heard on television and in the movies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，許多源自美國的片語現在已在英式英語中十分常見，原因是人們經常在電視和電影中聽到它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 不再只談新增字詞，焦點轉到說話方式如何受外界影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的核心詞是 “Influences” 和 “speech”。段中對應內容包括 dialects、regional accents、age、educational level、region，以及 interaction with others from different backgrounds。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“an individual’s interpretation of what is actually correct and commonly used will vary quite dramatically, since this perception is based upon a combination of factors including the age, educational level and region of the country a person is from.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人對甚麼才算正確、常用的理解會有很大差異，因為這種理解建基於多種因素，包括年齡、教育程度和來自國家的哪個地區。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii：Influences on speech原文：age, educational level, region, interaction with others, American origins, television and movies這些全部都在說我們說話方式和語言習慣受哪些因素影響。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v 已經由 Example 配給 Paragraph A。Paragraph B 雖然也提到 American origins，但它的重點不在 cultural evolution 整體，而在不同因素如何影響個人語言使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "ii — The Generation Gap",
+      "answerKey": "ii — The Generation Gap",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Changes in language are often driven by the young and many such changes are commonly considered by older people to be a disintegration of standards rather than an evolution and an improvement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言變化常由年輕人推動，而許多這類變化通常被年長者視為標準瓦解，而非演變或進步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, should the now commonly used texting abbreviations such as ‘gr8t’ (great) and ‘l8r’(later) become permanent replacements of the original words, it is likely that even the most liberal amongst us would be horrified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，如果現在常用的短訊縮寫，如 gr8t 代表 great、l8r 代表 later，成為原字的永久替代詞，那即使我們當中最開明的人也很可能會感到震驚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接建立 young 和 older people 的對比，最後一句再用 texting abbreviations 說明新用法可能引起抗拒。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 的定位詞是 “Generation Gap”。段內有 young、older people、youngsters、traditionalists，全部都屬於世代差異訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Used as an alternative to ‘Tom said…’ it is now commonplace to hear ‘Tom goes...’ or, ‘Tom was all...’; much to the horror of many traditionalists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些說法被用來替代 “Tom said…”，現在常聽到 “Tom goes...” 或 “Tom was all...” ；這令許多傳統派非常震驚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先說年輕人推動變化，再說 older people / traditionalists 覺得 standards 被破壞。這正是generation gap：不同世代對語言新變化的接受程度不同。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Generation Gap= changes driven by the young + older people consider them a disintegration of standards youngsters / traditionalists 這組對比就是答案核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "vii — Questioning logic",
+      "answerKey": "vii — Questioning logic",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people believe that traditional usages of language are always more superior and refined than modern variations even when the reasons behind the rule were dubious in the first place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人相信傳統語言用法總是比現代變體更高級、更精緻，即使這些規則背後的理由一開始已經很可疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that initial motivations behind the rule were questionable and the clarity of meaning of the sentence is not compromised in the ‘incorrect’ form, it could be argued that this grammar rule is a prime example of an unnecessary sanction which is likely to be abandoned in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鑑於這條規則最初的動機本身值得質疑，而且所謂「錯誤」形式並沒有損害句子的清晰意思，可以說這條語法規則正是一個不必要限制的典型例子，將來很可能會被放棄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都出現 dubious、questionable 這類詞，明顯是在質疑某些傳統語法規則的合理性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的核心是 “Questioning logic”。Paragraph E 中有 dubious、questionable、unnecessary sanction，這些都指向「規則背後邏輯是否成立」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The origins of this rule hail back to the 17th century when scholars believed that the English language should be adapted to follow the rules of Latin; then considered the perfect language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條規則的來源可追溯至十七世紀，當時學者認為英語應該改造至遵循拉丁語規則；拉丁語當時被視為完美語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文接著說 Latin 不能 split infinitives，所以有人決定 English 也不應該 split infinitives。可是English 明明可以這樣做，而且句意清楚。段落就在檢查這條規則的邏輯基礎。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Questioning logic= reasons were dubious / motivations were questionable / clarity of meaning not compromised /unnecessary sanction"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading i “Historical acceptance of change” 已屬於 Paragraph D。Paragraph E 雖有歷史來源，但段落功能不只在講歷史；它把焦點放在這條規則是否合理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "viii — Lifespan of vocabulary",
+      "answerKey": "viii — Lifespan of vocabulary",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As language evolves, changes in grammar structures which would result in confusion of the actual meaning of the sentences are unlikely; however, the meanings of words are often modified or altered beyond recognition by different generations and can be easily misinterpreted by other social groups.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著語言演變，那些會造成句子實際意思混亂的語法結構改變不大可能出現；然而，詞語的意思常被不同世代修改，甚至改到難以辨認，也容易被其他社會群體誤解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Who knows what future generations will add to the ever changing environment of communication?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "誰知道未來世代會為這個不斷變化的溝通環境加入甚麼呢？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 word meanings 會被改造；末句把視線放到 future generations。這段明顯處理詞語如何出現、流行、過時或進入主流。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的核心是 “Lifespan of vocabulary”。段中有 remain dated、developed、understood、absorbed into mainstream language。這些都是詞語生命週期訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many slang words remain dated in the era in which they are developed, for example words like‘to beef’, meaning to complain (introduced in the 1920’s) are not only dated but may not even be understood in a modern context, while others such as ‘guy’ become absorbed into mainstream language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多俚語會停留在它們形成的年代，例如 “to beef” 指 complain，於 1920 年代出現，現在不只過時，甚至在現代語境中可能無法被理解；但另一些詞，如 “guy”，則會被吸收到主流語言中。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Lifespan of vocabulary= some slang becomes dated / some words are not understood later / others become mainstream Heading vi “Slang expected in the future” 只貼近最後一句，範圍太窄。Paragraph F 整段重點是詞語的存活、過時和吸收。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“If language were static, it would negatively affect our ability to incorporate other cultures into our own way of life.”",
+      "translation": "如果語言是靜止不變的，它會對我們把其他文化融入自己生活方式的能力造成負面影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Language everywhere changes over time; it has to.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各地語言都會隨時間改變；它必須如此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Likewise the western world’s exposure to and familiarity with foreign cultures now means that words such as sushi, nam bread and kebab, for example, are used by diners on a regular basis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，西方世界接觸並熟悉外國文化，如今意味著 sushi、nan bread 和 kebab 等詞已被食客經常使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說語言必須變；末句用外國飲食文化進入日常用語作例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 static、incorporate other cultures。原文沒有 static，但 “changes over time; it has to” 直接提供相反概念。題目中的 other cultures 對應 foreign cultures。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A central reason that necessitates modification is to allow for developments in our world to be expressed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個使語言必須修改的核心原因，是讓我們能表達世界中的新發展。"
+            },
+            {
+              "kind": "label",
+              "text": "再看文化例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“words such as sushi, nam bread and kebab... are used by diners on a regular basis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "sushi、nan bread、kebab 等詞已被食客日常使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目是假設句：如果語言不變，便會影響我們表達和吸收外來文化事物的能力。原文說語言改變的核心原因正是要表達新發展，並用外國食物詞進入日常語言作證據。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "language were static= language did not change / no modification incorporate other cultures into our own way of life= exposure to and familiarity with foreign cultures + foreign food words used regularly比較結果題目觀點和文章方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The language we grow up knowing and that we adopt through new experiences have equal effects on the way we speak.”",
+      "translation": "我們從小學會的語言，以及後來透過新經驗吸收的語言，對我們說話方式有同等影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, expansion of our vocabulary is just one element involved in how and why language evolves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，詞彙擴展只是語言如何及為何演變的其中一個元素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many phrases with American origins are now commonplace in British English for example, due to the frequency with which they are heard on television and in the movies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，許多源自美國的片語現在已在英式英語中十分常見，原因是人們經常在電視和電影中聽到它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段確實討論個人語言受哪些因素影響，包括成長背景和後來接觸。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最重要的控制詞是 “equal effects”。原文有 combination of factors，也有 language we hear is often taken on board，但沒有 equal、same amount、equally important 這類比較訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“this perception is based upon a combination of factors including the age, educational level and region of the country a person is from.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種理解建基於多種因素，包括一個人的年齡、教育程度和來自國家的哪個地區。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the language we hear is often taken on board and incorporated into the way in which we communicate ourselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們聽到的語言常會被吸收，並融入我們自己的溝通方式中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援兩點：成長背景會影響語言理解；後來接觸到的語言也會被吸收。題目多加了一個比較：兩者有 equal effects。文章沒有提供影響程度是否相等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：early language + later adopted language關係：have equal effects原文命題：兩者都可能影響語言，但沒有比較權重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果核心比較缺失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“English used in Britain has changed more than American English over recent years.”",
+      "translation": "近年來，英國使用的英語比美國英語變化更大。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, expansion of our vocabulary is just one element involved in how and why language evolves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，詞彙擴展只是語言如何及為何演變的其中一個元素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many phrases with American origins are now commonplace in British English for example, due to the frequency with which they are heard on television and in the movies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，許多源自美國的片語現在已在英式英語中十分常見，原因是人們經常在電視和電影中聽到它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段確實提到 American origins 和 British English，所以是合理定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 Britain、American English、changed more、recent years。原文只出現 American origins 和 British English，沒有 “more than American English” 的比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many phrases with American origins are now commonplace in British English for example, due to the frequency with which they are heard on television and in the movies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多源自美國的片語現在已在英式英語中很常見，原因是它們在電視和電影中經常被聽到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 British English 吸收了許多 American-origin phrases。它沒有說 American English 本身近年變化多少，也沒有比較 British English 和 American English 哪一個變化更大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：British English比較：changed more than American English時間：over recent years原文命題主體：American-origin phrases in British English內容：因媒體接觸變得常見比較結果文章有相關背景，但缺少英美英語變化程度比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Some older variations of language are more expressive than more modern forms.”",
+      "translation": "某些較舊的語言變體比現代形式更有表達力。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Changes in language are often driven by the young and many such changes are commonly considered by older people to be a disintegration of standards rather than an evolution and an improvement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言變化常由年輕人推動，許多這類變化通常被年長者視為標準瓦解，而非演變或進步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, should the now commonly used texting abbreviations such as ‘gr8t’ (great) and ‘l8r’(later) become permanent replacements of the original words, it is likely that even the most liberal amongst us would be horrified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，如果現在常用的短訊縮寫，如 gr8t 和 l8r，成為原字的永久替代詞，那即使最開明的人也可能感到震驚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段處理新舊語言形式的衝突，正好對應 older / modern forms。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 older variations、more expressive、modern forms。原文中的對比是 “Tom said” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Tom was all”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：“To illustrate, let’s consider the original phrase ‘Tom said’; it is used solely to show the listener that we are reporting the words of Tom, while the modern variation, ‘Tom goes’ has literally the same meaning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了說明，讓我們看看原本的說法 “Tom said”；它只用來告訴聽者我們正在轉述 Tom 的話，而現代變體 “Tom goes” 字面上有相同意思。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, if the speaker chooses instead to use the latter phrase, ‘Tom was all’, they are also able to convey the message that Tom had an emotional reaction to the situation they are reporting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，如果說話者選擇後一種說法 “Tom was all”，他們還能傳達 Tom 對所轉述情況有情緒反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文方向是：某些現代說法能額外傳達情緒，因此表達力更強。題目說 older variations 更有表達力，和原文方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：older variations are more expressive"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：modern “Tom was all” can convey emotional reaction比較結果原文支持現代變體在某些情況下更有效。題目方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“All modern adaptations of language are suitable for mainstream use.”",
+      "translation": "所有現代語言改造都適合主流使用。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Changes in language are often driven by the young and many such changes are commonly considered by older people to be a disintegration of standards rather than an evolution and an improvement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言變化常由年輕人推動，許多這類變化通常被年長者視為標準瓦解，而非演變或進步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, should the now commonly used texting abbreviations such as ‘gr8t’ (great) and ‘l8r’(later) become permanent replacements of the original words, it is likely that even the most liberal amongst us would be horrified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，如果現在常用的短訊縮寫，如 gr8t 和 l8r，成為原字的永久替代詞，那即使最開明的人也很可能會感到震驚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已直接挑戰 “all modern adaptations suitable for mainstream use”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強控制詞是 “All”。原文中的 “even the most liberal amongst us would be horrified” 是反向證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, should the now commonly used texting abbreviations such as ‘gr8t’ (great) and ‘l8r’(later) become permanent replacements of the original words, it is likely that even the most liberal amongst us would be horrified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，如果現在常用的短訊縮寫，如 gr8t 和 l8r，成為原字的永久替代詞，那即使最開明的人也很可能會感到震驚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說所有 modern adaptations 都 suitable。原文提供一類 modern adaptation：texting abbreviations。作者說若它們永久取代原字，連最開明的人也會 shocked / horrified。這明確排除"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“all suitable”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "modern adaptations= texting abbreviations such as gr8t and l8r suitable for mainstream use= become permanent replacements / accepted in standard use horrified= not considered suitable by even liberal users比較結果“All” 被原文例外推翻。答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“All word usage has changed over time due to misunderstandings of meaning.”",
+      "translation": "所有詞語用法隨時間改變，都是因為意思被誤解。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D，補充 Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Variations on language are usually more readily accepted into informal language prior to them being absorbed for use in formal writing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言變體通常先較容易被 informal language 接受，之後才被吸收進 formal writing。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The word hopefully is now fully acceptable in both informal speech and formal writing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hopefully 這個詞現在在非正式口語和正式寫作中都完全可接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的功能是展示一些曾被視為錯誤的用法如何被接受。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最強控制詞是 “All” 和 “due to misunderstandings”。Paragraph D 的 pea 例子確實有misunderstanding，但 hopefully 例子原因不同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, this was commonly overlooked and misunderstood, and through error the singular form of the vegetable became ‘pea’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這一點常被忽略和誤解，並且由於錯誤，這種蔬菜的單數形式變成了 pea。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支持 pea 的變化與誤解有關。"
+            },
+            {
+              "kind": "label",
+              "text": "但原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recently ‘hopefully’ was considered by many to be an inappropriate alternative to ‘I hope’; at best only accepted in informal use. The word hopefully is now fully acceptable in both informal speech and formal writing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較近代，hopefully 曾被許多人視為 I hope 的不恰當替代；最多只在非正式用法中被接受。如今hopefully 在非正式口語和正式寫作中都完全可接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "hopefully 的變化重點是接受程度轉變，原文沒有說它源於 meaning misunderstanding。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也補充，有些 slang 會過時，有些會被主流吸收，原因也不等同全部來自誤解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果題目使用 All，把所有 word usage changes 都歸因於 misunderstanding。文章只提供 pea 這個例子符合 misunderstanding；其他例子有不同機制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — Split infinitives",
+      "answerKey": "B — Split infinitives",
+      "type": "Summary Completion",
+      "prompt": "“Some grammar rules such as avoiding 11 ______________ are deeply entrenched in history and were created by academics who wished to perfect the English language.”",
+      "translation": "有些語法規則，例如避免 __________，深深植根於歷史，並由希望完善英語的學者創造出來。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people believe that traditional usages of language are always more superior and refined than modern variations even when the reasons behind the rule were dubious in the first place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人相信傳統語言用法總是比現代變體更高級、更精緻，即使規則背後理由一開始已很可疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that initial motivations behind the rule were questionable and the clarity of meaning of the sentence is not compromised in the ‘incorrect’ form, it could be argued that this grammar rule is a prime example of an unnecessary sanction which is likely to be abandoned in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鑑於這條規則最初的動機值得質疑，而且所謂錯誤形式沒有損害句子意思的清晰度，可以說這條語法規則是一個不必要限制的典型例子，將來很可能被放棄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中處理一條歷史悠久但邏輯可疑的語法規則。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 grammar rules、avoiding、academics、perfect English。原文中最直接的是 split an infinitive。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, it was once seriously frowned upon to split an infinitive in a sentence and even today it is considered grammatically incorrect to do so.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，在句子中 split an infinitive 曾一度受到嚴厲反對，即使今天這樣做仍被視為語法錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 avoiding 需要接一個名詞短語。選項 B “Split infinitives” 正好對應 “to split an infinitive”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "avoiding split infinitives= frowned upon to split an infinitive / considered grammatically incorrect to do so答案形式題目要求從 A–H 選字母。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "D — Meaning",
+      "answerKey": "D — Meaning",
+      "type": "Summary Completion",
+      "prompt": "“It is likely, however, since they do not impact on the 12 ______________ of the sentence...”",
+      "translation": "然而，由於它們不影響句子的 __________，這些規則將來很可能……目標段落：Paragraph E",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people believe that traditional usages of language are always more superior and refined than modern variations even when the reasons behind the rule were dubious in the first place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人相信傳統語言用法總是比現代變體更高級、更精緻，即使規則背後理由一開始已很可疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that initial motivations behind the rule were questionable and the clarity of meaning of the sentence is not compromised in the ‘incorrect’ form, it could be argued that this grammar rule is a prime example of an unnecessary sanction which is likely to be abandoned in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鑑於這條規則最初的動機值得質疑，而且所謂錯誤形式沒有損害句子意思的清晰度，可以說這條語法規則是一個不必要限制的典型例子，將來很可能被放棄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接提供答案方向：clarity of meaning。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “do not impact on”。原文用 “is not compromised” 表達沒有受損。空格後是 “of the sentence”，最自然是 meaning。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the clarity of meaning of the sentence is not compromised in the ‘incorrect’ form”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在所謂「錯誤」形式中，句子意思的清晰度並沒有受損。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “is not compromised” 改成 “do not impact on”。空格要填被影響的東西，即 meaning。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "do not impact on the meaning= the clarity of meaning is not compromised答案形式選項 D 是 Meaning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "F — Disregarded",
+      "answerKey": "F — Disregarded",
+      "type": "Summary Completion",
+      "prompt": "“...such rules are likely to be 13 ______________ in the future.”",
+      "translation": "……這些規則將來很可能會被 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people believe that traditional usages of language are always more superior and refined than modern variations even when the reasons behind the rule were dubious in the first place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人相信傳統語言用法總是比現代變體更高級、更精緻，即使規則背後理由一開始已很可疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that initial motivations behind the rule were questionable and the clarity of meaning of the sentence is not compromised in the ‘incorrect’ form, it could be argued that this grammar rule is a prime example of an unnecessary sanction which is likely to be abandoned in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鑑於這條規則最初的動機值得質疑，而且所謂錯誤形式沒有損害句子意思的清晰度，可以說這條語法規則是一個不必要限制的典型例子，將來很可能被放棄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接說 likely to be abandoned in the future。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “likely” 和 “in the future”。原文完全重現 “likely to be abandoned in the future”，因此定位很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“this grammar rule is a prime example of an unnecessary sanction which is likely to be abandoned in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條語法規則是一個不必要限制的典型例子，將來很可能被放棄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中沒有 abandoned，但 F “Disregarded” 最接近，意思是被忽視、不再遵從、不再重視。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "likely to be disregarded= likely to be abandoned答案形式選項 F 是 Disregarded。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 F。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - THE EVOLUTION OF LANGUAGE.pdf",
+    "sha256": "7d03cf69e6b8a11348fdf018dff8c6b0df823f667bb7a4cf8a5bfd6d06a418fa",
+    "pageCount": 18
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "SECTION 0：Skim Roadmap 全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 language everywhere changes over time，而且 has to；末句說西方世界因接觸外國文化，日常飲食中也使用 sushi、nan bread、kebab 等詞。只看首尾句，可以先判斷本段是全文引入段，主題是語言因世界變化、科技發展和文化接觸而擴充。Example 已給 Paragraph A = v，正因本段集中講 cultural evolution and its impact on language。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 vocabulary expansion 只是語言演變的一個部分；末句說許多源自美國的片語因電視和電影頻繁出現，現在已在 British English 中很常見。只看首尾句，可以先猜本段會處理影響一個人說話方式的因素。中間提到 dialects、regional accents、age、education、region、interaction with others，因此本段核心是 speech influences。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說語言變化常由年輕人推動，而且很多變化會被年長者視為 standards 的瓦解；末句說若texting abbreviations 如 gr8t 和 l8r 成為永久替代詞，即使最自由的人也可能感到震驚。只看首尾句，本段明顯處理年輕世代創造新用法、年長或傳統派抗拒新用法的 tension，因此與 generation gap 最接近。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說語言變體通常先在 informal language 中被接受，然後才進入 formal writing；末句說hopefully 現在已在 informal speech 和 formal writing 中完全可接受。只看首尾句，本段主題是過去被視為錯誤的用法，如何逐漸被接受。例子包括 pea 和 hopefully，所以 Example 已給Paragraph D = i，即 historical acceptance of change。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說有些人相信傳統用法總是比現代變體更優雅、更高級，即使規則背後理由一開始已很可疑；末句說 split infinitive 這條規則可能將來會被放棄。只看首尾句，本段大概會檢查某條語法規則是否有合理基礎。中間用 Latin 和 split infinitive 作例子，因此重點是 questioning logic。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說語法結構若會造成句意混亂，通常不大可能改變，但詞義常被不同世代大幅改造；末句問未來世代會為不斷變化的溝通環境加入甚麼。只看首尾句，本段會處理詞語生命週期：有些 slang留在某時代，有些如 guy 進入主流語言。重點是 vocabulary 的存留、過時和吸收。"
+      }
+    ]
+  }
+}

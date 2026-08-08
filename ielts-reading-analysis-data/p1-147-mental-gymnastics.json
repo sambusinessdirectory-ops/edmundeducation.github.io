@@ -1,0 +1,2087 @@
+{
+  "id": "p1-147-mental-gymnastics",
+  "catalogueId": "p1-147",
+  "catalogueIds": [
+    "p1-147"
+  ],
+  "passage": 1,
+  "title": "Mental Gymnastics",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "YES",
+    "D",
+    "C",
+    "D",
+    "A",
+    "D",
+    "B",
+    "B",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“A Mind Gym coach instructed employees to imagine that they themselves were the building.”",
+      "translation": "一位 Mind Gym 教練指示員工想像自己就是那棟大樓。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 YES / NO / NOT GIVEN。題目重點不是 Mind Gym 是否有訓練，也不是員工是否需要想像 building。真正要判斷的是：原文是否說他們要想像自己「成為大樓」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today’s workout, organised by a company called the Mind Gym in London, is entitled ‘having presence’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天的訓練由倫敦一間名為 Mind Gym 的公司安排，主題是「有存在感」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They finish up by walking around the room acting out various levels of presence, from low-key to over the top.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，他們在房間裡走動，演出不同程度的存在感，由低調到極度誇張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 是一段「課堂展示」。它會說 Mind Gym 如何把 “having presence” 這種抽象概念，轉成視覺化和行為演練。題目提到 “Mind Gym coach”、“instructed”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“imagine”、“building”，所以 Paragraph B 是最合理定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：“Mind Gym coach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“imagine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“building”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B，找到關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At one point the bankers are instructed to shut their eyes and visualise themselves filling the room and then the building.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一刻，銀行職員被指示閉上眼睛，想像自己充滿整個房間，然後充滿整棟大樓。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句真正控制答案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“visualise themselves filling the room and then the building”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的動作是 filling，即「充滿」或「讓自己的存在感擴展到」。題目改成："
+            },
+            {
+              "kind": "quote",
+              "text": "“they themselves were the building”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示他們要想像自己「就是那棟大樓」。兩者的關係不同。原文是 presence / self-image 擴展到building 的空間之中；題目把 filling 改成 being，意思變成身份等同。這個改寫已經改變了原文動作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文確實有 building，也確實有 visualise。可是題目中真正控制答案的是 “were the building”。原文沒有說他們成為大樓；原文說他們想像自己充滿大樓。因此題目和原文不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 building 原字重現。學生容易看到 building 就以為題目正確。這題要看動詞：原文是 filling，題目是 were。IELTS Reading 很常用相同名詞引路，再用動詞改變意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Mind Gym uses a marketing approach similar to that used by other companies.”",
+      "translation": "Mind Gym 使用的市場推廣方式，和其他公司相似。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Mind Gym 的 marketing approach 是否和其他公司一致。控制詞是 “similar” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“other companies”。所以不能只找 Mind Gym；還要找作者是否把 Mind Gym 放進同一類公司之中比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D第一句：“But whatever the style, the companies’ sales pitch is invariably the same—follow our routines to shape and sculpt your brain or mind, just as you might tone and train your body.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不論形式如何，這些公司的銷售說法總是一樣：跟隨我們的訓練程序，就能塑造你的大腦或心智，好像鍛鍊身體一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And, of course, they nearly all claim that their mental workouts draw on serious scientific research and thinking into how the brain works.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，它們幾乎都聲稱自己的大腦訓練建基於嚴肅的科學研究，以及對大腦運作方式的思考。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph D 的功能是總結這些公司的共同銷售策略。它不只是描述某一間公司，重點是把前面提到的 Mind Gym、neurobics outfits、books、software packages 放進同一個市場模式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“marketing approach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“similar”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other companies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接使用 “marketing approach”，但 “sales pitch” 就是最精準對應。找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the companies’ sales pitch is invariably the same”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些公司的銷售說法總是一樣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Mind Gym 的 marketing approach 與其他公司相似。Paragraph C 先把 Mind Gym 放在更大市場中："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Mind Gym alone offers some 70 different sessions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單是 Mind Gym 就提供約七十種不同課程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後 Paragraph D 用 “the companies’ sales pitch” 概括這類公司，包括 Mind Gym 在內。原文說這些公司都用同一套路：把大腦比作身體，聲稱透過訓練可塑造大腦，並且幾乎都借用科學研究作支持。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“marketing approach”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“sales pitch”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“similar to that used by other companies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the companies’ sales pitch is invariably the same”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“invariably the same” 比 “similar” 更強，足以支持題目。答案判斷：原文清楚說這些公司的 sales pitch 一樣。Mind Gym 是前文列出的主要例子之一，所以題目與原文方向一致。所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能只在 Paragraph C 找 Mind Gym，卻忽略 Paragraph D 的總結功能。這題要把 C 和 D連起來：C 列出市場例子，D 概括共同銷售話術。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Susan Greenfield founded the Mind Gym.”",
+      "translation": "Susan Greenfield 創立了 Mind Gym。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求判斷一個人物身份：Susan Greenfield 是否是 Mind Gym 的 founder。控制詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“founded”。如果原文只說她被引用、支持、評論或與網站有關，仍不足以證明她創辦了公司。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E第一句：“One outfit, Brainergy of Cambridge, Massachusetts (motto: ‘Because your grey matter matters’) puts it like this: ‘Studies have shown that mental exercise can cause changes in brain anatomy and brain chemistry which promote increased mental efficiency and clarity. The neuroscience is cutting-edge.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一間位於麻省劍橋的公司 Brainergy 這樣說：研究顯示，心智運動可改變大腦結構和腦化學，從而提升思維效率和清晰度；相關神經科學十分前沿。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And on its website, Mind Gym trades on a quote from Susan Greenfield, one of Britain’s best-known neuroscientists: ‘It’s a bit like going to the gym: if you exercise your brain, it will grow.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mind Gym 也在網站上借用英國知名神經科學家 Susan Greenfield 的一句話：這有點像去健身室；如果你鍛鍊大腦，它就會成長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph E 是「引用科學權威作宣傳」的段落。Susan Greenfield 的位置在 Mind Gym 網站引用語中，這提示我們她的角色至少是被引用的科學家。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Susan Greenfield”"
+            },
+            {
+              "kind": "quote",
+              "text": "“founded”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mind Gym”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描原文，Susan Greenfield 只在 Paragraph E 出現。相關句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mind Gym trades on a quote from Susan Greenfield…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mind Gym 借用 Susan Greenfield 的一句話作宣傳。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供了三個資訊：第一，Mind Gym 的網站有引用她。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，Susan Greenfield 是 “one of Britain’s best-known neuroscientists”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，她說過 “if you exercise your brain, it will grow”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但題目要求的是 founded，即創立公司。原文沒有說： she founded Mind Gym she was one of the founders she set up the company she started the organisation Paragraph F 也只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“its founders realised where the real money was to be made”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的創辦人意識到真正賺錢的地方在哪裡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡提到 founders，但沒有給出名字，也沒有把 Susan Greenfield 和 founders 連在一起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文只支援「Mind Gym 引用 Susan Greenfield」和「她是著名神經科學家」。題目加入了「創辦人」身份，原文沒有提供。文章也沒有明確說她沒有創辦 Mind Gym，所以不能選 NO。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Susan Greenfield 的名氣很大，且她的 quote 被 Mind Gym 放在網站上，容易讓人以為她與公司有正式創辦關係。IELTS Reading 要分清「被引用」和「創辦公司」這兩種關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“All businesses and industries worldwide use Mind Gym sessions.”",
+      "translation": "全世界所有企業和行業都使用 Mind Gym 課程。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞非常強：All、businesses and industries、worldwide、Mind Gym sessions。要選YES，原文必須支持「所有企業和所有行業」都使用 Mind Gym。只說某些 corporate seminar rooms around the globe 不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s easy to poke fun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這件事很容易被取笑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then there are books with titles like Pumping Ions, full of brainteasers that claim to ‘flex your mind’, and software packages offering memory and spatial-awareness games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，還有像《Pumping Ions》這類充滿腦筋急轉彎、聲稱能鍛鍊思維的書，以及提供記憶和空間意識遊戲的軟件套裝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 由「看似可笑」轉向「市場很大」。這段會列出不同形式的大腦訓練，包括企業課程、neurobics、書本和軟件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“All businesses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“industries worldwide”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mind Gym sessions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet similar mental workouts are happening in corporate seminar rooms around the globe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，類似的心智訓練正在全球各地的企業研討室中進行。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Mind Gym alone offers some 70 different sessions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單是 Mind Gym 就提供約七十種不同課程。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“around the globe” 支持「全球多地都有類似活動」。可是它沒有支持 “All businesses and industries worldwide”。這裡有三個缺失：第一，原文說 corporate seminar rooms，不等於所有 businesses。第二，原文沒有提到 all industries。第三，原文說 similar mental workouts，未必全部都是 Mind Gym sessions。 Paragraph C 還提到 Other outfits、books、software packages，說明市場上有多種提供者和產品。題目把這些廣泛現象收窄成「所有企業都使用 Mind Gym」，這超出原文。答案判斷：文章提供的是「類似訓練在全球企業場景中出現」。題目需要「全世界所有企業和行業都使用Mind Gym」。原文沒有這種 universal claim，也沒有明確否定所有企業都使用它。所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “around the globe”。這個短語表示地理範圍廣，但不等於 every business。另一個中伏位是 “Mind Gym alone offers some 70 different sessions”；課程多不代表所有公司都使用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“According to the Mind Gym, its mental training sessions have an extensive scientific basis.”",
+      "translation": "按照 Mind Gym 的說法，它的心智訓練課程有廣泛的科學基礎。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 “According to the Mind Gym”，即 Mind Gym 自己的宣傳或聲稱，不是問作者最後是否相信這些科學說法。要找的是 Mind Gym 如何把課程和 science / neuroscience 連在一起。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs D–E Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But whatever the style, the companies’ sales pitch is invariably the same—follow our routines to shape and sculpt your brain or mind, just as you might tone and train your body.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不論形式如何，這些公司的銷售說法總是一樣：跟隨我們的訓練程序，就能塑造你的大腦或心智，好像鍛鍊身體一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And, of course, they nearly all claim that their mental workouts draw on serious scientific research and thinking into how the brain works.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，它們幾乎都聲稱自己的心智訓練建基於嚴肅的科學研究，以及對大腦運作的思考。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 最後一句直接提到 Mind Gym 使用 Susan Greenfield 的 quote。這兩段合起來，一段概括共同科學宣傳，一段給 Mind Gym 的具體例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the Mind Gym”"
+            },
+            {
+              "kind": "quote",
+              "text": "“scientific basis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mental training sessions”"
+            },
+            {
+              "kind": "label",
+              "text": "找到兩組證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“they nearly all claim that their mental workouts draw on serious scientific research…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mind Gym trades on a quote from Susan Greenfield…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 說這些公司幾乎都聲稱自己的訓練 draw on serious scientific research。Mind Gym是這類公司中的主要例子。Paragraph E 再補充，Mind Gym 在網站上引用著名神經科學家Susan Greenfield："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s a bit like going to the gym: if you exercise your brain, it will grow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這有點像去健身室；如果你鍛鍊大腦，它就會成長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 Mind Gym 的訓練和大腦成長、神經科學權威連在一起。題目中的 “extensive scientific basis” 是對 “serious scientific research and thinking into how the brain works” 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：題目問 Mind Gym 的說法。原文確實顯示 Mind Gym 透過科學語言和神經科學家 quote 來支持自己的訓練。因此題目和原文一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 後面會質疑 “are neurobic workouts really backed by science?” 這是作者的懷疑，不會取消公司本身的宣傳說法。題目問 according to the Mind Gym，所以判斷要落在 Mind Gym的 claim，不是作者的最終評價。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "D — Lawrence Katz",
+      "answerKey": "D — Lawrence Katz",
+      "type": "Matching Features",
+      "prompt": "“We do not receive enough mental stimulation to keep our brains fit.”",
+      "translation": "我們沒有得到足夠的心智刺激，使大腦保持健康狀態。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要找提出這個看法的人。定位詞是 “mental stimulation” 和 “brains fit”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文可能不會用 fit，而會用相近表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nor is there anything remotely high-tech about what Lawrence Katz, co-author of Keep Your Brain Alive, recommends.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lawrence Katz 是《Keep Your Brain Alive》的共同作者；他建議的方法完全談不上高科技。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And any leisure time is spent slumped in front of the TV.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何空閒時間則用來癱坐在電視機前。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph G 會介紹 Katz 的低科技大腦訓練建議，並批評現代人的生活缺乏真正刺激。人名 Lawrence Katz 直接出現在首句，是最強定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“mental stimulation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brains fit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Katz, a neurobiologist at Duke University Medical School in North Carolina, argues that just as many of us fail to get enough physical exercise, so we also lack sufficient mental stimulation to keep our brains in trim.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Katz 是北卡羅來納州 Duke University Medical School 的神經生物學家；他認為，就像許多人身體運動不足一樣，我們也缺乏足夠的心智刺激，無法讓大腦保持良好狀態。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “do not receive enough mental stimulation” 對應原文 “lack sufficient mental stimulation”。題目中的 “keep our brains fit” 對應原文 “keep our brains in trim”。in trim 的意思是狀態良好、健康、運作正常。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "do not receive enough= lack sufficient brains fit= brains in trim答案判斷：這句由 Katz argues 引出，所以人物是 Lawrence Katz。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說現代人 may be busy with jobs, family and housework，但 Katz 的重點是：busy 不等於mentally stimulated。重複性日常工作仍可能缺乏大腦刺激。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "C — Susan Greenfield",
+      "answerKey": "C — Susan Greenfield",
+      "type": "Matching Features",
+      "prompt": "“The more you exercise your brain, as you would exercise in a gym, the more it will grow.”",
+      "translation": "你越像在健身室一樣鍛鍊大腦，大腦就越會成長。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎是原文 quote 的改寫。定位詞是 “exercise your brain”、“gym”、“grow”。這三個詞非常強，應直接掃描引號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One outfit, Brainergy of Cambridge, Massachusetts (motto: ‘Because your grey matter matters’) puts it like this: ‘Studies have shown that mental exercise can cause changes in brain anatomy and brain chemistry which promote increased mental efficiency and clarity. The neuroscience is cutting-edge.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brainergy 這間公司聲稱，心智運動可造成大腦結構和腦化學變化，提升思維效率和清晰度；神經科學十分前沿。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And on its website, Mind Gym trades on a quote from Susan Greenfield, one of Britain’s best-known neuroscientists: ‘It’s a bit like going to the gym: if you exercise your brain, it will grow.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mind Gym 在網站上借用英國知名神經科學家 Susan Greenfield 的一句話：這有點像去健身室；如果你鍛鍊大腦，它就會成長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph E 是科學權威宣傳段。Susan Greenfield 的名字和 quote 直接連在一起。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“exercise your brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gym”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grow”"
+            },
+            {
+              "kind": "label",
+              "text": "原文完全對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s a bit like going to the gym: if you exercise your brain, it will grow.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句話由 Susan Greenfield 的 quote 引出。題目把句子改成 “The more you exercise your brain… the more it will grow”，意思仍然是：大腦像身體一樣，經過鍛鍊會成長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：人物是 Susan Greenfield。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Mind Gym 使用這句 quote，但說話者是 Susan Greenfield。題目問 statement 對應哪個 person，不是問哪間公司把句子放在網站上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D — Lawrence Katz",
+      "answerKey": "D — Lawrence Katz",
+      "type": "Matching Features",
+      "prompt": "“Exercise can maintain the brain rather than increase a person’s IQ.”",
+      "translation": "訓練可以維持大腦狀態，但不會提高一個人的 IQ。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “maintain the brain” 和 “increase IQ”。原文可能用 metaphor，例如 maintenance、bulking up IQ。要找說話者。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Well, up to a point it will.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嗯，在某種程度上，它會有作用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neurologists have proved time and again that people who lose brain cells suddenly during a stroke often sprout new connections to compensate for the loss—especially if they undergo extensive therapy to overcome any paralysis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經學家一次又一次證明，中風時突然失去腦細胞的人，常常會長出新連結來補償損失，尤其是在接受大量治療以克服癱瘓時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph I 是「有限支持」段。它先限制 neurobics 的效果，再用大腦可塑性的證據說明大腦確實能適應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“maintain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increase IQ”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“What I’m really talking about is brain maintenance rather than bulking up your IQ,” Katz adds."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Katz 補充說：「我真正談的是大腦維持，而不是把你的 IQ 練大。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“brain maintenance” 對應題目 “maintain the brain”。“bulking up your IQ” 對應 “increase a person’s IQ”。這句話清楚地限制了 Katz 的主張：neurobics 主要讓大腦保持狀態和發揮潛力，不保證把普通人訓練成天才，也不等於提升 IQ。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "brain maintenance= maintain the brain bulking up your IQ= increasing IQ答案判斷：這句後面明確寫 “Katz adds”，所以人物是 Lawrence Katz。所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 說 break routine 會促進 new connections，看似很強；Paragraph I 立刻補上一個限制。做 matching 時，要注意人物主張的程度，不能把「有幫助」誇大成「提升 IQ」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — Guy Claxton",
+      "answerKey": "A — Guy Claxton",
+      "type": "Matching Features",
+      "prompt": "“Schools should teach thinking skills as well as factual knowledge.”",
+      "translation": "學校應該教授思考技巧，也應教授事實知識。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “schools”、“thinking skills”、“factual knowledge”。這類題通常在總結段出現，因為會由個人觀點引申到教育制度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph N第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is hard to prove that the training itself is effective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要證明這種訓練本身有效，是很困難的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Claxton for one believes there is no reason why schools and universities shouldn’t spend more time teaching basic thinking skills, rather than trying to stuff heads with facts and hoping that effective thought habits are somehow absorbed by osmosis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Claxton 認為，學校和大學沒有理由不花更多時間教授基本思考技巧；不要只把事實塞進學生腦袋，然後希望有效的思考習慣會自然被吸收。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph N 一開始承認成效難證明，最後轉向 Claxton 對教育的主張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 schools 和 thinking skills 幾乎直接對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“thinking skills”"
+            },
+            {
+              "kind": "quote",
+              "text": "“factual knowledge”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“schools and universities shouldn’t spend more time teaching basic thinking skills…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“trying to stuff heads with facts…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Claxton 認為學校和大學應該花更多時間教 basic thinking skills。後半句 “stuff heads with facts” 指只灌輸事實資料。題目說 “as well as factual knowledge”，意思是學校不應只依賴事實知識，也要正式教授思考技巧。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "schools should teach= schools and universities shouldn’t avoid spending more time teaching thinking skills= basic thinking skills factual knowledge= facts答案判斷：這個觀點由 “Claxton for one believes” 引出，所以人物是 Guy Claxton。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Bailey 也談技巧可學，容易和 Claxton 混淆。不過 school / university / facts 這一組定位詞只出現在 Paragraph N 的 Claxton 觀點中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "D — Lawrence Katz",
+      "answerKey": "D — Lawrence Katz",
+      "type": "Matching Features",
+      "prompt": "“With appropriate treatment, people can form new neural connections after losing old ones.”",
+      "translation": "在合適治療下，人們失去舊有腦細胞或神經連結後，可以形成新的神經連結。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “treatment”、“new neural connections”、“after losing old ones”。這不是一般心理技巧句，而是大腦可塑性和治療相關句，應到 Katz / neurobics 的科學證據段落找。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Well, up to a point it will.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嗯，在某種程度上，它會有作用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neurologists have proved time and again that people who lose brain cells suddenly during a stroke often sprout new connections to compensate for the loss—especially if they undergo extensive therapy to overcome any paralysis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經學家多次證明，中風時突然失去腦細胞的人，常常會長出新連結來補償損失，尤其是在接受大量治療以克服癱瘓時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段會處理大腦能否適應、修補和形成新連結。它位於 Katz 的 neurobics討論之後，功能是為「大腦可以改變」提供有限科學支持。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“appropriate treatment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“form new neural connections”"
+            },
+            {
+              "kind": "quote",
+              "text": "“losing old ones”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“lose brain cells suddenly during a stroke”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sprout new connections”"
+            },
+            {
+              "kind": "quote",
+              "text": "“especially if they undergo extensive therapy”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 people who lose brain cells suddenly during a stroke。核心動作是 sprout new connections。條件是 especially if they undergo extensive therapy。這正好對應題目： people can form new neural connections= people often sprout new connections after losing old ones= lose brain cells suddenly during a stroke with appropriate treatment= undergo extensive therapy人物判斷：這句嚴格來說是作者引用 neurologists 的研究證據，不是 Katz 的直接引號。不過在這組Matching Features 中，這個證據出現在 Katz / neurobics 的討論範圍內，並且與 Katz 所說的brain maintenance、new connections 最接近。四個人物中，只有 Lawrence Katz 對應這一段的大腦刺激與神經連結主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能因為句子開頭是 “Neurologists have proved” 而猶豫。題目選項沒有 neurologists，所以要看它所在的論述區域：這段正在評估 Katz 的 neurobics 說法，因此歸到 Lawrence Katz 最合理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — Sebastian Bailey",
+      "answerKey": "B — Sebastian Bailey",
+      "type": "Matching Features",
+      "prompt": "“People often label themselves uncreative before realising that creative techniques can be learnt.”",
+      "translation": "人們常常先把自己標籤為沒有創意，未意識到創意技巧其實可以學習。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞很強：label themselves uncreative、creative techniques、learnt。這應該在 creativity workout 相關段落中找。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph M第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bailey agrees that the trick is simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bailey 同意這個技巧很簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, with the right kind of training he thinks we can dramatically increase how efficiently we use our brains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，他認為只要有合適訓練，我們可以大幅提升使用大腦的效率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph M 是 Bailey 對簡單技巧的解釋與評價。它會說明為何看似簡單的 creativity trick 仍值得教。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“label themselves uncreative”"
+            },
+            {
+              "kind": "quote",
+              "text": "“creative techniques”"
+            },
+            {
+              "kind": "quote",
+              "text": "“learnt”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“They tend to just label themselves as uncreative, not realising that there are techniques that every creative person employs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們往往只是把自己標籤為沒有創意，沒有意識到每個有創意的人都會使用一些技巧。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句由 Bailey 的觀點引出。題目中的 “People often label themselves uncreative” 幾乎直接對應原文 “They tend to just label themselves as uncreative”。題目中的 “creative techniques can be learnt” 對應原文 “there are techniques that every creative person employs”，並接著說 Bailey 的目標是在課堂中介紹 half a dozen strategies，使抽象任務變成 concrete, learnable behaviours。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "label themselves uncreative= label themselves as uncreative creative techniques can be learnt= techniques / strategies / concrete, learnable behaviours答案判斷：這段開頭與中間都明確標示 Bailey 的觀點，所以人物是 Sebastian Bailey。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Claxton 也說 thought habits can be learned，但 “label themselves as uncreative” 是 Bailey 的原話附近內容。做 Matching Features 時，精準短語比大方向更可靠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — Sebastian Bailey",
+      "answerKey": "B — Sebastian Bailey",
+      "type": "Matching Features",
+      "prompt": "“This Mind Gym instructor guided the employees through the workout.”",
+      "translation": "這位 Mind Gym 導師帶領員工完成訓練。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問一個人物身份與行動：誰是 Mind Gym instructor，並且帶領員工做 workout。定位詞是instructor、employees、workout。答案應在文章開頭場景。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs A–B Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The working day has just started at the head office of Barclays Bank in London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "倫敦 Barclays Bank 總部的工作日剛剛開始。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He’s here to exercise their brains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他來這裡是要訓練他們的大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today’s workout, organised by a company called the Mind Gym in London, is entitled ‘having presence’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天的訓練由倫敦 Mind Gym 公司安排，主題是「有存在感」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 A–B 首尾句，可以知道文章開頭是一個企業大腦訓練場景：地點在 Barclays Bank，活動由Mind Gym 安排，有人進來帶領訓練。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mind Gym instructor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“employees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“workout”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“young psychologist Sebastian Bailey enters the room to begin the morning’s training session.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕心理學家 Sebastian Bailey 進入房間，開始早上的訓練課。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today’s workout, organised by a company called the Mind Gym…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天的訓練由 Mind Gym 安排。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sebastian Bailey 是進入房間開始 training session 的人。Paragraph B 描述他帶領的 Mind Gym workout，包括 “having presence”、visualise themselves filling the room and then the building、walking around the room acting out various levels of presence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “guided the employees through the workout”，原文沒有用 guided 這個字，但 “enters the room to begin the morning’s training session” 加上 B 段的訓練描述，足以證明他就是帶領課堂的人。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "instructor guided employees= enters the room to begin the training session / bankers are instructed employees= seventeen staff / bankers workout= today’s workout / training session答案判斷：人物是 Sebastian Bailey。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Mind Gym 是公司名，不是人物。Susan Greenfield 是被網站引用的神經科學家，也沒有出現在訓練室帶課。這題要回到開頭場景找 instructor。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "A — Guy Claxton",
+      "answerKey": "A — Guy Claxton",
+      "type": "Matching Features",
+      "prompt": "“Most people do not receive proper training in thinking skills.”",
+      "translation": "大部分人沒有接受過適當的思考技巧訓練。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “proper training” 和 “thinking skills”。這與學校教育、mental skills、thought habits 有關，應到 Claxton 的段落找。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Guy Claxton, an educational psychologist at the University of Bristol, dismisses most of the neurological approaches as ‘neuro-babble’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bristol University 的教育心理學家 Guy Claxton 把大多數神經學取向批評為「神經學空話」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our mental tools become invisible to us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的心智工具會變得看不見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph J 會介紹 Claxton 的觀點。他不太接受神經學包裝，重點轉向mental skills、thought habits，以及人們如何使用自己已經看不見的思考工具。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“proper training”"
+            },
+            {
+              "kind": "quote",
+              "text": "“thinking skills”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problem, says Claxton, is that most of us never get proper training in these skills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Claxton 說，問題在於我們大多數人從未在這些技巧上接受過適當訓練。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前文提到的 “these skills” 指 desirable attributes such as creativity, mental flexibility, and even motivation。Claxton 認為這些不是固定能力，而是可以學習的 thought habits。題目把它概括成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“thinking skills”，合理。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "most people= most of us do not receive= never get proper training= proper training thinking skills= these skills / thought habits / creativity and mental flexibility答案判斷：原文句子由 “says Claxton” 引出，所以人物是 Guy Claxton。所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Bailey 也談可學技巧，但 “most of us never get proper training in these skills” 是 Claxton 的明確說法。這題要看 reporting verb：says Claxton。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Mental Gymnastics.pdf",
+    "sha256": "f04581d7fcc1e4f6d02aec606bef4835cb1bb43607eecb338deebfa9ea462c3a",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可以先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把場景放在倫敦 Barclays Bank 總部的工作日早晨，看似普通企業培訓開場。末句說Sebastian Bailey 來到這裡的目的，是 “to exercise their brains”。只看首尾句，已可估計文章會用一個辦公室場景引入「大腦訓練」這個新奇概念。這段的功能是開場：先製造商業培訓的日常感，再揭示真正主題其實是 mental workout。"
+      },
+      {
+        "number": "B",
+        "summary": "首句點出今天的活動由 Mind Gym 安排，主題叫 “having presence”。末句說參加者在房間裡走動，演出不同程度的 presence，由低調到誇張。只看首尾句，能看到這段會把一個抽象心理概念變成具體訓練活動。它不是介紹理論背景，重點是展示 Mind Gym 的課堂形式：視覺化、行為演練、把心理狀態轉成可練習的動作。"
+      },
+      {
+        "number": "C",
+        "summary": "首句 “It’s easy to poke fun” 暗示這些活動看起來可能可笑。末句提到 brainteasers、software packages、memory and spatial-awareness games。只看首尾句，可以估計作者會由「看似荒謬」轉向「其實十分流行」。這段功能是擴大視野：Mind Gym 不是孤立例子，類似大腦訓練已在企業、課程、書本和軟件市場中形成一個產品類別。"
+      },
+      {
+        "number": "D",
+        "summary": "首句直接概括這些公司的共同銷售說法：按照我們的方法操練，就能塑造大腦或心智，像訓練身體一樣。末句說它們幾乎都聲稱這些 mental workouts 建基於嚴肅腦科學研究。只看首尾句，這段明顯是「市場話術」段落。它會幫助定位與 marketing approach、sales pitch、scientific research、brain as body analogy 有關的題目。"
+      },
+      {
+        "number": "E",
+        "summary": "首句引用 Brainergy 的說法，說 mental exercise 能改變 brain anatomy 和 brain chemistry，提升mental efficiency and clarity。末句轉到 Mind Gym 網站，引用 Susan Greenfield 的話：訓練大腦就像去健身室，訓練後大腦會成長。只看首尾句，這段功能是舉例：不同公司如何借用神經科學語言或知名科學家的權威，包裝自己的訓練服務。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Mind Gym 原本打算在本地 health club 舉行課程，後來創辦人發現真正賺錢的地方在企業市場。末句連續提出疑問：neurobic workouts 是否真有科學支持？我們是否需要它們？只看首尾句，這段是一個轉折段。它由商業機會轉向質疑，提醒讀者接下來文章會檢查這些訓練背後的科學根據和實際需要。"
+      },
+      {
+        "number": "G",
+        "summary": "首句介紹 Lawrence Katz，並說他的建議完全不高科技。末句說人們的休閒時間常常只是癱在電視機前。只看首尾句，可估計這段會提出 Katz 的基本問題診斷：現代人雖然忙，但日常活動多數重複，缺乏真正刺激大腦的新鮮經驗。這段對應 mental stimulation、brain fitness、routine、TV leisure 等定位詞。"
+      },
+      {
+        "number": "H",
+        "summary": "首句用命令式例子開頭：“read a book upside down”，顯示 Katz 的方法十分生活化。末句說這些活動能 invigorate your brain，鼓勵腦細胞建立新連結，並釋放 neurotrophins。只看首尾句，這段功能是列出 Katz 的 neurobics 做法，再給出他認為有效的生物機制。定位詞包括 upside down、wrong hand、break routine、new connections。"
+      },
+      {
+        "number": "I",
+        "summary": "首句 “Well, up to a point it will” 明顯帶出限制：這些活動有作用，但不能誇大。末句說中風後失去腦細胞的人，經過 extensive therapy，常能長出新連結補償損失。只看首尾句，可以估計這段會平衡 Katz 的說法：mental exercise 主要是 brain maintenance，不是製造天才；不過大腦確實具備適應和重組能力。"
+      },
+      {
+        "number": "J",
+        "summary": "首句介紹 Guy Claxton，說他把大部分神經學包裝批評為 “neuro-babble”。末句說我們的 mental tools 會變得 invisible。只看首尾句，這段功能是轉向另一種解釋：與其強調大腦生物學，不如看thought habits 和 mental skills。Claxton 的重點是創意、彈性、動機等思考習慣可以學習，但多數人沒有接受清楚訓練。"
+      },
+      {
+        "number": "K",
+        "summary": "首句說 Claxton 是 Mind Gym 的 academic adviser。末句把比喻由 gym classes 轉成 tennis or football coaching。只看首尾句，可見這段會連接 Claxton 的學術觀點和 Mind Gym 的實際方法。段落重點是：先讓思考模式重新進入 conscious level，再像運動教練一樣，透過練習建立更好的thought patterns。"
+      },
+      {
+        "number": "L",
+        "summary": "首句說實際訓練可以顯得相當 mundane，即普通甚至平凡。末句以新 pizza 練習作例，參加者透過「提出相反方向」想出 no topping、sweet topping、cold topping 等方案。只看首尾句，這段功能是展示 Mind Gym 課堂的具體技巧。它會回答 creativity workout、logical thinkers、simple mental strategy、opposite suggestion 相關題目。"
+      },
+      {
+        "number": "M",
+        "summary": "首句說 Bailey 同意這個技巧很簡單。末句說只要有合適訓練，他認為我們可以大幅提升使用大腦的效率。只看首尾句，這段功能是解釋簡單技巧的價值：很多人遇到創意任務時先給自己貼上uncreative 標籤，沒有意識到創意人士其實會使用技巧。Bailey 的立場不是人人都能成天才，重點在效率提升。"
+      },
+      {
+        "number": "N",
+        "summary": "首句說很難證明訓練本身是否有效。末句引用 Claxton 的看法：學校和大學應花更多時間教授basic thinking skills，不要只把事實塞進學生腦袋，期待良好思考習慣自然吸收。只看首尾句，這段是總結段：一方面承認效果難量度，另一方面把問題推向教育制度，指出 thinking skills 值得被正式教導。"
+      }
+    ]
+  }
+}

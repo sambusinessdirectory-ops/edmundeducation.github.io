@@ -1,0 +1,2421 @@
+{
+  "id": "p1-104-indoor-pollution",
+  "catalogueId": "p1-104",
+  "catalogueIds": [
+    "p1-104"
+  ],
+  "passage": 1,
+  "title": "Indoor Pollution",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "B",
+    "D",
+    "B",
+    "C",
+    "A",
+    "C",
+    "D",
+    "A",
+    "F",
+    "H",
+    "I",
+    "G"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D — is caused by human self-interest.",
+      "answerKey": "D — is caused by human self-interest.",
+      "type": "Multiple Choice",
+      "prompt": "“In the first paragraph, the writer argues that pollution…”",
+      "translation": "第一段中，作者認為污染……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目已經明確限定 “in the first paragraph”，所以不需要全篇搜尋。判斷時要找第一段對 pollution cause 的說法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the early 1980s, we have been only too aware of the devastating effects of large-scale environmental pollution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1980 年代初以來，我們已非常清楚大型環境污染的破壞性影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such pollution is generally the result of poor government planning in many developing nations or the short-sighted, selfish policies of the already industrialised countries which encourage a minority of the world’s population to squander the majority of its natural resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類污染通常是許多發展中國家政府規劃不善，或已工業化國家的短視、自私政策所造成；這些政策鼓勵世界人口中的少數人揮霍大部分自然資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 1 的功能是說明大型污染的原因。首句交代人們已知道污染破壞力；末句把原因連到 poor planning 和 selfish policies。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “pollution” 和 “argues”。在 Paragraph 1 中，真正定案的句子是末句，尤其是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the short-sighted, selfish policies of the already industrialised countries”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已工業化國家的短視、自私政策。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說污染通常源於兩類人為因素：第一，developing nations 的 poor government planning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，industrialised countries 的 short-sighted, selfish policies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說 “is caused by human self-interest”。這把 “selfish policies” 概括成 human self-interest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文也提到 poor government planning，但 D 是四個選項中唯一能概括作者把污染歸因於人類短視和自利行為的一項。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “has increased since the eighties.”原文說 since the early 1980s, we have been aware of pollution effects。這講的是 awareness，不是污染自八十年代以來增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “is at its worst in industrialised countries.”原文提到 industrialised countries 的 selfish policies，但沒有比較哪裡污染最嚴重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “results from poor relations between nations.”原文說 poor government planning，不是 poor relations。relations 是國家關係；planning 是政府規劃，兩者不能互換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “is caused by human self-interest.”正確。它概括了 short-sighted, selfish policies，也符合第一段整體立場。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 / 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“human self-interest”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“short-sighted, selfish policies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“squander the majority of its natural resources”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： selfish policies = 自利政策squander resources = 揮霍資源兩者共同支援 human self-interest。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很容易吸引學生，因為原文第一句有 “Since the early 1980s”。但這個時間短語控制的是 “we have been aware”，不是 pollution has increased。做 MCQ 時，時間詞只負責定位，真正要看動詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B — tanker pumping oil into the sea.",
+      "answerKey": "B — tanker pumping oil into the sea.",
+      "type": "Multiple Choice",
+      "prompt": "“The Sydney Harbour oil spill was the result of a…”",
+      "translation": "Sydney Harbour 的漏油事故是由甚麼造成的？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有明確地名 “Sydney Harbour”，這是最強定位詞。答案要找事故的直接原因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While events such as the deforestation of the Amazon jungle or the nuclear disaster in Chernobyl continue to receive high media exposure, as do acts of environmental sabotage, it must be remembered that not all pollution is on this grand scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amazon jungle 的森林砍伐、Chernobyl 核災難，以及環境破壞行為仍然得到高度媒體曝光，但我們必須記住，並非所有污染都屬於這種巨大規模。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The recent spillage of crude oil from a tanker that accidentally discharged its cargo straight into Sydney Harbour not only caused serious damage to the harbour foreshores but also created severely toxic fumes which hung over the suburbs for days and left the angry residents wondering how such a disaster could have been allowed to happen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近一艘油輪意外地把貨物直接排入 Sydney Harbour，造成原油洩漏；這不只嚴重破壞港灣前岸，也產生極有毒的煙霧，懸浮在郊區上空多日，令憤怒居民追問這種災難為何會發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段用 Sydney Harbour 的油污事件說明污染也可以發生在離家很近的地方。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Sydney Harbour oil spill”。原文末句直接出現 “Sydney Harbour”，所以答案就在這句中："
+            },
+            {
+              "kind": "quote",
+              "text": "“a tanker that accidentally discharged its cargo straight into Sydney Harbour”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一艘油輪意外地把貨物直接排入 Sydney Harbour。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主體是 “a tanker”。核心動作是 “accidentally discharged its cargo”。Cargo 在這裡指油輪運載的 crude oil。題目選項 B 說 “a tanker pumping oil into the sea”，雖然用 “pumping” 這個字比原文 “discharged” 稍寬，但它最接近「油輪把油排入水域」這一核心事實。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “ship refuelling in the harbour”原文沒有說船在加油，也沒有 refuelling。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “tanker pumping oil into the sea”正確。原文是 “a tanker … discharged its cargo straight into Sydney Harbour”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “collision between two oil tankers”原文沒有 collision，也沒有 two tankers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “deliberate act of sabotage”原文第一句提到 environmental sabotage，但 Sydney Harbour 事故是 “accidentally discharged”，明確表示意外。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 / 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“tanker pumping oil into the sea”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a tanker that accidentally discharged its cargo straight into Sydney Harbour”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： tanker = tanker pumping / discharging = 排放、排出oil = crude oil / cargo sea = Harbour water"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 有真實干擾，因為同段開頭真的有 “environmental sabotage”。可是 Sydney Harbour 事件的答案句用了 “accidentally”，這個字直接排除 deliberate sabotage。細讀時要抓住事故的方式，不可只看同段出現過 sabotage。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D — there are several ways to avoid city pollution.",
+      "answerKey": "D — there are several ways to avoid city pollution.",
+      "type": "Multiple Choice",
+      "prompt": "“In the third paragraph the writer suggests that…”",
+      "translation": "第三段中，作者提出……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目指定 third paragraph，即 Paragraph 3。這段先列出避開污染的方法，再轉向 indoor pollution。答案要看段落前半的 suggested actions，以及四個選項哪一個最貼合。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Avoiding pollution can be a full-time job.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "避開污染可以像一份全職工作一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the average American spends 18 hours indoors for every hour outside, it looks as though many environmentalists may be attacking the wrong target.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於普通美國人每在戶外待一小時，便有十八小時在室內，看來很多環保人士可能把攻擊目標放錯了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 3 有明顯轉向：開頭講如何避開 outdoor pollution，後面提示indoor pollution 可能被忽視。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的核心是 “several ways to avoid city pollution”。在 Paragraph 3 中，第二句直接列出多個方法："
+            },
+            {
+              "kind": "quote",
+              "text": "“Try not to inhale traffic fumes; keep away from chemical plants and building sites; wear a mask when cycling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "盡量不要吸入交通廢氣；遠離化工廠和建築地盤；騎單車時戴口罩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句含有三個動作，正好對應 “several ways”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的三個祈使句都在說如何避開 outdoor / city pollution："
+            },
+            {
+              "kind": "quote",
+              "text": "“Try not to inhale traffic fumes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要吸入交通廢氣。"
+            },
+            {
+              "kind": "quote",
+              "text": "“keep away from chemical plants and building sites”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠離化工廠和建築地盤。"
+            },
+            {
+              "kind": "quote",
+              "text": "“wear a mask when cycling”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "騎單車時戴口罩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的 “several ways to avoid city pollution” 是對這三項建議的概括。雖然這段後面更重要的轉折是 indoor pollution，但 Question 3 的四個選項中，D 最精準地捕捉了段落開始時作者提出的多個避污方法。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “people should avoid working in cities.”原文沒有建議不要在城市工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Americans spend too little time outdoors.”原文只是說 Americans spend 18 hours indoors for every hour outside，用來指出 indoor exposure 很重要；作者沒有直接主張他們戶外時間太少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “hazardous gases are concentrated in industrial suburbs.”原文說室內 pollutants 可能更高，即使在最污染的城市也是如此；沒有說 hazardous gases 集中於 industrial suburbs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “there are several ways to avoid city pollution.”正確。這對應 “Try not to inhale… keep away… wear a mask…”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 / 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“several ways to avoid city pollution”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Try not to inhale traffic fumes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“keep away from chemical plants and building sites”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wear a mask when cycling”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： traffic fumes / chemical plants / building sites = city pollution sources try not / keep away / wear a mask = avoidance methods"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的干擾來自 “average American spends 18 hours indoors”。這句確實講到 Americans 和indoors/outside 的比例，但作者用它來帶出 indoor pollution 的風險，沒有把它寫成「美國人戶外時間太少」這項價值判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B — pollution is caused by dishwashers and baths.",
+      "answerKey": "B — pollution is caused by dishwashers and baths.",
+      "type": "Multiple Choice",
+      "prompt": "“The Corsi research team hypothesised that…”",
+      "translation": "Corsi 研究團隊提出的假設是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 research hypothesis，即實驗前的研究想法。定位詞是 “Corsi research team”。要找他們懷疑或想測試甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 and Paragraph 5 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The latest study, conducted by two environmental engineers, Richard Corsi and Cynthia Howard-Reed, of the University of Texas in Austin, and published in Environmental Science and Technology, suggests that it is the process of keeping clean that may be making indoor pollution worse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最新研究由 University of Texas in Austin 的兩位環境工程師 Richard Corsi 和 Cynthia Howard-Reed 進行，並發表於 Environmental Science and Technology；研究指出，保持清潔的過程可能正在令室內污染惡化。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers found that baths, showers, dishwashers and washing machines can all be significant sources of indoor pollution, because they extract trace amounts of chemicals from the water that they use and transfer them to the air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員發現，浴缸、淋浴、洗碗機和洗衣機都可能是重要室內污染來源，因為它們會從所用的水中抽出微量化學物，並把它們轉移到空氣中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 4 首尾句，可以估計這段介紹 Corsi 研究的中心發現：清潔設備可把水中化學物轉到空氣，造成室內污染。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Corsi” 和 “hypothesised”。Paragraph 5 中有 “wondered”，這就是 hypothesis 的訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Corsi wondered whether they stay there when water is used, or whether they end up in the air that people breathe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Corsi 博士想知道，當水被使用時，這些化學物是否仍留在水中，還是最後進入人們呼吸的空氣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “they” 指前一句的 toxic chemicals。Corsi 想測試水中的有毒化學物在用水過程中會否轉到空氣裡。Paragraph 4 已經列出可能來源：baths、showers、dishwashers、washing machines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 說 “pollution is caused by dishwashers and baths”。這是對原文的簡化概括，因為原文的完整說法包括 baths、showers、dishwashers 和 washing machines，並且原因是它們把 trace chemicals 從水轉到空氣。四個選項中，B 最貼近這個研究假設。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “toxic chemicals can pass from air to water.”方向相反。原文是 from water into air。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “pollution is caused by dishwashers and baths.”正確。更準確地說，這些家居用水設備可能是 indoor pollution sources。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “city water contains insufficient chlorine.”原文提到 chlorination 後留下 toxic chemicals，但沒有說 chlorine 不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “household appliances are poorly designed.”原文沒有批評設備設計差，重點在用水過程中的 chemical transfer。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 / 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“pollution is caused by dishwashers and baths”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“baths, showers, dishwashers and washing machines can all be significant sources of indoor pollution”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： caused by = sources of dishwashers and baths = 原文列出的用水設備之一部分indoor pollution = 室內污染"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很容易令人混淆，因為原文反覆出現 water 和 air。細讀時要看 transfer direction：原文說 “from the water … to the air”，所以任何把方向寫成 air to water 的選項都要排除。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "C — indoor pollution rivals outdoor pollution.",
+      "answerKey": "C — indoor pollution rivals outdoor pollution.",
+      "type": "Multiple Choice",
+      "prompt": "“As a result of their experiments, Dr Corsi’s team found that…”",
+      "translation": "Corsi 博士團隊的實驗結果顯示……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 experiments 的 finding。目標段落主要是 Paragraph 6–8：Paragraph 6 講實驗結果， Paragraph 7 解釋 exposure 意義，Paragraph 8 說研究想帶出的 perspective。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, in many cases, the degree of exposure to toxic chemicals in tap water by inhalation is comparable to the exposure that would result from drinking the stuff.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在很多情況下，人們透過吸入方式接觸自來水中有毒化學物的程度，和直接飲用這些水所造成的接觸程度相若。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Corsi’s results suggest that they are being exposed to such pollutants anyway simply by breathing at home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Corsi 博士的結果顯示，他們其實無論如何都會接觸這些污染物，只要在家中呼吸便會接觸到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 7 在講實驗結果的意義：室內呼吸也會帶來污染物暴露，而且程度相當值得關注。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “experiments” 和 “found” 可定位到 Paragraph 6 的實驗結果，也要看 Paragraph 7 的總結。最重要的概括證據是 Paragraph 8："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Dr Corsi, disproportionate effort is wasted campaigning against certain forms of outdoor pollution, when there is as much or more cause for concern indoors, right under people’s noses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Corsi 博士認為，人們把過多力量浪費在反對某些戶外污染上；其實室內、就在人的鼻子底下，也有同樣多甚至更多值得擔憂的理由。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 說，吸入 tap water 中污染物造成的 exposure，可與 drinking tap water 相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 再把這點放大到 pollution debate：indoor pollution 有 “as much or more cause for concern” as outdoor pollution。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “indoor pollution rivals outdoor pollution” 意思是室內污染可與室外污染相比，甚至可相抗衡。這正好對應 “as much or more cause for concern indoors”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “dishwashers are very efficient machines.”原文說 dishwashers were particularly effective，但意思是它們有效地把化學物從水中 strip 出來，形成污染，不是稱讚它們作為機器很高效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “tap water is as polluted as bottled water.”原文說很多人因擔心 tap water pollutants 而喝 bottled water，但沒有比較 tap water 和 bottled water 的污染程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “indoor pollution rivals outdoor pollution.”正確。這概括了 “as much or more cause for concern indoors”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “gas masks are a useful protective device.”原文說研究目的不是鼓勵人們卸洗衣機時戴 gas masks，這個選項方向錯。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 / 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“indoor pollution rivals outdoor pollution”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“there is as much or more cause for concern indoors”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： rivals = 可與……相比，嚴重程度接近outdoor pollution = certain forms of outdoor pollution indoor pollution = concern indoors"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 是最常見干擾，因為原文真的有 “Dishwashers were found to be particularly effective”。但effective 後面真正省略的意思是 effective at chemical stripping，即把污染物從水中帶到空氣，不是說洗碗機性能優良。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A — there is a need for rational discussion.",
+      "answerKey": "A — there is a need for rational discussion.",
+      "type": "Multiple Choice",
+      "prompt": "“Regarding the dangers of pollution, the writer believes that…”",
+      "translation": "關於污染的危險，作者認為……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 writer believes，所以要找作者的總體態度，不可只看某一個污染例子。目標位置在Paragraph 8 和 Paragraph 10，因為這兩段有 “aim” 和 “debate”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aim of such research is not, however, to encourage the use of gas masks when unloading the washing machine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這類研究的目的並非鼓勵人們卸洗衣機時使用防毒面罩。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Dr Corsi, disproportionate effort is wasted campaigning against certain forms of outdoor pollution, when there is as much or more cause for concern indoors, right under people’s noses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Corsi 博士認為，人們把不合比例的精力花在反對某些戶外污染上；其實室內、就在鼻子底下，也有同樣多甚至更多值得擔憂的理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段不是叫人恐慌，而是要求把關注放得更平衡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “writer believes” 要找作者評論性語句。Paragraph 8 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, it is to bring a sense of perspective to the debate about pollution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，它的目的在於為污染辯論帶來一種比例感和透視感。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 10 也有："
+            },
+            {
+              "kind": "quote",
+              "text": "“it makes sense to consider small-scale pollution at home and welcome an international debate about it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "先考慮家中的小規模污染，並歡迎一場關於它的國際討論，是合理的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“bring a sense of perspective” 是本題核心。Perspective 指能把問題按比例看清楚，不被某一類污染完全吸引。Paragraph 10 的 “welcome an international debate” 進一步說明作者支持討論。選項 A “there is a need for rational discussion” 把 “sense of perspective” 和 “international debate” 概括成「需要理性討論」。這與作者態度相符。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “there is a need for rational discussion.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確。對應 “bring a sense of perspective to the debate” 和 “welcome an international debate”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “indoor pollution is a recent phenomenon.”原文說研究是 recent，沒有說 indoor pollution 本身是新現象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “people should worry most about their work environment.”原文焦點是 home 和 indoors，不是 work environment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “industrial pollution causes specific diseases.”原文說 health implications are unclear，所以沒有指出工業污染造成特定疾病。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 / 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“rational discussion”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a sense of perspective to the debate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“welcome an international debate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： sense of perspective = 有比例感、較理性的看法debate = discussion welcome an international debate = 支持更廣泛討論"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 有吸引力，因為文章一直談 toxic chemicals、carbon monoxide 和 particulate matter。但最後一段明確說 “The implications of indoor pollution for health are unclear.” 所以不能把污染危害直接改寫成特定疾病因果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "C — The world’s natural resources are unequally shared.",
+      "answerKey": "C — The world’s natural resources are unequally shared.",
+      "type": "Cause and Effect",
+      "prompt": "Question 7",
+      "translation": "工業化國家使用大量能源。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“Industrialised nations use a lot of energy.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Cause and Effect matching。要找 “industrialised nations” 帶來的結果。定位主要在Paragraph 1。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the early 1980s, we have been only too aware of the devastating effects of large-scale environmental pollution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1980 年代初以來，我們已非常清楚大型環境污染的破壞性影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such pollution is generally the result of poor government planning in many developing nations or the short-sighted, selfish policies of the already industrialised countries which encourage a minority of the world’s population to squander the majority of its natural resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類污染通常是許多發展中國家政府規劃不善，或已工業化國家的短視、自私政策所造成；這些政策鼓勵世界人口中的少數人揮霍大部分自然資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出這段把污染與工業化國家的資源消耗連在一起。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Industrialised nations”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the already industrialised countries which encourage a minority of the world’s population to squander the majority of its natural resources”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已工業化國家的政策鼓勵世界人口中的少數人揮霍大部分自然資源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cause 說 industrialised nations use a lot of energy。原文沒有用 energy 這個字，但 “squander the majority of its natural resources” 表示大量消耗自然資源。Effect C 說 “The world’s natural resources are unequally shared.” 這正好對應 “a minority of the world’s population” 使用 “the majority of its natural resources”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“Industrialised nations use a lot of energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a minority of the world’s population … squander the majority of its natural resources”"
+            },
+            {
+              "kind": "label",
+              "text": "Effect C："
+            },
+            {
+              "kind": "quote",
+              "text": "“The world’s natural resources are unequally shared.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： minority uses majority = 資源分配不均natural resources = resources / energy 的上位概念答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D — People demand an explanation.",
+      "answerKey": "D — People demand an explanation.",
+      "type": "Cause and Effect",
+      "prompt": "Question 8",
+      "translation": "油洩漏到海中。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“Oil spills into the sea.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Cause 是 oil spill，最強定位詞是 “oil”。答案要找 oil spill 造成的 effect。定位在 Paragraph 2 的Sydney Harbour 例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While events such as the deforestation of the Amazon jungle or the nuclear disaster in Chernobyl continue to receive high media exposure, as do acts of environmental sabotage, it must be remembered that not all pollution is on this grand scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amazon jungle 的森林砍伐、Chernobyl 核災難，以及環境破壞行為仍然得到高度媒體曝光，但我們必須記住，並非所有污染都屬於這種巨大規模。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The recent spillage of crude oil from a tanker that accidentally discharged its cargo straight into Sydney Harbour not only caused serious damage to the harbour foreshores but also created severely toxic fumes which hung over the suburbs for days and left the angry residents wondering how such a disaster could have been allowed to happen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近一艘油輪意外地把貨物直接排入 Sydney Harbour，造成原油洩漏；這不只嚴重破壞港灣前岸，也產生極有毒的煙霧，懸浮在郊區上空多日，令憤怒居民追問這種災難為何會發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到油污事故帶來環境破壞、毒煙和居民憤怒。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Oil spills”。原文有 “spillage of crude oil”。Effect 要看同一句的後半："
+            },
+            {
+              "kind": "quote",
+              "text": "“left the angry residents wondering how such a disaster could have been allowed to happen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令憤怒的居民追問這種災難怎會被容許發生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“wondering how such a disaster could have been allowed to happen” 表示居民要求解釋或追究原因。List B 的 D “People demand an explanation” 正是這個意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Cause：“Oil spills into the sea.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“spillage of crude oil … straight into Sydney Harbour”"
+            },
+            {
+              "kind": "label",
+              "text": "Effect D："
+            },
+            {
+              "kind": "quote",
+              "text": "“People demand an explanation.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“angry residents wondering how such a disaster could have been allowed to happen”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： wondering how it happened = 要求解釋angry residents = people答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "油污也造成 serious damage 和 toxic fumes，但 List B 中沒有相應選項。Matching 題不能自行創造 effect，要在選項中找最能概括原文後果的一項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — The focus of pollution moves to the home.",
+      "answerKey": "A — The focus of pollution moves to the home.",
+      "type": "Cause and Effect",
+      "prompt": "Question 9",
+      "translation": "研究人員發表研究結果。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers publish their findings.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 Cause 指 researchers publish findings。要找這項研究發表後，污染討論的焦點如何改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位在 Paragraph 4 研究引入，以及 Paragraph 8 對研究目的的說明。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 and Paragraph 8 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The latest study, conducted by two environmental engineers, Richard Corsi and Cynthia Howard-Reed, of the University of Texas in Austin, and published in Environmental Science and Technology, suggests that it is the process of keeping clean that may be making indoor pollution worse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最新研究由 University of Texas in Austin 的兩位環境工程師 Richard Corsi 和 Cynthia Howard-Reed 進行，並發表於 Environmental Science and Technology；研究指出，保持清潔的過程可能正在令室內污染惡化。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Dr Corsi, disproportionate effort is wasted campaigning against certain forms of outdoor pollution, when there is as much or more cause for concern indoors, right under people’s noses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Corsi 博士認為，人們把不合比例的精力花在反對某些戶外污染上；其實室內、就在鼻子底下，也有同樣多甚至更多值得擔憂的理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩處，可以知道研究發表後，文章把污染焦點轉向 home / indoors。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “researchers publish”。Paragraph 4 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“published in Environmental Science and Technology”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "發表於 Environmental Science and Technology。"
+            },
+            {
+              "kind": "label",
+              "text": "再往後看研究的影響，Paragraph 8 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“bring a sense of perspective to the debate about pollution”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為污染辯論帶來比例感和透視感。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究內容指出，cleaning processes 和 home appliances 可加劇 indoor pollution。Paragraph 8又說，大家過度集中戶外污染，應該注意室內就在眼前的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "List B 的 A “The focus of pollution moves to the home” 正好概括這個結果：研究把討論焦點由戶外大型污染，轉向家居室內污染。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers publish their findings.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“published in Environmental Science and Technology”"
+            },
+            {
+              "kind": "label",
+              "text": "Effect A："
+            },
+            {
+              "kind": "quote",
+              "text": "“The focus of pollution moves to the home.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“indoor pollution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“indoors, right under people’s noses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“breathing at home”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： indoor / at home = 家中或室內focus moves = debate gains perspective and shifts concern答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E “Environmentalists look elsewhere for an explanation” 也有 “wrong target” 的影子，但原文不是說環保人士另找解釋；重點是研究讓污染討論轉向家居室內風險。因此 A 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "F — Chemicals are effectively stripped from the water.",
+      "answerKey": "F — Chemicals are effectively stripped from the water.",
+      "type": "Cause and Effect",
+      "prompt": "Question 10",
+      "translation": "水被加熱到高溫。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“Water is brought to a high temperature.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Cause 是 high temperature water。定位詞是 “high temperature”。要找高溫造成的 effect。目標段落是 Paragraph 6。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The degree to which the most volatile elements could be removed from the water, a process known as chemical stripping, depended on a wide range of factors, including the volatility of the chemical, the temperature of the water and the surface area available for transfer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最易揮發成分能從水中被移走的程度，即 chemical stripping，取決於多種因素，包括化學物的揮發性、水溫，以及可供轉移的表面面積。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dishwashers were found to be particularly effective: the high-temperature spray splashing against the crockery and cutlery produces a nasty plume of toxic chemicals that escapes when the door is opened at the end of the cycle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究發現洗碗機特別有效：高溫噴霧撞擊餐具時，會產生一股令人不適的有毒化學物煙霧，在清洗循環結束、機門打開時逸出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道高溫與 chemical stripping 有直接關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “high temperature”。原文末句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the high-temperature spray splashing against the crockery and cutlery produces a nasty plume of toxic chemicals”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高溫噴霧撞擊餐具時，會產生一股有毒化學物煙霧。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 第一個句子已定義了 chemical stripping："
+            },
+            {
+              "kind": "quote",
+              "text": "“the most volatile elements could be removed from the water”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最易揮發成分可從水中被移走。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句再用 dishwasher 解釋：高溫噴霧令這個過程特別有效，結果形成 toxic plume。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "List B 的 F “Chemicals are effectively stripped from the water” 完整對應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“Water is brought to a high temperature.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the temperature of the water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“high-temperature spray”"
+            },
+            {
+              "kind": "label",
+              "text": "Effect F："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chemicals are effectively stripped from the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“chemical stripping”"
+            },
+            {
+              "kind": "quote",
+              "text": "“volatile elements could be removed from the water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Dishwashers were found to be particularly effective”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B “The levels of carbon monoxide rise” 也和家居污染有關，但它出現在 Paragraph 9，原因是gas cookers 和 candles，不是 water temperature。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "H — Sales of bottled water increase.",
+      "answerKey": "H — Sales of bottled water increase.",
+      "type": "Cause and Effect",
+      "prompt": "Question 11",
+      "translation": "人們害怕自來水中的污染物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“People fear pollutants in tap water.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Cause 是 fear of tap water pollutants。定位詞是 “tap water” 和 “pollutants”。目標段落是Paragraph 7。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, in many cases, the degree of exposure to toxic chemicals in tap water by inhalation is comparable to the exposure that would result from drinking the stuff.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在很多情況下，人們透過吸入方式接觸自來水中有毒化學物的程度，和直接飲用這些水所造成的接觸程度相若。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Corsi’s results suggest that they are being exposed to such pollutants anyway simply by breathing at home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Corsi 博士的結果顯示，他們其實無論如何都會接觸這些污染物，只要在家中呼吸便會接觸到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出這段處理 tap water pollutants、bottled water 和 home breathing exposure。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “fear pollutants in tap water” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is significant because many people are so concerned about water-borne pollutants that they drink only bottled water, whose worldwide sales are forecast to reach $72 billion by next year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點很重要，因為很多人非常擔心水中污染物，所以只喝 bottled water；而 bottled water 的全球銷售額預計到明年會達到 720 億美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有清楚因果： Cause：many people are so concerned about water-borne pollutants Effect：they drink only bottled water Further result：worldwide sales are forecast to reach $72 billion List B 的 H “Sales of bottled water increase” 正是這條因果鏈的結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“People fear pollutants in tap water.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“many people are so concerned about water-borne pollutants”"
+            },
+            {
+              "kind": "label",
+              "text": "Effect H："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sales of bottled water increase.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“they drink only bottled water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“worldwide sales are forecast to reach $72 billion”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： fear = are so concerned pollutants in tap water = water-borne pollutants sales increase = sales forecast to reach very high figure答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "I — The levels of carbon dioxide rise.",
+      "answerKey": "I — The levels of carbon dioxide rise.",
+      "type": "Cause and Effect",
+      "prompt": "Question 12",
+      "translation": "空調或通風系統不足。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“Air conditioning systems are inadequate.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Cause 中的 “air conditioning systems” 在原文更接近 “ventilation systems”。定位應找classrooms、ventilation、carbon dioxide。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using gas cookers and burning candles, for example, can both result in indoor levels of carbon monoxide and particulate matter that are just as high as those to be found outside, amid heavy traffic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，使用煤氣爐和燃燒蠟燭，都可令室內 carbon monoxide 和 particulate matter 水平高得接近交通繁忙戶外環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Laser printers, computers, carpets and paints all contribute to the noxious indoor mix.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "激光打印機、電腦、地氈和油漆都會加入這種有害的室內混合物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 9 在列舉多種室內污染來源。Question 12 的 classroom ventilation 在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “systems” 和 “inadequate”。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overcrowded classrooms whose ventilation systems were designed for smaller numbers of children frequently contain levels of carbon dioxide that would be regarded as unacceptable on board a submarine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過度擠迫的課室，其通風系統原本是按較少兒童人數設計的，因此經常含有高水平 carbon dioxide；這種水平若在潛艇上會被視為不可接受。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文的 cause 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“ventilation systems were designed for smaller numbers of children”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是通風系統容量不足，對實際人數不夠用。題目用 “air conditioning systems are inadequate”作概括，雖然 wording 不完全一樣，但方向是空氣處理系統不足。"
+            },
+            {
+              "kind": "label",
+              "text": "Effect 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“frequently contain levels of carbon dioxide…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即 carbon dioxide levels rise / are high。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "List B 的 I “The levels of carbon dioxide rise” 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“Air conditioning systems are inadequate.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“ventilation systems were designed for smaller numbers of children”"
+            },
+            {
+              "kind": "label",
+              "text": "Effect I："
+            },
+            {
+              "kind": "quote",
+              "text": "“The levels of carbon dioxide rise.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“frequently contain levels of carbon dioxide that would be regarded as unacceptable”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 I。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B “The levels of carbon monoxide rise” 也在同一段首句出現，但原因是 gas cookers 和 burning candles。Question 12 的 cause 是 ventilation / air-conditioning inadequacy，所以要選 carbon dioxide，不可選 carbon monoxide。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "G — A clean odour is produced.",
+      "answerKey": "G — A clean odour is produced.",
+      "type": "Cause and Effect",
+      "prompt": "Question 13",
+      "translation": "新車中有大量有毒化學物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“Toxic chemicals are abundant in new cars.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Cause 的強定位詞是 “new cars”。原文只有一句直接提到 “New car smell”，所以定位很快。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using gas cookers and burning candles, for example, can both result in indoor levels of carbon monoxide and particulate matter that are just as high as those to be found outside, amid heavy traffic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，使用煤氣爐和燃燒蠟燭，都可令室內 carbon monoxide 和 particulate matter 水平高得接近交通繁忙戶外環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Laser printers, computers, carpets and paints all contribute to the noxious indoor mix.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "激光打印機、電腦、地氈和油漆都會加入這種有害的室內混合物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段列舉日常室內污染源，新車氣味就是其中一項。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “new cars”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘New car smell’ is the result of high levels of toxic chemicals, not cleanliness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「新車氣味」是高水平有毒化學物造成的結果，並非清潔所造成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把 cause 和 effect 寫得很清楚： Cause：high levels of toxic chemicals Effect：“New car smell” List B 沒有 “new car smell” 這個原字，但 G “A clean odour is produced” 最接近。這裡的 “clean odour” 指人們常把新車氣味和潔淨、新穎聯想起來；原文特意補充 “not cleanliness”，提醒讀者這種氣味實際來自 toxic chemicals。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Cause："
+            },
+            {
+              "kind": "quote",
+              "text": "“Toxic chemicals are abundant in new cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“high levels of toxic chemicals”"
+            },
+            {
+              "kind": "label",
+              "text": "Effect G："
+            },
+            {
+              "kind": "quote",
+              "text": "“A clean odour is produced.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“New car smell”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： high levels = abundant new car smell = 新車內常被誤認為潔淨的新味道not cleanliness = 作者提醒這個氣味的真正來源是 toxic chemicals答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易猶豫，因為原文說 “not cleanliness”，而選項 G 寫 “clean odour”。重點在 odour 這個結果：新車產生一種令人聯想到清潔或新淨的氣味，但原文拆解其來源其實是 toxic chemicals。List B 中只有 G 對應 smell / odour。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Indoor Pollution.pdf",
+    "sha256": "bca02cbe75aaf7a221445906f4b8d90e3d698045aa10342ff755396bdc58acf9",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說自 1980 年代初，人們已非常清楚大型環境污染的破壞力；末句把污染原因連到發展中國家的 poor government planning，以及工業化國家的 selfish policies。只看首尾句，可以先估這段是全文開場，功能是交代大型污染的背景，並指出污染背後有人為因素，尤其是短視、自私和資源分配不均。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Amazon deforestation、Chernobyl 和 environmental sabotage 等事件仍得到高媒體曝光；末句轉到 Sydney Harbour oil spill 後居民憤怒追問事故如何發生。只看首尾句，可以估計這段把焦點從全球大型污染拉近到日常生活附近，說明污染不一定只在遠方或大規模災難中出現。"
+      },
+      {
+        "number": "3",
+        "summary": "首句用 “Avoiding pollution can be a full-time job” 開始，列出避開交通廢氣、化工廠、建築地盤等方法；末句說很多 environmentalists 可能 attacking the wrong target。只看首尾句，可以先估這段有轉折：表面先談 outdoor pollution 的避開方法，後面真正推向 indoor pollution 可能更嚴重。"
+      },
+      {
+        "number": "4",
+        "summary": "首句引入 Corsi 和 Howard-Reed 的最新研究，指出 keeping clean 這個過程可能令 indoor pollution 更差；末句解釋 baths、showers、dishwashers 和 washing machines 會把水中的 trace chemicals 轉移到空氣中。只看首尾句，可以估計這段開始介紹核心研究：家居清潔活動也可能成為室內污染源。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說幾乎所有公共食水都有極低濃度 toxic chemicals，多數來自 chlorination；末句說研究人員量度 effluent water 和 chamber air，以計算化學物由水轉到空氣的程度。只看首尾句，可以判斷這段處理實驗設計：研究團隊想驗證水中的化學物在使用時是否會進入人呼吸的空氣。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 volatile elements 從水中移走的程度，取決於化學物揮發性、水溫、可轉移表面面積等因素；末句說洗碗機特別有效，因高溫噴霧撞擊餐具後會產生 toxic chemicals plume。只看首尾句，可以估計這段講實驗結果，尤其是 chemical stripping 和 dishwashers 的高風險。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說很多情況下，透過 inhalation 接觸 tap water 中 toxic chemicals 的程度，和直接飲用相若；末句說即使只在家中呼吸，人們仍可能接觸這些污染物。只看首尾句，可以看出這段把研究結果連到生活風險：只喝 bottled water 未必能避開水中污染物，因為污染物可從水進入室內空氣。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說這類研究的目的並非鼓勵人們卸洗衣機時戴 gas masks；末句說人們過度集中反對某些outdoor pollution，卻忽視了就在鼻子底下的 indoor pollution。只看首尾句，可以估計這段處理作者立場：他不是製造恐慌，而是希望 pollution debate 更有比例感。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 gas cookers 和 burning candles 都可令室內 carbon monoxide 和 particulate matter 水平高得接近交通繁忙戶外環境；末句說 laser printers、computers、carpets 和 paints 都加入了有害室內混合物。只看首尾句，可以判斷這段列舉其他常見 indoor pollution sources，說明問題不只來自用水和清潔。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 indoor pollution 對健康的影響仍 unclear；末句用一句帶諷刺意味的話收結：研究 indoor pollution 的會議將在室內舉行。只看首尾句，可以估計結尾段呼籲先正視家中 small-scale pollution，並歡迎 international debate，同時保留健康影響尚未完全確定的謹慎態度。"
+      }
+    ]
+  }
+}

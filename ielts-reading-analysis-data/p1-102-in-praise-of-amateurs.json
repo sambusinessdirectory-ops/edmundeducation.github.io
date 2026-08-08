@@ -1,0 +1,2173 @@
+{
+  "id": "p1-102-in-praise-of-amateurs",
+  "catalogueId": "p1-102",
+  "catalogueIds": [
+    "p1-102"
+  ],
+  "passage": 1,
+  "title": "In Praise of Amateurs",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "scientists",
+    "science",
+    "fields",
+    "co-operation",
+    "observations",
+    "dinosaurs",
+    "conservation programme",
+    "acknowledge",
+    "B",
+    "A",
+    "D",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "scientists",
+      "answerKey": "scientists",
+      "type": "Summary Completion",
+      "prompt": "Question 1",
+      "translation": "十九世紀以前，專業的 1 _____________ 並不存在，科學研究大多由 amateurs 進行。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prior to the 19th century, professional 1 _____________ did not exist and scientific research was largely carried out by amateurs.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 professional，所以空格需要一個名詞，組成 “professional+ 名詞”。題目問十九世紀以前哪一類專業人士尚未存在，並且後半句說研究主要由 amateurs 做，所以答案應該是與科學研究人員身份有關的詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the scientific revolution of the 17th century, scientists were largely men of private means who pursued their interest in natural philosophy for their own edification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十七世紀科學革命期間，科學家大多是有私人財力的人，他們為了自身學識修養而追求對自然哲學的興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps surprisingly, however, amateurs—even those without private means—are still important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，也許令人意外的是，amateurs 仍然重要，即使是那些沒有私人財力的人也一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 會把早期科學的 amateur 性質和今日科學中的 amateurs 連起來。這段正好處理題目中的 “Prior to the 19th century” 和 “amateurs”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prior to the 19th century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“professional”"
+            },
+            {
+              "kind": "quote",
+              "text": "“amateurs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only in the past century or two has it become possible to make a living from investigating the workings of nature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有在過去一兩個世紀，人們才有可能靠研究自然運作來謀生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明，在較早時期，人們不能以研究自然為職業。換成 summary 的語言，就是 professional scientists 這種身份在十九世紀以前並未真正存在。前一句已經用 “scientists” 指研究自然的人，後文又說 modern science built on amateurs，因此空格填 scientists 最自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “professional scientists did not exist”= 原文 “Only in the past century or two has it become possible to make a living from investigating…”題目 “scientific research was largely carried out by amateurs”= 原文 “Modern science was… built on the work of amateurs”答案格式檢查： scientists 是一個詞，符合 ONE or TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 scientists。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “men of private means”。這是早期 scientists 的身份描述，但放入 summary 會變成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“professional men of private means did not exist”，文法和意思都不合適。空格要和 professional組成一個職業身份，scientists 才能完整接上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "science",
+      "answerKey": "science",
+      "type": "Summary Completion",
+      "prompt": "Question 2",
+      "translation": "然而，雖然今天 2 _____________ 主要是 professionals 的領域……",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, while 2 _____________ today is mostly the domain of professionals…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 while 後，是句子的主語。後面有 “is mostly the domain of professionals”，所以答案應該是一個抽象名詞，表示某個領域今天主要由專家掌握。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the scientific revolution of the 17th century, scientists were largely men of private means who pursued their interest in natural philosophy for their own edification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十七世紀科學革命期間，科學家大多是有私人財力的人，他們為了自身學識修養而追求對自然哲學的興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps surprisingly, however, amateurs—even those without private means—are still important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，也許令人意外的是，amateurs 仍然重要，即使是沒有私人財力的人也一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段會比較早期科學和今日科學：早期由 amateurs 奠基，今日高度專業化，但 amateurs 未消失。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“today”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domain of professionals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, science is an increasingly specialised and compartmentalised subject, the domain of experts who know more and more about less and less.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，science 是一門越來越專門化、越來越分門別類的學科，是專家的領域；這些專家對越來越狹窄的範圍知道得越來越多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文主語正是 “science”。“the domain of experts” 對應 summary 的 “the domain of professionals”。Experts 和 professionals 在這裡指同一類人：受過專門訓練、以科學研究為專業的人。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “mostly the domain of professionals”= 原文 “the domain of experts”題目 “today”= 原文 “Today”答案格式檢查： science 是一個詞，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 science。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “scientific research”。雖然意思也接近，但原文在這一句的主語是 science，且題目空格後面接單數動詞 is。science 更短、更精準，也直接來自原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "fields",
+      "answerKey": "fields",
+      "type": "Summary Completion",
+      "prompt": "Question 3",
+      "translation": "一項近期美國調查指出，amateurs 在至少七個 3 _____________ 中扮演重要角色。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…a recent US survey highlighted the fact that amateurs play an important role in at least seven 3 _____________…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “at least seven”，所以答案應該是複數名詞。題目說 recent US survey，定位會落在提到 poll / survey 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent poll carried out at a meeting of the American Association for the Advancement of Science by astronomer Dr Richard Fienberg found that, in addition to his field of astronomy, amateurs are actively involved in such fields as acoustics, horticulture, ornithology, meteorology, hydrology and palaeontology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天文學家 Dr Richard Fienberg 在 American Association for the Advancement of Science 一次會議上進行了一項近期民意調查，發現除了他的天文學領域外，amateurs 也積極參與 acoustics、horticulture、ornithology、meteorology、hydrology 和 palaeontology 等領域。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Far from being crackpots, amateur scientists are often in close touch with professionals, some of whom rely heavily on their co-operation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "amateur scientists 絕非古怪人士；他們常與 professionals 保持密切聯繫，其中一些professionals 更十分依賴他們的合作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 2 用 survey 證明 amateurs 活躍於多個領域，且與professionals 有合作關係。這正好對應 summary 的 survey 和 important role。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“recent US survey”"
+            },
+            {
+              "kind": "quote",
+              "text": "“at least seven”"
+            },
+            {
+              "kind": "quote",
+              "text": "“role”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “recent poll” 對應 “recent US survey”。同一句列出： astronomy acoustics horticulture ornithology meteorology hydrology palaeontology這些加起來至少七個 fields。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “in addition to his field of astronomy” 再列出 “such fields as…” 六個領域。題目把這些領域概括成 “at least seven fields”。“fields” 一詞也在原文直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “recent US survey”= 原文 “A recent poll carried out at a meeting of the American Association for the Advancement of Science”題目 “at least seven fields”= 原文 astronomy + six listed fields答案格式檢查： fields 是一個詞，符合 ONE or TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 fields。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填其中一個學科名，例如 astronomy 或 ornithology。題目空格前有 at least seven，表示它要一個總類別，fields 才能概括所有列出的科學領域。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "co-operation",
+      "answerKey": "co-operation",
+      "type": "Summary Completion",
+      "prompt": "Question 4",
+      "translation": "而且許多 professionals 其實依賴 amateurs 的 4 _____________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…and indeed many professionals are reliant on their 4 _____________.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “their”，所以答案應該是名詞。題目中的 “reliant on” 是定位核心，原文可能用 rely heavily on。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent poll carried out at a meeting of the American Association for the Advancement of Science by astronomer Dr Richard Fienberg found that, in addition to his field of astronomy, amateurs are actively involved in such fields as acoustics, horticulture, ornithology, meteorology, hydrology and palaeontology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天文學家 Dr Richard Fienberg 在 American Association for the Advancement of Science 一次會議上進行了一項近期民意調查，發現除了他的天文學領域外，amateurs 也積極參與 acoustics、horticulture、ornithology、meteorology、hydrology 和 palaeontology 等領域。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Far from being crackpots, amateur scientists are often in close touch with professionals, some of whom rely heavily on their co-operation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "amateur scientists 絕非古怪人士；他們常與 professionals 保持密切聯繫，其中一些professionals 更十分依賴他們的合作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段最後一句已經直接含有本題答案。首句提供 amateurs 參與多領域的背景；尾句進一步說professionals 依賴 amateurs 的合作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“professionals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reliant on”"
+            },
+            {
+              "kind": "quote",
+              "text": "“their”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“some of whom rely heavily on their co-operation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一些 professionals 十分依賴他們的合作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“some of whom” 指前面的 professionals。“their” 指 amateur scientists。“rely heavily on” 對應 summary 的 “are reliant on”。被依賴的東西是 “co-operation”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “professionals are reliant on”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “professionals, some of whom rely heavily on”題目 “their”= 原文中 amateur scientists 的 co-operation答案格式檢查： co-operation 是一個連字詞，符合 ONE or TWO WORDS。考場若寫 cooperation 通常也可接受，但原文形式是 co-operation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 co-operation。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “close touch”。原文確實說 amateurs are often in close touch with professionals，但professionals 依賴的具體東西是 co-operation。Summary 的 “reliant on their…” 要接名詞， co-operation 才是定案詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "observations",
+      "answerKey": "observations",
+      "type": "Summary Completion",
+      "prompt": "Question 5",
+      "translation": "在 astronomy 等領域，amateurs 在全球範圍內進行特定 5 _____________ 時十分有價值。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In areas such as astronomy, amateurs can be invaluable when making specific 5_____________ on a global basis.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “making specific”，答案需要是一個可被 make 的複數名詞。題目中 astronomy 和global basis 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Exactly which field of study has benefited most from the contributions of amateurs is a matter of some dispute.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "究竟哪個研究領域最受益於 amateurs 的貢獻，這仍有一些爭議。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This makes special kinds of observations possible: if several observers around the world accurately record the time when a star is eclipsed by an asteroid, for example, it is possible to derive useful information about the asteroid’s shape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這使特殊類型的觀測成為可能：例如，如果世界各地幾位觀察者準確記錄一顆星被小行星遮掩的時間，就可以推導出有關小行星形狀的有用資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 4 會以 astronomy 為例，說明 amateurs 由於人數多、分布廣，可以做某些特殊觀測。尾句直接對應題目中的 “specific observations on a global basis”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“astronomy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“global basis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“specific”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“they are distributed all over the world”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他們分布在世界各地。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“This makes special kinds of observations possible…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這使特殊類型的觀測成為可能。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “on a global basis” 對應 “distributed all over the world”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “specific” 對應 “special kinds of”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要接在 “making specific…” 後，原文可直接抽出 observations。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “specific observations”= 原文 “special kinds of observations”題目 “on a global basis”= 原文 “distributed all over the world” / “several observers around the world”答案格式檢查： observations 是一個詞，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 observations。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 observers。Summary 說 amateurs can be invaluable when making specific ___，能被make 的是 observations，不能說 make observers。Completion 題要用空格前後文法排除錯詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "dinosaurs",
+      "answerKey": "dinosaurs",
+      "type": "Summary Completion",
+      "prompt": "Question 6",
+      "translation": "同樣，在 palaeontology 領域，amateurs 的參與很有價值，而且因為 6 _____________ 很受歡迎，helpers 很容易招募。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, in the area of palaeontology their involvement is invaluable and helpers are easy to recruit because of the popularity of 6 _____________.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the popularity of”，答案需要是名詞。題目定位詞是 palaeontology、helpers、easy to recruit。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finding volunteers to look for fossils is not difficult, he says, because of the near-universal interest in anything to do with dinosaurs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，尋找 volunteers 去找化石並不困難，因為人們對任何與 dinosaurs 有關的東西幾乎都有普遍興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As well as helping with this research, volunteers learn about science, a process he calls‘recreational education’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了協助這項研究，volunteers 也學習科學；他把這個過程稱為 “recreational education”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段說明 palaeontology volunteers 容易招募的原因，以及他們參與過程中的教育價值。首句直接提供本題答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“helpers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“easy to recruit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“popularity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finding volunteers… is not difficult”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= helpers are easy to recruit"
+            },
+            {
+              "kind": "quote",
+              "text": "“near-universal interest in anything to do with dinosaurs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= popularity of dinosaurs"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“near-universal interest” 意思是接近普遍的興趣。Summary 把它改寫成 “popularity”。“anything to do with dinosaurs” 表示與恐龍有關的事物，空格要填的核心名詞是 dinosaurs。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “helpers are easy to recruit”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “Finding volunteers… is not difficult”題目 “popularity of dinosaurs”= 原文 “near-universal interest in anything to do with dinosaurs”答案格式檢查： dinosaurs 是一個詞，符合 ONE or TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 dinosaurs。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 fossils。volunteers 的工作是 look for fossils，但他們容易被招募的原因是 dinosaurs 受歡迎。題目問 because of the popularity of X，答案要填吸引人的對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "conservation programme",
+      "answerKey": "conservation programme",
+      "type": "Summary Completion",
+      "prompt": "Question 7",
+      "translation": "Amateur birdwatchers 也扮演積極角色，他們的工作促成了一個 7 _____________ 的建立。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amateur birdwatchers also play an active role and their work has led to the establishment of a 7 _____________.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “a”，答案需要是單數名詞短語。題目定位詞是 birdwatchers、led to establishment。原文可能用 prompted 表示 led to。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rick Bonney of the Cornell Laboratory of Ornithology in Ithaca, New York, contends that amateurs have contributed the most in his field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "紐約 Ithaca 的 Cornell Laboratory of Ornithology 的 Rick Bonney 主張，amateurs 在他的領域中貢獻最大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the past few years their observations have uncovered previously unknown trends and cycles in bird migrations and revealed declines in the breeding populations of several species of migratory birds, prompting a habitat conservation programme.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去幾年，他們的觀察揭示了過去未知的鳥類遷徙趨勢和週期，也顯示數種 migratory birds 的繁殖族群下降，因而促成了一項 habitat conservation programme。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 7 是 ornithology / birdwatchers 段，並且尾句直接說 amateur observations 促成 conservation programme。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“birdwatchers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“led to”"
+            },
+            {
+              "kind": "quote",
+              "text": "“establishment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are… as many as 60 million birdwatchers in America alone.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：單在美國，birdwatchers 數量據認為多達六千萬。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“prompting a habitat conservation programme.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：促成一項 habitat conservation programme。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“prompting” 表示導致、促成，對應題目的 “has led to the establishment of”。原文完整短語是 “a habitat conservation programme”。但題目要求 ONE or TWO WORDS，不能填三個詞。因此要在原文短語中取符合文法和字數限制的核心兩詞： conservation programme填入後句子是：“led to the establishment of a conservation programme.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法自然，意思也保留了原文核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案格式檢查： conservation programme 是兩個詞，符合 ONE or TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“habitat conservation programme” 是三個詞，超出題目限制。所以答案是 conservation programme。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易失分的是填三個詞 “habitat conservation programme”。雖然這是原文完整短語，但題目限制只能一至兩詞。遇到 word limit，要先保住格式，然後選最能維持句子核心意思的短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "acknowledge",
+      "answerKey": "acknowledge",
+      "type": "Summary Completion",
+      "prompt": "Question 8",
+      "translation": "只要 professional scientists 8 _____________ non-professionals 的工作，兩個群體就能有成效地合作。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…as long as the professional scientists 8 _____________ the work of the non-professionals, the two groups can work productively together.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於主語 “professional scientists” 後，受詞是 “the work”，所以需要動詞。題目問合作能否順利，定位要看 collaboration difficulties 和解決方法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8 and Paragraph 9 Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the successes and whatever the field of study, collaboration between amateurs and professionals is not without its difficulties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管有成功案例，而且不論是哪個研究領域，amateurs 和 professionals 之間的合作仍有困難。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Hunt says some amateur palaeontologists are disappointed when told that they cannot take finds home with them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hunt 博士說，一些 amateur palaeontologists 被告知不能把發現帶回家時會感到失望。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are legitimate concerns but none seems insurmountable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是合理的 concerns，但沒有一項看來是無法克服的。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He says that one of the main benefits of the prize is the endorsement it has given to the contributions of amateur scientists, which has done much to silence critics among those professionals who believe science should remain their exclusive preserve.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，這個獎項的主要好處之一，是它認可了 amateur scientists 的貢獻；這也大大令那些認為science 應繼續作為 professionals 專屬領地的批評者安靜下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 8 提出合作問題，Paragraph 9 提出這些問題可解決，並強調amateur contributions 需要獲得認可。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“professional scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“work of the non-professionals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“work productively together”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“A more serious problem is the question of how professionals can best acknowledge the contributions made by amateurs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個更嚴重的問題，是 professionals 應如何最好地 acknowledge amateurs 所作出的貢獻。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “the work of the non-professionals” 對應原文 “the contributions made by amateurs”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格要填 professionals 對 amateur contributions 應做的動作。原文動詞是 acknowledge，意思是承認、認可、表示重視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9 再補充，雙方事前 agree the terms，co-operation can flourish；這說明合作可順利發展。但 summary 的空格直接接 “the work of…” ，所以最合適的原文詞是 acknowledge。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “the work of the non-professionals”= 原文 “the contributions made by amateurs”題目 “professional scientists acknowledge…”= 原文 “professionals can best acknowledge…”答案格式檢查： acknowledge 是一個詞，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 acknowledge。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “agree”。Paragraph 9 的確說雙方要 agree the terms，但 summary 空格後面是 “the work of the non-professionals”。英文不能自然說 “scientists agree the work”。“acknowledge the work” 才同時符合文法和原文意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — Adrian Hunt",
+      "answerKey": "B — Adrian Hunt",
+      "type": "Matching Features",
+      "prompt": "“Amateur involvement can also be an instructive pastime.”",
+      "translation": "amateurs 的參與也可以是一種有教育意義的休閒活動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features，重點是把 opinion 配到正確人物。題目中的 “instructive pastime” 是改寫，原文不一定逐字出現。應掃描與 learning、education、recreation、volunteers 有關的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finding volunteers to look for fossils is not difficult, he says, because of the near-universal interest in anything to do with dinosaurs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，尋找 volunteers 去找化石並不困難，因為人們對任何與 dinosaurs 有關的東西幾乎都有普遍興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As well as helping with this research, volunteers learn about science, a process he calls‘recreational education’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了協助這項研究，volunteers 也學習科學；他把這個過程稱為 “recreational education”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 6 說 volunteers 因 dinosaurs 的吸引而參與找 fossils，同時在過程中學習科學。這正好對應題目的 “instructive pastime”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“instructive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pastime”"
+            },
+            {
+              "kind": "quote",
+              "text": "“amateur involvement”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 “instructive pastime”，但有非常接近的概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“volunteers learn about science”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recreational education”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“recreational education” 是本題核心。 recreational = 休閒的、娛樂性的。 education = 教育、學習。所以 “recreational education” 正好等於題目中的 “instructive pastime”：既是休閒活動，也有教育效果。人物確認要往前看 Paragraph 5：“Adrian Hunt, a palaeontologist at Mesa Technical College in New Mexico, insists…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New Mexico 的 Mesa Technical College 古生物學家 Adrian Hunt 堅持認為……Paragraph 6 的 “he says” 和 “he calls” 承接 Paragraph 5 的 Adrian Hunt。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “instructive”= 原文 “learn about science” / “education”題目 “pastime”= 原文 “recreational”題目 “Amateur involvement”= 原文 volunteers helping with fossil research所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 沒有再次寫 Adrian Hunt 的全名，只用 he。Matching Features 要處理代名詞：he 指前一段的 Adrian Hunt。如果只看 Paragraph 6，容易漏掉人物身份。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — Dr Fienberg",
+      "answerKey": "A — Dr Fienberg",
+      "type": "Matching Features",
+      "prompt": "“Amateur scientists are prone to accidents.”",
+      "translation": "amateur scientists 容易發生意外。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “prone to accidents” 可能由玩笑式語言表達，不一定直接出現 accidents。要找危險、爆炸、被關起來等語義。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Admittedly, some fields are more open to amateurs than others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "誠然，有些領域比其他領域更適合 amateurs 參與。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But amateurs can make valuable contributions in fields from rocketry to palaeontology, and the rise of the Internet has made it easier than before to collect data and distribute results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 amateurs 仍可在從 rocketry 到 palaeontology 的領域作出有價值的貢獻，而且 Internet 的興起令收集資料和發布結果比以前更容易。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段會先說 amateurs 參與科學的限制，再補充他們仍有貢獻。題目問accidents，應在本段中間尋找 “dangerous” 類內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“accidents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“amateur scientists”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And some kinds of research can be dangerous; most amateur chemists, jokes Dr Fienberg, are either locked up or have blown themselves to bits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且某些研究可能很危險；Dr Fienberg 開玩笑說，大多數 amateur chemists 要麼被關起來，要麼已經把自己炸成碎片。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說某些 research can be dangerous。後面的 “blown themselves to bits” 是誇張玩笑，表示 amateur chemists 容易因危險實驗出事。“locked up” 則暗示他們可能因危險或不當實驗受到管制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "說話者由 “jokes Dr Fienberg” 標明，所以人物是 Dr Fienberg。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “are prone to accidents”= 原文 “research can be dangerous” + “have blown themselves to bits”題目 “Amateur scientists”= 原文 “amateur chemists” 是其中一類 amateur scientists所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用一般說法 “amateur scientists”，原文例子是 “amateur chemists”。這是具體例子轉概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因題目配的是人物觀點，而 Fienberg 用 chemists 作玩笑例子說明 amateur research 可能危險，所以可接受。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "D — Dr Carlson",
+      "answerKey": "D — Dr Carlson",
+      "type": "Matching Features",
+      "prompt": "“Science does not belong to professional scientists alone.”",
+      "translation": "Science 不應只屬於 professional scientists。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目是一個立場句。要找誰反對 science 由 professionals 獨佔。定位詞是 professional scientists alone，原文可能用 exclusive preserve 這類比喻。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are legitimate concerns but none seems insurmountable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 concerns 都合理，但沒有一項看來無法克服。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He says that one of the main benefits of the prize is the endorsement it has given to the contributions of amateur scientists, which has done much to silence critics among those professionals who believe science should remain their exclusive preserve.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，這個獎項的主要好處之一，是它認可了 amateur scientists 的貢獻；這也大大令那些認為science 應繼續作為 professionals 專屬領地的批評者安靜下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 9 說 cooperation 的問題可以處理，而且 Carlson 的工作讓amateur scientists 的貢獻得到認可。最後一句中的 “exclusive preserve” 很接近題目 “belong to professional scientists alone”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“professional scientists alone”"
+            },
+            {
+              "kind": "quote",
+              "text": "“science belong”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“professionals who believe science should remain their exclusive preserve”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些相信 science 應繼續成為他們專屬領地的 professionals。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“exclusive preserve” 指某群體獨佔的領域。題目 “Science does not belong to professional scientists alone” 就是反對這種 exclusive preserve 的說法。段落中人物是：“Last year Dr S. Carlson, founder of the Society for Amateur Scientists…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，Society for Amateur Scientists 的創辦人 Dr S. Carlson……後文 “He says…” 指 Dr Carlson。Carlson 認為獎項的好處是 endorsement of amateur scientists’ contributions，這正好反映他支持 amateurs 在 science 中有正當位置。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “does not belong to professional scientists alone”= 原文反向表述 “science should remain their exclusive preserve” 的批評者被 silence題目中的立場= Carlson 支持 amateur scientists’ contributions 獲得認可所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的原文以反向方式表達：Carlson 沒有直接說 “science belongs to everyone”。他說獎項認可amateurs 的貢獻，並削弱了那些主張 science 應由 professionals 獨佔的批評者。題目把這個反向句轉成正面立場。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — Adrian Hunt",
+      "answerKey": "B — Adrian Hunt",
+      "type": "Matching Features",
+      "prompt": "“In certain areas of my work, people are a more valuable resource than technology.”",
+      "translation": "在我工作的某些部分，人比科技更有價值。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找的是 people vs technology 的比較。定位詞應該是 technology、equipment、human eyes、sensors 等。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another field in which amateurs have traditionally played an important role is palaeontology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個 amateurs 傳統上扮演重要角色的領域是 palaeontology。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the development of high-tech equipment, he says, the best sensors for finding fossils are human eyes—lots of them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，儘管高科技設備已經發展起來，尋找化石最好的感測器仍是人眼，而且要很多雙人眼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 5 的核心是 palaeontology 中 volunteers / human eyes 的價值。最後一句直接把 technology 和 people 作比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more valuable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“technology”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the development of high-tech equipment…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= technology"
+            },
+            {
+              "kind": "quote",
+              "text": "“the best sensors for finding fossils are human eyes—lots of them”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= people / many observers"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句由 “Despite” 開始，表示讓步：即使 high-tech equipment 已發展，最有效的 fossil-finding sensors 仍是 human eyes。這正是題目 “people are a more valuable resource than technology”的意思。"
+            },
+            {
+              "kind": "label",
+              "text": "人物確認："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adrian Hunt, a palaeontologist at Mesa Technical College in New Mexico, insists…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New Mexico 的 Mesa Technical College 古生物學家 Adrian Hunt 堅持認為……後面的 “he says” 指 Adrian Hunt。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “technology”= 原文 “high-tech equipment”題目 “people are a more valuable resource”= 原文 “the best sensors… are human eyes—lots of them”題目 “certain areas of my work”= 原文 “finding fossils” 這項 palaeontology 工作所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “in certain areas of my work”，不是說整個 palaeontology 完全不需要 technology。原文只聚焦 finding fossils 這個具體工作。因此答案成立的範圍是「找化石」這部分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — Rick Bonney",
+      "answerKey": "C — Rick Bonney",
+      "type": "Matching Features",
+      "prompt": "“It is important to give amateurs a name which reflects the value of their work.”",
+      "translation": "給 amateurs 一個能反映他們工作價值的名稱很重要。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 name 和 value，所以要找文章中誰提出替 amateurs 改名或創造新稱呼。定位詞是 term、amateur、citizen scientist、volunteer、disparaging。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the successes and whatever the field of study, collaboration between amateurs and professionals is not without its difficulties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管有成功案例，而且不論是哪個研究領域，amateurs 和 professionals 之間的合作仍有困難。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Hunt says some amateur palaeontologists are disappointed when told that they cannot take finds home with them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hunt 博士說，一些 amateur palaeontologists 被告知不能把發現帶回家時會感到失望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段討論合作中的問題，包括稱呼、補償、署名和發現物處理。題目問amateurs 的 name，應該在本段中段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“name”"
+            },
+            {
+              "kind": "quote",
+              "text": "“amateurs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“value of their work”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not everyone, for example, is happy with the term ‘amateur’. Mr Bonney has coined the term‘citizen scientist’ because he felt that other words, such as ‘volunteer’, sounded disparaging.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，並非每個人都喜歡 “amateur” 這個稱呼。Bonney 先生創造了 “citizen scientist” 這個詞，因為他覺得其他詞，例如 “volunteer”，聽起來帶有貶低意味。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“coined the term” 表示創造一個新名稱。“citizen scientist” 比 “volunteer” 更能表達 amateurs 在科學中的主動、正式和有價值角色。“sounded disparaging” 表示聽起來有貶低感；Bonney 想避免這種語氣，所以提出新名稱。人物是 Mr Bonney，即前文的 Rick Bonney。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “give amateurs a name”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “coined the term ‘citizen scientist’”題目 “reflects the value of their work”= 原文 avoid words that “sounded disparaging”所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易混淆 Paragraph 8 的多個人物。Dr Fienberg 談費用和 co-authors，Dr Hunt 談化石不能帶回家；只有 Rick Bonney 提出 “citizen scientist” 這個名稱。所以 Matching Features 要先鎖定人物動作：coined the term。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - In Praise of Amateurs.pdf",
+    "sha256": "448cbca2ec8d418e2d975875e6f03e407d3cce86bbc1b12eff9d2321abdd8352",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，可以看到文章先回到 17 世紀科學革命時期，指出早期科學研究大多由有私人財力的人為興趣進行；尾句則說，即使今日科學高度專門化，amateurs 仍然重要。本段功能是建立全文主旨：現代科學雖然由專家主導，但科學的根基來自 amateurs，而且他們今天仍有貢獻。"
+      },
+      {
+        "number": "2",
+        "summary": "首句提到 Dr Richard Fienberg 在 American Association for the Advancement of Science 會議上的 poll；尾句說 amateur scientists 並非古怪人士，很多與 professionals 保持密切聯繫，部分professionals 甚至十分依賴他們的合作。只看首尾句，可以知道本段用調查證明 amateurs 活躍於多個科學領域，並引出 professional-amateur co-operation 這個全文核心。"
+      },
+      {
+        "number": "3",
+        "summary": "首句以 Admittedly 開始，承認某些領域比其他領域更適合 amateurs；尾句說 Internet 的興起令收集資料和發布結果比以前更容易。只看首尾句，可以估計本段會先列出限制，例如昂貴設備和危險研究，然後指出 amateurs 仍可在 rocketry、palaeontology 等領域有價值，科技也降低了參與門檻。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說哪個學科最受 amateurs 貢獻仍有爭議；尾句舉例，若世界各地觀察者準確記錄星體被小行星遮掩的時間，就可推算小行星形狀。只看首尾句，可以看到本段主題是 astronomy。Dr Fienberg 認為天文學很能展示 amateur-professional collaboration 的價值，因 amateurs 人數多、分布廣，適合全球性觀測。"
+      },
+      {
+        "number": "5",
+        "summary": "首句介紹另一個傳統上依靠 amateurs 的領域：palaeontology；尾句說即使有高科技設備，尋找化石最好的感測器仍是大量 human eyes。只看首尾句，可以知道本段會轉到 Adrian Hunt 的觀點：古生物學尤其需要很多人實地觀察。重點在於人眼和志願者數量，在某些工作上比昂貴技術更有用。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說尋找志願者去找化石並不困難，原因是人們幾乎普遍對 dinosaurs 有興趣；尾句說volunteers 一邊幫忙研究，一邊學習科學，Hunt 稱之為 recreational education。只看首尾句，可以看到本段承接 palaeontology，補充 volunteers 的招募原因和教育價值。這段很可能回答「amateur involvement 也是有教育性的休閒活動」相關題目。"
+      },
+      {
+        "number": "7",
+        "summary": "首句引入 Cornell Laboratory of Ornithology 的 Rick Bonney，說他認為 amateurs 在 ornithology的貢獻最大；尾句說 amateur observations 揭示 migratory birds 的繁殖數量下降，促成 habitat conservation programme。只看首尾句，可以看到本段主題是 birdwatchers 的大規模資料收集。 amateurs 的數量和地理覆蓋，使他們能揭示鳥類遷徙和繁殖趨勢。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說雖然有成功案例，不同領域中的 amateur-professional collaboration 仍有困難；尾句說一些 amateur palaeontologists 被告知不能把發現帶回家時會感到失望。只看首尾句，可以估計本段集中處理合作中的摩擦，包括 “amateur” 一詞是否帶貶義、費用補償、論文署名、化石歸屬等問題。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說這些 concerns 合理，但看起來沒有一項無法解決；尾句說 Carlson 的獎項認可了amateur scientists 的貢獻，也使一些認為 science 應由 professionals 獨佔的人安靜下來。只看首尾句，可以知道本段的功能是提出解決方向：雙方事前講清合作條款，合作就能繼續發展；Dr Carlson 代表支持 amateurs 的立場。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 Carlson 的 Society for Amateur Scientists 正參與幾個計劃，包括火箭設計和低頻輻射與地震關係觀測網絡；尾句說 amateurs 曾為 science 打下基礎，未來仍會繼續為其擴展中的大廈作出貢獻。只看首尾句，可以看到全文收結：amateurs 提供熱情和才華，professionals 提供指導，兩者合作可令發現被嚴肅看待。 Answer Key Questio Answer n 1 scientists 2 science 3 fields 4 co-operation 5 observations 6 dinosaurs 7 conservation programme 8 acknowledge 9 B 10 A 11 D 12 B 13 C"
+      }
+    ]
+  }
+}

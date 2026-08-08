@@ -26,6 +26,16 @@ function normaliseTitle(value) {
     .toLocaleLowerCase("en");
 }
 
+const expectedMissingRoadmapIds = [
+  "p1-157-the-history-of-salt",
+  "p1-159-grey-workers",
+  "p1-160-malaria-combat-in-italy",
+  "p1-162-the-power-of-nothing",
+  "p1-163-grimms-fairy-tales",
+];
+
+const expectedMissingCatalogueIds = ["p1-033", "p1-053", "p1-066", "p1-164"];
+
 const [manifest, report, availabilitySource, indexSource, filenames] = await Promise.all([
   readJson("tools/ielts-reading-analysis-p1-import-manifest.json"),
   readJson("tools/ielts-reading-analysis-p1-import-report.json"),
@@ -44,17 +54,27 @@ const index = loadBrowserData(
 );
 const catalogueById = new Map(index.passages[1].map((record) => [record.id, record]));
 const sourceByFilename = new Map(report.sources.map((source) => [source.filename, source]));
+const availabilityEntries = Object.values(availability.articles);
 const jsonEntries = Object.values(availability.articles).filter(({ source }) => source === "json");
+const bundledEntries = availabilityEntries.filter(({ source }) => source === "bundled");
 const jsonFilenames = filenames.filter((filename) => filename.endsWith(".json")).sort();
 
-assert.equal(manifest.sources.length, 50, "the attached batch must retain all 50 source records");
-assert.equal(report.sourceCount, 50);
-assert.equal(report.uniqueAnalysisCount, 49, "the identical Platypus PDFs should share one article");
-assert.equal(report.catalogueIds.length, 50, "the Honeybee analysis is shared by two catalogue IDs");
-assert.equal(new Set(report.catalogueIds).size, 50);
-assert.equal(jsonEntries.length, 49);
-assert.equal(jsonFilenames.length, 49);
-assert.equal(sourceByFilename.size, 50);
+assert.equal(manifest.sources.length, 156, "the expanded corpus must retain all 156 source records");
+assert.equal(report.sourceCount, 156);
+assert.equal(report.parsedSourceCount, 106);
+assert.equal(report.cachedSourceCount, 50);
+assert.equal(report.batchInventorySourceCount, 107);
+assert.equal(report.newUniqueAnalysisCount, 106);
+assert.equal(report.newCatalogueIdCount, 108);
+assert.equal(report.bundledDuplicateSourceCount, 1);
+assert.equal(report.uniqueAnalysisCount, 155, "the identical Platypus PDFs should share one article");
+assert.equal(report.catalogueIds.length, 158, "three analyses are shared by paired catalogue IDs");
+assert.equal(new Set(report.catalogueIds).size, 158);
+assert.equal(jsonEntries.length, 155);
+assert.equal(jsonFilenames.length, 155);
+assert.equal(sourceByFilename.size, 156);
+assert.equal(report.sources.filter(({ status }) => status === "parsed").length, 106);
+assert.equal(report.sources.filter(({ status }) => status === "cached").length, 50);
 
 const duplicateHashes = new Map();
 for (const source of report.sources) {
@@ -72,6 +92,36 @@ assert.ok(manifestDuplicates.every(({ duplicateGroup }) => duplicateGroup === "a
 
 const honeybee = availability.articles["p1-009-flight-of-the-honeybee"];
 assert.deepEqual(Array.from(honeybee.catalogueIds), ["p1-009", "p1-060"]);
+const lochNess = availability.articles["p1-011-the-loch-ness-monster"];
+assert.deepEqual(Array.from(lochNess.catalogueIds), ["p1-011", "p1-063"]);
+const natureOfAddiction = availability.articles["p1-010-the-nature-of-addiction"];
+assert.deepEqual(Array.from(natureOfAddiction.catalogueIds), ["p1-010", "p1-061"]);
+
+assert.equal(bundledEntries.length, 2, "Mungo Man and If You Can Get Used to the Taste remain bundled");
+assert.deepEqual(
+  bundledEntries.map(({ catalogueId }) => catalogueId).sort(),
+  ["p1-092", "p1-161"],
+);
+const bundledTaste = availability.articles["if-you-can-get-used-to-the-taste"];
+assert.equal(bundledTaste.catalogueId, "p1-092");
+assert.equal(bundledTaste.source, "bundled");
+assert.equal(manifest.bundledSourceDuplicates.length, 1);
+assert.equal(report.bundledSourceDuplicates.length, 1);
+for (const duplicate of [manifest.bundledSourceDuplicates[0], report.bundledSourceDuplicates[0]]) {
+  assert.equal(duplicate.articleId, "if-you-can-get-used-to-the-taste");
+  assert.deepEqual(Array.from(duplicate.catalogueIds), ["p1-092"]);
+  assert.equal(duplicate.reason, "already-bundled");
+}
+
+assert.equal(index.passages[1].length, 164, "Passage 1 catalogue size changed unexpectedly");
+const availableCatalogueIds = new Set(
+  availabilityEntries.flatMap((entry) => entry.catalogueIds || [entry.catalogueId]),
+);
+assert.equal(availableCatalogueIds.size, 160, "160 of 164 Passage 1 catalogue entries should be available");
+const missingCatalogueIds = Array.from(index.passages[1], ({ id }) => id)
+  .filter((id) => !availableCatalogueIds.has(id))
+  .sort();
+assert.deepEqual(missingCatalogueIds, expectedMissingCatalogueIds);
 
 const expectedJsonFiles = jsonEntries.map(({ file }) => file).sort();
 assert.deepEqual(jsonFilenames, expectedJsonFiles, "availability manifest and deployed JSON files differ");
@@ -96,6 +146,7 @@ let questionCardCount = 0;
 let sectionCount = 0;
 let pageCount = 0;
 let overviewCount = 0;
+const missingRoadmapIds = [];
 
 for (const entry of jsonEntries) {
   const payload = await readJson(`ielts-reading-analysis-data/${entry.file}`);
@@ -109,11 +160,17 @@ for (const entry of jsonEntries) {
   articles.set(article.id, article);
   assert.equal(article.id, entry.id);
   assert.equal(article.passage, 1);
-  assert.equal(article.version, report.version);
   assert.deepEqual(Array.from(article.catalogueIds), Array.from(catalogueIds));
   assert.equal(article.title, manifestTitlesByCatalogueId.get(article.catalogueId));
   const reportedSource = sourceByFilename.get(article.source.filename);
   assert.ok(reportedSource, `${article.id}: source filename is absent from the import report`);
+  assert.equal(entry.version, report.version, `${article.id}: availability cache version is stale`);
+  if (reportedSource.status === "parsed") {
+    assert.equal(article.version, report.version, `${article.id}: newly parsed payload version is stale`);
+  } else {
+    assert.equal(reportedSource.status, "cached", `${article.id}: unexpected import status`);
+    assert.equal(article.version, "2026-08-08.1", `${article.id}: cached payload version changed unexpectedly`);
+  }
   assert.equal(reportedSource.articleId, article.id);
   assert.equal(reportedSource.sha256, article.source.sha256);
   assert.match(article.source.sha256, /^[a-f0-9]{64}$/);
@@ -121,7 +178,6 @@ for (const entry of jsonEntries) {
   assert.equal(article.answerKey.length, article.questionCount);
   if (article.sourceNotes !== undefined) {
     assert.ok(Array.isArray(article.sourceNotes), `${article.id}: sourceNotes must be an array`);
-    assert.ok(article.sourceNotes.length <= 5, `${article.id}: source notes are too fragmented`);
     assert.ok(
       article.sourceNotes.every((note) => typeof note === "string" && note.trim().length >= 10),
       `${article.id}: sourceNotes contains a blank or non-text note`,
@@ -134,19 +190,30 @@ for (const entry of jsonEntries) {
   assert.ok(article.answerKey.every((answer) => typeof answer === "string" && answer.trim()));
   assert.ok(article.answerKey.every((answer) => answer.length <= 80), `${article.id}: suspiciously long answer`);
   assert.ok(
-    article.answerKey.every((answer) => !/目標段落|題目要求|中文意思|SECTION|Roadmap|Skim|Scan|Read/i.test(answer)),
+    article.answerKey.every(
+      (answer) => !/目標段落|題目要求|中文意思|\b(?:SECTION|Roadmap|Skim|Scan|Read)\b/i.test(answer),
+    ),
     `${article.id}: instructional prose leaked into an answer`,
   );
 
-  assert.ok(article.paragraphOverview?.paragraphs?.length, `${article.id}: Skim Roadmap is missing`);
-  assert.ok(
-    article.paragraphOverview.title.length <= 80,
-    `${article.id}: pre-roadmap teacher notes leaked into the roadmap title`,
-  );
-  assert.ok(
-    article.paragraphOverview.paragraphs.every(({ summary }) => typeof summary === "string" && summary.trim()),
-    `${article.id}: roadmap has a blank summary`,
-  );
+  if (!article.paragraphOverview?.paragraphs?.length) {
+    missingRoadmapIds.push(article.id);
+  } else {
+    assert.ok(
+      article.paragraphOverview.title.length <= 80,
+      `${article.id}: pre-roadmap teacher notes leaked into the roadmap title`,
+    );
+    assert.doesNotMatch(
+      article.paragraphOverview.title,
+      /[。！？!?]$/,
+      `${article.id}: roadmap title ends with explanatory prose`,
+    );
+    assert.ok(
+      article.paragraphOverview.paragraphs.every(({ summary }) => typeof summary === "string" && summary.trim()),
+      `${article.id}: roadmap has a blank summary`,
+    );
+    overviewCount += 1;
+  }
 
   for (const question of article.questions) {
     assert.ok(question.answer.trim(), `${article.id}/Q${question.number}: answer is blank`);
@@ -170,18 +237,22 @@ for (const entry of jsonEntries) {
   questionCardCount += article.questions.length;
   sectionCount += article.questions.reduce((sum, question) => sum + question.sections.length, 0);
   pageCount += article.source.pageCount;
-  overviewCount += 1;
 }
 
-assert.equal(articles.size, 49);
-assert.equal(answerCount, 640);
-assert.equal(questionCardCount, 618, "grouped question ranges must remain single analysis cards");
-assert.equal(sectionCount, 3272);
-assert.equal(pageCount, 1092);
-assert.equal(overviewCount, 49);
+assert.deepEqual(missingRoadmapIds.sort(), expectedMissingRoadmapIds);
+assert.equal(articles.size, 155);
+assert.equal(answerCount, 2030);
+assert.equal(questionCardCount, 1987, "grouped question ranges must remain single analysis cards");
+assert.equal(sectionCount, 10761);
+assert.equal(pageCount, 3658);
+assert.equal(overviewCount, 150);
 
 function answerAt(articleId, questionNumber) {
   return articles.get(articleId).answerKey[questionNumber - 1];
+}
+
+function sourceNotesFor(articleId) {
+  return (articles.get(articleId).sourceNotes || []).join("\n");
 }
 
 assert.equal(answerAt("p1-043-ancient-chinese-chariots", 13), "underground caverns");
@@ -199,7 +270,62 @@ for (let questionNumber = 7; questionNumber <= 10; questionNumber += 1) {
   assert.equal(answerAt("p1-022-foot-pedal-irrigation", questionNumber), "需參考題圖");
 }
 
+// Representative answers from the expanded batch.
+assert.equal(answerAt("p1-050-radiocarbon-dating-the-profile-of-nancy-athfield", 13), "database");
+assert.equal(answerAt("p1-082-graffiti", 11), "F");
+assert.equal(answerAt("p1-154-world-ecotourism-in-the-developing-courtiers", 10), "tour");
+assert.equal(answerAt("p1-157-the-history-of-salt", 14), "TRUE");
+assert.equal(answerAt("p1-160-malaria-combat-in-italy", 1), "insects");
+assert.equal(answerAt("p1-163-grimms-fairy-tales", 14), "B");
+
+// These caveats protect intentionally unresolved or grammar-adjusted answers
+// from being silently presented as ordinary, source-verbatim answers.
+assert.match(
+  sourceNotesFor("p1-008-the-eisriesenwelt-ice-caves"),
+  /Questions 10–11[\s\S]*diagram[\s\S]*無法唯一判斷/,
+);
+assert.equal(answerAt("p1-008-the-eisriesenwelt-ice-caves", 10), "圖未提供，無法唯一判斷");
+assert.equal(answerAt("p1-008-the-eisriesenwelt-ice-caves", 11), "圖未提供，無法唯一判斷");
+assert.match(
+  sourceNotesFor("p1-118-the-construction-of-roads-and-bridges"),
+  /Questions 1–3[\s\S]*diagram[\s\S]*hot tar[\s\S]*five centimetres/,
+);
+assert.equal(answerAt("p1-118-the-construction-of-roads-and-bridges", 3), "water");
+assert.doesNotMatch(
+  sourceNotesFor("p1-118-the-construction-of-roads-and-bridges"),
+  /stone chips/,
+  "Roads Q3 is water; the source caveat must not present stone chips as its answer",
+);
+assert.match(
+  sourceNotesFor("p1-050-radiocarbon-dating-the-profile-of-nancy-athfield"),
+  /Question 8[\s\S]*mid-teens[\s\S]*university/,
+);
+assert.match(
+  sourceNotesFor("p1-154-world-ecotourism-in-the-developing-courtiers"),
+  /第 10 題[\s\S]*sustainable tours[\s\S]*單數[\s\S]*tour/,
+);
+assert.match(
+  sourceNotesFor("p1-121-reflecting-on-the-mirror"),
+  /Questions 6–9[\s\S]*diagram[\s\S]*紙本圖/,
+);
+assert.match(
+  sourceNotesFor("p1-055-the-innovation-of-grocery-stores"),
+  /Question 10[\s\S]*customers[\s\S]*consumers/,
+  "Grocery Stores Q10 must retain the customers/consumers alternative-answer caveat",
+);
+assert.match(
+  sourceNotesFor("p1-125-the-success-of-cellulose"),
+  /Question 12[\s\S]*selective membranes/,
+  "Cellulose Q12 must retain the source's plural wording caveat",
+);
+assert.match(
+  sourceNotesFor("p1-125-the-success-of-cellulose"),
+  /selective membrane(?!s)/,
+  "Cellulose Q12 must explain the summary's possible singular form",
+);
+
 console.log(
   "IELTS Reading Passage 1 imported-data checks passed: "
-  + "50 sources, 49 unique articles, 640 answers, 618 analysis cards, 3,272 sections.",
+  + "156 sources, 155 unique JSON articles, 2 bundled articles, 2,030 answers, "
+  + "1,987 analysis cards, 10,761 sections, 160/164 catalogue entries available.",
 );

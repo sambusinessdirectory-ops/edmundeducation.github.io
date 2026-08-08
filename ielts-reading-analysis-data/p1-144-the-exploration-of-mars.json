@@ -1,0 +1,2376 @@
+{
+  "id": "p1-144-the-exploration-of-mars",
+  "catalogueId": "p1-144",
+  "catalogueIds": [
+    "p1-144"
+  ],
+  "passage": 1,
+  "title": "The Exploration of Mars",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "D",
+    "H",
+    "A",
+    "G",
+    "E",
+    "F",
+    "C",
+    "B",
+    "B",
+    "A",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“Evidence of Mars found on Earth”",
+      "translation": "在地球上找到的火星證據。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問哪一段包含「火星物質或火星證據在地球上被發現」這個資訊。最強定位詞是 “Mars found on Earth”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Martian meteorite found on Earth raised doubts about the preceding analysis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在地球上發現的火星隕石，令前面的分析受到質疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The size and shape of the objects are consistent with terrestrial fossilised nanobacteria, but the existence of nanobacteria themselves remains controversial.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些物體的大小和形狀與地球上化石化的 nanobacteria 一致，但 nanobacteria 本身是否存在仍有爭議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 明顯處理 Martian meteorite found on Earth，並討論它是否可能包含微生物相關跡象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Mars found on Earth” 在原文以 “Martian meteorite found on Earth” 出現。這是幾乎原字重現的定位。中間還有 “ALH84001 meteorite was discovered in December 1984 in Antarctica”，進一步說明地球上的發現地點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ALH84001 meteorite was discovered in December 1984 in Antarctica, by members of the ANSMET project.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ALH84001 隕石於 1984 年 12 月在南極洲被 ANSMET project 的成員發現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evidence of Mars found on Earth”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Martian meteorite found on Earth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discovered ... in Antarctica”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： Mars evidence = Martian meteorite found on Earth = discovered in Antarctica判斷： Paragraph D 包含在地球上發現火星隕石的資訊，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也有很多 Mars probes，但那些是太空探測器從火星傳回資料，不是在地球上找到火星物質。Question 1 的控制詞是 “found on Earth”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“The possibility that life on Mars and Earth had a common origin”",
+      "translation": "火星生命與地球生命可能有共同起源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even more intriguing, however, is the alternative scenario proposed by the Spanish scientists: those samples might be found to use DNA, as life on Earth does, as their genetic code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，更引人入勝的是西班牙科學家提出的另一種情境：那些樣本可能被發現也像地球生命一樣使用 DNA 作為遺傳密碼。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If not, we would continue to search for signs of life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果情況並非如此，我們仍會繼續尋找生命跡象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 的功能是提出較大膽的生命起源推測：火星樣本若也使用 DNA，會帶出 Mars 和 Earth 生命之間的共同來源問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“life on Mars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Earth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“common origin”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 直接出現 “common origin for Martian and Earthly life”，這是最強證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such a finding would indicate a common origin for Martian and Earthly life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣的發現會顯示火星生命和地球生命有共同起源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“life on Mars and Earth had a common origin”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a common origin for Martian and Earthly life”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： life on Mars = Martian life life on Earth = Earthly life had a common origin = indicate a common origin判斷： Paragraph H 直接包含題目所需資訊，所以答案是 H。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也提到 Mars-like microbes，但只是在講儀器能否偵測類似微生物。common origin這個概念只在 Paragraph H 出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“Canals depicted specifically as an agricultural system”",
+      "translation": "運河被具體描繪成農業灌溉系統。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1877, Giovanni Schiaparelli, an Italian astronomer, made drawings and maps of the Martian surface that suggested strange features.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1877 年，意大利天文學家 Giovanni Schiaparelli 畫出火星表面的圖畫和地圖，顯示一些奇怪特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drawings and globes he made show a network of canals and oases all over the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他製作的圖畫和火星儀顯示整個星球遍布運河和綠洲網絡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都和早期火星圖像、線條、canals、oases 有關。題目問 agricultural system，所以要在這段尋找 crops、irrigate、vegetation 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“canals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“agricultural”"
+            },
+            {
+              "kind": "quote",
+              "text": "“system”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“dug to irrigate crops”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fertile vegetation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“canal”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lowell was convinced a great network of canals had been dug to irrigate crops for the Martian race!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lowell 深信一個巨大的運河網絡是為火星種族灌溉農作物而挖掘出來的。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He suggested that each canal had fertile vegetation on either side, making them noticeable from Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他提出每條運河兩旁都有肥沃植被，因此從地球上可以看見它們。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“canals depicted specifically as an agricultural system”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“canals had been dug to irrigate crops”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fertile vegetation on either side”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： agricultural system = irrigation for crops + fertile vegetation depicted = Lowell suggested / drawings showed判斷： Paragraph A 把 canals 和 irrigating crops、fertile vegetation 直接連起來，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 講 Martians 和科幻入侵，但沒有把 canals 描述為農業系統。Question 3 的關鍵在crops 和 irrigation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“A project designed to identify life under Mars-like conditions”",
+      "translation": "一個設計來在類火星條件下識別生命的項目。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using SOLID, a detector for signs of life that could also be used in environments similar to the Martian subsoil, researchers from the Centre of Astrobiology in Spain and the Catholic University of the North in Chile found an ‘oasis’ of microorganisms two metres below the surface of the Atacama Desert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "西班牙天體生物學中心和智利北方天主教大學的研究者使用 SOLID 這種生命跡象探測器，在Atacama Desert 地表下兩米找到一個微生物「綠洲」；這種探測器也可用於類似火星地下土壤的環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“If similar microbes exist on Mars, or if their remains have survived in conditions like those we found in the Atacama Desert, we could detect them with instruments like SOLID,” Parro said."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Parro 說，如果火星上存在類似微生物，或其遺骸在 Atacama Desert 類似條件下保存下來，科學家可用 SOLID 這類儀器偵測它們。首尾句都直接指向 SOLID、life detection、Mars-like subsoil、Atacama Desert。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“project”"
+            },
+            {
+              "kind": "quote",
+              "text": "“identify life”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mars-like conditions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文雖然沒有用 project 一字，但有 “Using SOLID, a detector for signs of life” 和 “environments similar to the Martian subsoil”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using SOLID, a detector for signs of life that could also be used in environments similar to the Martian subsoil...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 SOLID，一種可偵測生命跡象的探測器，也可用於類似火星地下土壤的環境。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“designed to identify life”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a detector for signs of life”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“under Mars-like conditions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“environments similar to the Martian subsoil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conditions like those we found in the Atacama Desert”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph G 包含用 SOLID 在類火星環境中尋找生命跡象的內容，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也講 water and possible past life，但任務本身是尋找 liquid water 證據。Question 4要找的是 life detector / SOLID。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“A dramatic change in the Martian climate”",
+      "translation": "火星氣候的劇烈變化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1965, the Mariner 4 probe discovered that Mars had no global magnetic field that would protect the planet from potentially life-threatening cosmic radiation and solar radiation; observations made in the late 1990s by the Mars Global Surveyor confirmed this discovery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1965 年，Mariner 4 探測器發現火星沒有全球磁場可保護它免受可能威脅生命的宇宙輻射和太陽輻射；1990 年代末 Mars Global Surveyor 的觀察確認了這項發現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to scientists’ assessments, Mars’s climate gradually changed from warm and wet to cold and dry after its magnetic field vanished.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據科學家的評估，火星磁場消失後，火星氣候逐漸由溫暖潮濕變成寒冷乾燥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接給出 climate changed from warm and wet to cold and dry。這就是題目中的 dramatic change。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“dramatic change”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Martian climate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mars’s climate gradually changed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“from warm and wet to cold and dry”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Disappearance of the magnetic field may have played a significant role in the process of Martian climate change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "磁場消失可能在火星氣候變化過程中發揮了重要作用。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mars’s climate gradually changed from warm and wet to cold and dry after its magnetic field vanished.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "磁場消失後，火星氣候逐漸由溫暖潮濕變成寒冷乾燥。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“dramatic change in the Martian climate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martian climate change”"
+            },
+            {
+              "kind": "quote",
+              "text": "“from warm and wet to cold and dry”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph E 清楚處理火星氣候大變化，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也提到 ancient wet planet 和 present low pressure / temperature，但它的主軸是liquid water search。真正講 climate change mechanism 的是 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Scientific attempts to find liquid water”",
+      "translation": "科學家尋找液態水的嘗試。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“NASA’s recent missions have focused on another question: whether Mars held lakes or oceans of liquid water on its surface in the ancient past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NASA 近期任務集中於另一個問題：火星古代是否曾在表面擁有液態水湖泊或海洋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“ESA confirmed that the Mars Express orbiter had directly detected huge reserves of water ice at Mars’s south pole in January 2004.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ESA 確認 Mars Express orbiter 於 2004 年 1 月直接探測到火星南極有大量水冰儲備。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都和 water 有關，第一句尤其直接說 liquid water。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientific attempts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“find liquid water”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“NASA’s recent missions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mars Exploration Rovers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“evidence of liquid water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Opportunity had discovered evidence”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, the mission of the Mars Exploration Rovers of 2004 was not to look for present or past life, but for evidence of liquid water on the surface of Mars in the planet’s ancient past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，2004 年 Mars Exploration Rovers 的任務不是尋找現在或過去的生命，而是尋找火星古代表面曾有液態水的證據。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientific attempts to find liquid water”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“NASA’s recent missions have focused...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the mission ... was ... for evidence of liquid water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph F 的核心就是尋找火星古代液態水證據，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 的 microbial oasis 和 Mars-like subsoil 也很科學，但焦點在生命偵測。Question 6的關鍵詞是 liquid water。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "C — Mars showed signs of deliberately constructed waterways and agriculture similar to",
+      "answerKey": "C — Mars showed signs of deliberately constructed waterways and agriculture similar to",
+      "type": "Multiple Choice",
+      "prompt": "“What did Percival Lowell conclude from his observations of Mars?”",
+      "translation": "Percival Lowell 從他的火星觀察中得出甚麼結論？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Earth’s."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1877, Giovanni Schiaparelli, an Italian astronomer, made drawings and maps of the Martian surface that suggested strange features.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1877 年，意大利天文學家 Giovanni Schiaparelli 畫出火星表面圖像和地圖，顯示奇怪特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drawings and globes he made show a network of canals and oases all over the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他製作的圖畫和火星儀顯示整個星球有運河和綠洲網絡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示這段會講早期天文觀察和 canals。題目點名 Percival Lowell，所以要讀 A 段中間他的觀察和結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Percival Lowell”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conclude”"
+            },
+            {
+              "kind": "quote",
+              "text": "“observations”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1894, an American astronomer, Percival Lowell, made a series of observations of Mars...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lowell was convinced a great network of canals had been dug to irrigate crops for the Martian race!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lowell 深信一個巨大的運河網絡是火星種族為灌溉農作物而挖掘出來的。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“He suggested that each canal had fertile vegetation on either side, making them noticeable from Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他提出每條運河兩旁都有肥沃植被，因此從地球上可以注意到它們。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Arizona was the ideal place from which to observe the planet.原文只說 Lowell 在 Arizona 的 Flagstaff observatory 觀察火星，沒有說 Arizona 是 ideal place。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The canals on Mars were wider than waterways on Earth.原文沒有比較火星運河和地球水道的寬度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Mars showed signs of deliberately constructed waterways and agriculture similar to Earth’s.正確。canals had been dug 表示有意建造；irrigate crops 和 fertile vegetation 表示農業灌溉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The observations revealed active Martian life.原文說 Lowell believed in a Martian race and canals，沒有說他直接觀察到 active Martian life。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個選項把推測說成直接觀察結果，範圍過大。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "deliberately constructed waterways= canals had been dug agriculture= irrigate crops / fertile vegetation判斷：答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B — People learnt about Mars through popular literature.",
+      "answerKey": "B — People learnt about Mars through popular literature.",
+      "type": "Multiple Choice",
+      "prompt": "“How did public views of Mars change from the nineteenth century onwards?”",
+      "translation": "從十九世紀起，公眾對火星的看法如何改變？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea that there was intelligent life on Mars gained strength in the late 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀末，火星上有智慧生命的想法變得越來越有影響力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People ran into the streets in their pyjamas—millions believed the dramatic reports of a Martian invasion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們穿著睡衣跑到街上，數百萬人相信火星入侵的戲劇性報道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph B 的主題是公眾對 Martian intelligent life / invasion 的想像如何增強。段中會出現小說和廣播等大眾文化材料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“public views”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nineteenth century onwards”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“gained strength in the late 19th century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“H.G. Wells wrote...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Edgar Rice Burroughs wrote...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gripped the public’s imagination”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1898, H.G. Wells wrote a science fiction classic, The War of the Worlds, about an invading force of Martians who try to conquer Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1898 年，H.G. Wells 寫了科幻經典《世界大戰》，內容是火星入侵者試圖征服地球。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1917, Edgar Rice Burroughs wrote the first in a series of 11 novels about Mars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1917 年，Edgar Rice Burroughs 寫下 11 部火星系列小說中的第一部。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Strange beings and rampaging Martian monsters gripped the public’s imagination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "奇異生物和橫衝直撞的火星怪物抓住了公眾想像力。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A People believed they had experienced a Martian attack.這只對應 1938 年廣播造成的 panic，一個具體事件，未能概括十九世紀以來公眾想像的形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B People learnt about Mars through popular literature.正確。這裡的 “learnt about Mars” 不等於學到準確科學知識，而是透過 Wells、Burroughs 等大眾文學建立火星人、入侵、怪物等想像。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C People acquired new ideas by listening to a famous radio programme.這只對應 Orson Welles 的廣播，範圍比段落主題窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D People attended public lectures about Mars.原文沒有 public lectures。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "popular literature= science fiction classic / novels about Mars public views changed= intelligent life idea gained strength / gripped the public’s imagination判斷：答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — It appeared less vivid and hospitable than Earth.",
+      "answerKey": "B — It appeared less vivid and hospitable than Earth.",
+      "type": "Multiple Choice",
+      "prompt": "“According to the probes sent into space in the 1960s, which statement about Mars is correct?”",
+      "translation": "根據 1960 年代發射到太空的探測器，哪一句關於火星的說法正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Probes are very important to our understanding of other planets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "探測器對我們理解其他行星非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although no life was found, they sent back the first colour pictures of the planet’s surface and atmosphere from pivoting cameras.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然沒有發現生命，它們仍透過旋轉攝影機傳回火星表面和大氣的第一批彩色照片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示這段講 probes 帶來的火星知識。題目限定 1960s，所以要看 Mariner 4、Mariners 6 and 7。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“probes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1960s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“correct statement”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文相關年份： 1965 — Mariner 4 1969 — Mariners 6 and 7"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first images sent back from Mars came from Mariner 4 in July 1965. They showed a cratered and barren landscape, more like the surface of our Moon than Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一批從火星傳回的影像來自 1965 年 7 月的 Mariner 4。影像顯示火星是一片有坑洞、荒蕪的地貌，比起地球，更像月球表面。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Its landscape was full of rocks and rivers.原文有 cratered and barren，沒有 rivers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B It appeared less vivid and hospitable than Earth.正確。barren landscape 和 more like the Moon than Earth 表示它看起來荒蕪、不宜居，跟地球相比較缺乏生命感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Its surface consisted of the same substance as the Moon.原文只說 more like the surface of our Moon，這是地貌相似，不代表物質相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Later probes returned identical images.原文說 Mariners 6 and 7 took 200 photographs but provided little additional information。little additional information 不等於 identical images。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cratered and barren= less vivid and hospitable more like Moon than Earth= less Earth-like / less hospitable than Earth判斷：答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — It could investigate organisms under Martian-like conditions.",
+      "answerKey": "A — It could investigate organisms under Martian-like conditions.",
+      "type": "Multiple Choice",
+      "prompt": "“What was the significance of the project using SOLID in the Atacama Desert?”",
+      "translation": "在 Atacama Desert 使用 SOLID 的項目有甚麼重要性？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using SOLID, a detector for signs of life that could also be used in environments similar to the Martian subsoil, researchers ... found an ‘oasis’ of microorganisms two metres below the surface of the Atacama Desert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者使用 SOLID 這種生命跡象探測器，在 Atacama Desert 地下兩米找到微生物「綠洲」；這種探測器也可用於類似火星地下土壤的環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“If similar microbes exist on Mars, or if their remains have survived in conditions like those we found in the Atacama Desert, we could detect them with instruments like SOLID,” Parro said."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Parro 說，如果火星上有類似微生物，或它們的遺骸在類似 Atacama Desert 的條件下保存下來，科學家可以用 SOLID 這類儀器偵測。首尾句都明確說 SOLID 可在類似火星地下條件中找生命跡象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：“SOLID”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Atacama Desert”"
+            },
+            {
+              "kind": "quote",
+              "text": "“significance”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 “could also be used in environments similar to the Martian subsoil” 是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We have named it a ‘microbial oasis’ because we found microorganisms developing in a habitat that was rich in rock salt and other highly hygroscopic compounds that absorb water,”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "explained Victor Parro."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Victor Parro 解釋說，他們把它命名為「微生物綠洲」，因為他們在一個富含岩鹽和其他高度吸水化合物的棲息地中，發現微生物正在生長。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If similar microbes exist on Mars ... we could detect them with instruments like SOLID.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果火星上存在類似微生物，科學家可用 SOLID 類儀器偵測它們。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A It could investigate organisms under Martian-like conditions.正確。SOLID 可偵測類火星地下條件中的生命跡象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B It could not detect life in Mars-like conditions.原文方向相反。Parro 說 could detect。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C It proved that the Atacama was the only suitable test site.原文沒有 only suitable test site。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D It found that no life existed in the desert.原文相反：found an ‘oasis’ of microorganisms。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "organisms= microorganisms / microbes Martian-like conditions= environments similar to the Martian subsoil / conditions like those in the Atacama Desert判斷：答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“According to The War of the Worlds, Martian technology was superior to human technology in every field at that time.”",
+      "translation": "根據《世界大戰》，當時火星科技在每一個領域都優於人類科技。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目由三部分組成：The War of the Worlds、Martian technology superior to human technology、in every field。真正控制答案的是 “in every field”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea that there was intelligent life on Mars gained strength in the late 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀末，火星上有智慧生命的想法越來越有影響力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People ran into the streets in their pyjamas—millions believed the dramatic reports of a Martian invasion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們穿著睡衣跑到街上，數百萬人相信火星入侵的戲劇性報道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 主要講火星智慧生命想像和 public panic。The War of the Worlds 在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“The War of the Worlds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“superior”"
+            },
+            {
+              "kind": "quote",
+              "text": "“every field”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“They use highly advanced technology (advanced for 1898) to crush human resistance in their path.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They use highly advanced technology (advanced for 1898) to crush human resistance in their path.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們使用高度先進的科技，以粉碎沿途的人類抵抗；這些科技以 1898 年標準來說是先進的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Martian technology動作 / 關係：was superior to human technology範圍：in every field時間：at that time原文命題：主體：Martians in The War of the Worlds動作：use highly advanced technology用途：crush human resistance範圍：沒有說 every field時間：advanced for 1898"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“highly advanced technology” 可以支持火星人科技很先進，尤其在入侵和戰鬥方面。可是題目加入 “in every field”，這需要文章說明火星科技在所有領域都優於人類，例如交通、通訊、醫學、能源等。原文沒有這種全範圍比較。判斷：文章沒有提供 “every field” 的資料，也沒有明確說並非所有領域。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “highly advanced technology” 就選 TRUE。真正要檢查的是範圍詞 “in every field”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。IELTS 的 all / every 類詞需要非常強的原文支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The evidence returned by the Viking probes has never been challenged.”",
+      "translation": "Viking probes 傳回的證據從未受到質疑。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Viking probes 的結果是否 “has never been challenged”。控制詞是 “never”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C 和 Paragraph D。這題需要跨段。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Probes are very important to our understanding of other planets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "探測器對我們理解其他行星非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although no life was found, they sent back the first colour pictures of the planet’s surface and atmosphere from pivoting cameras.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然沒有發現生命，它們仍傳回火星表面和大氣的第一批彩色照片。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Martian meteorite found on Earth raised doubts about the preceding analysis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在地球上發現的火星隕石令前面的分析受到質疑。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 時可見",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 段講 Viking probes 沒有找到生命；D 段一開頭說後來的 Martian meteorite 對前"
+            },
+            {
+              "kind": "paragraph",
+              "text": "面分析提出疑問。這兩段要連讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Viking probes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“never challenged”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 找到 Viking probes；Paragraph D 找到 “raised doubts”。這個短語就是 challenged的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1975, the USA sent two Viking probes to the planet, each with a lander and an orbiter. The landers had sampler arms to scoop up Martian rocks and did experiments to try to find signs of life. Although no life was found...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1975 年，美國向火星發射兩個 Viking probes，每個都有 lander 和 orbiter。登陸器有取樣臂，可舀起火星岩石，並進行實驗以尋找生命跡象。雖然沒有發現生命……Paragraph D 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Martian meteorite found on Earth raised doubts about the preceding analysis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在地球上發現的火星隕石，令前面的分析受到質疑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “has never been challenged”。原文 D 段用 “raised doubts” 清楚表示後來的 meteorite 令前面分析產生疑問。這和 “never been challenged” 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“has never been challenged”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“raised doubts about the preceding analysis”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： raised doubts = challenged / questioned never challenged = no one raised doubts判斷：原文有明確相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Although no life was found” 很容易讓學生以為 Viking conclusion 很穩定。但下一段開頭的“raised doubts” 是真正定案詞。遇到跨段承接句時，要特別留意 preceding analysis 這類回指語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Analysis of a Martian meteorite found a substance associated with certain microorganisms.”",
+      "translation": "對火星隕石的分析發現了一種與某些微生物有關的物質。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 meteorite analysis 是否 found a substance associated with microorganisms。定位詞很強：Martian meteorite、analysis、microorganisms。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Martian meteorite found on Earth raised doubts about the preceding analysis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在地球上發現的火星隕石令前面的分析受到質疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The size and shape of the objects are consistent with terrestrial fossilised nanobacteria, but the existence of nanobacteria themselves remains controversial.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些物體的大小和形狀與地球上化石化 nanobacteria 一致，但 nanobacteria 本身是否存在仍有爭議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示 D 段討論火星隕石與可能的微生物證據。題目中的 analysis 很可能對應中間的composition analysis。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Analysis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Martian meteorite”"
+            },
+            {
+              "kind": "quote",
+              "text": "“substance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“microorganisms”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Composition analysis by NASA revealed a kind of magnetite...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only found in association with certain microorganisms”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Composition analysis by NASA revealed a kind of magnetite that, on Earth, is only found in association with certain microorganisms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NASA 的成分分析顯示其中有一種 magnetite；在地球上，這種 magnetite 只會與某些微生物相關地被發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Analysis of a Martian meteorite= Composition analysis by NASA of ALH84001 meteorite found a substance= revealed a kind of magnetite associated with certain microorganisms= only found in association with certain microorganisms判斷：題目和原文完全同方向，只是把 magnetite 概括成 a substance。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段末說 “nanobacteria themselves remains controversial”，但這並不否定 magnetite 被發現，也不否定它在地球上與某些微生物相關。爭議點在 nanobacteria 是否存在，不在 magnetite 是否被分析發現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“According to Víctor Parro, SOLID will be deployed on Mars after DNA is identified on Earth.”",
+      "translation": "根據 Víctor Parro，SOLID 會在地球上識別 DNA 後被部署到火星。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查四個元素：Víctor Parro、SOLID、will be deployed on Mars、after DNA is identified on Earth。當中最危險的是 “will be deployed” 和 “after”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G，並留意 Paragraph H 的 DNA。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using SOLID, a detector for signs of life that could also be used in environments similar to the Martian subsoil...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者使用 SOLID 這種生命跡象探測器；它也可用於類似火星地下土壤的環境。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“If similar microbes exist on Mars, or if their remains have survived in conditions like those we found in the Atacama Desert, we could detect them with instruments like SOLID,” Parro said."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Parro 說，如果火星上存在類似微生物，或其遺骸在類似 Atacama Desert 的條件下保存下來，可用 SOLID 這類儀器偵測。 Paragraph H 第一句提到 DNA，但說的是另一個 alternative scenario，且不是 Parro 的部署計劃。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：“Víctor Parro”"
+            },
+            {
+              "kind": "quote",
+              "text": "“SOLID”"
+            },
+            {
+              "kind": "quote",
+              "text": "“DNA”"
+            },
+            {
+              "kind": "quote",
+              "text": "“will be deployed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“after”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 有 Parro 和 SOLID；Paragraph H 有 DNA。可是文章沒有 “will be deployed on Mars” 或 “after DNA is identified on Earth” 這種時間安排。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“If similar microbes exist on Mars, or if their remains have survived in conditions like those we found in the Atacama Desert, we could detect them with instruments like SOLID,” Parro said."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Parro 說，如果火星上有類似微生物，或其遺骸在類似 Atacama Desert 的條件下保存下來，科學家可用 SOLID 這類儀器偵測。這句只說 “could detect”，表示能力或可能用途。它沒有說： SOLID 一定會被部署到火星；部署時間在甚麼時候；部署條件是先在地球上識別 DNA； Parro 把 SOLID 和 DNA identification 安排成前後步驟。 Paragraph H 的 DNA 句子是：“those samples might be found to use DNA, as life on Earth does, as their genetic code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些樣本可能被發現也像地球生命一樣使用 DNA 作為遺傳密碼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是西班牙科學家提出的 alternative scenario，沒有說 “after DNA is identified on Earth”，也沒有說 SOLID will be deployed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供 SOLID 可能偵測火星類微生物的資料，也提供 DNA common origin 的推測，但沒有把兩者連成題目所說的部署時間表。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易把 Paragraph G 的 SOLID 和 Paragraph H 的 DNA 拼在一起。IELTS 常考「相鄰概念拼接」：兩個概念都出現了，不代表文章建立了題目所需的因果或時間關係。真正缺少的是 “will be deployed” 和 “after”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後方法總結這篇文章的主線很清楚：A–B 先講早期觀測與公眾想像，C–F 轉向探測器、隕石、磁場和水，G–H再進入類火星環境生命偵測與生命共同起源推測。做題時，Matching Information 要用稀有名詞定位，例如 SOLID、meteorite、DNA、liquid water；MCQ 要小心選項是否把原文推得太遠；TRUE/ FALSE / NOT GIVEN 則要特別檢查 every、never、will、after 這類限制詞。最穩的方法仍是：先看段落功能，再掃描高價值詞，最後細讀主語、動詞、時間、範圍和推論邊界。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Exploration of Mars.pdf",
+    "sha256": "d1601067ea0f56db542607cc34134d2c71edab6a69f778721def189a45b2e1bb",
+    "pageCount": 28
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句提到 1877 年 Schiaparelli 觀察火星表面並畫出奇怪特徵；尾句說 Lowell 的圖畫和火星儀顯示火星遍布 canals 和 oases。只看首尾句，可以先估計這段會講早期天文觀察如何把火星線條理解成運河系統，並引出「火星可能有智慧生命、農業灌溉和綠洲」這種想像。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說十九世紀末，火星有智慧生命的想法越來越有力量；尾句說 1938 年廣播令數百萬人相信火星入侵報道。只看首尾句，這段大概會講公眾如何透過科幻小說、怪物故事和廣播節目形成對火星人的想像。功能偏向文化接受史，重點在 public imagination，不在科學證據。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說探測器對理解其他行星非常重要；尾句說 Viking landers 雖然沒有找到生命，卻傳回火星表面和大氣的第一批彩色照片。只看首尾句，這段會由幻想轉向太空任務，交代 Mariner 和Viking probes 如何提供現代火星知識，尤其是影像、地貌、軌道任務和生命實驗。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說在地球上發現的火星隕石令前面的分析受到質疑；尾句說隕石中物體的大小和形狀與地球化石化 nanobacteria 一致，但 nanobacteria 本身仍具爭議。只看首尾句，可以推測這段會講ALH84001 meteorite，以及其中可能與微生物有關的證據，但結論並未完全確定。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說 Mariner 4 發現火星沒有全球磁場，無法保護火星免受致命 cosmic radiation 和 solar radiation；尾句說火星磁場消失後，氣候由 warm and wet 逐漸變成 cold and dry。只看首尾句，這段會解釋磁場、輻射、太陽風、大氣流失、地下生命可能性，以及火星氣候大變化。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說 NASA 近期任務集中處理另一問題：古代火星表面是否曾有 lakes or oceans of liquid water；尾句說 ESA 確認 Mars Express orbiter 在火星南極直接探測到大量 water ice。只看首尾句，這段會講科學家尋找液態水和水冰證據，並把 water 和 past life 的可能性連起來。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說研究者使用 SOLID 這種可在類似火星地下環境中偵測生命跡象的儀器，在 Atacama Desert 地底兩米找到 microbial oasis；尾句說若火星有類似微生物或遺骸，SOLID 類儀器或可偵測。只看首尾句，這段會講地球類火星環境測試、地下微生物、rock salt 和 Mars-like detection technology。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段首句說西班牙科學家提出更引人入勝的 alternative scenario；尾句說若找不到，科學家仍會繼續尋找生命跡象。只看首尾句，可以估計這段會提出較大膽的推測：若火星樣本也使用 DNA，可能代表火星生命和地球生命有共同起源，甚至生命先在火星出現，再傳到地球。"
+      }
+    ]
+  }
+}

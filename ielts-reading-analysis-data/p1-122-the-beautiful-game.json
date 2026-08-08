@@ -1,0 +1,1669 @@
+{
+  "id": "p1-122-the-beautiful-game",
+  "catalogueId": "p1-122",
+  "catalogueIds": [
+    "p1-122"
+  ],
+  "passage": 1,
+  "title": "THE ‘BEAUTIFUL’ GAME",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 12,
+  "answerKey": [
+    "C",
+    "D",
+    "F",
+    "K",
+    "G",
+    "B",
+    "J",
+    "B",
+    "D",
+    "G",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C, D, F",
+      "answerKey": "C, D, F",
+      "type": "Choose THREE",
+      "prompt": "“Which THREE of the following statements are true of Newton Heath?”",
+      "translation": "以下哪三項關於 Newton Heath 的說法正確？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple-answer Questions。黃金手冊提醒，Choose TWO / THREE 類題目中，每個正確選項都要獨立證明，不能用一段模糊資料一次支撐所有答案。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every nation has a sport to represent it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個國家都有一項能代表自己的運動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite turning professional in 1885 and becoming a founding member of the Football League in 1889, Newton Heath—nicknamed the ‘Heathens’—was constantly troubled by financial difficulties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Newton Heath 在 1885 年轉為職業球隊，並於 1889 年成為 Football League 的創始成員，但這支被稱為 “Heathens” 的球隊一直受財政困難困擾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段先由英國足球熱情和 Manchester United 的知名度入題，尾句則落在 Newton Heath 的早期歷史、職業化和財政困難。題目直接問 Newton Heath，所以 Paragraph A 是核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最有定位力的詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Newton Heath”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1902”"
+            },
+            {
+              "kind": "quote",
+              "text": "“similar name”"
+            },
+            {
+              "kind": "quote",
+              "text": "“amateur”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1885”"
+            },
+            {
+              "kind": "quote",
+              "text": "“financial difficulties”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 A 段，可找到 Newton Heath 的起源、原名、職業化年份和財困。若要判斷選項 G，還要看Paragraph B 的改名過程，因為 B 段提到 Manchester Central、Manchester Celtic 和 Manchester United。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據與選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Manchester United came into being in 1902 as a result of the bankruptcy of the team formerly known as Newton Heath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Manchester United 於 1902 年出現，原因是原本名為 Newton Heath 的球隊破產。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Newton Heath began life as Newton Heath LYR (Lancashire and Yorkshire Railway) club and, as the name suggests, the original team consisted of railway workers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Newton Heath 最初名為 Newton Heath LYR，即 Lancashire and Yorkshire Railway club；顧名思義，最初的球員由鐵路工人組成。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite turning professional in 1885... Newton Heath... was constantly troubled by financial difficulties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Newton Heath 在 1885 年轉為職業球隊，但它一直受到財政困難困擾。"
+            },
+            {
+              "kind": "label",
+              "text": "正確選項C："
+            },
+            {
+              "kind": "quote",
+              "text": "“It developed from a club with a similar name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它由一個名字相似的球會發展而來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Newton Heath “began life as Newton Heath LYR”。Newton Heath LYR 和 Newton Heath名字相近，且前者是早期名稱，所以 C 成立。"
+            },
+            {
+              "kind": "label",
+              "text": "D："
+            },
+            {
+              "kind": "quote",
+              "text": "“It ceased being an amateur team in 1885.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在 1885 年停止作為業餘球隊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “turning professional in 1885” 直接支撐 D。turn professional 等於由業餘轉為職業，因此ceased being an amateur team 成立。"
+            },
+            {
+              "kind": "label",
+              "text": "F："
+            },
+            {
+              "kind": "quote",
+              "text": "“The club experienced financial difficulties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "球會曾經歷財政困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “was constantly troubled by financial difficulties”。這比 experienced financial difficulties更強，因為 constantly 表示長期或經常受到困擾。F 成立。"
+            },
+            {
+              "kind": "label",
+              "text": "錯項分析A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Newton Heath football club was established in 1902.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1902 年是 Manchester United came into being 的年份。Newton Heath 早在這之前已存在，而且1885 年已轉職業，1889 年已成為 Football League 創始成員。因此 A 把 Manchester United 的成立年份套到 Newton Heath 身上。"
+            },
+            {
+              "kind": "label",
+              "text": "B："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was the only Lancashire-based club at the time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只解釋 LYR 是 Lancashire and Yorkshire Railway，沒有說它是當時唯一的Lancashire-based club。only 是很強的範圍詞，文章完全沒有提供這種排他資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "E："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was the most famous British football club of the period.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Manchester United 今日或全球很知名，沒有說 Newton Heath 是當時最有名的英國球會。這個選項把現代知名度移到早期歷史中。"
+            },
+            {
+              "kind": "label",
+              "text": "G："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its name changed once more before it became Manchester United.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段說的是 “After consideration of the alternative titles of Manchester Central and Manchester Celtic, the club was christened Manchester United in April 1902.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在考慮 Manchester Central 和 Manchester Celtic 這些替代名稱後，球會於 1902 年 4 月被命名為 Manchester United。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡是 considered alternative titles，意思是考慮過其他名稱，沒有說它正式改名為 Manchester Central 或 Manchester Celtic。若把 Newton Heath LYR 到 Newton Heath 的變化納入理解，這一點已由 C 覆蓋；G 要求在成為 Manchester United 前再一次實際改名，原文沒有支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終答案：C, D, F。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "K — doubt",
+      "answerKey": "K — doubt",
+      "type": "Summary Completion",
+      "prompt": "“According to expert opinion, there is little 4 _________________ that football hooliganism occurs as a result of a number of issues...”",
+      "translation": "根據專家意見，幾乎沒有 4 ________：足球流氓行為是由多個因素造成的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Britain has a long and proud history of football adoration, contemporary football supporters from the UK have gained a negative reputation for outbursts of violence against rival supporters, earning the label ‘football hooligans’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然英國有悠久且值得自豪的足球熱愛歷史，但當代英國足球支持者因對敵對球迷爆發暴力而獲得負面名聲，並被貼上 “football hooligans” 的標籤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts do, however, believe that rampaging hooligan behaviour can instil a sense of belonging and ‘community’ in participants who feel that they can strongly identify with their group, regardless of the fact that the group’s behaviour is negative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，專家確實相信，失控的足球流氓行為可以在參與者心中注入一種歸屬感和 “community” 感，即使該群體的行為本身是負面的，他們仍能強烈認同自己的群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段會處理 football hooliganism 的解釋，尤其是專家對其原因和群體心理的看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“expert opinion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“little ___”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a number of issues”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is generally agreed that a combination of factors may initiate this type of antisocial behaviour...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is generally agreed that a combination of factors may initiate this type of antisocial behaviour...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍同意，這種反社會行為可能由多種因素共同引發。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “there is little ___ that...” 是固定搭配。最自然是 “there is little doubt that...”，意思是「幾乎沒有疑問」。這正好對應原文 “It is generally agreed that...” 。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "there is little doubt= it is generally agreed a number of issues= a combination of factors答案是 K — doubt。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F “proof” 也可放在 little 後面，但 “little proof that...” 會表示證據很少，語意會變成「沒有太多證據證明多因素造成足球流氓行為」。原文語氣剛好相反，它說 generally agreed，所以 K 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "G — class",
+      "answerKey": "G — class",
+      "type": "Summary Completion",
+      "prompt": "“... and does not necessarily correlate with age, psychological profile or 5_________________.”",
+      "translation": "……而且不一定和年齡、心理特徵或 5 ________ 相關。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Britain has a long and proud history of football adoration, contemporary football supporters from the UK have gained a negative reputation for outbursts of violence against rival supporters, earning the label ‘football hooligans’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然英國有長久的足球熱愛傳統，但當代英國足球支持者因對敵對球迷爆發暴力而得到負面名聲，被稱為 football hooligans。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts do, however, believe that rampaging hooligan behaviour can instil a sense of belonging and ‘community’ in participants who feel that they can strongly identify with their group, regardless of the fact that the group’s behaviour is negative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專家認為，即使群體行為負面，足球流氓行為仍可能令參與者產生歸屬感和群體感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的中間句會具體說明這種行為不應歸因於單一心理、年齡或社會類別。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“age”"
+            },
+            {
+              "kind": "quote",
+              "text": "“psychological profile”"
+            },
+            {
+              "kind": "quote",
+              "text": "“or”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“... it is unrealistic to contend that all such behaviour stems from a particular psychological make-up or belongs to a specific age or class.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... it is unrealistic to contend that all such behaviour stems from a particular psychological make-up or belongs to a specific age or class.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若主張所有這類行為都源自某種特定心理構成，或屬於某個特定年齡或階級，這是不切實際的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文改寫成： psychological profile= psychological make-up does not necessarily correlate with= it is unrealistic to contend that all such behaviour stems from / belongs to age or class= age or class空格前是 “age, psychological profile or...” ，因此需要一個和 age 同類的名詞。選項 G “class” 最合適，對應原文 “specific age or class”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 G — class。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D “occupation” 也像社會背景詞，但原文沒有 occupation。IELTS Summary Completion 不能只選語感合理的詞，必須回到原文同義位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B — policing",
+      "answerKey": "B — policing",
+      "type": "Summary Completion",
+      "prompt": "“External triggers such as newspaper reports and antagonistic 6 _________________ can contribute to escalation of the problem in certain situations.”",
+      "translation": "外在誘因，例如報紙報道和對抗式 6 ________，在某些情況下可能令問題升級。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Analysts also argue that the motivations for outbursts of violence experienced in an international setting are even more complex.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析者也認為，在國際場合出現的暴力爆發，其動機更加複雜。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The media’s actions have also been criticised due to the belief by some that messages given in newspaper reporting may also exacerbate the existing problem of football hooliganism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "媒體行為也受到批評，因為有些人相信報紙報道所傳遞的信息也可能加劇已存在的足球流氓問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，F 段會講複雜外因，尤其是國際場合、policing 和 media reporting。題目中的newspaper reports 已經把答案範圍鎖定在 F 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“External triggers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“newspaper reports”"
+            },
+            {
+              "kind": "quote",
+              "text": "“antagonistic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“escalation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“policing tactics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“confrontational policing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“escalate”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evidence supports the view that confrontational policing is much more likely to escalate than to calm incidents of trouble.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "證據支持這個觀點：對抗式警務處理方式更可能令麻煩事件升級，而非平息事件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “antagonistic” 意思是對抗式、敵對式，對應原文 “confrontational”。空格需要名詞，B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“policing” 正好配合 “antagonistic policing”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "antagonistic policing= confrontational policing contribute to escalation= more likely to escalate答案是 B — policing。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C “anger” 看似和暴力有關，但題目說 “antagonistic ___”，後面又說 can contribute to escalation，這更像外在管理方式。原文直接出現 confrontational policing，所以不能只按常識選 anger。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "J — unity",
+      "answerKey": "J — unity",
+      "type": "Summary Completion",
+      "prompt": "“Some psychologists believe that such behaviour and membership of trouble-making groups can give certain individuals a sense of 7 _________________ that may otherwise be missing from their lives.”",
+      "translation": "一些心理學家相信，這種行為以及加入滋事群體，可以給某些人一種 7 ________ 的感覺；這種感覺在他們生活中可能原本缺失。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Britain has a long and proud history of football adoration, contemporary football supporters from the UK have gained a negative reputation for outbursts of violence against rival supporters, earning the label ‘football hooligans’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國雖有長久足球熱情，但當代部分支持者因對敵對球迷施暴而得到負面名聲，被稱為 football hooligans。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts do, however, believe that rampaging hooligan behaviour can instil a sense of belonging and ‘community’ in participants who feel that they can strongly identify with their group, regardless of the fact that the group’s behaviour is negative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專家確實認為，失控的足球流氓行為可令參與者產生歸屬感和群體感；即使群體行為負面，他們仍能強烈認同自己的群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句已經直接支撐題目中的 “sense of...” 。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“sense of”"
+            },
+            {
+              "kind": "quote",
+              "text": "“membership”"
+            },
+            {
+              "kind": "quote",
+              "text": "“trouble-making groups”"
+            },
+            {
+              "kind": "quote",
+              "text": "“missing from their lives”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a sense of belonging and ‘community’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“strongly identify with their group”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... rampaging hooligan behaviour can instil a sense of belonging and ‘community’ in participants who feel that they can strongly identify with their group...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "失控的足球流氓行為可以在參與者心中注入歸屬感和群體感，這些參與者覺得自己能強烈認同所屬群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 J “unity” 意思是團結、一體感，最貼近 “belonging and community”。題目中的 “membership of trouble-making groups” 把原文的 “identify with their group” 改寫成群體成員身份。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "sense of unity= sense of belonging and community membership of trouble-making groups= identify with their group答案是 J — unity。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “isolation” 是相反方向。原文說加入群體可帶來 belonging 和 community，因此答案必須是正向的群體連結感。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Details of conditions attached to an offer of financial assistance to the club”",
+      "translation": "關於給球會財政援助時所附帶條件的細節。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salvation came in the form of local brewer John Henry Davis, who agreed to invest in the team on condition of being given some interest in running it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "拯救球隊的人是本地釀酒商 John Henry Davis；他同意投資球隊，條件是自己能在球隊營運中獲得一定參與權益。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His side reached the quarter-finals of the FA Cup and were runners-up in the second division.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的球隊打入 FA Cup 八強，並成為乙組亞軍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經有 “invest” 和 “on condition of”，與題目中的 financial assistance 和 conditions attached幾乎直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“conditions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“financial assistance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“offer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“club”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“agreed to invest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“on condition of”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some interest in running it”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salvation came in the form of local brewer John Henry Davis, who agreed to invest in the team on condition of being given some interest in running it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "球隊的救星是本地釀酒商 John Henry Davis，他同意投資球隊，但條件是他要在球隊營運中取得一定權益。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "financial assistance= invest in the team conditions attached= on condition of some interest in running it= 參與管理或營運的權益答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段有 financial difficulties，但只說問題存在；B 段才有 financial assistance 和附帶條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Matching Information 要找完整資訊功能，不能只看單一相關詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A reason national competitions were disrupted”",
+      "translation": "全國性比賽受干擾的原因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The following years were to be less successful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接下來幾年成績較不成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1919, Manchester United returned to league football with only two of the original members in the team.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1919 年，Manchester United 重返聯賽足球時，隊中只剩兩名原本成員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段大概會講球隊低潮，以及戰爭前後聯賽和隊伍的變化。題目問 national competitions disrupted，應掃描 war、league、suspended 等字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“national competitions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disrupted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reason”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the war”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the football league was suspended”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only regional competitions took place”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the war, the football league was suspended and only regional competitions took place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰爭期間，足球聯賽被暫停，只舉行地區性比賽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 national competitions 對應 football league。disrupted 對應 suspended。reason 是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“During the war”，即戰爭導致全國性聯賽中斷。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "national competitions were disrupted= the football league was suspended a reason= during the war答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 段首句 “less successful” 可能令人以為答案是球隊成績差，但題目問的是比賽被中斷的原因。真正控制答案的是 “During the war”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Information suggesting that the public may perceive violence at football matches as more widespread than it is”",
+      "translation": "有資料暗示公眾可能以為足球比賽暴力比實際情況更普遍。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Critics say that certain headlines used by tabloid newspapers may glorify acts of violence and, at the very least, the prolific news reports which are published in the UK about this issue cause perpetrators to receive undue attention and acknowledgement for their actions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "批評者說，某些小報標題可能美化暴力行為；至少，英國大量關於此問題的新聞報道會令施暴者因其行為得到過分關注和認可。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Extreme cases of hooliganism among British fans have declined significantly over recent years, and while it may take some considerable time for the negative reputation they have earned to subside, it is also true that a large proportion of supporters have no involvement in violence and simply share a love of the game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年英國球迷中的極端流氓事件已大幅下降；雖然他們的負面名聲需要相當時間才會消退，但也確實有很大比例的支持者沒有參與暴力，只是熱愛足球。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都在處理 media / reputation / reality 之間的落差。題目問 public perception 是否被放大， G 段最有可能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“public may perceive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more widespread than it is”"
+            },
+            {
+              "kind": "quote",
+              "text": "“violence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“football matches”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“creating undue panic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“presented as much more widespread than it really is”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... many researchers hold that sensationalist media reporting may also be creating undue panic since the problem is often presented as much more widespread than it really is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多研究者認為，煽情式媒體報道也可能製造過度恐慌，因為這個問題常被呈現得比實際情況普遍得多。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "public may perceive= media reporting may be creating undue panic violence ... more widespread than it is= the problem is often presented as much more widespread than it really is答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F 段也提到 media may exacerbate the existing problem，但 F 的重點是媒體可能加劇問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 10 要找的是公眾可能把問題看得過分普遍，這由 G 段 “much more widespread than it really is” 直接支撐。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Deliberations about the name Manchester United”",
+      "translation": "關於 Manchester United 這個名稱的商議或考慮。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salvation came in the form of local brewer John Henry Davis, who agreed to invest in the team on condition of being given some interest in running it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "球隊的救星是本地釀酒商 John Henry Davis；他同意投資球隊，條件是獲得參與營運的權益。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His side reached the quarter-finals of the FA Cup and were runners-up in the second division.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的球隊打入 FA Cup 八強，並成為乙組亞軍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段首句講救援，後面自然會處理球隊重組。題目問 name Manchester United，最可能在講改名和新身份的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“deliberations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“name Manchester United”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“After consideration of the alternative titles...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the club was christened Manchester United”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After consideration of the alternative titles of Manchester Central and Manchester Celtic, the club was christened Manchester United in April 1902.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在考慮 Manchester Central 和 Manchester Celtic 這些替代名稱後，球會於 1902 年 4 月被命名為 Manchester United。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “deliberations” 對應原文 “consideration”。這一句清楚表示球會曾考慮其他名稱，然後正式命名為 Manchester United。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "deliberations= consideration of alternative titles name Manchester United= christened Manchester United答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段提到 Manchester United came into being in 1902，但沒有交代名稱商議過程。B 段才有alternative titles 和 christened。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A reference to a new competition”",
+      "translation": "提到一項新比賽。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1907, United claimed the championship for the first time and won the first-ever Charity Shield trophy in 1908.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1907 年，United 首次奪得聯賽冠軍，並於 1908 年贏得第一屆 Charity Shield 獎盃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new stadium had a capacity for a crowd of 80,000 spectators and despite losing their first game there to Liverpool, Manchester United were once again league champions at the end of the first full season playing at Old Trafford.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新球場可容納 80,000 名觀眾；雖然 Manchester United 在那裡的第一場比賽輸給 Liverpool，但在 Old Trafford 進行的第一個完整球季結束時，他們再次成為聯賽冠軍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經提到 “first-ever Charity Shield trophy”，這是新比賽或新獎項的明確線索。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new competition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reference”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 “first-ever Charity Shield trophy” 是最強對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1907, United claimed the championship for the first time and won the first-ever Charity Shield trophy in 1908.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1907 年，United 首次奪得冠軍，並於 1908 年贏得第一屆 Charity Shield 獎盃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“first-ever” 表示有史以來第一個，說明 Charity Shield 是新設或首次舉行的比賽 / 獎項。題目只要求 “a reference to a new competition”，不需要全文解釋 Charity Shield 的規則。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "new competition= first-ever Charity Shield trophy a reference to= 原文提到 / 指出答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 段也有 “new stadium”，但題目問 competition，不是 stadium。做 Matching Information 時，要把名詞類別看清楚：competition 要找 trophy、championship、league、cup 這類字，不要被 new 這個形容詞單獨帶走。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - THE ‘BEAUTIFUL’ GAME.pdf",
+    "sha256": "471d4ddccfba7c19eb4c0f93c7063f30b23aaad1578c5394886e0d20c3d177f1",
+    "pageCount": 21
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句用不同國家的代表性運動引入英國足球，並說 Manchester United 是全球最知名的英國球隊之一。尾句說 Newton Heath 在 1885 年轉為職業隊，1889 年成為 Football League 創始成員，卻長期受財政困難困擾。只看首尾句，可以先估計這段會介紹 Manchester United 的前身Newton Heath，包括早期身份、鐵路工人背景、職業化和財困問題。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說拯救球隊的人是本地釀酒商 John Henry Davis，他同意投資，但附帶參與管理的條件。尾句說 United 在 1905–06 球季第一次嚐到成功，打入 FA Cup 八強，並成為乙組亞軍。只看首尾句，可以估計這段會講球隊獲得財政救援、改名為 Manchester United、任命早期管理者，以及開始取得競賽成績。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說 United 在 1907 年首次奪得聯賽冠軍，並在 1908 年贏得第一屆 Charity Shield。尾句說球隊搬到 Old Trafford 後，雖然首場輸給 Liverpool，但第一個完整球季結束時再次成為聯賽冠軍。只看首尾句，這段應該處理早期高峰：獎盃、新球場、Bank Street 火災，以及 Old Trafford 帶來的新階段。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說接下來幾年成績較差。尾句說 1919 年 Manchester United 回到聯賽足球時，隊中只剩兩名原有成員。只看首尾句，可以估計這段會講第一次世界大戰前後的低潮：1912 年後缺乏重大勝利，戰爭令 Football League 暫停，戰後球隊陣容也大幅改變。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句從英國長久的足球熱情轉到現代球迷的負面名聲，即因對敵對球迷施暴而被稱為football hooligans。尾句說專家認為暴力群體即使行為負面，也可能給參與者一種歸屬和community 的感覺。只看首尾句，這段會解釋 football hooliganism 的成因，重點在多重因素、心理群體認同、年齡和階級不一定能解釋全部行為。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說分析者認為，國際場合中的足球暴力動機更加複雜。尾句說媒體行為也受到批評，因為有些人相信報紙報道會加劇 football hooliganism。只看首尾句，這段會補充外在觸發因素，例如 alcohol、xenophobia、policing tactics 和 newspaper reporting，尤其是 confrontational policing可能令混亂升級。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說批評者認為，某些小報標題可能美化暴力，至少大量新聞報道會令施暴者獲得過分關注。尾句說雖然英國球迷的負面名聲需要時間消退，但大量球迷其實沒有參與暴力，只是熱愛足球。只看首尾句，這段會評估媒體如何放大問題，也會平衡說明 hooliganism 近年已下降，公眾印象可能比現實嚴重。"
+      }
+    ]
+  }
+}

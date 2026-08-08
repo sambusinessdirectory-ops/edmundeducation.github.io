@@ -1,0 +1,2375 @@
+{
+  "id": "p1-042-thomas-young-the-last-true-know-it-all",
+  "catalogueId": "p1-042",
+  "catalogueIds": [
+    "p1-042"
+  ],
+  "passage": 1,
+  "title": "Thomas Young The Last True Know-It-All",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "46",
+    "accommodation",
+    "Indo-European",
+    "Richard Brocklesby",
+    "Royal Institution",
+    "gas lighting"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“‘The last man who knew everything’ has also been applied to other people.”",
+      "translation": "“the last man who knew everything” 這個稱號也曾用於其他人身上。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “also been applied to other people”。要判斷文章是否說這個稱號除了 Young，也出現在其他人物身上。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1第一句：“Thomas Young (1773–1829) contributed 63 articles to the Encyclopaedia Britannica, including 46 biographical entries, mostly on scientists and classicists, and substantial essays on ‘Bridge’,‘Chromatics’, ‘Egypt’, ‘Languages’ and ‘Tides’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thomas Young（1773–1829）為 Encyclopaedia Britannica 撰寫了 63 篇文章，包括 46 篇人物傳記，主要寫科學家和古典學者，也撰寫了關於 “Bridge”、“Chromatics”、“Egypt”、“Languages” 和"
+            },
+            {
+              "kind": "quote",
+              "text": "“Tides” 的重要文章。最後一句：“Young has competition, however: the phrase, which Robinson uses as his title, also serves as the subtitle of two other recent biographies—Leonard Warren’s 1998 life of palaeontologist Joseph Leidy (1823–1891) and Paula Findlen’s 2004 book on Athanasius Kircher (1602–1680), another polymath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Young 也有競爭者：Robinson 用作書名的這個短語，也被用作另外兩本近期傳記的副題——Leonard Warren 1998 年為古生物學家 Joseph Leidy 寫的傳記，以及 Paula Findlen 2004年關於另一位博學者 Athanasius Kircher 的書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 的功能是介紹 Young 的知識廣度，以及 “the last man who knew everything” 這個稱號的使用背景。題目問這個稱號是否也用於其他人，尾句已經高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the last man who knew everything”"
+            },
+            {
+              "kind": "quote",
+              "text": "“also”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other people”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph 1，可以找到 “Young has competition, however” 和 “also serves as the subtitle of two other recent biographies”。這裡的 “also” 正好對應題目的 “also”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young has competition, however: the phrase, which Robinson uses as his title, also serves as the subtitle of two other recent biographies—Leonard Warren’s 1998 life of palaeontologist Joseph Leidy (1823–1891) and Paula Findlen’s 2004 book on Athanasius Kircher (1602–1680), another polymath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Young 也有競爭者：Robinson 用作書名的這個短語，也被用作另外兩本近期傳記的副題，分別關於 Joseph Leidy 和 Athanasius Kircher。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“has also been applied to other people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“also serves as the subtitle of two other recent biographies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Joseph Leidy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Athanasius Kircher”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： other people = Joseph Leidy and Athanasius Kircher has been applied = serves as the subtitle of biographies about them判斷：原文清楚說這個短語也用於另外兩本人物傳記，題目與原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能以為 “the last man who knew everything” 是 Robinson 對 Young 的專屬稱號。首段中間確實說 Robinson argues that Young is a strong contender，但最後一句用 “Young has competition” 修正這種印象，說明這個稱號也被連到其他人物。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“All of Young’s writings were published in the Encyclopaedia Britannica.”",
+      "translation": "Young 的所有著作都發表在 Encyclopaedia Britannica。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 “All of Young’s writings” 是否成立。控制詞是 “All”。只要文章說他還寫過其他書、文章或論文，題目便和原文衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 和 Paragraph 5；真正定案在 Paragraph 5。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thomas Young (1773–1829) contributed 63 articles to the Encyclopaedia Britannica, including 46 biographical entries, mostly on scientists and classicists, and substantial essays on ‘Bridge’,‘Chromatics’, ‘Egypt’, ‘Languages’ and ‘Tides’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thomas Young 為 Encyclopaedia Britannica 撰寫了 63 篇文章，包括 46 篇人物傳記和多篇重要專題文章。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 1816 and 1825 he contributed his many and various entries to the Encyclopaedia Britannica, and throughout his career he authored numerous books, essays and papers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1816 至 1825 年間，他為 Encyclopaedia Britannica 撰寫了許多不同條目；在整個職業生涯中，他還寫了大量書籍、文章和論文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首段只告訴我們 Young 為 Britannica 寫了很多條目；第五段尾句則把 Britannica entries 和numerous books, essays and papers 並列。這能判斷 “all writings” 是否過度概括。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“All”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Young’s writings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Encyclopaedia Britannica”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時先找到 Paragraph 1 的 “contributed 63 articles to the Encyclopaedia Britannica”，但這只支援 “some writings”。再掃描 Paragraph 5，可見 “throughout his career he authored numerous books, essays and papers”。這一句直接限制了 “All” 的可能性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 1816 and 1825 he contributed his many and various entries to the Encyclopaedia Britannica, and throughout his career he authored numerous books, essays and papers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1816 至 1825 年間，他為 Encyclopaedia Britannica 撰寫了許多不同條目；在整個職業生涯中，他還寫了大量書籍、文章和論文。"
+            },
+            {
+              "kind": "label",
+              "text": "這句有兩部分：第一部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“contributed ... entries to the Encyclopaedia Britannica”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示他確實為 Britannica 寫條目。"
+            },
+            {
+              "kind": "label",
+              "text": "第二部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“throughout his career he authored numerous books, essays and papers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示他的寫作不止於 Britannica，還包括很多書籍、文章和論文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“All of Young’s writings were published in the Encyclopaedia Britannica.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“contributed ... entries to the Encyclopaedia Britannica” + “authored numerous books, essays and papers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供相反證據。Britannica 只是 Young 寫作的一部分，並非全部。所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 開首列出 63 articles，數量很大，容易令人以為他的著作主要集中於 Britannica。可是題目用了 “All”，要非常小心。IELTS 中 “all / every / only” 類詞需要完整支持；只要文章明示還有其他作品，就不能選 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Like many other child prodigies, Young was less brilliant as an adult.”",
+      "translation": "像許多其他神童一樣，Young 成年後才華減退。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看文章是否把 Young 歸入「童年出色、成年失色」那一類人。控制詞是 “Like many other child prodigies” 和 “less brilliant as an adult”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later in life, when he was in his forties, Young was instrumental in cracking the code that unlocked the unknown script on the Rosetta Stone, a tablet found in Egypt by Napoleon’s army in 1799.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，Young 四十多歲時，在破解 Rosetta Stone 上未知文字的密碼方面發揮關鍵作用；這塊石碑是拿破崙軍隊於 1799 年在埃及發現的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are the landmark achievements of a man who was a child prodigy and who, unlike many remarkable children, did not fade into obscurity as an adult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是一位神童的里程碑式成就；他與許多非凡兒童不同，成年後並沒有淡出無名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 很明顯會展示 Young 成年後仍有重要成就。題目說他成年後 less brilliant，正好要看本段尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“child prodigies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“adult”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less brilliant”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“child prodigy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unlike many remarkable children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“did not fade into obscurity as an adult”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“did not fade into obscurity” 是題目 “less brilliant as an adult” 的反向證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“These are the landmark achievements of a man who was a child prodigy and who, unlike many remarkable children, did not fade into obscurity as an adult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些是一位神童的里程碑式成就；他和許多非凡兒童不同，成年後並沒有淡出無名。"
+            },
+            {
+              "kind": "label",
+              "text": "這句的核心在三個部分："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“child prodigy” = 神童“unlike many remarkable children” = 和許多非凡兒童不同“did not fade into obscurity as an adult” = 成年後沒有變得默默無聞題目命題： Young 和很多神童一樣成年後比較不出色原文命題： Young 和很多非凡兒童不同成年後仍有 landmark achievements"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "less brilliant as an adult≈ fade into obscurity as an adult但原文加了 “did not”，意思相反。判斷：文章明確說 Young 成年後沒有淡出，還有破解 Rosetta Stone、提出 Demotic 與 hieroglyphic writing 關係、創造 Indo-European 一詞等重要成就。題目方向和原文衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “Like many other child prodigies” 很容易讓學生順著常見想法走：神童長大後可能平凡。可是原文特別用 “unlike” 排除這個模式。看到 like / unlike 這種比較詞，要先看方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Young’s talent as a doctor surpassed his other skills.”",
+      "translation": "Young 作為醫生的才華超越了他的其他能力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較 Young 的醫學能力和其他學術能力。控制詞是 “surpassed his other skills”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young’s skill as a physician, however, did not equal his skill as a scholar of natural philosophy or linguistics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Young 作為醫生的能力，並不及他作為 natural philosophy 或 linguistics 學者的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 1816 and 1825 he contributed his many and various entries to the Encyclopaedia Britannica, and throughout his career he authored numerous books, essays and papers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1816 至 1825 年間，他為 Encyclopaedia Britannica 撰寫了許多不同條目；在整個職業生涯中，他還寫了大量書籍、文章和論文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，Paragraph 5 已經直接回答醫生能力與其他能力的比較。題目說 doctor talent surpassed other skills，原文首句方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“doctor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“surpassed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other skills”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文用 “physician” 代替 doctor，用 “did not equal” 表示比較結果。掃描 Paragraph 5 第一行即可找到答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young’s skill as a physician, however, did not equal his skill as a scholar of natural philosophy or linguistics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Young 作為醫生的能力，並不及他作為自然哲學或語言學學者的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Young’s skill as a physician”。核心比較是 “did not equal”。比較對象是 “his skill as a scholar of natural philosophy or linguistics”。也就是說，醫生能力低於或至少不及他在自然哲學和語言學方面的學者能力。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“talent as a doctor surpassed his other skills”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“skill as a physician ... did not equal his skill as a scholar...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： doctor = physician surpassed = was greater than did not equal = 未達到同等水平，更談不上超越判斷：原文清楚說他的醫生能力不及其他學術能力。題目說醫生能力超越其他能力，方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 說 Young 完成醫學訓練、開設醫療診所、成為 Royal College of Physicians 會員，並在 St George’s Hospital 任醫生。這些資料證明他有醫學職業成就，但不能推成醫術高於其他學術能力。Paragraph 5 的 “however” 正在修正這種可能誤解。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Young’s advice was sought by people responsible for local and national issues.”",
+      "translation": "負責地方和國家事務的人曾尋求 Young 的意見。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 advice / opinions sought，以及 local and national issues 的對應。原文可能不直接說local，但 civic 可對應地方公共事務。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young’s skill as a physician, however, did not equal his skill as a scholar of natural philosophy or linguistics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Young 作為醫生的能力，並不及他作為 natural philosophy 或 linguistics 學者的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 1816 and 1825 he contributed his many and various entries to the Encyclopaedia Britannica, and throughout his career he authored numerous books, essays and papers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1816 至 1825 年間，他為 Encyclopaedia Britannica 撰寫了許多不同條目；在整個職業生涯中，他還寫了大量書籍、文章和論文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 會列出 Young 的職位、學術活動和公共事務參與。題目說 advice was sought，應在本段中間找 “opinions were sought”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“advice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sought”"
+            },
+            {
+              "kind": "quote",
+              "text": "“local and national issues”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“His opinions were sought”"
+            },
+            {
+              "kind": "quote",
+              "text": "“civic and national matters”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "civic 通常指城市、市民或公共事務，可對應題目 local issues；national matters 直接對應 national issues。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His opinions were sought on civic and national matters, such as the introduction of gas lighting to London and methods of ship construction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們曾就城市公共和國家層面的事務徵求他的意見，例如倫敦引入煤氣照明，以及造船方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “His opinions”。核心動詞是 “were sought”，即被尋求、被徵詢。範圍是 “civic and national matters”。例子包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“the introduction of gas lighting to London”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "倫敦引入煤氣照明，屬城市公共事務。"
+            },
+            {
+              "kind": "quote",
+              "text": "“methods of ship construction”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "造船方法，可理解為更廣泛的國家或公共技術問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young’s advice was sought”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“His opinions were sought”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“local and national issues”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“civic and national matters”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目與原文方向一致。原文清楚說 Young 的意見曾被徵詢，範圍包括城市公共和國家事務，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “people responsible for...” 原文沒有直接寫出這些人的身份。可是 “opinions were sought on civic and national matters” 已足以顯示他的意見被處理這類公共問題的人徵詢。這是合理概括，沒有越過原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Young took part in various social pastimes.”",
+      "translation": "Young 參與過多種社交和休閒活動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Young 是否有各種 social pastimes。定位詞是 social pastimes，原文可能用 elite society、theatre、dance、flute、horseman 等具體例子呈現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young is a perfect subject for a biography—perfect, but daunting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Young 是傳記的完美題材——完美，卻也令人望而生畏。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His personal life, however, appears pale beside his vibrant career and studies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，與他活躍的職業和研究相比，他的個人生活顯得蒼白。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 是對 Robinson 傳記的評論。中間應該會穿插 Young 個人性格、社交生活和興趣的片段。題目問 social pastimes，因此可在本段尋找生活活動清單。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“social”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pastimes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“took part”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 “pastimes” 這個詞，但有多個休閒和社交活動："
+            },
+            {
+              "kind": "quote",
+              "text": "“entered elite society”"
+            },
+            {
+              "kind": "quote",
+              "text": "“attended the theatre”"
+            },
+            {
+              "kind": "quote",
+              "text": "“learnt to dance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“play the flute”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accomplished horseman”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子共同支持 various social pastimes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young entered elite society, attended the theatre, and learnt to dance and play the flute. He was also an accomplished horseman.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Young 進入上流社會，去劇院，也學習跳舞和吹長笛。他也是一位熟練的騎手。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句列出多種活動： entered elite society進入上流社交圈，屬社交活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "attended the theatre看劇，屬文化休閒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "learnt to dance學跳舞，屬社交和休閒活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "play the flute吹長笛，屬音樂興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "accomplished horseman騎術出色，屬休閒或技能活動。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“took part in various social pastimes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“entered elite society, attended the theatre, and learnt to dance and play the flute”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accomplished horseman”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文列出多項社交和休閒活動，題目是合理概括，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 的整體評價說讀者未必真正了解 Young personally，最後又說 personal life appears pale。這不代表他沒有社交或休閒活動；它只表示傳記材料和呈現上，私人生活不如職業研究那樣鮮明。真正判斷要落在列舉活動的句子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Young suffered from a disease in his later years.”",
+      "translation": "Young 晚年患有某種疾病。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 later years 和 disease。文章是否提到 Young 生病、疾病名稱、健康惡化或晚年病痛？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果只提到他做醫生、在醫療機構任職，不能推成他患病。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落：Paragraph 5 和 Paragraph 7 Paragraph 5 第一件事談醫生能力和學術職位，最後一句說他整個職業生涯寫了許多作品。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young married Eliza Maxwell in 1804 and, according to Robinson, ‘their marriage was a happy one and she appreciated his work’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Young 於 1804 年與 Eliza Maxwell 結婚；根據 Robinson 的說法，他們的婚姻幸福，她也欣賞他的工作。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the lack of detail about Young’s personal relationships, anyone interested in what it means to be a genius should read this book.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管關於 Young 個人關係的細節不足，任何對 genius 意義感興趣的人都應該讀這本書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 7 處理婚姻、私人關係和傳記資料不足。題目問晚年疾病，本段沒有明顯提示。Paragraph 5 有 physician、hospital 等醫療詞，但 those describe his profession。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“suffered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disease”"
+            },
+            {
+              "kind": "quote",
+              "text": "“later years”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描全文可見： physician medical practice St George’s Hospital physician to and inspector of calculations his medical career was slow to take off可是沒有出現 disease、illness、suffered from、health、later years 等能支援題目的字眼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句子"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 有一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1824 to 1829 he was physician to and inspector of calculations for the Palladian Insurance Company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1824 至 1829 年間，他在 Palladian Insurance Company 擔任醫生和計算檢查員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “physician to” 表示職位，指他為某機構服務；它沒有說他自己患病。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost all we know about her is that she supported her husband through several rancorous disputes about optics and worried about money when his medical career was slow to take off.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們對她的了解幾乎只限於：她在幾場關於光學的激烈爭論中支持丈夫，也在他的醫療事業起步緩慢時擔心金錢問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句談醫療事業收入或發展，不涉及疾病。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的資料： Young 在晚年患病疾病或健康問題時間是 later years原文提供的資料： Young 做過醫生Young 的醫療事業起步慢Young 在 1824–1829 年有保險公司職位沒有患病資訊判斷：文章沒有足夠資料判斷 Young 晚年是否患病，也沒有明確相反說他健康良好。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "醫生、醫院和 medical career 這些字很容易讓學生聯想到疾病。但它們描述的是 Young 的職業身份，不是他的健康狀態。題目問 “suffered from a disease”，必須有 Young 作為病人的證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "46",
+      "answerKey": "46",
+      "type": "Short-answer Questions",
+      "prompt": "“How many biographical entries did Young write for the Encyclopaedia Britannica?”",
+      "translation": "Young 為 Encyclopaedia Britannica 寫了多少篇人物傳記條目？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，答案限制為 NO MORE THAN THREE WORDS AND/OR A NUMBER。題目問 How many，所以答案應是數字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thomas Young (1773–1829) contributed 63 articles to the Encyclopaedia Britannica, including 46 biographical entries, mostly on scientists and classicists, and substantial essays on ‘Bridge’,‘Chromatics’, ‘Egypt’, ‘Languages’ and ‘Tides’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thomas Young 為 Encyclopaedia Britannica 撰寫了 63 篇文章，包括 46 篇人物傳記，主要關於科學家和古典學者，也包括多篇重要專題文章。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young has competition, however: the phrase, which Robinson uses as his title, also serves as the subtitle of two other recent biographies—Leonard Warren’s 1998 life of palaeontologist Joseph Leidy (1823–1891) and Paula Findlen’s 2004 book on Athanasius Kircher (1602–1680), another polymath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Young 也有競爭者：Robinson 用作書名的這個短語，也被用作另外兩本近期傳記的副題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，Paragraph 1 已經直接列出 Britannica 條目數量和 biographical entries 數量，所以這題可直接定位到開頭。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“How many”"
+            },
+            {
+              "kind": "quote",
+              "text": "“biographical entries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Encyclopaedia Britannica”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文完全重現 “biographical entries” 和 “Encyclopaedia Britannica”，並且數字就在前面：46。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thomas Young (1773–1829) contributed 63 articles to the Encyclopaedia Britannica, including 46 biographical entries, mostly on scientists and classicists...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thomas Young 為 Encyclopaedia Britannica 撰寫了 63 篇文章，其中包括 46 篇人物傳記，主要關於科學家和古典學者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個數字： 63 articles = 全部 Britannica 文章數量46 biographical entries = 人物傳記條目數量題目問的是 biographical entries，不是 total articles。因此答案要填 46。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： 46 = number，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 46。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生最容易把 63 和 46 混淆。題目問 “biographical entries”，原文說 “including 46 biographical entries”。63 是總文章數，46 是其中的人物傳記條目數。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "accommodation",
+      "answerKey": "accommodation",
+      "type": "Short-answer Questions",
+      "prompt": "“What aspect of scientific research did Young focus on in his first academic paper?”",
+      "translation": "Young 第一篇學術論文聚焦於哪一個科學研究範疇？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 “What aspect”，答案應是名詞或名詞短語。定位詞是 first academic paper。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young, of course, did more than write encyclopaedia entries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，Young 做的事不止於撰寫百科條目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All these hypotheses were subsequently proved correct.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有這些假說後來都被證明正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 會講 Young 在百科寫作以外的科學成就，並且會列出幾個後來證實正確的假說。題目提到 first academic paper，因此本段前半最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“first academic paper”"
+            },
+            {
+              "kind": "quote",
+              "text": "“focus on”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文使用 “presented his first paper to the Royal Society of London” 來表達 first academic paper。往後一句出現答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the paper, Young explained accommodation in the human eye...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the paper, Young explained accommodation in the human eye—how the eye focuses properly on objects at different distances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這篇論文中，Young 解釋了人眼的 accommodation，也就是眼睛如何正確聚焦於不同距離的物體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “In the paper” 指前一句的 first paper。Young 在這篇文章中解釋的主題是"
+            },
+            {
+              "kind": "quote",
+              "text": "“accommodation in the human eye”。破折號後面再解釋 accommodation 的意思：眼睛如何對不同距離的物體準確聚焦。題目問 “What aspect of scientific research”，最精準可填 “accommodation”。如果填 “human eye”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，範圍偏寬，因為原文焦點不只是眼睛本身，而是人眼調節焦距的機制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“first academic paper”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“his first paper to the Royal Society”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“what aspect ... focus on”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“explained accommodation in the human eye”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： accommodation = 1 word，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 accommodation。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 後面也提到 light travelled in waves 和 colour vision。這些都是 Young 的假說，但題目限定 first paper。first paper 的答案在 “In the paper” 這句，不能把後文所有科學成就混在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "Indo-European",
+      "answerKey": "Indo-European",
+      "type": "Short-answer Questions",
+      "prompt": "“What name did Young introduce to refer to a group of languages?”",
+      "translation": "Young 引入哪個名稱來指稱一組語言？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 “What name”，答案應是術語。定位詞是 group of languages。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later in life, when he was in his forties, Young was instrumental in cracking the code that unlocked the unknown script on the Rosetta Stone, a tablet found in Egypt by Napoleon’s army in 1799.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Young 四十多歲時，在破解 Rosetta Stone 上未知文字方面發揮關鍵作用；這塊石碑由拿破崙軍隊於 1799 年在埃及發現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are the landmark achievements of a man who was a child prodigy and who, unlike many remarkable children, did not fade into obscurity as an adult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是一位神童的里程碑式成就；他和許多非凡兒童不同，成年後沒有淡出無名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 會列出 Young 成年後的重要成就，尤其是文字、語言和古埃及研究。題目問 group of languages，很可能在本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“name”"
+            },
+            {
+              "kind": "quote",
+              "text": "“introduced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“group of languages”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文用 “coined the term” 表達 introduced a name；用 “family of languages” 表達 group of languages。掃描 Paragraph 3 可找到 “Indo-European”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In another entry, he coined the term ‘Indo-European’ to describe the family of languages spoken throughout most of Europe and northern India.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在另一個條目中，他創造了 “Indo-European” 這個術語，用來描述在歐洲大部分地區和印度北部使用的一個語言家族。"
+            },
+            {
+              "kind": "label",
+              "text": "這句的核心是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“coined the term” = 創造或引入術語“Indo-European” = 具體術語“family of languages” = 一組語言 / 語言家族"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“introduce a name”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“coined the term”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a group of languages”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the family of languages”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： Indo-European = 1 hyphenated word，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Indo-European。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段有 Greek、Demotic、Egyptian hieroglyphs，這些都是文字或語言相關詞。題目問 “name ... to refer to a group of languages”，只有 Indo-European 是 Young 創造的語言家族名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "Richard Brocklesby",
+      "answerKey": "Richard Brocklesby",
+      "type": "Short-answer Questions",
+      "prompt": "“Who inspired Young to start his medical studies?”",
+      "translation": "誰啟發 Young 開始醫學學習？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 Who，所以答案應是人名。定位詞是 medical studies /pursue medicine。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born in Somerset, England, in 1773, Young lived from an early age with his maternal grandfather and later attended boarding school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Young 1773 年生於英格蘭 Somerset，幼年時與外祖父同住，後來入讀寄宿學校。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He soon became a Fellow of the Royal College of Physicians and, a few years later, was appointed a physician at St George’s Hospital.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他很快成為 Royal College of Physicians 會員，幾年後獲任命為 St George’s Hospital 醫生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 明顯是 Young 的早年生活、教育和醫學職業形成。題目問誰啟發他學醫，因此本段中間最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“inspired”"
+            },
+            {
+              "kind": "quote",
+              "text": "“start his medical studies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Who”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 inspired，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“greatly encouraged”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Following Brocklesby’s example”"
+            },
+            {
+              "kind": "quote",
+              "text": "“decided to pursue medicine”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞正好描述啟發和影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After leaving school, he was greatly encouraged by his mother’s uncle, Richard Brocklesby, a physician and Fellow of the Royal Society. Following Brocklesby’s example, Young decided to pursue medicine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "離校後，他受到母親的叔叔 Richard Brocklesby 極大鼓勵；Brocklesby 是醫生，也是 Royal Society 會員。Young 追隨 Brocklesby 的榜樣，決定從事醫學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來建立完整答案鏈： Richard Brocklesby 是醫生和 Royal Society 會員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Young 受到他極大鼓勵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Young following Brocklesby’s example，決定 pursue medicine。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Who inspired Young to start his medical studies?”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“greatly encouraged by ... Richard Brocklesby”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Following Brocklesby’s example, Young decided to pursue medicine.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： Richard Brocklesby = 2 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Richard Brocklesby。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 還有 maternal grandfather、mother’s uncle、University of Cambridge 等詞。題目問who inspired，應找人名和 influence 動詞。真正有 “encouraged” 和 “example” 作用的人是Richard Brocklesby。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "Royal Institution",
+      "answerKey": "Royal Institution",
+      "type": "Short-answer Questions",
+      "prompt": "“Where did Young get a teaching position?”",
+      "translation": "Young 在哪裡獲得教職？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 Where，所以答案應是地點或機構名稱。定位詞是teaching position。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young’s skill as a physician, however, did not equal his skill as a scholar of natural philosophy or linguistics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Young 作為醫生的能力，並不及他作為 natural philosophy 或 linguistics 學者的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 1816 and 1825 he contributed his many and various entries to the Encyclopaedia Britannica, and throughout his career he authored numerous books, essays and papers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1816 至 1825 年間，他為 Encyclopaedia Britannica 撰寫了許多不同條目；在整個職業生涯中，他還寫了大量書籍、文章和論文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 會列出 Young 在學術和公共領域的職位。題目問 teaching position，應在本段找 professorship、lectures 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“teaching position”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“appointed to a professorship”"
+            },
+            {
+              "kind": "quote",
+              "text": "“where he delivered as many as 60 lectures in a year”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "professorship 是教職；lectures 進一步確認這是教學職位。地點是 “the Royal Institution”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earlier, in 1801, he had been appointed to a professorship of natural philosophy at the Royal Institution, where he delivered as many as 60 lectures in a year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更早在 1801 年，他獲任命為 Royal Institution 的 natural philosophy 教授；在那裡，他一年內講授多達 60 場講座。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心資訊： appointed to a professorship = 獲得教職natural philosophy = 任教範疇at the Royal Institution = 地點 / 機構delivered as many as 60 lectures = 確認職位涉及教學和講授題目問 Where，因此答案是 Royal Institution。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： Royal Institution = 2 words，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "teaching position= professorship / delivered lectures where= at the Royal Institution答案是 Royal Institution。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段還有 Royal Society、Board of Longitude、Palladian Insurance Company 等機構。只有Royal Institution 和 professorship / lectures 連在一起，因此它才回答 “teaching position”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "gas lighting",
+      "answerKey": "gas lighting",
+      "type": "Short-answer Questions",
+      "prompt": "“On what matter affecting London was Young’s opinion sought?”",
+      "translation": "Young 的意見曾就哪一項影響倫敦的事務被徵詢？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 On what matter，所以答案應是事務名詞短語。定位詞是London 和 opinion sought。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young’s skill as a physician, however, did not equal his skill as a scholar of natural philosophy or linguistics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Young 作為醫生的能力，並不及他作為 natural philosophy 或 linguistics 學者的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 1816 and 1825 he contributed his many and various entries to the Encyclopaedia Britannica, and throughout his career he authored numerous books, essays and papers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1816 至 1825 年間，他為 Encyclopaedia Britannica 撰寫了許多不同條目；在整個職業生涯中，他還寫了大量書籍、文章和論文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 會列出 Young 的學術能力和公共事務參與。題目有 London，應在本段中間尋找 London 的具體事項。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“London”"
+            },
+            {
+              "kind": "quote",
+              "text": "“opinion sought”"
+            },
+            {
+              "kind": "quote",
+              "text": "“matter”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“His opinions were sought on civic and national matters, such as the introduction of gas lighting to London and methods of ship construction.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "London 是非常強的定位詞。答案就在它前面的 “gas lighting”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His opinions were sought on civic and national matters, such as the introduction of gas lighting to London and methods of ship construction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們曾就城市公共和國家層面的事務徵求他的意見，例如倫敦引入煤氣照明，以及造船方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 affecting London 的 matter。原文有兩個例子： the introduction of gas lighting to London倫敦引入煤氣照明methods of ship construction造船方法只有第一個直接影響 London，因此答案是 gas lighting。若填 “introduction of gas lighting”，也符合意思，但有四個字，超過 NO MORE THAN THREE WORDS 的限制。最安全答案是 “gas lighting”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“opinion sought”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“opinions were sought”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“matter affecting London”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the introduction of gas lighting to London”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： gas lighting = 2 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 gas lighting。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“introduction of gas lighting” 意思完整，但超過三個字。Short-answer 題要同時保留原文意思和遵守字數限制；這裡用 gas lighting 已足夠回答 matter 本身。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Thomas Young The Last True Know-It-All.pdf",
+    "sha256": "513d4569460bd2ceeff714bbf62589256a12f9ddeefd63b0354317cc5d7cb3fe",
+    "pageCount": 28
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一段首句說 Thomas Young 為 Encyclopaedia Britannica 撰寫了 63 篇文章，包括大量人物傳記和多個專題長文；尾句說 “the last man who knew everything” 這個稱號也出現在 Joseph Leidy和 Athanasius Kircher 的傳記副題中。只看首尾句，可以先估計本段會介紹 Young 的知識廣度、Robinson 傳記對他的定位，以及這個稱號並非只屬於 Young 一人。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句說 Young 當然不只寫百科條目；尾句說他關於眼睛調節、光波和色覺受體的假說後來都被證明正確。只看首尾句，可以估計本段會集中展示 Young 的早期科學成就，尤其是他年輕時向 Royal Society 發表論文，以及在視覺、光學和色覺理論上的前瞻性。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說 Young 四十多歲時，在破解 Rosetta Stone 未知文字方面發揮重要作用；尾句說他是 child prodigy，而且成年後沒有像許多非凡兒童那樣淡出無名。只看首尾句，可以估計本段會講 Young 在語言、文字和古埃及研究上的重大成就，包括 Demotic、hieroglyphs 和Indo-European 一詞，也會強調他成年後仍有卓越表現。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說 Young 1773 年生於英格蘭 Somerset，幼年與外祖父同住，後來入讀寄宿學校；尾句說他完成醫學訓練後在倫敦開業，後來成為 Royal College of Physicians 會員，並獲任命為 St George’s Hospital 醫生。只看首尾句，可以估計本段會交代 Young 的早年教育、語言與科學天分、醫學訓練，以及他如何正式進入醫療職業。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句以 however 轉折，說 Young 作為醫生的能力並不及他在 natural philosophy 或linguistics 方面的學者能力；尾句說他整個職業生涯寫了大量書籍、文章和論文。只看首尾句，可以估計本段會比較 Young 的醫學職業與學術成就，也會列出他在 Royal Institution、Royal Society、Nautical Almanac、Board of Longitude 和 Britannica 的多重職位。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句說 Young 是傳記的完美題材，完美但令人望而生畏；尾句說他的個人生活在其鮮活的職業和研究面前顯得蒼白。只看首尾句，可以估計本段是對 Robinson 傳記的評價：書能清楚介紹技術內容，也展示 Young 的社交和興趣面貌，但讀者未必真正感到認識 Young 的私人內心。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句說 Young 於 1804 年與 Eliza Maxwell 結婚，Robinson 認為婚姻幸福，Eliza 也欣賞他的工作；尾句說雖然 Young 個人關係的細節不足，但任何對 genius 意義感興趣的人都應讀這本書。只看首尾句，可以估計本段會講資料限制，尤其是妻子、父母和私人關係資料不多，最後仍肯定這本傳記對理解天才有價值。"
+      }
+    ]
+  }
+}

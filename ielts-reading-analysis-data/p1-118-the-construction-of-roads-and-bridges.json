@@ -1,0 +1,2012 @@
+{
+  "id": "p1-118-the-construction-of-roads-and-bridges",
+  "catalogueId": "p1-118",
+  "catalogueIds": [
+    "p1-118"
+  ],
+  "passage": 1,
+  "title": "The construction of roads and bridges",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "hot tar",
+    "five centimetres / 5 centimetres",
+    "water",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN",
+    "Romans",
+    "stone",
+    "light",
+    "longest",
+    "steel",
+    "stable"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "hot tar",
+      "answerKey": "hot tar",
+      "type": "Diagram Labelling",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Diagram Label Completion。空格應該標示 flexible pavement 表面層的材料。題目限制是NO MORE THAN TWO WORDS AND/OR A NUMBER，所以答案必須直接從原文抄出，不能自己改寫成 asphalt 或 tarmac。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Roads Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With horse-drawn coaches in mind, eighteenth-century engineers preferred to curve their roads to avoid hills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到馬車行駛，十八世紀工程師偏好把道路設計成彎曲路線，以避開山丘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roads of this kind were known as flexible pavements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類道路被稱為 flexible pavements。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會講十八世紀 road design 和 flexible pavement 的做法。既然 Q1–3是圖表標籤，並且圖是 flexible pavement，就應該回到這段找材料和層次。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中若標示的是 top surface / tarmacadam / stone chips 一帶，最有用的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“surface layer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tarmacadam”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stone chips”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“McAdam’s surface layer—hot tar onto which a layer of stone chips was laid—became known as‘tarmacadam’, or tarmac.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "McAdam 的表面層是在 hot tar 上鋪一層 stone chips，後來稱為 “tarmacadam”，即 tarmac。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “McAdam’s surface layer”。真正描述材料的是 “hot tar onto which a layer of stone chips was laid”。如果圖上已經印有 “stone chips” 或 “tarmacadam”，空格通常會指向底下的黏結材料，即 hot tar。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "surface layer in diagram= McAdam’s surface layer material under stone chips= hot tar答案形式： hot tar = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 tarmacadam。tarmacadam 是整個表面層做法的名稱；如果空格箭嘴指向材料，原文提供的材料是 hot tar。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "five centimetres / 5 centimetres",
+      "answerKey": "five centimetres / 5 centimetres",
+      "type": "Diagram Labelling",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題仍是 Diagram Labelling。空格應該問 flexible pavement 中某一層的厚度。題目容許 NO MORE THAN TWO WORDS AND/OR A NUMBER，因此 five centimetres 或 5 centimetres 都可以。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Roads Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With horse-drawn coaches in mind, eighteenth-century engineers preferred to curve their roads to avoid hills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到馬車行駛，十八世紀工程師偏好把道路設計成彎曲路線，以避開山丘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roads of this kind were known as flexible pavements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類道路被稱為 flexible pavements。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句告訴我們，中間會描述 flexible pavement 的建造方法。圖表題通常按結構順序出題，所以 Q2 很可能來自 McAdam 具體施工句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "若圖上有 “middle layer” 或厚度標記，定位詞應該是："
+            },
+            {
+              "kind": "quote",
+              "text": "“compacted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“thickness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“centimetres”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Immediately above this, the Scottish engineer John McAdam (1756–1836) typically laid crushed stone, to which stone dust mixed with water was added, and which was compacted to a thickness of just five centimetres, and then rolled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個基礎上方，蘇格蘭工程師 John McAdam 通常鋪上 crushed stone，再加入與 water 混合的 stone dust，然後壓實至僅 five centimetres 的厚度，再用滾筒壓平。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心動作是 “laid crushed stone”，後面補充 “stone dust mixed with water was added”，最後說這一層被 “compacted to a thickness of just five centimetres”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目如果問圖中 middle layer 的厚度，答案必須是 “five centimetres”。這是明確數字，不需要推論。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "thickness in diagram= compacted to a thickness 5 cm in diagram= five centimetres答案形式： five centimetres = 2 words；5 centimetres = number + 1 word，兩者符合要求。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “crushed stone”。那是材料，不是厚度。Q2 的定案詞是 thickness。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "water",
+      "answerKey": "water",
+      "type": "Diagram Labelling",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問圖中的 mixed with ______ 一類空格。答案應該是一個物質名詞，且要從原文直接抄出。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Roads Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With horse-drawn coaches in mind, eighteenth-century engineers preferred to curve their roads to avoid hills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到馬車行駛，十八世紀工程師偏好把道路設計成彎曲路線，以避開山丘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roads of this kind were known as flexible pavements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類道路被稱為 flexible pavements。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是 Q1–3 的核心段落，因為它完整描述 flexible pavement 的層次、材料和施工步驟。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中若出現 stone dust and ______，最直接的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“stone dust”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mixed with”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“...laid crushed stone, to which stone dust mixed with water was added...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……鋪上 crushed stone，再加入與 water 混合的 stone dust……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文短語 “stone dust mixed with water” 結構很清楚： stone dust = 石粉mixed with = 與……混合water = 水所以如果圖上是 “stone dust and ______” 或 “stone dust mixed with ______”，答案就是 water。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "stone dust and ___= stone dust mixed with water答案形式： water = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “stone dust”。題目若已經出現 stone dust，空格要補它混合的東西。真正答案是 water。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Road construction improved continuously between the first and eighteenth centuries.”",
+      "translation": "從一世紀到十八世紀，道路建設一直持續改善。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有一個很強的控制詞：continuously。要判斷文章是否說道路建設在這段時間一直進步。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Roads Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roman roads were constructed with a deep stone surface for stability and load-bearing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "羅馬道路用深層石面建造，以提供穩定性和承重能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New roads were generally of inferior quality, and the achievements of Roman builders were largely unsurpassed until the resurgence of road-building in the eighteenth century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新建道路通常品質較差，而羅馬建造者的成就直到十八世紀道路建設復興之前，大致仍未被超越。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段不是講 continuous improvement；它更像在強調 Roman roads 長期領先，後來很多道路質素反而較差。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eighteenth centuries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“improved continuously”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New roads were generally of inferior quality, and the achievements of Roman builders were largely unsurpassed until the resurgence of road-building in the eighteenth century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新道路通常質素較差，羅馬建造者的成就直到十八世紀道路建設復興之前，大致沒有被超越。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 improved continuously，意思是從一世紀到十八世紀一路變好。原文給出相反方向： Roman achievements were largely unsurpassed，代表羅馬人的道路建設水平長期沒有被超越； new roads were generally of inferior quality，代表後來新路通常較差。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：道路建設一直改善。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：羅馬之後的新路通常較差，羅馬成就長期未被超越。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“resurgence of road-building in the eighteenth century” 可能令人覺得十八世紀有進步。這點沒錯，但題目說的是 between the first and eighteenth centuries 持續改善；原文反而說中間很多道路質素不如羅馬時代。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In Britain, during the nineteenth century, only the very rich could afford to use toll roads.”",
+      "translation": "十九世紀在英國，只有非常富有的人負擔得起使用 toll roads。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 affordability 和 social class。題目不是只問 toll roads 是否存在；它加入 only the very rich 這個限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Roads Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the early nineteenth century—the start of the railway age—men such as John McAdam and Thomas Telford had created a British road network totalling some 200,000 km, of which about one sixth consisted of privately owned toll roads called turnpikes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到十九世紀初，即鐵路時代開始時，John McAdam 和 Thomas Telford 等人已建立約 200,000 公里的英國道路網，其中約六分之一是私人擁有、稱為 turnpikes 的收費道路。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the first half of the nineteenth century, many roads in the US were built to the new standards, of which the National Pike from West Virginia to Illinois was perhaps the most notable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀上半葉，美國很多道路按新標準建造，其中從 West Virginia 到 Illinois 的 National Pike可能最著名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段講十九世紀英國道路網和美國道路標準。toll roads 確實出現，但是否只有富人能用，要靠中間或前後文證明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nineteenth century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“toll roads”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only the very rich”"
+            },
+            {
+              "kind": "quote",
+              "text": "“afford”"
+            },
+            {
+              "kind": "label",
+              "text": "原文只提供："
+            },
+            {
+              "kind": "quote",
+              "text": "“...about one sixth consisted of privately owned toll roads called turnpikes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……約六分之一是私人擁有、稱為 turnpikes 的收費道路。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說明三件事： 1. 英國道路網約 200,000 km。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. 約六分之一是 privately owned toll roads。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. 這些 toll roads 稱為 turnpikes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 toll 的金額，也沒有說一般人能否負擔，更沒有說 only the very rich could afford them。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題需要：主體：the very rich動作：could afford限制：only對象：toll roads原文只提供 toll roads 的存在和比例。關於使用者收入階層，資料缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "privately owned 和 toll roads 容易令人聯想到「很貴」。這是現實推測，不是文章證據。IELTS 判斷時要看到 price / afford / rich / poor 之類資料才可下結論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nineteenth-century road surfaces were inadequate for heavy motor traffic.”",
+      "translation": "十九世紀的道路表面不足以承受繁重的機動車交通。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 nineteenth-century road surfaces 是否對 heavy motor traffic 不足。定位詞是nineteenth-century standards、motor vehicles、break up roads。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Roads Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the twentieth century, the ever-increasing use of motor vehicles threatened to break up roads built to nineteenth-century standards, so new techniques had to be developed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在二十世紀，機動車使用不斷增加，威脅要破壞按十九世紀標準建造的道路，因此必須發展新技術。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, it is possible to lay long slabs without danger of cracking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，可以鋪設長板而沒有 cracking 的危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段講舊道路面對 motor traffic 時的不足，以及 rigid pavements /concrete / steel bars 等新方法如何解決 cracking 問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nineteenth-century road surfaces”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inadequate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“heavy motor traffic”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the twentieth century, the ever-increasing use of motor vehicles threatened to break up roads built to nineteenth-century standards, so new techniques had to be developed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十世紀時，機動車使用不斷增加，威脅會破壞按十九世紀標準建造的道路，所以必須發展新技術。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “inadequate” 沒有原字出現，但意思由 “threatened to break up” 和 “new techniques had to be developed” 支持。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "nineteenth-century road surfaces= roads built to nineteenth-century standards inadequate= threatened to break up / new techniques had to be developed heavy motor traffic= ever-increasing use of motor vehicles / routes with heavy traffic原文說舊標準道路會被 motor vehicles 破壞，因此需要新技術。這和題目方向一致，所以答案是TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 road surfaces，原文說 roads built to nineteenth-century standards。雖然不是逐字重現，但下一句立刻說 flexible pavements were replaced by rigid pavements，說明問題正是道路結構和表面層面。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Traffic speeds on long-distance highways were unregulated in the early part of the twentieth century.”",
+      "translation": "二十世紀初，長途高速公路上的車速沒有受到規管。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 speed regulation。文章有 high-speed roads 和 1925，但未必有 regulated /unregulated 的資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Roads Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The demands of heavy traffic led to the concept of high-speed, long-distance roads, with access—or slip lanes—spaced widely apart.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "繁重交通的需求帶來 high-speed、long-distance roads 的概念，並且入口或 slip lanes 相隔較遠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such roads—especially the intercity autobahns with their separate multi-lane carriageways for each direction—were the predecessors of today’s motorways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類道路，尤其是每個方向都有獨立多線行車道的城際 autobahns，是今日 motorways 的前身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段講高速長途道路的概念和現代 motorways 的前身。它確實有 speed相關字眼，但未必處理速度限制或交通規則。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“traffic speeds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“long-distance highways”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unregulated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“early part of the twentieth century”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The demands of heavy traffic led to the concept of high-speed, long-distance roads...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "繁重交通需求帶來高速長途道路的概念……以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“The US Bronx River Parkway of 1925 was followed by several variants—Germany’s autobahns and the Pan American Highway.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1925 年美國 Bronx River Parkway 之後，出現了幾種變體，包括德國 autobahns 和 Pan American Highway。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 high-speed roads，意思是道路設計概念容許或服務高速交通。題目說 traffic speeds were unregulated，涉及是否有速度規管、法律限制、交通管理制度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有提供： speed limits traffic regulations police enforcement unregulated speeds free speed policy所以不能判斷題目是真是假。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "high-speed 不等於 unregulated。前者是道路類型或設計目標；後者是交通法規狀態。題目把「高速」推成「沒有規管」，這一步超出文章證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "Romans",
+      "answerKey": "Romans",
+      "type": "Table Completion",
+      "prompt": "Question 8",
+      "translation": "拱橋由 8 ________ 引入。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目功能：表格應是： Arched bridge Introduced by the 8 ________"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Bridges Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The development by the Romans of the arched bridge marked the beginning of scientific bridge-building; hitherto, bridges had generally been crossings in the form of felled trees or flat stone blocks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Romans 發展 arched bridge，標誌着科學橋樑建設的開始；在此之前，橋一般只是倒下的樹木或平石塊形成的 crossing。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first significant metal bridge, built of cast iron in 1779, still stands at Ironbridge in England.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一座重要金屬橋於 1779 年用 cast iron 建造，至今仍矗立於英國 Ironbridge。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段從 Romans 的 arched bridge 講到後來 metal bridge。Q8 問introduced by，很可能在第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“arched bridge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“introduced by”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Romans”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The development by the Romans of the arched bridge marked the beginning of scientific bridge-building...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Romans 對 arched bridge 的發展，標誌着科學橋樑建造的開始。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The development by the Romans of the arched bridge” 表示 arched bridge 的重要發展由Romans 完成。表格把這個意思壓縮成 “Introduced by the ________”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：Romans"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 Roman。原文是 the Romans，表格空格在 “the ________” 後面，答案應保持複數Romans。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "stone",
+      "answerKey": "stone",
+      "type": "Table Completion",
+      "prompt": "Question 9",
+      "translation": "拱橋通常由 9 ________ 建成。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目功能：表格應是： Arched bridge Usually made of 9 ________"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Bridges Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The development by the Romans of the arched bridge marked the beginning of scientific bridge-building...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Romans 發展 arched bridge，標誌着科學橋樑建設的開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first significant metal bridge, built of cast iron in 1779, still stands at Ironbridge in England.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一座重要金屬橋於 1779 年用 cast iron 建成，至今仍在英國 Ironbridge。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 arched bridges 的起源、強度、常見材料和例子，所以 Q9 的材料必然在此段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most”"
+            },
+            {
+              "kind": "quote",
+              "text": "“built of”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stone”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most were built of stone, but brick and timber were also used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數是用 stone 建成，但也使用 brick 和 timber。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格用 “Usually made of” 改寫原文 “Most were built of”。Most 表示大多數，等於 usually 的意思。原文雖然也提到 brick and timber，但 those were also used 只是補充材料，不是最常見材料。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Usually made of= Most were built of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：stone"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 brick 或 timber。它們在原文中確實出現，但位置是 “also used”，表示次要材料。表格問usually，答案要看 Most。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "light",
+      "answerKey": "light",
+      "type": "Table Completion",
+      "prompt": "Question 10",
+      "translation": "suspension bridge 很強，但也 10 ________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目功能：表格應是： Suspension bridge Strong but 10 ________"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Bridges Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The suspension bridge has a deck supported by suspenders that drop from one or more overhead cables.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Suspension bridge 的橋面由 suspenders 支撐，而 suspenders 從一條或多條 overhead cables垂下。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 1998 Akashi Kaikyo Bridge in Japan has a span of 1,991 metres, which is the longest to date.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1998 年日本 Akashi Kaikyo Bridge 的跨度為 1,991 米，至今仍是最長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段介紹 suspension bridge 的結構和長跨度優勢。Q10 問 strong but______，應在本段中間找形容詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“strong”"
+            },
+            {
+              "kind": "quote",
+              "text": "“light”"
+            },
+            {
+              "kind": "quote",
+              "text": "“long spans”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such bridges are nevertheless light, and therefore the most suitable for very long spans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類橋 nevertheless 很 light，因此最適合 very long spans。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前文已說 suspension bridge 需要 strong anchorage，也要強化 deck 來控制 distortion。接着原文用 nevertheless 轉入另一特點：light。表格把這段壓縮成 “Strong but light”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Strong but ___= Such bridges are nevertheless light"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：light"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 strong。表格已經有 strong；空格要填與 strong 並列的另一個特徵。原文的定案詞是 light。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "longest",
+      "answerKey": "longest",
+      "type": "Table Completion",
+      "prompt": "Question 11",
+      "translation": "日本 Akashi Kaikyo Bridge 目前有 11 ________ 的跨度。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目功能：表格應是： Akashi Kaikyo, Japan currently the 11 ________ span"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Bridges Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The suspension bridge has a deck supported by suspenders that drop from one or more overhead cables.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Suspension bridge 的橋面由從 overhead cables 垂下的 suspenders 支撐。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 1998 Akashi Kaikyo Bridge in Japan has a span of 1,991 metres, which is the longest to date.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1998 年日本 Akashi Kaikyo Bridge 的跨度為 1,991 米，至今最長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎由段落最後一句直接回答。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Akashi Kaikyo”"
+            },
+            {
+              "kind": "quote",
+              "text": "“span”"
+            },
+            {
+              "kind": "quote",
+              "text": "“currently”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 1998 Akashi Kaikyo Bridge in Japan has a span of 1,991 metres, which is the longest to date.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1998 年日本 Akashi Kaikyo Bridge 的跨度為 1,991 米，至今最長。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 currently 對應原文 “to date”，意思是到目前為止。表格的 “the ________ span” 需要形容詞最高級，原文提供 “the longest”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "currently= to date the ___ span= the longest to date"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：longest"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “1,991 metres”。表格句子是 “currently the ___ span”，文法上需要形容詞，不是數字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "steel",
+      "answerKey": "steel",
+      "type": "Table Completion",
+      "prompt": "Question 12",
+      "translation": "Cantilever bridge 由 12 ________ 建成。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目功能：表格應是： Cantilever bridge Made of 12 ________"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Bridges Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cantilever bridges, such as the 1889 Forth Rail Bridge in Scotland, exploit the potential of steel construction to produce a wide, unobstructed span over water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cantilever bridges，例如 1889 年蘇格蘭 Forth Rail Bridge，利用 steel construction 的潛力，造出寬闊、無阻礙的水上跨度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The world’s longest cantilever span—549 metres—is that of the Quebec rail bridge in Canada, constructed in 1918.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界最長的 cantilever span 是加拿大 Quebec rail bridge 的 549 米，建於 1918 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段講 cantilever bridge 的材料、結構和例子。Q12 問 made of，答案在首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cantilever bridges”"
+            },
+            {
+              "kind": "quote",
+              "text": "“steel construction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Made of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cantilever bridges... exploit the potential of steel construction...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cantilever bridges 利用 steel construction 的潛力……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格把 “steel construction” 簡化成 “Made of steel”。答案必須是一個字，steel 正好符合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Made of ___= steel construction"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：steel"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 construction。題目問材料，steel 才是材料；construction 是建造方式或結構概念。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "stable",
+      "answerKey": "stable",
+      "type": "Table Completion",
+      "prompt": "Question 13",
+      "translation": "Cantilever bridge 比 suspension bridge 更 13 ________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目功能：表格應是： Cantilever bridge More 13 ________ than the suspension bridge."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Bridges Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cantilever bridges, such as the 1889 Forth Rail Bridge in Scotland, exploit the potential of steel construction to produce a wide, unobstructed span over water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cantilever bridges 利用 steel construction 的潛力，造出寬闊、無阻礙的水上跨度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The world’s longest cantilever span—549 metres—is that of the Quebec rail bridge in Canada, constructed in 1918.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界最長 cantilever span 是加拿大 Quebec rail bridge 的 549 米，建於 1918 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段會比較 cantilever 和 suspension bridge，因為題目有 “than the suspension bridge”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although”"
+            },
+            {
+              "kind": "quote",
+              "text": "“suspension bridge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cantilever”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the suspension bridge can span a wider gap, the cantilever is relatively stable, and this was important for nineteenth-century railway builders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 suspension bridge 可以跨越更寬的距離，但 cantilever relatively stable，而這對十九世紀railway builders 很重要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文比較了兩種橋： suspension bridge= can span a wider gap cantilever= relatively stable表格把 “relatively stable” 改寫成 “More stable than the suspension bridge”。題目需要一個形容詞，stable 正好符合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "relatively stable= more stable than the suspension bridge"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：stable"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 wider。wider 是 suspension bridge 的優勢；Q13 問 cantilever 相對 suspension bridge 的優勢，答案是 stable。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The construction of roads and bridges.pdf",
+    "sha256": "e82e05f5d9e90b66d5ed51d8ab0359f427d81cf12d04975854fa9aa5ce589371",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 Mesopotamia 早於 3500 BC 已有 highway links，但 Romans 很可能是第一批有固定工程標準的 road builders。末句說羅馬帝國高峰時，Rome 的道路連接總長約 85,000 公里。只看首尾句，可以先判斷本段是歷史起點：道路並非羅馬人發明，但羅馬人把道路建設提升到有標準、有規模的工程系統。",
+        "label": "Roads Paragraph 1"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Roman roads 用深層石面建造，以提供 stability 和 load-bearing。末句說新道路通常品質較差，Roman builders 的成就直到十八世紀 road-building 復興前大致仍未被超越。只看首尾句，可以估計本段功能是評價 Roman roads 的工程優勢和長期影響。這段也很適合回答「道路建設是否一直進步」這類判斷題。",
+        "label": "Roads Paragraph 2"
+      },
+      {
+        "number": "3",
+        "summary": "首句說十八世紀工程師為了 horse-drawn coaches，偏好把道路設計成彎曲路線以避開山丘。末句說這類道路稱為 flexible pavements。只看首尾句，可以判斷本段介紹十八世紀道路設計和McAdam 的 road surface 技術。中間細節會很重要，因為它描述 crushed stone、stone dust、water、five centimetres、hot tar 和 stone chips。",
+        "label": "Roads Paragraph 3"
+      },
+      {
+        "number": "4",
+        "summary": "首句說到十九世紀初，即 railway age 開始時，McAdam 和 Telford 已建立約 200,000 公里的British road network。末句說十九世紀上半葉，美國很多道路按新標準建造，其中 National Pike最著名。只看首尾句，可以看出本段講英國道路網擴展，以及新標準如何傳到美國。toll roads /turnpikes 的資料也在這段。",
+        "label": "Roads Paragraph 4"
+      },
+      {
+        "number": "5",
+        "summary": "首句說二十世紀 motor vehicles 日益增加，威脅會破壞按十九世紀標準建造的道路，因此需要新技術。末句說由於混凝土內加入 steel bars，可以鋪設長板而不易 cracking。只看首尾句，可以判斷本段從舊道路不足轉向 rigid pavements。這段特別適合處理 heavy motor traffic、nineteenth-century standards、concrete、steel bars 等題目。",
+        "label": "Roads Paragraph 5"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 heavy traffic 的需求帶來 high-speed, long-distance roads 的概念，並且 access / slip lanes 相隔較遠。末句說這些道路，尤其是 intercity autobahns，是今日 motorways 的前身。只看首尾句，可以判斷本段講現代高速公路概念的形成。這段有 high-speed 和 long-distance，但未必有 speed regulation 的資料。",
+        "label": "Roads Paragraph 6"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Romans 發展 arched bridge，標誌着 scientific bridge-building 的開始；之前橋多是 felled trees 或 flat stone blocks。末句說第一座重要金屬橋於 1779 年用 cast iron 建成，至今仍在英國Ironbridge。只看首尾句，可以判斷本段介紹 arched bridges 的歷史突破、主要材料和早期例子。 Romans、stone、Ironbridge 都是高價值定位詞。",
+        "label": "Bridges Paragraph 7"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 steel 因為 superior strength-to-weight ratio，很快取代 iron 成為 metal bridgework 的主要材料。末句說 truss beam 由上下 horizontal booms 和 vertical / inclined members 連接而成。只看首尾句，可以判斷本段主題是 steel 的出現，以及 railway age 中 truss / girder bridge 的流行。若表格問 truss bridge 的材料或用途，答案多半在這段。",
+        "label": "Bridges Paragraph 8"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 suspension bridge 的 deck 由 suspenders 支撐，而 suspenders 從 overhead cables 垂下。末句說 1998 年日本 Akashi Kaikyo Bridge 的 span 是 1,991 metres，至今最長。只看首尾句，可以判斷本段集中講 suspension bridge 的結構、優點和著名例子。關鍵包括 suspended deck、strong anchorage、light、very long spans、longest span。",
+        "label": "Bridges Paragraph 9"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 cantilever bridges，例如 1889 年蘇格蘭 Forth Rail Bridge，利用 steel construction 造出寬闊、無阻礙的水上跨度。末句說世界最長 cantilever span 是加拿大 Quebec rail bridge，長 549 metres，建於 1918 年。只看首尾句，可以判斷本段講 cantilever bridge 的材料、結構原理、穩定性和代表例子。steel、stable、Quebec 是主要定位詞。",
+        "label": "Bridges Paragraph 10"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 1–3 的原題 diagram 沒有在現有來源中顯示。來源 PDF 根據公開版本中 flexible pavement 的結構圖、Paragraph 3 的文字和來源答案表，重建 hot tar、five centimetres / 5 centimetres、water 的對應；實際作答時應以紙本圖為準。"
+  ]
+}

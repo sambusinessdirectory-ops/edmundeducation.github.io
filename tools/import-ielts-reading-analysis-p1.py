@@ -30,10 +30,11 @@ import pdfplumber
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = ROOT / "tools/ielts-reading-analysis-p1-import-manifest.json"
+REPORT_PATH = ROOT / "tools/ielts-reading-analysis-p1-import-report.json"
 OUTPUT_DIR = ROOT / "ielts-reading-analysis-data"
 AVAILABILITY_PATH = ROOT / "ielts-reading-analysis-availability.js"
-IMPORT_VERSION = "2026-08-08.1"
-AVAILABILITY_VERSION = "2026-08-08.4"
+IMPORT_VERSION = "2026-08-08.2"
+AVAILABILITY_VERSION = "2026-08-08.5"
 
 QUESTION_LINE = re.compile(r"^Question\s+(\d+)\s*$", re.IGNORECASE)
 QUESTION_RANGE_LINE = re.compile(
@@ -78,7 +79,8 @@ OVERVIEW_HEADING_LINE = re.compile(
     re.IGNORECASE,
 )
 OVERVIEW_CUSTOM_LABEL = re.compile(
-    r"^(?:Introductory\s+paragraph|Introduction|Opening\s+paragraph)$",
+    r"^(?:(?:Intro(?:ductory)?|Opening)\s+paragraph(?:\s+(\d+))?|"
+    r"Introduction|Lead[- ]in|導語)$",
     re.IGNORECASE,
 )
 
@@ -93,6 +95,50 @@ class Group:
 
 def load_manifest() -> dict[str, Any]:
     return json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+
+
+def load_previous_source_rows() -> dict[str, dict[str, Any]]:
+    """Index the last successful import so unavailable earlier batches survive.
+
+    The teacher supplies the PDF corpus in batches and may replace the desktop
+    source folder between imports.  A missing source is therefore recoverable
+    only when both its prior report row and its validated generated article are
+    still present.  Newly listed or otherwise unverified missing PDFs remain a
+    hard error.
+    """
+
+    if not REPORT_PATH.is_file():
+        return {}
+    report = json.loads(REPORT_PATH.read_text(encoding="utf-8"))
+    return {
+        row["filename"]: row
+        for row in report.get("sources", [])
+        if row.get("filename") and row.get("articleId") and row.get("sha256")
+    }
+
+
+def load_cached_article(
+    source: dict[str, Any],
+    previous_rows: dict[str, dict[str, Any]],
+) -> tuple[str, dict[str, Any]]:
+    """Load a prior generated article for a source absent from this batch."""
+
+    filename = source["filename"]
+    row = previous_rows.get(filename)
+    if row is None:
+        raise ValueError("no successful prior import-report row")
+    article_path = OUTPUT_DIR / f"{row['articleId']}.json"
+    if not article_path.is_file():
+        raise ValueError(f"cached article is missing: {article_path.name}")
+    article = json.loads(article_path.read_text(encoding="utf-8"))
+    if article.get("id") != row["articleId"]:
+        raise ValueError("cached article ID does not match the prior report")
+    digest = row["sha256"]
+    if article.get("source", {}).get("sha256") != digest:
+        raise ValueError("cached article checksum does not match the prior report")
+    if not set(source["catalogueIds"]).issubset(set(article.get("catalogueIds", []))):
+        raise ValueError("cached article does not cover the manifest catalogue IDs")
+    return digest, article
 
 
 def sha256(path: Path) -> str:
@@ -156,6 +202,7 @@ def answer_region(lines: list[str]) -> tuple[int, int] | None:
         line = lines[i]
         if (
             is_group_heading(line)
+            or QUESTION_LINE.match(line)
             or line.lower().startswith("skim roadmap")
             or line.startswith("全文 Skim")
             or line.lower() == "paragraph map"
@@ -219,6 +266,15 @@ def parse_answer_key(lines: list[str]) -> list[str]:
         if len(values) == count and all(len(item) <= 30 for item in values):
             for offset, item in enumerate(values):
                 answers[first + offset] = item
+        elif 1 < len(values) < count and all(len(item) <= 30 for item in values):
+            # Preserve every supplied answer in order, but make an incomplete
+            # grouped answer row explicit.  Repeating `C, D, E` across all
+            # four Questions 1–4 would falsely imply that the source provided
+            # a fourth supported option.
+            for offset, item in enumerate(values):
+                answers[first + offset] = item
+            for offset in range(len(values), count):
+                answers[first + offset] = f"原 PDF 未提供第 {offset + 1} 個答案"
         else:
             # Some source files explicitly say a diagram is missing.  Do not
             # invent arrow-to-label mappings; make that limitation visible.
@@ -304,12 +360,15 @@ def paragraph_chunks(lines: list[str]) -> list[str]:
 
 
 def answer_table_last_row(lines: list[str], limit: int) -> int | None:
-    """Return the last numbered answer-row line before ``limit``.
+    """Return the final answer-row *or continuation* before ``limit``.
 
     Teacher caveats and roadmap introductions can sit immediately after the
     answer table.  They are source content, not part of the final answer.  A
     concrete row boundary lets the overview parser retain those notes without
-    dragging the answer table itself into the roadmap heading.
+    dragging the answer table itself into the roadmap heading.  The final
+    answer may itself wrap across PDF lines (for example ``marine`` followed
+    by ``chronometer``), so use the same conservative continuation rules as
+    ``parse_answer_key``; otherwise the wrapped tail leaks into sourceNotes.
     """
 
     answer_start = next(
@@ -319,9 +378,34 @@ def answer_table_last_row(lines: list[str], limit: int) -> int | None:
     if answer_start is None:
         return None
     last_row: int | None = None
+    active_row = False
+    continuation_count = 0
     for i in range(answer_start + 1, limit):
-        if ANSWER_LINE.match(lines[i]):
+        line = lines[i]
+        if re.sub(r"\s+", "", line).lower() in {"題號答案", "questionanswer", "questionanswerkey"}:
+            active_row = False
+            continue
+        if ANSWER_LINE.match(line):
             last_row = i
+            active_row = True
+            continuation_count = 0
+            continue
+        if (
+            active_row
+            and continuation_count < 2
+            and len(line) <= 45
+            and not re.search(r"[\u3400-\u9fff]", line)
+            and not re.search(r"[。！？!?]", line)
+            and not re.match(
+                r"^(?:Questio|n|小提示|小提醒|重要|Question|題目|SECTION|Part|Skim|全文|第\s*\d+\s*題)",
+                line,
+                re.I,
+            )
+        ):
+            last_row = i
+            continuation_count += 1
+            continue
+        active_row = False
     return last_row
 
 
@@ -399,7 +483,14 @@ def source_note_chunks(lines: list[str]) -> list[str]:
         conclusion = smart_join(lines[i:])
         return [note for note in (intro, conclusion) if note]
 
-    return paragraph_chunks(lines)
+    prepared = list(lines)
+    if (
+        len(prepared) > 1
+        and prepared[0].startswith("重要說明：")
+        and not re.search(r"[。！？.!?]$", prepared[0])
+    ):
+        prepared[0] += "。"
+    return paragraph_chunks(prepared)
 
 
 def parse_overview(
@@ -426,21 +517,17 @@ def parse_overview(
         elif inline:
             starts.append((i, inline.group(1).upper(), inline.group(2).strip()))
 
-    # Some passages begin with an explicitly named introduction and then
-    # continue with Paragraph A, B, ... .  Preserve that first custom label
-    # instead of treating its text as part of the roadmap title.
-    if heading_index is not None and starts:
-        first_standard = starts[0][0]
-        introductory = next(
-            (
-                (i, line)
-                for i, line in enumerate(preamble[heading_index + 1 : first_standard], heading_index + 1)
-                if OVERVIEW_CUSTOM_LABEL.match(line)
-            ),
-            None,
-        )
-        if introductory:
-            starts.insert(0, (introductory[0], "Intro", introductory[1]))
+    # Some passages begin with one or more explicitly named introductions and
+    # then continue with Paragraph A, B, ... .  Preserve every such label
+    # instead of dragging its prose into the roadmap title.
+    if heading_index is not None:
+        for i, line in enumerate(preamble[heading_index + 1 :], heading_index + 1):
+            custom = OVERVIEW_CUSTOM_LABEL.match(line)
+            if not custom:
+                continue
+            number = f"Intro {custom.group(1)}" if custom.group(1) else "Intro"
+            starts.append((i, number, line))
+        starts.sort(key=lambda item: item[0])
 
     custom_starts: list[tuple[int, str]] = []
     if not starts:
@@ -459,12 +546,29 @@ def parse_overview(
             return None, []
 
     first_start = starts[0][0] if starts else custom_starts[0][0]
+    heading_extra_lines: list[str] = []
     if heading_index is not None:
         # A roadmap heading is sometimes wrapped over two PDF lines.  Its
         # continuation lies between the explicit heading and the first
-        # paragraph label, so joining this narrow slice is safe and avoids
-        # absorbing caveats that precede it.
-        heading = smart_join(preamble[heading_index:first_start])
+        # paragraph label.  Only short title-like continuation lines belong in
+        # the heading: some PDFs put a full Golden Manual instruction in the
+        # same gap, which must remain visible as a source note rather than
+        # polluting the title.
+        heading_lines = [preamble[heading_index]]
+        in_heading_extra = False
+        for line in preamble[heading_index + 1 : first_start]:
+            candidate = smart_join(heading_lines + [line])
+            if (
+                not in_heading_extra
+                and len(line) <= 36
+                and len(candidate) <= 80
+                and not re.search(r"[。！？.!?]$", line)
+            ):
+                heading_lines.append(line)
+            else:
+                in_heading_extra = True
+                heading_extra_lines.append(line)
+        heading = smart_join(heading_lines)
     else:
         heading = "全文 Skim Roadmap"
 
@@ -473,6 +577,8 @@ def parse_overview(
     if heading_index is not None and last_answer_row is not None:
         note_lines = preamble[last_answer_row + 1 : heading_index]
         source_notes = source_note_chunks(note_lines)
+    if heading_extra_lines:
+        source_notes.extend(source_note_chunks(heading_extra_lines))
 
     paragraphs: list[dict[str, str]] = []
     overview_starts = starts if starts else [
@@ -482,7 +588,7 @@ def parse_overview(
     for position, (line_index, number, initial_or_label) in enumerate(overview_starts):
         next_index = overview_starts[position + 1][0] if position + 1 < len(overview_starts) else len(preamble)
         if starts:
-            if number == "Intro":
+            if number.startswith("Intro"):
                 initial = None
                 label = initial_or_label
             else:
@@ -548,9 +654,34 @@ def parse_groups(lines: list[str]) -> tuple[list[Group], int]:
         boundaries.append((i, match))
 
     if not boundaries:
-        raise ValueError("No Questions group headings found")
+        first_question = next(
+            ((i, int(match.group(1))) for i, line in enumerate(lines) if (match := QUESTION_LINE.match(line))),
+            None,
+        )
+        if first_question is None:
+            raise ValueError("No Questions group headings found")
+        return [Group(first_question[1], first_question[1], "Question Analysis", lines[first_question[0] :])], first_question[0]
 
     groups: list[Group] = []
+    # Some authored PDFs move directly from the answer table into Question 1
+    # and introduce a plural group heading only later.  Preserve those early
+    # standalone questions as an implicit group instead of starting halfway
+    # through the article.
+    first_boundary_index = boundaries[0][0]
+    early_markers = [
+        (i, int(match.group(1)))
+        for i, line in enumerate(lines[:first_boundary_index])
+        if (match := QUESTION_LINE.match(line))
+    ]
+    if early_markers:
+        first_line, first_number = early_markers[0]
+        last_number = early_markers[-1][1]
+        groups.append(Group(
+            first_number,
+            last_number,
+            "Question Analysis",
+            lines[first_line:first_boundary_index],
+        ))
     for position, (line_index, match) in enumerate(boundaries):
         next_index = boundaries[position + 1][0] if position + 1 < len(boundaries) else len(lines)
         start = int(match.group(1))
@@ -561,7 +692,17 @@ def parse_groups(lines: list[str]) -> tuple[list[Group], int]:
         if not title and body_start < next_index and len(lines[body_start]) < 60:
             # Handles wrapped headings such as "Questions 1–6：TRUE / FALSE / NOT" + "GIVEN".
             candidate = lines[body_start]
-            if not QUESTION_LINE.match(candidate) and not QUESTION_RANGE_LINE.match(candidate):
+            if (
+                not QUESTION_LINE.match(candidate)
+                and not QUESTION_RANGE_LINE.match(candidate)
+                and re.search(
+                    r"(?:\b(?:Matching|TRUE|FALSE|NOT|YES|NO|Summary|Sentence|Multiple|Choose|"
+                    r"Diagram|Short|Notes|Completion|Classification|Headings|Information)\b|"
+                    r"題型|詳細分析)",
+                    candidate,
+                    re.I,
+                )
+            ):
                 title = candidate
                 body_start += 1
         if title and body_start < next_index:
@@ -625,6 +766,15 @@ def split_group_units(group: Group) -> list[tuple[list[int], list[str], str | No
 
     if not markers:
         return [(list(range(group.start, group.end + 1)), group.body, None)]
+
+    first_marked_number = min(markers[0][1])
+    leading_numbers = [
+        number
+        for number in range(group.start, group.end + 1)
+        if number < first_marked_number
+    ]
+    if leading_numbers:
+        markers.insert(0, (-1, leading_numbers, None))
 
     units: list[tuple[list[int], list[str], str | None]] = []
     for position, (line_index, numbers, override) in enumerate(markers):
@@ -843,6 +993,12 @@ def parse_article(
         "version": IMPORT_VERSION,
     }
     overview, source_notes = parse_overview(lines, analysis_start)
+    # Some source PDFs place an important diagram/option caveat inside a later
+    # question group instead of beside the answer table.  Those notes are
+    # recorded verbatim in the manifest so an incremental re-import cannot
+    # silently turn an inferred arrow mapping into an apparently definitive
+    # answer.  Merge and de-duplicate both note sources.
+    source_notes = list(dict.fromkeys(source_notes + source.get("sourceNotes", [])))
     if overview:
         article["paragraphOverview"] = overview
     if source_notes:
@@ -859,10 +1015,12 @@ def validate_article(article: dict[str, Any]) -> list[str]:
         if re.search(r"(?:SECTION\s+\d+|Skim\s+Roadmap|中文意思|題目要求)", answer, re.I):
             errors.append(f"{label}: Q{answer_index} answer key contains non-answer prose")
     overview_title = article.get("paragraphOverview", {}).get("title", "")
-    if len(overview_title) > 180:
+    if len(overview_title) > 80:
         errors.append(f"{label}: paragraph overview title contains too much source prose")
-    if any(not note.strip() for note in article.get("sourceNotes", [])):
-        errors.append(f"{label}: sourceNotes contains an empty note")
+    if re.search(r"[。！？.!?]", overview_title):
+        errors.append(f"{label}: paragraph overview title contains a prose sentence")
+    if any(len(note.strip()) < 10 for note in article.get("sourceNotes", [])):
+        errors.append(f"{label}: sourceNotes contains an empty or leaked answer fragment")
     covered: list[int] = []
     for question in article["questions"]:
         numbers = question.get("numbers", [question["number"]])
@@ -945,23 +1103,47 @@ def main() -> int:
 
     manifest = load_manifest()
     source_root = (args.source_dir or Path(manifest["sourceDirectoryHint"])).expanduser()
-    missing = [source["filename"] for source in manifest["sources"] if not (source_root / source["filename"]).is_file()]
-    if missing:
-        print("Missing source PDFs:", file=sys.stderr)
-        for filename in missing:
-            print(f"  - {filename}", file=sys.stderr)
+    previous_rows = load_previous_source_rows()
+    unrecoverable: list[tuple[str, str]] = []
+    for source in manifest["sources"]:
+        if (source_root / source["filename"]).is_file():
+            continue
+        try:
+            load_cached_article(source, previous_rows)
+        except (OSError, ValueError, json.JSONDecodeError) as error:
+            unrecoverable.append((source["filename"], str(error)))
+    if unrecoverable:
+        print("Missing source PDFs without a verified cached import:", file=sys.stderr)
+        for filename, reason in unrecoverable:
+            print(f"  - {filename}: {reason}", file=sys.stderr)
         return 1
 
     articles_by_hash: dict[str, dict[str, Any]] = {}
     source_rows: list[dict[str, Any]] = []
+    parsed_source_count = 0
+    cached_source_count = 0
+    parsed_article_hashes: set[str] = set()
+    parsed_catalogue_ids: set[str] = set()
     for source in manifest["sources"]:
         path = source_root / source["filename"]
-        digest = sha256(path)
+        source_status = "parsed"
+        if path.is_file():
+            digest = sha256(path)
+            parsed_source_count += 1
+            parsed_catalogue_ids.update(source["catalogueIds"])
+        else:
+            digest, cached_article = load_cached_article(source, previous_rows)
+            source_status = "cached"
+            cached_source_count += 1
         if digest not in articles_by_hash:
-            try:
-                articles_by_hash[digest] = parse_article(source, path, digest)
-            except Exception as error:  # show the exact source before stopping
-                raise RuntimeError(f"Failed to import {source['filename']}: {error}") from error
+            if source_status == "parsed":
+                try:
+                    articles_by_hash[digest] = parse_article(source, path, digest)
+                    parsed_article_hashes.add(digest)
+                except Exception as error:  # show the exact source before stopping
+                    raise RuntimeError(f"Failed to import {source['filename']}: {error}") from error
+            else:
+                articles_by_hash[digest] = cached_article
         else:
             article = articles_by_hash[digest]
             if source["catalogueIds"] != article["catalogueIds"]:
@@ -971,7 +1153,23 @@ def main() -> int:
             "sha256": digest,
             "articleId": articles_by_hash[digest]["id"],
             "catalogueIds": source["catalogueIds"],
+            "status": source_status,
         })
+
+    bundled_duplicate_rows: list[dict[str, Any]] = []
+    for source in manifest.get("bundledSourceDuplicates", []):
+        path = source_root / source["filename"]
+        row: dict[str, Any] = {
+            "filename": source["filename"],
+            "articleId": source["articleId"],
+            "catalogueIds": source["catalogueIds"],
+            "reason": source["reason"],
+            "status": "skipped-already-bundled",
+            "present": path.is_file(),
+        }
+        if path.is_file():
+            row["sha256"] = sha256(path)
+        bundled_duplicate_rows.append(row)
 
     articles = sorted(articles_by_hash.values(), key=lambda item: item["id"])
     errors = [error for article in articles for error in validate_article(article)]
@@ -992,12 +1190,23 @@ def main() -> int:
             if path.name not in expected_files:
                 path.unlink()
         write_availability(articles)
-        write_json(ROOT / "tools/ielts-reading-analysis-p1-import-report.json", {
+        write_json(REPORT_PATH, {
             "version": IMPORT_VERSION,
             "sourceCount": len(manifest["sources"]),
+            "parsedSourceCount": parsed_source_count,
+            "cachedSourceCount": cached_source_count,
+            "batchInventorySourceCount": parsed_source_count + sum(
+                1 for row in bundled_duplicate_rows if row["present"]
+            ),
+            "newUniqueAnalysisCount": len(parsed_article_hashes),
+            "newCatalogueIdCount": len(parsed_catalogue_ids),
+            "bundledDuplicateSourceCount": sum(
+                1 for row in bundled_duplicate_rows if row["present"]
+            ),
             "uniqueAnalysisCount": len(articles),
             "catalogueIds": sorted({value for article in articles for value in article["catalogueIds"]}),
             "sources": source_rows,
+            "bundledSourceDuplicates": bundled_duplicate_rows,
         })
 
     overview_count = sum(1 for article in articles if article.get("paragraphOverview"))
@@ -1009,6 +1218,16 @@ def main() -> int:
     )
     print(json.dumps({
         "sourceCount": len(manifest["sources"]),
+        "parsedSourceCount": parsed_source_count,
+        "cachedSourceCount": cached_source_count,
+        "batchInventorySourceCount": parsed_source_count + sum(
+            1 for row in bundled_duplicate_rows if row["present"]
+        ),
+        "newUniqueAnalysisCount": len(parsed_article_hashes),
+        "newCatalogueIdCount": len(parsed_catalogue_ids),
+        "bundledDuplicateSourceCount": sum(
+            1 for row in bundled_duplicate_rows if row["present"]
+        ),
         "uniqueAnalysisCount": len(articles),
         "catalogueIdCount": len({value for article in articles for value in article["catalogueIds"]}),
         "overviewCount": overview_count,

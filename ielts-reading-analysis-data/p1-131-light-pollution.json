@@ -1,0 +1,1677 @@
+{
+  "id": "p1-131-light-pollution",
+  "catalogueId": "p1-131",
+  "catalogueIds": [
+    "p1-131"
+  ],
+  "passage": 1,
+  "title": "Light pollution",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "I",
+    "J",
+    "C",
+    "H",
+    "A",
+    "D",
+    "C",
+    "C",
+    "D",
+    "F",
+    "A",
+    "G"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“A cause of light pollution”",
+      "translation": "光污染的一個成因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This kind of engineering is no different from damming a river.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種工程化做法和築壩截河沒有分別。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ill-designed lighting washes out the darkness of night and radically alters the light levels and light rhythms to which many forms of life, including ourselves, have adapted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "設計不良的照明會沖淡夜晚的黑暗，並大幅改變許多生命形式已適應的光度和光節奏，包括人類自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 會解釋人類照亮夜晚的後果，並指出不良照明設計如何造成光污染。題目要找 cause，即成因，所以 Paragraph B 非常有可能是答案位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “cause”。原文未必直接用 cause，因此也要留意 result of、because、due to 這類因果詞。Paragraph B 中有一句非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“Light pollution is largely the result of bad lighting design…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "光污染大多是設計不良的照明造成的結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “the result of bad lighting design”。result of 前面的東西是結果，後面的東西是原因。因此bad lighting design 就是 light pollution 的成因。這正好對應題目 “A cause of light pollution”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：a cause of light pollution"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：the result of bad lighting design改寫關係：cause = the thing that produces the result；bad lighting design = 光污染的主要成因答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也講 lighting design，但 H 是改善方法，例如改變設計和安裝方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 1 問成因，所以要找 “result of bad lighting design”，定位在 Paragraph B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“A city that has successfully reduced light pollution”",
+      "translation": "一個成功減少光污染的城市。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was once thought that light pollution only affected astronomers, who need to see the night sky in all its glorious clarity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們曾經以為光污染只影響天文學家，因為天文學家需要清楚看見壯麗夜空。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More and more cities and even entire countries, such as the Czech Republic, have committed themselves to reducing unwanted glare.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越來越多城市，甚至整個國家，例如 Czech Republic，都承諾減少不必要的眩光。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句由天文學家切入，末句講城市和國家減少眩光。這段很可能提到實際城市案例。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強定位詞是 “city”。原文中有 “Flagstaff, Arizona”，這是地名，而且段落後面也有 “cities”。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Flagstaff has tightened its regulations since then, and in 2001 it was declared the first International Dark Sky City.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此後 Flagstaff 收緊了相關規例，並在 2001 年被宣布為第一個 International Dark Sky City。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “a city that has successfully reduced light pollution”。原文沒有逐字說 successful，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“tightened its regulations” 和 “declared the first International Dark Sky City” 顯示 Flagstaff 是控制光污染的成功城市案例。這題問哪一段包含這項資訊，Paragraph I 直接提供城市名稱、政策收緊和 Dark Sky City 身份。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：successfully reduced light pollution"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：tightened its regulations；declared the first International Dark Sky City改寫關係：收緊規例和取得 Dark Sky City 身份，構成成功控制光污染的城市例子答案是 I。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 講一般方法，沒有城市名。Question 2 要找 city，所以 Flagstaff 是定案訊"
+            },
+            {
+              "kind": "paragraph",
+              "text": "號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "J",
+      "answerKey": "J",
+      "type": "Matching Information",
+      "prompt": "“The importance of darkness”",
+      "translation": "黑暗的重要性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike astronomers, most of us may not need an undiminished view of the night sky for our work, but like most other creatures we do need darkness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和天文學家不同，大多數人工作上未必需要完整無損的夜空景象；可是像大多數其他生物一樣，我們確實需要黑暗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So fundamental are these rhythms to our being that altering them is like altering gravity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些節律對我們的存在如此根本，改變它們就像改變重力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說 humans need darkness；末句用 gravity 強調 circadian rhythms 的根本性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph J 明顯是黑暗重要性的總結段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “darkness” 和 “importance”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Darkness is as essential to our biological welfare, to our internal clockwork, as light itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "黑暗對我們的生理福祉和內在時鐘來說，和光本身一樣必要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“essential” 是判斷答案的核心詞，意思是必要、不可或缺。題目的 “importance” 被原文用“essential to our biological welfare” 表達出來。段落還用 circadian rhythms，即晝夜節律，進一步解釋黑暗和睡眠、清醒週期之間的關係。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：importance of darkness"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：we do need darkness；darkness is essential改寫關係：importance = need / essential答案是 J。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“The prevalence of light pollution around the world”",
+      "translation": "光污染在世界各地的普遍程度。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now most of humanity lives under intersecting domes of reflected, refracted light, of scattering rays from overlit cities and suburbs, from light-flooded highways and factories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，大部分人類生活在由反射、折射和散射光形成的交疊光罩之下，這些光來自過度照明的城市和郊區，也來自充滿燈光的高速公路和工廠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the South Atlantic, the glow from a single fishing fleet—squid fishermen luring their prey with metal halide lamps—can be seen from space, burning brighter, in fact, than Buenos Aires or Rio de Janeiro.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在南大西洋，單一漁船隊的光芒也可從太空看見；這些魷魚漁民用金屬鹵素燈引誘獵物，其亮度實際上比 Buenos Aires 或 Rio de Janeiro 更強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 “most of humanity”，末句有 South Atlantic、Buenos Aires、Rio de Janeiro。這段明顯在講光污染的廣泛程度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “around the world” 可對應 Europe、United States、Japan、South Atlantic。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nearly all of nighttime Europe is a nebula of light, as is most of the United States and all of Japan.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "夜間的歐洲幾乎全都像一片光雲，美國大部分地區和整個日本也是如此。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文同時出現 Europe、United States、Japan 和 South Atlantic，並說 “most of humanity”。這些地點和程度詞顯示光污染不是局部問題，而是非常普遍的全球現象。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：prevalence around the world"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：most of humanity；nearly all of Europe；most of the United States；all of Japan；South Atlantic改寫關係：多地區、大範圍例子 → 全球普遍性答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“Methods of reducing light pollution”",
+      "translation": "減少光污染的方法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of all the pollution we face, light pollution is perhaps the most easily remedied.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在我們面對的所有污染之中，光污染可能是最容易補救的一種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Simple changes in lighting design and installation yield immediate changes in the amount of light spilt into the atmosphere and, often, immediate energy savings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要在照明設計和安裝上作簡單改變，就能即時減少散入大氣的光，並且通常能即時節省能源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 只有兩句。第一句提出光污染容易補救，第二句說明補救方法。題目問 methods，所以定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “methods” 和 “reducing”。原文用 “remedied” 和 “simple changes” 表達解決方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Simple changes in lighting design and installation” 就是具體方法。這些改變能 “yield immediate changes in the amount of light spilt into the atmosphere”，意思是即時減少射入大氣的光。這完全符合 reducing light pollution。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：methods of reducing light pollution"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：simple changes in lighting design and installation；remedied改寫關係：methods = simple changes；reducing = remedied / less light spilt into the atmosphere答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The reason humans have changed the night”",
+      "translation": "人類改變夜晚的原因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If humans were truly at home under the light of the moon and stars, we would go into darkness happily, the midnight world as visible to us as it is to the vast number of nocturnal species on this planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "假如人類真的能自在生活在月光和星光下，我們就會快樂地走進黑暗，午夜世界對我們而言會像對地球上大量夜行物種一樣清晰可見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet it’s the only way to explain what we’ve done to the night: We’ve engineered it to receive us by filling it with light.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這正是解釋人類如何對待夜晚的唯一方式：我們把夜晚工程化，用光填滿它，好讓它迎接我們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句形成清楚邏輯：人類不如夜行動物適應黑暗，所以用人工光改造夜晚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “reason” 和 “changed the night”。原文沒有直接用 reason，但有 “the only way to explain”。關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, we are diurnal creatures, with eyes adapted to living in the sun’s light.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，人類是日行性生物，眼睛適應在陽光下生活。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類改變夜晚的原因在於生理限制：我們是 diurnal creatures，眼睛適應陽光，沒有夜行動物在黑暗中的視覺能力。因此人類 “engineered” the night，透過人工光把夜晚改造成適合自己活動的環境。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：reason humans have changed the night"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：we are diurnal creatures；eyes adapted to the sun’s light；we’ve engineered it by filling it with light改寫關係：生理上依賴光 → 用人工光改造夜晚答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "D — By changing the light levels and rhythms to which creatures are adapted.",
+      "answerKey": "D — By changing the light levels and rhythms to which creatures are adapted.",
+      "type": "Multiple Choice",
+      "prompt": "Question 7",
+      "translation": "光污染如何影響生物？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“How does light pollution affect living creatures?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This kind of engineering is no different from damming a river.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種工程化做法和築壩截河沒有分別。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ill-designed lighting washes out the darkness of night and radically alters the light levels and light rhythms to which many forms of life, including ourselves, have adapted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "設計不良的照明會沖淡夜晚的黑暗，並大幅改變許多生命形式已適應的光度和光節奏，包括人類自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的最後一句直接講 effect on living creatures，所以這段是 Question 7 的核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “affect living creatures”。原文對應 “many forms of life”。答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ill-designed lighting … radically alters the light levels and light rhythms to which many forms of life, including ourselves, have adapted.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Ill-designed lighting”，動詞是 “alters”，受影響的是 “light levels and light rhythms”。最重要的限制是 “to which many forms of life … have adapted”，即很多生物已經適應了原本的光度和光節奏；人工光改變這些條件，便會造成干擾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 完全對應這句： D “By changing the light levels and rhythms to which creatures are adapted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過改變生物已適應的光度和光節奏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “Through poor lighting design.”這是成因，不是對生物的影響方式。Poor lighting design 造成光污染，但題目問的是光污染如何影響 living creatures。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “By changing the cities and suburbs to which creatures are accustomed.”原文提到 cities and suburbs，但沒有說生物適應的是城市和郊區。原文真正說生物適應的是light levels and light rhythms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “By changing the directions of light.”原文說人工光 outward and upward，而非 downward，這是 bad lighting design 的機制之一。它沒有完整概括對生物的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最貼近原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C — Natural lifespan.",
+      "answerKey": "C — Natural lifespan.",
+      "type": "Multiple Choice",
+      "prompt": "Question 8",
+      "translation": "以下哪一項動物生活層面沒有被文章提及受到多餘光線影響？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which aspect of animals’ lives is NOT mentioned as being affected by unwanted light?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題是排除題。要找 A、B、D 是否有原文支援；沒有支援的一項就是答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan & Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項檢查"
+            },
+            {
+              "kind": "label",
+              "text": "A Migration Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“And because a longer day allows for longer feeding, it can also affect migration schedules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於較長的白晝容許較長時間覓食，它也能影響遷徙時間表。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Migration 有提及，所以 A 不選。"
+            },
+            {
+              "kind": "label",
+              "text": "B Reproduction Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have determined that long artificial days—and artificially short nights—induce early breeding in a wide range of birds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家已確定，較長的人工白晝和人為縮短的夜晚會使多種鳥類提早繁殖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也說 sea turtles 找到的黑暗築巢海灘越來越少，蛙和蟾蜍的 breeding choruses 也被打亂。Reproduction 有提及，所以 B 不選。"
+            },
+            {
+              "kind": "label",
+              "text": "D Feeding Paragraph E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Insects, of course, cluster around streetlights, and feeding at those insect clusters is now ingrained in the lives of many bat species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "昆蟲當然會聚集在街燈周圍，而在這些昆蟲群附近覓食，如今已深深嵌入許多蝙蝠物種的生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也說 longer day allows for longer feeding。Feeding 有提及，所以 D 不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Natural lifespan文章沒有提到動物自然壽命、壽命長短、平均壽命或 lifespan 被光污染改變。因此 C 是答案。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章提到 “drop”、collide、hatchling losses，這些涉及死亡或損失，但沒有討論 natural"
+            },
+            {
+              "kind": "paragraph",
+              "text": "lifespan 這個生命長度概念。死亡事件和自然壽命不是同一個考點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "C — are attracted by light and then crash.",
+      "answerKey": "C — are attracted by light and then crash.",
+      "type": "Matching Animals",
+      "prompt": "Question 9",
+      "translation": "鳴禽。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "動物： Songbirds"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We’ve lit up the night as if it were an unoccupied country, when nothing could be further from the truth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們把夜晚照亮，好像它是一片無人居住的地方，但事實完全相反。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Migrating at night, birds are apt to collide with brightly lit tall buildings; immature birds on their first journey suffer disproportionately.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "夜間遷徙時，鳥類容易撞上燈光明亮的高樓；首次遷徙的幼鳥受害尤其嚴重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 從夜間生物受到干擾，轉到鳥類被光吸引和撞擊建築。因此 Songbirds 應定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Songbirds”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The effect is so powerful that scientists speak of songbirds and seabirds being ‘captured’ by searchlights on land or by the light from gas flares on marine oil platforms…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種影響非常強，以至科學家會說 songbirds 和 seabirds 被陸地上的探照燈或海上石油平台的燃氣火炬光「捕獲」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…circling and circling in the thousands until they drop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們成千上萬地不停盤旋，直到墜落。"
+            },
+            {
+              "kind": "label",
+              "text": "再加上最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“birds are apt to collide with brightly lit tall buildings”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鳥類容易撞上燈光明亮的高樓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “are attracted by light and then crash” 概括了兩個動作：被光吸引，然後掉落或撞擊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "captured by searchlights / light from gas flares = attracted by light drop / collide with buildings = crash答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "D — suffer food shortages because of competitors.",
+      "answerKey": "D — suffer food shortages because of competitors.",
+      "type": "Matching Animals",
+      "prompt": "Question 10",
+      "translation": "馬蹄蝠。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "動物： Horseshoe bats"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Insects, of course, cluster around streetlights, and feeding at those insect clusters is now ingrained in the lives of many bat species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "昆蟲當然會聚集在街燈周圍，而在這些昆蟲群附近覓食，如今已深深嵌入許多蝙蝠物種的生活。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other nocturnal mammals—including desert rodents, fruit bats, opossums, and badgers—forage more cautiously under the permanent full moon of light pollution because they’ve become easier targets for predators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他夜行哺乳動物，包括沙漠囓齒動物、果蝠、負鼠和獾，在光污染造成的永久滿月環境下會更謹慎覓食，因為牠們更容易成為捕食者目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 主題是人工光如何改變夜間覓食和物種互動。Horseshoe bats 出現在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Horseshoe bats”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some Swiss valleys, the European lesser horseshoe bat began to vanish after streetlights were installed, perhaps because those valleys were suddenly filled with light-feeding pipistrelle bats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在瑞士某些山谷，街燈安裝後，European lesser horseshoe bat 開始消失，可能因為那些山谷突然充滿了在燈光下覓食的 pipistrelle bats。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有三個重點。第一，horseshoe bats 在街燈安裝後 began to vanish。第二，原因以 “perhaps because” 表示，帶有推測語氣。第三，山谷被 light-feeding pipistrelle bats 佔據。這表示一種競爭關係：pipistrelle bats 利用街燈下昆蟲覓食，可能擠壓 horseshoe bats 的生存和覓食空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “suffer food shortages because of competitors” 是對這句的概括。原文沒有直接用 “food shortages” 這個詞，但有 “feeding”、“light-feeding pipistrelle bats” 和 horseshoe bats vanish 的因果線索。五個匹配選項中，D 最能表達競爭者影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "light-feeding pipistrelle bats = competitors began to vanish perhaps because valleys were filled with them = suffered due to competitors feeding context = food-related pressure答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "F — are active at unusual times.",
+      "answerKey": "F — are active at unusual times.",
+      "type": "Matching Animals",
+      "prompt": "Question 11",
+      "translation": "夜鶯。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "動物： Nightingales"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some birds—blackbirds and nightingales, among others—sing at unnatural hours in the presence of artificial light.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些鳥類，包括 blackbirds 和 nightingales，會在人工光存在時於不自然的時間歌唱。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leaving early may mean arriving too soon for nesting conditions to be right.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太早離開可能代表牠們太早到達，當時築巢條件尚未合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 主要講人工光如何改變鳥類時間表。Nightingales 在第一句直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Nightingales”。原文第一句直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“blackbirds and nightingales … sing at unnatural hours”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sing at unnatural hours” 表示牠們在不合自然節律的時間活動或發聲。選項 F “are active at unusual times” 正是這個意思的概括。雖然原文具體說 “sing”，但對鳥類來說，歌唱是一種活動； unnatural hours 對應 unusual times。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "sing = are active / perform behaviour unnatural hours = unusual times答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 B “do not like to sing at night” 和原文方向不符。原文沒有說牠們不喜歡夜間歌唱；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它說人工光使牠們在不自然時間歌唱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A — eat too much and migrate early.",
+      "answerKey": "A — eat too much and migrate early.",
+      "type": "Matching Animals",
+      "prompt": "Question 12",
+      "translation": "Bewick’s swans，一種天鵝。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "動物： Bewick’s swans"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some birds—blackbirds and nightingales, among others—sing at unnatural hours in the presence of artificial light.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些鳥類，包括 blackbirds 和 nightingales，會在人工光存在時於不自然的時間歌唱。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leaving early may mean arriving too soon for nesting conditions to be right.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太早離開可能代表牠們太早到達，當時築巢條件尚未合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 後半講 feeding、migration schedules 和 Bewick’s swans，所以這題定位在Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Bewick’s swans”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“One population of Bewick’s swans wintering in England put on fat more rapidly than usual, priming them to begin their Siberian migration early.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一群在英格蘭越冬的 Bewick’s swans 比平常更快積累脂肪，使牠們準備提早開始前往西伯利亞的遷徙。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "前一句補充原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“And because a longer day allows for longer feeding, it can also affect migration schedules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於較長的白晝容許較長時間覓食，它也能影響遷徙時間表。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來表示：人工光延長白晝感，使覓食時間變長，天鵝更快增脂，然後提早遷徙。選項 A"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“eat too much and migrate early” 把 “longer feeding / put on fat more rapidly” 概括成 eat too much，把 “begin their Siberian migration early” 原意保留。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "longer feeding + put on fat more rapidly = eat too much begin migration early = migrate early答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "G — have trouble breeding.",
+      "answerKey": "G — have trouble breeding.",
+      "type": "Matching Animals",
+      "prompt": "Question 13",
+      "translation": "海龜。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "動物： Sea turtles"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nesting sea turtles, which show a natural predisposition for dark beaches, find fewer and fewer of them to nest on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正在築巢的海龜天生傾向選擇黑暗海灘，但牠們能找到的黑暗海灘越來越少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frogs and toads living near brightly lit highways suffer nocturnal light levels that are as much as a million times brighter than normal, throwing nearly every aspect of their behaviour out of joint, including their nighttime breeding choruses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "住在明亮公路附近的青蛙和蟾蜍承受的夜間光度可高達正常水平的一百萬倍，這打亂了牠們幾乎所有行為，包括夜間繁殖合唱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 的首句和末句都關於繁殖或築巢，所以 Question 13 應定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Sea turtles”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nesting sea turtles … find fewer and fewer of them to nest on.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their hatchlings … find themselves confused by artificial lighting behind the beach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們的幼體本應朝向較明亮、反光較強的海面地平線，卻被海灘後方的人工光弄混。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "海龜問題有兩層。第一，成龜找不到足夠黑暗海灘築巢。第二，幼龜出殼後會被人工光誤導方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Florida，幼龜損失每年達數十萬。這些都與繁殖成功率和幼體存活有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 G “have trouble breeding” 概括了 nesting beaches 變少和 hatchlings confused 的問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "nesting sea turtles find fewer dark beaches = have trouble breeding hatchlings confused by artificial lighting = reproduction outcome harmed答案是 G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後整理：題目定位地圖題號 題型 定位段落 核心定位詞1 Matching Information B result of bad lighting design 2 Matching Information I Flagstaff / Dark Sky City 3 Matching Information J need darkness / essential 4 Matching Information C most of humanity / Europe / United States /Japan 5 Matching Information H remedied / simple changes 6 Matching Information A diurnal creatures / engineered the night 7 MCQ B light levels and light rhythms 8 MCQ E–G migration / breeding / feeding 9 Matching Animals D songbirds / captured / collide 10 Matching Animals E horseshoe bat / pipistrelle bats 11 Matching Animals F nightingales / unnatural hours 12 Matching Animals F Bewick’s swans / put on fat / migration early 13 Matching Animals G sea turtles / nest / hatchlings"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Light pollution.pdf",
+    "sha256": "9e015db6e08380c44692eec0e2ce2d2c8bc715e73b78903ba8d7aa5c6f1a6478",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段先用反面假設帶出人類其實不適合在月光和星光下自在活動。只看末句，段落最後說人類把夜晚「工程化」，用光填滿黑夜來迎接自己。因此 Paragraph A 大概在解釋人類為何改造夜晚：人類是日行性動物，眼睛適應陽光，對黑暗沒有夜行動物那種自然能力。這段最可能回答Question 6。"
+      },
+      {
+        "number": "B",
+        "summary": "首句把人類照亮夜晚的做法比作築壩，指出好處伴隨後果，也就是 light pollution。末句說設計不良的照明會沖淡夜晚黑暗，並大幅改變生物已適應的光度和光節奏。由首尾句可見，Paragraph B主要定義光污染、指出成因和基本影響。這段最可能回答 Question 1 和 Question 7，因為 bad lighting design、light levels、light rhythms 都集中在這裡。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說今日大部分人類住在由反射、折射和散射光形成的交疊光罩之下。末句用南大西洋魷魚漁船的強光作例子，說那種光甚至比 Buenos Aires 或 Rio de Janeiro 更亮。只看首尾句，這段主題是光污染的全球普遍程度和可見規模。歐洲、美國、日本、城市、郊區、高速公路、工廠和漁船光害都會支撐 Question 4。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說人類把夜晚照亮，好像夜晚是無人佔據的地方，但實情完全相反。末句指出夜間遷徙的鳥容易撞上燈光明亮的高樓，初次遷徙的幼鳥受害尤其嚴重。因此 Paragraph D 會先提醒夜晚其實屬於大量夜行生物，再集中講光對鳥類的吸引和危害。Songbirds、seabirds、searchlights、gas flares、collide 都使這段對 Question 9 很重要。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說昆蟲會聚集在街燈周圍，而許多蝙蝠已把在這些昆蟲群覓食變成生活習慣。末句說其他夜行哺乳動物在永久滿月般的光污染下更謹慎覓食，因為牠們更容易成為捕食者目標。這段主要處理光污染對昆蟲、蝙蝠和夜行哺乳動物覓食及捕食風險的影響。Horseshoe bats 和 pipistrelle bats 的競爭線索會用於 Question 10。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說一些鳥類，例如 blackbirds 和 nightingales，會在人工光下於不自然的時間歌唱。末句說如果候鳥太早離開，可能會太早到達繁殖地，當時築巢條件尚未合適。這段主要講人工光如何打亂鳥類的生理時間表，包括唱歌、繁殖、覓食和遷徙。Nightingales 的 unusual hours 和 Bewick’s swans 的 early migration 使這段對 Questions 11 和 12 很關鍵。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說海龜自然傾向在黑暗海灘築巢，但這樣的海灘越來越少。末句說住在明亮公路附近的蛙和蟾蜍承受異常強烈夜光，幾乎所有行為都被打亂，包括夜間繁殖合唱。由首尾句可見，Paragraph G 主要講人工光對繁殖和幼體方向感的破壞。Sea turtles 的 nesting、hatchlings、artificial lighting都直接連到 Question 13。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說在所有污染之中，光污染可能最容易補救。末句說簡單改變照明設計和安裝方式，就能立即減少射入大氣的光，通常也能即時節省能源。Paragraph H 明顯是解決方法段，重點放在practical remedies。這段不再描述動物受害，而是轉向設計和安裝層面的改善，所以 Question 5的 “Methods of reducing light pollution” 應定位到這裡。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說人們曾經以為光污染只影響天文學家，因為天文學家需要清楚看見夜空。末句說越來越多城市甚至國家，例如 Czech Republic，都承諾減少不必要眩光。Paragraph I 由天文觀測切入，再講早期城市管制行動和全球推廣。Flagstaff、Lowell Observatory、International Dark Sky City 是段落中最強定位詞，因此 Question 2 應找這段。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說大多數人雖然不像天文學家那樣因工作需要完整夜空，但和其他生物一樣，人類需要黑暗。末句說這些晝夜節律如此根本，以至改變它們就像改變重力。Paragraph J 是全文的總結性段落，主題是黑暗對人類生理健康、內在時鐘和 circadian rhythms 的必要性。Question 3 的“importance of darkness” 幾乎直接對應這段。"
+      }
+    ]
+  }
+}

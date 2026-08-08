@@ -1,0 +1,2409 @@
+{
+  "id": "p1-124-multitasking-debate",
+  "catalogueId": "p1-124",
+  "catalogueIds": [
+    "p1-124"
+  ],
+  "passage": 1,
+  "title": "Multitasking Debate",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "F",
+    "I",
+    "C",
+    "B",
+    "G",
+    "C",
+    "B",
+    "A",
+    "YES",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "NO"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“A theory explaining the delay that occurs when selecting a response”",
+      "translation": "一個解釋「選擇反應時為何會出現延遲」的理論。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目不是問哪位學者提出理論，而是問哪一段包含這項資訊。控制詞是 “theory”、“delay” 和 “selecting a response”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A third limitation is that choosing a response to a stimulus—braking when you see a child in the road, for instance, or replying when your mother tells you over the phone that she’s thinking of leaving your dad—also takes brainpower.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個限制是，選擇如何對刺激作出反應也需要腦力，例如看到路上有孩子時煞車，或在電話中回應母親說她正考慮離開父親。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is called the ‘response selection bottleneck’ theory, first proposed in 1952.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這稱為 “response selection bottleneck” 理論，最早於 1952 年提出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 已經很明顯是答案段。第一句有 choosing a response，最後一句有theory。這兩個訊號和題目高度重合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“selecting a response”"
+            },
+            {
+              "kind": "quote",
+              "text": "“delay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“theory”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph F，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Selecting a response to one of these things will delay your ability to respond to the other by several tenths of a second.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "選擇對其中一項刺激作出反應，會使你對另一項刺激作出反應的能力延遲幾十分之一秒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Selecting a response to one of these things”。核心動詞是 “will delay”。被延遲的是 “your ability to respond to the other”。後一句再命名為 “response selection bottleneck theory”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“delay that occurs when selecting a response”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Selecting a response … will delay your ability to respond to the other”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“A theory explaining…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is called the ‘response selection bottleneck’ theory”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph F 同時包含 response selection、delay 和 theory，因此答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也講 delay，但那裡是 image and sound 同時出現造成的 dual-task delay。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 1 指向 selecting a response，所以更精準的位置是 Paragraph F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“Different age groups respond to important information differently”",
+      "translation": "不同年齡組別對重要資訊的反應不同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 age groups 和 important information 的比較。最強定位詞是 “age groups”、“important information” 和 “differently”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It probably comes as no surprise that, generally speaking, we get worse at multitasking as we age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，隨著年齡增長，我們在多任務處理方面會變差，這大概並不令人意外。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Likewise, older subjects had more trouble paying attention to the more important parts of a scene than young drivers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，年長受試者比年輕司機更難注意場景中較重要的部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph I 直接是 age comparison。第一句談 ageing，最後一句比較 older subjects 和 young drivers 在 important parts of a scene 上的差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“age groups”"
+            },
+            {
+              "kind": "quote",
+              "text": "“important information”"
+            },
+            {
+              "kind": "quote",
+              "text": "“respond differently”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He found that while young drivers tended to miss background changes, older drivers failed to notice things that were highly relevant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現，年輕司機傾向錯過背景變化；年長司機則未能注意高度相關的事物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句包含清楚比較： young drivers：miss background changes older drivers：failed to notice things that were highly relevant"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“highly relevant” 就是 important information 的同義表達。末句再補充 older subjects 更難注意“the more important parts of a scene”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different age groups”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“young drivers” / “older drivers”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“important information”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“things that were highly relevant” / “the more important parts of a scene”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph I 明確比較年輕與年長受試者對重要資訊的注意差異，所以答案是 I。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph J 也提到 older people can benefit from practice，但它重點在練習改善，不是不同年齡組別如何注意重要資訊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“Interference that occurs when visual and auditory stimuli are presented simultaneously”",
+      "translation": "當視覺刺激和聽覺刺激同時呈現時出現的干擾。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找的是 visual + auditory 同時呈現後的 interference。題目中的 “visual and auditory stimuli” 在原文可能不會用這兩個術語，而會寫成 image 和 sound。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trouble comes when Marois shows the volunteers an image, and then almost immediately plays them a sound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Marois 向受試者展示一幅圖像，然後幾乎立刻播放一個聲音時，問題便出現了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The largest dual-task delays occur when the two tasks are presented simultaneously; delays progressively shorten as the interval between presenting the tasks lengthens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩項任務同時呈現時，雙任務延遲最大；任務之間的呈現間隔越長，延遲便逐漸縮短。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 明顯講 image + sound 接近同時出現後的大腦處理問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“visual stimuli” = image“auditory stimuli” = sound“simultaneously” = at the same time / simultaneously原文關鍵句：“If you show an image and play a sound at the same time, one task is postponed,” he says."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，如果你同時展示圖像並播放聲音，其中一項任務會被推遲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “image” 對應 visual stimulus；“sound” 對應 auditory stimulus；“at the same time” 對應simultaneously。結果是 “one task is postponed”，這就是干擾效果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“visual and auditory stimuli are presented simultaneously”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“show an image and play a sound at the same time”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interference”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“one task is postponed” / “dual-task delays”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph C 完整描述視覺和聽覺任務同時出現時的干擾，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 介紹視覺任務和聽覺任務各自如何進行，但真正的 simultaneous interference 出現在 Paragraph C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“An experiment designed to locate the brain’s critical bottleneck for multitasking”",
+      "translation": "一個為了定位大腦中多任務處理關鍵瓶頸而設計的實驗。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 experiment designed to locate it。重點是設計實驗，而非實驗結果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problem, according to René Marois, a psychologist at Vanderbilt University in Nashville, Tennessee, is that there’s a sticking point in the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vanderbilt University 的心理學家 René Marois 認為，問題在於大腦中有一個卡住的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A normal person can do that in about half a second, with almost no effort.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "普通人可以在約半秒內做到這件事，而且幾乎不費力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 會介紹 Marois 如何把 brain sticking point 轉化成實驗任務。第一句提出 brain bottleneck，後面開始講受試者看屏幕、按鍵、聽聲音和發聲。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“experiment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“designed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“locate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bottleneck”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To demonstrate this, Marois devised an experiment to locate it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了證明這一點，Marois 設計了一個實驗來定位它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“this” 指前句的 brain sticking point；“it” 也指這個 bottleneck / sticking point。題目把 “sticking point in the brain” 改寫成 “brain’s critical bottleneck for multitasking”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“experiment designed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“devised an experiment”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“locate the brain’s critical bottleneck”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“locate it” 指前文 “a sticking point in the brain”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph B 直接說 Marois 設計實驗定位大腦卡點，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 有實驗結果，但題目問 “designed to locate”，所以要回到 Paragraph B 的實驗設計句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“An optimistic view of multitasking performance”",
+      "translation": "一種對多任務表現較樂觀的看法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找態度詞 “optimistic” 或相近意思。人名 David Meyer 也很關鍵，因為他代表反對 bottleneck idea 的立場。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But David Meyer, a psychologist at the University of Michigan, Ann Arbor, doesn’t buy the bottleneck idea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Michigan 大學 Ann Arbor 分校的心理學家 David Meyer 不接受 bottleneck idea。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He suggests that there is a central cognitive processor that coordinates all this and, what’s more, he thinks it uses discretion: sometimes it chooses to delay one task while completing another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他提出有一個 central cognitive processor 會協調這一切，而且他認為它有判斷力：有時它會選擇延遲一項任務，同時完成另一項任務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph G 是 Meyer 的反方觀點段：他不接受固定瓶頸說，並提出大腦有協調策略。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“optimistic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“multitasking performance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meyer is known as something of an optimist by his peers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Meyer 在同行眼中算是一個樂觀派。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文還補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“His experiments have shown that with enough practice—at least 2,000 tries—some people can execute two tasks simultaneously as competently as if they were doing them one after the other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的實驗顯示，只要有足夠練習——至少 2,000 次嘗試——有些人可以同時執行兩項任務，其熟練程度就像逐一完成一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是對 multitasking performance 的樂觀看法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“optimistic view”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“known as something of an optimist”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“multitasking performance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“execute two tasks simultaneously as competently…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph G 包含 Meyer 對多任務表現的樂觀立場，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也說 practice can sometimes erase interference effects，但那裡主要是 Marois 對練習機制的解釋。題目用 optimistic view，最直接對應 Meyer。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C — Participants had to use different fingers for differently coloured objects.",
+      "answerKey": "C — Participants had to use different fingers for differently coloured objects.",
+      "type": "Multiple Choice",
+      "prompt": "“Which statement is correct about René Marois’s experiment?”",
+      "translation": "關於 René Marois 的實驗，哪一項說法正確？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 Marois’s experiment，因此要回到 Paragraph B 的實驗設計，以及Paragraph C 的雙任務結果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs B–C Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problem, according to René Marois, a psychologist at Vanderbilt University in Nashville, Tennessee, is that there’s a sticking point in the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marois 認為，大腦中有一個卡住的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A normal person can do that in about half a second, with almost no effort.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "普通人可以在約半秒內完成單一聽覺任務，幾乎不費力。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trouble comes when Marois shows the volunteers an image, and then almost immediately plays them a sound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Marois 向受試者展示圖像，然後幾乎立刻播放聲音時，問題便出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 最後一句說 simultaneously 時 delay 最大。兩段合起來，先建立單一任務正常，再顯示雙任務出問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“René Marois’s experiment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coloured circles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different fingers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different coloured circles require presses from different fingers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同顏色的圓圈需要用不同手指按鍵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Participants had to use different fingers for differently coloured objects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受試者需要用不同手指回應不同顏色的物件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這與原文完全對應。原文的 objects 是 coloured circles；題目選項用 “objects” 作較上位概括。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Participants performed poorly only on the listening task.”錯。Paragraph B 說單獨聽覺任務沒有問題；Paragraph C 說圖像與聲音接近同時出現時受試者confused / flummoxed，並非只在 listening task 表現差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Volunteers pressed a different key whenever the colour changed.”這句很接近，但有兩個問題。原文說 when a particular image appears，並非顏色「改變」時；也說different coloured circles require presses from different fingers，重點在不同手指，不是 colour changed 這個過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。"
+            },
+            {
+              "kind": "quote",
+              "text": "“different fingers” 和 “differently coloured objects” 都有原文支援。 D “Participants performed better when image and sound information were combined.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方向相反。Paragraph C 說 image 和 sound 接近同時出現時，one task is postponed，largest dual-task delays occur when simultaneous。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different coloured circles require presses from different fingers.”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“use different fingers for differently coloured objects”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： C 是最完整、最精準的原文支援項。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 最吸引人，因為 colour 和 key 都像原文字眼。但題目要看動作關係：原文是不同顏色對應不同手指；B 加入 “whenever the colour changed”，語境改變了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — A delay occurs if we concentrate on one object when a second appears.",
+      "answerKey": "B — A delay occurs if we concentrate on one object when a second appears.",
+      "type": "Multiple Choice",
+      "prompt": "“Which statement is correct about the attentional blink?”",
+      "translation": "關於 attentional blink，哪一項說法正確？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 attentional blink 的定義和條件。最強定位詞是 “attentional blink”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are at least three points where we seem to get stuck, says Marois.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marois 說，我們似乎至少在三個位置會卡住。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What exactly causes the attentional blink is still a matter for debate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "究竟是甚麼造成 attentional blink，仍然有待爭論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 是第一種 bottleneck 的解釋段，並且最後一句直接出現 attentional blink。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“attentional blink”"
+            },
+            {
+              "kind": "quote",
+              "text": "“second”"
+            },
+            {
+              "kind": "quote",
+              "text": "“concentration”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This limitation is known as the ‘attentional blink’: experiments have shown that if you’re watching out for a particular event and a second one shows up unexpectedly at any time within this crucial window of concentration, it may register in your visual cortex but you will be unable to act upon it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種限制稱為 “attentional blink”：實驗顯示，如果你正在留意某個特定事件，而第二個事件在這個關鍵注意力窗口內意外出現，它也許會在你的視覺皮層中留下訊號，但你會無法對它作出行動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有三個條件： you’re watching out for a particular event= 你正集中留意第一個事件a second one shows up unexpectedly= 第二個事件突然出現within this crucial window of concentration= 出現在注意力被佔用的短暫時窗中結果是： you will be unable to act upon it= 你無法對第二個事件作出行動"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “It lasts about ten seconds.”錯。原文說 “a few tenths of a second”，並非 ten seconds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “A delay occurs if we concentrate on one object when a second appears.”正確。這概括了 “watching out for a particular event” 和 “a second one shows up unexpectedly”。嚴格來說，原文說 unable to act upon it；在 multitasking bottleneck 的語境中，這就是反應被延遲或阻塞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “We always have difficulty responding to the second object.”錯。原文說 “if you don’t expect the first event, you have no trouble responding to the second”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 difficulty 並非 always。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “It can be avoided by certain measures.”原文沒有提出任何主動避免方法。它只說如果你沒有預期第一個事件，就能回應第二個。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“concentrate on one object”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“watching out for a particular event”"
+            },
+            {
+              "kind": "label",
+              "text": "題目 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“when a second appears”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a second one shows up unexpectedly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： B 最貼近原文對 attentional blink 的描述。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 會令人猶豫，因為原文提到 “if you don’t expect the first event”。但這只是實驗條件差異，不是作者提供的可操作避免措施。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "A — Only after failing several times can people perform two tasks simultaneously.",
+      "answerKey": "A — Only after failing several times can people perform two tasks simultaneously.",
+      "type": "Multiple Choice",
+      "prompt": "“Which statement is NOT correct about Meyer’s experiments and claims?”",
+      "translation": "關於 Meyer 的實驗和主張，哪一項不正確？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 NOT correct，所以要找三個有原文支持的選項，剩下沒有支援或方向錯誤的一項就是答案。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But David Meyer, a psychologist at the University of Michigan, Ann Arbor, doesn’t buy the bottleneck idea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "David Meyer 不接受 bottleneck idea。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He suggests that there is a central cognitive processor that coordinates all this and, what’s more, he thinks it uses discretion: sometimes it chooses to delay one task while completing another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他提出有一個 central cognitive processor 會協調這一切，而且會有判斷力地選擇：有時它會延遲一項任務，同時完成另一項任務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 是 Meyer 的主張段：反對 bottleneck idea，提出 central processor，並強調 practice 後可能做到非常好的雙任務表現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meyer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“experiments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“practice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“central processor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His experiments have shown that with enough practice—at least 2,000 tries—some people can execute two tasks simultaneously as competently as if they were doing them one after the other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的實驗顯示，只要有足夠練習——至少 2,000 次嘗試——有些人可以同時執行兩項任務，其熟練程度就像逐一完成一樣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句和選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “Only after failing several times can people perform two tasks simultaneously.”不正確。原文說 “at least 2,000 tries”，意思是嘗試或練習次數，不等於 failing several times。A把 practice / tries 改成 failures，原文沒有這個意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Practice can overcome dual-task interference.”正確。原文說 with enough practice，有些人可以同時執行兩項任務，表現像逐一做一樣。這支援practice can overcome interference。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Meyer disagrees with Marois’s theory.”正確。原文說 Meyer “doesn’t buy the bottleneck idea”。前文 bottleneck idea 是 Marois 的核心說法之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “A central processor decides whether to delay another task.”正確。原文說 central cognitive processor coordinates and uses discretion，sometimes chooses to delay one task."
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“with enough practice—at least 2,000 tries”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only after failing several times”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "差異： tries = 嘗試 / 練習failing = 失敗原文沒有說必須失敗多次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目要求 NOT correct，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 會吸引人，是因為 “2,000 tries” 看起來像多次失敗。但 try 並不等於 fail。IELTS 常把 neutral action 改成 negative result，細讀時要分清。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The longer the interval between the presentation of two tasks, the shorter the delay in responding to the second.”",
+      "translation": "兩項任務呈現之間的間隔越長，回應第二項任務的延遲越短。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目是一個比較關係：longer interval → shorter delay。要找原文是否有相同方向的比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trouble comes when Marois shows the volunteers an image, and then almost immediately plays them a sound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Marois 向受試者展示圖像，然後幾乎立刻播放聲音時，問題便出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The largest dual-task delays occur when the two tasks are presented simultaneously; delays progressively shorten as the interval between presenting the tasks lengthens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩項任務同時呈現時，雙任務延遲最大；任務之間的呈現間隔越長，延遲便逐漸縮短。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句已經看到題目所需的比較結構。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“longer interval”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shorter delay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“second task”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“delays progressively shorten as the interval between presenting the tasks lengthens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著兩項任務呈現之間的間隔變長，延遲會逐漸縮短。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的比較方向非常清楚： interval lengthens= 間隔變長delays progressively shorten= 延遲逐漸縮短題目說： The longer the interval … the shorter the delay= 間隔越長，延遲越短"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the longer the interval”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“as the interval … lengthens”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the shorter the delay”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“delays progressively shorten”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向完全一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “responding to the second”，原文說 “dual-task delays”。前文已說第二項任務會被postponed，所以題目把 delay 具體化成回應第二項任務的延遲，沒有越過原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The limited capacity of human memory causes people sometimes to miss differences between two similar images.”",
+      "translation": "人類記憶容量有限，有時會令人看漏兩張相似圖片之間的差異。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目核心是 limited capacity、memory、miss differences、similar images。要檢查原文是否把視覺記憶容量有限和 change blindness 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A second limitation is in our short-term visual memory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個限制在於我們的短期視覺記憶。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Does it come down to a dearth of storage capacity, or is it about how much attention a viewer is paying?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這到底歸因於儲存容量不足，還是觀看者投入多少注意力？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 會討論 short-term visual memory 的容量限制，以及這個限制的真正原因仍有討論空間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“limited capacity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“memory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“differences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“similar images”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This capacity shortage is thought to explain, in part, our astonishing inability to detect even huge changes in scenes that are otherwise identical, so-called ‘change blindness’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種容量不足被認為可部分解釋我們驚人地無法察覺場景中的巨大變化，即使那些場景在其他方面完全相同；這稱為 “change blindness”。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Show people pairs of near-identical photos—say, aircraft engines in one picture have disappeared in the other—and they will fail to spot the differences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "給人們看成對幾乎相同的照片，例如其中一張有飛機引擎，另一張的引擎消失了，他們仍會看不出差異。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “limited capacity of human memory” 對應 Paragraph E 的 “capacity shortage” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“short-term visual memory”。題目中的 “miss differences between two similar images” 對應“near-identical photos” 和 “fail to spot the differences”。需要注意原文語氣：“is thought to explain, in part” 表示這種容量不足被認為是部分解釋。題目說 “causes people sometimes to miss differences”，因為有 “sometimes”，範圍仍較保守，沒有說 limited capacity 是唯一原因。因此題目與原文方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“limited capacity of human memory”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“short-term visual memory” / “This capacity shortage”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“sometimes miss differences”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“fail to spot the differences”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“two similar images”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“pairs of near-identical photos”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文確實把 visual memory capacity shortage 和看漏相似圖片差異連起來，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落最後說仍有 disagreement：真正限制因素可能是 storage capacity，也可能是 attention。這提醒我們不能把 capacity shortage 說成唯一原因。不過題目沒有說 sole cause，只說 causes people sometimes to miss differences，因此仍可由原文支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Marois disagrees with the claim that practice removes the bottleneck effect.”",
+      "translation": "Marois 不同意「練習可以消除瓶頸效應」這個說法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要判斷 Marois 對 practice 的態度。題目說他 disagrees，所以要找原文是同意、反對，還是沒有說。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marois agrees that practice can sometimes erase interference effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marois 同意，練習有時可以消除干擾效應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After all, there are plenty of examples of subconscious multitasking that most of us routinely manage: walking and talking, eating and reading, watching TV and folding the laundry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畢竟，我們大多數人日常都能處理很多潛意識多任務例子：邊走邊說話、邊吃邊讀、邊看電視邊摺衣服。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，題目已經有明確衝突：題目說 Marois disagrees，原文說 Marois agrees。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marois”"
+            },
+            {
+              "kind": "quote",
+              "text": "“practice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“erase interference effects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marois agrees that practice can sometimes erase interference effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marois 同意，練習有時可以消除干擾效應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Marois，核心動詞是 agrees，內容是 practice can sometimes erase interference effects。題目說他 “disagrees with the claim”，剛好和 agrees 相反。"
+            },
+            {
+              "kind": "label",
+              "text": "後文真正的分歧在機制："
+            },
+            {
+              "kind": "quote",
+              "text": "“Where he disagrees with Meyer is in what the brain is doing to achieve this.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他和 Meyer 的分歧在於大腦如何做到這一點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是說，Marois 同意 practice 有時有效；他不同意的是 Meyer 對大腦機制的解釋。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marois disagrees with the claim that practice removes…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marois agrees that practice can sometimes erase…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "disagrees = 不同意agrees = 同意判斷：原文提供了相反資訊，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最易錯在 “Where he disagrees with Meyer…” 這句。Marois 確實 disagrees with Meyer，但分歧點是 mechanism，即大腦如何做到，不是 practice 是否能消除 interference。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Art Kramer proved a correlation between multitasking performance and gender.”",
+      "translation": "Art Kramer 證明了多任務表現和性別之間有相關性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Art Kramer 的研究是否涉及 gender。控制詞是 “proved”、“correlation”、“gender”。只看到 Kramer 做研究不足夠，必須有 gender 比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It probably comes as no surprise that, generally speaking, we get worse at multitasking as we age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，隨著年齡增長，我們在多任務處理方面會變差，這大概並不令人意外。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Likewise, older subjects had more trouble paying attention to the more important parts of a scene than young drivers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，年長受試者比年輕司機更難注意場景中較重要的部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph I 的主題是 age，不是 gender。這已經提醒我們題目可能加入了文章沒有的比較類別。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art Kramer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gender”"
+            },
+            {
+              "kind": "quote",
+              "text": "“correlation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 Art Kramer 出現於："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Art Kramer at the University of Illinois at Urbana-Champaign, who studies how ageing affects our cognitive abilities, we peak in our 20s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Illinois at Urbana-Champaign 的 Art Kramer 研究 ageing 如何影響認知能力；他指出我們在二十多歲時達到高峰。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kramer 的研究內容是 ageing affects cognitive abilities。後文比較的是： young and old participants young drivers older drivers older subjects文章完全沒有提到： men / women male / female gender differences gender correlation題目還用 “proved”，表示需要明確研究結論。但原文沒有相關證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文只支援 Art Kramer 研究年齡與多任務 / 認知能力的關係。gender 這個核心元素缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“young and old participants” 很容易讓人看到 demographic comparison，然後誤以為也可能有gender。IELTS 判斷不能把一種人口分類自動延伸成另一種人口分類。文章有 age，不代表有gender。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The writer does not believe practice can make any difference.”",
+      "translation": "作者不相信練習能帶來任何分別。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 writer’s view。控制詞是 “does not believe” 和 “any difference”。只要原文清楚說 practice can make a difference，就會構成 NO。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s not all bad news for over-55s, though.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，對 55 歲以上的人來說，也不全是壞消息。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We might yet look back one day on people like Debbie and Alun as ancestors of a new breed of true multitaskers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "或許有一天，我們會回望 Debbie 和 Alun 這類人，把他們視為新一代真正多任務者的祖先。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph J 會平衡前文悲觀結論：年齡帶來限制，但練習可能有幫助；長遠甚至可能出現真正多任務者。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“practice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“make any difference”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While it’s clear that practice can often make a difference, especially as we age, the basic facts remain sobering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然很清楚練習常常可以帶來改變，尤其是在我們年紀漸長時，但基本事實仍然令人清醒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說： writer does not believe practice can make any difference= 作者認為練習完全沒有作用原文說： it’s clear that practice can often make a difference= 很清楚，練習常常可以帶來改變兩者方向相反。後半句 “the basic facts remain sobering” 只是說人腦限制仍嚴重，沒有取消practice 的作用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“does not believe practice can make any difference”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“it’s clear that practice can often make a difference”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "does not believe = 不相信it’s clear = 明確承認any difference = 任何改變often make a difference = 常常帶來改變判斷：原文直接提供相反觀點，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph J 後面有 Marois 說 “humbling and crippling limits”，語氣偏悲觀。可是作者先明確承認 practice can often make a difference。不能只因結尾談限制，就忽略前面的讓步句。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Multitasking Debate.pdf",
+    "sha256": "80c8508a9f2f87ed7fa74f108b78be37a871d7c434f8e9a13a265142a1d3797a",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句由 “Talking on the phone while driving” 開始，立刻把 multitasking 放進日常危險情境。末句說 practice 也許能改善表現，但永遠不及一次專注做一件事。只看首尾句，可以估計這段是全文立場導入：人類以為自己能同時處理多項任務，實際上可能在每項任務都表現較差。這段也預告文章會討論 brain bottleneck 和 true multitasking 是否可能。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 René Marois 認為問題在於大腦有一個 sticking point。末句說普通人能在約半秒內完成單一聽覺反應，而且幾乎不費力。只看首尾句，可以先看到這段會介紹 Marois 的實驗設計：先測試視覺任務，再測試聽覺任務，證明兩項任務單獨做時都很容易。這段為後文的雙任務干擾建立基準。"
+      },
+      {
+        "number": "C",
+        "summary": "首句用 “The trouble comes” 轉折，指出真正問題在 image 和 sound 幾乎同時出現時發生。末句說兩項任務出現的間隔越長，延遲越短。只看首尾句，可以估計這段是 Marois 實驗結果段，重點是 visual stimulus 和 auditory stimulus 同時或接近同時呈現時，大腦不能真正平行處理，其中一項任務會被推遲。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Marois 指出我們至少在三個位置會卡住。末句說 attentional blink 的確切原因仍有爭議。只看首尾句，可以估計這段介紹第一種限制：我們辨認眼前事物時會短暫佔用注意力，令第二個視覺事件即使進入 visual cortex，也可能無法被有效回應。這段和 attentional blink、visual recognition、unexpected second event 相關。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說第二個限制在 short-term visual memory。末句用問題收結：限制到底來自儲存容量不足，還是觀看者投入的注意力？只看首尾句，可以看到這段會討論短期視覺記憶容量有限，以及change blindness。段落功能是說明人類一次能追蹤的物件有限，這可能解釋為何人們看兩張幾乎相同的圖片時，連巨大差異也未必察覺。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說第三個限制在選擇對刺激作出甚麼反應。末句指出這叫 response selection bottleneck theory，最早於 1952 年提出。只看首尾句，可以知道這段很集中：當兩個刺激都要求我們選擇反應時，例如煞車或回電話，我們需要腦力決定先回應哪一項，因此另一項反應會延遲。這段直接對應 response selection、delay、theory。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 David Meyer 不接受 bottleneck idea。末句說他認為有一個 central cognitive processor會協調任務，並有判斷力地選擇是否延遲某項任務。只看首尾句，可以估計這段會提出較樂觀的反方觀點：雙任務干擾未必代表大腦有固定瓶頸；經過大量練習，有些人或可像逐項完成一樣，同時熟練執行兩項任務。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Marois 同意 practice 有時可以消除 interference effects。末句列出 walking and talking、eating and reading、watching TV and folding laundry 等日常 subconsciously managed multitasking。只看首尾句，可以看出這段不是否認練習有效；重點在 Marois 和 Meyer 對機制的分歧。Marois 認為練習可能讓大腦找到較不擠塞的神經路線，把反應變成潛意識化。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說一般而言，年紀越大，multitasking 越差，這並不令人意外。末句說 older subjects 比young drivers 更難注意場景中重要部分。只看首尾句，可以估計這段討論年齡對多任務表現的影響。段中會有 Art Kramer、20s peak、55 after decline、simulated driving and conversation 等訊號，並比較年輕人和年長者留意背景或重要資訊的差異。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說 over-55s 並非全是壞消息，因為 Kramer 發現年長者也能從練習中受益。末句說我們將來也許會把 Debbie 和 Alun 視為新一代 true multitaskers 的祖先。只看首尾句，可以估計這段是總結兼展望：practice can make a difference，但人腦仍有嚴重限制；目前 true multitasking 未必可行，未來演化或訓練可能改變情況。"
+      }
+    ]
+  }
+}

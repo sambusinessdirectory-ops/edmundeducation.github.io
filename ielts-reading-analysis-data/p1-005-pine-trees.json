@@ -1,0 +1,2013 @@
+{
+  "id": "p1-005-pine-trees",
+  "catalogueId": "p1-005",
+  "catalogueIds": [
+    "p1-005"
+  ],
+  "passage": 1,
+  "title": "Pine Trees",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "growth ring",
+    "it sprouted",
+    "pine cones",
+    "durable",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "A",
+    "C",
+    "D",
+    "A",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "growth ring",
+      "answerKey": "growth ring",
+      "type": "Sentence Completion",
+      "prompt": "“Every year, pine trees gain another 1 ______”",
+      "translation": "每一年，pine trees 都會多出另一個 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 pine trees 每年增加甚麼。空格前有 “another”，所以答案應該是一個可數名詞單數或名詞短語。題目中的 “Every year” 是最重要的定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being in a cold climate, facing limited summer seasons, rooted in nutrient poor and dry soil, and subject to high winds and withering winters, bristlecone pines mature very slowly indeed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "bristlecone pines 生長在寒冷氣候中，面對短暫夏季，紮根於貧瘠乾燥的土壤，又承受強風和嚴冬，因此成熟速度確實非常緩慢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And that’s just one fascinating fact about that well-known species of tree – the pine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而這只是 pine 這種知名樹種其中一個迷人事實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 會用 Methuselah 解釋 pine 的生長速度和年齡。題目問每年增加甚麼，應在這段中找 “every year” 或 “year” 附近的答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every year”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gain another”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“as with all pines becoming fractionally thicker every year as another growth ring is added to their truck.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 every year 和 another，因此值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet mature they do, as with all pines becoming fractionally thicker every year as another growth ring is added to their truck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而它們確實會成熟，就像所有 pine 一樣，每年隨著另一個 growth ring 加到樹幹上，樹身會略微變粗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句裡面，“another growth ring is added” 直接回答題目。題目用 “gain another” 改寫原文的 “is added”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“gain another”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“another growth ring is added”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： gain = is added another = another每年增加的東西 = growth ring答案形式growth ring = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有一個明顯錯字 “truck”，按語境應是 “trunk”。這不影響答案，因為真正答案詞是 growth ring。遇到這種 OCR 或轉錄錯字時，不要把錯字當答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "it sprouted",
+      "answerKey": "it sprouted",
+      "type": "Sentence Completion",
+      "prompt": "“The pyramids were built hundreds of years after 2 ______”",
+      "translation": "金字塔是在 ______ 之後數百年才建造的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問時間先後。題目中的 “pyramids” 是強定位詞，因為全文只有一處提到 pyramids。空格要接在 “after” 後面，所以答案需要形成一個事件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being in a cold climate, facing limited summer seasons, rooted in nutrient poor and dry soil, and subject to high winds and withering winters, bristlecone pines mature very slowly indeed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "bristlecone pines 生長在寒冷氣候中，面對短暫夏季，紮根於貧瘠乾燥的土壤，又承受強風和嚴冬，因此成熟速度確實非常緩慢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And that’s just one fascinating fact about that well-known species of tree – the pine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而這只是 pine 這種知名樹種其中一個迷人事實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段會先處理 bristlecone pine 的慢速生長，再把 Methuselah 的年齡轉成一個驚人的歷史比較。題目中的 pyramids 便是這個比較的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“pyramids”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hundreds of years after”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“meaning that it sprouted as a seedling in 2832 BC, centuries before the ancient Egyptians began building their pyramids.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 sprouted、centuries before、pyramids，正是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By counting these, we can accurately state that, as of 2011, Methuselah was4,842 years old, meaning that it sprouted as a seedling in 2832 BC, centuries before the ancient Egyptians began building their pyramids.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過數這些 growth rings，我們可以準確指出，截至 2011 年，Methuselah 有 4,842 歲；這意味著它在公元前 2832 年作為幼苗發芽，比古埃及人開始建造金字塔還早數百年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文的方向反過來說：原文：it sprouted centuries before pyramids"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：pyramids were built hundreds of years after it sprouted"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者表達的是同一個時間關係。原文中的 “it” 指 Methuselah；“sprouted” 指它作為幼苗發芽。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“built hundreds of years after”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“centuries before the ancient Egyptians began building their pyramids”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： hundreds of years = centuries after it sprouted = centuries before pyramids were built答案形式it sprouted = 2 words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果希望語意更清楚，可以理解為 Methuselah sprouted；不過文章中連續出現的原文短語是 “it sprouted”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有直接提 Methuselah，所以 “it sprouted” 乍看較抽象。可是填空題通常要求從文章取字，原文的 “it” 在上下文中清楚指 Methuselah。真正控制答案的是時間關係：sprouted 早於 pyramids。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "pine cones",
+      "answerKey": "pine cones",
+      "type": "Sentence Completion",
+      "prompt": "“Typical of all pines are their 3 ______”",
+      "translation": "所有 pines 的典型特徵是它們的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問所有 pines 共有的特徵。題目中的 “all pines” 要找原文中 always、typical、signature 這類字眼。空格前有 their，所以答案應是複數名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These trees certainly have many telltale characteristics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些樹確實有許多容易辨認的特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some varieties, the cones remain closed until their binding resin is melted by forest fires.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些品種中，cones 會保持閉合，直到封住它們的 resin 被森林火災融化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 5 會介紹 pine 的外觀特徵，尤其會談 cones。題目問 typical of all pines，這段是最合理定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typical”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all pines”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“always produce their signature pine cones”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“always” 對應 all pines 的普遍性；“signature” 表示標誌性、典型。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“They are evergreen, usually with needle-like foliage and a sharp pleasant ‘pine smell. They are often large and imposing, with thick scaly bark, and always produce their signature pine cones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們是常綠樹，通常有針狀葉和清新強烈的 pine smell。它們往往高大而有氣勢，有厚而鱗片狀的樹皮，並且總會長出其標誌性的 pine cones。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Typical of all pines” 對應原文 “always produce their signature…”。因為答案限制是兩個字，不能填 “signature pine cones” 三個字，所以答案應取核心名詞 “pine cones”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typical of all pines”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“always produce their signature…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： typical = signature all = always their ______ = their pine cones答案形式pine cones = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 也提到 needle-like foliage、pine smell、scaly bark。這些都是常見特徵，但題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“all pines” 對應 “always produce” 更強。決定答案的訊號是 always。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "durable",
+      "answerKey": "durable",
+      "type": "Sentence Completion",
+      "prompt": "“The wood from pines is not very 4 ______”",
+      "translation": "pine wood 不是很 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 pine wood 的性質。空格前是 “not very”，所以答案應該是形容詞。題目說 “wood from pines”，應定位到商業用途和 carpentry 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the situation is very different for home and commercial use, which has seen pines become a very common sight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在家庭和商業用途方面，情況很不同，pines 已變得非常常見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pine resin is a byproduct, and this is collected for distillation into turpentine, an important industrial solvent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "pine resin 是副產品，會被收集並蒸餾成 turpentine，這是一種重要的工業溶劑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 7 是用途段，尤其是木材、工業和商業價值。題目問 wood 的性質，因此應在這段中找 wood、carpentry、decay、durable 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“wood”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not very”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wood is fragrant, but prone to decay, so it is most suitable for indoor or dry carpentry, rather than outdoors, where more durable varieties are necessary.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wood is fragrant, but prone to decay, so it is most suitable for indoor or dry carpentry, rather than outdoors, where more durable varieties are necessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種木材有香氣，但容易腐朽，所以最適合室內或乾燥木工用途；若在戶外使用，則需要更耐用的木材品種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prone to decay” 意思是容易腐爛。題目把這個意思改寫成 “not very durable”。原文後半也出現“more durable varieties are necessary”，表示 pine wood 本身在戶外用途上耐久度不足。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“not very durable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“prone to decay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more durable varieties are necessary”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： prone to decay = not very durable more durable varieties necessary = pine wood lacks durability for outdoor use答案形式durable = 1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 pine wood “fragrant”，這是正面特徵；題目使用 “not very” 提示要找負面限制。真正定案的位置是 “prone to decay”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Ponderosa pines are the largest.”",
+      "translation": "Ponderosa pines 是最大的 pine。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查原文是否說 Ponderosa Pine 是最大品種。題目中的 “the largest” 是最高級，需要非常明確的證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pines can be small, such as the Siberian Dwarf Pine, or huge, such as the Ponderosa Pine in the wilds of Oregon, and there are over 100 varieties in all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pines 可以很小，例如 Siberian Dwarf Pine；也可以很巨大，例如 Oregon 荒野中的 Ponderosa Pine；總共有一百多個品種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would not be too much of an exaggeration to say that almost everyone knows pines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "說幾乎人人都認識 pines，也不算太誇張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 4 講 pine 的尺寸範圍、品種和熟悉度。Ponderosa Pine 在第一句直接出現，是 Q5 的目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ponderosa pines”"
+            },
+            {
+              "kind": "quote",
+              "text": "“largest”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“huge, such as the Ponderosa Pine”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援 Ponderosa Pine 很大，但沒有出現 largest、biggest、tallest、largest variety 等最高級。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pines can be small, such as the Siberian Dwarf Pine, or huge, such as the Ponderosa Pine in the wilds of Oregon, and there are over 100 varieties in all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pines 可以很小，例如 Siberian Dwarf Pine；也可以很巨大，例如 Oregon 荒野中的 Ponderosa Pine；總共有一百多個品種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只把 Ponderosa Pine 作為 huge pine 的例子。它沒有說 Ponderosa Pine 是全部 pine 中最大的一種，也沒有比較其他巨大品種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Ponderosa pines are the largest.原文命題： Ponderosa Pine is an example of a huge pine.比較結果：原文支援 huge，缺少 the largest。最高級資訊不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷文章沒有足夠資料判斷 Ponderosa pines 是否最大，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“huge” 很容易令人推到 “largest”。但 IELTS Reading 中，形容詞 huge 不能自動變成最高級 the largest。題目加入了比較範圍，原文沒有提供完整排名。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Pines are familiar to most people.”",
+      "translation": "大多數人都熟悉 pines。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找文章是否說 pines 為大眾所熟知。題目中的 “most people” 可能會被原文 “almost everyone” 改寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pines can be small, such as the Siberian Dwarf Pine, or huge, such as the Ponderosa Pine in the wilds of Oregon, and there are over 100 varieties in all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pines 可以很小，例如 Siberian Dwarf Pine；也可以很大，例如 Oregon 荒野中的 Ponderosa Pine；總共有一百多個品種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would not be too much of an exaggeration to say that almost everyone knows pines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "說幾乎人人都認識 pines，並不算太誇張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接處理 familiarity。題目說 most people，原文說 almost everyone，意思方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“familiar”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 familiar，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“almost everyone knows pines”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "knows 對應 familiar；almost everyone 範圍甚至比 most people 更強。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would not be too much of an exaggeration to say that almost everyone knows pines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "說幾乎人人都認識 pines，也不算太誇張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是整個評價：“to say that almost everyone knows pines”。作者說這個說法不算過分，代表 pine 是高度熟悉的樹種。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“familiar to most people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“almost everyone knows pines”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： familiar to = knows most people = almost everyone答案判斷題目與原文同方向。原文甚至用更強的 almost everyone 支援題目中的 most people，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“almost everyone” 帶有輕微誇張語氣，因為前面有 “not too much of an exaggeration”。但作者仍然接受這個概括，足以支援 most people。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Birds usually spread pine seeds.”",
+      "translation": "鳥通常會傳播 pine seeds。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查種子傳播方式。題目中的 “usually” 是程度詞，必須和原文的 mostly / sometimes 比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These trees certainly have many telltale characteristics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些樹確實有許多容易辨認的特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some varieties, the cones remain closed until their binding resin is melted by forest fires.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些品種中，cones 會一直閉合，直到封住它們的 resin 被 forest fires 融化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段整體介紹 pine 特徵和 cones，題目問 seeds spread，應在 cone 結構與 seeds 描述附近找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spread pine seeds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the cone opens, the seeds eventually fall out, mostly to be dispersed by the wind, or sometimes by birds.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the cone opens, the seeds eventually fall out, mostly to be dispersed by the wind, or sometimes by birds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 cone 打開時，種子最終會掉出來，大多由 wind 傳播，有時由 birds 傳播。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個程度詞： mostly = 大多數情況sometimes = 有時原文說主要由 wind 傳播，鳥只是 sometimes。題目說 birds usually spread pine seeds，將 birds的角色從 sometimes 提升為 usually，和原文程度相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與相反關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birds usually spread pine seeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“mostly … by the wind, or sometimes by birds”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果： usually by birds 和 sometimes by birds 不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主要方式是 wind。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷文章提供明確相反程度，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文確實出現 birds，所以很容易被原字吸引。真正控制答案的是 sometimes。看到 usually、mostly、often、sometimes 這類程度詞，一定要逐字比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Lightning storms benefit pine barrens.”",
+      "translation": "雷電風暴對 pine barrens 有好處。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 lightning 和 pine barrens 的關係。原文未必直接說 “benefit”，可能透過lightning-induced fires 幫助 pines 占優來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This last fact – the need for wildfires for regeneration – is another fascinating aspect of many pine species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上一段提到的這一點，即某些 pine species 需要 wildfires 來再生，是許多 pine 物種另一個迷人特點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is perhaps sad that modern fire prevention methods have resulted in the decline of many pine species in the wild, and most ancient pine barrens are now being taken over by other forest vegetation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人有點難過的是，現代防火方法導致許多野生 pine species 衰退，而且大多數古老 pine barrens 正被其他森林植被取代。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段講 wildfires 對 pines 和 pine barrens 的重要性。題目問 lightning storms 是否benefit pine barrens，需要在 fire-prone / lightning-induced fires 那一句找證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lightning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pine barrens”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“pine barrens”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural (usually lightning-induced) fires weeds out the less fire-tolerant species”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are eco-regions of sandy nutrient-poor soil dominated by pines, since the frequency of natural (usually lightning-induced) fires weeds out the less fire-tolerant species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "pine barrens 是沙質、養分貧瘠的生態區，由 pines 主導，因為自然火災通常由 lightning 引起，而這些頻繁火災會清除較不耐火的物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的邏輯是： lightning-induced fires → 清除 less fire-tolerant species → pines 更能主導 pine barrens題目說 lightning storms benefit pine barrens，是把這條因果概括成「雷電引發的自然火災有利於pine barrens 的 pine dominance」。原文也補充現代 fire prevention 令 pines 衰退，進一步說明缺少火災對 pine barrens 反而不利。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lightning storms benefit pine barrens”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“usually lightning-induced fires weeds out the less fire-tolerant species”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： lightning storms = lightning-induced fires 的來源benefit = help pines dominate by removing competitors pine barrens = eco-regions dominated by pines答案判斷原文支援 lightning-related natural fires 有利於 pines 在 pine barrens 中占優，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文真正提到的是 lightning-induced fires，不是單純 lightning storms 本身。這裡的推論距離仍很短，因為雷電引發火災，火災清除競爭物種，使 pine barrens 維持 pine dominance。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A, C, D",
+      "answerKey": "A, C, D",
+      "type": "Choose THREE answers",
+      "prompt": "“Which THREE groups of people, A–F, particularly like pine trees?”",
+      "translation": "以下哪三類人特別喜歡 pine trees？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要選三個群體。重點是 “particularly like”。原文可能用 favourites、valued、most like、enthusiasts、teach traditional craft 等訊號。要逐項檢查每個選項是否獲文章支援。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph 7 和 Paragraph 8 Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the situation is very different for home and commercial use, which has seen pines become a very common sight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在家庭和商業用途方面，情況很不同，pines 已變得非常常見。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pine resin is a byproduct, and this is collected for distillation into turpentine, an important industrial solvent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "pine resin 是副產品，會被收集並蒸餾成 turpentine，這是一種重要工業溶劑。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a more homely sense, perhaps what people most like are the cones, the largest of which are regularly used by children and craft enthusiasts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在較家常的層面，人們最喜歡的也許是 cones，其中最大的 cones 經常被 children 和 craft enthusiasts 使用。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people lament that modern manufactured toys in the more affluent of these countries have displaced cones, although some Nordic communities still teach traditional ‘cone-craft’ in high schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人感嘆，在這些較富裕國家，現代製造玩具已取代 cones；然而，一些 Nordic communities仍在高中教授傳統 “cone-craft”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後可見，Paragraph 7 講商業用途，Paragraph 8 講 cones、craft enthusiasts 和 Nordic communities。題目問 groups of people，這兩段最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A Plantation owners原文對應：commercial plantations / favourites B Outdoor carpenters原文對應：outdoors / durable varieties necessary C People interested in craft原文對應：craft enthusiasts / cone-craft D Certain native communities原文沒有 native；但有 some Nordic communities。這很可能是題目選項轉錄問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E Factory owners原文有 factories，但沒有說 factory owners 特別喜歡 pines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F Users of turpentine原文有 turpentine，但沒有說使用者特別喜歡 pine trees。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項細讀"
+            },
+            {
+              "kind": "label",
+              "text": "A Plantation owners原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As these trees grow fast, can be planted in dense arrays, and produce attractive and easily moulded wood, they are favourites for commercial plantations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於這些樹生長快，可以密集種植，又能生產吸引人且容易塑形的木材，所以它們是 commercial plantations 的最愛。"
+            },
+            {
+              "kind": "quote",
+              "text": "“favourites for commercial plantations” 直接支援 plantation owners 或 plantation operators 喜歡pine。A 正確。 C People interested in craft原文關鍵句：“In a more homely sense, perhaps what people most like are the cones, the largest of which are regularly used by children and craft enthusiasts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在較家常的層面，人們最喜歡的也許是 cones，其中最大的 cones 常被兒童和 craft enthusiasts使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "craft enthusiasts 就是 people interested in craft。C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Certain native communities / Nordic communities原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people lament that modern manufactured toys in the more affluent of these countries have displaced cones, although some Nordic communities still teach traditional ‘cone-craft’ in high schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人感嘆，在這些較富裕國家，現代製造玩具已取代 cones；然而，一些 Nordic communities仍在高中教授傳統 “cone-craft”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚支援的是 some Nordic communities。若選項原意是 “Certain Nordic communities”，D正確。若選項確實是 “Certain native communities”，文章沒有 native 這個限定，因此這個選項的文字不夠精確。不過在六個選項中，D 最可能對應原文的 Nordic communities。"
+            },
+            {
+              "kind": "label",
+              "text": "錯項排除B Outdoor carpenters原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wood is fragrant, but prone to decay, so it is most suitable for indoor or dry carpentry, rather than outdoors, where more durable varieties are necessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種木材有香氣，但容易腐爛，所以最適合室內或乾燥木工用途；戶外則需要更耐用的木材品種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句反而排除 outdoor carpenters，因為 pine wood 不適合戶外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E Factory owners原文說 pine wood is pulped in factories for paper and chipboard production。這支援 factories use pine wood，但沒有說 factory owners particularly like pine trees。支援力度低於 A、C、D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F Users of turpentine原文只說 pine resin 可蒸餾成 turpentine，且 turpentine 是 important industrial solvent。這說明pine 有工業用途，但沒有把 users of turpentine 描述成喜歡 pine trees 的群體。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A： plantation owners = commercial plantations particularly like = favourites for C： people interested in craft = craft enthusiasts D： certain communities = some Nordic communities like / value = still teach traditional cone-craft答案判斷最有原文支援的三項是 A、C、D。D 的文字需要留意：原文是 Nordic communities，不是 native communities。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A — complicated",
+      "answerKey": "A — complicated",
+      "type": "Multiple Choice",
+      "prompt": "“Pine cones are…”",
+      "translation": "pine cones 是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 pine cones 的性質。要找 Paragraph 5 中對 cones 的直接評價，並排除只符合部分cones 的選項。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These trees certainly have many telltale characteristics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些樹確實有許多容易辨認的特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some varieties, the cones remain closed until their binding resin is melted by forest fires.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些品種中，cones 會一直閉合，直到封住它們的 resin 被森林火災融化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 5 先列出 pines 的外觀特徵，再深入講 cone 的結構和功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 12 問 pine cones，目標段落非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Pine cones”。原文中連續出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“always produce their signature pine cones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“These formations are certainly not simple.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“They can be male … or female …”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最直接的性質判斷是 “not simple”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These formations are certainly not simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些構造絕對不簡單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前一句說的是 “their signature pine cones”，所以 “These formations” 指 pine cones。not simple對應 complicated。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文解釋為何 cones 不簡單："
+            },
+            {
+              "kind": "quote",
+              "text": "“They can be male (small, inconspicuous, and shedding pollen) or female (large, woody, and containing seeds), even when appearing on the same tree.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們可以是 male cones，小而不顯眼並釋放花粉；也可以是 female cones，大、木質化並含有種子，即使它們出現在同一棵樹上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 pine cones 有不同性別、大小和功能，因此 A “complicated” 是最精準概括。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A complicated正確。原文 “certainly not simple” 直接對應 complicated。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B male只符合一部分。原文說 cones can be male or female，不可以把全部 pine cones 說成 male。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C mostly the same size原文沒有支援。相反，male cones are small，female cones are large，顯示大小不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D often used as toys in affluent countries Paragraph 8 說 modern manufactured toys in more affluent countries have displaced cones。這表示在富裕國家，cones 已被現代玩具取代，和 D 的方向不合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 A： complicated原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“not simple”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： not simple = complicated"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 很容易吸引學生，因為 male 原字出現；但原文說 male or female。MCQ 要看整句範圍，不可只抓一個原字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "A — 4,842 years old.",
+      "answerKey": "A — 4,842 years old.",
+      "type": "Multiple Choice",
+      "prompt": "“Methuselah is…”",
+      "translation": "Methuselah 是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Methuselah 的正確描述。四個選項中，A 是年齡，B 是最高級，C 是旅遊可見性，D 是日照條件。要回到 Methuselah 出現的段落和結尾保護段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph 2 和 Paragraph 9 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being in a cold climate, facing limited summer seasons, rooted in nutrient poor and dry soil, and subject to high winds and withering winters, bristlecone pines mature very slowly indeed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "bristlecone pines 生長在寒冷氣候中，面對短暫夏季，紮根於貧瘠乾燥的土壤，又承受強風和嚴冬，因此成熟得非常緩慢。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And that’s just one fascinating fact about that well-known species of tree – the pine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而這只是 pine 這種知名樹種其中一個迷人事實。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This tree is precious, and must be kept free from all human interference.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這棵樹很珍貴，必須遠離所有人類干擾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 負責 Methuselah 的年齡；Paragraph 9 解釋它的位置被保密，不讓人干擾。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Methuselah”。原文有兩個關鍵位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“as of 2011, Methuselah was4,842 years old”"
+            },
+            {
+              "kind": "quote",
+              "text": "“we keep the location of Methuselah a secret”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By counting these, we can accurately state that, as of 2011, Methuselah was4,842 years old, meaning that it sprouted as a seedling in 2832 BC…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過數這些 growth rings，我們可以準確指出，截至 2011 年，Methuselah 有 4,842 歲，這意味著它在公元前 2832 年作為幼苗發芽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 A。題目沒有要求更新至現今年齡，閱讀題只按 passage 判斷，所以 A 正確。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 4,842 years old.正確。原文直接說 as of 2011, Methuselah was 4,842 years old。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B the oldest tree ever.原文沒有這樣說。Paragraph 9 提到另一棵 bristlecone pine 有 4,844 rings，比 Methuselah older，因此 B 還會和後文衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C visited by tourists.原文說 location of Methuselah is kept secret，並要 kept free from all human interference。這不支援被遊客參觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D not subject to much sunshine.原文說 bristlecone pines face limited summer seasons、high winds、withering winters，沒有說Methuselah 缺少 sunshine。這是未提供資料。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 A： 4,842 years old原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Methuselah was4,842 years old”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷A 有直接原文支援。B 被 Paragraph 9 的 older tree 削弱；C 和 location secret 不合；D 缺少sunshine 證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後整理：高頻同義改寫Every year gain another= another growth ring is added every year pyramids were built after= it sprouted centuries before the pyramids typical of all pines= always produce their signature pine cones not very durable= prone to decay / more durable varieties are necessary outdoors huge= 不足以推出 the largest familiar to most people= almost everyone knows pines usually by birds= 被原文 sometimes by birds 推翻lightning storms benefit pine barrens= lightning-induced fires remove less fire-tolerant competitors plantation owners= commercial plantations treat pines as favourites people interested in craft= craft enthusiasts certain communities= some Nordic communities still teach cone-craft complicated= certainly not simple Methuselah 4,842 years old= as of 2011, Methuselah was 4,842 years old"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Pine Trees.pdf",
+    "sha256": "c03fca98fbdba9b2df065729bb318c51cfa82faba5448576488d2c5061a2994b",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看第一句，讀者會先看到作者正在觀察一棵樹幹粗厚扭曲、樹冠矮小而長滿尖針的特殊 pine。最後一句說，作者再次看著這棵安靜、不起眼的樹，開始意識到它值得極大尊重。首尾句顯示，這段功能是引入 Methuselah 這棵 bristlecone pine，並透過 park ranger Ron Simonson 說明它極古老，幾乎跨越全部有記錄的人類歷史。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說，bristlecone pines 生長在寒冷氣候、夏季短、土壤貧瘠乾燥、高風和嚴冬等環境中，所以成熟得非常緩慢。最後一句把焦點放大，說 Methuselah 只是 pine 這種知名樹種其中一個迷人事實。首尾句顯示，這段先解釋為甚麼 bristlecone pine 長得慢，再用 growth rings 推算Methuselah 的年齡，並把它和埃及金字塔年代比較。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說，pine trees 原產於北半球大部分地區。最後一句指出，一些品種已適應高海拔和高緯度的嚴酷環境，包括 Methuselah，它生長在 Northern California 的 White Mountains 山峰之間。首尾句顯示，這段功能是交代 pine 的自然分布和適應能力。它也把 Methuselah 放回一個更大的物種背景：pine 不只常見，也能在很艱難的環境中存活。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說，pines 可以很小，例如 Siberian Dwarf Pine，也可以很大，例如 Oregon 野外的Ponderosa Pine，總共有一百多個品種。最後一句說，說幾乎人人都認識 pines 並不算太誇張。首尾句顯示，這段處理 pine 的大小、品種數量和全球熟悉度。中間提到它們被引入南半球較溫和地區，並在 parks and gardens 中十分常見。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說，pine trees 確實有許多容易辨認的特徵。最後一句說，有些品種的 cones 會一直閉合，直到 forest fires 融化封住它們的 resin。首尾句顯示，這段集中介紹 pine 的外觀和繁殖結構： evergreen、needle-like foliage、pine smell、scaly bark、pine cones。中間特別說明 cones 並不簡單，有 male 和 female 之分，種子多由 wind 傳播，有時由 birds 傳播。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說，某些 pine species 需要 wildfires 才能 regeneration，這是另一個迷人特點。最後一句說，現代 fire prevention methods 令許多野生 pine species 衰退，也令古老 pine barrens 被其他森林植被取代。首尾句顯示，這段處理 fire 和 pine ecology 的關係。pine barrens 因自然、通常由lightning 引起的火災，清除較不耐火的物種，使 pines 在貧瘠沙地中占優。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句用 However 轉到家庭和商業用途，指出 pines 在這些場景中已變得非常常見。最後一句說，pine resin 是副產品，可蒸餾成 turpentine，這是一種重要工業溶劑。首尾句顯示，這段主要介紹人類使用 pine 的方式：commercial plantations、wood、carpentry、Christmas trees、paper、chipboard、resin 和 turpentine。中間也說 pine wood 香，但 prone to decay，所以不太適合戶外用途。"
+      },
+      {
+        "number": "8",
+        "summary": "第一句說，在較家常的層面，人們最喜歡的也許是 pine cones，其中最大的 cones 常被 children和 craft enthusiasts 使用。最後一句說，在一些 Nordic communities，高中仍然教授傳統cone-craft。首尾句顯示，這段由工業用途轉向文化與手作用途。cones 被用於裝飾、生火、餵鳥，或作為兒童的自然玩具；同時，現代製造玩具已在富裕國家取代不少傳統 cone play。"
+      },
+      {
+        "number": "9",
+        "summary": "第一句說，作者總會回到 Methuselah 這個話題。最後一句說，Methuselah 很珍貴，必須遠離所有 human interference，因此它的位置被保密。首尾句顯示，結尾段用 1964 年砍下一棵更古老bristlecone pine 的故事，解釋為甚麼 Methuselah 要受到保護。那棵樹有 4,844 個 rings，比Methuselah 更古老；人類為了測年而殺死了當時最古老的生命。 Answer Key 1. growth ring 2. it sprouted 3. pine cones 4. durable 5. NOT GIVEN 6. TRUE 7. FALSE 8. TRUE 9. A 10. C 11. D 12. A 13. A註：Questions 9–11 的 D 選項寫的是 “Certain native communities”，但原文真正支援的是 “some Nordic communities”。如果題目原版其實是 “Nordic communities”，D 很穩；若選項確實是 “native communities”，這裡有轉錄或選項措辭問題，因為文章沒有直接提到 native communities。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 9–11 的 D 選項寫作 “Certain native communities”，但原文真正支援的是 “some Nordic communities”。如果題目原版其實是 “Nordic communities”，D 很穩；若選項確實是 “native communities”，則有轉錄或選項措辭問題。"
+  ]
+}

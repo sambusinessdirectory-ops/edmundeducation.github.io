@@ -1,0 +1,2079 @@
+{
+  "id": "p1-100-indias-modern-women",
+  "catalogueId": "p1-100",
+  "catalogueIds": [
+    "p1-100"
+  ],
+  "passage": 1,
+  "title": "India’s Modern Women",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "Guilt-free materialism",
+    "Careerism",
+    "Parental ties",
+    "Marital freedom",
+    "Sex and divorce",
+    "consumer group",
+    "dating",
+    "a noble cause",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "Guilt-free materialism",
+      "answerKey": "Guilt-free materialism",
+      "type": "Finding Matching",
+      "prompt": "“Young Indian women who want more tend to be poorer.”",
+      "translation": "越想要更多東西的年輕印度女性，往往較貧窮。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要把題目資訊配到六項 findings。題目核心是 want more 和 poorer 的關係，所以要找aspiration、less women have、greater aspirations、money、big house、big car 這類訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 — Guilt-free materialism第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Guilt-free materialism. 51% of young single women in major urban areas say it is necessary to have a big house and big car to be happy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「無罪惡感的物質主義」。在主要城市地區，51% 年輕單身女性表示，要快樂就必須有大房子和大車。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A typical comment in recent interviews was, ‘I want money, fame, and success.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期訪問中的典型評論是：「我想要金錢、名聲和成功。」只看首尾句，可以先猜這段集中處理年輕女性對物質生活、財富和成功的渴望。這和題目中的want more 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“want more”"
+            },
+            {
+              "kind": "quote",
+              "text": "“poorer”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必直接用 poorer，所以也要找 less、greater aspirations、have 等概念。Paragraph 4 中最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This shows that the less women have, the greater their aspirations.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This shows that the less women have, the greater their aspirations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顯示女性擁有得越少，她們的抱負就越大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的比較關係很清楚：the less women have 對應 poorer；the greater their aspirations 對應want more。題目把 “aspirations” 轉成 “want more”，把 “less women have” 概括成 “poorer”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young Indian women who want more tend to be poorer.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the less women have, the greater their aspirations.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： want more = greater aspirations poorer = less women have tend to = this shows that 的概括語氣"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題可能被 Careerism 吸引，因為 career 段也提到 glamour, money, fame。不過 Careerism 講的是職業理想；Question 1 要找的是貧富程度和慾望大小的關係。只有 Guilt-free materialism 明確說 “the less women have, the greater their aspirations”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "Careerism",
+      "answerKey": "Careerism",
+      "type": "Finding Matching",
+      "prompt": "“Few young Indian women want to be housewives.”",
+      "translation": "很少年輕印度女性想做家庭主婦。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問的是 housewives，所以先找六項 findings 中是否有 careers、profession、housewife 相關內容。這類題不要只看 “women” 或 “young”，真正定位詞是 housewives。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8 — Careerism第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Careerism. A decade ago, most young women saw themselves as housewives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「事業主義」。十年前，多數年輕女性把自己想像成家庭主婦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The percentage of those saying they want to be a full-time housewife is minuscule.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示想成為全職家庭主婦的人所佔比例極小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經直接處理 housewife。第一句講過去多數女性想做 housewives；最後一句講現在想做 full-time housewife 的比例極小。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few”"
+            },
+            {
+              "kind": "quote",
+              "text": "“housewives”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“minuscule”"
+            },
+            {
+              "kind": "quote",
+              "text": "“full-time housewife”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The percentage of those saying they want to be a full-time housewife is minuscule.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些說自己想做全職家庭主婦的人，比例非常小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “minuscule” 表示極小、微不足道。題目中的 “Few” 正好概括這個意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few young Indian women want to be housewives.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The percentage of those saying they want to be a full-time housewife is minuscule.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： Few = the percentage is minuscule want to be housewives = want to be a full-time housewife"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 的 Marital freedom 也講婚姻，可能令人想到家庭角色。但 housewife 是職業／人生角色選擇，Paragraph 8 的 Careerism 才正面比較 housewives、teachers、doctors、journalists、managers 等職業選項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "Parental ties",
+      "answerKey": "Parental ties",
+      "type": "Finding Matching",
+      "prompt": "“Most young Indian women want to take care of their retired parents.”",
+      "translation": "大多年輕印度女性想照顧退休後的父母。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 strongest signals 是 take care、parents、old age / retired。要找六項 findings 中直接涉及父母關係的一項。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5 — Parental ties第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Parental ties. Traditionally, parents regarded girls as somebody else’s future property.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「與父母的連結」。傳統上，父母把女兒看成將來屬於別人家的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She then visited her parents and took them to a first-class restaurant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後她探望父母，並帶他們去一間一流餐廳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段會講女兒和父母關係的轉變。段首是傳統觀念，段尾是女兒有能力回饋父母的廣告故事，和題目非常貼近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“take care”"
+            },
+            {
+              "kind": "quote",
+              "text": "“parents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“retired”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“take care of their parents in their old age”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“67% say they plan to take care of their parents in their old age—and that means they need money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "67% 表示她們計劃在父母年老時照顧父母，而這意味著她們需要金錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “Most” 表示超過一半。原文的 67% 超過 50%，所以 most 成立。題目中的 retired parents和原文的 parents in their old age 也屬於同義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most young Indian women want to take care of their retired parents.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“67% say they plan to take care of their parents in their old age.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： Most = 67%want to = plan to retired parents = parents in their old age take care of = take care of 原字重現"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落後半有 Unilever 和 Fair and Lovely 廣告，細節很長。那只是用來展示品牌如何利用女兒照顧父母的情感。真正定案的句子是 “67% say they plan to take care of their parents in their old age”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "Marital freedom",
+      "answerKey": "Marital freedom",
+      "type": "Finding Matching",
+      "prompt": "“Most young Indian women want to be financially independent.”",
+      "translation": "大多年輕印度女性想在金錢上獨立。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 financially independent，不是單純找 money。文章多處提到 money，但 financial independence 是婚姻自主段落的核心詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 — Marital freedom第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marital freedom. Now, many women say they will marry when they are ready—not when their parents decide to marry them off.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「婚姻自由」。現在，許多女性說她們會在自己準備好時結婚，而不是在父母決定把她們嫁出去時結婚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In big metro areas, 24% say they never want children, and that number reaches 40% in smaller cities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在大都會地區，24% 表示她們永遠不想要孩子；在較小城市，這個數字達到 40%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯談女性在婚姻和生育上的自主。中間很可能會包含 dating、money、salary和 children decision，所以和 financial independence 相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“financially independent”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“they also want to become financially independent before they marry.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“76% say they want to maintain that independence afterwards.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“65% say dating is essential, and they also want to become financially independent before they marry. 76% say they want to maintain that independence afterwards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "65% 表示約會是必要的，她們也想在結婚前變得經濟獨立。76% 表示她們婚後也想保持這種獨立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有兩層證據。第一，原文直接說女性想在婚前 become financially independent。第二，76%想婚後維持 that independence，表示大多數女性把經濟獨立視為重要目標。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most young Indian women want to be financially independent.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“they also want to become financially independent before they marry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“76% say they want to maintain that independence afterwards”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： want to be = want to become / want to maintain financially independent = financially independent 原字重現Most = 76% 的 majority 支撐"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Guilt-free materialism 也談 money、fame、success，但那段重點是消費欲望和物質抱負。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 4 的 “financially independent” 指經濟自主，文章把它放在 Marital freedom 之下，因為這種自主直接影響婚姻決定和婚後生活。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "Sex and divorce",
+      "answerKey": "Sex and divorce",
+      "type": "Sentence Completion",
+      "prompt": "“5 _________________ are freely talked about on American TV shows.”",
+      "translation": "__________ 在美國電視節目中被自由討論。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格後面是 “are”，所以答案應是複數概念或由兩個名詞組成的並列短語。題目中的 “freely talked about” 要找原文的 openly discussed。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The country’s younger generation is shedding submissive attitudes, seeking careers and longing for wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個國家的年輕一代正在擺脫順從態度，追求事業，並渴望財富。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sex and divorce were openly discussed in these TV imports, and couples kissed passionately, although such scenes were still taboo in Indian TV shows and movies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些進口電視節目中，性和離婚被公開討論，情侶也會熱烈親吻；儘管這些場面在印度電視節目和電影中仍屬禁忌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，答案已經很集中：Sex and divorce 對應題目空格，openly discussed 對應 freely talked about。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“American TV shows”"
+            },
+            {
+              "kind": "quote",
+              "text": "“freely talked about”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“popular TV shows”"
+            },
+            {
+              "kind": "quote",
+              "text": "“openly discussed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“TV imports”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sex and divorce were openly discussed in these TV imports…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "性和離婚在這些進口電視節目中被公開討論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “openly discussed” 改寫成 “freely talked about”。空格要填被談論的內容，所以答案是Sex and divorce。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Sex and divorce” 是三個字，符合 NO MORE THAN THREE WORDS。放入句子後是 “Sex and divorce are freely talked about…” 文法正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：Sex and divorce"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "consumer group",
+      "answerKey": "consumer group",
+      "type": "Sentence Completion",
+      "prompt": "“Young women are considered to be the future’s most important 6 _________________ by many companies.”",
+      "translation": "許多公司認為年輕女性是未來最重要的__________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “most important”，後面有 “by many companies”，所以答案應是一個市場或商業類名詞。題目中的 “future” 可能改寫 tomorrow。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because today’s young women are the key consumer group of tomorrow, these shifts have big implications for marketing companies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為今天的年輕女性是明日的關鍵消費群體，這些轉變對市場營銷公司有重大影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers supplemented this data with interviews of journalists, teachers, and psychologists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者再透過訪問記者、教師和心理學家來補充這些資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 有兩個功能：先說 marketing companies 為何關注 young women，再交代研究方法。題目明顯來自第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“future”"
+            },
+            {
+              "kind": "quote",
+              "text": "“companies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“young women”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“young women”"
+            },
+            {
+              "kind": "quote",
+              "text": "“key consumer group of tomorrow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“marketing companies”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because today’s young women are the key consumer group of tomorrow, these shifts have big implications for marketing companies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為今天的年輕女性是明日的關鍵消費群體，這些轉變對市場營銷公司有重大影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “of tomorrow” 改寫成 “future’s”，把 “key” 改寫成 “most important”。空格需要填 group 類名詞，所以答案是 consumer group。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查consumer group 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果填 key consumer group，句子會變成 “most important key consumer group”，語意重複；因此較自然答案是 consumer group。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：consumer group"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "dating",
+      "answerKey": "dating",
+      "type": "Sentence Completion",
+      "prompt": "“Most young Indian women surveyed agree that 7 _________________ before marriage is necessary.”",
+      "translation": "大多數受訪年輕印度女性同意，婚前__________是必要的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面是 “before marriage is necessary”，所以答案應是一個名詞或動名詞。題目中的necessary 會對應原文 essential。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 — Marital freedom第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marital freedom. Now, many women say they will marry when they are ready—not when their parents decide to marry them off.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「婚姻自由」。現在，許多女性說她們會在自己準備好時結婚，不再按父母決定出嫁。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In big metro areas, 24% say they never want children, and that number reaches 40% in smaller cities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在大都會地區，24% 表示永遠不想要孩子；在較小城市，這個比例達到 40%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談婚姻自由和婚前選擇。題目有 before marriage，所以 Paragraph 6 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“before marriage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“necessary”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“65% say dating is essential”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before they marry”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“65% say dating is essential, and they also want to become financially independent before they marry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "65% 表示約會是必要的，她們也想在結婚前變得經濟獨立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “essential” 改寫成 “necessary”，把 “before they marry” 改寫成 “before marriage”。空格要填被認為必要的行為，即 dating。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查dating 是一個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：dating"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "a noble cause",
+      "answerKey": "a noble cause",
+      "type": "Sentence Completion",
+      "prompt": "“In the past, young Indian women who wanted careers were most likely to consider teaching or becoming doctors because each of these is considered to be 8 _________________”",
+      "translation": "過去，想要事業的年輕印度女性最可能考慮教書或成為醫生，因為這些職業都被視為__________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “considered to be”，所以答案應是名詞短語。定位詞是 teaching、doctors、profession、past。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8 — Careerism第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Careerism. A decade ago, most young women saw themselves as housewives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「事業主義」。十年前，多數年輕女性把自己想像成家庭主婦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The percentage of those saying they want to be a full-time housewife is minuscule.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示想做全職家庭主婦的人所佔比例極小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯比較過去和現在的女性職業想像。題目問 in the past 和 careers，所以 Paragraph 8 很合適。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“teachers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“doctors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“careers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“most said they wanted to be teachers or doctors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it had to be a noble cause”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After that, most said they wanted to be teachers or doctors. If they had a profession at all, it had to be a noble cause.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後，多數人說她們想做教師或醫生。如果她們要有職業，那職業必須是一項高尚的事業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 teaching or becoming doctors 改寫原文 teachers or doctors。原因是這些職業被視為 a noble cause。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查a noble cause 是三個字，符合 NO MORE THAN THREE WORDS。放入句子後是 “considered to be a noble cause”，文法自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：a noble cause"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The effect of American culture on young Indian women was not forecast when satellite and cable TV arrived in India.”",
+      "translation": "當衛星和有線電視進入印度時，美國文化對年輕印度女性的影響並沒有被預測到。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有一個否定結構：was not forecast。要檢查原文有沒有predicted / forecast 相關說法。若原文說有人預測印度社會會改變，題目就和原文衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The country’s younger generation is shedding submissive attitudes, seeking careers and longing for wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個國家的年輕一代正在擺脫順從態度，追求事業，並渴望財富。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sex and divorce were openly discussed in these TV imports, and couples kissed passionately, although such scenes were still taboo in Indian TV shows and movies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些進口電視節目中，性和離婚被公開討論，情侶也會熱烈親吻；儘管這些場面在印度電視節目和電影中仍屬禁忌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是美國電視文化進入印度的背景段。題目提到 satellite and cable TV，所以很可能定位在Paragraph 1 中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“forecast”"
+            },
+            {
+              "kind": "quote",
+              "text": "“satellite and cable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“American culture”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“many pundits predicted Indian society would never be the same”"
+            },
+            {
+              "kind": "quote",
+              "text": "“thanks to satellite and cable”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the first American music videos and popular TV shows began appearing in Indian homes in the early 1990s thanks to satellite and cable, many pundits predicted Indian society would never be the same.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1990 年代初，第一批美國音樂影片和流行電視節目因衛星和有線電視進入印度家庭時，許多評論人士預測印度社會將不會再一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：effect of American culture on young Indian women動作：was not forecast時間：when satellite and cable TV arrived原文命題主體：many pundits動作：predicted Indian society would never be the same時間：when American media appeared thanks to satellite and cable比較結果題目說沒有預測；原文說 many pundits predicted。這是明確衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有逐字說 “young Indian women” 在這一句中被 predicted；它說 Indian society。可是前後文正是在講美國電視對年輕女性的影響。題目真正錯在 “was not forecast”，因為原文有predicted。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Researchers used three methods to get their data.”",
+      "translation": "研究者用了三種方法來取得資料。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要數研究方法。定位詞是 researchers、data、methods。需要小心：文章有研究對象數字，也有實際方法，不要把所有數字都當成方法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because today’s young women are the key consumer group of tomorrow, these shifts have big implications for marketing companies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為今天的年輕女性是明日的關鍵消費群體，這些轉變對市場營銷公司有重大影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers supplemented this data with interviews of journalists, teachers, and psychologists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者再透過訪問記者、教師和心理學家來補充這些資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 是研究背景和資料收集段。最後一句直接提到 supplemented this data with interviews，所以這段可用來判斷研究方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“data”"
+            },
+            {
+              "kind": "quote",
+              "text": "“methods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“40 focus groups”"
+            },
+            {
+              "kind": "quote",
+              "text": "“researchers lived with the women”"
+            },
+            {
+              "kind": "quote",
+              "text": "“supplemented this data with interviews”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據組"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Altogether, the project involved 40 focus groups in five large urban areas and five smaller cities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個項目包括在五個大型城市地區和五個較小城市進行的 40 個焦點小組。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some cases, the researchers lived with the women for a while to study them more closely.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些情況下，研究者與這些女性同住一段時間，以便更深入研究她們。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers supplemented this data with interviews of journalists, teachers, and psychologists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者再用對記者、教師和心理學家的訪問來補充這些資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "三種資料收集方式分別是：focus groups、living with the women、interviews。題目說 researchers used three methods，和原文一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "methods = focus groups / lived with the women / interviews get their data = involved / study them more closely / supplemented this data判斷原文清楚列出三種資料來源或方法，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“examined 3,400 unmarried women” 是研究樣本規模，不宜和後面的 focus groups、live-in observation、interviews 混在一起。真正的方法由三個動作呈現：involved、lived with、supplemented with interviews。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most young Indian women are aiming for perfection.”",
+      "translation": "大多年輕印度女性都以完美為目標。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 key word 是 perfection。要看文章說現代年輕女性是否追求 Mrs. Perfect，還是接受faults。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7 — Individualism第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Individualism. Female role models in Indian culture used to personify perfection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「個人主義」。印度文化中的女性榜樣過去代表完美。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Popular TV role models are like Phoebe in ‘Friends’—women who commit blunders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受歡迎的電視榜樣像《Friends》中的 Phoebe，是會犯錯的女性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到一個轉變：過去 female role models 代表 perfection；現在受歡迎的是會犯錯的人。題目說 most women are aiming for perfection，方向需要細查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“perfection”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“used to personify perfection”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it is OK if they have faults”"
+            },
+            {
+              "kind": "quote",
+              "text": "“They do not want to be seen as Mrs. Perfect.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, 62% of girls say it is OK if they have faults and people see them. They do not want to be seen as Mrs. Perfect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，62% 女孩說即使自己有缺點並被別人看見也可以。她們不想被看成「完美女士」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Most young Indian women動作：are aiming for perfection原文命題主體：62% of girls動作：accept having faults and being seen with them補充：do not want to be seen as Mrs. Perfect比較結果題目說大多數追求完美；原文說 62% 接受缺點，且不想被看成 Mrs. Perfect。兩者衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "首句 “used to personify perfection” 可能令人誤選 TRUE。但 used to 表示過去情況；Question 11問現在的 young Indian women。真正控制答案的是 “Now, 62%…” 和 “They do not want to be seen as Mrs. Perfect.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most of the best journalists on TV in India are women.”",
+      "translation": "印度電視上大多數最優秀的記者都是女性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查三個元素：most、best journalists、women。原文若只說 prominent female journalists are glamorous，仍未足夠證明 “most of the best” 是女性。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8 — Careerism第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Careerism. A decade ago, most young women saw themselves as housewives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「事業主義」。十年前，多數年輕女性把自己想像成家庭主婦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The percentage of those saying they want to be a full-time housewife is minuscule.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示想做全職家庭主婦的人所佔比例極小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 講職業理想改變，其中有 journalists 和 TV reporters。題目提到 journalists on TV，所以要在這段中找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“journalists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“TV”"
+            },
+            {
+              "kind": "quote",
+              "text": "“women”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“prominent female Indian journalists, especially TV reporters, are seen as very glamorous.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This may be because prominent female Indian journalists, especially TV reporters, are seen as very glamorous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能是因為知名的印度女性記者，尤其是電視記者，被視為非常光鮮亮麗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是：有一些 prominent female Indian journalists，而且她們被看作 glamorous。這能解釋為何 45% 年輕單身女性想做 journalists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的資訊更多： Most of the best journalists on TV in India are women.這需要文章提供 “best journalists” 的性別比例，或說明大多數頂尖 TV journalists 是女性。原文沒有提供這類比例，也沒有評選 “best”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷文章只說 prominent female Indian journalists are glamorous，沒有說 most of the best TV journalists are women。缺少 “most” 和 “best” 的核心證據，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“prominent female Indian journalists” 很容易令人聯想到 “best journalists are women”。但prominent female journalists 只證明有知名女性記者；它沒有建立「頂尖記者之中女性佔多數」這個比例關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Modern men and women in India cook together.”",
+      "translation": "現代印度男女會一起做飯。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 cook together 說成現實中的一般情況。文章若只提供廣告畫面，仍要判斷這是否足以證明現代印度男女實際上普遍如此。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9 — Modern husbands第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern husbands. The relationship with a husband used to be one of awe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「現代丈夫」。過去，女性與丈夫的關係帶有敬畏感。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent Whirlpool ad shows a man washing the family clothes before his wife comes home from work, while a Samsung home appliance ad shows a husband and wife cooking together.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近一則 Whirlpool 廣告展示一名男子在妻子下班回家前清洗家中衣物；一則 Samsung 家電廣告則展示一對丈夫和妻子一起做飯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段講丈夫角色的變化，以及廣告如何呈現更平等的夫妻形象。題目用 cook together，明顯來自最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cook together”"
+            },
+            {
+              "kind": "quote",
+              "text": "“modern men and women”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern husbands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“husband and wife cooking together”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent Whirlpool ad shows a man washing the family clothes before his wife comes home from work, while a Samsung home appliance ad shows a husband and wife cooking together.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近一則 Whirlpool 廣告展示一名男子在妻子下班回家前清洗家中衣物；一則 Samsung 家電廣告展示丈夫和妻子一起做飯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 “a Samsung home appliance ad”，也就是廣告。它說廣告展示了 husband and wife cooking together。題目說 “Modern men and women in India cook together”，把廣告畫面推成現實中的一般事實。文章沒有說這種行為在印度現實中普遍發生，也沒有給出比例或調查數據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文支援的是：廣告中出現丈夫和妻子一起做飯的畫面。題目要求的是：現代印度男女在現實中一起做飯。這個一般化結論缺少足夠資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 “husband and wife cooking together” 原字吸引。真正要看的是主語：原文主語是ad，題目主語是 modern men and women in India。廣告呈現一種新期待或市場形象，不能直接證明現實生活中的普遍行為。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - India’s Modern Women.pdf",
+    "sha256": "47eb2e8d8910092a01be8649b1ce57695ad47989673ec2350397b333aa21fe81",
+    "pageCount": 21
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "SECTION 0：Skim Roadmap 全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說印度年輕一代正在擺脫 submissive attitudes，追求 career 和 wealth；末句說 American TV imports 公開討論 sex and divorce，甚至有 passionate kissing，當時這些仍是印度影視禁忌。只看首尾句，可以先估計本段是背景段：美國音樂影片和電視節目進入印度家庭後，為年輕女性展示新的性別形象、感情觀和生活模式。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 American TV 對年輕印度女性的影響 profound；末句說女性想為自己追求某些東西、進入男性世界表態，已可被社會接受。只看首尾句，這段功能是描述價值觀轉變：傳統女性重視服從、節儉、端莊；新一代女性更重視金錢自主、婚育選擇、光鮮職業和個人慾望。若題目問 modern women attitudes，應先看這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說年輕女性是 tomorrow 的 key consumer group，因此這些轉變對 marketing companies 有重要含義；末句說研究者再用 journalists、teachers、psychologists 的訪問補充資料。只看首尾句，這段主要交代研究背景和資料收集方法。中間會出現 3,400 unmarried women、40 focus groups、urban areas、smaller cities、researchers lived with women 等研究細節。"
+      },
+      {
+        "number": "4",
+        "summary": "首句提出第一項 finding：Guilt-free materialism，並給出大城市年輕單身女性對 big house and big car 的看法；末句用受訪者 “I want money, fame, and success” 作典型評論。只看首尾句，這段功能是說明年輕女性對物質、財富和成功的追求已少了罪惡感。若題目問 poorer women wanting more 或 aspirations，這段最相關。"
+      },
+      {
+        "number": "5",
+        "summary": "首句提出 Parental ties，說傳統上父母把女兒看成 someone else’s future property；末句用廣告故事收尾：女兒成為 airline hostess 後帶父母去 first-class restaurant。只看首尾句，這段會討論女兒和父母關係的改變。中間的核心大概是：現代年輕女性想照顧年老父母，因此需要金錢，品牌也利用這種情感做 marketing。"
+      },
+      {
+        "number": "6",
+        "summary": "首句提出 Marital freedom，說許多女性現在要在自己準備好時才結婚，不再按父母安排；末句說不想要孩子的比例在 big metro areas 是 24%，在 smaller cities 達 40%。只看首尾句，這段功能是說明婚姻、生育和金錢自主的變化。重點包括 dating、financial independence、own salaries、when to have children。"
+      },
+      {
+        "number": "7",
+        "summary": "首句提出 Individualism，說印度文化中的女性 role models 過去代表 perfection；末句說受歡迎的TV role models 像 Friends 裡的 Phoebe，是會犯錯的女性。只看首尾句，這段明顯處理「完美女性形象」的瓦解。中間應會說多數女孩接受自己有 faults，也接受別人看見這些 faults。題目若問perfection，就看這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句提出 Careerism，說十年前多數年輕女性把自己想像成 housewives；末句說想做 full-time housewife 的比例 minuscule。只看首尾句，這段功能是描述職業理想改變。中間會比較過去noble professions，例如 teachers 和 doctors，與現在追求 glamour、money、fame 的職業，如journalists、managers、design、military。"
+      },
+      {
+        "number": "9",
+        "summary": "首句提出 Modern husbands，說過去女性與丈夫的關係帶有 awe；末句說 Samsung 家電廣告展示丈夫和妻子一起 cooking。只看首尾句，這段處理現代女性對丈夫角色的新期待：她們想要partner 和 equal relationship。文中用 Whirlpool 和 Samsung 廣告作例子，說明市場如何呈現更平等、更合作的婚姻形象。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2118 @@
+{
+  "id": "p1-059-history-of-refrigeration",
+  "catalogueId": "p1-059",
+  "catalogueIds": [
+    "p1-059"
+  ],
+  "passage": 1,
+  "title": "History of Refrigeration",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "D",
+    "B",
+    "F",
+    "C",
+    "A",
+    "E",
+    "D",
+    "G",
+    "F",
+    "C",
+    "B",
+    "D",
+    "E",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D — 1840",
+      "answerKey": "D — 1840",
+      "type": "Matching Dates",
+      "prompt": "“Vehicles with refrigeration systems were used for road transport.”",
+      "translation": "裝有製冷系統的車輛被用於道路運輸。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Dates。題目要找一個事件首次或明確發生的年份。最有力定位詞是 “Vehicles with refrigeration systems”，因為原文有非常接近的 “vehicles fitted with refrigeration systems”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1840, vehicles fitted with refrigeration systems were used to deliver and distribute milk and butter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 1840 年起，裝有製冷系統的車輛被用來運送和分配牛奶及牛油。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1949, the trucking industry was being equipped with refrigeration systems with a roof-mounted cooling device, invented by Fred Jones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1949 年，貨車業開始配備裝有車頂冷卻裝置的製冷系統，該裝置由 Fred Jones 發明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯講 refrigeration 在運輸工具上的應用。題目問 vehicles with refrigeration systems，所以 Paragraph 6 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vehicles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“refrigeration systems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“road transport”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“vehicles fitted with refrigeration systems”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1840, vehicles fitted with refrigeration systems were used to deliver and distribute milk and butter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 1840 年起，裝有製冷系統的車輛被用來運送和分配牛奶及牛油。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Vehicles with refrigeration systems” 幾乎就是原文 “vehicles fitted with refrigeration systems” 的改寫。“used for road transport” 概括了 “deliver and distribute milk and butter” 這類運送用途。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vehicles with refrigeration systems= vehicles fitted with refrigeration systems used for road transport= used to deliver and distribute milk and butter"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1949 也很吸引，因為 Paragraph 6 最後一句提到 trucking industry，貨車也屬道路運輸。可是Question 9 已專門問 Fred Jones 的 trucking industry cooling device；Question 1 的 wording 更貼近原文第一句 “vehicles fitted with refrigeration systems”。所以答案是 D — 1840。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B — 1799",
+      "answerKey": "B — 1799",
+      "type": "Matching Dates",
+      "prompt": "“Ice was transported commercially within the United States for the first time.”",
+      "translation": "冰第一次在美國境內作為商業產品運輸。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是日期配對題。題目有 “for the first time”，所以要找原文中的 first transported 或 first commercial transport。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People’s demand for ice soon became strong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對冰的需求很快變得強烈。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, he improved the processing techniques for storing, transporting and distributing ice with less waste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，他也改善了儲存、運輸和分配冰的處理技術，使浪費更少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 3 主要講 ice demand 和 ice transport industry 的發展。題目問ice commercially transported，所以這段最有可能藏有答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“transported”"
+            },
+            {
+              "kind": "quote",
+              "text": "“commercially”"
+            },
+            {
+              "kind": "quote",
+              "text": "“for the first time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1799, ice was first transported as a commercial product…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1799, ice was first transported as a commercial product from Canal Street in New York City to Charleston, South Carolina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1799 年，冰第一次作為商業產品從紐約市 Canal Street 運送到南卡羅來納州 Charleston。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完整支援題目： ice was transported commercially= ice was transported as a commercial product within the United States= from New York City to Charleston, South Carolina for the first time= was first transported所以答案是 B — 1799。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 後面還有 Tudor 和 Wyeth 對冰運輸的改善，但題目問第一次商業運輸。看到 “first”時，要優先鎖定最早事件，不要被後面技術改良吸引。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "F — 1973",
+      "answerKey": "F — 1973",
+      "type": "Matching Dates",
+      "prompt": "“Some kind of chemical refrigerant was found harmful to the atmosphere.”",
+      "translation": "某種化學製冷劑被發現對大氣有害。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是日期配對題。題目沒有直接說 ozone layer，但 “atmosphere” 很可能對應原文的 ozone layer。要找 refrigerant 被發現 harmful 的年份。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the late 1800s until 1929, refrigerators used toxic gases—methyl chloride, ammonia and sulphur dioxide—as refrigerants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 1800 年代末到 1929 年，冰箱使用 methyl chloride、ammonia 和 sulphur dioxide 等有毒氣體作製冷劑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, chlorofluorocarbons (CFCs) are no longer used; they have been made illegal in several places, making refrigeration far safer than before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，chlorofluorocarbons，即 CFCs，已不再使用；它們在多地被列為非法，使製冷比以前安全得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段處理 refrigerants 的安全問題，包括對人有毒和對環境有害。題目問chemical refrigerant harmful to atmosphere，Paragraph 7 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“chemical refrigerant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“harmful”"
+            },
+            {
+              "kind": "quote",
+              "text": "“atmosphere”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“chlorofluorocarbons (Freon)”"
+            },
+            {
+              "kind": "quote",
+              "text": "“detrimental effects on the ozone layer”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freon was safer for people nearby, but in 1973 it was discovered to have detrimental effects on the ozone layer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Freon 對附近的人較安全，但在 1973 年，人們發現它對臭氧層有有害影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “chemical refrigerant” 對應 Freon / CFCs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “harmful to the atmosphere” 對應 “detrimental effects on the ozone layer”。臭氧層是大氣的重要部分，因此這是合理概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "was found harmful= was discovered to have detrimental effects atmosphere= ozone layer some kind of chemical refrigerant= Freon / CFCs所以答案是 F — 1973。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1928 也在同段出現，因為 Frigidaire 發展出 synthetic refrigerants 並導向 Freon 的發現。可是題目問 found harmful，不是 Freon 被發現或研發的時間。真正定案的是 “in 1973”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C — 1803",
+      "answerKey": "C — 1803",
+      "type": "Matching Dates",
+      "prompt": "“The term ‘refrigerator’ was first introduced.”",
+      "translation": "“refrigerator” 這個詞首次被引入。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是日期配對題。題目有引號內詞語 “refrigerator”，非常容易定位到 Paragraph 1。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1第一句：“Refrigeration is the process of removing heat; that is, cooling an area or a substance below the ambient temperature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Refrigeration 是移除熱量的過程；也就是把某個區域或物質冷卻至低於周圍溫度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term ‘refrigerator’ was first introduced by a Maryland farmer, Thomas Moore, in 1803, but the appliance we know today first appeared in the twentieth century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“refrigerator” 這個詞由 Maryland 農夫 Thomas Moore 在 1803 年首次引入，但我們今天所認識的家電到二十世紀才出現。首尾句顯示 Paragraph 1 是概念和詞源引言。題目直接問 term introduced，因此答案就在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“term”"
+            },
+            {
+              "kind": "quote",
+              "text": "“refrigerator”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first introduced”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文最後一句直接重現全部定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term ‘refrigerator’ was first introduced by a Maryland farmer, Thomas Moore, in 1803…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“refrigerator” 這個詞由 Maryland 農夫 Thomas Moore 在 1803 年首次引入。題目問年份，所以直接取 1803。日期列表中對應 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句也說 “the appliance we know today first appeared in the twentieth century”。這是現代冰箱這件 appliance 出現的時間，並非 term refrigerator 首次引入的時間。題目問 term，所以答案是1803。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A — 1550",
+      "answerKey": "A — 1550",
+      "type": "Matching Dates",
+      "prompt": "“Some chemicals were added to refrigerate wine.”",
+      "translation": "人們加入某些化學物來冷卻葡萄酒。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是日期配對題。題目中的 chemicals、refrigerate、wine 都是高價值定位詞。答案應該在早期冷卻方法段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People used to find various ways to preserve their food before the advent of mechanical refrigeration systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在機械製冷系統出現之前，人們曾用各種方法保存食物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the 17th century, iced drinks, including frozen juices and liquors, had become extremely fashionable in France.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到十七世紀末，冰鎮飲品，包括冰凍果汁和酒類，在法國變得極為時尚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 2 介紹機械製冷前的早期冷卻方法。題目問 chemicals and wine，應該在這段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“chemicals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“refrigerate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“adding chemicals such as sodium nitrate or potassium nitrate to water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1550…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used it to cool wine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the term ‘to refrigerate’ was also recorded at this time”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later on, people discovered that adding chemicals such as sodium nitrate or potassium nitrate to water could lead to a lower temperature. In 1550, when this technique was first recorded, people used it to cool wine; the term ‘to refrigerate’ was also recorded at this time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，人們發現把 sodium nitrate 或 potassium nitrate 這類化學物加入水中，可以使溫度降低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1550 年，這種技術首次被記錄；當時人們用它來冷卻葡萄酒，“to refrigerate” 這個詞也在此時被記錄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “used it to cool wine” 改寫為 “chemicals were added to refrigerate wine”。年份是 1550，對應 A。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "chemicals were added= adding chemicals such as sodium nitrate or potassium nitrate refrigerate wine= cool wine was first recorded= date evidence答案是 A — 1550。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "E — J. B. Sutherland",
+      "answerKey": "E — J. B. Sutherland",
+      "type": "Matching People",
+      "prompt": "“patented the idea that refrigeration systems could be installed in railway cars”",
+      "translation": "為可在鐵路車廂安裝製冷系統這個想法取得專利。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。最重要定位詞是 patented、railway cars。要找哪一位人物和 railway cars 的專利直接相連。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1840, vehicles fitted with refrigeration systems were used to deliver and distribute milk and butter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 1840 年起，裝有製冷系統的車輛被用來運送和分配牛奶及牛油。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1949, the trucking industry was being equipped with refrigeration systems with a roof-mounted cooling device, invented by Fred Jones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1949 年，貨車業開始配備裝有車頂冷卻裝置的製冷系統，該裝置由 Fred Jones 發明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 集中講 refrigerated transport。題目中的 railway cars 明顯屬於這一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“patented”"
+            },
+            {
+              "kind": "quote",
+              "text": "“railway cars”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1867, J. B. Sutherland of Detroit, Michigan, patented insulated refrigerated railway cars…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1867, J. B. Sutherland of Detroit, Michigan, patented insulated refrigerated railway cars with ice bunkers at both ends…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1867 年，來自 Michigan 州 Detroit 的 J. B. Sutherland 為兩端設有 ice bunkers 的 insulated refrigerated railway cars 取得專利。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “refrigeration systems could be installed in railway cars” 是對 “insulated refrigerated railway cars with ice bunkers” 的概括。人物是 J. B. Sutherland，對應 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Parker Earle 也和 refrigerated car 有關，但他製造的是 carrying fresh fruit 的 refrigerated car。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 patented railway cars，patented 才是控制詞，所以答案要選 Sutherland。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "D — Nathaniel Wyeth",
+      "answerKey": "D — Nathaniel Wyeth",
+      "type": "Matching People",
+      "prompt": "“invented an ice-cutting technique that saved money and time”",
+      "translation": "發明了一種節省金錢和時間的切冰技術。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是人物配對題。定位詞是 ice-cutting、saved money、time，原文很可能用 economical、speedy來改寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People’s demand for ice soon became strong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對冰的需求很快變得強烈。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, he improved the processing techniques for storing, transporting and distributing ice with less waste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，他也改善了儲存、運輸和分配冰的處理技術，使浪費更少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 講 ice industry 的商業化和技術改善。題目問 ice-cutting technique，應在 Tudor /Wyeth 的句子附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ice-cutting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“saved money and time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wyeth invented an economical and speedy method to cut the ice into uniform blocks…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wyeth invented an economical and speedy method to cut the ice into uniform blocks, which had a tremendous positive influence on the ice industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wyeth 發明了一種經濟又快速的方法，把冰切成大小一致的冰塊；這對 ice industry 有巨大正面影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 economical 改寫為 saved money，把 speedy 改寫為 saved time。人物是 Nathaniel Wyeth，答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "economical= saved money speedy= saved time method to cut the ice= ice-cutting technique"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Frederick Tudor 也在同段出現，他改善的是 insulating materials 和 ice containers，用來減少運送時的冰損失。題目說 cutting technique，所以要選 Wyeth。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "G — Parker Earle",
+      "answerKey": "G — Parker Earle",
+      "type": "Matching People",
+      "prompt": "“enabled cold-storage technology to be used for transporting fruit”",
+      "translation": "使冷藏技術能夠用於運送水果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是人物配對題。最強定位詞是 fruit，因為這比 refrigeration 和 transport 更稀有。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1840, vehicles fitted with refrigeration systems were used to deliver and distribute milk and butter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 1840 年起，裝有製冷系統的車輛被用來運送和分配牛奶及牛油。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1949, the trucking industry was being equipped with refrigeration systems with a roof-mounted cooling device, invented by Fred Jones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1949 年，貨車業開始配備裝有車頂冷卻裝置的製冷系統，該裝置由 Fred Jones 發明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 全段講冷藏運輸的不同應用。題目問 fruit，應該找本段中間與 fresh fruit 相關的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fruit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first refrigerated car to carry fresh fruit was manufactured by Parker Earle of Illinois…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1867, the first refrigerated car to carry fresh fruit was manufactured by Parker Earle of Illinois, who shipped strawberries on the Illinois Central Railroad.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1867 年，第一輛用來運送新鮮水果的冷藏車由 Illinois 的 Parker Earle 製造；他用 Illinois Central Railroad 運送草莓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “cold-storage technology” 對應 “refrigerated car”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “transporting fruit” 對應 “carry fresh fruit” 和 “shipped strawberries”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 G — Parker Earle。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "J. B. Sutherland 和 Parker Earle 都出現在 1867，也都和 refrigerated cars 有關。Sutherland 的重點是 patented railway cars；Parker Earle 的重點是 fresh fruit / strawberries。Question 8 看fruit，就要選 Parker Earle。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "F — Fred Jones",
+      "answerKey": "F — Fred Jones",
+      "type": "Matching People",
+      "prompt": "“invented a cooling device used in the trucking industry”",
+      "translation": "發明了一種用於貨車業的冷卻裝置。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是人物配對題。定位詞 trucking industry 和 cooling device 幾乎直接對應原文最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1840, vehicles fitted with refrigeration systems were used to deliver and distribute milk and butter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 1840 年起，裝有製冷系統的車輛被用來運送和分配牛奶及牛油。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1949, the trucking industry was being equipped with refrigeration systems with a roof-mounted cooling device, invented by Fred Jones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1949 年，貨車業開始配備裝有車頂冷卻裝置的製冷系統，該裝置由 Fred Jones 發明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 wording 和最後一句高度相似，所以答案在段末。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“trucking industry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cooling device”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“the trucking industry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a roof-mounted cooling device”"
+            },
+            {
+              "kind": "quote",
+              "text": "“invented by Fred Jones”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1949, the trucking industry was being equipped with refrigeration systems with a roof-mounted cooling device, invented by Fred Jones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1949 年，貨車業開始配備裝有車頂冷卻裝置的製冷系統，該裝置由 Fred Jones 發明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目只省略了 roof-mounted 這個細節，保留核心：cooling device + trucking industry + invented by。人物是 Fred Jones，對應 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 1 也與 vehicles and refrigeration systems 有關，但 Question 9 用 “invented” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“cooling device” 鎖定 Fred Jones。不要把 1840 的一般 vehicles 和 1949 的 specific cooling device 混在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C — Carl von Linde",
+      "answerKey": "C — Carl von Linde",
+      "type": "Matching People",
+      "prompt": "“created a new technique to liquefy air”",
+      "translation": "創造了一種使空氣液化的新技術。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是人物配對題。最強定位詞是 liquefy air / liquefying air。文章中的 air liquefaction 很集中，應該在發明家段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many inventors with creative ideas took part in the process of inventing refrigeration, and each version was built on the previous discoveries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多有創意的發明家參與了製冷發明的過程，每個版本都建立在先前發現之上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nearly a decade later, this mechanical refrigeration method was adopted by the meat-packing industry in Chicago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "將近十年後，這種機械製冷方法被芝加哥肉類包裝業採用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 5 是 refrigeration invention timeline。題目問 new technique to liquefy air，應在 Linde 的句子附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“liquefy air”"
+            },
+            {
+              "kind": "quote",
+              "text": "“technique”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Linde later created a new method (‘Linde technique’) for liquefying large amounts of air in 1894.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Linde later created a new method (‘Linde technique’) for liquefying large amounts of air in 1894.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Linde 後來在 1894 年創造了一種使大量空氣液化的新方法，稱為 “Linde technique”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “created a new technique” 對應 “created a new method (‘Linde technique’)”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “to liquefy air” 對應 “for liquefying large amounts of air”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物是 Carl von Linde，答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Michael Faraday 也和 liquefied ammonia 有關，但他液化的是 ammonia，不是 air。題目問 air，所以要選 Carl von Linde。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — consumers’ demand for fresh food, especially for vegetables",
+      "answerKey": "B — consumers’ demand for fresh food, especially for vegetables",
+      "type": "Sentence Endings",
+      "prompt": "“A healthy dietary change between 1830 and the American Civil War was greatly associated with consumers’ demand for fresh food, especially for vegetables.”",
+      "translation": "1830 年至美國內戰之間的健康飲食變化，與消費者對新鮮食物，尤其是蔬菜的需求密切相關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Ending。題幹中的 “between 1830 and the American Civil War” 是強定位詞；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“healthy dietary change” 會對應原文 dietary habits changes 和 fresh food / green vegetables。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3第一句：“People’s demand for ice soon became strong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對冰的需求很快變得強烈。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, he improved the processing techniques for storing, transporting and distributing ice with less waste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，他也改善了儲存、運輸和分配冰的處理技術，使浪費更少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 講冰需求與新鮮食物需求的增長。題幹有 dietary change，所以應看段落開頭部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“1830”"
+            },
+            {
+              "kind": "quote",
+              "text": "“American Civil War”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dietary habits”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consumers’ soaring demand for fresh food, especially for green vegetables, resulted in changes to people’s dietary habits between 1830 and the American Civil War.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consumers’ soaring demand for fresh food, especially for green vegetables, resulted in changes to people’s dietary habits between 1830 and the American Civil War.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "消費者對新鮮食物，尤其是綠色蔬菜的急速增長需求，導致 1830 年至美國內戰之間人們飲食習慣的變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題幹說 “healthy dietary change… was greatly associated with…”；原文說 “demand… resulted in changes to dietary habits”。選項 B 幾乎直接取自原文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "healthy dietary change= changes to people’s dietary habits greatly associated with= resulted from / was connected with fresh food, especially vegetables= fresh food, especially green vegetables答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不要被 ice demand 吸走。Paragraph 3 的第一句講 demand for ice，但題幹問 dietary change，真正定案句是 consumers’ demand for fresh food。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "D — a long-distance regional refrigerated transport system",
+      "answerKey": "D — a long-distance regional refrigerated transport system",
+      "type": "Sentence Endings",
+      "prompt": "“The development of urbanisation was likely to cause a long-distance regional refrigerated transport system.”",
+      "translation": "城市化發展很可能促成長距離區域冷藏運輸系統。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Ending。題幹中的 urbanisation 對應原文 growth of cities and towns；cause 對應隨後出現的 distance increase 和 commercial ice transport。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People’s demand for ice soon became strong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對冰的需求很快變得強烈。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, he improved the processing techniques for storing, transporting and distributing ice with less waste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，他也改善了儲存、運輸和分配冰的處理技術，使浪費更少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段除了 fresh food demand，也處理城市擴張後的食物來源距離問題，以及冰的長距離商業運輸。Question 12 的 urbanisation 要在這段中段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“urbanisation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cause”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 urbanisation 這個字，但有同義概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“a drastic expansion of urban areas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“With the growth of the cities and towns…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These changes were accelerated by a drastic expansion of urban areas and rapid improvements in the population’s economic circumstances. With the growth of the cities and towns, the distance between the consumer and the source of food increased.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些變化受到城市地區大幅擴張，以及人口經濟狀況快速改善的推動。隨著城市和城鎮發展，消費者與食物來源之間的距離增加了。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1799, ice was first transported as a commercial product from Canal Street in New York City to Charleston, South Carolina.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1799 年，冰第一次作為商業產品從紐約市 Canal Street 運送到南卡羅來納州 Charleston。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的因果鏈是：城市擴張→ 消費者離食物來源更遠→ 冷藏或冰運輸變得更有需要→ 長距離商業運輸發展選項 D “a long-distance regional refrigerated transport system” 把這個鏈條概括出來。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求找第一個冰運輸日期，所以不能只停在 1799。這題問 urbanisation 可能造成甚麼，因此要把 “growth of cities and towns” 和 “distance between consumer and source of food increased” 連起來，再選最貼近的結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "E — extensive spread of the refrigeration method",
+      "answerKey": "E — extensive spread of the refrigeration method",
+      "type": "Sentence Endings",
+      "prompt": "“Problems caused by water pollution contributed to extensive spread of the refrigeration method.”",
+      "translation": "水污染造成的問題促成了製冷方法的廣泛擴展。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Ending。題幹中的 water pollution 是非常強的定位詞。要找水污染造成甚麼後果，以及它如何推動 mechanical refrigeration。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When people realised that the ice transported over long distances was not as clean as previously thought and was causing many health problems, demand grew for clean, natural sources of ice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們意識到長途運輸的冰不如以前想像中乾淨，並造成許多健康問題時，對乾淨天然冰源的需求增加了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, clean mechanical refrigeration was desperately needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，乾淨的機械製冷變得極度需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 的邏輯很清楚：天然冰和運輸冰出現衛生問題，最終推動 clean mechanical refrigeration 的需要。題目問 water pollution 的結果，這段就是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“water pollution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“by the 1890s water pollution and sewage dumping made clean ice even more unavailable.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Worse still, by the 1890s water pollution and sewage dumping made clean ice even more unavailable. The effects were first felt in the brewing industry and then spread to sectors such as meat-packing and dairy production. As a result, clean mechanical refrigeration was desperately needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更糟的是，到 1890 年代，水污染和污水傾倒使乾淨冰源更加難以取得。這些影響首先出現在釀酒業，之後擴展到肉類包裝和乳製品生產等行業。結果，乾淨的機械製冷變得極度需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有一條清楚發展線： water pollution and sewage dumping→ clean ice unavailable→ brewing, meat-packing, dairy production affected→ clean mechanical refrigeration desperately needed選項 E “extensive spread of the refrigeration method” 概括了 mechanical refrigeration 從一個需求變成多個行業需要的發展方向。句中 “spread to sectors” 也幫助支援 “extensive spread”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C “the discovery of chlorofluorocarbons (Freon)” 也和後文 refrigeration 有關，但 Freon 的發現是 Paragraph 7 中公司尋找 safer methods 的結果，背景是 methyl chloride fatal accidents，不是 water pollution。Question 13 的定位詞 water pollution 只帶到 Paragraph 4，所以 E 更貼近。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "A — new developments, such as the application of hydrofluorocarbons",
+      "answerKey": "A — new developments, such as the application of hydrofluorocarbons",
+      "type": "Sentence Endings",
+      "prompt": "“The risk of environmental damage from refrigeration led to new developments, such as the application of hydrofluorocarbons.”",
+      "translation": "製冷造成環境損害的風險促成了新的發展，例如 hydrofluorocarbons 的應用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Ending。題幹中的 environmental damage from refrigeration 對應 ozone layer damage。要找這個危害出現後，後續發展是甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the late 1800s until 1929, refrigerators used toxic gases—methyl chloride, ammonia and sulphur dioxide—as refrigerants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 1800 年代末到 1929 年，冰箱使用 methyl chloride、ammonia 和 sulphur dioxide 等有毒氣體作製冷劑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, chlorofluorocarbons (CFCs) are no longer used; they have been made illegal in several places, making refrigeration far safer than before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，CFCs 已不再使用；它們在多地被列為非法，使製冷比以前安全得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 處理 refrigerants 的安全和環境問題。題目問 environmental damage，所以要讀段落中 Freon / ozone layer / HFC 的部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“environmental damage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“refrigeration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“led to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“detrimental effects on the ozone layer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“After that, new improvements were made”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hydrofluorocarbons… were used in the cooling system”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freon was safer for people nearby, but in 1973 it was discovered to have detrimental effects on the ozone layer. After that, new improvements were made, and hydrofluorocarbons, with no known harmful effects, were used in the cooling system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Freon 對附近的人較安全，但在 1973 年，人們發現它對臭氧層有有害影響。之後，人們作出新的改良，並在冷卻系統中使用 hydrofluorocarbons；目前未知它們有有害影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “risk of environmental damage” 對應 “detrimental effects on the ozone layer”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “led to” 對應 “After that, new improvements were made”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的 “new developments, such as the application of hydrofluorocarbons” 直接對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hydrofluorocarbons… were used in the cooling system”。所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C “the discovery of chlorofluorocarbons (Freon)” 很容易吸引人，因為 Freon 在同段出現。可是Freon 的發現發生在環境危害被發現之前；題目問環境損害風險之後帶來甚麼，所以答案要看“After that” 後面的 HFC 改良。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - History of Refrigeration.pdf",
+    "sha256": "7b0e0d089d90635abdbddacb4302b8c898988772128734edc11a59c42f168449",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句定義 refrigeration 是移除熱量，即把某地方或物質冷卻至低於周圍溫度。末句說“refrigerator” 這個詞由 Thomas Moore 於 1803 年首次引入，但今天所知的電器到二十世紀才出現。只看首尾句，可以估計這段是總引言：先解釋 refrigeration 的基本原理和技術循環，再交代refrigerator 這個詞的來源和現代冰箱出現時間。Question 4 直接定位到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說在機械 refrigeration systems 出現前，人們用不同方法保存食物。末句說到十七世紀末， iced drinks，包括 frozen juices 和 liquors，在法國極為時尚。只看首尾句，可以估計這段講早期冷卻方法：冰雪、地窖、窗箱、加入化學物降低溫度，以及冷卻飲品的流行。中間的 1550、sodium nitrate、potassium nitrate、cool wine 是 Question 5 的關鍵。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說人們對冰的需求很快變強。末句說 Nathaniel Wyeth 改善了儲存、運輸和分配冰的技術，減少浪費。只看首尾句，可以估計這段主題是 nineteenth-century ice trade：新鮮食物需求、城市擴張、1799 年冰首次商業運輸，以及 Tudor 和 Wyeth 如何改善冰的儲運。Questions 2、7、11、12 都會用到這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說人們發現長途運送的冰不如以前想像中乾淨，而且造成許多健康問題。末句說結果是clean mechanical refrigeration 變得極度需要。只看首尾句，可以估計這段講天然冰和遠距冰運輸的衛生危機：水污染、污水傾倒、clean ice 變少，最終推動機械製冷需求。Question 13 的 water pollution 和 refrigeration method 可定位到這裡。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說許多有創意的發明家參與 refrigeration 的發明過程，每個版本都建立在前人的發現之上。末句說大約十年後，這種 mechanical refrigeration method 被 Chicago 的 meat-packing industry採用。只看首尾句，可以估計這段是發明史時間線：Cullen、Evans、Gorrie、Faraday、Carré 和Linde 等人的貢獻。Question 10 的 liquefy air 來自 Carl von Linde。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說從 1840 年起，裝有 refrigeration systems 的 vehicles 被用來運送和分配 milk and butter。末句說到 1949 年，trucking industry 配備了 Fred Jones 發明的 roof-mounted cooling device。只看首尾句，可以估計這段處理冷鏈運輸：道路車輛、冷藏鐵路車、運水果的冷藏車，以及貨車業的冷卻裝置。Questions 1、6、8、9 集中在這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說從 1800 年代末至 1929 年，冰箱使用 methyl chloride、ammonia 和 sulphur dioxide 等有毒氣體作 refrigerants。末句說今天 CFCs 已不再使用，並在多地被列為非法，使 refrigeration 比以前安全得多。只看首尾句，可以估計這段講 refrigerants 的安全問題：早期毒氣危險、CFC /Freon 的出現、1973 年發現臭氧層危害，以及 hydrofluorocarbons 的改良。Questions 3 和 14 在這段。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2026 @@
+{
+  "id": "p1-038-the-forgotten-forest",
+  "catalogueId": "p1-038",
+  "catalogueIds": [
+    "p1-038"
+  ],
+  "passage": 1,
+  "title": "The Forgotten Forest",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "nest",
+    "tortoise",
+    "oaks",
+    "Native Americans",
+    "prescribed burns",
+    "shrubs",
+    "soil",
+    "ant",
+    "eggs",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "nest",
+      "answerKey": "nest",
+      "type": "Notes Completion",
+      "prompt": "“Birds can build their 1 _________________ on the ground.”",
+      "translation": "鳥類可以在地面上築牠們的 1 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格前是 “their”，後面是 “on the ground”，所以答案應是鳥類放在地面上的東西。題目中的 bird / ground 是定位核心。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Name just about any species that occurs in longleaf and you can find a connection to fire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎隨便說出任何一種出現在 longleaf 中的物種，都可以找到它和火的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If we lose fire,’ says Bob Mitchell, an ecologist at the Jones Center, ‘we lose wildlife.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jones Center 的生態學家 Bob Mitchell 說：「如果我們失去火，我們就會失去野生動物。」只看首尾句，可以先猜這段會用不同 wildlife 例子說明 fire 的重要性。題目問鳥類在地面築甚麼，所以應在本段找 bird 例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“on the ground”"
+            },
+            {
+              "kind": "quote",
+              "text": "“build”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bachman’s sparrow is a secretive bird with a beautiful song that echoes across the longleaf flatwoods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bachman’s sparrow 是一種隱秘的鳥，牠優美的歌聲會在 longleaf flatwoods 中迴響。"
+            },
+            {
+              "kind": "label",
+              "text": "真正答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It tucks its nest on the ground beneath clumps of wiregrass and little bluestem in the open understory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠把自己的巢安放在地面上，在開放林下層的 wiregrass 和 little bluestem 草叢下。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “It”，指前一句的 Bachman’s sparrow。核心動作是 “tucks”，意思是把某物安放或藏在某處。被安放在地面上的東西是 “its nest”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Birds can build their ___ on the ground” 把原文中的具體 bird Bachman’s sparrow 概括成 birds，把 “tucks its nest on the ground” 改寫成 “build their nest on the ground”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Birds= Bachman’s sparrow build their nest= tucks its nest on the ground= on the ground答案形式： nest 是 1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 “wiregrass and little bluestem” 吸引，因為它們緊接答案後面。不過空格問的是birds build what，不是問 nest beneath what。文法上，“build their wiregrass” 不成立；真正可被build / tuck 的東西是 nest。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "tortoise",
+      "answerKey": "tortoise",
+      "type": "Notes Completion",
+      "prompt": "“The burrows of a species of 2 _________________ provide homes for many other animals.”",
+      "translation": "一種 2 __________ 的洞穴為很多其他動物提供住所。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格前是 “a species of”，所以答案應是動物類別。定位詞是 burrows、provide homes、many other animals。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Name just about any species that occurs in longleaf and you can find a connection to fire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎隨便說出任何一種出現在 longleaf 中的物種，都可以找到它和火的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If we lose fire,’ says Bob Mitchell, an ecologist at the Jones Center, ‘we lose wildlife.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bob Mitchell 說：「如果我們失去火，我們就會失去野生動物。」只看首尾句，可以知道本段會把 fire 和 wildlife survival 連起來。題目中的 burrows 和 homes 是動物例子，應在本段中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“burrows”"
+            },
+            {
+              "kind": "quote",
+              "text": "“provide homes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many other animals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gopher tortoises, the only native land tortoises east of the Mississippi, are also abundant in longleaf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gopher tortoises 是 Mississippi 以東唯一的本土陸龜，在 longleaf 中也很常見。"
+            },
+            {
+              "kind": "label",
+              "text": "真正答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A keystone species in these forests, the gopher tortoise digs burrows that provide homes and safety for more than 300 species of vertebrates and invertebrates ranging from eastern diamondback rattlesnakes to gopher frogs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "gopher tortoise 是這些森林中的 keystone species，牠會挖洞；這些洞穴為超過 300 種脊椎動物和無脊椎動物提供住所和安全，包括 eastern diamondback rattlesnakes 和 gopher frogs。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “a species of ___”，原文提供 “Gopher tortoises” 以及 “the gopher tortoise digs burrows”。如果填 “gopher tortoise”，題目會變成 “a species of gopher tortoise”，意思不自然。較準確的答案是 tortoise，因為 gopher tortoise 是 tortoise 的一種。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a species of tortoise= gopher tortoise burrows provide homes= digs burrows that provide homes and safety many other animals= more than 300 species of vertebrates and invertebrates答案形式： tortoise 是 1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“gopher frogs” 和 “rattlesnakes” 也出現在同一句，但它們是受益動物，不是挖洞的動物。題目問的是誰的 burrows，所以要回到主語 “the gopher tortoise”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "oaks",
+      "answerKey": "oaks",
+      "type": "Notes Completion",
+      "prompt": "“Hardwoods such as 3 _________________ cannot grow to overwhelm longleaf forests.”",
+      "translation": "像 3 __________ 這類 hardwoods 不能長到壓倒 longleaf forests。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格前是 “Hardwoods such as”，所以答案應是 hardwood 的例子。定位詞是 hardwoods、overwhelm、longleaf forests。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without fire, we also lose longleaf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有火，我們也會失去 longleaf。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘So did the early pioneers. They helped create the longleaf pine forests that we know today.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「早期拓荒者也會這樣做。他們幫助創造了我們今天所知道的 longleaf pine forests。」只看首尾句，可以判斷本段主題是 fire 對 longleaf forests 本身的維持作用。題目問 hardwoods會否 overwhelm longleaf，因此正好在本段尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hardwoods”"
+            },
+            {
+              "kind": "quote",
+              "text": "“overwhelm”"
+            },
+            {
+              "kind": "quote",
+              "text": "“longleaf forests”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fire knocks back the oaks and other hardwoods that can grow up to overwhelm longleaf forests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火會壓制 oaks 和其他 hardwoods；這些樹可能長起來並壓倒 longleaf forests。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 “Fire”。核心動詞是 “knocks back”，意思是壓制、抑制生長。被壓制的對象是 “the oaks and other hardwoods”。題目把這句改成 “Hardwoods such as ___ cannot grow to overwhelm longleaf forests”，所以空格填 hardwood 的例子：oaks。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Hardwoods such as oaks= the oaks and other hardwoods cannot grow to overwhelm= Fire knocks back ... that can grow up to overwhelm longleaf forests= longleaf forests答案形式： oaks 是 1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案不能填 hardwoods，因為題目已經有 “Hardwoods such as”。空格要填例子。原文中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“other hardwoods” 也提示 oaks 屬於 hardwoods 的例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "Native Americans",
+      "answerKey": "Native Americans",
+      "type": "Notes Completion",
+      "prompt": "“Fires were also created by 4 _________________ and settlers.”",
+      "translation": "除了 lightning 引起的火之外，火也由 4 __________ 和定居者造成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。題目已經把 “settlers” 放在空格後，所以答案應是另一類人。定位詞是lightning、fires、settlers / pioneers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without fire, we also lose longleaf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有火，我們也會失去 longleaf。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘So did the early pioneers. They helped create the longleaf pine forests that we know today.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「早期拓荒者也會這樣做。他們幫助創造了我們今天所知道的 longleaf pine forests。」只看首尾句，可以知道本段一方面講 fire 維持 longleaf，另一方面提到 early pioneers 也會放火。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “and settlers”，settlers 對應 early pioneers，空格應在前一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lightning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Fires were also created”"
+            },
+            {
+              "kind": "quote",
+              "text": "“settlers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘They are fire forests,’ Mitchell says. ‘They evolved in the lightning capital of the eastern United States.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mitchell 說：「它們是 fire forests。它們在美國東部的 lightning capital 演化出來。」接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“And it wasn’t only lightning strikes that set the forest aflame.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "點燃森林的來源並不只有 lightning strikes。"
+            },
+            {
+              "kind": "label",
+              "text": "真正答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Native Americans also lit fires to keep the forest open,’ Mitchell says. ‘So did the early pioneers.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mitchell 說：「Native Americans 也會放火來保持森林開放。早期拓荒者也會這樣做。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句型是 “Fires were also created by ___ and settlers.” 原文中有兩類人為火源： Native Americans early pioneers題目把 early pioneers 改寫成 settlers，因此空格應填剩下的一類：Native Americans。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "created fires= lit fires / set the forest aflame settlers= early pioneers Native Americans= Native Americans答案形式： Native Americans 是 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “early pioneers”，因為題目已經用 settlers 表達了這一組人。空格要補的是 settlers 之外的另一組人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "prescribed burns",
+      "answerKey": "prescribed burns",
+      "type": "Notes Completion",
+      "prompt": "“Fires deliberately set for management are called 5 _________________.”",
+      "translation": "為管理目的而刻意點燃的火稱為 5 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格要填一個專門術語。定位詞是 deliberately set、management、fires。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, fire is used as a vital management tool for preserving both longleaf and its wildlife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，火被用作一種重要管理工具，用來保護 longleaf 及其野生動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s just a question of when. With prescribed burns, we can pick the time and the place.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「問題只在於甚麼時候燒。有了 prescribed burns，我們可以選擇時間和地點。」只看首尾句，可以清楚判斷本段講現代森林管理中的用火方法。題目問 deliberately set fires 的名稱，目標段落就是 Paragraph 8。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“deliberately set”"
+            },
+            {
+              "kind": "quote",
+              "text": "“management”"
+            },
+            {
+              "kind": "quote",
+              "text": "“called”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of these fires are prescribed burns, deliberately set with a drip torch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些火大多是 prescribed burns，即用 drip torch 有意點燃的火。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Most of these fires”。補語是 “prescribed burns”。後面的 “deliberately set with a drip torch” 解釋 prescribed burns 的特徵。題目直接把這個解釋放到空格前，所以答案就是prescribed burns。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Fires deliberately set for management= fires used as a vital management tool / deliberately set with a drip torch are called= are prescribed burns答案形式： prescribed burns 是 2 words，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 “burns”。burns 太普通，不能表達「受控、計劃性燃燒」的意思。原文專門術語是prescribed burns，兩個字都要保留。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "shrubs",
+      "answerKey": "shrubs",
+      "type": "Flow-chart Completion",
+      "prompt": "“Calcium is stored in 6 _________________”",
+      "translation": "Calcium 儲存在 6 __________ 中。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前是 “stored in”，答案應是儲存 calcium 的東西。定位詞是calcium、stored。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fire also changes how nutrients flow throughout longleaf ecosystems, in ways we are just beginning to understand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火也會改變 nutrients 在 longleaf ecosystems 中流動的方式，而我們才剛開始理解這些方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result: more calcium for the birds, which leads to more eggs, more young and more woodpeckers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是：鳥類得到更多 calcium，進而有更多 eggs、更多 young 和更多 woodpeckers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段處理 fire、nutrients、calcium 和 woodpeckers 的連鎖反應。Question 6 問 calcium stored in what，答案一定在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Calcium”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stored”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We learned calcium is stashed away in woody shrubs when the forest is not burned,’ James says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "James 說：「我們發現，當森林沒有被火燒時，calcium 會藏在 woody shrubs 裡。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “stored in” 概括原文 “stashed away in”。stash away 指藏起來、存放起來。原文完整答案是 “woody shrubs”，但題目要求 ONE WORD ONLY，所以只能填 shrubs。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "stored in= stashed away in shrubs= woody shrubs答案形式： shrubs 是 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 woody shrubs，因為題目限制是 ONE WORD ONLY。這類題即使原文答案短語有兩個字，也要選出核心名詞。這裡的核心名詞是 shrubs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "soil",
+      "answerKey": "soil",
+      "type": "Flow-chart Completion",
+      "prompt": "“Calcium is released into the 7 _________________ and travels up through the longleaf trees”",
+      "translation": "Calcium 被釋放到 7 __________ 中，然後沿 longleaf trees 向上移動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前有 “into the”，答案應是地方或物質。定位詞是 calcium、released、travels up、longleaf。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fire also changes how nutrients flow throughout longleaf ecosystems, in ways we are just beginning to understand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火也會改變 nutrients 在 longleaf ecosystems 中流動的方式，而這些方式我們才剛開始理解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result: more calcium for the birds, which leads to more eggs, more young and more woodpeckers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是鳥類得到更多 calcium，帶來更多 eggs、young 和 woodpeckers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段講 nutrient flow。題目句中的 calcium released and travels up 明顯對應本段的過程描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Calcium”"
+            },
+            {
+              "kind": "quote",
+              "text": "“released”"
+            },
+            {
+              "kind": "quote",
+              "text": "“up through the longleaf”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘But when there is a fire, a pulse of calcium moves down into the soil and up into the longleaf.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「但有火發生時，一股 calcium 會向下移入 soil，再向上進入 longleaf。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “released into the ___ and travels up through the longleaf trees”。原文說 “moves down into the soil and up into the longleaf”。因此空格應填 soil。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “released” 是對原文 “a pulse of calcium moves” 的概括；因為火燒掉 shrubs 後， calcium 從原本儲存位置進入土壤，再進入 longleaf。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "released into= moves down into travels up through the longleaf trees= up into the longleaf答案形式： soil 是 1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 longleaf。題目後半已經有 “travels up through the longleaf trees”。空格要填 calcium 先進入的地方，即 soil。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "ant",
+      "answerKey": "ant",
+      "type": "Flow-chart Completion",
+      "prompt": "“A kind of 8 _________________ feeds in the trees”",
+      "translation": "一種 8 __________ 在樹上取食。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前是 “A kind of”，答案應是生物名詞。定位詞是 feeds in the trees / tree-dwelling。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fire also changes how nutrients flow throughout longleaf ecosystems, in ways we are just beginning to understand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火也會改變 nutrients 在 longleaf ecosystems 中流動的方式，而研究者才剛開始理解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result: more calcium for the birds, which leads to more eggs, more young and more woodpeckers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是鳥類得到更多 calcium，帶來更多 eggs、young 和 woodpeckers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段會描述 calcium 如何最終影響 woodpeckers。題目問中間食物鏈上的生物，應在本段後半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“kind of”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feeds in the trees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ants”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually, this calcium makes its way up the food chain to a tree-dwelling species of ant, which is the red-cockaded woodpecker’s favourite food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，這些 calcium 會沿食物鏈到達一種住在樹上的 ant；這種 ant 是 red-cockaded woodpecker最喜歡的食物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “A kind of ___” 對應原文 “a tree-dwelling species of ant”。species of ant 即一種螞蟻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為題目要求 ONE WORD ONLY，所以答案是 ant。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A kind of ant= a species of ant feeds in the trees= tree-dwelling Red-cockaded woodpeckers eat these ants= woodpecker’s favourite food答案形式： ant 是 1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 woodpecker。woodpecker 是吃 ant 的鳥，不是題目問的 “A kind of ___ feeds in the trees”。這題要沿 flow-chart 的因果順序看，不要跳到最後一格。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "eggs",
+      "answerKey": "eggs",
+      "type": "Flow-chart Completion",
+      "prompt": "“The number of 9 _________________ increases”",
+      "translation": "9 __________ 的數量增加。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前是 “The number of”，答案應是可數名詞複數。定位詞是number increases、more。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fire also changes how nutrients flow throughout longleaf ecosystems, in ways we are just beginning to understand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火也會改變 nutrients 在 longleaf ecosystems 中流動的方式，而我們才剛開始理解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result: more calcium for the birds, which leads to more eggs, more young and more woodpeckers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是：鳥類得到更多 calcium，這會帶來更多 eggs、更多 young 和更多 woodpeckers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，答案已經接近出現。題目問 calcium 之後數量增加的是甚麼，末句正好列出結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“number”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increases”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result: more calcium for the birds, which leads to more eggs, more young and more woodpeckers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是鳥類得到更多 calcium，進而產生更多 eggs、更多 young 和更多 woodpeckers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "flow-chart 的順序是： woodpeckers eat ants↓The number of ___ increases↓More red-cockaded woodpeckers在原文中，calcium first leads to more eggs，再有 more young，最後有 more woodpeckers。因此空格要填 eggs。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "The number of eggs increases= more eggs More red-cockaded woodpeckers= more woodpeckers答案形式： eggs 是 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 young 或 woodpeckers。flow-chart 下一步已經寫 “More red-cockaded woodpeckers”，所以空格應是更早一步的 reproductive result，即 eggs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The sparse distribution of longleaf pine trees supports exceptional species diversity.”",
+      "translation": "longleaf pine trees 稀疏的分布支持了出色的物種多樣性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩部分：trees sparse distribution，以及 supports species diversity。要看文章是否把兩者建立成因果關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In longleaf pine forests, trees grow widely scattered, creating an open, parklike environment, more like a savanna than a forest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 longleaf pine forests 中，樹木分布得很稀疏，形成開放、像公園的環境，較像 savanna，多於一般森林。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As many as 50 different species of wildflowers, shrubs, grasses and ferns have been cataloged in just a single square meter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單單一平方米內，已記錄到多達 50 種不同的 wildflowers、shrubs、grasses 和 ferns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會把 trees widely scattered 和 high diversity 連起來。題目中的sparse distribution 和 species diversity 正好對應本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“sparse distribution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“species diversity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trees are not so dense as to block the sun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些樹沒有密到會阻擋陽光。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“This openness creates a forest floor that is among the most diverse in the world…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種開放性創造了一個世界上最多樣化之一的 forest floor。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的因果鏈是： trees grow widely scattered樹木分布稀疏not so dense as to block the sun樹冠不會把陽光完全擋住This openness creates a forest floor among the most diverse in the world這種開放環境創造高度多樣化的林地地面as many as 50 species in one square meter一平方米內可有多達 50 種植物題目把 “widely scattered” 改寫成 “sparse distribution”，把 “among the most diverse in the world /50 species” 概括成 “exceptional species diversity”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：sparse distribution of longleaf pine trees動作：supports結果：exceptional species diversity原文命題：主體：trees grow widely scattered / openness動作：creates結果：diverse forest floor / many species比較結果：兩邊方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不能只看到 “richest ecosystems” 就直接選 TRUE。真正定案的是 Paragraph 2 的因果鏈：稀疏樹木 → 光照進入 → 開放林下層 → 高植物多樣性。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It is easier to restore former farmland than forests converted to plantations.”",
+      "translation": "恢復 former farmland 比恢復轉為 plantations 的森林更容易。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要求比較兩種土地：former farmland 和 converted plantations。要檢查文章哪一種更容易 restore。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interest among private landowners is growing throughout the South, but restoring longleaf is not an easy task.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個南方 private landowners 對此興趣正在增加，但恢復 longleaf 並不容易。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Right now, the expense is prohibitive, but researchers are searching for low-cost solutions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，費用高得令人難以負擔，但研究者正在尋找低成本方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段會講復育 longleaf 的實際困難。題目比較 farmland 和 plantations，所以目標就在本段中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“former farmland”"
+            },
+            {
+              "kind": "quote",
+              "text": "“converted to plantations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“easier to restore”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“In areas where the land has not been chewed up by farming, but converted to loblolly or slash pine plantations, the seed bank of the longleaf forest usually remains viable beneath the soil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那些土地沒有被 farming 破壞，只是被改成 loblolly 或 slash pine plantations 的地區，longleaf forest 的 seed bank 通常仍在土壤下保持可存活狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“In time, this original vegetation can be coaxed back.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過一段時間，原有植被可以被慢慢引回來。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Where agriculture has destroyed the seeds, however, wiregrass must be replanted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 agriculture 已經破壞種子的地方，wiregrass 必須重新種植。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的比較很清楚： converted to plantations seed bank usually remains viable original vegetation can be coaxed back被 farming / agriculture 破壞的土地seeds destroyed wiregrass must be replanted expense is prohibitive所以更容易恢復的是 converted plantations，因為原有種子庫仍可能存在。former farmland 如果種子已被 agriculture destroyed，就要重新種植 wiregrass，成本很高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 former farmland easier than plantations，剛好和原文方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "forests converted to plantations= converted to loblolly or slash pine plantations former farmland= land chewed up by farming / agriculture has destroyed the seeds easier to restore= seed bank remains viable / original vegetation can be coaxed back題目命題： former farmland 更容易恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： plantations 較有利，因為 seed bank 仍可存活；agriculture-damaged land 需要重植，成本高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“private landowners is growing” 可能令人覺得所有 private land 都容易 restore。真正要比較的是土地過去用途：plantation conversion 保留 seed bank 的機會較高；agriculture 可能已破壞種子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The cost of restoring the forest has increased recently.”",
+      "translation": "恢復森林的成本最近上升了。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩個核心：cost，以及 increased recently。文章若只說現在很貴，沒有提供過去和現在的比較，就不能判 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interest among private landowners is growing throughout the South, but restoring longleaf is not an easy task.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個南方 private landowners 的興趣正在增加，但恢復 longleaf 並不容易。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Right now, the expense is prohibitive, but researchers are searching for low-cost solutions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，費用高得難以承受，但研究者正在尋找低成本方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段確實會談 restoration 的困難和 expense。不過題目問 recently increased，要看原文有沒有成本變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cost”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increased”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recently”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Right now, the expense is prohibitive, but researchers are searching for low-cost solutions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，費用高得難以承受，但研究者正在尋找低成本方案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只提供目前狀態： right now目前expense is prohibitive費用高得令人難以負擔researchers searching for low-cost solutions研究者正在找低成本方案題目多出 “has increased recently”。這需要文章提供時間比較，例如 past cost lower、recent rise、become more expensive、cost has gone up 等資訊。原文沒有這類資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：cost of restoring the forest動作：has increased時間：recently原文命題：主體：expense狀態：prohibitive right now補充：searching for low-cost solutions比較結果：原文有「現在很貴」，缺少「最近上升」這個變化關係。沒有明確衝突，因為文章也沒有說成本沒有上升；資料不足，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Right now” 很容易令人聯想到 recently，但兩者功能不同。right now 只指出目前狀態；recently increased 要求一條成本變化線。看到 increase / recently 類題目，要主動找比較前後的證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Few people will live to see the replanted forest reach maturity.”",
+      "translation": "很少人能活到看見重新種植的森林成熟。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問未來是否很少人能看到 replanted forest mature。定位詞是 Few people、live、maturity。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 11第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bringing back longleaf is not for the short-sighted, however.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "恢復 longleaf 並不適合短視的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Everyone wants them. Longleaf is in a resurgence.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「人人都想要它們。Longleaf 正在復興。」只看首尾句，可以判斷本段講 longleaf restoration 需要長遠眼光，但仍有復興動力。題目問mature forests 的時間，應在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“live to see”"
+            },
+            {
+              "kind": "quote",
+              "text": "“maturity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few of us will be alive when the pines being planted today become mature forests in 70 to 80 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天正在種下的松樹，要在 70 至 80 年後成為成熟森林；到那時，我們之中很少人仍然在世。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文和題目高度一致： Few of us= Few people will be alive= will live to see the pines being planted today= replanted forest become mature forests= reach maturity題目命題和原文命題同方向，且時間 70 to 80 years 解釋了為何 few people will live to see it。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文直接支持題目，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "末句 “Longleaf is in a resurgence” 會給人強烈樂觀感，但這份樂觀不改變成熟所需時間。題目問的是 human lifespan 和 forest maturity 的時間差，定案句是 “Few of us will be alive… in 70 to 80 years.”"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Forgotten Forest.pdf",
+    "sha256": "630cc5afbb3388c410c59474400ce595d6be43f15e2569d86f901e73652bfe5b",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "標題下的單句說 longleaf pine woodlands 只見於美國 Deep South，現時只剩原本分布範圍約3%，但新的復育工作正在進行。只看這一句，可以先抓到全文主題：這篇文章會講一種被忽視、嚴重縮減的森林生態系，並會由「消失」轉入「restore」。後面題目若問 endangered、restore、remaining forest、new efforts，通常都和這條主線有關。",
+        "label": "導語"
+      },
+      {
+        "number": "1",
+        "summary": "首句說 longleaf pine forest 的 beauty and biodiversity 即使在美國南部本地也鮮為人知。末句說它像 tallgrass prairies 和 Pacific Northwest 古老森林一樣，是正在消失的 wildlife habitat，而且critically endangered。只看首尾句，可以判斷本段功能是介紹 longleaf pine forest 的生態價值和危機：它物種豐富，卻被低估和嚴重威脅。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 longleaf pine forests 中樹木分布稀疏，形成開放、像公園或 savanna 的環境。末句說單單一平方米內，已記錄到多達 50 種 wildflowers、shrubs、grasses 和 ferns。只看首尾句，可以估計本段重點是「開放結構帶來高物種多樣性」。這段很適合處理 tree distribution、openness、species diversity 相關題目。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 longleaf forest 曾經從 Virginia 到 Texas 繁盛，面積接近 9,200 萬英畝，而且全球只在這裡找到。末句說政府、私人組織和保育人士正在尋找方法保護剩餘森林，並為未來種植新森林。只看首尾句，可以判斷本段講歷史分布、嚴重消失和保育行動。它建立了「只剩 3%」和「restore trend」的背景。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說弄清如何 bring back piney woods，也能讓生物學家幫助依賴這種 habitat 的動植物。末句引用 Danaher，說 fire 對這個 ecosystem 及其依賴物種 absolutely critical。只看首尾句，可以判斷本段開始把焦點轉到 fire：longleaf 的問題不只來自砍伐，也和缺少定期火災有關。後面關於wildlife、fire、dependent species 的題目多半從這裡開始。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說在 longleaf 中隨便說一個物種，幾乎都能找到它和 fire 的關係。末句引用 Bob Mitchell，說如果失去 fire，就會失去 wildlife。只看首尾句，可以看出本段用具體動物例子說明 fire 的生態作用：Bachman’s sparrow 需要開放林下層築巢，gopher tortoise 的洞穴支持大量物種；如果灌木叢因無火而增生，這些動物會消失。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說沒有 fire，也會失去 longleaf。末句說 Native Americans 和 early pioneers 也會放火，幫助創造今日所知的 longleaf pine forests。只看首尾句，可以判斷本段解釋 fire 如何維持森林結構：火會抑制 oaks 和其他 hardwoods，避免它們壓倒 longleaf。這段同時補充火源不只來自 lightning，也來自人為燃燒。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 fire 也改變 longleaf ecosystems 中 nutrients 的流動方式，而研究者才剛開始理解這一點。末句說 calcium 最終帶來更多 eggs、更多 young 和更多 woodpeckers。只看首尾句，可以判斷本段講 fire、calcium 和 red-cockaded woodpeckers 的連鎖關係。題目若出現 calcium、soil、ants、eggs，幾乎一定要定位到這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說今天 fire 是 preserving both longleaf and wildlife 的 vital management tool。末句引用Diop，說森林終究會燃燒，prescribed burns 讓人可以選擇時間和地點。只看首尾句，可以判斷本段講現代管理用火：這些低強度、有意設定的火雖常被公眾反對，卻能降低災難性大火風險。 prescribed burns 是本段核心術語。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Diop 正帶領 NWF 的新 longleaf restoration effort。末句說 longleaf 歷史範圍內超過 90%的土地屬於 private land，因此復育必須在私人土地上推進。只看首尾句，可以判斷本段講復育計劃的執行對象：教育 landowners 是重要部分，因為 longleaf 不可能只靠 public land 恢復。private land 是本段高價值定位詞。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說南方 private landowners 的興趣正在增加，但 restoring longleaf 並不容易。末句說目前重植 wiregrass 的費用高得難以承受，研究者正在尋找低成本方案。只看首尾句，可以判斷本段講restoration 的實際困難：不只要種樹，也要重建 herbaceous layer。曾改成 pine plantations 的土地仍可能有 seed bank；被農業破壞過的土地難度更高。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說 bring back longleaf 不適合短視的人。末句引用 private landowner，說 longleaf seedlings越來越難買，人人都想要，longleaf 正在 resurgence。只看首尾句，可以判斷結尾段強調長期視角和復興希望：今天種下的樹要 70–80 年才成 mature forests，很多人看不到結果，但支持者仍然熱情投入。"
+      }
+    ]
+  }
+}

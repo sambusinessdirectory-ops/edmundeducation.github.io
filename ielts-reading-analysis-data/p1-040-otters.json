@@ -1,0 +1,1533 @@
+{
+  "id": "p1-040-otters",
+  "catalogueId": "p1-040",
+  "catalogueIds": [
+    "p1-040"
+  ],
+  "passage": 1,
+  "title": "Otters",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "A",
+    "B",
+    "F",
+    "C",
+    "E",
+    "G",
+    "G",
+    "A",
+    "seawater",
+    "swimming speed",
+    "Coastal otters",
+    "Small mammals"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "A description of how otters regulate vision underwater",
+      "translation": "描述水獺如何調節水下視覺。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是感官功能，尤其是 underwater vision。定位詞很清楚：vision、underwater、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "regulate。原文未必用 regulate，可能用 modify、lens、eye、refraction 這些科學詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph B。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scent is used for hunting on land, communication and detecting danger.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：氣味用於陸上捕獵、溝通和偵測危險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otters’ ears are protected by valves that close against water pressure.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺的耳朵由一些瓣膜保護，這些瓣膜會在水壓下關閉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 B 段處理的是 otters 的感官和水中適應：嗅覺、視覺、鬍鬚、游泳、腳蹼和耳朵保護。這與題目中的 vision underwater 非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的詞是 vision underwater。掃描 B 段時，要找 eyes、lens、water、"
+            },
+            {
+              "kind": "label",
+              "text": "refraction、sight。可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, they can modify the shape of the lens in the eye, making it more spherical and thereby overcoming the refraction of water.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，牠們可以改變眼睛中晶狀體的形狀，使它變得更接近球形，從而克服水的折射問"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “regulate vision underwater”，原文說 “modify the shape of the lens in the eye”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "modify 就是調整；lens in the eye 是視覺系統的核心；overcoming the refraction of water 說明這種調整是為了在水中看得清楚。後一句 “In clear water and good light, otters can hunt fish by sight” 也補充了調整後的結果：水獺可用視覺捕魚。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "regulate vision underwater= modify the shape of the lens in the eye underwater difficulty= refraction of water successful vision= hunt fish by sight"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看到本段第一句 “Scent is used...” 就以為 B 段只談嗅覺。B 段其實是感官總段，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "視覺調節藏在中間。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "The body-shape characteristics that make an otter fit for its purpose",
+      "translation": "水獺的身體形態特徵如何令牠適合自身生活方式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 body-shape characteristics，不是單一器官功能。定位詞是 body-shape、fit for"
+            },
+            {
+              "kind": "paragraph",
+              "text": "purpose，原文可能用 bodies、legs、ideal、hunting、tunnels。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph A。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otters are semiaquatic (or, in the case of the sea otter, aquatic) mammals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺是半水生哺乳動物；若是 sea otter，則屬於水生哺乳動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“After swimming, they wash the salt off in the pools and then squirm on the ground, rubbing themselves dry against vegetation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：游泳後，牠們會在淡水池中洗去鹽分，然後在地面扭動身體，靠植物摩擦把自己弄乾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 A 段會從水獺的分類和水生生活切入，再講身體、毛皮和沿海生活適應。body shape 很可能在 A 段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 body-shape characteristics。掃描 A 段，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otters have long, slender bodies and short legs—ideal for pushing through dense undergrowth or hunting in tunnels.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺有細長的身體和短腿，這些特徵非常適合牠們穿過濃密灌木叢，或在洞穴中捕獵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這一句完全符合題目。body-shape characteristics 對應 “long, slender bodies and short"
+            },
+            {
+              "kind": "paragraph",
+              "text": "legs”；fit for purpose 對應 “ideal for pushing through dense undergrowth or hunting in tunnels”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把具體用途概括成 “fit for its purpose”，原文則直接列出用途：穿越植被和在洞中捕獵。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "body-shape characteristics= long, slender bodies and short legs fit for its purpose= ideal for pushing through dense undergrowth or hunting in tunnels"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也有身體部位，例如 eyes、nostrils、whiskers、webbing，但 Q2 問整體"
+            },
+            {
+              "kind": "paragraph",
+              "text": "body shape，A 段的 “long, slender bodies and short legs” 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "A reference to an underdeveloped sense",
+      "translation": "提到一種發展較弱或不太敏銳的感官。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 underdeveloped sense。原文未必用 underdeveloped，可能用 small、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "short-sighted、weak 等字。要找感官段，而 B 段最可能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph B。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scent is used for hunting on land, communication and detecting danger.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：氣味用於陸上捕獵、溝通和偵測危險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otters’ ears are protected by valves that close against water pressure.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺的耳朵有瓣膜保護，這些瓣膜會在水壓下關閉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 B 段講感官系統和水中生活適應。這段很適合尋找某種感官較弱的資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 underdeveloped sense 可對應 eyesight 偏弱。B 段有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otters have small eyes and are probably short-sighted on land.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺眼睛很小，在陸上可能是近視的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "underdeveloped sense 指的是某個感官能力較弱。原文說 small eyes，加上 probably"
+            },
+            {
+              "kind": "paragraph",
+              "text": "short-sighted on land，表示陸上視覺不算強。這不是說水獺完全不能看東西；比較準確的理解是，牠們在陸上的 eyesight 較有限。其後原文說牠們可調整眼睛晶狀體在水中視物，這也突出了陸上和水中視覺狀態不同。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "underdeveloped sense= small eyes / probably short-sighted on land sense= sight / vision"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把 “underdeveloped sense” 配到 smell。B 段開頭說嗅覺很重要，且 “similar in"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sensitivity to a dog’s”，這表示嗅覺相當敏銳。較弱的是陸上視覺。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "An explanation of how agricultural chemicals harmed otter populations",
+      "translation": "解釋農業化學品如何傷害水獺族群。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有非常強的定位詞：agricultural chemicals、harmed otter populations。原文可能用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pesticides、agriculture、food chain、declines、concentration。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph F。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The plight of the British otter was recognised in the early 1960s, but the chief cause was not discovered until the late 1970s.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：英國水獺的困境在 1960 年代初已被注意到，但主要原因直到 1970 年代末才被發現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In populations fragmented by the sudden decline of the 1950s and 1960s, the loss of only a handful of otters in one area can make an entire population unviable and spell its end.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 1950 和 1960 年代突然下降後變得破碎的族群中，一個地區只要失去少數水獺，也"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能令整個族群無法維持，最終走向消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 F 段會解釋 British otter decline 的原因及其後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目中的 agricultural chemicals 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pesticides such as dieldrin and aldrin were first used in agriculture and other industries in 1955.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：dieldrin 和 aldrin 等殺蟲劑於 1955 年首先被用於農業和其他產業。"
+            },
+            {
+              "kind": "label",
+              "text": "真正解釋 harm 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pesticides entered river systems and the food chain—first microorganisms, then fish and finally otters—with each step increasing their concentration.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些殺蟲劑進入河流系統和食物鏈，先進入微生物，再進入魚類，最後到達水獺；每一"
+            },
+            {
+              "kind": "paragraph",
+              "text": "步都令濃度增加。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 how agricultural chemicals harmed otter populations。原文的機制很清楚："
+            },
+            {
+              "kind": "paragraph",
+              "text": "pesticides 進入 river systems 和 food chain，沿著 microorganisms → fish → otters 的路徑傳遞，每一層 concentration 都增加。水獺位於食物鏈較高位置，因此累積濃度較高，造成族群下降。段末再補充族群破碎後，少量個體死亡也足以令一個 local population 崩潰。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "agricultural chemicals= pesticides such as dieldrin and aldrin harmed otter populations= caused declines / otter numbers continued to fall / population unviable how= entered river systems and the food chain, with concentration increasing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "A description of some of the otter’s social characteristics",
+      "translation": "描述水獺的一些社會特徵。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "social characteristics 不一定等於「群居生活」。在這篇文章中，它更可能指 shy / wary、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "territory、residence、male and female range overlap 等行為特徵。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph C。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several constraints and preferences limit the habitats suitable for otters.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：若干限制和偏好會限制哪些棲息地適合水獺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small mammals are taken occasionally, most commonly rabbits but sometimes even moles.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：牠們偶爾捕食小型哺乳動物，最常見的是兔子，有時甚至包括鼴鼠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 C 段主題是 habitat suitability 和 feeding。可是 “preferences” 這個字也暗示本段會談水獺對環境和領域的行為偏好，這與 social characteristics 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 social characteristics。掃描 C 段時，要找 territory、residence、male、female"
+            },
+            {
+              "kind": "label",
+              "text": "、overlap。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“As shy and wary creatures, otters prefer territories where human activity does not intrude greatly.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺是害羞且警覺的動物，牠們偏好人類活動不會大幅入侵的領域。"
+            },
+            {
+              "kind": "label",
+              "text": "另有："
+            },
+            {
+              "kind": "quote",
+              "text": "“There must, of course, be no other otter already in residence...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當然，該處也不能已經有另一隻水獺定居。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because male ranges are usually larger, one male’s range may overlap those of two or three females.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：由於雄性的活動範圍通常較大，一隻雄性的範圍可能與兩三隻雌性的範圍重疊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這些句子共同描述水獺的社會和領域行為：牠們 shy and wary，不喜歡人類干擾；一個合適"
+            },
+            {
+              "kind": "paragraph",
+              "text": "地點不能已有另一隻水獺定居；雄性範圍較大，並可能覆蓋數隻雌性的範圍。這些都不是純粹身體特徵或食物清單，而是水獺如何佔據空間、與同類分布的行為特徵。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "social characteristics= shy and wary creatures / no other otter in residence / male range may overlap female ranges"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 段最後談 prey，容易把本段只看成食物段。細讀中間可見，territory and range 才是 Q5"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的答案核心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "A description of how baby otters grow",
+      "translation": "描述幼年水獺如何成長。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的定位詞非常直接：baby otters、grow。原文可能用 cubs、weeks、months、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "weaned、learn to swim、hunting。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph E。第一句是:"
+            },
+            {
+              "kind": "quote",
+              "text": "“Otters normally give birth in secure dens to avoid disturbance.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺通常在安全的巢穴中生育，以避免受到干擾。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, after nine months, she can chase them away with a clear conscience and relax—until the next male appears.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最後，九個月後，母親可以安心地把牠們趕走並休息，直到下一隻雄性出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 E 段由 birth 開始，講到 cubs 長大離開母親，明顯是幼崽成長段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 baby otters 對應 cubs。E 段中有一整串成長時間："
+            },
+            {
+              "kind": "quote",
+              "text": "“At five weeks, the cubs open their eyes...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：五週時，幼崽睜開眼睛。"
+            },
+            {
+              "kind": "quote",
+              "text": "“At seven weeks, they are weaned onto solid food.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：七週時，牠們斷奶，開始吃固體食物。"
+            },
+            {
+              "kind": "quote",
+              "text": "“At ten weeks, they leave the nest and blink in daylight for the first time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：十週時，牠們離開巢穴，第一次在日光下眨眼。"
+            },
+            {
+              "kind": "quote",
+              "text": "“After three months, they finally enter the water and learn to swim.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：三個月後，牠們終於進入水中並學習游泳。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "以上句子按時間順序描述 baby otters grow：睜眼、斷奶、離巢、下水、學游泳、八個月捕"
+            },
+            {
+              "kind": "paragraph",
+              "text": "獵、九個月被母親趕走獨立。這種時間線正是 “how baby otters grow” 的完整描述，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "baby otters= cubs grow= open their eyes / weaned / leave the nest / learn to swim / hunting / chase them away"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "Conflicting views on how to preserve otter populations",
+      "translation": "對如何保護水獺族群有不同看法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目重點是 conflicting views，不只是 conservation。要找一段中同時有 preservation"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方法和不同意見，通常會有 argument、however、last resort 這類詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph G。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otter numbers are recovering throughout Britain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺數量正在英國各地恢復。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Otter Trust has now ended its captive-breeding programme entirely—excellent news, because the programme is no longer needed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Otter Trust 現已完全結束人工繁殖計劃，這是好消息，因為該計劃已不再需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段處理 conservation success、recovery 和 captive-breeding programme。題目問 preservation views，G 段最可能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 conflicting views / preserve。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many regard releasing captive-bred otters as a last resort.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：許多人把釋放人工繁殖水獺視為最後手段。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The argument is that where suitable habitat is absent, the animals will not survive after release, and where suitable habitat exists, natural populations should be able to expand into the area.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種論點是：如果沒有合適棲息地，動物放歸後無法存活；如果有合適棲息地，自然族"
+            },
+            {
+              "kind": "paragraph",
+              "text": "群應該能夠擴展到該地區。"
+            },
+            {
+              "kind": "label",
+              "text": "再看轉折："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, reintroducing animals into a fragmented and fragile population may provide just enough impetus for it to stabilise and expand rather than die out.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，把動物重新引入破碎且脆弱的族群中，可能剛好提供足夠推動力，使族群穩定並"
+            },
+            {
+              "kind": "paragraph",
+              "text": "擴展，避免消失。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這三句構成 conflicting views。一方認為 captive-bred release 只是 last resort，且若有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "suitable habitat，自然族群應自行擴展；另一方指出，在 fragmented and fragile population 中， reintroduction 可能提供關鍵推動力。這正是「如何保護族群」的爭議。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "conflicting views= many regard... / the argument is... / however... preserve otter populations= release captive-bred otters / reintroducing animals / stabilise and expand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "A reference to a legislative act",
+      "translation": "提到法律或立法措施。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是原字定位題，最有力的詞是 legislative。原文可能用 legislation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph G。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otter numbers are recovering throughout Britain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺數量正在英國各地恢復。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Otter Trust has now ended its captive-breeding programme entirely—excellent news, because the programme is no longer needed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Otter Trust 已完全結束人工繁殖計劃，這是好消息，因為該計劃已不再需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段會解釋水獺數量恢復的原因。法律措施通常會出現在保育成功的原因之中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "掃描 G 段可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is almost entirely due to legislation and conservation efforts, which have slowed and reversed the destruction of suitable otter habitat, as well as to reintroductions from captive-breeding programmes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這幾乎完全歸功於立法和保育努力；它們減慢並逆轉了合適水獺棲息地的破壞，也歸"
+            },
+            {
+              "kind": "paragraph",
+              "text": "功於人工繁殖計劃中的重新引入。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 legislative act 對應原文的 legislation。雖然文章沒有列出某條法律的名稱，仍然"
+            },
+            {
+              "kind": "paragraph",
+              "text": "明確提到法律因素對水獺恢復有作用。這是 “a reference to a legislative act” 的合理概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "legislative act= legislation reference to= due to legislation and conservation efforts"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 有 pesticides being phased out，但題目問 legislative act；真正出現"
+            },
+            {
+              "kind": "paragraph",
+              "text": "legislation 這個法律詞的是 G 段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "An explanation of how otters compensate for heat loss",
+      "translation": "解釋水獺如何補償熱量流失或保持保溫。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 heat loss。原文可能用 thermal、insulating、underfur、waterproofing、fur"
+            },
+            {
+              "kind": "paragraph",
+              "text": "condition。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph A。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otters are semiaquatic (or, in the case of the sea otter, aquatic) mammals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺是半水生哺乳動物；sea otter 則屬水生哺乳動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“After swimming, they wash the salt off in the pools and then squirm on the ground, rubbing themselves dry against vegetation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：游泳後，牠們會在淡水池中洗去鹽分，然後在地面扭動身體，靠植物摩擦把自己弄乾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 A 段會講水獺作為水生／半水生動物如何保護身體，尤其是 fur 和 salt /freshwater pools。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 heat loss 對應 thermal / insulating。原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otter fur consists of two types of hair: stout guard hairs, which form a waterproof outer covering, and dense, fine underfur, which acts as thermal underwear.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺毛皮由兩種毛髮構成：粗壯的 guard hairs 形成防水外層；濃密而細緻的 underfur"
+            },
+            {
+              "kind": "paragraph",
+              "text": "則像保暖內衣一樣發揮作用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "thermal underwear 是比喻，意思是 underfur 幫助保溫，減少熱量流失。後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seawater reduces its waterproofing and insulating qualities when salt penetrates the fur.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當鹽分滲入毛皮時，海水會降低其防水和保溫能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這也解釋為何沿海水獺需要 freshwater pools 洗去 salt。題目問 compensate for heat loss，答案段落是 A，因為 A 段解釋了 fur / underfur / grooming / freshwater washing 這套保溫機制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "compensate for heat loss= dense, fine underfur acts as thermal underwear heat loss prevention= waterproofing and insulating qualities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "seawater",
+      "answerKey": "seawater",
+      "type": "Short-answer Questions",
+      "prompt": "What affects the outer fur of otters?",
+      "translation": "甚麼會影響水獺的外層毛皮？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 第一、最後一句已顯示本段談水獺的半水生生活和游泳後洗去鹽分的行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間也介紹 guard hairs 和 underfur，因此 outer fur 的資訊應在 A 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 outer fur。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otter fur consists of two types of hair: stout guard hairs, which form a waterproof outer covering, and dense, fine underfur, which acts as thermal underwear.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺毛皮由兩種毛髮組成：粗壯的 guard hairs 形成防水外層，濃密細緻的 underfur 像"
+            },
+            {
+              "kind": "paragraph",
+              "text": "保暖內衣一樣發揮作用。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seawater reduces its waterproofing and insulating qualities when salt penetrates the fur.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當鹽分滲入毛皮時，海水會降低其防水和保溫能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 what affects the outer fur。原文中直接做出影響的主語是 seawater：Seawater"
+            },
+            {
+              "kind": "paragraph",
+              "text": "reduces its waterproofing and insulating qualities。salt penetrates the fur 是具體機制，說明海水中的鹽分如何造成影響。由於答案要求不超過兩字，seawater 是最簡潔、也最貼近句子主語的答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "affects the outer fur= reduces its waterproofing and insulating qualities outer fur= waterproof outer covering / fur答案形式：seawater，一個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "salt 也在同一句出現，而且它是滲入毛皮的物質。若題目問 “what penetrates the fur”，答"
+            },
+            {
+              "kind": "paragraph",
+              "text": "案會是 salt；但這裡問 affects，原句主語 seawater 更穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "swimming speed",
+      "answerKey": "swimming speed",
+      "type": "Short-answer Questions",
+      "prompt": "What skill is not necessary for Asian short-clawed otters?",
+      "translation": "Asian short-clawed otters 不需要哪種技能？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 第一、最後一句顯示本段處理感官和水中適應。腳蹼和游泳能力也在本段，所"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 Asian short-clawed otters 的資訊應看 B 段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 Asian short-clawed otter。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Giant otters and sea otters have even more prominent webs, while the Asian short-clawed otter has none.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：giant otters 和 sea otters 有更明顯的腳蹼，而 Asian short-clawed otter 沒有腳蹼。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The latter hunts for shrimps in ditches and paddy fields, so it does not need great swimming speed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：後者在溝渠和稻田中捕食蝦，因此不需要很快的游泳速度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "The latter 指 Asian short-clawed otter。題目問 not necessary 的 skill，原文說 “does not"
+            },
+            {
+              "kind": "paragraph",
+              "text": "need great swimming speed”。由於答案限制是 NO MORE THAN TWO WORDS，不能填 great swimming speed（三個字）。保留核心名詞短語 swimming speed 即可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not necessary= does not need skill= swimming speed Asian short-clawed otters= the latter答案形式：swimming speed，兩個字，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "Coastal otters",
+      "answerKey": "Coastal otters",
+      "type": "Short-answer Questions",
+      "prompt": "Which otters have the shortest range?",
+      "translation": "哪一類水獺的活動範圍最短？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一、最後一句顯示本段處理棲息地限制、活動範圍和食物。range 是本段中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "間的重要詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 shortest range。原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A typical range for a male river otter might encompass 25 km of river; a female’s range is less than half that.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：雄性 river otter 的典型範圍可能包括 25 公里的河段；雌性的範圍不到其一半。"
+            },
+            {
+              "kind": "label",
+              "text": "後文比較："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coastal otters have a much more abundant food supply, and the ranges of both males and females may cover only a few kilometres of coastline.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：沿海水獺有更充足的食物供應，因此雌雄水獺的活動範圍可能只覆蓋幾公里的海岸"
+            },
+            {
+              "kind": "paragraph",
+              "text": "線。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 which otters have the shortest range。原文比較 river otters 和 coastal otters：river"
+            },
+            {
+              "kind": "paragraph",
+              "text": "otter male 可達 25 km，甚至 one study found male ranges varying from 12 to 80 km；coastal otters 則 only a few kilometres of coastline。only a few kilometres 明顯是最短範圍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "shortest range= may cover only a few kilometres Which otters= Coastal otters答案形式：Coastal otters，兩個字，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "Small mammals",
+      "answerKey": "Small mammals",
+      "type": "Short-answer Questions",
+      "prompt": "What type of animal do otters hunt occasionally?",
+      "translation": "水獺偶爾捕食哪一類動物？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一、最後一句顯示本段包含 habitat、range 和 prey。最後一句已經直接提"
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 occasional prey，所以目標很明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 occasionally。原文最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small mammals are taken occasionally, most commonly rabbits but sometimes even moles.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：水獺偶爾捕食小型哺乳動物，最常見的是兔子，有時甚至包括鼴鼠。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 type of animal，所以答案不能只填 rabbits 或 moles，因為那只是 examples。原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的上位類別是 Small mammals。occasionally 原字重現，直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "hunt occasionally= are taken occasionally type of animal= small mammals examples= rabbits / moles答案形式：Small mammals，兩個字，符合限制。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Otters.pdf",
+    "sha256": "704e3d7b81b3b967536b8b3899ac1bb74407b8e910cac6dd278a1d2cc3431469",
+    "pageCount": 17
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句先定義 otters 是半水生哺乳動物，並指出 sea otter 是水生哺乳動物，分類上屬於 mustelid family。末句說牠們游泳後會在淡水池洗掉鹽分，再在地面和植物上摩擦身體，把自己弄乾。只看首尾句，可以估計本段主要介紹水獺的基本分類、身體形態、毛皮功能和沿海生活適應。題目若問 body shape、fur、waterproofing、insulation、heat loss 或 salt / seawater，應優先看 A。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 scent 用於陸上捕獵、溝通和偵測危險。末句說 otters 的耳朵有 valves，可在水壓下關閉以防入水。只看首尾句，可以估計本段主題是感官與水中活動適應，包括嗅覺、視覺、眼睛和鼻孔位置、鬍鬚感震、水中游泳姿勢、腳蹼差異和耳朵保護。題目若問 underwater vision、short-sighted、sense、whiskers、webbing 或 swimming speed，答案多數在 B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說若干 constraints and preferences 會限制哪些 habitat 適合 otters。末句說除了魚以外，水獺也常吃 crayfish、crabs、water birds，偶爾捕食 small mammals。只看首尾句，可以估計本段處理棲息地條件、領域範圍、食物供應和獵物類型。中間很可能談到 human activity、territory、male/ female ranges 和 range overlap。題目若問 social characteristics、range、territory 或 occasional prey，應看 C。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Eurasian otters 會在食物充足時繁殖。末句說 Eurasian otter 的 gestation 是 63 days，但North American river otter 的胚胎可能有 delayed implantation。只看首尾句，可以估計本段集中講繁殖時間和食物供應之間的關係。內容會包括 Sweden、Shetland Islands、cubs born in spring/ summer、food availability、female condition 和 gestation。題目若問 breeding timing、food availability 或 pregnancy，目標段落會是 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 otters 通常在安全的 dens 中生育，以避免 disturbance。末句說九個月後，母親可以把幼崽趕走，然後休息，直到下一隻雄性出現。只看首尾句，可以估計本段是 baby otters 成長過程段： nest bedding 保暖，litter size 一至五隻，幼崽五週睜眼、七週斷奶、十週出巢、三個月下水、八個月捕獵、九個月獨立。題目若問 baby otters grow，答案必在 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 British otter 的困境在 1960s 初期已被注意到，但主要原因到 1970s 後期才被發現。末句說在 1950s 和 1960s 的突然下降後，破碎化種群中即使只失去少數水獺，也可能令整個種群無法維持並消失。只看首尾句，可以估計本段講英國水獺數量下降的原因，包括 pesticides、dieldrin、aldrin、food chain、concentration increase、habitat destruction 和 road deaths。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Otter numbers are recovering throughout Britain，表示英國水獺數量正在恢復。末句說Otter Trust 已完全結束 captive-breeding programme，這是好消息，因為該計劃已不再需要。只看首尾句，可以估計本段是保育與恢復段：水獺如何從殘存地區擴展、legislation 和 conservation efforts 的作用、reintroductions from captive-breeding programmes，以及對人工繁殖放歸的不同看法。題目若問 preservation、legislation、conflicting views 或 captive-bred release，應看 G。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "第 10 題有一個小小注意點：原文說 “Seawater reduces...” 以及 “when salt penetrates the fur”。",
+    "如果答案表重視直接主語，填 seawater 最穩；如果答案表重視實際滲入毛皮的物質，salt 也有文本根據。不過題目問 “What affects...”，我會選 seawater。"
+  ]
+}

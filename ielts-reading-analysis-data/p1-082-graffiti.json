@@ -1,0 +1,2149 @@
+{
+  "id": "p1-082-graffiti",
+  "catalogueId": "p1-082",
+  "catalogueIds": [
+    "p1-082"
+  ],
+  "passage": 1,
+  "title": "GRAFFITI",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "x",
+    "viii",
+    "ii",
+    "iii",
+    "v",
+    "vi",
+    "i",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "F",
+    "C",
+    "E"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "x — From Ancient to Modern",
+      "answerKey": "x — From Ancient to Modern",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "Paragraph A 的主旨是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph A 選出最能概括整段的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Headings。這類題不能只看段內某個例子，例如 rap music 或 Keith Haring；要看整段從哪裡開始、最後落到哪裡，以及中間如何發展。手冊也提醒，Headings 題要分清主題、例子、細節和結論，避免某個 heading 只符合局部，卻不能概括整段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The word ‘graffiti’ derives from the Greek word graphein, meaning to write.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "graffiti 這個字來自希臘字 graphein，意思是「書寫」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The uniqueness of his drawings eventually led to their being shown in galleries and published in books; consequently, his art became ‘legitimate’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他作品的獨特性最終使它們在畫廊展出，並出版成書；結果，他的藝術變得「合法／正統」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看出 Paragraph A 的時間跨度很大：開頭是 Greek word 的古代詞源，結尾是Keith Haring 的現代 graffiti art 進入 galleries。中間又經過 Latin graffito、New York、Hip Hop、rap music、turntables 和 subway walls。這段最完整的主旨是從古代語源到現代 graffiti 文化與藝術地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading x 的核心詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ancient”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 的對應內容是： Greek word graphein Latin word graffito Today, we equate graffiti with the “New York” or “Hip Hop” style Keith Haring galleries and books art became “legitimate”這些訊號同時覆蓋 ancient origin 和 modern art development。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 先定義："
+            },
+            {
+              "kind": "quote",
+              "text": "“Simply put, graffiti is a drawing, scribbling or writing on a flat surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "簡單來說，graffiti 是在平面上作畫、亂寫或書寫。"
+            },
+            {
+              "kind": "label",
+              "text": "接著文章把今日 graffiti 連到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the ‘New York’ or ‘Hip Hop’ style which emerged from New York City in the 1970s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1970 年代從紐約市出現的 “New York” 或 “Hip Hop” 風格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整段的移動方向是：詞源 → 基本定義 → 1970s Hip Hop → Keith Haring → galleries。Heading x"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“From Ancient to Modern” 能夠包住整段。其他 heading 為何不合適： vii “Trends in Street Music” 有吸引力，因為本段有 rap、disco、Hip Hop、turntables。不過音樂只是中間背景，用來解釋現代 graffiti 的文化環境，不能概括開頭的 Greek / Latin 詞源和結尾的 art legitimacy。 i “Becoming mainstream art” 也有部分支援，因為 Keith Haring 的 art became “legitimate”。可是這只覆蓋段尾。Paragraph G 才完整處理 graffiti 進入 conventional art world 的主題。所以 Question 1 答案是 x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "viii — Gradually gaining popularity",
+      "answerKey": "viii — Gradually gaining popularity",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "Paragraph B 的整段主旨是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph B 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At about the same time, a delivery messenger began writing ‘Taki 183’ whenever he delivered documents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約同一時期，一位送貨信差每次送文件時都開始寫下 “Taki 183”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, in the mid-eighties a national TV programme did a graffiti story and set off a graffiti wildfire which has since gone global.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，在 1980 年代中期，一個全國電視節目做了一個 graffiti 報導，並引發了一場 graffiti wildfire，之後更擴展至全球。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段由一個人的名字 “Taki 183” 開始，到全國電視報導，再到 global spread。這是一條人氣擴散線：個人行為 → 城市知名度 → 媒體報導 → 年輕人模仿 → Hip Hop文化 → 全球擴散。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading viii 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gradually”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gaining popularity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的對應詞包括： Soon his name was all over the city became celebrities attracted many young people began to imitate New York City was inundated with graffiti set off a graffiti wildfire gone global這些詞不斷顯示 popularity 和 spread。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soon his name was all over the city.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很快，他的名字遍佈整個城市。"
+            },
+            {
+              "kind": "label",
+              "text": "再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Newspapers and magazines wrote articles about him and Keith Haring, and soon both became celebrities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報紙和雜誌寫了關於他和 Keith Haring 的文章，很快兩人都成為名人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “all over the city” 和 “became celebrities” 顯示 graffiti writers 開始獲得關注。接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“This claim to fame attracted many young people…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種成名機會吸引了很多年輕人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，national TV programme 又把 graffiti 推向 global level。Heading viii “Gradually gaining popularity” 正好概括這種由城市到全國、再到全球的擴散過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： ii “The Culture of Graffiti” 比較適合 Paragraph C，因為 C 段講 crews、tagging、king / queen 和graffiti language。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vii “Trends in Street Music” 也會令人分心，因為本段提到 rapping and breakdancing，但它們只是 graffiti 被併入 Hip Hop culture 的背景。整段主線是 graffiti 如何 gaining popularity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 2 答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "ii — The Culture of Graffiti",
+      "answerKey": "ii — The Culture of Graffiti",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph C 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the past, graffiti artists usually worked alone, but the size and complexity of pieces as well as safety concerns motivated artists to work together in crews, which are groups of graffitists that vary in membership from 3 to 10 or more persons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去，graffiti artists 通常單獨工作，但作品的大小和複雜度，以及安全考量，促使藝術家以 crews的形式合作；crews 是由 3 至 10 人或更多人組成的 graffiti 團體。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti has its own language with terms such as piece, toy, wild-style, and racking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Graffiti 有自己的語言，包括 piece、toy、wild-style 和 racking 等術語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經非常清楚：這段說明 graffiti 內部文化如何運作。它有 crews、有加入標準、有 king /queen、有 crew tags 和 personal tags，也有自己的 terminology。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading ii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Culture of Graffiti”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 對應內容包括： worked together in crews affiliated with more than one crew join a crew unique style king or queen crew name tagging personal tags own language這些都屬於文化、社群規則和內部身份系統。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“To join a crew, one must have produced stylish pieces and must show potential for developing one’s own unique style.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要加入一個 crew，一個人必須已經創作出有風格的作品，並展現發展自己獨特風格的潛力。"
+            },
+            {
+              "kind": "label",
+              "text": "這句說明 graffiti culture 有入門標準。原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A crew is headed by a king or queen who is usually the person recognised as having the best artistic ability among the members of the crew.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個 crew 由 king 或 queen 領導，通常是 crew 成員中被認為最有藝術能力的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明 crew 內有地位結構。段末的 “Graffiti has its own language” 進一步確認這是文化介紹段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： ix “A Solitary Existence” 用了 solitary，剛好和段首 “worked alone” 有關。不過段首後面立即轉到artists work together in crews，整段重點落在集體和社群文化。ix 只抓到第一句前半，無法覆蓋整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 3 答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "iii — Tools of the Trade",
+      "answerKey": "iii — Tools of the Trade",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph D 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, pens and markers were used, but these were limited as to what types of surfaces they worked on, so very quickly everyone started using spray paint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，人們使用 pens and markers，但它們能使用的表面種類有限，所以很快大家都開始使用spray paint。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, nearly any object which can leave a mark on most surfaces is used by taggers, though the spray can is the medium of choice for most taggers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，幾乎任何能在多數表面留下痕跡的物件都會被 taggers 使用，雖然 spray can 仍是大多數 taggers 的首選媒介。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都在講工具：pens、markers、spray paint、spray can、objects which can leave a mark。這段主旨明顯是 graffiti artists 使用甚麼工具，以及工具如何演變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iii："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tools of the Trade”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 中的工具詞非常密集： pens markers spray paint spray nozzles spray cans caps deodorant insecticide aerosol cans shoe polish deodorant roll-ons art pens grease pens"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Trade” 在這裡可理解為一門活動或技藝的行內工具。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：“Spray paint could mark all types of surfaces and was quick and easy to use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Spray paint 可以在各種表面留下痕跡，而且快速、容易使用。"
+            },
+            {
+              "kind": "label",
+              "text": "這句解釋為何 spray paint 成為主要工具。接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Caps from deodorant, insecticide, and other aerosol cans were substituted to allow for a finer or thicker stream of paint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們改用 deodorant、insecticide 和其他 aerosol cans 的 caps，以便噴出較細或較粗的油漆流。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些細節全都服務於 “tools” 主題。Paragraph D 也有 law enforcement 背景，但法例只是導致工具偽裝的原因，段落焦點仍然是工具及其改造。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： vi “Cashing in on the Craze” 講的是商業化和商品銷售，更適合 Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "v “Crossing Boundaries” 講跨越社會界線，更適合 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 4 答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "v — Crossing Boundaries",
+      "answerKey": "v — Crossing Boundaries",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph E 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As graffiti has grown, so too has its character.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著 graffiti 發展，它的性質也跟著改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gang markings of territory also fit the definition of graffiti, and they mainly consist of tags and messages that provide ‘news’ of happenings in the neighbourhood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幫派的地盤標記也符合 graffiti 的定義，這些標記主要由 tags 和 messages 組成，提供社區中事件的「消息」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段在講 graffiti 的範圍和性質如何擴張。中間最重要的句子是 graffiti 從 urban, lower-income protest 發展到 all racial and economic groups，taggers 從 ultra-rich 到 ultra-poor，也有 male and female artists。這些都指向 crossing boundaries。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading v 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crossing Boundaries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 中對應： now spans all racial and economic groups taggers range from the ultra-rich to the ultra-poor There is no general classification of graffitists aged 12–30 male and female artists styles have dramatically evolved gang markings also fit the definition這些內容顯示 graffiti 跨越階層、種族、性別、風格和用途界線。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti began as an urban, lower-income protest but now spans all racial and economic groups.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Graffiti 起初是城市低收入群體的抗議形式，但現在已跨越所有種族和經濟群體。"
+            },
+            {
+              "kind": "label",
+              "text": "這句幾乎直接說明 heading v。原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“While many inner-city kids are still heavily involved in the graffiti culture, taggers range from the ultra-rich to the ultra-poor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然許多內城孩子仍然深度參與 graffiti 文化，但 taggers 的範圍從極富到極貧都有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 boundary crossing：它不再只屬於某一個貧窮 urban group，也不只屬於某一性別或單一風格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： ii “The Culture of Graffiti” 太寬，也已由 Paragraph C 更精準處理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "viii “Gradually gaining popularity” 可以概括一部分發展，但 E 段更強調 graffiti 跨越社會群體和風格界線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 5 答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "vi — Cashing in on the Craze",
+      "answerKey": "vi — Cashing in on the Craze",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph F 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti shops, both retail and online, sell a wide variety of items to taggers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Graffiti shops，不論實體店還是網店，都向 taggers 出售各式各樣的物品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Billions of dollars worldwide are spent each year in an effort to curb graffiti.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球每年花費數十億美元試圖遏止 graffiti。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段牽涉 graffiti 的金錢面向：一方面有 shops 和 online market 售賣用品，另一方面政府或社會每年花巨額金錢處理 graffiti vandalism。heading vi 的 “Cashing in on the Craze” 很貼近這種商業化和金錢化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vi："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cashing in on the Craze”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 中可找到： sell a wide variety of items can be purchased graffiti sites pro-graffiti Graffiti vandalism is a problem Billions of dollars worldwide are spent"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sell”、“purchased”、“Billions of dollars” 都是金錢和市場訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出商品：“Caps, markers, magazines, T-shirts, backpacks, shorts with hidden pockets, even drawing books with templates of different railroad cars can be purchased.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Caps、markers、magazines、T-shirts、backpacks、有暗袋的 shorts，甚至附有不同鐵路車廂模板的 drawing books，都可以購買。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 graffiti 已經形成商品市場。段落後半說 pro-graffiti websites 和全球 graffiti vandalism，再以 “Billions of dollars” 收結，令金錢面向更明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： iv “Internet Art Styles” 有一定吸引力，因為本段提到 25,000 graffiti sites 和 World Wide Web。不過 Internet 只是其中一部分，本段更大焦點是 shops、商品、網站、全球 vandalism 和花費。vi 覆蓋範圍較完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 6 答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "i — Becoming mainstream art",
+      "answerKey": "i — Becoming mainstream art",
+      "type": "Matching Headings",
+      "prompt": "Question 7",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph G 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While most taggers are simply interested in seeing their name in as many places as possible and as visibly as possible, some taggers are more content to find secluded warehouse walls where they can practise their pieces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然大多數 taggers 只是想讓自己的名字出現在盡可能多、盡可能顯眼的地方，但有些 taggers更願意找偏僻的倉庫牆面練習自己的 pieces。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What this shows is that some graffiti, particularly in the form of spray-can art, is recognised as art by the conventional art world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顯示某些 graffiti，尤其是 spray-can art，已被傳統藝術世界認可為藝術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段由一般 tagging 轉向藝術化 graffiti，最後明確落到 conventional art world 認可。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 becoming mainstream art。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading i："
+            },
+            {
+              "kind": "quote",
+              "text": "“Becoming mainstream art”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 中對應： sell twelve-foot canvases$10,000–$12,000 introduced to the art world collectors, dealers, curators, artists legal graffiti art recognised as art conventional art world"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“As graffiti was introduced to the art world, two trends emerged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 graffiti 被引入藝術世界時，出現了兩個趨勢。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the art world of collectors, dealers, curators, artists and the like helped graffitists evolve in style…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由 collectors、dealers、curators、artists 等組成的藝術世界幫助 graffitists 在風格上演變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後明確說 conventional art world recognises some graffiti as art。這已經超出街頭 tagging，進入主流藝術機制：收藏、交易、策展、合法牆面和藝術承認。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： vi “Cashing in on the Craze” 也有金錢元素，因為 canvases 可賣 $10,000–$12,000。不過 G 段不只說賣錢，還說 art world、style evolution、legal graffiti art 和 recognition as art。因此 i 更完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 7 答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The introduction of anti-graffiti laws managed to curb its spread in some cities.”",
+      "translation": "反 graffiti 法例的引入成功在一些城市遏止了 graffiti 的擴散。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有三個控制點：anti-graffiti laws、managed to curb、in some cities。要判 TRUE，需要原文說法例成功減少 graffiti；要判 FALSE，需要原文清楚說法例沒有成功或使 graffiti 擴散。若原文只提到法例存在，沒有講成功與否，就要選 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, pens and markers were used, but these were limited as to what types of surfaces they worked on, so very quickly everyone started using spray paint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，人們使用 pens and markers，但它們能使用的表面種類有限，所以很快大家都開始使用spray paint。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, nearly any object which can leave a mark on most surfaces is used by taggers, though the spray can is the medium of choice for most taggers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，幾乎任何能在多數表面留下痕跡的物件都會被 taggers 使用，雖然 spray can 仍是大多數 taggers 的首選媒介。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 主要講 tools。題目提到 anti-graffiti laws，這不是段首段尾主題，但中間確實有 ordinances，所以要進入 Scan。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“anti-graffiti laws”"
+            },
+            {
+              "kind": "quote",
+              "text": "“curb”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some cities”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 anti-graffiti laws 這個原字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“graffiti ordinances outlawing graffiti implements”"
+            },
+            {
+              "kind": "label",
+              "text": "這就是反 graffiti 法例或市政規例。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As municipalities began passing graffiti ordinances outlawing graffiti implements, clever ways of disguising paint implements were devised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 municipalities 開始通過禁止 graffiti implements 的 graffiti ordinances 時，人們設計出巧妙方法來偽裝油漆工具。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供兩項資料：第一，municipalities began passing graffiti ordinances。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即一些市政機構開始通過規例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，clever ways of disguising paint implements were devised。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即 taggers 想出巧妙方法，把 painting tools 偽裝起來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “managed to curb its spread”，意思是這些法例成功控制或減少 graffiti 擴散。原文沒有提供這個結果。它只說法例出現後，graffitists 想出偽裝工具的方法。這能顯示 taggers 有應對策略，但仍不足以直接判斷某些城市的 graffiti spread 有沒有被成功 curbed。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 也有一個相關句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Billions of dollars worldwide are spent each year in an effort to curb graffiti.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球每年花費數十億美元試圖遏止 graffiti。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是 “in an effort to curb”，即試圖遏止；它沒有說 efforts succeeded。題目中的 “managed to curb” 是成功結果，原文沒有給出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： anti-graffiti laws 成功在一些城市遏止 graffiti 擴散。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：一些市政機構通過規例；taggers 想出偽裝工具的方法；全球每年花很多錢試圖遏止 graffiti。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文有相關背景，但缺少 “managed / succeeded” 和 “some cities” 的成功結果。因此答案是NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "anti-graffiti laws= graffiti ordinances outlawing graffiti implements curb= stop / control / reduce原文缺少： managed to curb= successfully reduced graffiti spread"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“in an effort to curb graffiti” 很容易令人選 TRUE。可是 effort 是嘗試，不等於 managed 是成功。這題最重要的是不要把「有法例、有花錢、有努力」推成「已成功」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Along with Hip Hop music came a new way of visual expression.”",
+      "translation": "隨著 Hip Hop music 出現，也出現了一種新的視覺表達方式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要確認 Hip Hop music 和 new visual expression 是否同時相關。視覺表達對應 graffiti / artistic visibility / drawings in public places。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The word ‘graffiti’ derives from the Greek word graphein, meaning to write.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "graffiti 這個字來自希臘字 graphein，意思是「書寫」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The uniqueness of his drawings eventually led to their being shown in galleries and published in books; consequently, his art became ‘legitimate’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他作品的獨特性最終使它們在畫廊展出，並出版成書；結果，他的藝術變得「合法／正統」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 從 graffiti 定義和 Hip Hop 背景，講到 Keith Haring 的 visual art。題目中的 Hip Hop music 和 visual expression 都集中在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hip Hop music”"
+            },
+            {
+              "kind": "quote",
+              "text": "“visual expression”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Hip Hop music emerged, so did a new outlet for artistic visibility.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句幾乎直接回答題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Hip Hop music emerged, so did a new outlet for artistic visibility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著 Hip Hop music 出現，一種新的藝術可見性出口也出現了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的結構 “As X emerged, so did Y” 表示兩件事相伴出現： X = Hip Hop music emerged Y = a new outlet for artistic visibility emerged題目把 “a new outlet for artistic visibility” 改寫成 “a new way of visual expression”。這是很自然的同義改寫：artistic visibility 指藝術作品被看見的方式；visual expression 指以視覺形式表達。"
+            },
+            {
+              "kind": "label",
+              "text": "後文舉 Keith Haring 的例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Keith Haring began using posters to place his uniquely drawn figures and characters in public places.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Keith Haring 開始使用 posters，把他獨特繪畫的人物和角色放在公共地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句證明 “visual expression” 具體指 public posters、drawings、subway walls、transit posters等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Hip Hop music 出現時，也有新的視覺表達方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： Hip Hop music emerged 時，a new outlet for artistic visibility 也出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：意思同方向，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Along with Hip Hop music came…= As Hip Hop music emerged, so did…new way of visual expression= new outlet for artistic visibility"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有說 graffiti 只由 Hip Hop music 造成。它說 along with，即伴隨出現。原文正好用 “As…so did…” 表示伴隨關係，所以不需要額外推論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There was hostility towards graffiti artists among the established art community.”",
+      "translation": "既有／主流藝術界對 graffiti artists 存在敵意。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目說 established art community 對 graffiti artists 有hostility。要找 art world 如何對待 graffitists。如果原文說 art world 幫助、承認或接納，就與題目相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While most taggers are simply interested in seeing their name in as many places as possible and as visibly as possible, some taggers are more content to find secluded warehouse walls where they can practise their pieces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然大多數 taggers 只是想讓自己的名字出現在盡可能多、盡可能顯眼的地方，但有些 taggers更願意找偏僻的倉庫牆面練習自己的 pieces。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What this shows is that some graffiti, particularly in the form of spray-can art, is recognised as art by the conventional art world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顯示某些 graffiti，尤其是 spray-can art，已被傳統藝術世界認可為藝術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph G 處理 graffiti 與 conventional art world 的關係。最後一句已直接顯示recognition，而非 hostility。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“hostility”"
+            },
+            {
+              "kind": "quote",
+              "text": "“graffiti artists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“established art community”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 hostility，但有相反語義： art world helped graffitists evolve recognised as art conventional art world"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, the art world of collectors, dealers, curators, artists and the like helped graffitists evolve in style, presumably by sharing their artistic knowledge with the newcomers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "首先，由 collectors、dealers、curators、artists 等組成的藝術世界幫助 graffitists 在風格上演變，大概是透過與這些 newcomers 分享藝術知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 “the art world of collectors, dealers, curators, artists”。這正是題目中的established art community。核心動詞是 “helped”，意思是幫助。這和 hostility，即敵意，方向相反。"
+            },
+            {
+              "kind": "label",
+              "text": "段末再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“some graffiti, particularly in the form of spray-can art, is recognised as art by the conventional art world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些 graffiti，尤其是 spray-can art，已被傳統藝術世界認可為藝術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“recognised as art” 也和 hostility 不相容。主流藝術界不是排斥所有 graffiti artists；文章強調的是部分 graffiti 被引入、幫助、推廣和承認。題目命題： established art community 對 graffiti artists 有 hostility。原文命題： art world helped graffitists evolve；conventional art world recognised some graffiti as art。比較結果：方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "established art community= art world of collectors, dealers, curators, artists / conventional art world hostility= opposition / rejection / antagonism原文實際方向： helped / recognised= support / acceptance"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "graffiti vandalism 在 Paragraph F 被說成問題，全球也花錢遏止 graffiti。這可能令人以為所有established groups 都 hostile。不過 Question 10 問的是 art community，定位要到 Paragraph G；該段明確給出 art world 的接納和幫助。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "F — embrace it as a means of expression",
+      "answerKey": "F — embrace it as a means of expression",
+      "type": "Sentence Endings",
+      "prompt": "“Graffiti is flourishing in the 21st century as people from all backgrounds have begun to embrace it as a means of expression.”",
+      "translation": "Graffiti 在 21 世紀繼續蓬勃發展，因為不同背景的人都開始把它接納為一種表達方式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Ending。要同時檢查三件事：句子接上後文法是否自然、意思是否符合原文、選項是否真正回答題幹。題幹中的 “people from all backgrounds” 是最重要訊號，要找 graffiti 是否跨越不同社會群體。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As graffiti has grown, so too has its character.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著 graffiti 發展，它的性質也跟著改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gang markings of territory also fit the definition of graffiti, and they mainly consist of tags and messages that provide ‘news’ of happenings in the neighbourhood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幫派的地盤標記也符合 graffiti 的定義，這些標記主要由 tags 和 messages 組成，提供社區中事件的「消息」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 講 graffiti 的性質和範圍擴張。題幹的 “people from all backgrounds” 很可能對應段中 “all racial and economic groups”、“ultra-rich to ultra-poor”、“male and female artists”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“people from all backgrounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flourishing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“21st century”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti began as an urban, lower-income protest but now spans all racial and economic groups.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taggers range from the ultra-rich to the ultra-poor.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no general classification of graffitists.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“there are male and female artists.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti began as an urban, lower-income protest but now spans all racial and economic groups.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Graffiti 起初是城市低收入群體的抗議形式，但現在已跨越所有種族和經濟群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援題幹中的 “people from all backgrounds”。原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are aged 12–30, and there are male and female artists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們年齡在 12 至 30 歲之間，而且有男性和女性藝術家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這補充 graffiti 參與者已不再局限於單一性別或單一階層。題幹說 “Graffiti is flourishing in the 21st century as people from all backgrounds have begun to…” 後面需要一個動作，能解釋不同背景的人為何參與 graffiti。選項 F “embrace it as a means of expression” 最自然，也最符合graffiti 作為 visual / public expression 的全文主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項檢查： F embrace it as a means of expression正確。people from all backgrounds have begun to embrace it，文法自然；means of expression也符合 graffiti 作為 writing、drawing、tagging、protest、art 的功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C transcend race, status and gender這個意思更適合 Question 12，因為主語應是 graffiti，而非 people。若接成 “people from all backgrounds have begun to transcend race, status and gender”，語意不夠自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A express rebellion against law enforcement原文有 urban lower-income protest 和 ordinances，但沒有說 people from all backgrounds 都用graffiti 反抗 law enforcement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 11 答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "C — transcend race, status and gender",
+      "answerKey": "C — transcend race, status and gender",
+      "type": "Sentence Endings",
+      "prompt": "“As graffiti has developed, it has come to transcend race, status and gender.”",
+      "translation": "隨著 graffiti 發展，它已經跨越種族、社會地位和性別界線。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Ending。題幹主語是 “it”，指 graffiti。要找一個句尾，能描述 graffiti 發展後的整體變化。Paragraph E 的 “spans all racial and economic groups” 是核心證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As graffiti has grown, so too has its character.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著 graffiti 發展，它的性質也跟著改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gang markings of territory also fit the definition of graffiti, and they mainly consist of tags and messages that provide ‘news’ of happenings in the neighbourhood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幫派的地盤標記也符合 graffiti 的定義，這些標記主要由 tags 和 messages 組成，提供社區中事件的「消息」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經與題幹高度相似：As graffiti has grown / As graffiti has developed。這段必定是Question 12 的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“As graffiti has developed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it has come to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“As graffiti has grown, so too has its character.”"
+            },
+            {
+              "kind": "label",
+              "text": "這是幾乎同義的段首句。接著掃描段中變化內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“now spans all racial and economic groups”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ultra-rich to the ultra-poor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“male and female artists”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti began as an urban, lower-income protest but now spans all racial and economic groups.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Graffiti 起初是城市低收入群體的抗議形式，但現在已跨越所有種族和經濟群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 race 和 status： racial groups= race economic groups / ultra-rich to ultra-poor= status / class再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are aged 12–30, and there are male and female artists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們年齡在 12 至 30 歲之間，而且有男性和女性藝術家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支援 gender。選項 C 把原文的多個細節概括成 “transcend race, status and gender”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "transcend 在這裡表示超越界線、不受這些分類限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項檢查： C transcend race, status and gender正確。主語 graffiti + has come to transcend，非常自然，也完整概括 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F embrace it as a means of expression如果接到 Question 12，就變成 “graffiti has come to embrace it”，it 指代混亂，文法和意思都不自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D realise that inner-urban areas where poverty is the norm are decreasing原文沒有說 inner-urban poverty areas are decreasing；這是額外資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 12 答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "E — conceal their intentions from law enforcement officers",
+      "answerKey": "E — conceal their intentions from law enforcement officers",
+      "type": "Sentence Endings",
+      "prompt": "“Graffiti artists used many ingenious methods to conceal their intentions from law enforcement officers.”",
+      "translation": "Graffiti artists 使用許多巧妙方法，向執法人員隱藏自己的意圖。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Ending。題幹中的 “ingenious methods” 很可能對應原文 “clever ways”。要找graffiti artists 用 clever methods 做甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, pens and markers were used, but these were limited as to what types of surfaces they worked on, so very quickly everyone started using spray paint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，人們使用 pens and markers，但它們能使用的表面種類有限，所以很快大家都開始使用spray paint。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, nearly any object which can leave a mark on most surfaces is used by taggers, though the spray can is the medium of choice for most taggers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，幾乎任何能在多數表面留下痕跡的物件都會被 taggers 使用，雖然 spray can 仍是大多數 taggers 的首選媒介。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句說的是工具。題幹 “ingenious methods” 在這段中應對應工具偽裝方式，尤其是反 graffiti ordinances 之後的做法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ingenious methods”"
+            },
+            {
+              "kind": "quote",
+              "text": "“law enforcement officers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 law enforcement officers，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“graffiti ordinances outlawing graffiti implements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“clever ways of disguising paint implements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seemingly innocent containers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都和法律管制及逃避檢查有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As municipalities began passing graffiti ordinances outlawing graffiti implements, clever ways of disguising paint implements were devised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 municipalities 開始通過禁止 graffiti implements 的 graffiti ordinances 時，人們設計出巧妙方法來偽裝油漆工具。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文列舉："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shoe polish, deodorant roll-ons and other seemingly innocent containers were emptied and filled with paint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shoe polish、deodorant roll-ons 和其他看似無害的容器被清空，再裝入油漆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來顯示：當法例禁止 graffiti tools 後，taggers 把工具偽裝成普通物品。題幹中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ingenious methods” 對應 “clever ways”；選項 E 的 “conceal their intentions from law enforcement officers” 則概括了 disguising paint implements 的目的。選項檢查： E conceal their intentions from law enforcement officers正確。偽裝工具的目的，就是不讓人看出自己準備進行 graffiti。 A express rebellion against law enforcement原文說他們偽裝工具，沒有說這些方法的目的在於公開反抗 law enforcement。 B face increasing difficulty in succeeding in the art world Paragraph G 說部分 graffiti 進入 art world，沒有說越來越難成功。所以 Question 13 答案是 E。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - GRAFFITI.pdf",
+    "sha256": "7e7973c462689262c4e3727473b55d7907941f70424922327cea411ca062262b",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 graffiti 一字來自希臘字 graphein，意思是 to write；末句說 Keith Haring 的作品最終進入galleries 並出版成書，因而變得 “legitimate”。只看首尾句，可以估計這段由詞源和基本定義開始，慢慢推到現代 New York / Hip Hop graffiti，以及 graffiti 如何開始被視為可進入藝術場域的視覺表達。這段橫跨古代語源與現代城市文化，重點是 graffiti 從文字、街頭表達走向現代藝術形式。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說同一時期，一位 delivery messenger 到處寫 “Taki 183”；末句說 1980 年代中期，一個全國電視節目報導 graffiti 後，引發一場後來走向全球的 graffiti wildfire。只看首尾句，可以看出這段主要講 graffiti 如何由個人署名行為變成城市潮流，再因媒體曝光擴散。中間提到 Taki 183、Keith Haring 成為 celebrities、年輕人模仿、graffiti 併入 Hip Hop culture，都是人氣逐步上升的過程。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說過去 graffiti artists 通常獨自工作，但作品變大、變複雜，加上安全考量，使他們開始組成crews。末句說 graffiti 有自己的語言，例如 piece、toy、wild-style、racking。首尾句顯示，這段主要介紹 graffiti 的內部文化和社群制度：crews、membership、king / queen、tagging、crew names，以及專門術語。這段焦點不是工具，也不是藝術市場，而是 graffiti community 如何運作。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說最初 graffiti 使用 pens and markers，但這些工具在表面種類上有限；末句說幾乎任何能在多數表面留下痕跡的物件都會被 taggers 使用，不過 spray can 仍是首選媒介。只看首尾句，可以判斷本段重點是 graffiti tools：markers、spray paint、nozzles、caps、aerosol cans、shoe polish、roll-ons、art pens 等。中間也提到反 graffiti 法例後，taggers 如何把工具偽裝成普通用品。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 graffiti 成長後，其 character 也跟著改變；末句說幫派地盤標記也符合 graffiti 的定義，主要包括 tags 和提供社區消息的 messages。只看首尾句，可以估計這段講 graffiti 的範圍擴張：它由 urban lower-income protest 發展成跨越種族、經濟階層、性別和年齡的活動。中間還提到ultra-rich 到 ultra-poor、male and female artists，以及 styles 從簡單字體變成多色複雜 pieces。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 graffiti shops，包括實體店和網店，向 taggers 出售大量物品；末句說全球每年花費數十億美元試圖 curb graffiti。只看首尾句，可以看出這段同時處理 graffiti 商業化和反 graffiti 成本。中間的 caps、markers、magazines、T-shirts、backpacks、hidden pockets、drawing books，以及25,000 多個 graffiti websites，都顯示 graffiti 已形成周邊商品、市場和網絡宣傳生態。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說多數 taggers 只想把自己的名字放到盡可能多、盡可能顯眼的地方，但有些 taggers 更願意找偏僻牆面練習 pieces。末句說某些 graffiti，尤其是 spray-can art，已被 conventional art world 認可為 art。只看首尾句，可以推測這段主題是 graffiti 進入主流藝術世界。中間提到canvases 可賣到 $10,000–$12,000、collectors / dealers / curators 幫助風格演變，以及城市提供legal graffiti spaces。"
+      }
+    ]
+  }
+}

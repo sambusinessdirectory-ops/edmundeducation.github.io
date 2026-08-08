@@ -1,0 +1,1561 @@
+{
+  "id": "p1-020-the-psychology-in-happiness",
+  "catalogueId": "p1-020",
+  "catalogueIds": [
+    "p1-020"
+  ],
+  "passage": 1,
+  "title": "The psychology in Happiness",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "F",
+    "D",
+    "C",
+    "A",
+    "B",
+    "B",
+    "B",
+    "D",
+    "C",
+    "D",
+    "moods",
+    "milestone",
+    "pessimistic"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“the need for individuals to understand what really matters to them”",
+      "translation": "個人需要明白自己真正重視甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找的不是一般快樂方法，而是「個人價值」和「真正重要的東西」。定位詞包括 individuals、understand、really matters，也要留意原文可能用 values、choose to do with your life、ideal vision of yourself 來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By contrast, an individual who is not living according to their values, will not be happy, no matter how much they achieve.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相對地，一個沒有按照自身價值生活的人，不論取得多少成就，都不會快樂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s an ongoing personal experiment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它是一場持續進行的個人實驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph F 會談個人價值、人生選擇和持續自我調整。這和題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“what really matters to them” 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的概念是 “what really matters”。原文沒有這幾個字，但有：“Some people, however, are not sure what their values are.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，有些人並不確定自己的 values 是甚麼。"
+            },
+            {
+              "kind": "label",
+              "text": "以及 Harris 的問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“What, in that case, would you choose to do with your life?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那種情況下，你會選擇如何度過自己的人生？"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的核心是 values。題目說 “what really matters to them”，原文用 “values” 表達。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Values 指一個人真正重視、願意按其生活的原則或方向。Harris 的 magic wand question 也是為了排除外界 approval and admiration，讓人直接面對：如果所有人都會永遠欣賞你，你到底會選擇怎樣生活？"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “what really matters to them”= 原文 “what their values are”題目 “the need for individuals to understand”= 原文 “Some people… are not sure” + Harris 用問題引導他們釐清人生方向所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也談 meaningful life，很容易吸引人。不過 C 的重點是情緒完整性和朝目標努力；F才直接談 values，以及如何找出自己真正想要的人生方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“tension resulting from a wide variety of alternatives”",
+      "translation": "因太多選擇而造成的壓力或緊張。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找的是「很多選項 → 壓力」。定位詞是 tension、wide variety、alternatives。原文可能用choices、possibilities、opportunities、stressed out。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are constantly making decisions, ranging from what clothes to put on, to whom we should marry, not to mention all those flavors of ice cream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們不停在作決定，小至穿甚麼衣服，大至和誰結婚，更不用說那些雪糕口味了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having too many choices keeps us wondering about all the opportunities missed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "選擇太多會令我們一直想著自己錯過了所有其他機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 會處理選擇過多造成的心理負擔。這和題目中的 wide variety of alternatives 非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “alternatives” 在原文中可對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“choices”"
+            },
+            {
+              "kind": "quote",
+              "text": "“possibilities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“opportunities”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In what Swarthmore psychologist Barry Schwartz calls ‘the paradox of choice,’ facing many possibilities leaves us stressed out – and less satisfied with whatever we do decide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Swarthmore 心理學家 Barry Schwartz 所稱的 “the paradox of choice” 中，面對很多可能性會令我們感到壓力，並且對自己最後作出的決定更不滿意。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “facing many possibilities”。結果是 “leaves us stressed out”。題目中的 “tension”就是 stressed out 的概括；“wide variety of alternatives” 對應 many possibilities / too many choices。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “tension”= 原文 “stressed out”題目 “wide variety of alternatives”= 原文 “many possibilities” / “too many choices”所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也提到 social advancement 和 possessions，表面上也和選擇人生方向有關。不過Question 2 的核心是「選項太多造成壓力」，Paragraph D 的 paradox of choice 最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“the hope of success as a means of overcoming unhappy feelings”",
+      "translation": "以對成功的期待，作為克服不快情緒的方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心是 hope / expectation of success 和 overcoming unhappy feelings。定位時要找 goal、expecting、positive feelings、suppress negative emotions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, happiness is not a reward for escaping pain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，快樂不是逃離痛苦之後得到的獎賞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“University of Wisconsin neuroscientist Richard Davidson has found that working hard toward a goal, and making progress to the point of expecting a goal to be realized, not only activates positive feelings but also suppresses negative emotions such as fear and depression.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Wisconsin 的神經科學家 Richard Davidson 發現，朝目標努力並進展到期待目標實現的階段，不只能啟動正面情緒，也能壓低 fear 和 depression 等負面情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph C 會處理痛苦、目標、期待成功和負面情緒。這正好對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“hope of success”"
+            },
+            {
+              "kind": "quote",
+              "text": "“overcoming unhappy feelings”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“expecting a goal to be realized”"
+            },
+            {
+              "kind": "quote",
+              "text": "“suppresses negative emotions such as fear and depression”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正支撐答案的是 Davidson 的研究。句子中的 “working hard toward a goal” 表示人正在朝目標努力；“making progress to the point of expecting a goal to be realized” 表示成功變得可期待。結果有兩個：positive feelings 被啟動，negative emotions 被壓低。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “hope of success”= 原文 “expecting a goal to be realized”題目 “overcoming unhappy feelings”= 原文 “suppresses negative emotions such as fear and depression”所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有問「成功本身」是否令人快樂。Paragraph C 特別說 “It is not crossing the finish line that is most rewarding, it is anticipating achieving the goal.” 決定答案的是 anticipating / expecting，而非完成目標那一刻。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“people who call themselves specialists”",
+      "translation": "自稱專家的人。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找的是自稱專家的群體。原文用 “self-appointed experts”，意思是自己給自己專家身份的人，帶有批評意味。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the late 1990s, psychologist Martin Seligman of the University of Pennsylvania urged colleagues to observe optimal moods with the same intensity with which they had for so long studied pathologies: we would never learn about the full range of human functions unless we knew as much about mental wellness as we do about mental illness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1990 年代末，University of Pennsylvania 的心理學家 Martin Seligman 鼓勵同事以研究病理問題的同等強度去觀察最佳情緒狀態：如果我們對 mental wellness 的認識不如對 mental illness的認識那樣多，就無法理解人類功能的完整範圍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The happy man’ he writes, ‘is a hollow man.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他寫道：「快樂的人，是空洞的人。」只看首尾句，可以估計 Paragraph A 先講 positive psychology 興起，後面轉向批評過度追求快樂。本題的 “specialists” 很可能在這個趨勢被商業化的句子中出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “people who call themselves specialists” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Self-appointed experts took advantage of the trend with guarantees to eliminate worry, stress, dejection and even boredom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些自封專家利用這股趨勢，保證可以消除 worry、stress、dejection，甚至 boredom。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Self-appointed experts” 是本題最直接答案訊號。Self-appointed 指不是由權威機構任命，更多是自己聲稱自己有資格。題目把 experts 改寫成 specialists，意思接近；“people who call themselves” 對應 self-appointed。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “people who call themselves specialists”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “Self-appointed experts”所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 中有很多真正的 psychologists 名字，例如 Seligman、Horwitz、Wilson。題目問的不是正式心理學家，而是 self-appointed experts。要留意 self-appointed 的貶義，避免把所有experts 混在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“human beings’ capacity for coping with change”",
+      "translation": "人類應對變化的能力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 capacity for coping with change。原文很可能用 adaptable、adjustment、bounce back 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After all people are remarkably adaptable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畢竟，人類非常能適應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s possible to get off the treadmill entirely by focusing on activities that are dynamic surprising, and attention- absorbing, and thus less likely to bore us than, say, acquiring shiny new toys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可以完全離開這種 treadmill，方法是專注於 dynamic、surprising、attention-absorbing 的活動；這些活動比起買亮眼的新玩具，更不容易令人厭倦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接把段落焦點放在人類適應能力上，所以 Paragraph B 是本題目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“capacity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coping with change”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“people are remarkably adaptable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Following a variable period of adjustment, we bounce back to our previous level of happiness, no matter what happens to us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過一段長短不一的調整期後，不論發生甚麼事，我們都會回到原本的快樂水平。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“adaptable” 是核心詞，意思是能適應。後一句 “bounce back” 表示從變化、打擊或新情況中恢復。題目中的 “coping with change” 就是把 adjustment and bounce back 概括成日常說法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “capacity for coping with change”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “remarkably adaptable”= 原文 “adjustment” + “bounce back”所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也談 coping，特別是 positive attitude 不適合每個人。不過 Question 5 的主體是整體人類面對變化的適應能力，Paragraph B 的 adaptability 明確得多。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“doing things which are interesting in themselves”",
+      "translation": "做一些活動本身就有趣，而非只為了外在獎賞。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 intrinsically interesting activities。原文沒有 intrinsic 這個字，但會用 dynamic、surprising、attention-absorbing、less likely to bore us 來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After all people are remarkably adaptable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畢竟，人類非常能適應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s possible to get off the treadmill entirely by focusing on activities that are dynamic surprising, and attention- absorbing, and thus less likely to bore us than, say, acquiring shiny new toys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可以完全離開這種 treadmill，方法是專注於 dynamic、surprising、attention-absorbing 的活動；這些活動比起買亮眼的新玩具，更不容易令人厭倦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經能看到 doing things interesting in themselves 的意思：活動本身有變化、有驚喜、能吸引注意力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“doing things”"
+            },
+            {
+              "kind": "quote",
+              "text": "“interesting in themselves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“focusing on activities that are dynamic surprising, and attention- absorbing”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專注於充滿變化、令人驚喜、能吸引注意力的活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的活動和 “acquiring shiny new toys” 形成對照。買新玩具代表外在物質刺激，容易很快令人厭倦；dynamic and attention-absorbing activities 則因活動本身持續吸引人，所以較能離開happiness treadmill。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “doing things”= 原文 “focusing on activities”題目 “interesting in themselves”= 原文 “dynamic, surprising, and attention-absorbing” + “less likely to bore us”所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不應只看 “happiness treadmill”。Treadmill 是問題；真正回答題目的是怎樣離開 treadmill：投入本身能吸引注意力的活動。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B、D",
+      "answerKey": "B、D",
+      "type": "Choose TWO letters",
+      "prompt": "“Which TWO of the following people argue against aiming for constant happiness?”",
+      "translation": "以下哪兩個人反對把持續快樂當成目標？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B Eric Wilson D Russ Harris B Eric Wilson目標段落：Paragraph A證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wake Forest University’s Eric Wilson fumes that the obsession with happiness amounts to a‘craven disregard’ for the melancholic perspective that has given rise to the greatest works of art.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wake Forest University 的 Eric Wilson 憤怒地表示，對快樂的迷戀等於懦弱地漠視 melancholic perspective，而這種憂鬱視角孕育了最偉大的藝術作品。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The happy man’ he writes, ‘is a hollow man.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他寫道：「快樂的人，是空洞的人。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wilson 批評的是 “obsession with happiness”。他認為 sadness / melancholy 有其價值，尤其與偉大藝術創作有關。因此，他明確反對把快樂視為唯一或持續追求的理想狀態。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “argue against aiming for constant happiness”= 原文 “fumes that the obsession with happiness…”= 原文 “The happy man… is a hollow man.”所以 B 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "D Russ Harris目標段落：Paragraph C證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Russ Harris, the author of The Happiness Trap, calls popular conceptions of happiness dangerous because they set people up for a ‘struggle against reality’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《The Happiness Trap》的作者 Russ Harris 認為，大眾對快樂的想法很危險，因為它們使人陷入一場「對抗現實的掙扎」。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you’re going to live a rich and meaningful life,” Harris says, “you’re going to feel a full range of emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Harris 說：「如果你要過一種豐富而有意義的人生，你就會感受到完整範圍的情緒。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Harris 的觀點很清楚：人生有 disappointment、loss、inconveniences；有意義的人生包括完整情緒，不可能只保留快樂。他反對的是把 happiness 理解成不斷逃離 pain 和 negative emotions。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “constant happiness”= 原文 popular conceptions of happiness that deny real-life pain題目 “argue against”= 原文 “calls… dangerous”所以 D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其餘選項排除A Martin Seligman 是 positive psychology 的推動者。他主張研究 optimal moods，沒有在文中反對追求持續快樂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Sonja Lyubomirsky 講 adaptability 和 happiness treadmill，但她主要指出成就與物質帶來的快樂會消退，未直接反對 constant happiness 作為一種文化目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E Barry Schwartz 討論 choice 太多造成壓力，焦點在選擇負擔，不是 constant happiness。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        7,
+        8
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "C、D",
+      "answerKey": "C、D",
+      "type": "Choose TWO letters",
+      "prompt": "“Which TWO of the following beliefs are identified as mistaken in the text?”",
+      "translation": "文章指出以下哪兩種信念是錯誤的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C An optimistic outlook ensures success. D Unhappiness can and should be avoided. C An optimistic outlook ensures success.目標段落：Paragraph E證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Barbara Held, a professor of psychology at Bowdoin College, rails against ‘the tyranny of the positive attitude’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bowdoin College 的心理學教授 Barbara Held 強烈批評「正面態度的暴政」。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Looking on the bright side isn’t possible for some people and is even counterproductive” she insists."
+            },
+            {
+              "kind": "paragraph",
+              "text": "她堅持認為，對某些人來說，看光明面是不可能的，甚至會有反效果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說 optimistic outlook ensures success，意思是只要樂觀就能保證成功。Paragraph E 明確反對一刀切的 positive attitude。Held 說 positive outlook 對某些人不可能，甚至counterproductive。Julie Norem 也補充，defensive pessimism 可以幫 anxious people 完成事情，並讓他們更快樂。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 “An optimistic outlook ensures success”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 一種把 positive attitude 視作普遍成功方法的信念原文 “tyranny of the positive attitude” / “counterproductive”= 這種信念被指出有問題所以 C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Unhappiness can and should be avoided.目標段落：Paragraph A and Paragraph C Paragraph A 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This happiness movement has provoked a great deal of opposition among psychologists who observe that the preoccupation with happiness has come at the cost of sadness, an important feeling that people have tried to banish from their emotional repertoire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場 happiness movement 引起許多心理學家的反對；他們指出，對快樂的過度關注犧牲了sadness，而 sadness 是一種重要情緒，人們卻試圖把它從自身情緒範圍中驅逐出去。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They don’t acknowledge that real life is full of disappointments, loss, and inconveniences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些觀念沒有承認真實人生充滿失望、失去和不便。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說 unhappiness can and should be avoided，即負面情緒可以也應該被避開。文章多處反對這種信念。Paragraph A 說 sadness 是 important feeling；Paragraph C 的 Harris 說meaningful life 會包含 full range of emotions。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 “Unhappiness can and should be avoided”= 原文 “banish sadness” / “escaping pain”原文態度= sadness and negative emotions are part of real life and meaningful life所以 D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其餘選項排除A inherited wealth 和 earned wealth 沒有出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B social status 相關概念在 Paragraph B 只是 happiness treadmill 的一部分，文章沒有把 “social status affects our perception of happiness” 作為一條明確錯誤信念來討論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 年輕人失戀後自然流淚在 Paragraph A 被視為正常 sadness 的例子，文章沒有說這是錯誤信念。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        9,
+        10
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "moods",
+      "answerKey": "moods",
+      "type": "Sentence Completion",
+      "prompt": "“In order to have a complete understanding of how people’s minds work, Martin Seligman suggested that research should examine our most positive 11 ________________ as closely as it does our psychological problems.”",
+      "translation": "為了完整理解人的心理運作，Martin Seligman 建議研究應像研究心理問題一樣仔細研究人最正面的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 “our most positive”，所以答案需要一個複數名詞。定位詞是 Martin Seligman、positive、psychological problems。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the late 1990s, psychologist Martin Seligman of the University of Pennsylvania urged colleagues to observe optimal moods with the same intensity with which they had for so long studied pathologies…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1990 年代末，University of Pennsylvania 的心理學家 Martin Seligman 鼓勵同事以研究pathologies 的同等強度去觀察 optimal moods。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The happy man’ he writes, ‘is a hollow man.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他寫道：「快樂的人，是空洞的人。」只看第一句，已經可定位到 Seligman 和 optimal moods。本題答案就在首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martin Seligman”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most positive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“psychological problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“optimal moods”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pathologies”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “optimal moods” 指最佳或最正面的情緒狀態。題目把 “optimal” 改成 “most positive”，把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pathologies” 改成 “psychological problems”。空格前已有 “our most positive”，所以只需填moods。答案格式檢查： moods 是一個詞，符合 ONE WORD 限制。所以答案是 moods。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "milestone",
+      "answerKey": "milestone",
+      "type": "Sentence Completion",
+      "prompt": "“Soon after arriving at a 12 ________________ in their lives, people become accustomed to what they have achieved and have a sense that they are lacking something.”",
+      "translation": "在人生中到達某個 ______ 後不久，人們會習慣自己已取得的成就，並感到仍缺少某些東西。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，所以答案需要單數名詞。定位詞是 Soon after、become accustomed、achieved、lacking something。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After all people are remarkably adaptable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畢竟，人類非常能適應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s possible to get off the treadmill entirely by focusing on activities that are dynamic surprising, and attention- absorbing, and thus less likely to bore us than, say, acquiring shiny new toys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可以完全離開這種 treadmill，方法是專注於 dynamic、surprising、attention-absorbing 的活動；這些活動比起買亮眼的新玩具，更不容易令人厭倦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段講 adaptability 和習慣成就後的空虛感，正好對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soon after”"
+            },
+            {
+              "kind": "quote",
+              "text": "“achieved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lacking something”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soon after we reach a milestone, we start to feel that something is missing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在我們達到一個 milestone 後不久，我們便開始覺得少了些甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “reach a milestone” 改成 “arriving at a milestone”。“something is missing” 對應 “have a sense that they are lacking something”。空格就是 milestone。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案格式檢查： milestone 是一個詞，符合 ONE WORD 限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 milestone。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 accomplishments。原文前一句提到 accomplishments，但題目句子有 “arriving at a ___”，最自然對應 “reach a milestone”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "pessimistic",
+      "answerKey": "pessimistic",
+      "type": "Sentence Completion",
+      "prompt": "“People who are 13 ________________ by nature are more likely to succeed if they make thorough preparation for a presentation.”",
+      "translation": "天生 ______ 的人，如果為 presentation 作徹底準備，較有可能成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “are ___ by nature” 中，需要形容詞。定位詞是 presentation、prepare carefully、by nature。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Besides, not everyone can put on a happy face.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，不是每個人都能擺出快樂的臉孔。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A naturally pessimistic architect, for example, can set low expectations for an upcoming presentation and review all of the bad outcomes that she’s imagining, so that she can prepare carefully and increase her chances of success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一位天生 pessimistic 的建築師，可以為即將到來的 presentation 設定低期望，並回顧她想像中的所有壞結果，這樣她就能仔細準備，增加成功機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看尾句，答案已經非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“presentation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“preparation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“by nature”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“naturally pessimistic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prepare carefully”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increase her chances of success”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “by nature” 對應原文 “naturally”。題目 “make thorough preparation” 對應 “prepare carefully”。題目 “more likely to succeed” 對應 “increase her chances of success”。空格需要形容詞 pessimistic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案格式檢查： pessimistic 是一個詞，符合 ONE WORD 限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 pessimistic。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The psychology in Happiness.pdf",
+    "sha256": "f7296551f783517d74c6f07335ba5980dcd0b042db07c8709f9a326e41c49964",
+    "pageCount": 19
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以看到本段從 Martin Seligman 提倡研究 optimal moods 開始，最後以 Eric Wilson 的強烈批評收結，說過度追求快樂會令人的內在變得空洞。這段大概會處理 positive psychology 的興起，以及它引來的反對聲音。重點包括 happiness movement、self-appointed experts、sadness 的價值、melancholy 對藝術創作的重要性。"
+      },
+      {
+        "number": "B",
+        "summary": "只看首句和尾句，可以看到本段先說人類非常 adaptable，最後說人可以透過 dynamic、surprising、attention-absorbing 的活動離開 happiness treadmill。這段大概會解釋人如何適應人生變化，也會指出成就、婚姻、工作、物質和社會地位帶來的快樂容易消退。真正可持續的方向，是投入本身有趣、能吸引注意力的活動。"
+      },
+      {
+        "number": "C",
+        "summary": "只看首句和尾句，可以看到本段先指出 happiness 不是逃離痛苦後得到的獎賞，最後說朝目標努力並期待成功，能啟動正面情緒並壓低 fear 和 depression。這段大概會批評「人生應避開負面情緒」的想法，並提出更成熟的觀點：meaningful life 必然包含完整情緒，而朝有意義目標前進本身能帶來快樂。"
+      },
+      {
+        "number": "D",
+        "summary": "只看首句和尾句，可以看到本段由日常生活中的各種 decision 開始，最後說太多選擇會令我們一直想著錯過了甚麼。這段大概會處理 Barry Schwartz 的 “paradox of choice”：我們直覺上以為選擇越多越好，但選項太多會使人更 stressed，也對已作出的決定更不滿意。"
+      },
+      {
+        "number": "E",
+        "summary": "只看首句和尾句，可以看到本段先說並非每個人都能 put on a happy face，最後用 pessimistic architect 的例子說明低期望和預想壞結果可以促進準備。這段大概會反對一刀切的 positive attitude，指出某些 anxious 或 naturally pessimistic 的人，透過 defensive pessimism 反而能把事情做得更好。"
+      },
+      {
+        "number": "F",
+        "summary": "只看首句和尾句，可以看到本段先說如果一個人沒有按自己的 values 生活，不論成就多少都不會快樂；最後說 happiness 不是固定狀態，像一場持續的 personal experiment。這段大概會把焦點轉向個人價值：人要先弄清楚真正重視甚麼，再朝理想自我採取行動。 Answer Key Questio Answer n 1 F 2 D 3 C 4 A 5 B 6 B 7 B 8 D 9 C 10 D 11 moods 12 milestone 13 pessimistic"
+      }
+    ]
+  }
+}

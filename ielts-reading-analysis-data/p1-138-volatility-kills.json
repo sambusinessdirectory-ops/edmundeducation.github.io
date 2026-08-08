@@ -1,0 +1,2491 @@
+{
+  "id": "p1-138-volatility-kills",
+  "catalogueId": "p1-138",
+  "catalogueIds": [
+    "p1-138"
+  ],
+  "passage": 1,
+  "title": "Volatility Kills",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "C",
+    "B",
+    "A",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "the next crash",
+    "a commodities boom",
+    "necessary infrastructure",
+    "growth accelerating"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B — Paul Collier",
+      "answerKey": "B — Paul Collier",
+      "type": "Matching Statements with",
+      "prompt": "“An unexpectedly contrary result”",
+      "translation": "一個出乎意料、方向相反的結果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features 題，要把 statement 配到正確人物。做法是先找人名，再讀該人物附近的觀點。這題的關鍵是 “unexpectedly contrary”，即原本以為 A 會帶來好結果，結果卻出現相反效果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collier finds that bad governance is the main reason countries fail to take advantage of the revenue bonanza that results from a boom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Collier 發現，治理不善是一些國家無法善用繁榮時期所帶來收入暴增的主要原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Instead of democracy disciplining governments to manage these resource booms well, what happens is that the resource revenues corrupt the normal functioning of democracy—unless you stop (them from) corrupting the normal function of democracy with sufficient checks and balances,” he said at a talk in January at the Carnegie Council in New York City."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在紐約 Carnegie Council 一次一月演講中說，民主原本理應約束政府，好好管理這些資源繁榮；實際發生的情況卻是，資源收入腐蝕了民主的正常運作，除非有足夠的制衡機制阻止這種腐蝕。只看首尾句，可以先估 Paragraph E 是 Collier 對 boom、bad governance 和 democracy 的分析。首句說治理不善令國家浪費資源繁榮；末句說資源收入可能腐蝕民主，這已經帶出一種「結果與一般期待相反」的味道。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的概念是：“unexpectedly contrary result”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時不一定會看到 unexpectedly 或 contrary 原字。應留意這類意思：原本應該有好效果= democracy disciplining governments結果變差= resource revenues corrupt the normal functioning of democracy在 Paragraph E 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, a democratic government, he adds, often makes the aftermath of a boom worse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，他補充說，民主政府往往會令繁榮之後的局面更差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句值得停下，因為 democratic government 通常令人聯想到 accountability、discipline、better governance，但原文說 often makes the aftermath worse。這正是出乎意料的反向結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, a democratic government, he adds, often makes the aftermath of a boom worse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，他補充說，民主政府往往會令繁榮之後的局面更差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “a democratic government”。核心動詞短語是 “makes … worse”。時間或情境是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the aftermath of a boom”，即經濟或資源繁榮之後的階段。題目說 “An unexpectedly contrary result”，沒有直接問 “democracy”，但 “contrary” 的意思要從上下文讀出。正常預期是民主能 discipline governments，即約束政府，令政府更妥善管理資源繁榮。Collier 的觀點剛好相反：在資源收入湧入時，如果缺乏 checks and balances，資源收入會corrupt the normal functioning of democracy。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“An unexpectedly contrary result”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead of democracy disciplining governments…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resource revenues corrupt the normal functioning of democracy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a democratic government … often makes the aftermath of a boom worse”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： unexpectedly contrary result= 原本期望民主約束政府，結果資源收入反過來腐蝕民主運作= 原本應有好效果，實際效果變差答案判斷：這個觀點由 Collier 提出，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能會看見 Paragraph C 的 “growth accelerating, governance actually worsened”，也覺得這是反向結果。這句確實有 “despite growth, governance worsened” 的反差，但 Questions 1–4要配人物，而 Paragraph C 的這個研究來自 World Bank report，不在 A–C 三位人物之中。題目要找的是可配到指定人物的 statement；Paragraph E 明確寫 “Collier finds” 和 “he adds”，所以Q1 要選 Paul Collier。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "C — Jorge Arbache",
+      "answerKey": "C — Jorge Arbache",
+      "type": "Matching Statements with",
+      "prompt": "“An estimate of greater productivity if sudden economic downturns had not occurred”",
+      "translation": "如果突然的經濟下跌沒有發生，生產力或人均產出會更高的一項估算。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找人物提出的 estimate。題目中的強定位概念是 “if … had not occurred”，這通常對應原文中的假設句。另一個定位方向是 “greater productivity”，可能改寫成 GDP、output、income 或per citizen。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The growth spurts have been interrupted by declines so fierce that these countries did not grow at all from 1975 to 2005.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些增長爆發被非常猛烈的下跌打斷，以致這些國家在 1975 至 2005 年間完全沒有增長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If these collapses had not occurred, he observes, the level of gross domestic product for each citizen of the 48 nations of sub-Saharan Africa would have been a third higher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他指出，如果這些崩跌沒有發生，撒哈拉以南非洲 48 國每位公民的國內生產總值水平本會高三分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph B 專門講 collapses 的代價。第一句說增長被暴跌打斷；最後一句用假設方式估算，如果沒有 collapses，人均 GDP 會高很多。這段非常適合 Question 2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“estimate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“if sudden economic downturns had not occurred”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greater productivity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph B，可以看到 Jorge Arbache 的名字："
+            },
+            {
+              "kind": "quote",
+              "text": "“comments Jorge Arbache, a senior World Bank economist.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If these collapses had not occurred, he observes, the level of gross domestic product for each citizen of the 48 nations of sub-Saharan Africa would have been a third higher.”"
+            },
+            {
+              "kind": "label",
+              "text": "這句有兩個強烈對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“these collapses”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= sudden economic downturns"
+            },
+            {
+              "kind": "quote",
+              "text": "“would have been a third higher”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= estimate of greater productivity / output"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If these collapses had not occurred, he observes, the level of gross domestic product for each citizen of the 48 nations of sub-Saharan Africa would have been a third higher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他指出，如果這些崩跌沒有發生，撒哈拉以南非洲 48 國每位公民的國內生產總值水平本會高三分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的條件是 “If these collapses had not occurred”。“collapses” 回指前文 “growth collapses”，即經濟增長突然崩跌。結果是 “GDP for each citizen … would have been a third higher”。這是明確的數量估算，a third higher 即高三分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “gross domestic product for each citizen” 概括成 “greater productivity”。嚴格來說，GDP per citizen 更接近 per capita output 或 per capita income，不一定完全等同 productivity。但在這題的配對範圍內，題目想捕捉的是「如果沒有 downturns，經濟產出水平會更高」這個意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“sudden economic downturns”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“growth collapses” / “these collapses”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“had not occurred”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“had not occurred”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“greater productivity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“gross domestic product for each citizen … would have been a third higher”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：說這句話的人是 Jorge Arbache，因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paul Collier 也大量談 collapse、boom、governance 和 future development，很容易吸引學生。但Question 2 的核心是 “estimate” 加上 “a third higher”。這個數量估算只在 Paragraph B 出現，而且緊接 Jorge Arbache 的引述後面。看到具體數字時，要優先檢查該句前後的人物。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "B — Paul Collier",
+      "answerKey": "B — Paul Collier",
+      "type": "Matching Statements with",
+      "prompt": "“A proposed set of guidelines for certain countries to narrow the widening economic gap”",
+      "translation": "一套建議採用的指引，用來幫助某些國家縮窄正在擴大的經濟差距。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 “proposed set of guidelines”。題目沒有直接說 Africa，但 “certain countries” 指向非洲國家或最貧窮國家。另一個重要概念是 “widening economic gap”，會對應 divergence、gap、falling behind 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D and Paragraph G Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most incisive analysis of the volatility question comes from Paul Collier, a longtime specialist in African economics at the University of Oxford and author of the recent book The Bottom Billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於經濟波動問題，最尖銳的分析或許來自 Paul Collier；他是牛津大學長期研究非洲經濟的專家，也是近作《The Bottom Billion》的作者。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They include revamped trade measures, better-apportioned aid, and sustained military intervention in certain instances, to avert what he sees as a rapidly accelerating divergence of the world’s poorest, primarily in Africa, from the rest of the world, even other developing nations such as India and China.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些選項包括改革貿易措施、更合理分配援助，以及在某些情況下持續軍事介入，用以避免他眼中世界最貧窮國家，主要在非洲，與世界其他地區，甚至印度和中國等其他發展中國家之間的差距急速擴大。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To encourage reform, Collier recommends that the G8 nations agree to accept these measures as voluntary guidelines for multinationals doing business in Africa…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了鼓勵改革，Collier 建議 G8 國家同意把這些措施作為在非洲營商的跨國公司的自願性指引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些首尾句，可以先估：Paragraph D 介紹 Collier 的總體政策目標，即防止最窮國家與其他國家差距擴大；Paragraph G 則把他的措施具體化為 voluntary guidelines。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“proposed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“set of guidelines”"
+            },
+            {
+              "kind": "quote",
+              "text": "“narrow the widening economic gap”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描時，最明顯的原文對應是 Paragraph G 的："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collier recommends…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“voluntary guidelines…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "而 “widening economic gap” 對應 Paragraph D 的："
+            },
+            {
+              "kind": "quote",
+              "text": "“rapidly accelerating divergence…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“They include revamped trade measures, better-apportioned aid, and sustained military intervention in certain instances, to avert what he sees as a rapidly accelerating divergence of the world’s poorest, primarily in Africa, from the rest of the world, even other developing nations such as India and China.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些選項包括改革貿易措施、更合理分配援助，以及在某些情況下持續軍事介入，用以避免他眼中世界最貧窮國家，主要在非洲，與世界其他地區，甚至印度和中國等其他發展中國家之間的差距急速擴大。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“To encourage reform, Collier recommends that the G8 nations agree to accept these measures as voluntary guidelines for multinationals doing business in Africa…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了鼓勵改革，Collier 建議 G8 國家同意把這些措施作為在非洲營商的跨國公司的自願性指引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來建立完整答案鏈： Collier proposes measures / guidelines→ 這些措施針對非洲及世界最窮國家→ 目的是避免它們和其他國家之間的 divergence 加速→ 題目把 divergence 改寫成 widening economic gap"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a proposed set of guidelines”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collier recommends…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“voluntary guidelines”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“certain countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the world’s poorest, primarily in Africa”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“narrow the widening economic gap”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“to avert … a rapidly accelerating divergence”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：這套建議來自 Paul Collier，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Jeffrey Sachs 也在 Paragraph H 出現，而且與 aid approach 有關，但他並沒有提出這套standards、codes 或 guidelines。Paragraph H 提到 Sachs，是用來和 Collier 的做法作比較。若題目出現 guidelines、G8、multinationals、auctions、transparency，答案要回到 Collier。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A — Jeffrey D. Sachs",
+      "answerKey": "A — Jeffrey D. Sachs",
+      "type": "Matching Statements with",
+      "prompt": "“An advocate of a method used for a particular assessment”",
+      "translation": "一位主張某種方法的人；這種方法被用來作某種處理或評估方向。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的 wording 比較抽象。真正可定位的是 “advocate of a method”。文章中和 “method /approach” 最接近的字是 Paragraph H 的 “approach emphasised by economist Jeffrey D. Sachs”。因此要去 Paragraph H 找 Sachs。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These measures, he says, are more important than elevating aid levels, an approach emphasised by economist Jeffrey D. Sachs of Columbia University and celebrity activists such as Bono.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，這些措施比提高援助水平更重要；提高援助水平這種做法，是哥倫比亞大學經濟學家Jeffrey D. Sachs 和 Bono 等名人倡議者所強調的方向。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Whether it gets a few hundred million more or less in aid is really second-order,’ he insists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他堅持說：「它得到多幾億或少幾億援助，其實都是次要問題。」只看首尾句，可以知道 Paragraph H 正在比較 Collier 的 measures 和 Sachs / Bono 強調的 aid approach。第一句直接出現 Jeffrey D. Sachs，並把他的觀點連到 “elevating aid levels”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“advocate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“method”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 advocate 原字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“an approach emphasised by economist Jeffrey D. Sachs…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“emphasised” 在這裡等於主張、重視、倡議；“approach” 等於 method / way。這句直接把 Sachs和 increasing aid levels 連在一起。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“These measures, he says, are more important than elevating aid levels, an approach emphasised by economist Jeffrey D. Sachs of Columbia University and celebrity activists such as Bono.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，這些措施比提高援助水平更重要；提高援助水平這種做法，是哥倫比亞大學經濟學家Jeffrey D. Sachs 和 Bono 等名人倡議者所強調的方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中，“elevating aid levels” 是方法；“an approach emphasised by economist Jeffrey D. Sachs”說明 Sachs 是這種方法的支持者或倡議者。題目沒有要求我們判斷 Collier 是否同意 Sachs，只要找出誰 advocate 這個 method。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“An advocate of a method”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“an approach emphasised by economist Jeffrey D. Sachs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "method= approach advocate= emphasise / support / promote答案判斷：題目所說的 advocate 是 Jeffrey D. Sachs，因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 的主語其實先是 “These measures, he says”，這個 “he” 指 Collier。學生可能看到整段大多在講 Collier，就把答案選 B。但題目問的是「主張某種方法的人」，而該方法是 elevating aid levels。原文清楚說這個 approach 由 Jeffrey D. Sachs 和 Bono 強調，所以 Q4 選 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Economic instability in some African countries may harm their ability to sustain growth after reaching a particular level.”",
+      "translation": "一些非洲國家的經濟不穩定，可能會損害它們在達到某個階段後維持增長的能力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心要判斷：文章是否說 economic instability /volatility 會令近期增長難以持續。題目中的 “after reaching a particular level” 對應 Paragraph A的 “may have reached a turning point”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite gun battles in the capital of Chad, rioting in Kenya, and galloping inflation in Zimbabwe, the economies of sub-Saharan Africa are, as a whole, in better shape than they were a few years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Chad 首都有槍戰、Kenya 有暴亂、Zimbabwe 通脹急升，撒哈拉以南非洲的經濟整體上仍比幾年前狀況更好。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The optimism, when inspected more closely, may be short-lived because of the persistence of a devastating pattern of economic volatility that has lingered for decades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，仔細檢視這種樂觀情緒，它可能只是短暫的，原因是數十年來一直存在一種破壞性經濟波動模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 的功能很清楚：先提出近期增長和樂觀，再用 volatility 打斷這種樂觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應題目說 economic instability 可能影響 sustain growth。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Economic instability”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sustain growth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“particular level”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應： economic instability= economic volatility sustain growth= whether the upswing will continue particular level / stage= reached a turning point在 Paragraph A 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The bank has given a cautious assessment that the region may have reached a turning point.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界銀行作出謹慎評估，認為該地區可能已到達轉折點。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“An overriding question for development economists remains whether the upswing will continue…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對發展經濟學家來說，一個最重要的問題仍然是這種上升勢頭會否持續。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The bank has given a cautious assessment that the region may have reached a turning point.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界銀行作出謹慎評估，認為該地區可能已到達轉折點。"
+            },
+            {
+              "kind": "quote",
+              "text": "“An overriding question for development economists remains whether the upswing will continue…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對發展經濟學家來說，一個最重要的問題仍然是這種上升勢頭會否持續。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The optimism, when inspected more closely, may be short-lived because of the persistence of a devastating pattern of economic volatility that has lingered for decades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仔細檢視這種樂觀情緒，它可能只是短暫的，原因是數十年來一直存在一種破壞性經濟波動模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 economic instability may harm ability to sustain growth。原文說 optimism may be short-lived because of economic volatility。這兩句方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Economic instability”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“economic volatility”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“may harm their ability to sustain growth”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“whether the upswing will continue”"
+            },
+            {
+              "kind": "quote",
+              "text": "“optimism … may be short-lived”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“after reaching a particular level”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“may have reached a turning point”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文支持題目命題，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “some African countries”，原文說 “sub-Saharan Africa … as a whole” 和 “the region”。這裡沒有造成衝突，因為題目用 some 比原文更保守，而且文章後文多次談到 sub-Saharan countries、resource-rich countries 等不同群體。真正控制答案的是 volatility 是否會令增長難以持續；原文對這點有清楚支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Collier is the most influential scholar in the study of economic volatility.”",
+      "translation": "Collier 是研究經濟波動最具影響力的學者。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章有沒有說 Collier 是 “the most influential scholar”。題目有兩個高風險限制詞： most 和 influential。IELTS 這類題不能只看到 very positive description 就選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most incisive analysis of the volatility question comes from Paul Collier, a longtime specialist in African economics at the University of Oxford and author of the recent book The Bottom Billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於經濟波動問題，最尖銳的分析或許來自 Paul Collier；他是牛津大學長期研究非洲經濟的專家，也是近作《The Bottom Billion》的作者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They include revamped trade measures, better-apportioned aid, and sustained military intervention in certain instances, to avert what he sees as a rapidly accelerating divergence of the world’s poorest, primarily in Africa, from the rest of the world, even other developing nations such as India and China.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些選項包括改革貿易措施、更合理分配援助，以及在某些情況下持續軍事介入，用以避免世界最貧窮國家，主要在非洲，與世界其他地區，甚至印度和中國等其他發展中國家之間的差距急速擴大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph D 對 Collier 的評價很高，也介紹他的政策主張。但高評價是否等於 “most influential scholar”，仍要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collier”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most influential scholar”"
+            },
+            {
+              "kind": "quote",
+              "text": "“economic volatility”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most incisive analysis of the volatility question comes from Paul Collier…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有 “most”，也有 “volatility”，所以非常容易誤判。但要看形容詞是否相同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most incisive analysis of the volatility question comes from Paul Collier…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於經濟波動問題，最尖銳的分析或許來自 Paul Collier。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“incisive” 指分析尖銳、深入、切中要害。“influential” 指影響力大、被廣泛採納或能左右學界／政策界。兩者不是同一概念。題目命題： Collier 是最具影響力的 scholar。原文命題： Collier 可能提出最尖銳的 analysis。原文沒有告訴我們：他的學術影響力排名；其他學者是否比他更有影響力；他的研究是否被最多人引用；他在 volatility studies 中是否最具權威。答案判斷：這題不能選 TRUE，因為 “most incisive analysis” 不等於 “most influential scholar”。也不能選 FALSE，因為原文沒有說他不是最有影響力，也沒有指出另一位學者更有影響力。缺少核心資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫邊界",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文：“most incisive analysis”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“most influential scholar”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者有正面評價上的接近，但評價維度不同。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “most”。學生看到原文和題目都有最上級，很容易直接配對。但 Matching 或T/F/NG 中，most 只是定位詞，真正定案的是後面的形容詞。incisive 是分析質素；influential 是影響力。文章沒有提供 influence 這一層資料，因此選 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Certain African governments levy substantial taxes on those who profit greatly from exports.”",
+      "translation": "某些非洲政府對從出口中獲得大量利益的人或機構徵收高額稅款。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷非洲政府是否已經徵收 substantial taxes。題目中的強定位詞是 “taxes” 和 “exports”。文章中對應位置在 Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collier advocates that African nations institute an array of standards and codes to bolster governments, one of which would substitute auctions for bribes in apportioning mineral rights and another of which would tax export revenues adequately.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Collier 主張非洲國家建立一系列標準和守則來強化政府；其中一項會在分配礦產權時用拍賣取代賄賂，另一項會充分徵收出口收入稅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If a nation gets these points right,’ he argues, ‘it’s going to develop. If it gets them wrong, it won’t.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為：「如果一個國家把這些要點做對，它就會發展；如果做錯，它就不會。」只看首尾句，可以看出 Paragraph F 是 Collier 的改革建議：用 auctions 減少 bribes，並對 export revenues 作 adequate taxation。這段也會講這些措施是否已經做到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“levy substantial taxes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exports”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“would tax export revenues adequately”"
+            },
+            {
+              "kind": "label",
+              "text": "以及例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“He cites the Democratic Republic of the Congo, which took in $200 million from mineral exports in 2006 yet collected only $86,000 in royalties for its treasury.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他引用剛果民主共和國作例子：該國在 2006 年從礦產出口中取得 2 億美元，國庫卻只收到86,000 美元的特許權使用費。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用現在式 “levy substantial taxes”，表示某些政府目前有徵收高額稅款。原文第一句用"
+            },
+            {
+              "kind": "quote",
+              "text": "“would tax export revenues adequately”，表示這是 Collier 建議建立的制度之一。would 在這裡表示如果採用這些 standards and codes，便會做到 adequate taxation；語氣是 proposal，不是現況描述。更重要的是原文例子：“He cites the Democratic Republic of the Congo, which took in $200 million from mineral exports in 2006 yet collected only $86,000 in royalties for its treasury.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他引用剛果民主共和國作例子：該國在 2006 年從礦產出口中取得 2 億美元，國庫卻只收到86,000 美元的特許權使用費。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "$200 million 對比 $86,000，顯示收入巨大，但政府實際收到的 royalties 極少。這和題目說 “levy substantial taxes” 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“levy substantial taxes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文期待的制度："
+            },
+            {
+              "kind": "quote",
+              "text": "“would tax export revenues adequately”"
+            },
+            {
+              "kind": "label",
+              "text": "原文實際例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“took in $200 million … yet collected only $86,000”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "substantial taxes= 大量或充分徵收稅款only $86,000 from $200 million= 實際收取極少，與 substantial 不符答案判斷：原文提供相反方向的證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “would tax export revenues adequately”。學生看到 tax 和 export revenues 原字，可能直接選 TRUE。但 would 顯示這是 Collier 建議的改革方向，不代表現時已經做到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是題目中的 “Certain African governments”。原文雖然沒有逐一列出所有非洲政府，但給出的具體例子剛好說明資源出口收入未被充分轉化為政府收入。整段方向也在說為何需要建立新 standards and codes。因此題目把 proposed reform 寫成 current practice，答案要判FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some African nations’ decisions about addressing particular existing problems are directly related to their future economic trends.”",
+      "translation": "一些非洲國家如何處理某些既有問題，會直接關係到它們未來的經濟走向。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問「現在怎樣處理問題」和「未來發展」之間是否有直接關係。定位可從 “decisions /addressing problems” 找到 Paragraph F 的 “gets these points right / wrong”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collier advocates that African nations institute an array of standards and codes to bolster governments, one of which would substitute auctions for bribes in apportioning mineral rights and another of which would tax export revenues adequately.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Collier 主張非洲國家建立一系列標準和守則來強化政府；其中一項會在分配礦產權時用拍賣取代賄賂，另一項會充分徵收出口收入稅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If a nation gets these points right,’ he argues, ‘it’s going to develop. If it gets them wrong, it won’t.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為：「如果一個國家把這些要點做對，它就會發展；如果做錯，它就不會。」只看首尾句，Paragraph F 的功能非常貼題。第一句列出要處理的問題：bribes、mineral rights、export revenues；最後一句把是否處理好，直接連到 develop or not develop。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“decisions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“addressing particular existing problems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“future economic trends”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應： particular existing problems= bribes in apportioning mineral rights; inadequate taxation of export revenues decisions about addressing= gets these points right / gets them wrong future economic trends= it’s going to develop / it won’t"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If a nation gets these points right,’ he argues, ‘it’s going to develop. If it gets them wrong, it won’t.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為：「如果一個國家把這些要點做對，它就會發展；如果做錯，它就不會。」"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“these points” 回指前文的兩類制度問題：用 auctions 取代 bribes 去分配 mineral rights；充分向 export revenues 徵稅。這些都是 existing problems 的處理方向。Collier 明確說，如果國家把這些點做對，便會發展；做錯，便不會。這比 “related to their future economic trends” 更直接。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“decisions about addressing particular existing problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“gets these points right” / “gets them wrong”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“future economic trends”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“it’s going to develop” / “it won’t”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文清楚支持「處理方式與未來發展直接相關」，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目寫得較抽象，沒有直接提 bribes、auctions、taxes 或 mineral rights。做這題時要把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“particular existing problems” 具體化成 Paragraph F 的制度問題。當看到 “these points” 這類代詞時，不可以只讀最後一句，必須回看前一句確認 these points 指甚麼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Collier regards Jeffrey D. Sachs’s recommended approach of increasing aid as relatively unimportant.”",
+      "translation": "Collier 認為 Jeffrey D. Sachs 建議的增加援助這一做法相對不重要。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要分清兩位人物：Collier 和 Jeffrey D. Sachs。題目不是問 Sachs 是否支持 aid increase；它問 Collier 如何評價 Sachs 的 approach。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These measures, he says, are more important than elevating aid levels, an approach emphasised by economist Jeffrey D. Sachs of Columbia University and celebrity activists such as Bono.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，這些措施比提高援助水平更重要；提高援助水平這種做法，是哥倫比亞大學經濟學家Jeffrey D. Sachs 和 Bono 等名人倡議者所強調的方向。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Whether it gets a few hundred million more or less in aid is really second-order,’ he insists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他堅持說：「它得到多幾億或少幾億援助，其實都是次要問題。」只看首尾句，Paragraph H 明顯在比較 Collier 的 measures 和 Sachs / Bono 的 aid approach。末句的 “second-order” 直接對應題目中的 relatively unimportant。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collier”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Jeffrey D. Sachs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasing aid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relatively unimportant”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應： increasing aid= elevating aid levels Sachs’s recommended approach= an approach emphasised by economist Jeffrey D. Sachs relatively unimportant= second-order"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“These measures, he says, are more important than elevating aid levels, an approach emphasised by economist Jeffrey D. Sachs of Columbia University and celebrity activists such as Bono.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，這些措施比提高援助水平更重要；提高援助水平這種做法，是 Jeffrey D. Sachs 和 Bono等人所強調的方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “he says” 指 Collier。Collier 認為 “these measures” 更重要，而 elevating aid levels 的重要性較低。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Whether it gets a few hundred million more or less in aid is really second-order,’ he insists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他堅持說：「它得到多幾億或少幾億援助，其實都是次要問題。」"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“second-order” 是這題最重要的答案詞。意思是次要、較不關鍵。題目把它改寫成 “relatively unimportant”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jeffrey D. Sachs’s recommended approach of increasing aid”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“elevating aid levels, an approach emphasised by economist Jeffrey D. Sachs…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“relatively unimportant”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“more important than…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“second-order”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： Collier 確實認為制度 measures 比增加援助更重要，並把多幾億或少幾億 aid 稱為second-order。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易把人物觀點混在一起。Sachs 強調 elevating aid levels；Collier 評價這種 approach 為second-order。題目問 Collier regards，所以答案要看 “he says / he insists” 的評價語氣，而不只是看到 Sachs 名字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "the next crash",
+      "answerKey": "the next crash",
+      "type": "Summary Completion",
+      "prompt": "“According to research carried out by the World Bank, some African countries may suffer from 10 _________________ because they lack the necessary preconditions.”",
+      "translation": "根據 World Bank 的研究，一些非洲國家可能會因缺乏必要前提條件而遭受 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。先看空格文法：suffer from 後面需要名詞或名詞短語。字數限制是NO MORE THAN THREE WORDS，所以答案必須從文章中抄出不超過三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prerequisites for preventing the next crash are not in place, according to a World Bank study issued in January, Is Africa’s Recent Growth Robust?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據世界銀行一月發布的研究《Is Africa’s Recent Growth Robust?》，防止下一次崩跌的前提條件尚未具備。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1996 to 2005, with growth accelerating, measures of governance—factors such as political stability, rule of law, and control of corruption—actually worsened, especially for countries endowed with abundant mineral resources, the January report notes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一月報告指出，1996 至 2005 年間，儘管增長加快，治理指標，例如政治穩定、法治和腐敗控制，實際上惡化了，尤其在礦產資源豐富的國家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph C 會講 World Bank report 對近期非洲增長是否穩固的疑問。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提到 missing prerequisites 和 the next crash，這正好對應 Question 10。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“World Bank”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lack the necessary preconditions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“suffer from”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“according to a World Bank study”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The prerequisites … are not in place”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the next crash”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “necessary preconditions” 是原文 “prerequisites” 的解釋式改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prerequisites for preventing the next crash are not in place…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "防止下一次崩跌的前提條件尚未具備。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子說："
+            },
+            {
+              "kind": "quote",
+              "text": "“some African countries may suffer from ______ because they lack the necessary preconditions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 preventing the next crash 的 prerequisites 不存在，意思就是它們可能遭受 “the next crash”。空格前的 suffer from 也適合接 “the next crash”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： the next crash= 3 words來自原文名詞短語放入句子後語法自然：may suffer from the next crash所以答案是： the next crash"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能想填 “economic volatility” 或 “growth collapses”。這些概念與全文主題有關，但summary 這一句緊貼 Paragraph C 首句，且原文有 “prerequisites for preventing the next crash”。Completion 題要優先抄最近、最精準、文法最合適的原文短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "a commodities boom",
+      "answerKey": "a commodities boom",
+      "type": "Summary Completion",
+      "prompt": "“They experienced growth stimulated by 11 _________________, but another study suggests that they may not sustain this trend because they lack 12 _________________ that would attract investors.”",
+      "translation": "它們經歷了由 ______ 推動的增長，但另一項研究指出，這種趨勢可能無法持續，因為它們缺乏能吸引投資者的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 11 在 “stimulated by” 後面，需要名詞短語。要找原文中造成 growth 的因素。字數限制是不超過三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prerequisites for preventing the next crash are not in place, according to a World Bank study issued in January, Is Africa’s Recent Growth Robust?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據世界銀行一月發布的研究《Is Africa’s Recent Growth Robust?》，防止下一次崩跌的前提條件尚未具備。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1996 to 2005, with growth accelerating, measures of governance—factors such as political stability, rule of law, and control of corruption—actually worsened, especially for countries endowed with abundant mineral resources, the January report notes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一月報告指出，1996 至 2005 年間，儘管增長加快，治理指標實際上惡化了，尤其在礦產資源豐富的國家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 明顯談近期增長是否可持續。Question 11 問增長由甚麼刺激，答案應在 Paragraph C 中部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“growth stimulated by”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may not sustain this trend”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The growth period that began in 1995, driven by a commodities boom spurred in particular by demand from China, may not be sustainable…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "始於 1995 年的增長期，是由商品繁榮推動，尤其受到中國需求刺激；但它可能無法持續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 growth、driven、commodities boom、demand from China 和 sustainable，因此值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The growth period that began in 1995, driven by a commodities boom spurred in particular by demand from China, may not be sustainable…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "始於 1995 年的增長期，是由商品繁榮推動，尤其受到中國需求刺激；但它可能無法持續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子中有兩層因果： growth period→ driven by a commodities boom commodities boom→ spurred in particular by demand from China題目寫 “growth stimulated by ______”。最直接控制 growth 的短語是 “a commodities boom”，因為原文說 growth period was driven by it。雖然 demand from China 也出現，但它直接刺激的是commodities boom，而 commodities boom 再推動 growth。Summary 的空格問 growth stimulated by，所以填 “a commodities boom” 最穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： a commodities boom= 3 words來自原文可接在 “growth stimulated by” 後面語法自然所以答案是： a commodities boom"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“demand from China” 很吸引，因為原文有 “spurred in particular by demand from China”。如果題目問 “the commodities boom was spurred by ______”，答案就會是 demand from China。可是這裡主語是 growth；原文說 growth was driven by a commodities boom，所以要填更直接的原因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "necessary infrastructure",
+      "answerKey": "necessary infrastructure",
+      "type": "Summary Completion",
+      "prompt": "“... but another study suggests that they may not sustain this trend because they lack 12_________________ that would attract investors.”",
+      "translation": "但另一項研究指出，這種趨勢可能無法持續，因為它們缺乏能吸引投資者的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 12 在 lack 後面，需要名詞或名詞短語。後面有 that would attract investors，提示答案要和investors 有關。字數限制不超過三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prerequisites for preventing the next crash are not in place, according to a World Bank study issued in January, Is Africa’s Recent Growth Robust?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據世界銀行一月發布的研究《Is Africa’s Recent Growth Robust?》，防止下一次崩跌的前提條件尚未具備。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1996 to 2005, with growth accelerating, measures of governance—factors such as political stability, rule of law, and control of corruption—actually worsened, especially for countries endowed with abundant mineral resources, the January report notes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一月報告指出，1996 至 2005 年間，儘管增長加快，治理指標實際上惡化了，尤其在礦產資源豐富的國家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph C 在列出增長不可持續的原因。Question 12 的 investors 應該定位到同段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lack”"
+            },
+            {
+              "kind": "quote",
+              "text": "“attract investors”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The region lacks the necessary infrastructure that would encourage investors to look to Africa to find the next Bengaluru (Bangalore) or Shenzhen…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該地區缺乏必要的基礎設施，而這些基礎設施本可鼓勵投資者到非洲尋找下一個 Bengaluru 或Shenzhen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “attract investors”，原文用 “encourage investors to look to Africa”。意思相同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The region lacks the necessary infrastructure that would encourage investors to look to Africa to find the next Bengaluru (Bangalore) or Shenzhen…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該地區缺乏必要的基礎設施，而這些基礎設施本可鼓勵投資者到非洲尋找下一個 Bengaluru 或Shenzhen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句主語是 “The region”。動詞是 “lacks”。賓語是 “the necessary infrastructure”。後面的 relative clause “that would encourage investors…” 正好對應題目 “that would attract investors”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： necessary infrastructure= 2 words來自原文放入句子後語法自然：they lack necessary infrastructure that would attract investors原文有 “the necessary infrastructure”，但空格前已有 “lack”，填 “necessary infrastructure” 最自然。IELTS 通常允許省略 the，因為題目句子語法不需要冠詞；若填 “the necessary infrastructure”則是 3 words，也仍符合字數，但句子變成 “they lack the necessary infrastructure that…” 亦通順。最穩答案可寫： necessary infrastructure"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能填 “new investment”，因為前文說 economic fundamentals 包括 new investment。但題目後半 “that would attract investors” 精準對應 infrastructure 句。Completion 題要用空格後的語法和意思鎖定答案，不可只看附近的相關名詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "growth accelerating",
+      "answerKey": "growth accelerating",
+      "type": "Summary Completion",
+      "prompt": "“During one particular decade, despite 13 _________________, governance actually deteriorated.”",
+      "translation": "在某一個十年間，儘管 ______，治理實際上惡化了。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 despite 後面，需要名詞短語或 -ing 結構。題目中的 “one particular decade” 對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“From 1996 to 2005”。“governance actually deteriorated” 對應原文 “measures of governance …actually worsened”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C第一句：“The prerequisites for preventing the next crash are not in place, according to a World Bank study issued in January, Is Africa’s Recent Growth Robust?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據世界銀行一月發布的研究《Is Africa’s Recent Growth Robust?》，防止下一次崩跌的前提條件尚未具備。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1996 to 2005, with growth accelerating, measures of governance—factors such as political stability, rule of law, and control of corruption—actually worsened, especially for countries endowed with abundant mineral resources, the January report notes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一月報告指出，1996 至 2005 年間，儘管增長加快，治理指標，例如政治穩定、法治和腐敗控制，實際上惡化了，尤其在礦產資源豐富的國家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句已經可以定位 Question 13。這句有 decade、有 growth、有 governance worsened，幾乎完整重現 summary 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“During one particular decade”"
+            },
+            {
+              "kind": "quote",
+              "text": "“despite”"
+            },
+            {
+              "kind": "quote",
+              "text": "“governance actually deteriorated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1996 to 2005”"
+            },
+            {
+              "kind": "quote",
+              "text": "“with growth accelerating”"
+            },
+            {
+              "kind": "quote",
+              "text": "“measures of governance … actually worsened”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From 1996 to 2005, with growth accelerating, measures of governance—factors such as political stability, rule of law, and control of corruption—actually worsened…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1996 至 2005 年間，儘管增長加快，治理指標，例如政治穩定、法治和腐敗控制，實際上惡化了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文的 “with growth accelerating” 改成 “despite ______”。這種改寫保留了讓步關係：一般期待是 growth accelerating 時，governance 可能改善；原文說 actually worsened，形成反差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： growth accelerating= 2 words來自原文放入題目：despite growth accelerating語法可以接受，因為 despite 後可接名詞性 -ing 結構所以答案是： growth accelerating"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能填 “growth” 或 “accelerating”。單獨填 growth 意思不完整；單獨填 accelerating 詞性不合適。原文的完整短語是 “growth accelerating”，剛好符合 despite 後面的結構。這題也提醒我們： completion 題不只看意思，還要檢查空格前後文法。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Volatility Kills.pdf",
+    "sha256": "3d988a4272440685dcfefe4410baff4459786e39a494bc68ca049850a6194e5d",
+    "pageCount": 31
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句列出 Chad、Kenya、Zimbabwe 的動亂和通脹，卻說 sub-Saharan Africa 整體經濟比幾年前好。末句把樂觀氣氛收回，指出長期存在的 economic volatility 可能令 optimism short-lived。只看首尾句，可以估計這段是全文引入：先交代非洲近期增長和 World Bank 的謹慎樂觀，再提出真正問題：增長能否持續，還是會被波動打斷。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 growth spurts 被猛烈 decline 打斷，導致 1975 至 2005 年間這些國家實際上沒有增長。末句說若沒有這些 collapses，sub-Saharan Africa 每位公民的 GDP 會高三分之一。只看首尾句，可以判斷這段集中解釋 volatility 的經濟代價：問題並非好時期不能增長，重點在好景後經常出現急跌。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說避免下一次 crash 的前提條件並未具備；末句指出 1996 至 2005 年增長加快時， governance 反而惡化，尤其在 mineral resources 豐富的國家。只看首尾句，可以估計這段會引用 World Bank 研究，說明近期增長可能不穩固。原因包括缺乏基本經濟條件、基建不足、資源繁榮反而削弱治理。"
+      },
+      {
+        "number": "D",
+        "summary": "首句引入 Paul Collier，說他對 volatility question 的分析可能最尖銳。末句說他主張美國和其他國家可採用貿易、援助和軍事介入等政策，避免世界最窮國家，尤其非洲國家，與其他國家差距急速擴大。只看首尾句，可以判斷這段功能是介紹 Collier 及其政策框架，為後文具體建議鋪路。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Collier 發現 bad governance 是國家無法善用 boom revenue 的主因。末句引用他說資源收入會腐蝕民主的正常運作，除非有足夠 checks and balances。只看首尾句，可以估計這段集中講一個反直覺觀點：資源繁榮不一定幫助民主國家，若制度制衡不足，資源收入可能令民主運作變差。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Collier 主張非洲國家建立 standards and codes 來強化政府，包括用 auctions 取代bribes，以及充分徵收 export revenues。末句說如果國家把這些 points 做對，就會發展；做錯，就不會。只看首尾句，可以判斷這段在列出 Collier 的內部治理改革建議，並把這些制度選擇直接連到未來發展。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說為鼓勵改革，Collier 建議 G8 國家把這些措施作為跨國公司在非洲營商的 voluntary guidelines。末句把這種協議和 Kimberley Process、Extractive Industries Transparency Initiative作比較。只看首尾句，可以估計這段由非洲國內改革轉到國際配套：G8、multinationals、international verification 和 transparency 都是重點。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Collier 認為這些措施比增加 aid levels 更重要，後者是 Jeffrey D. Sachs 和 Bono 強調的approach。末句引用他說 Angola 已有龐大 oil revenue，多幾億或少幾億援助只是 second-order。只看首尾句，可以判斷結尾段在比較兩種扶貧思路：制度與透明度改革，對 Collier 來說，比單純加援助更關鍵。"
+      }
+    ]
+  }
+}

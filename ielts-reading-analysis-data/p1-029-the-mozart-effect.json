@@ -1,0 +1,1855 @@
+{
+  "id": "p1-029-the-mozart-effect",
+  "catalogueId": "p1-029",
+  "catalogueIds": [
+    "p1-029"
+  ],
+  "passage": 1,
+  "title": "The Mozart Effect",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "G",
+    "B",
+    "A",
+    "F",
+    "short",
+    "complex",
+    "rats",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A description of how music affects the brain development of infants”",
+      "translation": "描述音樂如何影響嬰幼兒腦部發展。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How exactly does the Mozart Effect work?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mozart Effect 究竟如何運作？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, after the age of 2, if the cataracts are removed, the child will remain blind because those pathways cannot establish themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，如果到了兩歲之後才移除白內障，孩子仍會失明，因為那些神經通路已無法自行建立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph D 會解釋 Mozart Effect 的腦部機制，而且會用嬰兒或兒童神經發展作例子。題目有 “brain development of infants”，所以 D 是最有可能的段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“brain development”"
+            },
+            {
+              "kind": "quote",
+              "text": "“infants”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 infants，但有 “When a baby is born”。另外也要找 neurons、connections、brain development、neural connections。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 中找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neuroscientists suspect that music can actually help build and strengthen connections between neurons in the cerebral cortex through a process similar to what occurs during brain development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經科學家懷疑，音樂其實可以透過一種類似腦部發展時發生的過程，幫助建立和強化大腦皮層中神經元之間的連結。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正證據組是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a baby is born, certain connections have already been made – like connections controlling heartbeat and breathing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嬰兒出生時，某些連結已經形成，例如控制心跳和呼吸的連結。"
+            },
+            {
+              "kind": "quote",
+              "text": "“As new information is learned and motor skills develop, new neural connections are formed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著新資訊被學習、動作技能發展，新的神經連結會形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句解釋 infant / baby brain development：嬰兒出生已有部分基本神經連結，之後透過學習和動作技能發展形成更多連結。前一句再把音樂和這種 process 連起來，說音樂可能 help build and strengthen connections between neurons。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“music affects the brain development of infants”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“music can actually help build and strengthen connections between neurons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“process similar to what occurs during brain development”"
+            },
+            {
+              "kind": "quote",
+              "text": "“When a baby is born…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： brain development of infants= baby neural connections forming and strengthening所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“The public’s initial reaction to the discovery of the Mozart Effect”",
+      "translation": "大眾對 Mozart Effect 發現初期的反應。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, many people are critical of the role the media played in turning an isolated study into a trend for parents and music educators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，許多人批評媒體把一項孤立研究變成家長和音樂教育者之間的潮流。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Linton raises an interesting point: if the Mozart Effect causes such significant changes, why isn’t there more documented evidence?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Linton 提出一個有趣觀點：如果 Mozart Effect 真的造成如此重大改變，為何沒有更多有記錄的證據？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 會講 Mozart Effect 被媒體放大後形成潮流，以及後來有人質疑證據不足。題目問 public’s initial reaction，應該找 trend、CD sales、parents 等大眾反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“public’s initial reaction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discovery”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應不是 discovery 這個字，而是 “After the Mozart Effect was publicised”。publicised 表示被公開宣傳後，大眾開始反應。"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the Mozart Effect was publicised, Mozart CDs remained at the top of the charts for three weeks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mozart Effect 被公開宣傳後，Mozart CDs 在排行榜榜首停留了三星期。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚顯示大眾初期反應：Mozart Effect 一被媒體宣傳，Mozart CD 需求或流行度立刻上升，甚至連續三星期佔據排行榜高位。題目中的 “public’s initial reaction” 不一定要有 “reaction” 原字；銷售榜反應就是大眾行為反應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“public’s initial reaction”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mozart CDs remained at the top of the charts for three weeks”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“discovery of the Mozart Effect”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the Mozart Effect was publicised”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph H 也有 parents playing classical music while pregnant or when children are young。那是較後來的持續信奉，不如 Paragraph G 的 “After … publicised” 更貼近 initial reaction。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“The description of Rauscher’s original experiment”",
+      "translation": "Rauscher 原始實驗的描述。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frances H. Rauscher, PhD, first demonstrated the correlation between music and learning in an experiment in 1993.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Frances H. Rauscher 博士在 1993 年的一項實驗中，首次展示音樂與學習之間的關聯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rauscher hypothesised that ‘listening to complex, non-repetitive music, like Mozart’s, may stimulate neural pathways that are important in thinking’ (Castleman, 1994).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rauscher 假設，聆聽像 Mozart 作品那樣複雜且不重複的音樂，可能刺激對思考重要的神經通路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接出現 Rauscher、first demonstrated、experiment in 1993，所以 Paragraph B 是原始實驗的核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rauscher”"
+            },
+            {
+              "kind": "quote",
+              "text": "“original experiment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“first demonstrated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“an experiment in 1993”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Groups of students were given intelligence tests…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞帶我們到 Paragraph B 中段。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Groups of students were given intelligence tests after listening to silence, relaxation tapes, or Mozart’s ‘Sonata for Two Pianos in D Major’ for a short time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾組學生在短時間聽過靜默、放鬆錄音帶，或 Mozart 的《D 大調雙鋼琴奏鳴曲》之後，接受intelligence tests。"
+            },
+            {
+              "kind": "quote",
+              "text": "“He found that after silence, the average IQ score was 110, and after the relaxation tapes, the score rose a point. After listening to Mozart’s music, however, the score jumped to 119.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現，聽過靜默後，平均 IQ 分數是 110；聽過放鬆錄音帶後，分數上升 1 分。然而聽過 Mozart音樂後，分數跳升至 119。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾句完整描述 original experiment 的設計和結果：三種聽覺條件、IQ 測試、Mozart 組分數最高。題目問哪段包含這項資訊，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“A description of the use of music for healing in other countries”",
+      "translation": "描述其他國家如何把音樂用於治療。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Music has been used for centuries to heal the body.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "音樂數百年來一直被用於治療身體。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Music is also being used to assist in learning, in a phenomenon called the Mozart Effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "音樂也被用於輔助學習，這種現象稱為 Mozart Effect。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 healing，末句轉到 learning。題目問 music for healing in other countries，因此 Paragraph A 的前半和中段最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“healing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有 various cultures 和 Japan："
+            },
+            {
+              "kind": "quote",
+              "text": "“In various cultures, we have observed singing as part of healing rituals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在不同文化中，我們觀察到歌唱是治療儀式的一部分。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In Japan, compilations of music are used as medication of sorts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在日本，音樂選集被當成某種形式的藥物使用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 不只講西方醫學，也列出不同文化和日本的例子。日本例子最直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, if you want to cure a headache or migraine, the suggested selections include Mendelssohn’s ‘Spring Song’, Dvořák’s ‘Humoresque’, and part of George Gershwin’s ‘An American in Paris’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，如果你想治療頭痛或偏頭痛，建議曲目包括 Mendelssohn 的《春之歌》、Dvořák 的《幽默曲》，以及 George Gershwin 的《一個美國人在巴黎》部分片段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “other countries” 對應 Japan；“use of music for healing” 對應 used as medication、cure a headache or migraine。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Other qualities needed in all learning”",
+      "translation": "所有學習都需要的其他品質。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you’re a little sceptical about the claims made by supporters of the Mozart Effect, you’re not alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你對 Mozart Effect 支持者的主張有點懷疑，你並不孤單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some have also claimed that experimental bias influenced the results of certain studies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有人聲稱某些研究結果受到實驗偏差影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 是質疑 Mozart Effect 的段落。題目問 “other qualities needed in all learning”，這很可能是反方用來解釋學音樂孩子進步的替代原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“qualities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all learning”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有一組直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“other personal qualities, such as motivation and persistence, which are required in all types of learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他個人品質，例如動機和毅力，而這些品質在所有類型的學習中都需要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文完整句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people attribute the advanced learning of some children who take music lessons to other personal qualities, such as motivation and persistence, which are required in all types of learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人把一些上音樂課孩子較高階的學習表現，歸因於其他個人品質，例如動機和毅力；這些品質在所有學習中都需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “Other qualities needed in all learning” 幾乎就是原文 “other personal qualities … required in all types of learning” 的壓縮。答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "short",
+      "answerKey": "short",
+      "type": "Summary Completion",
+      "prompt": "“During the experiment conducted by Frances Rauscher, subjects were exposed to the music for a 6 _________________ period of time before they were tested.”",
+      "translation": "在 Frances Rauscher 的實驗中，受試者在測試前接觸音樂一段 ______ 時間。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frances H. Rauscher, PhD, first demonstrated the correlation between music and learning in an experiment in 1993.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Frances H. Rauscher 博士在 1993 年的一項實驗中，首次展示音樂與學習之間的關聯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rauscher hypothesised that ‘listening to complex, non-repetitive music, like Mozart’s, may stimulate neural pathways that are important in thinking’ (Castleman, 1994).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rauscher 假設，聆聽像 Mozart 作品那樣複雜且不重複的音樂，可能刺激對思考重要的神經通路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 是 Rauscher 原始實驗段，題目明確提到 Frances Rauscher，所以直接定位到 B。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“subjects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exposed to the music”"
+            },
+            {
+              "kind": "quote",
+              "text": "“period of time”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文用的是 students 和 listening，而非 subjects / exposed。掃描 Paragraph B 可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Groups of students were given intelligence tests after listening to silence, relaxation tapes, or Mozart’s ‘Sonata for Two Pianos in D Major’ for a short time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾組學生在短時間聽過靜默、放鬆錄音帶，或 Mozart 的《D 大調雙鋼琴奏鳴曲》後，接受智力測試。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前有 “a”，後面有 “period of time”，所以需要形容詞。原文短語是 “for a short time”。題目把 “for a short time” 改成 “for a short period of time”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： short = 一個字符合 NO MORE THAN ONE WORD放入句子：a short period of time所以答案是 short。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "complex",
+      "answerKey": "complex",
+      "type": "Summary Completion",
+      "prompt": "“Rauscher believes the enhancement in their performance is related to the 7_________________, non-repetitive nature of Mozart’s music.”",
+      "translation": "Rauscher 認為他們表現提升，與 Mozart 音樂 ______ 且不重複的特質有關。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。首句提出 Rauscher 1993 年實驗，末句提出他對原因的假設。Question 7 問 Rauscher believes / nature of Mozart’s music，答案很可能在末句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“non-repetitive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mozart’s music”"
+            },
+            {
+              "kind": "label",
+              "text": "原文末句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“listening to complex, non-repetitive music, like Mozart’s…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是完全對應的位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rauscher hypothesised that ‘listening to complex, non-repetitive music, like Mozart’s, may stimulate neural pathways that are important in thinking’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rauscher 假設，聆聽像 Mozart 作品那樣複雜且不重複的音樂，可能刺激對思考重要的神經通路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目保留了 “non-repetitive”，空格前需要和 non-repetitive 並列的形容詞。原文是 “complex, non-repetitive music”。因此答案是 complex。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "enhancement in performance= temporarily boost intelligence / stimulate neural pathways important in thinking complex, non-repetitive nature= complex, non-repetitive music答案是 complex。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "rats",
+      "answerKey": "rats",
+      "type": "Summary Completion",
+      "prompt": "“Later, a similar experiment was repeated on 8 _________________.”",
+      "translation": "後來，一項相似實驗在 ______ 身上重做。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same experiment was repeated on rats by Rauscher and Hong Hua Li from Stanford.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一項實驗由 Rauscher 和 Stanford 的 Hong Hua Li 在老鼠身上重做。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These new studies indicate that rats exposed to Mozart’s music showed ‘increased gene expression of BDNF …’ in the brain’s hippocampus, compared with rats in the control group, which heard only white noise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些新研究指出，與只聽 white noise 的 control group 老鼠相比，接觸 Mozart 音樂的老鼠在大腦hippocampus 中顯示 BDNF、CREB 和 Synapsin I 的基因表現增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接回答 repeated on rats。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“similar experiment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“repeated on”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same experiment was repeated on rats…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “similar experiment” 對應原文 “The same experiment”。“was repeated on” 原字重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是介詞 on 後面的受試對象：rats。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： rats = 一個字符合 NO MORE THAN ONE WORD放入句子：was repeated on rats所以答案是 rats。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“All kinds of music can enhance one’s brain performance to some extent.”",
+      "translation": "所有種類的音樂都能在某種程度上提升人的腦部表現。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "相關段落：Paragraph B、E、H Paragraph B 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rauscher hypothesised that ‘listening to complex, non-repetitive music, like Mozart’s, may stimulate neural pathways that are important in thinking’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rauscher 假設，聆聽像 Mozart 作品那樣複雜且不重複的音樂，可能刺激對思考重要的神經通路。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Listening to music can then be thought of as ‘exercise’ for the brain, improving concentration and enhancing intuition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，聆聽音樂可以被視為大腦的「運動」，能改善專注力並增強直覺。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If we approach this controversy from a scientific perspective, although there has been some evidence that music does increase brain activity, actual improvements in learning and memory have not been adequately demonstrated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們從科學角度看這場爭議，雖然有一些證據顯示音樂確實會增加大腦活動，但實際在學習和記憶方面的改善尚未被充分證明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題範圍很闊，因為題目說 “All kinds of music”。需要跨段檢查原文是否支持 all kinds。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“All kinds of music”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enhance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain performance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文出現的相關表達包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“complex, non-repetitive music, like Mozart’s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Listening to music…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“music does increase brain activity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“actual improvements … have not been adequately demonstrated”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都與題目有關，但要看範圍和程度是否足夠。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 只明確說 complex, non-repetitive music like Mozart’s 可能刺激 neural pathways。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支持「某類音樂可能有作用」，但不足以擴張成 “All kinds of music”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的 “Listening to music can then be thought of as ‘exercise’ for the brain” 表述較廣，但仍沒有逐項說明所有種類音樂都有效，也沒有界定 “all kinds”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 更保守。它說有 some evidence that music increases brain activity，但 actual improvements in learning and memory have not been adequately demonstrated。這提醒我們：即使有大腦活動證據，實際 performance improvement 仍未充分證明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題包含三個強要求： All kinds of music can enhance brain performance原文有： Mozart / complex non-repetitive music 的實驗music may increase brain activity actual learning and memory improvements not adequately demonstrated缺少的核心資料是 “all kinds”。文章沒有說所有音樂種類都能提升表現，也沒有明確列出哪些種類完全無效。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 Paragraph E 的 “Listening to music” 容易直接選 TRUE。但題目加了 “All kinds”，範"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圍比原文可證明內容更大。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A baby is born without any neural connections.”",
+      "translation": "嬰兒出生時沒有任何神經連結。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How exactly does the Mozart Effect work?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mozart Effect 究竟如何運作？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, after the age of 2, if the cataracts are removed, the child will remain blind because those pathways cannot establish themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，如果到了兩歲之後才移除白內障，孩子仍會失明，因為那些神經通路已無法自行建立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 講 Mozart Effect 的腦部機制，並用 baby brain development 作例子。題目問 baby neural connections，直接定位到 D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“baby”"
+            },
+            {
+              "kind": "quote",
+              "text": "“born”"
+            },
+            {
+              "kind": "quote",
+              "text": "“neural connections”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a baby is born, certain connections have already been made – like connections controlling heartbeat and breathing.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a baby is born, certain connections have already been made – like connections controlling heartbeat and breathing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嬰兒出生時，某些連結已經形成，例如控制心跳和呼吸的連結。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 without any neural connections，即完全沒有神經連結。原文說 certain connections have already been made，即已有某些連結形成。這是明確衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "without any neural connections= 沒有任何連結原文： certain connections have already been made= 已有某些連結所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Very few people question the Mozart Effect.”",
+      "translation": "很少人質疑 Mozart Effect。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F、G、H Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you’re a little sceptical about the claims made by supporters of the Mozart Effect, you’re not alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你對 Mozart Effect 支持者的說法有點懷疑，你並不孤單。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some have also claimed that experimental bias influenced the results of certain studies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有人聲稱某些研究結果受到實驗偏差影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 第一、最後句也都在講 media trend 和 documented evidence 不足。Paragraph H首句則說仍有 strong supporters and opponents。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Very few people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“question”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文同義詞包括 sceptical、critical、opponents。Paragraph F 第一個句子已經很直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“you’re not alone”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是質疑者並不少。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you’re a little sceptical about the claims made by supporters of the Mozart Effect, you’re not alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你對 Mozart Effect 支持者的主張有點懷疑，你並不孤單。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people attribute the advanced learning of some children who take music lessons to other personal qualities…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人把一些上音樂課孩子的進階學習表現歸因於其他個人品質……"
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, many people are critical of the role the media played…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "此外，許多人批評媒體所扮演的角色……Paragraph H 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“there are still strong supporters (and opponents) of the claims made in 1993.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 1993 年那些主張，至今仍有強烈支持者，也有反對者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Very few people question。原文反覆指出 you’re not alone、many people are critical、supporters and opponents。這些都說明質疑者不只很少數。答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Michael Linton conducted extensive research on Mozart’s life.”",
+      "translation": "Michael Linton 對 Mozart 的生平進行了大量研究。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, many people are critical of the role the media played in turning an isolated study into a trend for parents and music educators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，許多人批評媒體把一項孤立研究變成家長和音樂教育者之間的潮流。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Linton raises an interesting point: if the Mozart Effect causes such significant changes, why isn’t there more documented evidence?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Linton 提出一個有趣觀點：如果 Mozart Effect 真的造成如此重大改變，為何沒有更多有記錄的證據？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 是 Michael Linton 出現的段落。題目問他是否 conducted extensive research on Mozart’s life，要找 conducted research、Mozart’s life、生平研究等資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Michael Linton”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extensive research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mozart’s life”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an article by Michael Linton, he wrote…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及他提出兩個反問："
+            },
+            {
+              "kind": "quote",
+              "text": "“If Mozart’s music were able to improve health, why was Mozart himself so frequently sick?”"
+            },
+            {
+              "kind": "quote",
+              "text": "“If listening to Mozart’s music increases intelligence and encourages spirituality, why aren’t the world’s smartest and most spiritual people Mozart specialists?”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 Michael Linton wrote an article，並在文章中提出批評問題。他提到 Mozart was frequently sick，但這只是他用來質疑 Mozart Effect 的反問，不代表他進行了 extensive research on Mozart’s life。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據是： Michael Linton conducted research research was extensive research focused on Mozart’s life原文實際提供： he wrote an article he questioned why Mozart was frequently sick he questioned lack of documented evidence這些資訊和題目相關，但仍未支持 “conducted extensive research”。文章也沒有明確說他沒有研究 Mozart’s life，所以答案不應判 FALSE。核心資料缺失，答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “why was Mozart himself so frequently sick?” 這句。它提到 Mozart 的健康狀況，但一句批評性反問不等同於生平研究。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There is not enough evidence in support of the Mozart Effect today.”",
+      "translation": "目前支持 Mozart Effect 的證據不足。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘trendiness’ of the Mozart Effect may have died out somewhat, but there are still strong supporters (and opponents) of the claims made in 1993.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mozart Effect 的潮流性可能已有所退卻，但 1993 年那些主張至今仍有強烈支持者和反對者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If we approach this controversy from a scientific perspective, although there has been some evidence that music does increase brain activity, actual improvements in learning and memory have not been adequately demonstrated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果從科學角度看這場爭議，雖然有一些證據顯示音樂確實會增加大腦活動，但實際在學習和記憶方面的改善尚未被充分證明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 是全文結論，直接評估當前證據是否足夠。題目有 “today” 和 “not enough evidence”，應定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“not enough evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“support”"
+            },
+            {
+              "kind": "quote",
+              "text": "“today”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since that initial experiment, there has not been a surge of supporting evidence.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“actual improvements … have not been adequately demonstrated.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since that initial experiment, there has not been a surge of supporting evidence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自那次最初實驗以來，支持性證據並沒有大量增加。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although there has been some evidence that music does increase brain activity, actual improvements in learning and memory have not been adequately demonstrated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然有一些證據顯示音樂確實會增加大腦活動，但實際在學習和記憶上的改善尚未被充分證明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 not enough evidence in support of the Mozart Effect today。原文說 supporting evidence沒有大量增加，且 learning and memory improvements 尚未充分證明。兩者方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not enough evidence= there has not been a surge of supporting evidence= have not been adequately demonstrated in support of the Mozart Effect= supporting evidence / actual improvements in learning and memory所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Mozart Effect.pdf",
+    "sha256": "170f90494c0cc148b3048f77850293104bceb167a3033d5b08ea9e78273aba5d",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段先說 music centuries to heal the body，表示音樂很早已被用於治療。只看末句，段落轉到 music assists learning，稱為 Mozart Effect。因此 Paragraph A 大概會先交代音樂的醫療用途，再把話題帶到學習效果。中間例子包括 ancient physicians chanting、減輕 anxiety、降低blood pressure、化療止嘔、手術減壓、分娩、中風康復、日本用特定樂曲作近似藥物。Question 4很可能定位到這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Frances H. Rauscher, PhD 在 1993 年首次展示 music and learning 之間的 correlation。末句說 Rauscher 假設 Mozart 這類 complex, non-repetitive music 可能刺激和思考有關的neural pathways。只看首尾句，可以估計 Paragraph B 會描述 Rauscher 的原始實驗：學生聽silence、relaxation tapes 或 Mozart 後接受 IQ tests。Questions 3、6、7 主要靠這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說同一實驗後來由 Rauscher 和 Stanford 的 Hong Hua Li 在 rats 身上重做。末句說接觸Mozart music 的 rats 在 hippocampus 中顯示 BDNF、CREB 和 Synapsin I 表現增加，而 control group 只聽 white noise。這段主要把 Mozart Effect 從人類學生延伸到動物實驗，並加入基因和腦部海馬體的證據。Question 8 直接定位到這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句提出問題：Mozart Effect 究竟如何運作？末句用 cataracts 例子說明，如果視覺通路未能在特定時間內建立，孩子即使後來移除白內障也可能失明。這段功能是解釋腦部發展機制：研究者仍在尋找具體機制，但 neuroscientists 懷疑音樂能像腦部發展過程一樣，幫助建立和強化neuron connections。Question 1 和 Question 10 都會看這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Music seems to work in the same way，表示音樂似乎以類似神經連接形成的方式發揮作用。末句說聽音樂可被視為 brain exercise，能改善 concentration 和 enhancing intuition。由首尾句可見，Paragraph E 主要延續 Paragraph D 的神經機制，說明音樂可能 rewires neural circuits，甚至單純聽音樂也能強化 higher-order thinking 相關連結。這段有助理解 Mozart Effect 的支持理論。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說如果你對 Mozart Effect 支持者的說法有點 sceptical，你並不孤單。末句說有人認為certain studies 的 results 可能受 experimental bias 影響。這段正式引入質疑者觀點：有些人把學音樂孩子的進步歸因於 motivation 和 persistence 等個人特質，而這些特質在所有學習中都需要。Question 5 和 Question 11 都會用到這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說很多人批評 media 把一項 isolated study 變成家長和音樂教育者追捧的 trend。末句提出疑問：如果 Mozart Effect 真的造成重大改變，為何沒有更多 documented evidence？這段主要講媒體熱潮、Mozart CDs 熱賣、Michael Linton 的批評，以及歷史上以音樂提升智慧的理論最終消退。Question 2、12 和 13 的部分背景都能定位到這段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Mozart Effect 的 trendiness 可能已部分退潮，但 1993 年那些 claims 仍有強烈支持者和反對者。末句總結：從科學角度看，雖然有證據顯示音樂增加 brain activity，實際改善 learning and memory 尚未充分證明。這段是全文結論，平衡支持者、家長經驗和科學證據不足。Question 13 最直接定位到這裡，也可支援 Question 11 的反對聲音。"
+      }
+    ]
+  }
+}

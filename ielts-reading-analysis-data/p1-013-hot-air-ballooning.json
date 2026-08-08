@@ -1,0 +1,1706 @@
+{
+  "id": "p1-013-hot-air-ballooning",
+  "catalogueId": "p1-013",
+  "catalogueIds": [
+    "p1-013"
+  ],
+  "passage": 1,
+  "title": "HOT AIR BALLOONING",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 11,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "Per Lindstrand",
+    "ground crew",
+    "balloon simulator",
+    "parachute valve",
+    "envelope",
+    "panels",
+    "gores"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Montgolfier brothers were the first people to fly in a hot air balloon.”",
+      "translation": "Montgolfier 兄弟是第一批乘坐熱氣球飛行的人。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要分清兩件事：Montgolfier brothers 是否是熱氣球早期發明者，以及他們是否是第一批乘坐熱氣球飛行的人。題目中的控制詞是 “first people to fly”，所以要找載人飛行的第一批乘客。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 和 Paragraph 2 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The birth of the hot air balloon is largely contributed to the efforts of two French brothers, Joseph and Etienne Montgolfier, who employed the fact that hot air was lighter than cool air and using this, managed to lift a small silk balloon 32 metres into the air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "熱氣球的誕生很大程度上歸功於 Joseph 和 Etienne Montgolfier 兩位法國兄弟；他們利用熱空氣比冷空氣輕的原理，成功把一個小型絲製氣球升到 32 米高空。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was not until some considerable time later that a balloon was launched that was capable of carrying passengers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到相當久之後，才有一個能夠載乘客的氣球被發射升空。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩句，已可初步看出：Montgolfier brothers 和 balloon birth 有關，但載人 balloon 是 “some considerable time later” 的事。這已經提示題目可能把發明者和乘客身份混在一起。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Montgolfier brothers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要特別找：passengers、animals、sent up、travelled across Paris。Paragraph 2 的句子直接提到載人飛行："
+            },
+            {
+              "kind": "quote",
+              "text": "“Initial flights were trialled by animals, but after the success of these voyages, two passengers, Jean Francois Pilatre and Francois Laurent d’Arlendes, were sent up in a balloon which travelled across Paris for 29 minutes.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Initial flights were trialled by animals, but after the success of these voyages, two passengers, Jean Francois Pilatre and Francois Laurent d’Arlendes, were sent up in a balloon which travelled across Paris for 29 minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初的飛行先由動物試驗；這些航程成功後，兩名乘客 Jean Francois Pilatre 和 Francois Laurent d’Arlendes 被送上熱氣球，並在巴黎上空飛行了 29 分鐘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Initial flights” 和 “two passengers”。它清楚說明，載人飛行的乘客是 Jean Francois Pilatre 和 Francois Laurent d’Arlendes。Montgolfier brothers 在 Paragraph 1 的角色是發明和實驗熱氣球原理，原文沒有說他們親自成為 first people to fly。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“first people to fly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“two passengers … were sent up in a balloon”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Montgolfier brothers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關人物："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Joseph and Etienne Montgolfier” = early inventors“Jean Francois Pilatre and Francois Laurent d’Arlendes” = passengers答案判斷題目把 Montgolfier brothers 說成 first passengers，但原文把載人飛行的乘客指向 Pilatre 和d’Arlendes。核心人物身份不一致，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Montgolfier brothers 確實與 hot air balloon 的誕生直接相關，這點會令題目看似合理。判斷時要落在 “people to fly” 這個動作，而非 “invented / lifted a balloon” 這個發明行為。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Hot air ballooning became less popular in the late eighteenth century.”",
+      "translation": "熱氣球活動在十八世紀後期變得較不受歡迎。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查時間和趨勢。題目中的 “late eighteenth century” 要對應 1785；“became less popular” 要找 downfall in popularity 或 lost ground。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The discovery of hydrogen-fuelled flights led to the death in 1785 of Pilatre, a tragedy which caused a downfall in the popularity of hot air ballooning but an increase in the popularity of hydrogen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hydrogen-fuelled flights 的發現導致 Pilatre 於 1785 年喪生；這場悲劇使 hot air ballooning 的受歡迎程度下降，卻令 hydrogen 的受歡迎程度上升。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today there are balloons of all shapes and sizes, with many unique designs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，熱氣球有各種形狀和大小，也有很多獨特設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段先講 1785 年的衰落，再講後來復興和現代多樣化。題目說 late eighteenth century 的 popularity change，所以目標應該在第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“less popular”"
+            },
+            {
+              "kind": "quote",
+              "text": "“late eighteenth century”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“1785”"
+            },
+            {
+              "kind": "quote",
+              "text": "“caused a downfall in the popularity of hot air ballooning”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1785 屬於十八世紀後期，downfall in popularity 就是 less popular。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The discovery of hydrogen-fuelled flights led to the death in 1785 of Pilatre, a tragedy which caused a downfall in the popularity of hot air ballooning but an increase in the popularity of hydrogen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hydrogen-fuelled flights 的發現導致 Pilatre 在 1785 年死亡；這場悲劇使熱氣球活動的人氣下降，卻使 hydrogen 的人氣上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的時間是 1785，核心因果是 tragedy caused a downfall in the popularity of hot air ballooning。題目用 “became less popular” 概括 “caused a downfall in the popularity”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "late eighteenth century= 1785 became less popular= caused a downfall in the popularity hot air ballooning= hot air ballooning答案判斷題目和原文方向一致。原文直接說 1785 年 Pilatre 死亡造成 hot air ballooning 人氣下降，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句也說 hydrogen 的 popularity increased。若只看到 increase，可能會誤判。這裡要分清主體：題目問 hot air ballooning，原文說它下降；上升的是 hydrogen。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The largest hot air balloon had a capacity of over 75000 cubic metres.”",
+      "translation": "最大的熱氣球容量超過 75,000 立方米。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題考數字比較。題目說 “over 75000”，即高於 75,000。原文給出 65,000，再說另一個 balloon nearly 10,000 cubic metres bigger。要注意 “nearly” 的方向。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1987, British entrepreneur Richard Branson crossed the Atlantic in a balloon named Virgin Atlantic Flyer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1987 年，英國企業家 Richard Branson 乘坐名為 Virgin Atlantic Flyer 的氣球橫越大西洋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Pacific Flyer was designed to fly in the trans-oceanic jet streams and recorded the highest ground speed for a manned balloon at 394 kilometres per hour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pacific Flyer 被設計用於跨洋噴射氣流中飛行，並以每小時 394 公里的地面速度創下有人熱氣球最高紀錄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 4 是 record-setting flights 段。題目問 largest balloon capacity，所以應在這段中間找 capacity 和 cubic metres。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“largest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“capacity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“75000 cubic metres”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“largest ever constructed at 65 thousand cubic metres”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nearly 10 thousand cubic metres bigger”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the time, this balloon was the largest ever constructed at 65 thousand cubic metres, but four years later, he and Per Lindstrand from Sweden flew nearly 8000 kilometres from Japan to Northern Canada in their balloon the Virgin Pacific Flyer, which was nearly 10 thousand cubic metres bigger and was the longest flight in a hot air balloon ever made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時，這個 balloon 以 65,000 立方米的容量成為史上最大；但四年後，他和來自瑞典的 Per Lindstrand 乘坐 Virgin Pacific Flyer，從日本飛往加拿大北部，將近 8,000 公里。這個 balloon 大了將近 10,000 立方米，並創下史上最長 hot air balloon flight。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "數字鏈： Virgin Atlantic Flyer = 65,000 cubic metres Virgin Pacific Flyer = nearly 10,000 cubic metres bigger 65,000 + nearly 10,000 = just under / around but not over 75,000題目說 over 75,000，原文的 “nearly 10 thousand bigger” 代表不足完整 10,000，所以總數不支持超過 75,000。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與數字判斷",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“over 75000 cubic metres”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“65 thousand cubic metres” + “nearly 10 thousand cubic metres bigger”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷重點： nearly 10,000 = 接近 10,000，但低於 10,000。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此總數低於 75,000，而題目說高於 75,000。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷題目與原文數字方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“nearly 10 thousand bigger” 很容易被心算成剛好 10,000，然後得到 75,000。可是題目用了“over”，原文用了 “nearly”。這兩個程度詞決定答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Membership of the BFA is only open to people in America.”",
+      "translation": "BFA 的會員資格只開放給美國人。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 BFA membership 的資格限制。題目中的 “only” 很重要：原文必須說會員只限美國人，才可選 TRUE；若原文說活動在美國和其他地方舉行，也未必足夠構成 FALSE，除非明確說外國人也可加入。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the largest hot air balloon organisations is the Balloon Federation of America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個最大的 hot air balloon organisations 是 Balloon Federation of America。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They even boast of a balloon simulator, which although will not directly lead to a pilot’s license, it can give participants a degree of the sensation enjoyed by professional balloon pilots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們甚至有一台 balloon simulator；雖然它不會直接帶來 pilot’s license，但可以讓參與者體會professional balloon pilots 享受的部分飛行感覺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，這段介紹 BFA 的組織、活動和訓練。題目問 membership restriction，因此要在段中找 membership、America、beyond、only 等訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Membership”"
+            },
+            {
+              "kind": "quote",
+              "text": "“BFA”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“America”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“membership in the BFA attracts those with a fascination with ballooning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“meetings and displays all around the USA and beyond”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Founded in 1961, membership in the BFA attracts those with a fascination with ballooning (or‘Lighter Than Air’ flight).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "BFA 成立於 1961 年，它的會員資格吸引那些對 ballooning，或稱 “Lighter Than Air” flight，著迷的人。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“With an active discussion forum, meetings and displays all around the USA and beyond, the BFA runs on a number of guiding principles…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "BFA 有活躍的討論論壇，在美國各地以及美國以外都有 meetings and displays，並依據多項guiding principles 運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句只說 membership attracts people fascinated by ballooning。第二句只說活動地點包括USA and beyond。文章沒有說會員只限美國人，也沒有明確說非美國人可加入。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： membership only open to people in America= 會員資格只限美國人原文提供： membership attracts those with fascination= 會員吸引熱愛 ballooning 的人USA and beyond= 活動範圍不只美國境內缺少的核心資料： membership eligibility nationality restriction only Americans can join / non-Americans can join答案判斷原文提供相關背景，但沒有提供會員資格限制。由於缺少 “only open to people in America” 這項核心資訊，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Balloon Federation of America” 和 “all around the USA” 很容易令人覺得只限美國。可是組織名稱和活動地點不能自動推出會員國籍限制。題目中的 only 需要非常明確的證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "Per Lindstrand",
+      "answerKey": "Per Lindstrand",
+      "type": "Short-answer Questions",
+      "prompt": "“Who accompanied the entrepreneur on the longest balloon flight?”",
+      "translation": "在最長的熱氣球飛行中，誰陪同那位企業家？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Who，所以答案應是人名。題目中的 entrepreneur 指 Richard Branson；“longest balloon flight” 會定位到 Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1987, British entrepreneur Richard Branson crossed the Atlantic in a balloon named Virgin Atlantic Flyer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1987 年，英國企業家 Richard Branson 乘坐名為 Virgin Atlantic Flyer 的氣球橫越大西洋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Pacific Flyer was designed to fly in the trans-oceanic jet streams and recorded the highest ground speed for a manned balloon at 394 kilometres per hour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pacific Flyer 被設計用於 trans-oceanic jet streams，並以每小時 394 公里創下有人 balloon 最高ground speed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句給出 entrepreneur = Richard Branson。段中講四年後更長飛行，所以答案應在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“entrepreneur”"
+            },
+            {
+              "kind": "quote",
+              "text": "“longest balloon flight”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accompanied”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“British entrepreneur Richard Branson”"
+            },
+            {
+              "kind": "quote",
+              "text": "“he and Per Lindstrand from Sweden flew…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the longest flight in a hot air balloon ever made”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the time, this balloon was the largest ever constructed at 65 thousand cubic metres, but four years later, he and Per Lindstrand from Sweden flew nearly 8000 kilometres from Japan to Northern Canada in their balloon the Virgin Pacific Flyer, which was nearly 10 thousand cubic metres bigger and was the longest flight in a hot air balloon ever made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時，這個 balloon 是史上最大，容量為 65,000 立方米；四年後，他和來自瑞典的 Per Lindstrand 乘坐 Virgin Pacific Flyer，從日本飛到加拿大北部，接近 8,000 公里。這個 balloon 大了將近 10,000 立方米，並創下史上最長 hot air balloon flight。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “he” 指前一句的 Richard Branson。與他一起飛行的人是 Per Lindstrand。題目問accompanied the entrepreneur，即陪同 Branson 的人，所以答案填 Per Lindstrand。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "entrepreneur= British entrepreneur Richard Branson accompanied= he and Per Lindstrand flew longest balloon flight= the longest flight in a hot air balloon ever made答案形式Per Lindstrand = 2 words，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的 Jean Francois Pilatre 和 Francois Laurent d’Arlendes 也乘 balloon 飛行，但那是早期巴黎飛行。題目有 entrepreneur 和 longest balloon flight，這兩個定位詞會把答案鎖定到Richard Branson 和 Per Lindstrand。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "ground crew",
+      "answerKey": "ground crew",
+      "type": "Short-answer Questions",
+      "prompt": "“Who follows a hot air balloon’s flight to retrieve the craft when it lands?”",
+      "translation": "熱氣球飛行時，誰會在地面跟隨，以便降落後接回氣球？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Who，但答案未必是人名，可能是群體名稱。定位詞是 follows、retrieve、lands。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the mercy of prevailing wind currents, piloting a balloon takes a huge amount of skill but the controls used are fairly straight forward.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 balloon 受 prevailing wind currents 支配，駕駛需要非常高技巧，但使用的控制裝置相當直接。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For safety reasons, hot air balloons don’t fly in the rain because the heat in the balloon can cause water to boil on top of the balloon and destroy the fabric.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "基於安全理由，hot air balloons 不會在雨中飛行，因為 balloon 內的熱會令頂部積水沸騰，並破壞 fabric。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 6 講 piloting、controls 和 safety。題目問誰跟隨 balloon 並接回 craft，應在解釋方向控制限制的句子附近找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“follows”"
+            },
+            {
+              "kind": "quote",
+              "text": "“retrieve”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lands”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“balloons are often followed by ground crew”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pick up the pilot, passengers and balloon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“landing sites”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, balloons are often followed by ground crew, who may have to pick up the pilot, passengers and balloon from any number of landing sites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，balloons 通常會由 ground crew 在地面跟隨；他們可能要從各種不同 landing sites 接回pilot、passengers 和 balloon。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “balloons”。核心動作是 “are often followed by ground crew”。關係從句 “who may have to pick up…” 解釋 ground crew 的任務，就是接回 pilot、passengers 和 balloon。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "follows a hot air balloon’s flight= balloons are often followed by ground crew retrieve the craft when it lands= pick up the pilot, passengers and balloon from landing sites答案形式ground crew = 2 words，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若填 the ground crew，文章中 “ground crew” 才是原文短語；考試答案通常接受 ground crew。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "pilot 也在同段頻繁出現，但 pilot 在 balloon 上操作 propane flow。跟隨並接回 balloon 的群體是ground crew。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "balloon simulator",
+      "answerKey": "balloon simulator",
+      "type": "Short-answer Questions",
+      "prompt": "“What can give newcomers to the sport some idea of the feeling of flying a balloon?”",
+      "translation": "甚麼可以讓這項運動的新手略微體會駕駛熱氣球飛行的感覺？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 What，所以答案是物件名詞。題目中的 newcomers 對應 novice；feeling of flying 對應sensation enjoyed by professional balloon pilots。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the largest hot air balloon organisations is the Balloon Federation of America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個最大的 hot air balloon organisations 是 Balloon Federation of America。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They even boast of a balloon simulator, which although will not directly lead to a pilot’s license, it can give participants a degree of the sensation enjoyed by professional balloon pilots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們甚至有一台 balloon simulator；雖然它不能直接帶來 pilot’s license，但可以讓 participants體會到 professional balloon pilots 享受的部分感覺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句幾乎直接回答題目。題目中的 “newcomers” 也可回到前一句 training courses 的 novice。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“newcomers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feeling of flying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some idea”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“novice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“balloon simulator”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a degree of the sensation”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They even boast of a balloon simulator, which although will not directly lead to a pilot’s license, it can give participants a degree of the sensation enjoyed by professional balloon pilots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們甚至有一台 balloon simulator；雖然它不能直接帶來 pilot’s license，但可以讓參與者體會到專業 balloon pilots 所享受的某種程度的飛行感覺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “They”，指 BFA。核心物件是 “a balloon simulator”。它的功能是 “give participants a degree of the sensation”。題目把 this sensation 改寫成 “some idea of the feeling of flying a balloon”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "newcomers= novice / participants some idea of the feeling= a degree of the sensation flying a balloon= sensation enjoyed by professional balloon pilots答案形式balloon simulator = 2 words，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "training courses 也和 newcomers 有關，但題目問的是可以給人飛行感覺的東西。training courses 是課程；balloon simulator 才直接提供 sensation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "parachute valve",
+      "answerKey": "parachute valve",
+      "type": "Diagram Labelling",
+      "prompt": "Question 8",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are now a wide variety of designs and equipment available, from baskets with room for two people right up to 35 or more, separated compartments and specially designed flame resistant fabrics, but the basic parts of the balloon have remained relatively unchanged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有各式各樣的設計和設備，從可容納兩人的 basket，到可容納 35 人以上的 basket、分隔式 compartment，以及特製 flame resistant fabrics；但 balloon 的基本部件相對沒有太大改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is named the parachute valve, and is controlled by the vent line – the cable that runs the length of the envelope and hangs just above the basket so the pilot can open and close the parachute valve.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個裝置叫作 parachute valve，由 vent line 控制；vent line 是一條沿 envelope 長度延伸、掛在basket 上方的 cable，讓 pilot 可以開關 parachute valve。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 5 是 balloon parts 段。若圖中 8 指向 balloon 頂部的 self-closing flap，答案就應該是 parachute valve。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖表位置定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 Q8 在同版題目中指向 envelope 頂部的 flap。原文中與頂部 flap 最接近的短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the top of the envelope is a self closing flap…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“This is named the parachute valve…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the top of the envelope is a self closing flap that allows hot air to escape at a controlled rate to slow ascents or cause the balloon to descend.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 envelope 的頂部有一個 self-closing flap，它可以讓熱空氣以受控制的速度逸出，以減慢上升或令 balloon 下降。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is named the parachute valve…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個裝置叫作 parachute valve。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“This” 指前一句的 self-closing flap。因此，如果圖中箭嘴指向頂部活門，標籤就是 parachute valve。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "self closing flap at the top= parachute valve答案形式parachute valve = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "envelope",
+      "answerKey": "envelope",
+      "type": "Diagram Labelling",
+      "prompt": "Question 9",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are now a wide variety of designs and equipment available…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有各式各樣的設計和設備。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is named the parachute valve, and is controlled by the vent line…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個裝置稱為 parachute valve，由 vent line 控制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段按位置由 basket、burners、gores、panels 講到 envelope 和 valve。若 Q9 指向整個 balloon fabric body，答案應是 envelope。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖表位置定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 Q9 在同版題目中指向 balloon 的整個大球囊部分。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This section of the craft is referred to as the envelope.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The balloon itself is made of strips of fabric called gores which run from the skirt to the top of the balloon; they are further broken into individual panels. This section of the craft is referred to as the envelope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "balloon 本身由稱為 gores 的 fabric strips 組成，這些 gores 從 skirt 延伸到 balloon 頂部；它們再分成 individual panels。這個 craft 的部分稱為 envelope。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“this section” 指前文整個 balloon fabric body，不是單一 gore 或 panel。圖上如果箭嘴指向整個外層球囊，答案就是 envelope。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "main balloon body / fabric section= envelope答案形式envelope = 1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "gores 和 panels 都在同一句附近。gores 是長條布；panels 是 gores 再分成的小片；envelope 才是整個 balloon fabric body 的名稱。看圖時要分清箭嘴指向整體還是局部。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "panels",
+      "answerKey": "panels",
+      "type": "Diagram Labelling",
+      "prompt": "Question 10",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 balloon 的 basic parts 相對不變，最後一句講 parachute valve 和 vent line。這段中間專門解釋 balloon fabric 的分層名稱，正好對應圖中局部標籤。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖表位置定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若圖中 Q10 指向 gores 內部一塊塊較小布面，應找原文中的 individual panels。原文寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“they are further broken into individual panels.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The balloon itself is made of strips of fabric called gores which run from the skirt to the top of the balloon; they are further broken into individual panels.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "balloon 本身由稱為 gores 的布條組成，這些布條從 skirt 延伸到 balloon 頂部；它們再進一步分成一片片 individual panels。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “they” 指 gores。也就是說，gores 是較長的布條；每條 gore 再分成 panels。若圖中箭嘴指向一個個小布面，答案應填 panels。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "individual pieces of fabric= panels答案形式panels = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意要用複數，因為原文是 individual panels，圖中通常指一組布片。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "gores",
+      "answerKey": "gores",
+      "type": "Diagram Labelling",
+      "prompt": "Question 11",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 是 hot air balloon 結構段，由 basket 開始，向上講 burners，再到 balloon fabric body。Q11 如果指向由 skirt 延伸至 balloon top 的長條 fabric，答案應在 “strips of fabric called…” 附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖表位置定位"
+            },
+            {
+              "kind": "label",
+              "text": "圖中 Q11 在同版題目中指向由下至上的長條布。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“strips of fabric called gores which run from the skirt to the top of the balloon”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The balloon itself is made of strips of fabric called gores which run from the skirt to the top of the balloon…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "balloon 本身由稱為 gores 的 fabric strips 組成，這些 gores 從 skirt 一直延伸到 balloon 頂部。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句定義 gores：它們是長條形 fabric strips，方向是由 skirt 到 top。若圖中箭嘴指向縱向布條，答案就是 gores。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "strips of fabric= gores答案形式gores = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要保留複數，因為 balloon 由多條 gores 組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後整理：高頻同義改寫first people to fly= two passengers were sent up in a balloon invented / early experiment= managed to lift a small silk balloon became less popular= caused a downfall in the popularity late eighteenth century= 1785 over 75,000 cubic metres= 題目要求高於 75,000；原文是 65,000 + nearly 10,000 bigger membership only open to people in America= 原文沒有 membership restriction，只說 attracts those with a fascination entrepreneur= Richard Branson accompanied= he and Per Lindstrand flew retrieve the craft= pick up the pilot, passengers and balloon ground crew= followed by ground crew some idea of the feeling= a degree of the sensation balloon simulator= gives participants sensation of professional pilots parachute valve= self-closing flap at the top of the envelope envelope= main fabric section of the balloon panels= individual pieces within gores gores= strips of fabric running from skirt to top"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - HOT AIR BALLOONING.pdf",
+    "sha256": "e1fcff2eb00dcd25ed3c037e73c8e32a59097bd3f6db90edd53776263e09d10a",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看第一句，讀者會先知道 hot air balloon 的誕生主要歸功於 Joseph 和 Etienne Montgolfier 兩兄弟，他們利用熱空氣比冷空氣輕的原理，把一個小絲製氣球升上 32 米高空。最後一句說，雖然成果可以說有限，但他們的研究引起 French Science Academy 注意，並幫助科學家研究weather patterns 和 atmosphere。這段主要是熱氣球發明背景、早期實驗和科學價值。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說，過了相當長時間後，才有能夠載人的 balloon 被發射。最後一句說，兩名男子在wicker basket 中央為火加燃料，使氣球保持升空，這趟橫越巴黎的旅程非常成功。首尾句顯示，這段處理「從無人或動物試驗到載人飛行」的發展。中間提到初期由 animals 試飛，之後 Jean Francois Pilatre 和 Francois Laurent d’Arlendes 乘氣球飛越巴黎 29 分鐘。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說，hydrogen-fuelled flights 的發現導致 Pilatre 於 1785 年喪生，這場悲劇令 hot air ballooning 的受歡迎程度下降，hydrogen 的受歡迎程度卻上升。最後一句說，今日已有各種形狀和大小的 balloon，設計也十分獨特。首尾句顯示，這段先講十八世紀後期的挫折和人氣下滑，再講 1950s 復興為 leisure activity 和 sport，以及現代熱氣球設計多樣化。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說，1987 年 British entrepreneur Richard Branson 乘坐 Virgin Atlantic Flyer 橫越 Atlantic。最後一句說，Pacific Flyer 被設計用於 trans-oceanic jet streams，並以每小時 394 公里創下有人 balloon 最高 ground speed。首尾句顯示，這段集中介紹 Richard Branson 的紀錄飛行：先是橫越大西洋，之後與 Per Lindstrand 從 Japan 飛到 Northern Canada，創下最長 hot air balloon flight。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說，現在已有很多不同設計和設備，但 balloon 的 basic parts 相對沒有太大改變。最後一句說，parachute valve 由 vent line 控制，這條 cable 沿 envelope 延伸，掛在 basket 上方，讓pilot 開關 valve。首尾句顯示，這段是結構說明段：basket、propane fuel tanks、burners、skirt、gores、panels、envelope、parachute valve、vent line 都是 diagram 題的核心定位詞。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說，balloon 受 prevailing wind currents 支配，所以 piloting 需要高技巧，但 controls 本身相當直接。最後一句說，基於安全原因，hot air balloons 不會在雨中飛行，因為 balloon 內的熱會令頂部積水沸騰並破壞 fabric。首尾句顯示，這段處理駕駛與安全：pilot 可透過 propane flow 控制速度，無法控制水平方面方向，所以需要 ground crew 跟隨，也需要 commercial pilot’s license和 flight instruction。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說，Balloon Federation of America 是其中一個最大的 hot air balloon organisations。最後一句說，BFA 甚至有 balloon simulator，雖然不能直接取得 pilot’s license，但可讓 participants 體會 professional balloon pilots 享受的 sensation。首尾句顯示，這段介紹 BFA 的組織背景、會員吸引力、活動範圍、safety 原則、training courses 和 simulator。Q4 和 Q7 會定位到這段。 Answer Key 1. FALSE 2. TRUE 3. FALSE 4. NOT GIVEN 5. Per Lindstrand 6. ground crew 7. balloon simulator 8. parachute valve 9. envelope 10. panels 11. gores註：你貼出的題目中，Questions 8–11 的圖沒有顯示，所以 8–11 的箭嘴位置不能只靠貼文完全確認。我按同版題目的圖、同版答案來源，以及 Paragraph 5 的結構描述核對，答案順序為parachute valve、envelope、panels、gores。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 8–11 的原題圖沒有顯示，所以箭嘴位置不能只靠現有題面完全確認。來源 PDF 根據同版題圖、同版答案來源和 Paragraph 5 的結構描述，採用 parachute valve、envelope、panels、gores 的順序。"
+  ]
+}

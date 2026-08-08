@@ -1,0 +1,1459 @@
+{
+  "id": "p1-121-reflecting-on-the-mirror",
+  "catalogueId": "p1-121",
+  "catalogueIds": [
+    "p1-121"
+  ],
+  "passage": 1,
+  "title": "REFLECTING ON THE MIRROR",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "F",
+    "G",
+    "E",
+    "H",
+    "A",
+    "A",
+    "A",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Greeks and Egyptians used polished silver to make mirrors.”",
+      "translation": "希臘人和埃及人使用拋光銀來製作鏡子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In all likelihood, the first mirrors would have simply been pools of water that reflected the image of the person who looked into them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很可能最早的鏡子只是水池，能反射觀看者的影像。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to bronze, the Greeks and Romans experimented with polished silver to produce simple mirrors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了青銅之外，希臘人和羅馬人也嘗試使用拋光銀來製作簡單鏡子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段在講鏡子的早期材料和古代使用情況。題目提到 Greeks、Egyptians、polished silver，正好在 Paragraph 1 內。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Greeks”、“Egyptians” 和 “polished silver”。掃描 Paragraph 1，可以找到兩句相關原文。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...mirrors of bronze were in common use among the ancient Egyptians, Romans and Greeks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "青銅鏡在古埃及人、羅馬人和希臘人之間很常見。"
+            },
+            {
+              "kind": "label",
+              "text": "第二句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to bronze, the Greeks and Romans experimented with polished silver to produce simple mirrors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了青銅之外，希臘人和羅馬人也嘗試使用拋光銀製作簡單鏡子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 polished silver 的使用者寫成 “The Greeks and Egyptians”。原文中的 polished silver 使用者是 “the Greeks and Romans”。Egyptians 出現在前一句，但那一句談的是 bronze mirrors，不涉及 polished silver。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題拆解：題目主體：Greeks and Egyptians題目動作：used polished silver原文主體：Greeks and Romans原文動作：experimented with polished silver Egyptians 的原文關係：used bronze mirrors commonly最終比較時，Greeks 這部分相符，Egyptians 這部分被錯換。文章把 Egyptians 放在 bronze 的使用者之列，沒有把他們放進 polished silver 的使用者之列。題目把 Romans 換成 Egyptians，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "used polished silver= experimented with polished silver"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易出錯的位置是同一句附近同時出現 Egyptians、Romans、Greeks 和 bronze / polished silver。看到 Egyptians 和 Greeks 都在 Paragraph 1 出現，只能證明位置相關；真正定案要看哪個民族對應哪種材料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The first man-made mirrors were made of bronze.”",
+      "translation": "最早的人造鏡子是由青銅製成。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In all likelihood, the first mirrors would have simply been pools of water that reflected the image of the person who looked into them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很可能最早的鏡子只是水池，能反射觀看者的影像。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to bronze, the Greeks and Romans experimented with polished silver to produce simple mirrors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了青銅之外，希臘人和羅馬人也嘗試使用拋光銀來製作簡單鏡子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 由 natural mirror 講到 man-made mirrors。題目問 first man-made mirrors 的材料，所以要看 Paragraph 1 中間的時間和材料順序。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first man-made mirrors” 和 “bronze”。原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is not altogether clear when the first man-made mirrors were produced but mirrors made of brass are mentioned in the Bible, and after that mirrors of bronze were in common use among the ancient Egyptians, Romans and Greeks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最早的人造鏡子何時被製造出來，並不完全清楚；不過《聖經》中提到由 brass 製成的鏡子，此後bronze mirrors 在古埃及人、羅馬人和希臘人之間很常見。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個控制點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，原文說 “It is not altogether clear when the first man-made mirrors were produced”。文章先提醒：最早人造鏡子的確切時間並不完全清楚。題目直接斷言 first man-made mirrors were made of bronze，語氣比原文更肯定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，材料順序上，原文先說 brass mirrors are mentioned in the Bible，然後說 after that mirrors of bronze were in common use。after that 表示 bronze mirrors 出現在後續發展中。題目把bronze 放到 “first man-made mirrors” 的位置，和原文順序不合。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：first man-made mirrors = bronze"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：brass mirrors mentioned first in the written sequence；after that bronze mirrors became common原文另有保留：first man-made mirrors 的時間 not altogether clear所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "bronze 在 Paragraph 1 出現得很明顯，但它前面有 “after that”。這個時間連接詞很關鍵。IELTS常用材料名詞重現製造干擾，真正要看的往往是 first、after that、later 這類順序詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Only the wealthy could afford the first mirrors.”",
+      "translation": "只有富裕的人才能負擔早期鏡子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crude forms of glass mirrors were first made in Venice in 1300.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "粗糙形式的玻璃鏡最早於 1300 年在威尼斯製成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chemical process of coating a glass surface with metallic silver was discovered by the German chemist Justus von Liebig in 1835, and this advance inaugurated the modern techniques of mirror making.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國化學家 Justus von Liebig 於 1835 年發現用金屬銀覆蓋玻璃表面的化學程序，而這項進展開啟了現代製鏡技術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 講 glass mirrors 的早期發展和技術突破。題目問 first mirrors 的可負擔性，最可能藏在 early periods、rare、expensive 等字附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “wealthy”、“afford” 和 “first mirrors”。原文沒有直接用 wealthy / afford，但有高度相關的價格描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the early periods of their development, mirrors were rare and expensive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在鏡子發展早期，鏡子既稀有又昂貴。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Only the wealthy could afford”。原文說 “rare and expensive”。這兩個形容詞共同指出早期鏡子不是一般大眾容易取得的物品。rare 表示數量少；expensive 表示價格高。價格高到普通人難以負擔時，能買得起的人自然主要是 wealthy people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡屬於合理短距離推論： rare and expensive→ 普通人難以取得→ 只有有錢階層較可能負擔雖然原文沒有逐字寫 “wealthy”，但 IELTS Reading 可以接受這類由價格和稀有性直接推出的改寫。題目沒有要求我們知道具體收入階層，只要判斷早期鏡子是否只有富裕人士能負擔。原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“rare and expensive” 足以支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "only the wealthy could afford= mirrors were rare and expensive during early development"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "afford 沒有原字重現。遇到這類題時，不應只找 afford / rich / wealthy，也要掃描 price、expensive、rare、valuable 這類概念詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The first mirrors in America were used for decoration.”",
+      "translation": "美國最早的鏡子是用作裝飾。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the 17th century mirrors were made in Britain and the manufacture of mirrors developed subsequently into an important industry in many other European countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到十七世紀末，英國已經製造鏡子，之後鏡子製造在許多其他歐洲國家發展成重要產業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In house after house in residential districts in eastern cities, there could be found one long mirror after another placed between two front parlour windows.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在東部城市住宅區的一間又一間房子裡，都可以看到一面又一面長鏡放在兩扇前客廳窗戶之間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 後半確實講 America，也提到大型鏡子放在家中客廳窗戶之間。題目關鍵卻是 “first mirrors in America” 和 “used for decoration”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “America”、“first mirrors” 和 “decoration”。原文找到 America："
+            },
+            {
+              "kind": "quote",
+              "text": "“A little later on, America was gripped by the mirror craze, only this time Americans were interested in larger mirrors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "稍後，美國也被鏡子熱潮席捲；只是這一次，美國人感興趣的是較大的鏡子。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“In house after house in residential districts in eastern cities, there could be found one long mirror after another placed between two front parlour windows.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在東部城市住宅區的一間又一間房子裡，都可以看到長鏡被放在兩扇前客廳窗戶之間。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支持兩件事：第一，美國後來出現 mirror craze。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，美國人喜歡 larger mirrors，並把 long mirrors 放在 front parlour windows 之間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目需要更精確的命題：第一，這些是 “the first mirrors in America”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，它們的用途明確是 “decoration”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說這是美國第一批鏡子，也沒有提供 first mirrors in America 的起源資料。它只說 “A little later on, America was gripped by the mirror craze”，即稍後美國進入鏡子熱潮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 decoration，鏡子被放在 parlour windows 之間，看起來像家居陳設，這確實有裝飾意味；但題目把這個描述提升成 “the first mirrors in America were used for decoration”。文章沒有交代美國最早鏡子的用途，因此資料不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "front parlour windows 很容易令人想到 decoration。可是這題真正控制答案的是 “first mirrors in America”。原文只寫 America was gripped by the mirror craze，沒有講美國第一面或第一批鏡子的用途。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Spherical mirrors are commonly used in cars.”",
+      "translation": "球面鏡常用於汽車。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mirrors may have plane or curved surfaces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鏡子可以有平面表面，也可以有曲面表面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such a mirror will reflect light from one of its two focal points to the other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種鏡子會把來自其中一個焦點的光反射到另一個焦點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 是鏡面形狀分類段。題目問 spherical mirrors 和 cars，應掃描 spherical、rear-view mirrors、vehicles。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Spherical mirrors” 和 “cars”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most common is spherical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許最常見的是球面鏡。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spherical mirrors produce images that are magnified or reduced—exemplified by mirrors for applying facial makeup and by rear-view mirrors for vehicles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "球面鏡能產生放大或縮小的影像，例如化妝鏡和車輛後視鏡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “commonly used in cars”。原文先說 spherical 是 perhaps the most common，再用rear-view mirrors for vehicles 作例子。Vehicles 包括 cars，所以 “used in cars” 可以由 vehicles合理概括出來。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：spherical mirrors commonly used in cars"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：spherical mirrors are perhaps the most common；examples include rear-view mirrors for vehicles"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cars= vehicles 的常見具體例子commonly used= perhaps the most common + rear-view mirrors for vehicles所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 cars，原文用 vehicles。不要因為 car 沒有原字出現就判 NOT GIVEN。Vehicles 是上位詞，cars 是其中一種車輛，語義足夠接上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "F — glass",
+      "answerKey": "F — glass",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 6",
+      "translation": "玻璃放在最上層，因為它平滑、透明，而且保護反射面。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "若圖中 6 指向最上層或最前方透明層，答案是 F。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Glass is used on top because it is smooth, clear, and protects the reflective surface.”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "top layer / front layer= glass所以 6 = F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "G — metal",
+      "answerKey": "G — metal",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 7",
+      "translation": "硝酸銀被還原成金屬銀，並逐漸形成一層有光澤的銀沉積物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "若圖中 7 指向 glass 後方的反射層，答案是 G。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The silver nitrate is reduced to metallic silver and a lustrous deposit of silver gradually forms.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中沒有 “metallic silver” 這個完整說法，但有 G “metal”。metal 對應 metallic silver / silver deposit。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 7 = G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "E — shellac",
+      "answerKey": "E — shellac",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 8",
+      "translation": "這層銀沉積物被乾燥後，會塗上 shellac，然後再上漆。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "若圖中 8 指向銀層後方的保護塗層，答案是 E。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The deposit is dried, coated with shellac, and painted.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "shellac 是直接原字重現，位置在 silver deposit 之後、paint 之前。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 8 = E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "H — silver nitrate paint / painted backing",
+      "answerKey": "H — silver nitrate paint / painted backing",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 9",
+      "translation": "這層銀沉積物被乾燥後，會塗上 shellac，然後再上漆。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "若圖中 9 指向最背後的塗漆層，答案只能選 H，因為選項中唯一和 paint 相關的是 H。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The deposit is dried, coated with shellac, and painted.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "嚴格來說，原文的最終背層是 painted layer；silver nitrate 在前一步已經 reduced to metallic silver。你貼出的選項把 H 寫成 “silver nitrate paint”，措辭有點混合。若原題圖的最後一層指 painted backing，H 是最合理答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 9 = H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — paraboloidal.",
+      "answerKey": "A — paraboloidal.",
+      "type": "Multiple Choice",
+      "prompt": "“The type of mirror used for looking at the stars is”",
+      "translation": "用來觀察星星的鏡子類型是什麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mirrors may have plane or curved surfaces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鏡子可以有平面表面，也可以有曲面表面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such a mirror will reflect light from one of its two focal points to the other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種鏡子會把來自其中一個焦點的光反射到另一個焦點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 介紹不同形狀鏡子的功能。題目問 looking at the stars，應找 telescope mirror，因為望遠鏡常用於觀星。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有直接說 telescope，但 “looking at the stars” 應掃描 telescope。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A paraboloidal mirror is one which is often used to focus parallel rays to a sharp focus, as in a telescope mirror, or to produce a parallel beam from a source at its focus, such as a searchlight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "拋物面鏡常用來把平行光線聚焦成清晰焦點，例如望遠鏡鏡面；也可從焦點處的光源產生平行光束，例如探照燈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “looking at the stars” 改寫成 telescope 的用途。原文說 telescope mirror 是 paraboloidal mirror 的例子，因此 A 正確。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A paraboloidal正確。原文直接說 “as in a telescope mirror”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B spherical原文把 spherical mirrors 連到 facial makeup 和 rear-view mirrors for vehicles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C cylindrical原文說 cylindrical mirrors focus a parallel beam of light to a linear focus，沒有連到觀星。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D ellipsoidal原文說 ellipsoidal mirrors 會把一個焦點的光反射到另一個焦點，沒有 telescope 用途。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "looking at the stars= using a telescope telescope mirror= paraboloidal mirror所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "A — blended mirror frames well with other household furniture.",
+      "answerKey": "A — blended mirror frames well with other household furniture.",
+      "type": "Multiple Choice",
+      "prompt": "“Seventeenth-century craftsmen”",
+      "translation": "十七世紀的工匠……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the mirror is the focus of the production, the frame plays an important albeit slightly lesser role as the anchor by which the mirror is affixed to its proper place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然鏡子本身是生產焦點，鏡框作為把鏡子固定在適當位置的支架，也有重要但稍次要的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the whole, mirror frames reflected the general taste of the time and were often changed to accommodate alterations in taste—frames usually being cheaper and hence more easily replaced than the mirror itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體來看，鏡框反映了當時的一般品味，也常因品味變化而更換；鏡框通常比鏡子便宜，因此也較容易替換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 由 seventeenth-century onwards 講 mirror frames 的室內裝飾角色。題目問seventeenth-century craftsmen，要找 craftsmen 和 frame design。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Seventeenth-century craftsmen”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the late 17th century onwards, mirrors and their frames played an increasingly important part in the decoration of rooms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從十七世紀末開始，鏡子和鏡框在房間裝飾中扮演越來越重要的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Craftsmen such as Grinling Gibbons often produced elaborately carved mirror frames to match a complete decorative ensemble.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像 Grinling Gibbons 這樣的工匠，常製作雕刻精美的鏡框，使其配合完整的裝飾組合。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "答案句中的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“to match a complete decorative ensemble”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是鏡框會和整體室內裝飾組合相配合。選項 A 說 “blended mirror frames well with other household furniture”，意思是讓鏡框和其他家居陳設協調。雖然原文用的是 broader phrase"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“complete decorative ensemble”，不只限於 furniture，但 A 最接近這個概念。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A blended mirror frames well with other household furniture正確。match a complete decorative ensemble 對應 blend well with other household furniture /room decoration。 B hung mirrors above fireplaces原文說 tradition soon became established of incorporating a mirror into the space over the mantelpiece，但這說的是一種設計傳統，不是 craftsman such as Grinling Gibbons 的核心動作。 C used mirror frames as a focus for home decoration原文說 mirror 是 production focus，frame 是 important but slightly lesser role。C 把 frame 的地位說得太強。 D established floral patterns as a standard for mirror frames floral patterns 出現在 Paragraph 7 的 end of the 18th century，不屬於 late 17th-century craftsmen。所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 很吸引，因為 over the mantelpiece 真的出現在同段。但題目問的是 seventeenth-century craftsmen 的做法，最直接證據是 “produced elaborately carved mirror frames to match a complete decorative ensemble”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A — designed furniture that highlighted the unique properties of mirrors.",
+      "answerKey": "A — designed furniture that highlighted the unique properties of mirrors.",
+      "type": "Multiple Choice",
+      "prompt": "“Eighteenth-century craftsmen”",
+      "translation": "十八世紀的工匠／設計師……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the mirror is the focus of the production, the frame plays an important albeit slightly lesser role as the anchor by which the mirror is affixed to its proper place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然鏡子本身是生產焦點，鏡框作為把鏡子固定在適當位置的支架，也有重要但稍次要的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the whole, mirror frames reflected the general taste of the time and were often changed to accommodate alterations in taste—frames usually being cheaper and hence more easily replaced than the mirror itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體來看，鏡框反映了當時的一般品味，也常因品味變化而更換；鏡框通常比鏡子便宜，因此也較容易替換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 後半段出現 18th-century designers，所以 Question 12 要在這段後半細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Eighteenth-century craftsmen”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Focusing heavily on the effect created by mirrors, 18th-century designers such as the English brothers Robert and James Adam created fireplace units stretching from the hearth to the ceiling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十八世紀設計師，例如英國的 Robert 和 James Adam 兄弟，非常重視鏡子所創造的效果，並設計了從壁爐爐床延伸到天花板的 fireplace units。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句的核心動作是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Focusing heavily on the effect created by mirrors”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是設計師特別重視鏡子創造出的視覺效果。選項 A 說 “designed furniture that highlighted the unique properties of mirrors”，即設計突出鏡子特性的家具或室內裝置。雖然原文用 “fireplace units” 而非普通 furniture，但在四個選項中，A 最能概括 “focusing heavily on the effect created by mirrors”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A designed furniture that highlighted the unique properties of mirrors正確。highlighted the unique properties 對應 focusing heavily on the effect created by mirrors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B experimented largely with mirror frames made of ebony and ivory ivory、ebony 是 early frames 的材料，出現在前文，沒有指向 18th-century Adam brothers 的設計重點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C built spherically shaped mirrors spherical mirrors 出現在 Paragraph 5 的光學分類，和 eighteenth-century craftsmen 無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D experimented with ceiling mirrors around fireplaces原文說 fireplace units stretching from the hearth to the ceiling，即從爐床延伸到天花板的壁爐裝置；沒有說 ceiling mirrors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 使用了 ceiling 和 fireplaces 兩個相近字，很容易吸引眼睛。但原文是 fireplace units 延伸到ceiling，沒有說天花板上安裝鏡子。真正控制答案的是 “effect created by mirrors”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — used mirrors extensively in bedroom furniture.",
+      "answerKey": "C — used mirrors extensively in bedroom furniture.",
+      "type": "Multiple Choice",
+      "prompt": "“Nineteenth-century craftsmen”",
+      "translation": "十九世紀的工匠／製作者……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the 18th century, painted decoration largely supplanted carving on mirrors, the frames being decorated with floral patterns or classical ornaments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到十八世紀末，彩繪裝飾大致取代了鏡子上的雕刻，鏡框開始以花卉圖案或古典裝飾作點綴。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This type of emotional reflection stimulates babies to move various parts of their bodies and even promotes verbal utterances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情感上的反映會刺激嬰兒移動身體不同部位，甚至促進語言發聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 從 eighteenth-century 裝飾變化，一路講到 nineteenth-century cheaper production和 mirror proliferation。題目問 nineteenth-century craftsmen，所以要找 “19th century”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Nineteenth-century”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“New, cheaper techniques of mirror production in the 19th century led to a great proliferation in their use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀新的、更便宜的製鏡技術，使鏡子的使用大幅增加。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only were they regularly incorporated into pieces of furniture—such as wardrobes and sideboards—they were also used in everything from high-powered telescopes to decorative schemes in public places.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們不但經常被嵌入家具，例如衣櫃和餐具櫃，也被用於從高倍望遠鏡到公共場所裝飾方案等各種用途。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 mirrors were “regularly incorporated into pieces of furniture”，並舉出 wardrobes and sideboards。Wardrobes 是衣櫃，通常和 bedroom furniture 有關；sideboards 是餐具櫃，屬於家居家具。選項 C 的 “used mirrors extensively in bedroom furniture” 抓住 furniture incorporation 這個核心方向，尤其 wardrobes 是很直接的例子。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A used mirrors less than at any previous time in history原文說 “great proliferation”，即大量增加，A 方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B introduced mirrors as learning tools嬰兒透過 mirror games 發展 individuality 是最後兩句提到的 today / modern developmental use，不是 nineteenth-century craftsmen 的核心內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C used mirrors extensively in bedroom furniture正確。regularly incorporated into furniture—such as wardrobes 對應 used extensively in bedroom furniture。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D etched designs into mirrors原文沒有 etched designs。Paragraph 7 開頭講 painted decoration 和 floral patterns，時間也在end of 18th century，不是 19th-century cheaper production 的重點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 也有吸引力，因為最後說 infants develop awareness through mirror games。但那是現代心理和兒童發展用途，題目問 nineteenth-century craftsmen。做 MCQ 時，時間詞 nineteenth-century必須先鎖定，再看選項。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - REFLECTING ON THE MIRROR.pdf",
+    "sha256": "bbab4b94a5f27a05346165d517f9cf0cbe5d417bd09acb82ce1fe5be354a1bc7",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句，這段先推測最早的鏡子可能只是水池，因水面能反射觀看者影像。只看末句，段落最後說希臘人和羅馬人除了用 bronze，也嘗試用 polished silver 製作簡單鏡子。由首尾句可估計， Paragraph 1 主要交代鏡子的早期來源：從自然水面，到人造 brass、bronze、silver mirrors。這段最適合處理古代材料題，例如 Greeks、Egyptians、bronze、silver。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說粗糙的 glass mirrors 最早於 1300 年在 Venice 製成。末句說 Justus von Liebig 於 1835年發現用 metallic silver 覆蓋玻璃表面的化學程序，開啟現代製鏡技術。由首尾句可見， Paragraph 2 會講玻璃鏡的發展、早期稀有昂貴、Venice 掌握技術秘密，以及現代 silvering 技術的出現。這段最可能回答 first glass mirrors、rare and expensive、modern mirror-making techniques。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說到十七世紀末，英國已能製鏡，之後鏡子製造在歐洲多國發展成重要產業。末句描述美國東部住宅中，長鏡常被放在兩扇前客廳窗戶之間。由首尾句可見，Paragraph 3 由歐洲製鏡業擴展，轉到鏡子在服飾、首飾和家居中的流行。這段主要處理 Britain、Europe、America、mirror craze、large mirrors、parlour windows，Question 4 會用到。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說現代製鏡時，plate glass 會先按尺寸切割，所有瑕疵會用 rouge polishing 去除。末句說鏡子必須非常平滑，才能產生最佳反射。由首尾句可見，Paragraph 4 是製造流程段：玻璃清潔、reducing solution、silver nitrate、metallic silver deposit、shellac、painted backing、glass protection。這段是 Questions 6–9 的核心，因為 Diagram Label Completion 要按程序和層次找材料。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說鏡面可以是平面，也可以是曲面。末句說 ellipsoidal mirror 能把一個焦點的光反射到另一個焦點。由首尾句可估計，Paragraph 5 會分類不同鏡面形狀和用途：concave、convex、spherical、cylindrical、paraboloidal、ellipsoidal。這段最可能回答關於 telescope、rear-view mirrors、facial makeup、light focus 的題目。Questions 5 和 10 都要到這段找證據。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說雖然鏡子本身是生產焦點，框架作為固定鏡子的 anchor 也有重要角色。末句說鏡框通常反映當時品味，而且因為比鏡子便宜，較容易被替換。由首尾句可見，Paragraph 6 主要處理mirror frames 的裝飾功能、材料、craftsmen、overmantels、fireplace units，以及十七至十八世紀室內設計潮流。Questions 11 和 12 的 seventeenth-century / eighteenth-century craftsmen 要重點看這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說到十八世紀末，painted decoration 大致取代了鏡框雕刻，鏡框開始用花卉圖案或古典裝飾。末句說鏡子遊戲能刺激嬰兒移動身體，甚至促進語言發聲。由首尾句可見，Paragraph 7 由eighteenth-century painted frames、French circular mirrors、cheval glass，發展到nineteenth-century cheap production 和鏡子大量普及。後半段提到 furniture、telescopes、public decoration、infant development，Question 13 要看此段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "這裡 H 的選項文字有點不自然。原文真正說法是 silver nitrate 會變成 metallic silver，而 silver deposit 之後會 coated with shellac and painted。若原題選項本來把 H 設成 paint，Q9 就應理解為 painted backing。",
+    "Questions 6–9 的原題 diagram 沒有在現有來源中顯示。現有 F、G、E、H 的層次對應是依照 Paragraph 4 的製鏡流程、來源答案表和可公開核對的題序重建；實際作答時應以紙本圖的箭嘴和層次為準。"
+  ]
+}

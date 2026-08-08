@@ -1,0 +1,2212 @@
+{
+  "id": "p1-028-learning-by-examples",
+  "catalogueId": "p1-028",
+  "catalogueIds": [
+    "p1-028"
+  ],
+  "passage": 1,
+  "title": "Learning by Examples",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "A",
+    "C",
+    "E",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "less",
+    "social",
+    "watched",
+    "observer",
+    "nutcracker"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A comparison between rats’ learning and human learning”",
+      "translation": "老鼠學習和人類學習之間的比較。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找出哪一段包含「老鼠學習」和「人類學習」的比較。最重要定位詞是 rats’ learning、human learning、comparison。原文未必直接寫 human learning，可能用日常人類例子作比喻。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Urban black rats were found to lack the skill and were unable to learn it even if housed with experienced cone strippers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究發現，城市 black rats 缺乏這項技能，即使和有經驗的剝松果老鼠住在一起，也無法學會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of rats, the youngsters take cones away from the mother when she is still feeding on them, allowing them to acquire the complete stripping skill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以老鼠為例，幼鼠會在母鼠仍在吃松果時把松果拿走，讓牠們能學到完整的剝松果技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段功能明顯偏向「技能如何學習」。第一句說成年城市老鼠學不會，尾句說幼鼠從母鼠進食中的松果學會技巧。題目要找 rats’ learning，所以 D 段是很強目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rats’ learning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“human learning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“comparison”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 D 段，中間出現一句非常突出的比喻："
+            },
+            {
+              "kind": "quote",
+              "text": "“rather like our new photocopier, which you can work out how to use once someone has shown you how to switch it on.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 naïve adult rats 的學習和人使用 photocopier 的學習作比較，因此符合題目要求。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Further elegant experiments showed that naïve adults could develop the skill if they were provided with cones from which the first complete spiral of scales had been removed, rather like our new photocopier, which you can work out how to use once someone has shown you how to switch it on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進一步精巧的實驗顯示，如果提供的松果已經被移除了第一圈完整的鱗片，沒有經驗的成年老鼠也可以發展出這項技能；這很像我們的新影印機，只要有人先示範如何開機，你就可以自己摸索出怎樣使用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“comparison between rats’ learning and human learning”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“naïve adults could develop the skill...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rather like our new photocopier...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“once someone has shown you how to switch it on”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： rats’ learning = naïve adult rats developing cone-stripping skill human learning = people working out how to use a photocopier after first step is shown comparison = rather like判斷： D 段同時說老鼠技能學習，並用 photocopier 這個人類學習例子作類比，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段也談 human beings 和 animal learning，但它主要講 classical conditioning，不含 rats 和photocopier 這個直接比較。Question 1 的重點不只是 learning theory，還要有 rats 與 human example 的對照。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“A reference to the earliest study in animal learning”",
+      "translation": "提到最早期的動物學習研究。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求找 animal learning 的 earliest study 或 historical foundation。定位詞包括 earliest、animal learning、Pavlov、1900s、learning theory。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Learning theory is rooted in the work of Ivan Pavlov, the famous scientist who discovered and documented the principles governing how animals, including humans, learn in the 1900s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學習理論植根於 Ivan Pavlov 的研究；他是一位著名科學家，在 1900 年代發現並記錄了動物，包括人類，如何學習的原則。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Years of learning research have led to the creation of a highly precise learning theory that can be used to understand and predict how and under what circumstances almost any animal will learn, including human beings, and eventually help people figure out how to change their behaviours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年學習研究促成了高度精確的學習理論，可用來理解和預測幾乎任何動物，包括人類，在甚麼情況下會學習，最終也幫助人們思考如何改變行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段是學習理論的歷史開場。第一句直接把 learning theory 的根源放在 Pavlov 的研究上，所以這段最可能包含 earliest study。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“earliest study”"
+            },
+            {
+              "kind": "quote",
+              "text": "“animal learning”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 earliest 這個字，但 “is rooted in the work of Ivan Pavlov” 表示理論根源，功能上接近earliest reference。Pavlov、1900s、animals learn 都是強定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Learning theory is rooted in the work of Ivan Pavlov, the famous scientist who discovered and documented the principles governing how animals, including humans, learn in the 1900s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學習理論的根基來自 Ivan Pavlov 的研究；他在 1900 年代發現並記錄了動物，包括人類，學習方式背後的原則。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句沒有說 “earliest study” 這個詞，但它明確把 learning theory 的根源放在 Pavlov 的工作。後文再介紹 classical conditioning 和狗聽到鈴聲後流口水的實驗例子，整段都在描述早期動物學習理論的基礎。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“earliest study in animal learning”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Learning theory is rooted in the work of Ivan Pavlov”"
+            },
+            {
+              "kind": "quote",
+              "text": "“principles governing how animals... learn in the 1900s”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： earliest reference = theory is rooted in animal learning = how animals... learn study = Pavlov’s work判斷： A 段是全文中唯一提到 Pavlov 和 classical conditioning 歷史根源的段落，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“The discovery of who stripped the pine cones”",
+      "translation": "發現是誰剝掉 pine cones。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求找出哪一段說明 pine cones 被誰剝開。定位詞非常具體：stripped、pine cones、who。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種題通常靠原字定位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The research reported in one paper started with a school field trip to Israel, to a pine forest where many pine cones were discovered stripped to the central core.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一篇論文所報告的研究，始於一次到以色列松林的學校實地考察；在那裡，人們發現許多松果被剝到只剩中心。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The culprit proved to be the versatile and athletic black rat (Rattus rattus), and the technique was to bite each cone scale off at its base, in sequence from base to tip, following the spiral growth pattern of the cone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "元兇證明是靈活又善於活動的 black rat；牠們的技巧是在每片松果鱗片的底部咬掉鱗片，並按松果螺旋生長模式，由底部到頂端依次進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段已經完整回答題目：開頭說松果被剝，結尾說元兇是 black rat。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“who”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stripped”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pine cones”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句有 “pine cones were discovered stripped”，最後一句有 “The culprit proved to be... black rat”。“culprit” 意思是「元兇、造成事件者」，正是 who 的答案提示。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The culprit proved to be the versatile and athletic black rat (Rattus rattus), and the technique was to bite each cone scale off at its base, in sequence from base to tip, following the spiral growth pattern of the cone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "元兇證明是靈活、運動能力強的 black rat；牠們的技巧是在每片松果鱗片底部咬掉它，並按照松果的螺旋生長模式，由底部到頂端依次進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語 “The culprit” 直接回答 “who stripped the pine cones”。答案所在段落是 C，而非只填black rat，因為本題問 paragraph contains information。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“who stripped the pine cones”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The culprit proved to be ... black rat”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： who did it = culprit stripped pine cones = stripped cones / bite each cone scale off判斷： C 段開頭描述發現被剝的松果，最後揭示是 black rat 所為，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“A description of a cost-effectiveness experiment”",
+      "translation": "描述一個成本效益實驗。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求找實驗描述，而且內容要有 cost 和 benefit。定位詞包括 cost-effectiveness、economics、cost、benefit、energetic value、profit margin。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A good example of adaptive behaviour, we might conclude, but let’s look at the economics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們或許可以說這是一個 adaptive behaviour 的好例子，但讓我們看看它的經濟效益。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The cost proved to be less than 10% of the energetic value of the cone: an acceptable profit margin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成本被證明低於松果能量價值的 10%，這是一個可接受的利潤空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段非常像成本效益段。第一句提出 economics，最後一句給出 cost / value / profit margin 的結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cost-effectiveness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“experiment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“measuring the oxygen uptake”"
+            },
+            {
+              "kind": "quote",
+              "text": "“calculate the energetic cost”"
+            },
+            {
+              "kind": "quote",
+              "text": "“comparing it with the benefit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cost proved to be less than 10%”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞共同描述實驗方法和成本效益結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was determined by measuring the oxygen uptake of a rat stripping a cone in a metabolic chamber to calculate the energetic cost, and comparing it with the benefit of the pine seeds measured by calorimeter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者透過在代謝室中量度老鼠剝松果時的氧氣攝取量，計算其能量成本，並把這個成本與用熱量計量度出的松子能量收益作比較。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The cost proved to be less than 10% of the energetic value of the cone: an acceptable profit margin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成本被證明低於松果能量價值的 10%，是可接受的利潤空間。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“cost-effectiveness experiment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“calculate the energetic cost”"
+            },
+            {
+              "kind": "quote",
+              "text": "“comparing it with the benefit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“acceptable profit margin”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： cost-effectiveness = cost compared with benefit experiment = measuring oxygen uptake in a metabolic chamber and measuring seed energy by calorimeter判斷： E 段完整描述如何量度成本、如何計算收益，以及結果是否值得，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The field trip to Israel was carried out to investigate how black rats learn to strip pine cones.”",
+      "translation": "那次到以色列的實地考察，是為了研究 black rats 如何學會剝 pine cones。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩個核心：field trip 的目的，以及研究對象是否一開始就是 black rats learning to strip pine cones。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The research reported in one paper started with a school field trip to Israel, to a pine forest where many pine cones were discovered stripped to the central core.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一篇論文所報告的研究，始於一次到以色列松林的學校實地考察；在那裡，人們發現許多松果被剝到只剩中心。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The culprit proved to be the versatile and athletic black rat (Rattus rattus), and the technique was to bite each cone scale off at its base, in sequence from base to tip, following the spiral growth pattern of the cone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "元兇證明是靈活又善於活動的 black rat；其技巧是按松果螺旋生長模式，從底部到頂端依次咬掉每片鱗片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，field trip 是事件起點，但 black rat 是後來調查所得。這已經提示題目中的 “was carried out to investigate...” 很可疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“field trip to Israel”"
+            },
+            {
+              "kind": "quote",
+              "text": "“carried out to investigate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“black rats learn”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到 field trip 後，要向後讀研究目的句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the investigation started with no weighty theoretical intent, but was directed at finding out what was eating the nutritious pine seeds and how they managed to get them out of the cones.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說明調查最初目的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the investigation started with no weighty theoretical intent, but was directed at finding out what was eating the nutritious pine seeds and how they managed to get them out of the cones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，這項調查開始時沒有沉重的理論意圖，只是想找出甚麼東西在吃有營養的松子，以及牠們如何把松子從松果中弄出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：field trip to Israel目的：investigate how black rats learn to strip pine cones原文命題：起點：school field trip found stripped cones調查目的：find out what was eating the seeds and how they got them out後來結果：culprit proved to be black rat比較結果：題目把後來發現的研究對象 black rats，放回到 field trip 原本目的中。原文說起初只是發現被剝松果，後續調查才找出元兇和技巧。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“was carried out to investigate how black rats learn...”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“started with no weighty theoretical intent”"
+            },
+            {
+              "kind": "quote",
+              "text": "“directed at finding out what was eating...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供的目的和題目不同，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的確研究 black rats 如何學習剝松果，但這是後續研究。Question 5 問 field trip 的原本目的，不能把後續實驗倒放到最初行程上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The pine cones were stripped from bottom to top by black rats.”",
+      "translation": "black rats 由底部到頂部剝 pine cones。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 black rats 剝松果的方向。定位詞是 bottom to top，原文可能用 base to tip。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The research reported in one paper started with a school field trip to Israel, to a pine forest where many pine cones were discovered stripped to the central core.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究始於一次到以色列松林的學校實地考察，當時發現很多松果被剝到只剩中心。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The culprit proved to be the versatile and athletic black rat (Rattus rattus), and the technique was to bite each cone scale off at its base, in sequence from base to tip, following the spiral growth pattern of the cone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "元兇證明是 black rat；牠們的技巧是在每片鱗片底部咬掉，並按松果螺旋生長模式，由底部到頂端依次進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經把 stripped cones、black rat 和 technique 放在一起。題目問剝松果方向，因此目標句就是最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“bottom to top”"
+            },
+            {
+              "kind": "quote",
+              "text": "“black rats”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stripped”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 bottom / top，但有 “base to tip”。base = 底部；tip = 尖端 / 頂端。所以 “from base to tip”對應 “from bottom to top”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The culprit proved to be the versatile and athletic black rat (Rattus rattus), and the technique was to bite each cone scale off at its base, in sequence from base to tip, following the spiral growth pattern of the cone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "造成松果被剝的元兇是 black rat；牠們的技巧是在每片松果鱗片的底部咬掉它，並按松果螺旋生長模式，由底部到頂端依次進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：pine cones動作：were stripped方式：from bottom to top施動者：by black rats原文命題：施動者：black rat動作：bite each cone scale off方式：in sequence from base to tip"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "bottom = base top = tip stripped = bite each cone scale off by black rats = culprit proved to be black rat判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People can learn to use a photocopier once they have been shown the first step.”",
+      "translation": "人們只要被示範第一步，就可以學會使用影印機。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 photocopier 的人類學習例子。定位詞非常明確：photocopier、first step、shown。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Urban black rats were found to lack the skill and were unable to learn it even if housed with experienced cone strippers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市 black rats 缺乏這項技能，即使與有經驗的剝松果老鼠住在一起，也學不會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of rats, the youngsters take cones away from the mother when she is still feeding on them, allowing them to acquire the complete stripping skill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以老鼠為例，幼鼠會在母鼠仍在吃松果時把松果拿走，讓牠們學到完整剝松果技能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段處理「學習需要甚麼提示或示範」。題目提到 photocopier，這個例子只在 D 段出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“photocopier”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shown”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first step”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“our new photocopier”"
+            },
+            {
+              "kind": "quote",
+              "text": "“once someone has shown you how to switch it on”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“switch it on” 就是第一步。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Further elegant experiments showed that naïve adults could develop the skill if they were provided with cones from which the first complete spiral of scales had been removed, rather like our new photocopier, which you can work out how to use once someone has shown you how to switch it on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進一步實驗顯示，如果提供的松果已經移除了第一圈完整鱗片，沒有經驗的成年老鼠也能發展出這項技能；這就像我們的新影印機，只要有人先示範如何開機，你就可以自己摸索如何使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： People can learn to use a photocopier條件：once shown the first step原文命題： you can work out how to use it條件：once someone has shown you how to switch it on"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "learn to use = work out how to use first step = how to switch it on once they have been shown = once someone has shown you判斷：題目直接概括原文 photocopier 例子，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句本身是一個比喻，用來解釋老鼠學習。雖然它是比喻，仍然是文章提供的 factual statement，因此可以用來判斷 TRUE / FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Stripping pine cones is instinctive in black rats.”",
+      "translation": "剝 pine cones 是 black rats 的本能。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷技能是 instinctive 還是 learned。定位詞是 instinctive、black rats、skill / learned。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Urban black rats were found to lack the skill and were unable to learn it even if housed with experienced cone strippers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究發現，城市 black rats 缺乏這項技能，即使和有經驗的剝松果老鼠同住，也無法學會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of rats, the youngsters take cones away from the mother when she is still feeding on them, allowing them to acquire the complete stripping skill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以老鼠為例，幼鼠會在母鼠仍在吃松果時把松果拿走，讓牠們學到完整的剝松果技能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段明顯說技能要透過特定接觸方式學習。若是本能，城市老鼠應自然具備這項技能；但首句說牠們 lack the skill。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“instinctive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“black rats”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stripping pine cones”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 instinctive，但有一組反方向詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lack the skill”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unable to learn it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“acquired the skill”"
+            },
+            {
+              "kind": "quote",
+              "text": "“had to be learned from the mother”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中 “had to be learned from the mother” 是定案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, the skill had to be learned from the mother.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很明顯，這項技能必須從母鼠那裡學來。"
+            },
+            {
+              "kind": "label",
+              "text": "前文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, infants of urban mothers cross-fostered by stripper mothers acquired the skill, whereas infants of stripper mothers fostered by an urban mother could not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，由會剝松果的母鼠寄養的城市母鼠幼崽學會了這項技能；相反，由城市母鼠寄養的會剝松果母鼠幼崽學不會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句共同證明：技能取決於幼鼠由哪一類母鼠撫養。若技能屬本能，寄養母鼠類型不應如此關鍵。原文直接說 “had to be learned”，和 “instinctive” 相衝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“is instinctive”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“had to be learned from the mother”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果： instinctive = 天生具備had to be learned = 後天學來判斷：文章明確說這項技能要向母鼠學習，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "black rats 的技巧看起來很自然、很精準，學生可能以為是本能行為。D 段的 cross-fostering 實驗正是用來排除這種想法：哪個母鼠帶大幼鼠，決定幼鼠是否學會。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "less",
+      "answerKey": "less",
+      "type": "Summary Completion",
+      "prompt": "“While the nutcracker is more able to cache seeds, the jay relies 9. __________ on caching food and is therefore less specialised in this ability...”",
+      "translation": "雖然 nutcracker 更擅長儲藏種子，jay 對儲藏食物的依賴 9. ________，因此在這項能力上較不專門化。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格位於 “relies ___ on caching food”，需要一個副詞或程度詞，說明 Mexican jay 對 caching food 的依賴程度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A 1996 paper in Animal Behaviour by Bednekoff and Balda provides a different view of the adaptiveness of social learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bednekoff and Balda 於 1996 年在 Animal Behaviour 發表的一篇論文，提供了另一種理解social learning 適應性的角度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two species also differ in their social structure: the nutcracker is rather solitary, while the jay forages in social groups.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個 species 在社會結構上也不同：nutcracker 相當獨居，而 jay 會成群覓食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段比較 nutcracker 和 Mexican jay 的 caching 依賴程度與社會結構。題目提到 nutcracker 和jay，所以定位在 F 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“nutcracker”"
+            },
+            {
+              "kind": "quote",
+              "text": "“jay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“caching food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Mexican jay will also cache food, but is much less dependent upon this than the nutcracker.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句幾乎直接改寫 summary。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Mexican jay will also cache food, but is much less dependent upon this than the nutcracker.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mexican jay 也會儲藏食物，但牠對這件事的依賴遠低於 nutcracker。"
+            },
+            {
+              "kind": "label",
+              "text": "Summary 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the jay relies ___ on caching food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“is much less dependent upon this”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格填 less，句子變成 “the jay relies less on caching food”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "relies on = is dependent upon caching food = this，指前文 cache food less = much less答案是 less。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "social",
+      "answerKey": "social",
+      "type": "Summary Completion",
+      "prompt": "“...and is therefore less specialised in this ability, but more 10. __________.”",
+      "translation": "因此牠在這項能力上較不專門化，但更 10. ________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “more” 後面，應接形容詞。前半句說 jay 較不依賴 caching，後半句應接另一個對比特徵。原文對比兩種鳥的 social structure。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A 1996 paper in Animal Behaviour by Bednekoff and Balda provides a different view of the adaptiveness of social learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bednekoff and Balda 的 1996 年論文從另一角度看 social learning 的適應性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two species also differ in their social structure: the nutcracker is rather solitary, while the jay forages in social groups.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個 species 的社會結構也不同：nutcracker 較獨居，而 jay 成群覓食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，jay 的重要特徵是 social group。summary 用 “less specialised... but more ___” 概括這個對比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“less specialised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more”"
+            },
+            {
+              "kind": "quote",
+              "text": "“jay”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the nutcracker is rather solitary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the jay forages in social groups”"
+            },
+            {
+              "kind": "label",
+              "text": "另外，Paragraph G 最後也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the socially living Mexican jay...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這進一步確認 jay 的特徵是 social。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two species also differ in their social structure: the nutcracker is rather solitary, while the jay forages in social groups.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩種鳥在社會結構上也不同：nutcracker 較獨居，而 jay 成群覓食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 的 “but more ___” 需要和 “social groups” 對應。最自然答案是 social。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "more social= forages in social groups= socially living Mexican jay答案是 social。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "小提醒：如果 word box 中有 “socially living” 或 “sociable”，正式答案可能按選項用詞調整。根據原文和空格文法，“social” 最貼合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "watched",
+      "answerKey": "watched",
+      "type": "Summary Completion",
+      "prompt": "“In the experiment, the cacher bird hid seeds in the ground while the other 11. __________.”",
+      "translation": "在實驗中，cacher bird 把種子藏在地上的洞中，而另一隻鳥則 11. ________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要動詞。題目描述實驗設計，要找 cacher bird 和 observer bird 的動作。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experiment was designed to discover not just whether a bird can remember where it hid a seed, but also whether it can remember where it saw another bird hide a seed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "實驗設計的目的，不只是發現一隻鳥是否記得自己把種子藏在哪裡，也要看牠是否記得自己看到另一隻鳥把種子藏在哪裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It seems that, whereas the nutcracker is highly adapted at remembering where it hid its own seeds, the socially living Mexican jay is more adept at remembering, and thus exploiting, the caches of others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，nutcracker 高度適應於記住自己藏種子的位置，而群居的 Mexican jay 更擅長記住並利用其他鳥的藏食位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 段就是實驗設計與結果段。題目問實驗中另一隻鳥做甚麼，應看中間描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cacher bird”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hid seeds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“while the other”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a cacher bird wandering about...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“while being watched by an observer bird perched in a cage”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The design is slightly comical, with a cacher bird wandering about a room with lots of holes in the floor, hiding food in some of the holes, while being watched by an observer bird perched in a cage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個設計有點滑稽：一隻 cacher bird 在有很多地洞的房間裡走來走去，把食物藏進某些洞中，同時由一隻站在籠子裡的 observer bird 看著。"
+            },
+            {
+              "kind": "label",
+              "text": "summary 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the cacher bird hid seeds in the ground while the other ___.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“while being watched by an observer bird”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果改成主動語態，就是 “the other watched”。所以答案是 watched。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "hid seeds in the ground= hiding food in some of the holes the other watched= being watched by an observer bird答案是 watched。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "observer",
+      "answerKey": "observer",
+      "type": "Summary Completion",
+      "prompt": "“As a result, the nutcracker and the Mexican jay showed different performances in the role of 12. __________ when finding the seeds...”",
+      "translation": "結果，nutcracker 和 Mexican jay 在 12. ________ 角色下尋找種子時，表現不同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷差異出現在哪個 role。Paragraph G 有兩個 role：cacher 和 observer。要細讀哪個role 中兩種鳥差異最大。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experiment was designed to discover not just whether a bird can remember where it hid a seed, but also whether it can remember where it saw another bird hide a seed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "實驗不只測試鳥能否記得自己藏種子的地方，也測試牠能否記得看到其他鳥藏種子的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It seems that, whereas the nutcracker is highly adapted at remembering where it hid its own seeds, the socially living Mexican jay is more adept at remembering, and thus exploiting, the caches of others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，nutcracker 高度適應於記住自己藏的種子，而 Mexican jay 更擅長記住並利用其他鳥的藏食位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經把自己藏與看到別人藏分開；尾句說 jay 擅長 others’ caches。題目問 different performances，應看 observer role。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“different performances”"
+            },
+            {
+              "kind": "quote",
+              "text": "“role”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nutcracker and Mexican jay”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the role of cacher, not only the nutcracker but also the less specialised jay performed above chance.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“More surprisingly, however, jay observers were as successful as jay cachers, whereas nutcracker observers did no better than chance.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句對比後可知：cacher role 中兩者都 above chance；observer role 中 jay 成功，nutcracker失敗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More surprisingly, however, jay observers were as successful as jay cachers, whereas nutcracker observers did no better than chance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更令人驚訝的是，jay observer 的成功率和 jay cacher 一樣高；相反，nutcracker observer 的表現不比隨機機率好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句顯示兩種鳥的不同表現出現在 observer role。jay 作為觀察者能成功找回別的鳥藏的位置， nutcracker 作為觀察者表現很差。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "role of observer= where it saw another bird hide a seed observing bird = observer bird答案是 observer。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "上一句提到 “In the role of cacher”，容易吸引學生填 cacher。但那一句說兩種鳥都 above chance，差異不大。真正不同的結果在 observer role。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "nutcracker",
+      "answerKey": "nutcracker",
+      "type": "Summary Completion",
+      "prompt": "“...the observing 13. __________ did not do as well as its counterpart.”",
+      "translation": "作為觀察者的 13. ________ 表現不如另一方。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 observing bird 中表現較差的是哪一種。定位詞是 observing、did not do as well、counterpart。原文用 “did no better than chance” 表示表現差。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experiment was designed to discover not just whether a bird can remember where it hid a seed, but also whether it can remember where it saw another bird hide a seed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "實驗設計的目的，不只測試鳥是否記得自己藏種子的位置，也測試牠是否記得看到其他鳥藏種子的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It seems that, whereas the nutcracker is highly adapted at remembering where it hid its own seeds, the socially living Mexican jay is more adept at remembering, and thus exploiting, the caches of others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，nutcracker 擅長記住自己藏種子的地方，而群居 Mexican jay 更擅長記住並利用其他鳥的藏食位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句已經提示：nutcracker 擅長自己的 caches，Mexican jay 擅長 others’ caches。因此作為observing bird 表現較差的應是 nutcracker。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“observing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“did not do as well”"
+            },
+            {
+              "kind": "quote",
+              "text": "“counterpart”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“nutcracker observers did no better than chance”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“did no better than chance” 的意思是表現不比隨機猜測好，明顯不如 jay observers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“More surprisingly, however, jay observers were as successful as jay cachers, whereas nutcracker observers did no better than chance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更令人驚訝的是，jay 作為 observer 時和 jay 作為 cacher 時一樣成功；相反，nutcracker 作為observer 時，表現不比隨機機率好。"
+            },
+            {
+              "kind": "label",
+              "text": "summary 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the observing ___ did not do as well as its counterpart”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“nutcracker observers did no better than chance”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 nutcracker。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "observing nutcracker= nutcracker observers did not do as well= did no better than chance counterpart= jay observers / Mexican jay答案是 nutcracker。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "nutcracker 在 cacher role 中很強，因為牠專門儲藏大量種子。可是 Question 13 問的是observing role。角色一換，結果也改變：nutcracker observer 表現差，jay observer 表現好。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Learning by Examples.pdf",
+    "sha256": "fdeab306c3c61376551702d99d31a91bb3026fa58d33b9f5da5e9dc8af44c2bf",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說 learning theory 源於 Ivan Pavlov 的研究，他發現並記錄動物和人類如何學習的原則。尾句說，長年研究已建立精確的 learning theory，可幫助人理解和預測動物及人類如何學習，甚至改變行為。只看首尾句，可以估計這段會介紹 classical conditioning 的基礎，包括 bell、food、dog salivation，以及早期動物學習研究如何成為行為改變理論。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說 role models 常被用來指導兒童發展，但近年也有很多關於其他動物 learning by example 的有趣研究。尾句說作者為了教課，參考了 Heyes and Galef 編輯的 mammals social learning 論文集。只看首尾句，可以估計這段會把焦點從 classical / operant conditioning 轉向social learning，即動物本身如何透過榜樣或同類行為學習。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說某篇論文中的研究由一次以色列松林 school field trip 開始，當時發現很多 pine cones 被剝到只剩中心。尾句說元兇是靈活、運動能力強的 black rat，牠們按松果螺旋生長模式，從底部到頂端依次咬掉 cone scales。只看首尾句，可以估計這段會交代研究起點、研究問題和發現誰剝松果。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說城市 black rats 缺乏剝松果技能，即使和有經驗的剝松果老鼠一起住也學不會。尾句說幼鼠會在母鼠仍在吃松果時把松果拿走，從中學完整剝松果技巧。只看首尾句，可以估計這段會解釋技能如何透過母鼠傳給幼鼠，也會比較沒有經驗的老鼠、寄養實驗和人類學習例子。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說我們或許可把剝松果看成 adaptive behaviour，但還要看 economics。尾句說成本低於松果能量價值的 10%，是可接受的 profit margin。只看首尾句，可以估計這段會講一個成本效益實驗：研究者量度老鼠剝松果時的氧氣消耗，再和松子能量收益比較，以判斷這項行為是否值得。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說 Bednekoff and Balda 於 1996 年在 Animal Behaviour 發表的論文，提供了另一種理解 social learning 適應性的角度。尾句說 nutcracker 較孤獨，而 Mexican jay 會成群覓食。只看首尾句，可以估計這段會比較兩種鳥的 seed-caching 行為、依賴程度和社會結構，為後文實驗結果作背景。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說實驗設計的目的，不只測試鳥是否記得自己藏種子的位置，也測試牠是否記得看到其他鳥藏種子的位置。尾句說 nutcracker 擅長記住自己的 cache，而群居 Mexican jay 更擅長記住並利用其他鳥的 cache。只看首尾句，可以估計這段會詳細描述 cacher / observer 實驗，以及兩種鳥在觀察角色中的不同表現。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "小提醒：Questions 9–13 原題說 word box was not included，所以這裡用原文和 summary 文法推斷最合理答案。若正式試卷有 word box，應以選項中的實際拼字為準。"
+  ]
+}

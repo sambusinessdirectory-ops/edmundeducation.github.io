@@ -2,7 +2,7 @@ import {
   createArticleRepository,
   questionNumberLabel,
   questionNumbers,
-} from "./ielts-reading-analysis-loader.mjs?v=20260808-4";
+} from "./ielts-reading-analysis-loader.mjs?v=20260808-5";
 
 (function () {
   "use strict";

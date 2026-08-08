@@ -1,0 +1,1987 @@
+{
+  "id": "p1-156-sosus-listening-to-the-ocean",
+  "catalogueId": "p1-156",
+  "catalogueIds": [
+    "p1-156"
+  ],
+  "passage": 1,
+  "title": "SOSUS: Listening to the Ocean",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "D",
+    "G",
+    "F",
+    "D",
+    "D",
+    "A",
+    "A",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In the past, studying the Moon was considerably easier than studying the oceans.”",
+      "translation": "過去，研究月球比研究海洋容易得多。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心是比較：studying the Moon 是否比 studying the oceans easier。控制詞是 “In the past” 和 “considerably easier”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The oceans of Earth cover more than 70 per cent of the planet’s surface, yet, until quite recently, we knew less about their depths than we did about the surface of the Moon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球海洋覆蓋超過地球表面七成；可是直到相當近代，人類對海洋深處的了解，比對月球表面的了解更少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the twentieth century, however, no analogous instruments were available for the study of Earth’s oceans: light, which can travel trillions of miles through the vast vacuum of space, cannot penetrate very far in seawater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是直到二十世紀，研究地球海洋仍沒有類似的工具；光能穿越廣闊真空中數以兆英里計的距離，卻無法深入海水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 的功能是建立「月球研究較容易，海洋深處較難研究」這個背景。它先說人類對月球表面反而更熟悉，再用 light 不能深入海水解釋原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“oceans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“studying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“easier”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph A，可以直接找到 “Moon” 和 “Earth’s oceans”。更重要的是，原文用 “far more accessible to study” 表達 easier 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Distant as it is, the Moon has been far more accessible to study because astronomers have long been able to look at its surface, first with the naked eye and then with the telescope—both instruments that focus light.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然月球距離遙遠，但研究月球一直容易得多，因為天文學家長久以來都能觀察它的表面，先用肉眼，後來用望遠鏡，而兩者都是聚焦光線的工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the Moon”。核心表達是 “far more accessible to study”，意思是更容易被研究。題目用 “considerably easier” 改寫這個意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“studying the Moon was considerably easier”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Moon has been far more accessible to study”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： considerably easier = far more accessible to study studying the oceans = study of Earth’s oceans in the past = until quite recently / until the twentieth century判斷：原文清楚說月球更容易研究，並解釋原因是光學工具能觀察月球表面，但光不能深入海水。題目與原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能覺得月球距離地球很遠，所以研究月球應該更難。但 IELTS Reading 判斷只跟文章證據有關。原文直接用 “far more accessible” 說月球更容易研究，因此不能用常識反向推理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The same light-based technology used to investigate the Moon can be used to study the ocean depths.”",
+      "translation": "用來研究月球的同一種光學技術，也可以用來研究海洋深處。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 light-based technology 是否同時適用於 Moon 和 ocean depths。控制詞是 “same”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“light-based technology” 和 “can be used”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A第一句：“The oceans of Earth cover more than 70 per cent of the planet’s surface, yet, until quite recently, we knew less about their depths than we did about the surface of the Moon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球海洋覆蓋超過地球表面七成；可是直到相當近代，人類對海洋深處的了解，比對月球表面的了解更少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the twentieth century, however, no analogous instruments were available for the study of Earth’s oceans: light, which can travel trillions of miles through the vast vacuum of space, cannot penetrate very far in seawater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是直到二十世紀，研究地球海洋仍沒有類似的工具；光能穿越廣闊真空中數以兆英里計的距離，卻無法深入海水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示：這段不只比較月球和海洋，也解釋為何研究方法不能直接轉用到深海。尾句的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“light cannot penetrate very far in seawater” 是定案位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：“light-based technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Moon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ocean depths”"
+            },
+            {
+              "kind": "quote",
+              "text": "“can be used”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文相關詞包括 “naked eye”、“telescope”、“focus light”、“light cannot penetrate”。掃描Paragraph A 時，這些詞集中出現，顯示答案在此段。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“... first with the naked eye and then with the telescope—both instruments that focus light.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "先用肉眼，後來用望遠鏡；兩者都是聚焦光線的工具。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“... light, which can travel trillions of miles through the vast vacuum of space, cannot penetrate very far in seawater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "光能穿越廣闊真空中數以兆英里計的距離，卻無法深入海水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說同一種 light-based technology 可以研究 ocean depths。原文提供相反資訊：光學工具可研究月球表面，但光在海水中穿透距離有限，因此不能用同樣方法研究深海。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“can be used to study the ocean depths”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot penetrate very far in seawater”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： can be used = 可行cannot penetrate very far = 光線限制使方法不可行判斷：原文直接否定題目中的 “can be used”。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “same light-based technology” 看似合理，因為 Paragraph A 的確提到 naked eye 和telescope。但真正控制答案的是 “cannot penetrate very far in seawater”。看到相同主題詞時，要檢查動詞和否定詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Researching the ocean depths by means of sound waves is more time-consuming.”",
+      "translation": "用聲波研究海洋深處比較耗時。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是比較和研究效率：sound waves 研究海洋深處是否 “more time-consuming”。控制詞是 “more time-consuming”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B，並需要留意 Paragraph D 的相關背景。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Curious investigators have long been fascinated by sound and the way it travels in water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "好奇的研究者長久以來都對聲音以及聲音在水中傳播的方式著迷。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What these investigators demonstrated was that water—whether fresh or salt—is an excellent medium for sound, transmitting it at almost five times its speed in air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些研究者證明的是：無論淡水或鹹水，水都是聲音的優良媒介，聲音在水中的傳播速度接近在空氣中的五倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 會講 sound in water 的研究歷史和傳播速度。它能回答「聲音是否適合在水中傳播」，但未必回答「是否較耗時」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“sound waves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ocean depths”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more time-consuming”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描文章可以找到大量 sound / water / speed / transmission，但找不到 time-consuming、takes longer、slower research、requires more time 這類概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 的關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“... water—whether fresh or salt—is an excellent medium for sound, transmitting it at almost five times its speed in air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論淡水或鹹水，水都是聲音的優良媒介，聲音在水中的傳播速度接近在空氣中的五倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是聲音在水中的物理傳播速度，不等於研究工作所需時間。聲波傳得快，不能直接推出研究過程較快；同樣，也不能推出研究過程較耗時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也只談影響聲音傳播的因素，例如吸收、散射、頻率、鹽度、溫度和壓力。它沒有比較 sound-wave research 和其他 research method 的時間成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目需要文章說明 “using sound waves to research ocean depths takes more time”。原文沒有這項資訊，也沒有提供相反說法。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“transmitting it at almost five times its speed in air” 容易令人聯想到速度，然後自行推論研究更快或更慢。這種推論超出文章證據。IELTS 中只要題目問的是「研究耗時」，原文只談「聲音傳播速度」，便不能直接判 TRUE 或 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Hydrophone technology can identify the type of precipitation.”",
+      "translation": "水聽器技術可以辨認降水類型。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 hydrophone 是否能 identify precipitation type。控制詞是 “identify”、“type” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“precipitation”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H第一句：“Researchers are also using other acoustic techniques to monitor climate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者也正在使用其他聲學技術監測氣候。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By using the sound of rain underwater as a ‘natural’ rain gauge, this method makes rainfall measurements over the oceans available to climatologists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過把水下雨聲當成一種「天然」雨量計，這種方法讓氣候學家可以取得海洋上的降雨測量資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 明顯講 acoustic techniques 如何監測氣候，尤其是海洋降雨測量。因此 hydrophones 和 precipitation 很可能在這段中間出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hydrophone”"
+            },
+            {
+              "kind": "quote",
+              "text": "“precipitation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“type”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文不一定用 precipitation，可能用 rainfall / rain。掃描 Paragraph H，直接找到 “hydrophones”和 “rainfall type”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since 1985, Nystuen has used hydrophones to listen to rain over the ocean, acoustically measuring not only the rainfall rate but also the rainfall type, from drizzle to thunderstorms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1985 年起，Nystuen 使用水聽器聆聽海洋上的雨聲，以聲學方式測量降雨率，也測量降雨類型，從毛毛雨到雷暴都包括在內。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hydrophone technology can identify the type of precipitation.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“used hydrophones ... measuring ... the rainfall type, from drizzle to thunderstorms”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： hydrophone technology = used hydrophones precipitation = rainfall / rain identify the type = measuring the rainfall type type of precipitation = drizzle to thunderstorms判斷：原文清楚說 hydrophones 可測量 rainfall type。題目把 rainfall 改成 precipitation，意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "precipitation 比 rainfall 更概括，但在這段語境中，雨水就是降水的一種。原文舉出 drizzle 和thunderstorms，證明題目中的 type 有明確支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“Factors affecting the transmission of sound in the ocean”",
+      "translation": "影響聲音在海洋中傳播的因素。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是段落資訊配對題。題目不是問單一答案句，而是問哪一段包含這類資訊功能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of factors influence how far sound travels underwater and how long it lasts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有很多因素會影響聲音在水下能傳多遠，以及能持續多久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Next comes a transitional layer called the thermocline, in which temperature drops steadily with depth; as temperature falls, so does the speed of sound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著是一個叫作溫躍層的過渡層；在這一層中，溫度會隨深度穩定下降，而當溫度下降時，聲速也會下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接說 “A number of factors influence...”，尾句也用 temperature 和 sound speed 收結。段落功能非常明確：解釋聲音傳播受哪些因素影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Factors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“transmission of sound”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ocean”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 內有 particles、seawater、absorb、scatter、low-frequency sounds、salinity、temperature、pressure、speed of sound 等詞，全部都是 sound transmission 的因素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 包含以下因素： particles in seawater chemicals such as magnesium sulfate and boric acid low-frequency sound salinity temperature pressure ocean layers thermocline這完全對應題目 “Factors affecting the transmission of sound in the ocean”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也講聲音在水中傳播，但重點是歷史測量和水是良好媒介。Question 5 問的是多種influencing factors，所以 Paragraph D 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“The relationship between global climate and ocean temperature”",
+      "translation": "全球氣候和海洋溫度之間的關係。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“SOSUS, with its vast reach, has also proved instrumental in obtaining information crucial to our understanding of Earth’s weather and climate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "SOSUS 覆蓋範圍巨大，也已證明對取得理解地球天氣和氣候所需的重要資訊很有幫助。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of sound paths in the ocean could be pieced together into a map of global ocean temperatures and, by repeating measurements along the same paths over time, scientists could track changes in temperature over months or years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋中數以千計的聲音路徑可以拼合成全球海洋溫度圖；如果沿相同路徑反覆量度，科學家就能追蹤數月或數年間的溫度變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 weather and climate，尾句有 global ocean temperatures 和 track changes in temperature。這段明顯連接全球氣候與海洋溫度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“global climate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ocean temperature”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relationship”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應詞包括 Earth’s weather and climate、ocean temperature measurements、heat transfer、ocean and atmosphere、global ocean temperatures。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ocean plays an enormous role in determining air temperature: the heat capacity in only the upper few metres of ocean is thought to be equal to all of the heat in the entire atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋在決定空氣溫度方面扮演巨大角色；據認為，海洋上層僅數米的熱容量，就等同於整個大氣中的全部熱量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句明確說明 ocean temperature 和 air temperature / climate 的關係。後文再說，聲波水平穿越海洋時，速度主要受溫度影響，因此可用聲音路徑測量海洋溫度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目問全球氣候與海洋溫度的關係，Paragraph G 正正處理這個功能，所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Examples of how sound technology helps people study the ocean and its creatures”",
+      "translation": "聲音技術如何幫助人類研究海洋生物的例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Christopher Clark, a biological acoustician at Cornell University, also realised that SOSUS could be used to listen to whales when he first visited a SOSUS station in 1992.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cornell University 的生物聲學家 Christopher Clark 在 1992 年第一次參觀 SOSUS station 時，也意識到 SOSUS 可以用來聽鯨魚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, Fox and colleagues have detected changes in the calls of finback whales during different seasons and found that blue whales in different regions of the Pacific Ocean have different calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Fox 及同事發現長鬚鯨在不同季節叫聲會有變化，也發現太平洋不同地區的藍鯨有不同叫聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都圍繞 whales 和 acoustic listening。這段功能是說 SOSUS 如何從軍事監聽轉為鯨魚研究工具。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“sound technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“study”"
+            },
+            {
+              "kind": "quote",
+              "text": "“creatures”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 有 SOSUS、listen to whales、voice patterns、track whales、distinguish whale calls等對應詞。creatures 在這裡對應 whales。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using SOSUS stations, scientists can track whales in real time and position them on a map. Moreover, they can track not just one whale at a time, but many whales simultaneously throughout the North Atlantic and the eastern North Pacific.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "利用 SOSUS station，科學家可以即時追蹤鯨魚，並把牠們的位置標在地圖上。而且，他們一次追蹤的並非單一鯨魚；他們可以在北大西洋和東北太平洋同時追蹤許多鯨魚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段提供多個例子：聽鯨魚、辨認叫聲圖案、遠距離聽到鯨魚、即時追蹤位置、同時追蹤多條鯨魚、分辨不同叫聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Question 7 的 “ocean and its creatures” 由 whales 這一組例子支撐，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 和 H 也講 sound technology，但它們處理的是 ocean temperature 和 rainfall。只有F 明確處理 ocean creatures。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A comparison between underwater sound transmission and light transmission in the atmosphere”",
+      "translation": "水下聲音傳播與大氣中光傳播之間的比較。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of factors influence how far sound travels underwater and how long it lasts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有很多因素會影響聲音在水下能傳多遠，以及能持續多久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Next comes a transitional layer called the thermocline, in which temperature drops steadily with depth; as temperature falls, so does the speed of sound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著是一個叫作溫躍層的過渡層；在這一層中，溫度會隨深度穩定下降，而當溫度下降時，聲速也會下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提示這段講 underwater sound transmission。要找 comparison，就要掃描段內有沒有 light、atmosphere、just as 這類比較訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“underwater sound transmission”"
+            },
+            {
+              "kind": "quote",
+              "text": "“light transmission”"
+            },
+            {
+              "kind": "quote",
+              "text": "“atmosphere”"
+            },
+            {
+              "kind": "quote",
+              "text": "“comparison”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 第一部分直接出現 sound、light、atmosphere 和 just as，這是強定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For one, particles in seawater can reflect, scatter, and absorb certain frequencies of sound—just as certain wavelengths of light may be reflected, scattered, and absorbed by specific types of particles in the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一點是，海水中的粒子可以反射、散射和吸收某些頻率的聲音；同樣地，某些波長的光也可能被大氣中特定類型的粒子反射、散射和吸收。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a comparison between underwater sound transmission and light transmission in the atmosphere”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“particles in seawater ... sound — just as ... wavelengths of light ... particles in the atmosphere”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文用 “just as” 明確比較水中聲音與大氣中光的反射、散射、吸收行為，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也提到 sunlight scattering 和 sound waves in water，但 Question 8 要的是一個具體比較，Paragraph D 的 “just as” 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "D — Charles Sturm",
+      "answerKey": "D — Charles Sturm",
+      "type": "Multiple Choice",
+      "prompt": "“Who was directly involved in measuring the speed of sound in water?”",
+      "translation": "誰直接參與量度聲音在水中的速度？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Curious investigators have long been fascinated by sound and the way it travels in water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "好奇的研究者長久以來都對聲音以及聲音在水中傳播的方式著迷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What these investigators demonstrated was that water—whether fresh or salt—is an excellent medium for sound, transmitting it at almost five times its speed in air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些研究者證明的是：無論淡水或鹹水，水都是聲音的優良媒介，聲音在水中的傳播速度接近在空氣中的五倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph B 是聲音在水中傳播的早期研究段。題目問直接參與 measuring speed，所以要找人名和 measured / speed。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“measuring”"
+            },
+            {
+              "kind": "quote",
+              "text": "“speed of sound”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人名選項：Leonardo da Vinci / Isaac Newton / John William Strutt / Charles Sturm Paragraph B 中可以找到 “accurately measured its speed in water”，附近人名是 Daniel Colladon和 Charles Sturm。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... it was not until 1826 that Daniel Colladon, a Swiss physicist, and Charles Sturm, a French mathematician, accurately measured its speed in water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 1826 年，瑞士物理學家 Daniel Colladon 和法國數學家 Charles Sturm 才準確量度了聲音在水中的速度。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Leonardo da Vinci他提出用長管在水中聽遠方船隻的觀察，但沒有直接量度水中聲速。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Isaac Newton他在 1687 年出版聲音傳播的數學理論，但題目問的是直接量度水中聲速。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C John William Strutt他是 Lord Rayleigh，屬 Paragraph C 的現代聲學理論人物，沒有在原文中直接參與 1826 年水中聲速量度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Charles Sturm正確。原文直接說 Charles Sturm 和 Daniel Colladon 準確量度水中聲速。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目問 “directly involved”，所以答案要找真正做測量的人。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — Lord Rayleigh (John William Strutt)",
+      "answerKey": "A — Lord Rayleigh (John William Strutt)",
+      "type": "Multiple Choice",
+      "prompt": "“Who established that a principle governing the scattering of light also applies to sound waves in water?”",
+      "translation": "誰確立了一項關於光散射的原理也適用於水中聲波？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1877 and 1878, the British scientist John William Strutt, third Baron Rayleigh, published his two-volume seminal work, The Theory of Sound, often regarded as marking the beginning of the modern study of acoustics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1877 和 1878 年，英國科學家 John William Strutt，即第三代 Rayleigh 男爵，出版了兩卷本的重要著作 The Theory of Sound，這常被視為現代聲學研究的開端。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among other things, Lord Rayleigh was the first to describe a sound wave as a mathematical equation ... and the first to describe how small particles in the atmosphere scatter certain wavelengths of sunlight, a principle that also applies to the behaviour of sound waves in water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除此之外，Lord Rayleigh 第一位把聲波描述成數學方程式，也第一位描述大氣中的小粒子如何散射陽光中某些波長；這項原理同樣適用於水中聲波的行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向 Lord Rayleigh / John William Strutt。題目中的 scattering of light 和 sound waves in water 直接出現在尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“scattering of light”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sound waves in water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“principle”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人名：Lord Rayleigh / John William Strutt Paragraph C 直接有 “scatter certain wavelengths of sunlight” 和 “applies to the behaviour of sound waves in water”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... Lord Rayleigh was ... the first to describe how small particles in the atmosphere scatter certain wavelengths of sunlight, a principle that also applies to the behaviour of sound waves in water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lord Rayleigh 第一位描述大氣中的小粒子如何散射陽光中的某些波長；這項原理同樣適用於水中聲波的行為。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Lord Rayleigh (John William Strutt)正確。John William Strutt 就是 Lord Rayleigh，原文直接點名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Isaac Newton Newton 出現在 Paragraph B，貢獻是聲音傳播的數學理論，沒有處理這項 light scattering principle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Charles Sturm Sturm 量度水中聲速，沒有建立光散射與水中聲波之間的原理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Christopher Clark Clark 使用 SOSUS 聽鯨魚，屬生物聲學應用，與此理論無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "John William Strutt 和 Lord Rayleigh 是同一人。題目選項用 Lord Rayleigh，原文首句用 John William Strutt, third Baron Rayleigh。讀人物題時要留意同一人物的正式名稱和爵位名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "A — Between seasons",
+      "answerKey": "A — Between seasons",
+      "type": "Multiple Choice",
+      "prompt": "“How did Fox and his colleagues find that finback whale calls varied?”",
+      "translation": "Fox 和同事發現長鬚鯨叫聲如何變化？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Christopher Clark, a biological acoustician at Cornell University, also realised that SOSUS could be used to listen to whales when he first visited a SOSUS station in 1992.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cornell University 的生物聲學家 Christopher Clark 在 1992 年第一次參觀 SOSUS station 時，也意識到 SOSUS 可以用來聽鯨魚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, Fox and colleagues have detected changes in the calls of finback whales during different seasons and found that blue whales in different regions of the Pacific Ocean have different calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Fox 及同事發現長鬚鯨在不同季節叫聲會有變化，也發現太平洋不同地區的藍鯨有不同叫聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Fox、finback whale calls、varied 全部在最後一句集中出現，答案位置很明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fox”"
+            },
+            {
+              "kind": "quote",
+              "text": "“finback whale calls”"
+            },
+            {
+              "kind": "quote",
+              "text": "“varied”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph F 的最後一句即可找到 “changes in the calls of finback whales during different seasons”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fox and colleagues have detected changes in the calls of finback whales during different seasons...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fox 和同事發現長鬚鯨的叫聲會在不同季節出現變化。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Between seasons正確。直接對應 “during different seasons”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Between days原文沒有 days。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Between months原文沒有 months。不要把 seasons 自行改成 months。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Between years原文沒有 years；years 出現在 Paragraph G 的溫度追蹤，不屬於 whale calls。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句後半有 “blue whales in different regions”。這是 blue whales 的地區差異，不屬於 finback whales 的季節差異。要分清楚兩個動物和兩種變化。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — It tracks many whales simultaneously.",
+      "answerKey": "B — It tracks many whales simultaneously.",
+      "type": "Multiple Choice",
+      "prompt": "“How can SOSUS be used to study whales?”",
+      "translation": "SOSUS 可以如何用來研究鯨魚？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Christopher Clark, a biological acoustician at Cornell University, also realised that SOSUS could be used to listen to whales when he first visited a SOSUS station in 1992.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cornell University 的生物聲學家 Christopher Clark 在 1992 年第一次參觀 SOSUS station 時，也意識到 SOSUS 可以用來聽鯨魚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, Fox and colleagues have detected changes in the calls of finback whales during different seasons and found that blue whales in different regions of the Pacific Ocean have different calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Fox 及同事發現長鬚鯨在不同季節叫聲會有變化，也發現太平洋不同地區的藍鯨有不同叫聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph F 的核心是用 SOSUS 研究 whales。因此題目必然在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“SOSUS”"
+            },
+            {
+              "kind": "quote",
+              "text": "“study whales”"
+            },
+            {
+              "kind": "quote",
+              "text": "“track”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 中段有 “Using SOSUS stations, scientists can track whales in real time...” 這是最強定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using SOSUS stations, scientists can track whales in real time and position them on a map. Moreover, they can track not just one whale at a time, but many whales simultaneously throughout the North Atlantic and the eastern North Pacific.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "利用 SOSUS station，科學家可以即時追蹤鯨魚，並把牠們的位置標在地圖上。此外，他們一次可以追蹤的並不限於一條鯨魚，還可以在北大西洋和東北太平洋同時追蹤多條鯨魚。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A It tracks every kind of whale in the ocean.原文提到 blue、finback、minke、humpback whales，但沒有說 every kind of whale。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B It tracks many whales simultaneously.正確。直接對應 “many whales simultaneously”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C It tracks only finback whales.原文提到多種鯨魚，不限於 finback whales。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D It tracks whales by combining several different devices.原文只說 using SOSUS stations，沒有說 combining several different devices。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“blue, finback, minke and humpback whales” 可能令學生誤選 A，但列出幾種不等於 every kind。IELTS 中 every / all 類詞要有非常明確證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — Changes in temperature",
+      "answerKey": "C — Changes in temperature",
+      "type": "Multiple Choice",
+      "prompt": "“What can scientists monitor by repeating measurements along the same sound paths?”",
+      "translation": "科學家沿相同聲音路徑重複量度，可以監測甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“SOSUS, with its vast reach, has also proved instrumental in obtaining information crucial to our understanding of Earth’s weather and climate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "SOSUS 覆蓋範圍巨大，也已證明對取得理解地球天氣和氣候所需的重要資訊很有幫助。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of sound paths in the ocean could be pieced together into a map of global ocean temperatures and, by repeating measurements along the same paths over time, scientists could track changes in temperature over months or years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋中數以千計的聲音路徑可以拼合成全球海洋溫度圖；如果沿相同路徑反覆量度，科學家就能追蹤數月或數年間的溫度變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎直接改寫 Paragraph G 最後一句。目標段落非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“repeating measurements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“same sound paths”"
+            },
+            {
+              "kind": "quote",
+              "text": "“monitor”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 最後一句直接有 “repeating measurements along the same paths over time”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... by repeating measurements along the same paths over time, scientists could track changes in temperature over months or years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沿相同路徑隨時間反覆量度，科學家就能追蹤數月或數年間的溫度變化。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A The temperature of the surface crossed原文沒有說 surface crossed。Paragraph G 講的是聲音路徑沿途平均溫度和全球海洋溫度，不限定在表面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The temperature of the deepest ocean floor原文沒有說 deepest ocean floor。sound paths 不等於海床最深處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Changes in temperature正確。直接對應 “track changes in temperature”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D A fixed temperature reading原文強調 repeating measurements over time，目的正是追蹤變化，不是只取得固定讀數。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “same sound paths” 可能令學生想到固定路徑，所以誤選 fixed temperature reading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但原文加入 “over time” 和 “changes”，真正定案的是變化追蹤。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - SOSUS - Listening to the Ocean.pdf",
+    "sha256": "1989ccf3595530b3327423653dee666564288939c5255739d988d86aa9d66f06",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說海洋覆蓋地球超過七成，但人類直到近代仍對海洋深處所知甚少，甚至比月球表面更陌生。尾句說光可以穿越太空極遠距離，卻無法深入海水。只看首尾句，讀者可以先估計：這段會建立全文問題，即光學工具適合研究太空，卻難以研究深海，因此文章接下來需要引入另一種研究海洋的方法。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句把焦點轉到 sound，說研究者長期對聲音在水中的傳播感興趣。尾句指出淡水或鹹水都是非常好的聲音媒介，聲音在水中傳播速度接近空氣中的五倍。只看首尾句，讀者可先猜這段會交代早期聲學研究，尤其是人類如何發現水能有效傳聲，為後文的 underwater acoustics 和SOSUS 技術打基礎。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句介紹 Lord Rayleigh 在 1877 至 1878 年出版 The Theory of Sound，標誌現代聲學研究的開始。尾句說他描述了大氣粒子如何散射陽光中某些波長，而同一原理也適用於水中聲波行為。只看首尾句，這段應該是人物與理論段，重點在 Rayleigh 對聲波、光波、流體中波傳播理論的基礎貢獻。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句明確說有多種因素影響聲音在水下能傳多遠、持續多久。尾句說 thermocline 內溫度會隨深度下降，聲速也隨之下降。只看首尾句，這段功能很清楚：它會解釋水下聲音傳播受哪些物理與化學因素控制，例如粒子、化學物質、頻率、鹽度、溫度、壓力和海洋分層。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說美國海軍很快意識到低頻聲音和 deep sound channel 可擴大偵測潛艇的範圍。尾句說 SOSUS 不但能偵測潛艇，也能分辨螺旋槳數量、潛艇類型，有時甚至能分辨級別。只看首尾句，這段大概會從科學原理轉到軍事應用，介紹 SOSUS 的秘密起源、設備結構和冷戰式監聽功能。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說 Cornell 的 Christopher Clark 在 1992 年參觀 SOSUS station 時，意識到 SOSUS 也能用來聽鯨魚。尾句說 Fox 及同事發現 finback whales 的叫聲會隨季節變化，blue whales 在太平洋不同地區也有不同叫聲。只看首尾句，這段會講 SOSUS 從軍事用途轉向生物研究，特別是追蹤和分辨鯨魚叫聲。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說 SOSUS 的巨大覆蓋範圍也有助取得理解天氣和氣候所需的重要資料。尾句說如果沿相同聲音路徑重複量度，科學家可追蹤數月或數年間的溫度變化。只看首尾句，這段會講sound transmission 如何用於全球海洋溫度測量，並把海洋溫度與氣候、熱量交換和長期監測連起來。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段首句說研究者也用其他 acoustic techniques 監測氣候。尾句說用雨水在水下的聲音作為natural rain gauge，可讓氣候學家取得海洋降雨測量資料。只看首尾句，這段會補充另一個聲學應用：用 hydrophones 聽海上降雨，測量 rainfall rate 和 rainfall type，從而幫助理解全球雨量模式、氣候變化和 El Niño。"
+      }
+    ]
+  }
+}

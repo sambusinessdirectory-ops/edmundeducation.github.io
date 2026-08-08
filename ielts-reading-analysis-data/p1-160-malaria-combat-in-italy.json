@@ -1,0 +1,2652 @@
+{
+  "id": "p1-160-malaria-combat-in-italy",
+  "catalogueId": "p1-160",
+  "catalogueIds": [
+    "p1-160"
+  ],
+  "passage": 1,
+  "title": "Malaria Combat in Italy",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "insects",
+    "unclean air",
+    "hereditary",
+    "expectancy",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "C",
+    "F",
+    "H",
+    "G",
+    "D",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "insects",
+      "answerKey": "insects",
+      "type": "Question Analysis",
+      "prompt": "“Although the link between malaria and mosquitoes was established only later, ancient texts recorded that 1 ____________, including mosquitoes, might be responsible.”",
+      "translation": "雖然 malaria 和蚊之間的關係是後來才正式確立的，但古代文獻已經記錄，某些東西，包括蚊，可能與 malaria 有關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格後面有 “including mosquitoes”，所以答案應該是一個較大的類別，然後 mosquitoes 是其中一個例子。空格不能填 mosquitoes，因為句子會變成 “mosquitoes, including mosquitoes”，意思重複而且不自然。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everybody now knows that malaria is carried by mosquitoes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在人人都知道 malaria 是由蚊傳播的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1880s, such theories began to collapse as the dreaded mosquito was identified as the real culprit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了 1880 年代，隨著可怕的蚊被確認為真正元兇，這些理論開始瓦解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以先猜 Paragraph B 會處理 malaria 成因理論的發展：一開始現代人知道蚊是媒介；段末說舊理論因蚊被確認而崩潰。這正好和題目中的 “ancient texts”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mosquitoes” 和 “might be responsible” 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是：“ancient texts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“including mosquitoes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph B 時，應找 ancient texts 的原字重現，也要留意 insects、mosquitoes 這類生物名詞。原文很快出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, many ancient texts, especially medical literature, mention various aspects of malaria and even its possible links to insects, including mosquitoes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 “ancient texts”、“possible links” 和 “insects, including mosquitoes”，所以值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, many ancient texts, especially medical literature, mention various aspects of malaria and even its possible links to insects, including mosquitoes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，許多古代文獻，尤其是醫學文獻，都提到 malaria 的不同方面，甚至提到它可能與昆蟲有關，包括蚊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “many ancient texts”，核心動詞是 “mention”，賓語是 “possible links to insects, including mosquitoes”。題目說 “might be responsible”，不是原文原字，但意思來自 “possible links to”。如果 malaria 和 insects 有 possible links，就表示古人文獻中已經記錄昆蟲可能與malaria 的出現或傳播有關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“might be responsible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“possible links to insects”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“possible links to” = 可能有關係“might be responsible” = 可能是原因／負責因素"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“including mosquitoes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“including mosquitoes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡是原字重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：空格需要一個名詞複數，並且要能包括 mosquitoes。原文的上位類別是 “insects”。所以答案是： insects"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 mosquitoes。因為題目和原文都出現 mosquitoes，學生可能會直接抄mosquitoes。但空格後面已經有 “including mosquitoes”，所以不能填同一個詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “supernatural influences”。這些也是古人對 malaria 的解釋，但它們不是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“including mosquitoes” 的上位類別。可轉移方法： Summary Completion 遇到 “including X” 時，空格通常要填 X 的上位類別。例如 “including apples and oranges” 前面通常填 “fruit”，而不是再填 apples。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "unclean air",
+      "answerKey": "unclean air",
+      "type": "Question Analysis",
+      "prompt": "“In the nineteenth century, most experts accepted the miasma theory, which linked malaria to 2____________.”",
+      "translation": "在十九世紀，大部分專家接受 miasma theory，即把 malaria 和某種東西聯繫起來的理論。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前面是 “linked malaria to”，所以答案應該是一個名詞短語，表示當時專家認為 malaria 的來源或原因。題目已經給出 “miasma theory”，所以答案不應再填miasma；我們要找文章如何解釋 miasma theory。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everybody now knows that malaria is carried by mosquitoes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在人人都知道 malaria 是由蚊傳播的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1880s, such theories began to collapse as the dreaded mosquito was identified as the real culprit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了 1880 年代，隨著可怕的蚊被確認為真正元兇，這些理論開始瓦解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的首尾句顯示，這段會對比「現在知道蚊是媒介」和「以前不同理論逐漸崩潰」。因此，十九世紀的 miasma theory 很可能在這段中間部分出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“nineteenth century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“miasma theory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“linked malaria to”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in the nineteenth century, most experts believed that the disease was produced by unclean air (‘miasma’ or ‘poisoning of the air’).”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 nineteenth century、most experts 和 miasma，所以就是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in the nineteenth century, most experts believed that the disease was produced by unclean air (‘miasma’ or ‘poisoning of the air’).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但是在十九世紀，大部分專家相信這種疾病是由不潔空氣造成的，也就是 “miasma” 或"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“poisoning of the air”。這句的主語是 “most experts”，核心動詞是 “believed”，內容是 “the disease was produced by unclean air”。題目中的 “linked malaria to” 對應原文 “was produced by”。兩者都在問：malaria 被認為是由甚麼造成的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“linked malaria to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the disease was produced by”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“linked to” = 和……有因果或來源關係“was produced by” = 由……造成答案判斷：原文給出的原因是 “unclean air”。字數限制是 NO MORE THAN TWO WORDS，因此答案完全符合。答案是： unclean air"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 一開始有 “Mal-aria. Bad air.” “bad air” 在意思上接近，但這是詞源介紹，不是Paragraph B 中十九世紀專家的 miasma theory 證據。真正對應題目 “In the nineteenth century, most experts…” 的句子在 Paragraph B，答案應取 “unclean air”。可轉移方法：遇到 Summary Completion 時，不要只找意思差不多的詞。要先確認題目句子的時間、人物和理論是否與原文同一句對應。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "hereditary",
+      "answerKey": "hereditary",
+      "type": "Question Analysis",
+      "prompt": "“Another widespread belief was that malaria was 3 ____________, and southern Italians were blamed.”",
+      "translation": "另一個普遍信念是 malaria 是某種性質的，因此南部意大利人受到責怪。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前面是 “malaria was”，所以答案很可能是一個形容詞。題目後半句 “southern Italians were blamed” 是重要定位訊號，因為這是一個較具體的社會指責，不是一般醫學理論。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everybody now knows that malaria is carried by mosquitoes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在人人都知道 malaria 是由蚊傳播的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1880s, such theories began to collapse as the dreaded mosquito was identified as the real culprit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了 1880 年代，隨著可怕的蚊被確認為真正元兇，這些理論開始瓦解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句都在處理 malaria 成因理論：由今日已知的蚊媒傳播，回看以前錯誤或不完整的理論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，題目中的 “widespread belief” 很可能就在 Paragraph B。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“southern Italians”"
+            },
+            {
+              "kind": "quote",
+              "text": "“widespread belief”"
+            },
+            {
+              "kind": "quote",
+              "text": "“was”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Epidemics were blamed on southern Italians, given the widespread belief that malaria was hereditary.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句與題目幾乎完全同序，因此可以直接進入 Read。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Epidemics were blamed on southern Italians, given the widespread belief that malaria was hereditary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於人們普遍相信 malaria 是遺傳性的，疫情便被歸咎於南部意大利人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Epidemics”，核心動詞是 “were blamed on”，對象是 “southern Italians”。原因由"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“given” 帶出，即 “the widespread belief that malaria was hereditary”。題目把句子略為重組，但意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another widespread belief was that malaria was…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the widespread belief that malaria was hereditary”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：這裡幾乎是原字重現。題目把原文的名詞短語拆成 summary 句子，空格正好要求 hereditary。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：空格位於 “malaria was ___”，文法上需要形容詞。原文形容詞是 “hereditary”，意思是「遺傳性的」。字數限制也符合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是： hereditary"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能會看到同段前面有 “miasma” 或 “poisoning of the air”，但那些是十九世紀關於空氣污染的理論，不是解釋 southern Italians 被責怪的原因。這題真正控制答案的是 “southern Italians were blamed” 這個定位訊號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Summary 裡如果出現很具體的人群或地區，例如 southern Italians，通常比普通詞如 theory、belief 更有定位力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "expectancy",
+      "answerKey": "expectancy",
+      "type": "Question Analysis",
+      "prompt": "“The situation became so severe that nearly half of Italy’s population was considered permanently at risk, while the life 4 ____________ of rural workers in malarial areas was shockingly short.”",
+      "translation": "情況變得非常嚴重，接近一半意大利人口被認為長期處於風險之中，而 malaria 地區農村工人的life ________ 短得驚人。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前面已經有 “life”，所以答案應該和 life 組成固定名詞短語。題目中的 “rural workers”、“malarial areas” 和 “shockingly short” 都是定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everybody now knows that malaria is carried by mosquitoes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在人人都知道 malaria 是由蚊傳播的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1880s, such theories began to collapse as the dreaded mosquito was identified as the real culprit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了 1880 年代，隨著可怕的蚊被確認為真正元兇，這些理論開始瓦解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 不只講理論，也在中後段講 malaria 對意大利人口和農村社會的嚴重影響。題目中的 “permanently at risk” 和 “rural workers” 都指向這段的社會後果部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“permanently at risk”"
+            },
+            {
+              "kind": "quote",
+              "text": "“life”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rural workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“malarial areas”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Things became so bad that 11 million Italians (from a total population of 25 million) were‘permanently at risk’. In malarial zones, the life expectancy of land workers was a terrifying 22.5 years.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句對應題目的整個 summary 句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In malarial zones, the life expectancy of land workers was a terrifying 22.5 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 malaria 流行地區，土地工人的預期壽命只有可怕的 22.5 歲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的地點是 “In malarial zones”，對應題目 “in malarial areas”。主體是 “land workers”，對應題目 “rural workers”。核心資料是 “life expectancy”，即「預期壽命」。題目已經給了 “life”，所以空格只需要填 “expectancy”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“rural workers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“land workers”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“land workers” 指在土地上工作的農業勞動者，因此可概括為 rural workers。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“shockingly short”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a terrifying 22.5 years”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“terrifying” 具體表達壽命短得令人震驚。答案判斷：完整原文短語是 “life expectancy”。題目已經有 “life”，所以答案應是： expectancy"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “life expectancy”。雖然這是原文完整短語，但題目句子已經有 “life”，填入後會變成 “life life expectancy”，文法錯誤。IELTS completion 題不只是抄原文，還要放回題目句子檢查文法。可轉移方法：當空格前後已經提供固定搭配的一部分，例如 “life ___”，答案通常只填剩下的一部分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“The volunteers in Grassi’s experiments came from all parts of Italy.”",
+      "translation": "Grassi 實驗中的志願者來自意大利各地。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目提出一個具體命題：志願者的來源是 “all parts of Italy”。我們要判斷原文是否支持、反駁，或沒有提供足夠資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Italian scientists, drawing on the pioneering work of French doctor Alphonse Laveran, were able to predict the cycles of fever, but it was in Rome that further key discoveries were made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意大利科學家借鑑法國醫生 Alphonse Laveran 的開創性研究，能夠預測發燒週期，但進一步的重要發現是在羅馬作出的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new Italian state had the necessary information to tackle the disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的意大利國家已經擁有處理這種疾病所需的必要資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 主要講科學發現如何提供對付 malaria 的知識。Grassi 的實驗屬於這段中的重要科學證據，因此目標段落是 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Grassi”"
+            },
+            {
+              "kind": "quote",
+              "text": "“volunteers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all parts of Italy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph C，可以找到 Grassi 和 volunteers："
+            },
+            {
+              "kind": "quote",
+              "text": "“By experimenting on healthy volunteers (mosquitoes were released into rooms where they drank the blood of the human guinea pigs), Grassi was able to make the direct link between the insects (all females of a certain kind) and the disease.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提到志願者，但要細讀它是否提到來源地。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By experimenting on healthy volunteers (mosquitoes were released into rooms where they drank the blood of the human guinea pigs), Grassi was able to make the direct link between the insects (all females of a certain kind) and the disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過在健康志願者身上做實驗，Grassi 能夠把這些昆蟲和疾病直接聯繫起來；實驗中，蚊被釋放到房間裡，吸食這些人類實驗對象的血。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只告訴我們志願者是 “healthy volunteers”，即健康志願者。它沒有說他們來自哪裡，更沒有說他們來自 “all parts of Italy”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：the volunteers in Grassi’s experiments動作／狀態：came from地點範圍：all parts of Italy原文命題：主體：healthy volunteers動作／實驗情況：mosquitoes were released into rooms and drank their blood地點來源：沒有交代比較結果：題目加入了 “came from all parts of Italy” 這個來源分布，但原文沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文沒有說志願者不是來自意大利各地，所以不能選 NO。它只是完全沒有交代志願者來源，因此答案是： NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 有 “Italian scientists”、“in Rome”、“new Italian state” 等意大利相關字眼，容易令人覺得志願者也一定來自意大利各地。但這只是背景地點，不能推出志願者來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： YES / NO / NOT GIVEN 題遇到 “all parts of…” 這種範圍詞，要找原文是否真的提供完整地理範圍。只出現 Italy 或 Rome，不等於 “all parts of Italy”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“Healthy people could remain well in malarial zones if they were protected from mosquito bites.”",
+      "translation": "如果健康人士能避免被蚊叮，他們即使身處 malaria 地區也可以保持健康。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目包含一個條件句：if they were protected from mosquito bites。要判斷原文是否支持這個條件和結果的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Italian scientists, drawing on the pioneering work of French doctor Alphonse Laveran, were able to predict the cycles of fever, but it was in Rome that further key discoveries were made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意大利科學家借鑑法國醫生 Alphonse Laveran 的開創性研究，能夠預測發燒週期，但進一步的重要發現是在羅馬作出的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new Italian state had the necessary information to tackle the disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的意大利國家已經擁有處理這種疾病所需的必要資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句顯示，Paragraph C 在講 malaria 傳播方式被證明，以及意大利因此掌握對付疾病的科學資訊。題目中的 healthy people、malarial zones、mosquito bites 都是實驗證據，很可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“healthy people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“malarial zones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mosquito bites”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remained well”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph C，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Definitive proof of these new theories was obtained after an extraordinary series of experiments in Italy, where healthy people were introduced into malarial zones but kept free of mosquito bites—and remained well.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句幾乎完整對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Definitive proof of these new theories was obtained after an extraordinary series of experiments in Italy, where healthy people were introduced into malarial zones but kept free of mosquito bites—and remained well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在意大利一系列非凡的實驗之後，這些新理論得到了確定證明：健康人士被帶到 malaria 地區，但被保護至沒有被蚊叮，結果仍然保持健康。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 “healthy people”。動作是 “were introduced into malarial zones”。條件是 “kept free of mosquito bites”。結果是 “remained well”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Healthy people條件：if protected from mosquito bites地點：malarial zones結果：could remain well原文命題：主體：healthy people條件：kept free of mosquito bites地點：malarial zones結果：remained well比較結果：題目和原文方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“protected from mosquito bites”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“kept free of mosquito bites”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“kept free of” = 使其免受／避免“protected from” = 保護免受"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“could remain well”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“remained well”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：題目用 could 表示根據實驗可得出的能力或可能性；原文提供實驗結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文清楚支持題目條件和結果，因此答案是： YES"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看到 “malarial zones” 就以為健康人一定會染病。這題真正控制答案的是條件 “kept free of mosquito bites”。在這個條件下，原文說他們 “remained well”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法：條件句題目要拆成「條件」和「結果」。兩部分都對應原文，才可以選 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Quinine had long been used to combat malaria before the new campaign.”",
+      "translation": "在新的抗 malaria 行動之前，quinine 已經長期被用來對抗 malaria。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目要判斷 quinine 在新一輪 campaign 之前的用途。最重要不是看 quinine 有沒有出現，而是看原文說它長期用來對抗甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A complicated approach was adopted, which made use of quinine—a drug obtained from tree bark which had long been used to combat fever but was now seen as a crucial part of the war on malaria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意大利採用了一套複雜的方法，其中使用了 quinine；這是一種從樹皮取得的藥物，長期以來被用來對抗發燒，但現在被視為對抗 malaria 戰爭中的關鍵部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Politics was itself transformed by the anti-malarial campaigns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政治本身也受到 anti-malarial campaigns 改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 主要講意大利如何把 quinine 納入抗 malaria 策略，並指出這些策略不只是醫學問題，也有政治意義。題目中的 quinine 和 campaign 明顯指向 Paragraph D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Quinine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“had long been used”"
+            },
+            {
+              "kind": "quote",
+              "text": "“combat malaria”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before the new campaign”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph D 時，第一句已經出現答案關鍵："
+            },
+            {
+              "kind": "quote",
+              "text": "“quinine—a drug obtained from tree bark which had long been used to combat fever but was now seen as a crucial part of the war on malaria.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 quinine、had long been used、combat fever、war on malaria，所以必須細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“quinine—a drug obtained from tree bark which had long been used to combat fever but was now seen as a crucial part of the war on malaria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "quinine 是一種從樹皮取得的藥物，長期以來被用來對抗發燒，但現在被視為對抗 malaria 戰爭中的關鍵部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主體是 quinine。它說 quinine 過去 “had long been used to combat fever”，即長期用來對抗發燒。然後原文用 “but was now seen as a crucial part of the war on malaria” 說明，在這個抗malaria 策略中，它現在被視為關鍵工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Quinine時間：before the new campaign動作：had long been used用途：to combat malaria原文命題：主體：Quinine時間：had long been used用途：to combat fever新角色：now seen as crucial in the war on malaria比較結果：原文清楚支援 “quinine had long been used”，但長期用途是 “to combat fever”，不是 “to combat malaria”。題目把 fever 換成 malaria。這個轉換不能自行完成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：這裡不是 YES，因為原文沒有說 quinine 長期被用來 combat malaria。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡也不是 NO，因為原文沒有明確說 quinine 以前沒有用於 malaria。它只是沒有提供這個具體說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是把 “fever” 當成 “malaria”。Malaria 會令人發燒，但 IELTS Reading 不能用醫學常識把原文詞語自行替換。文章說甚麼，就只能根據文章判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： YES / NO / NOT GIVEN 題要逐項比較賓語。即使主語和動詞都相同，只要對象由 fever 變成malaria，而原文沒有支援，便不能選 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“Eradicating malaria had both medical and political significance.”",
+      "translation": "消除 malaria 不但有醫學意義，也有政治意義。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目要判斷文章是否認為 anti-malarial work 不只是醫學層面，也涉及政治層面。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A complicated approach was adopted, which made use of quinine—a drug obtained from tree bark which had long been used to combat fever but was now seen as a crucial part of the war on malaria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意大利採用了一套複雜的方法，其中使用了 quinine；這是一種從樹皮取得的藥物，長期以來被用來對抗發燒，但現在被視為對抗 malaria 戰爭中的關鍵部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Politics was itself transformed by the anti-malarial campaigns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政治本身也受到 anti-malarial campaigns 改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句講醫學策略和藥物，末句講政治被改變。因此這段本身已經同時連接 medical和 political 兩個層面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“medical”"
+            },
+            {
+              "kind": "quote",
+              "text": "“political”"
+            },
+            {
+              "kind": "quote",
+              "text": "“significance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eradicating malaria”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph D，可以找到兩組重要句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Malaria, as Snowden shows, was not just a medical problem, but a social and regional issue, and could only be defeated through multi-layered strategies.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Politics was itself transformed by the anti-malarial campaigns.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Malaria, as Snowden shows, was not just a medical problem, but a social and regional issue, and could only be defeated through multi-layered strategies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Snowden 所指出，malaria 不只是一個醫學問題，也是一個社會和地區問題，只有透過多層次策略才能被擊敗。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Politics was itself transformed by the anti-malarial campaigns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政治本身也受到 anti-malarial campaigns 改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句直接支援 medical significance，因為它說 malaria 是 medical problem，但不只是 medical problem。第二句支援 political significance，因為 anti-malarial campaigns 甚至改變了 politics。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Eradicating malaria範圍：both medical and political significance原文命題： malaria was “not just a medical problem” politics was “transformed by the anti-malarial campaigns”比較結果：題目和原文方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“had both medical and political significance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“not just a medical problem” + “Politics was itself transformed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：題目把原文兩個層面的描述概括成 “both medical and political significance”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文清楚表明 malaria campaign 有醫學層面，也有政治層面。因此答案是： YES"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “both medical and political”，不是說 “only medical and political”。原文還提到 social and regional issue，並不會否定題目。題目只是說兩者都有，原文支持這一點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法：遇到 “both A and B” 時，要確認 A 和 B 都有原文支援。不需要原文只限於 A 和 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "“The discovery that a particular mosquito carried malaria”",
+      "translation": "發現某一種特定蚊會傳播 malaria。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問哪一段包含這項資訊。這類題不一定跟文章順序，所以要用稀有詞定位。這題最強定位詞是 “particular mosquito” 和 “carried malaria”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Italian scientists, drawing on the pioneering work of French doctor Alphonse Laveran, were able to predict the cycles of fever, but it was in Rome that further key discoveries were made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意大利科學家借鑑法國醫生 Alphonse Laveran 的開創性研究，能夠預測發燒週期，但進一步的重要發現是在羅馬作出的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new Italian state had the necessary information to tackle the disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的意大利國家已經擁有處理這種疾病所需的必要資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph C 集中講 key discoveries，即關鍵科學發現。因此 “discovery that a particular mosquito carried malaria” 很可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“particular mosquito”"
+            },
+            {
+              "kind": "quote",
+              "text": "“carried malaria”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph C，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Giovanni Battista Grassi, a naturalist, found that a particular type of mosquito was the carrier of malaria.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Giovanni Battista Grassi, a naturalist, found that a particular type of mosquito was the carrier of malaria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然學家 Giovanni Battista Grassi 發現，某一種特定類型的蚊是 malaria 的傳播者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Grassi，核心動詞是 “found”，內容是 “a particular type of mosquito was the carrier of malaria”。題目中的 “discovery” 對應原文 “found”。題目中的 “carried malaria” 對應原文 “was the carrier of malaria”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a particular mosquito carried malaria”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a particular type of mosquito was the carrier of malaria”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "quote",
+              "text": "“carried malaria” = “was the carrier of malaria”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：這項資訊清楚出現在 Paragraph C，所以答案是： C"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也提到 mosquitoes 和 real culprit，但 Paragraph B 是講理論逐漸崩潰和蚊被確認為元兇。Question 9 特別問 “a particular mosquito”，即某一種特定蚊，這個精確資訊在Paragraph C 的 Grassi 發現中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Matching Information 要小心普通主題和精確資訊。看到 mosquito 不夠，要找 “particular type of mosquito”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Question Analysis",
+      "prompt": "“A scientist who deliberately allowed an epidemic to spread”",
+      "translation": "一位科學家故意讓疫情擴散。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找一段含有「某位科學家故意讓 epidemic spread」的資料。最強定位不是 scientist，而是 “allowed an epidemic to spread”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shamefully, the Italian malaria expert Alberto Missiroli had a role to play in the disaster: he did not distribute quinine, despite being well aware of the epidemic to come.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可恥的是，意大利 malaria 專家 Alberto Missiroli 在這場災難中也有責任：儘管他清楚知道疫情即將來臨，卻沒有派發 quinine。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands died, though nobody knows exactly how many.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有數千人死亡，雖然沒有人確切知道死亡人數。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph F 講一場嚴重災難，以及 Alberto Missiroli 的責任。這與題目中的deliberately allowed an epidemic to spread 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“deliberately”"
+            },
+            {
+              "kind": "quote",
+              "text": "“allowed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“epidemic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spread”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph F，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Missiroli allowed the epidemic to spread, in order to create the ideal conditions for a massive and lucrative human experiment.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Missiroli allowed the epidemic to spread, in order to create the ideal conditions for a massive and lucrative human experiment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Missiroli 讓疫情擴散，以便為一場大規模而有利可圖的人體實驗創造理想條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Missiroli。核心動詞是 “allowed”。賓語是 “the epidemic to spread”。原因由 “in order to” 帶出，表示這不是單純失誤，而是為了創造實驗條件。題目用 “deliberately” 概括了 “in order to create…” 這個目的性。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“deliberately allowed an epidemic to spread”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“allowed the epidemic to spread, in order to create…”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“in order to” 表示目的，因此可支援 “deliberately”。答案判斷：這項資訊在 Paragraph F，所以答案是： F"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 和 E 也講 quinine、doctors、rural workers 和 anti-malaria strategy，但那裡沒有任何人故意讓 epidemic spread。Question 10 的重點是 ethical misconduct，即有意不派藥、讓疫情惡化。可轉移方法： Matching Information 中，如果題目含有 deliberately、intentionally、in order to 等目的概念，原文通常會用目的結構支援，例如 “in order to”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Question Analysis",
+      "prompt": "“The continuing relevance of Italy’s success to readers around the world”",
+      "translation": "意大利成功消除 malaria 的故事，對世界各地讀者仍然有持續意義。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找「當代／持續相關性」和「世界層面」的資訊。最強定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“continuing relevance” 和 “around the world”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H第一句：“As there are still more than one million deaths every year from malaria worldwide, Snowden’s book also has contemporary relevance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於全球每年仍有超過一百萬人死於 malaria，Snowden 的書也具有當代意義。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also provides us with ‘a message of hope for a world struggling with the great present-day medical emergency’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也為一個正在面對當代重大醫療危機的世界，提供了一個希望的信息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經直接顯示 Paragraph H 的功能：把意大利歷史經驗連接到今日全球仍受 malaria 影響的世界。因此題目所問的 continuing relevance 明顯在 Paragraph H。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“continuing relevance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“world”"
+            },
+            {
+              "kind": "quote",
+              "text": "“worldwide”"
+            },
+            {
+              "kind": "quote",
+              "text": "“success”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph H，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“As there are still more than one million deaths every year from malaria worldwide, Snowden’s book also has contemporary relevance.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及段末："
+            },
+            {
+              "kind": "quote",
+              "text": "“a message of hope for a world struggling with the great present-day medical emergency”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“As there are still more than one million deaths every year from malaria worldwide, Snowden’s book also has contemporary relevance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於全球每年仍有超過一百萬人死於 malaria，Snowden 的書也具有當代意義。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also provides us with ‘a message of hope for a world struggling with the great present-day medical emergency’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也為一個正在面對當代重大醫療危機的世界，提供了一個希望的信息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “continuing relevance” 對應 “contemporary relevance”。“readers around the world” 對應原文的 “worldwide” 和 “a world struggling”。原文說意大利的故事不只是歷史研究，也對今日世界仍有意義。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“continuing relevance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“contemporary relevance”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：兩者都表示這件事不是只屬於過去，而是對現在仍有意義。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“around the world”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“worldwide” / “a world struggling”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：由全球 malaria 死亡和世界醫療危機帶出國際讀者的相關性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：這項資訊出現在 Paragraph H，所以答案是： H"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也稱 Snowden 的研究是 remarkable，並說讀者不只是專家；但 Question 11 的核心是 contemporary relevance 和 worldwide malaria problem。這個全球當代意義是在 Paragraph H才完整出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Matching Information 遇到 relevance、importance、significance，要找段落是否把歷史內容連接到現在或更廣泛世界，而不只是讚美一本書。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Question Analysis",
+      "prompt": "“One of the final victims to die of malaria in Italy”",
+      "translation": "意大利最後幾位死於 malaria 的人之一。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找一個具體人物例子，而且限定是 “final victims”。最強定位詞是 “final victims” 和 “die”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the war over, the US government and the Rockefeller Foundation were free to experiment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰爭結束後，美國政府和 Rockefeller Foundation 可以自由進行實驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A few decades earlier, they would have immediately noticed the tell-tale signs; it was later claimed that a small dose of quinine would have saved his life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若在幾十年前，他們本會立刻注意到那些明顯徵兆；後來有人聲稱，只要一小劑 quinine 就可以救他一命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 從戰後 DDT 實驗講到 malaria 在意大利基本消失，再以最後死者之一作例子。題目中的 final victims 指向這段後半部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“final victims”"
+            },
+            {
+              "kind": "quote",
+              "text": "“die”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Italy”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph G，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the final victims to die of the disease in Italy was the popular cyclist, Fausto Coppi.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the final victims to die of the disease in Italy was the popular cyclist, Fausto Coppi.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意大利最後幾位死於這種疾病的人之一，是受歡迎的單車手 Fausto Coppi。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語結構是 “One of the final victims”。動詞是 “was”。補語是 “the popular cyclist, Fausto Coppi”。題目沒有要求填人名，只要求找哪一段含有這項資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the final victims to die of malaria in Italy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the final victims to die of the disease in Italy”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the disease” 在 Paragraph G 語境中指 malaria。答案判斷：這項資訊在 Paragraph G，所以答案是： G"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也提到 malaria worldwide deaths，但那裡講的是全球每年死亡人數，不是意大利最後死者之一。Question 12 的限定是 “in Italy” 和 “final victims”，所以 Paragraph G 才是精確答案。可轉移方法：當題目有 “one of the final…” 這類明顯限定，應找原文是否有幾乎相同的限定語，而不是只找death 或 malaria。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "“The adverse symptoms caused by a highly effective drug”",
+      "translation": "一種非常有效的藥物所造成的不良症狀。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找兩部分：第一，藥物有效；第二，藥物有副作用或不良症狀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩部分都要在同一段出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A complicated approach was adopted, which made use of quinine—a drug obtained from tree bark which had long been used to combat fever but was now seen as a crucial part of the war on malaria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意大利採用了一套複雜的方法，其中使用了 quinine；這是一種從樹皮取得的藥物，長期以來被用來對抗發燒，但現在被視為對抗 malaria 戰爭中的關鍵部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Politics was itself transformed by the anti-malarial campaigns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政治本身也受到 anti-malarial campaigns 改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 講 quinine 作為 anti-malaria strategy 的關鍵藥物，也講它的副作用和成效，因此很可能包含題目所問的 adverse symptoms。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“drug”"
+            },
+            {
+              "kind": "quote",
+              "text": "“adverse symptoms”"
+            },
+            {
+              "kind": "quote",
+              "text": "“effective”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必用 “adverse symptoms”，可能用 “side-effects”、“headaches” 這類詞。掃描 Paragraph D，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its often terrible side-effects (the headaches produced were known as the‘quinine-buzz’), the drug was successful in limiting the spread of the disease and breaking cycles of infection.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its often terrible side-effects (the headaches produced were known as the‘quinine-buzz’), the drug was successful in limiting the spread of the disease and breaking cycles of infection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管它經常有嚴重副作用，也就是會造成被稱為 “quinine-buzz” 的頭痛，但這種藥成功限制了疾病傳播，並打破感染循環。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句由 “Despite” 帶出讓步關係：雖然有 terrible side-effects，但藥物 successful。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“adverse symptoms” 對應原文 “terrible side-effects” 和 “headaches”。題目中的 “highly effective drug” 對應原文 “the drug was successful”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“adverse symptoms”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“terrible side-effects” / “headaches”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：副作用和頭痛就是藥物引起的不良症狀。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“highly effective drug”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the drug was successful in limiting the spread…”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“successful in limiting the spread” 支援 effective。答案判斷：這項資訊在 Paragraph D，所以答案是： D"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也說 strategy was hugely successful，但那裡重點是派發 quinine 後死亡率下降，不是副作用。Question 13 問的是 adverse symptoms caused by the drug，因此 Paragraph D 更精確。可轉移方法： Matching Information 若題目有兩個條件，要找同一段是否同時滿足兩者。只找到 drug successful 不夠，還要找到 side-effects。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "“A list of speculative explanations for malaria”",
+      "translation": "一系列對 malaria 成因的推測性解釋。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目中的 “list” 表示原文可能列出多個例子；“speculative explanations” 表示這些解釋不是後來證實的科學原因，而是早期推測或迷信性說法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everybody now knows that malaria is carried by mosquitoes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在人人都知道 malaria 是由蚊傳播的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1880s, such theories began to collapse as the dreaded mosquito was identified as the real culprit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了 1880 年代，隨著可怕的蚊被確認為真正元兇，這些理論開始瓦解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph B 會回顧不同 malaria 理論，並指出真正元兇後來才被確認。因此，早期推測性解釋很可能集中在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“speculative explanations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“list”"
+            },
+            {
+              "kind": "quote",
+              "text": "“malaria”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必會說 “speculative”，但會出現多個例子。掃描 Paragraph B，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early man, confronting the manifestations of malaria, attributed the fevers to supernatural influences: evil spirits, angered deities, or the black magic of sorcerers.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early man, confronting the manifestations of malaria, attributed the fevers to supernatural influences: evil spirits, angered deities, or the black magic of sorcerers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期人類面對 malaria 的症狀時，把發燒歸因於超自然力量：邪靈、被激怒的神祇，或巫師的黑魔法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Early man”。核心動詞是 “attributed”，即「歸因於」。冒號後面列出三個解釋：evil spirits、angered deities、black magic of sorcerers。這正是題目所說的 “a list of speculative explanations”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“speculative explanations for malaria”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“attributed the fevers to supernatural influences: evil spirits, angered deities, or the black magic of sorcerers”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“supernatural influences” 屬於早期、非科學、推測性解釋；冒號後的三項構成一個 list。答案判斷：這項資訊在 Paragraph B，所以答案是： B"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 後面還有 miasma theory 和 hereditary belief，但 Question 14 說 “a list”，最明顯的列表是 evil spirits、angered deities、black magic of sorcerers。這些比 miasma theory 更符合speculative explanations。可轉移方法： Matching Information 遇到 “a list of…” 時，要找冒號、破折號、逗號並列、or 連接的例子。列表結構本身就是重要定位訊號。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Malaria Combat in Italy.pdf",
+    "sha256": "cbef7dc6e4c0ccb47345165ca3660b75bc7b6cc21cbb213ab81d3adbea933e35",
+    "pageCount": 36
+  },
+  "version": "2026-08-08.2"
+}

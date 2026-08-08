@@ -1,0 +1,2046 @@
+{
+  "id": "p1-014-mobile-phones-and-driving",
+  "catalogueId": "p1-014",
+  "catalogueIds": [
+    "p1-014"
+  ],
+  "passage": 1,
+  "title": "MOBILE PHONES AND DRIVING",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 16,
+  "answerKey": [
+    "iii",
+    "v",
+    "vi",
+    "i",
+    "x",
+    "iv",
+    "A",
+    "E",
+    "B",
+    "C",
+    "D",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "iii — International reactions",
+      "answerKey": "iii — International reactions",
+      "type": "Matching Headings",
+      "prompt": "Choose the correct heading for Paragraph B.",
+      "translation": "為 B 段選出最適合的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several countries around the world have already imposed a national Jaw with heavy infringements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界上已有幾個國家制定全國性法律，並施以嚴厲處罰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also in Europe, the Netherlands is fining offenders 2000 Euros and 2 weeks in jail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣在歐洲，荷蘭對違規者處以 2000 歐元罰款及兩週監禁。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段在列舉不同國家和地區如何回應開車使用手機問題。國家名稱和處罰措施重複出現，所以段落主旨偏向「國際反應」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的核心詞是 International reactions。Paragraph B 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several countries around the world”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the UK, Australia and Finland”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Ireland”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the Netherlands”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些地名共同顯示段落範圍是國際層面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recently the UK, Australia and Finland have joined the ranks of countries opposing this very hazardous act, with Ireland imposing the harshest penalties on the continent…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近，英國、澳洲和芬蘭也加入了反對這種高度危險行為的國家行列，而愛爾蘭則施行了歐洲最嚴厲的處罰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是不同國家正在反對、立法或處罰開車用手機。Heading iii “International reactions”能覆蓋整段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "International= countries around the world / UK / Australia / Finland / Ireland / Netherlands reactions= imposed a law / opposing this act / imposing penalties / fining offenders"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “Global agreement on penalties” 看似接近，因為本段確實談 penalties。不過段落沒有說全球已有一致共識，只列出一些國家的行動。Global agreement 範圍過大，所以 iii 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "v — Evidence from around the globe",
+      "answerKey": "v — Evidence from around the globe",
+      "type": "Matching Headings",
+      "prompt": "Choose the correct heading for Paragraph C.",
+      "translation": "為 C 段選出最適合的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This dangerous distraction contributes largely to motor vehicle accidents and the statistics are increasing daily as we continue to take our eyes off the road to call or even more dangerously text.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種危險的分心行為大大造成機動車事故，而且隨著人們把視線從道路上移開去打電話，甚至更危險地傳簡訊，相關統計數字每日增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Time and again, in study after study replicated across the world, the use of a cell phone by the driver has been proven, beyond any sense of reasonable doubt, to dramatically increase the probability of a motor vehicle crash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一次又一次，在世界各地重複進行的研究中，駕駛人使用手機已被證明會大幅增加車禍發生的可能性，幾乎沒有合理懷疑的空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 C 段主題是研究和數據證據，特別是來自世界各地反覆複製的研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的核心是 evidence 和 around the globe。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“study after study replicated across the world”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和 “around the globe” 意思非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research by road safety groups suggests speaking on a phone whilst driving increases your chances of an accident, increasing to nine times more likely when texting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "道路安全團體的研究指出，開車時講電話會增加事故機率；傳簡訊時，風險更會增加到九倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供具體研究證據。末句再把證據擴大到世界各地多項研究。Heading v 能概括這種全球研究證據。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Evidence= research / study after study / has been proven from around the globe= replicated across the world"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “Texting statistics” 有一定吸引力，因為段中有 texting nine times more likely。不過texting 只是其中一個細節。本段最後一句把重點擴大到 “use of a cell phone by the driver” 和全球研究證據，因此 v 覆蓋範圍更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "vi — Challenges of enforcement",
+      "answerKey": "vi — Challenges of enforcement",
+      "type": "Matching Headings",
+      "prompt": "Choose the correct heading for Paragraph D.",
+      "translation": "為 D 段選出最適合的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In New Zealand, a proposal made by a previous Labour led Government suggests a $50 fine and 27 demerit points for any person using a cell phone whilst driving, although the Ministry of Transport is still preparing a report based on public consultation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在紐西蘭，前工黨政府曾提出建議，主張對開車時使用手機的人處以 50 美元罰款及 27 點違規記點；不過交通部仍在根據公眾諮詢準備報告。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a common misconception that hands free kits are safe to use, but research conducted by Waikato University has proven that these can be equally as dangerous as hand held phones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人誤以為免提裝置安全，但 Waikato University 的研究證明，它們可能和手持手機一樣危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，段落看似同時談政策、執法、公眾諮詢和免提裝置。真正連接中間內容的是：政府知道這項違規行為很難執法，但仍需要開始處理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的定位詞是 enforcement。Paragraph D 中最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the government knows this will be a difficult infringement to police”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思是：政府知道這項違規行為將很難執法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although this is only a pending idea, the government knows this will be a difficult infringement to police but a start needs to be made and people need to understand the consequences of what potentially could happen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這仍只是待定構想，政府知道這會是一項難以執法的違規行為，但仍需要開始行動，而且人們需要明白可能出現的後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說出 enforcement challenge。段首的 proposal 和 Ministry of Transport report 是背景；段末的 hands-free danger 是補充安全原因。Heading vi 抓住本段中間的核心政策難題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Challenges of enforcement= difficult infringement to police enforcement= police 作動詞，指執行法律、查處違規"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也有 New Zealand proposal，所以 iii “International reactions” 似乎可用。但 B 段已經全面列出多國反應；D 段更集中在紐西蘭政策尚待落實、公眾諮詢和執法困難，所以 vi 更貼合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "i — Impact of mobile phones in hazards",
+      "answerKey": "i — Impact of mobile phones in hazards",
+      "type": "Matching Headings",
+      "prompt": "Choose the correct heading for Paragraph E.",
+      "translation": "為 E 段選出最適合的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one hand, using a cell phone whilst driving has become an integral part of our lives and is going to be a hard habit to kick.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一方面，開車時使用手機已成為生活中不可分割的一部分，而且會是一個很難戒掉的習慣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The host agreed that texting whilst driving was a danger but phoning was not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位主持人同意開車傳簡訊有危險，但認為講電話沒有危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段先承認手機使用習慣普遍，再討論不同手機使用方式的危險程度。中間關於 reaction time、road hazard、attention divided，是解題重點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的核心詞是 mobile phones 和 hazards。Paragraph E 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“when confronted with a road hazard”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it will slow your reaction time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Your attention is divided”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cognitive distraction as well as physical”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it has been proven that our reaction time is never fast enough when confronted with a road hazard, but if you are having a conversation at the same time it will slow your reaction time by even more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但事實已證明，當我們面對道路危險時，反應時間本來就不夠快；如果同時正在通話，反應會變得更慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說明手機通話在道路危險情境中的影響。接著原文用 2.5 秒加 2 秒、注意力分散、認知及身體分心來解釋風險。Heading i 最貼合這段主線。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Impact= slow your reaction time / attention is divided / cognitive distraction hazards= road hazard / dangerous situation mobile phones= using a cell phone / having a conversation / on the phone"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading x “Balancing the risks” 也有吸引力，因為本段用 On one hand / On the other hand。可是本段大部分篇幅都在解釋手機如何影響危險情境中的反應；Paragraph F 更明顯在比較 texting、conversation、eating、CD 等多種風險，所以第 4 題選 i 更合理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "x — Balancing the risks",
+      "answerKey": "x — Balancing the risks",
+      "type": "Matching Headings",
+      "prompt": "Choose the correct heading for Paragraph F.",
+      "translation": "為 F 段選出最適合的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people agreed with him in saying that texting was a definite hazard as the act of looking down would lead your eyes off the road.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人同意他的看法，認為傳簡訊確實危險，因為低頭會令視線離開道路。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Accidents were happening decades before the cell phone was introduced so should we be taking this matter so seriously?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "手機出現前幾十年已經有交通事故，因此我們是否應如此嚴肅地看待這件事？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段在權衡風險：texting 被承認為明顯危險，但作者又提出開車講電話、吃東西、拿 CD、手機出現前的事故等比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading x 的核心是 balancing。Paragraph F 用了多個比較問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“doesn’t holding a conversation while driving seem just as distracting as eating food or reaching for a CD?”"
+            },
+            {
+              "kind": "quote",
+              "text": "“should we be taking this matter so seriously?”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, doesn’t holding a conversation while driving seem just as distracting as eating food or reaching for a CD?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，開車時講電話看起來不也和吃東西或伸手拿 CD 一樣令人分心嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句在比較不同分心行為。段落沒有單純譴責手機，也沒有完全否定手機風險；它把 texting、conversation、eating、CD 和舊有事故放在一起考慮。因此 x “Balancing the risks” 最能覆蓋全段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Balancing= comparing texting, talking, eating, reaching for a CD, and older accident causes risks= hazard / distracting / accidents"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ix “Risks of talking to passengers” 不合適，因為本段說的是 holding a conversation while driving，沒有指定 passengers。談話可以是電話通話，題目 heading 加入了文章沒有的passenger 對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "iv — Further research required",
+      "answerKey": "iv — Further research required",
+      "type": "Matching Headings",
+      "prompt": "Choose the correct heading for Paragraph G.",
+      "translation": "為 G 段選出最適合的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously opinions will differ on this matter, and it will always remain a debatable issue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，人們對這個問題會有不同意見，而且它會一直是可爭論的議題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lack of data leaves uncertain results but it seems research is ongoing and surveys and tests are being carried out on a regular basis to reach some kind of conclusion as to just how dangerous and potentially fatal this habit may be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料不足令結果仍不確定，但研究似乎仍在進行，調查和測試也在定期展開，以得出某種結論，判斷這個習慣到底多危險，甚至可能多致命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 G 段是總結段，主題是爭議仍在、資料不足、研究仍需持續。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 的核心是 Further research required。Paragraph G 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lack of data”"
+            },
+            {
+              "kind": "quote",
+              "text": "“uncertain results”"
+            },
+            {
+              "kind": "quote",
+              "text": "“research is ongoing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“surveys and tests are being carried out”"
+            },
+            {
+              "kind": "quote",
+              "text": "“to reach some kind of conclusion”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文最後一句直接說資料不足、結果不確定、研究仍在進行。這正好支援 heading iv。段落前半的countries imposing law 是背景，最後一句把焦點收束到更多研究和更清楚結論。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Further research required= research is ongoing / surveys and tests are being carried out / lack of data leaves uncertain results"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading viii “Contradictory data” 不合適。原文說 lack of data 和 uncertain results，重點在資料不足，並沒有列出兩組互相矛盾的數據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — Ministry of Transport",
+      "answerKey": "A — Ministry of Transport",
+      "type": "Matching Features",
+      "prompt": "is currently putting together feedback from the general public.",
+      "translation": "目前正在整理來自公眾的回饋意見。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In New Zealand, a proposal made by a previous Labour led Government suggests a $50 fine and 27 demerit points for any person using a cell phone whilst driving, although the Ministry of Transport is still preparing a report based on public consultation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在紐西蘭，前工黨政府提出對開車用手機者罰款 50 美元和扣 27 分；不過交通部仍在根據公眾諮詢準備報告。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a common misconception that hands free kits are safe to use, but research conducted by Waikato University has proven that these can be equally as dangerous as hand held phones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人誤以為免提裝置安全，但 Waikato University 的研究證明它們可能和手持手機一樣危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先把 D 段定位為 New Zealand policy / consultation / hands-free research 段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “feedback from the general public”。原文沒有 feedback，但有 “public consultation”。這是最接近的對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Ministry of Transport is still preparing a report based on public consultation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "交通部仍在根據公眾諮詢準備報告。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “currently putting together feedback from the general public”，意思就是把公眾意見整理成報告。主體是 Ministry of Transport，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "putting together feedback= preparing a report general public= public consultation"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 E。New Zealand government 提出 penalties，但正在整理公眾諮詢報告的是 Ministry of Transport。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "E — The New Zealand government",
+      "answerKey": "E — The New Zealand government",
+      "type": "Matching Features",
+      "prompt": "proposed specific penalties for mobile phone use while driving.",
+      "translation": "提出開車使用手機的具體處罰措施。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In New Zealand, a proposal made by a previous Labour led Government suggests a $50 fine and 27 demerit points for any person using a cell phone whilst driving…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在紐西蘭，前工黨政府提出建議，主張對開車時使用手機的人處以 50 美元罰款和 27 點違規記點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a common misconception that hands free kits are safe to use, but research conducted by Waikato University has proven that these can be equally as dangerous as hand held phones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人誤以為免提裝置安全，但 Waikato University 的研究證明它們可能和手持手機一樣危險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “specific penalties”。原文中最直接的數字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a $50 fine and 27 demerit points”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In New Zealand, a proposal made by a previous Labour led Government suggests a $50 fine and 27 demerit points for any person using a cell phone whilst driving…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在紐西蘭，前工黨政府提出建議，開車時使用手機的人會被罰 50 美元並扣 27 分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 proposed specific penalties，原文說 proposal made by previous Labour-led Government，並列出具體懲罰。選項中最接近這個主體的是 E The New Zealand government。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "specific penalties= $50 fine and 27 demerit points mobile phone use while driving= using a cell phone whilst driving"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Ministry of Transport 出現在同一句，但它負責準備 public consultation report；提出 penalties的是 previous Labour-led Government。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — Road safety groups",
+      "answerKey": "B — Road safety groups",
+      "type": "Matching Features",
+      "prompt": "statistically proven the higher likelihood of an accident.",
+      "translation": "以統計或研究方式證明事故可能性更高。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This dangerous distraction contributes largely to motor vehicle accidents and the statistics are increasing daily…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種危險分心行為大幅造成機動車事故，而且統計數字每日增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Time and again, in study after study replicated across the world, the use of a cell phone by the driver has been proven… to dramatically increase the probability of a motor vehicle crash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一次又一次，世界各地重複進行的研究證明，駕駛人使用手機會大幅增加車禍發生的可能性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “statistically proven” 和 “higher likelihood”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research by road safety groups suggests…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increases your chances of an accident”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nine times more likely”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dramatically increase the probability”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research by road safety groups suggests speaking on a phone whilst driving increases your chances of an accident, increasing to nine times more likely when texting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "道路安全團體的研究指出，開車時講電話會增加事故機率；傳簡訊時，風險會增加至九倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 road safety groups。題目中的 statistically proven 是對 research / statistics /probability 的概括。因此答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "higher likelihood of an accident= increases your chances of an accident / nine times more likely / increase the probability statistically proven= statistics / research / study after study"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C — Waikato University",
+      "answerKey": "C — Waikato University",
+      "type": "Matching Features",
+      "prompt": "believes any use of a phone while driving has potential risks.",
+      "translation": "認為開車時任何形式的手機使用都有潛在風險。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In New Zealand, a proposal made by a previous Labour led Government suggests a $50 fine and 27 demerit points…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在紐西蘭，前工黨政府提出罰款和扣分方案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a common misconception that hands free kits are safe to use, but research conducted by Waikato University has proven that these can be equally as dangerous as hand held phones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人誤以為免提裝置安全，但 Waikato University 的研究證明，它們可能和手持手機一樣危險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “any use of a phone”。原文以兩類手機使用方式表達： hands free kits hand held phones"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“research conducted by Waikato University has proven that these can be equally as dangerous as hand held phones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Waikato University 所做的研究證明，免提裝置可能和手持手機一樣危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 any use of a phone while driving has potential risks，原文的邏輯是：很多人以為hands-free 安全，但 Waikato University 證明 hands-free 也可能和 hand-held 一樣危險。換言之，風險並不限於手持手機；免提裝置也有風險。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "any use of a phone= hands-free kits and hand-held phones has potential risks= can be equally as dangerous"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B Road safety groups 也支持手機增加事故風險，但 Q9 已更直接對應事故機率統計。Q10 的特色是把 hands-free 和 hand-held phone 放在一起，所以 C 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "D — American radio host",
+      "answerKey": "D — American radio host",
+      "type": "Matching Features",
+      "prompt": "speaking on the phone is an overrated risk.",
+      "translation": "認為開車講電話的風險被誇大。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one hand, using a cell phone whilst driving has become an integral part of our lives and is going to be a hard habit to kick.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一方面，開車時使用手機已成為生活的一部分，而且很難戒掉。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The host agreed that texting whilst driving was a danger but phoning was not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位主持人同意開車傳簡訊危險，但認為講電話沒有危險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “speaking on the phone” 和 “overrated risk”。原文沒有 overrated，但有 “phoning was not [a danger]”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand, an American radio host suggested that banning cell phones whilst driving was taking it a step too far…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，一位美國電台主持人認為，禁止開車時使用手機有點做得太過。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The host agreed that texting whilst driving was a danger but phoning was not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位主持人同意開車傳簡訊危險，但認為講電話沒有危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “speaking on the phone is an overrated risk” 是對這位主持人觀點的概括。他認為texting 有危險，但 phoning 沒有危險，因此答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "speaking on the phone= phoning overrated risk= banning cell phones was taking it a step too far / phoning was not a danger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "The law in Ireland regarding mobile phone use while driving is the world’s most serious.",
+      "translation": "愛爾蘭關於開車使用手機的法律是全世界最嚴厲的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several countries around the world have already imposed a national Jaw with heavy infringements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界上已有幾個國家制定全國性法律，並配以嚴厲處罰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also in Europe, the Netherlands is fining offenders 2000 Euros and 2 weeks in jail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣在歐洲，荷蘭對違規者處以 2000 歐元罰款及兩週監禁。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段在比較多國處罰，但需要細讀 Ireland 的比較範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Ireland、world’s most serious。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ireland imposing the harshest penalties on the continent”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“with Ireland imposing the harshest penalties on the continent (a third offence can mean 3 months imprisonment).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "愛爾蘭施行了歐洲大陸最嚴厲的處罰；第三次違規可能意味著三個月監禁。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “world’s most serious”，原文說 “on the continent”。這裡的 continent 指歐洲範圍。文章沒有把愛爾蘭和全世界所有國家比較，也沒有說世界上沒有更嚴厲的法律。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：Ireland = 世界最嚴厲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：Ireland = 歐洲大陸最嚴厲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只提供較小範圍，沒有全球排名資料。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "很多學生會看到 “harshest penalties” 就選 TRUE。真正控制答案的是範圍詞：on the continent 和world’s。範圍從歐洲擴大到全球，文章未提供足夠資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "According to research conducted by road safety groups, speaking on a phone makes an accident nine times more likely.",
+      "translation": "根據道路安全團體的研究，開車講電話會令事故機率增加到九倍。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This dangerous distraction contributes largely to motor vehicle accidents and the statistics are increasing daily…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種危險分心行為大幅造成機動車事故，相關統計數字每日增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Time and again, in study after study replicated across the world, the use of a cell phone by the driver has been proven… to dramatically increase the probability of a motor vehicle crash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界各地反覆研究已證明，駕駛人使用手機會大幅增加車禍機率。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 road safety groups、speaking、nine times。原文同一句中同時有 speaking 和 texting，所以要小心分配風險數字。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research by road safety groups suggests speaking on a phone whilst driving increases your chances of an accident, increasing to nine times more likely when texting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "道路安全團體的研究指出，開車時講電話會增加事故機率；當傳簡訊時，風險會增加到九倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 nine times more likely 套到 speaking on a phone。原文的九倍風險屬於 texting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Speaking 只被說成 increases your chances，沒有給出九倍。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：speaking on a phone = nine times more likely。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：texting = nine times more likely；speaking = increases chances。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接把九倍風險歸給 texting，所以題目與原文相反，答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "speaking 和 texting 在同一句出現，九倍數字又非常顯眼。做題時要看 “when texting” 這個條件，不能把數字套到前半句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Reaction times in an emergency are doubled if the driver is using a mobile.",
+      "translation": "如果駕駛人正在使用手機，緊急情況下的反應時間會加倍。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one hand, using a cell phone whilst driving has become an integral part of our lives and is going to be a hard habit to kick.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一方面，開車時使用手機已成為生活的一部分，而且很難戒掉。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The host agreed that texting whilst driving was a danger but phoning was not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位主持人同意開車傳簡訊危險，但認為講電話不危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段中間正好談 reaction time，因此是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 reaction times、emergency、doubled。原文對應 dangerous situation 和 2.5 seconds /another 2 seconds。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people find it takes 2 and a half seconds to react in a dangerous situation but if you are on the phone you can add another 2 seconds onto that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數人在危險情況下需要 2.5 秒作出反應；如果你正在講電話，還要再加 2 秒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文數字是 2.5 秒增加到 4.5 秒。若真正 double，2.5 秒應變成 5 秒。題目用了 doubled，這是一個精準數學關係，但原文的數據不支持「加倍」。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：reaction time doubled。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：2.5 seconds + another 2 seconds = 4.5 seconds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "4.5 秒接近兩倍，但文章沒有說 doubled，而且數字上也未達 5 秒。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “add another 2 seconds” 很容易以為是 doubled。要先計算原始反應時間 2.5 秒，再看增加後的總時間。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Eating while driving is statistically as dangerous as using a mobile.",
+      "translation": "統計上，開車吃東西和使用手機一樣危險。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people agreed with him in saying that texting was a definite hazard as the act of looking down would lead your eyes off the road.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人同意他的看法，認為傳簡訊確實危險，因為低頭會令視線離開道路。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Accidents were happening decades before the cell phone was introduced so should we be taking this matter so seriously?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "手機出現前幾十年已經有交通事故，因此我們是否應如此嚴肅地看待這件事？"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 eating while driving、statistically、as dangerous as. 原文中有 eating food，但沒有statistics。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, doesn’t holding a conversation while driving seem just as distracting as eating food or reaching for a CD?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，開車時講電話看起來不也和吃東西或伸手拿 CD 一樣令人分心嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個 rhetorical question，即作者用反問提出比較。它只說 “seem just as distracting”，沒有提供統計數據，也沒有說 eating while driving 和 using a mobile 在事故率上相等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要三個核心證據： eating while driving statistically as dangerous as using a mobile原文只提供相關比較感覺：conversation seems as distracting as eating food or reaching for a CD。缺少統計數據，也缺少正式風險等值結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“just as distracting as eating food” 很容易令人選 TRUE。但題目有 “statistically” 和 “as dangerous as”，這比原文的 “seem just as distracting” 強得多。文章提供的是質疑和比較，未提供統計結論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "More research is required to form a clearer conclusion.",
+      "translation": "需要更多研究，才能得出更清楚的結論。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously opinions will differ on this matter, and it will always remain a debatable issue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，人們對這個問題意見不同，而且它會一直是可爭論的議題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lack of data leaves uncertain results but it seems research is ongoing and surveys and tests are being carried out on a regular basis to reach some kind of conclusion as to just how dangerous and potentially fatal this habit may be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料不足令結果不確定，但研究仍在進行，調查和測試也定期展開，以得出某種結論，判斷這個習慣到底多危險，甚至可能多致命。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 more research、clearer conclusion。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lack of data”"
+            },
+            {
+              "kind": "quote",
+              "text": "“uncertain results”"
+            },
+            {
+              "kind": "quote",
+              "text": "“research is ongoing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“surveys and tests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“to reach some kind of conclusion”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lack of data leaves uncertain results but it seems research is ongoing and surveys and tests are being carried out on a regular basis to reach some kind of conclusion…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料不足令結果不確定，但研究仍在進行，調查和測試也定期展開，以得出某種結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 more research is required。原文說 lack of data leaves uncertain results，並且 research is ongoing。這正好表示現有資料未足夠，還需要研究才能形成較清楚結論。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "More research is required= research is ongoing / surveys and tests are being carried out clearer conclusion= to reach some kind of conclusion / uncertain results判斷：題目命題和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - MOBILE PHONES AND DRIVING.pdf",
+    "sha256": "014f1c7eb281ee472bc4321fd5ca1031a21b0b54b93c07af77b79f1075100cc4",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說手機曾被視為奢侈品，但過去十年左右已成為常見物品。末句問使用手機會否影響交通意外的可能性。只看首尾句，可以估計本段是全文引入：先交代手機普及，再把焦點轉到開車時用手機的爭議。這段主要提出問題，未真正提供答案。題目若問文章背景、爭議核心、手機是否造成危險，可以先看 A；但本題組從 B–G 開始配 heading。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說世界上已有幾個國家制定全國法律，並配以嚴厲處罰。末句補充荷蘭也會罰款 2000 歐元並判兩週監禁。只看首尾句，可以估計本段主題是不同國家對開車用手機的法律反應。中間列出UK、Australia、Finland、Ireland、Netherlands，全部是國際例子。題目若問 international reactions、penalties、countries opposing mobile use while driving，應看 B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說這種 dangerous distraction 大幅造成交通意外，而且統計數字每日增加。末句說世界各地一次又一次的研究都證明，駕駛人使用手機會大幅增加車禍機率。只看首尾句，可以估計本段是研究證據段，重點在事故風險和全球研究一致性。中間的 road safety groups 和 texting nine times more likely 是細節。題目若問 statistics、research evidence、higher likelihood of crash，應看 C。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說紐西蘭前工黨政府提出方案：開車用手機者罰款 50 美元並扣 27 分，但交通部仍在整理公眾諮詢報告。末句說 Waikato University 的研究證明 hands-free kits 可能和 hand-held phones 一樣危險。只看首尾句，可以估計本段以 New Zealand 為例，處理政策提案、執法難度、公眾諮詢，以及免提裝置的安全迷思。題目若問 Ministry of Transport、New Zealand government、Waikato University，應看 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句承認，開車時使用手機已成為生活一部分，會是很難戒掉的習慣。末句說一位美國電台主持人承認 texting while driving 危險，但認為 phoning 不危險。只看首尾句，可以估計本段有正反兩面：先解釋手機通話如何拖慢反應、分散注意力，再加入反方觀點。題目若問 reaction time、cognitive distraction、American radio host 或 speaking risk，應看 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說很多人同意那位主持人的看法，認為 texting 絕對危險，因為低頭會令視線離開道路。末句反問：手機出現前幾十年也有事故，所以是否應如此嚴肅看待此事？只看首尾句，可以估計本段在權衡不同風險：texting 明顯危險，但 conversation、eating、reaching for a CD 等行為是否同樣分心，文章提出疑問。題目若問 balancing risks 或其他駕駛分心行為，應看 F。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說人們對這個問題意見不同，而且它會一直是可爭論的議題。末句說資料不足令結果仍未確定，但研究、調查和測試仍在定期進行，希望得出這種習慣到底多危險甚至多致命的結論。只看首尾句，可以估計本段是結論段：總結不同國家的立法趨勢、資料不足和未來研究需要。題目若問further research、uncertain results、clearer conclusion，答案通常在 G。"
+      }
+    ]
+  }
+}

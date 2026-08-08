@@ -1,0 +1,2649 @@
+{
+  "id": "p1-076-wolves-dogs-and-humans",
+  "catalogueId": "p1-076",
+  "catalogueIds": [
+    "p1-076"
+  ],
+  "passage": 1,
+  "title": "Wolves, dogs and humans",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "NO",
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "YES",
+    "D",
+    "B",
+    "A",
+    "selectively breed",
+    "C",
+    "B",
+    "A",
+    "C",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The coexistence of wolves and humans began 10,000 years ago.”",
+      "translation": "狼和人類的共存始於 10,000 年前。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN 題。題目核心是時間：coexistence began 10,000 years ago。要檢查文章是否同意「狼與人類的關係只開始於 10,000 年前」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt that dogs are the oldest of all species tamed by humans, and that their domestication was based on a mutually beneficial relationship with man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，狗是所有被人類馴養的物種中最古老的一種，而且牠們的馴化建基於與人類互惠的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may even have affected the brain development of both species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它甚至可能影響了兩個物種的大腦發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 會處理狗、狼、人類之間的早期關係，以及這種關係的重大影響。題目問 coexistence 的開始時間，所以本段最值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“10,000 years ago”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wolves and humans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coexistence”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 1，可找到兩組時間："
+            },
+            {
+              "kind": "quote",
+              "text": "“between 10,000 and 20,000 years ago”"
+            },
+            {
+              "kind": "quote",
+              "text": "“at least 100,000 years”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一組是 conventional view，即傳統看法；第二組是近期 DNA 研究推前後的時間。題目只寫10,000 years ago，因此要看文章最後採納哪一個時間框架。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“The conventional view is that the domestication of wolves began between 10,000 and 20,000 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統看法認為，狼的馴化開始於 10,000 至 20,000 年前。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, a recent ground-breaking paper by a group of international geneticists has pushed this date back by a factor of 10.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，一篇由國際遺傳學家團隊撰寫的突破性近期論文，把這個日期往前推了十倍。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fact that our companionship with dogs now appears to go back at least 100,000 years means that this partnership may have played an important part in developing the human hunting techniques that emerged 70,000 to 90,000 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們與狗的陪伴關係如今看來至少可追溯至 100,000 年前，這意味著這種夥伴關係可能在人類70,000 至 90,000 年前出現的狩獵技術發展中扮演重要角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： coexistence began = 共存開始10,000 years ago = 10,000 年前原文命題：傳統看法：10,000–20,000 年前近期研究：至少 100,000 年前文章明顯把焦點放在新研究，說日期被往前推十倍，並用 “now appears to go back at least 100,000 years” 作最新結論。因此題目說 10,000 年前開始，與文章採納的新時間框架相衝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“began 10,000 years ago”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“go back at least 100,000 years”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章提供了相反時間資訊，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“10,000 and 20,000 years ago” 的確出現在文章中，但它屬於 conventional view。真正控制答案的是 “However” 之後的新研究。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Dogs, wolves, jackals and coyotes share a common ancestor.”",
+      "translation": "狗、狼、豺和郊狼有共同祖先。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 DNA / ancestry 關係。要檢查文章是否把 dogs、wolves、jackals、coyotes 放在同一祖先關係內。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt that dogs are the oldest of all species tamed by humans, and that their domestication was based on a mutually beneficial relationship with man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，狗是人類馴養最早的物種，而且這種馴化建基於與人類互惠的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may even have affected the brain development of both species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它甚至可能影響了兩個物種的大腦發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 會介紹狗的馴化、狗與狼的來源關係，以及這種關係對人類和狗的影響。題目問 common ancestor，應在本段找 DNA 和 ancestor。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“common ancestor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wolves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“jackals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coyotes”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 1，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“all dog breeds had only one ancestor, the wolf”"
+            },
+            {
+              "kind": "quote",
+              "text": "“do not share DNA with coyotes or jackals”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句正好處理題目中的物種關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Led by Dr Robert Wayne at the University of California, Los Angeles, the team showed that all dog breeds had only one ancestor, the wolf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個團隊由洛杉磯加州大學的 Robert Wayne 博士帶領，證明所有犬種只有一個祖先：狼。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The research also confirms, for the first time, that dogs are descended only from wolves and do not share DNA with coyotes or jackals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項研究也首次確認，狗只由狼演化而來，並沒有與郊狼或豺共享 DNA。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 dogs、wolves、jackals、coyotes 放成一組，說牠們 share a common ancestor。可是文章的研究結論是：狗的祖先只有 wolf；dogs do not share DNA with coyotes or jackals。這直接排除了題目把四者放入同一來源關係的說法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“dogs, wolves, jackals and coyotes share a common ancestor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“dogs are descended only from wolves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“do not share DNA with coyotes or jackals”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章明確排除 dogs 與 coyotes / jackals 的 DNA sharing，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "現實生物分類中，這些動物可能有更古老的犬科共同來源；但 IELTS Reading 只能按本文資訊判斷。本文明確說狗只從狼而來，沒有與 coyotes 或 jackals 共享 DNA。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Wolves are a protected species in most parts of the world.”",
+      "translation": "狼在世界大部分地區都是受保護物種。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 protected species 和 most parts of the world。即使文章提到狼數量少或瀕危，也要檢查有沒有說「受到法律保護」和「世界大部分地區」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Australian veterinarian David Paxton suggests that in that period of first contact, people did not so much domesticate wolves as wolves domesticated people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲獸醫 David Paxton 提出，在最初接觸的時期，與其說人類馴化狼，較準確地說是狼馴化了人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The descendants of the wolves that remained wolves are now sparsely distributed, often in endangered populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些仍然保持狼身份的狼的後代，如今分佈稀疏，而且經常屬於瀕危群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 的確談狼的現狀，尤其是數量少、分佈稀疏和瀕危。題目問 protected species，這段最可能有相關背景，但要看中間句有沒有法律保護資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“protected species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most parts of the world”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wolves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到的相關詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“sparsely distributed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“endangered populations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是沒有 “protected”、“law”、“conservation programme”、“legal protection” 或 “most parts of the world” 這類表述。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The descendants of the wolves that remained wolves are now sparsely distributed, often in endangered populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些仍然保持狼身份的狼的後代，如今分佈稀疏，而且經常屬於瀕危群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說兩件事： wolves are sparsely distributed = 分佈稀疏often in endangered populations = 很多群體瀕危題目說的是： protected species = 受保護物種in most parts of the world = 在世界大部分地區"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“endangered” 和 “protected” 有關聯，但意思不同。某物種可以瀕危但未必受保護；也可能在部分地區受保護，但文章沒有交代範圍。因此，文章沒有足夠資料判斷題目是否成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有： endangered populations原文缺少： protected species legal protection most parts of the world判斷：答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易把 “endangered” 自動理解成 “protected”。在 IELTS 中，瀕危狀態和法律保護狀態不能互相替換，除非文章明確建立兩者關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Dogs evolved from wolves that chose to live with humans.”",
+      "translation": "狗是由選擇與人類共同生活的狼演化而來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查狗是否從某些開始靠近、適應和與人生活的狼演化出來。題目中的 “chose” 帶有主動意味，要看文章是否呈現狼主動靠近人類的情境。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Australian veterinarian David Paxton suggests that in that period of first contact, people did not so much domesticate wolves as wolves domesticated people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲獸醫 David Paxton 提出，在最初接觸時期，與其說人類馴化狼，較準確地說是狼馴化了人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The descendants of the wolves that remained wolves are now sparsely distributed, often in endangered populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些仍然保持狼身份的狼的後代，如今分佈稀疏，而且經常屬於瀕危群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段會講狼和人類互動的初始階段，也會比較演化成狗的狼與保留狼身份的狼。題目問 dogs evolved from wolves，因此本段最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“evolved from wolves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“live with humans”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 2，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wolves may have started living at the edge of human settlements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some learned to live with human beings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gradually evolved into dogs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三個短語直接連成答案鏈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wolves may have started living at the edge of human settlements as scavengers, eating scraps of food and waste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "狼可能一開始是作為食腐者住在人類聚居地邊緣，吃食物殘渣和廢物。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some learned to live with human beings in a mutually helpful way and gradually evolved into dogs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一些學會以互相有幫助的方式與人類生活，並逐漸演化成狗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “wolves that chose to live with humans”。原文沒有用 “chose” 這個字，但 Paxton 的觀點強調狼先靠近人類聚居地，並學會與人互利生活。這是一種主動靠近和適應人類生活的過程。文章接着說這些狼 gradually evolved into dogs，正好對應題目主線。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“chose to live with humans”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“started living at the edge of human settlements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“learned to live with human beings”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dogs evolved from wolves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“gradually evolved into dogs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目概括了 Paxton 的說法，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有 “may have”，表示這是一種理論推測。題目沒有保留 may。不過這組題目問 writer /passage views，重點在文章是否呈現這個觀點；文章確實提出並發展了這條演化路線，所以仍判YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Dogs probably influenced the development of human hunting skills.”",
+      "translation": "狗很可能影響了人類狩獵技能的發展。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 dogs / partnership 是否可能影響 human hunting techniques。題目用了 probably，語氣比事實陳述保守，和原文 may have 可能對應。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt that dogs are the oldest of all species tamed by humans, and that their domestication was based on a mutually beneficial relationship with man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，狗是人類馴養最早的物種，而且這種馴化建基於與人類互惠的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may even have affected the brain development of both species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它甚至可能影響了兩個物種的大腦發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 會處理人狗關係的深遠影響。題目問 hunting skills，這個主題通常會出現在討論早期互利關係和人類演化影響的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“hunting skills”"
+            },
+            {
+              "kind": "quote",
+              "text": "“influenced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dogs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文使用："
+            },
+            {
+              "kind": "quote",
+              "text": "“human hunting techniques”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may have played an important part in developing”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hunting skills” 和 “hunting techniques” 是直接近義詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The fact that our companionship with dogs now appears to go back at least 100,000 years means that this partnership may have played an important part in developing the human hunting techniques that emerged 70,000 to 90,000 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們與狗的陪伴關係如今看來至少可追溯至 100,000 年前，這意味著這種夥伴關係可能在人類70,000 至 90,000 年前出現的狩獵技術發展中扮演重要角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “this partnership”，即人狗夥伴關係。核心動詞短語是 “may have played an important part in developing”。對象是 “human hunting techniques”。題目用 “probably influenced”來概括 “may have played an important part”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dogs probably influenced”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“this partnership may have played an important part”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“development of human hunting skills”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“developing the human hunting techniques”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向一致，語氣也保留為 probably / may have，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 dogs，原文說 this partnership。this partnership 指的是人狗長期陪伴關係，不只是一隻狗本身。這個概括仍然合理，因為句子主題正是狗與人類的合作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "D — There are more dogs than wolves today.",
+      "answerKey": "D — There are more dogs than wolves today.",
+      "type": "Multiple Choice",
+      "prompt": "“How do we know that dogs have been more successful in evolutionary terms than wolves?”",
+      "translation": "我們如何知道狗在演化上比狼更成功？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Australian veterinarian David Paxton suggests that in that period of first contact, people did not so much domesticate wolves as wolves domesticated people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲獸醫 David Paxton 提出，在最初接觸時期，與其說人類馴化狼，較準確地說是狼馴化了人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The descendants of the wolves that remained wolves are now sparsely distributed, often in endangered populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些仍然保持狼身份的狼的後代，如今分佈稀疏，而且經常屬於瀕危群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 會比較演化成狗的狼和保留狼身份的狼。題目問 evolutionary success，這段最可能提供比較基準。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“successful in evolutionary terms”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dogs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wolves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wolves that evolved into dogs have been enormously successful in evolutionary terms.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一句和再下一句提供原因：dogs 數量多，wolves 分佈稀疏。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wolves that evolved into dogs have been enormously successful in evolutionary terms. Hundreds of millions of them are found throughout the inhabited world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些演化成狗的狼在演化意義上極其成功。牠們之中有數以億計分佈於有人居住的世界各地。"
+            },
+            {
+              "kind": "label",
+              "text": "對比句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The descendants of the wolves that remained wolves are now sparsely distributed, often in endangered populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些仍然保持狼身份的狼的後代，如今分佈稀疏，而且經常屬於瀕危群體。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Dogs can be trained more easily than wolves.原文沒有比較狗和狼的訓練難度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Wolves are stronger than dogs.原文沒有比較力量，且這也不能解釋狗演化上更成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Humans prefer dogs to wolves.人類偏好可能聽起來合理，但文章沒有用 preference 作證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D There are more dogs than wolves today.正確。原文用 “Hundreds of millions” 對比 “sparsely distributed” 和 “endangered populations”，說明狗的數量和分佈遠勝仍為狼的群體。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“more successful in evolutionary terms”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hundreds of millions ... throughout the inhabited world”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對比 “sparsely distributed”判斷：答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 有一定吸引力，因為人狗關係明顯互利。不過題目問 “How do we know”，文章提供的可觀察證據是現存數量和分佈。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — decreased",
+      "answerKey": "B — decreased",
+      "type": "Multiple Choice",
+      "prompt": "“As a result of domestication, the size of the human brain has …”",
+      "translation": "由於馴化，人類大腦大小已經……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Groves repeated an assertion made as early as 1914 that humans have some of the same physical characteristics as domesticated animals, the most notable being decreased brain size.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Groves 博士重提早在 1914 年已提出的一個說法：人類具有某些與馴化動物相同的身體特徵，其中最明顯的是腦容量下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The close interaction between the two species allowed certain human brain functions, such as smell and hearing, to diminish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個物種之間的緊密互動，使人類某些大腦功能，例如嗅覺和聽覺，可以減弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 直接談 domestication、brain size 和人腦功能減弱。題目問 human brain size，答案就在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“human brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domestication”"
+            },
+            {
+              "kind": "quote",
+              "text": "“size”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“decreased brain size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain capacity in humans declined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduction”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三組詞都指向同一方向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Groves repeated an assertion made as early as 1914 that humans have some of the same physical characteristics as domesticated animals, the most notable being decreased brain size.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Groves 博士重提一個早於 1914 年已有的主張：人類與馴化動物有某些相同身體特徵，其中最明顯的是腦容量下降。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only in the last decade have archaeologists uncovered enough fossil evidence to establish that brain capacity in humans declined in Europe and Africa by at least 10 per cent beginning about 10,000 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到過去十年，考古學家才發現足夠化石證據，確立歐洲和非洲人類的腦容量約在 10,000 年前開始下降，幅度至少達 10%。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A increased和原文 “decreased / declined” 相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B decreased正確。原文多次用 decreased、declined、reduction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C stayed the same原文說有至少 10% 下降，並非沒有變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D become more complex原文沒有討論複雜程度，只談腦容量和部分功能減弱。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "decreased brain size= brain capacity in humans declined= the size of the human brain has decreased答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章前面說人狗合作可能影響 brain development，學生可能想到 development = 變強或變複雜。到 Paragraph 5 細讀後，方向很清楚是腦容量下降和部分功能減弱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "A — Domestic life is less demanding than surviving in the wild.",
+      "answerKey": "A — Domestic life is less demanding than surviving in the wild.",
+      "type": "Multiple Choice",
+      "prompt": "“What can we infer from the studies of brain size and domestication?”",
+      "translation": "從大腦大小和馴化研究中，我們可以推論甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是推論型 MCQ。題目沒有問原文直接說哪一句，而是問 studies of brain size and domestication 帶出的合理結論。需要根據文章短距離推論，不能加入太多常識。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Groves repeated an assertion made as early as 1914 that humans have some of the same physical characteristics as domesticated animals, the most notable being decreased brain size.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Groves 博士重提早在 1914 年已有的說法：人類與馴化動物有某些相同身體特徵，其中最明顯的是腦容量下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The close interaction between the two species allowed certain human brain functions, such as smell and hearing, to diminish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個物種之間的緊密互動，使人類某些大腦功能，例如嗅覺和聽覺，可以減弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已顯示推論方向：馴化或互相依賴後，某些生存功能需求下降，腦容量或特定功能可能縮小。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“brain size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domestication”"
+            },
+            {
+              "kind": "quote",
+              "text": "“infer”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“decreased brain size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“horse ... reduction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pigs’ brains shrank”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domesticated dogs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain capacity in humans declined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“smell and hearing ... diminish”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The horse experienced a 16 per cent reduction in brain size after domestication while pigs’ brains shrank by as much as 34 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "馬在被馴化後腦容量減少了 16%，豬的大腦則縮小多達 34%。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The estimated brain-size reduction in domesticated dogs ranges from 10 to 30 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被馴化狗的腦容量估計減少 10% 至 30%。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The close interaction between the two species allowed certain human brain functions, such as smell and hearing, to diminish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個物種之間的緊密互動，使人類某些大腦功能，例如嗅覺和聽覺，可以減弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子共同表示：在馴化或互相依賴的情況下，某些原本對野外生存很重要的能力，可以變得較少使用，腦容量或功能隨之下降。這支持選項 A：domestic life is less demanding than surviving in the wild。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Domestic life is less demanding than surviving in the wild.正確。這是最穩妥的推論。馴化後，動物或人類不用完全依靠原本的感官和野外生存能力，因此某些腦功能可以減弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Animals like living with humans.原文沒有討論動物喜不喜歡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Domestication has made animals physically weaker.原文談 brain size，不是身體力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Pigs are less intelligent than dogs.原文只說豬腦縮小幅度，沒有比較智力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 利用 pigs’ brains shrank by 34% 和 dogs 10–30% 製造干擾，但腦容量縮小比例不能直接推出智力高低比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "selectively breed",
+      "answerKey": "selectively breed",
+      "type": "Short Answer",
+      "prompt": "“There are many different types of dogs today because, in early times, humans began to 9_________________ their animals for the characteristics they wanted.”",
+      "translation": "今天有很多不同種類的狗，因為早期人類開始為自己想要的特徵去 9 ________ 牠們的動物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是填空題，要求 TWO WORDS。空格前有 “began to”，所以答案在文法上應是原形動詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In return for companionship and food, the early ancestor of the dog assisted humans in tracking, hunting, guarding and a variety of other activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為陪伴和食物的回報，狗的早期祖先幫助人類追蹤、狩獵、守衛，以及進行各種其他活動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As humans wandered across Asia and Europe, they took their dogs along, using them for additional tasks and further breeding them for selected qualities that would better enable them to perform specific duties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人類橫跨亞洲和歐洲遷徙時，他們帶同狗，讓牠們執行更多任務，並進一步為特定品質繁殖牠們，使牠們更能完成特定職責。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 會處理狗幫助人類，以及人類如何按任務需要培育狗。題目問不同種類的狗如何出現，本段最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“many different types of dogs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“characteristics they wanted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“humans began”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“humans began selectively breeding these animals for specific traits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“individual breeds began to take shape”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“specific traits” 對應 “characteristics they wanted”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Eventually, humans began selectively breeding these animals for specific traits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，人類開始為特定特徵而選擇性繁殖這些動物。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physical characteristics changed and individual breeds began to take shape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "身體特徵改變了，各個犬種也開始成形。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“humans began to ______ their animals for the characteristics they wanted.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“humans began selectively breeding these animals for specific traits.”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "characteristics they wanted= specific traits many different types of dogs= individual breeds began to selectively breed= began selectively breeding答案形式：原文的兩個字是 “selectively breeding”。不過題目空格前有 “began to”，英文文法要接原形動詞，所以應填 “selectively breed”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 selectively breed。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的難點不在定位，而在答案形式。原文提供 “selectively breeding”，題目改成 “began to ___”，所以若直接搬 “selectively breeding”，句子會變成 “began to selectively breeding”，文法不自然。較合理答案是 selectively breed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C — Dr Groves",
+      "answerKey": "C — Dr Groves",
+      "type": "Matching Researchers",
+      "prompt": "“studied the brain size of domesticated animals”",
+      "translation": "研究馴化動物的大腦大小。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要把 finding 對應到正確研究者。定位詞是 “brain size” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“domesticated animals”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5第一句：“Dr Groves repeated an assertion made as early as 1914 that humans have some of the same physical characteristics as domesticated animals, the most notable being decreased brain size.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Groves 博士重提早在 1914 年已有的主張：人類具有某些與馴化動物相同的身體特徵，其中最明顯的是腦容量下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The close interaction between the two species allowed certain human brain functions, such as smell and hearing, to diminish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個物種之間的緊密互動，使人類某些大腦功能，例如嗅覺和聽覺，可以減弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 明顯是 Dr Groves 關於 brain size、domesticated animals 和人腦功能下降的段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“brain size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domesticated animals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“decreased brain size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domesticated animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The horse...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pigs’ brains...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domesticated dogs...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The horse experienced a 16 per cent reduction in brain size after domestication while pigs’ brains shrank by as much as 34 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "馬在馴化後腦容量減少了 16%，豬的大腦則縮小多達 34%。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The estimated brain-size reduction in domesticated dogs ranges from 10 to 30 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被馴化狗的腦容量估計減少 10% 至 30%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子全在 Dr Groves 的觀點段落中，用馬、豬和狗作例子討論馴化動物的腦容量減少。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“studied the brain size of domesticated animals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“decreased brain size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“after domestication”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domesticated dogs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 C — Dr Groves。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Dr Wayne 也做科學研究，但他的重點是 DNA 和祖先；brain size 屬於 Groves 的段落。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — Dr Paxton",
+      "answerKey": "B — Dr Paxton",
+      "type": "Matching Researchers",
+      "prompt": "“claims that wolves chose to interact with humans”",
+      "translation": "聲稱狼選擇與人類互動。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Australian veterinarian David Paxton suggests that in that period of first contact, people did not so much domesticate wolves as wolves domesticated people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲獸醫 David Paxton 提出，在最初接觸時期，與其說人類馴化狼，較準確地說是狼馴化了人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The descendants of the wolves that remained wolves are now sparsely distributed, often in endangered populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些仍然保持狼身份的狼的後代，如今分佈稀疏，而且經常屬於瀕危群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經點名 David Paxton，並指出他的觀點是狼在早期互動中扮演主動角色。題目說 wolves chose to interact with humans，因此定位在 Paxton 段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wolves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“chose”"
+            },
+            {
+              "kind": "quote",
+              "text": "“interact with humans”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“wolves domesticated people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“started living at the edge of human settlements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“learned to live with human beings”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wolves may have started living at the edge of human settlements as scavengers, eating scraps of food and waste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "狼可能一開始是食腐者，住在人類聚居地邊緣，吃食物殘渣和廢物。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some learned to live with human beings in a mutually helpful way and gradually evolved into dogs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一些學會以互相有幫助的方式與人類生活，並逐漸演化成狗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子呈現狼主動靠近人類、適應人類聚居地、逐步和人類建立互利關係。題目用 “chose to interact” 概括這種主動靠近和互動。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "claims= suggests wolves chose to interact with humans= wolves may have started living at the edge of human settlements / learned to live with human beings判斷：答案是 B — Dr Paxton。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Dr Groves 也說 dogs domesticated humans，但 Question 11 提到的是 wolves 主動靠近和互動的早期情境，這是 Paxton 的說法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A — Dr Wayne",
+      "answerKey": "A — Dr Wayne",
+      "type": "Matching Researchers",
+      "prompt": "“established a new time frame for the domestication of wolves”",
+      "translation": "為狼的馴化建立新的時間框架。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt that dogs are the oldest of all species tamed by humans, and that their domestication was based on a mutually beneficial relationship with man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，狗是人類馴養最早的物種，而且牠們的馴化建基於與人類互惠的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may even have affected the brain development of both species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它甚至可能影響了兩個物種的大腦發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 介紹狗的馴化時間、DNA 研究和 Dr Wayne 團隊。題目問 new time frame，這段最直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new time frame”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domestication of wolves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“conventional view”"
+            },
+            {
+              "kind": "quote",
+              "text": "“began between 10,000 and 20,000 years ago”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pushed this date back by a factor of 10”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Led by Dr Robert Wayne”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, a recent ground-breaking paper by a group of international geneticists has pushed this date back by a factor of 10.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，一篇由國際遺傳學家團隊撰寫的突破性近期論文，把這個日期往前推了十倍。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Led by Dr Robert Wayne at the University of California, Los Angeles, the team showed that all dog breeds had only one ancestor, the wolf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個團隊由洛杉磯加州大學的 Robert Wayne 博士帶領，證明所有犬種只有一個祖先：狼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “this date” 指上一句的 wolf domestication between 10,000 and 20,000 years ago。Wayne團隊把這個日期往前推十倍，即建立了新的馴化時間框架。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "established a new time frame= pushed this date back by a factor of 10 domestication of wolves= the domestication of wolves began...判斷：答案是 A — Dr Wayne。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 12 的關鍵在 “time frame”。Dr Groves 也談 100,000 years 和 10,000 years，但他的重點是 brain size；把 domestication date 推前的是 Wayne 團隊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — Dr Groves",
+      "answerKey": "C — Dr Groves",
+      "type": "Matching Researchers",
+      "prompt": "“believes that dogs and humans domesticated each other”",
+      "translation": "相信狗和人類彼此馴化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Dr Colin Groves of the Department of Archaeology and Anthropology at the Australian National University, early humans came to rely on dogs’ keen ability to hear, smell and see – allowing certain areas of the human brain to shrink in size relative to other areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲國立大學考古與人類學系的 Colin Groves 博士認為，早期人類開始依賴狗敏銳的聽覺、嗅覺和視覺，這令某些人類腦區域相對其他區域縮小。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his view, humans domesticated dogs, and dogs domesticated humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他看來，人類馴化了狗，狗也馴化了人類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句幾乎直接就是題目說法，因此答案十分明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“dogs and humans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domesticated each other”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“humans domesticated dogs, and dogs domesticated humans”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This symbiotic relationship was stable for over 100,000 years and intensified into mutual domestication,’ said Dr Groves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Groves 博士說，這種共生關係穩定維持了超過 100,000 年，並加強成互相馴化。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his view, humans domesticated dogs, and dogs domesticated humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他看來，人類馴化了狗，狗也馴化了人類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mutual domestication” 就是彼此馴化；下一句將意思說得更清楚：human → dog，dog → human，方向雙向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“dogs and humans domesticated each other”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“mutual domestication”"
+            },
+            {
+              "kind": "quote",
+              "text": "“humans domesticated dogs, and dogs domesticated humans”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 C — Dr Groves。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Dr Paxton 也有一句很像：“wolves domesticated people”。但 Question 13 說的是 dogs and humans 彼此馴化，原文精確句子出現在 Groves 段落。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "A — Dr Wayne",
+      "answerKey": "A — Dr Wayne",
+      "type": "Matching Researchers",
+      "prompt": "“studied the DNA of wolves and dogs”",
+      "translation": "研究狼和狗的 DNA。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt that dogs are the oldest of all species tamed by humans, and that their domestication was based on a mutually beneficial relationship with man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，狗是人類馴養最早的物種，而且牠們的馴化建基於與人類互惠的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may even have affected the brain development of both species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它甚至可能影響了兩個物種的大腦發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 中間明確提到 Wayne 團隊用 DNA 追蹤 wolves 和 domestic dogs 的遺傳史。題目問 studied DNA，定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“DNA”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wolves and dogs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“analysing DNA”"
+            },
+            {
+              "kind": "quote",
+              "text": "“162 wolves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“140 domestic dogs”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They did this by analysing DNA to trace the genetic history of 162 wolves from around the world and 140 domestic dogs representing 67 breeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們透過分析 DNA，追蹤世界各地 162 隻狼和代表 67 個犬種的 140 隻家犬的遺傳歷史。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語 “They” 指前一句的 Dr Robert Wayne 帶領的研究團隊。核心動作是 “analysing DNA”。研究對象是 “162 wolves” 和 “140 domestic dogs”。所以此 finding 對應 Wayne。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "studied the DNA= analysing DNA wolves and dogs= 162 wolves / 140 domestic dogs判斷：答案是 A — Dr Wayne。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Dr Groves 也研究 humans and dogs 的長期關係，但他的證據方向是 brain size 和 mutual domestication。DNA 分析只屬 Wayne 團隊。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Wolves, dogs and humans.pdf",
+    "sha256": "e6f389e7f870e1d2b75ca0cd68c9fb84be5f76bf945cfcdb04fe0e01e96fb589",
+    "pageCount": 30
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一段首句說，狗毫無疑問是人類馴養最早的物種，而且這種馴化建基於人狗互惠關係；尾句說，這段關係甚至可能影響了兩個物種的大腦發展。只看首尾句，可以先估計本段會處理狗的起源、狼與狗的關係、DNA 研究、馴化時間，以及人狗關係對狩獵技巧和大腦發展的深遠影響。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句引入 David Paxton 的看法：早期接觸階段，也許較像狼馴化了人；尾句說，仍保持狼身份的後代如今分佈稀少，很多群體瀕危。只看首尾句，可以估計本段會講狼如何主動靠近人類聚居地、與人互利共存，並比較演化成狗的狼與保留狼身份的狼在今日數量上的差異。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說，狗的早期祖先以陪伴和食物為回報，幫助人類追蹤、狩獵、守衛和從事其他活動；尾句說，人類遷徙到亞洲和歐洲時帶同狗，並繼續為特定任務培育牠們。只看首尾句，可以估計本段會處理人類如何選擇性繁殖狗，令不同犬種、外形和任務能力逐漸形成。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句引入 Dr Colin Groves 的看法：早期人類依賴狗敏銳的聽覺、嗅覺和視覺，令部分人腦區域相對縮小；尾句說，在他看來，人類馴化狗，狗也馴化人類。只看首尾句，可以估計本段會講人狗共生如何改變雙方，包括狗作警報、追蹤、狩獵輔助、垃圾處理、保暖和兒童守護者等角色。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句說，Groves 重提早在 1914 年已有的主張：人類與馴化動物共享某些身體特徵，其中最明顯的是腦容量下降；尾句說，兩個物種的緊密互動讓人類某些大腦功能，例如嗅覺和聽覺，可以減弱。只看首尾句，可以估計本段會比較馬、豬、狗和人類的大腦縮小現象，並解釋這與馴化和互相依賴的關係。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Question 9 小提醒：原文用的是 “selectively breeding”，但題目句子是 “began to ______ their animals”，文法上要接原形動詞，所以答案應寫 “selectively breed”。如果考卷非常嚴格要求逐字搬原文，這題本身有一點文法設計問題。"
+  ]
+}

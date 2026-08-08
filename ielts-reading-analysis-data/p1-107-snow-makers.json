@@ -1,0 +1,1978 @@
+{
+  "id": "p1-107-snow-makers",
+  "catalogueId": "p1-107",
+  "catalogueIds": [
+    "p1-107"
+  ],
+  "passage": 1,
+  "title": "Snow-makers",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "ix",
+    "iii",
+    "viii",
+    "i",
+    "vi",
+    "compressed",
+    "(tiny) droplets",
+    "ice crystals",
+    "depth",
+    "temperature and humidity",
+    "energy",
+    "insulation",
+    "aircraft"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "ix — Artificial process, natural product",
+      "answerKey": "ix — Artificial process, natural product",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "人工過程，天然產品目標段落：Paragraph C",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The snow gun works very differently from a natural weather system, but it accomplishes exactly the same thing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "snow gun 的運作方式和天然天氣系統非常不同，但它達成的結果完全一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The droplets are then blown out of the gun, and if the outside temperature is below 0°C, ice crystals will form and then make snowflakes in the same way as natural snow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些水滴之後會從機器中噴出；如果外面溫度低於 0°C，ice crystals 便會形成，然後以和天然雪相同的方式形成 snowflakes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經很清楚：方法是 artificial，結果是 natural-like snow。第一句比較 snow gun和 natural weather system；最後一句說它最後形成 snowflakes in the same way as natural snow。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ix 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Artificial process”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural product”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“works very differently from a natural weather system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accomplishes exactly the same thing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“make snowflakes in the same way as natural snow”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文中間說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The device basically works by combining water and air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個裝置基本上透過混合水和空氣運作。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the compressed air passes through the hose into the gun, it atomises the water…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當壓縮空氣經喉管進入 snow gun，它會把水霧化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子說明人工過程：water pumping station、air compressor、compressed air、atomises the water。段末則回到 natural product：ice crystals 和 snowflakes。heading ix 正好概括「人工機械過程製造出類似天然雪的結果」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Artificial process= snow gun works differently / combining water and air / compressed air atomises water Natural product= ice crystals / snowflakes / in the same way as natural snow"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii “Modifications to the design of the snow gun” 有一定吸引力，因為這段提到 hoses、gun、compressor。可是段落沒有講設計被改良，焦點在 snow gun 如何模仿自然造雪結果。真正控制答案的是第一句的 “works very differently” 和 “accomplishes exactly the same thing”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "iii — The need for different varieties of snow",
+      "answerKey": "iii — The need for different varieties of snow",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "需要不同種類的雪目標段落：Paragraph D",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snow-makers often talk about dry snow and wet snow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "造雪人員經常談 dry snow 和 wet snow。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many resorts build up the snow depth this way once or twice a year, and then regularly coat the trails with a layer of dry snow throughout the winter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多滑雪場一年一兩次用這種方法增加 snow depth，然後在整個冬天定期在滑道上覆蓋一層dry snow。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句直接提出兩種雪：dry snow 和 wet snow。最後一句指出兩者有不同用法：wet snow 用來增加深度，dry snow 用來覆蓋表層。這段全段都在解釋不同種類的雪為何有不同功能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading iii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“different varieties”"
+            },
+            {
+              "kind": "quote",
+              "text": "“snow”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“dry snow and wet snow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Dry snow has a relatively low water content”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resort owners also use denser, wet snow underneath the dry snow”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dry snow has a relatively low water content, so it is very light and powdery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dry snow 的含水量相對低，所以很輕、呈粉狀。"
+            },
+            {
+              "kind": "label",
+              "text": "原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, on slopes which receive heavy use, resort owners also use denser, wet snow underneath the dry snow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在使用量大的斜坡上，滑雪場負責人也會在 dry snow 下方使用較密實的 wet snow。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡清楚展示兩種雪的不同需要：dry snow 適合表面滑行和鋪平；wet snow 較密實，用作底層，幫助支撐高使用量斜坡。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "different varieties of snow= dry snow and wet snow need for different varieties= dry snow for surface / wet snow underneath for heavy-use slopes"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vii “Converting wet snow to dry snow” 會吸引學生，因為段內同時出現 dry snow 和 wet snow。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是原文沒有說把濕雪轉成乾雪，只說兩種雪各有用途。題目要概括整段，iii 最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "viii — New method for calculating modifications",
+      "answerKey": "viii — New method for calculating modifications",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "計算調整的新方法目標段落：Paragraph E",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wetness of snow depends on the temperature and humidity outside, as well as the size of the water droplets launched by the gun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雪的濕度取決於外面的 temperature 和 humidity，也取決於 snow gun 噴出的水滴大小。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many ski slopes now do this with a central computer system that is connected to weather-reading stations all over the slope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多滑雪場現在用中央電腦系統來做這件事，該系統連接斜坡各處的 weather-reading stations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句指出 snow consistency 受天氣和 droplets size 影響；最後一句說現在用中央電腦系統和天氣讀取站處理調整。段落功能是：如何按外界條件計算和調整 water / air 比例。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading viii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“New method”"
+            },
+            {
+              "kind": "quote",
+              "text": "“calculating”"
+            },
+            {
+              "kind": "quote",
+              "text": "“modifications”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“adjust the proportions of water and air”"
+            },
+            {
+              "kind": "quote",
+              "text": "“central computer system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weather-reading stations”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snow-makers have to adjust the proportions of water and air in their snow guns to produce the right snow consistency for the outdoor weather conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "造雪人員必須調整 snow guns 中水和空氣的比例，才能因應戶外天氣條件製造出合適的 snow consistency。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 adjust the proportions 就是 modifications。下一句 “central computer system” 則說明新的方法。電腦連接 weather-reading stations，代表它能根據斜坡不同位置的天氣資料輔助調整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "modifications= adjust the proportions of water and air calculating method= central computer system connected to weather-reading stations"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii “Modifications to the design of the snow gun” 也有 modifications，但錯在 design。Paragraph E沒有說 snow gun 的結構設計被改動；它講的是根據天氣調整水和空氣比例。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "i — Considering ecological costs",
+      "answerKey": "i — Considering ecological costs",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "考慮生態／環境代價目標段落：Paragraph F",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But man-made snow makes heavy demands on the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但是，人造雪對環境有很大要求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, considerable amounts of energy are needed to run the large air-compressing pumps, and the diesel engines which run them also cause air pollution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，運行大型空氣壓縮泵需要大量能源，而驅動它們的柴油引擎也會造成空氣污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句直接顯示段落方向：人造雪有環境成本。第一句是總論，最後一句列出 energy use 和 air pollution。中間還有大量用水和水庫循環使用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading i 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“ecological costs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“heavy demands on the environment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“275,000 litres of water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“considerable amounts of energy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“air pollution”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It takes about 275,000 litres of water to create a blanket of snow covering a 60 × 60-metre area.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要製造一層覆蓋 60 × 60 米範圍的雪，約需要 275,000 公升水。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“considerable amounts of energy are needed…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要相當大量的能源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是 ecological costs：耗水、耗能、污染。Paragraph F 雖然也說 run-off water 可回流到reservoirs，讓 resort 重複用水，但整體段落重點仍然落在環境負擔。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ecological costs= heavy demands on the environment / water use / energy use / air pollution"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iv “Local concern over environmental issues” 方向接近，但原文沒有 local residents、public concern、campaigns 或 complaints。這段談的是客觀環境成本，沒有談地方居民的反應，所以 i更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "vi — Applications beyond the ski slopes",
+      "answerKey": "vi — Applications beyond the ski slopes",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "滑雪斜坡以外的應用目標段落：Paragraph G",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of the expense of making snow, ski resorts have to balance the cost of running the machines with the benefits of extending the ski season…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於造雪成本高，滑雪場必須平衡機器運行成本和延長滑雪季節所帶來的收益。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And another important application of man-made snow is its use in tests that aircraft must undergo in order to ensure that they can function safely in extreme conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人造雪另一個重要用途，是用於 aircraft 必須接受的測試，以確保它們能在極端條件下安全運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句先接續滑雪場成本，第二句開始轉向 “other uses”。最後一句落在 aircraft tests，已經離開 ski slopes。這段中段還提到 agriculture 和 movie productions，因此 heading vi 能覆蓋全段後半的主要發展。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vi 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Applications”"
+            },
+            {
+              "kind": "quote",
+              "text": "“beyond the ski slopes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“man-made snow has a number of other uses as well”"
+            },
+            {
+              "kind": "quote",
+              "text": "“farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“movie productions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“aircraft”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But man-made snow has a number of other uses as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但人造雪還有許多其他用途。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後文章列出三類： farmers use man-made snow to provide insulation for winter crops movie productions use snow-making machines aircraft tests use man-made snow for extreme conditions這三個例子都在 ski resorts 以外，所以 heading vi 是段落主功能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "applications beyond the ski slopes= other uses as well / farmers / movie productions / aircraft tests"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段首有 “expense of making snow”，容易令人以為答案要選 cost-related heading。但 list 中沒有單純「經濟成本」heading，而且段落很快轉到 “other uses”。段落真正展開的內容是多種非滑雪用途。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "compressed",
+      "answerKey": "compressed",
+      "type": "Diagram Labelling",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The snow gun works very differently from a natural weather system, but it accomplishes exactly the same thing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "snow gun 的運作方式和天然天氣系統不同，但它達成完全相同的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The droplets are then blown out of the gun, and if the outside temperature is below 0°C, ice crystals will form and then make snowflakes in the same way as natural snow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水滴之後從機器中噴出；如果外面溫度低於 0°C，便會形成 ice crystals，再像天然雪一樣形成snowflakes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是 snow gun 運作程序段，所以 diagram labels 必定主要來自 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖表詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然你貼出的圖沒有顯示，但 snow gun 圖通常會標示 air compressor、hose、water 和出口粒子。Q6 的標準答案是 compressed，表示圖上很可能已給出 “air” 或指向 air hose，需要填形容詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the compressed air passes through the hose into the gun, it atomises the water…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當壓縮空氣經喉管進入 snow gun，它會把水霧化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “compressed air” 是固定搭配。若圖中空格在 air 前，答案只需填 compressed；若完整標籤要求名詞短語，compressed air 也來自原文。不過公開版本答案表給的是 compressed，表示圖上應該已有 air。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式compressed = 1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "(tiny) droplets",
+      "answerKey": "(tiny) droplets",
+      "type": "Diagram Labelling",
+      "prompt": "Question 7",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The snow gun works very differently from a natural weather system, but it accomplishes exactly the same thing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "snow gun 的運作方式和天然天氣系統不同，但達成相同結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The droplets are then blown out of the gun…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些水滴之後會從機器中噴出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "從首尾句可見，Paragraph C 會描述水和空氣如何變成 snowflakes。Q7 若在水被霧化後的位置，答案應找 water 變成甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖表順序定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目圖若標在 snow gun 出口附近、snowflakes 形成前，最可能對應 “water splits up into tiny droplets”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…it atomises the water—that is, it disrupts the stream so that the water splits up into tiny droplets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它會把水霧化；也就是說，它打散水流，使水分裂成 tiny droplets。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 atomises 解釋得很清楚：水流被打散，形成 tiny droplets。圖中 Q7 多半標示從 gun 噴出的細小水滴，因此答案是 (tiny) droplets。括號表示 tiny 可填可不填；最穩陣可填 tiny droplets，因為兩個字仍符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式tiny droplets = 2 words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "droplets = 1 word，也符合；標準答案通常接受 (tiny) droplets。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "ice crystals",
+      "answerKey": "ice crystals",
+      "type": "Diagram Labelling",
+      "prompt": "Question 8",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The snow gun works very differently from a natural weather system, but it accomplishes exactly the same thing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "snow gun 的運作方式和天然天氣系統不同，但它達成同一結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…if the outside temperature is below 0°C, ice crystals will form and then make snowflakes in the same way as natural snow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果外面溫度低於 0°C，ice crystals 會形成，然後像天然雪一樣形成 snowflakes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經直接包含 Q8 的答案。diagram 若標在 droplets 之後、snowflakes 之前，答案就是ice crystals。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用程序詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Q8 在流程上應位於 tiny droplets 之後。掃描 Paragraph C 的程序順序：compressed air →atomises water → tiny droplets → below 0°C → ice crystals → snowflakes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…if the outside temperature is below 0°C, ice crystals will form and then make snowflakes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果外面溫度低於 0°C，ice crystals 會形成，然後形成 snowflakes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “will form” 是核心動詞，表示 droplets 在低溫下先變成 ice crystals，之後才形成 snowflakes。因此答案是 ice crystals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式ice crystals = 2 words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "單複數要保留 plural，因為原文是 crystals，而且圖上通常指多個晶體。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "depth",
+      "answerKey": "depth",
+      "type": "Sentence Completion",
+      "prompt": "“Dry snow is used to give slopes a level surface, while wet snow is used to increase the 9______ on busy slopes.”",
+      "translation": "Dry snow 用來令斜坡表面平整；wet snow 則用來增加繁忙斜坡上的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snow-makers often talk about dry snow and wet snow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "造雪人員經常談 dry snow 和 wet snow。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many resorts build up the snow depth this way once or twice a year, and then regularly coat the trails with a layer of dry snow throughout the winter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多滑雪場一年一兩次用這種方法增加 snow depth，然後整個冬天定期在滑道上覆蓋一層 dry snow。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落首尾句已經指出 dry snow / wet snow 的不同用途。題目同樣比較 dry snow 和 wet snow，因此 Paragraph D 是直接定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dry snow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“level surface”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wet snow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“busy slopes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“this powdery snow can be produced to give the ski slopes a level surface”"
+            },
+            {
+              "kind": "quote",
+              "text": "“on slopes which receive heavy use”"
+            },
+            {
+              "kind": "quote",
+              "text": "“use denser, wet snow underneath the dry snow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“build up the snow depth”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many resorts build up the snow depth this way once or twice a year…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多滑雪場一年一兩次用這種方法增加 snow depth。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “increase” 對應原文 “build up”。“busy slopes” 對應 “slopes which receive heavy use”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “increase the”，所以需要名詞。標準答案填 depth。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "increase = build up busy slopes = slopes which receive heavy use depth = snow depth答案形式depth = 1 word，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“snow depth” 也來自原文，但標準答案通常填 depth，因為題目整句已經在談 snow。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "temperature and humidity",
+      "answerKey": "temperature and humidity",
+      "type": "Sentence Completion",
+      "prompt": "“To calculate the required snow consistency, the 10 ______ of the atmosphere must first be measured.”",
+      "translation": "為了計算所需的 snow consistency，必須先量度大氣的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wetness of snow depends on the temperature and humidity outside, as well as the size of the water droplets launched by the gun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雪的濕度取決於外面的 temperature 和 humidity，也取決於 snow gun 噴出的水滴大小。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many ski slopes now do this with a central computer system that is connected to weather-reading stations all over the slope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多滑雪場現在用中央電腦系統來做這件事，該系統連接斜坡各處的 weather-reading stations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段直接處理 snow consistency 和天氣條件，所以 Q10 位置非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“snow consistency”"
+            },
+            {
+              "kind": "quote",
+              "text": "“atmosphere”"
+            },
+            {
+              "kind": "quote",
+              "text": "“measured”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“temperature and humidity outside”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outdoor weather conditions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weather-reading stations”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wetness of snow depends on the temperature and humidity outside…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雪的濕度取決於外面的 temperature 和 humidity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “outside” 改寫成 “of the atmosphere”，把 “depends on” 改成 “must first be measured”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要計算 consistency，先要知道外界天氣條件，尤其 temperature and humidity。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "atmosphere = outside / outdoor weather conditions calculate required snow consistency = produce the right snow consistency temperature and humidity = temperature and humidity答案形式temperature and humidity = 3 words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目限制是 NO MORE THAN THREE WORDS，所以完全符合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "energy",
+      "answerKey": "energy",
+      "type": "Sentence Completion",
+      "prompt": "“The machinery used to make snow consumes a great deal of 11 ______, damaging the environment.”",
+      "translation": "造雪機械消耗大量 ______，對環境造成損害。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But man-made snow makes heavy demands on the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人造雪對環境有很大要求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, considerable amounts of energy are needed to run the large air-compressing pumps, and the diesel engines which run them also cause air pollution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，運行大型空氣壓縮泵需要大量 energy，而驅動它們的柴油引擎也造成空氣污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句直接顯示 environmental cost。題目中的 “damaging the environment” 對應首句 “heavy demands on the environment” 和末句 “air pollution”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“machinery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consumes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“great deal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“environment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“considerable amounts of energy are needed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“large air-compressing pumps”"
+            },
+            {
+              "kind": "quote",
+              "text": "“air pollution”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, considerable amounts of energy are needed to run the large air-compressing pumps…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，運行大型空氣壓縮泵需要相當大量的 energy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “consumes a great deal of” 對應原文 “considerable amounts of … are needed”。空格需要不可數名詞，所以 energy 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "consumes a great deal of = considerable amounts of … are needed machinery used to make snow = large air-compressing pumps damaging the environment = cause air pollution / heavy demands on the environment答案形式energy = 1 word，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "insulation",
+      "answerKey": "insulation",
+      "type": "Sentence Completion",
+      "prompt": "“Artificial snow is used in agriculture as a type of 12 ______ for plants in cold conditions.”",
+      "translation": "人造雪在農業中可作為寒冷環境下植物的一種 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of the expense of making snow, ski resorts have to balance the cost of running the machines with the benefits of extending the ski season…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於造雪成本高，滑雪場要平衡機器運行成本和延長滑雪季節的收益。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And another important application of man-made snow is its use in tests that aircraft must undergo…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人造雪另一個重要用途，是用於 aircraft 必須接受的測試。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 是人造雪其他用途段。題目說 agriculture，對應段中 farmers / winter crops。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“agriculture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cold conditions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“winter crops”"
+            },
+            {
+              "kind": "quote",
+              "text": "“provide insulation”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A layer of snow keeps a lot of the Earth’s heat from escaping into the atmosphere, so farmers often use man-made snow to provide insulation for winter crops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一層雪可以防止大量地熱散失到大氣中，所以農民常用人造雪為冬季作物提供 insulation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “farmers” 改成 “agriculture”，把 “winter crops” 改成 “plants in cold conditions”。“provide insulation” 直接給出答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "agriculture = farmers plants in cold conditions = winter crops as a type of insulation = provide insulation答案形式insulation = 1 word，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "aircraft",
+      "answerKey": "aircraft",
+      "type": "Sentence Completion",
+      "prompt": "“Artificial snow may also be used in carrying out safety checks on 13 ______.”",
+      "translation": "人造雪也可用於對 ______ 進行安全檢查。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of the expense of making snow, ski resorts have to balance the cost of running the machines with the benefits of extending the ski season…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於造雪成本高，滑雪場要平衡機器運行成本和延長滑雪季節的收益。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And another important application of man-made snow is its use in tests that aircraft must undergo in order to ensure that they can function safely in extreme conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人造雪另一個重要用途，是用於 aircraft 必須接受的測試，以確保它們能在極端條件下安全運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經直接對應 Q13。題目中的 safety checks 改寫了 tests + function safely。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“safety checks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Artificial snow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used in carrying out”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“use in tests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“aircraft must undergo”"
+            },
+            {
+              "kind": "quote",
+              "text": "“function safely”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And another important application of man-made snow is its use in tests that aircraft must undergo in order to ensure that they can function safely in extreme conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人造雪另一個重要應用，是用於 aircraft 必須接受的測試，以確保它們在極端環境下也能安全運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “safety checks” 概括原文 “tests … ensure that they can function safely”。被測試的對象是 aircraft，所以答案是 aircraft。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "safety checks = tests … ensure that they can function safely on aircraft = aircraft must undergo extreme conditions = cold / snowy testing context答案形式aircraft = 1 word，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意 aircraft 單複數同形，不要自行改成 aircrafts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後整理：高頻同義改寫Artificial process, natural product= snow gun works differently from natural weather system, but makes snowflakes like natural snow different varieties of snow= dry snow and wet snow adjust snow consistency= adjust the proportions of water and air ecological costs= heavy demands on the environment / water use / energy use / air pollution applications beyond ski slopes= farmers, movie productions, aircraft tests compressed air= air from an air compressor tiny droplets= water splits up into tiny droplets ice crystals= crystals form when outside temperature is below 0°C increase the depth= build up the snow depth temperature and humidity= outdoor weather conditions energy consumption= considerable amounts of energy are needed insulation= keeping Earth’s heat from escaping safety checks on aircraft= tests aircraft must undergo to function safely in extreme conditions"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Snow-makers.pdf",
+    "sha256": "161807f309b3403d530a269c3a6e077b597fde4d184b75a506e705beb4a9bd7f",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看第一句，讀者會先知道 skiing 已經成為大生意，ski slopes 在二十世紀初至中期因滑雪流行而變得極有利可圖。最後一句說，snow guns 已成為世界大多數滑雪場的標準設備，令很多滑雪場一年可開放四個月或更久。首尾句顯示這段功能是提出問題與解法：滑雪場依賴天氣，但 snow gun 讓它們能在人造雪支援下延長營業時間。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說，天然天氣系統形成的雪來自大氣中的水蒸氣。最後一句說，snowflake 變重後會落向地面。首尾句已清楚顯示這段在解釋 natural snow 的形成過程。中間會按順序說明：water vapour凝結成 droplets，低溫下 droplets 凍成 tiny ice crystals，更多水粒附在 crystal 上，最後形成snowflake。這段是例題 Paragraph B 對應 heading x 的原因。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說 snow gun 的運作方式和天然天氣系統很不同，但達成的結果完全一樣。最後一句說，如果外面溫度低於 0°C，ice crystals 會形成，然後像天然雪一樣形成 snowflakes。首尾句顯示這段重點是人工過程製造天然結果。中間會交代 water hose、air compressor、compressed air、atomises the water、tiny droplets 等步驟。這段是 heading、diagram labels 的核心段。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說 snow-makers 經常談 dry snow 和 wet snow。最後一句說，很多滑雪場一年一兩次用這方法增加 snow depth，之後整個冬天定期在 trails 上覆蓋一層 dry snow。首尾句顯示這段焦點在不同種類的雪和它們的用途。中間解釋 dry snow 輕而粉狀，適合滑雪和鋪平斜坡；wet snow較密，會放在 dry snow 下方，特別用於使用量大的斜坡。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說 snow 的 wetness 取決於室外 temperature、humidity，以及 snow gun 噴出的 water droplets 大小。最後一句說，很多滑雪場現在用中央電腦系統，連接斜坡各處的 weather-reading stations 來處理這件事。首尾句顯示這段處理「如何按天氣調整 snow consistency」。中間指出snow-makers 要調整 water 和 air 的比例，因此 heading 會偏向 calculation / modification method。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句用 But 轉折，指出 man-made snow 對環境有很大要求。最後一句說，運行大型air-compressing pumps 需要大量 energy，柴油引擎也造成 air pollution。首尾句已顯示這段主題是環境代價。中間補充造雪耗水量巨大、滑雪場從低地水庫抽水，以及 run-off water 可回流再用。雖然有水循環利用，但段落最終落點仍是 water、energy 和 pollution 的 ecological costs。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說，由於造雪成本高，滑雪場要平衡機器運行成本和延長滑雪季節的收益。最後一句說，人造雪也用於 aircraft 必須接受的測試，以確保它們可在極端條件下安全運作。首尾句顯示這段先談經濟考量，隨後擴展到 ski slopes 以外的用途。中間依次提到 agriculture 的 insulation、movie productions 的 snowy settings，以及 aircraft safety tests。這段主功能是介紹其他應用。 Answer Key 1. ix 2. iii 3. viii 4. i 5. vi 6. compressed 7. (tiny) droplets 8. ice crystals 9. depth 10. temperature and humidity 11. energy 12. insulation 13. aircraft註：你貼出的題目沒有顯示 diagram，所以 6–8 的空格位置無法只靠貼文完全確認。我已按Paragraph C 的流程文字分析，並用公開版本答案表核對圖中順序；該版本列出 6 compressed、7 (tiny) droplets、8 ice crystals。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 6–8 的原題 diagram 沒有在現有來源中顯示，所以空格位置不能只靠題面完全確認。來源 PDF 按 Paragraph C 的流程文字和公開版本答案表，採用 6 compressed、7 (tiny) droplets、8 ice crystals；實際作答時應以紙本圖為準。"
+  ]
+}

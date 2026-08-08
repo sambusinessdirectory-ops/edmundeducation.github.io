@@ -1,0 +1,2278 @@
+{
+  "id": "p1-008-the-eisriesenwelt-ice-caves",
+  "catalogueId": "p1-008",
+  "catalogueIds": [
+    "p1-008"
+  ],
+  "passage": 1,
+  "title": "The Eisriesenwelt Ice Caves",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "pure water",
+    "lifting",
+    "large hollow areas",
+    "E",
+    "D",
+    "C",
+    "B",
+    "G",
+    "F",
+    "圖未提供，無法唯一判斷",
+    "圖未提供，無法唯一判斷",
+    "B",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "pure water",
+      "answerKey": "pure water",
+      "type": "Short-answer Questions",
+      "prompt": "“The majority of caves around the world are found in coastal areas and were formed as a result of what substance acting on rock?”",
+      "translation": "世界上大多數洞穴位於沿海地區，並由哪一種物質作用於岩石而形成？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 short-answer question，要求 NO MORE THAN THREE WORDS。題目問 “what substance”，所以答案應該是一個物質名稱，而非完整過程名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most caves are found in coastal regions, their existence being down to pure water erosion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數洞穴位於沿海地區，它們的存在歸因於 pure water erosion。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eisriesenwelt, which holds the longest known system of ice caves in the world, was not formed by any one of these processes alone, and, in fact, owes its existence primarily to the water-soluble nature of the limestone rock found in the limestone mountains of the Austrian Alps around Salzburg.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eisriesenwelt 擁有世界上已知最長的冰洞系統，它並非單靠上述任何一種過程形成；事實上，它的存在主要歸因於 Salzburg 附近 Austrian Alps 石灰岩山中 limestone rock 可溶於水的性質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 A 段功能：介紹一般洞穴形成方式，然後轉到 Eisriesenwelt 的特殊成因。題目問 majority of caves around the world，所以直接看第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“majority of caves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coastal areas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“what substance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most caves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coastal regions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pure water erosion”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pure water erosion” 包含兩部分：pure water 是物質，erosion 是作用過程。題目問 substance，所以答案取 pure water。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Most caves are found in coastal regions, their existence being down to pure water erosion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數洞穴位於沿海地區，它們的形成原因是 pure water erosion。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“majority of caves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most caves”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“coastal areas”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“coastal regions”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“what substance acting on rock”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“pure water erosion”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： pure water = 2 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案為 pure water。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “erosion”。題目問的是 substance，erosion 是過程。若只填 “water” 也能抓住核心，但從原文搬取最精準短語，pure water 更貼題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "lifting",
+      "answerKey": "lifting",
+      "type": "Short-answer Questions",
+      "prompt": "“What process is responsible for the creation of the large mountainous ridge which stretches across much of Europe, more commonly known as the Alps?”",
+      "translation": "造成橫跨歐洲大部分地區、一般稱為 Alps 的大型山脈隆起，是哪一種過程？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 short-answer question。題目問 “what process”，答案應是一個地質過程名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Alps themselves, one of the largest mountainous regions on earth, which stretch across most of Austria, Germany, Switzerland and on into Italy and France as well, were created by a process called lifting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alps 本身是地球上最大的山區之一，橫跨 Austria、Germany、Switzerland，並延伸到 Italy 和France；它們由一種稱為 lifting 的過程形成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the Alps were raised, the hollow areas formed by pressure cracks started to be worked on by outside influences, especially water, and these influences then played their part over millions of years in the creation of the subterranean passages of Eisriesenwelt that we are familiar with today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alps 被抬升後，由 pressure cracks 形成的中空區域開始受到外部因素，尤其是水的作用；這些因素在數百萬年間參與形成今日我們熟悉的 Eisriesenwelt 地下通道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 首句已經直接把 Alps 和 lifting 連起來，因此本題定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“large mountainous ridge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Alps”"
+            },
+            {
+              "kind": "quote",
+              "text": "“process”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Alps themselves...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“were created by a process called lifting”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Alps themselves ... were created by a process called lifting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alps 本身由一種稱為 lifting 的過程形成。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“responsible for the creation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“were created by”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“large mountainous ridge ... known as the Alps”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Alps themselves”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： lifting = 1 word，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案為 lifting。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中也出現 “large mountainous ridge”，而原文下一句有 “collision of the plates resulted in the formation of a large mountainous ridge”。不過題目問 process 名稱，最精準答案是首句的 lifting，而非 collision。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "large hollow areas",
+      "answerKey": "large hollow areas",
+      "type": "Short-answer Questions",
+      "prompt": "“What large areas were enabled to form by the limestone rock present in parts of the Alps?”",
+      "translation": "Alps 部分地區存在的 limestone rock 使哪些大型區域得以形成？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 short-answer question，答案不多於三字。題目問 “what large areas”，答案應是一個名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rock composition also played an important role in the formation of the alpine caves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "岩石成分在 alpine caves 的形成中也扮演重要角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the caves were first forming a few million years ago, the climate of the region was sub-tropical, meaning the level of solubility was even higher than it is today, so the erosion of the limestone occurred at a higher rate, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些洞穴在數百萬年前初步形成時，該地區氣候屬 sub-tropical，代表當時的溶解度比今天更高，因此 limestone 的侵蝕速度也更快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 主要處理 limestone 的性質、溶解和洞穴形成。題目問 limestone rock 令甚麼 large areas 形成，因此看 C 段中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“limestone rock”"
+            },
+            {
+              "kind": "quote",
+              "text": "“large areas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“form”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“limestone ... broke down and dissolved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“leaving large hollow areas to form underground”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over time, the limestone which came into contact with rain water broke down and dissolved, leaving large hollow areas to form underground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著時間推移，接觸雨水的 limestone 逐漸分解並溶解，從而在地下留下 large hollow areas。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“were enabled to form”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“leaving ... to form”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“what large areas”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“large hollow areas”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： large hollow areas = 3 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案為 large hollow areas。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 “caves”。題目特別問 “large areas”，原文直接短語是 “large hollow areas”。這是洞穴形成前或形成中的空洞區域，更貼合題目語法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“How rare ice caves and ice-cave systems are”",
+      "translation": "冰洞和冰洞系統有多罕見。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找哪一段提到 ice caves 的稀少程度。定位詞是 rare、ice caves、few、millions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In short, the Eisriesenwelt caves were formed as a result of a combination of various factors: primarily lifting, corrosion and water erosion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "簡而言之，Eisriesenwelt caves 是多種因素共同作用的結果，主要包括 lifting、corrosion 和water erosion。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is what makes the Eisriesenwelt caves so special.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 Eisriesenwelt caves 如此特別的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段會先總結洞穴形成因素，再解釋 Eisriesenwelt 的特殊性。題目問 rare ice caves，應看中間關於 “few” 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rare”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ice caves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“systems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of the millions of known cave systems in the world, relatively few are genuine ice caves...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“millions” 和 “relatively few” 形成強烈數量對比，正好說明 rare。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Of the millions of known cave systems in the world, relatively few are genuine ice caves in which ice is present year-round.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在世界上數以百萬計已知洞穴系統中，全年有冰存在的 genuine ice caves 相對很少。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“How rare ice caves and ice-cave systems are”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“millions of known cave systems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relatively few are genuine ice caves”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： E 段直接用 “relatively few” 說明 genuine ice caves 的罕見程度，所以答案為 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段提到 Eisriesenwelt 是 longest known system of ice caves，但這只說它很長。Question 4 問的是 ice caves 在全球洞穴系統中有多罕見，E 段才有數量對比。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“How serious weathering of limestone rock in the Alps was responsible for the formation of other features besides caves”",
+      "translation": "Alps 中 limestone rock 的嚴重風化如何形成洞穴以外的其他地貌。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 “besides caves” 的地貌結果。定位詞包括 weathering、limestone、other features、gorges、shafts、canyons。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Corrosion is the chemical dissolution of rock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Corrosion 是岩石的化學性溶解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This resulted in the formation of the spectacular geological features of the Alps, such as the long gorges, shafts and canyons to be found there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這最終形成了 Alps 的壯觀地質特徵，例如 long gorges、shafts 和 canyons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句定義腐蝕，尾句給出其他地質特徵。題目說 “other features besides caves”，因此 Paragraph D 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“limestone rock”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other features”"
+            },
+            {
+              "kind": "quote",
+              "text": "“besides caves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“limestone dissolves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greater erosion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“long gorges, shafts and canyons”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The greater volume of water and rate of flow combined eroded the caves further and led to an increasing amount of material being washed away. This resulted in the formation of the spectacular geological features of the Alps, such as the long gorges, shafts and canyons to be found there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更大的水量和更快的水流速度共同進一步侵蝕洞穴，並令越來越多物質被沖走。這形成了 Alps的壯觀地質特徵，例如 long gorges、shafts 和 canyons。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“serious weathering of limestone rock”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“limestone dissolves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greater erosion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“material being washed away”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“other features besides caves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“long gorges, shafts and canyons”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： D 段解釋 erosion 和 corrosion 如何形成洞穴以外的地質特徵，所以答案為 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“An explanation of why limestone was eroded more quickly in the distant past than it is being today”",
+      "translation": "解釋為何 limestone 在遠古時比今天被侵蝕得更快。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問比較：past vs today。定位詞是 distant past、more quickly、today。原文可能用 “a few million years ago”、“higher rate”、“than it is today”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rock composition also played an important role in the formation of the alpine caves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "岩石成分在 alpine caves 形成中也扮演重要角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the caves were first forming a few million years ago, the climate of the region was sub-tropical, meaning the level of solubility was even higher than it is today, so the erosion of the limestone occurred at a higher rate, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些洞穴在數百萬年前初步形成時，該地區氣候屬 sub-tropical，代表溶解度比今天更高，因此limestone 侵蝕速度也更高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句幾乎直接回答題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“distant past”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more quickly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“today”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a few million years ago”"
+            },
+            {
+              "kind": "quote",
+              "text": "“even higher than it is today”"
+            },
+            {
+              "kind": "quote",
+              "text": "“higher rate”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the caves were first forming a few million years ago, the climate of the region was sub-tropical, meaning the level of solubility was even higher than it is today, so the erosion of the limestone occurred at a higher rate, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "洞穴在數百萬年前剛形成時，該地區氣候屬 sub-tropical，因此 limestone 的溶解度比今天更高，侵蝕速度也較快。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the distant past”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a few million years ago”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“eroded more quickly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“erosion ... occurred at a higher rate”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“than it is being today”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“higher than it is today”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： C 段直接說明過去氣候令 solubility 更高，進而令 erosion rate 更高，所以答案為 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“How the mountain range which is home to the Eisriesenwelt caves was formed”",
+      "translation": "孕育 Eisriesenwelt caves 的山脈是如何形成的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 mountain range 的形成，不是洞穴的形成。定位詞是 mountain range、Alps、formed。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Alps themselves, one of the largest mountainous regions on earth, which stretch across most of Austria, Germany, Switzerland and on into Italy and France as well, were created by a process called lifting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alps 是地球上最大的山區之一，橫跨多個國家，由 lifting 這個過程形成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the Alps were raised, the hollow areas formed by pressure cracks started to be worked on by outside influences, especially water, and these influences then played their part over millions of years in the creation of the subterranean passages of Eisriesenwelt that we are familiar with today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alps 被抬升後，pressure cracks 形成的中空區域受到水等外力作用，歷經數百萬年形成今日Eisriesenwelt 的地下通道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接講 Alps 形成；後文細講板塊碰撞和山脈隆起。題目說 home to Eisriesenwelt caves，指的就是 Alps。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“mountain range”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Eisriesenwelt caves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“formed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Alps themselves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“created by a process called lifting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tectonic plates moved towards each other”"
+            },
+            {
+              "kind": "quote",
+              "text": "“collision ... resulted in the formation of a large mountainous ridge”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The African and European tectonic plates moved towards each other. The impact of the eventual collision of the plates resulted in the formation of a large mountainous ridge stretching across the impact line.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "African 和 European tectonic plates 彼此相向移動。兩個板塊最終碰撞的衝擊，形成了一道沿著碰撞線延伸的大型山脈隆起。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“how the mountain range ... was formed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“tectonic plates moved towards each other”"
+            },
+            {
+              "kind": "quote",
+              "text": "“collision ... resulted in the formation of a large mountainous ridge”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： B 段集中解釋 Alps 的形成，因此答案為 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“How caves with more than one entrance from which air can escape all year round can always remain cold enough in parts for ice to be present”",
+      "translation": "有多個入口、空氣全年流通的洞穴，為何部分區域仍能保持足夠低溫，令冰存在。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 dynamic ice caves 的 chimney effect。定位詞包括 more than one entrance、air escape、all year round、remain cold、ice present。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dynamic caves are a little different and the basic principle of a dynamic ice cave is the chimney effect: the requirement for a cave to have at least two entrances, one at relatively low altitude and the other at a much higher altitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dynamic caves 有點不同，其基本原理是 chimney effect：洞穴至少要有兩個入口，一個海拔較低，另一個海拔高得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consequently, water that seeps into the lower part of the cave tends to freeze causing ice to build up, giving the spectacular ice formations for which the area has become known.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，滲入洞穴下部的水往往會結冰並累積，形成這個地區著名的壯觀冰層。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 “at least two entrances”，尾句有 “water ... freeze” 和 “ice formations”。題目正好描述這段的核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“more than one entrance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all year round”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cold enough”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ice”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“at least two entrances”"
+            },
+            {
+              "kind": "quote",
+              "text": "“winter...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“summer...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lower levels maintain a fairly constant year-round temperature close to freezing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water ... tends to freeze”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In summer, the outside temperature is much higher than the inside one, so the draft goes the other way, with warm air streaming in from the topmost entrance towards the lower levels. But, before this warm air can reach the lower levels of the cave, it has cooled considerably, so, as a result, the lower levels maintain a fairly constant year-round temperature close to freezing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "夏天時，外界溫度遠高於洞內，因此氣流方向相反，暖空氣從最高入口流入，往洞穴下層移動。不過，暖空氣到達洞穴下層之前已經大幅冷卻，所以洞穴下層全年維持接近冰點的穩定溫度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“more than one entrance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“at least two entrances”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“remain cold enough in parts for ice to be present”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“lower levels maintain ... temperature close to freezing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water ... tends to freeze”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： G 段完整解釋 dynamic ice cave 如何靠 chimney effect 和季節性氣流維持低溫，因此答案為 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“How rock corrosion and water erosion do not necessarily have to play a direct role in the formation of ice caves”",
+      "translation": "岩石腐蝕和水蝕作用並不一定要直接參與冰洞形成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 ice caves 的類型和形成方式。定位詞是 corrosion、water erosion、direct role、ice caves。題目用法有點抽象，重點在於有些冰洞的「有冰」狀態主要由溫度和空氣流動造成，並非一定由前文的 limestone corrosion 或 rock-water erosion 直接造成。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eisriesenwelt is what’s known as a dynamic ice cave system, the other types being static ice caves and glacier caves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eisriesenwelt 屬於 dynamic ice cave system，其他類型包括 static ice caves 和 glacier caves。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Glacier caves are easier to explain, simply the product of melt water carving a route for itself down from the mountain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Glacier caves 較容易解釋，只是 melt water 從山上往下流動時為自己 carving a route 的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段把 ice caves 分成 dynamic、static 和 glacier。中間對 static ice caves 的解釋集中在空氣溫度、冷空氣滯留和冰層保持，這正好說明 ice cave 的形成或維持未必靠 limestone corrosion。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ice caves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rock corrosion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water erosion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“direct role”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未直接重複 “corrosion” 或 “water erosion”，但 F 段轉入 “types of ice caves”，並解釋 static ice caves 的低溫機制。這是題目要找的概念對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Static ice caves, as the name would suggest, have a consistent level of ice cover year-round and a fairly even temperature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Static ice caves 顧名思義，全年有穩定冰層覆蓋，溫度也相當均勻。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In summer, though, the temperature outside the cave is warmer than it is inside and the cold air in the cave, being heavier than the hot air outside, cannot escape and remains in a cold pocket, keeping the cave at a fairly constant temperature below freezing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "夏天時，洞外溫度高於洞內，洞內冷空氣因比外面的熱空氣更重，無法逸出，留在 cold pocket 中，使洞穴維持在低於冰點的穩定溫度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“rock corrosion and water erosion do not necessarily have to play a direct role”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文概念： static ice caves keep ice because cold air remains trapped and temperature stays below freezing"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“formation of ice caves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“static ice caves” / “glacier caves” / “types”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： F 段說明冰洞可按冰的維持方式分類，尤其 static ice caves 靠冷空氣滯留和低溫保持冰層，因此答案為 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 段總結 Eisriesenwelt 岩洞本身由 lifting、corrosion 和 water erosion 形成。Question 9 轉問 ice caves 這個類別的形成或維持方式，焦點已移到 F 段的 static / glacier cave 分類。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "圖未提供，無法唯一判斷",
+      "answerKey": "圖未提供，無法唯一判斷",
+      "type": "Diagram Questions",
+      "prompt": "“Which type of cave formation is represented in the diagram?”",
+      "translation": "圖中呈現的是哪一種洞穴形成狀態？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A Static ice cave in winter B Static ice cave in summer C Dynamic ice cave in winter D Dynamic ice cave in summer"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷說明這題必須看到 diagram。現有文字只提供四種可能情況的描述，但沒有圖中的入口數量、氣流方向、季節溫度或冷暖空氣標示。沒有這些視覺資料，不能唯一判斷答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判圖規則若圖中只有一個主要洞口，並顯示外面較冷、洞內較暖，洞內空氣上升逸出，冷空氣補入，這是Static ice cave in winter，答案 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若圖中只有一個主要洞口，並顯示外面較暖、洞內冷空氣因較重而留在洞內 cold pocket，這是Static ice cave in summer，答案 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若圖中有兩個不同高度入口，並顯示冬天 cave system 中較暖的氣流向上流往高入口，同時外界冷空氣流入低處，這是 Dynamic ice cave in winter，答案 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若圖中有兩個不同高度入口，並顯示夏天暖空氣由高入口流入、往下層移動，途中冷卻後使下層維持接近冰點，這是 Dynamic ice cave in summer，答案 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "圖未提供，無法唯一判斷",
+      "answerKey": "圖未提供，無法唯一判斷",
+      "type": "Diagram Questions",
+      "prompt": "“Which type of cave formation is represented in the diagram?”",
+      "translation": "圖中呈現的是哪一種洞穴形成狀態？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A Static ice cave in winter B Static ice cave in summer C Dynamic ice cave in winter D Dynamic ice cave in summer"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷說明第 11 題和第 10 題一樣，需要依靠 diagram。現有文字沒有提供兩張圖的視覺特徵，因此不能只靠文章判斷哪一張圖對應哪一個選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最重要的判斷訊號Static ice cave 通常看一個冷空氣 pocket。冬天會有洞內暖空氣上升逸出，冷空氣補入；夏天洞內冷空氣因較重而留住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dynamic ice cave 要看兩個入口和 chimney effect。冬天氣流向上走，冷空氣從外面流入下部；夏天氣流方向相反，暖空氣從高入口往下走，途中冷卻。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following statements is accurate?”",
+      "translation": "以下哪一項敘述準確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Air is escaping from dynamic ice caves all year round, but it only escapes from static ice caves when the temperature is warmer inside the cave than it is outside.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dynamic ice caves 全年都有空氣流動逸出；static ice caves 只有當洞內溫度比洞外暖時，洞內空氣才會逸出。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F 和 Paragraph G Paragraph F 第一點講 static ice caves："
+            },
+            {
+              "kind": "quote",
+              "text": "“Static ice caves, as the name would suggest, have a consistent level of ice cover year-round and a fairly even temperature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Static ice caves 顧名思義，全年冰層覆蓋穩定，溫度也相當均勻。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一點講 dynamic caves："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dynamic caves are a little different and the basic principle of a dynamic ice cave is the chimney effect...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dynamic caves 有點不同，其基本原理是 chimney effect。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題比較 static 和 dynamic，所以需要跨 F、G 兩段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“air is escaping”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dynamic ice caves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“static ice caves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“warmer inside”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outside”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 找 static air escape；Paragraph G 找 dynamic draft。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Static cave 原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In winter, the air temperature outside the cave might reach below minus 20 degrees Celsius for example. When it becomes colder than the air inside the cave, the air in the cave rises to escape and the cold air fills the space left behind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬天時，洞外氣溫可能低至零下 20 度。當洞外空氣比洞內空氣更冷時，洞內空氣會上升逸出，冷空氣填補留下的空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 static cave 中空氣逸出的條件是：inside warmer than outside。因為洞外較冷，洞內相對較暖，暖空氣上升逃出。"
+            },
+            {
+              "kind": "label",
+              "text": "Dynamic cave 原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In winter... a draft ... rises up through the cave towards the uppermost cave entrance.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In summer... the draft goes the other way...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬天時，氣流沿洞穴向上往最高洞口流動。夏天時，氣流方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 dynamic cave 一年中冬夏都有 draft，只是方向不同。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A：說 static cave 只有洞內比洞外冷時才逸出。錯。原文說洞外比洞內冷時，洞內空氣才上升逸出，也就是洞內相對較暖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B：正確。dynamic cave 有全年氣流；static cave 的空氣逸出條件是洞內比洞外暖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C：說 static cave 空氣從不逸出。錯。F 段明確說冬天 air in the cave rises to escape。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D：說 dynamic caves 冬天空氣逸出、static caves 夏天風逸出。錯。static caves 夏天冷空氣留在洞內，cannot escape。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“when the temperature is warmer inside the cave than it is outside”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it becomes colder than the air inside the cave, the air in the cave rises to escape”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： B 是唯一同時符合 static 和 dynamic 兩段描述的選項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following statements is accurate?”",
+      "translation": "以下哪一項敘述準確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dynamic ice caves will produce drafts throughout the year.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dynamic ice caves 全年都會產生氣流。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dynamic caves are a little different and the basic principle of a dynamic ice cave is the chimney effect: the requirement for a cave to have at least two entrances, one at relatively low altitude and the other at a much higher altitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dynamic caves 有點不同，其基本原理是 chimney effect：洞穴至少要有兩個入口，一個位於較低海拔，另一個位於較高海拔。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consequently, water that seeps into the lower part of the cave tends to freeze causing ice to build up, giving the spectacular ice formations for which the area has become known.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，滲入洞穴下部的水往往會結冰並累積，形成該區著名的壯觀冰層。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，G 段會解釋 dynamic cave 的氣流機制和冰形成原因。題目問 dynamic ice caves 的準確描述，所以目標段落是 G。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dynamic ice caves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drafts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“throughout the year”"
+            },
+            {
+              "kind": "quote",
+              "text": "“winter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“summer”"
+            },
+            {
+              "kind": "label",
+              "text": "G 段中最重要的是兩句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In winter...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In summer... the draft goes the other way...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們合起來說明全年都有氣流，只是方向改變。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“In winter, when the outside temperature is very low, the (comparatively) warm temperature within the cave system’s rock causes a draft which rises up through the cave towards the uppermost cave entrance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬天時，外界氣溫很低，洞穴系統岩石內相對較暖，形成一股氣流，沿洞穴向上流往最高洞口。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“In summer, the outside temperature is much higher than the inside one, so the draft goes the other way, with warm air streaming in from the topmost entrance towards the lower levels.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "夏天時，外界溫度遠高於洞內，因此氣流方向相反，暖空氣從最高入口流入，往較低層移動。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dynamic ice caves produce upward air currents in summer and winter.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯。冬天氣流向上；夏天 “the draft goes the other way”，方向相反。"
+            },
+            {
+              "kind": "label",
+              "text": "B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dynamic ice caves will produce drafts throughout the year.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確。冬天有 draft，夏天也有 draft，只是方向不同。"
+            },
+            {
+              "kind": "label",
+              "text": "C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cold air is channelled downwards through dynamic ice caves in winter.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說冬天氣流因洞穴岩石較暖而 rises up through the cave；外部冷空氣流入會令下部岩石冷卻。這不等於 cold air 被描述為沿洞穴向下流動。"
+            },
+            {
+              "kind": "label",
+              "text": "D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cold air is channelled upwards through dynamic ice caves in summer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯。夏天是 warm air streaming in from the topmost entrance towards the lower levels，並非 cold air 向上。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“produce drafts throughout the year”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In winter... causes a draft...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In summer... the draft goes the other way...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： B 概括了冬夏兩種情況：dynamic ice caves 全年有氣流，只是季節改變方向。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Eisriesenwelt Ice Caves.pdf",
+    "sha256": "c8d658ac045f2de3874a69574de647ef6600bc66f4de8d5d0c8d376dc065dd44",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說，大多數洞穴位於沿海地區，形成原因是 pure water erosion。尾句說 Eisriesenwelt 的存在主要歸因於 Salzburg 附近 Austrian Alps 石灰岩山中 limestone rock 可溶於水的性質。只看首尾句，可以先估計本段是全文背景段：先介紹一般洞穴形成方式，再指出 Eisriesenwelt 的形成較複雜，尤其和 limestone 的 water-soluble nature 有關。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說，Alps 是地球最大山區之一，橫跨多個歐洲國家，形成過程稱為 lifting。尾句說，Alps被抬升後，pressure cracks 形成的中空區域受到水等外力作用，歷經數百萬年形成 Eisriesenwelt的地下通道。只看首尾句，可以估計本段會解釋 Alps 的形成：板塊碰撞、山脈隆起、裂縫、岩層位移和後續水蝕。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說，rock composition 也在 alpine caves 形成中扮演重要角色。尾句說，過去當地氣候較接近 sub-tropical，石灰岩溶解度較高，所以侵蝕速度也較快。只看首尾句，可以估計本段會解釋limestone 為何特別容易形成大型洞穴系統，並說明遠古時期氣候如何令 limestone erosion 比今天更快。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句定義 corrosion，即岩石的化學性溶解。尾句說，這些作用形成 Alps 的壯觀地質特徵，例如 long gorges、shafts 和 canyons。只看首尾句，可以估計本段會細講 corrosion 的化學機制：水、二氧化碳、carbonic acid、limestone dissolution，以及大量降水和水流速度如何擴大洞穴並形成其他地貌。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句總結 Eisriesenwelt caves 由 lifting、corrosion 和 water erosion 等多種因素共同形成。尾句說，全年有冰存在的 genuine ice caves 相對少見，這正是 Eisriesenwelt 特別之處。只看首尾句，可以估計本段是轉折段：先總結岩洞形成因素，再指出真正突出之處不在洞穴本身的形態，而在 unique ice formations。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說 Eisriesenwelt 屬於 dynamic ice cave system，另外還有 static ice caves 和 glacier caves。尾句說 glacier caves 較易理解，是 melt water 從山上往下 carving a route 形成。只看首尾句，可以估計本段會分類解釋不同冰洞：static ice caves 如何保持穩定低溫、冰層全年存在，以及 glacier caves 如何由融水開路形成。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說 dynamic caves 有點不同，其基本原理是 chimney effect。尾句說，滲入洞穴下部的水會結冰並累積，形成該區著名的壯觀冰層。只看首尾句，可以估計本段會詳細解釋 dynamic ice caves：兩個不同高度入口、冬夏氣流方向改變、下層岩石保持接近冰點，以及水如何在低層結冰。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 10–11 必須看到原題 diagram 才能確定。現有文字沒有提供圖中的入口數量、氣流方向、季節溫度或冷暖空氣標示，所以無法唯一判斷；答案表明確保留為「圖未提供，無法唯一判斷」，不會臆測答案。"
+  ]
+}

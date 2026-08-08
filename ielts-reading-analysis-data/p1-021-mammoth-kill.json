@@ -1,0 +1,1724 @@
+{
+  "id": "p1-021-mammoth-kill",
+  "catalogueId": "p1-021",
+  "catalogueIds": [
+    "p1-021"
+  ],
+  "passage": 1,
+  "title": "Mammoth kill",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "hunting",
+    "overkill model",
+    "disease",
+    "empirical evidence",
+    "climatic instability",
+    "geographical ranges",
+    "Younger Dryas event",
+    "A",
+    "B",
+    "A",
+    "B",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "hunting",
+      "answerKey": "hunting",
+      "type": "Summary Completion",
+      "prompt": "“First explanation is that 1 ________________ of human made it happen.”",
+      "translation": "第一種解釋認為，人類的 ____________ 造成了這件事。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Summary Completion，要求用 NO MORE THAN THREE WORDS from the passage。空格後有 “of human”，句子雖然不太自然，但意思是在問「人類做了甚麼導致大型哺乳動物滅絕」。空格需要一個名詞，最可能是 hunting。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“MEXICO CITY – Although it’s hard to imagine in this age of urban sprawl and automobiles, North America once belonged to mammoths, camels, ground sloths as large as cows, bear-size beavers and other formidable beasts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "墨西哥城——在今天城市擴張和汽車普及的年代，這很難想像，但北美曾經屬於猛獁象、駱駝、像牛一樣大的地懶、熊一般大的海狸，以及其他令人敬畏的巨獸。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He has determined, using a computer simulation, that even a very modest amount of hunting would have wiped these animals out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他透過電腦模擬判斷，即使非常少量的捕獵，也足以把這些動物消滅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 明顯在引入北美大型動物消失之謎，並把焦點轉向 hunting 的可能性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “First explanation” 對應段中第一個滅絕理論。掃描 Paragraph B，會看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now new findings offer support to one of these controversial hypotheses: that human hunting drove this megafaunal menagerie to extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，新發現支持其中一個具爭議的假說：人類捕獵使這群大型動物走向滅絕。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的核心是 “human hunting drove ... to extinction”。題目說 “made it happen”，即造成滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中造成滅絕的行為是 hunting。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：made it happen"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：drove ... to extinction"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：of human"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：human hunting答案形式因題目已給 “of human”，空格填 hunting 最自然。若保留原文完整短語，human hunting 也來自文章，但放回題目會重複 human。考試填空我會填 hunting。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “overkill model”。那是下一題問的 theory name。Q1 問的是第一種解釋中的直接原因，即hunting。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "overkill model",
+      "answerKey": "overkill model",
+      "type": "Summary Completion",
+      "prompt": "“This so called 2 ________________ began from 1960s suggested by an expert...”",
+      "translation": "這個所謂的 ____________ 在 1960 年代由一位專家提出。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “This so called”，後面要填一個 theory / model 的名稱。題目限制 NO MORE THAN THREE WORDS。定位詞是 “1960s” 和 “suggested by an expert”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“MEXICO CITY – Although it’s hard to imagine in this age of urban sprawl and automobiles, North America once belonged to mammoths, camels, ground sloths as large as cows, bear-size beavers and other formidable beasts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "墨西哥城——在今天城市擴張和汽車普及的年代，這很難想像，但北美曾經屬於猛獁象、駱駝、像牛一樣大的地懶、熊一般大的海狸，以及其他巨獸。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He has determined, using a computer simulation, that even a very modest amount of hunting would have wiped these animals out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他透過電腦模擬判斷，即使非常少量的捕獵，也足以把這些動物消滅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段尾句已經和 hunting extinction 有關，所以 theory name 也應在這段中部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “1960s” 在原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The overkill model emerged in the 1960s, when it was put forth by Paul S. Martin of the University of Arizona.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "overkill model 在 1960 年代出現，由 Arizona 大學的 Paul S. Martin 提出。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子的主語是 “The overkill model”，動詞是 “emerged”，時間是 “in the 1960s”。“put forth by Paul S. Martin” 對應題目的 “suggested by an expert”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "began from 1960s = emerged in the 1960s suggested by an expert = put forth by Paul S. Martin This so called = the model name答案形式overkill model 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Paul S. Martin”。題目問的是理論名稱，並非提出者。Paul S. Martin 只是定位線索。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "disease",
+      "answerKey": "disease",
+      "type": "Summary Completion",
+      "prompt": "“Another assumption promoted by MacPhee is that deadly 3 ________________ from human causes their demises.”",
+      "translation": "MacPhee 推動的另一個假設認為，來自人類的致命 ____________ 導致牠們死亡。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “deadly”，後面需要名詞。題目限制 NO MORE THAN THREE WORDS。題目已經用deadly 改寫原文的 hyperlethal，所以空格填 disease 最貼句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“MacPhee agrees that humans most likely brought about these extinctions (as well as others around the world that coincided with human arrival), but not directly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MacPhee 同意，人類很可能導致了這些滅絕，也包括世界其他地區與人類到達時間相吻合的滅絕，但他認為原因並非直接捕殺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But he hopes that analyses of tissue and DNA from the last mammoths to perish will eventually reveal murderous microbes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他希望，對最後死亡的 mammoths 的組織和 DNA 進行分析，最終會揭示致命微生物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph E 講 MacPhee 的 alternative explanation：人類仍有關，但作用方式是 disease / microbes。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “MacPhee”, “deadly”, “from human”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather he suggests that people may have introduced hyperlethal disease, perhaps through their dogs or hitchhiking vermin, which then spread wildly among the immunologically naive species of the New World.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更準確地說，他提出，人類可能引入了極致命疾病，也許是透過狗或搭便車而來的害獸，然後這種疾病在新世界那些免疫上毫無準備的物種之間迅速擴散。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “hyperlethal disease” 是核心概念。hyperlethal 指極度致命，題目已用 “deadly” 表達這個意思。因此空格如果填 disease，句子成為 “deadly disease”，語意最自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "deadly = hyperlethal from human = people may have introduced causes their demises = spread wildly and could drive them to extinction答案形式disease 是一個字，符合字數限制。若題目沒有提供 deadly，完整答案可寫 hyperlethal disease；本題已有 deadly，所以填 disease 更穩。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “microbes”。尾句有 murderous microbes，但那是 MacPhee 希望未來 DNA 分析揭示的可能證據。Summary 問的是他的 hypothesis 中的致命因素，原文直接叫 disease。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "empirical evidence",
+      "answerKey": "empirical evidence",
+      "type": "Summary Completion",
+      "prompt": "“However his hypothesis required more 4 ________________ to testify its validity.”",
+      "translation": "然而，他的假說仍需要更多 ____________ 來證明其有效性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “required more”，後面需要名詞短語。題目限制 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “hypothesis”, “validity”, “MacPhee”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“MacPhee agrees that humans most likely brought about these extinctions (as well as others around the world that coincided with human arrival), but not directly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MacPhee 同意，人類很可能導致這些滅絕，但作用方式並非直接捕殺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But he hopes that analyses of tissue and DNA from the last mammoths to perish will eventually reveal murderous microbes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他希望，最後死亡的 mammoths 的 tissue 和 DNA 分析，最終能揭示致命微生物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段除了提出 disease hypothesis，也會談證據問題。題目中的 required more proof，應在本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “hypothesis” 在原文有 “hyperdisease hypothesis”。“proof / validity” 對應 “empirical evidence”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far MacPhee does not have empirical evidence for the hyperdisease hypothesis...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，MacPhee 尚未掌握支持 hyperdisease hypothesis 的實證證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“does not have empirical evidence” 表示這個假說目前缺乏可觀察、可檢驗的實證。題目說“required more ... to testify its validity”，意思是需要更多證據來驗證。答案就是 empirical evidence。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "required more = does not have / still lacks to testify its validity = evidence for the hypothesis empirical evidence = 實證證據答案形式empirical evidence 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “tissue and DNA”。這些是 MacPhee 希望未來分析的材料；真正缺乏的是 empirical evidence。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "climatic instability",
+      "answerKey": "climatic instability",
+      "type": "Summary Completion",
+      "prompt": "“Graham proposed a third hypothesis that 5 ________________ in Pleistocene epoch drove some species disappear...”",
+      "translation": "Graham 提出第三個假說，認為 Pleistocene epoch 的 ____________ 使一些物種消失。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後有 “in Pleistocene epoch”，需要一個自然環境或氣候相關名詞短語。題目限制 NO MORE THAN THREE WORDS。定位詞是 Graham 和 Pleistocene epoch。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third explanation for what brought on this North American extinction does not involve human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三種解釋認為，造成北美這場滅絕的因素不涉及人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Personally, I’m a vegetarian,’ he remarks, ‘and I find all of this kind of gross – but believable.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「就我個人而言，我是素食者，而且我覺得這整件事有點噁心，但可信。」首句直接提到 third explanation，與題目 “third hypothesis” 對應。這段就是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Graham” 和 “Pleistocene epoch”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Pleistocene epoch witnessed considerable climatic instability, explains paleontologist Russell W. Graham of the Denver Museum of Nature and Science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Denver Museum of Nature and Science 的古生物學家 Russell W. Graham 解釋說，Pleistocene epoch 經歷了相當大的氣候不穩定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 “The Pleistocene epoch”，核心動詞是 “witnessed”，答案短語是 “considerable climatic instability”。題目已經有 “in Pleistocene epoch”，所以空格填 climatic instability 即可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "third hypothesis = third explanation in Pleistocene epoch = The Pleistocene epoch witnessed drove some species disappear = certain habitats disappeared / species split apart / extinction pressure答案形式climatic instability 是兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “weather”。同段有 “proponents blame the loss on the weather”，但題目特別加上Pleistocene epoch，最精準答案是 climatic instability。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "geographical ranges",
+      "answerKey": "geographical ranges",
+      "type": "Summary Completion",
+      "prompt": "“reduced 6 ________________ posed a dangerous signal to these giants...”",
+      "translation": "縮小的 ____________ 對這些巨型動物構成危險訊號。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “reduced”，後面需要複數名詞。題目限制 NO MORE THAN THREE WORDS。定位詞是 “giants”, “dangerous signal”，應對應大型動物需要大範圍棲地的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third explanation for what brought on this North American extinction does not involve human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三種解釋認為，北美這場滅絕不涉及人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Personally, I’m a vegetarian,’ he remarks, ‘and I find all of this kind of gross – but believable.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「就我個人而言，我是素食者，而且我覺得這整件事有點噁心，但可信。」本段處理 climate hypothesis，也會解釋氣候變化如何危及大型動物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “reduced” 可能對應原文 “shrinking”。掃描 Paragraph F 可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“For much of the megafauna, however, the increasingly homogeneous environment left them with shrinking geographical ranges – a death sentence for large animals, which need large ranges.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，對許多大型動物而言，越來越同質化的環境使牠們的地理分布範圍縮小；這對需要大範圍活動的大型動物來說等同死刑。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “shrinking geographical ranges” 對應題目 “reduced geographical ranges”。破折號後面的 “a death sentence for large animals” 對應題目的 “posed a dangerous signal to these giants”。large animals / megafauna 就是題目中的 giants。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reduced = shrinking posed a dangerous signal = a death sentence these giants = large animals / megafauna答案形式geographical ranges 是兩個字，配合題目前的 reduced，成為 “reduced geographical ranges”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “large ranges”。原文說 large animals need large ranges，這是原因；題目問被縮小的是甚麼，答案是 geographical ranges。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "Younger Dryas event",
+      "answerKey": "Younger Dryas event",
+      "type": "Summary Completion",
+      "prompt": "“and 7 ________________ finally wiped them out.”",
+      "translation": "最後，____________ 把牠們推向滅絕。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個事件名稱。題目有 “finally”，所以要找 Paragraph F 中最後一個 climatic blow 或final major fluctuation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third explanation for what brought on this North American extinction does not involve human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三種解釋認為，北美這場滅絕不涉及人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Personally, I’m a vegetarian,’ he remarks, ‘and I find all of this kind of gross – but believable.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「就我個人而言，我是素食者，而且我覺得這整件事有點噁心，但可信。」雖然尾句回到 Alroy，題目 Q7 的 “finally” 指 Graham climate explanation 的最後一步，所以仍在Paragraph F 中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “finally”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although these creatures managed to maintain viable populations through most of the Pleistocene, the final major fluctuation – the so-called Younger Dryas event – pushed them over the edge, Graham says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Graham 說，雖然這些生物在 Pleistocene 大部分時間仍能維持可存活族群，但最後一次重大波動，也就是所謂的 Younger Dryas event，把牠們推向崩潰邊緣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the final major fluctuation” 對應題目的 finally。破折號中間的 “the so-called Younger Dryas event” 是這次 fluctuation 的名稱。題目的 “wiped them out” 對應原文 “pushed them over the edge”，即把牠們推過生存邊界。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "finally = the final major fluctuation wiped them out = pushed them over the edge event name = Younger Dryas event答案形式Younger Dryas event 是三個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “final major fluctuation”。那是描述性短語；題目更可能要具體事件名稱。原文用破折號標出名稱：Younger Dryas event。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "A — John Alroy",
+      "answerKey": "A — John Alroy",
+      "type": "Matching Features",
+      "prompt": "“Human hunting well explained which species would finally disappear.”",
+      "translation": "人類捕獵能很好解釋哪些物種最終會消失。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。題目要找哪位學者認為 human hunting / overkill model 不只解釋滅絕，也能預測哪些 species 會 extinct。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third explanation for what brought on this North American extinction does not involve human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三種解釋認為，北美這場滅絕不涉及人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Personally, I’m a vegetarian,’ he remarks, ‘and I find all of this kind of gross – but believable.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「就我個人而言，我是素食者，而且我覺得這整件事有點噁心，但可信。」只看首尾句，本段前半屬於 Graham 的 climate hypothesis，後半回到 Alroy 的 overkill view。因此題目中的 human hunting 很可能在段末。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “human hunting” 和 “which species would finally disappear”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The overkill model explains everything the disease and climate scenarios explain, he asserts, and makes accurate predictions about which species would eventually go extinct.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他斷言，overkill model 能解釋 disease 和 climate scenarios 所能解釋的一切，並且能準確預測哪些物種最終會滅絕。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “he” 指前一句的 Alroy。題目說 “Human hunting well explained...” 對應原文 “The overkill model explains everything...”。overkill model 就是由 human hunting 驅動的滅絕模型。題目後半 “which species would finally disappear” 對應 “which species would eventually go extinct”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "human hunting = overkill model well explained = explains everything finally disappear = eventually go extinct which species = which species答案判斷該觀點屬於 Alroy，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 Graham。Paragraph F 前半確實講 Graham 的氣候解釋，但題目明確提到 human hunting 和 prediction，這正是 Alroy 在段末反駁其他 scenarios 時的主張。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — Ross D. E. MacPhee",
+      "answerKey": "B — Ross D. E. MacPhee",
+      "type": "Matching Features",
+      "prompt": "“Further grounded proof needed to explain human’s indirect impact on mammals”",
+      "translation": "需要更多實證來解釋人類對哺乳動物的間接影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找哪位人物提出 indirect human impact，且仍需要 grounded proof。定位詞是 indirect impact、proof、human。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“MacPhee agrees that humans most likely brought about these extinctions (as well as others around the world that coincided with human arrival), but not directly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MacPhee 同意，人類很可能造成這些滅絕，但作用方式並非直接捕殺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But he hopes that analyses of tissue and DNA from the last mammoths to perish will eventually reveal murderous microbes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他希望，對最後死亡的 mammoths 的 tissue 和 DNA 進行分析，最終能揭示致命微生物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接指向 human’s indirect impact；尾句指向未來證據，因此這段就是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “grounded proof” 對應原文 “empirical evidence”。“indirect impact” 對應 “but not directly”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far MacPhee does not have empirical evidence for the hyperdisease hypothesis...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，MacPhee 尚未掌握支持 hyperdisease hypothesis 的實證證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "MacPhee 的假說是：人類可能引入疾病，使疾病在免疫上未準備好的物種間擴散。這是 indirect impact，因為人類造成滅絕的方式不是親手大量獵殺。可是原文清楚說，他目前沒有 empirical evidence。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Further grounded proof needed = does not have empirical evidence human’s indirect impact = humans brought about extinctions, but not directly mammals = large mammals / species of the New World答案判斷這是 MacPhee 的觀點和問題，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Alroy 也用 computer simulation 作證據，但他的解釋是 direct hunting pressure。題目中的indirect 是真正控制答案的字，會把我們帶到 MacPhee。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — John Alroy",
+      "answerKey": "A — John Alroy",
+      "type": "Matching Features",
+      "prompt": "“Over hunting situation has caused die-out of large mammals.”",
+      "translation": "過度捕獵造成大型哺乳動物滅絕。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找支持 over hunting / overkill explanation 的人物。定位詞是 over hunting、die-out、large mammals。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B / C Paragraph B 第一和最後一句顯示，本段從大型動物滅絕謎團引出 Alroy 的 computer simulation，並指出 modest hunting 也足以 wipe these animals out。Paragraph C 則補充模型的具體假設和大型哺乳動物特別脆弱的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“...paleoecologist John Alroy of the University of California at Santa Barbara argued that, in fact, hunting-driven extinction is not only plausible, it was unavoidable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of California at Santa Barbara 的 paleoecologist John Alroy 主張，捕獵導致的滅絕不只合理，而且不可避免。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“...humans could have eliminated the animal populations within 1,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類可能在 1,000 年內消滅這些動物族群。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Over hunting situation has caused die-out of large mammals”，這是對 overkill model 的概括。Alroy 的 simulation 顯示，即使每群 50 人一年只殺 15 至 20 隻大型哺乳動物，也可能在1,000 年內消滅動物族群。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "over hunting situation = hunting-driven extinction / overkill model die-out = eliminated / wiped out / extinction large mammals = large-bodied mammals / large mammals答案判斷該觀點由 Alroy 支持，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要被 Paragraph D 的 criticism 帶走。MacPhee 提到 hunting evidence，是為了質疑 overkill model 的證據不足，並非支持 over hunting caused extinction。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — Ross D. E. MacPhee",
+      "answerKey": "B — Ross D. E. MacPhee",
+      "type": "Matching Features",
+      "prompt": "“Illness rather than hunting caused extensive extinction.”",
+      "translation": "疾病，而非捕獵，造成大規模滅絕。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找提出 disease explanation 的人物。定位詞是 illness、rather than hunting、extensive extinction。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“MacPhee agrees that humans most likely brought about these extinctions (as well as others around the world that coincided with human arrival), but not directly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MacPhee 同意人類很可能造成這些滅絕，但作用方式並非直接捕殺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But he hopes that analyses of tissue and DNA from the last mammoths to perish will eventually reveal murderous microbes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他希望，對最後死亡的 mammoths 的 tissue 和 DNA 進行分析，最終能揭示致命微生物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句都指向 disease / microbes 的間接人類影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 illness 對應 “disease” 和 “microbes”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather he suggests that people may have introduced hyperlethal disease...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更準確地說，他提出，人類可能引入了極致命疾病。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Rather” 在這裡表示 MacPhee 的解釋和 direct hunting 不同。他不否定人類相關性，但認為作用方式是引入 disease。原文後面說 repeated outbreaks of a hyperdisease could quickly drive them to the point of no return，支援 “caused extensive extinction”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "illness = disease / microbes rather than hunting = but not directly / Rather he suggests extensive extinction = extinctions around the world / point of no return答案判斷這是 MacPhee 的 hyperdisease hypothesis，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “rather than hunting” 不是說完全沒有 humans。MacPhee 仍認為 humans most likely brought about extinctions，只是作用途徑是 disease。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — Ross D. E. MacPhee",
+      "answerKey": "B — Ross D. E. MacPhee",
+      "type": "Matching Features",
+      "prompt": "“Doubt raised through the study of several fossil records.”",
+      "translation": "透過幾項化石 / 考古紀錄提出質疑。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找哪位人物以 fossil / archaeological record 反對 hunting-driven extinction。定位詞是doubt、fossil records、several examples。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not everyone agrees with Alroy’s assessment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "並非所有人都同意 Alroy 的評估。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, some of these species had huge ranges – the giant Jefferson’s ground sloth, for example, lived as far north as the Yukon and as far south as Mexico – which would have made slaughtering them in numbers sufficient to cause their extinction rather implausible, he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，其中一些物種分布範圍極廣，例如 giant Jefferson’s ground sloth 北至 Yukon、南至Mexico；他說，要大量屠殺牠們至滅絕似乎相當不可信。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經明確說本段是對 Alroy 的 criticism。尾句也由 “he says” 指向批評者。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “fossil records” 對應原文 “archaeological record”。關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the relevant archaeological record contains barely a dozen examples of stone points embedded in mammoth bones...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相關考古紀錄中，只有寥寥十來個石尖嵌在 mammoth bones 裡的例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "提出這個 criticism 的人物是："
+            },
+            {
+              "kind": "quote",
+              "text": "“mammalogist Ross D. E. MacPhee of the American Museum of Natural History in New York City...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New York City 的 American Museum of Natural History 的哺乳動物學家 Ross D. E. MacPhee。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他指出，如果 hunting 真是主要原因，考古紀錄中應該有更多 hunting evidence。可是現有記錄只有 barely a dozen examples，且其他 megafaunal remains 沒有同類 evidence。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "doubt raised = criticism / points out fossil records = archaeological record / mammoth bones several fossil records = barely a dozen examples答案判斷這個質疑來自 MacPhee，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“barely a dozen” 表示數量很少，不是 evidence 很多。題目用 “several” 只是概括有一些例子，真正態度是 evidence不足，這正是 MacPhee 的批評。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — Russell W. Graham",
+      "answerKey": "C — Russell W. Graham",
+      "type": "Matching Features",
+      "prompt": "“Climate shift is the main reason for extinction.”",
+      "translation": "氣候轉變是滅絕的主要原因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找支持 climate explanation 的人物。定位詞是 climate shift、main reason、extinction。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third explanation for what brought on this North American extinction does not involve human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三種解釋認為，北美這場滅絕不涉及人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Personally, I’m a vegetarian,’ he remarks, ‘and I find all of this kind of gross – but believable.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「就我個人而言，我是素食者，而且我覺得這整件事有點噁心，但可信。」本段第一句指出第三種解釋排除 human beings，接著很快提到 weather / climate，因此題目應在Paragraph F 前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Climate shift” 對應原文 “weather”, “climatic instability”, “final major fluctuation”。原文人物句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Pleistocene epoch witnessed considerable climatic instability, explains paleontologist Russell W. Graham of the Denver Museum of Nature and Science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Denver Museum of Nature and Science 的古生物學家 Russell W. Graham 解釋說，Pleistocene epoch 經歷了相當大的氣候不穩定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Graham 的解釋鏈是：Pleistocene climatic instability → certain habitats disappeared → species communities split apart → megafauna had shrinking geographical ranges → Younger Dryas event pushed them over the edge。整條因果鏈都由 climate / weather 變化推動。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "climate shift = climatic instability / final major fluctuation main reason for extinction = proponents blame the loss on the weather extinction = pushed them over the edge答案判斷這個 climate hypothesis 屬於 Russell W. Graham，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 結尾又回到 Alroy，學生容易被最後的 Alroy quote 吸走。做 Matching Features 時，要跟著人名定位；climatic instability 的解釋者是 Graham，不是 Alroy。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Mammoth kill.pdf",
+    "sha256": "b7725b7d1e01819c0ce9106fe39253a7fa4290958deeac9e1fe6bf9150588dae",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "首句定義 mammoth，說牠們屬於已滅絕的 Mammuthus，通常有長而彎的 tusks，北方物種還有長毛。尾句把 mammoths 放入 Elephantidae family，並連到 modern elephants and their ancestors。只看首尾句，可以判斷這段主要是物種背景，不處理滅絕原因。它幫讀者知道mammoths 和現代大象有親緣關係，也說明牠們生活年代很長，直到約 4,500 年前仍存在。",
+        "label": "Introductory paragraph"
+      },
+      {
+        "number": "A",
+        "summary": "首句說 mammoths 像現代親戚一樣體型相當龐大。尾句說牠們的社會結構大概和非洲、亞洲象相同：雌性群居，由 matriarch 帶領；雄性成熟後獨居或組成鬆散群體。只看首尾句，可以判斷本段介紹 mammoths 的生物特徵，包括 size、tusks、gestation period、single calf 和 social structure。這段不是滅絕原因主線，但能補充大型哺乳動物為何繁殖慢、較脆弱。"
+      },
+      {
+        "number": "B",
+        "summary": "首句把讀者帶到 Mexico City，並說北美曾屬於 mammoths、camels、ground sloths、bear-size beavers 等大型動物。尾句說 Alroy 用 computer simulation 判斷，即使非常少量的 hunting 也會使這些動物滅絕。只看首尾句，可以估計本段會提出大型哺乳動物約 11,000 年前消失的謎團，並引入 overkill model，即人類捕獵導致 megafauna extinction 的理論。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Alroy 假設最初人類只有 100 人，每年增長不超過 2%，再計算每一群人每年獵殺大型哺乳動物的影響。尾句解釋大型哺乳動物特別脆弱，因為 gestation periods 較長，幼獸也需要長時間照顧。只看首尾句，可以判斷本段補充 Alroy 的模型細節：人類不需要大量獵殺，只要持續低度hunting，千年內也可能清空大型動物族群。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說並非所有人都同意 Alroy 的評估。尾句引用 MacPhee 的質疑：某些物種分布範圍極廣，要大量屠殺至滅絕似乎不太可信。只看首尾句，可以判斷本段主要提出反對意見。中間會講兩類criticism：第一，滅絕動物的 population-size estimates 未必可靠；第二，考古紀錄中只有很少stone points 嵌在 mammoth bones，證據不足。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 MacPhee 同意 humans 很可能引發滅絕，但認為不是直接造成。尾句說他希望最後滅絕的 mammoths 的 tissue 和 DNA 分析，終有一天能揭示致命 microbes。只看首尾句，可以判斷本段介紹 hyperdisease hypothesis：人類可能透過 dogs 或 vermin 帶入極致命疾病，感染沒有免疫準備的新世界物種。這段也強調目前 empirical evidence 仍不足。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說第三個北美滅絕解釋不涉及 humans。尾句回到 Alroy，他相信 human hunters 摧毀 Ice Age giants，並說 overkill model 可信。只看首尾句，可以判斷本段先講 Graham 的 climate explanation，再用 Alroy 的觀點收尾。中間會解釋 Pleistocene climatic instability、habitats 消失、geographical ranges 縮小，以及 Younger Dryas event 如何把大型動物推向滅絕邊緣。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "補充：Q1 原文完整概念是 “human hunting”；因題目空格後已有 “of human”，考試填空以",
+    "“hunting” 較自然。Q3 原文完整概念是 “hyperlethal disease”；因題目已有 “deadly”，空格填“disease” 較貼句子。"
+  ]
+}

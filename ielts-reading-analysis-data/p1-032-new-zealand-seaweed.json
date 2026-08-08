@@ -1,0 +1,2497 @@
+{
+  "id": "p1-032-new-zealand-seaweed",
+  "catalogueId": "p1-032",
+  "catalogueIds": [
+    "p1-032"
+  ],
+  "passage": 1,
+  "title": "New Zealand Seaweed",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "v",
+    "ii",
+    "viii",
+    "i",
+    "x",
+    "vi",
+    "New Zealand carrageens",
+    "agar",
+    "canning",
+    "cough mixture",
+    "A",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "v — Nutritional value of seaweeds",
+      "answerKey": "v — Nutritional value of seaweeds",
+      "type": "Matching Headings",
+      "prompt": "Section A",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Headings。題目要求為 Section A 選出最能概括整段的 heading。這類題要看整段反覆談甚麼，不能只看其中一個細節，例如 Japanese、Maori 或 jellies。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seaweed is a particularly nutritious food, which absorbs and concentrates traces of a wide variety of minerals necessary to the body’s health.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻是一種特別有營養的食物，會吸收並濃縮多種對人體健康所需的微量礦物質。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research into old Maori eating customs shows that jellies were made using seaweeds, fresh fruit and nuts, fuchsia and tutu berries, cape gooseberries, and many other fruits which either grew here naturally or were sown from seeds brought by settlers and explorers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 Maori 舊有飲食習慣的研究顯示，他們會用海藻、新鮮水果和堅果、fuchsia 和 tutu berries、cape gooseberries，以及其他自然生長或由定居者和探險者帶來種子種出的水果製作 jellies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以先猜 Section A 主要講 seaweed 作為食物的價值。第一句直接用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“nutritious food” 開題；最後一句用 Maori eating customs 作文化例子，說明 seaweed 長期被用於飲食之中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading v 是：“Nutritional value of seaweeds”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻的營養價值。"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Section A，可以看到多個營養相關詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“minerals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“vitamins”"
+            },
+            {
+              "kind": "quote",
+              "text": "“vitamin C”"
+            },
+            {
+              "kind": "quote",
+              "text": "“iodine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“goitre”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nutritive value”"
+            },
+            {
+              "kind": "label",
+              "text": "其中最強句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The nutritive value of seaweed has long been recognised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻的營養價值早已被認識。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section A 先說 seaweed 含多種 minerals，例如 aluminium、barium、calcium、chlorine、copper、iodine、iron。接著說 seaweeds 也 rich in vitamins，並舉 Eskimos 從 seaweeds 攝取大量 vitamin C 的例子。第二段再說日本人和 Maori 人 goitre 發病率低，可能和 seaweed 的 high iodine content 有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些內容全部圍繞 nutrition：礦物質、維他命、碘、甲狀腺腫、傳統食用方法。Maori jellies 只是食用例子，功能是支持「海藻長期被視為食物」這個主題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nutritional value”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“nutritious food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“minerals necessary to the body’s health”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rich in vitamins”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nutritive value”"
+            },
+            {
+              "kind": "quote",
+              "text": "“high iodine content”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷Section A 的整段主旨是海藻作為食物的營養價值，所以答案是 v。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iii “Use of seaweeds in Japan” 可能吸引人，因為原文提到 Japanese goitre incidence低。但 Japanese 只是其中一個例子，無法概括整段。Section A 的核心是營養，不是日本用途。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "ii — Various products of seaweeds",
+      "answerKey": "ii — Various products of seaweeds",
+      "type": "Matching Headings",
+      "prompt": "Section B",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要為 Section B 選 heading。段落雖然開頭談 New Zealand 有多少 seaweed species，但不能只看第一句。要看整段後面是否轉向產品、用途和 commercial applications。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand lays claim to approximately 700 species of seaweed, some of which have no representation outside this country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New Zealand 擁有大約 700 種海藻，其中一些在這個國家以外沒有代表。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, during World War II, New Zealand Gigartina were sent to Australia to be used in toothpaste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在第二次世界大戰期間，New Zealand Gigartina 被送到 Australia，用於製作牙膏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到段落由物種數量開始，最後落在實際產品 toothpaste。這提示中間很可能會列出 seaweed extract 的多種用途。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Various products of seaweeds”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻製成的各種產品。"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Section B，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The gel-forming substance agar, which can be extracted from these species, has many commercial applications…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可從這些物種中提取的凝膠形成物質 agar，有許多商業用途。"
+            },
+            {
+              "kind": "label",
+              "text": "後面列出："
+            },
+            {
+              "kind": "quote",
+              "text": "“seameal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cough mixture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“confectionery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cosmetics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“canning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“paint”"
+            },
+            {
+              "kind": "quote",
+              "text": "“leather industries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“duplicating pads”"
+            },
+            {
+              "kind": "quote",
+              "text": "“toothpaste”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section B 的前半確實介紹 New Zealand seaweed species 的數量，尤其是 Gigartina。可是段落真正展開的位置在 agar 的 commercial applications。作者不是單純說 New Zealand 物種多，重點轉到這些 seaweeds 可提取 agar，agar 又可用於食品、藥物、化妝品、工業和牙膏等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii “Various products of seaweeds” 能覆蓋這一整串用途。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“products”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“commercial applications”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seameal custard”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cough mixture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“confectionery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cosmetics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“toothpaste”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷Section B 的主旨是 seaweeds / agar 的多種產品用途，所以答案是 ii。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iv “Seaweed species around the globe” 看似合理，因為段落有 “grown worldwide” 和700 species。但這些只是背景。中段開始的 “has many commercial applications” 才是段落重心，因此 ii 比 iv 更能概括整段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "viii — Underuse of native species",
+      "answerKey": "viii — Underuse of native species",
+      "type": "Matching Headings",
+      "prompt": "Section C",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Section C 的主旨。段落有 red seaweeds、agar、imports、distribution 等資料，但heading 要概括整段核心：New Zealand 明明有資源，過去卻沒有好好使用。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet although New Zealand has so much of the commercially profitable red seaweeds, several of which are a source of agar (Pterocladia, Gelidium, Chondrus, Gigartina), before 1940 relatively little use was made of them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 New Zealand 有很多具商業價值的紅藻，其中好幾種都是 agar 的來源，但 1940 年以前，它們相對很少被使用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Happily, New Zealand-made agar is now obtainable in health food shops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人高興的是，New Zealand 製造的 agar 現在已可在健康食品店買到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以看到一個時間轉變：過去本地紅藻使用不足，現在本地 agar 已可購買。這段核心不是介紹產品種類，而是強調 native resources 曾經未被充分利用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading viii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Underuse of native species”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "本地物種使用不足。"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Section C，可以看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“before 1940 relatively little use was made of them”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1940 年以前，它們相對很少被使用。"
+            },
+            {
+              "kind": "label",
+              "text": "還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand used to import the Northern Hemisphere Irish moss … from England and ready-made agar from Japan.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New Zealand 過去從 England 入口北半球 Irish moss，並從 Japan 入口現成 agar。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有一個明顯矛盾：New Zealand 有很多 profitable red seaweeds，也有 Pterocladia、Gelidium、Chondrus、Gigartina 等 agar 來源。但在 1940 年前，本地幾乎沒有好好利用，反而從外地入口 Irish moss 和 ready-made agar。這正好就是 underuse。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後半補充 red seaweeds 的 distribution，說 Gigartina 在 North Island east coast 較 rare，但其他地區仍有 Pterocladia 供應。這些細節進一步支持：本地其實有可用資源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Underuse”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“relatively little use was made of them”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used to import”"
+            },
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“native species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand has so much of the commercially profitable red seaweeds”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷Section C 最能配 heading viii，因為整段強調 New Zealand 本地紅藻資源曾經未被充分利用。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vii “Where to find red seaweeds” 有一定迷惑性，因為段落提到 east coast、Hokianga和 species distribution。但位置資料只是補充本地供應，無法覆蓋 “before 1940 relatively little use” 和 “used to import” 這兩個核心句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "i — Locations and features of different seaweeds",
+      "answerKey": "i — Locations and features of different seaweeds",
+      "type": "Matching Headings",
+      "prompt": "Section D",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Section D 的整體 heading。段落談 red、brown、green 三類 seaweeds，也談顏色變化、潮位、深度、岩石表面、sun exposure 等。heading 要同時覆蓋「位置」和「特徵」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seaweeds are divided into three classes determined by colour – red, brown and green – and each tends to live in a specific location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻按顏色分為三類：紅色、棕色和綠色；每一類都傾向生活在特定位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radiation from the sun, the temperature level, and the length of time immersed all play a part in the zoning of seaweeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太陽輻射、溫度水平，以及浸在水中的時間長短，都會影響海藻的分區分布。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以明確看到 Section D 主題是 seaweeds 的分類和生長位置。第一句講 colour classes 和 specific location；最後一句總結 zoning 的影響因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading i 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Locations and features of different seaweeds”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同海藻的位置和特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Section D，可以找到多組 location / feature 詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“specific location”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shallow-water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“medium depths”"
+            },
+            {
+              "kind": "quote",
+              "text": "“deeper water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Flat rock surfaces”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Deep-water rocks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“upper shore”"
+            },
+            {
+              "kind": "quote",
+              "text": "“low-water mark”"
+            },
+            {
+              "kind": "quote",
+              "text": "“change colour”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section D 一開始說 seaweeds 按 red、brown、green 分類，但又提醒乾燥後顏色可能改變。接著轉入 identification：雖然顏色不一定穩定，但 seaweeds 生長位置很 precise，所以可以靠 zones來辨認。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落後半列出不同生境：green seaweeds mainly shallow-water algae；browns belong to medium depths；reds are plants of deeper water。接著又舉 mid-level tides、deep-water rocks、upper shore、low-water mark 等位置。最後補充 sun radiation、temperature、immersed time 對 zoning的作用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Locations”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“specific location”"
+            },
+            {
+              "kind": "quote",
+              "text": "“well-defined zones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“upper shore”"
+            },
+            {
+              "kind": "quote",
+              "text": "“low-water mark”"
+            },
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“features”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“determined by colour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“change colour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resist long periods of exposure”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷Section D 的整段主旨是不同 seaweeds 的特徵與分布位置，所以答案是 i。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vii “Where to find red seaweeds” 只覆蓋其中一個細節，因為 Section D 同時講 green、brown 和 red seaweeds，也談顏色變化和環境因素。Heading i 覆蓋面更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "x — How seaweeds reproduce and grow",
+      "answerKey": "x — How seaweeds reproduce and grow",
+      "type": "Matching Headings",
+      "prompt": "Section E",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要為 Section E 選 heading。這段很短，所以要特別留意第一句和最後一句是否合起來表示一個完整主題：繁殖方式和生長／吸收方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Propagation of seaweeds occurs by spores, or by fertilisation of egg cells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻的繁殖透過 spores，或透過 egg cells 的受精進行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The plants absorb their nourishment through their fronds when they are surrounded by water: the base or ‘holdfast’ of seaweeds is purely an attaching organ, not an absorbing one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當海藻被水包圍時，會透過 fronds 吸收養分；海藻的基部或 “holdfast” 純粹是附著器官，沒有吸收功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Section E 一半講 reproduction，一半講 growth / nourishment。這剛好對應 heading x。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading x 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“How seaweeds reproduce and grow”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻如何繁殖和生長。"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Section E，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Propagation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spores”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fertilisation of egg cells”"
+            },
+            {
+              "kind": "quote",
+              "text": "“absorb their nourishment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fronds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“holdfast”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Propagation” 是繁殖；“spores” 和 “fertilisation of egg cells” 是繁殖方法。後面說 seaweeds 沒有普通意義上的 roots，很少有 leaves，也沒有 flowers、fruits 或 seeds，這說明它們和陸上植物的生長結構不同。最後一句再補充養分不是從 holdfast 吸收，而是從 fronds 吸收。所以這段不是單純講 reproduction，也不是單純講 anatomy；它把 reproduction 和 growth structure 放在一起。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading：“reproduce”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Propagation … by spores, or by fertilisation of egg cells”"
+            },
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“grow”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“absorb their nourishment through their fronds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“holdfast … attaching organ”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷Section E 主題正是海藻如何繁殖和吸收養分生長，所以答案是 x。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading ix “Mystery solved” 沒有真實支援。Section E 沒有提出 mystery，也沒有解開前文疑問。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它只是直接解釋 seaweed 的繁殖和生長結構。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "vi — Why it doesn’t dry or sink",
+      "answerKey": "vi — Why it doesn’t dry or sink",
+      "type": "Matching Headings",
+      "prompt": "Section F",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Section F 的 heading。這段核心有兩組功能：buoyancy，即不下沉；reduce dehydration，即不乾燥。Heading vi 剛好把兩者合在一起。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the large seaweeds maintain buoyancy with air-filled floats; others, such as bull kelp, have large cells filled with air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些大型海藻用充滿空氣的浮囊維持浮力；另一些如 bull kelp，則有充滿空氣的大細胞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some of the larger kelps, this coating not only keeps the plant moist but also protects it from the violent action of waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些較大型 kelps 中，這層 coating 不只讓植物保持濕潤，也保護它免受猛烈海浪衝擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到第一句處理 buoyancy，最後一句處理 moisture 和 wave protection。段落主題就是 seaweed 如何保持浮力和濕潤。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vi 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why it doesn’t dry or sink”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何它不會乾掉或下沉。"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Section F，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“maintain buoyancy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“air-filled floats”"
+            },
+            {
+              "kind": "quote",
+              "text": "“large cells filled with air”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce dehydration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“swollen stems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mucilage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“keeps the plant moist”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section F 前半說 seaweeds 如何保持 buoyancy：air-filled floats 或 large cells filled with air。這解釋 “doesn’t sink”。中段說一些經常暴露在空氣中的 species 如何 reduce dehydration，例如swollen stems containing water、swollen nodules、sea bomb 的特殊形狀、sea cactus 的 slimy fluid 或 mucilage coating。這解釋 “doesn’t dry”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句進一步說 mucilage coating 還可保護大型 kelps 免受 waves 影響。這是保濕功能之外的附加保護。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“doesn’t sink”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“maintain buoyancy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“air-filled floats”"
+            },
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“doesn’t dry”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce dehydration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“keeps the plant moist”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷Section F 同時解釋浮力和防乾燥機制，所以答案是 vi。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading i “Locations and features of different seaweeds” 也有 “features” 的感覺，但 Section F不重點講不同位置。它集中處理生理適應：如何保持浮力和水分。因此 vi 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "New Zealand carrageens",
+      "answerKey": "New Zealand carrageens",
+      "type": "Flow Chart Completion",
+      "prompt": "“Source: Gigartina (also called 7 ______)”",
+      "translation": "來源：Gigartina，也稱為 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow Chart Completion。空格在括號 “also called” 後面，所以答案應是 Gigartina 的另一個名稱。定位詞非常明顯：Gigartina。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand lays claim to approximately 700 species of seaweed, some of which have no representation outside this country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New Zealand 擁有大約 700 種海藻，其中一些在這個國家以外沒有代表。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, during World War II, New Zealand Gigartina were sent to Australia to be used in toothpaste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，第二次世界大戰期間，New Zealand Gigartina 被送到 Australia，用於牙膏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Section B 已經有 Gigartina 和產品用途，所以 flow chart 大概率來自這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gigartina”"
+            },
+            {
+              "kind": "quote",
+              "text": "“also called”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, it is estimated that New Zealand has some 30 species of Gigartina, a close relative of carrageen or Irish moss. These are often referred to as the New Zealand carrageens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，估計 New Zealand 有約 30 種 Gigartina，它是 carrageen 或 Irish moss 的近親。這些通常被稱為 New Zealand carrageens。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “These” 指前一句的 New Zealand Gigartina species。原文說它們 “are often referred to as the New Zealand carrageens”。題目用 “also called” 改寫 “referred to as”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： New Zealand carrageens = three words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“also called”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“often referred to as”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gigartina”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“some 30 species of Gigartina”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 New Zealand carrageens。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“carrageen or Irish moss” 也在同一句附近出現，容易被誤填。但那是 Gigartina 的 close relative，不是 New Zealand Gigartina 的名稱。題目問 also called，所以要找 “referred to as” 後面的名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "agar",
+      "answerKey": "agar",
+      "type": "Flow Chart Completion",
+      "prompt": "“Processed into 8 ______”",
+      "translation": "被加工成 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow chart 的 source 是 Gigartina / New Zealand carrageens。下一步 “Processed into” 要找從這些 species 中提取或加工出來的物質。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand lays claim to approximately 700 species of seaweed, some of which have no representation outside this country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New Zealand 擁有大約 700 種海藻，其中一些在這個國家以外沒有代表。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, during World War II, New Zealand Gigartina were sent to Australia to be used in toothpaste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，第二次世界大戰期間，New Zealand Gigartina 被送到 Australia，用於牙膏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section B 的中間描述從 Gigartina 到 commercial applications 的流程，所以 Question 8 仍在Section B。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gigartina”"
+            },
+            {
+              "kind": "quote",
+              "text": "“processed into”"
+            },
+            {
+              "kind": "quote",
+              "text": "“commercial applications”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The gel-forming substance agar, which can be extracted from these species, has many commercial applications…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可從這些物種中提取的凝膠形成物質 agar，有許多商業用途。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“these species” 指前面 New Zealand Gigartina / New Zealand carrageens。原文說 agar can be extracted from these species。題目用 “Processed into” 表示從 source 經處理得到的產品。雖然原文用 extracted，flow chart 用 processed into，兩者都指 Gigartina 成為商業用途物質的中間步驟。答案形式檢查： agar = one word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Processed into”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“can be extracted from these species”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "label",
+              "text": "Source Gigartina原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“these species”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 agar。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “gel-forming substance”。這是 agar 的描述，不是物質名稱。空格前 “Processed into” 要填最終物質名，agar 最精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "canning",
+      "answerKey": "canning",
+      "type": "Flow Chart Completion",
+      "prompt": "“Application: 9 ______ → canned or bottled food”",
+      "translation": "用途：______ → 罐裝或瓶裝食物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 agar 的其中一項 application。題目後面用 “canned or bottled food” 解釋用途方向，所以要在原文 commercial applications 列表中找與 canned food 相關的詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand lays claim to approximately 700 species of seaweed, some of which have no representation outside this country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New Zealand 擁有大約 700 種海藻，其中一些在這個國家以外沒有代表。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, during World War II, New Zealand Gigartina were sent to Australia to be used in toothpaste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，第二次世界大戰期間，New Zealand Gigartina 被送到 Australia，用於牙膏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段列出 agar 的 commercial applications，flow chart 的 applications 也應按這個列表填。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“canned”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bottled food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“application”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中沒有 bottled，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“in cough mixture, confectionery, cosmetics, the canning, paint and leather industries…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用於 cough mixture、confectionery、cosmetics、canning、paint 和 leather industries……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 application list 中，和 canned or bottled food 最接近的是 “the canning”。Canning 指把食物裝罐保存的行業或程序。題目把這項 application 具體化成 canned or bottled food。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： canning = one word，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果寫 “the canning”，雖然是原文相鄰詞，但在空格中 “Application: the canning → canned or bottled food” 不夠自然。IELTS 答案通常可省略冠詞，寫 canning 最穩。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“canned or bottled food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the canning … industries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： canning = 製作或保存罐裝食品的用途／行業答案判斷答案是 canning。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“confectionery” 也是食品相關，但它指糖果甜食，不是 canned or bottled food。題目用 canned /bottled 明確提示 canning。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "cough mixture",
+      "answerKey": "cough mixture",
+      "type": "Flow Chart Completion",
+      "prompt": "“Application: Medicine (e.g. 10 ______)”",
+      "translation": "用途：藥物，例如 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題空格在 “Medicine (e.g.)” 後面，因此答案應是藥物或醫療產品例子。定位詞是 medicine，原文可能用 cough mixture 這類具體產品表示。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand lays claim to approximately 700 species of seaweed, some of which have no representation outside this country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New Zealand 擁有大約 700 種海藻，其中一些在這個國家以外沒有代表。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, during World War II, New Zealand Gigartina were sent to Australia to be used in toothpaste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，第二次世界大戰期間，New Zealand Gigartina 被送到 Australia，用於牙膏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段正是 flow chart 的來源，因為它列出 agar 的用途，包括藥用和非藥用產品。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Medicine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“e.g.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文 commercial applications list 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“cough mixture”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The gel-forming substance agar, which can be extracted from these species, has many commercial applications, including seameal, from which seameal custard is made, and in cough mixture, confectionery, cosmetics, the canning, paint and leather industries, the manufacture of duplicating pads, and in toothpaste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可從這些物種中提取的凝膠形成物質 agar 有許多商業用途，包括 seameal，可用來製成seameal custard；也用於咳嗽藥水、糖果、化妝品、罐頭、油漆和皮革行業、複寫墊製造，以及牙膏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“cough mixture” 是咳嗽藥水，屬於 medicine 的例子。因此填 cough mixture。答案形式檢查： cough mixture = two words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Medicine”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“cough mixture”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： cough mixture 是 medicine 的具體例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 cough mixture。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“toothpaste” 也和 health 有關，但題目把 toothpaste 放在 “Other applications” 位置，而且原文最後也列為其他產品。Medicine 的明確例子是 cough mixture。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "A — Green seaweeds",
+      "answerKey": "A — Green seaweeds",
+      "type": "Classification",
+      "prompt": "“Can resist exposure to sunlight at the high-water mark”",
+      "translation": "能抵受在高水位附近暴露於陽光下的情況。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Classification。題目要把描述配到 green、brown 或 red seaweeds。控制詞是 “exposure to sunlight” 和 “high-water mark”。原文不一定逐字說 high-water mark，但可能用 upper shore、exposure to the sun and air 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seaweeds are divided into three classes determined by colour – red, brown and green – and each tends to live in a specific location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻按顏色分成紅、棕、綠三類；每一類都傾向生活在特定位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radiation from the sun, the temperature level, and the length of time immersed all play a part in the zoning of seaweeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太陽輻射、溫度水平，以及浸在水中的時間長短，都會影響海藻的分區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Section D 明確處理顏色分類和 zoning，所以 Question 11–13 都應定位此段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“sunlight”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exposure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“high-water mark”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those species able to resist long periods of exposure to the sun and air are usually found on the upper shore…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些能抵受長時間暴露於陽光和空氣中的物種，通常出現在 upper shore。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “exposure to sunlight” 對應原文 “exposure to the sun and air”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “high-water mark” 對應 “upper shore”，即較高、較接近岸上的潮間帶位置。"
+            },
+            {
+              "kind": "label",
+              "text": "接著要判斷這屬於哪一類 seaweed。原文前面建立了深度規律："
+            },
+            {
+              "kind": "quote",
+              "text": "“the green seaweeds are mainly shallow-water algae; the browns belong to medium depths, and the reds are plants of the deeper water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "綠藻主要是淺水藻類；棕藻屬於中等深度；紅藻則是較深水域的植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "upper shore / high-water mark 是最接近淺水和暴露位置，因此和 green seaweeds 最貼合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Can resist exposure to sunlight”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“able to resist long periods of exposure to the sun and air”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“high-water mark”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“upper shore”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 A — Green seaweeds。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有在同一句直接寫 “green seaweeds can resist exposure”。這題需要把兩句連起來： green = shallow-water；upper shore = exposed shallow zone。這是短距離分類推斷，仍在Section D 的明確 zoning 邏輯內。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "C — Red seaweeds",
+      "answerKey": "C — Red seaweeds",
+      "type": "Classification",
+      "prompt": "“Grow in deep, open seawater”",
+      "translation": "生長在較深、開放的海水中。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要將 “deep” 這個位置特徵配到 green、brown、red 其中一類。最強定位詞是 deep。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seaweeds are divided into three classes determined by colour – red, brown and green – and each tends to live in a specific location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻按顏色分為紅、棕、綠三類；每一類都傾向生活在特定位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radiation from the sun, the temperature level, and the length of time immersed all play a part in the zoning of seaweeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太陽輻射、溫度水平，以及浸在水中的時間長短，都會影響海藻的分區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section D 的主題就是「顏色類別與位置」，所以本題直接定位 Section D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“deep”"
+            },
+            {
+              "kind": "quote",
+              "text": "“open seawater”"
+            },
+            {
+              "kind": "label",
+              "text": "原文核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although there are exceptions, the green seaweeds are mainly shallow-water algae; the browns belong to medium depths, and the reds are plants of the deeper water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然有例外，綠藻主要是淺水藻類；棕藻屬於中等深度；紅藻是較深水域的植物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚建立三類深度： Green seaweeds → shallow-water Brown seaweeds → medium depths Red seaweeds → deeper water題目說 “deep, open seawater”，核心詞是 deep。這和 “reds are plants of the deeper water” 對應最直接。雖然後文也有 “Deep-water rocks on open coasts”，但那裡講的是 bull kelp、strap weeds等具體 tough specimens，沒有把它們正式配回某一顏色類別。分類題最安全做法是回到明確三分類句。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Grow in deep … seawater”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“plants of the deeper water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 C — Red seaweeds。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Deep-water rocks on open coasts” 可能令人想把答案配到 bull kelp 相關類別。但題目要求的是red / brown / green class，而原文最明確的 class statement 說 reds = deeper water。先用明確分類句，避免被後面的例子帶偏。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B — Brown seaweeds",
+      "answerKey": "B — Brown seaweeds",
+      "type": "Classification",
+      "prompt": "“Share their habitat with karengo”",
+      "translation": "和 karengo 共享同一生境。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Classification。定位詞很強：karengo。要找 karengo 出現在哪一句，再看它前一句提到哪一類 seaweed 的 habitat。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seaweeds are divided into three classes determined by colour – red, brown and green – and each tends to live in a specific location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海藻按顏色分成紅、棕、綠三類；每一類都傾向生活在特定位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radiation from the sun, the temperature level, and the length of time immersed all play a part in the zoning of seaweeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太陽輻射、溫度水平，以及浸在水中的時間長短，都會影響海藻的分區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section D 是所有分類題的目標段，因為它列出生境、潮位、物種例子和 karengo。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“karengo”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Flat rock surfaces near mid-level tides are the most usual habitat of sea bombs, Venus’ necklace and most brown seaweeds. This is also the location of the purple laver or Maori karengo, which looks rather like a reddish-purple lettuce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接近中潮位的平坦岩石表面，是 sea bombs、Venus’ necklace 和大多數 brown seaweeds 最常見的生境。這也是 purple laver 或 Maori karengo 的位置；karengo 看起來頗像紅紫色 lettuce。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要處理代詞 “This”。“This is also the location…” 中的 “This” 指前一句的 “Flat rock surfaces near mid-level tides”。這個位置原文剛剛說是 “most brown seaweeds” 的 most usual habitat。接著說 karengo 也在同一 location。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 share their habitat with karengo 的 class 是 brown seaweeds。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Share their habitat with karengo”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“most usual habitat of … most brown seaweeds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“This is also the location of … Maori karengo”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： same habitat / same location = share their habitat答案判斷答案是 B — Brown seaweeds。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "karengo 外觀 “reddish-purple lettuce” 容易令人想到 red seaweeds。可是分類題要看 habitat，不能只看顏色外觀。原文說 karengo 所在位置同時是 most brown seaweeds 的 habitat，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - New Zealand Seaweed.pdf",
+    "sha256": "2296de11038899904230fcd4e3dba0840dac2a9b077ef772b9f18c6d29f4202e",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一句說 seaweed 是特別有營養的食物，會吸收並濃縮人體所需的多種礦物質。最後一句說Maori 舊有飲食習慣中會用 seaweeds、fresh fruit、nuts 和多種 berries 製作 jellies。只看首尾句，可以估計這段主題是 seaweed 的食用價值和營養功能。中間會提到 minerals、vitamins、vitamin C、iodine、goitre 等資料，所以這段最適合配 heading “Nutritional value of seaweeds”。",
+        "label": "Section A"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說 New Zealand 擁有大約 700 種 seaweed，其中一些在其他國家沒有代表。最後一句說第二次世界大戰期間，New Zealand Gigartina 被送到 Australia 用於 toothpaste。只看首尾句，可以先看到這段由物種數量轉到實際用途。中間會介紹 Gigartina、New Zealand carrageens、agar，以及 agar 在 seameal、cough mixture、cosmetics、canning、paint、leather 和 toothpaste 等產品或行業中的用途。",
+        "label": "Section B"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說 New Zealand 有很多 commercially profitable red seaweeds，當中好幾種可作 agar 來源，但 1940 年前很少被使用。最後一句說現在 New Zealand-made agar 已可在 health food shops 買到。只看首尾句，可以估計這段重點是本地紅藻資源曾長期未被充分利用。中間會補充New Zealand 曾從 England 入口 Irish moss，從 Japan 入口 ready-made agar，對應 heading“Underuse of native species”。",
+        "label": "Section C"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說 seaweeds 按顏色分成 red、brown、green 三類，每類傾向生活在特定位置。最後一句說陽光輻射、溫度和浸水時間都會影響 seaweed zoning。只看首尾句，可以看出這段主題是不同seaweeds 的分類、顏色、位置和生境特徵。中間會細分 shallow-water algae、medium depths、deeper water、mid-level tides、upper shore、low-water mark 等，非常適合處理 headings 和分類題。",
+        "label": "Section D"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說 seaweeds 透過 spores 或 egg cells fertilisation 繁殖。最後一句說 holdfast 只是附著器官，沒有吸收營養的功能。只看首尾句，可以估計這段會介紹 seaweeds 如何繁殖、如何吸收養分，以及它們沒有普通意義上的 roots、leaves、flowers、fruits 或 seeds。這段主題集中，對應“How seaweeds reproduce and grow”。",
+        "label": "Section E"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說一些大型 seaweeds 靠 air-filled floats 維持浮力，另一些如 bull kelp 有充滿空氣的大細胞。最後一句說某些大型 kelps 的表面 coating 不只保持濕潤，也保護植物免受猛烈海浪影響。只看首尾句，可以估計這段處理 seaweeds 如何避免下沉和乾燥。中間有 buoyancy、air-filled、reduce dehydration、swollen stems、nodules、mucilage 等訊號，對應 “Why it doesn’t dry or sink”。",
+        "label": "Section F"
+      }
+    ]
+  }
+}

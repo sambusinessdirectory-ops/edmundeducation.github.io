@@ -1,0 +1,1706 @@
+{
+  "id": "p1-025-the-invention-of-television",
+  "catalogueId": "p1-025",
+  "catalogueIds": [
+    "p1-025"
+  ],
+  "passage": 1,
+  "title": "The Invention of Television",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "C",
+    "F",
+    "A",
+    "G",
+    "B",
+    "E",
+    "small pinholes",
+    "selenium cell",
+    "neon lamp",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D — He used second-hand parts in his invention.",
+      "answerKey": "D — He used second-hand parts in his invention.",
+      "type": "Matching Features",
+      "prompt": "Question 1",
+      "translation": "他在發明中使用二手零件。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Scotsman John Logie Baird is considered by many to be the inventor of television.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人認為蘇格蘭人 John Logie Baird 是電視的發明者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baird also used a Nipkow disk, created by the German inventor Paul Nipkow, and much of his work was based on the previous work of the German scientist Arthur Korn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baird 也使用了德國發明家 Paul Nipkow 創造的 Nipkow disk，而且他的很多工作都建基於德國科學家 Arthur Korn 之前的研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段會介紹 Baird 的發明背景，也會說明他的發明並非孤立出現。題目問 John Logie Baird 的 role，Paragraph 2 是最自然的定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中人物 “John Logie Baird” 是最強定位詞。Role D 的定位詞是 “second-hand parts”。掃描Paragraph 2 時，要找 old、second-hand、apparatus、using 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Working initially in Hastings, England, Baird famously created an apparatus using an old hatbox he had bought in a second-hand shop, a pair of scissors, some needles, some bicycle-light lenses, and an old tea chest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baird 起初在英格蘭 Hastings 工作，他著名地用一個從二手店買來的舊帽盒、一把剪刀、一些針、一些單車燈鏡片，以及一個舊茶箱，製作了一部 apparatus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Baird，核心動詞是 created，方式是 using old / second-hand objects。Role D 把這串零件概括成 “second-hand parts”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "second-hand parts= old hatbox bought in a second-hand shop / scissors / needles / bicycle-light lenses / old tea chest答案判斷Baird 的 role 對應 D。中伏位是同段也提 Nipkow 和 Korn；可是 second-hand parts 只和 Baird created an apparatus 這句相連。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "C — He was the first person to move on television.",
+      "answerKey": "C — He was the first person to move on television.",
+      "type": "Matching Features",
+      "prompt": "Question 2",
+      "translation": "他是第一位在電視上以動態形式出現的人。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In February 1924, Baird demonstrated moving silhouette images on a television device.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1924 年 2 月，Baird 在一部電視裝置上展示了移動的剪影影像。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baird famously said that he would not be able to sleep at night knowing he had that much money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baird 著名地說，如果知道自己擁有那麼多錢，他晚上會睡不著。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段主要整理 Baird 的公開展示、早期成就和相關人物。William Taynton只出現在這段，因此 Question 2 定位很穩定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物定位詞是 “William Taynton”。Role C 的關鍵詞是 “first person” 和 “move on television”。掃描時要找 televised、motion、move 這一組詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On 2 October 1925, Baird used an office assistant, William Taynton, to move in front of the transmitter, and Taynton became the first person to be televised in motion and in full tonal range.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1925 年 10 月 2 日，Baird 讓辦公室助手 William Taynton 在 transmitter 前移動，而 Taynton 成為第一個以動態和完整色調範圍被電視播放的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語在後半是 Taynton，核心資訊是 “became the first person”。Role C 的 “to move on television” 對應原文 “televised in motion”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first person to move on television= first person to be televised in motion答案判斷Taynton 對應 C。不要把 Baird 的 moving silhouette images 配到 Taynton；Taynton 的獨特 role是 first person 被電視以 motion 拍攝和播放。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "F — He invented the image dissector.",
+      "answerKey": "F — He invented the image dissector.",
+      "type": "Matching Features",
+      "prompt": "Question 3",
+      "translation": "他發明了 image dissector。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Philo Farnsworth successfully demonstrated electronic television in San Francisco in 1927, using a different system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Philo Farnsworth 於 1927 年在 San Francisco 成功展示 electronic television，並使用一套不同系統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Russian inventor Vladimir Zworykin built on this work, and it was Zworykin’s designs that were eventually used by the BBC in the UK to replace Baird’s system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Russian inventor Vladimir Zworykin 在這項工作上發展，最終 BBC 在英國使用 Zworykin 的設計來取代 Baird 的系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示這段有兩位人物：Farnsworth 和 Zworykin。Question 3 指名 Philo Farnsworth，所以要看段落前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物定位詞是 “Philo Farnsworth”。Role F 的核心詞是 “image dissector”。掃描 Paragraph 4，會看到 “an image dissector, which Farnsworth created”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, an image dissector, which Farnsworth created, would change those lines back into a picture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著，由 Farnsworth 創造的 image dissector 會把那些線條重新變回圖像。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “which Farnsworth created” 是定案短語。Role F 用 “invented” 概括 created。image dissector 是名詞原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "invented= created image dissector= image dissector答案判斷Farnsworth 對應 F。這題較直接，主要小心不要把 Paragraph 4 最後的 BBC 資料誤配給Farnsworth；BBC 採用的是 Zworykin’s designs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A — His work was adopted by the BBC for its broadcasting system.",
+      "answerKey": "A — His work was adopted by the BBC for its broadcasting system.",
+      "type": "Matching Features",
+      "prompt": "Question 4",
+      "translation": "他的工作被 BBC 用於廣播系統。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Philo Farnsworth successfully demonstrated electronic television in San Francisco in 1927, using a different system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Philo Farnsworth 於 1927 年在 San Francisco 成功展示 electronic television，並使用一套不同系統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Russian inventor Vladimir Zworykin built on this work, and it was Zworykin’s designs that were eventually used by the BBC in the UK to replace Baird’s system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Russian inventor Vladimir Zworykin 在這項工作上發展，最終 BBC 在英國使用 Zworykin 的設計來取代 Baird 的系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經看到 Zworykin 和 BBC。Question 4 指名 Vladimir Zworykin，因此答案很可能在段末。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物定位詞是 “Vladimir Zworykin”。Role A 的定位詞是 “BBC” 和 “adopted”。原文對應 “used by the BBC”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Russian inventor Vladimir Zworykin built on this work, and it was Zworykin’s designs that were eventually used by the BBC in the UK to replace Baird’s system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Russian inventor Vladimir Zworykin 在這項工作上發展，最終 BBC 在英國使用 Zworykin 的設計來取代 Baird 的系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 “Zworykin’s designs”，動作是 “were eventually used by the BBC”。Role A 的 “His work was adopted” 對應 “his designs were used”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "adopted by the BBC= used by the BBC his work= Zworykin’s designs答案判斷Zworykin 對應 A。中伏位是 Paragraph 4 一開始提 Farnsworth 的 electronic television；可是BBC 這個定位詞只和 Zworykin’s designs 直接相連。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "G — His work was initially of no interest to anyone.",
+      "answerKey": "G — His work was initially of no interest to anyone.",
+      "type": "Matching Features",
+      "prompt": "Question 5",
+      "translation": "他的工作起初無人感興趣。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Nipkow created the disk and acquired a patent for his invention, he did not create the apparatus to project images.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Nipkow 創造了 disk 並取得發明 patent，他沒有製造出投射影像的 apparatus。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nipkow became a celebrated scientist in Germany for his work, but the mechanical nature of the Nipkow disk caused the invention to fade into obscurity with the use of the cathode-ray tube.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nipkow 因他的工作在德國成為 celebrated scientist，但 Nipkow disk 的機械性質使這項發明隨著 cathode-ray tube 的使用而逐漸淡出視野。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，這段講 Nipkow 的貢獻、限制、早期無人重視，以及後來的名聲。Question 5 指名Paul Nipkow，定位就在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物定位詞是 “Paul Nipkow”。Role G 的核心詞是 “initially” 和 “no interest”。掃描會找到 “as no one was interested in the work at the time”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The patent expired after 15 years, as no one was interested in the work at the time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項 patent 在 15 年後過期，因為當時沒有人對這項工作感興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句中的 “at the time” 對應 initially 的早期時間感；“no one was interested” 直接對應 “of no interest to anyone”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "initially= at the time of no interest to anyone= no one was interested答案判斷Nipkow 對應 G。要留意段末 “became a celebrated scientist” 是後來的情況；Role G 問 early /initially 的反應。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B — His work was used to help fight crime.",
+      "answerKey": "B — His work was used to help fight crime.",
+      "type": "Matching Features",
+      "prompt": "Question 6",
+      "translation": "他的工作被用來協助打擊犯罪。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Arthur Korn was another German scientist working in the same field as Baird and Nipkow, and it was his work that allowed the development of Nipkow’s work, which in turn led to Baird’s breakthroughs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arthur Korn 是另一位與 Baird 和 Nipkow 在同一領域工作的德國科學家，正是他的工作推動了Nipkow 研究的發展，進一步促成 Baird 的突破。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Korn’s work was celebrated and, from 1928, the German police used his technology to send photographs and fingerprints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Korn 的工作備受讚揚，從 1928 年起，German police 使用他的技術傳送照片和指紋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 7 明顯以 Arthur Korn 為中心，並在末句給出警務用途。Question 6 可直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物定位詞是 “Arthur Korn”。Role B 的關鍵概念是 “fight crime”。原文未必用 fight crime 原字，應找 police、photographs、fingerprints。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Korn’s work was celebrated and, from 1928, the German police used his technology to send photographs and fingerprints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Korn 的工作備受讚揚，從 1928 年起，德國警方使用他的技術傳送照片和指紋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "German police 使用 photographs and fingerprints，是警務和犯罪偵查語境。Role B 把這個用途概括成 “help fight crime”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "used to help fight crime= German police used his technology to send photographs and fingerprints答案判斷Korn 對應 B。中伏位是 Baird 和 Nipkow 也在第一句出現，但 “German police” 這個證據只連到Korn’s work。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "E — His business was destroyed by a financial crisis.",
+      "answerKey": "E — His business was destroyed by a financial crisis.",
+      "type": "Matching Features",
+      "prompt": "Question 7",
+      "translation": "他的事業被金融危機摧毀。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, another American, Charles Francis Jenkins, also has a claim to being the inventor of television.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，另一位美國人 Charles Francis Jenkins 也有理由被稱為 television 的發明者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people agree that Baird gave his first public demonstration of television a couple of years earlier than Jenkins, but this is disputed in some places.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多數人同意 Baird 第一次公開展示 television 比 Jenkins 早幾年，但在一些地方這仍有爭議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，Paragraph 8 介紹 Jenkins 的 claim，並把他和 Baird 作時間比較。題目中的 Charles Francis Jenkins 只在這段出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物定位詞是 “Charles Francis Jenkins”。Role E 的定位詞是 “business” 和 “financial crisis”。原文對應 “broadcasting company” 和 “crash of 1929”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jenkins founded a broadcasting company in 1928, but the crash of 1929 forced him out of business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jenkins 於 1928 年創立了一間 broadcasting company，但 1929 年股市崩盤迫使他退出商業經營。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“crash of 1929” 指金融危機語境；“forced him out of business” 對應 business was destroyed /failed。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "financial crisis= the crash of 1929 business was destroyed= forced him out of business答案判斷Jenkins 對應 E。這題不要只看 “inventor of television” 的 claim；Role E 問的是他的 business fate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "small pinholes",
+      "answerKey": "small pinholes",
+      "type": "Diagram Labelling",
+      "prompt": "Question 8",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baird’s initial work would not have been successful without the previous work of Paul Nipkow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有 Paul Nipkow 之前的工作，Baird 的早期工作便不會成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar disk spun in sync, and a neon lamp reacted to the changes in voltage at the speed required to keep up with the spinning disk and projected the images onto a screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個類似的 disk 同步旋轉，而 neon lamp 按照跟上 spinning disk 所需的速度對 voltage 變化作出反應，並把影像投射到 screen 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會解釋 Nipkow system 的圖像掃描與接收流程。Question 8 指向 disk上 “in a spiral” 的結構，必須在 Nipkow disk 的描述中找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中文字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 Q8 的句子是 “A spinning disk with (8) ______ in a spiral”。原文應該找 spinning disk、spiral、holes 這類詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nipkow came up with the idea of ‘scanning’ a television image by using a spinning disk with a spiral of small pinholes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nipkow 想出用一個帶有螺旋排列 small pinholes 的 spinning disk 來「掃描」television image。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式要來自原文，且不超過三個詞。圖中已給 “in a spiral”，所以空格填 “small pinholes”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中： with ______ in a spiral原文： with a spiral of small pinholes答案判斷答案是 small pinholes。若只填 pinholes，意思也接近；完整原文答案是 small pinholes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "selenium cell",
+      "answerKey": "selenium cell",
+      "type": "Diagram Labelling",
+      "prompt": "Question 9",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baird’s initial work would not have been successful without the previous work of Paul Nipkow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有 Paul Nipkow 之前的工作，Baird 的早期工作便不會成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar disk spun in sync, and a neon lamp reacted to the changes in voltage at the speed required to keep up with the spinning disk and projected the images onto a screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個類似的 disk 同步旋轉，而 neon lamp 按照跟上 spinning disk 所需的速度對 voltage 變化作出反應，並把影像投射到 screen 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是整個 diagram 的來源。Q9 的箭頭指向接收光線、產生電壓的方形部件，所以要找 light falls on what。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中位置定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 Q9 指向 disk 另一側的方形部件。原文相關詞包括 “light”、 “fall on”、 “selenium cell”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“voltage generated”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“When spun at high speed, each hole would allow light to fall on a selenium cell on the other side of the disk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 disk 高速旋轉時，每個孔都會讓光落在 disk 另一側的 selenium cell 上。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The amount of voltage the cell generated would depend on the amount of light reflected from the object being photographed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 cell 產生的 voltage 量，取決於被拍攝物體反射出的光量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Q9 的部件功能正是接收光並產生 voltage，所以答案是 selenium cell。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中方形部件= selenium cell voltage-generating component= the cell generated voltage答案判斷答案是 selenium cell，兩個詞，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "neon lamp",
+      "answerKey": "neon lamp",
+      "type": "Diagram Labelling",
+      "prompt": "Question 10",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baird’s initial work would not have been successful without the previous work of Paul Nipkow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有 Paul Nipkow 之前的工作，Baird 的早期工作便不會成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar disk spun in sync, and a neon lamp reacted to the changes in voltage at the speed required to keep up with the spinning disk and projected the images onto a screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個類似的 disk 同步旋轉，而 neon lamp 按照跟上 spinning disk 所需的速度對 voltage 變化作出反應，並把影像投射到 screen 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接包含 Q10 的答案。圖中 Q10 指向接收端發光的 lamp，所以要填 neon lamp。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中位置定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 Q10 的箭頭指向一個 lamp-like component。原文中接收端同時出現 “similar disk”、“neon lamp”、“screen”。需要按箭頭位置判斷：Q10 指向 lamp，因此是 neon lamp。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar disk spun in sync, and a neon lamp reacted to the changes in voltage at the speed required to keep up with the spinning disk and projected the images onto a screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個類似的 disk 同步旋轉，而 neon lamp 按照跟上 spinning disk 所需的速度對 voltage 變化作出反應，並把影像投射到 screen 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中有兩個接收端部件：similar disk 和 neon lamp。圖中已標示 “A second spinning Disk”，所以空格 Q10 不應再填 disk；箭頭指向 lamp，答案是 neon lamp。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式neon lamp = 2 words，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nipkow died without any of his work being widely recognised.”",
+      "translation": "Nipkow 去世時，他的任何工作都沒有被廣泛認可。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Nipkow created the disk and acquired a patent for his invention, he did not create the apparatus to project images.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Nipkow 創造了 disk 並取得發明 patent，他沒有製造出投射影像的 apparatus。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nipkow became a celebrated scientist in Germany for his work, but the mechanical nature of the Nipkow disk caused the invention to fade into obscurity with the use of the cathode-ray tube.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nipkow 因他的工作在德國成為 celebrated scientist，但 Nipkow disk 的機械性質使這項發明隨cathode-ray tube 的使用而逐漸淡出視野。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後可以看到，段落承認 Nipkow 的技術有局限，也同時說他在德國成為 celebrated scientist。題目說完全沒有 widely recognised，方向需要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Nipkow”、“recognised”。原文沒有 recognised 原字，但有 “celebrated scientist”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "celebrated 表示受到讚揚、知名、有名望。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nipkow became a celebrated scientist in Germany for his work…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nipkow 因他的工作在德國成為一位受讚揚、知名的科學家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “without any of his work being widely recognised”，即完全沒有任何工作受到認可。原文說他 “became a celebrated scientist in Germany for his work”，這直接說明他的工作至少在德國得到認可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "without any work being widely recognised原文： became a celebrated scientist in Germany for his work判斷原文提供相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段中也說 “no one was interested in the work at the time”，這是早期 patent 過期時的情況。題目說他到死都沒有任何工作被認可，範圍大得多；段末 “became a celebrated scientist” 已經推翻這個說法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Korn and Nipkow often met to discuss their work.”",
+      "translation": "Korn 和 Nipkow 經常見面討論他們的工作。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7，並可回看 Paragraph 5–6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Arthur Korn was another German scientist working in the same field as Baird and Nipkow, and it was his work that allowed the development of Nipkow’s work, which in turn led to Baird’s breakthroughs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arthur Korn 是另一位與 Baird 和 Nipkow 在同一領域工作的德國科學家，正是他的工作推動了Nipkow 研究的發展，進一步促成 Baird 的突破。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Korn’s work was celebrated and, from 1928, the German police used his technology to send photographs and fingerprints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Korn 的工作備受讚揚，從 1928 年起，德國警方使用他的技術傳送照片和指紋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，Korn 與 Nipkow 的研究有關聯，但這不自動等於兩人見面。題目加入 “often met to discuss”，需要明確互動證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Korn and Nipkow”、“often met”、“discuss their work”。原文有同一領域、development of Nipkow’s work，但沒有 met、meeting、discussion、correspondence 這類資訊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Arthur Korn was another German scientist working in the same field as Baird and Nipkow…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arthur Korn 是另一位與 Baird 和 Nipkow 在同一領域工作的德國科學家。"
+            },
+            {
+              "kind": "label",
+              "text": "另一個關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“his work that allowed the development of Nipkow’s work”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的工作推動了 Nipkow 工作的發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子只建立學術或技術上的關係：同一領域、技術發展、研究承接。題目要求的是人際互動：經常見面，以及討論工作。文章沒有提供這兩項資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失關係原文有： same field Korn’s work allowed the development of Nipkow’s work原文沒有： often met discussed their work meeting frequency判斷相關背景存在，但核心動作缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“working in the same field” 很容易令人想像他們會交流。IELTS Reading 不能用合理想像補出meeting 和 discussion。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Charles Francis Jenkins was already famous when he experimented with television.”",
+      "translation": "Charles Francis Jenkins 進行 television 實驗時已經很有名。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, another American, Charles Francis Jenkins, also has a claim to being the inventor of television.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，另一位美國人 Charles Francis Jenkins 也有理由被稱為 television 的發明者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people agree that Baird gave his first public demonstration of television a couple of years earlier than Jenkins, but this is disputed in some places.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多數人同意 Baird 第一次公開展示 television 比 Jenkins 早幾年，但在一些地方這仍有爭議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 專門介紹 Jenkins，因此 Q13 直接定位這段。題目問 “already famous”，要找 at the time / well known。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Charles Francis Jenkins”、“already famous”、“experimented with television”。原文對應 “at the time was very well known” 和 “first transmitted a silhouette picture”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jenkins, who at the time was very well known for inventing the motion-picture projector, first transmitted a silhouette picture from one room to another in 1922.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jenkins 當時已因發明 motion-picture projector 而非常知名，他於 1922 年首次把一個 silhouette picture 從一個房間傳送到另一個房間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “at the time” 表示在他進行該 television-related transmission 的時間點；“very well known”對應 already famous。題目 “experimented with television” 概括了 transmitting a silhouette picture 這項早期電視實驗。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "already famous= at the time was very well known experimented with television= first transmitted a silhouette picture from one room to another判斷題目與原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Jenkins 後來因 1929 crash 被迫結束 business，但 Q13 問的是 1922 transmission 時的知名度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "時間點要鎖定 “at the time”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後整理：高頻同義改寫used second-hand parts= created an apparatus using an old hatbox from a second-hand shop, scissors, needles, bicycle-light lenses and an old tea chest first person to move on television= first person to be televised in motion invented= created adopted by the BBC= used by the BBC initially of no interest= no one was interested in the work at the time fight crime= German police used his technology to send photographs and fingerprints financial crisis= the crash of 1929 small pinholes= a spiral of small pinholes selenium cell= light would fall on a selenium cell neon lamp= a neon lamp reacted to changes in voltage widely recognised= became a celebrated scientist often met to discuss= 原文只提供 same field 和 work development，缺少 meeting / discussion already famous= at the time was very well known"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Invention of Television.pdf",
+    "sha256": "b1729d04aae97fe447da8220ecae0fa7e02fa2a0269ac86f17af169d780001ec",
+    "pageCount": 19
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看第一句，讀者會先知道 “Who invented television?” 這個問題看似簡單，答案卻很有爭議。最後一句說，今日我們所理解的 television 並非由單一一人完成，功勞應歸於多位 inventors。首尾句顯示，這段是全文總引入：文章不會只追捧一位發明家，接下來會分別介紹 Baird、Farnsworth、Nipkow、Korn、Jenkins 等人的貢獻，並說明為何「電視發明者」這個稱號難以單獨判定。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說，很多人認為 Scotsman John Logie Baird 是 television 的發明者。最後一句說，Baird也使用 Paul Nipkow 創造的 Nipkow disk，而且他的很多工作都建基於 Arthur Korn 之前的研究。首尾句顯示，這段一方面介紹 Baird 的早期發明能力，另一方面提示他的成功也依賴前人技術。中間提到 selenium、second-hand parts、hatbox、scissors、needles 等，是 Q1 的直接來源。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說，1924 年 2 月，Baird 在 television device 上展示 moving silhouette images。最後一句說，他因拒絕公司股份 £100,000 的提議而成名，因為他說擁有那麼多錢會令自己睡不著。首尾句顯示，這段集中整理 Baird 的多項 firsts：first public display、William Taynton 成為第一個動態全色調被電視播放的人、colour television images、transatlantic pictures，以及 Baird 的個人性格故事。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說，Philo Farnsworth 於 1927 年在 San Francisco 成功展示 electronic television，而且使用不同系統。最後一句說，Russian inventor Vladimir Zworykin 在這項工作上發展，最終 BBC 使用 Zworykin 的設計取代 Baird 的系統。首尾句顯示，這段是 electronic television 的技術線： Farnsworth 的 image dissector 把圖像轉成電線訊號，再還原成畫面；Zworykin 的設計則在英國廣播系統中獲實際採用。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說，Baird 的早期工作若沒有 Paul Nipkow 的前期研究，便無法成功。最後一句說，在接收端，另一個同步旋轉的 disk 配合 neon lamp，根據 voltage 變化把影像投射到 screen 上。首尾句顯示，這段講 Nipkow disk 的運作流程。中間會解釋 spinning disk、spiral of small pinholes、selenium cell、voltage、one frame of video 等，是 diagram labelling Q8–10 的核心段落。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說，雖然 Nipkow 創造了 disk 並取得 patent，他沒有製造出投射影像的 apparatus。最後一句說，Nipkow 後來因這項工作在德國成為 celebrated scientist，但 Nipkow disk 的機械性質使它隨 cathode-ray tube 的使用逐漸沉寂。首尾句顯示，這段處理 Nipkow 的成就與限制：他的構想早期未受重視，patent 過期，但他後來仍獲得名聲。Q5 和 Q11 都在這段。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說，Arthur Korn 是另一位和 Baird、Nipkow 在同一領域工作的 German scientist，他的工作推動 Nipkow 的研究發展，進一步促成 Baird 的突破。最後一句說，Korn 的技術從 1928 年起被 German police 用來傳送 photographs and fingerprints。首尾句顯示，這段介紹 Korn 的圖像傳輸技術：他透過 amplification-tube technology 傳送視覺圖像，並且他的技術有警務用途。Q6 和Q12 會用到這段。"
+      },
+      {
+        "number": "8",
+        "summary": "第一句說，另一位 American，Charles Francis Jenkins，也有理由被稱為 television inventor。最後一句說，多數人同意 Baird 的第一次 public demonstration 比 Jenkins 早幾年，但有些地方仍有爭議。首尾句顯示，這段是 Jenkins 的 claim：他早已因 motion-picture projector 聞名，1922 年傳送 silhouette picture，1928 年創立 broadcasting company，但 1929 crash 使其 business 失敗。 Q7 和 Q13 來自這段。"
+      },
+      {
+        "number": "9",
+        "summary": "第一句說，任何人聲稱自己是 television inventor 都會引起爭議，這一點很容易理解。最後一句說，很多時候，回答 “Who invented television?” 這個問題，取決於答題者來自哪個國家。首尾句顯示，這段是全文總結。作者把前面多位發明者的貢獻收束起來，指出答案常受 national perspective 影響。這段沒有直接細節題，但強化全文主旨：television 的發明是多國、多人的累積成果。 Answer Key 1. D 2. C 3. F 4. A 5. G 6. B 7. E 8. small pinholes 9. selenium cell 10. neon lamp 11. FALSE 12. NOT GIVEN 13. TRUE註：你貼出的 Questions 8–10 沒有附上 diagram，只有 placeholder。我用同版題目的圖核對空格位置：8 指向 disk 上的螺旋孔，9 指向 selenium cell，10 指向 neon lamp。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 8–10 的原題 diagram 沒有在現有來源中顯示，只有 placeholder。來源 PDF 用同版題圖核對空格位置：8 指向 disk 上的螺旋孔、9 指向 selenium cell、10 指向 neon lamp；實際作答時應以紙本圖為準。"
+  ]
+}

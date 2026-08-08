@@ -1,0 +1,2009 @@
+{
+  "id": "p1-004-its-only-a-cockroach",
+  "catalogueId": "p1-004",
+  "catalogueIds": [
+    "p1-004"
+  ],
+  "passage": 1,
+  "title": "It’s Only a Cockroach",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "disgusting appearance",
+    "domestic hygiene",
+    "wasp",
+    "flatten",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "pheromones",
+    "co-operate",
+    "admiration",
+    "B",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "disgusting appearance",
+      "answerKey": "disgusting appearance",
+      "type": "Short-answer Questions",
+      "prompt": "“What aspect of cockroaches makes the author want them removed from the home?”",
+      "translation": "cockroaches 的哪一方面令作者想把牠們從家中清除？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 “What aspect”，所以答案應該是某種特徵或方面。最有定位力的字是 “want them removed from the home”，原文可能用 eradicated from my apartment 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 和 Paragraph 2 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I turn on the light in my kitchen that night, and then I see it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那天晚上我打開廚房燈，然後看見了牠。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And this is not just to me, but to everyone it seems, even to the point of phobic responses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這似乎不只我一個人這樣，甚至很多人會出現接近恐懼症的反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 1 首尾句，可以先猜本段是作者看到 cockroach 後的恐懼和厭惡反應。Question 1 問作者想清除 cockroaches 的原因，所以要接着看 Paragraph 2 的開頭，因為它承接 “This”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“want them removed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“home”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is certainly the over-riding reason I want these creatures totally eradicated from my apartment…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這當然是我想把這些生物從我的 apartment 中完全消滅的最主要原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “This” 要回看前一句，也就是 cockroach 的外貌描寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正答案句在 Paragraph 1："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s only a cockroach, but its large size, long antennae, shiny appearance, and spiny legs, all present a particularly disgusting appearance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠只是一隻 cockroach，但牠的大體型、長觸角、閃亮外表和帶刺的腳，都呈現出一種特別噁心的外貌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 aspect，原文用總結短語 “disgusting appearance”。Paragraph 2 的 “This is certainly the over-riding reason” 指回這種外貌上的厭惡感。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "want them removed from the home= want these creatures totally eradicated from my apartment aspect= appearance disgusting appearance= particularly disgusting appearance答案形式： disgusting appearance = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 也提到 offensive odour、microbes、droppings。這些是衛生威脅，但題目問作者想清除牠們的主要 aspect，Paragraph 2 的 “This” 指回 Paragraph 1 的 disgusting appearance。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "domestic hygiene",
+      "answerKey": "domestic hygiene",
+      "type": "Short-answer Questions",
+      "prompt": "“What human aspect do they endanger?”",
+      "translation": "牠們危害人類生活中的哪一方面？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 endanger，原文可能用 threat。答案應是被威脅的對象。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is certainly the over-riding reason I want these creatures totally eradicated from my apartment, but with their offensive odour, passive transportation of microbes, and trails of droppings, they also pose a distinct threat to domestic hygiene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這當然是我想把牠們從 apartment 中完全消滅的主要原因；加上牠們的難聞氣味、被動攜帶微生物，以及留下糞便痕跡，牠們也對 domestic hygiene 構成明顯威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I need a way to kill them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我需要一個殺死牠們的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 2 由厭惡感推進到衛生威脅和滅蟲需求。題目問 endanger 的human aspect，答案幾乎在第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“endanger”"
+            },
+            {
+              "kind": "quote",
+              "text": "“human aspect”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的近義詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“pose a distinct threat to domestic hygiene”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 domestic hygiene 構成明顯威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“threat to” 對應 endanger。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵短語：“they also pose a distinct threat to domestic hygiene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們也對家庭衛生構成明顯威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “human aspect” 其實指人類家居生活中需要維持的衛生層面。原文答案是 domestic hygiene。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "endanger= pose a distinct threat to human aspect= domestic hygiene答案形式： domestic hygiene = 2 words，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “microbes” 或 “droppings”。它們是造成衛生威脅的原因。題目問被危害的方面，答案要落在 domestic hygiene。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "wasp",
+      "answerKey": "wasp",
+      "type": "Short-answer Questions",
+      "prompt": "“Which insect is the best cockroach killer?”",
+      "translation": "哪一種昆蟲是最好的 cockroach killer？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 Which insect，所以答案要是一種昆蟲名稱。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“cockroach killer”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3第一句：“The most precise cockroach killer is, typically, another insect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最精準的 cockroach killer 通常是另一種昆蟲。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wasp bites off the antennae to further discourage flight, then drags its victim away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這隻 wasp 會咬掉 cockroach 的觸角，進一步阻止牠逃跑，然後把受害者拖走。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 3 介紹一種會精準獵殺 cockroach 的昆蟲。第一句有cockroach killer，最後一句明確說出 wasp，所以這段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cockroach killer”"
+            },
+            {
+              "kind": "label",
+              "text": "原文緊接着說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A specific species of wasp targets these creatures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種特定 wasp 會鎖定這些生物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接給出昆蟲名稱。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most precise cockroach killer is, typically, another insect. A specific species of wasp targets these creatures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最精準的 cockroach killer 通常是另一種昆蟲。一種特定 wasp 會鎖定這些生物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “another insect” 在下一句被具體化為 “a specific species of wasp”。所以答案是 wasp。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "best cockroach killer= most precise cockroach killer which insect= a specific species of wasp答案形式： wasp = 1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 也提到 house centipede，並說它可能是最有效的 cockroach predator。可是Question 3 用的是 “cockroach killer”，直接對應 Paragraph 3 的 “most precise cockroach killer”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果題目問 “most effective predator”，house centipede 會更有力；本題最貼近 wasp。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "flatten",
+      "answerKey": "flatten",
+      "type": "Short-answer Questions",
+      "prompt": "“What can cockroaches do to easily hide?”",
+      "translation": "cockroaches 能做甚麼，使牠們容易躲藏？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 can do，所以答案應是動作。定位詞是 “hide”，原文可能用conceal、disappear、tiny nook 等。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Faced with such predation, cockroaches usually conceal themselves during the day, and with their ability to flatten their bodies, they can disappear into just about any tiny nook, crevice, and cranny.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對這種捕食壓力，cockroaches 通常會在白天躲藏起來；由於牠們能把身體壓扁，幾乎可以消失在任何細小角落、裂縫和縫隙中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I just can’t win this game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我怎樣也贏不了這場遊戲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接講 cockroaches 的躲藏方式，段末則回到作者的無奈語氣。題目問 hide，所以第一句就是目標句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“hide”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“conceal themselves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flatten their bodies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disappear into ... tiny nook, crevice, and cranny”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中真正回答 “what can they do” 的動作是 flatten。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“with their ability to flatten their bodies”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "憑藉牠們把身體壓扁的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完整邏輯是：cockroaches 能 flatten their bodies，所以可以鑽入 tiny nook、crevice、cranny，達到conceal themselves 的效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目限制是 NO MORE THAN TWO WORDS。原文完整短語 “flatten their bodies” 有三個字，因此最穩妥的簡答是 flatten。若教學時補充完整意思，可以寫：flatten = flatten their bodies。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "easily hide= conceal themselves / disappear into tiny cracks what can they do= flatten their bodies答案形式： flatten = 1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “disappear”。disappear 是結果；造成這個結果的能力是 flatten。題目問 can do to hide，重點在動作能力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The author finds cockroaches more repulsive than centipedes.”",
+      "translation": "作者覺得 cockroaches 比 centipedes 更令人反感。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要求比較 cockroaches 和 centipedes 的 repulsive 程度。定位詞是 centipedes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Faced with such predation, cockroaches usually conceal themselves during the day, and with their ability to flatten their bodies, they can disappear into just about any tiny nook, crevice, and cranny.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對捕食壓力，cockroaches 白天通常躲起來，並能把身體壓扁，鑽進極小縫隙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I just can’t win this game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我怎樣也贏不了這場遊戲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講 cockroaches 躲藏能力和作者的挫敗感。centipede 出現在本段中間，所以這段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“centipedes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“repulsive”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, I would say that centipedes are even more disgusting to have in one’s house, if that’s possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不幸的是，我會說如果這還可能的話，centipedes 在家中甚至更令人噁心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說作者覺得 cockroaches 比 centipedes 更 repulsive。原文說 “centipedes are even more disgusting”。“even more” 是比較訊號，方向很清楚：作者覺得 centipedes 更噁心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：author比較：cockroaches more repulsive than centipedes原文命題：主體：author比較：centipedes are even more disgusting比較結果：比較方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章大部分都在描述 cockroaches 的噁心，所以學生容易用整體印象答題。這題要看比較句中的 even more disgusting，真正比較對象是 centipedes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cockroaches live longer than many other insects.”",
+      "translation": "cockroaches 比許多其他昆蟲活得更久。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問 lifespan 的比較。定位詞是 live longer、insects。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hidden there, the female lays egg capsules containing around 40 eggs, and with the insect’s relatively long lifespan (about a year), some 300 to 400 offspring can ultimately be produced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雌性 cockroach 藏在那裡，產下含約 40 顆卵的 egg capsules；由於這種昆蟲壽命相對較長，大約一年，最終可以產出 300 至 400 隻後代。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result: once these insects have infested a building, they are very difficult to eradicate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是，一旦這些昆蟲侵入建築物，就非常難以根除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段講 cockroach 繁殖和難以清除的原因。壽命資訊直接在第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“live longer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many other insects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“the insect’s relatively long lifespan (about a year)”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種昆蟲相對較長的壽命，大約一年。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有逐字說 “than many other insects”，但 “relatively long lifespan” 本身帶有比較意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "relatively 表示「相對而言」，在這段語境中是和一般昆蟲壽命作比較。題目把這個比較具體說成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“longer than many other insects”。題目命題：主體：cockroaches內容：live longer than many other insects原文命題：主體：the insect內容：relatively long lifespan, about a year比較結果：原文支援 cockroaches 的壽命相對較長，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不是問牠們是否壽命很長到可以多年生存。原文清楚限定 “about a year”。TRUE 的基礎是relatively long，不是無限延伸成多年壽命。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cockroaches will fight over food.”",
+      "translation": "cockroaches 會為食物而打鬥。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問 cockroach 的社會行為，尤其是牠們是否會因資源而互相爭鬥。定位詞是 fight、food。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cockroaches do, however, have some subtleties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，cockroaches 其實也有一些細緻之處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These creatures, it seems, prefer the company of others, and a rather fair location of resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些生物似乎喜歡同類陪伴，也偏好相當公平的資源分配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段會講 cockroaches 較複雜的社交行為。題目中的 fight over food 和本段的co-operate / fair resources 形成明顯比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fight”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They leave chemical messages in their droppings, as well as emit airborne pheromones to signal other cockroaches about sources of food and water…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們會在糞便中留下化學訊息，也會散發空氣中的 pheromones，告訴其他 cockroaches 食物和水源的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "再看核心判斷句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research has shown that cockroaches make group-based decisions, and tend to co-operate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，cockroaches 會作出群體式決定，並且傾向合作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說牠們會 fight over food。原文呈現的行為方向不同：牠們會告訴同伴 food and water sources，會 group-based decisions，並 tend to co-operate。段落最後也說牠們偏好 “a rather fair location of resources”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：cockroaches動作：fight over food原文命題：主體：cockroaches動作：signal food sources, make group-based decisions, co-operate資源分配：rather fair比較結果：原文描述合作和公平分配，與 fight over food 的方向相衝，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到 food，但食物在這裡是溝通內容，不是爭鬥原因。看到 food 原字重現後，要繼續讀動詞：signal、co-operate、fair location 才是定案資訊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cockroaches are often the subject of research.”",
+      "translation": "cockroaches 經常是研究對象。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目控制詞是 often，要求文章提供研究頻率。只看到research 或 study 不夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cockroaches do, however, have some subtleties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，cockroaches 其實也有一些細緻之處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These creatures, it seems, prefer the company of others, and a rather fair location of resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些生物似乎喜歡同類陪伴，也偏好相當公平的資源分配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜本段會引用研究來說明 cockroaches 的社交行為。題目問 often subject of research，需要查看是否有頻率資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“often”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research has shown that cockroaches make group-based decisions, and tend to co-operate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，cockroaches 會作出群體式決定，並且傾向合作。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“One study placed a large number of cockroaches in a dish with three small shelters…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項研究把大量 cockroaches 放進一個有三個小庇護處的碟子裡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到 research 和 one study，但題目說 “often the subject of research”。often 是頻率詞，需要文章提供「經常被研究」的資訊，例如 many studies、frequently studied、often researched等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有： Research has shown One study原文缺少：研究頻率是否經常和其他昆蟲相比是否更常被研究題目命題：主體：cockroaches內容：often the subject of research原文命題：主體：cockroaches內容：有研究顯示牠們會合作；有一項研究測試牠們如何分配 shelters比較結果：文章有研究例子，但沒有研究頻率。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Research has shown” 很容易令人選 TRUE。真正缺少的是 often。IELTS 判斷題常用頻率詞把一句相關資訊變成資料不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "pheromones",
+      "answerKey": "pheromones",
+      "type": "Summary Completion",
+      "prompt": "“Cockroaches use 9__________ in the air to communicate…”",
+      "translation": "cockroaches 使用空氣中的 9__________ 來溝通。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前是 use，後面是 in the air to communicate，答案應是某種用於溝通的物質。題目中的 “in the air” 很關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cockroaches do, however, have some subtleties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，cockroaches 其實也有一些細緻之處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These creatures, it seems, prefer the company of others, and a rather fair location of resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些生物似乎喜歡同類陪伴，也偏好相當公平的資源分配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段講 cockroaches 的溝通和社交行為。題目問 communication，所以目標段落是 Paragraph 7。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the air”"
+            },
+            {
+              "kind": "quote",
+              "text": "“communicate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They leave chemical messages in their droppings, as well as emit airborne pheromones to signal other cockroaches about sources of food and water, and alert them to their own presence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們會在糞便中留下化學訊息，也會散發 airborne pheromones，向其他 cockroaches 傳遞食物和水源資訊，並讓同伴知道自己的存在。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “in the air” 對應原文 “airborne”。airborne pheromones 指在空氣中傳播的費洛蒙。題目用 “use ___ in the air to communicate” 改寫 “emit airborne pheromones to signal other cockroaches”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "in the air= airborne communicate= signal other cockroaches / alert them答案形式： pheromones = 1 word，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “droppings”。droppings 也能留下 chemical messages，但題目特別說 “in the air”，所以答案要來自 airborne pheromones。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "co-operate",
+      "answerKey": "co-operate",
+      "type": "Summary Completion",
+      "prompt": "“...and show a willingness to 10__________…”",
+      "translation": "並顯示牠們願意 10__________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前是 willingness to，答案應是動詞原形。定位詞是 willingness、group-based decisions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cockroaches do, however, have some subtleties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，cockroaches 其實也有一些細緻之處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These creatures, it seems, prefer the company of others, and a rather fair location of resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們似乎喜歡同類陪伴，也偏好相當公平的資源分配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段從溝通講到群體決策，所以 Question 10 的答案應該在 group behaviour 的句子附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“willingness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“show”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research has shown that cockroaches make group-based decisions, and tend to co-operate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，cockroaches 會作出群體式決定，並傾向合作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “show a willingness to ___” 改寫原文 “tend to co-operate”。tend to 表示有傾向，和willingness to 在意思上接近。空格前的 to 要接動詞原形，因此 co-operate 正好符合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "show a willingness to= tend to co-operate= co-operate答案形式： co-operate = 1 word，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “group-based”。它是 decisions 的形容詞，不可接在 willingness to 後面。文法會幫你排除：willingness to group-based 不成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "admiration",
+      "answerKey": "admiration",
+      "type": "Summary Completion",
+      "prompt": "“...yet the author struggles to feel 11__________ for these insects.”",
+      "translation": "可是作者很難對這些昆蟲感到 11__________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前是 feel，後面是 for these insects，答案應是一種感受名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 struggles to feel，原文可能是問句或情緒詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Should I therefore feel any admiration?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼我是否應該感到任何 admiration？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet in the Pixar animated feature ‘Wall-E’, a cockroach provides essential companionship to a lone robot living on a planet scorched by a nuclear holocaust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，在 Pixar 動畫電影《Wall-E》中，一隻 cockroach 為一個孤獨機械人在核災後燒焦的星球上提供重要陪伴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經出現 admiration，並以疑問方式呈現作者是否能產生欣賞。題目說 struggles to feel，對應後一句 “It is hard”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“feel”"
+            },
+            {
+              "kind": "quote",
+              "text": "“admiration”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Should I therefore feel any admiration? It is hard…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼我是否應該感到任何欽佩？這很難。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文問句和後一句合併：原文：Should I therefore feel any admiration?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：It is hard."
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：the author struggles to feel admiration."
+            },
+            {
+              "kind": "paragraph",
+              "text": "“It is hard” 對應 struggles to。作者承認 cockroaches 有社交、合作等細緻行為，但文化上和個人感受上仍很難欣賞牠們。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "struggles to feel= It is hard admiration= admiration答案形式： admiration = 1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “repulsive” 或 “dirty”。它們是文化形象或作者厭惡的描述。題目問作者很難感受到的正面情緒，答案是 admiration。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — is a famous character.",
+      "answerKey": "B — is a famous character.",
+      "type": "Multiple Choice",
+      "prompt": "“Gregor”",
+      "translation": "Gregor 這個人物……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題幹只有人物名，所以要定位 Gregor 在原文中的句子，再判斷哪個選項最準確。重點是不要把 “probably a cockroach” 讀成確定事實。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Should I therefore feel any admiration?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼我是否應該感到任何欽佩？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet in the Pixar animated feature ‘Wall-E’, a cockroach provides essential companionship to a lone robot living on a planet scorched by a nuclear holocaust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，在 Pixar 動畫《Wall-E》中，一隻 cockroach 為孤獨機械人提供重要陪伴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 8 講 cockroach 的文化形象。Gregor 出現在中間的文學例子中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gregor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the insect’s most famous literary appearance – Franz Kafka’s ‘The Metamorphosis’ – a man, Gregor, is transformed overnight into a monstrous insect, probably a cockroach (although the story never quite makes that clear).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種昆蟲最著名的文學出現中，也就是 Franz Kafka 的《變形記》中，一個名叫 Gregor 的男人一夜之間變成一隻巨大的昆蟲，可能是 cockroach，雖然故事從未完全說清楚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說 “becomes a cockroach”。原文較謹慎：Gregor 變成 “a monstrous insect”，並說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“probably a cockroach”，括號還補充 “the story never quite makes that clear”。所以 A 把可能性說成確定事實，太強。選項 B 說 “is a famous character”。原文把這個故事稱為 “the insect’s most famous literary appearance”，Gregor 就是這個著名文學出現中的人物。B 雖然概括，但比 A 更安全，因為文章明確把這個文學例子放在 most famous literary appearance 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A becomes a cockroach.問題在於 cockroach 身份未被明確確認。原文說 probably，並加上故事沒有說清楚。 B is a famous character.正確。Gregor 出現在 cockroach / insect 最著名的文學例子中。 C despises his friends.錯。原文說 family and friends cannot accept him；沒有說 Gregor despises them。 D needs companionship.錯。companionship 是 Wall-E 中 cockroach 給 robot 的功能，不是 Gregor 的描述。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 最吸引人，因為本文主題是 cockroach，且原文也說 probably a cockroach。可是括號中的“never quite makes that clear” 是控制答案的細節。MCQ 要選最穩定受原文支持的一項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B — kill the cockroach.",
+      "answerKey": "B — kill the cockroach.",
+      "type": "Multiple Choice",
+      "prompt": "“The author wants to”",
+      "translation": "作者想要……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題幹問作者意圖。定位詞是 wants to，原文可能用 need、determined to、squash。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the case, I am faced with a big problem: a large ugly cockroach crawling slowly across my sink, antennae waving as it explores around.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論如何，我面前有一個大問題：一隻又大又醜的 cockroach 正慢慢爬過我的水槽，觸角一邊揮動一邊探索。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Oh, just what I need, they can fly, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "噢，真是我最不需要的事：牠們竟然也會飛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷結尾段回到眼前那隻 cockroach。作者面對牠、想處理牠，最後卻因牠會飛而失敗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wants to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有兩個相關位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“If I try to grab it, it will dart away…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我試著抓牠，牠會迅速逃走。"
+            },
+            {
+              "kind": "quote",
+              "text": "“So, I carefully remove my slipper, determined to squash the insect…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，我小心地脫下拖鞋，下定決心要把這隻昆蟲壓扁。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正表示作者意圖的是 “determined to squash the insect”。squash 在這裡是用拖鞋把昆蟲壓死。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目選項 B “kill the cockroach” 正好概括這個意圖。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A catch the cockroach.只符合 “If I try to grab it” 這個假設。作者隨後改用 slipper，目標變成 squash。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B kill the cockroach.正確。determined to squash the insect 表示想殺死牠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C touch the cockroach.錯。作者厭惡牠，沒有想觸摸牠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D fly like a cockroach.錯。最後發現 cockroach 會飛是作者的驚恐，不是願望。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "kill= squash the cockroach= the insect author wants to= determined to"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 有一定吸引力，因為原文出現 grab。可是 grab 只是假設動作，作者真正採取的方案是拿slipper squash。答案要跟 “determined to” 這個意圖訊號走。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - It’s Only a Cockroach.pdf",
+    "sha256": "3616c56d80f28f5fd3eeee06d78f48ee9fb7df9c01c43febcceb9d9d62ffe074",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說作者晚上打開廚房燈，立刻看見一隻 cockroach。末句說這種反應似乎不只作者有，甚至可到 phobic responses 的程度。只看首尾句，可以先判斷本段是個人恐懼引入：作者把cockroach 的外貌寫得很強烈，重點不是生物知識，更多是牠令人反感的外形和人類本能厭惡。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說這正是作者想把牠們從 apartment 中完全清除的主要原因。末句說雖然作者封住入口，這些令人厭惡的東西仍能進入屋內，於是作者需要殺死牠們的方法。只看首尾句，可以判斷本段由厭惡轉向衛生和控制問題：cockroaches 不只外貌噁心，也威脅 domestic hygiene。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說最精準的 cockroach killer 通常是另一種昆蟲。末句說 wasp 咬掉 cockroach 的 antennae來阻止牠逃跑，再把受害者拖走。只看首尾句，可以判斷本段介紹 wasp 如何獵殺 cockroach：牠先造成暫時麻痺，再攻擊控制逃跑本能的大腦區域，最後讓 cockroach 變得順從且無法逃脫。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說面對捕食者，cockroaches 白天通常躲藏起來，並可把身體壓扁，鑽進細小縫隙。末句說作者覺得自己在這場遊戲中怎樣也贏不了。只看首尾句，可以判斷本段主要講 cockroaches 的躲藏能力，以及另一種天敵 house centipede。段落後半帶有作者的幽默挫敗感。"
+      },
+      {
+        "number": "5",
+        "summary": "首句問是否有人能贏過 cockroaches，接着說牠們幾乎是地球上最頑強的昆蟲。末句說牠們不太能應付寒冷，較喜歡建築物內的溫暖和安全。只看首尾句，可以判斷本段講 cockroaches 的生存力：牠們能長時間不吃、靠極少營養存活、缺氧半小時仍能活，只有寒冷是較明顯弱點。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說雌性 cockroach 會在建築物內產下含約 40 顆卵的 egg capsules。末句說一旦牠們侵入建築物，就很難徹底消滅。只看首尾句，可以判斷本段講繁殖力和 infestation 問題：牠們壽命約一年，能產出 300 至 400 隻後代，所以一旦在屋內建立族群，清除難度很高。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 cockroaches 其實也有一些 subtleties。末句說牠們似乎喜歡同類陪伴，也偏好資源的公平分配。只看首尾句，可以判斷本段由厭惡轉到行為研究：cockroaches 會用 droppings 和airborne pheromones 溝通，也會作 group-based decisions，甚至展現合作和社交傾向。"
+      },
+      {
+        "number": "8",
+        "summary": "首句問作者是否應該因此感到 admiration。末句說 Pixar 的 Wall-E 中，一隻 cockroach 成為孤獨機械人在核災後地球上的重要陪伴。只看首尾句，可以判斷本段討論 cockroach 的文化形象：西方文化多把牠們視為骯髒害蟲，但文學和電影中也有象徵孤立、陪伴和生存的例子。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說無論如何，作者眼前仍有一個大問題：一隻大而醜的 cockroach 正在水槽上爬行。末句說作者驚覺牠們竟然也會飛。只看首尾句，可以判斷結尾回到開場場景：作者想用 slipper 壓死牠，卻因 cockroach 起飛而再次驚恐，形成幽默又令人不安的收束。"
+      }
+    ]
+  }
+}

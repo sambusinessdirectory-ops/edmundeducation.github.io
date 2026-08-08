@@ -1,0 +1,2091 @@
+{
+  "id": "p1-128-satellite-technology",
+  "catalogueId": "p1-128",
+  "catalogueIds": [
+    "p1-128"
+  ],
+  "passage": 1,
+  "title": "Satellite Technology",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "iv",
+    "vii",
+    "iii",
+    "ii",
+    "ix",
+    "F",
+    "B",
+    "D",
+    "A",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "iv — An ancient invention connected with the future",
+      "answerKey": "iv — An ancient invention connected with the future",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph A 選出最能概括整段的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rocket technology has progressed considerably since the days of ‘fire arrows’ (bamboo poles filled with gunpowder) first used in China around 500 BC and later, during the Sung Dynasty, used to repel Mongol invaders at the battle of Kaifeng (Kai-fung fu) in AD 1232.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從中國約公元前 500 年首次使用「火箭」——即填滿火藥的竹竿，後來宋朝又用它們在開封之戰抵禦蒙古入侵者以來，火箭技術已有長足進步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These ancient rockets stand in stark contrast to the present-day Chinese rocket launch vehicles, called the ‘Long March’, intended to place a Chinese astronaut in space by 2005 and, perhaps, to achieve a Chinese moon landing by the end of the decade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些古代火箭與今日中國的「長征」運載火箭形成鮮明對比；後者旨在於 2005 年前把中國太空人送上太空，甚至可能在這個十年結束前實現中國登月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 的功能很清楚：它從古代中國 fire arrows 開始，最後轉到現代中國Long March 和未來登月計劃。段落核心是「古代技術來源」和「未來太空目標」之間的連線。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading iv 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“ancient invention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“connected with the future”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 中對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“fire arrows”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first used in China around 500 BC”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ancient rockets”"
+            },
+            {
+              "kind": "quote",
+              "text": "“present-day Chinese rocket launch vehicles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Chinese moon landing by the end of the decade”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不只說火箭曾經在古代中國使用，也把它們和現代中國太空計劃作對比。heading iv 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ancient invention” 對應 fire arrows；“connected with the future” 對應 Long March、astronaut in space 和 moon landing。為何不選 vi “Rockets used in ancient China”？ vi 只覆蓋段落前半。Paragraph A 的最後一句明顯轉到 present-day 和 future ambitions，所以 vi無法概括整段。iv 更完整，因為它同時收住古代發明和未來用途。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "fire arrows / ancient rockets= ancient invention present-day launch vehicles / astronaut / moon landing= connected with the future所以 Question 1 答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "vii — Past space development in Asia",
+      "answerKey": "vii — Past space development in Asia",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph B 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the last decade, there has been a dramatic growth in space activities in Asia both in the utilisation of space-based services and the production of satellites and launchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在過去十年，亞洲的太空活動大幅增長，既包括使用太空服務，也包括生產衛星和發射器。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asian nations have been particularly eager to embrace these developments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲國家尤其積極接受這些發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都在談亞洲太空活動的增長和亞洲國家對相關發展的接受。這段主要功能是概述亞洲近期或過去一段時間的太空發展。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vii 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Past”"
+            },
+            {
+              "kind": "quote",
+              "text": "“space development”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 中對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the last decade”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dramatic growth in space activities in Asia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rapid expansion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia will become a world space power”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This rapid expansion has led many commentators and analysts to predict that Asia will become a world space power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種快速擴張令許多評論者和分析人士預測，亞洲將成為世界太空強權。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把過去十年的 growth 連到未來可能成為 space power。Paragraph B 的重點是亞洲太空活動已經快速擴張，並在多個應用領域產生影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選其他 headings？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iii “Innovative applications driven by competition” 更適合 Paragraph C，因為 C 段一開始就是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“New and innovative uses”。viii “Non-technological factors count” 更適合 Paragraph G 或Paragraph D 末段，不是 B 段主題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dramatic growth / rapid expansion= development in the last decade= past / recent past space activities in Asia= space development in Asia所以 Question 2 答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "iii — Innovative applications driven by competition",
+      "answerKey": "iii — Innovative applications driven by competition",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph C 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New and innovative uses for satellites are constantly being explored with potential revolutionary effects, such as in the field of health and telemedicine, distance education, crime prevention (piracy on the high seas), food and agricultural planning and production (rice crop monitoring).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "衛星的新穎創新用途正不斷被探索，可能帶來革命性影響，例如健康和遠距醫療、遙距教育、防止犯罪、食物與農業規劃及生產等。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is, however, important to understand and assess the factors and forces that shape Asian space activities and development, and to determine their possible consequences for the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，理解和評估塑造亞洲太空活動及發展的因素和力量，並判斷它們對該地區可能造成的後果，是很重要的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段先講 satellite applications，再講塑造亞洲太空發展的 forces。中間句子正好提到 competitive commercial space sector，所以 heading iii 覆蓋得最完整。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading iii 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Innovative applications”"
+            },
+            {
+              "kind": "quote",
+              "text": "“competition”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 中對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“New and innovative uses for satellites”"
+            },
+            {
+              "kind": "quote",
+              "text": "“competitive commercial space sector”"
+            },
+            {
+              "kind": "quote",
+              "text": "“low-cost mini-satellites”"
+            },
+            {
+              "kind": "quote",
+              "text": "“globalisation of industrial and financial markets”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Space in Asia is very much influenced by the competitive commercial space sector, the emergence of low-cost mini-satellites, and the globalisation of industrial and financial markets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲太空發展深受競爭性的商業太空產業、低成本小型衛星的出現，以及工業和金融市場全球化影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “competitive commercial space sector” 直接支援 heading 裡的 “driven by competition”。段首的 innovative uses 則支援 “Innovative applications”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 viii “Non-technological factors count”？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 的確提到 factors and forces，但整段的開端和主線仍集中在 innovative uses、commercial competition、mini-satellites 和 globalisation。viii 更適合後文專門討論 economics、politics、culture、history 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "new and innovative uses= innovative applications competitive commercial space sector= driven by competition所以 Question 3 答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "ii — Uneven development of an essential space technology",
+      "answerKey": "ii — Uneven development of an essential space technology",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph E 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia, particularly Southeast Asia, suffers from a long list of recurrent large-scale environmental problems including storms and flooding, forest fires and deforestation, and crop failures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲，尤其是東南亞，長期遭受一連串反覆出現的大型環境問題，包括風暴、洪水、森林火災、森林砍伐和農作物失收。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s satellite manufacturing was based on the old and traditional defence and military procurement methodologies as practised in the US and Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本的衛星製造建基於美國和歐洲所採用的舊式傳統國防及軍事採購方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句指出東南亞很需要 remote sensing，因為環境問題嚴重；段中說 ASEAN 成員沒有自己的remote sensing satellites，但有處理外國衛星數據的設施；段後半又說 Japan 是 dominant space power。這形成明顯的「發展不均」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ii 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uneven development”"
+            },
+            {
+              "kind": "quote",
+              "text": "“essential space technology”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 中對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“remote sensing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“has attracted the most attention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“provide essential information”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ASEAN members… do not have their own remote sensing satellites”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan is regarded as the dominant space power in Asia”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Remote sensing satellites equipped with instruments to take photographs of the ground at different wavelengths provide essential information for natural resource accounting, environmental management, disaster prevention and monitoring, land-use mapping, and sustainable development planning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "配備儀器、能以不同波長拍攝地面的遙感衛星，為自然資源核算、環境管理、災害預防和監測、土地使用繪圖，以及可持續發展規劃提供重要資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援 “essential space technology”。接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“ASEAN members, unlike Japan, China, and India, do not have their own remote sensing satellites…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ASEAN 成員與日本、中國和印度不同，沒有自己的遙感衛星。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援 “uneven development”。有些國家有衛星，有些只能接收、處理和解讀外國衛星資料；日本則達到西方水準。heading ii 最能概括這種不均衡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 i “Essential assistance from Western countries”？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段中確實提到 American and European satellites，但重點不在「西方援助」。它們是 ASEAN 使用資料的來源之一。全段焦點更大：remote sensing 很重要，而亞洲不同地區能力落差明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 4 答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "ix — A competitive edge gained through more affordable satellites",
+      "answerKey": "ix — A competitive edge gained through more affordable satellites",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph F 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In recent years there have been fundamental changes in the way satellites are designed and built to drastically reduce costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年，衛星設計和製造方式出現根本改變，目的是大幅降低成本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The global increase in technology-transfer mechanisms and the use of readily available commercial technology to replace costly space and military-standard components may very well result in a highly competitive Asian satellite manufacturing industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球技術轉移機制增加，加上使用現成商業技術取代昂貴的太空和軍用標準零件，很可能造就一個高度競爭的亞洲衛星製造業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接講 reduce costs，末句直接講 highly competitive Asian satellite manufacturing industry。兩句合起來，就是低成本衛星技術帶來競爭力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ix 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“competitive edge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more affordable satellites”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 中對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“drastically reduce costs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“small satellites”"
+            },
+            {
+              "kind": "quote",
+              "text": "“low-cost satellite technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shortening their learning curve”"
+            },
+            {
+              "kind": "quote",
+              "text": "“highly competitive Asian satellite manufacturing industry”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emergence of ‘small satellites’ and their quick adoption by Asian countries as a way to develop low-cost satellite technology and rapidly establish a space capability has given these countries the possibility of shortening their learning curve by a decade or more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "小型衛星的出現，以及亞洲國家快速採用它們來發展低成本衛星技術、迅速建立太空能力，使這些國家有可能把學習曲線縮短十年或以上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句解釋為何 low-cost satellites 會帶來 competitive edge：成本下降、學習時間縮短、建立能力更快。末句再把結果推到 highly competitive Asian satellite manufacturing industry。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "drastically reduce costs / low-cost satellite technology= more affordable satellites highly competitive industry / shortening learning curve= competitive edge所以 Question 5 答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "F — Because disasters such as bushfires occur in Southeast Asia.",
+      "answerKey": "F — Because disasters such as bushfires occur in Southeast Asia.",
+      "type": "Matching Reasons",
+      "prompt": "“Why is remote-sensing technology used to address environmental problems?”",
+      "translation": "為甚麼遙感技術被用來處理環境問題？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia, particularly Southeast Asia, suffers from a long list of recurrent large-scale environmental problems including storms and flooding, forest fires and deforestation, and crop failures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲，尤其是東南亞，長期遭受多種反覆出現的大型環境問題，包括風暴、洪水、森林火災、森林砍伐和農作物失收。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s satellite manufacturing was based on the old and traditional defence and military procurement methodologies as practised in the US and Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本的衛星製造建基於美國和歐洲採用的舊式傳統國防與軍事採購方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經把 environmental problems 和 Southeast Asia 放在一起，因此 Question 6 應先看Paragraph E 前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“remote-sensing technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“environmental problems”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 中找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus the space application that has attracted the most attention in this region is remote sensing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，在這個地區最受關注的太空應用是遙感。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先列出問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“storms and flooding, forest fires and deforestation, and crop failures”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "風暴和洪水、森林火災和森林砍伐，以及農作物失收。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說 remote sensing 可提供："
+            },
+            {
+              "kind": "quote",
+              "text": "“essential information for natural resource accounting, environmental management, disaster prevention and monitoring…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為自然資源核算、環境管理、災害預防和監測提供重要資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F 的 “bushfires” 對應原文 “forest fires”。“disasters” 對應 storms、flooding、forest fires 等environmental problems。題目問 remote sensing 為何用來處理環境問題，答案就是因為東南亞有這些反覆大型災害。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "bushfires= forest fires disasters= storms, flooding, forest fires address environmental problems= environmental management / disaster prevention and monitoring所以 Question 6 答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — Because some areas are inaccessible.",
+      "answerKey": "B — Because some areas are inaccessible.",
+      "type": "Matching Reasons",
+      "prompt": "“Why is satellite technology used in medicine?”",
+      "translation": "為甚麼衛星科技會用於醫療？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New and innovative uses for satellites are constantly being explored with potential revolutionary effects, such as in the field of health and telemedicine, distance education, crime prevention (piracy on the high seas), food and agricultural planning and production (rice crop monitoring).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "衛星的新穎創新用途正不斷被探索，可能在健康和遠距醫療、遙距教育、防止犯罪、食物與農業規劃及生產等方面帶來革命性影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is, however, important to understand and assess the factors and forces that shape Asian space activities and development, and to determine their possible consequences for the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，理解和評估塑造亞洲太空活動及發展的因素和力量，並判斷它們對該地區可能造成的後果，是重要的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接出現 health and telemedicine，所以 Question 7 應定位到 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“medicine”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“health and telemedicine”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “telemedicine” 是關鍵。tele- 有遠距意思，telemedicine 指透過通訊科技進行遠距醫療。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有另外用一整句解釋「為何醫療需要衛星」。它直接把醫療用途寫成："
+            },
+            {
+              "kind": "quote",
+              "text": "“health and telemedicine”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "健康和遠距醫療。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在選項中，B “Because some areas are inaccessible” 最貼近 telemedicine 的含義。遠距醫療通常用來服務難以前往、距離太遠或不容易接觸醫療服務的地區。這題的證據較短，答案主要靠telemedicine 一字的含義，以及選項之間的排除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何其他選項不合適？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A crop management 屬於 agriculture，對應 Question 9。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E non-peaceful purposes 對應 piracy / crime prevention 的安全用途，不是醫療。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F bushfires 屬於 environmental problems，不是 medicine。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D social factors 影響技術發展，不是醫療用途本身。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "medicine= health and telemedicine some areas are inaccessible= telemedicine implies medical help at a distance所以 Question 7 答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D — Because other social factors exert an influence.",
+      "answerKey": "D — Because other social factors exert an influence.",
+      "type": "Matching Reasons",
+      "prompt": "“Why is the development of satellite technology limited in some Asian countries?”",
+      "translation": "為甚麼一些亞洲國家的衛星科技發展受到限制？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At present, three Asian nations, Japan, China, and India, have comprehensive end-to-end space capabilities and possess a complete space infrastructure: space technology, satellite manufacturing, rockets, and spaceports.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，日本、中國和印度三個亞洲國家擁有完整的端到端太空能力，以及完整太空基礎設施：太空科技、衛星製造、火箭和太空港。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the development of this technology, many non-technological factors, such as economics, politics, culture, and history, interact and play important roles, which in turn affect Asian technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這項技術的發展中，許多非科技因素，例如經濟、政治、文化和歷史，互相作用並扮演重要角色，進而影響亞洲技術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說有些國家能力完整；中間說 South Korea、Southeast Asia 和 South Asian countries 的發展程度不同；末句指出非科技因素會影響技術。這正好對應「some countries limited」和「social factors」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“development”"
+            },
+            {
+              "kind": "quote",
+              "text": "“limited”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some Asian countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文未必會用 limited，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“to varying degrees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“have, or are starting to develop”"
+            },
+            {
+              "kind": "quote",
+              "text": "“using foreign technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“non-technological factors… affect Asian technology”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the development of this technology, many non-technological factors, such as economics, politics, culture, and history, interact and play important roles, which in turn affect Asian technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這項技術的發展中，經濟、政治、文化和歷史等非科技因素會互相作用，並影響亞洲技術。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because other social factors exert an influence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為其他社會因素會施加影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “other social factors” 概括了 economics、politics、culture、history。題目問 satellite technology 的發展為何在部分國家受限，原文指出發展不只取決於技術本身，還受到非科技因素影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 C “Because the region’s economic level is low”？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 economics，但沒有說某地區 economic level is low。C 把其中一個因素變成具體經濟水平判斷，文章沒有提供這個結論。D 的範圍更貼近原文，因為它保留了多種 non-technological factors。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "non-technological factors= other social factors economics, politics, culture, history= social / contextual influences affect Asian technology= limit or shape development所以 Question 8 答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — Because it assists with crop management.",
+      "answerKey": "A — Because it assists with crop management.",
+      "type": "Matching Reasons",
+      "prompt": "“Why is satellite technology used in agriculture?”",
+      "translation": "為甚麼衛星科技會用於農業？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New and innovative uses for satellites are constantly being explored with potential revolutionary effects, such as in the field of health and telemedicine, distance education, crime prevention (piracy on the high seas), food and agricultural planning and production (rice crop monitoring).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "衛星的新穎創新用途正不斷被探索，可能在健康和遠距醫療、遙距教育、防止犯罪、食物與農業規劃及生產，例如稻米作物監測，帶來革命性影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is, however, important to understand and assess the factors and forces that shape Asian space activities and development, and to determine their possible consequences for the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，理解和評估塑造亞洲太空活動及發展的因素和力量，並判斷它們對該地區可能造成的後果，是重要的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接列出 agriculture 相關應用，所以定位很明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“agriculture”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“food and agricultural planning and production”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rice crop monitoring”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文把 agricultural use 寫成："
+            },
+            {
+              "kind": "quote",
+              "text": "“food and agricultural planning and production (rice crop monitoring)”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物和農業規劃及生產，例如稻米作物監測。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because it assists with crop management.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為它有助作物管理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“rice crop monitoring” 是 crop management 的具體例子。monitoring crops 可以幫助規劃生產、評估作物情況和管理農業資源。因此 A 是最精準答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "agricultural planning and production= crop management rice crop monitoring= monitoring / managing crops所以 Question 9 答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Ancient China used rockets for military purposes as early as around 500 BC.”",
+      "translation": "古代中國早在約公元前 500 年已經把火箭用於軍事目的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rocket technology has progressed considerably since the days of ‘fire arrows’ (bamboo poles filled with gunpowder) first used in China around 500 BC and later, during the Sung Dynasty, used to repel Mongol invaders at the battle of Kaifeng (Kai-fung fu) in AD 1232.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從中國約公元前 500 年首次使用「火箭」——即填滿火藥的竹竿，後來宋朝又用它們在公元1232 年開封之戰抵禦蒙古入侵者以來，火箭技術已有長足進步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These ancient rockets stand in stark contrast to the present-day Chinese rocket launch vehicles, called the ‘Long March’, intended to place a Chinese astronaut in space by 2005 and, perhaps, to achieve a Chinese moon landing by the end of the decade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些古代火箭與今日中國的「長征」運載火箭形成鮮明對比；後者旨在於 2005 年前把中國太空人送上太空，甚至可能在這個十年結束前實現中國登月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph A 講火箭技術由古代到現代的發展。Question 10 問古代中國、rockets、military purposes 和 500 BC，因此目標段落就是 A。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ancient China”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rockets”"
+            },
+            {
+              "kind": "quote",
+              "text": "“military purposes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“around 500 BC”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“fire arrows”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first used in China around 500 BC”"
+            },
+            {
+              "kind": "quote",
+              "text": "“later, during the Sung Dynasty, used to repel Mongol invaders”"
+            },
+            {
+              "kind": "quote",
+              "text": "“AD 1232”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文把兩個時間點分開：第一個時間點："
+            },
+            {
+              "kind": "quote",
+              "text": "“first used in China around 500 BC”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "約公元前 500 年首次在中國使用。"
+            },
+            {
+              "kind": "label",
+              "text": "第二個時間點："
+            },
+            {
+              "kind": "quote",
+              "text": "“later, during the Sung Dynasty, used to repel Mongol invaders at the battle of Kaifeng … in AD 1232”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來在宋朝，於公元 1232 年開封之戰中用來抵禦蒙古入侵者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “for military purposes as early as around 500 BC”。真正控制答案的是 “for military purposes” 和 “as early as around 500 BC” 的結合。原文把軍事用途明確放在 “later, during the Sung Dynasty” 和 “AD 1232” 這個時間框架下。題目把軍事用途提前到 around 500 BC，時間過早。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目命題：古代中國在約公元前 500 年已把火箭用於軍事目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：火箭約公元前 500 年首次在中國使用；軍事性例子是後來宋朝於公元 1232 年抵禦蒙古入侵者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：軍事用途的時間點不一致。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生很容易看到 “first used in China around 500 BC” 和 “used to repel Mongol invaders” 都在同一句，就把兩者合併。細讀時要留意 “later” 這個時間詞。它把 military use 放到後來的宋朝，不支持 “as early as around 500 BC”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Space technology has improved literacy in Asia.”",
+      "translation": "太空科技提升了亞洲的識字率。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New and innovative uses for satellites are constantly being explored with potential revolutionary effects, such as in the field of health and telemedicine, distance education, crime prevention (piracy on the high seas), food and agricultural planning and production (rice crop monitoring).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "衛星的新穎創新用途正不斷被探索，可能在健康和遠距醫療、遙距教育、防止犯罪、食物與農業規劃及生產等方面帶來革命性影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is, however, important to understand and assess the factors and forces that shape Asian space activities and development, and to determine their possible consequences for the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，理解和評估塑造亞洲太空活動及發展的因素和力量，並判斷它們對該地區可能造成的後果，是重要的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 11 有 “literacy”，文章中最接近的概念是 Paragraph C 的 “distance education”。因此 C段值得檢查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“literacy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“improved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 literacy 這個字。可找到較相關的概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“distance education”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文只說 satellites 有潛在創新用途，例如："
+            },
+            {
+              "kind": "quote",
+              "text": "“distance education”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遙距教育。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可以說明衛星科技可能用於教育，但題目說的是 “has improved literacy in Asia”。這需要兩個額外證據：第一，space technology 已經提升了 literacy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，這個提升發生在 Asia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供這兩點。它沒有說 literacy rates、reading ability、illiteracy reduction，也沒有說distance education 已經在亞洲提升識字率。它只把 distance education 列為一項 potential revolutionary use。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有： satellite technology 可用於 distance education。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少： space technology has improved literacy in Asia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有相反資料，所以不能選 FALSE；資料不足以支持題目，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“education” 很容易讓人聯想到 literacy，但 IELTS Reading 不能把一般教育用途自動推成識字率提升。題目用了完成式 “has improved”，要求已經發生的結果；原文只是列出用途，沒有提供結果證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Satellite photographs taken at different wavelengths help with natural-disaster prevention and monitoring.”",
+      "translation": "以不同波長拍攝的衛星照片有助自然災害預防和監測。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asia, particularly Southeast Asia, suffers from a long list of recurrent large-scale environmental problems including storms and flooding, forest fires and deforestation, and crop failures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲，尤其是東南亞，長期面對反覆出現的大型環境問題，包括風暴、洪水、森林火災、森林砍伐和農作物失收。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s satellite manufacturing was based on the old and traditional defence and military procurement methodologies as practised in the US and Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本的衛星製造建基於美國和歐洲採用的舊式傳統國防與軍事採購方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提到災害和環境問題，題目提到 natural-disaster prevention and monitoring，因此應定位到Paragraph E 的 remote sensing 部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“photographs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different wavelengths”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster prevention and monitoring”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“take photographs of the ground at different wavelengths”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster prevention and monitoring”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Remote sensing satellites equipped with instruments to take photographs of the ground at different wavelengths provide essential information for natural resource accounting, environmental management, disaster prevention and monitoring, land-use mapping, and sustainable development planning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "配備儀器、能以不同波長拍攝地面的遙感衛星，為自然資源核算、環境管理、災害預防和監測、土地使用繪圖，以及可持續發展規劃提供重要資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Satellite photographs taken at different wavelengths help with natural-disaster prevention and monitoring.” 原文說這類衛星拍攝資料 provide essential information for disaster prevention and monitoring。意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "take photographs of the ground at different wavelengths= photographs taken at different wavelengths provide essential information for= help with disaster prevention and monitoring= natural-disaster prevention and monitoring判斷：題目和原文同方向，答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目多了 natural 這個字。原文在同段前面列出 storms、flooding、forest fires 等環境災害，因此natural-disaster prevention 是合理概括，沒有超出段落語境。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Commercial competition is a driving force in the development of Asian technology.”",
+      "translation": "商業競爭是亞洲技術發展的推動力量。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New and innovative uses for satellites are constantly being explored with potential revolutionary effects, such as in the field of health and telemedicine, distance education, crime prevention (piracy on the high seas), food and agricultural planning and production (rice crop monitoring).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "衛星的新穎創新用途正不斷被探索，可能在健康和遠距醫療、遙距教育、防止犯罪、食物與農業規劃及生產等方面帶來革命性影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is, however, important to understand and assess the factors and forces that shape Asian space activities and development, and to determine their possible consequences for the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，理解和評估塑造亞洲太空活動及發展的因素和力量，並判斷它們對該地區可能造成的後果，是重要的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 13 的定位詞是 commercial competition 和 development。Paragraph C 正好談competitive commercial space sector 和 factors / forces shaping Asian space development。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Commercial competition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“driving force”"
+            },
+            {
+              "kind": "quote",
+              "text": "“development of Asian technology”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“competitive commercial space sector”"
+            },
+            {
+              "kind": "quote",
+              "text": "“very much influenced by”"
+            },
+            {
+              "kind": "quote",
+              "text": "“factors and forces that shape Asian space activities and development”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Space in Asia is very much influenced by the competitive commercial space sector, the emergence of low-cost mini-satellites, and the globalisation of industrial and financial markets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲太空發展深受競爭性的商業太空產業、低成本小型衛星的出現，以及工業和金融市場全球化影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “competitive commercial space sector” 就是 commercial competition。 “very much influenced by” 表示它是重要影響力量；題目用 “driving force” 來概括這種推動作用。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句也呼應："
+            },
+            {
+              "kind": "quote",
+              "text": "“factors and forces that shape Asian space activities and development”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "塑造亞洲太空活動和發展的因素與力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 commercial competition 是推動亞洲技術發展的力量。原文說亞洲太空發展 very much influenced by competitive commercial space sector。兩者方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Asian technology”，範圍看似較大；但在本文語境中，Asian technology 指亞洲太空科技或衛星相關技術。Paragraph C 反覆處理 Asian space activities and development，因此這個概括仍在文章範圍內。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Satellite Technology.pdf",
+    "sha256": "dd0e735c20a8d2166e0016b134eba851126dcdd2efc094ad6277df75d8fea98a",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro 1",
+        "summary": "首句由 1957 年俄羅斯發射 Sputnik 開始，建立 space-age 的歷史背景；末句提到這場美蘇太空競賽有成功、失敗，也產生不少 spin-offs。只看首尾句，可以先估計這段是總引言：它把太空科技放在冷戰、登月競賽、高科技和高預算的背景之中。這段未進入亞洲主題，主要功能是交代現代太空科技從大國競爭中興起。",
+        "label": "Intro Paragraph 1"
+      },
+      {
+        "number": "Intro 2",
+        "summary": "首句說 Europe、Japan、China 和 India 很快加入 space club；末句提出三個問題：小國會如何、以甚麼方式、為甚麼目的實現這些能力？只看首尾句，可以看到文章焦點由美蘇超級大國轉向亞洲及較小國家的 indigenous space capabilities。這段是全文真正的問題框架：低成本 mini-satellites和 launchers 令更多亞洲國家可能發展太空能力，後文會解釋用途、限制和發展方向。",
+        "label": "Intro Paragraph 2"
+      },
+      {
+        "number": "A",
+        "summary": "Paragraph A 首句說 rocket technology 從中國古代 fire arrows 發展至今；末句把視線拉到現代中國 Long March 火箭、載人太空和登月可能。只看首尾句，可以先猜這段會把古代發明和未來太空野心連起來。它不只是講 ancient rockets，也講同一技術脈絡如何延伸到現代中國太空計劃。這對 headings 題很重要，因為最完整的 heading 要同時覆蓋 ancient 和 future。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句說過去十年間亞洲 space activities 急速增長，包括使用 space-based services和生產 satellites / launchers；末句說亞洲國家特別 eager to embrace 這些發展。只看首尾句，可以估計本段主題是亞洲近期太空發展和太空科技帶來的實際影響。中間提到 telecommunications、meteorological forecasting、environmental monitoring 和 disaster mitigation，說明太空科技已由大國象徵轉為多方面實用工具。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句說 satellites 的新穎用途不斷被探索，例如 health、telemedicine、distance education、crime prevention 和 agriculture；末句說有必要理解 shaping Asian space activities 的因素和後果。只看首尾句，可以見到這段先列出創新應用，再把焦點推向 commercial competition、mini-satellites 和 globalisation 等力量。這段功能偏向解釋亞洲太空發展受到創新用途與競爭性商業環境推動，但未完全預測未來方向。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句指出 Japan、China 和 India 目前已有完整 end-to-end space capabilities；末句說 economics、politics、culture 和 history 等 non-technological factors 會影響 Asian technology。只看首尾句，可以估計這段是亞洲太空能力現況圖：有些國家已完整自足，有些正在追趕，有些依賴外國技術。段末提醒技術發展不只看科技本身，也要看經濟、政治、文化和歷史力量。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說 Asia，特別是 Southeast Asia，長期面對 storms、flooding、forest fires、deforestation 和 crop failures 等大型環境問題；末句說 Japan 的 satellite manufacturing 受傳統defence and military procurement methodologies 影響。只看首尾句，可以估計本段主線是remote sensing 的重要性和地區發展不均。ASEAN 缺少自己的 remote sensing satellites，但有處理外國衛星資料的能力；日本則是亞洲太空強權，已走過漫長昂貴的學習曲線。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句說近年 satellite design and building 方式有根本改變，目標是大幅減低成本；末句說 technology transfer 和 commercial technology 可能令亞洲衛星製造業變得 highly competitive。只看首尾句，可以清楚看到本段主題是 small satellites 和低成本技術帶來的競爭優勢。重點在於亞洲國家可藉較便宜的衛星技術縮短 learning curve，快速建立 space capability，甚至發展出具競爭力的製造業。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句說物理定律和電子、機械原理不受政治或文化界限限制；末句以問題收結：亞洲工程師在西方受訓，再結合日本製造和管理技巧，能否建造 world-class satellites 並減低成本？只看首尾句，可以估計這段討論技術以外的工程實踐和管理差異。科學原理相同，但教育、文化、歷史會影響成本、lead times、designs 和 international sales。這段若有 heading，最可能對應non-technological factors count。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1578 @@
+{
+  "id": "p1-011-the-loch-ness-monster",
+  "catalogueId": "p1-011",
+  "catalogueIds": [
+    "p1-011",
+    "p1-063"
+  ],
+  "passage": 1,
+  "title": "THE LOCH NESS MONSTER",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "FALSE",
+    "565 AD",
+    "tampering",
+    "otters",
+    "a flipper",
+    "submarines",
+    "nearby roadworks",
+    "the film industry"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The first reported sighting of the Loch Ness monster was in 1962.”",
+      "translation": "Loch Ness monster 第一次有記錄的目擊是在 1962 年。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The very first sighting of Nessie was as far back as 565 AD.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nessie 最早的一次目擊可追溯到公元 565 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people believe that old Scottish myths about water creatures such as kelpies and water horses have contributed to the idea of this wondrous monster lurking beneath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人相信，古老蘇格蘭關於 kelpies 和 water horses 等水中生物的神話，促成了這個奇異怪物潛伏水下的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 3 講早期目擊紀錄和神話來源。題目問 first reported sighting，所以這段是最直接的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first reported sighting” 和 “1962”。原文沒有 1962，但有非常接近的 “The very first sighting”。這個 “very first” 比 first 更強，表示真正最早的一次。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The very first sighting of Nessie was as far back as 565 AD.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nessie 最早的一次目擊可追溯到公元 565 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說第一次目擊在 1962 年；原文說最早目擊在 565 AD。兩者在年份上直接衝突。這不是資料不足，因為文章明確給出另一個年份。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：first reported sighting = 1962"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：very first sighting = 565 AD判斷：年份相反，所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於文章後面提到 twentieth century 和 second half of the century，學生可能聯想到1900s 的現代研究。不過題目問 first sighting，真正控制答案的是 Paragraph 3 的 “very first sighting”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It is believed the idea for the Loch Ness monster may have been inspired by other stories of aquatic creatures.”",
+      "translation": "有人相信，Loch Ness monster 的概念可能受到其他水中生物故事啟發。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The very first sighting of Nessie was as far back as 565 AD.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nessie 最早的一次目擊可追溯到公元 565 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people believe that old Scottish myths about water creatures such as kelpies and water horses have contributed to the idea of this wondrous monster lurking beneath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人相信，古老蘇格蘭關於 kelpies 和 water horses 等水中生物的神話，促成了這個奇異怪物潛伏水下的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講最早目擊，末句講水中生物神話如何形成 Nessie 的想像。題目中的 inspired by other stories of aquatic creatures 很明顯對應末句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “inspired”、“other stories” 和 “aquatic creatures”。掃描時不一定會看到 aquatic，因為原文用 “water creatures”。也不一定有 inspired，因為原文用 “contributed to the idea”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people believe that old Scottish myths about water creatures such as kelpies and water horses have contributed to the idea of this wondrous monster lurking beneath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人相信，古老蘇格蘭關於 kelpies 和 water horses 等水中生物的神話，促成了這個奇異怪物潛伏水下的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “It is believed” 對應原文 “Some people believe”。“aquatic creatures” 對應 “water creatures”。“inspired by other stories” 對應 “old Scottish myths … have contributed to the idea”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "It is believed= Some people believe aquatic creatures= water creatures may have been inspired by= have contributed to the idea兩邊意思一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The most recent person to claim to have seen the Loch Ness monster obtained video footage.”",
+      "translation": "最近一位聲稱看見 Loch Ness monster 的人取得了影片畫面。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most recent sighting of Nessie was reported in 2007.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近一次 Nessie 目擊報告出現在 2007 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The video footage has been discredited amid accusations of tampering, whilst others claim that the image caught by Holmes could be nothing more than a tree trunk or even one of the otters that inhabit the loch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段影片因被指曾遭篡改而失去可信度；另一些人則說 Holmes 拍到的影像可能只是一段樹幹，甚至只是湖中的其中一隻水獺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說 most recent sighting，末句提到 video footage 和 Holmes，所以 Paragraph 4 是這題的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “most recent”、“claim to have seen” 和 “video footage”。原文同段有 “most recent sighting”、“claimed that he not only saw her but also captured her on video”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A tourist named Gordon Holmes from Yorkshire visited Loch Ness and claimed that he not only saw her but also captured her on video.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位來自 Yorkshire 的遊客 Gordon Holmes 到訪 Loch Ness，並聲稱自己不但看見了牠，還把牠拍成影片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “obtained video footage”，原文說 “captured her on video”。兩者意思一致。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“most recent person” 對應前一句 “The most recent sighting … was reported in 2007”，而Holmes 正是該段介紹的目擊者。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "obtained video footage= captured her on video the most recent person to claim to have seen= the tourist connected with the most recent sighting所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There is evidence to suggest that the Loch Ness monster is related to a plesiosaur.”",
+      "translation": "有證據顯示 Loch Ness monster 和 plesiosaur 有關。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists believe that the Loch Ness monster could be a mirage or a psychological phenomenon, since we sometimes see what we want to see.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些科學家認為 Loch Ness monster 可能是海市蜃樓或心理現象，因為我們有時會看見自己想看見的東西。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the results suggested that the fish population was too small, no firm conclusion was reached.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然結果顯示魚群數量太少，但沒有得出確實結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 5 主要提供科學解釋和研究限制。題目問 evidence 和plesiosaur，應在這段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最強定位詞是 “plesiosaur”。原文只有一處提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been suggested that Nessie could be related to a prehistoric animal known as a plesiosaur…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句值得停下，但要繼續讀到後半句，因為答案常由讓步或限制詞決定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been suggested that Nessie could be related to a prehistoric animal known as a plesiosaur, an animal that measured up to ten metres in length and is otherwise thought to be extinct, although this theory is unsupported by any data.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人提出，Nessie 可能和一種名為 plesiosaur 的史前動物有關；這種動物身長可達十米，一般認為已經滅絕。不過，這個理論沒有任何數據支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “There is evidence to suggest”。原文最後明確說 “unsupported by any data”。這個短語直接否定 evidence 的存在。"
+            },
+            {
+              "kind": "label",
+              "text": "反向關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：There is evidence"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：unsupported by any data"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：is related to a plesiosaur"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：could be related，但這只是 unsupported theory判斷：題目把無數據支持的假說說成有證據支持，所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “It has been suggested”。suggested 看似支持題目，但真正定案的是句尾 “although this theory is unsupported by any data”。細讀時要特別留意 although 後面的限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Testing of algae in the loch proved that the food source was insufficient to sustain Nessie.”",
+      "translation": "湖中藻類測試證明食物來源不足以維持 Nessie 生存。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists believe that the Loch Ness monster could be a mirage or a psychological phenomenon, since we sometimes see what we want to see.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些科學家認為 Loch Ness monster 可能是海市蜃樓或心理現象，因為我們有時會看見自己想看見的東西。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the results suggested that the fish population was too small, no firm conclusion was reached.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然結果顯示魚群數量太少，但沒有得出確實結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 後半講 algae、zooplankton、fish population 和 lake 能否支撐大型動物。題目中的algae、food source、proved 都集中在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “algae”、“food source” 和 “proved”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only way to find out how much zooplankton is in the water is to measure the amount of algae.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要知道水中有多少 zooplankton，唯一方法是量度藻類數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著要看結果句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“For such a large animal to live in the lake, it would require a vast food source; for so many fish to survive, there would need to be plenty of microscopic animals called zooplankton.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若如此大型的動物要在湖中生存，牠需要龐大的食物來源；而要讓大量魚類生存，就需要大量名為 zooplankton 的微小動物。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The only way to find out how much zooplankton is in the water is to measure the amount of algae.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要知道水中有多少 zooplankton，唯一方法是量度藻類數量。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the results suggested that the fish population was too small, no firm conclusion was reached.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然結果顯示魚群數量太少，但沒有得出確實結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最大問題在 “proved”。原文只說 “suggested”，語氣較保守；最後還補充 “no firm conclusion was reached”。因此，研究結果可能指向食物鏈不足，但文章沒有說它已經證明 Nessie 無法生存。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：proved"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：suggested + no firm conclusion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：food source insufficient"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：fish population was too small，但結論未確定判斷：題目把初步研究結果升級成確證，和原文的保留語氣相衝，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Movement along a fault line could have caused Nessie to rise to the surface.”",
+      "translation": "斷層線上的活動可能令 Nessie 浮上水面。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the twentieth century, a ten-year observational study was carried out, recording an average of 20 sightings of Nessie per year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十世紀曾進行一項十年觀察研究，平均每年記錄 20 次 Nessie 目擊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists have claimed that resulting seismic activity in the lake could cause disturbances on its surface and people might mistake this for Nessie.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些科學家聲稱，由此產生的湖中地震活動可能造成湖面擾動，而人們可能把這誤認為 Nessie。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段列出多種現代解釋，包括 roadworks 和 fault line。題目將 fault line 和 Nessie rising to the surface 連在一起，所以需要仔細分辨兩個解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “fault line” 和 “rise to the surface”。原文有兩處接近："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another explanation for why Nessie rose to the surface…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another argument centres on the geographical placement of the loch, which sits on the Great Glen fault line…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者相鄰，但講的是兩個不同解釋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關於 rise to surface 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another explanation for why Nessie rose to the surface, where she was more likely to be seen, was that disruption from nearby roadworks in the 1930s forced her into shallower water because of the vibrations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個解釋是，Nessie 之所以浮到較容易被看見的水面，是因為 1930 年代附近道路工程造成的干擾和震動迫使牠進入較淺水域。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關於 fault line 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists have claimed that resulting seismic activity in the lake could cause disturbances on its surface and people might mistake this for Nessie.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些科學家聲稱，湖中的地震活動可能造成湖面擾動，而人們可能把這些擾動誤認為 Nessie。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩個解釋混在一起：rise to the surface 屬於 roadworks / vibrations；fault line / seismic activity 屬於 surface disturbances being mistaken for Nessie。原文沒有說 fault line movement令 Nessie 上浮。更準確地說，fault line 解釋指向「人們誤認湖面擾動」，而非「怪物真的浮上水面」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目把原因和結果配錯，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "565 AD",
+      "answerKey": "565 AD",
+      "type": "Short-answer Questions",
+      "prompt": "“When was the first recorded sighting of Nessie?”",
+      "translation": "Nessie 第一次有記錄的目擊是在甚麼時候？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The very first sighting of Nessie was as far back as 565 AD.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nessie 最早的一次目擊可追溯到公元 565 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people believe that old Scottish myths about water creatures such as kelpies and water horses have contributed to the idea of this wondrous monster lurking beneath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人相信，古老蘇格蘭關於水中生物的神話促成了 Nessie 的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段同時有 first sighting 和 myth origin。題目問 when，所以重點在第一句的年份。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first recorded sighting”。原文用 “The very first sighting”。“recorded” 在題目中補出「有記載」的意思，原文沒有逐字重複，但 sighting 和 first 已足夠定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The very first sighting of Nessie was as far back as 565 AD.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nessie 最早的一次目擊可追溯到公元 565 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 When，所以答案需要時間。565 AD 是年份加時代標記，符合 “NO MORE THAN THREE WORDS AND/OR A NUMBER”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 565 AD。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "tampering",
+      "answerKey": "tampering",
+      "type": "Short-answer Questions",
+      "prompt": "“What was Gordon Holmes suspected of doing to the video footage?”",
+      "translation": "Gordon Holmes 被懷疑對影片做了甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most recent sighting of Nessie was reported in 2007.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近一次 Nessie 目擊報告出現在 2007 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The video footage has been discredited amid accusations of tampering, whilst others claim that the image caught by Holmes could be nothing more than a tree trunk or even one of the otters that inhabit the loch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段影片因被指曾遭篡改而失去可信度；另一些人則說 Holmes 拍到的影像可能只是一段樹幹，甚至只是湖中的其中一隻水獺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 直接講 Holmes 的 video footage 和外界質疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Gordon Holmes” 和 “video footage”。原文同段出現 “captured her on video” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The video footage has been discredited”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵短語：“The video footage has been discredited amid accusations of tampering…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段影片因被指曾遭篡改而失去可信度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 Holmes 被懷疑對 video footage 做了甚麼。原文的 “accusations of tampering” 表示有人指控影片被篡改或動過手腳。答案要用不超過三個字，最精準是 tampering。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 tampering。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "otters",
+      "answerKey": "otters",
+      "type": "Short-answer Questions",
+      "prompt": "“What common animal may have been caught on camera and mistaken for proof of Nessie?”",
+      "translation": "哪種常見動物可能被拍到，然後被誤認為 Nessie 的證據？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most recent sighting of Nessie was reported in 2007.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近一次 Nessie 目擊報告出現在 2007 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The video footage has been discredited amid accusations of tampering, whilst others claim that the image caught by Holmes could be nothing more than a tree trunk or even one of the otters that inhabit the loch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段影片因被指曾遭篡改而失去可信度；另一些人則說 Holmes 拍到的影像可能只是一段樹幹，甚至只是湖中的其中一隻水獺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經提供 possible mistaken object，包括 tree trunk 和 otters。題目問 common animal，所以答案在 otters。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “common animal” 和 “caught on camera”。原文用 “the image caught by Holmes”對應 caught on camera。animal 對應 “otters that inhabit the loch”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the image caught by Holmes could be nothing more than a tree trunk or even one of the otters that inhabit the loch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Holmes 拍到的影像可能只是一段樹幹，甚至只是湖中的其中一隻水獺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 animal，所以 tree trunk 不合。原文 animal 是 otters。雖然原文完整片語是 “one of the otters that inhabit the loch”，但題目答案限制最多三個字，填 otters 最穩妥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 otters。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "a flipper",
+      "answerKey": "a flipper",
+      "type": "Short-answer Questions",
+      "prompt": "“Images of what caused an increase in the number of Nessie enthusiasts?”",
+      "translation": "甚麼東西的影像令 Nessie 愛好者數量增加？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the twentieth century, a ten-year observational study was carried out, recording an average of 20 sightings of Nessie per year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十世紀曾進行一項十年觀察研究，平均每年記錄 20 次 Nessie 目擊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists have claimed that resulting seismic activity in the lake could cause disturbances on its surface and people might mistake this for Nessie.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些科學家聲稱，湖中的地震活動可能造成湖面擾動，而人們可能把這誤認為 Nessie。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 講二十世紀研究和興趣上升。題目問 images caused increase in enthusiasts，要找photos / interest surged。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Images” 對應原文 “photos”。“increase in the number of Nessie enthusiasts” 對應"
+            },
+            {
+              "kind": "quote",
+              "text": "“Interest … surged”。原文句子是：“Interest in the phenomenon surged in the second half of the century, when photos of a ‘flipper’ were publicly released.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interest in the phenomenon surged in the second half of the century, when photos of a ‘flipper’ were publicly released.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在該世紀下半葉，當一個「鰭狀肢」的照片公開後，人們對這一現象的興趣大增。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Images of what”，所以答案應是照片中的物件。原文是 “a ‘flipper’”。flipper 指動物的鰭狀肢，文中用引號表示影像被解讀成怪物身體部位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 a flipper。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "submarines",
+      "answerKey": "submarines",
+      "type": "Short-answer Questions",
+      "prompt": "“What can visitors hoping to see Nessie travel in?”",
+      "translation": "希望看見 Nessie 的遊客可以乘坐甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the twentieth century, a ten-year observational study was carried out, recording an average of 20 sightings of Nessie per year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十世紀曾進行一項十年觀察研究，平均每年記錄 20 次 Nessie 目擊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists have claimed that resulting seismic activity in the lake could cause disturbances on its surface and people might mistake this for Nessie.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些科學家聲稱，湖中的地震活動可能造成湖面擾動，而人們可能把這誤認為 Nessie。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間提到 submarines，而且補充它們現在成為 tourist attractions。題目問 visitors can travel in，答案應在這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “visitors” 和 “travel in”。原文沒有 visitors，但有 “tourist attractions”。travel in 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Submarines were sent into Loch Ness”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：“Submarines were sent into Loch Ness to try to discover more about this creature (and are now actually run as tourist attractions).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "潛艇曾被派入 Loch Ness，試圖進一步了解這種生物；而現在它們實際上被作為旅遊景點營運。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "既然 submarines are now run as tourist attractions，遊客可以乘坐或參加這類潛艇體驗來尋找Nessie。題目問 “What can visitors … travel in?”，答案是 submarines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 submarines。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "nearby roadworks",
+      "answerKey": "nearby roadworks",
+      "type": "Short-answer Questions",
+      "prompt": "“Disturbances caused by what could have caused the creature to surface?”",
+      "translation": "由甚麼造成的干擾可能令這生物浮上水面？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the twentieth century, a ten-year observational study was carried out, recording an average of 20 sightings of Nessie per year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十世紀曾進行一項十年觀察研究，平均每年記錄 20 次 Nessie 目擊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists have claimed that resulting seismic activity in the lake could cause disturbances on its surface and people might mistake this for Nessie.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些科學家聲稱，湖中的地震活動可能造成湖面擾動，而人們可能把這誤認為 Nessie。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 caused the creature to surface。Paragraph 6 有兩種 disturbance：roadworks vibrations和 seismic activity。要找令 “her” 進入淺水、較易被看見的那一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “caused the creature to surface”。原文用 “rose to the surface” 和 “forced her into shallower water”。這兩個表達和題目高度接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another explanation for why Nessie rose to the surface, where she was more likely to be seen, was that disruption from nearby roadworks in the 1930s forced her into shallower water because of the vibrations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個解釋是，Nessie 之所以浮到較容易被看見的水面，是因為 1930 年代附近道路工程造成的干擾和震動迫使牠進入較淺水域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 disturbances caused by what。原文說 “disruption from nearby roadworks”。因此答案應填原因來源：nearby roadworks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 nearby roadworks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 fault line。Fault line 只解釋 surface disturbances being mistaken for Nessie； roadworks 才和 creature surfacing / shallower water 直接相連。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "the film industry",
+      "answerKey": "the film industry",
+      "type": "Short-answer Questions",
+      "prompt": "“What has promoted tourism in the Loch Ness area in recent years?”",
+      "translation": "近年是甚麼推動了 Loch Ness 地區的旅遊？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To date, there is no convincing proof to suggest that the monster is real, which, given the preponderance of digital cameras, webcams trained on the loch and other technological advances in recording equipment, suggests that the myth of Nessie may be just that – a myth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至今仍沒有令人信服的證據顯示怪物是真實存在；考慮到數碼相機、對準湖面的網絡攝影機和其他錄影設備已非常普遍，這暗示 Nessie 神話也許真的只是神話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2007, it was estimated that related tourism brought £6 million to the region, thanks to the attention of the film industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2007 年，有估計指出相關旅遊為該地區帶來 600 萬英鎊收入，這要歸功於電影業的關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 由 lack of proof 轉到 tourism。題目問 promoted tourism，答案在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “tourism” 和 “promoted”。原文沒有 promoted，但有 “brought £6 million” 和 “thanks to”。“thanks to” 表示原因來源，是解題關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2007, it was estimated that related tourism brought £6 million to the region, thanks to the attention of the film industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2007 年，有估計指出相關旅遊為該地區帶來 600 萬英鎊收入，這要歸功於電影業的關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What has promoted tourism?”，原文說 “thanks to the attention of the film industry”。真正推動旅遊的因素是 film industry 的關注。答案需不超過三個字，the film industry 正好三個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 the film industry。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - THE LOCH NESS MONSTER.pdf",
+    "sha256": "4104d03d2bb1aa045b7af3da53c9af13c514f737b7b617f1dae07e18622751b5",
+    "pageCount": 21
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句，這段先介紹 Scottish Highlands 的 Loch Ness 據說有怪物居住。末句說，有些人認為牠只是 modern-day myth，但聲稱見過牠的人相信怪物至今仍在湖中。這段主要建立背景：Loch Ness 的地理位置、大小、淡水湖地位，以及 Nessie 的神秘傳說。題目若問 Loch Ness 的基本背景、懷疑者與相信者的分歧，可先看這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Scotland 多個湖泊都有人研究，但 Loch Ness 是 monster icon。末句說專業人士和業餘人士都帶著相機來到這個湖，希望捕捉 Nessie 的一瞬間，甚至解開謎團。因此 Paragraph 2 主要講 Loch Ness 在怪物傳說中的象徵地位，以及人們如何嘗試拍攝證據。這段較像承上啟下，不太直接回答數字或年份題。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Nessie 最早的 sighting 可追溯到 565 AD。末句說一些人相信，古老蘇格蘭關於 kelpies和 water horses 等水中生物的神話，可能促成了 Loch Ness monster 的想法。這段主要交代傳說來源和早期目擊紀錄。Questions 1、2、7 都很可能定位到這裡，因為 first sighting、565 AD、old Scottish myths 都是強訊號。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說最近一次目擊報告出現在 2007 年。末句指出 Holmes 的影片被質疑曾遭 tampering，也有人認為影像可能只是 tree trunk 或 otters。這段主要講 Gordon Holmes 的 2007 目擊事件、video footage，以及這段影片受到的質疑。Questions 3、8、9 都集中在這裡，尤其是 video、tampering、otters 這幾個定位詞。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說有些科學家認為 Loch Ness monster 可能是 mirage 或 psychological phenomenon。末句說研究結果顯示魚群數量太少，但未得出 firm conclusion。這段主要介紹科學解釋和生態可行性研究：plesiosaur 理論缺乏數據支持，湖中食物鏈研究亦未能定案。Questions 4 和 5 的 evidence、plesiosaur、algae、food source 都要看這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說二十世紀曾有一項十年觀察研究，平均每年記錄 20 次 sighting。末句說湖泊位於 Great Glen fault line 上，地震活動可能造成湖面擾動，使人誤以為看見 Nessie。這段主要列出不同現代解釋和研究：flipper 照片、submarines、1930s roadworks、vibrations、fault line、seismic activity。 Questions 6、10、11、12 都在這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說至今沒有令人信服的證據證明怪物是真實存在。末句說 2007 年，相關旅遊因 film industry的關注為當地帶來 £6 million。這段是總結段：一方面指出科技普及下仍缺乏有力證據，暗示Nessie 可能只是 myth；另一方面說 Nessie 傳說仍推動 Scottish Highlands 的觀光產業。 Question 13 的 tourism promotion 明顯定位到這段。"
+      }
+    ]
+  }
+}

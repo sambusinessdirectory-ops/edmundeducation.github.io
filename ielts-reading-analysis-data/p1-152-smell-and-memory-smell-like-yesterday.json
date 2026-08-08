@@ -1,0 +1,1975 @@
+{
+  "id": "p1-152-smell-and-memory-smell-like-yesterday",
+  "catalogueId": "p1-152",
+  "catalogueIds": [
+    "p1-152"
+  ],
+  "passage": 1,
+  "title": "Smell and Memory: Smell like yesterday",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "B",
+    "A",
+    "C",
+    "C",
+    "D",
+    "B",
+    "C",
+    "A",
+    "create a story",
+    "brain scans",
+    "olfactory cortex",
+    "spice"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C — Jay Gottfried",
+      "answerKey": "C — Jay Gottfried",
+      "type": "Matching Statements with",
+      "prompt": "“Found that different components of sensory memories are stored in different areas of the brain”",
+      "translation": "發現感官記憶的不同組成部分儲存在大腦不同區域。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Matching Features，要把「研究發現」配對到正確人物。題目核心不是 smell 和 emotion，而是 different components、different areas of the brain。定位時要找誰說明 sight、sound、smell等不同感官記憶分散在不同腦區。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the links don’t stop there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這些連結不止於此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Or—in the case of an early hunter-gatherer out on a plain—the sight of a lion might be enough to trigger the urge to flee, rather than having to wait for the sound of its roar and the stench of its hide to kick in as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "又或者，對於早期在平原上的狩獵採集者來說，看見獅子也許已足以引發逃跑衝動，不必等到獅吼聲和牠身上的臭味也一起出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 會由氣味與情緒的連結，推進到更廣的 sensory memory network。末句的 lion 例子顯示，單一感官刺激可以重新喚醒整個危險記憶，因此本段很可能談不同感官訊息如何分散儲存。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“different components”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sensory memories”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different areas of the brain”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph C 時，最有用的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Imagine going on a seaside holiday, says UCL team leader Jay Gottfried. The sight of the waves becomes stored in one area, whereas the crash of the surf goes elsewhere, and the smell of seaweed in yet another place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "UCL 團隊負責人 Jay Gottfried 說，想像你去海邊度假。海浪的景象儲存在一個區域，海浪拍岸的聲音儲存在另一個地方，海藻的氣味又儲存在另一個地方。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把一個 seaside holiday 拆成三種感官成分： sight of the waves海浪的畫面crash of the surf海浪拍岸的聲音smell of seaweed海藻的氣味原文再說這些成分分別 goes to one area / elsewhere / yet another place，正好對應題目的different components stored in different areas。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "different components of sensory memories= sight、sound、smell 等不同感官成分stored in different areas of the brain= stored in one area / goes elsewhere / in yet another place"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也提到 sensory memories are shared across the brain，所以學生可能選 Rachel Herz。可是 Question 1 的具體畫面例子和「不同感官成分分別去不同地方」由 Jay Gottfried 在Paragraph C 說出。真正控制答案的是 seaside holiday 例子和 UCL team leader Jay Gottfried。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B — Simon Chu",
+      "answerKey": "B — Simon Chu",
+      "type": "Matching Statements with",
+      "prompt": "“A particular smell can prompt detailed recall of an event”",
+      "translation": "某一種特定氣味可以促使人詳細回憶某件事。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「氣味幫助 detailed recall」是哪位研究者的發現。定位詞是 detailed recall，不只是emotional memory。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Odour-evoked memories may be not only more emotional but also more detailed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由氣味喚起的記憶可能不只更有情緒，也更詳細。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They could.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們確實可以。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph F 的功能是證明 odour 不只喚起 emotion，還能幫助 detail。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後的 “They could” 回答前面實驗問題：coffee 和 cinnamon 等氣味能否幫助志願者記起更多細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“particular smell”"
+            },
+            {
+              "kind": "quote",
+              "text": "“detailed recall”"
+            },
+            {
+              "kind": "quote",
+              "text": "“event”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 中出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“psychologist Simon Chu of the University of Liverpool started researching odour and memory…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "利物浦大學心理學家 Simon Chu 開始研究氣味與記憶……以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“In one experiment, Chu and Downes asked 42 volunteers to tell a life story, then tested to see whether odours such as coffee and cinnamon could help them remember more detail in the story. They could.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項實驗中，Chu 和 Downes 要求 42 位志願者講述一個人生故事，然後測試咖啡和肉桂等氣味是否能幫助他們記起故事中更多細節。結果是可以。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “a particular smell” ，原文用 “odours such as coffee and cinnamon” 作例子。題目說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“detailed recall of an event”，原文說 “remember more detail in the story”。這裡 story 指 volunteer told a life story，所以是人生事件或個人經歷的回憶。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a particular smell= odours such as coffee and cinnamon prompt detailed recall= help them remember more detail an event= a life story"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Rachel Herz 的研究也說 smell memories can be more emotional and detailed，但 Paragraph F才真正用 experiment 證明「特定氣味幫助回想更多細節」。題目中的 detailed recall 是關鍵，不要只看到 smell 和 memory 就選 Herz。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "A — Rachel Herz",
+      "answerKey": "A — Rachel Herz",
+      "type": "Matching Statements with",
+      "prompt": "“The connection between smell and emotional brain regions differs from that of other senses”",
+      "translation": "嗅覺與情緒腦區的連接方式，和其他感官不同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找誰指出 smell 和 emotion brain region 有特殊連接。定位詞是 emotional brain regions、other senses、connection。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, this phenomenon is getting the scientific treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，這種現象正受到科學研究。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is this unique connection between the sense of smell and the part of the brain that processes emotion,’ says Rachel Herz.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rachel Herz 說：「嗅覺和大腦中處理情緒的部分之間，有這種獨特連接。」只看首尾句，可以先判斷 Paragraph B 會由 Proustian phenomenon 進入科學解釋。最後一句直接點名 Rachel Herz，並說 smell 與 emotion-processing brain area 有 unique connection。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“connection”"
+            },
+            {
+              "kind": "quote",
+              "text": "“smell”"
+            },
+            {
+              "kind": "quote",
+              "text": "“emotional brain regions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other senses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When you inhale, odour molecules set brain cells dancing within a region known as the amygdala, a part of the brain that helps control emotion. In contrast, the other senses, such as taste or touch, get routed through other parts of the brain before reaching the amygdala.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你吸氣時，氣味分子會令稱為 amygdala 的區域內的腦細胞活躍起來；amygdala 是幫助控制情緒的大腦部分。相較之下，其他感官，例如味覺或觸覺，會先經由大腦其他部分，再到達amygdala。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "amygdala 是 emotion brain region。原文說 smell 直接作用於 amygdala；taste 和 touch 要先經過其他腦區。這就是題目所說 differs from that of other senses。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "emotional brain regions= amygdala, a part of the brain that helps control emotion differs from that of other senses= smell reaches amygdala directly; taste/touch are routed through other parts first"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目不是問 smell 是否比其他感官「重要」，也不是問 smell 和整個 brain 的 general connection。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "重點只在 emotion-processing area，答案落在 Rachel Herz 的 quote 和 amygdala 解釋。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C — Jay Gottfried",
+      "answerKey": "C — Jay Gottfried",
+      "type": "Matching Statements with",
+      "prompt": "“Storing information in different locations can help us avoid danger”",
+      "translation": "把資訊儲存在不同位置可以幫助我們避開危險。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「分散儲存記憶的好處」以及 danger / flee 的例子。定位詞是 different locations、avoid danger。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the links don’t stop there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這些連結不止於此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Or—in the case of an early hunter-gatherer out on a plain—the sight of a lion might be enough to trigger the urge to flee, rather than having to wait for the sound of its roar and the stench of its hide to kick in as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "又或者，對於早期在平原上的狩獵採集者來說，看見獅子也許已足以引發逃跑衝動，不必等到獅吼聲和牠身上的臭味也一起出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示本段會講 smell memory 和其他腦區的連結，並用逃離獅子的例子說明 survival advantage。人物是 UCL team leader Jay Gottfried。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“storing information in different locations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“avoid danger”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There could be advantages to having memories spread around the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把記憶分散在大腦各處，可能有好處。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 lion 例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“the sight of a lion might be enough to trigger the urge to flee…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看見獅子可能已足以引發逃跑衝動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“having memories spread around the brain” 對應題目的 storing information in different locations。“trigger the urge to flee” 對應 help us avoid danger。Jay Gottfried 用 hunter-gatherer 的危險情境解釋：如果記憶分散儲存，任何一個感官線索都可能喚醒整個危險記憶，人便可以更快反應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "storing information in different locations= having memories spread around the brain help us avoid danger= trigger the urge to flee"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易和 Question 1 混在一起。Question 1 問「發現不同記憶成分分散儲存」；Question 4問「這樣有甚麼好處」。兩題都在 Paragraph C，也都屬於 Jay Gottfried。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "C — Jay Gottfried",
+      "answerKey": "C — Jay Gottfried",
+      "type": "Matching Statements with",
+      "prompt": "“Smell processing can occur in the brain even when no smell is present”",
+      "translation": "即使沒有氣味存在，大腦中仍可能出現氣味處理活動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「沒有 smell，但 olfactory cortex 仍然 active」的研究。定位詞是 no smell present、brain、smell processing。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the links don’t stop there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這些連結不止於此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Or—in the case of an early hunter-gatherer out on a plain—the sight of a lion might be enough to trigger the urge to flee…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對早期狩獵採集者來說，看見獅子可能已足以引發逃跑衝動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段首尾句提示：某一種感官線索可以喚醒其他感官記憶。題目中的 “even when no smell is present” 正好符合這個方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“no smell”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“smell processing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five minutes later, the volunteers were shown the duck photo again, but without the rose smell. And in their brains, the olfactory cortex lit up again, the scientists reported recently.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "五分鐘後，志願者再次看到鴨子的照片，但沒有玫瑰氣味。科學家最近報告說，在他們的大腦中， olfactory cortex 又再次亮起。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“without the rose smell” 對應 no smell is present。“olfactory cortex lit up again” 表示負責 smell processing 的腦區再次活躍。這正是題目的意思：即使現場沒有氣味，大腦仍可重新啟動與氣味相關的感官記憶。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "smell processing= olfactory cortex lit up even when no smell is present= without the rose smell人物判斷：這項實驗由 UCL 團隊進行，Paragraph C 後面點名 “UCL team leader Jay Gottfried”。因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Rachel Herz 也研究 smell 和 brain，但這題問的是 olfactory cortex 在沒有 smell 時仍然 active。這是 UCL duck photo + rose smell experiment，不是 Herz 的 perfume experiment。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "D — A particular area of the brain links emotion directly to the sense of smell.",
+      "answerKey": "D — A particular area of the brain links emotion directly to the sense of smell.",
+      "type": "Multiple Choice",
+      "prompt": "“In paragraph B, what do the experiments conducted by Herz and other scientists show?”",
+      "translation": "在 B 段中，Herz 和其他科學家的實驗顯示了甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目指定 Paragraph B，所以不需要跨段找答案。核心是 paragraph B 的main scientific explanation：smell 和 emotion brain area 的 direct link。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, this phenomenon is getting the scientific treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，這種現象正受到科學研究。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is this unique connection between the sense of smell and the part of the brain that processes emotion,’ says Rachel Herz.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rachel Herz 說：「嗅覺和大腦中處理情緒的部分之間，有這種獨特連接。」只看首尾句，可以判斷本段是對 Proustian phenomenon 的科學解釋段，重點是 smell 與emotion-processing brain region 的特殊連接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herz”"
+            },
+            {
+              "kind": "quote",
+              "text": "“scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“show”"
+            },
+            {
+              "kind": "quote",
+              "text": "“paragraph B”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When you inhale, odour molecules set brain cells dancing within a region known as the amygdala, a part of the brain that helps control emotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你吸氣時，氣味分子會令稱為 amygdala 的區域內的腦細胞活躍起來；amygdala 是幫助控制情緒的大腦部分。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The direct link between odours and the amygdala may help explain the emotional potency of smells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氣味和 amygdala 之間的直接連結，可能有助解釋氣味在情緒上的強大力量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "amygdala 是 “a part of the brain that helps control emotion”。原文說 odours 和 amygdala 有direct link。這正好對應 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“A particular area of the brain links emotion directly to the sense of smell.”"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Women are more easily addicted to opium.錯。Opium for Women 是後面 Paragraph D 的 perfume 名稱，不是毒品成癮研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Smell has a stronger general connection to the brain than the other senses.錯。原文沒有說 smell 和整個 brain 有更強 general connection。它說的是 smell 和 amygdala /emotion 有 direct link。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Smell is more important than the other senses.錯。原文沒有做重要性排名，只比較 route to amygdala 的差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D A particular area of the brain links emotion directly to the sense of smell.正確。particular area = amygdala；emotion = helps control emotion；directly = direct link。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 和 C 都把原文放大了。文章只支援「嗅覺和情緒腦區有直接連結」，沒有支援「嗅覺整體上比其他感官更重要」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — It supports the result of her first experiment.",
+      "answerKey": "B — It supports the result of her first experiment.",
+      "type": "Multiple Choice",
+      "prompt": "“What does Herz’s second experiment suggest?”",
+      "translation": "Herz 的第二個實驗顯示了甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要先分清 Herz 的 first experiment 和 second experiment。Paragraph D 是第一個實驗：個人有記憶連結的 perfume 使 amygdala / hippocampus 更 active。Paragraph E 是第二個實驗：比較 smells、sounds、pictures。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But she couldn’t be sure that the other senses wouldn’t also elicit a strong response.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但她不能確定其他感官是否也會引發強烈反應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Memories triggered by smell were more evocative than memories triggered by either sights or sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由氣味觸發的記憶，比由影像或聲音觸發的記憶更能喚起強烈感受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph E 是 Herz 的比較實驗，用來確認 smell 是否真的比 sight 和sound 更 evocative。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herz’s second experiment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“suggest”"
+            },
+            {
+              "kind": "label",
+              "text": "原文實驗設計："
+            },
+            {
+              "kind": "quote",
+              "text": "“She had 70 people describe an emotional memory involving three items—popcorn, fresh-cut grass and a campfire. The items were then presented through sights, sounds and smells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她讓 70 人描述一段涉及三種物品的情緒記憶：爆谷、新剪草地和營火。然後，這些物品分別透過影像、聲音和氣味呈現。"
+            },
+            {
+              "kind": "label",
+              "text": "結果："
+            },
+            {
+              "kind": "quote",
+              "text": "“Memories triggered by smell were more evocative than memories triggered by either sights or sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由氣味觸發的記憶，比由影像或聲音觸發的記憶更有喚起力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的第一個實驗已經顯示：和個人記憶有關的 perfume 會更強烈啟動 amygdala 和hippocampus。Paragraph E 的第二個實驗再用 sights、sounds、smells 比較，結果仍然是smell-triggered memories 更 evocative。因此第二個實驗支持第一個實驗的方向。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Its result directly conflicts with the first experiment.錯。結果沒有衝突，方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B It supports the result of her first experiment.正確。兩個實驗都指向 smell-triggered memory 更強烈、更 emotional / evocative。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Sights and sounds trigger memories to the same degree.錯。原文比較重點是 smell 比 sights 或 sounds 更 evocative，不是 sights 和 sounds 彼此相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D A lawnmower is the ideal subject for this type of experiment.錯。lawnmower 只是 fresh-cut grass 的 sound example，不是實驗結論。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lawnmower 很具體，容易吸引眼睛，但它只是材料例子。真正控制答案的是最後一句 “more evocative than … sights or sounds”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C — Certain odours helped storytellers recall more detail.",
+      "answerKey": "C — Certain odours helped storytellers recall more detail.",
+      "type": "Multiple Choice",
+      "prompt": "“What was the outcome of the experiment conducted by Chu and Downes?”",
+      "translation": "Chu 和 Downes 的實驗結果是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 outcome，所以要找實驗最後得出的結果。定位詞是 Chu and Downes、experiment、outcome。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Odour-evoked memories may be not only more emotional but also more detailed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由氣味喚起的記憶可能不只更有情緒，也更詳細。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They could.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們確實可以。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句直接提示：本段實驗要證明 odours can help more detail。最後 “They could” 是結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chu and Downes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“experiment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outcome”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In one experiment, Chu and Downes asked 42 volunteers to tell a life story, then tested to see whether odours such as coffee and cinnamon could help them remember more detail in the story. They could.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項實驗中，Chu 和 Downes 要求 42 位志願者講述一個人生故事，然後測試咖啡和肉桂等氣味是否能幫助他們記起故事中更多細節。結果是可以。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 outcome，答案在 “They could”。這個 they 指前面的 odours such as coffee and cinnamon。could help them remember more detail 表示特定氣味能幫助志願者回想故事更多細節。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Smell is the only effective element in the Chinese tradition.錯。Chinese tradition 是研究靈感，原文沒有說 smell 是唯一有效元素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Half of the volunteers told detailed stories.錯。原文說 42 volunteers，沒有說 half。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Certain odours helped storytellers recall more detail.正確。Certain odours = coffee and cinnamon；recall more detail = remember more detail. D The odour of cinnamon was stronger than that of coffee.錯。coffee 和 cinnamon 只是例子，沒有比較強弱。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "coffee / cinnamon 是實驗材料，不是比較對象。題目要結果，不要把材料細節誤讀成結論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — Their method did not test which memories smells evoked spontaneously.",
+      "answerKey": "A — Their method did not test which memories smells evoked spontaneously.",
+      "type": "Multiple Choice",
+      "prompt": "“What criticism did Jellinek make of Chu and Downes in Chemical Senses?”",
+      "translation": "Jellinek 在 Chemical Senses 中對 Chu 和 Downes 作出了甚麼批評？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 criticism，所以要找 Jellinek chided / critiques 的內容。定位詞是 Jellinek、Chu and Downes、Chemical Senses。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite such studies, not everyone is convinced that Proust can be scientifically analysed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管有這些研究，並非所有人都相信 Proust 現象可以用科學方式分析。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But his notions of memory, written as fiction nearly a century ago, continue to inspire today’s scientists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，他近一個世紀前以小說形式寫下的記憶觀念，仍繼續啟發今日的科學家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph G 是 debate / criticism 段落：前半應該提出有人質疑研究方法，後半回到 Proust 現象仍有啟發性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jellinek”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Chu and Downes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Chemical Senses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“criticism”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the June issue of Chemical Senses, Chu and Downes exchanged critiques with renowned perfumer and chemist J. Stephan Jellinek.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Chemical Senses 六月刊中，Chu 和 Downes 與著名調香師兼化學家 J. Stephan Jellinek 交換了批評意見。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jellinek chided the Liverpool researchers for, among other things, presenting the smells and asking the volunteers to think of memories, rather than seeing what memories were spontaneously evoked by the odours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jellinek 批評這些利物浦研究者，其中一點是：他們呈現氣味後要求志願者去想記憶，而沒有觀察氣味會自發喚起哪些記憶。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jellinek 的批評重點在 method。Chu and Downes 的做法是 presenting the smells and asking volunteers to think of memories。Jellinek 認為更應該看 odours spontaneously evoked what memories。題目選項 A 完整概括這點。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Their method did not test which memories smells evoked spontaneously.正確。spontaneously evoked 是原文核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Liverpool was not a suitable place for the experiment.錯。Liverpool researchers 只是研究者身份，不是地點批評。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C There was no way to identify the specific memories that were aroused.錯。原文批評的是研究方法不夠 spontaneous，不是說完全無法識別記憶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The experiment could be improved by using coffee.錯。coffee 是 Chu / Downes 另一個實驗中的 odour example，Jellinek 沒有提出這種建議。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Liverpool researchers” 容易令人誤會成地點問題，但這只是 Chu 和 Downes 的身份標籤。真正批評在 “asking volunteers to think of memories” 和 “spontaneously evoked”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "create a story",
+      "answerKey": "create a story",
+      "type": "Summary Completion",
+      "prompt": "“In the UCL experiments, participants looked at a picture while smelling a flower and were then asked to 10 ____________ linking the two.”",
+      "translation": "在 UCL 實驗中，參加者一邊聞花香一邊看圖片，然後被要求 10 ____________，把兩者連起來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “asked to”，所以答案需要動詞原形開頭。空格後是 “linking the two”，所以答案應該是一個動作，意思是把圖片和氣味連起來。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the links don’t stop there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這些連結不止於此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the sight of a lion might be enough to trigger the urge to flee…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看見獅子可能已足以引發逃跑衝動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 講 UCL experiment 和 sensory memory links，所以 summary 的 UCL experiments明顯定位到本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“UCL”"
+            },
+            {
+              "kind": "quote",
+              "text": "“picture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flower”"
+            },
+            {
+              "kind": "quote",
+              "text": "“linking the two”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In recent experiments, neuroscientists at University College London (UCL) asked 15 volunteers to look at pictures while smelling unrelated odours. For instance, the subjects might see a photo of a duck paired with the scent of a rose, and then be asked to create a story linking the two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在最近的實驗中，倫敦大學學院的神經科學家要求 15 位志願者一邊看圖片，一邊聞無關的氣味。例如，受試者可能看到一張鴨子的照片，同時聞到玫瑰香，然後被要求創作一個故事，把兩者連起來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “picture while smelling a flower” 對應原文 “photo of a duck paired with the scent of a rose”。題目後半 “were then asked to ___ linking the two” 原文完全對應 “be asked to create a story linking the two”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 create a story。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 “story”。因為空格前是 “asked to”，需要動詞短語。“asked to story” 文法不成立；“asked to create a story” 才完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "brain scans",
+      "answerKey": "brain scans",
+      "type": "Summary Completion",
+      "prompt": "“A technique called 11 ____________ showed that a brain region called the 12 ____________was particularly active.”",
+      "translation": "一種叫作 11 ____________ 的技術顯示，一個稱為 12 ____________ 的腦區特別活躍。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “A technique called”，所以答案應該是技術或方法名稱。要回到 UCL experiment 後面找顯示 brain region active 的方法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C本段先描述 UCL experiment，再描述實驗時 brain activity 的結果。因此 Question 11 和 12 會在實驗描述後面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“showed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain region”"
+            },
+            {
+              "kind": "quote",
+              "text": "“particularly active”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brain scans taken at the time revealed that the volunteers’ brains were particularly active in a region known as the olfactory cortex, which is known to be involved in processing smells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時進行的腦部掃描顯示，志願者的大腦在一個稱為 olfactory cortex 的區域特別活躍；這個區域已知與處理氣味有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Brain scans … revealed” 對應題目 “A technique called ___ showed”。雖然題目用了 technique called，原文用的是 “Brain scans taken at the time revealed”，但答案要從 passage 抄出最合理的名詞短語。答案是 brain scans。字數：2 words，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “brain cells”，因為 brain cells 是 Paragraph B 中 amygdala 的描述，不是 UCL experiment 的技術。Question 11 要的是方法；Question 12 才是腦區名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "olfactory cortex",
+      "answerKey": "olfactory cortex",
+      "type": "Summary Completion",
+      "prompt": "“A technique called 11 ____________ showed that a brain region called the 12 ____________was particularly active.”",
+      "translation": "一種叫作 brain scans 的技術顯示，一個稱為 12 ____________ 的腦區特別活躍。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “a brain region called the”，所以答案應該是腦區名稱。題目中的 “particularly active”是最直接定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C Paragraph C 是 UCL experiment 段落，核心是 smell memory 如何在 brain region 中重新啟動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“brain region”"
+            },
+            {
+              "kind": "quote",
+              "text": "“particularly active”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the volunteers’ brains were particularly active in a region known as the olfactory cortex, which is known to be involved in processing smells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "志願者的大腦在一個稱為 olfactory cortex 的區域特別活躍；這個區域已知與處理氣味有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “a brain region called the ___” 對應原文 “a region known as the olfactory cortex”。olfactory和 smell 有關，所以也符合本段 UCL smell experiment 的內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 olfactory cortex。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：2 words，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 amygdala。amygdala 在 Paragraph B / D 中與 emotion 有關；UCL duck + rose experiment 中 active 的 smell-processing brain region 是 olfactory cortex。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "spice",
+      "answerKey": "spice",
+      "type": "Summary Completion",
+      "prompt": "“In another experiment inspired by Chinese elders, storytellers could recall detailed anecdotes when a pot of 13 ____________ or incense was passed around.”",
+      "translation": "另一個受中國長者傳統啟發的實驗中，當一小壺 13 ____________ 或香被傳遞時，講故事的人能回憶更詳細的軼事。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與文法判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “a pot of”，後面是 “or incense”，所以答案應該是可以和 incense 並列的名詞。題目已經有 “or incense”，因此答案只需填另一個物件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Odour-evoked memories may be not only more emotional but also more detailed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由氣味喚起的記憶可能不只更有情緒，也更詳細。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They could.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們確實可以。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 會講 Chu 的 detail recall 研究，也會提到 Chinese culture 的 oral histories，因此Question 13 應在本段中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chinese”"
+            },
+            {
+              "kind": "quote",
+              "text": "“elders”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pot”"
+            },
+            {
+              "kind": "quote",
+              "text": "“incense”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stories”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“As generations gathered to share oral histories, they would pass a small pot of spice or incense around; later, when they wanted to remember the story in as much detail as possible, they would pass the same smell around again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當幾代人聚在一起分享口述歷史時，他們會傳遞一小壺香料或香；後來，當他們想盡可能詳細地記起故事時，他們會再次傳遞同一種氣味。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “a pot of ___ or incense” 完全對應原文 “a small pot of spice or incense”。因為題目已經保留 “or incense”，空格只填 spice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 spice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “spice or incense”，因為題目後面已經有 “or incense”。填入後會變成 “a pot of spice or incense or incense”，意思重複。正確答案只需 spice。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Smell and Memory - Smell like yesterday.pdf",
+    "sha256": "9a6b6562e58f4dd0c1f04e79e37318833c30179a5387fc34f7d0c709bd60e2ab",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句用 newspaper 的氣味引入：人通常用眼睛讀報紙，卻很少留意它的氣味。末句轉到 Proust 的madeleine cookie，說氣味和味道引發三千頁童年回憶。只看首尾句，可以先判斷本段是全文引子：用日常氣味和文學例子說明 smell 能喚醒童年記憶，並引出 “Proustian phenomenon” 這個核心概念。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說這種現象正在接受科學研究，表示文章由文學和生活例子轉入 neuroscience / psychology。末句引用 Rachel Herz，指出 smell 和處理 emotion 的腦部區域有 unique connection。只看首尾句，可以先估計本段會解釋氣味記憶為何特別 emotional，尤其會談 smell、amygdala、emotion之間的直接關係。"
+      },
+      {
+        "number": "C",
+        "summary": "首句 “But the links don’t stop there” 提示：氣味和情緒的連結只是第一層，後面還會講 smell memory 影響其他腦區。末句用 hunter-gatherer 和 lion 的例子說明，只靠一個 sensory trigger 便可能喚醒逃跑反應。只看首尾句，可以猜本段重點是 sensory memories 分散儲存在腦內不同地方，這種分散儲存有助快速喚醒記憶，甚至有生存價值。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 remembered smells may also carry extra emotional baggage，並直接點名 Herz。末句說Herz 把研究發表在 Neuropsychologia。只看首尾句，可以判斷本段是 Herz 的實驗證據段：她用有個人記憶連結的 perfume 測試腦部反應，重點很可能落在 emotional memory、amygdala 和hippocampus。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Herz 仍未能確定其他感官會否也引發強反應，所以需要另一個比較實驗。末句說smell-triggered memories 比 sight 或 sound triggered memories 更 evocative。只看首尾句，可以先知道本段是 Herz 的 follow-up experiment：把 smell、sound、picture 放在一起比較，用來檢查smell 是否真的比其他感官更能喚起強烈記憶。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 odour-evoked memories 可能不只 more emotional，也 more detailed。末句 “They could”回應前面實驗問題：coffee 和 cinnamon 等氣味能否幫助志願者記起更多故事細節。只看首尾句，可以判斷本段轉向 Simon Chu 和 John Downes，重點是 smell 對 detailed recall 的幫助，並用Chinese culture 的 spice / incense 傳統作背景。"
+      },
+      {
+        "number": "G",
+        "summary": "首句用 Despite such studies 轉折，說並非所有人都相信 Proust 現象能被科學分析。末句回到Proust 的 fiction，說他的 memory ideas 仍然啟發今日科學家。只看首尾句，可以判斷本段功能是收束與質疑：一方面介紹 Jellinek 對研究方法的批評，另一方面說這個現象雖難完全科學化，仍持續推動研究。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2176 @@
+{
+  "id": "p1-090-the-king-of-fruits",
+  "catalogueId": "p1-090",
+  "catalogueIds": [
+    "p1-090"
+  ],
+  "passage": 1,
+  "title": "The King of Fruits",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "G",
+    "F",
+    "E",
+    "C",
+    "thorns",
+    "pith",
+    "pockets",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "mesh bags",
+    "lower-grade durian",
+    "hard hat"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Which paragraph gives a reason for durian’s spread outside Asia?”",
+      "translation": "哪一段解釋 durian 為甚麼傳到亞洲以外，或為甚麼亞洲以外的人開始對它有興趣？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找的是 “reason for spread outside Asia”，所以定位時要找outside Asia、West、Canada、Australia、immigrants、markets、export 等市場或地理擴散訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thailand, where durian remains very popular, now exports most of this fruit, with five cultivars in large-scale commercial production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thailand 仍然很受歡迎，現在出口大部分 durian，並有五個 cultivars 進行大規模商業生產。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the true spirit of Alfred Wallace, there are certainly a large and growing number of‘confirmed durian eaters’ out there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正承接 Alfred Wallace 的精神，外面確實有大量而且愈來愈多的 “confirmed durian eaters”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph G 主要處理 durian 的出口、市場和食客群擴大。這正好和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“spread outside Asia” 相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是：“spread”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outside Asia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接寫 “spread outside Asia”，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The principal markets are other Asian nations, although interest is growing in the West as Asian immigrants take their tastes and eating preferences with them—for example, in Canada and Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要市場是其他亞洲國家；不過，隨著亞洲移民把自己的口味和飲食偏好帶到外地，西方對durian 的興趣也在增加，例如 Canada 和 Australia。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句提供了清楚的因果關係："
+            },
+            {
+              "kind": "quote",
+              "text": "“interest is growing in the West”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 西方興趣增加，即亞洲以外市場擴大。"
+            },
+            {
+              "kind": "quote",
+              "text": "“as Asian immigrants take their tastes and eating preferences with them”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原因是亞洲移民把飲食喜好帶到新地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “spread outside Asia”，原文用 “interest is growing in the West” 和 “Canada and Australia” 具體化這個現象。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “spread outside Asia”= 原文 “interest is growing in the West”= 原文 “Canada and Australia”題目 “reason”= 原文 “as Asian immigrants take their tastes and eating preferences with them”所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 提到 durian introduced in northern Australia，表面上也和 Asia outside 有關。不過F 的重點是 cultivation 和 cultivars，不是為何西方市場對 durian 產生興趣。Question 1 問的是spread 的原因，Paragraph G 的 Asian immigrants 才是最直接證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Which paragraph gives a reason for durian’s variety of forms?”",
+      "translation": "哪一段解釋 durian 為甚麼有不同形態或不同品種？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 variety of forms 的原因。定位詞可以是 variety、cultivars、breeding、cultivation、differ、odour、seed size、colour、texture。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such popularity has seen the widespread cultivation of durian, although the tree will grow only in tropical climates—for example, in the very northern parts of Australia, where it was introduced in the early 1960s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種受歡迎程度帶來了 durian 的廣泛種植，不過 durian 樹只會在熱帶氣候生長，例如澳洲最北部，它在 1960s 初被引入那裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tree itself is always very large, up to 50 metres, and given that the heavy thorny pods can hang from even the highest branches, and will drop when ripe, one does not walk within a durian plantation without a hard hat—or at least, not without risking serious injury.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "durian 樹本身一直非常高大，可達 50 米；由於沉重帶刺的果實甚至會掛在最高的枝上，成熟時又會掉落，所以人在 durian 種植園內行走時要戴 hard hat，否則至少會冒嚴重受傷的風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 看似同時處理栽培和安全問題。中間若出現 breeding 或 cultivars，就很可能回答 variety of forms。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“variety”"
+            },
+            {
+              "kind": "quote",
+              "text": "“forms”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since that time, modern breeding and cultivation techniques have resulted in the introduction of hundreds of cultivars…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自那時起，現代 breeding 和 cultivation 技術帶來了數百個 cultivars。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The resulting fruits differ in the intensity of their odour, seed size, colour and flesh texture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些產生出來的果實在氣味強度、種子大小、顏色和果肉質地方面都有差異。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“hundreds of cultivars” 直接解釋為甚麼 durian 有不同品種。括號中的定義也很重要：“plant varieties bred and maintained by propagation for desirable characteristics”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "cultivars 指為了理想特徵而培育並透過繁殖維持的植物品種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 variety of forms 的原因是現代 breeding and cultivation techniques。後一句再列出變化範圍：odour、seed size、colour、flesh texture。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “variety of forms”= 原文 “hundreds of cultivars”= 原文 “fruits differ in… odour, seed size, colour and flesh texture”題目 “reason”= 原文 “modern breeding and cultivation techniques have resulted in…”所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也講 flavour varies considerably，容易令人誤以為它處理 variety。可是 E 的變化集中在 ripeness、storage 和食物用途；Question 2 問 forms，即品種和外在／物理特徵變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的 cultivars 和 differ in seed size, colour, texture 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“Which paragraph gives a reason for durian’s variety of food uses?”",
+      "translation": "哪一段解釋 durian 為甚麼能用於多種食物？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 food uses 的原因，不只是列出食物例子。定位詞包括 food uses、blend、delicacies、candy、cakes、milkshakes、ice cream、meals、paste、consistency。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In actual fact, the flavour can vary considerably depending on the stage of ripeness and methods of storage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，durian 的味道會因成熟階段和儲存方法而有很大差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It can also appear in meals, mixed with vegetables or chilli, and lower-grade durian (otherwise unfit for human consumption) is fermented into paste, used in a variety of local rice dishes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也可以出現在正餐中，與蔬菜或辣椒混合；lower-grade durian 如果原本不適合人類食用，也會發酵成 paste，用於多種本地米飯菜式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph E 明顯處理 taste variation 和 food applications。題目問 food uses，這段是最強候選。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“variety”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food uses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the case, it is this soft, creamy consistency that allows durian to blend with other Southeast Asian delicacies, from candy and cakes to modern milkshakes and ice cream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論是哪種情況，正是這種柔軟、奶油般的質地，讓 durian 可以與其他東南亞美食融合，從糖果和蛋糕，到現代奶昔和雪糕都可以。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這一句有明確因果：原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“this soft, creamy consistency”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種柔軟、奶油般的質地。"
+            },
+            {
+              "kind": "label",
+              "text": "結果："
+            },
+            {
+              "kind": "quote",
+              "text": "“allows durian to blend with other Southeast Asian delicacies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "讓 durian 能與其他東南亞食品融合。"
+            },
+            {
+              "kind": "label",
+              "text": "例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“candy and cakes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“milkshakes and ice cream”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一句再補充 meals、vegetables、chilli、paste、rice dishes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “variety of food uses”= 原文 “from candy and cakes to modern milkshakes and ice cream”= 原文 “meals… paste… rice dishes”題目 “reason”= 原文 “soft, creamy consistency… allows”所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 描述果肉好吃，似乎也和食物有關。不過 D 主要談 eating experience 和 interior structure。Question 3 要找多種食物用途的原因，Paragraph E 才真正解釋 durian 如何因creamy consistency 而能加入甜品、飲品、正餐和米飯菜式。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“Which paragraph gives a reason for durian’s defining characteristics?”",
+      "translation": "哪一段解釋 durian 標誌性特徵的原因？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最重要的是 “reason”。durian 的 defining characteristics 可包括強烈氣味和帶刺硬殼。題目要找為甚麼它會有這些特徵，因此要定位到解釋自然功能的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This leads one to wonder why nature designed such a smelly fruit in such an inconvenient package.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這令人想問，為甚麼大自然會設計出這樣一種氣味濃烈、包裝又如此不方便的水果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only the largest and strongest animals can get past that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有最大、最強壯的動物才能突破那層保護。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph C 直接問 “why nature designed…” 並在結尾解釋 hard spiny cover 的作用。它最適合回答 defining characteristics 的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“reason”"
+            },
+            {
+              "kind": "quote",
+              "text": "“defining characteristics”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的 characteristics 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“smelly fruit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inconvenient package”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pungent odour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tough spiny cover”"
+            },
+            {
+              "kind": "label",
+              "text": "答案句包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“For a start, that pungent odour makes the fruit easier for animals to detect in the thick tropical forests…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "首先，那種刺鼻氣味讓動物更容易在茂密熱帶森林中找到果實。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“…hence the use of that tough spiny cover. Only the largest and strongest animals can get past that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此使用那層堅硬帶刺的外殼。只有最大、最強壯的動物才能突破它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 解釋兩個標誌性特徵：第一，強烈氣味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它讓動物從數百米外被吸引過來，能在厚密森林中找到落下的果實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，堅硬帶刺外殼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 durian 的 seeds 很大，樹需要大型動物吃果肉、吞下種子並把種子帶走，所以外殼要讓小型動物較難進入，只讓大型強壯動物成功打開。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “defining characteristics”= 原文 “smelly fruit” + “tough spiny cover”題目 “reason”= 原文 “makes the fruit easier for animals to detect” + “needs correspondingly larger animals…”所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 描寫 durian 氣味，非常像 defining characteristics；Paragraph B 描寫外形和 thorny husk，也很像特徵描述。不過 A 和 B 主要描寫特徵本身。Paragraph C 開頭用 “why nature designed…” 明確轉向原因，這才是題目所需資訊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "thorns",
+      "answerKey": "thorns",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 5",
+      "translation": "durian 外部某些部分覆蓋著 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表資訊大意："
+            },
+            {
+              "kind": "quote",
+              "text": "“Parts of a durian covered in ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Diagram Label Completion。空格需要一個名詞，描述 durian 外部覆蓋物。定位時要找外觀、covered、thorny、husk、sharp 等字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its title is, in many ways, deserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的這個稱號在很多方面都當之無愧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One can see why it is increasingly popular, in Western markets, to have that flesh removed, wrapped up, and purchased directly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此可以理解，為甚麼在西方市場中，越來越多人喜歡直接購買已取出並包好的果肉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph B 會描述 durian 作為 king of fruits 的外在條件，以及為何人們寧願買已取出的果肉。這段應該包含外殼、刺和處理困難。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“covered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“durian exterior”"
+            },
+            {
+              "kind": "quote",
+              "text": "“parts”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As big as a basketball and weighing up to three kilograms, it is covered, most noticeably, by a thick, tough and thorny husk that demands respect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它有籃球般大小，重達三公斤；最明顯的是，它覆蓋著一層厚、硬而帶刺的外殼，令人不得不小心對待。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The thorns are so sharp that even holding the massive object is difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些刺非常尖，即使只是拿著這個巨大物體也很困難。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果圖表問 “covered in ____”，最自然的答案是 thorns。因為 “husk” 是外殼整體；“thorns” 是覆蓋在外部、造成 sharp 和 handling difficulty 的突出物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案格式檢查： thorns = 一個詞，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “covered in”= 原文 “covered… by” + “thorny husk”圖表中的外部尖刺= 原文 “The thorns are so sharp…”所以答案是 thorns。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "husk 也在同一句出現，很吸引。不過 diagram label 若指外表一粒粒尖刺，答案要落在 thorns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "husk 是整個外殼，thorns 是外殼上的刺。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "pith",
+      "answerKey": "pith",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 6",
+      "translation": "內部支撐結構稱為 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表資訊大意："
+            },
+            {
+              "kind": "quote",
+              "text": "“The interior supporting structure is called ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要標籤 durian 內部結構。空格需要一個名詞。定位詞是 interior、supporting structure、inside、white fibrous、pith。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And what are they seeking?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼牠們到底在尋找甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Exactly!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是如此！"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 會由動物被吸引到 durian 後，轉入果實內部和食用體驗。中間很可能描寫內部結構，所以適合找 diagram label。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“interior”"
+            },
+            {
+              "kind": "quote",
+              "text": "“supporting structure”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon prising open the large pod, one is presented with white fibrous pith in which are nestled pockets of soft yellowish flesh, divided into lobes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "撬開這個大果實後，人會看到白色纖維狀 pith；其中藏著一袋袋柔軟微黃的果肉，並分成 lobes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句明確描述 durian 內部："
+            },
+            {
+              "kind": "quote",
+              "text": "“white fibrous pith”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 白色纖維狀 pith。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面的 “in which are nestled pockets…” 說明 pith 是內部承托或包圍果肉 pockets 的結構。圖表若標內部支撐物，答案就是 pith。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案格式檢查： pith = 一個詞，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “interior supporting structure”= 原文 “white fibrous pith in which are nestled…”所以答案是 pith。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 flesh。flesh 是可食用果肉；pith 才是白色纖維狀內部結構。圖表題要看箭頭指向：若指中間白色支撐組織，用 pith；若指黃色可食部分，才可能是 flesh。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "pockets",
+      "answerKey": "pockets",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 7",
+      "translation": "包住可食部分的小隔間是 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表資訊大意："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small compartments holding the edible sections are ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個名詞。圖表問小隔間，定位詞是 compartments、edible sections、soft yellowish flesh、pockets、lobes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And what are they seeking?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼牠們到底在尋找甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Exactly!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是如此！"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的中間部分描述 durian 打開後的內部組織，正是 diagram labels 最可能出現的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“small compartments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“edible sections”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon prising open the large pod, one is presented with white fibrous pith in which are nestled pockets of soft yellowish flesh, divided into lobes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "撬開這個大果實後，人會看到白色纖維狀 pith；其中藏著一袋袋柔軟微黃的果肉，並分成 lobes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pockets of soft yellowish flesh” 指藏在 pith 之中的小袋狀結構，裡面有可食用的果肉。題目說“small compartments holding the edible sections”，最接近原文的詞是 pockets。答案格式檢查： pockets = 一個詞，符合 ONE WORD。若原圖箭頭只指向一個單獨小室，有些版本可能接受 pocket；但從你貼出的文章原文可直接抄出的詞形是 pockets。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “small compartments”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “pockets”題目 “edible sections”= 原文 “soft yellowish flesh”所以答案是 pockets。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lobes 也在同一句出現。lobes 是果肉分成的瓣；pockets 是裝著果肉的袋狀小室。若圖表指向包住果肉的空間，答案要用 pockets。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The seeds can be eaten.”",
+      "translation": "durian 的種子可以食用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目很短，控制詞是 “can be eaten”。要找 seeds 是否可食用。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And what are they seeking?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼牠們到底在尋找甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Exactly!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是如此！"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 會描述 durian 內部，包括 flesh 和 seed，所以它最可能藏有答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“seeds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eaten”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although these seeds themselves can be cooked and eaten, it is the surrounding flesh over which all the fuss is made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這些種子本身可以煮熟並食用，但真正令人如此著迷的是包圍種子的果肉。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接說 “these seeds themselves can be cooked and eaten”。題目說 “The seeds can be eaten.” 兩者方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目省略了 “cooked”，但 “can be cooked and eaten” 已經支援 “can be eaten”。題目沒有說 raw seeds can be eaten，所以沒有和 cooked 產生衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “can be eaten”= 原文 “can be cooked and eaten”判斷：題目與原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "後半句說人們真正重視的是 surrounding flesh，可能令學生以為 seeds 不重要，所以不可食用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "細讀時要把 although 兩邊分開：種子可食用；人們最重視果肉。兩件事可以同時成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Durian trees are grown in many parts of Australia.”",
+      "translation": "durian 樹在澳洲很多地區種植。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷種植範圍。控制詞是 “many parts of Australia”。原文如果說 only in tropical climates和 very northern parts，就會和 many parts 形成衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such popularity has seen the widespread cultivation of durian, although the tree will grow only in tropical climates—for example, in the very northern parts of Australia, where it was introduced in the early 1960s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種受歡迎程度帶來了 durian 的廣泛種植，不過 durian 樹只會在熱帶氣候生長，例如澳洲最北部，它在 1960s 初被引入那裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tree itself is always very large, up to 50 metres, and given that the heavy thorny pods can hang from even the highest branches, and will drop when ripe, one does not walk within a durian plantation without a hard hat—or at least, not without risking serious injury.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "durian 樹本身非常高大，可達 50 米；沉重帶刺的果實會掛在高枝，成熟時又會掉落，所以在durian 種植園內行走要戴 hard hat，否則有嚴重受傷風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接處理 cultivation 和 Australia，是本題核心位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Australia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many parts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grown”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the tree will grow only in tropical climates—for example, in the very northern parts of Australia”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種樹只會在熱帶氣候生長，例如澳洲最北部。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “many parts of Australia”，表示澳洲很多地區都有種植。原文用兩個限制縮小範圍："
+            },
+            {
+              "kind": "quote",
+              "text": "“only in tropical climates”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只在熱帶氣候。"
+            },
+            {
+              "kind": "quote",
+              "text": "“the very northern parts of Australia”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲非常北部的地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 “many parts of Australia” 不相容。澳洲最北部只是有限地區，不能等於 many parts。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “many parts of Australia”和原文 “very northern parts of Australia” 衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “are grown”= 原文 “will grow” / “cultivation”判斷：原文提供相反範圍，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文開頭說 “widespread cultivation of durian”，容易令人想到很多地方都種植。不過同一句馬上用 although 收窄條件：tree will grow only in tropical climates。做 T/F/NG 時，遇到 although 後面的限制要特別小心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Thailand consumes the most durians.”",
+      "translation": "Thailand 消耗最多 durian。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 consumption，即哪個地方吃得最多。定位詞是 Thailand 和 consumes the most。原文如果只說 popular 或 exports most，仍不足以證明 consumption 排名。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thailand, where durian remains very popular, now exports most of this fruit, with five cultivars in large-scale commercial production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thailand 仍然很受歡迎，現在出口大部分 durian，並有五個 cultivars 進行大規模商業生產。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the true spirit of Alfred Wallace, there are certainly a large and growing number of‘confirmed durian eaters’ out there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "承接 Alfred Wallace 的精神，外面確實有大量且愈來愈多的 durian 愛好者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 談 Thailand、exports、markets、prices 和 eaters，所以需要細讀是否有 “consume most”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thailand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consumes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關資料："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thailand, where durian remains very popular, now exports most of this fruit…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thailand 仍然很受歡迎，現在出口大部分 durian。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The principal markets are other Asian nations…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要市場是其他亞洲國家。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援以下內容： Thailand 很受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thailand 出口大部分 durian。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要市場是其他亞洲國家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "西方興趣也在增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但題目要求的是： Thailand consumes the most durians. Thailand 是最大消費者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有提供各國 consumption ranking，也沒有說 Thailand 比其他國家吃得更多。更重要的是， exports most 表示出口量大，這屬於 trade / production / export information，不等於 domestic consumption。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供 Thailand 相關背景，但缺少 “consumes the most” 這個核心比較，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“where durian remains very popular” 很吸引，因為 popular 似乎暗示很多人吃。不過 popular 只說受歡迎，沒有和其他國家比較。題目有 “the most”，必須有最高級或排名證據；原文沒有這項資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "mesh bags",
+      "answerKey": "mesh bags",
+      "type": "Short Answer Questions",
+      "prompt": "“What can make durians easier to carry?”",
+      "translation": "甚麼可以令 durian 更容易攜帶？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short Answer。問題詞是 What，答案需要是物件。定位詞是 easier to carry，原文可能用ease handling。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its title is, in many ways, deserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的這個稱號在很多方面都當之無愧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One can see why it is increasingly popular, in Western markets, to have that flesh removed, wrapped up, and purchased directly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此可以理解，為甚麼在西方市場中，越來越多人喜歡直接購買已取出並包好的果肉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理 durian 巨大、帶刺和不易處理的問題，所以很可能包含讓它更易搬運的工具。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“easier”"
+            },
+            {
+              "kind": "quote",
+              "text": "“carry”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In supermarkets, they are usually put into mesh bags to ease handling…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在超級市場中，它們通常被放進 mesh bags，以便處理和拿取。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“to ease handling” 對應題目 “make durians easier to carry”。handling 包括拿起、搬動、處理。前文說 thorns sharp and holding difficult，所以 mesh bags 的功能就是讓人更容易拿。答案格式檢查： mesh bags = 兩個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “make durians easier to carry”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “to ease handling”答案是 mesh bags。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "protective gloves 也在同一句附近出現，但它們用於 extracting the flesh，即取出果肉；題目問easier to carry / handling 整個 durian。mesh bags 才直接對應 ease handling。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "lower-grade durian",
+      "answerKey": "lower-grade durian",
+      "type": "Short Answer Questions",
+      "prompt": "“What kind of durian is usually fermented into paste?”",
+      "translation": "哪一種 durian 通常會發酵成 paste？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "問題詞是 What kind，答案需要是 durian 的類型。定位詞是 fermented into paste。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In actual fact, the flavour can vary considerably depending on the stage of ripeness and methods of storage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，durian 的味道會因成熟階段和儲存方法而有很大差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It can also appear in meals, mixed with vegetables or chilli, and lower-grade durian (otherwise unfit for human consumption) is fermented into paste, used in a variety of local rice dishes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也可以出現在正餐中，與蔬菜或辣椒混合；lower-grade durian 如果原本不適合人類食用，也會發酵成 paste，用於多種本地米飯菜式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句已直接包含 fermented into paste，所以本題定位很明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fermented”"
+            },
+            {
+              "kind": "quote",
+              "text": "“paste”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“lower-grade durian… is fermented into paste”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "lower-grade durian 會被發酵成 paste。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句中的主語是 “lower-grade durian”。括號 “otherwise unfit for human consumption” 補充說明：這種 durian 等級較低，原本不適合直接食用，所以會被加工成 paste。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案格式檢查： lower-grade durian = 兩個詞。hyphenated lower-grade 算一個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “What kind of durian”= 原文 “lower-grade durian”題目 “fermented into paste”= 原文同字重現所以答案是 lower-grade durian。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “younger durian”。Paragraph E 開頭提到 southern Thailand 偏好 younger durian，但那是食用偏好，與 fermented into paste 無關。看到同一段有多種 durian，要用動詞 fermented 精準定位。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "hard hat",
+      "answerKey": "hard hat",
+      "type": "Short Answer Questions",
+      "prompt": "“What should one wear when walking among durian trees?”",
+      "translation": "在 durian 樹之間行走時應該戴甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "問題詞是 What，答案需要是可穿戴物。定位詞是 walking among durian trees，原文可能寫plantation、walk、without、risk serious injury。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such popularity has seen the widespread cultivation of durian, although the tree will grow only in tropical climates—for example, in the very northern parts of Australia, where it was introduced in the early 1960s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種受歡迎程度帶來了 durian 的廣泛種植，不過 durian 樹只會在熱帶氣候生長，例如澳洲最北部，它在 1960s 初被引入那裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tree itself is always very large, up to 50 metres, and given that the heavy thorny pods can hang from even the highest branches, and will drop when ripe, one does not walk within a durian plantation without a hard hat—or at least, not without risking serious injury.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "durian 樹本身非常高大，可達 50 米；沉重帶刺的果實甚至會掛在最高的枝上，成熟時會掉落，所以人在 durian 種植園裡行走時要戴 hard hat，否則至少會冒嚴重受傷的風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接回答本題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wear”"
+            },
+            {
+              "kind": "quote",
+              "text": "“walking”"
+            },
+            {
+              "kind": "quote",
+              "text": "“durian trees”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“one does not walk within a durian plantation without a hard hat”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人在 durian 種植園內行走時不應沒有 hard hat。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句用雙重否定式表達建議："
+            },
+            {
+              "kind": "quote",
+              "text": "“does not walk… without a hard hat”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：行走時要戴 hard hat。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因由前半句提供：durian 樹很高，heavy thorny pods 會從高處掉落，可能造成 serious injury。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案格式檢查： hard hat = 兩個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “walking among durian trees”= 原文 “walk within a durian plantation”題目 “What should one wear”= 原文 “without a hard hat” 反向提示必須戴 hard hat所以答案是 hard hat。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The King of Fruits.pdf",
+    "sha256": "8d1a90188e934e4cd6f796f65cdbd3fe5a7509f70916c3ef7ac2043defaf9929",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以先看到本文由 durian 最鮮明的感官特徵入手：你會先聞到它，然後才看到它。最後一句把所有氣味描寫收束到 durian，稱它為 Southeast Asian favourite 和 “king of fruits”。這段功能是介紹 durian 的 defining impression：氣味強烈、評價兩極、極具辨識度。它很可能回答「榴槤有甚麼標誌性特徵」或「為何它特別」一類題目。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 durian 的 “king of fruits” 稱號在很多方面都當之無愧；尾句說西方市場越來越流行直接購買已取出的果肉。只看首尾句，可以估計本段會描述 durian 的外形和處理難度。中間細節包括巨大重量、thorny husk、sharp thorns、mesh bags、protective gloves 和 knife。這段很可能回答外部結構、攜帶方式、處理困難等題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句提出問題：為甚麼自然界會設計出又臭又不方便的水果？尾句指出只有最大、最強壯的動物才能突破那層堅硬帶刺的外殼。只看首尾句，可以看到本段功能是解釋 durian 氣味和帶刺外殼的自然原因。氣味吸引大型動物，硬刺外殼限制能進食的動物種類，結果有助種子被大型動物帶走。這段很可能回答 defining characteristics 的原因。"
+      },
+      {
+        "number": "D",
+        "summary": "首句問大型動物到底在尋找甚麼；尾句引用 Wallace 的經驗，說他最後成為 confirmed durian eater。只看首尾句，可以估計本段會打開 durian 內部，描述 pith、pockets、flesh、lobes 和 seeds，也會解釋為何人們克服氣味後仍喜愛果肉。這段是圖表標籤題的核心段，尤其是內部結構和種子是否可食用。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 durian 的 flavour 會因成熟度和儲存方法而有很大差異；尾句說 lower-grade durian 會發酵成 paste，用於不同米飯菜式。只看首尾句，可以估計本段功能是介紹口味變化和食物用途。中間提到泰國偏好較年輕、較溫和的 durian，馬來西亞偏好自然落果後再熟成，也列出 candy、cakes、milkshakes、ice cream、meals 和 paste。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 durian 的受歡迎程度帶來廣泛種植，但樹只會在熱帶氣候生長，例如澳洲最北部；尾句提醒進入 durian plantation 要戴 hard hat，否則有受重傷風險。只看首尾句，可以看到本段有兩個重點：cultivation 的擴展與限制，以及現代 breeding 產生大量 cultivars。它很可能回答 variety of forms、Australia 種植範圍、hard hat 等題目。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Thailand 現在出口大部分 durian，並有五個 cultivars 進行大規模商業生產；尾句說世界上已有大量且持續增加的 confirmed durian eaters。只看首尾句，可以估計本段處理市場和外銷：主要市場仍是其他亞洲國家，但西方興趣增加，原因與 Asian immigrants 把飲食偏好帶到Canada 和 Australia 等地有關。這段很可能回答 spread outside Asia。 Answer Key Questio Answer n 1 G 2 F 3 E 4 C 5 thorns 6 pith 7 pockets 8 TRUE 9 FALSE 10 NOT GIVEN 11 mesh bags 12 lower-grade durian 13 hard hat"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 5–7 的原題 diagram 沒有在現有來源中顯示。現有 thorns、pith、pockets 的圖示對應是依照 Paragraph D 的內部結構描述、來源答案表和可公開核對的題序重建；實際作答時應以紙本圖的箭嘴為準。"
+  ]
+}

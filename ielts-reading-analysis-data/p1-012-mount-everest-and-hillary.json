@@ -1,0 +1,1892 @@
+{
+  "id": "p1-012-mount-everest-and-hillary",
+  "catalogueId": "p1-012",
+  "catalogueIds": [
+    "p1-012"
+  ],
+  "passage": 1,
+  "title": "MOUNT EVEREST AND HILLARY",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 12,
+  "answerKey": [
+    "Andrew Waugh",
+    "Tibet",
+    "Irvine’s body",
+    "photo / photograph",
+    "Norgay / Tenzing Norgay",
+    "Himalayan Trust",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "Andrew Waugh",
+      "answerKey": "Andrew Waugh",
+      "type": "Short-answer Questions",
+      "prompt": "“Who suggested that the name Everest be used to refer to the mountain?”",
+      "translation": "是誰建議使用 Everest 這個名稱來指稱這座山？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 Who，所以答案要是人名。最有定位力的字是 “suggested”和 “name Everest”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mount Everest, also known as Sagarmartha (Goddess of the Sky), is 8,348 metres tall, the highest mountain on earth above sea level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mount Everest，也稱為 Sagarmartha（天空女神），高 8,348 公尺，是地球上海拔最高的山峰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everest was given its official English name in 1865 by the Royal Geographic Society upon recommendation of Andrew Waugh, the British Surveyor General of India at the time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Everest 於 1865 年由 Royal Geographic Society 正式給予英文名稱，這是根據當時 British Surveyor General of India Andrew Waugh 的建議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 會交代 Everest 的基本資料和名稱來源。題目問 name Everest 的建議者，因此 Paragraph 1 是最直接的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“suggested”"
+            },
+            {
+              "kind": "quote",
+              "text": "“name Everest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Who”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有用 suggested，但用了近義表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“upon recommendation of Andrew Waugh”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思是「根據 Andrew Waugh 的建議」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 official English name 和 recommendation，因此值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everest was given its official English name in 1865 by the Royal Geographic Society upon recommendation of Andrew Waugh…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Everest 這個官方英文名稱，是 1865 年由 Royal Geographic Society 根據 Andrew Waugh 的建議採用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Everest”。核心動作是 “was given its official English name”。真正回答 Who 的部分是 “upon recommendation of Andrew Waugh”。Royal Geographic Society 是正式命名機構， Andrew Waugh 才是提出建議的人。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "suggested= upon recommendation of the name Everest be used= was given its official English name答案形式： Andrew Waugh = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易填 “Royal Geographic Society”，因為它是命名的機構。但題目問的是誰 suggested /recommended，所以要填 Andrew Waugh。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "Tibet",
+      "answerKey": "Tibet",
+      "type": "Short-answer Questions",
+      "prompt": "“Which country prevented explorers climbing Everest until 1920?”",
+      "translation": "直到 1920 年以前，是哪一個國家阻止探險家攀登 Everest？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 Which country，所以答案應是地名或國家／地區名。定位詞是 “until 1920”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Everest was officially announced as the world’s highest mountain in 1852, it won interest from people all over the world, and the idea of climbing all the way to the summit was viewed as the ultimate feat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Everest 在 1852 年被正式宣布為世界最高峰時，它引起全世界人們的興趣，登上峰頂被視為終極壯舉。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nonetheless, the deadliest year in Mount Everest’s history was 1996, when 19 people died near the summit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管如此，Everest 歷史上最致命的一年是 1996 年，當時有 19 人死於接近峰頂之處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講 Everest 被宣布為最高峰後引起興趣，但早期登山充滿失敗和危險。題目問 until 1920，應在本段早期歷史句中找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“until 1920”"
+            },
+            {
+              "kind": "quote",
+              "text": "“country”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prevented explorers climbing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobody was able to climb Everest until 1920 when Tibet first opened its borders to outsiders…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 1920 年 Tibet 首次向外人開放邊境之前，沒有人能夠攀登 Everest。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Nobody”。核心動作是 “was able to climb Everest”。時間條件是 “until 1920 when Tibet first opened its borders to outsiders”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “prevented explorers climbing” 概括原文的 “Tibet first opened its borders to outsiders”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是，在 1920 年以前，Tibet 邊境未向外人開放，因此外來探險者無法攀登 Everest。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "prevented explorers climbing= nobody was able to climb because borders were not open to outsiders until 1920= until 1920 when Tibet first opened its borders答案形式： Tibet = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章第一段提到 Everest 位於 Tibet and Nepal 之間。題目問哪個地方直到 1920 年以前阻礙外人攀登，定案句只提到 Tibet opened its borders，所以答案是 Tibet。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "Irvine’s body",
+      "answerKey": "Irvine’s body",
+      "type": "Short-answer Questions",
+      "prompt": "“What has not yet been recovered?”",
+      "translation": "有甚麼至今仍未被尋獲？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 What，所以答案應是物件或遺體。定位詞是 “not yet been recovered”，原文可能用 “yet to be found”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1924, Mount Everest claimed the lives of its first two climbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1924 年，Everest 奪走了首兩位登山者的生命。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given their known departure time and movements, had they not made the summit, it is unlikely that they would have still been out by nightfall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據他們已知的出發時間和行動，如果他們沒有到達峰頂，那麼到了夜晚仍在外面的可能性很低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 3 會講 1924 年 Mallory 和 Irvine 的死亡、失蹤，以及是否登頂的未解之謎。題目問尚未找回的東西，應在這段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“not yet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recovered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“found”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mallory’s body was not seen again until 75 years on, in May of 1999, and Irvine’s body is yet to be found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mallory 的遺體直到 75 年後，即 1999 年 5 月，才再次被發現，而 Irvine 的遺體至今仍未找到。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個對比： Mallory’s body= was not seen again until May 1999= 已經被找到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Irvine’s body= is yet to be found= 至今仍未找到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “has not yet been recovered” 對應原文 “is yet to be found”。答案應填尚未尋獲的對象： Irvine’s body。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not yet been recovered= is yet to be found what= Irvine’s body答案形式： Irvine’s body = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Mallory’s body 也在同一句中出現，很容易誤填。但原文說 Mallory’s body 在 1999 年被發現；仍未找到的是 Irvine’s body。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "photo / photograph",
+      "answerKey": "photo / photograph",
+      "type": "Short-answer Questions",
+      "prompt": "“What was not found on Mallory’s body that indicates he may have reached the summit?”",
+      "translation": "在 Mallory 的遺體上，哪一樣沒有被發現的東西顯示他可能曾到達山頂？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 What was not found，所以要找一個物件。定位詞是Mallory’s body、not found、reached the summit。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1924, Mount Everest claimed the lives of its first two climbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1924 年，Everest 奪走了首兩位登山者的生命。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given their known departure time and movements, had they not made the summit, it is unlikely that they would have still been out by nightfall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據他們已知的出發時間和行動，如果他們沒有登頂，那麼到了夜晚仍在外面的可能性很低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段會討論 Mallory / Irvine 是否曾登頂。題目問「遺體上沒有找到甚麼」，答案應在支持他們可能登頂的證據中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mallory’s body”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not found”"
+            },
+            {
+              "kind": "quote",
+              "text": "“summit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mallory’s daughter has always said that Mallory carried a photograph of his wife on his person with the intention of leaving it on the summit when he reached it. This photo was not found on the body when it was discovered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mallory 的女兒一直表示，Mallory 隨身帶著一張妻子的照片，打算在登頂後把它留在峰頂。當他的遺體被發現時，這張照片並沒有在身上找到。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的證據鏈是： Mallory carried a photograph of his wife= 他帶著妻子的照片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "with the intention of leaving it on the summit= 他打算登頂後把照片留在山頂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "This photo was not found on the body= 遺體上沒有找到這張照片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，有人推測：如果照片不在身上，可能是他已經把它放在 summit，所以他可能到過峰頂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求 NO MORE THAN THREE WORDS，所以答案可填： photo或photograph兩者都來自原文；“photograph of his wife” 雖然意思完整，但有 4 個 words，不符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not found on Mallory’s body= This photo was not found on the body indicates he may have reached the summit= intended to leave it on the summit when he reached it"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “snow goggles”。Snow goggles 在同段也是證據，但它們被 found in his pocket，不符合題目 “was not found”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "Norgay / Tenzing Norgay",
+      "answerKey": "Norgay / Tenzing Norgay",
+      "type": "Short-answer Questions",
+      "prompt": "“Who was photographed at the top of the mountain?”",
+      "translation": "誰被拍到在山頂？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 Who，所以答案要是人名。定位詞是 photographed、top of the mountain。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first time the actual peak of this monstrous mountain was reached was in 1953, in a combined effort by Sir Edmund Hillary and Tenzing Norgay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這座巨山真正首次被登上峰頂是在 1953 年，由 Sir Edmund Hillary 和 Tenzing Norgay 合力完成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Norgay had never operated a camera, there are no photographs of Hillary on top of the mountain, just shots of Norgay, and some additional photos looking down the mountain, ensuring evidence of their conquest and that the ascent was not faked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Norgay 從未操作過相機，所以沒有 Hillary 在山頂上的照片，只有 Norgay 的照片，以及一些往山下拍攝的額外照片，這些照片提供了他們成功登頂的證據，也證明攀登並未造假。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句直接顯示本段講 Hillary / Norgay 登頂及照片證據。題目問誰被拍到，目標在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“photographed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“top of the mountain”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“there are no photographs of Hillary on top of the mountain, just shots of Norgay…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有 Hillary 在山頂上的照片，只有 Norgay 的照片。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子裡有一個清楚對比： no photographs of Hillary= 沒有 Hillary 的山頂照片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "just shots of Norgay= 只有 Norgay 的照片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Who was photographed”，所以要填被拍到的人：Norgay。完整姓名 Tenzing Norgay 也可以，仍符合三字限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "was photographed= shots of at the top of the mountain= on top of the mountain答案形式： Norgay = 1 word；Tenzing Norgay = 2 words。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Hillary 是更有名的名字，而且他也登頂成功；但原文特別說 Norgay 不會操作相機，所以沒有Hillary 的照片。被拍到的是 Norgay。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "Himalayan Trust",
+      "answerKey": "Himalayan Trust",
+      "type": "Short-answer Questions",
+      "prompt": "“What was the name of Hillary’s charitable organisation?”",
+      "translation": "Hillary 的慈善組織名稱是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 name，所以答案應是組織名稱。定位詞是 charitable organisation、Hillary、helping Sherpa people。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the news reached London on June 2nd, Sir Edmund Hillary was knighted in the Order of the British Empire and Norgay (a subject of the King of Nepal) was granted the George Medai by the UK…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "消息於 6 月 2 日傳到倫敦後，Sir Edmund Hillary 獲授大英帝國勳章中的爵士頭銜，而 Norgay獲英國頒授 George Medal。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After conquering Everest, Sir Edmund Hillary devoted most of his life to helping the Sherpa people of Nepal through the Himalayan Trust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "征服 Everest 後，Sir Edmund Hillary 透過 Himalayan Trust，把人生大部分時間投入幫助 Nepal的 Sherpa people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段先講英國方面給予的表揚，再講 Hillary 之後的南極探險和 Nepal 公益工作。題目問 charitable organisation，答案在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“charitable organisation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Hillary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“name”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接寫 charitable organisation，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“helping the Sherpa people of Nepal through the Himalayan Trust”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過 Himalayan Trust 幫助 Nepal 的 Sherpa people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “through” 後面接的就是組織名稱。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sir Edmund Hillary devoted most of his life to helping the Sherpa people of Nepal through the Himalayan Trust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sir Edmund Hillary 把人生大部分時間用於透過 Himalayan Trust 幫助 Nepal 的 Sherpa people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “charitable organisation” 是對 “helping the Sherpa people… through the Himalayan Trust” 的概括。Himalayan Trust 是組織名稱，並且功能是幫助 Sherpa people，符合 charitable organisation 的語境。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "charitable organisation= organisation through which he helped the Sherpa people name= Himalayan Trust答案形式： Himalayan Trust = 2 words，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Sherpa people”。他們是受助對象。題目問 organisation 的名稱，所以答案是 Himalayan Trust。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mortality rates on Everest have consistently declined since 1990.”",
+      "translation": "自 1990 年以來，Everest 的死亡率一直持續下降。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目最重要的控制詞是 “consistently”，意思是一直、持續、沒有中斷地下降。不能只看 1990 和 2004 兩個數字，還要檢查原文是否支持「一路下降」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Everest was officially announced as the world’s highest mountain in 1852, it won interest from people all over the world, and the idea of climbing all the way to the summit was viewed as the ultimate feat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Everest 在 1852 年被正式宣布為世界最高峰時，它引起全球興趣，登頂被視為終極壯舉。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nonetheless, the deadliest year in Mount Everest’s history was 1996, when 19 people died near the summit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管如此，Everest 歷史上最致命的一年是 1996 年，當時有 19 人死於接近峰頂之處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 Everest 早期挑戰、失敗、死亡率和安全問題。題目問 mortality rates since 1990，明顯定位到這段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mortality rates”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consistently declined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“since 1990”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With advances in climbing equipment in the last ten years or so, and more experienced guides, the fatality rates have dropped from 37% in 1990 to 4% in 2004.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著近十年左右登山設備進步，加上更有經驗的嚮導，死亡率已從 1990 年的 37% 降至 2004 年的 4%。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nonetheless, the deadliest year in Mount Everest’s history was 1996, when 19 people died near the summit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管如此，Everest 歷史上最致命的一年是 1996 年，當年有 19 人死於接近峰頂處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 fatality rates 從 37% 降到 4%。這支持「1990 到 2004 整體下降」。可是題目說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“consistently declined”，要求更高：死亡率自 1990 年起一直下降，沒有反覆。原文下一句立即補充 1996 was the deadliest year in Mount Everest’s history。這句放在“Nonetheless” 後面，功能是限制前一句的樂觀趨勢。也就是說，雖然長期數字由 37% 到 4%，中間仍出現極嚴重的死亡年份。題目命題：主體：Mortality rates on Everest動作：have consistently declined時間：since 1990原文命題：主體：fatality rates動作：dropped from 37% in 1990 to 4% in 2004限制：1996 was the deadliest year比較結果：題目把整體下降說成持續下降。原文的 “deadliest year” 令這個說法過強，和段落的限制訊號不符。因此判 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 37% → 4%，很容易直接選 TRUE。要留意 consistently 這個程度詞。IELTS 很常用一個強副詞，把原文的整體趨勢改成過度絕對的說法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Hillary found evidence of the Mallory expedition.”",
+      "translation": "Hillary 找到了 Mallory 遠征隊的證據。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目主體是 Hillary，動作是 found evidence。定位詞是Mallory expedition、evidence、Hillary。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first time the actual peak of this monstrous mountain was reached was in 1953, in a combined effort by Sir Edmund Hillary and Tenzing Norgay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這座巨山的實際峰頂首次被登上，是在 1953 年，由 Sir Edmund Hillary 和 Tenzing Norgay 合力完成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Norgay had never operated a camera, there are no photographs of Hillary on top of the mountain, just shots of Norgay, and some additional photos looking down the mountain, ensuring evidence of their conquest and that the ascent was not faked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Norgay 從未操作過相機，所以沒有 Hillary 在山頂上的照片，只有 Norgay 的照片，以及一些往山下拍攝的照片，這些照片提供了他們成功登頂的證據，也證明攀登並未造假。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 講 Hillary / Norgay 登頂。題目問 Hillary 是否找到 Mallory expedition 的證據，也應在這段中找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hillary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mallory expedition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a brief but fruitless search for evidence of the 1924 Mallory expedition, they buried a cross and some candy in the snow…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在短暫但沒有結果地尋找 1924 年 Mallory 遠征證據後，他們把一個十字架和一些糖果埋在雪中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵詞是 “fruitless search”。fruitless 意思是沒有成果、徒勞。原文說他們進行了 search for evidence，但這次 search 是 fruitless，即沒有找到證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Hillary found evidence。原文的意思剛好與此衝突：他尋找了，但沒有結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Hillary動作：found evidence對象：Mallory expedition原文命題：主體：Hillary and Norgay動作：brief but fruitless search對象：evidence of the 1924 Mallory expedition比較結果： found evidence 和 fruitless search 方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目和原文都出現 evidence 與 Mallory expedition，因此很有迷惑性。真正控制答案的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“fruitless”。找到定位句後，一定要讀動詞和形容詞，不可只看名詞重合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Photographs were taken from the summit as proof of the Hillary/Norgay climb.”",
+      "translation": "人們從山頂拍攝了照片，作為 Hillary / Norgay 成功登頂的證明。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩部分：照片在 summit 拍攝；照片用作登頂證明。定位詞是 photographs、summit、proof。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first time the actual peak of this monstrous mountain was reached was in 1953, in a combined effort by Sir Edmund Hillary and Tenzing Norgay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這座巨山的實際峰頂首次被登上，是在 1953 年，由 Sir Edmund Hillary 和 Tenzing Norgay 合力完成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Norgay had never operated a camera, there are no photographs of Hillary on top of the mountain, just shots of Norgay, and some additional photos looking down the mountain, ensuring evidence of their conquest and that the ascent was not faked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Norgay 從未操作過相機，所以沒有 Hillary 在山頂上的照片，只有 Norgay 的照片，以及一些往山下拍攝的照片，這些照片提供了他們成功登頂的證據，也證明攀登並未造假。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示本段講首次登頂和照片證據。題目問 photographs as proof，直接定位到段末。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Photographs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“summit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“proof”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...taking a few photographs of the historic event.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們拍下幾張這場歷史事件的照片。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“...some additional photos looking down the mountain, ensuring evidence of their conquest and that the ascent was not faked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "還有一些往山下拍攝的照片，確保有他們成功登頂的證據，並證明這次攀登並未造假。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 photographs were taken from the summit。原文說他們在 summit 停留 15 minutes，之後"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“taking a few photographs”，並有 “photos looking down the mountain”。從山頂往下拍攝，正好支持 “from the summit”。題目說 as proof of the climb。原文說 “ensuring evidence of their conquest and that the ascent was not faked”。evidence of conquest 就是 proof of the climb；ascent was not faked 進一步加強了證明功能。題目命題：主體：Photographs動作：were taken from the summit用途：as proof of Hillary/Norgay climb原文命題：主體：photos動作：taken at the historic event / looking down the mountain用途：ensuring evidence of their conquest and that the ascent was not faked比較結果：意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文中說沒有 Hillary 在山頂的照片，容易令人以為照片證據不足。但原文說有 Norgay 的照片和向山下拍攝的照片，足以作為登頂證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Both Hillary and Norgay received recognition of their achievement from Britain.”",
+      "translation": "Hillary 和 Norgay 都因他們的成就而獲得英國方面的表揚。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有 both，所以必須 Hillary 和 Norgay 兩人都獲支援。定位詞是 recognition、Britain / UK、Hillary、Norgay。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the news reached London on June 2nd, Sir Edmund Hillary was knighted in the Order of the British Empire and Norgay (a subject of the King of Nepal) was granted the George Medai by the UK…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "消息於 6 月 2 日傳到倫敦後，Sir Edmund Hillary 獲授大英帝國勳章中的爵士頭銜，而 Norgay獲英國頒授 George Medal。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After conquering Everest, Sir Edmund Hillary devoted most of his life to helping the Sherpa people of Nepal through the Himalayan Trust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "征服 Everest 後，Sir Edmund Hillary 透過 Himalayan Trust，把人生大部分時間投入幫助 Nepal的 Sherpa people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經列出兩人受到的正式表揚，因此 Paragraph 5 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both Hillary and Norgay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recognition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sir Edmund Hillary was knighted in the Order of the British Empire and Norgay … was granted the George Medai by the UK…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sir Edmund Hillary 獲授大英帝國勳章中的爵士頭銜，而 Norgay 獲英國頒授 George Medal。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個平行結構： Hillary= was knighted in the Order of the British Empire Norgay= was granted the George Medal by the UK題目中的 “recognition of their achievement from Britain” 是概括說法。Hillary 的 knighthood 來自British Empire；Norgay 的 medal 明確由 UK 授予。兩者都屬於英國方面對登頂成就的認可。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Both Hillary and Norgay動作：received recognition來源：from Britain原文命題： Hillary：was knighted in the Order of the British Empire Norgay：was granted the George Medal by the UK比較結果： both 的兩邊都獲支援，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Norgay 是 Nepal King 的 subject，可能令學生以為他沒有從 Britain 得到表揚。可是原文清楚寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“by the UK”，所以他也收到英國方面的 recognition。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Hillary was the first person to reach the South Pole by mechanised transport.”",
+      "translation": "Hillary 是第一位以機械化交通工具抵達 South Pole 的人。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心不只是 Hillary 參加了 mechanised expedition，還有 first person 這個最高級。要找原文有沒有說第一位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the news reached London on June 2nd, Sir Edmund Hillary was knighted in the Order of the British Empire and Norgay … was granted the George Medai by the UK…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "消息於 6 月 2 日傳到倫敦後，Hillary 獲封爵，Norgay 獲英國頒授 George Medal。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After conquering Everest, Sir Edmund Hillary devoted most of his life to helping the Sherpa people of Nepal through the Himalayan Trust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "征服 Everest 後，Hillary 透過 Himalayan Trust，把人生大部分時間用於幫助 Nepal 的 Sherpa people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 中間講 Hillary 後來的 Antarctic exploration。題目問 South Pole by mechanised transport，所以應在這段中部細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“South Pole”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mechanised transport”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first person”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1958, he took part in a mechanised expedition to the South Pole.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1958 年，他參與了一次前往 South Pole 的機械化遠征。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Hillary “took part in” a mechanised expedition。這只表示他參與了該遠征。文章沒有說： he was the first person he was the first to reach the South Pole no one had done it before the expedition was the first mechanised arrival題目加入 “the first person” 這個核心資訊，但原文沒有提供。原文也沒有明確說他並非第一人，因此不能判 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Hillary身份：the first person動作：reach the South Pole方式：by mechanised transport原文命題：主體：Hillary動作：took part in對象：a mechanised expedition to the South Pole時間：1958比較結果：原文支援 “mechanised expedition to the South Pole”，但缺少 “first person”。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “mechanised expedition to the South Pole” 幾乎逐字對應題目，很容易選 TRUE。真正要檢查的是 first person。最高級資料若沒有明文支援，通常不能成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Hillary’s death was attributed to an accident that occurred in Kathmandu.”",
+      "translation": "Hillary 的死亡被歸因於他在 Kathmandu 發生的一場意外。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目把 death 的原因歸給 Kathmandu 的 accident。要檢查原文是否給出死亡原因，以及 Kathmandu 事件和死亡之間是否被建立因果關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In January 2007, Sir Edmund Hillary went to Antarctica to commemorate the 50th anniversary of the founding of Scott Base.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2007 年 1 月，Sir Edmund Hillary 前往 Antarctica，以紀念 Scott Base 成立 50 週年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But he was a humble man who did not admit to being the first man to reach the summit of Everest until long after 1386, well after the death of his climbing companion Tenzing Norgay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他是一位謙遜的人，直到很久以後才承認自己是第一位登上 Everest 峰頂的人，那時也已在他的登山夥伴 Tenzing Norgay 去世之後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 6 講 Hillary 晚年、健康事件、死亡和性格總結。題目問 death cause，所以要看段落中部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kathmandu”"
+            },
+            {
+              "kind": "quote",
+              "text": "“death”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accident”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the 22nd of April 2007, while on a trip to Kathmandu, he was reported to have suffered a fall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2007 年 4 月 22 日，在前往 Kathmandu 的旅途中，據報導他曾跌倒。"
+            },
+            {
+              "kind": "label",
+              "text": "再看真正死亡原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sadly, Sir Edmund Hillary died of a heart attack on the morning of January the 11th 2008.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人遺憾的是，Sir Edmund Hillary 於 2008 年 1 月 11 日早上因 heart attack 去世。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到 Kathmandu，也提到 “suffered a fall”。但原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was no comment on the nature of his illness and he did not immediately seek treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對於他病情的性質沒有評論，而且他沒有立即求醫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 Kathmandu 的 fall 和 illness 沒有被清楚說明為死亡原因。後面給出的死亡原因非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“died of a heart attack”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 death was attributed to an accident in Kathmandu。原文說他 later died of a heart attack。這是明確衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Hillary’s death原因：an accident in Kathmandu原文命題：主體：Hillary死亡原因：heart attack Kathmandu 事件：reported to have suffered a fall, with no comment on illness nature比較結果：死亡原因被原文定為 heart attack，題目改成 Kathmandu accident，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Kathmandu fall 很容易吸引注意，因為它和住院在同一段出現。但時間和因果要分開：fall 在2007 年 4 月，death 在 2008 年 1 月；原文把死亡原因寫成 heart attack。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - MOUNT EVEREST AND HILLARY.pdf",
+    "sha256": "fd0b1832ce793b0502aa7e1809cdf6f503caa6aca88c19fde42b6c1e8103abd7",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句介紹 Mount Everest 的別名 Sagarmartha、高度和世界最高峰身份。末句說 Everest 這個英文官方名稱，是 1865 年由 Royal Geographic Society 根據 Andrew Waugh 的建議採用。只看首尾句，可以判斷本段功能是基本介紹：包括高度、地理位置、登山吸引力、導遊費用，以及 Everest名稱的由來。Questions 1 會直接定位到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Everest 在 1852 年被正式宣布為世界最高峰後，引起全球興趣，登頂被視為終極壯舉。末句說 Everest 歷史上最致命的一年是 1996 年，當年有 19 人死於接近峰頂的位置。只看首尾句，可以估計本段講早期探險困難、Tibet 開放邊境、1920–1952 年失敗遠征，以及後來死亡率和安全性變化。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 1924 年 Everest 奪走首兩位登山者的生命。末句推論，根據 Mallory 和 Irvine 的出發時間與行動，如果他們沒有登頂，應該不太可能到夜晚仍在外面。只看首尾句，可以判斷本段集中處理 Mallory 和 Irvine 的未解之謎：他們是否早於 Hillary / Norgay 登頂，證據包括 Mallory 妻子的照片和 snow goggles。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說這座巨山的實際峰頂首次被登上，是 1953 年 Sir Edmund Hillary 和 Tenzing Norgay 合力完成。末句說山頂照片提供了他們登頂的證據，也證明攀登並未造假。只看首尾句，可以判斷本段是正式成功登頂段：日期、兩人停留時間、找 Mallory 證據失敗、拍照證明都在這裡。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說消息傳到倫敦後，Hillary 獲封爵，Norgay 獲英國頒授 George Medal。末句說 Hillary 征服Everest 後，把人生大部分時間透過 Himalayan Trust 幫助 Nepal 的 Sherpa people。只看首尾句，可以判斷本段講登頂後的表揚、南極探險，以及 Hillary 轉向 Nepal 公益建設。Questions 6、10、11 都會來這段附近找證據。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 2007 年 1 月 Hillary 前往 Antarctica，紀念 Scott Base 成立 50 週年。末句說他是一位謙遜的人，直到很久以後才承認自己是第一位登上 Everest 峰頂的人。只看首尾句，可以估計本段處理 Hillary 晚年行程、Kathmandu 跌倒、返回 New Zealand 後住院，以及 2008 年因 heart attack 去世。Question 12 會定位到這裡。"
+      },
+      {
+        "number": "7",
+        "summary": "首句也是全段唯一一句，說 2005 年 5 月 30 日，Nepalese Mona Mulepati 和 PemDorje Sherpa創下最新 Everest 紀錄，成為第一對在 Everest 山頂結婚的夫婦。只看這一句，可以判斷本段只是補充 Everest 的最新紀錄，和本題組大部分題目關係不大。"
+      }
+    ]
+  }
+}

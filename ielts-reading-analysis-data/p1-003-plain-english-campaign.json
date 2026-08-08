@@ -1,0 +1,2314 @@
+{
+  "id": "p1-003-plain-english-campaign",
+  "catalogueId": "p1-003",
+  "catalogueIds": [
+    "p1-003"
+  ],
+  "passage": 1,
+  "title": "Plain English Campaign",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "finance jargon",
+    "gap",
+    "do-it-yourself",
+    "frustration",
+    "first-time user",
+    "legal",
+    "courts",
+    "consumers"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The use of plain English in marketing can bring financial benefits.”",
+      "translation": "在 marketing 中使用 plain English 可以帶來財政利益。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目重點是 “marketing” 和 “financial benefits”。我們要找原文是否說 plain English 用作市場推廣後，銷售或收入增加。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Plain legal English can be used as a marketing tactic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "簡明法律英語可以用作一種市場推廣策略。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People, it seems, prefer to buy a policy they can understand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，人們較願意購買自己看得懂的保單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 主要講 plain English 的 marketing function。題目提到marketing 和 financial benefits，所以這段是最直接的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“marketing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“financial benefits”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“marketing tactic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sales rocketed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extra £1.5 million of business”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字都值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Provincial Insurance issued its plain-English Home Cover policy in 1983 and sold it heavily as such. In the first 18 months, its sales rocketed, drawing in about an extra £1.5 million of business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Provincial Insurance 在 1983 年推出 plain-English Home Cover policy，並大量以此作銷售賣點。在首 18 個月內，銷售急升，額外帶來約 150 萬英鎊生意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有完整因果鏈。plain-English policy 被作為 marketing tactic 推出；結果是 sales rocketed，並帶來 extra £1.5 million of business。題目中的 “financial benefits” 是對 extra business 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "plain English in marketing= plain legal English used as a marketing tactic bring financial benefits= sales rocketed / extra £1.5 million of business判斷：題目命題與原文同方向，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看 Paragraph B 的 “People prefer to buy a policy they can understand”。這句說的是消費者偏好；真正證明 financial benefits 的，是前一句的 sales rocketed 和 extra £1.5 million。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Because doctors tend to use jargon when speaking to patients, many patients become confused about medicine dosages.”",
+      "translation": "因為醫生跟病人說話時常用行話，所以很多病人對藥物劑量感到困惑。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目包含一個因果關係：doctors speaking with jargon →patients confused about medicine dosages。要判 TRUE，原文必須支持「醫生說話用 jargon」這個原因，以及「病人因此誤解劑量」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two kinds of instructions give us a lot of concern—medical labels and do-it-yourself products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有兩類說明令我們非常擔心：醫療標籤和 DIY 產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By using an imperative and an active verb the instruction becomes much clearer: ‘Make sure you fix the centres of the pendant bolts at an equal distance from the centre of the door.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用祈使句和主動動詞後，說明會清楚得多：「請確保你把 pendant bolts 的中心固定在離門中心相等距離的位置。」只看首尾句，可以先猜 Paragraph C 講的是 instructions 的清晰度，特別是 medical labels 和 DIY instructions。題目提到 medicine dosages，所以這段前半值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“doctors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“jargon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“patients”"
+            },
+            {
+              "kind": "quote",
+              "text": "“medicine dosages”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“medical labels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“professionals think is clear”"
+            },
+            {
+              "kind": "quote",
+              "text": "“patients misunderstood”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Take two tablets 4 hourly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過原文沒有出現： doctors speaking to patients doctors tend to use jargon spoken communication"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With medical labels, there is a serious gap between what the professionals think is clear and what is really clear to patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在醫療標籤方面，專業人士認為清楚的內容，和病人真正覺得清楚的內容之間，有嚴重落差。"
+            },
+            {
+              "kind": "label",
+              "text": "原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The instruction ‘Take two tablets 4 hourly’ is so prone to misunderstanding (for example, as 8 tablets an hour) that we think it should be banned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Take two tablets 4 hourly” 這個指示非常容易被誤解，例如被理解成每小時吃 8 粒，所以Campaign 認為這種說法應該被禁用。這些句子支持：medical labels / written instructions 會令病人誤解用藥指示。題目加入的 “doctors tend to use jargon when speaking to patients” 沒有在原文出現。原文說 professionals 和patients 對清楚程度有 gap，也提到 written medical labels，未說 doctors 的口頭說明造成問題。題目命題：醫生說話用行話，造成病人劑量困惑。原文命題：醫療標籤和 written instructions 容易令病人誤解。比較結果：相關背景存在，但 “doctors speaking to patients” 這個核心原因缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“professionals” 很容易令人聯想到 doctors；“Take two tablets 4 hourly” 也確實涉及 dosage。可惜題目把問題來源改成醫生口頭溝通。原文只支援 medical labels / instructions 的問題，未支援speaking。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“After Ronald Reagan succeeded Jimmy Carter as US president, the impact of the plain English campaign became less pronounced.”",
+      "translation": "Ronald Reagan 接任 Jimmy Carter 成為美國總統後，plain English campaign 的影響變得較弱。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目重點是 Reagan 之後，plain English campaign 的impact 是否減弱。要找 Reagan、Carter 和 slowed / weakened 之類訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Bastille has not fallen yet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "巴士底獄仍未倒下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個比喻，意思是反對力量仍然強大，運動尚未完全勝利。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are three main objections to the idea of plain English.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 plain English 這個理念有三個主要反對理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 主要講 resistance。題目有 Ronald Reagan 和 Jimmy Carter，應在本段中間找行政命令的變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ronald Reagan”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Jimmy Carter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less pronounced”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“President Ronald Reagan’s executive order…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“revoking President Carter’s earlier executive order”"
+            },
+            {
+              "kind": "quote",
+              "text": "“slowed the pace”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, President Ronald Reagan’s executive order of 19 February 1981, revoking President Carter’s earlier executive order, has definitely slowed the pace of plain English legislation in the United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，Ronald Reagan 總統於 1981 年 2 月 19 日的行政命令，撤銷了 Carter 總統早前的行政命令，這明確放慢了美國 plain English legislation 的步伐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Reagan’s executive order；核心動作是 revoking Carter’s order；結果是 slowed the pace。題目中的 “impact became less pronounced” 概括了 legislation 的步伐放慢。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "After Reagan succeeded Carter= Reagan’s order revoking Carter’s earlier order impact became less pronounced= slowed the pace of plain English legislation判斷：題目和原文同方向，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求證明 Reagan 個人反對 plain English。原文只需要支持「Reagan 的行政命令令legislative pace 變慢」。因此不用推測政治動機，跟 “slowed the pace” 判斷即可。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Plain English campaigners have difficulty communicating with government officials.”",
+      "translation": "Plain English campaigners 與政府官員溝通有困難。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目主體是 campaigners，動作是 have difficulty communicating，對象是 government officials。要找文章是否講 Campaign 與政府官員之間的溝通困難。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看可能相關段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A / Paragraph D / Paragraph E Paragraph A 第一和最後一句顯示 Campaign 起源於反對難懂政府和 council forms，也講到Ealing Council 寫信失敗。Paragraph D 和 E 則講美國政府政策與行政命令。題目提到campaigners 和 government officials，所以需要跨段掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“campaigners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“difficulty communicating”"
+            },
+            {
+              "kind": "quote",
+              "text": "“government officials”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“left an impression on government and business”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new plain English awareness in government departments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many local councils and businesses maintain a stout resistance to change”"
+            },
+            {
+              "kind": "quote",
+              "text": "“local councils”"
+            },
+            {
+              "kind": "quote",
+              "text": "“government efforts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“President Carter’s executive order”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但沒有： campaigners unable to communicate with officials officials misunderstanding campaigners meetings / communication failure between campaigners and government"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關資訊"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although we’re pleased with the new plain English awareness in government departments, many local councils and businesses maintain a stout resistance to change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Campaign 對政府部門新的 plain English 意識感到高興，但許多地方議會和商業機構仍然強烈抗拒改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支持：部分政府部門已有 awareness；一些 local councils 抗拒 change。它沒有說campaigners 與 government officials 溝通有困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 後面的 Ealing Council 例子，是 council 寫給 residents 的 letter 令人誤解。對象是居民，不是 Campaign 與官員之間的溝通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： campaigners 與政府官員溝通困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：政府文件難懂、部分政府部門有 awareness、部分 councils 抗拒改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失部分： campaigners 和 government officials 之間的 communication difficulty。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “government departments”、“local councils”、“resistance to change” 很容易選 TRUE。問題在於題目問的是 campaigners 和 officials 的溝通情況；原文談的是政府文件難懂，以及機構對改變的阻力。兩者相關，但關係未被文章建立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Legal language is regularly tested by judges in court.”",
+      "translation": "法律語言經常在法院中接受檢驗。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要找 legal language、tested、court 這組關係。原文是否出現 judges 不重要到要逐字重現；重點是法院場景是否長期檢驗法律語言。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The statute would cause unending litigation and clog the courts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項法規會造成無止境訴訟，並堵塞法院。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, too, the experience of several corporations and insurance companies has proved that contracts and policies can be made more understandable without sacrificing legal effectiveness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這方面，數間公司和保險公司的經驗也證明，合約和保單可以變得更易懂，同時不犧牲法律效力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 集中處理法律和合約層面的反對意見。題目提到 legal language 和 court，所以 Paragraph F 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“legal language”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tested”"
+            },
+            {
+              "kind": "quote",
+              "text": "“court”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only legal language that has been tested for centuries in the courts…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only legal language that has been tested for centuries in the courts is precise enough to deal with a mortgage, a deed, a lease, or an insurance policy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一經過數百年法院檢驗的法律語言，才精確得足以處理按揭、契約、租約或保險保單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句屬於反對者的第三個 objection。雖然作者後面會回應：合約和保單可以更易懂，同時保持legal effectiveness；但原文確實提供了 “legal language has been tested for centuries in the courts” 這項資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "regularly tested= tested for centuries in court= in the courts by judges= court process / legal adjudication 的合理概括判斷：題目與原文的核心資訊一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要分清兩個層次。反對者認為只有傳統法律語言足夠精確；Campaign 回應說簡化後也可以保留法律效力。Question 5 只問法律語言是否長期在法院被檢驗，這點由原文直接支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Compared with the past, American consumers now face less pressure when reading supermarket labels.”",
+      "translation": "與過去相比，美國消費者現在閱讀超市標籤時面對較少壓力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有比較：now less pressure than the past。要找Paragraph G 是否說 modern consumers 的選擇和閱讀負擔變少，還是變多。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What does the future hold for the Plain English movement?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Plain English movement 的未來會怎樣？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The consumer’s need, therefore, for information expressed in plain English is more critical than ever.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，消費者對 plain English 資訊的需要比以往任何時候都更重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph G 會說現代消費環境令 plain English 更重要。題目說 less pressure，和段末 “more critical than ever” 初步方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“American consumers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“supermarket”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less pressure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compared with the past”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“American consumers are buffeted by an assortment of pressures.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Not long ago, the average supermarket carried 9,000 items; today, it carries 22,000.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, American consumers are buffeted by an assortment of pressures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，美國消費者受到各種壓力衝擊。"
+            },
+            {
+              "kind": "label",
+              "text": "原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not long ago, the average supermarket carried 9,000 items; today, it carries 22,000.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不久以前，一般超市有 9,000 種貨品；今天則有 22,000 種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明選擇增加，資訊負擔增加，plain English 的需要更 urgent。題目說 “less pressure”，原文方向是 more pressure / more choices / more critical need。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "less pressure= 壓力減少buffeted by an assortment of pressures= 受到各種壓力衝擊9,000 items → 22,000 items= 選擇和資訊量增加判斷：題目和原文方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “supermarket labels”，原文沒有逐字說 labels，但有 supermarket products / items 和consumers’ need for information。真正控制答案的是比較方向：原文說現在更複雜，題目說壓力更少，所以 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "finance jargon",
+      "answerKey": "finance jargon",
+      "type": "Summary Completion",
+      "prompt": "Question 7",
+      "translation": "Campaigners 遇到一封 council rent-increase letter，裡面充滿奇怪的 housing ______，以及對Acts of Parliament 的提及。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Campaigners encountered a council rent-increase letter full of strange housing 7 ______ and references to Acts of Parliament.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 “housing”，後面要接一個名詞短語，組成 “housing ___”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “strange” 會對應原文 “bizarre”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We launched Plain English Campaign in 1979 with a ritual shredding of appalling government and municipal council forms in Parliament Square, London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們於 1979 年在倫敦 Parliament Square 以撕碎糟糕政府和市政表格的儀式，發起 Plain English Campaign。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the letter meant nothing of the sort, and the council had to send another letter to explain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，那封信完全沒有那種意思，council 只好再寄另一封信作解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 Campaign 的起源，以及政府或 council 文件難懂造成的後果。題目提到 council rent-increase letter，正好定位到本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rent increase”"
+            },
+            {
+              "kind": "quote",
+              "text": "“housing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Acts of Parliament”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“One council began a letter to its tenants about a rent increase with two sentences averaging 95 words, full of bizarre housing finance jargon and waffle about Acts of Parliament.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One council began a letter to its tenants about a rent increase with two sentences averaging 95 words, full of bizarre housing finance jargon and waffle about Acts of Parliament.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某個 council 寫給租戶一封關於加租的信，開首兩句平均每句 95 個字，充滿奇怪的 housing finance jargon，以及關於國會法案的冗長空話。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “bizarre” 改寫成 “strange”。空格前已有 housing，所以答案要填原文 “housing finance jargon” 中剩下的部分： finance jargon答案形式檢查： finance jargon = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填完整 “housing finance jargon”，因為題目已經提供 housing。若填完整短語，句子會變成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“housing housing finance jargon”，文法重複。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "gap",
+      "answerKey": "gap",
+      "type": "Summary Completion",
+      "prompt": "Question 8",
+      "translation": "例如，當病人閱讀藥物標籤時，專業人士和病人對「清楚」的理解之間有明顯 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, when patients read medicine labels, there was an obvious 8 ______ between what professionals and patients considered clear.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前是 “an obvious”，後面是 “between…”，所以要填單數名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 “a serious gap between…”，題目已用 obvious 取代 serious 的程度語氣。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two kinds of instructions give us a lot of concern—medical labels and do-it-yourself products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有兩類說明令我們非常擔心：醫療標籤和 DIY 產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By using an imperative and an active verb the instruction becomes much clearer: ‘Make sure you fix the centres of the pendant bolts at an equal distance from the centre of the door.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用祈使句和主動動詞後，說明會清楚得多：「請確保你把 pendant bolts 的中心固定在離門中心相等距離的位置。」Paragraph C 同時處理 medical labels 和 DIY products。Question 8 明確提到 medicine labels，所以要看本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“patients”"
+            },
+            {
+              "kind": "quote",
+              "text": "“medicine labels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“professionals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“clear”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“With medical labels, there is a serious gap between what the professionals think is clear and what is really clear to patients.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With medical labels, there is a serious gap between what the professionals think is clear and what is really clear to patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在醫療標籤方面，專業人士認為清楚的內容，和病人真正覺得清楚的內容之間，有嚴重落差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “serious” 改成 “obvious”，並把 “what the professionals think is clear and what is really clear to patients” 改寫成 “what professionals and patients considered clear”。核心名詞是 gap。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： gap = 1 word，符合限制。若填 serious gap，句子會變成 “an obvious serious gap”，語氣累贅；因此填 gap 最自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "serious gap= obvious gap medical labels= medicine labels what professionals think is clear= what professionals considered clear答案是 gap。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "do-it-yourself",
+      "answerKey": "do-it-yourself",
+      "type": "Summary Completion",
+      "prompt": "Question 9",
+      "translation": "另一個值得注意的範疇涉及 ______ 產品。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another notable area involved 9 ______ products…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格修飾 products，需要一個形容詞或複合形容詞。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“another notable area” 對應 Paragraph C 第一句的第二類 instructions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C第一句：“Two kinds of instructions give us a lot of concern—medical labels and do-it-yourself products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有兩類說明令我們非常擔心：醫療標籤和 DIY 產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By using an imperative and an active verb the instruction becomes much clearer: ‘Make sure you fix the centres of the pendant bolts at an equal distance from the centre of the door.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用祈使句和主動動詞後，說明會清楚得多：「請確保你把 pendant bolts 的中心固定在離門中心相等距離的位置。」首句已經直接列出兩類 concern：medical labels 和 do-it-yourself products。Question 9 問另一個area，答案就在這一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“products”"
+            },
+            {
+              "kind": "quote",
+              "text": "“another”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“medical labels and do-it-yourself products”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two kinds of instructions give us a lot of concern—medical labels and do-it-yourself products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有兩類說明令我們非常擔心：醫療標籤和 DIY 產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 先講 medicine labels，接着說 “Another notable area involved ___ products”，自然指第二項 do-it-yourself products。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： do-it-yourself = hyphenated compound，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “instructions”。題目後面已有 products，空格要填產品類型；原文的完整名詞短語是do-it-yourself products。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "frustration",
+      "answerKey": "frustration",
+      "type": "Summary Completion",
+      "prompt": "Question 10",
+      "translation": "不清楚的說明不只令顧客花錢，也造成 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“unclear instructions not only cost customers money but also caused 10 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格在 caused 後面，需要名詞。題目中的 “cost customers money”會對應原文 “cause expense”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two kinds of instructions give us a lot of concern—medical labels and do-it-yourself products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有兩類說明令我們非常擔心：醫療標籤和 DIY 產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By using an imperative and an active verb the instruction becomes much clearer: ‘Make sure you fix the centres of the pendant bolts at an equal distance from the centre of the door.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用祈使句和主動動詞後，說明會清楚得多：「請確保你把 pendant bolts 的中心固定在離門中心相等距離的位置。」Question 10 延續 DIY instructions 的問題，所以仍在 Paragraph C 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“unclear instructions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cost customers money”"
+            },
+            {
+              "kind": "quote",
+              "text": "“caused”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unclear instructions on do-it-yourself products cause expense and frustration to customers.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unclear instructions on do-it-yourself products cause expense and frustration to customers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "DIY 產品上不清楚的說明會令顧客花錢，也會令他們感到挫敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目將 “cause expense” 改寫成 “cost customers money”。剩下與 expense 並列的名詞是frustration。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： frustration = 1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cause expense= cost customers money cause frustration= caused frustration"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 expense，因為題目已經用 “cost customers money” 表達了 expense。空格要填另一個並列結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "first-time user",
+      "answerKey": "first-time user",
+      "type": "Summary Completion",
+      "prompt": "Question 11",
+      "translation": "因此，撰寫說明的人應該像一位 ______ 那樣思考。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“The writer should therefore think like a 11 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 “like a”，後面要填人或身份名詞短語。題目中的 writer 對應原文 writing instructions 的人。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two kinds of instructions give us a lot of concern—medical labels and do-it-yourself products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有兩類說明令我們非常擔心：醫療標籤和 DIY 產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By using an imperative and an active verb the instruction becomes much clearer: ‘Make sure you fix the centres of the pendant bolts at an equal distance from the centre of the door.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用祈使句和主動動詞後，說明會清楚得多：「請確保你把 pendant bolts 的中心固定在離門中心相等距離的位置。」Question 11 問 writer 應該像誰，因此要看 Paragraph C 關於 writing instructions 的評論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“writer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“think like”"
+            },
+            {
+              "kind": "quote",
+              "text": "“instructions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The writer is then like a first-time user…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Writing the necessary instructions for these products is usually entrusted to someone who knows the product inside out, yet the best qualification for writing instructions is ignorance. The writer is then like a first-time user, discovering how to use the product in a step-by-step way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些產品所需的說明通常交給非常熟悉產品的人撰寫；可是撰寫說明的最佳資格其實是「不知道」。這樣，撰寫者就像第一次使用的人，一步一步發現如何使用產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的重點是：熟悉產品的人容易跳過步驟；first-time user 的視角能幫助說明更清楚。題目 “think like a…” 對應原文 “The writer is then like a first-time user”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： first-time user = 2 words if treating hyphenated first-time as one compound;符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“ignorance” 也很吸引，因為原文說 best qualification is ignorance。不過題目句型是 “think like a…”，後面需要人或身份；first-time user 最自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "legal",
+      "answerKey": "legal",
+      "type": "Summary Completion",
+      "prompt": "Question 12",
+      "translation": "Plain English Campaign 的反對者認為，在某些情況下，______ language 已被鍛鍊成法院中使用的精確語言。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Opponents of the Plain English Campaign argued that, in some circumstances, 12 ______language had been refined into the precise language used in the 13 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。Question 12 和 13 來自同一句。空格 12 修飾 language，應該是一個形容詞。題目中的 “precise language used in the courts” 直接對應 Paragraph F 的第三個objection。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The statute would cause unending litigation and clog the courts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項法規會造成無止境訴訟，並堵塞法院。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, too, the experience of several corporations and insurance companies has proved that contracts and policies can be made more understandable without sacrificing legal effectiveness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這方面，數間公司和保險公司的經驗也證明，合約和保單可以變得更易懂，同時不犧牲法律效力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 講反對意見與法律層面的回應。題目提到 opponents、precise language、courts，所以段落定位明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Opponents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“precise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“courts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“language”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only legal language that has been tested for centuries in the courts is precise enough…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only legal language that has been tested for centuries in the courts is precise enough to deal with a mortgage, a deed, a lease, or an insurance policy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一經過數百年法院檢驗的法律語言，才精確得足以處理按揭、契約、租約或保險保單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 12 的空格在 language 前面。原文直接說 “legal language”，所以答案是 legal。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： legal = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "had been refined / tested= has been tested for centuries precise language= precise enough legal language used in the courts= tested for centuries in the courts"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “non-legal everyday”。這個短語出現在上一個 objection：“Translation of legal contracts into non-legal everyday language…”；但 Question 12 講的是反對者認為已在法院中被長期檢驗並具精確性的語言，所以是 legal language。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "courts",
+      "answerKey": "courts",
+      "type": "Summary Completion",
+      "prompt": "Question 13",
+      "translation": "……在 ______ 中使用的精確語言。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the precise language used in the 13 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 “in the”，需要地點名詞。它和 Question 12 同一句，應該直接取自 Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The statute would cause unending litigation and clog the courts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項法規會造成無止境訴訟，並堵塞法院。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, too, the experience of several corporations and insurance companies has proved that contracts and policies can be made more understandable without sacrificing legal effectiveness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這方面，數間公司和保險公司的經驗也證明，合約和保單可以變得更易懂，同時不犧牲法律效力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經出現 courts；題目也有 “used in the…”，因此要看同段關於 legal language 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“precise language”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used in the”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“tested for centuries in the courts”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only legal language that has been tested for centuries in the courts is precise enough to deal with a mortgage, a deed, a lease, or an insurance policy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一經過數百年法院檢驗的法律語言，才精確得足以處理按揭、契約、租約或保險保單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “tested for centuries in the courts” 改寫成 “used in the courts”。雖然 tested 和 used 不完全逐字等同，但在這個 summary 中，地點名詞直接來自原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： courts = 1 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “contracts” 或 “policies”。它們是 legal language 處理的文件類型；空格前是 “used in the…”，需要地點。courts 才能自然完成句子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "consumers",
+      "answerKey": "consumers",
+      "type": "Summary Completion",
+      "prompt": "Question 14",
+      "translation": "作者建議，現在需要由 ______ 再推動 plain-English contracts。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“The author suggested that another push towards plain-English contracts was now needed from 14 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格在 from 後面，需要人或群體名詞。題目中的 “another push” 是非常強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is needed today is not a brake on the movement’s momentum but another push from consumers towards plain-English contracts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天需要的並非讓這場運動的勢頭減速；重點是由消費者再次推動 plain-English contracts。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drivers are not just hurt when their medicines don’t tell them they could fall asleep at the wheel—they are killed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當藥物說明沒有告訴司機服藥後可能在駕駛時睡著，司機不只會受傷，甚至會死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph H 是結論和行動呼籲。Question 14 的 “another push” 幾乎直接來自第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“another push”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plain-English contracts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“from”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“another push from consumers towards plain-English contracts”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is needed today is not a brake on the movement’s momentum but another push from consumers towards plain-English contracts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天需要的並非讓運動的勢頭減速；重點是由消費者再次推動 plain-English contracts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文語序改成： another push towards plain-English contracts was now needed from ______原文直接說 “from consumers”，所以答案是 consumers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： consumers = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也提到 TV、streets、popular magazines、bestsellers 和 functional documents，但這些都不是 “another push” 的來源。真正控制答案的是 “from consumers”。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Plain English Campaign.pdf",
+    "sha256": "3338754548dfdfa79e4790b4ec9296438de7f3169863110acae42e772bed49f7",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Plain English Campaign 於 1979 年在倫敦 Parliament Square 以撕碎糟糕政府和市政表格的儀式開始；末句說 Ealing Council 發出難懂信件後，還要再發一封信解釋。只看首尾句，可以估計本段是運動起源與問題示例：人們因看不懂表格和信件而求助，Campaign 於是公開抗議。段中 council rent increase letter、housing finance jargon、residents frightened 等細節，會成為summary 題的重要證據。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接說 plain legal English 可以用作 marketing tactic；末句說人們似乎較願意購買自己看得懂的保單。只看首尾句，可以估計本段主題是 plain English 的商業價值。中間的 Provincial Insurance、plain-English Home Cover policy、sales rocketed、extra £1.5 million，以及 Eagle Star policyholders 的 congratulatory letters，都說明清楚語言不只改善理解，也可能帶來銷售和品牌信任方面的好處。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Campaign 特別關注兩類 instructions：medical labels 和 do-it-yourself products；末句把滑門配件說明改寫成更清楚的 imperative active verb 句式。只看首尾句，可以估計本段主題是指示文字不清造成的實際風險。前半講 medicine labels 令病人誤解；後半講 DIY instructions 造成expense and frustration。這段幾乎直接提供 Questions 7–11 的 summary 答案。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說美國 Plain English movement 有效開始於 Jimmy Carter 1978 年的 Executive Order 12044；末句說 1978 至 1985 年間的進展記錄在 “The Plain English Scorecard”。只看首尾句，可以估計本段處理美國運動的制度背景：早期消費者權益法案已要求簡明資訊，Carter 的行政命令則給予 plain language 更高政治權威。這段為 Question 3 的 Reagan 對比鋪路。"
+      },
+      {
+        "number": "E",
+        "summary": "首句用 “The Bastille has not fallen yet” 表示阻力仍然存在；末句說有三個主要反對 plain English的理由，並會列出 Campaign 的回應。只看首尾句，可以估計本段是過渡段：雖然已有成果，Plain English movement 仍面對強大 resistance。中間提到 Pennsylvania 和 Ronald Reagan 撤銷Carter 的行政命令，使美國 plain English legislation 的步伐放慢，這正好對應 Question 3。"
+      },
+      {
+        "number": "F",
+        "summary": "首句提出第一個反對意見：plain English statute 會造成 endless litigation 並堵塞法院；末句說經驗證明 contracts and policies 可以更易懂，同時不犧牲 legal effectiveness。只看首尾句，可以估計本段集中處理反對者的三大 objection 和 Campaign 的回應。內容包括訴訟風險、compliance cost、legal language 無法簡化等。Questions 5、12、13 主要定位到這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句問 Plain English movement 的未來會怎樣；末句說 consumer 對 plain English information 的需要比以往更 critical。只看首尾句，可以估計本段轉到美國消費者現況：選擇變多、資訊壓力增大，同時大量美國人閱讀能力不足。中間的 300 long-distance phone companies、supermarket items 從 9,000 增至 22,000、30 million Americans lacking reading skills，都說明清晰文字更加重要。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 today 需要的不是讓運動減速，而是 consumers 再推動 plain-English contracts；末句引用Chrissie Maher 的警告：難懂醫療標籤會令人受傷甚至死亡。只看首尾句，可以估計本段是結論與呼籲：雖然 plain English 已出現在電視、街頭、雜誌和暢銷書，但 functional documents 仍未足夠清楚。作者最後把問題提升到安全與生命風險，強化行動必要性。"
+      }
+    ]
+  }
+}

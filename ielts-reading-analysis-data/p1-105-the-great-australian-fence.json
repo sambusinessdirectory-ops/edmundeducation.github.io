@@ -1,0 +1,2445 @@
+{
+  "id": "p1-105-the-great-australian-fence",
+  "catalogueId": "p1-105",
+  "catalogueIds": [
+    "p1-105"
+  ],
+  "passage": 1,
+  "title": "The Great Australian Fence",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "B",
+    "C",
+    "A",
+    "NO",
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "B",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D — to protect the Australian wool industry",
+      "answerKey": "D — to protect the Australian wool industry",
+      "type": "Multiple Choice",
+      "prompt": "Question 1",
+      "translation": "這條圍欄為甚麼被建造？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why was the fence built?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 built 的目的，因此要找最初建造 fence 的核心原因。不能只看fence 後來有甚麼功能，例如旅遊景點、州界名稱、cattle / sheep 分界；真正要找的是建造動機。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A war has been going on for almost a hundred years between the sheep farmers of Australia and the dingo, Australia’s wild dog.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲牧羊農民與 dingo，即澳洲野狗之間的戰爭，已經持續接近一百年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To protect their livelihood, the farmers built a wire fence, 3,307 miles of continuous wire mesh, reaching from the coast of South Australia all the way to the cotton fields of eastern Queensland, just short of the Pacific Ocean.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了保護自己的生計，農民建了一條鐵絲圍欄，由 3,307 英里的連續鐵絲網組成，從南澳海岸一直延伸到昆士蘭東部的棉田，差一點到達太平洋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 的功能已經很清楚：介紹 sheep farmers 和 dingoes 的長期衝突，並說明 fence 的建造目的。這段直接回答 Question 1。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fence built”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“To protect their livelihood”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the farmers built a wire fence”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To protect their livelihood, the farmers built a wire fence…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了保護自己的生計，農民建了一條鐵絲圍欄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “their” 指前一句的 sheep farmers。sheep farmers 的生計與羊、羊毛和 wool industry 有關。Paragraph 2 又補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The empire it preserves is that of the woolgrowers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它保存的是 woolgrowers 的王國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句進一步把 farmers’ livelihood 具體化為 woolgrowers 的經濟利益。選項 D “to protect the Australian wool industry” 是對 “protect their livelihood” 和 “woolgrowers” 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A to separate the sheep from the cattle Paragraph 5 說 Fence “marks the traditional dividing line between cattle and sheep”，但這是它標記的傳統分界，不是建造主因。題目問 why built，主因在 Paragraph 1。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B to stop the dingoes from being slaughtered by farmers方向相反。Fence 內的 dingoes 被 legally classified as vermin，而且會被 shot, poisoned and trapped。Fence 的目的不是保護 dingo。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C to act as a boundary between properties Paragraph 4 提到 route “prescribed mostly by property lines”，即路線多受 property lines 影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這只解釋走線，沒有說建造目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D to protect the Australian wool industry正確。sheep farmers 的 livelihood 和 woolgrowers 的產業利益就是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "protect their livelihood= protect farmers’ income / protect sheep farming woolgrowers= Australian wool industry built a wire fence= the fence was built可轉移方法：遇到 why 題，要優先找 purpose markers，例如 “to protect…”, “in order to…”, “so that…”。這題的 “To protect their livelihood” 放在句首，答案非常集中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B — The fence poses a threat to the environment.",
+      "answerKey": "B — The fence poses a threat to the environment.",
+      "type": "Multiple Choice",
+      "prompt": "Question 2",
+      "translation": "保育人士和政治人物在哪一點上意見一致？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“On what point do the conservationists and politicians agree?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 conservationists and politicians agree 的內容。要找到這些人物同時出現的位置，再看他們共同的說法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Fence is Australia’s version of the Great Wall of China, but even longer, erected to keep out hostile invaders, in this case hordes of yellow dogs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條 Fence 是澳洲版的中國萬里長城，而且更長；它被建來阻擋敵對入侵者，在這裡就是一群群黃色野狗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With sections of it almost a hundred years old, the dog fence has become, as conservationist Lindsay Fairweather ruefully admits, ‘an icon of Australian frontier ingenuity’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條 dog fence 有些部分已有接近一百年歷史；保育人士 Lindsay Fairweather 帶著無奈承認，它已成為「澳洲邊疆創意」的象徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會同時談 Fence 的象徵性、保育觀點和爭議。Question 2 出現conservationists and politicians，最可能定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“conservationists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“politicians”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“conservationists, politicians, taxpayers and animal lovers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ecological grounds”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Never mind that more and more people—conservationists, politicians, taxpayers and animal lovers—say that such a barrier would never be allowed today on ecological grounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管愈來愈多人，包括保育人士、政治人物、納稅人和動物愛好者，都說這樣的屏障若放在今天，基於生態理由不可能獲准建造。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點是 “would never be allowed today on ecological grounds”。ecological grounds 指生態理由。意思是：他們認為這種 barrier 在生態上有問題，所以今天不會被容許。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Wool exports are vital to the economy. Paragraph 2 的確說 wool export business worth four billion dollars，但這是 woolgrowers 的經濟背景，不是 conservationists and politicians agree 的內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The fence poses a threat to the environment.正確。雖然原文沒有逐字寫 threat to the environment，但 “would never be allowed today on ecological grounds” 表示這種 barrier 有生態問題。選項 B 是合理概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C The fence acts as a useful frontier between states.原文說不同州對 Fence 有不同名稱，但沒有說 conservationists and politicians 認為它是 useful frontier。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The number of dogs needs to be reduced.文章提到 dingoes 被殺、毒殺和捕捉，也有賞金制度，但這不是 conservationists and politicians的共同觀點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ecological grounds= environmental reasons would never be allowed today= considered environmentally unacceptable poses a threat to the environment= has ecological problems"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很吸引，因為原文有 “wool export business worth four billion dollars”。可是題目問conservationists and politicians agree 的 point。掃描到人物後，要讀他們的動詞 “say that…”，不要被同段經濟數字拉走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C — because he was interested in life around the fence",
+      "answerKey": "C — because he was interested in life around the fence",
+      "type": "Multiple Choice",
+      "prompt": "Question 3",
+      "translation": "作者為甚麼到澳洲？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why did the author visit Australia?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 author visit Australia 的目的，因此要找第一人稱 “I” 和目的語句，例如 “to…”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To appreciate this unusual outback monument and to meet the people whose livelihoods depend on it, I spent part of an Australian autumn travelling the wire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了欣賞這座不尋常的內陸紀念物，並見見那些生計依賴它的人，我在澳洲一個秋天花了一段時間沿著這條鐵絲網旅行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would call it simply the Fence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我會簡單地稱它為 the Fence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接用 “To appreciate…” 說明作者出行目的。這段是作者視角的起點，與 Question 3 完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“author”"
+            },
+            {
+              "kind": "quote",
+              "text": "“visit Australia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Why”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“I spent part of an Australian autumn travelling the wire”"
+            },
+            {
+              "kind": "quote",
+              "text": "“To appreciate…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“to meet the people…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To appreciate this unusual outback monument and to meet the people whose livelihoods depend on it, I spent part of an Australian autumn travelling the wire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了欣賞這座不尋常的內陸紀念物，並見見那些生計依賴它的人，我在澳洲一個秋天花了一段時間沿著這條鐵絲網旅行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個目的：第一，appreciate this unusual outback monument= 欣賞、了解這座不尋常的內陸建造物第二，meet the people whose livelihoods depend on it= 見見靠它維生的人選項 C “because he was interested in life around the fence” 最能概括這兩點。life around the fence 包括 fence 本身、沿線地貌、依賴它維生的人和牧羊業生活。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A to study Australian farming methods原文沒有說作者要研究 farming methods。雖然文章涉及 sheep farmers，但作者目的不是農業方法研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B to investigate how the fence was constructed文章描述 Fence，但作者沒有說要研究建造技術或 construction process。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C because he was interested in life around the fence正確。這概括 “appreciate this unusual outback monument” 和 “meet the people whose livelihoods depend on it”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D because he wanted to learn more about the wool industry wool industry 是背景之一，但原文目的更廣，包括 monument 和 people。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "travelling the wire= travelling along the fence meet the people whose livelihoods depend on it= interested in life around the fence appreciate this unusual outback monument= interested in the fence itself可轉移方法：遇到作者目的題，要找第一人稱和不定式目的結構。“To appreciate…” 在句首就是答案入口。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A — impressed",
+      "answerKey": "A — impressed",
+      "type": "Multiple Choice",
+      "prompt": "Question 4",
+      "translation": "作者對這條 Fence 的感覺如何？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“How does the author feel about the fence?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice 的態度題。答案通常不會只靠一個 factual sentence，而要看作者用詞的語氣，例如形容詞、比喻和描述方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 3–4 Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To appreciate this unusual outback monument and to meet the people whose livelihoods depend on it, I spent part of an Australian autumn travelling the wire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了欣賞這座不尋常的內陸紀念物，並見見那些生計依賴它的人，我在澳洲一個秋天花了一段時間沿著這條鐵絲網旅行。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For most of its prodigious length, this epic fence winds like a river across a landscape that, unless a big rain has fallen, scarcely has rivers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在它驚人的大部分長度中，這條史詩般的圍欄像河流一樣蜿蜒穿過一片幾乎沒有河流的土地，除非曾下過大雨。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The eccentric route, prescribed mostly by property lines, provides a sampler of outback topography: the Fence goes over sand dunes, past salt lakes, up and down rock-strewn hills, through dense scrub and across barren plains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條古怪的路線大多由地界決定，像一份內陸地形樣本：Fence 越過沙丘，經過鹽湖，上下滿是岩石的山丘，穿過密集灌木，橫跨荒蕪平原。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，作者對 Fence 的描寫帶有規模感、奇觀感和旅行觀察感。他沒有表現出 delight，也不是主要在生氣或震驚；語氣最貼近 impressed。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用態度詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “feel”，原文未必有 emotion word。要掃描評價性詞語："
+            },
+            {
+              "kind": "quote",
+              "text": "“unusual outback monument”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prodigious length”"
+            },
+            {
+              "kind": "quote",
+              "text": "“epic fence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“winds like a river”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sampler of outback topography”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀語氣證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prodigious length” 指極其巨大的長度；“epic fence” 把 Fence 寫得像史詩級景觀；“unusual outback monument” 則把它看成值得特地欣賞的內陸紀念物。這些用詞共同帶出作者對 Fence的規模和存在感感到震撼、佩服或印象深刻。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A impressed正確。作者的語氣顯示他被 Fence 的長度、路線和景觀規模吸引。 B delighted delighted 太強，表示高興、愉悅。文章帶有生態反思和沉重背景，不是開心遊記。 C shocked作者沒有用 shock、horror 或 surprise 來表達被嚇倒。雖然 fence 的生態後果令人憂慮，但本題問整體對 fence 的感受，最穩是 impressed。 D annoyed文章沒有顯示作者被 fence 激怒。最後段有生態批評，但不是作者主導情緒。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "prodigious / epic / unusual monument= impressive in scale and character winds like a river= visually striking可轉移方法：態度題要看形容詞的情感方向。這題的控制詞不是 “ecological grounds”，而是作者自己的描寫用字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The fence serves a different purpose in each state.”",
+      "translation": "這條 Fence 在每個州都有不同用途。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目核心有兩部分：第一，different purpose；第二，in each state。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要檢查原文是否說各州用途不同，還是只說名稱不同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To appreciate this unusual outback monument and to meet the people whose livelihoods depend on it, I spent part of an Australian autumn travelling the wire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了欣賞這座不尋常的內陸紀念物，並見見那些生計依賴它的人，我在澳洲一個秋天花了一段時間沿著這條鐵絲網旅行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would call it simply the Fence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我會簡單地稱它為 the Fence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 3 交代作者沿 Fence 旅行，以及各州如何稱呼它。題目提到 “in each state”，因此這段是最自然的定位點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“different”"
+            },
+            {
+              "kind": "quote",
+              "text": "“purpose”"
+            },
+            {
+              "kind": "quote",
+              "text": "“each state”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s known by different names in different states…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s known by different names in different states: the Dog Fence in South Australia, the Border Fence in New South Wales and the Barrier Fence in Queensland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在不同州有不同名稱：在南澳叫 Dog Fence，在新南威爾士叫 Border Fence，在昆士蘭叫Barrier Fence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 “different names”，沒有說 “different purposes”。題目把名稱差異改成用途差異。原文整篇都反覆說 Fence 的主要用途相同：保護牧羊業、阻擋 dingoes、區分 sheep country 和 dingo country。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sheep and dingoes do not mix and the Fence sends that message mile after mile.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "羊和 dingoes 不能共存，而 Fence 一英里又一英里地傳達這個訊息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句確認 Fence 的核心功能在各段一致：阻隔 dingoes 和 sheep。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目命題：Fence 在各州有不同用途。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Fence 在各州有不同名稱，但核心功能一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目把 names 改成 purpose，與原文不相容，因此答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "different names= 名稱不同different purpose= 用途不同這兩者不能互換。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易出錯的位置正是 “different names in different states”。學生看到 different 和 states 便可能選 YES。細讀時要看 different 修飾的是 names 還是 purpose。真正控制答案的是 names。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The fence is only partially successful.”",
+      "translation": "這條 Fence 只取得部分成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目不是問 Fence 完全失敗，也不是問完全成功；“only partially”表示有一定作用，但仍未完全解決問題。要找原文是否說 dingoes 仍造成損害。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is this creature that by itself threatens an entire industry, inflicting several million dollars of damage a year despite the presence of the world’s most obsessive fence?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種甚麼生物，竟然單靠自己就能威脅整個行業，即使世界上最執著的 fence 存在，仍每年造成數百萬美元損失？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Standing about 22 inches at the shoulder—slightly taller than a coyote—the dingo is Australia’s largest land carnivore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "dingo 肩高約 22 英寸，略高於 coyote，是澳洲最大的陸地食肉動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段主要介紹 dingo 為何能構成威脅。第一句直接提到 fence 存在下仍有 damage，和 “partially successful” 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“partially successful”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有這個說法，所以要找效果不完整的證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“despite the presence of the world’s most obsessive fence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inflicting several million dollars of damage a year”"
+            },
+            {
+              "kind": "quote",
+              "text": "“problem dogs killing sheep inside the Fence”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "最關鍵的是 Paragraph 6 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is this creature that by itself threatens an entire industry, inflicting several million dollars of damage a year despite the presence of the world’s most obsessive fence?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種生物究竟是甚麼，竟能單獨威脅整個行業，即使有世界上最執著的圍欄存在，仍每年造成數百萬美元損失？"
+            },
+            {
+              "kind": "quote",
+              "text": "“despite the presence of…” 是重要訊號。它表示即使 Fence 已經存在，dingo 仍能造成 several million dollars of damage a year。這正好說明 Fence 沒有完全解決問題。 Paragraph 7 補充：“Today, bounties for problem dogs killing sheep inside the Fence can reach $500.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，對於在 Fence 內殺羊的問題犬，賞金可高達 500 美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 fence 內仍有 problem dogs，羊仍會被殺。兩句合起來，足以支持 “only partially successful”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目命題：Fence 只部分成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Fence 存在，但 dingo 仍造成大量損失，而且 Fence 內仍有殺羊的 problem dogs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者同方向，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "only partially successful= not completely effective despite the presence of the fence= even with the fence damage a year / problem dogs killing sheep inside= continuing failure or limitation"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能覺得 fence 長達 3,307 miles，而且被稱為 “world’s most obsessive fence”，所以應該很成功。不過 IELTS 要跟證據走。真正定案的是 despite：有 fence 仍有損失。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The dingo is indigenous to Australia.”",
+      "translation": "dingo 是澳洲原生物種。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目核心是 indigenous，即本土原生。要找原文對 dingo 起源的描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is this creature that by itself threatens an entire industry, inflicting several million dollars of damage a year despite the presence of the world’s most obsessive fence?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種甚麼生物，竟然單靠自己就能威脅整個行業，即使世界上最執著的 fence 存在，仍每年造成數百萬美元損失？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Standing about 22 inches at the shoulder—slightly taller than a coyote—the dingo is Australia’s largest land carnivore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "dingo 肩高約 22 英寸，略高於 coyote，是澳洲最大的陸地食肉動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 6 是 dingo 的介紹段。題目問 indigenous，應在這段找 species/ introduced / descended from 之類詞語。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“dingo”"
+            },
+            {
+              "kind": "quote",
+              "text": "“indigenous”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“introduced species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“introduced to Australia more than 3,500 years ago”"
+            },
+            {
+              "kind": "quote",
+              "text": "“probably with Asian seafarers”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cousin to the coyote and the jackal, descended from the Asian wolf, Canis lupus dingo is an introduced species of wild dog.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "dingo 是 coyote 和 jackal 的近親，源自亞洲狼，是一種被引入的野狗物種。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Skeletal remains indicate that the dingo was introduced to Australia more than 3,500 years ago, probably with Asian seafarers who landed on the north coast.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "骨骼遺骸顯示，dingo 在三千五百多年前被引入澳洲，可能是隨著登陸北海岸的亞洲航海者而來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都清楚指出 dingo 不是澳洲本土原生物種。introduced species 和 indigenous 的意思相反。題目說 indigenous，原文說 introduced。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目命題：dingo 是澳洲原生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：dingo 是被引入澳洲的物種，可能來自亞洲航海者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：方向相反，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "indigenous= native / originally from that place introduced species= brought from elsewhere descended from the Asian wolf= origin outside Australia"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dingo 在澳洲已存在三千五百多年，而且是 Australia’s largest land carnivore。這些資訊可能令學生覺得牠很「澳洲」。可是本題問起源，不問現在是否生活在澳洲。introduced species 才是定案詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Dingoes have flourished as a result of the sheep industry.”",
+      "translation": "dingoes 因羊業而大量繁盛。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有兩個核心：flourished，即數量或狀態大幅增長；as a result of the sheep industry，即和羊進入澳洲、牧羊業發展有因果關係。要找 sheep arrival 和 dingo numbers 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The dingo started out as a quiet observer,’ writes Roland Breckwoldt, in A Very Elegant Animal: The Dingo, ‘but soon came to represent everything that was dark and dangerous on the continent.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Roland Breckwoldt 在《A Very Elegant Animal: The Dingo》中寫道：「dingo 起初只是安靜的旁觀者，但很快就代表了這片大陸上所有黑暗和危險的事物。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though dingoes have been eradicated from parts of Australia, an educated guess puts the population at more than a million.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 dingoes 已從澳洲部分地區被消滅，但根據有根據的估計，其數量超過一百萬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段談 dingo 形象和數量。最後一句的 population more than a million 和題目 “flourished” 很相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dingoes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flourished”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sheep industry”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“since sheep arrived in Australia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dingo numbers have increased a hundredfold”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is estimated that since sheep arrived in Australia, dingo numbers have increased a hundredfold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據估計，自從羊來到澳洲後，dingo 的數量增加了一百倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“increased a hundredfold” 是強烈的增長，對應題目的 “flourished”。“since sheep arrived in Australia” 在文章語境中連接了羊業出現和 dingo 數量增加。前一段也說歐洲殖民者在 1788 年“bringing with them a cargo of sheep”，之後 woolgrowers 和 dingoes 的 war 開始。dingo 殺羊，羊業提供了衝突和食物來源，因此題目的 “as a result of the sheep industry” 是對這條語境鏈的概括。命題比較：題目命題：dingoes 因羊業而繁盛。原文命題：自羊進入澳洲後，dingo 數量增加一百倍。兩者方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "flourished= increased a hundredfold / population more than a million sheep industry= sheep arrived in Australia / woolgrowers’ war / sheep ranching context as a result of= since sheep arrived, in this cause-and-effect context"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的細節要小心。“since” 有時只表示時間先後；但這裡前後都在講 dingoes 和 sheep industry的衝突，且 dingo 對羊造成損害，因此可以作短距離因果理解。若文章只孤立說 “since 1788”，答案會較危險；這裡有足夠語境支援 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Dingoes are known to attack humans.”",
+      "translation": "dingo 以攻擊人類聞名。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問的是 dingoes 是否 attack humans。文章有大量 dingoes攻擊 sheep 和威脅 industry 的內容，但要看是否提到 humans。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 6–8 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is this creature that by itself threatens an entire industry, inflicting several million dollars of damage a year despite the presence of the world’s most obsessive fence?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種甚麼生物，竟然單靠自己就能威脅整個行業，即使世界上最執著的 fence 存在，仍每年造成數百萬美元損失？"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though dingoes have been eradicated from parts of Australia, an educated guess puts the population at more than a million.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 dingoes 已從澳洲部分地區被消滅，但根據有根據的估計，其數量超過一百萬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾段集中介紹 dingo 的威脅、來源、數量和牠與羊業的衝突。題目問 humans，應掃描 attack /kill / people / humans 之類字眼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“attack humans”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關但不完全相同的內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“killing sheep”"
+            },
+            {
+              "kind": "quote",
+              "text": "“threatens an entire industry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“top predator”"
+            },
+            {
+              "kind": "quote",
+              "text": "“killing off all its marsupial competitors”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有找到： humans people attacked known to attack people danger to humans"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關證據"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, bounties for problem dogs killing sheep inside the Fence can reach $500.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，對於在 Fence 內殺羊的問題犬，賞金可高達 500 美元。"
+            },
+            {
+              "kind": "label",
+              "text": "這句只說 killing sheep。Paragraph 6 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The adaptable dingo spread rapidly and in a short time became the top predator, killing off all its marsupial competitors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "適應力強的 dingo 快速擴散，很短時間內成為頂級捕食者，殺光了所有有袋類競爭者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是 marsupial competitors，也不是 humans。文章沒有提供 dingo 攻擊人的資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目命題：dingoes 以攻擊人類聞名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：dingoes 攻擊 sheep、威脅羊業、消滅有袋類競爭者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失部分：human attacks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有明確說 dingoes 不攻擊人，所以不能選 NO。文章只是沒有提供題目所需資料，因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "attack humans= attack people / harm humans / kill people原文缺少這個對象。出現 predator 不足以推出 attack humans。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“dark and dangerous” 很容易令人聯想到人身危險。但原文的危險主要對羊業、生態和其他動物而言。IELTS 不能用恐怖形象補出 humans 這個對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Kangaroos have increased in number because of the fence.”",
+      "translation": "kangaroos 因為 Fence 而增加了數量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有明確因果：because of the fence。要找原文是否把kangaroo population increase 歸因於 Fence。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The intense private battles between woolgrowers and dingoes have usually served to define the Fence only in economic terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "woolgrowers 和 dingoes 之間激烈的私人戰爭，通常只使人從經濟角度理解 Fence。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Park officials, who recognise that the fence is to blame, respond to the excess of kangaroos by saying, ‘The fence is there, and we have to live with it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公園官員承認 Fence 要負上責任；面對過多 kangaroos，他們回應說：「Fence 已經存在，我們只能與它共處。」首句說通常只用 economic terms 定義 Fence；最後一句說 park officials 認為 fence 對 kangaroo過多有責任。這段明顯談 Fence 的生態後果，正是 Question 10 的定位段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kangaroos”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increased in number”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because of the fence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“without a native predator the kangaroo population has exploded inside the Fence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recognise that the fence is to blame”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now they are ubiquitous, for without a native predator the kangaroo population has exploded inside the Fence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在牠們到處都是，因為在 Fence 內沒有本土捕食者，kangaroo 數量已經暴增。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Park officials, who recognise that the fence is to blame…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公園官員承認 Fence 要負上責任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來非常清楚。Fence 把 dingoes 擋在外面，內側缺少 native predator；沒有捕食者後， kangaroo population exploded。題目 “increased in number” 是對 “population has exploded” 的概括；“because of the fence” 對應 “the fence is to blame”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目命題：Kangaroos 因 Fence 數量增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Fence 內缺少捕食者，kangaroo population exploded；公園官員承認 Fence 要負責。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者同方向，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "increased in number= population has exploded because of the fence= the fence is to blame inside the Fence= fenced area with no native predator"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 “without a native predator”，學生可能以為答案原因只是 predator missing。再讀下去， park officials 明確說 “the fence is to blame”。Fence 造成捕食者缺席，所以因果鏈完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The author does not agree with the culling of kangaroos.”",
+      "translation": "作者不同意撲殺 kangaroos。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN，而且問 author 的態度。要找作者是否明確評價 culling，不能只看政府做了甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The intense private battles between woolgrowers and dingoes have usually served to define the Fence only in economic terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "woolgrowers 和 dingoes 之間激烈的私人戰爭，通常只使人從經濟角度理解 Fence。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Park officials, who recognise that the fence is to blame, respond to the excess of kangaroos by saying, ‘The fence is there, and we have to live with it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公園官員承認 Fence 要負上責任；面對過多 kangaroos，他們回應說：「Fence 已經存在，我們只能與它共處。」這段談 kangaroos、culling 和 park officials 的回應。Question 11 問作者是否不同意 culling，所以目標段落就是 Paragraph 10。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“author”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not agree”"
+            },
+            {
+              "kind": "quote",
+              "text": "“culling of kangaroos”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“state governments cull more than three million kangaroos a year”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有找到： author disagrees author criticises culling author supports culling"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In response, state governments cull more than three million kangaroos a year to keep Australia’s national symbol from overrunning the pastoral lands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為回應，州政府每年撲殺超過三百萬隻 kangaroos，以防這個澳洲國家象徵淹沒牧場土地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只是交代政府行動和目的：cull kangaroos to keep them from overrunning pastoral lands。它沒有說作者支持，也沒有說作者反對。"
+            },
+            {
+              "kind": "label",
+              "text": "前文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kangaroos are now cursed more than dingoes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "kangaroos 現在比 dingoes 更受咒罵。"
+            },
+            {
+              "kind": "quote",
+              "text": "“They have become the rivals of sheep, competing for water and grass.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們已成為羊的競爭者，爭奪水和草。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子描述問題背景，仍未呈現作者對 culling 的明確立場。作者提到 “Australia’s national symbol” 可能帶一點諷刺或沉重感，但不足以判斷他不贊成 culling。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目命題：作者不同意撲殺 kangaroos。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：政府每年撲殺超過三百萬隻 kangaroos，原因是防止牠們過度擴張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失部分：作者對 culling 的明確同意或反對。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "does not agree with= opposes / disapproves of / criticises原文沒有這類作者態度詞。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“national symbol” 可能令學生覺得作者應該反對撲殺。可是這只是描述 kangaroo 的象徵身份，不足以證明作者立場。YES / NO / NOT GIVEN 題要分清「讀者感覺」和「原文態度證據」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — 1830",
+      "answerKey": "B — 1830",
+      "type": "Multiple Choice",
+      "prompt": "Question 12",
+      "translation": "當局最早在甚麼時候承認 dingo 問題？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“When did the authorities first acknowledge the dingo problem?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是時間細節 Multiple Choice。題目中的 authorities 很可能對應 governments；acknowledge the dingo problem 可能不會原字出現，而是透過 officially became outlaws、placed a bounty 顯示政府正式處理問題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The woolgrowers’ war against dingoes, which is similar to the sheep ranchers’ rage against coyotes in the US, started not long after the first European settlers disembarked in 1788, bringing with them a cargo of sheep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "woolgrowers 對 dingoes 的戰爭，類似美國牧羊人對 coyotes 的憤怒，在第一批歐洲殖民者於1788 年登陸並帶來一批羊後不久便開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As pioneers penetrated the interior with their flocks of sheep, fences replaced shepherds until, by the end of the 19th century, thousands of miles of barrier fencing crisscrossed the vast grazing lands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著拓荒者帶著羊群進入內陸，圍欄取代了牧羊人；到 19 世紀末，數千英里的屏障圍欄已縱橫穿過廣大牧場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 7 是歷史段：1788 年羊到來、dingo 戰爭開始、圍欄逐步擴張。Question 12 問 authorities first acknowledge，要在這段找政府行動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“authorities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first acknowledge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dingo problem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“governments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Dingoes officially became outlaws”"
+            },
+            {
+              "kind": "quote",
+              "text": "“placed a bounty on their heads”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1830”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dingoes officially became outlaws in 1830 when governments placed a bounty on their heads.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1830 年，政府懸賞捕殺 dingoes，牠們正式成為法外之物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Dingoes，動作是 officially became outlaws。when 後面說 governments placed a bounty on their heads，即政府懸賞。這是 authorities 對 dingo problem 的正式承認：政府不再只是讓農民私下對付 dingoes，而是用官方賞金制度處理。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 1788 1788 是歐洲殖民者帶羊登陸，羊業與 dingo 衝突開始的背景時間。當局官方承認問題尚未出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 1830正確。政府在此年懸賞，dingoes officially became outlaws。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 1845 1845 是 Charles Sturt expedition 的時間，與 dingo problem 的官方承認無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 1960 1960 是三個州把 barriers 接合成 single dog fence 的時間。這是 fence 整合時間，不是最早承認問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "authorities= governments acknowledge the dingo problem= officially made dingoes outlaws and placed a bounty first= earliest official date among the options"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 1788 很吸引，因為羊業戰爭在那之後開始。但題目問 authorities first acknowledge，不是問題最初出現。officially 和 governments 才是判斷關鍵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "A — philosophical",
+      "answerKey": "A — philosophical",
+      "type": "Multiple Choice",
+      "prompt": "Question 13",
+      "translation": "公園官員對 Fence 的感覺如何？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do the park officials feel about the fence?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice 態度題。要找 park officials 的直接引語，再判斷語氣。philosophical 在這裡不是哲學學術意思，而是接受現實、無奈但平靜面對。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The intense private battles between woolgrowers and dingoes have usually served to define the Fence only in economic terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "woolgrowers 和 dingoes 之間激烈的私人戰爭，通常只使人從經濟角度理解 Fence。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Park officials, who recognise that the fence is to blame, respond to the excess of kangaroos by saying, ‘The fence is there, and we have to live with it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公園官員承認 Fence 要負上責任；面對過多 kangaroos，他們回應說：「Fence 已經存在，我們只能與它共處。」首尾句顯示，Paragraph 10 處理 Fence 的生態後果和 park officials 的態度。最後一句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“park officials”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feel about the fence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Park officials…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The fence is there, and we have to live with it.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Park officials, who recognise that the fence is to blame, respond to the excess of kangaroos by saying, ‘The fence is there, and we have to live with it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公園官員承認 Fence 要負上責任；面對過多 kangaroos，他們說：「Fence 已經存在，我們只能與它共處。」這句包含兩層態度。第一，他們 “recognise that the fence is to blame”，即承認 Fence 造成問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，他們說 “we have to live with it”，表示他們不高興，但接受現實，採取一種無奈、務實、順其現況的態度。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A philosophical正確。在這裡指以平靜、接受現實的方式看待問題。這最貼近 “The fence is there, and we have to live with it.” B angry他們承認問題，但沒有憤怒語氣。沒有 furious、outraged、angry 等訊號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C pleased他們不可能 pleased，因為他們承認 fence is to blame，且 kangaroo 過多是問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D proud proud 不合適。Paragraph 2 有 icon of frontier ingenuity，但這是 conservationist 提到 Fence 成為象徵，不是 park officials 的態度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "philosophical= accepting an unpleasant fact calmly we have to live with it= we must accept it as part of reality recognise that the fence is to blame= aware of the problem, but resigned"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“recognise that the fence is to blame” 可能令人想選 angry。不過 blame 只是承認責任，不自動等於憤怒。真正控制語氣的是引號內的 “we have to live with it”，它更接近 resigned acceptance。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Great Australian Fence.pdf",
+    "sha256": "e3df85a574dfa39ad71790874e741a9de5851dc2a7d0318de6e0a1b832069995",
+    "pageCount": 29
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說澳洲 sheep farmers 和 dingo 之間的戰爭已持續接近一百年，末句說農民建了一條 3,307英里長的連續鐵絲網，由 South Australia 延伸至 Queensland 東部。只看首尾句，可以先估計這段是全文背景：fence 的出現源於 sheep farmers 要保護生計，對抗澳洲野狗 dingo。這段直接建立 fence 的基本功能、規模和地理跨度，對 Question 1 非常重要。"
+      },
+      {
+        "number": "2",
+        "summary": "首句把 Fence 比作澳洲版的 Great Wall of China，而且更長，作用是阻擋 hostile invaders，即大量 yellow dogs。末句說保育人士 Lindsay Fairweather 也承認，這條狗圍欄已成為澳洲 frontier ingenuity 的 icon。首尾句顯示，這段同時處理 fence 的象徵意義、經濟背景和環境爭議。它保存woolgrowers 的利益，但現代保育人士和政治人物認為這種屏障今天在生態理由上難以被接受。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說作者為了欣賞這座 unusual outback monument，並見見依賴它維生的人，秋天到澳洲沿著 fence 旅行。末句說雖然各州名稱不同，作者會簡單稱它為 the Fence。只看首尾句，可以知道這段交代作者親身考察的目的和文章視角。它不只是資料說明，也帶有旅行紀錄色彩，焦點在Fence 周邊的人、地方和生計，對 Question 3 很關鍵。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說這條 epic fence 像河流一樣蜿蜒穿越廣闊土地，而那裡除非下過大雨，幾乎沒有河流。末句列出 Fence 經過 sand dunes、salt lakes、rock-strewn hills、dense scrub 和 barren plains。首尾句顯示，這段主要描述 Fence 的路線和地貌。作者用了 prodigious length、epic fence 等詞，語氣帶有驚歎感；這段也幫助判斷 Question 4 作者對 Fence 的整體感受。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Fence 避開城鎮；若接近城鎮，反而成為 bus tours 參觀的旅遊景點。末句說 sheep 和dingoes 不能共存，而 Fence 一英里又一英里地傳達這個訊息。首尾句顯示，這段說明 Fence 在社會和農牧業上的分界功能。它既是旅遊物，也標記 cattle 與 sheep 傳統分界；更重要的是，它把dingoes 擋在 sheep country 外，並顯示內側對 dingoes 的敵視。"
+      },
+      {
+        "number": "6",
+        "summary": "首句用問句提出：這種 creature 如何能威脅整個行業，即使世界上最執著的 fence 存在，仍造成每年數百萬美元損失？末句說 dingo 是澳洲最大的陸地食肉動物。只看首尾句，可以估計這段主要介紹 dingo 本身：牠的來源、外貌、叫聲和捕食者地位。中間說 dingo 是 introduced species，三千五百多年前進入澳洲，這對 Question 7 的 indigenous 判斷很重要。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 woolgrowers 對 dingoes 的戰爭，在 1788 年歐洲殖民者帶著羊登陸後不久便開始。末句說到 19 世紀末，數千英里的 barrier fencing 已縱橫穿過廣大牧場。首尾句顯示，這段處理羊業、殖民、政府賞金和圍欄制度的歷史發展。1830 年政府把 dingoes officially made outlaws 並設賞金，是 Question 12 的核心時間點。"
+      },
+      {
+        "number": "8",
+        "summary": "首句引用 Roland Breckwoldt，說 dingo 起初像安靜旁觀者，後來代表澳洲大陸上黑暗和危險的一切。末句說雖然部分地區已消滅 dingoes，但估計仍有超過一百萬隻。首尾句顯示，這段主要描述 dingo 在人類想像中的形象轉變，以及數量增加。中間提到自羊進入澳洲後，dingo 數量增加了一百倍，對 Question 8 的判斷很重要。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說最終政府官員和 graziers 同意，用一條維護良好的 fence 取代大量私人圍網。末句說到1960 年，三個州把各自的屏障接合成一條 single dog fence。只看首尾句，可以看出本段主題是fence 制度整合：由私人雜亂圍欄，逐步變成政府和 woolgrowers 稅款支持的大型單一防線。這段可補充 fence 的歷史，但不是 Question 12 最早官方承認問題的答案。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 woolgrowers 和 dingoes 的私人戰爭，通常令 Fence 只被用經濟角度理解。末句引用park officials：Fence 已經存在，人們只能與它共處。首尾句顯示，這段把焦點推到更廣的生態後果。Fence 像 terrestrial dam 一樣改變動物流動，讓 kangaroo 在缺少 native predator 的情況下大量增加，甚至變成 sheep 的競爭者。這段對 Questions 10、11 和 13 都很重要。"
+      }
+    ]
+  }
+}

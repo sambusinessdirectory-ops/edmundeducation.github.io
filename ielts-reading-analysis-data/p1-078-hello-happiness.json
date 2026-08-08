@@ -1,0 +1,1994 @@
+{
+  "id": "p1-078-hello-happiness",
+  "catalogueId": "p1-078",
+  "catalogueIds": [
+    "p1-078"
+  ],
+  "passage": 1,
+  "title": "Hello Happiness!",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "E",
+    "G",
+    "F",
+    "B",
+    "D",
+    "G",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C, E, G",
+      "answerKey": "C, E, G",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Which THREE of the following statements are true, according to the text?”",
+      "translation": "根據文章，以下哪三項說法正確？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple-answer Questions。題目要求 THREE，所以每個正確選項都要有獨立原文證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不能用一段模糊印象一次支持三個答案。這類題要逐個選項檢查：文章有沒有提到、是否同方向、範圍有沒有過大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Securing a place to live is a basic human need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有地方居住是一項基本人類需要。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ask 100 people what would make them happy, and a sizeable majority would say ‘winning the lottery.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問 100 個人甚麼會令他們快樂，相當大比例的人會說「中獎」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Money, or material wealth, may be a prime mover, but it is not the foundation of our well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "金錢或物質財富可能是重要推動力，但它不是我們幸福感的基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 會反駁「金錢直接帶來幸福」的想法。題目 C 談 basic human need，應在這段關於 basic criteria 的句子中找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “place to live” 和 “basic”。原文沒有 place to live，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“adequate shelter and nutrition”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the basic criteria of adequate shelter and nutrition are satisfied, increased wealth plays no significant role.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦足夠住所和營養這些基本條件得到滿足，增加財富便不再有顯著作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 adequate shelter 和 nutrition 列為 basic criteria。adequate shelter 就是有足夠地方居住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 C 把它概括成 securing a place to live is a basic human need，意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "adequate shelter = a place to live basic criteria = basic human need are satisfied = securing / obtaining所以 C 是正確選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “Unmarried people living together are less likely to be happy than married people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "未婚同居者比已婚人士較不可能快樂。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If money isn’t the key to happiness, then what is?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果金錢不是幸福的關鍵，那麼甚麼才是？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the degree of individuals’ social connections is the best benchmark of their happiness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，個人社交連結的程度，是衡量幸福感的最佳基準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 2 會談家庭、人際連結和幸福。Option E 提到 unmarried people living together 和 married people，明顯要找婚姻狀態比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “unmarried”、“living together”、“married”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Married people live on average three years longer and enjoy greater physical and psychological health than the unmarried and, surprisingly, couples in a cohabiting relationship.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Married people live on average three years longer and enjoy greater physical and psychological health than the unmarried and, surprisingly, couples in a cohabiting relationship.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已婚人士平均多活三年，並比未婚人士以及同居伴侶享有更佳的身體和心理健康；後者令人有點意外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“couples in a cohabiting relationship” 就是 unmarried people living together。原文說 married people enjoy greater physical and psychological health than them。文章把健康、家庭和well-being 放在同一幸福討論中，所以選項 E 將這點概括成 less likely to be happy，可以成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "unmarried people living together = couples in a cohabiting relationship married people = married people less likely to be happy = enjoy less physical and psychological health / lower well-being than married people所以 E 是正確選項。 Option G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G “Involvement in policy-making can increase well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與政策制定可以增加幸福感。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Control of one’s life in general is also key.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，對自己人生的控制感也是關鍵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Happy people are also more psychologically resilient, assertive and open to experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "快樂的人也更有心理韌性、更自信堅定，也更願意接受經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 會談 control 和 happiness。Option G 的 involvement in policy-making 屬於政治層面的 control，所以應在這段中找 political process。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “policy-making” 和 “well-being”。原文沒有 policy-making，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Choice and citizens’ belief that they can affect the political process increase subjective well-being.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Choice and citizens’ belief that they can affect the political process increase subjective well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "選擇權，以及公民相信自己能影響政治過程，都會增加主觀幸福感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 involvement in policy-making 是對 “affect the political process” 的概括。若 citizens 能影響 political process，就代表他們某程度參與公共決策或政策方向。原文直接說這會 increase subjective well-being。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "involvement in policy-making = affect the political process can increase well-being = increase subjective well-being citizens’ belief = citizens feel they have influence所以 G 是正確選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A “Money can bring misery.” Paragraph 1 說金錢不等於幸福，也說看到鄰居買更貴的車會造成 consternation 並激發新欲望。但文章沒有直接建立 “money brings misery” 這個概括。它的重點是金錢不能長久提高幸福，而非金錢本身必然帶來痛苦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Wealthier nations place more emphasis on happiness than poorer ones.”原文說 wealthier nations do not achieve higher scores on the happiness-ometer than developing or underdeveloped nations。這談的是幸福分數，沒有說富裕國家更重視 happiness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “The desire for social status is a global phenomenon.” Paragraph 1 的 “keeping up with the Joneses” 說明比較心理很普遍，但文章沒有清楚說這是global phenomenon。這個選項把例子推成全球性結論，範圍過大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F “The less responsibility one has, the happier one is.”文章方向接近相反。Paragraph 3 說 autonomy、decision-making participation 和 control 會提高幸福，professionals and managers 因較能控制工作而更常快樂。少責任未被說成更快樂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "H “Our prehistoric ancestors were happier than we are.” Paragraph 6 只說 worrying stems from our cave-dwelling days，沒有比較史前祖先和現代人的幸福程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終答案：C, E, G"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "F — level",
+      "answerKey": "F — level",
+      "type": "Summary with Word List",
+      "prompt": "“Whether on a personal or national 4 __________, your bank balance won’t make you happier.”",
+      "translation": "無論在個人或國家__________，銀行結餘都不會令你更快樂。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion with Word List。空格前是 “personal or national”，後面是一個層面概念，所以答案要能形成自然搭配。選項中 “level” 最符合 “personal or national level”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ask 100 people what would make them happy, and a sizeable majority would say ‘winning the lottery.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問 100 個人甚麼會令他們快樂，相當大比例的人會說「中獎」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Money, or material wealth, may be a prime mover, but it is not the foundation of our well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "金錢或物質財富可能是重要推動力，但它不是我們幸福感的基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段會否定金錢是幸福根基。題目中的 personal or national 正好對應這段從 individuals 擴展到 world population 和 wealthier nations 的寫法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “personal”、“national”、“bank balance”。原文沒有 bank balance，但有 individuals、world population、wealthier nations："
+            },
+            {
+              "kind": "quote",
+              "text": "“while individuals may increase their material wealth…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“And what is true for individuals can be applied on a larger scale to the world population.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And what is true for individuals can be applied on a larger scale to the world population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "適用於個人的情況，也可以放到更大尺度，套用到世界人口。"
+            },
+            {
+              "kind": "label",
+              "text": "後文再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Statistically, wealthier nations do not achieve higher scores on the happiness-ometer than developing or underdeveloped nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從統計上看，較富裕國家在幸福指標上的得分並不比發展中國家或欠發達國家高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 把這兩句壓縮成 “on a personal or national level”。personal 對應 individuals；national對應 wealthier nations / developing nations。選項 F “level” 最自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "personal level = individuals national level = nations bank balance won’t make you happier = wealth does not raise well-being / happiness scores"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：F — level"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "B — interaction",
+      "answerKey": "B — interaction",
+      "type": "Summary with Word List",
+      "prompt": "“One of the most important factors in achieving happiness is the extent of our social 5__________ – our relationships with family, friends, colleagues and so on.”",
+      "translation": "達致幸福的其中一個最重要因素，是我們社交__________的程度，也就是我們與家人、朋友、同事等人的關係。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “social”，後面用破折號解釋 relationships，所以答案應是和人際往來相關的名詞。選項中 interaction 最符合。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If money isn’t the key to happiness, then what is?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果金錢不是幸福的關鍵，那麼甚麼才是？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the degree of individuals’ social connections is the best benchmark of their happiness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，個人社交連結的程度，是衡量幸福感的最佳基準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 首尾句已經清楚指向 social connections。題目中的 relationships with family, friends, colleagues 也和此段高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “social” 和 “relationships”。原文中直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Social interaction among families, neighbourhoods, workplaces, communities and religious groups correlates strongly with subjective well-being.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Social interaction among families, neighbourhoods, workplaces, communities and religious groups correlates strongly with subjective well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "家庭、鄰里、工作場所、社群和宗教團體之間的社交互動，與主觀幸福感有很強的相關性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “family, friends, colleagues and so on” 改寫原文的 families, neighbourhoods, workplaces, communities。空格前有 social，因此 “social interaction” 是最自然搭配。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "social interaction = social relationships / social connections families, workplaces, communities = family, friends, colleagues and so on correlates strongly with subjective well-being = important factor in achieving happiness"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B — interaction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "D — control",
+      "answerKey": "D — control",
+      "type": "Summary with Word List",
+      "prompt": "“Equally important is the amount of 6 __________ we have, either in our personal life, working life, or even in our ability to influence the political 7 __________ that our country pursues.”",
+      "translation": "同樣重要的是我們擁有多少__________，無論是在私人生活、工作生活，甚至是影響國家政治__________的能力上。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “amount of”，後面列出 personal life、working life、political influence，這都指向 control。文章多次重複 control，是本題最強線索。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3 and Paragraph 4 Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Friendship is another major factor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "友情是另一個主要因素。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inequality implies less control for those who are in the weaker position, although those in the stronger position face a greater risk of losing their privileges.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不平等意味著處於弱勢位置的人控制權較少，雖然處於強勢位置的人也面對較大失去特權的風險。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Control of one’s life in general is also key.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，對自己人生的控制感也是關鍵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 從工作控制談起，Paragraph 4 直接把 control 推展到整體人生。因此 Question 6 的答案應來自這兩段共同主題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “personal life”、“working life”、“influence political”。原文反覆出現 control："
+            },
+            {
+              "kind": "quote",
+              "text": "“people who are in control of the work they do”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Control of one’s life in general is also key.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“where they are in control rather than being controlled”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Control of one’s life in general is also key.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，對自己人生的控制感也是關鍵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句概括整個段落中心。前一段已講工作中的 control：professionals and managers 較幸福，因為 they are in control of the work they do。後文又談政治選擇和影響 political process。所以summary 的 “amount of ______ we have” 最適合填 control。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "amount of control we have = Control of one’s life / in control of the work they do personal life = one’s life in general working life = work is done / employer and employee / professionals and managers political influence = affect the political process"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：D — control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "G — course",
+      "answerKey": "G — course",
+      "type": "Summary with Word List",
+      "prompt": "“...or even in our ability to influence the political 7 __________ that our country pursues.”",
+      "translation": "……甚至包括我們影響國家所追求的政治__________的能力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “political”，後面有 “that our country pursues”。選項中只有 course 可以自然形成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“political course”，意思是國家的政治路線或方向。原文用的是 political process，所以題目用了較概括的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“Control of one’s life in general is also key.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，對自己人生的控制感也是關鍵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Happy people are also more psychologically resilient, assertive and open to experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "快樂的人也更有心理韌性、更自信堅定，也更願意接受經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 從個人控制感談到國家層面的政治影響。Question 7 的 political course 正是這段中段內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “political”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Choice and citizens’ belief that they can affect the political process increase subjective well-being.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Choice and citizens’ belief that they can affect the political process increase subjective well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "選擇權，以及公民相信自己能影響政治過程，都會增加主觀幸福感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目將 “affect the political process” 改寫成 “influence the political course that our country pursues”。course 指路線、方向、進程，與 political process 在這裡接近。選項中 episode、number、limit、conflict 都不能自然接 “political ___ that a country pursues”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "influence = affect political course = political process / direction of public decisions increase well-being = increase subjective well-being"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：G — course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People from underdeveloped nations try to attain the same standard of living as those from developed nations.”",
+      "translation": "欠發達國家的人試圖達到發達國家人民的同等生活水平。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有三個核心元素：people from underdeveloped nations、try to attain、same standard of living as developed nations。文章若只提到欠發達國家不快樂或壽命下降，仍未足夠證明他們有這個追求。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 and Paragraph 4 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ask 100 people what would make them happy, and a sizeable majority would say ‘winning the lottery.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問 100 個人甚麼會令他們快樂，相當大比例的人會說「中獎」。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Money, or material wealth, may be a prime mover, but it is not the foundation of our well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "金錢或物質財富可能是重要推動力，但它不是我們幸福感的基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 也提到 underdeveloped countries，但重點是 unhappiness and poor health，不是生活水平追求。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “underdeveloped nations” 和 “developed nations”。原文有兩處相關內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“wealthier nations do not achieve higher scores...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“people from underdeveloped countries are among the unhappiest in the world...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Statistically, wealthier nations do not achieve higher scores on the happiness-ometer than developing or underdeveloped nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從統計上看，較富裕國家在幸福指標上的得分並不比發展中國家或欠發達國家高。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, evidence exists for an association between unhappiness and poor health: people from underdeveloped countries are among the unhappiest in the world, and their life expectancy has been falling steadily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，有證據顯示不快樂和健康欠佳之間有關聯：欠發達國家的人屬於世界上最不快樂的人群之一，而且他們的預期壽命一直穩步下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子只告訴我們 underdeveloped countries 的幸福和健康情況，沒有說他們試圖追上developed nations 的生活標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：People from underdeveloped nations動作：try to attain目標：same standard of living as developed nations原文命題主體：wealthier / developing / underdeveloped nations內容：幸福分數比較；欠發達國家的人不快樂且預期壽命下降比較結果文章提供相關背景，但缺少 “try to attain the same standard of living” 這個核心動作。它也沒有說他們沒有這樣做，所以不能判 FALSE。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 談 “keeping up with the Joneses”，很容易令人聯想到窮國追趕富國。但原文例子是個人和鄰居比較，沒有把這點明確套到 underdeveloped nations trying to attain developed nations’ living standards。合理聯想不能代替文章證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Seeing what others have makes people want to have it too.”",
+      "translation": "看到別人擁有某些東西，會令人也想擁有。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷「看見別人的物質財富」是否引發自己的欲望。定位詞是 seeing what others have、want to have it too。原文可能用 neighbour、car、aspirations。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ask 100 people what would make them happy, and a sizeable majority would say ‘winning the lottery.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問 100 個人甚麼會令他們快樂，相當大比例的人會說「中獎」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Money, or material wealth, may be a prime mover, but it is not the foundation of our well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "金錢或物質財富可能是重要推動力，但它不是我們幸福感的基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會分析人們為何仍然追逐金錢。題目問「看見別人有甚麼」帶來欲望，應在本段後半的 social comparison 例子中找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “others have” 和 “want”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“however well we are doing, there is always someone else doing better”"
+            },
+            {
+              "kind": "quote",
+              "text": "“our neighbour parks his brand-spanking-new $40,000 set of wheels…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fuelling us with new aspirations”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just as we acquire a new $25,000 car, our neighbour parks his brand-spanking-new $40,000 set of wheels in his drive, causing us much consternation, but fuelling us with new aspirations in the process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們剛買了一輛 25,000 美元的新車時，鄰居卻把他嶄新的 40,000 美元汽車停在車道上，這令我們大為不安，同時在過程中激發新的追求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中，seeing what others have 對應看到鄰居有更貴的新車；want to have it too 對應 “fuelling us with new aspirations”。aspirations 指新的渴望或追求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Seeing what others have動作：makes people want對象：to have it too原文命題主體：neighbour’s more expensive car動作：fuels us with new aspirations語境：keeping up with the Joneses比較結果題目與原文同方向。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有說所有人、所有物品都會如此；它只是概括文章中 “keeping up with the Joneses” 的心理機制。原文的 car example 是具體例子，題目把它提升成概括說法，推論距離很短，可以接受。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The larger the family is, the happier the parents will probably be.”",
+      "translation": "家庭越大，父母大概會越快樂。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看文章是否提到 family size 和 parents’ happiness 的比例關係。定位詞是 larger family、parents、happier。文章確實談 family，但未必談「家庭越大越快樂」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If money isn’t the key to happiness, then what is?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果金錢不是幸福的關鍵，那麼甚麼才是？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the degree of individuals’ social connections is the best benchmark of their happiness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，個人社交連結的程度，是衡量幸福感的最佳基準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 會談家庭和人際連結，因此它是最可能段落。不過題目中的 larger family 是非常具體的比較，需要小心檢查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “family” 和 “happier”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“family life provided the greatest source of satisfaction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Having a family enhances well-being, and spending more time with one’s family helps even more.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having a family enhances well-being, and spending more time with one’s family helps even more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "擁有家庭會提升幸福感，而花更多時間與家人在一起會進一步有幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 having a family 有助 well-being，spending more time with family 更有幫助。它沒有說family size 越大，parents 越快樂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：the larger the family關係：the happier the parents will probably be原文命題主體：having a family / spending more time with family關係：enhances well-being / helps more比較結果原文支持「有家庭」和「多花時間與家人相處」有助幸福；題目加入了「家庭大小」和「父母快樂程度隨家庭大小增加」這個比較關係。文章沒有提供這項資料。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Having a family enhances well-being” 很容易令人選 TRUE。但 having a family 和 larger family不是同一件事。文章也沒有說孩子越多越快樂、家庭成員越多越快樂，或父母幸福與家庭大小成正比。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“One’s attitude to life has no influence on one’s health.”",
+      "translation": "一個人的生活態度對健康沒有影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 attitude / happiness / emotions 是否影響 health。題目有強否定 “has no influence”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若原文說 positive emotions 與長壽或健康有關，就會直接衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But how good is the evidence for this alternative viewpoint—that happiness, and not financial status, contributes to good health and long life?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這個替代觀點的證據有多可靠呢？也就是說，帶來健康和長壽的是幸福，而非財務地位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Happy people, it seems, are much less likely to fall ill and die than unhappy people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，快樂的人比不快樂的人更不容易生病和死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 直接把 happiness 和 health / long life 連起來。這與題目 “no influence”方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “attitude to life” 和 “health”。原文使用 happiness、positive emotions、fall ill、die："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nuns expressing the most positive emotions lived on average ten years longer...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Happy people ... are much less likely to fall ill and die...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nuns expressing the most positive emotions lived on average ten years longer than those expressing the least positive emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "表達最多正面情緒的修女，平均比表達最少正面情緒的修女多活十年。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Happy people, it seems, are much less likely to fall ill and die than unhappy people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，快樂的人比不快樂的人更不容易生病和死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 attitude to life has no influence on health。原文用 positive emotions / happiness 作為生活態度或心理狀態的證據，並說它和長壽、不易生病死亡有關。這是明確衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：one’s attitude to life動作：has no influence對象：one’s health原文命題主體：positive emotions / happiness動作：contributes to good health and long life / less likely to fall ill and die對象：health and longevity比較結果原文指出心理狀態和健康長壽有關，題目完全否定其影響。答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 attitude to life，原文用 happiness 和 positive emotions。這不是逐字重現，但概念相近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷時不能只找 attitude 這個字，要看整段是否討論人的心理狀態對健康的影響。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Instinct can be a barrier to happiness.”",
+      "translation": "本能可能成為幸福的障礙。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 instinct 的概念。文章未必直接用 instinct，但可能描述由遠古生存需要留下來的worrying habit。要判斷這種古老反應是否會阻礙享受現在生活。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what must we do to be happy?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但我們必須做甚麼才會快樂？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just as important is not to dwell on the past—past mistakes, bad experiences, missed opportunities and so on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣重要的是不要沉溺於過去，包括過去的錯誤、壞經歷、錯失機會等等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 是幸福實用建議段，特別強調不要被負面思考、未來擔憂和過去懊悔綁住。題目談 barrier to happiness，因此本段很可能提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “instinct” 和 “barrier”。原文沒有 instinct，但有 “cave-dwelling days” 和 “worrying”："
+            },
+            {
+              "kind": "quote",
+              "text": "“Worrying is a negative thinking habit...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“It stems, apparently, from our cave-dwelling days...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“worrying simply undermines our ability to enjoy life in the present.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Worrying is a negative thinking habit that is nearly always about something that lies in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "擔憂是一種負面思考習慣，幾乎總是關於未來某件事。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It stems, apparently, from our cave-dwelling days, when we had to think on a day-to-day basis about how and where to find food and warmth, for example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它顯然源於我們穴居時代；那時我們每天都要思考如何以及到哪裡尋找食物和溫暖。"
+            },
+            {
+              "kind": "label",
+              "text": "再看答案核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in the modern world, worrying simply undermines our ability to enjoy life in the present.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在現代世界，擔憂只會削弱我們享受當下生活的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句合起來表示：worrying 來自遠古生存需要，現在卻會削弱享受生活的能力。題目用 instinct概括這種由遠古生存情境留下的反應；barrier to happiness 對應 undermines our ability to enjoy life。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Instinct動作：can be對象：a barrier to happiness原文命題主體：worrying, stemming from cave-dwelling days動作：undermines對象：our ability to enjoy life in the present比較結果題目是原文的概括改寫。它沒有說所有本能都阻礙幸福，只說 can be，所以範圍較保守。答案是TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章沒有直接使用 instinct 這個字，學生可能想選 NOT GIVEN。不過 “stems from our cave-dwelling days” 明確把 worrying 追溯到古老生存反應。只要題目用 can be，這種概括可以成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Family and friends rank equally as sources of happiness.”",
+      "translation": "家庭和朋友作為幸福來源的排名相同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 family 和 friends 是否 equal。文章確實同時讚同家庭和友情，但題目加入 rank equally，要求比較。若原文說 family greatest 或 “family, friends and neighbours (in that order)”，便會和 equal 衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 and Paragraph 7 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If money isn’t the key to happiness, then what is?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果金錢不是幸福的關鍵，那麼甚麼才是？"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the degree of individuals’ social connections is the best benchmark of their happiness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，個人社交連結的程度，是衡量幸福感的最佳基準。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What else can we do?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們還可以做甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In your spare time, join a club, volunteer for community service, or take up religion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "閒暇時，可以加入俱樂部、做社區服務義工，或參與宗教。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要跨段檢查：Paragraph 2 說 family and friendship 的重要性，Paragraph 7 給出互動次序。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Family”、“friends”、“rank equally”。原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“family life provided the greatest source of satisfaction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Friendship is another major factor.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Try to plan frequent interactions with your family, friends and neighbours (in that order).”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據組"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“In all 44 countries surveyed by a prominent research centre, family life provided the greatest source of satisfaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一個知名研究中心調查的全部 44 個國家中，家庭生活提供了最大的滿足來源。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Friendship is another major factor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "友情是另一個主要因素。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Try to plan frequent interactions with your family, friends and neighbours (in that order).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嘗試安排與家人、朋友和鄰居頻繁互動，順序也是這樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 family and friends rank equally。原文說 family life 是 greatest source of satisfaction； friendship 是 another major factor。Paragraph 7 更明確用 “in that order” 指出次序：family first, friends second, neighbours third。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Family and friends關係：rank equally對象：sources of happiness原文命題主體：family life關係：greatest source of satisfaction主體：friendship關係：another major factor補充：family, friends and neighbours in that order比較結果原文承認兩者都重要，但沒有把它們排成同等位置；相反，family 被放在最高或第一位置。答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Friendship is another major factor” 很容易令人覺得 family 和 friends 一樣重要。細讀時要看程度詞：family life is the greatest source；friendship is another major factor。another major 不等於equal rank。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Hello Happiness!.pdf",
+    "sha256": "27cd70896c48b386d2ed52b07c31a94f01718be78b4589c67141f44464d32a28",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "SECTION 0：Skim Roadmap 全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說問 100 個人甚麼會令他們快樂，多數人會答「中獎」。末句說金錢或物質財富可能是重要推動力，卻不是幸福的基礎。只看首尾句，可以先估計這段主要挑戰 “money = happiness” 的想法。中間會處理彩票、個人財富、國家財富、基本住屋和營養，以及「和鄰居比較」如何令追逐財富的循環持續。"
+      },
+      {
+        "number": "2",
+        "summary": "首句直接問如果金錢不是幸福關鍵，那甚麼才是；末句說個人的 social connections 程度是幸福的最佳 benchmark。只看首尾句，可以先判斷這段由金錢轉向人際關係，尤其是家庭、婚姻和社交連結。中間會說 44 個國家的調查、family life 是最大滿足來源、married people 較健康長壽，以及社群互動和主觀幸福感的關係。"
+      },
+      {
+        "number": "3",
+        "summary": "首句提出 Friendship 是另一個 major factor；末句說地位較強者雖有更多控制權，卻也面對失去特權的風險。只看首尾句，這段大概會處理友情和工作中的幸福來源。中間會談朋友的幸福價值、孤獨和抑鬱、工作 autonomy、employer-employee trust、fair treatment、decision-making participation，以及 professionals and managers 因較能控制工作而更常感到幸福。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 control of one’s life in general 也是 key；末句說 happy people 較有心理韌性、較assertive，也較 open to experience。只看首尾句，可以先判斷這段會把 control 從工作推到整體人生和國家層面。中間會談升職、婚姻、事故、失業、衝突、政治參與、政府尊重個人選擇、自由限制、健康和壽命。"
+      },
+      {
+        "number": "5",
+        "summary": "首句問另一個觀點的證據是否可靠：幸福，而非財務地位，是否有助健康和長壽；末句說快樂的人似乎比不快樂的人更不容易生病和死亡。只看首尾句，這段是 evidence 段，重點是用 nuns study支持「幸福影響健康和壽命」。中間會說修女年輕時自傳中的 positive emotions，與七十年後壽命長短相關。"
+      },
+      {
+        "number": "6",
+        "summary": "首句問我們必須做甚麼才會快樂；末句說不要沉溺於過去的錯誤、壞經歷和錯失機會。只看首尾句，可以先估計這段轉入實用建議：欣賞已有事物、找出生活正面因素、不要集中負面事情、不要擔憂未來，也不要反覆回望過去。中間會說 worrying 源於穴居時代的生存需要，但在現代會削弱享受當下的能力。"
+      },
+      {
+        "number": "7",
+        "summary": "首句問還可以做甚麼，然後建議與另一位成人建立 loving relationship 並努力維持；末句說閒暇時可加入 club、做 community service，或參與 religion。只看首尾句，可以先判斷這段是第二組practical advice。中間會談 family、friends、neighbours 的互動次序、不要讓工作吞噬私人關係和leisure，以及失業對 well-being 的傷害。"
+      },
+      {
+        "number": "8",
+        "summary": "首句也是全段唯一一句：如果以上方法都無效，就投票支持與 Bhutan 國王同樣 agenda 的政黨，因為他宣布國家目標是 national happiness。只看這句，可以先看到這是半幽默式結尾，把個人幸福建議拉到政治層面。它呼應前文政府、政策、政治參與與 citizens’ well-being 的關係，也把全文主題收束到「幸福可作為社會目標」。"
+      }
+    ]
+  }
+}

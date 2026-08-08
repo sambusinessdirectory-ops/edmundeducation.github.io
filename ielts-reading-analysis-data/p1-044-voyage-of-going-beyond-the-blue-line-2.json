@@ -1,0 +1,1907 @@
+{
+  "id": "p1-044-voyage-of-going-beyond-the-blue-line-2",
+  "catalogueId": "p1-044",
+  "catalogueIds": [
+    "p1-044"
+  ],
+  "passage": 1,
+  "title": "Voyage of Going: beyond the blue line 2",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "obsidian flakes",
+    "teeth",
+    "descendants",
+    "canoes",
+    "trade winds",
+    "seabirds and turtles"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Captain Cook initially expected the people of Hawaii to speak a language different from that of other Pacific islanders.”",
+      "translation": "Captain Cook 起初預期 Hawaii 人會說一種不同於其他 Pacific islanders 的語言。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 YES / NO / NOT GIVEN，問的是作者是否支持這個說法。控制詞是 “initially expected”和 “different language”。文章不一定直接寫 “Cook expected a different language”，所以要看surprise、remote、familiar tongue 這些語氣訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One feels a certain sympathy for Captain James Cook on the day in 1778 that he ‘discovered’ Hawaii.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1778 年 Captain James Cook「發現」Hawaii 的那一天，讀者會對他產生某種同情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marvelling at the ubiquity of this Pacific language and culture, he later wondered in his journal:‘How shall we account for this Nation spreading itself so far over this vast ocean?’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他驚嘆這種太平洋語言和文化竟如此普遍，後來在日記中問道：「我們該如何解釋這個民族散布到如此遼闊的海洋上？」只看首尾句，可以先猜 Paragraph A 的功能是引入 Cook 的驚訝和全文謎題：不同島嶼距離極遠，卻有相似語言與文化。這和題目中的 expected / language directly related。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Hawaii”、“language different” 和 “initially expected”。原文未必用expected，所以要留意 surprise 相關表達。"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph A 可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Imagine Cook’s surprise, then, when the natives of Hawaii came paddling out in their canoes and greeted him in a familiar tongue, one he had heard on virtually every mote of inhabited land he had visited.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 Hawaii、surprise、familiar tongue，是最值得細讀的位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Imagine Cook’s surprise, then, when the natives of Hawaii came paddling out in their canoes and greeted him in a familiar tongue, one he had heard on virtually every mote of inhabited land he had visited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想像一下 Cook 的驚訝：Hawaii 原住民划著獨木舟出來，並用一種熟悉的語言向他打招呼；那種語言是他在幾乎每一個曾到訪的有人居住小島上都聽過的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “Cook’s surprise”。如果他本來預期 Hawaii 人會說同樣或熟悉的語言，這裡便不會形成 surprise。前文又說 Hawaii “so remote” 甚至 Tahiti 的 old Polynesians 也不知道它，強化了Cook 預期它可能不同的背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Captain Cook動作：initially expected內容：Hawaii people would speak a different language原文命題主體：Cook反應：surprise原因：Hawaii people spoke a familiar tongue used across many Pacific islands比較結果原文沒有直接寫 “he expected a different language”，但 surprise 加上 remote archipelago 的背景，形成很短的合理推論：他原先沒有預料到 Hawaii 人會說熟悉語言。題目和作者敘述方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“initially expected … different language”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cook’s surprise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greeted him in a familiar tongue”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： surprise at familiar tongue = he had expected something less familiar / different language = tongue other Pacific islanders = every mote of inhabited land he had visited"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看 “familiar tongue” 就以為題目說 different language 一定相反。題目問的是 Cook 最初的預期，原文說的是他聽到熟悉語言後的反應。真正控制答案的是 “surprise”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Captain Cook described several aspects of Polynesian culture in his journal.”",
+      "translation": "Captain Cook 在日記中描述了 Polynesian culture 的幾個方面。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查兩件事：第一，Cook 的 journal 是否出現；第二，journal 是否描述 several aspects of Polynesian culture。題目中的 “several aspects” 是很強的限制，不能只因原文有 culture 和journal 就判 YES。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One feels a certain sympathy for Captain James Cook on the day in 1778 that he ‘discovered’ Hawaii.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1778 年 Captain James Cook「發現」Hawaii 的那一天，讀者會對他產生某種同情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marvelling at the ubiquity of this Pacific language and culture, he later wondered in his journal:‘How shall we account for this Nation spreading itself so far over this vast ocean?’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他驚嘆這種太平洋語言和文化竟如此普遍，後來在日記中問道：「我們該如何解釋這個民族散布到如此遼闊的海洋上？」首尾句顯示 Paragraph A 是 Cook 的經歷和疑問段。題目提到 journal，所以應定位到最後一句，但要細查 “described several aspects” 是否真的存在。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “journal”、“described”、“several aspects” 和 “culture”。原文直接有 journal 和culture："
+            },
+            {
+              "kind": "quote",
+              "text": "“he later wondered in his journal…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這句中的動詞是 wondered，不是 described。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marvelling at the ubiquity of this Pacific language and culture, he later wondered in his journal:‘How shall we account for this Nation spreading itself so far over this vast ocean?’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他驚嘆這種太平洋語言和文化竟如此普遍，後來在日記中問道：「我們該如何解釋這個民族散布到如此遼闊的海洋上？」這句只提供一個 journal quote，而且內容是一個問題：如何解釋同一民族或文化能散布到廣闊海洋。它沒有列出 several aspects，例如宗教、家庭、航海、社會制度、藝術、飲食等文化面向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Captain Cook動作：described內容：several aspects of Polynesian culture位置：in his journal原文命題主體：Cook動作：wondered內容：how this Nation spread so far位置：in his journal比較結果原文支援 “Cook mentioned / wondered about the spread of Pacific language and culture in his journal”。題目要求 “described several aspects”，這個資料沒有出現。原文也沒有明確說他沒有描述，因此答案不能判 NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "journal = journal 原字重現culture = culture 原字重現缺失的是：several aspects / described details"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易被 “language and culture” 加 “journal” 吸引。可是 IELTS 判斷不能只看名詞重合，還要看動作。原文的動作是 wondered，即提出疑問；題目動作是 described，即描述多個方面。核心資料不足，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Professor Spriggs and his team went to Efate specifically to search for an ancient cemetery.”",
+      "translation": "Professor Spriggs 和他的團隊專程前往 Efate，目的是尋找一個古代墓地。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 “specifically to search”。要檢查 Efate cemetery 是有計劃搜尋得來，還是偶然發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若原文說 came to light only by luck，題目方向就被明確推翻。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘What we have is a first- or second-generation site containing the graves of some of the Pacific’s first explorers,’ says Spriggs, professor of archaeology at the Australian National University and co-leader of an international team excavating the site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Australian National University 的考古學教授、國際發掘團隊共同領隊 Spriggs 說：「我們擁有的是一個第一代或第二代遺址，裡面有部分太平洋最早探險者的墓葬。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They were daring blue-water adventurers who roved the sea not just as explorers but also as pioneers, bringing along everything they would need to build new lives – their families and livestock, taro seedlings and stone tools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們是勇敢的遠洋冒險者，在海上漫遊，不只作為探險者，也作為拓荒者，帶上建立新生活所需的一切，包括家人、牲畜、芋頭幼苗和石器。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 介紹 Efate 遺址和 Lapita 的身份。題目問 team 是否專程尋墓，需要看中間如何發現此地。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Spriggs”、“team”、“Efate”、“specifically to search” 和 “cemetery”。掃描Paragraph C 時，最直接的相反訊號是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It came to light only by luck.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It came to light only by luck. A backhoe operator, digging up topsoil on the grounds of a derelict coconut plantation, scraped open a grave – the first of dozens in a burial ground some 3,000 years old.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它純粹是偶然被發現的。一名挖土機操作員在一個荒廢椰子種植園的地面挖走表土時，刮開了一座墓；這是一片約三千年歷史墓地中數十座墓的第一座。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“It came to light only by luck” 非常清楚，表示發現不是原先設計好的搜尋目標。後句具體說明偶然過程：backhoe operator 挖土時刮開第一座墓。題目命題主體：Spriggs and his team動作：went to Efate specifically目的：search for an ancient cemetery原文命題主體：the site / cemetery發現方式：came to light only by luck具體事件：backhoe operator accidentally scraped open a grave比較結果題目說有目的地搜尋；原文說靠運氣偶然曝光。這是明確衝突，因此答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "specifically to search = planned purpose came to light only by luck = accidental discovery ancient cemetery = burial ground some 3,000 years old"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一句提到 “international team excavating the site”，容易令人以為團隊一開始就為墓地而來。細讀時要分清 excavating the site 是發現後的發掘工作，並不等於當初專程去找墓地。真正定案的是 “only by luck”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The Lapita travelled around 2,000 miles in less than a century.”",
+      "translation": "Lapita 在不到一個世紀內旅行了大約 2,000 miles。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個控制點：distance 是 around 2,000 miles；time 是 less than a century。兩者都要同時成立。原文若說 at least 2,000 miles，但時間是 a few centuries，就和題目衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Within the span of a few centuries the Lapita stretched the boundaries of their world from the jungle-clad volcanoes of Papua New Guinea to the loneliest coral outliers of Tonga, at least 2,000 miles eastward in the Pacific.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在幾個世紀的時間內，Lapita 把自己世界的邊界從 Papua New Guinea 覆滿叢林的火山地帶，推展到太平洋向東至少 2,000 miles 的 Tonga 偏遠珊瑚外島。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Along the way they explored millions of square miles of unknown sea, discovering and colonising scores of tropical islands never before seen by human eyes: Vanuatu, New Caledonia, Fiji, Samoa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沿途他們探索了數百萬平方英里的未知海域，發現並殖民了許多此前從未有人見過的熱帶島嶼，包括 Vanuatu、New Caledonia、Fiji 和 Samoa。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經同時出現時間和距離，所以 Paragraph D 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “2,000 miles” 和 “less than a century”。原文直接有 “at least 2,000 miles”，但時間詞是 “within the span of a few centuries”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Within the span of a few centuries the Lapita stretched the boundaries of their world … at least 2,000 miles eastward in the Pacific.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在幾個世紀內，Lapita 把自己世界的邊界向東推展至少 2,000 miles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句對距離的說法甚至比題目更強：at least 2,000 miles，不只 around 2,000 miles。問題出在時間。題目說 less than a century，即少於 100 年；原文說 a few centuries，即幾個世紀，明顯超過一個世紀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：The Lapita動作：travelled around 2,000 miles時間：in less than a century原文命題主體：The Lapita動作：stretched boundaries at least 2,000 miles時間：within a few centuries比較結果距離部分相近，但時間部分相反。YES / NO / NOT GIVEN 題只要核心元素被原文替換成不相容資料，就要判 NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "around 2,000 miles ≈ at least 2,000 miles less than a century ≠ a few centuries"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 2,000 miles 原字重現就判 YES。這題最重要的不是距離，而是時間限制。IELTS常在同一句放一個正確名詞，再改掉旁邊的時間、數量或程度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The Lapita were the first inhabitants of many Pacific islands.”",
+      "translation": "Lapita 是許多 Pacific islands 的第一批居民。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 “first inhabitants” 和 “many Pacific islands”。原文可能不直接說 inhabitants，而用discovering、colonising、never before seen by human eyes 表示他們先到並定居。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Within the span of a few centuries the Lapita stretched the boundaries of their world from the jungle-clad volcanoes of Papua New Guinea to the loneliest coral outliers of Tonga, at least 2,000 miles eastward in the Pacific.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在幾個世紀內，Lapita 把自己世界的邊界從 Papua New Guinea 推展到太平洋向東至少 2,000 miles 的 Tonga 偏遠珊瑚外島。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Along the way they explored millions of square miles of unknown sea, discovering and colonising scores of tropical islands never before seen by human eyes: Vanuatu, New Caledonia, Fiji, Samoa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沿途他們探索了數百萬平方英里的未知海域，發現並殖民了許多此前從未有人見過的熱帶島嶼，包括 Vanuatu、New Caledonia、Fiji 和 Samoa。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，題目方向已很清楚。discovering and colonising 指發現並定居；never before seen by human eyes 表示在他們之前沒有人類到過。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first inhabitants” 和 “many Pacific islands”。原文沒有 inhabitants，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“colonising scores of tropical islands never before seen by human eyes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“scores of” 表示許多；“colonising” 表示建立定居點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Along the way they explored millions of square miles of unknown sea, discovering and colonising scores of tropical islands never before seen by human eyes: Vanuatu, New Caledonia, Fiji, Samoa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沿途他們探索了數百萬平方英里的未知海域，發現並殖民了許多此前從未有人見過的熱帶島嶼，包括 Vanuatu、New Caledonia、Fiji 和 Samoa。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含三層證據。第一，unknown sea 表示未知海域。第二，never before seen by human eyes表示這些島此前沒有人類見過。第三，colonising 表示他們不只是路過，也在島上定居或建立生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：The Lapita身份：first inhabitants範圍：many Pacific islands原文命題主體：The Lapita動作：discovering and colonising範圍：scores of tropical islands先後關係：never before seen by human eyes比較結果題目將 discovering and colonising never-before-seen islands 概括成 first inhabitants of many Pacific islands，推論距離很短，符合原文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first inhabitants = first people to discover and colonise many Pacific islands = scores of tropical islands before them no inhabitants = never before seen by human eyes"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要留意 “seen” 本身只表示看見，不一定等於居住。但同一句還有 “colonising”，補足了定居含義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個詞合起來，才支援 first inhabitants。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The pots discovered at Efate had once been used for cooking.”",
+      "translation": "在 Efate 發現的陶罐曾經用於烹飪。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問的是 pots 的用途：used for cooking。文章若只說發現 pottery / pots，但沒有說用途，就不能判 YES。若原文明確說 burial urn 或 ceremonial use，才可能判 NO；若只沒有用途資訊，就是NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What little is known or surmised about them has been pieced together from fragments of pottery, animal bones, obsidian flakes, and such oblique sources as comparative linguistics and geochemistry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對他們所知或推測的少量資料，是從陶器碎片、動物骨骼、黑曜石碎片，以及比較語言學和地球化學等間接來源拼合而成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It would be hard for anyone to argue that these aren’t Lapita when you have human bones enshrined inside what is unmistakably a Lapita urn.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「當你看到人骨被安放在一個明顯屬於 Lapita 的墓葬甕內時，很難有人再爭辯說這些遺骸不屬於 Lapita。」Paragraph E 明顯談 pottery / pots / urn，所以它是目標段落。題目問 cooking，需要在這段找用途。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “pots”、“Efate” 和 “cooking”。Paragraph E 可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Archaeologists were also thrilled to discover six complete Lapita pots; before this, only four had ever been found.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及 burial urn 的描述。可是沒有 cooking / food / kitchen / domestic use 等字眼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Archaeologists were also thrilled to discover six complete Lapita pots; before this, only four had ever been found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考古學家也很興奮地發現了六個完整的 Lapita 陶罐；在此之前，人們只曾找到四個完整陶罐。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other discoveries included a burial urn with modelled birds arranged on the rim as though peering down at the human bones sealed inside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他發現包括一個墓葬甕，邊緣排列著塑造出來的鳥，彷彿正俯視封存在裡面的人骨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子證明 Efate 發現了 complete Lapita pots 和 burial urn，但沒有說六個 pots 的用途，也沒有說它們曾用於 cooking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：pots discovered at Efate動作：had once been used用途：for cooking原文命題主體：six complete Lapita pots / burial urn內容：被發現、數量罕見、其中墓葬甕有鳥形裝飾和人骨用途：沒有提供 cooking 資料比較結果原文沒有足夠資料判斷陶罐曾否用於烹飪。相關物件有出現，核心用途缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "pots = Lapita pots 原字重現discovered at Efate = discovery of Lapita cemetery on Efate缺失的是：used for cooking"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "pot 在日常語境常讓人聯想到 cooking pot，但 IELTS 不能用日常聯想補答案。這篇文章只把pots 作為考古證據，沒有交代烹飪用途。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The burial urn found at the Efate site was plain and undecorated.”",
+      "translation": "Efate 遺址發現的墓葬甕樸素，沒有裝飾。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 burial urn 的外觀。題目說 plain and undecorated；若原文說有 modelled birds arranged on the rim，就形成直接衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What little is known or surmised about them has been pieced together from fragments of pottery, animal bones, obsidian flakes, and such oblique sources as comparative linguistics and geochemistry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對他們所知或推測的少量資料，是從陶器碎片、動物骨骼、黑曜石碎片，以及比較語言學和地球化學等間接來源拼合而成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It would be hard for anyone to argue that these aren’t Lapita when you have human bones enshrined inside what is unmistakably a Lapita urn.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「當你看到人骨被安放在一個明顯屬於 Lapita 的墓葬甕內時，很難有人再爭辯說這些遺骸不屬於 Lapita。」Paragraph E 的首尾句都和陶器與墓葬甕有關，題目中的 burial urn 應在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “burial urn”、“plain” 和 “undecorated”。原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“a burial urn with modelled birds arranged on the rim…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 burial urn，也有裝飾描述，值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other discoveries included a burial urn with modelled birds arranged on the rim as though peering down at the human bones sealed inside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他發現包括一個墓葬甕，邊緣排列著塑造出來的鳥，彷彿正俯視封存在裡面的人骨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心描述是 “with modelled birds arranged on the rim”。modelled birds 指被塑造成形的鳥；arranged on the rim 指排列在甕口邊緣。這明確表示 urn 有裝飾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：burial urn found at Efate描述：plain and undecorated原文命題主體：burial urn描述：with modelled birds arranged on the rim比較結果plain and undecorated 與 modelled birds on the rim 不相容。原文提供相反證據，所以答案是NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "plain and undecorated = no decoration modelled birds arranged on the rim = decorated with shaped bird figures"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能只看到 burial urn 和 human bones，忽略 “with modelled birds”。在外觀題中，介詞短語with... 往往是答案關鍵，因為它補充物件特徵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "obsidian flakes",
+      "answerKey": "obsidian flakes",
+      "type": "Summary Completion",
+      "prompt": "“Yet the 8 _________________ found throughout the Efate site did not come from that area.”",
+      "translation": "然而，在 Efate 遺址各處發現的 __________ 並非來自該地區。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，字數限制是 NO MORE THAN TWO WORDS。空格前有 “the”，後面有 “found throughout the Efate site”，所以答案應是複數名詞短語。定位詞是 did not come from that area，原文可能用 wasn’t local / imported。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several lines of evidence also undergird Spriggs’s conclusion that this was a community of pioneers making their first voyages into the remote reaches of Oceania.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多條證據也支撐 Spriggs 的結論：這是一個拓荒者社群，正在向 Oceania 偏遠地帶作首次航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘This represents the best opportunity we’ve had yet,’ says Spriggs, ‘to find out who the Lapita actually were, where they came from, and who their closest descendants are today.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Spriggs 說：「這是我們目前最好的機會，可以弄清 Lapita 究竟是誰、他們從哪裡來，以及今天誰是他們最近的後裔。」只看首尾句，可以先估計 Paragraph F 是證據段，會列出不同 scientific evidence。題目標題也是Scientific Evidence from the Efate Site，因此應定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “did not come from that area”。掃描 Paragraph F 可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the chemical makeup of the obsidian flakes littering the site indicates that the rock wasn’t local”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“wasn’t local” 對應 did not come from that area；“littering the site” 對應 found throughout the site。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“For another, the chemical makeup of the obsidian flakes littering the site indicates that the rock wasn’t local; instead it was imported from a large island in Papua New Guinea’s Bismarck Archipelago, the springboard for the Lapita’s thrust into the Pacific.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一點是，散布在遺址上的黑曜石碎片，其化學成分顯示這種岩石並非本地產物；相反，它是從Papua New Guinea 的 Bismarck Archipelago 中一個大島輸入的，而那裡正是 Lapita 進入太平洋的跳板。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要填 “found throughout the Efate site” 的物件。原文中 “obsidian flakes littering the site” 完全對應。littering the site 表示散落各處；wasn’t local 表示不是本地來源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "found throughout the Efate site = littering the site did not come from that area = wasn’t local / was imported obsidian flakes = obsidian flakes 原文短語答案形式檢查obsidian flakes 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：obsidian flakes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "teeth",
+      "answerKey": "teeth",
+      "type": "Summary Completion",
+      "prompt": "“Examinations of the 9 _________________ discovered at the Efate site reveal that not everyone buried there was native to the area.”",
+      "translation": "對 Efate 遺址發現的 __________ 進行檢查，顯示並非所有埋葬在那裡的人都是當地人。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題仍是 Summary Completion，字數限制是 NO MORE THAN TWO WORDS。空格前是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Examinations of the”，所以答案應是可被檢驗的人體部位或遺物。題目中的 “not everyone buried there was native” 在你貼出的文章版本中沒有完整展開，但空格本身可由 “chemical tests on the teeth” 定位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F第一句：“Several lines of evidence also undergird Spriggs’s conclusion that this was a community of pioneers making their first voyages into the remote reaches of Oceania.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多條證據也支撐 Spriggs 的結論：這是一個拓荒者社群，正在向 Oceania 偏遠地帶作首次航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘This represents the best opportunity we’ve had yet,’ says Spriggs, ‘to find out who the Lapita actually were, where they came from, and who their closest descendants are today.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Spriggs 說：「這是我們目前最好的機會，可以弄清 Lapita 究竟是誰、他們從哪裡來，以及今天誰是他們最近的後裔。」Paragraph F 連續列出 radiocarbon dating、obsidian chemical makeup、teeth chemical tests 和DNA，因此 Question 9 應在此段中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Examinations”、“native to the area” 和 “Efate site”。原文中可找到最接近的檢驗句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A particularly intriguing clue comes from chemical tests on the teeth of several skeletons.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“chemical tests” 對應 examinations；“teeth” 是被檢驗物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“A particularly intriguing clue comes from chemical tests on the teeth of several skeletons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一條特別引人入勝的線索來自對幾具骸骨牙齒所做的化學測試。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句沒有在你貼出的版本中明說測試結果如何顯示誰是本地人、誰不是本地人；不過題目空格問"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Examinations of the ______”，原文能填入的對象只有 teeth。IELTS 題目把原文的 chemical tests 改寫成 examinations。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Examinations = chemical tests discovered at the Efate site = of several skeletons at the site the teeth = teeth 原文答案詞答案形式檢查teeth 是一個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：teeth"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 skeletons。原文說 chemical tests 是 “on the teeth of several skeletons”，真正被檢驗的部位是 teeth。skeletons 只是牙齒所屬的遺骸。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "descendants",
+      "answerKey": "descendants",
+      "type": "Summary Completion",
+      "prompt": "“In fact, DNA could identify the Lapita’s nearest present-day 10 _________________.”",
+      "translation": "事實上，DNA 可能辨認出 Lapita 在今天最近的 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “nearest present-day”，所以答案應是人物群體名詞。題目中的 DNA 是強定位詞，原文應直接提到 DNA 和 closest descendants。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several lines of evidence also undergird Spriggs’s conclusion that this was a community of pioneers making their first voyages into the remote reaches of Oceania.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多條證據也支撐 Spriggs 的結論：這是一個拓荒者社群，正在向 Oceania 偏遠地帶作首次航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘This represents the best opportunity we’ve had yet,’ says Spriggs, ‘to find out who the Lapita actually were, where they came from, and who their closest descendants are today.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Spriggs 說：「這是我們目前最好的機會，可以弄清 Lapita 究竟是誰、他們從哪裡來，以及今天誰是他們最近的後裔。」最後一句直接含有 closest descendants are today，和題目 nearest present-day 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “DNA”、“nearest”、“present-day”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“DNA teased from these ancient bones may also help answer…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及"
+            },
+            {
+              "kind": "quote",
+              "text": "“who their closest descendants are today”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“DNA teased from these ancient bones may also help answer one of the most puzzling questions in Pacific anthropology: Did all Pacific islanders spring from one source or many?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從這些古代骨骼中提取出的 DNA，也可能幫助回答太平洋人類學中最令人困惑的問題之一：所有 Pacific islanders 是來自單一來源，還是多個來源？"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘This represents the best opportunity we’ve had yet,’ says Spriggs, ‘to find out who the Lapita actually were, where they came from, and who their closest descendants are today.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Spriggs 說：「這是我們目前最好的機會，可以弄清 Lapita 究竟是誰、他們從哪裡來，以及今天誰是他們最近的後裔。」題目把 “closest descendants are today” 改寫成 “nearest present-day descendants”。nearest =closest；present-day = today。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "nearest = closest present-day = today identify = find out who Lapita’s descendants = their closest descendants答案形式檢查descendants 是一個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：descendants"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "canoes",
+      "answerKey": "canoes",
+      "type": "Short-answer Questions",
+      "prompt": "“What did the Lapita travel in when they crossed the oceans?”",
+      "translation": "Lapita 橫越海洋時乘坐甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，字數限制是 NO MORE THAN THREE WORDS AND/OR A NUMBER。題目問 What did they travel in，所以答案應是交通工具。定位詞是 crossed the oceans / travel in。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is one stubborn question for which archaeology has yet to provide any answers: How did the Lapita accomplish the ancient equivalent of a moon landing, many times over?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一個頑固問題，考古學至今仍未能提供答案：Lapita 如何多次完成古代版登月壯舉？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What gave them the courage to launch out on such a risky voyage?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "是甚麼給了他們勇氣，讓他們出發進行如此危險的航程？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph G 主要處理 Lapita 如何遠洋航行，以及這種航程為何風險高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 travel in，應在本段找 vessel / canoe。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “travel in” 和 “crossed the oceans”。原文沒有 travel in，但有 canoes 和 ocean voyages："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one has found one of their canoes or any rigging…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the Lapita had canoes that were capable of ocean voyages…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“All we can say for certain is that the Lapita had canoes that were capable of ocean voyages, and they had the ability to sail them,” says Geoff Irwin."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Geoff Irwin 說：「我們唯一能確定的是，Lapita 擁有能進行遠洋航行的獨木舟，而且他們有能力駕駛它們。」這句直接回答交通工具：canoes。題目問 when they crossed the oceans，原文說 capable of ocean voyages，意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "crossed the oceans = ocean voyages travel in = had / sail what did they travel in = canoes答案形式檢查canoes 是一個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：canoes"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 rigging。原文說沒有人找到 canoes 或 rigging，但後文能確定的是 Lapita had canoes capable of ocean voyages。rigging 是船具，不是他們乘坐的交通工具。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "trade winds",
+      "answerKey": "trade winds",
+      "type": "Short-answer Questions",
+      "prompt": "“In Irwin’s view, what would the Lapita have relied on to return home quickly?”",
+      "translation": "在 Irwin 看來，Lapita 會依靠甚麼快速回家？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Irwin’s view，所以要定位 Geoff Irwin 的說法。核心動作是 return home quickly。原文可能說 catch a swift ride home，答案應是自然力量或風向。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Lapita’s thrust into the Pacific was eastward, against the prevailing trade winds, Irwin notes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Irwin 指出，Lapita 進入太平洋的推進方向是向東，正好逆著盛行信風。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For returning explorers, successful or not, the geography of their own archipelagoes provided a safety net to keep them from overshooting their home ports and sailing off into eternity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對返航探險者而言，無論是否成功找到新陸地，本土群島的地理形狀都提供了一張安全網，避免他們錯過母港後航向無盡海洋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 首句直接有 Irwin 和 trade winds，且本段解釋返航策略。題目問 return home quickly，答案很可能在首段後幾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Irwin”、“return home quickly”。原文中對應短語非常明顯："
+            },
+            {
+              "kind": "quote",
+              "text": "“catch a swift ride home on the trade winds”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "swift = quick；home = home；on the trade winds = relied on trade winds。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They could sail out for days into the unknown and reconnoitre, secure in the knowledge that if they didn’t find anything, they could turn about and catch a swift ride home on the trade winds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們可以連續數天駛向未知海域偵察，並且安心知道：如果沒有找到任何東西，他們可以掉頭，乘著信風迅速回家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 Irwin 的核心推論：逆著 prevailing trade winds 向東探索，若無發現，就能轉向利用trade winds 回程。swift ride home 對應題目 quickly return home。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "return home quickly = catch a swift ride home relied on = on / using trade winds = trade winds 原文答案詞答案形式檢查trade winds 是兩個字，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：trade winds"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最後一句的 geography of their own archipelagoes 也和安全返航有關，但題目問 “quickly”，原文中 “swift ride home” 直接由 trade winds 提供。安全網是防止錯過母港，快速返航靠的是 trade winds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "seabirds and turtles",
+      "answerKey": "seabirds and turtles",
+      "type": "Short-answer Questions",
+      "prompt": "“Which animals would have indicated to the Lapita where land could be found?”",
+      "translation": "哪些動物會向 Lapita 顯示陸地在哪裡？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，問 Which animals，所以答案應是動物名詞。定位詞是 animals、indicated、where land could be found。原文可能用 leads to follow to land。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Lapita’s thrust into the Pacific was eastward, against the prevailing trade winds, Irwin notes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Irwin 指出，Lapita 進入太平洋的推進方向是向東，正好逆著盛行信風。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For returning explorers, successful or not, the geography of their own archipelagoes provided a safety net to keep them from overshooting their home ports and sailing off into eternity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對返航探險者而言，無論是否成功找到新陸地，本土群島的地理形狀都提供了一張安全網，避免他們錯過母港後航向無盡海洋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 解釋航海者如何探索和返航。題目問哪些動物指示陸地，應在中間找 signs / leads /land。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “animals” 和 “land”. 原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“skilled seafarers would detect abundant leads to follow to land: seabirds and turtles, coconuts and twigs…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這串線索中，只有 seabirds and turtles 是 animals。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once out there, skilled seafarers would detect abundant leads to follow to land: seabirds and turtles, coconuts and twigs carried out to sea by the tides, and the afternoon pileup of clouds on the horizon that often betokens an island in the distance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦到了海上，熟練的航海者會察覺許多可跟隨至陸地的線索：海鳥和海龜、被潮水帶出海的椰子和小樹枝，以及午後地平線上堆積的雲，這些雲常常預示遠方有島嶼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目只問 animals，所以要從整串 leads 中挑出動物。coconuts、twigs、clouds 也是陸地線索，但不是 animals。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "indicated where land could be found = leads to follow to land animals = seabirds and turtles land = island / land答案形式檢查seabirds and turtles 是三個字，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：seabirds and turtles"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把 coconuts and twigs 一起寫入答案。它們確實是陸地線索，但題目限定 “Which animals”，所以只可填動物。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Voyage of Going_ beyond the blue line 2.pdf",
+    "sha256": "8826310dc9dd5d2e92e6c5dee0f9515275dcf1b67d7615072a8d4d9340e20299",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "SECTION 0：Skim Roadmap 全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說讀者會對 Captain Cook 在 1778 年「發現」Hawaii 那天產生某種同情；末句引用 Cook 的日記問題：如何解釋這個民族散布到如此遼闊的海洋上？只看首尾句，可先估計本段以 Cook 的驚訝引入全文核心謎題：太平洋不同島嶼相距極遠，語言和文化卻有驚人相似性。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說答案來得很慢；末句說太平洋珊瑚和南美高山湖沉積物的氣候資料，或能解釋一千多年後第二波航海者如何橫越整個太平洋。只看首尾句，本段像研究導入：Efate 的考古發現打開早期航海者世界的窗口，其他氣候證據則補足更後期遷徙的拼圖。"
+      },
+      {
+        "number": "C",
+        "summary": "首句引用 Spriggs，說這是一個第一或第二代遺址，包含部分太平洋最早探險者的墓葬；末句說Lapita 不只作為探險者，也作為拓荒者，帶同家庭、牲畜、taro seedlings 和 stone tools。只看首尾句，這段主要介紹 Efate 墓地的偶然發現、年代、Lapita 身份，以及他們作為遠洋拓荒者的生活準備。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說在幾個世紀內，Lapita 把世界邊界從 Papua New Guinea 推到 Tonga，向東至少 2,000 miles；末句列出他們發現並殖民許多前人未見過的熱帶島嶼。只看首尾句，這段功能很集中：描述 Lapita 遷徙速度、距離和殖民範圍，尤其支援關於 first inhabitants、distance、islands 的題目。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說人們對 Lapita 的了解，是從 pottery、animal bones、obsidian flakes、comparative linguistics 和 geochemistry 等碎片資料拼合而來；末句說墓葬甕中的人骨令人難以否認這些遺骸屬於 Lapita。只看首尾句，這段重點是證據種類和 Efate 發現的價值，尤其包括骨骼、完整陶罐、burial urn 和裝飾細節。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說多條證據支撐 Spriggs 的結論：這是一個拓荒社群，正在向 Oceania 偏遠地帶作首次航行；末句說這是目前了解 Lapita 是誰、從何而來、今天最近後裔是誰的最佳機會。只看首尾句，這段明顯是 scientific evidence 段：radiocarbon dating、obsidian、teeth chemical tests 和 DNA 都是定位重點。"
+      },
+      {
+        "number": "G",
+        "summary": "首句提出頑固問題：考古學仍未回答 Lapita 如何多次完成古代版登月壯舉；末句問他們是甚麼給了自己勇氣，向如此危險的航程出發。只看首尾句，本段聚焦航海技術之謎，包括 canoes、rigging、oral traditions 的缺失，以及 Geoff Irwin 對早期航海技能傳承的說法。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Lapita 向東進入太平洋，正好逆著 prevailing trade winds；末句說本土群島的地理形狀為返航者提供安全網，避免他們錯過母港後航向無盡海洋。只看首尾句，本段解釋他們如何安全探索：trade winds 有助返航，seabirds、turtles、漂浮植物、雲堆和火山煙灰可指示陸地。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說不管他們如何做到，Lapita 已把自己散布到太平洋三分之一處，然後因未知原因停下；末句說一千多年後，他們的後裔 Polynesians 才再次出發尋找新領土。只看首尾句，本段是收束段： Lapita 擴張突然停止，人口可能過少或分散太薄，後續擴張由 Polynesians 接力完成。"
+      }
+    ]
+  }
+}

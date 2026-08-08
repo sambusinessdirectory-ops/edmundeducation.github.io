@@ -1,0 +1,1384 @@
+{
+  "id": "p1-062-looking-in-the-telescope",
+  "catalogueId": "p1-062",
+  "catalogueIds": [
+    "p1-062"
+  ],
+  "passage": 1,
+  "title": "LOOKING IN THE TELESCOPE",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "A",
+    "C",
+    "C",
+    "D",
+    "C",
+    "C",
+    "B",
+    "B",
+    "A",
+    "relative positions",
+    "of his own",
+    "mirrors"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B — made by a lens maker",
+      "answerKey": "B — made by a lens maker",
+      "type": "Multiple Choice",
+      "prompt": "According to the writer, the first telescope was...",
+      "translation": "根據作者，第一個望遠鏡是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 first telescope 的製造者和性質，要分清 children 的角色"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和 Hans Lippershey 的角色。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 1。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A story is told that around 400 years ago some children were fooling around in an eyeglass shop.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有一個故事說，大約四百年前，有些孩子在眼鏡店裡玩耍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hans Lippershey, the Dutch lens maker who eventually applied for the first telescope patent, credited the children with inspiring his invention of the first telescope.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：荷蘭鏡片製造者 Hans Lippershey 後來申請了第一個望遠鏡專利，並把第一個望遠鏡"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的發明靈感歸功於那些孩子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first telescope”。原文同時有 children 和 Hans Lippershey，所以要掃描動詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關係：children 是 inspiring，Hans Lippershey 是 lens maker / applied for patent / his invention。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句指出 Hans Lippershey 是 “the Dutch lens maker”，而 “his invention of the first"
+            },
+            {
+              "kind": "paragraph",
+              "text": "telescope” 說明第一個望遠鏡屬於他的發明。孩子的作用是 “inspiring”，即提供靈感，不代表他們真正製造了望遠鏡。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A invented by children.錯在把 inspire 改成 invent。孩子啟發了發明，但原文沒有說孩子發明了望遠鏡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B made by a lens maker.正確。Hans Lippershey 是 Dutch lens maker，而且原文把 first telescope 和 his invention 連在一起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C a reflective telescope.錯。reflective telescope 要到 Newton 才出現，第一個望遠鏡使用 lenses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D quite a complex piece of equipment.錯。Paragraph 2 說 first telescopes were very primitive inventions，方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "made by a lens maker= Dutch lens maker / his invention of the first telescope"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "children 和 first telescope 在同一句出現，非常容易令人選 A。細讀時要看 credited the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "children with inspiring，這只表示靈感來源，沒有表示製造者身份。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A — improved on the design of the first telescope",
+      "answerKey": "A — improved on the design of the first telescope",
+      "type": "Multiple Choice",
+      "prompt": "The writer states that Galileo...",
+      "translation": "作者說 Galileo……目標段落：Paragraph 2",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 第一、最後一句顯示這段從 early telescopes 的原始狀態，轉到 Galileo 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "refracting telescopes 成為當時標準。這段自然會講 Galileo 對早期望遠鏡的改良。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first telescopes built in the early 1600s were very primitive inventions allowing the user to see around three times farther than the naked eye.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：1600 年代早期製造的第一批望遠鏡是非常原始的發明，只能讓使用者看得比肉眼遠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "約三倍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Galileo’s refracting telescopes – so called due to the way they handled the light that passed through them – were the standard at that time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Galileo 的折射望遠鏡因處理穿過其中的光線方式而得名，在當時是標準設計。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 Galileo。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“within 24 hours, he had developed a better telescope.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 24 小時內，他已經製造出一台更好的望遠鏡。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, the improvements Galileo made to Lippershey’s telescope were quite dramatic.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：事實上，Galileo 對 Lippershey 的望遠鏡作出的改良相當顯著。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 的 “improved on the design of the first telescope” 對應 “developed a better telescope”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和 “improvements Galileo made to Lippershey’s telescope”。Galileo 沒有創造第一個 reflective telescope，也沒有把原望遠鏡放大三倍，而是把 magnification 由三提升至約三十。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A improved on the design of the first telescope.正確。developed a better telescope 和 improvements 都直接支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B created the first reflective telescope.錯。reflective telescope 是 Newton 在 Paragraph 3 創造的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C took 24 hours to make a reflective telescope.錯。24 hours 指 Galileo 做出 better telescope；reflective telescope 仍屬 Newton。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D allowed people to see three times farther than the first telescope.不精確。原文說 first telescopes 能看遠三倍，Galileo 的新望遠鏡約三十倍；選項把比較關係說得不準。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "improved on the design= developed a better telescope / improvements made to Lippershey’s telescope"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很吸引，因為 24 hours 原字出現。但句中沒有 reflective，反射式望遠鏡的發明者是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Newton。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C — used better lens positioning and quality",
+      "answerKey": "C — used better lens positioning and quality",
+      "type": "Multiple Choice",
+      "prompt": "The Galileo telescope was better than the first telescope because it...",
+      "translation": "Galileo 的望遠鏡比第一個望遠鏡好，原因是它……目標段落：Paragraph 2",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段首句說第一批望遠鏡只能看遠三倍，末句說 Galileo 的 refracting telescopes 是當時"
+            },
+            {
+              "kind": "paragraph",
+              "text": "標準。這表示中間會交代 Galileo 望遠鏡變好的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “better than the first telescope” 和 “because”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Galileo achieved these extraordinary results by determining the correct relative positions of the lenses and by making higher-quality lenses of his own.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Galileo 透過確定鏡片之間正確的相對位置，並親自製作更高質素的鏡片，取得這些非"
+            },
+            {
+              "kind": "paragraph",
+              "text": "凡成果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問 better 的原因，原文用 by 引出方法。兩個方法都要保留："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，correct relative positions of the lenses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，higher-quality lenses of his own。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “used better lens positioning and quality” 同時包含 positions 和 quality，最完整。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A used mirrors rather than glass.錯。Galileo 的是 refracting telescopes，用 lenses；mirrors 屬 Newton 的 reflective telescope。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B was longer than the first telescope.原文沒有說長度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C used better lens positioning and quality.正確。對應 correct relative positions 和 higher-quality lenses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D used better quality lenses and glass.只抓到 quality，沒有抓到 relative positions；而 glass 不是原文控制答案的重點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "better lens positioning= correct relative positions of the lenses better quality= higher-quality lenses"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 看似很接近，因為有 better quality lenses。但題目問為何 Galileo 的望遠鏡變好，原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "給出兩個原因；D 少了 lens positioning，所以 C 更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C — very costly items",
+      "answerKey": "C — very costly items",
+      "type": "Multiple Choice",
+      "prompt": "The writer states that today large telescopes are...",
+      "translation": "作者說今天的大型望遠鏡……目標段落：Paragraph 5，亦可用 Paragraph 3 後半補充。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 第一、最後一句都指向現代和未來大型望遠鏡的尺寸、成本、技術難度。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Currently the largest telescopes are around eight to ten metres in size.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：目前最大的望遠鏡約為八至十米。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The engineering and technology required to build such a flawless reflective surface is most impressive.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：建造這樣無瑕反射表面所需的工程和技術非常驚人。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 today large telescopes。Paragraph 5 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“These extremely expensive and sophisticated pieces of equipment are located primarily throughout Europe and America.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些極其昂貴且精密的設備主要位於歐洲和美國各地。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C “very costly items” 對應 “extremely expensive ... pieces of equipment”。這是直接"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫。A、B 是未來或 proposed telescope；D 與原文相反，因為 Dr Addams 認為未來望遠鏡會有巨大改進。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 20 or 30 metres in size.錯。20 or 30 metres 是 currently being planned，不是 today largest telescopes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B as big as 100 metres.錯。100-metre telescope 是 proposed building，不是目前已有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C very costly items.正確。extremely expensive 直接支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D as good as will ever be built.錯。原文說 future telescopes will be a gigantic improvement，表示未來會更好。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "very costly items= extremely expensive pieces of equipment"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 和 B 都有數字原字，但它們屬 future planning / proposal；題目問 today large"
+            },
+            {
+              "kind": "paragraph",
+              "text": "telescopes，所以要回到 currently。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D — the mirrors must have an extremely reflective, flawless surface",
+      "answerKey": "D — the mirrors must have an extremely reflective, flawless surface",
+      "type": "Multiple Choice",
+      "prompt": "Large, powerful telescopes are difficult to build because...",
+      "translation": "大型強力望遠鏡難以建造，原因是……目標段落：Paragraphs 3 and 5",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 末句說 flawless surface 的製造需要昂貴而精準的過程；Paragraph 5 末句再"
+            },
+            {
+              "kind": "paragraph",
+              "text": "說建造 flawless reflective surface 所需的 engineering and technology 十分驚人。兩段共同指向答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 difficult to build、large powerful telescopes。Paragraph 3 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the mirrors placed within them are so finely polished that even at the microscopic level there are no scratches or bumps on them at all.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：放在其中的鏡面被打磨得非常精細，即使在顯微層面也完全沒有刮痕或凸起。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“To achieve such a flawless surface requires a very expensive process that operates with the utmost precision.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：要達到這樣無瑕的表面，需要非常昂貴、極高精準度的工序。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The engineering and technology required to build such a flawless reflective surface is most impressive.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：建造這樣無瑕反射表面所需的工程和技術非常驚人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 最完整，因為它同時包含 mirrors、reflective surface 和 flawless。大型望遠鏡的難度集中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 mirror / reflective surface 的精密製造。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A designs have not changed in nearly 100 years.原文說 basic designs have not changed much，但這不是建造困難的原因；真正變化在technology improving them。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B it is difficult to locate the flint glass needed for them.這屬 achromatic telescope 的歷史困難，不是現代大型 reflective telescopes 的主要建造難點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C the area needed to house the telescope is simply too large.原文沒有說場地空間是主要問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D the mirrors must have an extremely reflective, flawless surface.正確。對應 mirrors finely polished、no scratches or bumps、flawless reflective surface。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "difficult to build= requires a very expensive process / engineering and technology ... most impressive flawless surface= no scratches or bumps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C — the refracting telescope",
+      "answerKey": "C — the refracting telescope",
+      "type": "Classification",
+      "prompt": "The first telescopes made.",
+      "translation": "最早製造的望遠鏡。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 首句說 first telescopes were very primitive inventions；末句說 Galileo’s"
+            },
+            {
+              "kind": "paragraph",
+              "text": "refracting telescopes were the standard at that time。這使 first telescopes 和 refracting telescope 放在同一技術時期內。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 first telescopes。原文第一句直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first telescopes built in the early 1600s were very primitive inventions...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：1600 年代早期製造的第一批望遠鏡是非常原始的發明……"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面補充 Galileo 的改良仍屬 refracting telescope："
+            },
+            {
+              "kind": "quote",
+              "text": "“Galileo’s refracting telescopes ... were the standard at that time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Galileo 的折射望遠鏡在當時是標準設計。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一批望遠鏡使用 lenses，Galileo 改良的也是 refracting telescopes。reflective telescope"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要到 Newton 才出現，achromatic telescope 更晚到十八世紀中期。因此 “The first telescopes made” 應歸入 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first telescopes made= first telescopes built in the early 1600s refracting telescope= handled the light that passed through them"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "C — the refracting telescope",
+      "answerKey": "C — the refracting telescope",
+      "type": "Classification",
+      "prompt": "Uses a series of lenses one on top of the other.",
+      "translation": "使用一系列互相疊放的鏡片。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 1–2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 首句提到孩子在 eyeglass shop 把 lenses one on top of the other；末句說這"
+            },
+            {
+              "kind": "paragraph",
+              "text": "啟發 first telescope。Paragraph 2 則說 Galileo 的 refracting telescopes 是當時標準。兩段合起來指向早期 lens-based telescope。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 lenses one on top of the other。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They noticed that when they placed lenses one on top of the other, they were able to see a considerable distance.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他們發現當把鏡片一片疊在另一片上時，便能看見相當遠的距離。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這個 feature 來自 first telescope 的起源故事，而早期望遠鏡和 Galileo 的標準設計都屬"
+            },
+            {
+              "kind": "paragraph",
+              "text": "refracting telescope。refracting telescope 的核心是 lenses，因為它處理的是穿過鏡片的光線。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "series of lenses= lenses one on top of the other uses lenses= refracting telescope"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Achromatic telescope 也有 two pieces of optical glass，但它特指 crown and flint 兩片特"
+            },
+            {
+              "kind": "paragraph",
+              "text": "殊玻璃組合；Question 7 的 wording 來自第一段的早期 lens-stacking concept，所以選 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B — the reflective telescope",
+      "answerKey": "B — the reflective telescope",
+      "type": "Classification",
+      "prompt": "Highly polished mirrors.",
+      "translation": "高度打磨的鏡面。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 首句說 Newton 研究 prism refracts white light；末句說 flawless surface 需要"
+            },
+            {
+              "kind": "paragraph",
+              "text": "昂貴精準工序。首尾句已經提示本段會講 mirror / reflective surface 的精密製造。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 mirrors / polished。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the mirrors placed within them are so finely polished that even at the microscopic level there are no scratches or bumps on them at all.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：放在望遠鏡中的鏡面被打磨得非常精細，即使在顯微層面也完全沒有刮痕或凸起。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“finely polished” 對應 “highly polished”；mirrors 是 reflective telescope 的核心部件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Newton created a reflective telescope by using a mirror to collect light，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "highly polished= so finely polished mirrors= reflective telescope components"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — the reflective telescope",
+      "answerKey": "B — the reflective telescope",
+      "type": "Classification",
+      "prompt": "First use of mirrors to collect light.",
+      "translation": "首次使用鏡面收集光線。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 由 Newton 對 prism / refraction 的研究開始，然後轉到他創造 reflective"
+            },
+            {
+              "kind": "paragraph",
+              "text": "telescope。首尾句把 optical problem 和 flawless mirror surface 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 mirrors to collect light。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Newton created a reflective telescope, one that used a dish-shaped or parabolic mirror to collect light and concentrate the image before it was visible in the eyepiece.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Newton 創造了反射望遠鏡，這種望遠鏡使用碟形或拋物面鏡來收集光線，並在影像進"
+            },
+            {
+              "kind": "paragraph",
+              "text": "入目鏡前將其集中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “First use of mirrors to collect light” 直接對應 “created a reflective telescope” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“used ... mirror to collect light”。這是 reflective telescope 的定義特徵，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first use= Newton created mirrors to collect light= mirror to collect light"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — the achromatic telescope",
+      "answerKey": "A — the achromatic telescope",
+      "type": "Classification",
+      "prompt": "Two pieces of glass stuck together.",
+      "translation": "兩片玻璃合在一起。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 首句說 mid-1700s 出現 achromatic telescope；末句說 flint glass discs 的純度"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和清晰度難以達標。段落功能是解釋 achromatic telescope 的材料和製作難點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 two pieces of glass。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The telescope design used two pieces of special optical glass known as crown and flint.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種望遠鏡設計使用兩片稱為 crown 和 flint 的特殊光學玻璃。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each side of each piece was ground and polished and then the two pieces were assembled together.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：每一片玻璃的每一面都被研磨和拋光，然後兩片被組合在一起。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “stuck together” 是對 “assembled together” 的簡化說法。crown and flint 兩片特殊"
+            },
+            {
+              "kind": "paragraph",
+              "text": "optical glass 是 achromatic telescope 的設計特徵，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "two pieces of glass= two pieces of special optical glass stuck together= assembled together"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "relative positions",
+      "answerKey": "relative positions",
+      "type": "Summary Completion",
+      "prompt": "He did this by altering the lenses’ 11 _________________...",
+      "translation": "他透過改變鏡片的 ______ 來做到這一點。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Galileo、magnification、lenses。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Galileo achieved these extraordinary results by determining the correct relative positions of the lenses and by making higher-quality lenses of his own.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Galileo 透過確定鏡片之間正確的相對位置，並親自製作更高質素的鏡片，取得這些非"
+            },
+            {
+              "kind": "paragraph",
+              "text": "凡成果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the lenses’”，所以答案需要名詞短語。原文的 “the correct relative positions of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "the lenses” 改成題目語序後，就是 “the lenses’ relative positions”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：relative positions字數檢查：兩個 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "altering the lenses’ relative positions= determining the correct relative positions of the lenses"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “correct relative positions” 也未必錯，但題目已有 “altering the lenses’”，填"
+            },
+            {
+              "kind": "paragraph",
+              "text": "relative positions 已足夠而且更自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "of his own",
+      "answerKey": "of his own",
+      "type": "Summary Completion",
+      "prompt": "...and also constructing lenses 12 _________________.",
+      "translation": "並且製作 ______ 的鏡片。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "和 Question 11 同一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Galileo achieved these extraordinary results by determining the correct relative positions of the lenses and by making higher-quality lenses of his own.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Galileo 透過確定鏡片之間正確的相對位置，並親自製作更高質素的鏡片，取得這些非"
+            },
+            {
+              "kind": "paragraph",
+              "text": "凡成果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目已經有 “constructing lenses”，因此空格要接在 lenses 後面。原文中可以直接接在"
+            },
+            {
+              "kind": "label",
+              "text": "lenses 後面的短語是 “of his own”。完整句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“constructing lenses of his own”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：製作他自己的鏡片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：of his own字數檢查：三個 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充：原文完整意思包含 “higher-quality lenses of his own”，即他製作了自己更高質素的鏡片。由於題目已經先放了 “lenses”，最合文法的填法是 “of his own”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “higher-quality lenses”，因為題目已有 lenses，填入後會變成 “constructing"
+            },
+            {
+              "kind": "paragraph",
+              "text": "lenses higher-quality lenses”，文法不通。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "mirrors",
+      "answerKey": "mirrors",
+      "type": "Summary Completion",
+      "prompt": "Other improvements followed but the most significant step forward, and still a major factor today in telescope design, has been the inclusion of 13 _________________.",
+      "translation": "後來還有其他改良，但最重要的一步，而且今天仍是望遠鏡設計的重要因素，是加入了 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 從 Newton 發現 lenses 的限制開始，最後談現代大型望遠鏡的 flawless"
+            },
+            {
+              "kind": "paragraph",
+              "text": "surface。這段核心是 lenses 被 mirrors 取代。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 most significant step forward / major factor today。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Newton created a reflective telescope, one that used a dish-shaped or parabolic mirror to collect light and concentrate the image before it was visible in the eyepiece.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Newton 創造了反射望遠鏡，使用碟形或拋物面鏡來收集光線，並在影像進入目鏡前集"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中影像。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, lenses used for magnification in telescopes were replaced by mirrors. Mirrors have since been the standard for telescopes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，望遠鏡中用作放大的鏡片被鏡面取代。自此，鏡面成為望遠鏡的標準。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "summary 說 “most significant step forward” 和 “still a major factor today”，正好對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Mirrors have since been the standard for telescopes.” 答案是 mirrors。答案形式：mirrors字數檢查：一個 word，符合要求。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "inclusion of mirrors= lenses ... were replaced by mirrors still a major factor today= have since been the standard for telescopes"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 lenses。文章的技術進步在於 mirrors 取代 lenses；lenses 屬早期 refracting"
+            },
+            {
+              "kind": "paragraph",
+              "text": "telescope 和 Galileo 改良階段。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - LOOKING IN THE TELESCOPE.pdf",
+    "sha256": "1bbb6968826eed5bdaffdd823b9fc7488805e6b5ca0f9ee6b666af4b6f416162",
+    "pageCount": 15
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說大約四百年前，有些孩子在眼鏡店玩耍，偶然把鏡片疊起來，發現可以看得很遠。末句說荷蘭鏡片製造者 Hans Lippershey 後來申請第一個望遠鏡專利，並承認孩子啟發了他的發明。只看首尾句，可以估計本段是望遠鏡起源故事：重點在 children、lenses、eyeglass shop、Hans Lippershey 和 first telescope。題目若問第一個望遠鏡由誰製造或孩子角色，應看此段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 1600 年代早期製造的第一批望遠鏡非常原始，只能讓使用者看得比肉眼遠約三倍。末句說 Galileo 的 refracting telescopes 在當時是標準設計。只看首尾句，可以估計本段會講 Galileo如何改良早期望遠鏡：由三倍放大提升至約三十倍，方法和 lenses 的位置及質素有關。題目若問Galileo、magnification、lens positioning、moons of Jupiter 或 refracting telescope，目標段落很大機會是 Paragraph 2。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說大約七十年後，Isaac Newton 研究 prism 如何把白光折射成多種顏色。末句說製造無瑕表面需要非常昂貴、極高精準度的程序。只看首尾句，可以估計本段會從 Newton 的光學發現轉到reflective telescope：因 lenses 會分散顏色、限制效果，所以 mirrors 取代 lenses。後半則講現代大型望遠鏡的 polished mirrors，以及為何建造大型望遠鏡非常困難和昂貴。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說十八世紀中期出現了 achromatic telescope 的發現和生產。末句說法國科學院曾懸賞尋找能製造完美 optical flint glass discs 的化學家或玻璃製造商，但沒有人能提供足夠純淨清晰的大型圓片。只看首尾句，可以估計本段講 achromatic telescope 的設計和製造困難：它使用 crown and flint 兩種特殊玻璃，使紅、藍兩種波長在同一平面聚焦。題目若問 two pieces of glass，應看此段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說目前最大的望遠鏡約八至十米，設備極其昂貴和精密，主要位於歐洲和美國。末句說建造這種無瑕 reflective surface 所需的工程和技術十分驚人。只看首尾句，可以估計本段談未來大型望遠鏡：二十米、三十米甚至一百米的設計正在計劃或被提出。段落重點在 size、cost、future design、glass quality 和 flawless reflective surface。題目若問現代或未來大型望遠鏡的建造難度，應看 Paragraph 5。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "原文沒有段落字母，所以按自然段編為 Paragraph 1–5。"
+  ]
+}
